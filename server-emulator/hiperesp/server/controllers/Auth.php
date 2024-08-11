@@ -1,9 +1,32 @@
 <?php
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Method;
+use hiperesp\server\enums\Input;
+use hiperesp\server\enums\Output;
+
 class Auth extends Controller {
-    
-    public function entry(): void {
-        var_dump($this->getInputXml());die;;
+
+    #[Method('/cf-userlogin.asp', Input::NINJA2, Output::XML)]
+    public function login(\SimpleXMLElement $input): \SimpleXMLElement {
+        $username = (string)$input->strUsername;
+        $password = (string)$input->strPassword;
+
+        if($username=='admin' && $password=='admin') {
+            return \simplexml_load_string(<<<XML
+<characters xmlns:sql="urn:schemas-microsoft-com:xml-sql">
+    <user UserID="40346341" intCharsAllowed="3" intAccessLevel="0" intUpgrade="0" intActivationFlag="5" bitOptin="0" strToken="LOGINTOKENSTRNG" strNews="It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!" bitAdFlag="0" dateToday="2024-08-10T18:31:35.920">
+        <characters CharID="12345678" strCharacterName="hiperesp" intLevel="1" intAccessLevel="1" intDragonAmulet="0" strClassName="Mage" strRaceName="Human" orgClassID="3"/>
+    </user>
+</characters>
+XML);
+        }
+        return  \simplexml_load_string(<<<XML
+<error>
+    <info code="526.14" reason="User Not Found or Wrong Password" message="The username or password you typed was not correct. Please check the exact spelling and try again." action="None"/>
+</error>
+XML);
     }
+
+    
 }

@@ -1,8 +1,8 @@
 <?php
-
-$methodServerMap = [
+$class = match($method = $_SERVER["PATH_INFO"]) {
     "/cf-userlogin.asp" => \hiperesp\server\controllers\Auth::class,
-];
+    default => null,
+};
 
 \spl_autoload_register(function ($className) {
     $classFile = __DIR__.DIRECTORY_SEPARATOR.\preg_replace('/\\\\/', DIRECTORY_SEPARATOR, $className).".php";
@@ -12,14 +12,11 @@ $methodServerMap = [
     include $classFile;
 });
 
-$method = $_SERVER["PATH_INFO"];
-if(!isset($methodServerMap[$method])) {
-    throw new \Exception("Method {$method} is not mapped.");
+if($class===null) {
+    throw new \Exception("The method {$method} does not exists");
 }
 
-$class = $methodServerMap[$method];
-
-$classInstance = new $class;
+$classInstance = new $class();
 if(!($classInstance instanceof \hiperesp\server\controllers\Controller)) {
     throw new \Exception("The class {$class} is not a instance of default controller");
 }
@@ -72,30 +69,6 @@ XML);
 </info>
 XML);
         }
-    }
-
-    /**
-     * login screen
-     * must return plain xml string
-     */
-    public function cf_userLogin(): DragonFableOutput {
-        $input = DragonFableInput::ninja2xml(); // <flash><strPassword>admin</strPassword><strUsername>admin</strUsername></flash>
-
-        if($input->strUsername=="admin" && $input->strPassword=="admin") {
-            // gerar um strToken aleatório para o charId no banco durante o login, mas vamos manter fixo como debug
-            return DragonFableOutput::xml(<<<XML
-<characters xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <user UserID="40346341" intCharsAllowed="3" intAccessLevel="0" intUpgrade="0" intActivationFlag="5" bitOptin="0" strToken="LOGINTOKENSTRNG" strNews="It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!" bitAdFlag="0" dateToday="2024-08-10T18:31:35.920">
-        <characters CharID="12345678" strCharacterName="hiperesp" intLevel="1" intAccessLevel="1" intDragonAmulet="0" strClassName="Mage" strRaceName="Human" orgClassID="3"/>
-    </user>
-</characters>
-XML);
-        }
-        return DragonFableOutput::xml(<<<XML
-<error>
-    <info code="526.14" reason="User Not Found or Wrong Password" message="The username or password you typed was not correct. Please check the exact spelling and try again." action="None"/>
-</error>
-XML);
     }
 
     /**
