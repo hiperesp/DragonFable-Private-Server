@@ -1,0 +1,7 @@
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Methods: "GET"
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ proxy.php?url=$1 [L]

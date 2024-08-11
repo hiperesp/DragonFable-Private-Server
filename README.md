@@ -2,7 +2,5 @@
 
 ### Patched files:
 
-- /DFLoader.swf: Changed server endpoints + Added ability to change the gamefiles path
-- /gamefiles-custom/game_15_8_05.swf: Changed server endpoints + Button Links + undefined text in character pages modal
-- /gamefiles-custom/newChar/newCharacter.swf: Changed server endpoints
-
+- /web/DFLoader-patched.swf: Added ability to change the gamefiles path + server path
+- /another-server/cdn/custom-gamefiles-path/game15_8_05-patched.swf: Match server path from DFLoader-patched.swf
