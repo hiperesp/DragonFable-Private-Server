@@ -1,4 +1,3 @@
-
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="750" height="550" align="middle">
     <param name="allowScriptAccess" value="sameDomain" />
     <param name="movie" value="DFLoader.swf" />
