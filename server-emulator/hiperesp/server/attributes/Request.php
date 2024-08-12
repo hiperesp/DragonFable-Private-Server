@@ -5,7 +5,7 @@ use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 
 #[\Attribute]
-class Method {
+class Request {
     public function __construct(
         private string $method,
         private Input $inputType,
@@ -14,7 +14,7 @@ class Method {
     }
 
     public function getMethod(): string {
-        return $this->method;
+        return \strtolower($this->method);
     }
 
     public function getInputType(): Input {

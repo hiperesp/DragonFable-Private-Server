@@ -1,7 +1,7 @@
 <?php
 namespace hiperesp\server\controllers;
 
-use hiperesp\server\attributes\Method;
+use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\util\DragonFableCrypto2;
@@ -47,20 +47,16 @@ abstract class Controller {
 
         $rClass = new \ReflectionClass($this);
         foreach($rClass->getMethods(\ReflectionMethod::IS_PUBLIC) as $rMethod) {
-            foreach($rMethod->getAttributes(Method::class) as $rAttribute) {
-                /** @var Method $attribute */
-                $attribute = $rAttribute->newInstance();
+            foreach($rMethod->getAttributes(Request::class) as $rAttribute) {
+                /** @var Request $request */
+                $request = $rAttribute->newInstance();
 
-                if(($aMethod = $attribute->getMethod())[0]!=='/') {
-                    throw new \Exception("Invalid path: {$aMethod} will never match. Must start with /");
-                }
+                if($request->getMethod() != $method) continue;
 
-                if($aMethod === $method) {
-                    $foundMethod = true;
-                    $inputType = $attribute->getInputType();
-                    $outputType = $attribute->getOutputType();
-                    break 2;
-                }
+                $foundMethod = true;
+                $inputType = $request->getInputType();
+                $outputType = $request->getOutputType();
+                break 2;
             }
         }
 
@@ -81,20 +77,24 @@ abstract class Controller {
         $output = $rMethod->invokeArgs($this, [$input]);
 
         $outputInfo = match($outputType) {
-            Output::NINJA2 => [ \SimpleXMLElement::class, 'application/xml', 'getOutputNinja2' ],
-            Output::XML    => [ \SimpleXMLElement::class, 'application/xml', 'getOutputXml'    ],
-            Output::FORM   => [ '\is_array',              'text/plain',      'getOutputForm'   ],
-            Output::RAW    => [ '\is_string',             'text/plain',      'getOutputRaw'    ],
+            Output::NINJA2XML => [ \SimpleXMLElement::class, 'application/xml', 'getOutputNinja2' ],
+            Output::NINJA2STR => [ '\is_string',             'application/xml', 'getOutputNinja2' ],
+            Output::XML       => [ \SimpleXMLElement::class, 'application/xml', 'getOutputXml'    ],
+            Output::FORM      => [ '\is_array',              'text/plain',      'getOutputForm'   ],
+            Output::RAW       => [ '\is_string',             'text/plain',      'getOutputRaw'    ],
+            Output::HTML      => [ '\is_string',             'text/html',       'getOutputRaw'    ],
             default => throw new \Exception("Invalid output type: {$outputType}")
         };
 
         // validate return type
-        if(\is_callable($outputInfo[0])) { // \is_array, \is_string
-            if(!$outputInfo[0]($outputInfo[2])) {
-                throw new \Exception("Invalid output return type. Expected true when calling {$output[0]}");
+        if($output===null) {
+            throw new \Exception("{$method}: Invalid output return type. Expected instance of {$outputInfo[0]}");
+        } else if(\is_callable($outputInfo[0])) { // \is_array, \is_string
+            if(!$outputInfo[0]($output)) {
+                throw new \Exception("{$method}: Invalid output return type. Expected true when calling {$outputInfo[0]}");
             }
         } else if($output::class != $outputInfo[0]) { // \SimpleXMLElement
-            throw new \Exception("Invalid output return type. Expected instance of {$outputInfo[0]}");
+            throw new \Exception("{$method}: Invalid output return type. Expected instance of {$outputInfo[0]}");
         }
 
         \header("Content-Type: {$outputInfo[1]}");
@@ -130,10 +130,14 @@ abstract class Controller {
         return \file_get_contents("php://input");
     }
 
-    private function getOutputNinja2(\SimpleXMLElement $xml): string {
-        $xml = $xml->asXML();
-        $xml = $this->crypto2->encrypt($xml);
-        return "<ninja2>{$xml}</ninja2>";
+    private function getOutputNinja2(\SimpleXMLElement|string $xmlOrString): string {
+        if($xmlOrString instanceof \SimpleXMLElement) {
+            $toEncrypt = $xmlOrString->asXML();
+            $toEncrypt = \trim(\preg_replace('/<\?xml.+\?>/', '', $toEncrypt)); // remove xml version tag
+        } else {
+            $toEncrypt = $xmlOrString;
+        }
+        return "<ninja2>{$this->crypto2->encrypt($toEncrypt)}</ninja2>";
     }
 
     private function getOutputXml(\SimpleXMLElement $xml): string {
