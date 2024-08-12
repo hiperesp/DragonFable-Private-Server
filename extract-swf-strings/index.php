@@ -30,7 +30,7 @@ if(\is_dir(__DIR__."/extracted")) {
     \mkdir(__DIR__."/extracted");
     echo "echo \"Please run this console commands to continue.\"\n";
     foreach(getFilesRecursive($gamefilesPath, '/.+\.swf/') as $swf) {
-        \mkdir($outFolder = __DIR__."/extracted/".\md5($swf));
+        \mkdir($outFolder = __DIR__."/extracted/".\preg_replace('/([^a-zA-Z0-9\.\-\_]+)/', ";", \str_replace($gamefilesPath, '', $swf)));
         echo "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script {$outFolder} {$swf}\n";
     }
     die;
@@ -38,14 +38,22 @@ if(\is_dir(__DIR__."/extracted")) {
 
 $swfMatches = [];
 foreach(getFilesRecursive(__DIR__."/extracted/", '/.+\.as/') as $as) {
+    $asSwf = \preg_replace('/\/scripts\//', " -> ./", "/".\preg_replace('/;/', "/", \str_replace(__DIR__."/extracted/", '', $as)));
     $data = \file_get_contents($as);
     $lines = \preg_split('/\r?\n/', $data);
     foreach($lines as $line) {
+        $line = \trim($line);
         if(\preg_match('/\.swf/', $line)) {
             if(!isset($swfMatches[$as])) {
                 $swfMatches[$as] = [];
             }
             $swfMatches[$as][] = $line;
+        }
+        if(\preg_match('/https?:\/\//', $line)) {
+            echo "URL FOUND:\n";
+            echo " - Script: {$asSwf}\n";
+            echo " - Linha:  {$line}\n";
+            echo "\n\n";
         }
     }
 }
@@ -60,9 +68,6 @@ foreach($swfMatches as $as => $matches) {
             die;
         }
         $fileName = $fileNameOut[1];
-        if($fileName=="IGA/IGAViewer.swf") {
-            echo $as;die;
-        }
         $filesToDownload[\md5($fileName)] = $fileName;
     }
 }
