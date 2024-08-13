@@ -105,11 +105,7 @@ XML);
         // <flash><intTownID>51</intTownID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
 
         return <<<XML
-<changeHomeTown xmlns:sql="urn:schemas-microsoft-com:xml-sql"><newTown strQuestFileName="towns/oaklore/town-oaklore-2019.swf" strQuestXFileName="none" strExtra="oakloretown=towns/oaklore/town-oaklore-2019.swf
-oaklore=towns/Oaklore/zone-oaklore-forest.swf
-map=maps/map-oaklore.swf
-Sirvey=towns/Oaklore/town-sirvey.swf
-Maya=towns/Oaklore/shop-maya-new.swf"/></changeHomeTown>
+<changeHomeTown xmlns:sql="urn:schemas-microsoft-com:xml-sql"><newTown strQuestFileName="towns/oaklore/town-oaklore-2019.swf" strQuestXFileName="none" strExtra="oakloretown=towns/oaklore/town-oaklore-2019.swf&#10;oaklore=towns/Oaklore/zone-oaklore-forest.swf&#10;map=maps/map-oaklore.swf&#10;Sirvey=towns/Oaklore/town-sirvey.swf&#10;Maya=towns/Oaklore/shop-maya-new.swf"/></changeHomeTown>
 XML;
     }
 

@@ -10,6 +10,9 @@
 $method = \strtolower($_SERVER["PATH_INFO"]);
 $class = (function() use($method) {
     $controllers = \scandir(__DIR__ . '/hiperesp/server/controllers');
+
+    $defaultController = null;
+
     foreach($controllers as $controller) {
         if($controller == '.' || $controller == '..') continue;
         $rClass = new \ReflectionClass('\\hiperesp\\server\\controllers\\'.\preg_replace('/\.php$/', '', $controller));
@@ -24,6 +27,10 @@ $class = (function() use($method) {
                 $request = $attribute->newInstance();
                 $rMethod = $request->getMethod();
 
+                if($rMethod == 'default') {
+                    $defaultController = $rClass->getName();
+                    continue;
+                }
                 if($rMethod[0]!=='/') throw new \Exception("Invalid path: {$rMethod} will never match. Must start with /");
                 if($rMethod != $method) continue;
 
@@ -31,6 +38,10 @@ $class = (function() use($method) {
                 return $controller;
             }
         }
+    }
+
+    if($defaultController) {
+        return $defaultController;
     }
 
     return null;

@@ -45,11 +45,24 @@ abstract class Controller {
         $outputType = null;
         $rMethod = null;
 
+        $default = [
+            "inputType" => null,
+            "outputType" => null,
+            "rMethod" => null
+        ];
+
         $rClass = new \ReflectionClass($this);
         foreach($rClass->getMethods(\ReflectionMethod::IS_PUBLIC) as $rMethod) {
             foreach($rMethod->getAttributes(Request::class) as $rAttribute) {
                 /** @var Request $request */
                 $request = $rAttribute->newInstance();
+
+                if($request->getMethod() == 'default') {
+                    $default["inputType"] = $request->getInputType();
+                    $default["outputType"] = $request->getOutputType();
+                    $default["rMethod"] = $rMethod;
+                    continue;
+                }
 
                 if($request->getMethod() != $method) continue;
 
@@ -61,9 +74,14 @@ abstract class Controller {
         }
 
         if(!$foundMethod) {
-            \http_response_code(404);
-            echo "Method Not Found: {$method}";
-            return;
+            if(!$default["rMethod"]) {
+                \http_response_code(404);
+                echo "Method Not Found: {$method}";
+                return;
+            }
+            $inputType = $default["inputType"];
+            $outputType = $default["outputType"];
+            $rMethod = $default["rMethod"];
         }
 
         $input = match($inputType) {
