@@ -33,7 +33,7 @@ class Debug extends Controller {
     )]
     public function default(string $input): string {
         $requestMethod = $_SERVER['PATH_INFO'];
-        $methodName = \preg_replace('/[^a-zA-Z0-9\_]/', '', $requestMethod);
+        $methodName = \preg_replace('/[^a-zA-Z0-9\_]/', '', $requestMethod."_".\date("YmdHis")."_".\rand(0, 9999));
 
         $inputExample = null;
         $inputType = null;
