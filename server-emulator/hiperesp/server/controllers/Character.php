@@ -96,38 +96,4 @@ XML);
         }
     }
 
-    #[Request(
-        method: '/cf-changehometown.asp',
-        inputType: Input::RAW,
-        outputType: Output::NINJA2STR
-    )]
-    public function changeHomeTown($input): string {
-        // <flash><intTownID>51</intTownID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
-
-        return <<<XML
-<changeHomeTown xmlns:sql="urn:schemas-microsoft-com:xml-sql"><newTown strQuestFileName="towns/oaklore/town-oaklore-2019.swf" strQuestXFileName="none" strExtra="oakloretown=towns/oaklore/town-oaklore-2019.swf&#10;oaklore=towns/Oaklore/zone-oaklore-forest.swf&#10;map=maps/map-oaklore.swf&#10;Sirvey=towns/Oaklore/town-sirvey.swf&#10;Maya=towns/Oaklore/shop-maya-new.swf"/></changeHomeTown>
-XML;
-    }
-
-    #[Request(
-        method: '/cf-loadtowninfo.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::XML
-    )]
-    public function cf_loadTownInfo(\SimpleXMLElement $input): \SimpleXMLElement {
-        $token = (string)$input->strToken;
-        $charID = (int)$input->intCharID;
-        $townID = (int)$input->intTownID;
-
-        if($token=="LOGINTOKENSTRNG" && $charID==12345678 && $townID==3) {
-            return \simplexml_load_string(<<<XML
-<LoadTown xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <newTown strQuestFileName="towns/Oaklore/town-oaklore-loader-r1.swf" strQuestXFileName="none" strExtra=""/>
-</LoadTown>
-XML);
-        }
-
-        return null;
-    }
-
 }

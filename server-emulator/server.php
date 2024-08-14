@@ -1,4 +1,7 @@
 <?php
+
+include "config.php";
+
 \spl_autoload_register(function ($className) {
     $classFile = __DIR__.DIRECTORY_SEPARATOR.\preg_replace('/\\\\/', DIRECTORY_SEPARATOR, $className).".php";
     if(!\file_exists($classFile)) {
@@ -8,8 +11,17 @@
 });
 
 $method = \strtolower($_SERVER["PATH_INFO"]);
-$class = (function() use($method) {
+$class = (function() use($method, $serverMode) {
     $controllers = \scandir(__DIR__ . '/hiperesp/server/controllers');
+
+    if($serverMode == 'proxy') {
+        $controllers = ["Proxy.php"];
+    } else if($serverMode == 'server') {
+        $key = \array_search("Proxy.php", $controllers);
+        if($key !== false) unset($controllers[$key]);
+    } else {
+        throw new \Exception("Invalid server mode: {$serverMode}");
+    }
 
     $defaultController = null;
 
