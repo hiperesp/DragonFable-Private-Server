@@ -1,19 +1,39 @@
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="750" height="550" align="middle">
-    <param name="allowScriptAccess" value="sameDomain" />
-    <param name="movie" value="DFLoader-patched.swf" />
-    <param name="menu" value="false" />
-    <param name="allowFullScreen" value="true" />
-    <param name="flashvars" value="" />
-    <param name="bgcolor" value="#530000" />
-    <embed src="DFLoader-patched.swf" FLASHVARS="" name="FFable" bgcolor="#530000" menu="false"  
-        allowFullScreen="true" width="750" height="550" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
-        pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
-</object>
-
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script>
-window.RufflePlayer.config = {
-    autoplay: "on",
-    unmuteOverlay: "hidden"
-};
-</script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dragon Fable Private Server by hiperesp</title>
+        <style>
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#FFable {
+    width: 100vw;
+    height: 100vh;
+}
+        </style>
+    </head>
+    <body>
+        <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="750" height="550" align="middle">
+            <param name="allowScriptAccess" value="sameDomain" />
+            <param name="movie" value="http://127.0.0.1:8888/GabStep/DragonFable2024/another-server/cdn/loader/DFLoader-patched.swf" />
+            <param name="menu" value="false" />
+            <param name="allowFullScreen" value="true" />
+            <param name="flashvars" value="dfVersionProvider=http://127.0.0.1:8888/GabStep/DragonFable2024/server-emulator/server.php/DFversion.asp" />
+            <param name="bgcolor" value="#000000" />
+            <embed src="http://127.0.0.1:8888/GabStep/DragonFable2024/another-server/cdn/loader/DFLoader-patched.swf" FLASHVARS="dfVersionProvider=http://127.0.0.1:8888/GabStep/DragonFable2024/server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
+                allowFullScreen="true" width="750" height="550" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
+                pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
+        </object>
+        
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+        window.RufflePlayer.config = {
+            autoplay: "on",
+            unmuteOverlay: "hidden"
+        };
+        </script>
+    </body>
+</html>

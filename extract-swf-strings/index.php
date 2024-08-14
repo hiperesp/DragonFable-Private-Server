@@ -48,6 +48,11 @@ foreach(getFilesRecursive(__DIR__."/extracted/", '/.+\.as/') as $as) {
                 $swfMatches[$as] = [];
             }
             $swfMatches[$as][] = $line;
+
+            // echo "SWF FOUND:\n";
+            // echo " - Script: {$asSwf}\n";
+            // echo " - Linha:  {$line}\n";
+            // echo "\n\n";
         }
         if(\preg_match('/https?:\/\//', $line)) {
             echo "URL FOUND:\n";

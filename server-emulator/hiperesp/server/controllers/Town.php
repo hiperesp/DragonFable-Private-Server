@@ -12,10 +12,11 @@ class Town extends Controller {
         inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
-    public function changeHomeTown(\SimpleXMLElement $input): \SimpleXMLElement {
+    public function changeHome(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intTownID>51</intTownID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
 
-        $loadTown = $this->cf_loadTownInfo($input);
+        // change home town, then return the load town, but instead of LoadTown, return changeHomeTown
+        $loadTown = $this->load($input);
         if($loadTown->getName()!="LoadTown") {
             return $loadTown; // probably error
         }
@@ -34,7 +35,7 @@ class Town extends Controller {
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
-    public function cf_loadTownInfo(\SimpleXMLElement $input): \SimpleXMLElement {
+    public function load(\SimpleXMLElement $input): \SimpleXMLElement {
         $token = (string)$input->strToken;
         $charID = (int)$input->intCharID;
         $townID = (int)$input->intTownID;

@@ -91,7 +91,7 @@ XML);
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
-    public function cf_questComplete_mar2011(\SimpleXMLElement $input): \SimpleXMLElement {
+    public function complete_mar2011(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intWaveCount>1</intWaveCount><intRare>0</intRare><intWar>0</intWar><intLootID>-1</intLootID><intExp>undefined</intExp><intGold>undefined</intGold><intQuestID>54</intQuestID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
 
         $questID = (int)$input->intQuestID;
@@ -127,7 +127,7 @@ XML);
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
-    public function cf_questReward(\SimpleXMLElement $input): \SimpleXMLElement {
+    public function reward(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intNewItemID>20387</intNewItemID><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
 
         $newItemID = (int)$input->intNewItemID;
@@ -147,7 +147,7 @@ XML);
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
-    public function cfsavequeststringasp_20240813230907_4275(\SimpleXMLElement $input): \SimpleXMLElement {
+    public function saveQuestString(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intValue>1</intValue><intIndex>55</intIndex><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
         return \simplexml_load_string(<<<XML
 <?xml version="1.0" encoding="UTF-8"?>

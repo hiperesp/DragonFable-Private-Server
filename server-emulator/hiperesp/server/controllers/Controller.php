@@ -163,7 +163,7 @@ abstract class Controller {
     }
 
     private function getOutputForm(array $form): string {
-        return \http_build_query($form);
+        return "&".\http_build_query($form);
     }
 
     private function getOutputRaw(string $raw): string {

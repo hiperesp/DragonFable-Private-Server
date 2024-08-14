@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Shop extends Controller {
 
     #[Request(
-        method: '/cf-interfaceload.asp',
+        method: '/cf-shopload.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
