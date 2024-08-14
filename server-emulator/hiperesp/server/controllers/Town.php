@@ -9,17 +9,22 @@ class Town extends Controller {
 
     #[Request(
         method: '/cf-changehometown.asp',
-        inputType: Input::RAW,
+        inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
-    public function changeHomeTown($input): \SimpleXMLElement {
+    public function changeHomeTown(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intTownID>51</intTownID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
 
-        // change home town, then return the load town, but instead of LoadTown, return changeHomeTown
-        $loadTown = $this->cf_loadTownInfo(\simplexml_load_string($input));
+        $loadTown = $this->cf_loadTownInfo($input);
+        if($loadTown->getName()!="LoadTown") {
+            return $loadTown; // probably error
+        }
 
         $changeTown = new \SimpleXMLElement('<ChangeHomeTown/>');
-        $changeTown->addChild('newTown', $loadTown->newTown);
+        $newTown = $changeTown->addChild('newTown');
+        foreach ($loadTown->newTown->attributes() as $attrName => $attrValue) {
+            $newTown->addAttribute($attrName, $attrValue);
+        }
 
         return $changeTown;
     }
