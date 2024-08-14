@@ -16,7 +16,7 @@ class Settings extends Controller {
         return [
             "gamemovie"     => "game15_8_05-patched.swf",
             "server"        => "http://localhost:8888/GabStep/DragonFable2024/server-emulator/server.php/",
-            "gamefilesPath" => "http://localhost:8888/GabStep/DragonFable2024/another-server/cdn/custom-gamefiles-path/",
+            "gamefilesPath" => "http://localhost:8888/GabStep/DragonFable2024/cdn/gamefiles/",
             "end"           => "here",
         ];
     }
