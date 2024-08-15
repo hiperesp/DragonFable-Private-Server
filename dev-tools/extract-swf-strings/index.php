@@ -33,6 +33,7 @@ if(\is_dir(__DIR__."/extracted")) {
         \mkdir($outFolder = __DIR__."/extracted/".\preg_replace('/([^a-zA-Z0-9\.\-\_]+)/', ";", \str_replace($gamefilesPath, '', $swf)));
         echo "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script {$outFolder} {$swf}\n";
     }
+    echo "Done!\n";
     die;
 }
 
