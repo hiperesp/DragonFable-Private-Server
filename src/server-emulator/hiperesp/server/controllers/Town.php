@@ -51,7 +51,7 @@ XML);
             return \simplexml_load_string(<<<XML
 <?xml version="1.0" encoding="UTF-8"?>
 <LoadTown xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <newTown strQuestFileName="towns/oaklore/town-oaklore-2019.swf" strQuestXFileName="none" strExtra="oakloretown=towns/oaklore/town-oaklore-2019.swf&#10;oaklore=towns/Oaklore/zone-oaklore-forest.swf&#10;map=maps/map-oaklore.swf&#10;Sirvey=towns/Oaklore/town-sirvey.swf&#10;Maya=towns/Oaklore/shop-maya-new.swf"/>
+    <newTown strQuestFileName="towns/Oaklore/town-oaklore-2019.swf" strQuestXFileName="none" strExtra="oakloretown=towns/Oaklore/town-oaklore-2019.swf&#10;oaklore=towns/Oaklore/zone-oaklore-forest.swf&#10;map=maps/map-oaklore.swf&#10;Sirvey=towns/Oaklore/town-sirvey.swf&#10;Maya=towns/Oaklore/shop-maya-new.swf"/>
 </LoadTown>
 XML);
         }
