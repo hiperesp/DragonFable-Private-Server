@@ -4,11 +4,14 @@ namespace hiperesp\server\storage;
 class SQLite extends Storage {
 
     private \PDO $pdo;
+
+    private string $location;
     private string $prefix;
 
     public function __construct(array $options) {
-        $this->pdo = new \PDO("sqlite:{$options["location"]}");
+        $this->location = $options["location"];
         $this->prefix = $options["prefix"];
+        $this->pdo = new \PDO("sqlite:{$this->location}");
     }
 
     public function select(string $collection, array $where, ?int $limit = 1): array {
@@ -27,6 +30,12 @@ class SQLite extends Storage {
     }
     public function delete(string $collection, array $where, ?int $limit = 1): bool {
         return $this->_delete("{$this->prefix}{$collection}", $where, $limit);
+    }
+
+    public function reset(): void {
+        \array_map(function(string $table) {
+            $this->_dropTable($table);
+        }, \array_keys(self::$collectionSetup));
     }
 
     protected function setup(): void {

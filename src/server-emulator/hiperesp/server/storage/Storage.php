@@ -8,6 +8,8 @@ abstract class Storage {
     public abstract function update(string $collection, array $where, array $newFields, ?int $limit = 1): bool;
     public abstract function delete(string $collection, array $where, ?int $limit = 1): bool;
 
+    public abstract function reset(): void;
+
     protected abstract function setup(): void;
 
     private static Storage $instance;
