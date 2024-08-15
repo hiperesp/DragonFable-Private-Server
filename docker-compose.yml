@@ -7,5 +7,5 @@ services:
       - "40000:80"
     volumes:
       - ./src/cdn/:/var/www/html/cdn/
-      - ./src/server-emulator/:/server-emulator/
+      - ./src/server-emulator/:/var/www/html/server-emulator/
       - ./src/web/index.html:/var/www/html/index.html

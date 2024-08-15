@@ -1,10 +1,8 @@
 <?php
 namespace hiperesp\server\vo;
 
-//#[VO(dbTable: 'users')]
 class UserVO extends ValueObject {
 
-    //#[Field(cardinality: 'primary')]
     private int $id;
 
     private int $charsAllowed;

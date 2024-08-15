@@ -14,7 +14,8 @@ class Sandbox extends Controller {
         outputType: Output::RAW
     )]
     public function sandbox(string $input): string {
-        var_dump(Storage::getStorage());die;
+        $storage = Storage::getStorage();
+        var_dump($storage->select('user', ['username' => 'user'], null));die;
         return "";
     }
 

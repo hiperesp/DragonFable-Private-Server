@@ -3,12 +3,12 @@ namespace hiperesp\server\storage;
 
 abstract class Storage {
 
+    public abstract function select(string $collection, array $where, ?int $limit = 1): array;
     public abstract function insert(string $collection, array $document): array;
     public abstract function update(string $collection, array $where, array $newFields, ?int $limit = 1): bool;
     public abstract function delete(string $collection, array $where, ?int $limit = 1): bool;
-    public abstract function select(string $collection, array $document, ?int $limit = 1): array;
 
-    public abstract function setup(): void;
+    protected abstract function setup(): void;
 
     private static Storage $instance;
     public static function getStorage(): Storage {
@@ -20,7 +20,7 @@ abstract class Storage {
         return self::$instance;
     }
 
-    protected $collectionSetup = [
+    protected static $collectionSetup = [
         "user" => [
             "structure" => [
                 "id"            => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
@@ -41,10 +41,43 @@ abstract class Storage {
                 "optIn"         => [ "BIT", "DEFAULT" => 0],
                 "adFlag"        => [ "BIT", "DEFAULT" => 0],
 
-                "lastLogin"     => [ "DATETIME", "DEFAULT" => NULL ],
+                "lastLogin"     => [ "DATE_TIME", "DEFAULT" => NULL ],
             ],
             "data" => [
-                
+                [
+                    'id' => null,
+                    'createdAt' => '2024-08-15 00:00:00',
+                    'updatedAt' => '2024-08-15 00:00:00',
+                    'username' => 'admin',
+                    'password' => '$2a$12$lsPjrmvxJQ44aCh/bG5sFua2M8IVRakjxdcc4XhL1W8sJYhTZ8smO', // password "admin"
+                    'email' => 'gabriel@gabstep.com.br',
+                    'birthdate' => '1999-12-19',
+                    'sessionToken' => 'cd730b2bdd63e60eb5b2',
+                    'charsAllowed' => 3,
+                    'accessLevel' => 10,
+                    'upgrade' => 0,
+                    'activationFlag' => 1,
+                    'optIn' => 0,
+                    'adFlag' => 0,
+                    'lastLogin' => null,
+                ],
+                [
+                    'id' => null,
+                    'createdAt' => '2024-08-15 01:00:00',
+                    'updatedAt' => '2024-08-15 01:00:00',
+                    'username' => 'user',
+                    'password' => '$2a$12$uHEQBEb3K80TOSlaIoCDJ.LLUV1pz4OJMz5q3CjfjEIRra2RzjBQW', // password "user"
+                    'email' => 'user@user.com',
+                    'birthdate' => '1999-12-19',
+                    'sessionToken' => '1efc17048970f10118e2',
+                    'charsAllowed' => 3,
+                    'accessLevel' => 0,
+                    'upgrade' => 0,
+                    'activationFlag' => 1,
+                    'optIn' => 0,
+                    'adFlag' => 0,
+                    'lastLogin' => null,
+                ]
             ],
         ],
         "char" => [
@@ -204,19 +237,27 @@ abstract class Storage {
             "data" => [],
         ],
         "monster" => [
-            "structure" => [],
+            "structure" => [
+                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+            ],
             "data" => [],
         ],
         "armor" => [
-            "structure" => [],
+            "structure" => [
+                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+            ],
             "data" => [],
         ],
         "weapon" => [
-            "structure" => [],
+            "structure" => [
+                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+            ],
             "data" => [],
         ],
         "guild" => [
-            "structure" => [],
+            "structure" => [
+                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+            ],
             "data" => [],
         ],
     ];
