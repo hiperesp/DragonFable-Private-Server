@@ -7,6 +7,7 @@ RewriteEngine On
 <IfModule mod_speling.c>
     CheckCaseOnly On
     CheckSpelling On
+    CheckBasenameMatch Off
 </IfModule>
 
 # RewriteCond %{REQUEST_FILENAME} !-f
