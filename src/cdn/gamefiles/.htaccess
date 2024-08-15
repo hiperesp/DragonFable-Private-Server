@@ -3,7 +3,11 @@ Header add Access-Control-Allow-Methods: "GET"
 
 RewriteEngine On
 
-CheckCaseOnly On # Enable case insensitive mode
+# Enable case insensitive mode
+<IfModule mod_speling.c>
+    CheckCaseOnly On
+    CheckSpelling On
+</IfModule>
 
 # RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteRule ^(.*)$ proxy.php?url=$1 [L]
