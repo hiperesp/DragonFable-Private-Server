@@ -1,6 +1,7 @@
 <?php
 $gamefilesPath = __DIR__."/../cdn/gamefiles/";
 $gamefilesUrl  = "http://localhost:40000/cdn/gamefiles/";
+$ffdecLocation = 'C:\\Program Files (x86)\\FFDec\\ffdec.jar';
 
 \header("Content-Type: text/plain");
 
@@ -31,9 +32,10 @@ if(\is_dir(__DIR__."/extracted")) {
     echo "echo \"Please run this console commands to continue.\"\n";
     foreach(getFilesRecursive($gamefilesPath, '/.+\.swf/') as $swf) {
         \mkdir($outFolder = __DIR__."/extracted/".\preg_replace('/([^a-zA-Z0-9\.\-\_]+)/', ";", \str_replace($gamefilesPath, '', $swf)));
-        echo "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script {$outFolder} {$swf}\n";
+        echo "java -jar \"{$ffdecLocation}\" -export script {$outFolder} {$swf}\n";
     }
     echo "Done!\n";
+    echo "\n";
     die;
 }
 
