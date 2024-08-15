@@ -5,14 +5,14 @@ use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 
-class Auth extends Controller {
+class User extends Controller {
 
     #[Request(
         method: '/cf-userlogin.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
-    public function userLogin(\SimpleXMLElement $input): \SimpleXMLElement {
+    public function login(\SimpleXMLElement $input): \SimpleXMLElement {
         $username = (string)$input->strUsername;
         $password = (string)$input->strPassword;
 

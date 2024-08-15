@@ -1,6 +1,9 @@
 <?php
 namespace hiperesp\server\models;
 
-class Model {
+abstract class Model {
     
+    public function __construct(Storage $storage) {
+        
+    }
 }
