@@ -15,8 +15,8 @@ class Settings extends Controller {
     public function version(string $input): array {
         return [
             "gamemovie"     => "game15_8_05-patched.swf",
-            "server"        => "http://localhost:40000/server-emulator/server.php/",
-            "gamefilesPath" => "http://localhost:40000/cdn/gamefiles/",
+            "server"        => "server-emulator/server.php/", // http://localhost:40000/server-emulator/server.php/
+            "gamefilesPath" => "cdn/gamefiles/",              // http://localhost:40000/cdn/gamefiles/
             "end"           => "here",
         ];
     }
