@@ -1,6 +1,6 @@
 <?php
 $gamefilesPath = __DIR__."/../cdn/gamefiles/";
-$gamefilesUrl  = "http://localhost:8888/GabStep/DragonFable2024/cdn/gamefiles/";
+$gamefilesUrl  = "http://localhost:40000/cdn/gamefiles/";
 
 \header("Content-Type: text/plain");
 
