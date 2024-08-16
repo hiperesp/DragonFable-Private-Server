@@ -7,5 +7,5 @@
 
 ### Features:
 
-- Custom `gamefiles` location (can be served by any domain (or same). CORS headers must be required)
-- Custom `server` location (can be hosted by another server or same. CORS headers must be required)
+- Custom `gamefiles` location (can be served by any domain or same. CORS headers may be required)
+- Custom `server` location (can be hosted by another server or same. CORS headers may be required)
