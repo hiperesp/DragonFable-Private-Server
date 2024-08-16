@@ -4,7 +4,10 @@ namespace hiperesp\server\exceptions;
 class DFException extends \Exception {
 
     public const SUCCESS = "0";
+    public const UNKNOWN_ERROR_CLASS_NOT_FOUND = "000.01";
+    public const UNKNOWN_ERROR_RACE_NOT_FOUND = "000.01";
     public const USER_NOT_FOUND = "526.14";
+    public const CHARACTER_NOT_FOUND = "500.71";
 
 
     public function __construct(
@@ -61,9 +64,14 @@ class DFException extends \Exception {
     }
 
     private static array $knownExceptions = [
-        "526.14" => [
+        self::USER_NOT_FOUND => [
             "reason" => "User Not Found or Wrong Password",
             "message" => "The username or password you typed was not correct. Please check the exact spelling and try again.",
+            "action" => "None",
+        ],
+        self::CHARACTER_NOT_FOUND => [
+            "reason" => "Character doesn't exist!",
+            "message" => "Character doesn't exist!",
             "action" => "None",
         ],
     ];

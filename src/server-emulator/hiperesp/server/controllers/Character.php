@@ -37,12 +37,7 @@ XML);
         $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
         $characterVo = $characterModel->create($user, $input); // in case of error, a exception will be thrown
 
-        return [
-            "code" => 0,
-            "reason" => "Character created Successfully!",
-            "message" => "none",
-            "action" => "none"
-        ];
+        return $characterVo->asCreatedResponse();
     }
 
     #[Request(
@@ -60,11 +55,7 @@ XML);
         $character = $characterModel->getByUserAndId($user, (int)$input->intCharID);
         $characterModel->delete($character);
 
-        return \simplexml_load_string(<<<XML
-<charDelete>
-    <charDelete message='Character Deleteion Successful!!'/>
-</charDelete>
-XML);
+        return $character->asDeleteResponse();
     }
 
     #[Request(
@@ -73,25 +64,15 @@ XML);
         outputType: Output::XML
     )]
     public function dragonAmuletCheck(\SimpleXMLElement $input): \SimpleXMLElement {
-        $hasDragonAmulet = false;
+        // <flash><strToken>689c1e0a5126fd5fb14acb6452ac178d</strToken><intCharID>undefined</intCharID></flash>
 
-        $token = (string)$input->strToken;
-        $charID = (int)$input->intCharID;
+        $userModel = new \hiperesp\server\models\UserModel($this->storage);
+        $user = $userModel->getBySessionToken((string)$input->strToken);
 
-        if($token=="LOGINTOKENSTRNG" && $charID==12345678) {
-            $intDragonAmulet = (int)$hasDragonAmulet;
-            return \simplexml_load_string(<<<XML
-<character xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <character intDragonAmulet="{$intDragonAmulet}"/>
-</character>
-XML);
-        } else {
-            return \simplexml_load_string(<<<XML
-<character xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <info code="500.71" reason="Character doesn't exist!" message="Character doesn't exist!" action="none"/>
-</character>
-XML);
-        }
+        $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
+        $character = $characterModel->getByUserAndId($user, (int)$input->intCharID);
+
+        return $character->asDragonAmuletCheckResponse();
     }
 
 }

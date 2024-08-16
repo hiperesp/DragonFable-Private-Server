@@ -23,7 +23,7 @@ class CharacterModel extends Model {
         if(isset($character[0]) && $character = $character[0]) {
             return new CharacterVO($character);
         }
-        throw DFException::fromCode(DFException::USER_NOT_FOUND);
+        throw DFException::fromCode(DFException::CHARACTER_NOT_FOUND);
     }
 
     public function create(UserVO $user, array $input): CharacterVO {

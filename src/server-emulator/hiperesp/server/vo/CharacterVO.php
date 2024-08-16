@@ -46,4 +46,29 @@ class CharacterVO extends ValueObject {
         $this->hasDragonAmulet = $data['hasDragonAmulet'] != '0' ? true : false;
     }
 
+    public function asCreatedResponse(): array {
+        return [
+            "code" => 0,
+            "reason" => "Character created Successfully!",
+            "message" => "none",
+            "action" => "none"
+        ];
+    }
+
+    public function asDeleteResponse(): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<charDelete/>');
+        $charDelete = $xml->addChild('charDelete');
+        $charDelete->addAttribute('message', 'Character Deleteion Successful!!');
+
+        return $xml;
+    }
+
+    public function asDragonAmuletCheckResponse(): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<character/>');
+        $character = $xml->addChild('character');
+        $character->addAttribute('intDragonAmulet', $this->hasDragonAmulet ? '1' : '0');
+
+        return $xml;
+    }
+
 }
