@@ -5,8 +5,8 @@ abstract class Storage {
 
     public abstract function select(string $collection, array $where, ?int $limit = 1): array;
     public abstract function insert(string $collection, array $document): array;
-    public abstract function update(string $collection, array $where, array $newFields, ?int $limit = 1): bool;
-    public abstract function delete(string $collection, array $where, ?int $limit = 1): bool;
+    public abstract function update(string $collection, array $document): bool;
+    public abstract function delete(string $collection, array $document): bool;
 
     public abstract function reset(): void;
 
@@ -25,7 +25,7 @@ abstract class Storage {
     protected static $collectionSetup = [
         "user" => [
             "structure" => [
-                "id"            => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
 
                 "createdAt"     => [ "DATE_TIME" ],
                 "updatedAt"     => [ "DATE_TIME" ],
@@ -47,14 +47,13 @@ abstract class Storage {
             ],
             "data" => [
                 [
-                    'id' => null,
                     'createdAt' => '2024-08-15 00:00:00',
                     'updatedAt' => '2024-08-15 00:00:00',
                     'username' => 'admin',
                     'password' => '$2a$12$lsPjrmvxJQ44aCh/bG5sFua2M8IVRakjxdcc4XhL1W8sJYhTZ8smO', // password "admin"
                     'email' => 'gabriel@gabstep.com.br',
                     'birthdate' => '1999-12-19',
-                    'sessionToken' => 'cd730b2bdd63e60eb5b2',
+                    'sessionToken' => NULL,
                     'charsAllowed' => 3,
                     'accessLevel' => 10,
                     'upgrade' => 0,
@@ -64,14 +63,13 @@ abstract class Storage {
                     'lastLogin' => null,
                 ],
                 [
-                    'id' => null,
                     'createdAt' => '2024-08-15 01:00:00',
                     'updatedAt' => '2024-08-15 01:00:00',
                     'username' => 'user',
                     'password' => '$2a$12$uHEQBEb3K80TOSlaIoCDJ.LLUV1pz4OJMz5q3CjfjEIRra2RzjBQW', // password "user"
                     'email' => 'user@user.com',
                     'birthdate' => '1999-12-19',
-                    'sessionToken' => '1efc17048970f10118e2',
+                    'sessionToken' => NULL,
                     'charsAllowed' => 3,
                     'accessLevel' => 0,
                     'upgrade' => 0,
@@ -84,16 +82,16 @@ abstract class Storage {
         ],
         "char" => [
             "structure" => [
-                "id"                => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"                => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
 
-                "userId"            => [ "UUID", "FOREIGN_KEY" => [ "collection" => "user", "field" => "id" ] ],
+                "userId"            => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "user", "field" => "id" ] ],
 
                 "createdAt"         => [ "DATE_TIME" ],
                 "updatedAt"         => [ "DATE_TIME" ],
 
                 "name"              => [ "STRING" => 20 ],
 
-                "level"             => [ "INTEGER", "DEFAULT" => 0 ],
+                "level"             => [ "INTEGER", "DEFAULT" => 1 ],
                 "experience"        => [ "INTEGER", "DEFAULT" => 0 ],
                 "experienceToLevel" => [ "INTEGER", "DEFAULT" => 0 ],
 
@@ -116,7 +114,7 @@ abstract class Storage {
                 "gender"            => [ "CHAR" => 1 ],
                 "pronoun"           => [ "CHAR" => 1 ],
 
-                "hairId"            => [ "UUID", "FOREIGN_KEY" => [ "collection" => "hair", "field" => "id" ] ],
+                "hairId"            => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "hair", "field" => "id" ] ],
                 "colorHair"         => [ "CHAR" => 6 ],
                 "colorSkin"         => [ "CHAR" => 6 ],
                 "colorBase"         => [ "CHAR" => 6 ],
@@ -140,12 +138,12 @@ abstract class Storage {
                 "skills"            => [ "CHAR" => 300, "DEFAULT" => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
                 "quests"            => [ "CHAR" => 300, "DEFAULT" => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
 
-                "raceId"            => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "race", "field" => "id" ] ],
-                "classId"           => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "class", "field" => "id" ] ],
-                "baseClassId"       => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "class", "field" => "id" ] ],
+                "raceId"            => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "race", "field" => "id" ] ],
+                "classId"           => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "class", "field" => "id" ] ],
+                "baseClassId"       => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "class", "field" => "id" ] ],
 
-                "guildId"           => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "guild", "field" => "id" ] ],
-                "questId"           => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "quest", "field" => "id" ] ],
+                "guildId"           => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "guild", "field" => "id" ] ],
+                "questId"           => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "quest", "field" => "id" ] ],
 
                 "defenseMelee"      => [ "INTEGER", "DEFAULT" => 0 ],
                 "defensePierce"     => [ "INTEGER", "DEFAULT" => 0 ],
@@ -160,20 +158,20 @@ abstract class Storage {
         ],
         "hair" => [
             "structure" => [
-                "id"            => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
                 "name"          => [ "STRING" => 255 ],
                 "swf"           => [ "STRING" => 255 ],
                 "earVisible"    => [ "BIT" ],
                 "gender"        => [ "CHAR" => 1 ],
                 "price"         => [ "INTEGER" ],
                 "frame"         => [ "INTEGER" ],
-                "raceId"        => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "race", "field" => "id" ] ],
+                "raceId"        => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "race", "field" => "id" ] ],
             ],
             "data" => [],
         ],
         "race" => [
             "structure" => [
-                "id"    => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"    => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
                 "name"  => [ "STRING" => 20 ],
             ],
             "data" => [
@@ -198,17 +196,39 @@ abstract class Storage {
         ],
         "class" => [
             "structure" => [
-                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
                 "name"      => [ "STRING" => 255 ],
                 "swf"       => [ "STRING" => 255 ],
-                "armorId"   => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "armor",  "field" => "id" ] ],
-                "weaponId"  => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "weapon", "field" => "id" ] ],
+                "armorId"   => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "armor",  "field" => "id" ] ],
+                "weaponId"  => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "weapon", "field" => "id" ] ],
             ],
-            "data" => [],
+            "data" => [
+                [
+                    "id" => 2,
+                    "name" => "Warrior",
+                    "swf" => "",
+                    "armorId" => "",
+                    "weaponId" => "",
+                ],
+                [
+                    "id" => 3,
+                    "name" => "Mage",
+                    "swf" => "",
+                    "armorId" => "",
+                    "weaponId" => "",
+                ],
+                [
+                    "id" => 4,
+                    "name" => "Rogue",
+                    "swf" => "",
+                    "armorId" => "",
+                    "weaponId" => "",
+                ],
+            ],
         ],
         "quest" => [
             "structure" => [
-                "id"                    => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"                    => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
                 "name"                  => [ "STRING" => 255 ],
                 "description"           => [ "STRING" => 255 ],
                 "complete"              => [ "STRING" => 255 ],
@@ -232,33 +252,33 @@ abstract class Storage {
         ],
         "quest_monster" => [
             "structure" => [
-                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
-                "questId"   => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "quest",   "field" => "id" ] ],
-                "monsterId" => [ "UUID", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "monster", "field" => "id" ] ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
+                "questId"   => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "quest",   "field" => "id" ] ],
+                "monsterId" => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "monster", "field" => "id" ] ],
             ],
             "data" => [],
         ],
         "monster" => [
             "structure" => [
-                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
             ],
             "data" => [],
         ],
         "armor" => [
             "structure" => [
-                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
             ],
             "data" => [],
         ],
         "weapon" => [
             "structure" => [
-                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
             ],
             "data" => [],
         ],
         "guild" => [
             "structure" => [
-                "id"        => [ "UUID", "GENERATED", "PRIMARY_KEY" ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
             ],
             "data" => [],
         ],

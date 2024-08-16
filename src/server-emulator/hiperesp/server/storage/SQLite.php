@@ -18,18 +18,52 @@ class SQLite extends Storage {
         return $this->_select("{$this->prefix}{$collection}", $where, $limit);
     }
     public function insert(string $collection, array $document): array {
-        foreach($document as $key => $value) {
-            if(self::$collectionSetup[$collection]['structure'][$key] === 'GENERATED') {
-                unset($document[$key]);
+        $this->_insert("{$this->prefix}{$collection}", $document);
+
+        $where = [];
+        foreach(self::$collectionSetup[$collection]['structure'] as $key => $definition) {
+            if($definition === 'PRIMARY_KEY') {
+                $where[$key] = $this->pdo->lastInsertId();
+                break;
             }
         }
-        return $this->_insert("{$this->prefix}{$collection}", $document);
+        return $this->select($collection, $where)[0];
     }
-    public function update(string $collection, array $where, array $newFields, ?int $limit = 1): bool {
-        return $this->_update("{$this->prefix}{$collection}", $where, $newFields, $limit);
+    public function update(string $collection, array $document): bool {
+        $where = [];
+        $newFields = [];
+        foreach($document as $key => $value) {
+            foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
+                if($definition === 'PRIMARY_KEY') {
+                    $where[$key] = $value;
+                    continue 2;
+                }
+            }
+            $newFields[$key] = $value;
+        }
+        if(\count($where) === 0) {
+            throw new \Exception("No primary key found in update document");
+        } else if(\count($where) > 1) {
+            throw new \Exception("Multiple primary keys found in update document");
+        }
+        return $this->_update("{$this->prefix}{$collection}", $where, $newFields, 1);
     }
-    public function delete(string $collection, array $where, ?int $limit = 1): bool {
-        return $this->_delete("{$this->prefix}{$collection}", $where, $limit);
+    public function delete(string $collection, array $document): bool {
+        $where = [];
+        foreach($document as $key => $value) {
+            foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
+                if($definition === 'PRIMARY_KEY') {
+                    $where[$key] = $value;
+                    continue 2;
+                }
+            }
+        }
+        if(\count($where) === 0) {
+            throw new \Exception("No primary key found in delete document");
+        } else if(\count($where) > 1) {
+            throw new \Exception("Multiple primary keys found in delete document");
+        }
+        return $this->_delete("{$this->prefix}{$collection}", $where, 1);
     }
 
     public function reset(): void {
@@ -82,11 +116,10 @@ class SQLite extends Storage {
                     $params = $def2;
                 }
                 $definitionStr[] = match($definition) {
-                    'UUID' => 'INTEGER',
                     'GENERATED' => '', // by default, SQLite will autoincrement
                     'PRIMARY_KEY' => 'PRIMARY KEY',
                     'FOREIGN_KEY' => "", // let's ignore this for now
-                    'DEFAULT' => "DEFAULT ".($params===null ? 'NULL' : "\"{$params}\""),
+                    'DEFAULT' => "DEFAULT ".($params===null ? 'NULL' : "\"{$params}\" NOT NULL"),
                     'UNIQUE' => 'UNIQUE',
 
                     'INTEGER' => 'INTEGER',
@@ -135,7 +168,7 @@ class SQLite extends Storage {
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 
-    private function _insert(string $table, array $document): array {
+    private function _insert(string $table, array $document): void {
         $fields = \array_keys($document);
         $sql = "INSERT INTO {$table} (".\implode(',', $fields).") VALUES (";
         $sqlParams = [];
@@ -145,9 +178,9 @@ class SQLite extends Storage {
         }
         $sql = \substr($sql, 0, -1).');';
         $stmt = $this->pdo->prepare($sql);
-        $stmt->execute($sqlParams);
-        $document['id'] = $this->pdo->lastInsertId();
-        return $this->_select($table, $document, 1);
+        if(!$stmt->execute($sqlParams)) {
+            throw new \Exception("Failed to insert into {$table}");
+        }
     }
 
     private function _update(string $table, array $where, array $newFields, ?int $limit): bool {

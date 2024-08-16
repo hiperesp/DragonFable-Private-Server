@@ -4,18 +4,18 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\storage\Storage;
 use hiperesp\server\util\DragonFableCrypto2;
 
 abstract class Controller {
 
     protected DragonFableCrypto2 $crypto2;
+    protected Storage $storage;
 
     public function __construct() {
-
         $this->cors();
-
         $this->crypto2 = new DragonFableCrypto2;
-
+        $this->storage = Storage::getStorage();
     }
 
     private function cors() { // https://stackoverflow.com/questions/8719276/cross-origin-request-headerscors-with-php-headers
@@ -92,7 +92,19 @@ abstract class Controller {
             default  => throw new \Exception("Invalid input type: {$inputType}")
         };
 
-        $output = $rMethod->invokeArgs($this, [$input]);
+        try {
+            $output = $rMethod->invokeArgs($this, [$input]);
+        } catch(\Exception $e) {
+            if(!($e instanceof \hiperesp\server\exceptions\DFException)) {
+                throw $e;
+            }
+            $output = match($outputType) {
+                Output::NINJA2XML, Output::NINJA2STR, Output::XML => $e->asXML(),
+                Output::FORM => $e->asArray(),
+                Output::RAW, Output::HTML => $e->getMessage(),
+                default => throw new \Exception("Invalid output type: {$outputType}")
+            };
+        }
 
         $outputInfo = match($outputType) {
             Output::NINJA2XML => [ \SimpleXMLElement::class, 'application/xml', 'getOutputNinja2' ],

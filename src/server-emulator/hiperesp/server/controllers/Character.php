@@ -25,48 +25,46 @@ XML);
     }
 
     #[Request(
-        method: '/cf-characterdelete.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::NINJA2XML
-    )]
-    public function delete(): \SimpleXMLElement {
-        // <flash><strToken>LOGINTOKENSTRING</strToken><strPassword>admin</strPassword><strUsername>admin</strUsername><intCharID>12345678</intCharID></flash>
-        return \simplexml_load_string(<<<XML
-<charDelete>
-    <charDelete message='Character Deleteion Successful!!'/>
-</charDelete>
-XML);
-    }
-
-    #[Request(
         method: '/cf-characternew.asp',
         inputType: Input::FORM,
         outputType: Output::FORM
     )]
     public function new(array $input): array {
-        $input['intUserID'];         // 12345678
-        $input['strUsername'];       // admin
-        $input['strPassword'];       // admin
-        $input['strToken'];          // LOGINTOKENSTRNG
-        $input['strCharacterName'];  // hiperesp
-        $input['strGender'];         // M
-        $input['strPronoun'];        // M
-        $input['intHairID'];         // 3
-        $input['intColorHair'];      // 7027237
-        $input['intColorSkin'];      // 15388042
-        $input['intColorBase'];      // 12766664
-        $input['intColorTrim'];      // 7570056
-        $input['intClassID'];        // 2
-        $input['intRaceID'];         // 1
-        $input['strClass'];          // Warrior
 
-        // create user with this details
+        $userModel = new \hiperesp\server\models\UserModel($this->storage);
+        $user = $userModel->getBySessionToken($input['strToken']);
+
+        $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
+        $characterVo = $characterModel->create($user, $input); // in case of error, a exception will be thrown
+
         return [
             "code" => 0,
             "reason" => "Character created Successfully!",
             "message" => "none",
             "action" => "none"
         ];
+    }
+
+    #[Request(
+        method: '/cf-characterdelete.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::NINJA2XML
+    )]
+    public function delete(\SimpleXMLElement $input): \SimpleXMLElement {
+        // <flash><strToken>LOGINTOKENSTRING</strToken><strPassword>admin</strPassword><strUsername>admin</strUsername><intCharID>12345678</intCharID></flash>
+
+        $userModel = new \hiperesp\server\models\UserModel($this->storage);
+        $user = $userModel->getBySessionToken((string)$input->strToken);
+
+        $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
+        $character = $characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $characterModel->delete($character);
+
+        return \simplexml_load_string(<<<XML
+<charDelete>
+    <charDelete message='Character Deleteion Successful!!'/>
+</charDelete>
+XML);
     }
 
     #[Request(

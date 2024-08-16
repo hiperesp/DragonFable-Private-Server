@@ -1,31 +1,49 @@
 <?php
 namespace hiperesp\server\vo;
 
-//#[VO(dbTable: 'characters')]
 class CharacterVO extends ValueObject {
 
-    //#[Field(cardinality: 'primary')]
-    private int $id;
+    public readonly int $id;
+    public readonly int $userId;
 
-    //#[Field(cardinality: 'foreign', foreignVO: 'UserVO')]
-    private int $userId;
+    public readonly string $name;
+    public readonly string $gender;
+    public readonly string $pronoun;
 
-    private string $name;
+    public readonly int $hairId;
+    public readonly int $raceId;
+    public readonly int $classId;
 
-    private string $gender;
-    private string $pronoun;
+    public readonly string $colorHair;
+    public readonly string $colorSkin;
+    public readonly string $colorBase;
+    public readonly string $colorTrim;
 
-    private int $hairId;
-    private int $raceId;
-    private int $classId;
+    public readonly int $level;
+    public readonly int $accessLevel;
+    public readonly bool $hasDragonAmulet;
 
-    private int $colorHair;
-    private int $colorSkin;
-    private int $colorBase;
-    private int $colorTrim;
+    public function __construct(array $data) {
 
-    private int $level;
-    private int $accessLevel;
-    private int $dragonAmulet;
+        $this->id = $data['id'];
+        $this->userId = $data['userId'];
+
+        $this->name = $data['name'];
+        $this->gender = $data['gender'];
+        $this->pronoun = $data['pronoun'];
+
+        $this->hairId = $data['hairId'];
+        $this->raceId = $data['raceId'];
+        $this->classId = $data['classId'];
+
+        $this->colorHair = $data['colorHair'];
+        $this->colorSkin = $data['colorSkin'];
+        $this->colorBase = $data['colorBase'];
+        $this->colorTrim = $data['colorTrim'];
+
+        $this->level = $data['level'];
+        $this->accessLevel = $data['accessLevel'];
+        $this->hasDragonAmulet = $data['hasDragonAmulet'] != '0' ? true : false;
+    }
 
 }
