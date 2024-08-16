@@ -9,8 +9,15 @@ use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\RaceModel;
 use hiperesp\server\models\SettingsModel;
+use hiperesp\server\models\UserModel;
 
 class User extends Controller {
+
+    private SettingsModel $settingsModel;
+    private UserModel $userModel;
+    private CharacterModel $characterModel;
+    private ClassModel $classModel;
+    private RaceModel $raceModel;
 
     #[Request(
         endpoint: '/cf-userlogin.asp',
@@ -21,13 +28,12 @@ class User extends Controller {
         $username = (string)$input->strUsername;
         $password = (string)$input->strPassword;
 
-        $userModel = new \hiperesp\server\models\UserModel($this->storage);
-        $user = $userModel->login($username, $password);
+        $user = $this->userModel->login($username, $password);
         return $user->asLoginResponse(
-            new SettingsModel($this->storage),
-            new CharacterModel($this->storage),
-            new ClassModel($this->storage),
-            new RaceModel($this->storage)
+            $this->settingsModel,
+            $this->characterModel,
+            $this->classModel,
+            $this->raceModel
         );
     }
 
@@ -42,9 +48,8 @@ class User extends Controller {
         $email = (string)$input['strEmail'];
         $dob = (string)$input['strDOB'];
 
-        $userModel = new \hiperesp\server\models\UserModel($this->storage);
         try {
-            $user = $userModel->signup([
+            $user = $this->userModel->signup([
                 'username' => $username,
                 'password' => $password,
                 'email' => $email,

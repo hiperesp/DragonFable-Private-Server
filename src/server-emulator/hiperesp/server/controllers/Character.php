@@ -4,8 +4,19 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\models\CharacterModel;
+use hiperesp\server\models\ClassModel;
+use hiperesp\server\models\RaceModel;
+use hiperesp\server\models\SettingsModel;
+use hiperesp\server\models\UserModel;
 
 class Character extends Controller {
+
+    private SettingsModel $settingsModel;
+    private UserModel $userModel;
+    private CharacterModel $characterModel;
+    private ClassModel $classModel;
+    private RaceModel $raceModel;
 
     #[Request(
         endpoint: '/cf-characterload.asp',
@@ -13,6 +24,8 @@ class Character extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
+        $user = $this->userModel->getBySessionToken($input['strToken']);
+
         $token = (string)$input->strToken;
         $charID = (int)$input->intCharID;
         if($token=="LOGINTOKENSTRNG" && $charID==12345678) {
@@ -31,11 +44,8 @@ XML);
     )]
     public function new(array $input): array {
 
-        $userModel = new \hiperesp\server\models\UserModel($this->storage);
-        $user = $userModel->getBySessionToken($input['strToken']);
-
-        $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
-        $characterVo = $characterModel->create($user, $input); // in case of error, a exception will be thrown
+        $user = $this->userModel->getBySessionToken($input['strToken']);
+        $characterVo = $this->characterModel->create($user, $input); // in case of error, a exception will be thrown
 
         return $characterVo->asCreatedResponse();
     }
@@ -48,12 +58,9 @@ XML);
     public function delete(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><strToken>LOGINTOKENSTRING</strToken><strPassword>admin</strPassword><strUsername>admin</strUsername><intCharID>12345678</intCharID></flash>
 
-        $userModel = new \hiperesp\server\models\UserModel($this->storage);
-        $user = $userModel->getBySessionToken((string)$input->strToken);
-
-        $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
-        $character = $characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $characterModel->delete($character);
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
+        $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $this->characterModel->delete($character);
 
         return $character->asDeleteResponse();
     }
@@ -66,11 +73,8 @@ XML);
     public function dragonAmuletCheck(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><strToken>689c1e0a5126fd5fb14acb6452ac178d</strToken><intCharID>undefined</intCharID></flash>
 
-        $userModel = new \hiperesp\server\models\UserModel($this->storage);
-        $user = $userModel->getBySessionToken((string)$input->strToken);
-
-        $characterModel = new \hiperesp\server\models\CharacterModel($this->storage);
-        $character = $characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
+        $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
 
         return $character->asDragonAmuletCheckResponse();
     }

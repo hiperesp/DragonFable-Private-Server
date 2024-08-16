@@ -10,12 +10,12 @@ use hiperesp\server\util\DragonFableCrypto2;
 abstract class Controller {
 
     protected DragonFableCrypto2 $crypto2;
-    protected Storage $storage;
+    private readonly Storage $storage;
 
     public function __construct() {
         $this->cors();
+        $this->autoInstanciateModels();
         $this->crypto2 = new DragonFableCrypto2;
-        $this->storage = Storage::getStorage();
     }
 
     private function cors() { // https://stackoverflow.com/questions/8719276/cross-origin-request-headerscors-with-php-headers
@@ -36,6 +36,22 @@ abstract class Controller {
             if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
                 \header("Access-Control-Allow-Headers: {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
             exit(0);
+        }
+    }
+
+    private function autoInstanciateModels(): void {
+        $rClass = new \ReflectionClass($this);
+        foreach($rClass->getProperties() as $rProperty) {
+            $rType = $rProperty->getType();
+            if($rType===null) continue;
+            $rTypeName = $rType->getName();
+            if(!\class_exists($rTypeName)) continue;
+            if(\is_subclass_of($rTypeName, \hiperesp\server\models\Model::class)) {
+                if(!isset($this->storage)) {
+                    $this->storage = Storage::getStorage();
+                }
+                $rProperty->setValue($this, new $rTypeName($this->storage));
+            }
         }
     }
 

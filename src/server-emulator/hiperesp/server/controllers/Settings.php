@@ -8,14 +8,15 @@ use hiperesp\server\models\SettingsModel;
 
 class Settings extends Controller {
 
+    private SettingsModel $settingsModel;
+
     #[Request(
         endpoint: '/DFversion.asp',
         inputType: Input::RAW,
         outputType: Output::FORM
     )]
     public function version(string $input): array {
-        $settingsModel = new SettingsModel($this->storage);
-        $settings = $settingsModel->getSettings();
+        $settings = $this->settingsModel->getSettings();
 
         return [
             "gamemovie"     => $settings->gameVersion,
