@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Quest extends Controller {
 
     #[Request(
-        method: '/cf-questload.asp',
+        endpoint: '/cf-questload.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
@@ -71,7 +71,7 @@ XML);
 
     // NEED ATTENTION
     #[Request(
-        method: '/cf-expsave.asp',
+        endpoint: '/cf-expsave.asp',
         inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
@@ -87,7 +87,7 @@ XML);
     }
 
     #[Request(
-        method: '/cf-questcomplete-Mar2011.asp',
+        endpoint: '/cf-questcomplete-Mar2011.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
@@ -123,7 +123,7 @@ XML);
     }
 
     #[Request(
-        method: '/cf-questreward.asp',
+        endpoint: '/cf-questreward.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
@@ -143,7 +143,7 @@ XML);
     }
 
     #[Request(
-        method: '/cf-savequeststring.asp',
+        endpoint: '/cf-savequeststring.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]

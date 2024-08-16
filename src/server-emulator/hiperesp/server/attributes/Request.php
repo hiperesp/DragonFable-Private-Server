@@ -7,14 +7,14 @@ use hiperesp\server\enums\Output;
 #[\Attribute]
 class Request {
     public function __construct(
-        private string $method,
+        private string $endpoint,
         private Input $inputType,
         private Output $outputType
     ) {
     }
 
-    public function getMethod(): string {
-        return \strtolower($this->method);
+    public function getEndpoint(): string {
+        return \strtolower($this->endpoint);
     }
 
     public function getInputType(): Input {

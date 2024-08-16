@@ -30,7 +30,7 @@ try {
                 foreach($attributes as $attribute) {
                     /** @var \hiperesp\server\attributes\Request $request */
                     $request = $attribute->newInstance();
-                    $rMethod = $request->getMethod();
+                    $rMethod = $request->getEndpoint();
 
                     if($rMethod == 'default') {
                         $defaultController = $rClass->getName();

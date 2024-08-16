@@ -57,14 +57,14 @@ abstract class Controller {
                 /** @var Request $request */
                 $request = $rAttribute->newInstance();
 
-                if($request->getMethod() == 'default') {
+                if($request->getEndpoint() == 'default') {
                     $default["inputType"] = $request->getInputType();
                     $default["outputType"] = $request->getOutputType();
                     $default["rMethod"] = $rMethod;
                     continue;
                 }
 
-                if($request->getMethod() != $method) continue;
+                if($request->getEndpoint() != $method) continue;
 
                 $foundMethod = true;
                 $inputType = $request->getInputType();
@@ -107,12 +107,13 @@ abstract class Controller {
         }
 
         $outputInfo = match($outputType) {
-            Output::NINJA2XML => [ \SimpleXMLElement::class, 'application/xml', 'getOutputNinja2' ],
-            Output::NINJA2STR => [ '\is_string',             'application/xml', 'getOutputNinja2' ],
-            Output::XML       => [ \SimpleXMLElement::class, 'application/xml', 'getOutputXml'    ],
-            Output::FORM      => [ '\is_array',              'text/plain',      'getOutputForm'   ],
-            Output::RAW       => [ '\is_string',             'text/plain',      'getOutputRaw'    ],
-            Output::HTML      => [ '\is_string',             'text/html',       'getOutputRaw'    ],
+            Output::NINJA2XML => [ \SimpleXMLElement::class, 'application/xml', 'getOutputNinja2'   ],
+            Output::NINJA2STR => [ '\is_string',             'application/xml', 'getOutputNinja2'   ],
+            Output::XML       => [ \SimpleXMLElement::class, 'application/xml', 'getOutputXml'      ],
+            Output::FORM      => [ '\is_array',              'text/plain',      'getOutputForm'     ],
+            Output::RAW       => [ '\is_string',             'text/plain',      'getOutputRaw'      ],
+            Output::HTML      => [ '\is_string',             'text/html',       'getOutputRaw'      ],
+            Output::REDIRECT  => [ '\is_string',             'text/html',       'getOutputRedirect' ],
             default => throw new \Exception("Invalid output type: {$outputType}")
         };
 
@@ -180,6 +181,23 @@ abstract class Controller {
 
     private function getOutputRaw(string $raw): string {
         return $raw;
+    }
+
+    private function getOutputRedirect(string $url): string {
+        \header("Location: {$url}");
+        return <<<HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv='refresh' content="1;url={$url}">
+    </head>
+    <body>
+        <h1>Redirecting...</h1>
+        <hr>
+        <a href="{$url}">Click here if you are not redirected</a>
+    </body>
+</html>
+HTML;
     }
 
 }

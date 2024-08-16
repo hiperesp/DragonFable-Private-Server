@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Proxy extends Controller {
 
     #[Request(
-        method: 'default',
+        endpoint: 'default',
         inputType: Input::RAW,
         outputType: Output::RAW
     )]
@@ -78,7 +78,7 @@ class Proxy extends Controller {
 
         $code = <<<PHP
             #[Request(
-                method: '{$requestMethod}',
+                endpoint: '{$requestMethod}',
                 inputType: {$inputType},
                 outputType: {$outputType}
             )]

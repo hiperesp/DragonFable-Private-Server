@@ -4,17 +4,19 @@ namespace hiperesp\server\exceptions;
 class DFException extends \Exception {
 
     public const SUCCESS = "0";
-    public const UNKNOWN_ERROR_CLASS_NOT_FOUND = "000.01";
-    public const UNKNOWN_ERROR_RACE_NOT_FOUND = "000.01";
+    public const CLASS_NOT_FOUND = "000.01";
+    public const RACE_NOT_FOUND = "000.02";
+    public const USERNAME_ALREADY_EXISTS = "000.03";
+    public const EMAIL_ALREADY_EXISTS = "000.04";
+
     public const USER_NOT_FOUND = "526.14";
     public const CHARACTER_NOT_FOUND = "500.71";
 
-
     public function __construct(
-        private string $dfCode,
-        private string $dfReason,
-        private string $dfMessage,
-        private string $dfAction
+        public readonly string $dfCode,
+        public readonly string $dfReason,
+        public readonly string $dfMessage,
+        public readonly string $dfAction
     ) {
         parent::__construct("{$dfCode}: {$dfReason} - {$dfMessage}");
     }
@@ -64,10 +66,35 @@ class DFException extends \Exception {
     }
 
     private static array $knownExceptions = [
+        self::SUCCESS => [
+            "reason" => "Success",
+            "message" => "The operation was successful",
+            "action" => "None",
+        ],
+        self::CLASS_NOT_FOUND => [
+            "reason" => "Class Not Found",
+            "message" => "The class you are looking for doesn't exist",
+            "action" => "None",
+        ],
+        self::RACE_NOT_FOUND => [
+            "reason" => "Race Not Found",
+            "message" => "The race you are looking for doesn't exist",
+            "action" => "None",
+        ],
+        self::USERNAME_ALREADY_EXISTS => [
+            "reason" => "Username Already Exists",
+            "message" => "The username you are trying to use is already taken",
+            "action" => "UserName",
+        ],
+        self::EMAIL_ALREADY_EXISTS => [
+            "reason" => "Email Already Exists",
+            "message" => "The email you are trying to use is already taken",
+            "action" => "Email",
+        ],
         self::USER_NOT_FOUND => [
             "reason" => "User Not Found or Wrong Password",
             "message" => "The username or password you typed was not correct. Please check the exact spelling and try again.",
-            "action" => "None",
+            "action" => "none",
         ],
         self::CHARACTER_NOT_FOUND => [
             "reason" => "Character doesn't exist!",

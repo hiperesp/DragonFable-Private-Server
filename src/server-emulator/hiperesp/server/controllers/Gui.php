@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Gui extends Controller {
 
     #[Request(
-        method: '/cf-interfaceload.asp',
+        endpoint: '/cf-interfaceload.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]

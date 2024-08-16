@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Character extends Controller {
 
     #[Request(
-        method: '/cf-characterload.asp',
+        endpoint: '/cf-characterload.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
@@ -25,7 +25,7 @@ XML);
     }
 
     #[Request(
-        method: '/cf-characternew.asp',
+        endpoint: '/cf-characternew.asp',
         inputType: Input::FORM,
         outputType: Output::FORM
     )]
@@ -41,7 +41,7 @@ XML);
     }
 
     #[Request(
-        method: '/cf-characterdelete.asp',
+        endpoint: '/cf-characterdelete.asp',
         inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
@@ -59,7 +59,7 @@ XML);
     }
 
     #[Request(
-        method: '/cf-dacheck.asp',
+        endpoint: '/cf-dacheck.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]

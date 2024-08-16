@@ -9,7 +9,7 @@ use hiperesp\server\storage\Storage;
 class Dev extends Controller {
 
     #[Request(
-        method: '/dev/clear-db',
+        endpoint: '/dev/clear-db',
         inputType: Input::RAW,
         outputType: Output::RAW
     )]

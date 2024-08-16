@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Debug extends Controller {
 
     #[Request(
-        method: '/debug',
+        endpoint: '/debug',
         inputType: Input::FORM,
         outputType: Output::HTML
     )]

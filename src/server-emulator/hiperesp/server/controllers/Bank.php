@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Bank extends Controller {
 
     #[Request(
-        method: '/cf-bankload.asp',
+        endpoint: '/cf-bankload.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]

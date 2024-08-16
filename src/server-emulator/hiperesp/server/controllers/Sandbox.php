@@ -9,7 +9,7 @@ use hiperesp\server\storage\Storage;
 class Sandbox extends Controller {
 
     #[Request(
-        method: '/sandbox',
+        endpoint: '/sandbox',
         inputType: Input::RAW,
         outputType: Output::RAW
     )]

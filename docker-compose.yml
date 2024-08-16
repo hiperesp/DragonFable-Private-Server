@@ -9,3 +9,4 @@ services:
       - ./src/cdn/:/var/www/html/cdn/
       - ./src/server-emulator/:/var/www/html/server-emulator/
       - ./src/web/index.html:/var/www/html/index.html
+      - ./src/web/signup.html:/var/www/html/signup.html

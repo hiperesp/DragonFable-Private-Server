@@ -8,4 +8,5 @@ enum Output {
     case FORM;
     case RAW;
     case HTML;
+    case REDIRECT;
 }

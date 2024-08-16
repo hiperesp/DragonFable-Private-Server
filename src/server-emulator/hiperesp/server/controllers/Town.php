@@ -8,7 +8,7 @@ use hiperesp\server\enums\Output;
 class Town extends Controller {
 
     #[Request(
-        method: '/cf-changehometown.asp',
+        endpoint: '/cf-changehometown.asp',
         inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
@@ -31,7 +31,7 @@ class Town extends Controller {
     }
 
     #[Request(
-        method: '/cf-loadtowninfo.asp',
+        endpoint: '/cf-loadtowninfo.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]

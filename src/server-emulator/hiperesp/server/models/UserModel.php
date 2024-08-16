@@ -21,6 +21,30 @@ class UserModel extends Model {
         throw DFException::fromCode(DFException::USER_NOT_FOUND);
     }
 
+    public function signup(array $data): UserVO {
+        $data['username'] = \trim($data['username']);
+        $data['email'] = \trim($data['email']);
+
+        $user = $this->storage->select(self::COLLECTION, ['username' => $data['username']]);
+        if(isset($user[0]) && $user = $user[0]) {
+            throw DFException::fromCode(DFException::USERNAME_ALREADY_EXISTS);
+        }
+        $user = $this->storage->select(self::COLLECTION, ['email' => $data['email']]);
+        if(isset($user[0]) && $user = $user[0]) {
+            throw DFException::fromCode(DFException::EMAIL_ALREADY_EXISTS);
+        }
+
+        $data['password'] = \password_hash($data['password'], \PASSWORD_DEFAULT);
+        $data['sessionToken'] = $this->_generateUniqueSessionToken();
+
+        $data['createdAt'] = \date('c');
+        $data['updatedAt'] = \date('c');
+
+        $user = $this->storage->insert(self::COLLECTION, $data);
+
+        return new UserVO($user);
+    }
+
     public function getBySessionToken(string $sessionToken): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['sessionToken' => $sessionToken]);
         if(isset($user[0]) && $user = $user[0]) {
