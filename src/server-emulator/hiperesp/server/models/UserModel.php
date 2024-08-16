@@ -37,9 +37,6 @@ class UserModel extends Model {
         $data['password'] = \password_hash($data['password'], \PASSWORD_DEFAULT);
         $data['sessionToken'] = $this->_generateUniqueSessionToken();
 
-        $data['createdAt'] = \date('c');
-        $data['updatedAt'] = \date('c');
-
         $user = $this->storage->insert(self::COLLECTION, $data);
 
         return new UserVO($user);

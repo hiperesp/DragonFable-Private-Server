@@ -15,22 +15,53 @@ class SQLite extends Storage {
     }
 
     public function select(string $collection, array $where, ?int $limit = 1): array {
-        return $this->_select("{$this->prefix}{$collection}", $where, $limit);
+        $where['_isDeleted'] = 0;
+
+        $data = $this->_select("{$this->prefix}{$collection}", $where, $limit);
+
+        foreach($data as $key => $document) {
+            unset($document['_isDeleted']);
+            $data[$key] = $document;
+        }
+        return $data;
     }
     public function insert(string $collection, array $document): array {
+        foreach(self::$collectionSetup[$collection]['structure'] as $key => $definitions) {
+            foreach($definitions as $definition) {
+                if($definition === 'CREATED_DATETIME') {
+                    $document[$key] = \date('c');
+                    continue 2;
+                }
+                if($definition === 'UPDATED_DATETIME') {
+                    $document[$key] = \date('c');
+                    continue 2;
+                }
+            }
+        }
+
         $this->_insert("{$this->prefix}{$collection}", $document);
 
         $where = [];
-        foreach(self::$collectionSetup[$collection]['structure'] as $key => $definition) {
-            if($definition === 'PRIMARY_KEY') {
-                $where[$key] = $this->pdo->lastInsertId();
-                break;
+
+        foreach(self::$collectionSetup[$collection]['structure'] as $key => $definitions) {
+            foreach($definitions as $definition) {
+                if($definition === 'PRIMARY_KEY') {
+                    $where[$key] = $this->pdo->lastInsertId();
+                    continue 2;
+                }
             }
         }
-        return $this->select($collection, $where)[0];
+
+        $data = $this->select($collection, $where)[0];
+        unset($document['_isDeleted']);
+
+        return $data;
     }
+
     public function update(string $collection, array $document): bool {
         $where = [];
+        $where['_isDeleted'] = 0;
+
         $newFields = [];
         foreach($document as $key => $value) {
             foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
@@ -38,17 +69,21 @@ class SQLite extends Storage {
                     $where[$key] = $value;
                     continue 2;
                 }
+                if($definition === 'UPDATED_DATETIME') {
+                    $document[$key] = \date('c');
+                    continue 2;
+                }
             }
             $newFields[$key] = $value;
         }
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in update document");
-        } else if(\count($where) > 1) {
-            throw new \Exception("Multiple primary keys found in update document");
         }
         return $this->_update("{$this->prefix}{$collection}", $where, $newFields, 1);
     }
     public function delete(string $collection, array $document): bool {
+        $realDelete = false; // real delete has problems: apparently, the id is recycled, so it's better to just mark as deleted
+
         $where = [];
         foreach($document as $key => $value) {
             foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
@@ -60,16 +95,21 @@ class SQLite extends Storage {
         }
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in delete document");
-        } else if(\count($where) > 1) {
-            throw new \Exception("Multiple primary keys found in delete document");
         }
-        return $this->_delete("{$this->prefix}{$collection}", $where, 1);
+        if($realDelete) {
+            return $this->_delete("{$this->prefix}{$collection}", $where, 1);
+        }
+
+        $updateFields = [ '_isDeleted' => 1 ];
+
+        return $this->_update("{$this->prefix}{$collection}", $where, $updateFields, 1);
     }
 
     public function reset(): void {
         \array_map(function(string $table) {
             $this->_dropTable($table);
         }, \array_keys(self::$collectionSetup));
+        $this->setup();
     }
 
     protected function setup(): void {
@@ -116,7 +156,9 @@ class SQLite extends Storage {
                     $params = $def2;
                 }
                 $definitionStr[] = match($definition) {
-                    'GENERATED' => '', // by default, SQLite will autoincrement
+                    'GENERATED' => '',
+                    'CREATED_DATETIME' => '',
+                    'UPDATED_DATETIME' => '',
                     'PRIMARY_KEY' => 'PRIMARY KEY',
                     'FOREIGN_KEY' => "", // let's ignore this for now
                     'DEFAULT' => "DEFAULT ".($params===null ? 'NULL' : "\"{$params}\" NOT NULL"),
@@ -133,7 +175,8 @@ class SQLite extends Storage {
             }
             $sql.= \implode(' ', $definitionStr).', ';
         }
-        $sql = \substr($sql, 0, -2).');';
+        $sql.= '_isDeleted INTEGER DEFAULT 0';
+        $sql.= ');';
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute();
     }

@@ -22,13 +22,17 @@ abstract class Storage {
         return self::$instance;
     }
 
+    public static function getCollections(): array {
+        return \array_keys(self::$collectionSetup);
+    }
+
     protected static $collectionSetup = [
         "user" => [
             "structure" => [
                 "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
 
-                "createdAt"     => [ "DATE_TIME" ],
-                "updatedAt"     => [ "DATE_TIME" ],
+                "createdAt"     => [ "DATE_TIME", "CREATED_DATETIME" ],
+                "updatedAt"     => [ "DATE_TIME", "UPDATED_DATETIME" ],
 
                 "username"      => [ "STRING" => 20,  "UNIQUE" ],
                 "password"      => [ "STRING" => 64,  ],
@@ -47,8 +51,6 @@ abstract class Storage {
             ],
             "data" => [
                 [
-                    'createdAt' => '2024-08-15 00:00:00',
-                    'updatedAt' => '2024-08-15 00:00:00',
                     'username' => 'admin',
                     'password' => '$2a$12$lsPjrmvxJQ44aCh/bG5sFua2M8IVRakjxdcc4XhL1W8sJYhTZ8smO', // password "admin"
                     'email' => 'gabriel@gabstep.com.br',
@@ -63,8 +65,6 @@ abstract class Storage {
                     'lastLogin' => null,
                 ],
                 [
-                    'createdAt' => '2024-08-15 01:00:00',
-                    'updatedAt' => '2024-08-15 01:00:00',
                     'username' => 'user',
                     'password' => '$2a$12$uHEQBEb3K80TOSlaIoCDJ.LLUV1pz4OJMz5q3CjfjEIRra2RzjBQW', // password "user"
                     'email' => 'user@user.com',
@@ -86,8 +86,8 @@ abstract class Storage {
 
                 "userId"            => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "user", "field" => "id" ] ],
 
-                "createdAt"         => [ "DATE_TIME" ],
-                "updatedAt"         => [ "DATE_TIME" ],
+                "createdAt"         => [ "DATE_TIME", "CREATED_DATETIME" ],
+                "updatedAt"         => [ "DATE_TIME", "UPDATED_DATETIME" ],
 
                 "name"              => [ "STRING" => 20 ],
 
