@@ -118,11 +118,14 @@ class CharacterModel extends Model {
             2 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
         ];
 
-        $fullBonuses = [];
+        $fullBonuses = [
+            'hitPoints'  => $character->hitPoints,
+            'manaPoints' => $character->manaPoints,
+            'statPoints' => $character->statPoints,
+        ];
         for($i = $character->level + 1; $i <= $newLevel; $i++) {
             if(!isset($bonusesPerLevel[$i])) continue;
             foreach($bonusesPerLevel[$i] as $key => $value) {
-                if(!isset($fullBonuses[$key])) $fullBonuses[$key] = 0;
                 $fullBonuses[$key] += $value;
             }
         }
