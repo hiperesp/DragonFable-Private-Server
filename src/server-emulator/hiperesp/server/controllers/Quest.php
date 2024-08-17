@@ -9,6 +9,7 @@ use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\MonsterModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\RaceModel;
+use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\models\WeaponModel;
 
@@ -21,6 +22,7 @@ class Quest extends Controller {
     private ArmorModel $armorModel;
     private WeaponModel $weaponModel;
     private RaceModel $raceModel;
+    private SettingsModel $settingsModel;
 
     #[Request(
         endpoint: '/cf-questload.asp',
@@ -44,13 +46,22 @@ class Quest extends Controller {
         outputType: Output::NINJA2XML
     )]
     public function expSave(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intExp>20</intExp><intGems>0</intGems><intGold>21</intGold><intSilver>0</intSilver><intQuestID>54</intQuestID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
+        // <flash><intExp>20</intExp><intGems>0</intGems><intGold>21</intGold><intSilver>0</intSilver><intQuestID>54</intQuestID><strToken>bb12feb39193e8a57ec0fa82539b5069</strToken><intCharID>1</intCharID></flash>
 
-        $xml = \simplexml_load_string(<<<XML
-<questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql"><questreward intLevel="2" intExp="0" intHP="120" intMP="105" intSilver="0" intGold="1021" intGems="0" intSkillPoints="0" intStatPoints="3" intExpToLevel="40"/></questreward>
-XML);
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $quest = $this->questModel->getById((int)$input->intQuestID);
 
-        return $xml;
+        $this->characterModel->applyExpSave($this->settingsModel->getSettings(), $char, $quest, [
+            'experience' => (int)$input->intExp,
+            'gems' => (int)$input->intGems,
+            'gold' => (int)$input->intGold,
+            'silver' => (int)$input->intSilver
+        ]);
+
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID); // reload the character
+
+        return $char->asExpSaveResponse();
     }
 
     #[Request(
@@ -60,6 +71,19 @@ XML);
     )]
     public function complete_mar2011(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intWaveCount>1</intWaveCount><intRare>0</intRare><intWar>0</intWar><intLootID>-1</intLootID><intExp>undefined</intExp><intGold>undefined</intGold><intQuestID>54</intQuestID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
+
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $quest = $this->questModel->getById((int)$input->intQuestID);
+
+        $this->characterModel->applyQuestRewards($this->settingsModel->getSettings(), $char, $quest, [
+            'waveCount' => (int)$input->intWaveCount,
+            'rare' => (int)$input->intRare,
+            'war' => (int)$input->intWar,
+            'lootID' => (int)$input->intLootID,
+            'experience' => (int)$input->intExp,
+            'gold' => (int)$input->intGold,
+        ]);
 
         $questID = (int)$input->intQuestID;
 
@@ -116,10 +140,11 @@ XML);
     )]
     public function saveQuestString(\SimpleXMLElement $input): \SimpleXMLElement {
         // <flash><intValue>1</intValue><intIndex>55</intIndex><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
-        return \simplexml_load_string(<<<XML
-<?xml version="1.0" encoding="UTF-8"?>
-<SaveQuestString xmlns:sql="urn:schemas-microsoft-com:xml-sql"></SaveQuestString>
-XML);
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $this->characterModel->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);
+
+        return $char->asSaveQuestStringResponse();
     }
 
 }

@@ -267,4 +267,25 @@ class CharacterVO extends ValueObject {
 
         return $xml;
     }
+
+    public function asSaveQuestStringResponse(): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<SaveQuestString/>');
+        return $xml;
+    }
+
+    public function asExpSaveResponse(): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<questreward/>');
+        $questreward = $xml->addChild('questreward');
+        $questreward->addAttribute('intLevel', $this->level);
+        $questreward->addAttribute('intExp', $this->experience);
+        $questreward->addAttribute('intHP', $this->hitPoints);
+        $questreward->addAttribute('intMP', $this->manaPoints);
+        $questreward->addAttribute('intSilver', $this->silver);
+        $questreward->addAttribute('intGold', $this->gold);
+        $questreward->addAttribute('intGems', $this->gems);
+        $questreward->addAttribute('intSkillPoints', $this->skillPoints);
+        $questreward->addAttribute('intStatPoints', $this->statPoints);
+        $questreward->addAttribute('intExpToLevel', $this->experienceToLevel);
+        return $xml;
+    }
 }

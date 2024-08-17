@@ -6,7 +6,7 @@ use hiperesp\server\vo\UserVO;
 
 class UserModel extends Model {
 
-    const COLLECTION = 'user';
+    public const COLLECTION = 'user';
 
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
@@ -22,6 +22,8 @@ class UserModel extends Model {
     }
 
     public function signup(array $data): UserVO {
+        $data['birthdate'] = \date('Y-m-d', \strtotime($data['birthdate'])); // from mm/dd/yyyy to yyyy-mm-dd
+
         $data['username'] = \trim($data['username']);
         $data['email'] = \trim($data['email']);
 
@@ -36,6 +38,7 @@ class UserModel extends Model {
 
         $data['password'] = \password_hash($data['password'], \PASSWORD_DEFAULT);
         $data['sessionToken'] = $this->_generateUniqueSessionToken();
+        $data['birthdate'] = \date('Y-m-d', \strtotime($data['birthdate']));
 
         $user = $this->storage->insert(self::COLLECTION, $data);
 

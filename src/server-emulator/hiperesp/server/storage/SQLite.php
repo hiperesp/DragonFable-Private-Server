@@ -26,7 +26,7 @@ class SQLite extends Storage {
         return $data;
     }
     public function insert(string $collection, array $document): array {
-        foreach(self::$collectionSetup[$collection]['structure'] as $key => $definitions) {
+        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
             foreach($definitions as $definition) {
                 if($definition === 'CREATED_DATETIME') {
                     $document[$key] = \date('c');
@@ -43,7 +43,7 @@ class SQLite extends Storage {
 
         $where = [];
 
-        foreach(self::$collectionSetup[$collection]['structure'] as $key => $definitions) {
+        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
             foreach($definitions as $definition) {
                 if($definition === 'PRIMARY_KEY') {
                     $where[$key] = $this->pdo->lastInsertId();
@@ -64,7 +64,7 @@ class SQLite extends Storage {
 
         $newFields = [];
         foreach($document as $key => $value) {
-            foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
+            foreach(self::getCollectionStructure($collection)[$key] as $definition) {
                 if($definition === 'PRIMARY_KEY') {
                     $where[$key] = $value;
                     break;
@@ -86,7 +86,7 @@ class SQLite extends Storage {
 
         $where = [];
         foreach($document as $key => $value) {
-            foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
+            foreach(self::getCollectionStructure($collection)[$key] as $definition) {
                 if($definition === 'PRIMARY_KEY') {
                     $where[$key] = $value;
                     continue 2;
@@ -108,14 +108,14 @@ class SQLite extends Storage {
     public function reset(): void {
         \array_map(function(string $table) {
             $this->_dropTable($table);
-        }, \array_keys(self::$collectionSetup));
+        }, self::getCollections());
         $this->setup();
     }
 
     protected function setup(): void {
         $mustHaveTables = \array_map(function(string $collection) {
             return $collection;
-        }, \array_keys(self::$collectionSetup));
+        }, self::getCollections());
 
         $tables = \array_map(function(array $table) {
             return \preg_replace('/^'.\preg_quote($this->prefix).'/', '', $table['name']);
@@ -128,7 +128,7 @@ class SQLite extends Storage {
                     throw new \Exception("Setup error: Failed to create table {$table}");
                 }
 
-                $toInsert = self::$collectionSetup[$table]['data'];
+                $toInsert = self::getFullCollectionSetup()[$table]['data'];
                 foreach($toInsert as $data) {
                     try {
                         $this->insert($table, $data);
@@ -142,9 +142,8 @@ class SQLite extends Storage {
     }
 
     private function _createTable(string $table): bool {
-        $tableSetup = self::$collectionSetup[$table];
         $sql = "CREATE TABLE {$this->prefix}{$table} (";
-        foreach($tableSetup['structure'] as $field => $definitions) {
+        foreach(self::getCollectionStructure($table) as $field => $definitions) {
             $sql.= "`{$field}` ";
             $definitionStr = [ ];
             foreach($definitions as $def1 => $def2) {

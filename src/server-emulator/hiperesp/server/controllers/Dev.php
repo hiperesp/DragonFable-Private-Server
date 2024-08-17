@@ -16,7 +16,7 @@ class Dev extends Controller {
     )]
     public function sandbox(string $input): string {
 
-        return "";
+        return \implode("\n", $out);
     }
 
     #[Request(
@@ -50,7 +50,7 @@ class Dev extends Controller {
     <fieldset>
         <legend>Database</legend>
         <form action="database/reset">
-            <button>Clear</button>
+            <button>Reset data</button>
         </form>
         <form action="database">
             <button>Debug</button>

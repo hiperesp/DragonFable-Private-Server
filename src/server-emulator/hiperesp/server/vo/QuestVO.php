@@ -79,7 +79,7 @@ class QuestVO extends ValueObject {
     }
 
     public function asChangeHomeResponse(): \SimpleXMLElement {
-        $xml = new \SimpleXMLElement('<ChangeHomeTown/>');
+        $xml = new \SimpleXMLElement('<changeHomeTown/>');
         $newTown = $xml->addChild('newTown');
         $newTown->addAttribute('strQuestFileName', $this->swf);
         $newTown->addAttribute('strQuestXFileName', $this->swfX);

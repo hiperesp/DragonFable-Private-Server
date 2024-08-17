@@ -6,7 +6,6 @@ class SettingsVO extends ValueObject {
     public readonly string $gameVersion;
     public readonly string $serverLocation;
     public readonly string $gamefilesPath;
-    public readonly string $signUpMessage;
 
     public readonly string $homeUrl;
     public readonly string $playUrl;
@@ -14,7 +13,10 @@ class SettingsVO extends ValueObject {
     public readonly string $lostPasswordUrl;
     public readonly string $tosUrl;
 
+    public readonly string $signUpMessage;
     public readonly string $news;
+
+    public readonly bool $levelUpMultipleTimes;
 
     public function __construct() {
         $this->gameVersion    = "game15_8_05-patched.swf";
@@ -29,6 +31,8 @@ class SettingsVO extends ValueObject {
 
         $this->signUpMessage  = "Welcome to the world of DragonFable!\n\nPlease sign up to play!";
         $this->news = "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!";
+
+        $this->levelUpMultipleTimes = false; // if true, player can level up multiple times according to the experience gained
     }
 
 }

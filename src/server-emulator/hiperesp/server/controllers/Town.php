@@ -27,7 +27,7 @@ class Town extends Controller {
         $town = $this->townModel->getById((int)$input->intTownID);
         $this->characterModel->changeHomeTown($character, $town);
 
-        return $town->asLoadTownResponse();
+        return $town->asChangeHomeResponse();
     }
 
     #[Request(
