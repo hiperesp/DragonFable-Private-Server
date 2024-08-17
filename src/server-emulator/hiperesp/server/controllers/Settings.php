@@ -20,6 +20,7 @@ class Settings extends Controller {
 
         return [
             "gamemovie"     => $settings->gameVersion,
+            "signUpMessage" => $settings->signUpMessage,
             "server"        => $settings->serverLocation,
             "gamefilesPath" => $settings->gamefilesPath,
             "end"           => "here",

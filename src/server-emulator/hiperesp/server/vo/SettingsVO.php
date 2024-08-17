@@ -3,15 +3,16 @@ namespace hiperesp\server\vo;
 
 class SettingsVO extends ValueObject {
 
-
     public readonly string $gameVersion;
     public readonly string $serverLocation;
     public readonly string $gamefilesPath;
+    public readonly string $signUpMessage;
 
     public readonly string $homeUrl;
     public readonly string $playUrl;
     public readonly string $signUpUrl;
     public readonly string $lostPasswordUrl;
+    public readonly string $tosUrl;
 
     public readonly string $news;
 
@@ -20,11 +21,13 @@ class SettingsVO extends ValueObject {
         $this->serverLocation = "server-emulator/server.php/"; // http://localhost:40000/server-emulator/server.php/
         $this->gamefilesPath  = "cdn/gamefiles/";       // http://localhost:40000/cdn/gamefiles/
 
-        $this->homeUrl   = "../../";
-        $this->playUrl   = "../../index.html";
-        $this->signUpUrl = "../../signup.html";
-        $this->lostPasswordUrl = "../../lostpassword.html";
+        $this->homeUrl          = "../../";
+        $this->playUrl          = "../../index.html";
+        $this->signUpUrl        = "../../signup.html";
+        $this->lostPasswordUrl  = "../../lostpassword.html";
+        $this->tosUrl           = "../../tos.html";
 
+        $this->signUpMessage  = "Welcome to the world of DragonFable!\n\nPlease sign up to play!";
         $this->news = "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!";
     }
 

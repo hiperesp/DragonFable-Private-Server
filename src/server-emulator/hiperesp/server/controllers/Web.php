@@ -11,7 +11,7 @@ class Web extends Controller {
     private SettingsModel $settingsModel;
 
     #[Request(
-        endpoint: '/',
+        endpoint: '/home',
         inputType: Input::RAW,
         outputType: Output::REDIRECT
     )]
@@ -35,6 +35,15 @@ class Web extends Controller {
     )]
     public function signUp(string $input): string {
         return $this->settingsModel->getSettings()->signUpUrl;
+    }
+
+    #[Request(
+        endpoint: '/df-terms.asp',
+        inputType: Input::RAW,
+        outputType: Output::REDIRECT
+    )]
+    public function terms(string $input): string {
+        return $this->settingsModel->getSettings()->tosUrl;
     }
 
     #[Request(
