@@ -8,5 +8,9 @@ services:
     volumes:
       - ./src/cdn/:/var/www/html/cdn/
       - ./src/server-emulator/:/var/www/html/server-emulator/
+      - ./src/web/assets/:/var/www/html/assets/
       - ./src/web/index.html:/var/www/html/index.html
       - ./src/web/signup.html:/var/www/html/signup.html
+      - ./src/web/lost-password.html:/var/www/html/lost-password.html
+      - ./src/web/tos.html:/var/www/html/tos.html
+

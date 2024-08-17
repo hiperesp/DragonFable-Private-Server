@@ -23,8 +23,8 @@ class SettingsVO extends ValueObject {
         $this->serverLocation = "server-emulator/server.php/"; // http://localhost:40000/server-emulator/server.php/
         $this->gamefilesPath  = "cdn/gamefiles/";       // http://localhost:40000/cdn/gamefiles/
 
-        $this->homeUrl          = "../../";
-        $this->playUrl          = "../../index.html";
+        $this->homeUrl          = "../../index.hmtl";
+        $this->playUrl          = "../../play.html";
         $this->signUpUrl        = "../../signup.html";
         $this->lostPasswordUrl  = "../../lostpassword.html";
         $this->tosUrl           = "../../tos.html";
