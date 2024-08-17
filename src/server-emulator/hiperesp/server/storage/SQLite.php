@@ -47,13 +47,13 @@ class SQLite extends Storage {
             foreach($definitions as $definition) {
                 if($definition === 'PRIMARY_KEY') {
                     $where[$key] = $this->pdo->lastInsertId();
-                    continue 2;
+                    break;
                 }
             }
         }
 
         $data = $this->select($collection, $where)[0];
-        unset($document['_isDeleted']);
+        unset($data['_isDeleted']);
 
         return $data;
     }
@@ -67,7 +67,7 @@ class SQLite extends Storage {
             foreach(self::$collectionSetup[$collection]['structure'][$key] as $definition) {
                 if($definition === 'PRIMARY_KEY') {
                     $where[$key] = $value;
-                    continue 2;
+                    break;
                 }
                 if($definition === 'UPDATED_DATETIME') {
                     $document[$key] = \date('c');

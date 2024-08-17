@@ -93,4 +93,10 @@ class UserVO extends ValueObject {
         return $xml;
     }
 
+    public function isBirthday(string $today): bool {
+        $birthdate = \date('m-d', \strtotime($this->birthdate));
+        $today = \date('m-d', \strtotime($today));
+        return $birthdate === $today;
+    }
+
 }

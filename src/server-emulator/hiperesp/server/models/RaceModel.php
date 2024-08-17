@@ -10,11 +10,11 @@ class RaceModel extends Model {
     public const COLLECTION = 'race';
 
     public function getById(int $classId): RaceVO {
-        $char = $this->storage->select(self::COLLECTION, ['id' => $classId]);
-        if(isset($char[0]) && $char = $char[0]) {
-            return new RaceVO($char);
+        $race = $this->storage->select(self::COLLECTION, ['id' => $classId]);
+        if(isset($race[0]) && $race = $race[0]) {
+            return new RaceVO($race);
         }
-        throw DFException::fromCode(DFException::UNKNOWN_ERROR_RACE_NOT_FOUND);
+        throw DFException::fromCode(DFException::RACE_NOT_FOUND);
     }
 
     public function getByCharacter(CharacterVO $character): RaceVO {

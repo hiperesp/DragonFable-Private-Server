@@ -4,10 +4,14 @@ namespace hiperesp\server\exceptions;
 class DFException extends \Exception {
 
     public const SUCCESS = "0";
-    public const CLASS_NOT_FOUND = "000.01";
-    public const RACE_NOT_FOUND = "000.02";
-    public const USERNAME_ALREADY_EXISTS = "000.03";
-    public const EMAIL_ALREADY_EXISTS = "000.04";
+    public const CLASS_NOT_FOUND = "000.10";
+    public const RACE_NOT_FOUND = "000.20";
+    public const ARMOR_NOT_FOUND = "000.30";
+    public const WEAPON_NOT_FOUND = "000.31";
+    public const QUEST_NOT_FOUND = "000.32";
+    public const HAIR_NOT_FOUND = "000.33";
+    public const USERNAME_ALREADY_EXISTS = "000.40";
+    public const EMAIL_ALREADY_EXISTS = "000.50";
 
     public const USER_NOT_FOUND = "526.14";
     public const CHARACTER_NOT_FOUND = "500.71";
@@ -79,6 +83,26 @@ class DFException extends \Exception {
         self::RACE_NOT_FOUND => [
             "reason" => "Race Not Found",
             "message" => "The race you are looking for doesn't exist",
+            "action" => "None",
+        ],
+        self::ARMOR_NOT_FOUND => [
+            "reason" => "Armor Not Found",
+            "message" => "The armor you are looking for doesn't exist",
+            "action" => "None",
+        ],
+        self::WEAPON_NOT_FOUND => [
+            "reason" => "Weapon Not Found",
+            "message" => "The weapon you are looking for doesn't exist",
+            "action" => "None",
+        ],
+        self::QUEST_NOT_FOUND => [
+            "reason" => "Quest Not Found",
+            "message" => "The quest you are looking for doesn't exist",
+            "action" => "None",
+        ],
+        self::HAIR_NOT_FOUND => [
+            "reason" => "Hair Not Found",
+            "message" => "The hair you are looking for doesn't exist",
             "action" => "None",
         ],
         self::USERNAME_ALREADY_EXISTS => [

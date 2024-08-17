@@ -22,7 +22,7 @@ class User extends Controller {
     #[Request(
         endpoint: '/cf-userlogin.asp',
         inputType: Input::NINJA2,
-        outputType: Output::XML
+        outputType: Output::NINJA2XML
     )]
     public function login(\SimpleXMLElement $input): \SimpleXMLElement {
         $username = (string)$input->strUsername;
