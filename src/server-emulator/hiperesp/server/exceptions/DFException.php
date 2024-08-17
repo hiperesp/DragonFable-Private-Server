@@ -3,20 +3,22 @@ namespace hiperesp\server\exceptions;
 
 class DFException extends \Exception {
 
-    public const SUCCESS = "0";
-    public const CLASS_NOT_FOUND = "000.10";
-    public const RACE_NOT_FOUND = "000.20";
-    public const ARMOR_NOT_FOUND = "000.30";
-    public const WEAPON_NOT_FOUND = "000.31";
-    public const QUEST_NOT_FOUND = "000.32";
-    public const HAIR_NOT_FOUND = "000.33";
-    public const MONSTER_NOT_FOUND = "000.34";
-    public const USERNAME_ALREADY_EXISTS = "000.40";
-    public const EMAIL_ALREADY_EXISTS = "000.50";
+    const SUCCESS = "0";
+    const INVALID_REFERENCE = "500.73";
+    const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
+    const RACE_NOT_FOUND = self::INVALID_REFERENCE;
+    const ARMOR_NOT_FOUND = self::INVALID_REFERENCE;
+    const WEAPON_NOT_FOUND = self::INVALID_REFERENCE;
+    const QUEST_NOT_FOUND = self::INVALID_REFERENCE;
+    const HAIR_NOT_FOUND = self::INVALID_REFERENCE;
+    const MONSTER_NOT_FOUND = self::INVALID_REFERENCE;
 
-    public const CHARACTER_NOT_FOUND = "500.71";
-    public const USER_NOT_FOUND = "526.14";
-    public const BAD_REQUEST = "538.07";
+    const USERNAME_ALREADY_EXISTS = "000.40";
+    const EMAIL_ALREADY_EXISTS = "000.50";
+
+    const CHARACTER_NOT_FOUND = "500.71";
+    const USER_NOT_FOUND = "526.14";
+    const BAD_REQUEST = "538.07";
 
     public function __construct(
         public readonly string $dfCode,
@@ -77,40 +79,10 @@ class DFException extends \Exception {
             "message" => "The operation was successful",
             "action" => "None",
         ],
-        self::CLASS_NOT_FOUND => [
-            "reason" => "Class Not Found",
-            "message" => "The class you are looking for doesn't exist",
-            "action" => "None",
-        ],
-        self::RACE_NOT_FOUND => [
-            "reason" => "Race Not Found",
-            "message" => "The race you are looking for doesn't exist",
-            "action" => "None",
-        ],
-        self::ARMOR_NOT_FOUND => [
-            "reason" => "Armor Not Found",
-            "message" => "The armor you are looking for doesn't exist",
-            "action" => "None",
-        ],
-        self::WEAPON_NOT_FOUND => [
-            "reason" => "Weapon Not Found",
-            "message" => "The weapon you are looking for doesn't exist",
-            "action" => "None",
-        ],
-        self::QUEST_NOT_FOUND => [
-            "reason" => "Quest Not Found",
-            "message" => "The quest you are looking for doesn't exist",
-            "action" => "None",
-        ],
-        self::HAIR_NOT_FOUND => [
-            "reason" => "Hair Not Found",
-            "message" => "The hair you are looking for doesn't exist",
-            "action" => "None",
-        ],
-        self::MONSTER_NOT_FOUND => [
-            "reason" => "Monster Not Found",
-            "message" => "The monster you are looking for doesn't exist",
-            "action" => "None",
+        self::INVALID_REFERENCE => [
+            "reason" => "Invalid Reference",
+            "message" => "Invalid Reference",
+            "action" => "Continue",
         ],
         self::USERNAME_ALREADY_EXISTS => [
             "reason" => "Username Already Exists",

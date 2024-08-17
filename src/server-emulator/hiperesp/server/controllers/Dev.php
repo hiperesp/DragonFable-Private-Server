@@ -30,10 +30,19 @@ class Dev extends Controller {
 <hr>
 <div style="display: flex;">
     <fieldset>
-        <legend>General</legend>
+        <legend>Tools</legend>
         <form action="ninja2decrypt">
             <button>Ninja2 Decrypt</button>
         </form>
+        <form action="ninja2encrypt">
+            <button>Ninja2 Encrypt</button>
+        </form>
+        <form action="sandbox">
+            <button>Sandbox</button>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Util</legend>
         <form action="sandbox">
             <button>Sandbox</button>
         </form>
@@ -114,6 +123,25 @@ HTML;
         $outputTxt = "";
         if(isset($input['input'])) {
             $outputTxt = \htmlspecialchars("{$this->crypto2->decrypt($input['input'])}");
+        }
+        return <<<HTML
+        <pre>{$outputTxt}</pre>
+        <form method='post'>
+            <textarea name='input'></textarea><br>
+            <button>Submit</button>
+        </form>
+        HTML;
+    }
+
+    #[Request(
+        endpoint: '/dev/ninja2encrypt',
+        inputType: Input::FORM,
+        outputType: Output::HTML
+    )]
+    public function ninja2encrypt(array $input): string {
+        $outputTxt = "";
+        if(isset($input['input'])) {
+            $outputTxt = \htmlspecialchars("{$this->crypto2->encrypt($input['input'])}");
         }
         return <<<HTML
         <pre>{$outputTxt}</pre>
