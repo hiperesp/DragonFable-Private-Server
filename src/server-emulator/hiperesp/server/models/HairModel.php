@@ -3,11 +3,11 @@ namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\HairVO;
-use hiperesp\server\vo\ClassVO;
+use hiperesp\server\vo\CharacterVO;
 
 class HairModel extends Model {
 
-    public const COLLECTION = 'hair';
+    const COLLECTION = 'hair';
 
     public function getById(int $hairId): HairVO {
         $hair = $this->storage->select(self::COLLECTION, ['id' => $hairId]);
@@ -17,8 +17,8 @@ class HairModel extends Model {
         throw DFException::fromCode(DFException::HAIR_NOT_FOUND);
     }
 
-    public function getByClass(ClassVO $class): HairVO {
-        return $this->getById($class->hairId);
+    public function getByCharacter(CharacterVO $character): HairVO {
+        return $this->getById($character->hairId);
     }
 
 }

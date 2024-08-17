@@ -6,12 +6,14 @@ class RaceVO extends ValueObject {
     public readonly int $id;
 
     public readonly string $name;
+    public readonly string $resists;
 
     public function __construct(array $data) {
 
         $this->id = $data['id'];
 
         $this->name = $data['name'];
+        $this->resists = $data['resists'];
 
     }
 

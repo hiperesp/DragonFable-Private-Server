@@ -1,10 +1,8 @@
 <?php
 namespace hiperesp\server\vo;
 
-//#[VO(dbTable: 'items')]
 class ItemVO extends ValueObject {
 
-    //#[Field(cardinality: 'primary')]
     private int $id;
 
     private string $name;
@@ -46,7 +44,7 @@ class ItemVO extends ValueObject {
     private int $defMelee;
     private int $defPierce;
     private int $defMagic;
-    private int $crit;
+    private int $critical;
     private int $parry;
     private int $dodge;
     private int $block;

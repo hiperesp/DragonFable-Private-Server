@@ -7,7 +7,7 @@ use hiperesp\server\vo\ClassVO;
 
 class ArmorModel extends Model {
 
-    public const COLLECTION = 'armor';
+    const COLLECTION = 'armor';
 
     public function getById(int $armorId): ArmorVO {
         $armor = $this->storage->select(self::COLLECTION, ['id' => $armorId]);

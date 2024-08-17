@@ -10,11 +10,13 @@ class DFException extends \Exception {
     public const WEAPON_NOT_FOUND = "000.31";
     public const QUEST_NOT_FOUND = "000.32";
     public const HAIR_NOT_FOUND = "000.33";
+    public const MONSTER_NOT_FOUND = "000.34";
     public const USERNAME_ALREADY_EXISTS = "000.40";
     public const EMAIL_ALREADY_EXISTS = "000.50";
 
-    public const USER_NOT_FOUND = "526.14";
     public const CHARACTER_NOT_FOUND = "500.71";
+    public const USER_NOT_FOUND = "526.14";
+    public const BAD_REQUEST = "538.07";
 
     public function __construct(
         public readonly string $dfCode,
@@ -105,6 +107,11 @@ class DFException extends \Exception {
             "message" => "The hair you are looking for doesn't exist",
             "action" => "None",
         ],
+        self::MONSTER_NOT_FOUND => [
+            "reason" => "Monster Not Found",
+            "message" => "The monster you are looking for doesn't exist",
+            "action" => "None",
+        ],
         self::USERNAME_ALREADY_EXISTS => [
             "reason" => "Username Already Exists",
             "message" => "The username you are trying to use is already taken",
@@ -123,6 +130,11 @@ class DFException extends \Exception {
         self::CHARACTER_NOT_FOUND => [
             "reason" => "Character doesn't exist!",
             "message" => "Character doesn't exist!",
+            "action" => "None",
+        ],
+        self::BAD_REQUEST => [
+            "reason" => "Invalid Input!",
+            "message" => "Message",
             "action" => "None",
         ],
     ];

@@ -7,7 +7,7 @@ use hiperesp\server\vo\WeaponVO;
 
 class WeaponModel extends Model {
 
-    public const COLLECTION = 'weapon';
+    const COLLECTION = 'weapon';
 
     public function getById(int $weaponId): WeaponVO {
         $weapon = $this->storage->select(self::COLLECTION, ['id' => $weaponId]);

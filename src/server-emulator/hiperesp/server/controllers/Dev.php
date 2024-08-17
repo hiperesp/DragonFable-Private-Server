@@ -4,9 +4,20 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\models\QuestModel;
 use hiperesp\server\storage\Storage;
 
 class Dev extends Controller {
+
+    #[Request(
+        endpoint: '/dev/sandbox',
+        inputType: Input::RAW,
+        outputType: Output::RAW
+    )]
+    public function sandbox(string $input): string {
+
+        return "";
+    }
 
     #[Request(
         endpoint: '/dev/',
@@ -41,17 +52,6 @@ HTML;
 // create a group with legend with the name of the group and the endpoints
         
         return $output;
-    }
-
-    #[Request(
-        endpoint: '/dev/sandbox',
-        inputType: Input::RAW,
-        outputType: Output::RAW
-    )]
-    public function sandbox(string $input): string {
-        $storage = Storage::getStorage();
-        var_dump($storage->select('user', ['username' => 'user'], null));die;
-        return "";
     }
 
     #[Request(

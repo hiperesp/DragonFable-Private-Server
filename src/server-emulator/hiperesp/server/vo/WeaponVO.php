@@ -13,12 +13,11 @@ class WeaponVO extends ValueObject {
     public readonly string $icon;
     public readonly string $type;
     public readonly string $itemType;
-    public readonly int $crit;
+    public readonly int $critical;
     public readonly int $damageMin;
     public readonly int $damageMax;
     public readonly int $bonus;
-    public readonly string $equippable;
-    public readonly int $savable;
+    public readonly string $swf;
 
     public function __construct(array $data) {
 
@@ -32,12 +31,11 @@ class WeaponVO extends ValueObject {
         $this->icon = $data['icon'];
         $this->type = $data['type'];
         $this->itemType = $data['itemType'];
-        $this->crit = $data['crit'];
+        $this->critical = $data['critical'];
         $this->damageMin = $data['damageMin'];
         $this->damageMax = $data['damageMax'];
         $this->bonus = $data['bonus'];
-        $this->equippable = $data['equippable'];
-        $this->savable = $data['savable'];
+        $this->swf = $data['swf'];
     }
 
 }

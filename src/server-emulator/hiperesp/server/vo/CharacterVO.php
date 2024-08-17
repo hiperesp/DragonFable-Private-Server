@@ -167,12 +167,12 @@ class CharacterVO extends ValueObject {
             throw new \Exception('Character does not belong to the user');
         }
 
-        $race = $raceModel->getById($this->raceId);
-        $quest = $questModel->getById($this->questId);
-        $class = $classModel->getById($this->classId);
-        $armor = $armorModel->getById($class->armorId);
-        $weapon = $weaponModel->getById($class->weaponId);
-        $hair = $hairModel->getById($this->hairId);
+        $race = $raceModel->getByCharacter($this);
+        $quest = $questModel->getByCharacter($this);
+        $class = $classModel->getByCharacter($this);
+        $armor = $armorModel->getByClass($class);
+        $weapon = $weaponModel->getByCharacter($class);
+        $hair = $hairModel->getByCharacter($this);
 
         $xml = new \SimpleXMLElement('<character/>');
         $character = $xml->addChild('character');
@@ -232,6 +232,7 @@ class CharacterVO extends ValueObject {
         $character->addAttribute('strClassName', $class->name);
         $character->addAttribute('strClassFileName', $class->swf);
         $character->addAttribute('strElement', $class->element);
+        $character->addAttribute('intSavable', $class->savable);
 
         $character->addAttribute('strArmorName', $armor->name);
         $character->addAttribute('strArmorDescription', $armor->description);
@@ -251,15 +252,15 @@ class CharacterVO extends ValueObject {
         $character->addAttribute('strWeaponIcon', $weapon->icon);
         $character->addAttribute('strType', $weapon->type);
         $character->addAttribute('strItemType', $weapon->itemType);
-        $character->addAttribute('intCrit', $weapon->crit);
+        $character->addAttribute('intCrit', $weapon->critical);
         $character->addAttribute('intDmgMin', $weapon->damageMin);
         $character->addAttribute('intDmgMax', $weapon->damageMax);
         $character->addAttribute('intBonus', $weapon->bonus);
-        $character->addAttribute('strEquippable', $weapon->equippable);
-        $character->addAttribute('intSavable', $weapon->savable);
+
+        $character->addAttribute('strEquippable', "Sword,Mace,Dagger,Axe,Ring,Necklace,Staff,Belt,Earring,Bracer,Pet,Cape,Wings,Helmet,Armor,Wand,Scythe,Trinket,Artifact");
 
         $character->addAttribute('strHairFileName', $hair->swf);
-        $character->addAttribute('intHairFrame', $hair->frame ? 1 : 0);
+        $character->addAttribute('intHairFrame', 1);
 
         $character->addAttribute('gemReward', 0);
         $character->addAttribute('intDailyRoll', 1);

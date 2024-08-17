@@ -7,7 +7,7 @@ use hiperesp\server\vo\ClassVO;
 
 class ClassModel extends Model {
 
-    public const COLLECTION = 'class';
+    const COLLECTION = 'class';
 
     public function getById(int $classId): ClassVO {
         $char = $this->storage->select(self::COLLECTION, ['id' => $classId]);

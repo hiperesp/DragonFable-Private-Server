@@ -6,6 +6,7 @@ class ArmorVO extends ValueObject {
     public readonly int $id;
 
     public readonly string $name;
+    public readonly string $designInfo;
     public readonly string $description;
     public readonly string $resists;
 
@@ -21,6 +22,7 @@ class ArmorVO extends ValueObject {
         $this->id = $data['id'];
 
         $this->name = $data['name'];
+        $this->designInfo = $data['designInfo'];
         $this->description = $data['description'];
         $this->resists = $data['resists'];
 

@@ -3,11 +3,12 @@ namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\UserVO;
 
 class CharacterModel extends Model {
 
-    public const COLLECTION = 'char';
+    const COLLECTION = 'char';
 
     /** @return array<CharacterVO> */
     public function getByUser(UserVO $user): array {
@@ -37,7 +38,7 @@ class CharacterModel extends Model {
         $data['colorBase'] = \dechex($input['intColorBase']);
         $data['colorTrim'] = \dechex($input['intColorTrim']);
         $data['classId'] = $input['intClassID'];
-        $data['raceId'] = $input['intRaceID'];
+        $data['raceId'] = '1';
 
         $character = $this->storage->insert(self::COLLECTION, $data);
 
@@ -46,6 +47,10 @@ class CharacterModel extends Model {
 
     public function delete(CharacterVO $character): void {
         $this->storage->delete(self::COLLECTION, ['id' => $character->id]);
+    }
+
+    public function changeHomeTown(CharacterVO $character, QuestVO $town): void {
+        $this->storage->update(self::COLLECTION, ['id' => $character->id], ['questId' => $town->id]);
     }
 
 }

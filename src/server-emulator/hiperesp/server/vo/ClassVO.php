@@ -11,6 +11,7 @@ class ClassVO extends ValueObject {
 
     public readonly int $armorId;
     public readonly int $weaponId;
+    public readonly int $savable;
 
     public function __construct(array $data) {
 
@@ -22,6 +23,7 @@ class ClassVO extends ValueObject {
 
         $this->armorId = $data['armorId'];
         $this->weaponId = $data['weaponId'];
+        $this->savable = $data['savable'];
 
     }
 

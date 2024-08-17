@@ -6,7 +6,7 @@ use hiperesp\server\vo\UserVO;
 
 class UserModel extends Model {
 
-    public const COLLECTION = 'user';
+    const COLLECTION = 'user';
 
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);

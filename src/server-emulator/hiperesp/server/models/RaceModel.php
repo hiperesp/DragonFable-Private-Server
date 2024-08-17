@@ -7,10 +7,10 @@ use hiperesp\server\vo\RaceVO;
 
 class RaceModel extends Model {
 
-    public const COLLECTION = 'race';
+    const COLLECTION = 'race';
 
-    public function getById(int $classId): RaceVO {
-        $race = $this->storage->select(self::COLLECTION, ['id' => $classId]);
+    public function getById(int $raceId): RaceVO {
+        $race = $this->storage->select(self::COLLECTION, ['id' => $raceId]);
         if(isset($race[0]) && $race = $race[0]) {
             return new RaceVO($race);
         }
@@ -18,7 +18,7 @@ class RaceModel extends Model {
     }
 
     public function getByCharacter(CharacterVO $character): RaceVO {
-        return $this->getById($character->classId);
+        return $this->getById($character->raceId);
     }
 
 }
