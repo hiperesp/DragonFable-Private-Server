@@ -152,6 +152,8 @@ abstract class Storage {
                 "baseClassId"       => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "class", "field" => "id" ] ],
                 "guildId"           => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "guild", "field" => "id" ] ],
                 "questId"           => [ "INTEGER", "DEFAULT" => 933, "FOREIGN_KEY" => [ "collection" => "quest", "field" => "id" ] ],
+
+                "lastTimeSeen"      => [ "DATE_TIME", "DEFAULT" => NULL, "INDEX" ],
             ],
             "data" => "char.json",
         ],

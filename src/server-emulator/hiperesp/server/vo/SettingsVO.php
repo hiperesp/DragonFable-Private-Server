@@ -18,6 +18,9 @@ class SettingsVO extends ValueObject {
 
     public readonly bool $levelUpMultipleTimes;
 
+    public readonly string $serverVersion;
+    public readonly int $onlineTimeout;
+
     public function __construct() {
         $this->gameVersion    = "game15_8_05-patched.swf";
         $this->serverLocation = "server-emulator/server.php/"; // http://localhost:40000/server-emulator/server.php/
@@ -33,6 +36,9 @@ class SettingsVO extends ValueObject {
         $this->news = "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!";
 
         $this->levelUpMultipleTimes = false; // if true, player can level up multiple times according to the experience gained
+
+        $this->serverVersion = "0.0.1 alpha";
+        $this->onlineTimeout = 10; // minutes. It affects only the online status of the player
     }
 
 }

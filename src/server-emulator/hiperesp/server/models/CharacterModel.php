@@ -23,7 +23,9 @@ class CharacterModel extends Model {
     public function getByUserAndId(UserVO $user, int $id): CharacterVO {
         $character = $this->storage->select(self::COLLECTION, ['userID' => $user->id, 'id' => $id]);
         if(isset($character[0]) && $character = $character[0]) {
-            return new CharacterVO($character);
+            $character = new CharacterVO($character);
+            $this->updateLastTimeSeen($character);
+            return $character;
         }
         throw DFException::fromCode(DFException::CHARACTER_NOT_FOUND);
     }
@@ -155,6 +157,21 @@ class CharacterModel extends Model {
         }
         return $cap['default'];
 
+    }
+
+    private function updateLastTimeSeen(CharacterVO $character): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $character->id,
+            'lastTimeSeen' => \date('Y-m-d H:i:00')
+        ]);
+    }
+
+    public function getOnlineCount(int $minutesToConsiderOnline): int {
+        $times = [];
+        for($i = 0; $i < $minutesToConsiderOnline; $i++) {
+            $times[] = \date('Y-m-d H:i:00', \strtotime("-{$i} minutes"));
+        }
+        return \count($this->storage->select(self::COLLECTION, ['lastTimeSeen' => $times], null));
     }
 
 }

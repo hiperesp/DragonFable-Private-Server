@@ -4,11 +4,13 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\SettingsModel;
 
 class Web extends Controller {
 
     private SettingsModel $settingsModel;
+    private CharacterModel $characterModel;
 
     #[Request(
         endpoint: '/home',
@@ -53,6 +55,22 @@ class Web extends Controller {
     )]
     public function lostPassword(string $input): string {
         return $this->settingsModel->getSettings()->lostPasswordUrl;
+    }
+
+    #[Request(
+        endpoint: '/web-stats.json',
+        inputType: Input::RAW,
+        outputType: Output::RAW
+    )]
+    public function webStats(string $input): string {
+
+        $settings = $this->settingsModel->getSettings();
+        $onlineCount = $this->characterModel->getOnlineCount($settings->onlineTimeout);
+
+        return \json_encode([
+            'serverVersion' => $settings->serverVersion,
+            'onlineUsers' => $onlineCount
+        ]);
     }
 
 }

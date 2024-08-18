@@ -142,6 +142,7 @@ class SQLite extends Storage {
     }
 
     private function _createTable(string $table): bool {
+        $afterCreateSql = "";
         $sql = "CREATE TABLE {$this->prefix}{$table} (";
         foreach(self::getCollectionStructure($table) as $field => $definitions) {
             $sql.= "`{$field}` ";
@@ -153,6 +154,10 @@ class SQLite extends Storage {
                 } else {
                     $definition = $def1;
                     $params = $def2;
+                }
+                if($definition === 'INDEX') {
+                    $afterCreateSql.= "CREATE INDEX {$this->prefix}{$table}_{$field} ON {$this->prefix}{$table} ({$field});";
+                    continue;
                 }
                 $definitionStr[] = match($definition) {
                     'GENERATED' => '',
@@ -176,6 +181,7 @@ class SQLite extends Storage {
         }
         $sql.= '_isDeleted INTEGER DEFAULT 0';
         $sql.= ');';
+        $sql.= $afterCreateSql;
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute();
     }
