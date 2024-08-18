@@ -99,9 +99,17 @@ foreach($folders as $key => $folder) {
             extractSwf($swf);
         }
     }
+
+    echo "Done with {$key}\n";
 }
 
+echo "Done with all\n";
+
 function extractSwf($swf) {
+    $swf = \trim($swf);
+
+    $swf = \str_replace(' ', '%20', $swf);
+
     // normalize path
     $swf = \preg_replace('/\\\\/', '/', $swf);
 
@@ -116,7 +124,7 @@ function extractSwf($swf) {
     }));
 
     if($swfParts) {
-        if(\in_array($swfParts[0], ["towns", "zones", "shops", "quests", "random", "wars"])) {
+        if(\in_array(\strtolower($swfParts[0]), ["towns", "zones", "shops", "quests", "random", "wars"])) {
             $swf = "maps/{$swf}";
         }
     }
@@ -134,12 +142,12 @@ function extractSwf($swf) {
 
     if(\file_exists($file)) {
         $data = \file_get_contents($file);
-        if($data[0] == 'C' && $data[1] == 'W' && $data[2] == 'S') {
+        if(($data[0] == 'C' || $data[0] == 'F') && $data[1] == 'W' && $data[2] == 'S') {
             // echo "Already exists: {$swf}\n";
             return;
         } else {
             echo "Invalid existing SWF: {$swf}\n";
-            // die;
+            die;
         }
     }
 
@@ -147,12 +155,12 @@ function extractSwf($swf) {
 
     if(\file_exists($file)) {
         $data = \file_get_contents($file);
-        if($data[0] == 'C' && $data[1] == 'W' && $data[2] == 'S') {
+        if(($data[0] == 'C' || $data[0] == 'F') && $data[1] == 'W' && $data[2] == 'S') {
             echo "Downloaded: {$swf}\n";
             return;
         } else {
             echo "Invalid downloaded SWF: {$swf}\n";
-            // die;
+            die;
         }
     } else {
         echo "Failed to download: {$swf}\n";
