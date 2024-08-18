@@ -1,6 +1,6 @@
 <?php
 
-$requestPath = \urldecode(\preg_replace('/\/cdn\/gamefiles\//', '', $_SERVER['REQUEST_URI']));
+$requestPath = \preg_replace('/\/cdn\/gamefiles\//', '', $_SERVER['REQUEST_URI']);
 
 $ch = \curl_init();
 \curl_setopt($ch, CURLOPT_URL, "https://play.dragonfable.com/game/gamefiles/{$requestPath}");
@@ -12,7 +12,7 @@ $contentType = \curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
 \curl_close($ch);
 
 if ($httpcode == 200) {
-    $path = __DIR__ . '/' . $requestPath;
+    $path = __DIR__ . '/' . \urldecode($requestPath);
     $dir = \dirname($path);
     if (!\is_dir($dir)) {
         \mkdir($dir, 0777, true);

@@ -108,8 +108,6 @@ echo "Done with all\n";
 function extractSwf($swf) {
     $swf = \trim($swf);
 
-    $swf = \str_replace(' ', '%20', $swf);
-
     // normalize path
     $swf = \preg_replace('/\\\\/', '/', $swf);
 
@@ -138,7 +136,9 @@ function extractSwf($swf) {
     }
 
     $file = __DIR__."/../../src/cdn/gamefiles/{$swf}";
-    $url = "http://localhost:40000/cdn/gamefiles/{$swf}";
+
+    $swfUrl = \str_replace(' ', '%20', $swf);
+    $url = "http://localhost:40000/cdn/gamefiles/{$swfUrl}";
 
     if(\file_exists($file)) {
         $data = \file_get_contents($file);
