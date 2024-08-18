@@ -16,10 +16,6 @@ body {
     border-top: 0;
     border-bottom: 0;
 }
-.safezone {
-    padding: 20px;
-    max-width: 800px;
-}
 .main-container {
     flex: 1;
 }
@@ -79,10 +75,8 @@ body {
     background-position: center;
     font-family: "DM Serif Text", serif;
     display: flex;
-}
-.main-content-header .safezone {
-    flex: 1;
-    display: flex;
+    position: relative;
+    padding: 20px;
 }
 .main-content-header h1 {
     align-self: flex-end;
@@ -91,20 +85,28 @@ body {
     text-shadow: 4px 4px black;
 }
 .main-content-header .main-content-datetime {
-    align-self: flex-end;
-    margin-left: auto;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
     color: white;
     font-size: 0.8em;
     font-family: sans-serif;
 }
 
+.sidebar {
+    background-image: url('images/web/navbar.jpg');
+    background-repeat: no-repeat;
+    min-width: 225px;
+}
+
 .sidebar-body {
+    margin-top: 595px;
     max-width: 225px;
-    padding: 20px;
 }
 
 .main-content-body, .sidebar-body {
     line-height: 1.5;
+    padding: 20px;
 }
 .main-content-body p, .sidebar-body p {
     margin-bottom: 20px;
@@ -123,18 +125,64 @@ body {
     font-size: 0.8em;
 }
 
+.home-intro video {
+    margin-top: -20px;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+}
+
 .play-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.play-buttons img {
+    width: 100%;
+}
 
-@media screen and (max-width: 800px) {
+
+footer {
+    margin: 0 auto;
+    max-width: 1140px;
+    background: #660000;
+    margin: 0 auto;
+    border: 2px solid yellow;
+    padding: 20px;
+    text-align: center;
+    border-top: none;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1140px) {
+    .content, footer {
+        border: none;
+    }
+    footer {
+        border-top: 2px solid yellow;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+    .ad-container .ad {
+        display: none;
+    }
+    .server-info {
+        position: absolute;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .ad-container {
         display: none;
     }
+    .server-info {
+        position: initial;
+        top: initial;
+    }
     .sidebar {
-        margin-left: -227px;
+        display: none;
     }
     .navbar {
         flex-direction: column-reverse;
@@ -177,9 +225,17 @@ body {
 
     .play-buttons {
         flex-direction: column;
-        margin-right: -7.5%
     }
     .play-buttons .signup img {
         width: 115%;
+        max-width: initial !important;
+    }
+
+    footer {
+        width: 100vw;
+        border: none;
+    }
+    footer p {
+        margin-bottom: 8px;
     }
 }
