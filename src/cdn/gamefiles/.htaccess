@@ -3,8 +3,5 @@ Header add Access-Control-Allow-Methods: "GET"
 
 RewriteEngine On
 
-RewriteCond expr "tolower(%{REQUEST_URI}) =~ /(.*)/"
-RewriteRule [A-Z] %1 [R=301,L]
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . proxy.php?url=$1 [L]
