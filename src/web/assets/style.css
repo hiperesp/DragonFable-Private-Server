@@ -9,7 +9,12 @@ body {
     font-family: sans-serif;
 }
 .content {
+    margin: 0 auto;
+    max-width: 1140px;
     display: flex;
+    border: 2px solid #ffff00;
+    border-top: 0;
+    border-bottom: 0;
 }
 .safezone {
     padding: 20px;
@@ -32,33 +37,38 @@ body {
     background-image: url('images/web/ads-label.gif');
 }
 .main-content {
-    height: 400px;
 }
-.server-stats {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 20px;
 }
-.server-stats ul {
+.navbar ul {
     color: white;
     font-size: 13px;
     list-style-type: none;
-    flex: 1;
     display: flex;
 }
-.server-stats ul li {
+.navbar ul li {
     padding: 5px;
 }
-.server-stats ul li a {
+.navbar ul li a {
     margin: 0 -5px;
     padding: 5px;
     color: white;
     text-decoration: underline;
     font-weight: bold;
 }
-.server-stats ul li a:hover {
+.navbar ul li a:hover {
     background-color: #404040;
+}
+.navbar .menu {
+    flex: 1;
+}
+.navbar .server-info {
+    display: flex;
+    justify-content: flex-end;
 }
 .main-content-header {
     background-color: #330200;
@@ -87,16 +97,89 @@ body {
     font-size: 0.8em;
     font-family: sans-serif;
 }
-.main-content-body {
-    line-height: 1.5;
-}
-.main-content-body p {
-    margin-bottom: 20px;
+
+.sidebar-body {
+    max-width: 225px;
+    padding: 20px;
 }
 
-.tos h2 {
+.main-content-body, .sidebar-body {
+    line-height: 1.5;
+}
+.main-content-body p, .sidebar-body p {
+    margin-bottom: 20px;
+}
+.main-content-body h2, .sidebar-body h2 {
     color: yellow;
     font-size: 1.1em;
     margin: 5px 0;
     text-transform: uppercase;
+}
+.main-content-body a, .sidebar-body a {
+    color: yellow;
+    text-decoration: underline;
+}
+.sidebar-body p {
+    font-size: 0.8em;
+}
+
+.play-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .ad-container {
+        display: none;
+    }
+    .sidebar {
+        margin-left: -227px;
+    }
+    .navbar {
+        flex-direction: column-reverse;
+        padding-right: 0;
+    }
+    .navbar .menu {
+        border-top: 2px solid #404040;
+        width: 100vw;
+        flex-direction: column;
+        background-color: #660000;
+    }
+    .navbar .menu li {
+        flex: 1;
+        border-bottom: 2px solid #330200;
+    }
+    .navbar .menu li a {
+        display: block;
+        padding: 8px 16px;
+        margin: 0;
+        text-align: center;
+    }
+    .navbar .server-info {
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .safezone {
+        max-width: 100vw;
+    }
+    .content {
+        border: none;
+    }
+    .main-content-header {
+        height: auto;
+        min-height: 300px;
+        border: none;
+    }
+    .main-content-body {
+        overflow: hidden;
+    }
+
+    .play-buttons {
+        flex-direction: column;
+        margin-right: -7.5%
+    }
+    .play-buttons .signup img {
+        width: 115%;
+    }
 }
