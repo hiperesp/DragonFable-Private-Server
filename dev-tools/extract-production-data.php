@@ -19,7 +19,6 @@ if (!isset($data[$choice])) {
     exit;
 }
 
-echo "Choice: {$choice}...\n";
 $data = $data[$choice];
 
 echo "What is your session token?\n";
@@ -71,8 +70,6 @@ if($choice=="quest") {
         }
     }
 
-    \file_put_contents("quests/quest{$questId}.xml", $result);
-    echo $result;die;
 }
 
 echo "Done\n";
