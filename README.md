@@ -10,3 +10,8 @@
 
 - Custom `gamefiles` location (can be served by any domain or same. CORS headers may be required)
 - Custom `server` location (can be hosted by another server or same. CORS headers may be required)
+
+
+##### Ignore
+
+Using `flash.external.ExternalInterface.call("console.log", "Hello ExternalInterface");` to log flash messages to browser console.
