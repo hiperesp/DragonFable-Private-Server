@@ -116,6 +116,13 @@ class CharacterModel extends Model {
     private function applyLevelUpBonuses(CharacterVO $character, int $newLevel): void {
         $bonusesPerLevel = [
             2 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            3 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            4 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            5 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            6 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            7 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            8 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
+            9 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
         ];
 
         $fullBonuses = [
