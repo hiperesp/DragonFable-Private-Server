@@ -31,9 +31,10 @@
                         <li><a href="lost-password.html">Lost Password</a></li>
                         <li><a href="tos.html">ToS</a></li>
                     </ul>
-                    <ul class="server-info">
-                        <li><b>Server Status:</b> <span class="server-online">Online</span></li>
-                        <li><b>18293</b> players online</li>
+                    <ul class="server-info" data-server-stats-provider="server-emulator/server.php/web-stats.json">
+                        <li><b>Server Status:</b> <span data-server-id="server-status">Fetching...</span></li>
+                        <li><b><span data-server-id="server-players-online">Fetching...</span></b> players online</li>
+                        <!-- <li><b>Server Version:</b> <span data-server-id="server-version">Fetching...</span></li> -->
                     </ul>
                 </nav>
                 <main class="main-content">
@@ -76,9 +77,11 @@
             </div>
         </section>
         <footer>
-            <p>© 2024 <b>unofficial</b> Dragon Fable Private Server.</p>
+            <p>© 2024 <b>Unofficial</b> Dragon Fable Private Server.</p>
             <p>This is a <b>fan-made</b> project and is <b>not affiliated</b> with or endorsed by the creators of the official Dragon Fable game.</p>
             <p>All trademarks and copyrights belong to their respective owners.</p>
         </footer>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/script.js"></script>
     </body>
 </html>
