@@ -6,12 +6,17 @@ $folders = [
 
 foreach($folders as $key => $folder) {
     $files = \scandir($folder);
+    \usort($files, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
     foreach($files as $file) {
         if($file=="." || $file==".." || $file == ".gitkeep") continue;
-        if(\preg_match('/^da_/', $file)) continue; // ignore dragon amulet required files
-        if(\preg_match('/^ir_/', $file)) continue; // ignore invalid reference files
-        if(\preg_match('/^lvl_/', $file)) continue; // ignore invalid reference files
+        if(\preg_match('/^da_quest/', $file)) continue; // ignore dragon amulet required files
+        if(\preg_match('/^ir_quest/', $file)) continue; // ignore invalid reference files
+        if(\preg_match('/^lvl_quest/', $file)) continue; // ignore level required files
+        if(\preg_match('/^empty_shop/', $file)) continue; // ignore empty shop files
 
+        // echo "Processing {$file}:\n";
 
         $xmlStr = \trim(\file_get_contents("{$folder}{$file}"));
 
@@ -34,10 +39,10 @@ foreach($folders as $key => $folder) {
             $questAttributes = $quest->attributes();
 
             if($questAttributes->strFileName != "none") {
-                $swfs[] = $questAttributes->strFileName;
+                $swfs[] = "{$questAttributes->strFileName}";
             }
             if($questAttributes->strXFileName != "none") {
-                $swfs[] = $questAttributes->strXFileName;
+                $swfs[] = "{$questAttributes->strXFileName}";
             }
             if($questAttributes->strExtra != "none") {
                 $params = \explode('HIPERESP-NEWLINE', $questAttributes->strExtra);
@@ -49,14 +54,38 @@ foreach($folders as $key => $folder) {
                     $paramName = $paramParts[0];
                     $paramValue = $paramParts[1];
                     if(\preg_match('/\.swf/', $paramValue)) { // sometimes swf has query params
-                        $swfs[] = $paramValue;
+                        $swfs[] = "{$paramValue}";
+                    } else if(\preg_match('/\.swf/', $paramName)) {
+                        $swfs[] = "{$paramName}";
                     }
                 }
             }
             if($questAttributes->strMonsterGroupFileName != "none") {
                 $swfs[] = "monsters/{$questAttributes->strMonsterGroupFileName}";
             }
+
+            foreach($quest->monsters as $monster) {
+                $monsterAttributes = $monster->attributes();
+                if($monsterAttributes->strMonsterFileName != "none") {
+                    $swfs[] = "monsters/{$monsterAttributes->strMonsterFileName}";
+                }
+            }
         }
+        if($key=="shop") {
+            $shop = $xml->shop;
+
+            foreach($shop->items as $item) {
+                $itemAttributes = $item->attributes();
+
+                if($itemAttributes->strFileName != "none") {
+                    $swfs[] = "{$itemAttributes->strFileName}";
+                }
+            }
+        }
+
+        $swfs = \array_values(\array_filter($swfs, function($swf) {
+            return \preg_match('/\.swf/', $swf);
+        }));
 
         if(\count($swfs) != $possibleSwfCount) {
             echo "SWF count mismatch: {$folder}{$file}\n";
@@ -73,20 +102,28 @@ foreach($folders as $key => $folder) {
 }
 
 function extractSwf($swf) {
+    // normalize path
+    $swf = \preg_replace('/\\\\/', '/', $swf);
+
     // remove query params
     $swf = \explode('?', $swf)[0];
 
     $swfParts = \explode('/', $swf);
 
+    // remove empty parts
+    $swfParts = \array_values(\array_filter($swfParts, function($part) {
+        return !empty($part);
+    }));
+
     if($swfParts) {
-        if(\in_array($swfParts[0], ["towns", "zones", "shops", "quests", "random"])) {
+        if(\in_array($swfParts[0], ["towns", "zones", "shops", "quests", "random", "wars"])) {
             $swf = "maps/{$swf}";
         }
     }
 
     $skips = [
-        "maps/random/ramdom-sandseagate-b.swf",
-        "maps/towns/SulenEska/quest-encampment.swf",
+        // "maps/random/ramdom-sandseagate-b.swf",
+        // "maps/towns/SulenEska/quest-encampment.swf",
     ];
     if(\in_array($swf, $skips)) {
         return;
