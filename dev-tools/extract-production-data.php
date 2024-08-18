@@ -9,7 +9,19 @@ $data = [
         "minId" => 0,
         "maxId" => 817,
         "skips" => [],
-    ]
+    ],
+    //? classes
+    //? dragoncustomize
+    //? dragons
+    //? equipment
+    //? hairlist (extracted all from signup, need more) + hair vendors
+    //? houses + items + vendors
+    //? interfaces
+    //? item merges + merge vendors
+    //? quest merge
+    //? vendors
+    //? wars
+    //? war waves
 ];
 
 echo "What do you want to extract?\n";
