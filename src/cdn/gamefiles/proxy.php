@@ -12,7 +12,7 @@ $contentType = \curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
 \curl_close($ch);
 
 if ($httpcode == 200) {
-    $path = __DIR__ . '/';
+    $path = __DIR__ . '/' . $requestPath;
     $dir = \dirname($path);
     if (!\is_dir($dir)) {
         \mkdir($dir, 0777, true);
