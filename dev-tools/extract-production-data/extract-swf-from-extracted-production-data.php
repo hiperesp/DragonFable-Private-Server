@@ -121,11 +121,21 @@ function extractSwf($swf) {
         return !empty($part);
     }));
 
+    $newSwf = $swf;
     if($swfParts) {
-        if(\in_array(\strtolower($swfParts[0]), ["towns", "zones", "shops", "quests", "random", "wars"])) {
-            $swf = "maps/{$swf}";
+        if(\in_array(\strtolower($swfParts[0]), [
+            "towns", "zones", "shops", "quests", "random", "wars", "rolith", "ccs",
+            "eric", "ballyhoo", "zone-ashmysterious.swf", "", "", "", "", "", 
+            "town-prologuechoice-r7.swf", "town-wardrobe-r32.swf", "town-wardrobe-x.swf",
+        ])) {
+            $newSwf = "maps/{$swf}";
+        }
+        if($swfParts[0] == 'quests' && $swfParts[1] == 'quests-ballyhoo.swf') {
+            $newSwf = $swf;
         }
     }
+
+    $swf = $newSwf;
 
     $skips = [
         // "maps/random/ramdom-sandseagate-b.swf",
