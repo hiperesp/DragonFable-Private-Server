@@ -5,6 +5,11 @@ $data = [
         "maxId" => 2172,
         "skips" => [],
     ],
+    "shop" => [
+        "minId" => 0,
+        "maxId" => 817,
+        "skips" => [],
+    ]
 ];
 
 echo "What do you want to extract?\n";
@@ -70,6 +75,33 @@ if($choice=="quest") {
         }
     }
 
+} else if($choice == "shop") {
+    for($shopId=$data['minId']; $shopId<=$data['maxId']; $shopId++) {
+        if(\in_array($shopId, $data['skips'])) {
+            echo "Skipping shop {$shopId}...\n";
+            continue;
+        }
+        if(\file_exists("shops/shop{$shopId}.xml")) {
+            // echo "Shop {$shopId} already extracted\n";
+            continue;
+        }
+        if(\file_exists("shops/empty_shop{$shopId}.xml")) {
+            // echo "Shop {$shopId} not extracted due to invalid reference\n";
+            continue;
+        }
+        echo "Extracting shop {$shopId}...\n";
+        try {
+            $shop = getShopData($shopId);
+            \file_put_contents("shops/shop{$shopId}.xml", $shop);
+            echo "Shop: {$shopId} done\n";
+        } catch (\Exception $e) {
+            echo "Shop: {$shopId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+            if($e->getMessage() === 'Empty shop') {
+                \file_put_contents("shops/empty_shop{$shopId}.xml", "");
+            }
+        }
+    }
 }
 
 echo "Done\n";
@@ -108,6 +140,54 @@ function getQuestData(string $sessionToken, int $charId, int $questId): string {
     $child0 = $validateXml->children()[0];
     if(!$child0) {
         echo $result;die;
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getShopData(int $shopId): string {
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-shopload.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><intShopID>{$shopId}</intShopID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \utf8_encode($result);
+
+    if(\strpos($result, '<shop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></shop>') !== false) {
+        throw new \Exception('Empty shop');
+    }
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result."??";die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
+        echo $result."???";die;
         throw new \Exception('Invalid XML');
     }
     if($child0->getName() === "info") {
