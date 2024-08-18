@@ -239,3 +239,31 @@ footer {
         margin-bottom: 8px;
     }
 }
+
+
+
+
+
+
+.main-content-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #ffff00;
+}
+
+#game-container-fullscreen {
+    width: 100vw;
+    height: 100vh;
+    max-width: 750px;
+    max-height: 550px;
+    position: relative;
+}
+#btn-toggle-fullscreen {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+}

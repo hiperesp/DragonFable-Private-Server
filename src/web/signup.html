@@ -3,40 +3,77 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>SignUp - Dragon Fable Private Server by hiperesp</title>
-        <style>
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-#FFable {
-    width: 100vw;
-    height: 100vh;
-}
-        </style>
+        <title>Register - Dragon Fable Private Server by hiperesp</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
     </head>
     <body>
-        <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="750" height="550" align="middle">
-            <param name="allowScriptAccess" value="sameDomain" />
-            <param name="movie" value="cdn/flash/usersignup-9Dec15-patched.swf" />
-            <param name="menu" value="false" />
-            <param name="allowFullScreen" value="true" />
-            <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp" />
-            <param name="bgcolor" value="#000000" />
-            <embed src="cdn/flash/usersignup-9Dec15-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
-                allowFullScreen="true" width="750" height="550" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
-                pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
-        </object>
-
-        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-        <script>
-        window.RufflePlayer.config = {
-            splashScreen: false,
-            autoplay: "on",
-            unmuteOverlay: "hidden",
-            muted: true
-        };
-        </script>
+        <section class="content">
+            <div class="main-container">
+                <aside class="ad-container">
+                    <div class="ad">
+                        <a href="javascript:void(0)"><img src="assets/images/ads/468x60-DragonSlayer.gif" width="468" height="60"></a>
+                    </div>
+                </aside>
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="signup.html">Register</a></li>
+                        <li><a href="play.html">Play</a></li>
+                        <li><a href="lost-password.html">Lost Password</a></li>
+                        <li><a href="tos.html">ToS</a></li>
+                    </ul>
+                    <ul class="server-info">
+                        <li><b>Server Status:</b> <span class="server-online">Online</span></li>
+                        <li><b>18293</b> players online</li>
+                    </ul>
+                </nav>
+                <main class="main-content">
+                    <div class="main-content-game">
+                        <div id="game-container-fullscreen">
+                            <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="100%" align="middle">
+                                <param name="allowScriptAccess" value="sameDomain" />
+                                <param name="movie" value="cdn/flash/usersignup-9Dec15-patched.swf" />
+                                <param name="menu" value="false" />
+                                <param name="allowFullScreen" value="true" />
+                                <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp" />
+                                <param name="bgcolor" value="#000000" />
+                                <embed src="cdn/flash/usersignup-9Dec15-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
+                                    allowFullScreen="true" width="100%" height="550" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
+                                    pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
+                            </object>
+                            <a href="javascript:void(0)" onclick="toggleFullScreen()" id="btn-toggle-fullscreen">Toggle<br>Fullscreen</a>
+                        </div>
+                        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+                        <script>
+                        window.RufflePlayer.config = {
+                            splashScreen: false,
+                            autoplay: "on",
+                            unmuteOverlay: "hidden",
+                            muted: true
+                        };
+                        function toggleFullScreen() {
+                            const element = document.querySelector("#game-container-fullscreen");
+                            const button = document.querySelector("#btn-toggle-fullscreen");
+                            if (document.fullscreenElement) {
+                                document.exitFullscreen();
+                                button.innerHTML = "Enter<br>Fullscreen";
+                            } else {
+                                element.requestFullscreen();
+                                button.innerHTML = "Exit<br>Fullscreen";
+                            }
+                        }
+                        </script>
+                    </div>
+                </main>
+            </div>
+        </section>
+        <footer>
+            <p>© 2024 <b>unofficial</b> Dragon Fable Private Server.</p>
+            <p>This is a <b>fan-made</b> project and is <b>not affiliated</b> with or endorsed by the creators of the official Dragon Fable game.</p>
+            <p>All trademarks and copyrights belong to their respective owners.</p>
+        </footer>
     </body>
 </html>
