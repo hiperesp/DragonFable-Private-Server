@@ -23,8 +23,8 @@ class SettingsVO extends ValueObject {
 
     public function __construct() {
         $this->gameVersion    = "game15_8_05-patched.swf";
-        $this->serverLocation = "server-emulator/server.php/"; // http://localhost:40000/server-emulator/server.php/
-        $this->gamefilesPath  = "https://df.hiper.esp.br/gamefiles/";       // http://localhost:40000/cdn/gamefiles/
+        $this->serverLocation = "server-emulator/server.php/";  // http://localhost:40000/server-emulator/server.php/
+        $this->gamefilesPath  = "cdn/gamefiles/";               // http://localhost:40000/cdn/gamefiles/
 
         $this->homeUrl          = "../../index.hmtl";
         $this->playUrl          = "../../play.html";
