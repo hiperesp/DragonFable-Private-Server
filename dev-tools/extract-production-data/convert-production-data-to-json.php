@@ -1,5 +1,6 @@
 <?php
 // [WIP]
+var_dump(convert("shop", __DIR__."/shops/shop2.xml"));die;
 var_dump(convert("quest", __DIR__."/quests/quest54.xml"));
 
 function convert($type, $file) {
@@ -10,6 +11,12 @@ function convert($type, $file) {
     $out = [];
 
     if($type=="quest") {
+
+        $out["quest"]         = [];
+        $out["monster"]       = [];
+        $out["quest_monster"] = [];
+        $out["race"]          = [];
+
         if(!isset($xmlJson["quest"][0])) {
             $xmlJson["quest"] = [$xmlJson["quest"]];
         }
@@ -41,9 +48,8 @@ function convert($type, $file) {
                 "monsterMaxLevel" => (int)$quest['@attributes']['intMonsterMaxLevel'],
                 "monsterType"     =>      $quest['@attributes']['strMonsterType'],
                 "monsterGroupSwf" =>      $quest['@attributes']['strMonsterGroupSwf'],
-
-                "#monster" => [],
             ];
+            $out["quest"][] = $questAdd;
 
             foreach($quest["monster"] as $monster) {
                 $monsterAdd = [
@@ -105,18 +111,95 @@ function convert($type, $file) {
                         "damageMax"     => (int)$monster['@attributes']['intDmgMax'],
                         "bonus"         => (int)$monster['@attributes']['intBonus'],
                         "swf"           =>      $monster['@attributes']['strWeaponFile'],
-                    ],
-                    "#race" => [
-                        "id"        => (int)$monster['@attributes']['RaceID'],
-                        "name"      =>      $monster['@attributes']['strRaceName'],
-                        "resists"   =>      "", // default
                     ]
                 ];
 
-                $questAdd["#monster"][] = $monsterAdd;
+                $out["monster"][] = $monsterAdd;
+                $out["quest_monster"][] = [
+                    "questId"   => (int)$quest['@attributes']['QuestID'],
+                    "monsterId" => (int)$monster['@attributes']['MonsterID'],
+                ];
+                $out["race"][] = [
+                    "id"        => (int)$monster['@attributes']['RaceID'],
+                    "name"      =>      $monster['@attributes']['strRaceName'],
+                    "resists"   =>      "", // default
+                ];
             }
-            $out[] = $questAdd;
         }
+    } else if($type == "shop") {
+
+        $out["shop"]      = [];
+        $out["item"]      = [];
+        $out["shop_item"] = [];
+
+        if(!isset($xmlJson["shop"][0])) {
+            $xmlJson["shop"] = [$xmlJson["shop"]];
+        }
+        foreach($xmlJson["shop"] as $shop) {
+            if(!isset($shop["items"])) {
+                $shop["items"] = [];
+            }
+            if(!isset($shop["items"][0])) {
+                $shop["items"] = [$shop["items"]];
+            }
+
+            $shopAdd = [
+                'id'    => (int)$shop['@attributes']['ShopID'],
+                'name'  =>      $shop['@attributes']['strCharacterName'],
+                'count' => (int)$shop['@attributes']['intCount'],
+                '#items' => [],
+            ];
+
+            foreach($shop['items'] as $item) {
+                $out["item"][] = [
+                    "id"            =>    (int)$item['@attributes']['ItemID'],
+                    "name"          =>         $item['@attributes']['strItemName'],
+                    "description"   =>         $item['@attributes']['strItemDescription'],
+                    "visible"       =>    (int)$item['@attributes']['bitVisible'],
+                    "destroyable"   =>    (int)$item['@attributes']['bitDestroyable'],
+                    "sellable"      =>    (int)$item['@attributes']['bitSellable'],
+                    "dragonAmulet"  =>    (int)$item['@attributes']['bitDragonAmulet'],
+                    "currency"      =>    (int)$item['@attributes']['intCurrency'],
+                    "cost"          =>    (int)$item['@attributes']['intCost'],
+                    "maxStackSize"  =>    (int)$item['@attributes']['intMaxStackSize'],
+                    "bonus"         =>    (int)$item['@attributes']['intBonus'],
+                    "rarity"        =>    (int)$item['@attributes']['intRarity'],
+                    "level"         =>    (int)$item['@attributes']['intLevel'],
+                    "type"          =>         $item['@attributes']['strType'],
+                    "element"       =>         $item['@attributes']['strElement'],
+                    "category"      =>         $item['@attributes']['strCategory'],
+                    "equipSpot"     =>         $item['@attributes']['strEquipSpot'],
+                    "itemType"      =>         $item['@attributes']['strItemType'],
+                    "fileName"      =>         $item['@attributes']['strFileName'],
+                    "icon"          =>         $item['@attributes']['strIcon'],
+                    "strength"      =>    (int)$item['@attributes']['intStr'],
+                    "dexterity"     =>    (int)$item['@attributes']['intDex'],
+                    "intelligence"  =>    (int)$item['@attributes']['intInt'],
+                    "luck"          =>    (int)$item['@attributes']['intLuk'],
+                    "charisma"      =>    (int)$item['@attributes']['intCha'],
+                    "endurance"     =>    (int)$item['@attributes']['intEnd'],
+                    "wisdom"        =>    (int)$item['@attributes']['intWis'],
+                    "damageMin"     =>    (int)$item['@attributes']['intMin'],
+                    "damageMax"     =>    (int)$item['@attributes']['intMax'],
+                    "defenseMelee"  =>    (int)$item['@attributes']['intDefMelee'],
+                    "defensePierce" =>    (int)$item['@attributes']['intDefPierce'],
+                    "defenseMagic"  =>    (int)$item['@attributes']['intDefMagic'],
+                    "critical"      =>    (int)$item['@attributes']['intCrit'],
+                    "parry"         =>    (int)$item['@attributes']['intParry'],
+                    "dodge"         =>    (int)$item['@attributes']['intDodge'],
+                    "block"         =>    (int)$item['@attributes']['intBlock'],
+                    "resists"       =>         $item['@attributes']['strResists'],
+                ];
+
+                $out["shop_item"][] = [
+                    "id"    => (int)$item['@attributes']['ShopItemID'], // associative key??
+                    "shop"  => (int)$item['@attributes']['ShopID'],
+                    "item"  => (int)$item['@attributes']['ItemID'],
+                ];
+            }
+        }
+
+        $out["shop"][] = $shopAdd;
     }
 
     return $out;
