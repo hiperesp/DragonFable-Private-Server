@@ -17,8 +17,6 @@ By default, the Dockerfile is configured to run with external cdn server. You ne
 
 You can use self hosted cdn like `http://localhost/cdn`, just replace `https://df.hiper.esp.br` with `http://localhost/cdn` in server settings + `play.html` and `signup.html`.
 
-Uncomment also the `COPY` line in Dockerfile to copy the patched files to the container.
-
 ##### Ignore
 
 Using `flash.external.ExternalInterface.call("console.log", "Hello ExternalInterface");` to log flash messages to browser console.
