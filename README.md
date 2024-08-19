@@ -11,6 +11,13 @@
 - Custom `gamefiles` location (can be served by any domain or same. CORS headers may be required)
 - Custom `server` location (can be hosted by another server or same. CORS headers may be required)
 
+### How to run:
+
+By default, the Dockerfile is configured to run with external cdn server. You need to change all occurrences of `https://df.hiper.esp.br` to your cdn address.
+
+You can use self hosted cdn like `http://localhost/cdn`, just replace `https://df.hiper.esp.br` with `http://localhost/cdn` in server settings + `play.html` and `signup.html`.
+
+Uncomment also the `COPY` line in Dockerfile to copy the patched files to the container.
 
 ##### Ignore
 
