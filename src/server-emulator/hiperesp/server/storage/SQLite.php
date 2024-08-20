@@ -106,13 +106,41 @@ class SQLite extends Storage {
     }
 
     public function reset(): void {
-        \array_map(function(string $table) {
-            $this->_dropTable($table);
-        }, self::getCollections());
-        $this->setup();
+        if(\file_exists($this->location)) {
+            \unlink($this->location);
+        }
     }
 
-    protected function setup(): void {
+    protected function needsSetup(): bool {
+        $needsSetup = false;
+        $this->eachMissingTable(function(string $table) use (&$needsSetup) {
+            $needsSetup = true;
+            return "break";
+        });
+        return $needsSetup;
+    }
+
+    public function setup(): void {
+        $this->eachMissingTable(function(string $table) {
+            $createTableSuccess = $this->_createTable("{$table}");
+            if(!$createTableSuccess) {
+                throw new \Exception("Setup error: Failed to create table {$table}");
+            }
+
+            $toInsert = self::getFullCollectionSetup()[$table]['data'];
+            foreach($toInsert as $data) {
+                try {
+                    $this->insert($table, $data);
+                } catch(\Exception $e) {
+                    $this->_dropTable("{$table}");
+                    throw new \Exception("Setup error: Failed to insert data into table {$table}: {$e->getMessage()}");
+                }
+            }
+            return "continue";
+        });
+    }
+
+    private function eachMissingTable(callable $callback): void {
         $mustHaveTables = \array_map(function(string $collection) {
             return $collection;
         }, self::getCollections());
@@ -123,20 +151,14 @@ class SQLite extends Storage {
 
         foreach($mustHaveTables as $table) {
             if(!\in_array($table, $tables)) {
-                $createTableSuccess = $this->_createTable("{$table}");
-                if(!$createTableSuccess) {
-                    throw new \Exception("Setup error: Failed to create table {$table}");
+                $action = $callback($table);
+                if($action === "break") {
+                    break;
                 }
-
-                $toInsert = self::getFullCollectionSetup()[$table]['data'];
-                foreach($toInsert as $data) {
-                    try {
-                        $this->insert($table, $data);
-                    } catch(\Exception $e) {
-                        $this->_dropTable("{$table}");
-                        throw new \Exception("Setup error: Failed to insert data into table {$table}");
-                    }
+                if($action === "continue") {
+                    continue;
                 }
+                throw new \Exception("Unknown action: {$action}");
             }
         }
     }

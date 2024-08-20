@@ -10,14 +10,17 @@ abstract class Storage {
 
     public abstract function reset(): void;
 
-    protected abstract function setup(): void;
+    protected abstract function needsSetup(): bool;
+    public abstract function setup(): void;
 
     private static Storage $instance;
-    public static function getStorage(): Storage {
+    public static function getStorage(bool $verifySetup = true): Storage {
         $storageSettings = $GLOBALS['storage'];
         if(!isset(self::$instance)) {
             self::$instance = new $storageSettings["driver"]($storageSettings["options"]);
-            self::$instance->setup();
+            if($verifySetup && self::$instance->needsSetup()) {
+                throw new \Exception("Database needs setup");
+            }
         }
         return self::$instance;
     }
@@ -269,23 +272,64 @@ abstract class Storage {
             ],
             "data" => "guild.json",
         ],
-        "item" => [ // [WIP]
+        "item" => [
             "structure" => [
                 "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"          => [ "STRING" => 255, "DEFAULT" => "" ],
+                "description"   => [ "STRING" => 255, "DEFAULT" => "" ],
+                "designInfo"    => [ "STRING" => 255, "DEFAULT" => "" ],
+                "visible"       => [ "INTEGER", "DEFAULT" => 1 ],
+                "destroyable"   => [ "INTEGER", "DEFAULT" => 1 ],
+                "sellable"      => [ "INTEGER", "DEFAULT" => 1 ],
+                "dragonAmulet"  => [ "INTEGER", "DEFAULT" => 0 ],
+                "currency"      => [ "INTEGER", "DEFAULT" => 1 ],
+                "cost"          => [ "INTEGER", "DEFAULT" => 0 ],
+                "maxStackSize"  => [ "INTEGER", "DEFAULT" => 1 ],
+                "bonus"         => [ "INTEGER", "DEFAULT" => 0 ],
+                "rarity"        => [ "INTEGER", "DEFAULT" => 0 ],
+                "level"         => [ "INTEGER", "DEFAULT" => 1 ],
+                "type"          => [ "STRING" => 255, "DEFAULT" => "" ],
+                "element"       => [ "STRING" => 255, "DEFAULT" => "" ],
+                "category"      => [ "STRING" => 255, "DEFAULT" => "" ],
+                "equipSpot"     => [ "STRING" => 255, "DEFAULT" => "" ],
+                "itemType"      => [ "STRING" => 255, "DEFAULT" => "" ],
+                "swf"           => [ "STRING" => 255, "DEFAULT" => "" ],
+                "icon"          => [ "STRING" => 255, "DEFAULT" => "" ],
+                "strength"      => [ "INTEGER", "DEFAULT" => 0 ],
+                "dexterity"     => [ "INTEGER", "DEFAULT" => 0 ],
+                "intelligence"  => [ "INTEGER", "DEFAULT" => 0 ],
+                "luck"          => [ "INTEGER", "DEFAULT" => 0 ],
+                "charisma"      => [ "INTEGER", "DEFAULT" => 0 ],
+                "endurance"     => [ "INTEGER", "DEFAULT" => 0 ],
+                "wisdom"        => [ "INTEGER", "DEFAULT" => 0 ],
+                "damageMin"     => [ "INTEGER", "DEFAULT" => 0 ],
+                "damageMax"     => [ "INTEGER", "DEFAULT" => 0 ],
+                "defenseMelee"  => [ "INTEGER", "DEFAULT" => 0 ],
+                "defensePierce" => [ "INTEGER", "DEFAULT" => 0 ],
+                "defenseMagic"  => [ "INTEGER", "DEFAULT" => 0 ],
+                "critical"      => [ "INTEGER", "DEFAULT" => 0 ],
+                "parry"         => [ "INTEGER", "DEFAULT" => 0 ],
+                "dodge"         => [ "INTEGER", "DEFAULT" => 0 ],
+                "block"         => [ "INTEGER", "DEFAULT" => 0 ],
+                "resists"       => [ "STRING" => 255, "DEFAULT" => "" ],
             ],
             "data" => "item/",
         ],
-        "shop" => [ // [WIP]
+        "shop" => [
             "structure" => [
-                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+                "id"    => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"  => [ "STRING" => 255, "DEFAULT" => ""],
+                "count" => [ "INTEGER", "DEFAULT" => -100 ], // not sure what means
             ],
-            "data" => "item/",
+            "data" => "shop/",
         ],
-        "shop_item" => [ // [WIP]
+        "shop_item" => [
             "structure" => [
-                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+                "id"     => [ "INTEGER", "PRIMARY_KEY" ],
+                "shopId" => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "shop", "field" => "id" ] ],
+                "itemId" => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "item", "field" => "id" ] ],
             ],
-            "data" => "item/",
+            "data" => "shop_item/",
         ],
     ];
 

@@ -16,7 +16,7 @@ class Dev extends Controller {
     )]
     public function sandbox(string $input): string {
 
-        return \implode("\n", $out);
+        return \implode("\n", []);
     }
 
     #[Request(
@@ -49,8 +49,11 @@ class Dev extends Controller {
     </fieldset>
     <fieldset>
         <legend>Database</legend>
-        <form action="database/reset">
-            <button>Reset data</button>
+        <form action="database/clear">
+            <button>Clear data</button>
+        </form>
+        <form action="database/setup">
+            <button>Setup data</button>
         </form>
         <form action="database">
             <button>Debug</button>
@@ -69,16 +72,17 @@ HTML;
         outputType: Output::HTML
     )]
     public function database(string $input): string {
-        $storage = Storage::getStorage();
+        $storage = Storage::getStorage(false);
 
         $output = "<style> body { background: black; color: white } table { font-family: 'Fira Code', monospace; border-collapse: collapse; } td, th { border: 1px solid #ddd; padding: 8px; } .collection { background-color: #204020; color: white; } tr:nth-child(even){background-color: #202020;} tr:hover {background-color: #404040;} th { padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #04AA6D; color: white; } </style>";
         foreach($storage->getCollections() as $collection) {
-            $data = $storage->select($collection, [], null);
+            $data = $storage->select($collection, [], 500);
+            $count = \count($data);
             if($data) {
                 $header = \array_keys($data[0]);
                 $headerLength = \count($header);
                 $output .= "<table>";
-                $output .= "<tr><th class=\"collection\" colspan=\"{$headerLength}\">{$collection}</th></tr>";
+                $output .= "<tr><th class=\"collection\" colspan=\"{$headerLength}\">{$collection} <small>(showing {$count}, limited to 500)</small></th></tr>";
                 $output .= "<tr>";
                 foreach($header as $field) {
                     $output .= "<th>{$field}</th>";
@@ -104,14 +108,29 @@ HTML;
     }
 
     #[Request(
-        endpoint: '/dev/database/reset',
+        endpoint: '/dev/database/clear',
         inputType: Input::RAW,
         outputType: Output::RAW
     )]
-    public function databaseReset(string $input): string {
-        $storage = Storage::getStorage();
+    public function databaseClear(string $input): string {
+        \ini_set('memory_limit', '16G');
+        \set_time_limit(0);
+        $storage = Storage::getStorage(false);
         $storage->reset();
         return "Database cleared";
+    }
+
+    #[Request(
+        endpoint: '/dev/database/setup',
+        inputType: Input::RAW,
+        outputType: Output::RAW
+    )]
+    public function databaseSetup(string $input): string {
+        \ini_set('memory_limit', '16G');
+        \set_time_limit(0);
+        $storage = Storage::getStorage(false);
+        $storage->setup();
+        return "Database setup OK!";
     }
 
     #[Request(
