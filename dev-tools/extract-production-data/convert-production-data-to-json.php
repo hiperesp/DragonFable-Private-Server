@@ -1,10 +1,149 @@
 <?php
-// [WIP]
-var_dump(convert("shop", __DIR__."/shops/shop2.xml"));die;
-var_dump(convert("quest", __DIR__."/quests/quest54.xml"));
 
-function convert($type, $file) {
-    $xml = simplexml_load_file($file);
+\set_time_limit(0);
+\ini_set('memory_limit', '16384M');
+
+$save = [
+    "quest" => true,
+    "shop" => true,
+];
+
+if($save["quest"]) {
+    $questFiles = \scandir(__DIR__."/quests");
+    \usort($questFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($questFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        if(\preg_match('/da_quest([\d]+)\.xml/', $file)) continue;
+        if(\preg_match('/lvl_quest([\d]+)\.xml/', $file)) continue;
+
+        $data = convert("quest", __DIR__."/quests/".$file);
+        save("quest", $data);
+    }
+}
+
+if($save["shop"]) {
+    $shopFiles = \scandir(__DIR__."/shops");
+    \usort($shopFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($shopFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        if(\preg_match('/empty_shop([\d]+)\.xml/', $file)) continue;
+        $data = convert("shop", __DIR__."/shops/".$file);
+
+        save("shop", $data);
+    }
+}
+
+function save(string $type, array $newData): void {
+    static $uniqueId = 9_000_000;
+
+    $subTypes = match($type) {
+        "shop" => [ "shop", "item", "shop_item" ],
+        "quest" => [ "race", "quest", "monster", "quest_monster", "item" ],
+    };
+
+    $outDir = __DIR__."/json/";
+
+    foreach($subTypes as $subType) {
+
+        if(!\is_dir("{$outDir}{$subType}")) {
+            \mkdir("{$outDir}{$subType}", 0777, true);
+        }
+
+        $file = "{$outDir}{$subType}/extracted-from-{$type}.json";
+
+        if(!\file_exists($file)) {
+            \file_put_contents($file, "[]");
+        }
+        $currentData = \json_decode(\file_get_contents($file), true);
+        foreach($newData[$subType] as $newItem) {
+            if(!\in_array($subType, ["quest_monster"])) { // can have multiple duplicates and dont have id
+                for($i=0; $i<\count($currentData); $i++) {
+                    $currentItem = $currentData[$i];
+                    if(!isset($currentItem["id"])) {
+                        throw new \Exception("Missing id in current item. SubType: {$subType}");
+                    }
+                    if($currentItem["id"] == $newItem["id"]) {
+                        foreach($newItem as $key => $value) {
+                            if($key[0] == "#") continue;
+                            if($currentItem[$key] != $value) {
+                                var_dump($currentItem, $newItem);
+                                throw new \Exception("Duplicate id found: {$newItem["id"]}. Different data found. SubType: {$subType}");
+                                break;
+                            }
+                        }
+                        continue 2;
+                    }
+                }
+            }
+            if($subType == "monster") {
+                // find armor and weapon by properties
+                foreach([
+                    "armor" => [
+                        "type" => "item",
+                        "appendData" => [
+                            "category" => "Armor",
+                        ],
+                    ],
+                    "weapon" => [
+                        "type" => "item",
+                        "appendData" => [
+                            "category" => "Weapon",
+                        ],
+                    ],
+                ] as $key => $findProps) {
+                    $findPropsFile = "{$outDir}{$findProps["type"]}/extracted-from-{$type}.json";
+                    if(!\file_exists($findPropsFile)) {
+                        \file_put_contents($findPropsFile, "[]");
+                    }
+                    $subData = \json_decode(\file_get_contents($findPropsFile), true);
+                    if($subData===null) {
+                        throw new \Exception("Failed to load json file: {$findPropsFile} - Monster: {$newItem["name"]}, ID: {$newItem["id"]}, Key: {$key}");
+                    }
+                    $subItem = null;
+                    foreach($subData as $subItemTest) {
+                        foreach($newItem["#{$key}"] as $subKey => $subValue) {
+                            if($subItemTest[$subKey] != $subValue) {
+                                continue 2;
+                            }
+                        }
+                        $subItem = $subItemTest;
+                    }
+                    if($subItem === null) {
+                        $newItem["#{$key}"]["id"] = $uniqueId++;
+                        foreach($findProps["appendData"] as $appendKey => $appendValue) {
+                            $newItem["#{$key}"][$appendKey] = $appendValue;
+                        }
+                        $dataToSave = [];
+                        foreach($subTypes as $emptyParam) {
+                            $dataToSave[$emptyParam] = [];
+                        }
+                        $dataToSave[$findProps["type"]] = [$newItem["#{$key}"]];
+                        save($type, $dataToSave);
+
+                        $subItem = $newItem["#{$key}"];
+                    }
+                    $newItem["{$key}Id"] = $subItem["id"];
+                }
+                unset($newItem["#armor"]);
+                unset($newItem["#weapon"]);
+            }
+            \array_push($currentData, $newItem);
+        }
+        \file_put_contents($file, \json_encode($currentData, JSON_PRETTY_PRINT));
+    }
+}
+
+function convert(string $type, string $file): array {
+    $xml = \simplexml_load_file($file);
+    if($xml===false) {
+        throw new \Exception("Failed to load xml file: {$file}");
+    }
     $xmlJsonStr = \json_encode($xml, JSON_PRETTY_PRINT);
     $xmlJson = \json_decode($xmlJsonStr, true); // fast way to get xml props as array
 
@@ -16,19 +155,13 @@ function convert($type, $file) {
         $out["monster"]       = [];
         $out["quest_monster"] = [];
         $out["race"]          = [];
+        $out["item"]          = [];
 
         if(!isset($xmlJson["quest"][0])) {
             $xmlJson["quest"] = [$xmlJson["quest"]];
         }
         foreach($xmlJson["quest"] as $quest) {
-            if(!isset($quest["monster"])) {
-                $quest["monster"] = [];
-            }
-            if(!isset($quest["monster"][0])) {
-                $quest["monster"] = [$quest["monster"]];
-            }
-
-            $questAdd = [
+            $out["quest"][] = [
                 "id"              => (int)$quest['@attributes']['QuestID'],
                 "name"            =>      $quest['@attributes']['strName'],
                 "description"     =>      $quest['@attributes']['strDescription'],
@@ -47,12 +180,15 @@ function convert($type, $file) {
                 "monsterMinLevel" => (int)$quest['@attributes']['intMonsterMinLevel'],
                 "monsterMaxLevel" => (int)$quest['@attributes']['intMonsterMaxLevel'],
                 "monsterType"     =>      $quest['@attributes']['strMonsterType'],
-                "monsterGroupSwf" =>      $quest['@attributes']['strMonsterGroupSwf'],
+                "monsterGroupSwf" =>      $quest['@attributes']['strMonsterGroupFileName'],
             ];
-            $out["quest"][] = $questAdd;
 
-            foreach($quest["monster"] as $monster) {
-                $monsterAdd = [
+            if(!isset($quest["monsters"])) continue;
+            if(!isset($quest["monsters"][0])) {
+                $quest["monsters"] = [$quest["monsters"]];
+            }
+            foreach($quest["monsters"] as $monster) {
+                $out["monster"][] = [
                     "id"            =>    (int)$monster['@attributes']['MonsterID'],
                     "name"          =>         $monster['@attributes']['strCharacterName'],
                     "level"         =>    (int)$monster['@attributes']['intLevel'],
@@ -78,8 +214,6 @@ function convert($type, $file) {
                     "wisdom"        =>    (int)$monster['@attributes']['intWis'],
                     "element"       =>         $monster['@attributes']['strElement'],
                     "raceId"        =>    (int)$monster['@attributes']['RaceID'],
-                    "armorId"       =>         NULL,
-                    "weaponId"      =>         NULL,
                     "movName"       =>         $monster['@attributes']['strMovName'],
                     "swf"           =>         $monster['@attributes']['strMonsterFileName'],
 
@@ -113,8 +247,6 @@ function convert($type, $file) {
                         "swf"           =>      $monster['@attributes']['strWeaponFile'],
                     ]
                 ];
-
-                $out["monster"][] = $monsterAdd;
                 $out["quest_monster"][] = [
                     "questId"   => (int)$quest['@attributes']['QuestID'],
                     "monsterId" => (int)$monster['@attributes']['MonsterID'],
@@ -136,21 +268,20 @@ function convert($type, $file) {
             $xmlJson["shop"] = [$xmlJson["shop"]];
         }
         foreach($xmlJson["shop"] as $shop) {
-            if(!isset($shop["items"])) {
-                $shop["items"] = [];
-            }
-            if(!isset($shop["items"][0])) {
-                $shop["items"] = [$shop["items"]];
-            }
-
-            $shopAdd = [
+            $out["shop"][] = [
                 'id'    => (int)$shop['@attributes']['ShopID'],
                 'name'  =>      $shop['@attributes']['strCharacterName'],
                 'count' => (int)$shop['@attributes']['intCount'],
-                '#items' => [],
             ];
 
+            if(!isset($shop["items"])) continue;
+            if(!isset($shop["items"][0])) {
+                $shop["items"] = [$shop["items"]];
+            }
             foreach($shop['items'] as $item) {
+                if(!isset($item['@attributes']['ItemID'])) {
+                    var_dump($shop);die;
+                }
                 $out["item"][] = [
                     "id"            =>    (int)$item['@attributes']['ItemID'],
                     "name"          =>         $item['@attributes']['strItemName'],
@@ -193,13 +324,11 @@ function convert($type, $file) {
 
                 $out["shop_item"][] = [
                     "id"    => (int)$item['@attributes']['ShopItemID'], // associative key??
-                    "shop"  => (int)$item['@attributes']['ShopID'],
+                    "shop"  => (int)$shop['@attributes']['ShopID'],
                     "item"  => (int)$item['@attributes']['ItemID'],
                 ];
             }
         }
-
-        $out["shop"][] = $shopAdd;
     }
 
     return $out;
