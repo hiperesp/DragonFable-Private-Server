@@ -62,6 +62,7 @@ class Quest extends Controller {
         return $char->asExpSaveResponse();
     }
 
+    // [WIP]
     #[Request(
         endpoint: '/cf-questcomplete-Mar2011.asp',
         inputType: Input::NINJA2,
@@ -110,6 +111,7 @@ XML);
 XML);
     }
 
+    // [WIP]
     #[Request(
         endpoint: '/cf-questreward.asp',
         inputType: Input::NINJA2,

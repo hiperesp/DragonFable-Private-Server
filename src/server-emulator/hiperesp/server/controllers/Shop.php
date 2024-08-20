@@ -7,6 +7,7 @@ use hiperesp\server\enums\Output;
 
 class Shop extends Controller {
 
+    // [WIP]
     #[Request(
         endpoint: '/cf-shopload.asp',
         inputType: Input::NINJA2,
