@@ -4,6 +4,7 @@ namespace hiperesp\server\exceptions;
 class DFException extends \Exception {
 
     const SUCCESS = "0";
+
     const INVALID_REFERENCE = "500.73";
     const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
     const RACE_NOT_FOUND = self::INVALID_REFERENCE;
@@ -12,6 +13,7 @@ class DFException extends \Exception {
     const HAIR_NOT_FOUND = self::INVALID_REFERENCE;
     const MONSTER_NOT_FOUND = self::INVALID_REFERENCE;
     const SHOP_NOT_FOUND = self::INVALID_REFERENCE;
+    const INTERFACE_NOT_FOUND = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";
     const EMAIL_ALREADY_EXISTS = "000.50";
