@@ -81,10 +81,18 @@ class CharacterModel extends Model {
         $level = $character->level;
         $experienceToLevel = $character->experienceToLevel;
 
-        $experience += \min($reward['experience'], $quest->maxExp);
-        $gems       += \min($reward['gems'],       $quest->maxGems);
-        $gold       += \min($reward['gold'],       $quest->maxGold);
-        $silver     += \min($reward['silver'],     $quest->maxSilver);
+        if(isset($reward['experience'])) {
+            $experience += \min($reward['experience'], $quest->maxExp);
+        }
+        if(isset($reward['gems'])) {
+            $gems += \min($reward['gems'], $quest->maxGems);
+        }
+        if(isset($reward['gold'])) {
+            $gold += \min($reward['gold'], $quest->maxGold);
+        }
+        if(isset($reward['silver'])) {
+            $silver += \min($reward['silver'], $quest->maxSilver);
+        }
 
         if($settings->levelUpMultipleTimes) {
             // if player gets more experience than needed to level up, will level up multiple times
