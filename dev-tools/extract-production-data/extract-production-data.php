@@ -4,6 +4,10 @@ $data = [
         "minId" => 1,
         "maxId" => 2172,
         "skips" => [],
+        "onlyIds" => [
+            # lvl
+            462, 
+        ],
     ],
     "shop" => [
         "minId" => 0,
@@ -50,6 +54,9 @@ if($choice=="quest") {
     for($questId=$data['minId']; $questId<=$data['maxId']; $questId++) {
         if(\in_array($questId, $data['skips'])) {
             echo "Skipping quest {$questId}...\n";
+            continue;
+        }
+        if($data['onlyIds'] && !\in_array($questId, $data['onlyIds'])) {
             continue;
         }
         if(\file_exists("quests/quest{$questId}.xml")) {

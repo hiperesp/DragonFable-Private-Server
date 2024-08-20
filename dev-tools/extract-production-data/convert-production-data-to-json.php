@@ -5,7 +5,7 @@
 
 $save = [
     "quest" => true,
-    "shop" => true,
+    "shop" => false,
 ];
 
 if($save["quest"]) {
