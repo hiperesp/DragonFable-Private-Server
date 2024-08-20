@@ -65,7 +65,7 @@ class CharacterModel extends Model {
         $questString[$index] = $value;
         $this->storage->update(self::COLLECTION, [
             'id' => $character->id,
-            'questString' => $questString
+            'quests' => $questString
         ]);
     }
 
