@@ -323,9 +323,9 @@ function convert(string $type, string $file): array {
                 ];
 
                 $out["shop_item"][] = [
-                    "id"    => (int)$item['@attributes']['ShopItemID'], // associative key??
-                    "shop"  => (int)$shop['@attributes']['ShopID'],
-                    "item"  => (int)$item['@attributes']['ItemID'],
+                    "id"     => (int)$item['@attributes']['ShopItemID'], // associative key??
+                    "shopId" => (int)$shop['@attributes']['ShopID'],
+                    "itemId" => (int)$item['@attributes']['ItemID'],
                 ];
             }
         }
