@@ -16,16 +16,18 @@ abstract class ValueObject {
             if($propertyType == null) throw new \Exception("Property {$propertyName} has no type");
 
             if($propertyType->getName() == 'int') {
-                $this->$propertyName = \intval($data[$propertyName]);
+                $value = \intval($data[$propertyName]);
             } else if($propertyType->getName() == 'string') {
-                $this->$propertyName = \strval($data[$propertyName]);
+                $value = \strval($data[$propertyName]);
             } else if($propertyType->getName() == 'float') {
-                $this->$propertyName = \floatval($data[$propertyName]);
+                $value = \floatval($data[$propertyName]);
             } else if($propertyType->getName() == 'bool') {
-                $this->$propertyName = \boolval($data[$propertyName]);
+                $value = \boolval($data[$propertyName]);
             } else {
                 throw new \Exception("Property {$propertyName} has an invalid type");
             }
+            $property->setAccessible(true);
+            $property->setValue($this, $value);
         }
     }
 

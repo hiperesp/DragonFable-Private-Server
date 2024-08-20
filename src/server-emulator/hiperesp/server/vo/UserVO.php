@@ -25,7 +25,7 @@ class UserVO extends ValueObject {
     public readonly int $accessLevel;
     public readonly int $upgrade;
     public readonly int $activationFlag;
-    public readonly int $optin;
+    public readonly int $optIn;
     public readonly int $adFlag;
 
     public readonly ?string $lastLogin;
@@ -46,7 +46,7 @@ class UserVO extends ValueObject {
         $user->addAttribute('intAccessLevel', $this->accessLevel);
         $user->addAttribute('intUpgrade', $this->upgrade);
         $user->addAttribute('intActivationFlag', $this->activationFlag);
-        $user->addAttribute('bitOptin', $this->optin);
+        $user->addAttribute('bitOptin', $this->optIn);
         $user->addAttribute('strToken', $this->sessionToken);
         $user->addAttribute('strNews', $settings->news);
         $user->addAttribute('bitAdFlag', $this->adFlag);
