@@ -14,6 +14,11 @@ $data = [
         "maxId" => 817,
         "skips" => [],
     ],
+    "interface" => [
+        "minId" => 1,
+        "maxId" => 20,
+        "skips" => [],
+    ],
     //? classes
     //? dragoncustomize
     //? dragons
@@ -121,6 +126,26 @@ if($choice=="quest") {
             }
         }
     }
+} else if($choice == "interface") {
+    for($interfaceId=$data['minId']; $interfaceId<=$data['maxId']; $interfaceId++) {
+        if(\in_array($interfaceId, $data['skips'])) {
+            echo "Skipping interface {$interfaceId}...\n";
+            continue;
+        }
+        if(\file_exists("interfaces/interface{$interfaceId}.xml")) {
+            // echo "Interface {$interfaceId} already extracted\n";
+            continue;
+        }
+        echo "Extracting interface {$interfaceId}...\n";
+        try {
+            $interface = getInterfaceData($interfaceId);
+            \file_put_contents("interfaces/interface{$interfaceId}.xml", $interface);
+            echo "Interface: {$interfaceId} done\n";
+        } catch (\Exception $e) {
+            echo "Interface: {$interfaceId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+        }
+    }
 }
 
 echo "Done\n";
@@ -207,6 +232,49 @@ function getShopData(int $shopId): string {
     $child0 = $validateXml->children()[0];
     if(!$child0) {
         echo $result."???";die;
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getInterfaceData(int $interfaceId): string {
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-interfaceload.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><intInterfaceID>{$interfaceId}</intInterfaceID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \utf8_encode($result);
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result;die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
         throw new \Exception('Invalid XML');
     }
     if($child0->getName() === "info") {
