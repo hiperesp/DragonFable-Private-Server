@@ -1,23 +1,12 @@
 <?php
 namespace hiperesp\server\models;
 
-use hiperesp\server\exceptions\DFException;
-use hiperesp\server\vo\ArmorVO;
 use hiperesp\server\vo\ClassVO;
+use hiperesp\server\vo\ItemVO;
 
-class ArmorModel extends Model {
+class ArmorModel extends ItemModel {
 
-    const COLLECTION = 'armor';
-
-    public function getById(int $armorId): ArmorVO {
-        $armor = $this->storage->select(self::COLLECTION, ['id' => $armorId]);
-        if(isset($armor[0]) && $armor = $armor[0]) {
-            return new ArmorVO($armor);
-        }
-        throw DFException::fromCode(DFException::ARMOR_NOT_FOUND);
-    }
-
-    public function getByClass(ClassVO $class): ArmorVO {
+    public function getByClass(ClassVO $class): ItemVO {
         return $this->getById($class->armorId);
     }
 

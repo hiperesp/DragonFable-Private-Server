@@ -172,7 +172,7 @@ abstract class Storage {
                 "name"      => [ "STRING" => 20 ],
                 "resists"   => [ "STRING" => 255 ],
             ],
-            "data" => "race.json",
+            "data" => "race/",
         ],
         "class" => [
             "structure" => [
@@ -185,41 +185,6 @@ abstract class Storage {
                 "savable"   => [ "INTEGER" ],
             ],
             "data" => "class.json",
-        ],
-        "armor" => [
-            "structure" => [
-                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
-                "name"          => [ "STRING" => 255 ],
-                "designInfo"    => [ "STRING" => 255 ],
-                "description"   => [ "STRING" => 255 ],
-                "resists"       => [ "STRING" => 255 ],
-                "defenseMelee"  => [ "INTEGER" ],
-                "defensePierce" => [ "INTEGER" ],
-                "defenseMagic"  => [ "INTEGER" ],
-                "parry"         => [ "INTEGER" ],
-                "dodge"         => [ "INTEGER" ],
-                "block"         => [ "INTEGER" ],
-            ],
-            "data" => "armor.json",
-        ],
-        "weapon" => [
-            "structure" => [
-                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
-                "name"          => [ "STRING" => 255 ],
-                "description"   => [ "STRING" => 255 ],
-                "designInfo"    => [ "STRING" => 255 ],
-                "resists"       => [ "STRING" => 255 ],
-                "level"         => [ "INTEGER" ],
-                "icon"          => [ "STRING" => 255 ],
-                "type"          => [ "STRING" => 255 ],
-                "itemType"      => [ "STRING" => 255 ],
-                "critical"      => [ "INTEGER" ],
-                "damageMin"     => [ "INTEGER" ],
-                "damageMax"     => [ "INTEGER" ],
-                "bonus"         => [ "INTEGER" ],
-                "swf"           => [ "STRING" => 255 ],
-            ],
-            "data" => "weapon.json",
         ],
         "quest" => [
             "structure" => [
@@ -243,7 +208,7 @@ abstract class Storage {
                 "monsterType"       => [ "STRING", "DEFAULT" => "" ],
                 "monsterGroupSwf"   => [ "STRING", "DEFAULT" => "" ],
             ],
-            "data" => "quest.json",
+            "data" => "quest/",
         ],
         "quest_monster" => [
             "structure" => [
@@ -295,7 +260,7 @@ abstract class Storage {
                 "movName"       => [ "STRING" => 255 ],
                 "swf"           => [ "STRING" => 255 ],
             ],
-            "data" => "monster.json",
+            "data" => "monster/",
         ],
         "guild" => [
             "structure" => [
@@ -303,7 +268,60 @@ abstract class Storage {
                 "name"  => [ "STRING" => 255 ],
             ],
             "data" => "guild.json",
-        ]
+        ],
+        // "armor" => [
+        //     "structure" => [
+        //         "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+        //         "name"          => [ "STRING" => 255 ],
+        //         "designInfo"    => [ "STRING" => 255 ],
+        //         "description"   => [ "STRING" => 255 ],
+        //         "resists"       => [ "STRING" => 255 ],
+        //         "defenseMelee"  => [ "INTEGER" ],
+        //         "defensePierce" => [ "INTEGER" ],
+        //         "defenseMagic"  => [ "INTEGER" ],
+        //         "parry"         => [ "INTEGER" ],
+        //         "dodge"         => [ "INTEGER" ],
+        //         "block"         => [ "INTEGER" ],
+        //     ],
+        //     "data" => "armor.json",
+        // ],
+        // "weapon" => [
+        //     "structure" => [
+        //         "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+        //         "name"          => [ "STRING" => 255 ],
+        //         "description"   => [ "STRING" => 255 ],
+        //         "designInfo"    => [ "STRING" => 255 ],
+        //         "resists"       => [ "STRING" => 255 ],
+        //         "level"         => [ "INTEGER" ],
+        //         "icon"          => [ "STRING" => 255 ],
+        //         "type"          => [ "STRING" => 255 ],
+        //         "itemType"      => [ "STRING" => 255 ],
+        //         "critical"      => [ "INTEGER" ],
+        //         "damageMin"     => [ "INTEGER" ],
+        //         "damageMax"     => [ "INTEGER" ],
+        //         "bonus"         => [ "INTEGER" ],
+        //         "swf"           => [ "STRING" => 255 ],
+        //     ],
+        //     "data" => "weapon.json",
+        // ],
+        "item" => [ // [WIP]
+            "structure" => [
+                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+            ],
+            "data" => "item/",
+        ],
+        "shop" => [ // [WIP]
+            "structure" => [
+                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+            ],
+            "data" => "item/",
+        ],
+        "shop_item" => [ // [WIP]
+            "structure" => [
+                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+            ],
+            "data" => "item/",
+        ],
     ];
 
 }

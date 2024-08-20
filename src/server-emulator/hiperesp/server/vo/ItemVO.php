@@ -3,52 +3,85 @@ namespace hiperesp\server\vo;
 
 class ItemVO extends ValueObject {
 
-    private int $id;
+    public readonly int $id;
 
-    private string $name;
-    private string $description;
+    public readonly string $name;
+    public readonly string $designInfo;
+    public readonly string $description;
+    public readonly string $resists;
 
-    private bool $visible;
-    private bool $destroyable;
-    private bool $sellable;
-    private bool $dragonAmulet;
+    public readonly bool $visible;
+    public readonly bool $destroyable;
+    public readonly bool $sellable;
+    public readonly bool $dragonAmulet;
 
-    private int $currency;
-    private int $cost;
+    public readonly int $currency;
+    public readonly int $cost;
 
-    private int $maxStackSize;
-    private int $bonus;
-    private int $rarity;
-    private int $level;
+    public readonly int $maxStackSize;
+    public readonly int $bonus;
+    public readonly int $rarity;
+    public readonly int $level;
 
-    private string $type;
-    private string $element;
-    private string $category;
-    private string $equipSpot;
-    private string $itemType;
+    public readonly string $type;
+    public readonly string $element;
+    public readonly string $category;
+    public readonly string $equipSpot;
+    public readonly string $itemType;
 
-    private string $fileName;
-    private string $icon;
+    public readonly string $swf;
+    public readonly string $icon;
 
-    private int $strength;
-    private int $dexterity;
-    private int $intelligence;
-    private int $luck;
-    private int $charisma;
-    private int $endurance;
-    private int $wisdom;
+    public readonly int $strength;
+    public readonly int $dexterity;
+    public readonly int $intelligence;
+    public readonly int $luck;
+    public readonly int $charisma;
+    public readonly int $endurance;
+    public readonly int $wisdom;
 
-    private int $minDamage;
-    private int $maxDamage;
+    public readonly int $damageMin;
+    public readonly int $damageMax;
 
-    private int $defMelee;
-    private int $defPierce;
-    private int $defMagic;
-    private int $critical;
-    private int $parry;
-    private int $dodge;
-    private int $block;
+    public readonly int $defenseMelee;
+    public readonly int $defensePierce;
+    public readonly int $defenseMagic;
+    public readonly int $parry;
+    public readonly int $dodge;
+    public readonly int $block;
+    public readonly int $critical;
 
-    private string $resists;
+    public function __construct(array $data) {
+        $this->id = $data['id'];
 
+        $this->name = $data['name'];
+        $this->designInfo = $data['designInfo'];
+        $this->description = $data['description'];
+        $this->resists = $data['resists'];
+
+        $this->defenseMelee = $data['defenseMelee'];
+        $this->defensePierce = $data['defensePierce'];
+        $this->defenseMagic = $data['defenseMagic'];
+        $this->parry = $data['parry'];
+        $this->dodge = $data['dodge'];
+        $this->block = $data['block'];
+
+        
+        $this->id = $data['id'];
+
+        $this->name = $data['name'];
+        $this->description = $data['description'];
+        $this->designInfo = $data['designInfo'];
+        $this->resists = $data['resists'];
+        $this->level = $data['level'];
+        $this->icon = $data['icon'];
+        $this->type = $data['type'];
+        $this->itemType = $data['itemType'];
+        $this->critical = $data['critical'];
+        $this->damageMin = $data['damageMin'];
+        $this->damageMax = $data['damageMax'];
+        $this->bonus = $data['bonus'];
+        $this->swf = $data['swf'];
+
+    }
 }
