@@ -40,7 +40,7 @@ if($save["shop"]) {
 }
 
 function save(string $type, array $newData): void {
-    static $uniqueId = 9_000_000;
+    static $uniqueId = 9_900_000;
 
     $subTypes = match($type) {
         "shop" => [ "shop", "item", "shop_item" ],
