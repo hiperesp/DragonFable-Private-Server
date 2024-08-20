@@ -2,10 +2,11 @@ services:
   web:
     build:
       context: .
-      dockerfile: Dockerfile-local
+      dockerfile: Dockerfile
     ports:
       - "40000:80"
     volumes:
+      - ./dev-tools/:/var/www/html/dev-tools/ # DEV ONLY
       - ./src/cdn/:/var/www/html/cdn/
       - ./src/server-emulator/:/var/www/html/server-emulator/
       - ./src/web/assets/:/var/www/html/assets/
