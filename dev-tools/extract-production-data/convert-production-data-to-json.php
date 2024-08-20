@@ -301,7 +301,7 @@ function convert(string $type, string $file): array {
                     "category"      =>         $item['@attributes']['strCategory'],
                     "equipSpot"     =>         $item['@attributes']['strEquipSpot'],
                     "itemType"      =>         $item['@attributes']['strItemType'],
-                    "fileName"      =>         $item['@attributes']['strFileName'],
+                    "swf"           =>         $item['@attributes']['strFileName'],
                     "icon"          =>         $item['@attributes']['strIcon'],
                     "strength"      =>    (int)$item['@attributes']['intStr'],
                     "dexterity"     =>    (int)$item['@attributes']['intDex'],
