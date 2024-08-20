@@ -30,7 +30,6 @@ class Quest extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><strToken>STR TOKEN HERE</strToken><intCharID>12345678</intCharID><intQuestID>64</intQuestID></flash>
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
@@ -46,7 +45,6 @@ class Quest extends Controller {
         outputType: Output::NINJA2XML
     )]
     public function expSave(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intExp>20</intExp><intGems>0</intGems><intGold>21</intGold><intSilver>0</intSilver><intQuestID>54</intQuestID><strToken>bb12feb39193e8a57ec0fa82539b5069</strToken><intCharID>1</intCharID></flash>
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
@@ -70,7 +68,6 @@ class Quest extends Controller {
         outputType: Output::XML
     )]
     public function complete_mar2011(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intWaveCount>1</intWaveCount><intRare>0</intRare><intWar>0</intWar><intLootID>-1</intLootID><intExp>undefined</intExp><intGold>undefined</intGold><intQuestID>54</intQuestID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
@@ -139,7 +136,7 @@ XML);
         outputType: Output::XML
     )]
     public function saveQuestString(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intValue>1</intValue><intIndex>55</intIndex><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
+
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $this->characterModel->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);

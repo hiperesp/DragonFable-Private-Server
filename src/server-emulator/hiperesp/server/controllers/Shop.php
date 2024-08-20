@@ -13,7 +13,6 @@ class Shop extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intShopID>747</intShopID></flash>
 
         $shopID = (int)$input->intShopID;
 

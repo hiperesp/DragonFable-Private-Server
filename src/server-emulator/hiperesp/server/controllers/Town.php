@@ -20,7 +20,6 @@ class Town extends Controller {
         outputType: Output::NINJA2XML
     )]
     public function changeHome(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intTownID>51</intTownID><strToken>LOGINTOKENSTRNG</strToken><intCharID>12345678</intCharID></flash>
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);

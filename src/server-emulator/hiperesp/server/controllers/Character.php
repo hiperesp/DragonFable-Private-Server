@@ -58,7 +58,6 @@ class Character extends Controller {
         outputType: Output::NINJA2XML
     )]
     public function delete(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><strToken>LOGINTOKENSTRING</strToken><strPassword>admin</strPassword><strUsername>admin</strUsername><intCharID>12345678</intCharID></flash>
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
@@ -73,7 +72,6 @@ class Character extends Controller {
         outputType: Output::XML
     )]
     public function dragonAmuletCheck(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><strToken>689c1e0a5126fd5fb14acb6452ac178d</strToken><intCharID>undefined</intCharID></flash>
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);

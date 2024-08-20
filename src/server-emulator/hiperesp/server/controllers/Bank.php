@@ -13,7 +13,6 @@ class Bank extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><strToken>STR TOKEN</strToken><intCharID>12345678</intCharID></flash>
 
         return \simplexml_load_string(<<<XML
 <?xml version="1.0" encoding="UTF-8"?>
