@@ -44,45 +44,11 @@ class MonsterVO extends ValueObject {
     public readonly string $swf;
 
     public function __construct(array $monster) {
-        $this->id = $monster['id'];
-
-        $this->name = $monster['name'];
-
-        $this->level = $monster['level'];
-        $this->experience = $monster['experience'];
-
-        $this->hitPoints = $monster['hitPoints'];
-        $this->manaPoints = $monster['manaPoints'];
-
-        $this->silver = $monster['silver'];
-        $this->gold = $monster['gold'];
-        $this->gems = $monster['gems'];
-        $this->coins = $monster['coins'];
-
-        $this->gender = $monster['gender'];
-
-        $this->hairStyle = $monster['hairStyle'];
-        $this->colorHair = \hexdec($monster['colorHair']);
-        $this->colorSkin = \hexdec($monster['colorSkin']);
-        $this->colorBase = \hexdec($monster['colorBase']);
-        $this->colorTrim = \hexdec($monster['colorTrim']);
-
-        $this->strength = $monster['strength'];
-        $this->dexterity = $monster['dexterity'];
-        $this->intelligence = $monster['intelligence'];
-        $this->luck = $monster['luck'];
-        $this->charisma = $monster['charisma'];
-        $this->endurance = $monster['endurance'];
-        $this->wisdom = $monster['wisdom'];
-
-        $this->element = $monster['element'];
-
-        $this->raceId = $monster['raceId'];
-        $this->armorId = $monster['armorId'];
-        $this->weaponId = $monster['weaponId'];
-
-        $this->movName = $monster['movName'];
-        $this->swf = $monster['swf'];
+        $monster['colorHair'] = \hexdec($monster['colorHair']);
+        $monster['colorSkin'] = \hexdec($monster['colorSkin']);
+        $monster['colorBase'] = \hexdec($monster['colorBase']);
+        $monster['colorTrim'] = \hexdec($monster['colorTrim']);
+        parent::__construct($monster);
     }
 
 }

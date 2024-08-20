@@ -37,37 +37,6 @@ class QuestVO extends ValueObject {
     public readonly string $monsterType;
     public readonly string $monsterGroupSwf;
 
-    public function __construct(array $data) {
-
-        $this->id = $data['id'];
-
-        $this->name = $data['name'];
-        $this->description = $data['description'];
-        $this->complete = $data['complete'];
-
-        $this->swf = $data['swf'];
-        $this->swfX = $data['swfX'];
-
-        $this->maxSilver = $data['maxSilver'];
-        $this->maxGold = $data['maxGold'];
-        $this->maxGems = $data['maxGems'];
-        $this->maxExp = $data['maxExp'];
-
-        $this->minTime = $data['minTime'];
-        $this->counter = $data['counter'];
-
-        $this->extra = $data['extra'];
-
-        $this->dailyIndex = $data['dailyIndex'];
-        $this->dailyReward = $data['dailyReward'];
-
-        $this->monsterMinLevel = $data['monsterMinLevel'];
-        $this->monsterMaxLevel = $data['monsterMaxLevel'];
-        $this->monsterType = $data['monsterType'];
-        $this->monsterGroupSwf = $data['monsterGroupSwf'];
-
-    }
-
     public function asLoadTownResponse(): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<LoadTown/>');
         $newTown = $xml->addChild('newTown');

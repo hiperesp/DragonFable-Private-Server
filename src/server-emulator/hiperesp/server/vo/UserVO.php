@@ -31,27 +31,8 @@ class UserVO extends ValueObject {
     public readonly ?string $lastLogin;
 
     public function __construct(array $user) {
-        $this->id = $user['id'];
-
-        $this->createdAt = $user['createdAt'];
-        $this->updatedAt = $user['updatedAt'];
-
-        $this->username = $user['username'];
-        $this->email = $user['email'];
-        $this->password = "";
-
-        $this->birthdate = $user['birthdate'];
-
-        $this->sessionToken = $user['sessionToken'];
-
-        $this->charsAllowed = $user['charsAllowed'];
-        $this->accessLevel = $user['accessLevel'];
-        $this->upgrade = $user['upgrade'];
-        $this->activationFlag = $user['activationFlag'];
-        $this->optin = $user['optIn'];
-        $this->adFlag = $user['adFlag'];
-
-        $this->lastLogin = $user['lastLogin'];
+        $user["password"] = "";
+        parent::__construct($user);
     }
 
     public function asLoginResponse(SettingsModel $settingsModel, CharacterModel $characterModel, ClassModel $classModel, RaceModel $raceModel): \SimpleXMLElement {

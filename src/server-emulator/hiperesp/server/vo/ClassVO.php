@@ -13,18 +13,4 @@ class ClassVO extends ValueObject {
     public readonly int $weaponId;
     public readonly int $savable;
 
-    public function __construct(array $data) {
-
-        $this->id = $data['id'];
-
-        $this->name = $data['name'];
-        $this->element = $data['element'];
-        $this->swf = $data['swf'];
-
-        $this->armorId = $data['armorId'];
-        $this->weaponId = $data['weaponId'];
-        $this->savable = $data['savable'];
-
-    }
-
 }
