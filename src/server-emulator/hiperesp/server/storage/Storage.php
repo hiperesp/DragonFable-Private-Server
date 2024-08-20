@@ -331,6 +331,15 @@ abstract class Storage {
             ],
             "data" => "shop_item/",
         ],
+        "interface" => [
+            "structure" => [
+                "id"        => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"      => [ "STRING" => 255, "DEFAULT" => "" ],
+                "swf"       => [ "STRING" => 255, "DEFAULT" => "" ],
+                "loadUnder" => [ "INTEGER", "DEFAULT" => 0 ],
+            ],
+            "data" => "interface/",
+        ],
     ];
 
 }

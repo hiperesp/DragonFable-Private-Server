@@ -4,8 +4,9 @@
 \ini_set('memory_limit', '16384M');
 
 $save = [
-    "quest" => true,
+    "quest" => false,
     "shop" => false,
+    "interface" => true,
 ];
 
 if($save["quest"]) {
@@ -39,12 +40,27 @@ if($save["shop"]) {
     }
 }
 
+if($save["interface"]) {
+    $interfaceFiles = \scandir(__DIR__."/interfaces");
+    \usort($interfaceFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($interfaceFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        $data = convert("interface", __DIR__."/interfaces/".$file);
+
+        save("interface", $data);
+    }
+}
+
 function save(string $type, array $newData): void {
     static $uniqueId = 9_900_000;
 
     $subTypes = match($type) {
         "shop" => [ "shop", "item", "shop_item" ],
         "quest" => [ "race", "quest", "monster", "quest_monster", "item" ],
+        "interface" => [ "interface" ],
     };
 
     $outDir = __DIR__."/json/";
@@ -329,6 +345,15 @@ function convert(string $type, string $file): array {
                 ];
             }
         }
+    } else if($type=="interface") {
+        $out["interface"][] = [
+            "id"        => (int)$xmlJson['intrface']['@attributes']['InterfaceID'],
+            "name"      =>      $xmlJson['intrface']['@attributes']['strName'],
+            "swf"       =>      $xmlJson['intrface']['@attributes']['strFileName'],
+            "loadUnder" => (int)$xmlJson['intrface']['@attributes']['bitLoadUnder'],
+        ];
+    } else {
+        throw new \Exception("Unknown type: {$type}");
     }
 
     return $out;
