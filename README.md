@@ -15,7 +15,7 @@
 
 By default, the Dockerfile is configured to run with external cdn server. You need to change all occurrences of `https://df.hiper.esp.br` to your cdn address.
 
-You can use self hosted cdn like `http://localhost/cdn`, just replace `https://df.hiper.esp.br` with `http://localhost/cdn` in server settings + `play.html` and `signup.html`.
+You can use self hosted cdn like `http://localhost:40000/cdn`, just replace `https://df.hiper.esp.br` with `http://localhost:40000/cdn` in server settings + `play.html` and `signup.html`.
 
 ### DEMO:
 
