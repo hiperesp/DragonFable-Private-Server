@@ -13,15 +13,19 @@ class Request {
     ) {
     }
 
-    public function getEndpoint(): string {
-        return \strtolower($this->endpoint);
+    public function isEndpoint(string $endpointToTest): bool {
+        return \strtolower($this->endpoint) === \strtolower($endpointToTest);
     }
 
-    public function getInputType(): Input {
-        return $this->inputType;
+    public function isDefaultEndpoint(): bool {
+        return $this->isEndpoint('default');
     }
 
-    public function getOutputType(): Output {
-        return $this->outputType;
+    public function getInput(): mixed {
+        return $this->inputType->get();
+    }
+
+    public function displayOutput(mixed $output): void {
+        $this->outputType->display($output);
     }
 }

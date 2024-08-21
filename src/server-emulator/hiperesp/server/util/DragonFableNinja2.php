@@ -1,7 +1,7 @@
 <?php
 namespace hiperesp\server\util;
 
-class DragonFableCrypto2 {
+class DragonFableNinja2 {
 
     public function __construct(private string $key = "ZorbakOwnsYou") {}
 

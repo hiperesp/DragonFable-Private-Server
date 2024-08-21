@@ -73,4 +73,16 @@ class Web extends Controller {
         ]);
     }
 
+    #[Request(
+        endpoint: 'default',
+        inputType: Input::RAW,
+        outputType: Output::HTML
+    )]
+    public function default(string $input): string {
+        // return 404
+        \http_response_code(404);
+        return '<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>404 Not Found</h1><hr><p>The requested URL was not found on this server.</p></body></html>';
+    }
+
+
 }
