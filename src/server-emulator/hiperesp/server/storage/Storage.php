@@ -144,7 +144,10 @@ abstract class Storage {
                 "statPoints"        => [ "INTEGER", "DEFAULT" => 0 ],
 
                 "status"            => [ "INTEGER", "DEFAULT" => 0 ], // intCharStatus, unknown meaning
-                "daily"             => [ "INTEGER", "DEFAULT" => 0 ], // daily login? unknown meaning
+                "daily"             => [ "INTEGER", "DEFAULT" => 1 ], // [WIP] daily quest, 1 = available, 0 = completed.
+                                                                      // must be reset to 1 when a new day starts
+                                                                      // the best way to do this is store the last time the daily was completed
+                                                                      // and check if the current day is different from that day
 
                 "armor"             => [ "CHAR" => 100, "DEFAULT" => "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
                 "skills"            => [ "CHAR" => 300, "DEFAULT" => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],

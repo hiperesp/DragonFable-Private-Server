@@ -198,7 +198,7 @@ class CharacterVO extends ValueObject {
         $character->addAttribute('intHairFrame', 1);
 
         $character->addAttribute('gemReward', 0);
-        $character->addAttribute('intDailyRoll', 1);
+        $character->addAttribute('intDailyRoll', 1); // unknown meaning
 
         return $xml;
     }
