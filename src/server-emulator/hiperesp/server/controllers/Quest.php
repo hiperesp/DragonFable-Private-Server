@@ -62,7 +62,6 @@ class Quest extends Controller {
         return $char->asExpSaveResponse();
     }
 
-    // [WIP]
     #[Request(
         endpoint: '/cf-questcomplete-Mar2011.asp',
         inputType: Input::NINJA2,
@@ -83,32 +82,7 @@ class Quest extends Controller {
             'gold' => (int)$input->intGold,
         ]);
 
-        $questID = (int)$input->intQuestID;
-
-        if($questID==54) {
-            return \simplexml_load_string(<<<XML
-<questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <questreward intExp="20" intSilver="0" intGold="1021" intGems="0" intCoins="3">
-        <items ItemID="20387" strItemName="Forgotten Spear" strItemDescription="Your first loot! Lucky for you, unlucky for whoever lost it.&#10;(Scythe-type weapons can be used with any stat type, STR, DEX, or INT.)" bitVisible="1" bitDestroyable="1" bitSellable="1" bitDragonAmulet="0" intCurrency="2" intCost="50" intMaxStackSize="1" intBonus="0" intRarity="0" intLevel="3" strType="Melee" strElement="Metal" strCategory="Weapon" strEquipSpot="Weapon" strItemType="Scythe" strFileName="items/scythes/scythe-pointystick.swf" strIcon="scythe" intStr="0" intDex="0" intInt="0" intLuk="0" intCha="0" intEnd="0" intWis="0" intMin="10" intMax="12" intDefMelee="0" intDefPierce="0" intDefMagic="0" intCrit="0" intParry="0" intDodge="0" intBlock="0" strResists=""/>
-    </questreward>
-</questreward>
-XML);
-        }
-        if($questID==103) {
-            return \simplexml_load_string(<<<XML
-<questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <questreward intExp="121" intSilver="0" intGold="1049" intGems="0" intCoins="3">
-        <items ItemID="733" strItemName="Dusty Old Tome" strItemDescription="Return this book and other books to Loremaster Maya in Oaklore Keep. " bitVisible="1" bitDestroyable="1" bitSellable="1" bitDragonAmulet="0" intCurrency="2" intCost="100" intMaxStackSize="1" intBonus="0" intRarity="3" intLevel="0" strType="Melee" strElement="None" strCategory="Item" strEquipSpot="Not Equipable" strItemType="Quest Item" strFileName="" strIcon="note" intStr="0" intDex="0" intInt="0" intLuk="0" intCha="0" intEnd="0" intMin="0" intMax="0" intDefMelee="0" intDefPierce="0" intDefMagic="0" intCrit="0" intParry="0" intDodge="0" intBlock="0" strResists=""/>
-    </questreward>
-</questreward>
-XML);
-        }
-
-        return \simplexml_load_string(<<<XML
-<error>
-    <info code="538.07" reason="Invalid Input!" message="Message" action="None"/>
-</error>
-XML);
+        return $char->asQuestCompleteMar2011Response([]);
     }
 
     // [WIP]

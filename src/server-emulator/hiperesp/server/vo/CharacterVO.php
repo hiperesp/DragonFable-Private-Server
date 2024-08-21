@@ -223,4 +223,9 @@ class CharacterVO extends ValueObject {
         $questreward->addAttribute('intExpToLevel', $this->experienceToLevel);
         return $xml;
     }
+
+    /** @param array<ItemVO> $rewards */
+    public function asQuestCompleteMar2011Response(array $rewards): \SimpleXMLElement {
+        return $this->asExpSaveResponse();
+    }
 }
