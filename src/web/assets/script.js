@@ -32,6 +32,7 @@ window.RufflePlayer.config = {
 
             let isServerAvailable;
             let countOnlinePlayers;
+            let serverTime;
             let serverVersion;
             try {
                 const response = await fetch(url);
@@ -39,24 +40,39 @@ window.RufflePlayer.config = {
                 const data = await response.json();
                 isServerAvailable = true;
                 countOnlinePlayers = Number(data.onlineUsers);
+                serverTime = data.serverTime;
                 serverVersion = data.serverVersion;
             } catch (error) {
                 console.log(error);
 
                 isServerAvailable = false;
                 countOnlinePlayers = 0;
+                serverTime = "Unknown";
                 serverVersion = "Unknown";
             }
 
             const serverStatusEl = element.querySelector("[data-server-id='server-status']");
             const serverPlayersOnlineEl = element.querySelector("[data-server-id='server-players-online']");
+            const serverTimeEl = element.querySelector("[data-server-id='server-time']");
             const serverVersionEl = element.querySelector("[data-server-id='server-version']");
 
             if(serverStatusEl) serverStatusEl.textContent = isServerAvailable ? "Online" : "Offline";
             if(serverPlayersOnlineEl) serverPlayersOnlineEl.textContent = countOnlinePlayers;
+            if(serverTimeEl) {
+                serverTimeEl.dataset.serverTime = serverTime;
+                function syncServerTime() {
+                    const serverTime = new Date(serverTimeEl.dataset.serverTime);
+                    serverTime.setSeconds(serverTime.getSeconds() + 1);
+                    serverTimeEl.textContent = serverTime.toLocaleString();
+                    serverTimeEl.dataset.serverTime = serverTime;
+                }
+                clearInterval(serverTimeEl.dataset.interval);
+                serverTimeEl.dataset.interval = setInterval(syncServerTime, 1000);
+                syncServerTime();
+            }
             if(serverVersionEl) serverVersionEl.textContent = serverVersion;
         });
     }
-    setInterval(checkServerInfo, 60000); // 1 minute
+    setInterval(checkServerInfo, 5000); // 5 seconds
     checkServerInfo();
 })();

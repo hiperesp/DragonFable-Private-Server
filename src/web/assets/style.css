@@ -1,3 +1,12 @@
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +47,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 20px;
+}
+.navbar .server-info {
+    overflow: hidden;
+}
+.navbar .server-info ul {
+    min-width: max-content;
+}
+.navbar .server-info:hover ul {
+    animation-play-state: paused;
 }
 .navbar ul {
     color: white;
@@ -160,6 +177,12 @@ footer {
 }
 
 @media screen and (max-width: 1140px) {
+    .navbar .server-info {
+        max-width: 300px;
+    }
+    .navbar .server-info ul {
+        animation: marquee 10s linear infinite;
+    }
     .content, footer {
         border: none;
     }

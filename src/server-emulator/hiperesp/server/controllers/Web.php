@@ -68,8 +68,9 @@ class Web extends Controller {
         $onlineCount = $this->characterModel->getOnlineCount($settings->onlineTimeout);
 
         return \json_encode([
+            'onlineUsers' => $onlineCount,
+            'serverTime' => \date('c'),
             'serverVersion' => $settings->serverVersion,
-            'onlineUsers' => $onlineCount
         ]);
     }
 

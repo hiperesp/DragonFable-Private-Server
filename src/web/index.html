@@ -32,11 +32,14 @@
                         <li><a href="lost-password.html">Lost Password</a></li>
                         <li><a href="tos.html">ToS</a></li>
                     </ul>
-                    <ul class="server-info" data-server-stats-provider="server-emulator/server.php/web-stats.json">
-                        <li><b>Server Status:</b> <span data-server-id="server-status">Fetching...</span></li>
-                        <li><span data-server-id="server-players-online">Fetching...</span> <b>players online</b></li>
-                        <!-- <li><b>Server Version:</b> <span data-server-id="server-version">Fetching...</span></li> -->
-                    </ul>
+                    <div class="server-info">
+                        <ul data-server-stats-provider="server-emulator/server.php/web-stats.json">
+                            <li><b>Server Status:</b> <span data-server-id="server-status">Fetching...</span></li>
+                            <li><b>Players Online:</b> <span data-server-id="server-players-online">Fetching...</span></li>
+                            <li><b>Time:</b> <span data-server-id="server-time">Fetching...</span></li>
+                            <!-- <li><b>Server Version:</b> <span data-server-id="server-version">Fetching...</span></li> -->
+                        </ul>
+                    </div>
                 </nav>
                 <main class="main-content">
                     <div class="main-content-header" style="--background:url('images/web/header.bmp')">
