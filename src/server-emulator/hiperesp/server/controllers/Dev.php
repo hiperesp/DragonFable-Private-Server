@@ -6,6 +6,7 @@ use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\storage\Storage;
+use hiperesp\server\util\DragonFableNinja2;
 
 class Dev extends Controller {
 
@@ -139,9 +140,11 @@ HTML;
         outputType: Output::HTML
     )]
     public function ninja2decrypt(array $input): string {
+        $ninja2 = new DragonFableNinja2;
+
         $outputTxt = "";
         if(isset($input['input'])) {
-            $outputTxt = \htmlspecialchars("{$this->crypto2->decrypt($input['input'])}");
+            $outputTxt = \htmlspecialchars("{$ninja2->decrypt($input['input'])}");
         }
         return <<<HTML
         <pre>{$outputTxt}</pre>
@@ -158,9 +161,11 @@ HTML;
         outputType: Output::HTML
     )]
     public function ninja2encrypt(array $input): string {
+        $ninja2 = new DragonFableNinja2;
+
         $outputTxt = "";
         if(isset($input['input'])) {
-            $outputTxt = \htmlspecialchars("{$this->crypto2->encrypt($input['input'])}");
+            $outputTxt = \htmlspecialchars("{$ninja2->encrypt($input['input'])}");
         }
         return <<<HTML
         <pre>{$outputTxt}</pre>
