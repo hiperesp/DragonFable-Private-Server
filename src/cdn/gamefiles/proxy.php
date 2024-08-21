@@ -1,6 +1,7 @@
 <?php
-
-$requestPath = \preg_replace('/\/cdn\/gamefiles\//', '', $_SERVER['REQUEST_URI']);
+$requestPath = $_SERVER['REQUEST_URI'];
+$requestPath = \preg_replace('/\?.*$/', '', $requestPath);
+$requestPath = \preg_replace('/^\/cdn\/gamefiles\//', '', $requestPath);
 $localFile = __DIR__."/".\strtolower(\urldecode($requestPath));
 
 if(!\file_exists($localFile)) {
