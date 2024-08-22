@@ -18,6 +18,14 @@ class ItemModel extends Model {
         throw DFException::fromCode(DFException::ITEM_NOT_FOUND);
     }
 
+    public function getByShopAndId(ShopVO $shop, int $id): ItemVO {
+        $item = $this->storage->select(self::SHOP_ASSOCIATION, ['shopId' => $shop->id, 'itemId' => $id]);
+        if(isset($item[0]) && $item = $item[0]) {
+            return new ItemVO($item);
+        }
+        throw DFException::fromCode(DFException::ITEM_NOT_FOUND);
+    }
+
     /** @return array<ItemVO> */
     public function getByShop(ShopVO $shop): array {
         $itemIds = \array_map(function(array $item): int {

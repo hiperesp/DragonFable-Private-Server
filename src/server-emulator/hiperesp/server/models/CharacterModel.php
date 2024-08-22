@@ -3,6 +3,7 @@ namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\ItemVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
@@ -47,6 +48,10 @@ class CharacterModel extends Model {
         $character = $this->storage->insert(self::COLLECTION, $data);
 
         return new CharacterVO($character);
+    }
+
+    public function buyItem(ItemVO $item): void {
+        
     }
 
     public function delete(CharacterVO $character): void {
@@ -164,7 +169,6 @@ class CharacterModel extends Model {
             }
         }
         return $cap['default'];
-
     }
 
     private function updateLastTimeSeen(CharacterVO $character): void {
