@@ -72,6 +72,14 @@ class CharacterVO extends ValueObject {
     public readonly int $classId;
     public readonly int $baseClassId;
 
+    public function __construct(array $char) {
+        $char['colorHair'] = \hexdec($char['colorHair']);
+        $char['colorSkin'] = \hexdec($char['colorSkin']);
+        $char['colorBase'] = \hexdec($char['colorBase']);
+        $char['colorTrim'] = \hexdec($char['colorTrim']);
+        parent::__construct($char);
+    }
+
     public function asCreatedResponse(): array {
         return [
             "code" => 0,
@@ -131,10 +139,10 @@ class CharacterVO extends ValueObject {
         $character->addAttribute('intAccesslevel', $this->accessLevel);
         $character->addAttribute('strGender', $this->gender);
         $character->addAttribute('strPronoun', $this->pronoun);
-        $character->addAttribute('intColorHair', \hexdec($this->colorHair));
-        $character->addAttribute('intColorSkin', \hexdec($this->colorSkin));
-        $character->addAttribute('intColorBase', \hexdec($this->colorBase));
-        $character->addAttribute('intColorTrim', \hexdec($this->colorTrim));
+        $character->addAttribute('intColorHair', $this->colorHair);
+        $character->addAttribute('intColorSkin', $this->colorSkin);
+        $character->addAttribute('intColorBase', $this->colorBase);
+        $character->addAttribute('intColorTrim', $this->colorTrim);
         $character->addAttribute('intStr', $this->strength);
         $character->addAttribute('intDex', $this->dexterity);
         $character->addAttribute('intInt', $this->intelligence);
