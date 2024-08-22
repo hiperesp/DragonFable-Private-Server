@@ -111,6 +111,10 @@ class SQLite extends Storage {
         }
     }
 
+    public function drop(string $collection): void {
+        $this->_dropTable("{$collection}");
+    }
+
     protected function needsSetup(): bool {
         $needsSetup = false;
         $this->eachMissingTable(function(string $table) use (&$needsSetup) {

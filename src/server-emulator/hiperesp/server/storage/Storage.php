@@ -9,6 +9,7 @@ abstract class Storage {
     public abstract function delete(string $collection, array $document): bool;
 
     public abstract function reset(): void;
+    public abstract function drop(string $collection): void;
 
     protected abstract function needsSetup(): bool;
     public abstract function setup(): void;
