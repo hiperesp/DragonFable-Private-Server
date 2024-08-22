@@ -31,30 +31,27 @@ class Dev extends Controller {
 <hr>
 <div style="display: flex;">
     <fieldset>
-        <legend>Tools</legend>
+        <legend>Ninja2</legend>
         <form action="ninja2decrypt">
             <button>Ninja2 Decrypt</button>
         </form>
         <form action="ninja2encrypt">
             <button>Ninja2 Encrypt</button>
         </form>
-        <form action="sandbox">
-            <button>Sandbox</button>
+    </fieldset>
+    <fieldset>
+        <legend>Database</legend>
+        <form action="database/setup">
+            <button>Setup remaining collections</button>
+        </form>
+        <form action="database">
+            <button>View collections and values</button>
         </form>
     </fieldset>
     <fieldset>
         <legend>Util</legend>
         <form action="sandbox">
             <button>Sandbox</button>
-        </form>
-    </fieldset>
-    <fieldset>
-        <legend>Database</legend>
-        <form action="database/setup">
-            <button>Setup data</button>
-        </form>
-        <form action="database">
-            <button>Debug</button>
         </form>
     </fieldset>
 </div>
@@ -89,7 +86,17 @@ HTML;
                 foreach($data as $document) {
                     $output .= "<tr>";
                     foreach($header as $field) {
-                        $output .= "<td>{$document[$field]}</td>";
+                        $value = $document[$field];
+                        if($value === null) {
+                            $value = "<i style=\"color:gray\">NULL</i>";
+                        } else if(\in_array($field, ['password', 'sessionToken'])) {
+                            $value = "<i style=\"color:gray\">*************</i>";
+                        } else if(\in_array($field, ['email'])) {
+                            $value = "<i style=\"color:gray\">".\htmlspecialchars(\preg_replace('/^.+?\@(.+?)$/', '*****@$1', $value))."</i>";
+                        } else {
+                            $value = \htmlspecialchars($value);
+                        }
+                        $output .= "<td>{$value}</td>";
                     }
                     $output .= "</tr>";
                 }
