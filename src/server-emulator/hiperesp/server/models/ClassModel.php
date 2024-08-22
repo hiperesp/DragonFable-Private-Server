@@ -14,7 +14,7 @@ class ClassModel extends Model {
         if(isset($char[0]) && $char = $char[0]) {
             return new ClassVO($char);
         }
-        throw DFException::fromCode(DFException::CLASS_NOT_FOUND);
+        throw new DFException(DFException::CLASS_NOT_FOUND);
     }
 
     public function getByCharacter(CharacterVO $character): ClassVO {

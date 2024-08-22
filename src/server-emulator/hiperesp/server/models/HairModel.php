@@ -14,7 +14,7 @@ class HairModel extends Model {
         if(isset($hair[0]) && $hair = $hair[0]) {
             return new HairVO($hair);
         }
-        throw DFException::fromCode(DFException::HAIR_NOT_FOUND);
+        throw new DFException(DFException::HAIR_NOT_FOUND);
     }
 
     public function getByCharacter(CharacterVO $character): HairVO {

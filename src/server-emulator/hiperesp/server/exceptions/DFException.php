@@ -22,35 +22,43 @@ class DFException extends \Exception {
     const USER_NOT_FOUND = "526.14";
     const BAD_REQUEST = "538.07";
 
-    public function __construct(
-        public readonly string $dfCode,
-        public readonly string $dfReason,
-        public readonly string $dfMessage,
-        public readonly string $dfAction
-    ) {
-        parent::__construct("{$dfCode}: {$dfReason} - {$dfMessage}");
+    private string $dfCode;
+    private string $dfReason;
+    private string $dfMessage;
+    private string $dfAction;
+    private int $httpStatus;
+
+    public function __construct(string $dfCode) {
+        if(isset(self::$knownExceptions[$dfCode])) {
+            $dfCode = self::INVALID_REFERENCE;
+        }
+        $theException = self::$knownExceptions[$dfCode];
+
+        $this->dfCode       = $dfCode;
+        $this->dfReason     = $theException["dfReason"];
+        $this->dfMessage    = $theException["dfMessage"];
+        $this->dfAction     = $theException["dfAction"];
+        $this->httpStatus   = $theException["httpStatus"];
+
+        parent::__construct("{$dfCode}: {$this->dfReason} - {$this->dfMessage}");
     }
 
     public function asXML(): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<error/>');
         $info = $xml->addChild('info');
-        $info->addAttribute('code', $this->dfCode);
-        $info->addAttribute('reason', $this->dfReason);
-        $info->addAttribute('message', $this->dfMessage);
-        $info->addAttribute('action', $this->dfAction);
+        $info->addAttribute('code',     $this->dfCode);
+        $info->addAttribute('reason',   $this->dfReason);
+        $info->addAttribute('message',  $this->dfMessage);
+        $info->addAttribute('action',   $this->dfAction);
         return $xml;
-    }
-
-    public function asXMLString(): string {
-        return $this->asXML()->asXML();
     }
 
     public function asArray(): array {
         return [
-            'code' => $this->dfCode,
-            'reason' => $this->dfReason,
-            'message' => $this->dfMessage,
-            'action' => $this->dfAction,
+            'code'      => $this->dfCode,
+            'reason'    => $this->dfReason,
+            'message'   => $this->dfMessage,
+            'action'    => $this->dfAction,
         ];
     }
 
@@ -62,54 +70,52 @@ class DFException extends \Exception {
         return $this->getMessage();
     }
 
-    public static function fromCode(string $code): self {
-        if(!isset(self::$knownExceptions[$code])) {
-            return new self($code, "Unknown Error", "An unknown error occurred", "None");
-        }
-        $exception = self::$knownExceptions[$code];
-        return new self(
-            dfCode: $code,
-            dfReason: $exception['reason'],
-            dfMessage: $exception['message'],
-            dfAction: $exception['action']
-        );
+    public function getHttpStatusCode(): int {
+        return $this->httpStatus;
     }
 
     private static array $knownExceptions = [
         self::SUCCESS => [
-            "reason" => "Success",
-            "message" => "The operation was successful",
-            "action" => "None",
+            "dfReason"  => "Success",
+            "dfMessage" => "The operation was successful",
+            "dfAction"  => "None",
+            "httpStatus"=> 200,
         ],
         self::INVALID_REFERENCE => [
-            "reason" => "Invalid Reference",
-            "message" => "Invalid Reference",
-            "action" => "Continue",
+            "dfReason"  => "Invalid Reference",
+            "dfMessage" => "Invalid Reference",
+            "dfAction"  => "Continue",
+            "httpStatus"=> 404,
         ],
         self::USERNAME_ALREADY_EXISTS => [
-            "reason" => "Username Already Exists",
-            "message" => "The username you are trying to use is already taken",
-            "action" => "UserName",
+            "dfReason"  => "Username Already Exists",
+            "dfMessage" => "The username you are trying to use is already taken",
+            "dfAction"  => "UserName",
+            "httpStatus"=> 409,
         ],
         self::EMAIL_ALREADY_EXISTS => [
-            "reason" => "Email Already Exists",
-            "message" => "The email you are trying to use is already taken",
-            "action" => "Email",
+            "dfReason"  => "Email Already Exists",
+            "dfMessage" => "The email you are trying to use is already taken",
+            "dfAction"  => "Email",
+            "httpStatus"=> 409,
         ],
         self::USER_NOT_FOUND => [
-            "reason" => "User Not Found or Wrong Password",
-            "message" => "The username or password you typed was not correct. Please check the exact spelling and try again.",
-            "action" => "none",
+            "dfReason"  => "User Not Found or Wrong Password",
+            "dfMessage" => "The username or password you typed was not correct. Please check the exact spelling and try again.",
+            "dfAction"  => "none",
+            "httpStatus"=> 404,
         ],
         self::CHARACTER_NOT_FOUND => [
-            "reason" => "Character doesn't exist!",
-            "message" => "Character doesn't exist!",
-            "action" => "None",
+            "dfReason"  => "Character doesn't exist!",
+            "dfMessage" => "Character doesn't exist!",
+            "dfAction"  => "None",
+            "httpStatus"=> 404,
         ],
         self::BAD_REQUEST => [
-            "reason" => "Invalid Input!",
-            "message" => "Message",
-            "action" => "None",
+            "dfReason"  => "Invalid Input!",
+            "dfMessage" => "Message",
+            "dfAction"  => "None",
+            "httpStatus"=> 400,
         ],
     ];
 

@@ -9,7 +9,6 @@ class ShopVO extends ValueObject {
     public readonly string $name;
     public readonly int $count;
 
-
     public function asLoadShopResponse(ItemModel $itemModel): \SimpleXMLElement {
 
         $xml = new \SimpleXMLElement('<shop/>');

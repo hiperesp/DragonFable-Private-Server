@@ -13,7 +13,7 @@ class ShopModel extends Model {
         if(isset($shop[0]) && $shop = $shop[0]) {
             return new ShopVO($shop);
         }
-        throw DFException::fromCode(DFException::SHOP_NOT_FOUND);
+        throw new DFException(DFException::SHOP_NOT_FOUND);
     }
 
 }

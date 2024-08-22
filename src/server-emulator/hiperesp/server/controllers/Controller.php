@@ -2,6 +2,9 @@
 namespace hiperesp\server\controllers;
 
 use hiperesp\server\attributes\Request;
+use hiperesp\server\enums\Input;
+use hiperesp\server\enums\Output;
+use hiperesp\server\exceptions\DFException;
 use hiperesp\server\storage\Storage;
 
 abstract class Controller {
@@ -84,9 +87,13 @@ abstract class Controller {
             throw new \Exception("No method found for {$method} and no default method was provided.");
         }
 
-        $input = $selected->attribute->getInput();
-        $output = $selected->controller->newInstance()->{$selected->method->getName()}($input);
-        $selected->attribute->displayOutput($output);
+        try {
+            $input = $selected->attribute->getInput();
+            $output = $selected->controller->newInstance()->{$selected->method->getName()}($input);
+            $selected->attribute->displayOutput($output);
+        } catch(DFException $e) {
+            $selected->attribute->displayError($e);
+        }
     }
 
 }

@@ -27,7 +27,7 @@ class MonsterModel extends Model {
         if(isset($monster[0]) && $monster = $monster[0]) {
             return new MonsterVO($monster);
         }
-        throw DFException::fromCode(DFException::MONSTER_NOT_FOUND);
+        throw new DFException(DFException::MONSTER_NOT_FOUND);
     }
 
 }

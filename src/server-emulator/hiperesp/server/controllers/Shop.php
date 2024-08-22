@@ -42,10 +42,9 @@ class Shop extends Controller {
         $shop = $this->shopModel->getById((int)$input->intShopID);
         $item = $this->itemModel->getByShopAndId($shop, (int)$input->intItemID);
 
-        $character->buyItem($item);
+        $this->characterModel->buyItem($character, $item);
 
-        // return <shopItem xmlns:sql="urn:schemas-microsoft-com:xml-sql"><CharItemID>783181406</CharItemID><Bank>0</Bank><BankCount>1</BankCount></shopItem>
-
+        return new \SimpleXMLElement('<shopItem xmlns:sql="urn:schemas-microsoft-com:xml-sql"><CharItemID>783181406</CharItemID><Bank>0</Bank><BankCount>1</BankCount></shopItem>');
     }
 
 }

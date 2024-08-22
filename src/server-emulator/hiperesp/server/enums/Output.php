@@ -1,6 +1,7 @@
 <?php
 namespace hiperesp\server\enums;
 
+use hiperesp\server\exceptions\DFException;
 use hiperesp\server\util\DragonFableNinja2;
 
 enum Output {
@@ -19,6 +20,17 @@ enum Output {
             Output::FORM => $this->form($output),
             Output::RAW, Output::HTML => $this->raw($output),
             Output::REDIRECT => $this->redirect($output),
+        };
+    }
+
+    public function error(DFException $exception): void {
+        \http_response_code($exception->getHttpStatusCode());
+        match($this) {
+            Output::NINJA2STR => $this->ninja2($exception->asString()),
+            Output::NINJA2XML, Output::XML => $this->xml($exception->asXML()),
+            Output::FORM => $this->form($exception->asArray()),
+            Output::RAW, Output::HTML => $this->raw($exception->asString()),
+            Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
         };
     }
 

@@ -3,6 +3,7 @@ namespace hiperesp\server\attributes;
 
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\exceptions\DFException;
 
 #[\Attribute]
 class Request {
@@ -28,4 +29,9 @@ class Request {
     public function displayOutput(mixed $output): void {
         $this->outputType->display($output);
     }
+
+    public function displayError(DFException $exception): void {
+        $this->outputType->error($exception);
+    }
+
 }

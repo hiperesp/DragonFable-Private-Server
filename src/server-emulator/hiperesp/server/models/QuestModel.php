@@ -14,7 +14,7 @@ class QuestModel extends Model {
         if(isset($quest[0]) && $quest = $quest[0]) {
             return new QuestVO($quest);
         }
-        throw DFException::fromCode(DFException::QUEST_NOT_FOUND);
+        throw new DFException(DFException::QUEST_NOT_FOUND);
     }
 
     public function getByCharacter(CharacterVO $character): QuestVO {

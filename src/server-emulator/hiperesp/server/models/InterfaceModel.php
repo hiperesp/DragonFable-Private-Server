@@ -13,7 +13,7 @@ class InterfaceModel extends Model {
         if(isset($interface[0]) && $interface = $interface[0]) {
             return new InterfaceVO($interface);
         }
-        throw DFException::fromCode(DFException::INTERFACE_NOT_FOUND);
+        throw new DFException(DFException::INTERFACE_NOT_FOUND);
     }
 
 }

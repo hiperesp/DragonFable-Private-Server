@@ -14,7 +14,7 @@ class RaceModel extends Model {
         if(isset($race[0]) && $race = $race[0]) {
             return new RaceVO($race);
         }
-        throw DFException::fromCode(DFException::RACE_NOT_FOUND);
+        throw new DFException(DFException::RACE_NOT_FOUND);
     }
 
     public function getByCharacter(CharacterVO $character): RaceVO {

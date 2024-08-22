@@ -18,7 +18,7 @@ class UserModel extends Model {
                 return new UserVO($user);
             }
         }
-        throw DFException::fromCode(DFException::USER_NOT_FOUND);
+        throw new DFException(DFException::USER_NOT_FOUND);
     }
 
     public function signup(array $data): UserVO {
@@ -29,11 +29,11 @@ class UserModel extends Model {
 
         $user = $this->storage->select(self::COLLECTION, ['username' => $data['username']]);
         if(isset($user[0]) && $user = $user[0]) {
-            throw DFException::fromCode(DFException::USERNAME_ALREADY_EXISTS);
+            throw new DFException(DFException::USERNAME_ALREADY_EXISTS);
         }
         $user = $this->storage->select(self::COLLECTION, ['email' => $data['email']]);
         if(isset($user[0]) && $user = $user[0]) {
-            throw DFException::fromCode(DFException::EMAIL_ALREADY_EXISTS);
+            throw new DFException(DFException::EMAIL_ALREADY_EXISTS);
         }
 
         $data['password'] = \password_hash($data['password'], \PASSWORD_DEFAULT);
@@ -50,7 +50,7 @@ class UserModel extends Model {
         if(isset($user[0]) && $user = $user[0]) {
             return new UserVO($user);
         }
-        throw DFException::fromCode(DFException::USER_NOT_FOUND);
+        throw new DFException(DFException::USER_NOT_FOUND);
     }
 
     private function _generateUniqueSessionToken(): string {

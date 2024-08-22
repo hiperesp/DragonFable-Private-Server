@@ -8,7 +8,6 @@ use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\models\ArmorModel;
 use hiperesp\server\models\WeaponModel;
@@ -16,7 +15,6 @@ use hiperesp\server\models\HairModel;
 
 class Character extends Controller {
 
-    private SettingsModel $settingsModel;
     private UserModel $userModel;
     private CharacterModel $characterModel;
     private ClassModel $classModel;

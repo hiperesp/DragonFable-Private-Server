@@ -15,15 +15,15 @@ class ItemModel extends Model {
         if(isset($item[0]) && $item = $item[0]) {
             return new ItemVO($item);
         }
-        throw DFException::fromCode(DFException::ITEM_NOT_FOUND);
+        throw new DFException(DFException::ITEM_NOT_FOUND);
     }
 
     public function getByShopAndId(ShopVO $shop, int $id): ItemVO {
         $item = $this->storage->select(self::SHOP_ASSOCIATION, ['shopId' => $shop->id, 'itemId' => $id]);
         if(isset($item[0]) && $item = $item[0]) {
-            return new ItemVO($item);
+            return $this->getById($item['itemId']);
         }
-        throw DFException::fromCode(DFException::ITEM_NOT_FOUND);
+        throw new DFException(DFException::ITEM_NOT_FOUND);
     }
 
     /** @return array<ItemVO> */

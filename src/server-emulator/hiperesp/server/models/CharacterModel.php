@@ -28,7 +28,7 @@ class CharacterModel extends Model {
             $this->updateLastTimeSeen($character);
             return $character;
         }
-        throw DFException::fromCode(DFException::CHARACTER_NOT_FOUND);
+        throw new DFException(DFException::CHARACTER_NOT_FOUND);
     }
 
     public function create(UserVO $user, array $input): CharacterVO {
@@ -50,7 +50,7 @@ class CharacterModel extends Model {
         return new CharacterVO($character);
     }
 
-    public function buyItem(ItemVO $item): void {
+    public function buyItem(CharacterVO $character, ItemVO $item): void {
         
     }
 
