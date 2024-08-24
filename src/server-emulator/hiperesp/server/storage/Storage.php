@@ -73,8 +73,8 @@ abstract class Storage {
             "structure" => [
                 "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
 
-                "createdAt"     => [ "DATE_TIME", "CREATED_DATETIME" ],
-                "updatedAt"     => [ "DATE_TIME", "UPDATED_DATETIME" ],
+                "createdAt"     => [ "DATETIME", "CREATED_DATETIME" ],
+                "updatedAt"     => [ "DATETIME", "UPDATED_DATETIME" ],
 
                 "username"      => [ "STRING" => 20,  "UNIQUE" ],
                 "password"      => [ "STRING" => 64,  ],
@@ -89,7 +89,7 @@ abstract class Storage {
                 "optIn"         => [ "BIT", "DEFAULT" => 0],
                 "adFlag"        => [ "BIT", "DEFAULT" => 0],
 
-                "lastLogin"     => [ "DATE_TIME", "DEFAULT" => NULL ],
+                "lastLogin"     => [ "DATETIME", "DEFAULT" => NULL ],
             ],
             "data" => "user.json",
         ],
@@ -99,8 +99,8 @@ abstract class Storage {
 
                 "userId"            => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "user", "field" => "id" ] ],
 
-                "createdAt"         => [ "DATE_TIME", "CREATED_DATETIME" ],
-                "updatedAt"         => [ "DATE_TIME", "UPDATED_DATETIME" ],
+                "createdAt"         => [ "DATETIME", "CREATED_DATETIME" ],
+                "updatedAt"         => [ "DATETIME", "UPDATED_DATETIME" ],
 
                 "name"              => [ "STRING" => 20 ],
 
@@ -160,7 +160,7 @@ abstract class Storage {
                 "guildId"           => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "guild", "field" => "id" ] ],
                 "questId"           => [ "INTEGER", "DEFAULT" => 933, "FOREIGN_KEY" => [ "collection" => "quest", "field" => "id" ] ],
 
-                "lastTimeSeen"      => [ "DATE_TIME", "DEFAULT" => NULL, "INDEX" ],
+                "lastTimeSeen"      => [ "DATETIME", "DEFAULT" => NULL, "INDEX" ],
             ],
             "data" => "char.json",
         ],

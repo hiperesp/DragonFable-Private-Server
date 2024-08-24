@@ -44,7 +44,7 @@ class MySQL extends Storage {
                     $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
                     continue 2;
                 }
-                if($definition === 'DATE_TIME') {
+                if($definition === 'DATETIME') {
                     $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
                     continue 2;
                 }
@@ -93,7 +93,7 @@ class MySQL extends Storage {
                     $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
                     continue 2;
                 }
-                if($definition === 'DATE_TIME') {
+                if($definition === 'DATETIME') {
                     $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
                     continue 2;
                 }
@@ -221,7 +221,7 @@ class MySQL extends Storage {
                     'INTEGER' => 'INTEGER',
                     'BIT' => 'INTEGER',
                     'DATE' => 'DATE',
-                    'DATE_TIME' => 'DATETIME',
+                    'DATETIME' => 'DATETIME',
                     'STRING' => 'TEXT',
                     'CHAR' => 'TEXT',
                     default => throw new \Exception("Unknown definition: {$definition}"),
