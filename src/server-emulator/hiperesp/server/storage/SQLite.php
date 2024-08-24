@@ -82,7 +82,7 @@ class SQLite extends Storage {
                     continue 2;
                 }
             }
-            $newFields[$key] = $value;
+            $newFields[$key] = $document[$key];
         }
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in update document");
