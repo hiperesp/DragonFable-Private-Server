@@ -216,7 +216,7 @@ function convert(string $type, string $file): array {
                     "gems"          =>    (int)$monster['@attributes']['intGems'],
                     "coins"         =>    (int)$monster['@attributes']['intDragonCoins'],
                     "gender"        =>         $monster['@attributes']['strGender'],
-                    "hairStyle"     => \dechex($monster['@attributes']['intHairStyle']),
+                    "hairStyle"     =>         $monster['@attributes']['intHairStyle'],
                     "colorHair"     => \dechex($monster['@attributes']['intColorHair']),
                     "colorSkin"     => \dechex($monster['@attributes']['intColorSkin']),
                     "colorBase"     => \dechex($monster['@attributes']['intColorBase']),
