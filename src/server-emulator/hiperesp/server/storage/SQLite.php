@@ -79,7 +79,7 @@ class SQLite extends Storage {
                 }
                 if($definition === 'UPDATED_DATETIME') {
                     $document[$key] = \date('c');
-                    continue 2;
+                    break;
                 }
             }
             $newFields[$key] = $document[$key];

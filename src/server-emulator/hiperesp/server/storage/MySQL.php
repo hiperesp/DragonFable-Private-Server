@@ -87,15 +87,15 @@ class MySQL extends Storage {
                 }
                 if($definition === 'UPDATED_DATETIME') {
                     $document[$key] = \date('Y-m-d H:i:s');
-                    continue 2;
+                    break;
                 }
                 if($definition === 'DATE') {
                     $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
-                    continue 2;
+                    break;
                 }
                 if($definition === 'DATETIME') {
                     $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
-                    continue 2;
+                    break;
                 }
             }
             $newFields[$key] = $document[$key];
