@@ -11,6 +11,10 @@ class SQLite extends Storage {
     public function __construct(array $options) {
         $this->location = $options["location"];
         $this->prefix = $options["prefix"];
+
+        if(!\in_array('sqlite', \PDO::getAvailableDrivers())) {
+            throw new \Exception("MySQL driver not found");
+        }
         $this->pdo = new \PDO("sqlite:{$this->location}");
     }
 
@@ -46,6 +50,10 @@ class SQLite extends Storage {
         foreach(self::getCollectionStructure($collection) as $key => $definitions) {
             foreach($definitions as $definition) {
                 if($definition === 'PRIMARY_KEY') {
+                    if(isset($document[$key])) {
+                        $where[$key] = $document[$key];
+                        break;
+                    }
                     $where[$key] = $this->pdo->lastInsertId();
                     break;
                 }

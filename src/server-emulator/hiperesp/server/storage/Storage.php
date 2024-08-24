@@ -219,7 +219,7 @@ abstract class Storage {
         ],
         "quest_monster" => [
             "structure" => [
-                "id"        => [ "INTEGER", "PRIMARY_KEY" ],
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
                 "questId"   => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "quest",   "field" => "id" ] ],
                 "monsterId" => [ "INTEGER", "DEFAULT" => 0, "FOREIGN_KEY" => [ "collection" => "monster", "field" => "id" ] ],
             ],
@@ -227,7 +227,7 @@ abstract class Storage {
         ],
         "monster" => [
             "structure" => [
-                "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
+                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
 
                 "name"          => [ "STRING" => 20 ],
 
