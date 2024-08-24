@@ -1,6 +1,8 @@
-FROM php:8.3-apache AS base
+FROM php:8.4-rc-apache AS base
 
 RUN a2enmod rewrite headers
+
+RUN docker-php-ext-install pdo_mysql
 
 COPY src/cdn/ /var/www/html/cdn/
 COPY src/server-emulator/ /var/www/html/server-emulator/
