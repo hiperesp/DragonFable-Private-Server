@@ -17,8 +17,8 @@ class RaceModel extends Model {
         throw new DFException(DFException::RACE_NOT_FOUND);
     }
 
-    public function getByCharacter(CharacterVO $character): RaceVO {
-        return $this->getById($character->raceId);
+    public function getByChar(CharacterVO $char): RaceVO {
+        return $this->getById($char->raceId);
     }
 
 }

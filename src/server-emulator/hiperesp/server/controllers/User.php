@@ -4,20 +4,12 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\exceptions\DFException;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\ClassModel;
-use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\UserModel;
+use hiperesp\server\projection\UserProjection;
 
 class User extends Controller {
 
-    private SettingsModel $settingsModel;
     private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private ClassModel $classModel;
-    private RaceModel $raceModel;
 
     #[Request(
         endpoint: '/cf-userlogin.asp',
@@ -29,12 +21,8 @@ class User extends Controller {
         $password = (string)$input->strPassword;
 
         $user = $this->userModel->login($username, $password);
-        return $user->asLoginResponse(
-            $this->settingsModel,
-            $this->characterModel,
-            $this->classModel,
-            $this->raceModel
-        );
+
+        return UserProjection::instance()->logged($user);
     }
 
     #[Request(
@@ -55,7 +43,7 @@ class User extends Controller {
             'birthdate' => $dob
         ]);
 
-        return $user->asSignupResponse();
+        return UserProjection::instance()->signed($user);
     }
 
 }

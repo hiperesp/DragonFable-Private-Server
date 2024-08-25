@@ -17,8 +17,8 @@ class ClassModel extends Model {
         throw new DFException(DFException::CLASS_NOT_FOUND);
     }
 
-    public function getByCharacter(CharacterVO $character): ClassVO {
-        return $this->getById($character->classId);
+    public function getByChar(CharacterVO $char): ClassVO {
+        return $this->getById($char->classId);
     }
 
 }

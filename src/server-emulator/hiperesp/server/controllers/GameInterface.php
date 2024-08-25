@@ -5,6 +5,7 @@ use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\models\InterfaceModel;
+use hiperesp\server\projection\InterfaceProjection;
 
 class GameInterface extends Controller {
 
@@ -17,10 +18,9 @@ class GameInterface extends Controller {
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
 
-        $interfaceID = (int)$input->intInterfaceID;
-        $interface = $this->interfaceModel->getById($interfaceID);
+        $interface = $this->interfaceModel->getById((int)$input->intInterfaceID);
 
-        return $interface->asLoad();
+        return InterfaceProjection::instance()->loaded($interface);
     }
 
 }

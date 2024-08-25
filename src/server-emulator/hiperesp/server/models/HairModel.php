@@ -17,8 +17,8 @@ class HairModel extends Model {
         throw new DFException(DFException::HAIR_NOT_FOUND);
     }
 
-    public function getByCharacter(CharacterVO $character): HairVO {
-        return $this->getById($character->hairId);
+    public function getByChar(CharacterVO $char): HairVO {
+        return $this->getById($char->hairId);
     }
 
 }

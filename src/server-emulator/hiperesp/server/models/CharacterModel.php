@@ -14,19 +14,16 @@ class CharacterModel extends Model {
 
     /** @return array<CharacterVO> */
     public function getByUser(UserVO $user): array {
-        $characters = $this->storage->select(self::COLLECTION, ['userID' => $user->id], null);
-        foreach($characters as $key => $character) {
-            $characters[$key] = new CharacterVO($character);
-        }
-        return $characters;
+        $chars = $this->storage->select(self::COLLECTION, ['userID' => $user->id], null);
+        return \array_map(fn($char) => new CharacterVO($char), $chars);
     }
 
     public function getByUserAndId(UserVO $user, int $id): CharacterVO {
-        $character = $this->storage->select(self::COLLECTION, ['userID' => $user->id, 'id' => $id]);
-        if(isset($character[0]) && $character = $character[0]) {
-            $character = new CharacterVO($character);
-            $this->updateLastTimeSeen($character);
-            return $character;
+        $char = $this->storage->select(self::COLLECTION, ['userID' => $user->id, 'id' => $id]);
+        if(isset($char[0]) && $char = $char[0]) {
+            $char = new CharacterVO($char);
+            $this->updateLastTimeSeen($char);
+            return $char;
         }
         throw new DFException(DFException::CHARACTER_NOT_FOUND);
     }
@@ -45,46 +42,46 @@ class CharacterModel extends Model {
         $data['baseClassId'] = $input['intClassID'];
         $data['raceId'] = '1';
 
-        $character = $this->storage->insert(self::COLLECTION, $data);
+        $char = $this->storage->insert(self::COLLECTION, $data);
 
-        return new CharacterVO($character);
+        return new CharacterVO($char);
     }
 
-    public function buyItem(CharacterVO $character, ItemVO $item): void {
+    public function buyItem(CharacterVO $char, ItemVO $item): void {
         
     }
 
-    public function delete(CharacterVO $character): void {
-        $this->storage->delete(self::COLLECTION, ['id' => $character->id]);
+    public function delete(CharacterVO $char): void {
+        $this->storage->delete(self::COLLECTION, ['id' => $char->id]);
     }
 
-    public function changeHomeTown(CharacterVO $character, QuestVO $town): void {
+    public function changeHomeTown(CharacterVO $char, QuestVO $town): void {
         $this->storage->update(self::COLLECTION, [
-            'id' => $character->id,
+            'id' => $char->id,
             'questId' => $town->id
         ]);
     }
 
-    public function setQuestString(CharacterVO $character, int $index, int $value): void {
-        $questString = $character->quests;
+    public function setQuestString(CharacterVO $char, int $index, int $value): void {
+        $questString = $char->quests;
         $questString[$index] = $value;
         $this->storage->update(self::COLLECTION, [
-            'id' => $character->id,
+            'id' => $char->id,
             'quests' => $questString
         ]);
     }
 
-    public function applyQuestRewards(SettingsVO $settings, CharacterVO $character, QuestVO $quest, array $reward): void {
-        $this->applyExpSave($settings, $character, $quest, $reward);
+    public function applyQuestRewards(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
+        $this->applyExpSave($settings, $char, $quest, $reward);
     }
 
-    public function applyExpSave(SettingsVO $settings, CharacterVO $character, QuestVO $quest, array $reward): void {
-        $experience = $character->experience;
-        $gems = $character->gems;
-        $gold = $character->gold;
-        $silver = $character->silver;
-        $level = $character->level;
-        $experienceToLevel = $character->experienceToLevel;
+    public function applyExpSave(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
+        $experience = $char->experience;
+        $gems = $char->gems;
+        $gold = $char->gold;
+        $silver = $char->silver;
+        $level = $char->level;
+        $experienceToLevel = $char->experienceToLevel;
 
         if(isset($reward['experience'])) {
             $experience += \min($reward['experience'], $quest->maxExp);
@@ -104,21 +101,21 @@ class CharacterModel extends Model {
             while($experience >= $experienceToLevel) {
                 $experience -= $experienceToLevel;
                 $level++;
-                $experienceToLevel = $this->_calcExperienceToLevelUp($character->level + 1) - $experience;
+                $experienceToLevel = $this->_calcExperienceToLevelUp($char->level + 1) - $experience;
             }
         } else {
             // if player gets more experience than needed to level up, will level up only once
             if($experience >= $experienceToLevel) {
                 $experience = 0;
                 $level++;
-                $experienceToLevel = $this->_calcExperienceToLevelUp($character->level + 1);
+                $experienceToLevel = $this->_calcExperienceToLevelUp($char->level + 1);
             }
         }
 
-        $this->applyLevelUpBonuses($character, $level);
+        $this->applyLevelUpBonuses($char, $level);
 
         $this->storage->update(self::COLLECTION, [
-            'id' => $character->id,
+            'id' => $char->id,
             'experience' => $experience,
             'gems' => $gems,
             'gold' => $gold,
@@ -128,7 +125,7 @@ class CharacterModel extends Model {
         ]);
     }
 
-    private function applyLevelUpBonuses(CharacterVO $character, int $newLevel): void {
+    private function applyLevelUpBonuses(CharacterVO $char, int $newLevel): void {
         $bonusesPerLevel = [
             2 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
             3 => [ 'hitPoints' => 20, 'manaPoints' => 5, 'statPoints' => 5 ],
@@ -141,18 +138,18 @@ class CharacterModel extends Model {
         ];
 
         $fullBonuses = [
-            'hitPoints'  => $character->hitPoints,
-            'manaPoints' => $character->manaPoints,
-            'statPoints' => $character->statPoints,
+            'hitPoints'  => $char->hitPoints,
+            'manaPoints' => $char->manaPoints,
+            'statPoints' => $char->statPoints,
         ];
-        for($i = $character->level + 1; $i <= $newLevel; $i++) {
+        for($i = $char->level + 1; $i <= $newLevel; $i++) {
             if(!isset($bonusesPerLevel[$i])) continue;
             foreach($bonusesPerLevel[$i] as $key => $value) {
                 $fullBonuses[$key] += $value;
             }
         }
 
-        $this->storage->update(self::COLLECTION, \array_merge([ 'id' => $character->id, ], $fullBonuses));
+        $this->storage->update(self::COLLECTION, \array_merge([ 'id' => $char->id, ], $fullBonuses));
     }
 
     private function _calcExperienceToLevelUp(int $level): int { // need to be tested and verified
@@ -171,9 +168,9 @@ class CharacterModel extends Model {
         return $cap['default'];
     }
 
-    private function updateLastTimeSeen(CharacterVO $character): void {
+    private function updateLastTimeSeen(CharacterVO $char): void {
         $this->storage->update(self::COLLECTION, [
-            'id' => $character->id,
+            'id' => $char->id,
             'lastTimeSeen' => \date('Y-m-d H:i:00')
         ]);
     }

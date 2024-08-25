@@ -5,24 +5,13 @@ use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\ClassModel;
-use hiperesp\server\models\QuestModel;
-use hiperesp\server\models\RaceModel;
 use hiperesp\server\models\UserModel;
-use hiperesp\server\models\ArmorModel;
-use hiperesp\server\models\WeaponModel;
-use hiperesp\server\models\HairModel;
+use hiperesp\server\projection\CharacterProjection;
 
 class Character extends Controller {
 
     private UserModel $userModel;
     private CharacterModel $characterModel;
-    private ClassModel $classModel;
-    private RaceModel $raceModel;
-    private QuestModel $questModel;
-    private ArmorModel $armorModel;
-    private WeaponModel $weaponModel;
-    private HairModel $hairModel;
 
     #[Request(
         endpoint: '/cf-characterload.asp',
@@ -32,9 +21,9 @@ class Character extends Controller {
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
 
         $user = $this->userModel->getBySessionToken($input->strToken);
-        $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
 
-        return $character->asLoadResponse($user, $this->raceModel, $this->questModel, $this->classModel, $this->armorModel, $this->weaponModel, $this->hairModel);
+        return CharacterProjection::instance()->loaded($char, $user);
     }
 
     #[Request(
@@ -45,9 +34,9 @@ class Character extends Controller {
     public function new(array $input): array {
 
         $user = $this->userModel->getBySessionToken($input['strToken']);
-        $characterVo = $this->characterModel->create($user, $input); // in case of error, a exception will be thrown
+        $char = $this->characterModel->create($user, $input); // in case of error, a exception will be thrown
 
-        return $characterVo->asCreatedResponse();
+        return CharacterProjection::instance()->created();
     }
 
     #[Request(
@@ -58,10 +47,10 @@ class Character extends Controller {
     public function delete(\SimpleXMLElement $input): \SimpleXMLElement {
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $this->characterModel->delete($character);
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $this->characterModel->delete($char);
 
-        return $character->asDeleteResponse();
+        return CharacterProjection::instance()->deleted();
     }
 
     #[Request(
@@ -72,9 +61,9 @@ class Character extends Controller {
     public function dragonAmuletCheck(\SimpleXMLElement $input): \SimpleXMLElement {
 
         $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $character = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
 
-        return $character->asDragonAmuletCheckResponse();
+        return CharacterProjection::instance()->dragonAmuletCheck($char);
     }
 
 }

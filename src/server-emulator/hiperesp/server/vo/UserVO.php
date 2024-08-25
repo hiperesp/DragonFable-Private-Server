@@ -41,49 +41,4 @@ class UserVO extends ValueObject {
         return $birthdate === $today;
     }
 
-    public function asLoginResponse(SettingsModel $settingsModel, CharacterModel $characterModel, ClassModel $classModel, RaceModel $raceModel): \SimpleXMLElement {
-
-        $settings = $settingsModel->getSettings();
-
-        $xml = new \SimpleXMLElement('<characters/>');
-        $user = $xml->addChild('user');
-        $user->addAttribute('UserID', $this->id);
-        $user->addAttribute('intCharsAllowed', $this->charsAllowed);
-        $user->addAttribute('intAccessLevel', $this->accessLevel);
-        $user->addAttribute('intUpgrade', $this->upgrade);
-        $user->addAttribute('intActivationFlag', $this->activationFlag);
-        $user->addAttribute('bitOptin', $this->optIn);
-        $user->addAttribute('strToken', $this->sessionToken);
-        $user->addAttribute('strNews', $settings->news);
-        $user->addAttribute('bitAdFlag', $this->adFlag);
-        $user->addAttribute('dateToday', \date('c'));
-
-        $characters = $characterModel->getByUser($this);
-
-        /** @var CharacterVO $character */
-        foreach($characters as $character) {
-            $char = $user->addChild('characters');
-            $char->addAttribute('CharID', $character->id);
-            $char->addAttribute('strCharacterName', $character->name);
-            $char->addAttribute('intLevel', $character->level);
-            $char->addAttribute('intAccessLevel', $character->accessLevel);
-            $char->addAttribute('intDragonAmulet', $character->hasDragonAmulet ? 1 : 0);
-
-            $class = $classModel->getByCharacter($character);
-            $char->addAttribute('orgClassID', $char->id);
-            $char->addAttribute('strClassName', $class->name);
-
-            $race = $raceModel->getByCharacter($character);
-            $char->addAttribute('strRaceName', $race->name);
-        }
-
-        return $xml;
-    }
-
-    public function asSignupResponse(): array {
-        return [
-            'status' => 'Success',
-        ];
-    }
-
 }

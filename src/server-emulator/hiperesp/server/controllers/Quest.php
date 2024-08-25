@@ -4,24 +4,18 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\ArmorModel;
 use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\MonsterModel;
 use hiperesp\server\models\QuestModel;
-use hiperesp\server\models\RaceModel;
 use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\UserModel;
-use hiperesp\server\models\WeaponModel;
+use hiperesp\server\projection\CharacterProjection;
+use hiperesp\server\projection\QuestProjection;
 
 class Quest extends Controller {
 
     private UserModel $userModel;
     private CharacterModel $characterModel;
     private QuestModel $questModel;
-    private MonsterModel $monsterModel;
-    private ArmorModel $armorModel;
-    private WeaponModel $weaponModel;
-    private RaceModel $raceModel;
     private SettingsModel $settingsModel;
 
     #[Request(
@@ -35,7 +29,7 @@ class Quest extends Controller {
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $quest = $this->questModel->getById((int)$input->intQuestID);
 
-        return $quest->asLoadQuestResponse($this->monsterModel, $this->armorModel, $this->weaponModel, $this->raceModel);
+        return QuestProjection::instance()->loaded($quest);
     }
 
     // NEED ATTENTION
@@ -59,7 +53,7 @@ class Quest extends Controller {
 
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID); // reload the character
 
-        return $char->asExpSaveResponse();
+        return CharacterProjection::instance()->expSaved($char);
     }
 
     #[Request(
@@ -82,7 +76,7 @@ class Quest extends Controller {
             'gold' => (int)$input->intGold,
         ]);
 
-        return $char->asQuestCompleteMar2011Response([]);
+        return CharacterProjection::instance()->questCompletedMar2011($char, []);
     }
 
     // [WIP]
@@ -117,7 +111,7 @@ XML);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $this->characterModel->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);
 
-        return $char->asSaveQuestStringResponse();
+        return CharacterProjection::instance()->questStringSaved($char);
     }
 
 }

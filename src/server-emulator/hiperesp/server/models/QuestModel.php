@@ -17,8 +17,8 @@ class QuestModel extends Model {
         throw new DFException(DFException::QUEST_NOT_FOUND);
     }
 
-    public function getByCharacter(CharacterVO $character): QuestVO {
-        return $this->getById($character->questId);
+    public function getByChar(CharacterVO $char): QuestVO {
+        return $this->getById($char->questId);
     }
 
 }
