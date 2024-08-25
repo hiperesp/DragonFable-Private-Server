@@ -101,14 +101,14 @@ class CharacterModel extends Model {
             while($experience >= $experienceToLevel) {
                 $experience -= $experienceToLevel;
                 $level++;
-                $experienceToLevel = $this->_calcExperienceToLevelUp($char->level + 1) - $experience;
+                $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1) - $experience;
             }
         } else {
             // if player gets more experience than needed to level up, will level up only once
             if($experience >= $experienceToLevel) {
                 $experience = 0;
                 $level++;
-                $experienceToLevel = $this->_calcExperienceToLevelUp($char->level + 1);
+                $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1);
             }
         }
 
@@ -146,7 +146,7 @@ class CharacterModel extends Model {
         $this->storage->update(self::COLLECTION, \array_merge([ 'id' => $char->id, ], $fullBonuses));
     }
 
-    private function _calcExperienceToLevelUp(int $level): int { // need to be tested and verified
+    private function calcExperienceToLevelUp(int $level): int { // need to be tested and verified
         $cap = [
             10 => \pow(2, $level) * 10,
             60 => \pow($level, 2) * 90,
