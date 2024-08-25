@@ -2,18 +2,16 @@
 namespace hiperesp\server\controllers;
 
 use hiperesp\server\attributes\Request;
-use hiperesp\server\enums\Input;
-use hiperesp\server\enums\Output;
 use hiperesp\server\exceptions\DFException;
-use hiperesp\server\storage\Storage;
+use hiperesp\server\util\AutoInstantiate;
 
 abstract class Controller {
 
-    private readonly Storage $storage;
-
     public function __construct() {
         $this->cors();
-        $this->autoInstanciateModels();
+
+        $autoInstantiate = new AutoInstantiate($this);
+        $autoInstantiate->models();
     }
 
     private function cors() { // https://stackoverflow.com/questions/8719276/cross-origin-request-headerscors-with-php-headers
@@ -34,22 +32,6 @@ abstract class Controller {
             if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
                 \header("Access-Control-Allow-Headers: {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
             exit(0);
-        }
-    }
-
-    private function autoInstanciateModels(): void {
-        $rClass = new \ReflectionClass($this);
-        foreach($rClass->getProperties() as $rProperty) {
-            $rType = $rProperty->getType();
-            if($rType===null) continue;
-            $rTypeName = $rType->getName();
-            if(!\class_exists($rTypeName)) continue;
-            if(\is_subclass_of($rTypeName, \hiperesp\server\models\Model::class)) {
-                if(!isset($this->storage)) {
-                    $this->storage = Storage::getStorage();
-                }
-                $rProperty->setValue($this, new $rTypeName($this->storage));
-            }
         }
     }
 
