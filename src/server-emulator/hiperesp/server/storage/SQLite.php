@@ -237,6 +237,9 @@ class SQLite extends Storage {
         $sql = "SELECT * FROM {$table} WHERE true ";
         foreach($where as $key => $value) {
             if(\is_iterable($value)) {
+                if(!$value) {
+                    return []; // field must be equals ony of the values, but there are no values, so no results, no need to query
+                }
                 $sql .= "AND {$key} IN (";
                 foreach($value as $v) {
                     $sql .= "?,";
