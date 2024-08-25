@@ -9,6 +9,13 @@ class SQLite extends Storage {
     private string $prefix;
 
     public function __construct(array $options) {
+        if(!isset($options["location"])) {
+            throw new \Exception("Missing Storage location");
+        }
+        if(!isset($options["prefix"])) {
+            throw new \Exception("Missing Storage prefix");
+        }
+
         $this->location = $options["location"];
         $this->prefix = $options["prefix"];
 

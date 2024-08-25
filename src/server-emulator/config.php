@@ -1,21 +1,16 @@
 <?php
+if(\file_exists(__DIR__ . "/.env.php")) {
+    require __DIR__ . "/.env.php";
+}
 
-// $storage = [
-//     "driver" => \hiperesp\server\storage\SQLite::class,
-//     "options" => [
-//         "location" => "{$base}/data/db.sqlite3",
-//         "prefix" => "df_",
-//     ],
-// ];
+if(!\getenv("DB_DRIVER")) {
+    throw new \Exception("The environment variable DB_DRIVER is not defined.");
+}
+if(!\getenv("DB_OPTIONS")) {
+    throw new \Exception("The environment variable DB_OPTIONS is not defined.");
+}
 
 $storage = [
-    "driver" => \hiperesp\server\storage\MySQL::class,
-    "options" => [
-        "host" => "host2.gabstep.com.br",
-        "port" => 3306,
-        "username" => "dragonfable",
-        "password" => "bfj6y6zkWRnGrFyn",
-        "database" => "dragonfable",
-        "prefix" => "df_",
-    ],
+    "driver" => \getenv("DB_DRIVER"),
+    "options" => \json_decode(\getenv("DB_OPTIONS"), true),
 ];

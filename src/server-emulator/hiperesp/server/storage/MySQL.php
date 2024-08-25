@@ -10,6 +10,22 @@ class MySQL extends Storage {
     private string $prefix;
 
     public function __construct(array $options) {
+        if(!isset($options["database"])) {
+            throw new \Exception("Missing Storage database");
+        }
+        if(!isset($options["host"])) {
+            throw new \Exception("Missing Storage host");
+        }
+        if(!isset($options["username"])) {
+            throw new \Exception("Missing Storage username");
+        }
+        if(!isset($options["password"])) {
+            throw new \Exception("Missing Storage password");
+        }
+        if(!isset($options["prefix"])) {
+            throw new \Exception("Missing Storage prefix");
+        }
+
         $this->prefix = $options["prefix"];
         $this->database = $options["database"];
         if(!\in_array('mysql', \PDO::getAvailableDrivers())) {

@@ -5,4 +5,7 @@
         throw new \Exception("The file {$classFile} does not exists. See {$className}");
     }
     include $classFile;
+    if(!\class_exists($className)) {
+        throw new \Exception("The class {$className} does not exists. See {$classFile}");
+    }
 });
