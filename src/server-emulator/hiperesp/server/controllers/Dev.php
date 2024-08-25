@@ -4,7 +4,6 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\QuestModel;
 use hiperesp\server\storage\Storage;
 use hiperesp\server\util\DragonFableNinja2;
 
@@ -43,9 +42,6 @@ class Dev extends Controller {
         <legend>Database</legend>
         <form action="database/setup">
             <button>Setup remaining collections</button>
-        </form>
-        <form action="database">
-            <button>View collections and values</button>
         </form>
     </fieldset>
     <fieldset>
