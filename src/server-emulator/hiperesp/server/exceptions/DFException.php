@@ -3,8 +3,6 @@ namespace hiperesp\server\exceptions;
 
 class DFException extends \Exception {
 
-    const SUCCESS = "0";
-
     const INVALID_REFERENCE = "500.73";
     const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
     const RACE_NOT_FOUND = self::INVALID_REFERENCE;
@@ -59,6 +57,12 @@ class DFException extends \Exception {
             'reason'    => $this->dfReason,
             'message'   => $this->dfMessage,
             'action'    => $this->dfAction,
+            'status' => 'Failure',
+            'strErr' => "Error Code {$this->dfCode}",
+            'strReason' => $this->dfReason,
+            'strButtonName' => 'Back',
+            'strButtonAction' => $this->dfAction,
+            'strMsg' => $this->dfMessage,
         ];
     }
 
@@ -75,12 +79,6 @@ class DFException extends \Exception {
     }
 
     private static array $knownExceptions = [
-        self::SUCCESS => [
-            "dfReason"  => "Success",
-            "dfMessage" => "The operation was successful",
-            "dfAction"  => "None",
-            "httpStatus"=> 200,
-        ],
         self::INVALID_REFERENCE => [
             "dfReason"  => "Invalid Reference",
             "dfMessage" => "Invalid Reference",

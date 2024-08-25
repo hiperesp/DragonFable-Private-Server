@@ -48,27 +48,14 @@ class User extends Controller {
         $email = (string)$input['strEmail'];
         $dob = (string)$input['strDOB'];
 
-        try {
-            $user = $this->userModel->signup([
-                'username' => $username,
-                'password' => $password,
-                'email' => $email,
-                'birthdate' => $dob
-            ]);
+        $user = $this->userModel->signup([
+            'username' => $username,
+            'password' => $password,
+            'email' => $email,
+            'birthdate' => $dob
+        ]);
 
-            return [
-                'status' => 'Success',
-            ];
-        } catch(DFException $e) {
-            return [
-                'status' => 'Failure',
-                'strErr' => "Error Code {$e->dfCode}",
-                'strReason' => $e->dfReason,
-                'strButtonName' => 'Back',
-                'strButtonAction' => $e->dfAction,
-                'strMsg' => $e->dfMessage
-            ];
-        }
+        return $user->asSignupResponse();
     }
 
 }
