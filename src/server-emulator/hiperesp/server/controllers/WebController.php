@@ -7,7 +7,7 @@ use hiperesp\server\enums\Output;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\SettingsModel;
 
-class Web extends Controller {
+class WebController extends Controller {
 
     private SettingsModel $settingsModel;
     private CharacterModel $characterModel;

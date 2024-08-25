@@ -7,7 +7,7 @@ use hiperesp\server\enums\Output;
 use hiperesp\server\storage\Storage;
 use hiperesp\server\util\DragonFableNinja2;
 
-class Dev extends Controller {
+class DevController extends Controller {
 
     #[Request(
         endpoint: '/dev/sandbox',
