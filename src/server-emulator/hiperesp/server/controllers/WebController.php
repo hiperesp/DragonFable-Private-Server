@@ -14,55 +14,55 @@ class WebController extends Controller {
 
     #[Request(
         endpoint: '/home',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::REDIRECT
     )]
-    public function index(string $input): string {
+    public function index(): string {
         return $this->settingsModel->getSettings()->homeUrl;
     }
 
     #[Request(
         endpoint: '/game.asp',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::REDIRECT
     )]
-    public function play(string $input): string {
+    public function play(): string {
         return $this->settingsModel->getSettings()->playUrl;
     }
 
     #[Request(
         endpoint: '/df-signup.asp',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::REDIRECT
     )]
-    public function signUp(string $input): string {
+    public function signUp(): string {
         return $this->settingsModel->getSettings()->signUpUrl;
     }
 
     #[Request(
         endpoint: '/df-terms.asp',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::REDIRECT
     )]
-    public function terms(string $input): string {
+    public function terms(): string {
         return $this->settingsModel->getSettings()->tosUrl;
     }
 
     #[Request(
         endpoint: '/df-lostpassword.aspx',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::REDIRECT
     )]
-    public function lostPassword(string $input): string {
+    public function lostPassword(): string {
         return $this->settingsModel->getSettings()->lostPasswordUrl;
     }
 
     #[Request(
         endpoint: '/web-stats.json',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::RAW
     )]
-    public function webStats(string $input): string {
+    public function webStats(): string {
 
         $settings = $this->settingsModel->getSettings();
         $onlineCount = $this->characterModel->getOnlineCount($settings->onlineTimeout);
@@ -76,10 +76,10 @@ class WebController extends Controller {
 
     #[Request(
         endpoint: 'default',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::HTML
     )]
-    public function default(string $input): string {
+    public function default(): string {
         \http_response_code(404);
         return "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL was not found on this server.</p><hr>{$_SERVER["SERVER_SIGNATURE"]}</body></html>";
     }

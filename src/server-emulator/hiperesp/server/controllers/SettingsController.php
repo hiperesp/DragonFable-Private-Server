@@ -12,10 +12,10 @@ class SettingsController extends Controller {
 
     #[Request(
         endpoint: '/DFversion.asp',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::FORM
     )]
-    public function version(string $input): array {
+    public function version(): array {
         $settings = $this->settingsModel->getSettings();
 
         return [

@@ -11,20 +11,20 @@ class DevController extends Controller {
 
     #[Request(
         endpoint: '/dev/sandbox',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::RAW
     )]
-    public function sandbox(string $input): string {
+    public function sandbox(): string {
 
         return \implode("\n", []);
     }
 
     #[Request(
         endpoint: '/dev/',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::HTML
     )]
-    public function dev(string $input): string {
+    public function dev(): string {
         $output = <<<HTML
 <h1>Dev</h1>
 <hr>
@@ -59,10 +59,10 @@ HTML;
 
     #[Request(
         endpoint: '/dev/database/setup',
-        inputType: Input::RAW,
+        inputType: Input::NONE,
         outputType: Output::RAW
     )]
-    public function databaseSetup(string $input): string {
+    public function databaseSetup(): string {
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
         $storage = Storage::getStorage(false);

@@ -5,6 +5,7 @@ use hiperesp\server\util\DragonFableNinja2;
 
 enum Input {
 
+    case NONE;
     case NINJA2;
     case XML;
     case FORM;
@@ -16,6 +17,7 @@ enum Input {
             Input::XML => $this->xml(),
             Input::FORM => $this->form(),
             Input::RAW => $this->raw(),
+            Input::NONE => null,
         };
     }
 
