@@ -2,9 +2,13 @@
 /src/server-emulator/data/*
 !/src/server-emulator/data/.htaccess
 
-/src/cdn/gamefiles/
-!/src/cdn/gamefiles/game15_8_05-patched.swf
+/src/cdn/gamefiles/**
+!/src/cdn/gamefiles/game*-patched.swf
 !/src/cdn/gamefiles/.htaccess
 !/src/cdn/gamefiles/proxy.php
 
 /src/server-emulator/.env.php
+
+
+/dev-tools/patch-new-swf/*
+!/dev-tools/patch-new-swf/*.php
