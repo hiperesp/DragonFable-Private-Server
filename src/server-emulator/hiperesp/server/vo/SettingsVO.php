@@ -31,7 +31,7 @@ class SettingsVO extends ValueObject {
         // $this->gamefilesPath  = "http://localhost:40000/cdn/gamefiles/";
         // $this->gamefilesPath  = "https://df.hiper.esp.br/gamefiles/";
 
-        $this->homeUrl          = "../../../index.hmtl";
+        $this->homeUrl          = "../../../index.html";
         $this->playUrl          = "../../../play.html";
         $this->signUpUrl        = "../../../signup.html";
         $this->lostPasswordUrl  = "../../../lostpassword.html";

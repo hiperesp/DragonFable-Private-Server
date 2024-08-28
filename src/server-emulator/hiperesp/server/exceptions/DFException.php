@@ -27,7 +27,7 @@ class DFException extends \Exception {
     private int $httpStatus;
 
     public function __construct(string $dfCode) {
-        if(isset(self::$knownExceptions[$dfCode])) {
+        if(!isset(self::$knownExceptions[$dfCode])) {
             $dfCode = self::INVALID_REFERENCE;
         }
         $theException = self::$knownExceptions[$dfCode];
@@ -83,37 +83,37 @@ class DFException extends \Exception {
             "dfReason"  => "Invalid Reference",
             "dfMessage" => "Invalid Reference",
             "dfAction"  => "Continue",
-            "httpStatus"=> 404,
+            "httpStatus"=> 200,
         ],
         self::USERNAME_ALREADY_EXISTS => [
             "dfReason"  => "Username Already Exists",
             "dfMessage" => "The username you are trying to use is already taken",
             "dfAction"  => "UserName",
-            "httpStatus"=> 409,
+            "httpStatus"=> 200,
         ],
         self::EMAIL_ALREADY_EXISTS => [
             "dfReason"  => "Email Already Exists",
             "dfMessage" => "The email you are trying to use is already taken",
             "dfAction"  => "Email",
-            "httpStatus"=> 409,
+            "httpStatus"=> 200,
         ],
         self::USER_NOT_FOUND => [
             "dfReason"  => "User Not Found or Wrong Password",
             "dfMessage" => "The username or password you typed was not correct. Please check the exact spelling and try again.",
             "dfAction"  => "none",
-            "httpStatus"=> 404,
+            "httpStatus"=> 200,
         ],
         self::CHARACTER_NOT_FOUND => [
             "dfReason"  => "Character doesn't exist!",
             "dfMessage" => "Character doesn't exist!",
             "dfAction"  => "None",
-            "httpStatus"=> 404,
+            "httpStatus"=> 200,
         ],
         self::BAD_REQUEST => [
             "dfReason"  => "Invalid Input!",
             "dfMessage" => "Message",
             "dfAction"  => "None",
-            "httpStatus"=> 400,
+            "httpStatus"=> 200,
         ],
     ];
 
