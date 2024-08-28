@@ -19,10 +19,11 @@ class SettingsController extends Controller {
         $settings = $this->settingsModel->getSettings();
 
         return [
-            "gamemovie"     => $settings->gameVersion,
+            "gamemovie"     => $settings->gameSwf,
             "signUpMessage" => $settings->signUpMessage,
             "server"        => $settings->serverLocation,
             "gamefilesPath" => $settings->gamefilesPath,
+            "gameVersion"   => $settings->serverVersion,
             "end"           => "here",
         ];
     }

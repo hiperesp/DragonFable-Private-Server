@@ -3,7 +3,7 @@ namespace hiperesp\server\vo;
 
 class SettingsVO extends ValueObject {
 
-    public readonly string $gameVersion;
+    public readonly string $gameSwf;
     public readonly string $serverLocation;
     public readonly string $gamefilesPath;
 
@@ -22,7 +22,9 @@ class SettingsVO extends ValueObject {
     public readonly int $onlineTimeout;
 
     public function __construct() {
-        $this->gameVersion    = "game15_9_00-patched.swf";
+        $this->gameSwf        = "game15_9_00-patched.swf";
+        $this->serverVersion  = "Build 15.9.00 alpha"; // match with the game version, only for display
+        //                                         ^ last visible char (aprox. 19 chars)
         $this->serverLocation = "server-emulator/server.php/";
         // $this->serverLocation = "http://localhost:40000/server-emulator/server.php/";
         $this->gamefilesPath  = "cdn/gamefiles/";
@@ -40,7 +42,6 @@ class SettingsVO extends ValueObject {
 
         $this->levelUpMultipleTimes = false; // if true, player can level up multiple times according to the experience gained
 
-        $this->serverVersion = "15.9.00 alpha"; // match with the game version, only for display
         $this->onlineTimeout = 10; // minutes. It affects only the online status of the player
     }
 
