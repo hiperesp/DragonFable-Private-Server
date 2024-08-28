@@ -11,6 +11,7 @@ enum Output {
     case FORM;
     case RAW;
     case HTML;
+    case JSON;
     case REDIRECT;
 
     public function display(mixed $output): void {
@@ -20,6 +21,7 @@ enum Output {
             Output::FORM => $this->form($output),
             Output::RAW, Output::HTML => $this->raw($output),
             Output::REDIRECT => $this->redirect($output),
+            Output::JSON => $this->json($output),
         };
     }
 
@@ -54,6 +56,11 @@ enum Output {
     private function form(array $form): void {
         \header("Content-Type: text/plain");
         echo "&".\http_build_query($form);
+    }
+
+    private function json(mixed $data): void {
+        \header("Content-Type: application/json");
+        echo \json_encode($data);
     }
 
     private function raw(string $raw): void {
