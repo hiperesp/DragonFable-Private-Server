@@ -32,6 +32,25 @@ $replaces = [
     ACTIONSCRIPT,
 ];
 
+$regexesReplaces = [
+];
+
+// fix all chained assignments
+for($i=20; $i>1; $i--) {
+    // $key = '/(\s+)(.+?) = (.+?) = (.+?) = (.+?) = (.+?) = (.+?);/';
+    // $value = "$1var hfca = $7;\n$1$2 = hfca;\n$1$3 = hfca;\n$1$4 = hfca;\n$1$5 = hfca;\n$1$6 = hfca;";
+
+    $valueIndex = $i+2;
+
+    $key = \str_replace('CHAINED_ASSIGNMENT', \str_repeat('(.+?) = ', $i), '/(\r\n\s+)CHAINED_ASSIGNMENT(.+?);/');
+    $value = "$1var HIPERESP_VAR_NAME = \${$valueIndex};";
+    for($j=2; $j<$valueIndex; $j++) {
+        $value .= "$1\${$j} = HIPERESP_VAR_NAME;";
+    }
+
+    $regexesReplaces[$key] = $value;
+}
+
 $file = "game15_9_00.swf";
 $outfile = "{$file}-patched.swf";
 
@@ -55,6 +74,7 @@ if(!\is_dir($replacedScriptsDir)) {
     $replacesMatches = [];
 
     $scripts = globR("{$file}-scripts");
+    $uniqueId = 0;
     foreach ($scripts as $script) {
         $content = \file_get_contents($script);
 
@@ -68,6 +88,14 @@ if(!\is_dir($replacedScriptsDir)) {
             }
         }
         $newContent = \str_replace(\array_keys($replaces), \array_values($replaces), $content);
+
+        foreach($regexesReplaces as $key => $value) {
+            while(\preg_match($key, $newContent)) {
+                $newValue = \str_replace('HIPERESP_VAR_NAME', "hiperesp_fix_chained_assignment_".($uniqueId++), $value);
+                $newContent = \preg_replace($key, $newValue, $newContent, 1);
+            }
+        }
+
         if($content === $newContent) {
             continue;
         }
@@ -79,17 +107,26 @@ if(!\is_dir($replacedScriptsDir)) {
         \file_put_contents($newFileName, $newContent);
     }
 
+    $totalReplacesKeys = \count($replaces);
+    $totalReplacedValues = 0;
     foreach($replacesMatches as $key => $count) {
         if($count === 0) {
             echo "Replace not matched: {$key}\n";die;
         }
+        $totalReplacedValues += $count;
     }
     echo "All replaces matched\n";
+    echo " - Total keys: {$totalReplacesKeys}\n";
+    echo " - Total replaced values: {$totalReplacedValues}\n";
     echo "Done!\n";
 }
 
+if(!\is_file($outfile)) {
+    \copy($file, $outfile);
+}
+
 // finally, import the scripts back to the swf file
-$cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -importScript {$file} {$outfile} \"{$file}-patched-scripts\"\n";
+$cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
 echo "Run the following command:\n";
 echo "{$cmd}\n";
 die;
