@@ -4,6 +4,7 @@ namespace hiperesp\server\vo;
 class SettingsVO extends ValueObject {
 
     public readonly string $gameSwf;
+    public readonly string $serverVersion;
     public readonly string $serverLocation;
     public readonly string $gamefilesPath;
 
@@ -18,7 +19,6 @@ class SettingsVO extends ValueObject {
 
     public readonly bool $levelUpMultipleTimes;
 
-    public readonly string $serverVersion;
     public readonly int $onlineTimeout;
 
     public function __construct() {
