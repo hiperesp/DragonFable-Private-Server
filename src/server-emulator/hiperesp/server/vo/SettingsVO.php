@@ -22,7 +22,7 @@ class SettingsVO extends ValueObject {
     public readonly int $onlineTimeout;
 
     public function __construct() {
-        $this->gameSwf        = "game15_9_00-patched.swf";
+        $this->gameSwf        = "game15_9_00-patched.swf?v2";
         $this->serverVersion  = "Build 15.9.00 alpha"; // match with the game version, only for display
         //                                         ^ last visible char (aprox. 19 chars)
         $this->serverLocation = "server-emulator/server.php/";
