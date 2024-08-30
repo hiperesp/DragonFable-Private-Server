@@ -12,6 +12,9 @@ class SQLite extends Storage {
         if(!isset($options["location"])) {
             throw new \Exception("Missing Storage location");
         }
+        if(!\is_dir(\dirname($options["location"]))) {
+            \mkdir(\dirname($options["location"]), 0777, true);
+        }
         if(!isset($options["prefix"])) {
             throw new \Exception("Missing Storage prefix");
         }
@@ -38,32 +41,27 @@ class SQLite extends Storage {
     }
     public function insert(string $collection, array $document): array {
         foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            foreach($definitions as $definition) {
-                if($definition === 'CREATED_DATETIME') {
-                    $document[$key] = \date('c');
-                    continue 2;
-                }
-                if($definition === 'UPDATED_DATETIME') {
-                    $document[$key] = \date('c');
-                    continue 2;
-                }
+            if(\in_array('CREATED_DATETIME', $definitions)) {
+                $document[$key] = \date('Y-m-d H:i:s');
+                break;
+            }
+            if(\in_array('UPDATED_DATETIME', $definitions)) {
+                $document[$key] = \date('Y-m-d H:i:s');
+                break;
             }
         }
 
         $this->_insert("{$this->prefix}{$collection}", $document);
 
         $where = [];
-
         foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            foreach($definitions as $definition) {
-                if($definition === 'PRIMARY_KEY') {
-                    if(isset($document[$key])) {
-                        $where[$key] = $document[$key];
-                        break;
-                    }
-                    $where[$key] = $this->pdo->lastInsertId();
-                    break;
+            if(\in_array('PRIMARY_KEY', $definitions)) {
+                if(isset($document[$key])) {
+                    $where[$key] = $document[$key];
+                    continue;
                 }
+                $where[$key] = $this->pdo->lastInsertId();
+                break;
             }
         }
 
@@ -78,18 +76,17 @@ class SQLite extends Storage {
         $where['_isDeleted'] = 0;
 
         $newFields = [];
-        foreach($document as $key => $value) {
-            foreach(self::getCollectionStructure($collection)[$key] as $definition) {
-                if($definition === 'PRIMARY_KEY') {
-                    $where[$key] = $value;
-                    break;
-                }
-                if($definition === 'UPDATED_DATETIME') {
-                    $document[$key] = \date('c');
-                    break;
-                }
+        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
+            if(\in_array('UPDATED_DATETIME', $definitions)) {
+                $document[$key] = \date('c');
             }
-            $newFields[$key] = $document[$key];
+            if(isset($document[$key])) {
+                if(\in_array('PRIMARY_KEY', $definitions)) {
+                    $where[$key] = $document[$key];
+                    continue;
+                }
+                $newFields[$key] = $document[$key];
+            }
         }
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in update document");
@@ -100,12 +97,10 @@ class SQLite extends Storage {
         $realDelete = false; // real delete has problems: apparently, the id is recycled, so it's better to just mark as deleted
 
         $where = [];
-        foreach($document as $key => $value) {
-            foreach(self::getCollectionStructure($collection)[$key] as $definition) {
-                if($definition === 'PRIMARY_KEY') {
-                    $where[$key] = $value;
-                    continue 2;
-                }
+        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
+            if(\in_array('PRIMARY_KEY', $definitions)) {
+                $where[$key] = $document[$key];
+                continue;
             }
         }
         if(\count($where) === 0) {

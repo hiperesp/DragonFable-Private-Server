@@ -47,22 +47,22 @@ class MySQL extends Storage {
     }
     public function insert(string $collection, array $document): array {
         foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            foreach($definitions as $definition) {
-                if($definition === 'CREATED_DATETIME') {
-                    $document[$key] = \date('Y-m-d H:i:s');
-                    continue 2;
-                }
-                if($definition === 'UPDATED_DATETIME') {
-                    $document[$key] = \date('Y-m-d H:i:s');
-                    continue 2;
-                }
-                if($definition === 'DATE') {
+            if(\in_array('CREATED_DATETIME', $definitions)) {
+                $document[$key] = \date('Y-m-d H:i:s');
+                continue;
+            }
+            if(\in_array('UPDATED_DATETIME', $definitions)) {
+                $document[$key] = \date('Y-m-d H:i:s');
+                continue;
+            }
+            if(isset($document[$key])) {
+                if(\in_array('DATE', $definitions)) {
                     $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
-                    continue 2;
+                    continue;
                 }
-                if($definition === 'DATETIME') {
+                if(\in_array('DATETIME', $definitions)) {
                     $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
-                    continue 2;
+                    continue;
                 }
             }
         }
@@ -70,17 +70,14 @@ class MySQL extends Storage {
         $this->_insert("{$this->prefix}{$collection}", $document);
 
         $where = [];
-
         foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            foreach($definitions as $definition) {
-                if($definition === 'PRIMARY_KEY') {
-                    if(isset($document[$key])) {
-                        $where[$key] = $document[$key];
-                        break;
-                    }
-                    $where[$key] = $this->pdo->lastInsertId();
-                    break;
+            if(\in_array('PRIMARY_KEY', $definitions)) {
+                if(isset($document[$key])) {
+                    $where[$key] = $document[$key];
+                    continue;
                 }
+                $where[$key] = $this->pdo->lastInsertId();
+                break;
             }
         }
 
@@ -95,26 +92,23 @@ class MySQL extends Storage {
         $where['_isDeleted'] = 0;
 
         $newFields = [];
-        foreach($document as $key => $value) {
-            foreach(self::getCollectionStructure($collection)[$key] as $definition) {
-                if($definition === 'PRIMARY_KEY') {
-                    $where[$key] = $value;
-                    break;
-                }
-                if($definition === 'UPDATED_DATETIME') {
-                    $document[$key] = \date('Y-m-d H:i:s');
-                    break;
-                }
-                if($definition === 'DATE') {
-                    $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
-                    break;
-                }
-                if($definition === 'DATETIME') {
-                    $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
-                    break;
-                }
+        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
+            if(\in_array('UPDATED_DATETIME', $definitions)) {
+                $document[$key] = \date('Y-m-d H:i:s');
             }
-            $newFields[$key] = $document[$key];
+            if(isset($document[$key])) {
+                if(\in_array('PRIMARY_KEY', $definitions)) {
+                    $where[$key] = $document[$key];
+                    continue;
+                }
+                if(\in_array('DATE', $definitions)) {
+                    $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
+                }
+                if(\in_array('DATETIME', $definitions)) {
+                    $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
+                }
+                $newFields[$key] = $document[$key];
+            }
         }
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in update document");
@@ -125,12 +119,10 @@ class MySQL extends Storage {
         $realDelete = false; // real delete has problems: apparently, the id is recycled, so it's better to just mark as deleted
 
         $where = [];
-        foreach($document as $key => $value) {
-            foreach(self::getCollectionStructure($collection)[$key] as $definition) {
-                if($definition === 'PRIMARY_KEY') {
-                    $where[$key] = $value;
-                    continue 2;
-                }
+        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
+            if(\in_array('PRIMARY_KEY', $definitions)) {
+                $where[$key] = $document[$key];
+                continue;
             }
         }
         if(\count($where) === 0) {
