@@ -1,8 +1,6 @@
 <?php
 namespace hiperesp\server\vo;
 
-use hiperesp\server\projection\CharacterProjection;
-
 class CharacterVO extends ValueObject {
 
     public readonly int $id;
@@ -31,8 +29,7 @@ class CharacterVO extends ValueObject {
     public readonly int $maxHouseSlots;
     public readonly int $maxHouseItemSlots;
 
-    public readonly bool $hasDragonAmulet;
-    public readonly int $accessLevel;
+    public readonly bool $dragonAmulet;
 
     public readonly string $gender;
     public readonly string $pronoun;
@@ -56,8 +53,7 @@ class CharacterVO extends ValueObject {
     public readonly int $skillPoints;
     public readonly int $statPoints;
 
-    public readonly int $status;
-    public readonly int $daily;
+    public readonly string $lastDailyQuestDone;
 
     public readonly string $armor;
     public readonly string $skills;
@@ -73,6 +69,23 @@ class CharacterVO extends ValueObject {
         $char['colorBase'] = \hexdec($char['colorBase']);
         $char['colorTrim'] = \hexdec($char['colorTrim']);
         parent::__construct($char);
+    }
+
+    public function getAccessLevel(): int {
+        return $this->dragonAmulet ? 1 : 0;
+    }
+
+    public function getEquippable(): string {
+        $equippable = [
+            "Sword", "Mace", "Dagger", "Axe", "Ring", "Necklace", "Staff", "Belt", "Earring", "Bracer",
+            "Pet", "Cape", "Wings", "Helmet", "Armor", "Wand", "Scythe", "Trinket", "Artifact"
+        ];
+        return \implode(",", $equippable);
+    }
+
+    public function getDailyQuestAvailable(): bool {
+        $today = \date('Y-m-d');
+        return $this->lastDailyQuestDone != $today;
     }
 
 }

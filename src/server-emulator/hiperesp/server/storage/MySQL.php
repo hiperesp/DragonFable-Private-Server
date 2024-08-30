@@ -203,6 +203,7 @@ class MySQL extends Storage {
         $afterCreateSql = "";
         $sql = "CREATE TABLE {$this->prefix}{$table} (";
         foreach(self::getCollectionStructure($table) as $field => $definitions) {
+            $indexDefinedForField = false;
             $sql.= "`{$field}` ";
             $definitionStr = [ ];
             foreach($definitions as $def1 => $def2) {
@@ -213,9 +214,12 @@ class MySQL extends Storage {
                     $definition = $def1;
                     $params = $def2;
                 }
-                if($definition === 'INDEX') {
-                    $afterCreateSql.= "CREATE INDEX {$this->prefix}{$table}_{$field} ON {$this->prefix}{$table} ({$field});";
-                    continue;
+                if(!$indexDefinedForField) {
+                    if($definition === 'INDEX' || $definition === 'UNIQUE' || $definition === 'FOREIGN_KEY') {
+                        $afterCreateSql.= "CREATE INDEX {$this->prefix}{$table}_{$field} ON {$this->prefix}{$table} ({$field});";
+                        $indexDefinedForField = true;
+                        continue;
+                    }
                 }
                 $definitionStr[] = match($definition) {
                     'GENERATED' => 'AUTO_INCREMENT',

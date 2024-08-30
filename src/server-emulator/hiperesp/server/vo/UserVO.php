@@ -1,11 +1,6 @@
 <?php
 namespace hiperesp\server\vo;
 
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\ClassModel;
-use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\SettingsModel;
-
 class UserVO extends ValueObject {
 
     public readonly int $id;
@@ -21,13 +16,12 @@ class UserVO extends ValueObject {
 
     public readonly ?string $sessionToken;
 
-    public readonly int $charsAllowed;
-    public readonly int $accessLevel;
-    public readonly int $upgrade;
-    public readonly int $activationFlag;
+    public readonly int $upgraded;
+    public readonly int $special;
+    public readonly int $activated;
     public readonly int $optIn;
-    public readonly int $adFlag;
 
+    public readonly bool $banned;
     public readonly ?string $lastLogin;
 
     public function __construct(array $user) {
@@ -39,6 +33,34 @@ class UserVO extends ValueObject {
         $birthdate = \date('m-d', \strtotime($this->birthdate));
         $today = \date('m-d', \strtotime($today));
         return $birthdate === $today;
+    }
+
+    public function getCharsAllowed(SettingsVO $settings): int {
+        return $this->upgraded || $this->special ? $settings->upgradedChars : $settings->nonUpgradedChars;
+    }
+
+    public function getAccessLevel(): int {
+        //   From game.swf:
+        //     < 0 = Disabled,
+        //     0 or 2 = Normal (Free or Upgraded),
+        //     Any other value = Special
+        //   What I think about the values:
+        //     -1 = disabled,
+        //     0 = free,
+        //     1 = special,
+        //     2 = upgraded
+        if($this->banned) {
+            return -1;
+        }
+        if($this->special) {
+            return 1;
+        }
+        if($this->upgraded) {
+            return 2;
+        }
+
+        return 0;
+
     }
 
 }

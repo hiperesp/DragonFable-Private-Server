@@ -15,6 +15,7 @@ class DFException extends \Exception {
 
     const USERNAME_ALREADY_EXISTS = "000.40";
     const EMAIL_ALREADY_EXISTS = "000.50";
+    const USER_BANNED = "000.60";
 
     const CHARACTER_NOT_FOUND = "500.71";
     const USER_NOT_FOUND = "526.14";
@@ -36,6 +37,9 @@ class DFException extends \Exception {
         $this->dfReason     = $theException["dfReason"];
         $this->dfMessage    = $theException["dfMessage"];
         $this->dfAction     = $theException["dfAction"];
+        if(!isset($theException["httpStatus"])) {
+            $theException["httpStatus"] = 200; // default, because the client is not handling some status codes rather than 200
+        }
         $this->httpStatus   = $theException["httpStatus"];
 
         parent::__construct("{$dfCode}: {$this->dfReason} - {$this->dfMessage}");
@@ -83,37 +87,37 @@ class DFException extends \Exception {
             "dfReason"  => "Invalid Reference",
             "dfMessage" => "Invalid Reference",
             "dfAction"  => "Continue",
-            "httpStatus"=> 200,
         ],
         self::USERNAME_ALREADY_EXISTS => [
             "dfReason"  => "Username Already Exists",
             "dfMessage" => "The username you are trying to use is already taken",
             "dfAction"  => "UserName",
-            "httpStatus"=> 200,
         ],
         self::EMAIL_ALREADY_EXISTS => [
             "dfReason"  => "Email Already Exists",
             "dfMessage" => "The email you are trying to use is already taken",
             "dfAction"  => "Email",
-            "httpStatus"=> 200,
         ],
         self::USER_NOT_FOUND => [
             "dfReason"  => "User Not Found or Wrong Password",
             "dfMessage" => "The username or password you typed was not correct. Please check the exact spelling and try again.",
             "dfAction"  => "none",
-            "httpStatus"=> 200,
         ],
         self::CHARACTER_NOT_FOUND => [
             "dfReason"  => "Character doesn't exist!",
             "dfMessage" => "Character doesn't exist!",
             "dfAction"  => "None",
-            "httpStatus"=> 200,
         ],
         self::BAD_REQUEST => [
             "dfReason"  => "Invalid Input!",
             "dfMessage" => "Message",
             "dfAction"  => "None",
-            "httpStatus"=> 200,
+        ],
+        self::USER_BANNED => [
+            "dfReason"  => "User Banned",
+            // create a custom message using \n, <font color> tags, etc
+            "dfMessage" => "Your account has been <font color=\"#FF0000\">banned</font>.\n\nIf you believe this is an error, please contact us through the <font color=\"#ff0000\">Help Pages</font>.",
+            "dfAction"  => "None",
         ],
     ];
 

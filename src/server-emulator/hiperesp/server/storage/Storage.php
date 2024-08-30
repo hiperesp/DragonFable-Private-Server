@@ -82,13 +82,13 @@ abstract class Storage {
                 "birthdate"     => [ "DATE" ],
 
                 "sessionToken"  => [ "STRING" => 20, "UNIQUE" ],
-                "charsAllowed"  => [ "INTEGER", "DEFAULT" => 3 ],
-                "accessLevel"   => [ "INTEGER", "DEFAULT" => 10 ],
-                "upgrade"       => [ "BIT", "DEFAULT" => 0],
-                "activationFlag"=> [ "BIT", "DEFAULT" => 5],
-                "optIn"         => [ "BIT", "DEFAULT" => 0],
-                "adFlag"        => [ "BIT", "DEFAULT" => 0],
 
+                "upgraded"      => [ "BIT", "DEFAULT" => 0],
+                "activated"     => [ "BIT", "DEFAULT" => 0],
+                "optIn"         => [ "BIT", "DEFAULT" => 0],
+                "special"       => [ "BIT", "DEFAULT" => 0],
+
+                "banned"        => [ "BIT", "DEFAULT" => 0],
                 "lastLogin"     => [ "DATETIME", "DEFAULT" => NULL ],
             ],
             "data" => "user.json",
@@ -121,8 +121,7 @@ abstract class Storage {
                 "maxHouseSlots"     => [ "INTEGER", "DEFAULT" => 5 ],
                 "maxHouseItemSlots" => [ "INTEGER", "DEFAULT" => 20 ],
 
-                "hasDragonAmulet"   => [ "INTEGER", "DEFAULT" => 0 ],
-                "accessLevel"       => [ "INTEGER", "DEFAULT" => 1 ],
+                "dragonAmulet"      => [ "INTEGER", "DEFAULT" => 0 ],
 
                 "gender"            => [ "CHAR" => 1 ], // M or F
                 "pronoun"           => [ "CHAR" => 1 ], // M, F or O
@@ -144,11 +143,7 @@ abstract class Storage {
                 "skillPoints"       => [ "INTEGER", "DEFAULT" => 0 ],
                 "statPoints"        => [ "INTEGER", "DEFAULT" => 0 ],
 
-                "status"            => [ "INTEGER", "DEFAULT" => 0 ], // intCharStatus, unknown meaning
-                "daily"             => [ "INTEGER", "DEFAULT" => 1 ], // [WIP] daily quest, 1 = available, 0 = completed.
-                                                                      // must be reset to 1 when a new day starts
-                                                                      // the best way to do this is store the last time the daily was completed
-                                                                      // and check if the current day is different from that day
+                "lastDailyQuestDone"=> [ "DATE", "DEFAULT" => NULL ],
 
                 "armor"             => [ "CHAR" => 100, "DEFAULT" => "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
                 "skills"            => [ "CHAR" => 300, "DEFAULT" => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],

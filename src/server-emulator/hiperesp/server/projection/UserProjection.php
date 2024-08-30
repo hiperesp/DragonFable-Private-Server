@@ -22,14 +22,14 @@ class UserProjection extends Projection {
         $xml = new \SimpleXMLElement('<characters/>');
         $userEl = $xml->addChild('user');
         $userEl->addAttribute('UserID', $user->id);
-        $userEl->addAttribute('intCharsAllowed', $user->charsAllowed);
-        $userEl->addAttribute('intAccessLevel', $user->accessLevel);
-        $userEl->addAttribute('intUpgrade', $user->upgrade);
-        $userEl->addAttribute('intActivationFlag', $user->activationFlag);
+        $userEl->addAttribute('intCharsAllowed', $user->getCharsAllowed($settings));
+        $userEl->addAttribute('intAccessLevel', $user->getAccessLevel());
+        $userEl->addAttribute('intUpgrade', $user->upgraded ? 1 : 0);
+        $userEl->addAttribute('intActivationFlag', $user->activated ? 5 : 1);
         $userEl->addAttribute('bitOptin', $user->optIn);
         $userEl->addAttribute('strToken', $user->sessionToken);
         $userEl->addAttribute('strNews', $settings->news);
-        $userEl->addAttribute('bitAdFlag', $user->adFlag);
+        $userEl->addAttribute('bitAdFlag', $settings->enableAdvertising ? 1 : 0);
         $userEl->addAttribute('dateToday', \date('c'));
 
         $chars = $this->characterModel->getByUser($user);
@@ -40,8 +40,8 @@ class UserProjection extends Projection {
             $charEl->addAttribute('CharID', $char->id);
             $charEl->addAttribute('strCharacterName', $char->name);
             $charEl->addAttribute('intLevel', $char->level);
-            $charEl->addAttribute('intAccessLevel', $char->accessLevel);
-            $charEl->addAttribute('intDragonAmulet', $char->hasDragonAmulet ? 1 : 0);
+            $charEl->addAttribute('intAccessLevel', $char->getAccessLevel());
+            $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
 
             $class = $this->classModel->getByChar($char);
             $charEl->addAttribute('orgClassID', $char->id);

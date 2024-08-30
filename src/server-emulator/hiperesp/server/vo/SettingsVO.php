@@ -17,6 +17,11 @@ class SettingsVO extends ValueObject {
     public readonly string $signUpMessage;
     public readonly string $news;
 
+    public readonly bool $enableAdvertising;
+    public readonly int $nonUpgradedChars;
+    public readonly int $upgradedChars;
+    public readonly int $dailyQuestCoinsReward;
+
     public readonly bool $levelUpMultipleTimes;
 
     public readonly int $onlineTimeout;
@@ -39,6 +44,11 @@ class SettingsVO extends ValueObject {
 
         $this->signUpMessage  = "Welcome to the world of DragonFable!\n\nPlease sign up to play!";
         $this->news = "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!";
+
+        $this->enableAdvertising = false; // if true, the game will show ads
+        $this->nonUpgradedChars = 3; // number of characters allowed for non-upgraded players
+        $this->upgradedChars = 6; // number of characters allowed for upgraded players
+        $this->dailyQuestCoinsReward = 200; // coins reward for daily quests (default: 3)
 
         $this->levelUpMultipleTimes = false; // if true, player can level up multiple times according to the experience gained
 

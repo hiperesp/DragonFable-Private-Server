@@ -31,4 +31,8 @@ class QuestVO extends ValueObject {
     public readonly string $monsterType;
     public readonly string $monsterGroupSwf;
 
+    public function isDailyQuest(): bool {
+        return $this->dailyIndex > 0;
+    }
+
 }

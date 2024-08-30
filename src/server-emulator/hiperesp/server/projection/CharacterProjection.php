@@ -6,12 +6,15 @@ use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\HairModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\RaceModel;
+use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\WeaponModel;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\UserVO;
 
 class CharacterProjection extends Projection {
 
+    private SettingsModel $settingsModel;
     private RaceModel $raceModel;
     private QuestModel $questModel;
     private ClassModel $classModel;
@@ -39,7 +42,7 @@ class CharacterProjection extends Projection {
     public function dragonAmuletCheck(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<character/>');
         $charEl = $xml->addChild('character');
-        $charEl->addAttribute('intDragonAmulet', $char->hasDragonAmulet ? '1' : '0');
+        $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
 
         return $xml;
     }
@@ -67,8 +70,8 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intMaxBankSlots', $char->maxBankSlots);
         $charEl->addAttribute('intMaxHouseSlots', $char->maxHouseSlots);
         $charEl->addAttribute('intMaxHouseItemSlots', $char->maxHouseItemSlots);
-        $charEl->addAttribute('intDragonAmulet', $char->hasDragonAmulet ? '1' : '0');
-        $charEl->addAttribute('intAccesslevel', $char->accessLevel);
+        $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
+        $charEl->addAttribute('intAccesslevel', $char->getAccessLevel());
         $charEl->addAttribute('strGender', $char->gender);
         $charEl->addAttribute('strPronoun', $char->pronoun);
         $charEl->addAttribute('intColorHair', $char->colorHair);
@@ -84,7 +87,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intWis', $char->wisdom);
         $charEl->addAttribute('intSkillPoints', $char->skillPoints);
         $charEl->addAttribute('intStatPoints', $char->statPoints);
-        $charEl->addAttribute('intCharStatus', $char->status);
+        $charEl->addAttribute('intCharStatus', 0);
         $charEl->addAttribute('strArmor', $char->armor);
         $charEl->addAttribute('strSkills', $char->skills);
         $charEl->addAttribute('strQuests', $char->quests);
@@ -138,14 +141,14 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDmgMax', $weapon->damageMax);
         $charEl->addAttribute('intBonus', $weapon->bonus);
 
-        $charEl->addAttribute('strEquippable', "Sword,Mace,Dagger,Axe,Ring,Necklace,Staff,Belt,Earring,Bracer,Pet,Cape,Wings,Helmet,Armor,Wand,Scythe,Trinket,Artifact");
+        $charEl->addAttribute('strEquippable', $char->getEquippable());
 
         $hair = $this->hairModel->getByChar($char);
         $charEl->addAttribute('strHairFileName', $hair->swf);
         $charEl->addAttribute('intHairFrame', 1);
 
         $charEl->addAttribute('gemReward', 0); // unknown meaning
-        $charEl->addAttribute('intDaily', $char->daily); // need to store the last date of daily quest completion. if is the same date, return 0, else return 1 to enable daily quest.
+        $charEl->addAttribute('intDaily', $char->getDailyQuestAvailable());
         $charEl->addAttribute('intDailyRoll', 1); // unknown meaning, always 1 with or without char with dragon amulet.
 
         return $xml;
@@ -172,18 +175,21 @@ class CharacterProjection extends Projection {
     }
 
     /** @param array<ItemVO> $rewards */
-    public function questCompletedMar2011($char, array $rewards): \SimpleXMLElement {
+    public function questCompletedMar2011(QuestVO $quest, CharacterVO $char, array $rewards): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<questreward/>');
         $questRewardEl = $xml->addChild('questreward');
         $questRewardEl->addAttribute('intExp', $char->experience);
         $questRewardEl->addAttribute('intSilver', $char->silver);
         $questRewardEl->addAttribute('intGold', $char->gold);
         $questRewardEl->addAttribute('intGems', $char->gems);
-        $questRewardEl->addAttribute('intCoins', 3);
-        // I think this is hardcoded, because any questCompletedMar2011 returns 3 coins.
-        // It only appears in game when the daily quest is completed, but dont affect anything,
-        // because when you open inventory, is called CharacterProjection::loaded.
-        // Tested in quest 101 and daily quest, with and without dragon amulet and dragon coins.
+
+        $coins = 0;
+        if($quest->isDailyQuest()) {
+            $settings = $this->settingsModel->getSettings();
+            $coins = $settings->dailyQuestCoinsReward;
+        }
+        $questRewardEl->addAttribute('intCoins', $coins);
+
         return $xml;
     }
 

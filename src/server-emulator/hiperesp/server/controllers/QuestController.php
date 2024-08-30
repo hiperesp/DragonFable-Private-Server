@@ -76,7 +76,7 @@ class QuestController extends Controller {
             'gold' => (int)$input->intGold,
         ]);
 
-        return CharacterProjection::instance()->questCompletedMar2011($char, []);
+        return CharacterProjection::instance()->questCompletedMar2011($quest, $char, []);
     }
 
     // [WIP]

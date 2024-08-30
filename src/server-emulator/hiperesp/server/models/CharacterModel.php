@@ -41,6 +41,9 @@ class CharacterModel extends Model {
         $data['classId'] = $input['intClassID'];
         $data['baseClassId'] = $input['intClassID'];
         $data['raceId'] = '1';
+        if($user->upgraded) {
+            $data['dragonAmulet'] = 1;
+        }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
 
@@ -72,13 +75,11 @@ class CharacterModel extends Model {
     }
 
     public function applyQuestRewards(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
-        if(\in_array($quest->id, [
-            1713, 1715, 1716, 1717, 1718, // 1714 is missing in quest list, i don't know why
-            1719, 1720, 1721, 1722, 1723, 
-        ])) {
-            $reward['coins'] = 3;
+        if($quest->isDailyQuest()) {
+            $reward['coins'] = $settings->dailyQuestCoinsReward;
         }
         $this->applyExpSave($settings, $char, $quest, $reward);
+        $this->setDailyQuestDone($char);
     }
 
     public function applyExpSave(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
@@ -177,6 +178,13 @@ class CharacterModel extends Model {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'lastTimeSeen' => \date('Y-m-d H:i:00')
+        ]);
+    }
+
+    private function setDailyQuestDone(CharacterVO $char): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'lastDailyQuestDone' => \date('Y-m-d')
         ]);
     }
 

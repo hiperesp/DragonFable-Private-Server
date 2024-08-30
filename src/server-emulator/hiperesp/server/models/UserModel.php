@@ -12,6 +12,9 @@ class UserModel extends Model {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
         if(isset($user[0]) && $user = $user[0]) {
             if(\password_verify($password, $user['password'])) {
+                if($user['banned']) {
+                    throw new DFException(DFException::USER_BANNED);
+                }
                 $user['sessionToken'] = $this->_generateUniqueSessionToken();
                 $user['lastLogin'] = \date('c');
                 $this->storage->update(self::COLLECTION, $user);
