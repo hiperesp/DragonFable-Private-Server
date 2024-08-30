@@ -145,8 +145,8 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intHairFrame', 1);
 
         $charEl->addAttribute('gemReward', 0); // unknown meaning
-        $charEl->addAttribute('intDaily', $char->daily); // unknown meaning
-        $charEl->addAttribute('intDailyRoll', 1); // unknown meaning
+        $charEl->addAttribute('intDaily', $char->daily); // need to store the last date of daily quest completion. if is the same date, return 0, else return 1 to enable daily quest.
+        $charEl->addAttribute('intDailyRoll', 1); // unknown meaning, always 1 with or without char with dragon amulet.
 
         return $xml;
     }
@@ -173,7 +173,18 @@ class CharacterProjection extends Projection {
 
     /** @param array<ItemVO> $rewards */
     public function questCompletedMar2011($char, array $rewards): \SimpleXMLElement {
-        return $this->expSaved($char);
+        $xml = new \SimpleXMLElement('<questreward/>');
+        $questRewardEl = $xml->addChild('questreward');
+        $questRewardEl->addAttribute('intExp', $char->experience);
+        $questRewardEl->addAttribute('intSilver', $char->silver);
+        $questRewardEl->addAttribute('intGold', $char->gold);
+        $questRewardEl->addAttribute('intGems', $char->gems);
+        $questRewardEl->addAttribute('intCoins', 3);
+        // I think this is hardcoded, because any questCompletedMar2011 returns 3 coins.
+        // It only appears in game when the daily quest is completed, but dont affect anything,
+        // because when you open inventory, is called CharacterProjection::loaded.
+        // Tested in quest 101 and daily quest, with and without dragon amulet and dragon coins.
+        return $xml;
     }
 
 }

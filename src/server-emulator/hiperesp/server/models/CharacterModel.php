@@ -72,6 +72,12 @@ class CharacterModel extends Model {
     }
 
     public function applyQuestRewards(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
+        if(\in_array($quest->id, [
+            1713, 1715, 1716, 1717, 1718, // 1714 is missing in quest list, i don't know why
+            1719, 1720, 1721, 1722, 1723, 
+        ])) {
+            $reward['coins'] = 3;
+        }
         $this->applyExpSave($settings, $char, $quest, $reward);
     }
 
@@ -81,6 +87,7 @@ class CharacterModel extends Model {
         $gold = $char->gold;
         $silver = $char->silver;
         $level = $char->level;
+        $coins = $char->coins;
         $experienceToLevel = $char->experienceToLevel;
 
         if(isset($reward['experience'])) {
@@ -94,6 +101,9 @@ class CharacterModel extends Model {
         }
         if(isset($reward['silver'])) {
             $silver += \min($reward['silver'], $quest->maxSilver);
+        }
+        if(isset($reward['coins'])) {
+            $coins += $reward['coins']; // no max coins is defined in the quest
         }
 
         if($settings->levelUpMultipleTimes) {
@@ -121,6 +131,7 @@ class CharacterModel extends Model {
             'gold' => $gold,
             'silver' => $silver,
             'level' => $level,
+            'coins' => $coins,
             'experienceToLevel' => $experienceToLevel
         ]);
     }
