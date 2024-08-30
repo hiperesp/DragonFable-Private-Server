@@ -45,6 +45,17 @@ A private server for DragonFable, allowing custom game and server file locations
 
 https://dragon-fable.deploy.app.br/
 
+-----
+
+#### Dev info:
+
+I am using `flash.external.ExternalInterface.call("console.log", "Hello ExternalInterface");` to log flash messages to browser console.
+
+-----
+
+## Credits
+Inspired by [AlphaFable, by MentalBlank](https://github.com/MentalBlank/AlphaFable).
+
 ## Contributing:
 
 Feel free to submit issues or pull requests. Contributions are welcome!
@@ -53,6 +64,3 @@ Feel free to submit issues or pull requests. Contributions are welcome!
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Dev info:
-
-I am using `flash.external.ExternalInterface.call("console.log", "Hello ExternalInterface");` to log flash messages to browser console.
