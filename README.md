@@ -54,7 +54,10 @@ I am using `flash.external.ExternalInterface.call("console.log", "Hello External
 -----
 
 ## Credits
+
 Inspired by [AlphaFable, by MentalBlank](https://github.com/MentalBlank/AlphaFable).
+
+Artix Entertainment (Creators of DragonFable and Intellectual Property holders)
 
 ## Contributing:
 
