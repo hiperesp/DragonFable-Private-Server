@@ -148,7 +148,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intHairFrame', 1);
 
         $charEl->addAttribute('gemReward', 0); // unknown meaning
-        $charEl->addAttribute('intDaily', $char->getDailyQuestAvailable());
+        $charEl->addAttribute('intDaily', $char->getDailyQuestAvailable() ? 1 : 0);
         $charEl->addAttribute('intDailyRoll', 1); // unknown meaning, always 1 with or without char with dragon amulet.
 
         return $xml;

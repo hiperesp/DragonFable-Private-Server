@@ -76,10 +76,12 @@ class CharacterModel extends Model {
 
     public function applyQuestRewards(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
         if($quest->isDailyQuest()) {
-            $reward['coins'] = $settings->dailyQuestCoinsReward;
+            if($char->getDailyQuestAvailable()) {
+                $this->setDailyQuestDone($char);
+                $reward['coins'] = $settings->dailyQuestCoinsReward;
+            }
         }
         $this->applyExpSave($settings, $char, $quest, $reward);
-        $this->setDailyQuestDone($char);
     }
 
     public function applyExpSave(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
