@@ -1,4 +1,5 @@
 <?php
+
 $data = [
     "quest" => [
         "minId" => 1,
@@ -19,12 +20,16 @@ $data = [
         "maxId" => 20,
         "skips" => [],
     ],
+    "houseShop" => [
+        "minId" => 0,
+        "maxId" => 20,
+        "skips" => [],
+    ],
     //? classes
     //? dragoncustomize
     //? dragons
     //? equipment
     //? hairlist (extracted all from signup, need more) + hair vendors
-    //? houses + items + vendors
     //? interfaces
     //? item merges + merge vendors
     //? quest merge
@@ -47,13 +52,17 @@ if (!isset($data[$choice])) {
 
 $data = $data[$choice];
 
-echo "What is your session token?\n";
-echo "Session Token: ";
-$sessionToken = \trim(\fgets(\STDIN));
+if(!isset($sessionToken)) {
+    echo "What is your session token?\n";
+    echo "Session Token: ";
+    $sessionToken = \trim(\fgets(\STDIN));
+}
 
-echo "What is your character ID?\n";
-echo "Character ID: ";
-$charId = (int)\trim(\fgets(\STDIN));
+if(!isset($charId)) {
+    echo "What is your character ID?\n";
+    echo "Character ID: ";
+    $charId = (int)\trim(\fgets(\STDIN));
+}
 
 if($choice=="quest") {
     for($questId=$data['minId']; $questId<=$data['maxId']; $questId++) {
@@ -82,7 +91,7 @@ if($choice=="quest") {
         }
         echo "Extracting quest {$questId}...\n";
         try {
-            $quest = getQuestData($sessionToken, $charId, $questId);
+            $quest = getQuestData($questId);
             \file_put_contents("quests/quest{$questId}.xml", $quest);
             echo "Quest: {$questId} done\n";
         } catch (\Exception $e) {
@@ -126,6 +135,7 @@ if($choice=="quest") {
             }
         }
     }
+
 } else if($choice == "interface") {
     for($interfaceId=$data['minId']; $interfaceId<=$data['maxId']; $interfaceId++) {
         if(\in_array($interfaceId, $data['skips'])) {
@@ -146,12 +156,40 @@ if($choice=="quest") {
             echo "Error: {$e->getMessage()}\n";
         }
     }
+
+} else if($choice == "houseShop") {
+    for($houseShopId=$data['minId']; $houseShopId<=$data['maxId']; $houseShopId++) {
+        if(\in_array($houseShopId, $data['skips'])) {
+            echo "Skipping house shop {$houseShopId}...\n";
+            continue;
+        }
+        if(\file_exists("houseShops/houseShop{$houseShopId}.xml")) {
+            // echo "House shop {$houseShopId} already extracted\n";
+            continue;
+        }
+        echo "Extracting house shop {$houseShopId}...\n";
+        try {
+            $houseShop = getHouseShop($houseShopId);
+            \file_put_contents("houseShops/houseShop{$houseShopId}.xml", $houseShop);
+            echo "House shop: {$houseShopId} done\n";
+        } catch (\Exception $e) {
+            echo "House shop: {$houseShopId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+        }
+    }
+
+} else {
+    echo "Invalid choice\n";
+    exit;
 }
 
 echo "Done\n";
 die;
 
-function getQuestData(string $sessionToken, int $charId, int $questId): string {
+function getQuestData(int $questId): string {
+    global $sessionToken;
+    global $charId;
+
     $ch = \curl_init();
     \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-questload.asp");
     \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
@@ -175,7 +213,7 @@ function getQuestData(string $sessionToken, int $charId, int $questId): string {
         throw new \Exception('Empty response');
     }
 
-    $result = \utf8_encode($result);
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
     $validateXml = \simplexml_load_string($result);
     if($validateXml === false) {
         echo $result;die;
@@ -219,7 +257,7 @@ function getShopData(int $shopId): string {
         throw new \Exception('Empty response');
     }
 
-    $result = \utf8_encode($result);
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
 
     if(\strpos($result, '<shop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></shop>') !== false) {
         throw new \Exception('Empty shop');
@@ -267,7 +305,7 @@ function getInterfaceData(int $interfaceId): string {
         throw new \Exception('Empty response');
     }
 
-    $result = \utf8_encode($result);
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
     $validateXml = \simplexml_load_string($result);
     if($validateXml === false) {
         echo $result;die;
@@ -275,6 +313,57 @@ function getInterfaceData(int $interfaceId): string {
     }
     $child0 = $validateXml->children()[0];
     if(!$child0) {
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getHouseShop(int $shopId): string {
+    global $sessionToken;
+    global $charId;
+
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-houseshopload.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><strToken>{$sessionToken}</strToken><intCharID>{$charId}</intCharID><intShopID>{$shopId}</intShopID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
+
+    if(\strpos($result, '<houseshop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></houseshop>') !== false) {
+        throw new \Exception('Empty shop');
+    }
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result."??";die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
+        echo $result."???";die;
         throw new \Exception('Invalid XML');
     }
     if($child0->getName() === "info") {

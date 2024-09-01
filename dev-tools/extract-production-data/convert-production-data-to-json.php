@@ -6,7 +6,8 @@
 $save = [
     "quest" => false,
     "shop" => false,
-    "interface" => true,
+    "interface" => false,
+    "houseShop" => true,
 ];
 
 if($save["quest"]) {
@@ -54,6 +55,20 @@ if($save["interface"]) {
     }
 }
 
+if($save["houseShop"]) {
+    $shopFiles = \scandir(__DIR__."/houseShops");
+    \usort($shopFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($shopFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        $data = convert("houseShop", __DIR__."/houseShops/".$file);
+
+        save("houseShop", $data);
+    }
+}
+
 function save(string $type, array $newData): void {
     static $uniqueId = 9_900_000;
 
@@ -61,6 +76,7 @@ function save(string $type, array $newData): void {
         "shop" => [ "shop", "item", "shop_item" ],
         "quest" => [ "race", "quest", "monster", "quest_monster", "item" ],
         "interface" => [ "interface" ],
+        "houseShop" => [ "houseShop", "house", "houseShop_house" ],
     };
 
     $outDir = __DIR__."/json/";
@@ -78,7 +94,7 @@ function save(string $type, array $newData): void {
         }
         $currentData = \json_decode(\file_get_contents($file), true);
         foreach($newData[$subType] as $newItem) {
-            if(!\in_array($subType, ["quest_monster"])) { // can have multiple duplicates and dont have id
+            if(!\in_array($subType, ["quest_monster", "houseShop_house"])) { // can have multiple duplicates and dont have id
                 for($i=0; $i<\count($currentData); $i++) {
                     $currentItem = $currentData[$i];
                     if(!isset($currentItem["id"])) {
@@ -352,6 +368,67 @@ function convert(string $type, string $file): array {
             "swf"       =>      $xmlJson['intrface']['@attributes']['strFileName'],
             "loadUnder" => (int)$xmlJson['intrface']['@attributes']['bitLoadUnder'],
         ];
+    } else if($type=="houseShop") {
+
+        $out["houseShop"]       = [];
+        $out["house"]           = [];
+        $out["houseShop_house"] = [];
+
+        if(!isset($xmlJson["shop"][0])) {
+            $xmlJson["shop"] = [$xmlJson["shop"]];
+        }
+        foreach($xmlJson["shop"] as $shop) {
+            $out["houseShop"][] = [
+                'id'    => (int)$shop['@attributes']['ShopID'],
+                'name'  =>      $shop['@attributes']['strCharacterName'],
+            ];
+
+            if(!isset($shop["sHouses"])) continue;
+            if(!isset($shop["sHouses"][0])) {
+                $shop["sHouses"] = [$shop["sHouses"]];
+            }
+            foreach($shop['sHouses'] as $house) {
+                $out["house"][] = [
+                    "id"            => (int)$house['@attributes']['HouseID'],
+                    "name"          =>      $house['@attributes']['strHouseName'],
+                    "description"   =>      $house['@attributes']['strHouseDescription'],
+                    "visible"       => (int)$house['@attributes']['bitVisible'],
+                    "destroyable"   => (int)$house['@attributes']['bitDestroyable'],
+                    "equippable"    => (int)$house['@attributes']['bitEquippable'],
+                    "randomDrop"    => (int)$house['@attributes']['bitRandomDrop'],
+                    "sellable"      => (int)$house['@attributes']['bitSellable'],
+                    "dragonAmulet"  => (int)$house['@attributes']['bitDragonAmulet'],
+                    "enc"           => (int)$house['@attributes']['bitEnc'], // not sure what this is
+                    "cost"          => (int)$house['@attributes']['intCost'],
+                    "currency"      => (int)$house['@attributes']['intCurrency'],
+                    "rarity"        => (int)$house['@attributes']['intRarity'],
+                    "level"         => (int)$house['@attributes']['intLevel'],
+                    "category"      => (int)$house['@attributes']['intCategory'],
+                    "equipSpot"     => (int)$house['@attributes']['intEquipSpot'],
+                    "type"          => (int)$house['@attributes']['intType'],
+                    "random"        => (int)$house['@attributes']['bitRandom'],
+                    "element"       => (int)$house['@attributes']['intElement'],
+                    "type"          =>      $house['@attributes']['strType'],
+                    "icon"          =>      $house['@attributes']['strIcon'],
+                    "designInfo"    =>     @$house['@attributes']['strDesignInfo'] ?: "",
+                    "swf"           =>      $house['@attributes']['strFileName'],
+                    "region"        => (int)$house['@attributes']['intRegion'],
+                    "theme"         => (int)$house['@attributes']['intTheme'],
+                    "size"          => (int)$house['@attributes']['intSize'],
+                    "baseHP"        => (int)$house['@attributes']['intBaseHP'],
+                    "storageSize"   => (int)$house['@attributes']['intStorageSize'],
+                    "maxGuards"     => (int)$house['@attributes']['intMaxGuards'],
+                    "maxRooms"      => (int)$house['@attributes']['intMaxRooms'],
+                    "maxExtItems"   => (int)$house['@attributes']['intMaxExtItems'],
+                ];
+
+                $out["houseShop_house"][] = [
+                    "houseShopId"   => (int)$shop['@attributes']['ShopID'],
+                    "houseId"       => (int)$house['@attributes']['HouseID'],
+                ];
+            }
+        }
+
     } else {
         throw new \Exception("Unknown type: {$type}");
     }
