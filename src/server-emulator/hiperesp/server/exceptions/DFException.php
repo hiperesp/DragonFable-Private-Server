@@ -11,6 +11,7 @@ class DFException extends \Exception {
     const HAIR_NOT_FOUND = self::INVALID_REFERENCE;
     const MONSTER_NOT_FOUND = self::INVALID_REFERENCE;
     const SHOP_NOT_FOUND = self::INVALID_REFERENCE;
+    const HOUSE_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
     const INTERFACE_NOT_FOUND = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";

@@ -339,6 +339,56 @@ abstract class Storage {
             ],
             "data" => "interface/",
         ],
+        "house" => [
+            "structure" => [
+                "id"            => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"          => [ "STRING" => 255, "DEFAULT" => "" ],
+                "description"   => [ "STRING" => 255, "DEFAULT" => "" ],
+                "visible"       => [ "INTEGER", "DEFAULT" => 1 ],
+                "destroyable"   => [ "BIT", "DEFAULT" => 1 ],
+                "equippable"    => [ "BIT", "DEFAULT" => 1 ],
+                "randomDrop"    => [ "BIT", "DEFAULT" => 1 ],
+                "sellable"      => [ "BIT", "DEFAULT" => 1 ],
+                "dragonAmulet"  => [ "BIT", "DEFAULT" => 1 ],
+                "enc"           => [ "BIT", "DEFAULT" => 1 ],
+                "cost"          => [ "INTEGER", "DEFAULT" => 0 ],
+                "currency"      => [ "INTEGER", "DEFAULT" => 2 ],
+                "rarity"        => [ "BIT", "DEFAULT" => 1 ],
+                "level"         => [ "INTEGER", "DEFAULT" => 1 ],
+                "category"      => [ "INTEGER", "DEFAULT" => 1 ],
+                "equipSpot"     => [ "INTEGER", "DEFAULT" => 1 ],
+                "type"          => [ "STRING" => 255, "DEFAULT" => "" ],
+                "random"        => [ "INTEGER", "DEFAULT" => 0 ],
+                "element"       => [ "INTEGER", "DEFAULT" => 1 ],
+                "icon"          => [ "STRING" => 255, "DEFAULT" => "resource" ],
+                "designInfo"    => [ "STRING" => 255, "DEFAULT" => "" ],
+                "swf"           => [ "STRING" => 255, "DEFAULT" => "" ],
+                "region"        => [ "INTEGER", "DEFAULT" => 1 ],
+                "theme"         => [ "INTEGER", "DEFAULT" => 1 ],
+                "size"          => [ "INTEGER", "DEFAULT" => 1 ],
+                "baseHP"        => [ "INTEGER", "DEFAULT" => 100 ],
+                "storageSize"   => [ "INTEGER", "DEFAULT" => 0 ],
+                "maxGuards"     => [ "INTEGER", "DEFAULT" => 1 ],
+                "maxRooms"      => [ "INTEGER", "DEFAULT" => 0 ],
+                "maxExtItems"   => [ "INTEGER", "DEFAULT" => 1 ]
+            ],
+            "data" => "house/",
+        ],
+        "houseShop" => [
+            "structure" => [
+                "id"    => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"  => [ "STRING" => 255, "DEFAULT" => "" ],
+            ],
+            "data" => "houseShop/",
+        ],
+        "houseShop_house" => [
+            "structure" => [
+                "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
+                "houseShopId"   => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "houseShop", "field" => "id" ] ],
+                "houseId"       => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "house", "field" => "id" ] ],
+            ],
+            "data" => "houseShop_house/",
+        ],
     ];
 
 }
