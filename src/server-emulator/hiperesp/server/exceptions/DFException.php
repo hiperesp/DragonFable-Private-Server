@@ -13,6 +13,7 @@ class DFException extends \Exception {
     const SHOP_NOT_FOUND = self::INVALID_REFERENCE;
     const HOUSE_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
     const INTERFACE_NOT_FOUND = self::INVALID_REFERENCE;
+    const SETTINGS_NOT_FOUND = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";
     const EMAIL_ALREADY_EXISTS = "000.50";

@@ -16,9 +16,11 @@ abstract class Storage {
 
     private static Storage $instance;
     public static function getStorage(bool $verifySetup = true): Storage {
-        $storageSettings = $GLOBALS['storage'];
+        $driver = \getenv("DB_DRIVER");
+        $options = \json_decode(\getenv("DB_OPTIONS"), true);
+
         if(!isset(self::$instance)) {
-            self::$instance = new $storageSettings["driver"]($storageSettings["options"]);
+            self::$instance = new $driver($options);
             if($verifySetup && self::$instance->needsSetup()) {
                 throw new \Exception("Database needs setup");
             }
@@ -69,6 +71,66 @@ abstract class Storage {
     }
 
     private static $collectionSetup = [
+        "settings" => [
+            "structure" => [
+                "id"                    => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
+
+                "createdAt"             => [ "DATETIME", "CREATED_DATETIME" ],
+                "updatedAt"             => [ "DATETIME", "UPDATED_DATETIME" ],
+
+                "gameSwf"               => [ "STRING" => 255 ],
+                "serverVersion"         => [ "STRING" => 255 ],
+                "serverLocation"        => [ "STRING" => 255 ],
+                "gamefilesPath"         => [ "STRING" => 255 ],
+
+                "homeUrl"               => [ "STRING" => 255 ],
+                "playUrl"               => [ "STRING" => 255 ],
+                "signUpUrl"             => [ "STRING" => 255 ],
+                "lostPasswordUrl"       => [ "STRING" => 255 ],
+                "tosUrl"                => [ "STRING" => 255 ],
+
+                "signUpMessage"         => [ "STRING" => 255 ],
+                "news"                  => [ "STRING" => 255 ],
+
+                "enableAdvertising"     => [ "BIT", "DEFAULT" => 0 ],
+                "nonUpgradedChars"      => [ "INTEGER", "DEFAULT" => 3 ],
+                "upgradedChars"         => [ "INTEGER", "DEFAULT" => 6 ],
+                "dailyQuestCoinsReward" => [ "INTEGER", "DEFAULT" => 3 ],
+
+                "levelUpMultipleTimes"  => [ "BIT", "DEFAULT" => 0 ],
+
+                "onlineTimeout"         => [ "INTEGER", "DEFAULT" => 10 ],
+            ],
+            "data" => [
+                [
+                    "id"                    => 1,
+
+                    "gameSwf"               => "game15_9_00-patched.swf?v2",
+                    "serverVersion"         => "Build 15.9.00 alpha", // appears in the game client version, only display
+                                            //                    ^ last visible char (aprox. 19 chars)
+                    "serverLocation"        => "server-emulator/server.php/", // "http://localhost:40000/server-emulator/server.php/";
+                    "gamefilesPath"         => "cdn/gamefiles/", // "http://localhost:40000/cdn/gamefiles/";
+
+                    "homeUrl"               => "../../../index.html",
+                    "playUrl"               => "../../../play.html",
+                    "signUpUrl"             => "../../../signup.html",
+                    "lostPasswordUrl"       => "../../../lostpassword.html",
+                    "tosUrl"                => "../../../tos.html",
+
+                    "signUpMessage"         => "Welcome to the world of DragonFable!\n\nPlease sign up to play!",
+                    "news"                  => "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!",
+
+                    "enableAdvertising"     => 0, // if true, the game will show ads
+                    "nonUpgradedChars"      => 3, // number of characters allowed for non-upgraded players
+                    "upgradedChars"         => 6, // number of characters allowed for upgraded players
+                    "dailyQuestCoinsReward" => 200, // coins reward for daily quests (default: 3)
+
+                    "levelUpMultipleTimes"  => 0, // if true, player can level up multiple times according to the experience gained
+
+                    "onlineTimeout"         => 10, // minutes. It affects only the online status of the player
+                ]
+            ],
+        ],
         "user" => [
             "structure" => [
                 "id"            => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],

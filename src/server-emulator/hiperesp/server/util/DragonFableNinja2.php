@@ -3,7 +3,11 @@ namespace hiperesp\server\util;
 
 class DragonFableNinja2 {
 
-    public function __construct(private string $key = "ZorbakOwnsYou") {}
+    private readonly string $key;
+
+    public function __construct() {
+        $this->key = \getenv("DF_NINJA2_KEY");
+    }
 
     public function decrypt(string $theText): string {
         $decrypted = "";
@@ -17,6 +21,11 @@ class DragonFableNinja2 {
             $charP3 = \ord($this->key[$i / 4 % $keyLength]);
             $decrypted .= \chr($charP1 - $charP2 - $charP3);
         }
+
+        if(!\mb_check_encoding($decrypted, "UTF-8")) {
+            throw new \Exception("Invalid decrypted text. Verify the ninja2 key.");
+        }
+
         return $decrypted;
     }
     public function encrypt(string $theText): string {

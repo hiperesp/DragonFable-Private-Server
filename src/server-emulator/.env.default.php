@@ -15,3 +15,6 @@
     "location" => "/var/www/html/server-emulator/data/db.sqlite3",
     "prefix" => "df_",
 ]));
+
+\putenv("DF_SETTINGS_ID=1");            # Optional, default 1
+\putenv("DF_NINJA2_KEY=ZorbakOwnsYou"); # Optional, default "ZorbakOwnsYou"
