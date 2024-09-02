@@ -271,6 +271,15 @@ abstract class Storage {
             ],
             "data" => "guild.json",
         ],
+        "interface" => [
+            "structure" => [
+                "id"        => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"      => [ "STRING" => 255, "DEFAULT" => "" ],
+                "swf"       => [ "STRING" => 255, "DEFAULT" => "" ],
+                "loadUnder" => [ "INTEGER", "DEFAULT" => 0 ],
+            ],
+            "data" => "interface/",
+        ],
         "item" => [
             "structure" => [
                 "id"            => [ "INTEGER", "PRIMARY_KEY" ],
@@ -314,30 +323,21 @@ abstract class Storage {
             ],
             "data" => "item/",
         ],
-        "shop" => [
+        "itemShop" => [
             "structure" => [
                 "id"    => [ "INTEGER", "PRIMARY_KEY" ],
                 "name"  => [ "STRING" => 255, "DEFAULT" => ""],
                 "count" => [ "INTEGER", "DEFAULT" => -100 ], // not sure what means
             ],
-            "data" => "shop/",
+            "data" => "itemShop/",
         ],
-        "shop_item" => [
+        "itemShop_item" => [
             "structure" => [
                 "id"     => [ "INTEGER", "PRIMARY_KEY" ],
                 "shopId" => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "shop", "field" => "id" ] ],
                 "itemId" => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "item", "field" => "id" ] ],
             ],
-            "data" => "shop_item/",
-        ],
-        "interface" => [
-            "structure" => [
-                "id"        => [ "INTEGER", "PRIMARY_KEY" ],
-                "name"      => [ "STRING" => 255, "DEFAULT" => "" ],
-                "swf"       => [ "STRING" => 255, "DEFAULT" => "" ],
-                "loadUnder" => [ "INTEGER", "DEFAULT" => 0 ],
-            ],
-            "data" => "interface/",
+            "data" => "itemShop_item/",
         ],
         "house" => [
             "structure" => [

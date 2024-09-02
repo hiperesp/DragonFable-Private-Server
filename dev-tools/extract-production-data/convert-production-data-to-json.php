@@ -73,7 +73,7 @@ function save(string $type, array $newData): void {
     static $uniqueId = 9_900_000;
 
     $subTypes = match($type) {
-        "shop" => [ "shop", "item", "shop_item" ],
+        "itemShop" => [ "itemShop", "item", "itemShop_item" ],
         "quest" => [ "race", "quest", "monster", "quest_monster", "item" ],
         "interface" => [ "interface" ],
         "houseShop" => [ "houseShop", "house", "houseShop_house" ],
@@ -292,15 +292,15 @@ function convert(string $type, string $file): array {
         }
     } else if($type == "shop") {
 
-        $out["shop"]      = [];
+        $out["itemShop"]      = [];
         $out["item"]      = [];
-        $out["shop_item"] = [];
+        $out["itemShop_item"] = [];
 
         if(!isset($xmlJson["shop"][0])) {
             $xmlJson["shop"] = [$xmlJson["shop"]];
         }
         foreach($xmlJson["shop"] as $shop) {
-            $out["shop"][] = [
+            $out["itemShop"][] = [
                 'id'    => (int)$shop['@attributes']['ShopID'],
                 'name'  =>      $shop['@attributes']['strCharacterName'],
                 'count' => (int)$shop['@attributes']['intCount'],
@@ -354,9 +354,9 @@ function convert(string $type, string $file): array {
                     "resists"       =>         $item['@attributes']['strResists'],
                 ];
 
-                $out["shop_item"][] = [
+                $out["itemShop_item"][] = [
                     "id"     => (int)$item['@attributes']['ShopItemID'], // associative key??
-                    "shopId" => (int)$shop['@attributes']['ShopID'],
+                    "itemShopId" => (int)$shop['@attributes']['ShopID'],
                     "itemId" => (int)$item['@attributes']['ItemID'],
                 ];
             }

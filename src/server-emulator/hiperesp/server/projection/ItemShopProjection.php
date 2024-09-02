@@ -2,13 +2,13 @@
 namespace hiperesp\server\projection;
 
 use hiperesp\server\models\ItemModel;
-use hiperesp\server\vo\ShopVO;
+use hiperesp\server\vo\ItemShopVO;
 
-class ShopProjection extends Projection {
+class ItemShopProjection extends Projection {
 
     private ItemModel $itemModel;
 
-    public function loaded(ShopVO $shop): \SimpleXMLElement {
+    public function loaded(ItemShopVO $shop): \SimpleXMLElement {
 
         $xml = new \SimpleXMLElement('<shop/>');
         $shopEl = $xml->addChild('shop');

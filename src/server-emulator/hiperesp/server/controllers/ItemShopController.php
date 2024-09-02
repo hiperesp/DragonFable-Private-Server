@@ -6,15 +6,15 @@ use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ItemModel;
-use hiperesp\server\models\ShopModel;
+use hiperesp\server\models\ItemShopModel;
 use hiperesp\server\models\UserModel;
-use hiperesp\server\projection\ShopProjection;
+use hiperesp\server\projection\ItemShopProjection;
 
-class ShopController extends Controller {
+class ItemShopController extends Controller {
 
     private UserModel $userModel;
     private CharacterModel $characterModel;
-    private ShopModel $shopModel;
+    private ItemShopModel $itemShopModel;
     private ItemModel $itemModel;
 
     #[Request(
@@ -24,8 +24,8 @@ class ShopController extends Controller {
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
 
-        $shop = $this->shopModel->getById((int)$input->intShopID);
-        return ShopProjection::instance()->loaded($shop);
+        $shop = $this->itemShopModel->getById((int)$input->intShopID);
+        return ItemShopProjection::instance()->loaded($shop);
 
     }
 
@@ -40,7 +40,7 @@ class ShopController extends Controller {
         $user = $this->userModel->getBySessionToken($input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
 
-        $shop = $this->shopModel->getById((int)$input->intShopID);
+        $shop = $this->itemShopModel->getById((int)$input->intShopID);
         $item = $this->itemModel->getByShopAndId($shop, (int)$input->intItemID);
 
         $this->characterModel->buyItem($char, $item);
