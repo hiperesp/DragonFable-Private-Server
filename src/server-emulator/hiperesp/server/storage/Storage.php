@@ -100,6 +100,8 @@ abstract class Storage {
                 "levelUpMultipleTimes"  => [ "BIT", "DEFAULT" => 0 ],
 
                 "onlineTimeout"         => [ "INTEGER", "DEFAULT" => 10 ],
+
+                "detailed404ClientError"=> [ "BIT", "DEFAULT" => 1 ],
             ],
             "data" => [
                 [

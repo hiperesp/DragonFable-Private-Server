@@ -26,4 +26,6 @@ class SettingsVO extends ValueObject {
 
     public readonly int $onlineTimeout;
 
+    public readonly bool $detailed404ClientError;
+
 }

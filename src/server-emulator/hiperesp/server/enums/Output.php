@@ -13,6 +13,7 @@ enum Output {
     case HTML;
     case JSON;
     case REDIRECT;
+    case NONE;
 
     public function display(mixed $output): void {
         match($this) {
@@ -22,6 +23,7 @@ enum Output {
             Output::RAW, Output::HTML => $this->raw($output),
             Output::REDIRECT => $this->redirect($output),
             Output::JSON => $this->json($output),
+            Output::NONE => null,
         };
     }
 
@@ -33,6 +35,8 @@ enum Output {
             Output::FORM => $this->form($exception->asArray()),
             Output::RAW, Output::HTML => $this->raw($exception->asString()),
             Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
+            Output::JSON => $this->json($exception->asArray()),
+            Output::NONE => null,
         };
     }
 

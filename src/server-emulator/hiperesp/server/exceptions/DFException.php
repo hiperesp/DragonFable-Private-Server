@@ -3,6 +3,8 @@ namespace hiperesp\server\exceptions;
 
 class DFException extends \Exception {
 
+    const DYNAMIC_ERROR = "000.00";
+
     const INVALID_REFERENCE = "500.73";
     const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
     const RACE_NOT_FOUND = self::INVALID_REFERENCE;
@@ -121,6 +123,19 @@ class DFException extends \Exception {
             "dfMessage" => "Your account has been <font color=\"#FF0000\">banned</font>.\n\nIf you believe this is an error, please contact us through the <font color=\"#ff0000\">Help Pages</font>.",
             "dfAction"  => "None",
         ],
+        self::DYNAMIC_ERROR => [
+            "dfReason"  => "Dynamic Error",
+            "dfMessage" => "Dynamic Error",
+            "dfAction"  => "None",
+        ],
     ];
+
+    public static function dynamicError(string $dfReason, string $dfMessage, string $dfAction): DFException {
+        $exception = new DFException(self::DYNAMIC_ERROR);
+        $exception->dfReason = $dfReason;
+        $exception->dfMessage = $dfMessage;
+        $exception->dfAction = $dfAction;
+        return $exception;
+    }
 
 }
