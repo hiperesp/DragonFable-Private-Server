@@ -116,7 +116,7 @@ abstract class Storage {
                     "homeUrl"               => "../../../index.html",
                     "playUrl"               => "../../../play.html",
                     "signUpUrl"             => "../../../signup.html",
-                    "lostPasswordUrl"       => "../../../lostpassword.html",
+                    "lostPasswordUrl"       => "../../../lost-password.html",
                     "tosUrl"                => "../../../tos.html",
 
                     "signUpMessage"         => "Welcome to the world of DragonFable!\n\nPlease sign up to play!",
