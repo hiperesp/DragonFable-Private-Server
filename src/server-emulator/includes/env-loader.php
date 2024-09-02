@@ -1,6 +1,6 @@
 <?php
-if(\file_exists(__DIR__ . "/.env.php")) {
-    require __DIR__ . "/.env.php";
+if(\file_exists("{$base}/.env.php")) {
+    require "{$base}/.env.php";
 }
 
 if(!\getenv("DB_DRIVER")) {
