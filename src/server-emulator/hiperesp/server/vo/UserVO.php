@@ -38,13 +38,6 @@ class UserVO extends ValueObject {
         return $birthdate === $today;
     }
 
-    public function getCharsAllowed(): int {
-        if($this->upgraded || $this->special) {
-            return $this->settings->upgradedChars;
-        }
-        return $this->settings->nonUpgradedChars;
-    }
-
     public function getAccessLevel(): int {
         //   From game.swf:
         //     < 0 = Disabled,
@@ -66,7 +59,13 @@ class UserVO extends ValueObject {
         }
 
         return 0;
+    }
 
+    public function getCharsAllowed(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedChars;
+        }
+        return $this->settings->nonUpgradedChars;
     }
 
 }
