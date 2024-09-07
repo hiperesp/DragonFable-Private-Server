@@ -15,14 +15,15 @@ abstract class ValueObject {
             $propertyType = $property->getType();
             if($propertyType == null) throw new \Exception("Property {$propertyName} has no type");
 
+            $value = $data[$propertyName];
             if($propertyType->getName() == 'int') {
-                $value = \intval($data[$propertyName]);
+                $value = \intval($value);
             } else if($propertyType->getName() == 'string') {
-                $value = \strval($data[$propertyName]);
+                $value = \strval($value);
             } else if($propertyType->getName() == 'float') {
-                $value = \floatval($data[$propertyName]);
+                $value = \floatval($value);
             } else if($propertyType->getName() == 'bool') {
-                $value = \boolval($data[$propertyName]);
+                $value = \boolval($value);
             } else {
                 throw new \Exception("Property {$propertyName} has an invalid type");
             }
