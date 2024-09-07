@@ -3,7 +3,11 @@ try {
     if(!isset($_SERVER['PATH_INFO'])) {
         throw new \Exception("Invalid request method");
     }
-    \hiperesp\server\controllers\Controller::entry($_SERVER["PATH_INFO"]);
+
+    $controller = new \ReflectionClass(\hiperesp\server\controllers\Controller::class);
+    $method = $controller->getMethod("entry");
+    $method->setAccessible(true);
+    $method->invoke(null, $_SERVER["PATH_INFO"]);
 } catch(\Exception $e) {
     \http_response_code(500);
     echo $e->getMessage();

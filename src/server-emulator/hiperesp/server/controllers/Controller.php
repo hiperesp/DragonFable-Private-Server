@@ -7,7 +7,7 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class Controller {
 
-    public function __construct() {
+    private final function __construct() {
         $this->cors();
 
         $autoInstantiate = new AutoInstantiate($this);
@@ -36,7 +36,12 @@ abstract class Controller {
         }
     }
 
-    public final static function entry(string $method): void {
+    /**
+     * Called from boot.php to start the server.
+     * It can be final static protected or final static public.
+     * But i prefer private, to avoid any other class to call this method except the boot.php.
+     */
+    private static function entry(string $method): void {
         $selected = null;
 
         $controllers = \array_filter(\scandir(__DIR__), fn(string $file) => \is_file(__DIR__."/{$file}") && \preg_match('/\.php$/', $file));
@@ -70,12 +75,26 @@ abstract class Controller {
             throw new \Exception("No method found for {$method} and no default method was provided.");
         }
 
+        $attribute = $selected->attribute;
+        $method = $selected->method;
+        $controller = $selected->controller;
+
+        /** @var Request $attribute */
+        /** @var \ReflectionMethod $method */
+        /** @var \ReflectionClass $controller */
+
         try {
-            $input = $selected->attribute->getInput();
-            $output = $selected->controller->newInstance()->{$selected->method->getName()}($input);
-            $selected->attribute->displayOutput($output);
+            $instance = $controller->newInstanceWithoutConstructor();
+
+            $constructor = $controller->getConstructor();
+            $constructor->setAccessible(true);
+            $constructor->invoke($instance);
+
+            $input = $attribute->getInput();
+            $output = $instance->{$method->getName()}($input);
+            $attribute->displayOutput($output);
         } catch(DFException $e) {
-            $selected->attribute->displayError($e);
+            $attribute->displayError($e);
         }
     }
 
