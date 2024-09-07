@@ -76,6 +76,8 @@ class QuestController extends Controller {
             'gold' => (int)$input->intGold,
         ]);
 
+        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID); // reload the character
+
         return CharacterProjection::instance()->questCompletedMar2011($quest, $char, []);
     }
 
