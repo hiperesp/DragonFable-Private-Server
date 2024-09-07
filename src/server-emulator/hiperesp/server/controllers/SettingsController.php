@@ -4,11 +4,11 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\SettingsModel;
+use hiperesp\server\vo\SettingsVO;
 
 class SettingsController extends Controller {
 
-    private SettingsModel $settingsModel;
+    private SettingsVO $settings;
 
     #[Request(
         endpoint: '/DFversion.asp',
@@ -16,14 +16,12 @@ class SettingsController extends Controller {
         outputType: Output::FORM
     )]
     public function version(): array {
-        $settings = $this->settingsModel->getSettings();
-
         return [
-            "gamemovie"     => $settings->gameSwf,
-            "signUpMessage" => $settings->signUpMessage,
-            "server"        => $settings->serverLocation,
-            "gamefilesPath" => $settings->gamefilesPath,
-            "gameVersion"   => $settings->serverVersion,
+            "gamemovie"     => $this->settings->gameSwf,
+            "signUpMessage" => $this->settings->signUpMessage,
+            "server"        => $this->settings->serverLocation,
+            "gamefilesPath" => $this->settings->gamefilesPath,
+            "gameVersion"   => $this->settings->serverVersion,
             "end"           => "here",
         ];
     }

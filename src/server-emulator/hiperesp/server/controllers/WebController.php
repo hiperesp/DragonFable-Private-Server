@@ -4,11 +4,11 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\SettingsModel;
+use hiperesp\server\vo\SettingsVO;
 
 class WebController extends Controller {
 
-    private SettingsModel $settingsModel;
+    private SettingsVO $settings;
 
     #[Request(
         endpoint: '/web/default.asp',
@@ -16,7 +16,7 @@ class WebController extends Controller {
         outputType: Output::REDIRECT
     )]
     public function index(): string {
-        return $this->settingsModel->getSettings()->homeUrl;
+        return $this->settings->homeUrl;
     }
 
     #[Request(
@@ -25,7 +25,7 @@ class WebController extends Controller {
         outputType: Output::REDIRECT
     )]
     public function play(): string {
-        return $this->settingsModel->getSettings()->playUrl;
+        return $this->settings->playUrl;
     }
 
     #[Request(
@@ -34,7 +34,7 @@ class WebController extends Controller {
         outputType: Output::REDIRECT
     )]
     public function signUp(): string {
-        return $this->settingsModel->getSettings()->signUpUrl;
+        return $this->settings->signUpUrl;
     }
 
     #[Request(
@@ -43,7 +43,7 @@ class WebController extends Controller {
         outputType: Output::REDIRECT
     )]
     public function terms(): string {
-        return $this->settingsModel->getSettings()->tosUrl;
+        return $this->settings->tosUrl;
     }
 
     #[Request(
@@ -52,7 +52,7 @@ class WebController extends Controller {
         outputType: Output::REDIRECT
     )]
     public function lostPassword(): string {
-        return $this->settingsModel->getSettings()->lostPasswordUrl;
+        return $this->settings->lostPasswordUrl;
     }
 
 }

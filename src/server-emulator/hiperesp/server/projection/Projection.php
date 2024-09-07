@@ -8,6 +8,7 @@ abstract class Projection {
     public function __construct() {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->models();
+        $autoInstantiate->settings();
     }
 
     public static function instance(): static {

@@ -12,6 +12,8 @@ class CharacterModel extends Model {
 
     const COLLECTION = 'char';
 
+    private SettingsVO $settings;
+
     /** @return array<CharacterVO> */
     public function getByUser(UserVO $user): array {
         $chars = $this->storage->select(self::COLLECTION, ['userID' => $user->id], null);
@@ -74,17 +76,17 @@ class CharacterModel extends Model {
         ]);
     }
 
-    public function applyQuestRewards(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
+    public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $reward): void {
         if($quest->isDailyQuest()) {
             if($char->getDailyQuestAvailable()) {
                 $this->setDailyQuestDone($char);
-                $reward['coins'] = $settings->dailyQuestCoinsReward;
+                $reward['coins'] = $this->settings->dailyQuestCoinsReward;
             }
         }
-        $this->applyExpSave($settings, $char, $quest, $reward);
+        $this->applyExpSave($char, $quest, $reward);
     }
 
-    public function applyExpSave(SettingsVO $settings, CharacterVO $char, QuestVO $quest, array $reward): void {
+    public function applyExpSave(CharacterVO $char, QuestVO $quest, array $reward): void {
         $experience = $char->experience;
         $gems = $char->gems;
         $gold = $char->gold;
@@ -109,7 +111,7 @@ class CharacterModel extends Model {
             $coins += $reward['coins']; // no max coins is defined in the quest
         }
 
-        if($settings->levelUpMultipleTimes) {
+        if($this->settings->levelUpMultipleTimes) {
             // if player gets more experience than needed to level up, will level up multiple times
             while($experience >= $experienceToLevel) {
                 $experience -= $experienceToLevel;
@@ -190,7 +192,8 @@ class CharacterModel extends Model {
         ]);
     }
 
-    public function getOnlineCount(int $minutesToConsiderOnline): int {
+    public function getOnlineCount(): int {
+        $minutesToConsiderOnline = $this->settings->onlineTimeout;
         $times = [];
         for($i = 0; $i < $minutesToConsiderOnline; $i++) {
             $times[] = \date('Y-m-d H:i:00', \strtotime("-{$i} minutes"));

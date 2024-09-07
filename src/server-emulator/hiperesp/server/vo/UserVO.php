@@ -3,6 +3,8 @@ namespace hiperesp\server\vo;
 
 class UserVO extends ValueObject {
 
+    private SettingsVO $settings;
+
     public readonly int $id;
 
     public readonly string $createdAt;
@@ -35,8 +37,11 @@ class UserVO extends ValueObject {
         return $birthdate === $today;
     }
 
-    public function getCharsAllowed(SettingsVO $settings): int {
-        return $this->upgraded || $this->special ? $settings->upgradedChars : $settings->nonUpgradedChars;
+    public function getCharsAllowed(): int {
+        if($this->upgraded || $this->special) {
+            return $this->settings->upgradedChars;
+        }
+        return $this->settings->nonUpgradedChars;
     }
 
     public function getAccessLevel(): int {

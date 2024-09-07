@@ -5,11 +5,11 @@ use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\SettingsModel;
+use hiperesp\server\vo\SettingsVO;
 
 class ApiController extends Controller {
 
-    private SettingsModel $settingsModel;
+    private SettingsVO $settings;
     private CharacterModel $characterModel;
 
     #[Request(
@@ -19,13 +19,12 @@ class ApiController extends Controller {
     )]
     public function webStats(): mixed {
 
-        $settings = $this->settingsModel->getSettings();
-        $onlineCount = $this->characterModel->getOnlineCount($settings->onlineTimeout);
+        $onlineCount = $this->characterModel->getOnlineCount();
 
         return [
             'onlineUsers' => $onlineCount,
             'serverTime' => \date('c'),
-            'serverVersion' => $settings->serverVersion,
+            'serverVersion' => $this->settings->serverVersion,
         ];
     }
 

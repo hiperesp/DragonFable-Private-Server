@@ -44,7 +44,7 @@ class QuestController extends Controller {
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $quest = $this->questModel->getById((int)$input->intQuestID);
 
-        $this->characterModel->applyExpSave($this->settingsModel->getSettings(), $char, $quest, [
+        $this->characterModel->applyExpSave($char, $quest, [
             'experience' => (int)$input->intExp,
             'gems' => (int)$input->intGems,
             'gold' => (int)$input->intGold,
@@ -67,7 +67,7 @@ class QuestController extends Controller {
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $quest = $this->questModel->getById((int)$input->intQuestID);
 
-        $this->characterModel->applyQuestRewards($this->settingsModel->getSettings(), $char, $quest, [
+        $this->characterModel->applyQuestRewards($char, $quest, [
             'waveCount' => (int)$input->intWaveCount,
             'rare' => (int)$input->intRare,
             'war' => (int)$input->intWar,

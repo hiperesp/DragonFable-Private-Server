@@ -5,11 +5,11 @@ use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\exceptions\DFException;
-use hiperesp\server\models\SettingsModel;
+use hiperesp\server\vo\SettingsVO;
 
 class ErrorController extends Controller {
 
-    private SettingsModel $settingsModel;
+    private SettingsVO $settings;
 
     #[Request(
         endpoint: 'default',
@@ -17,9 +17,7 @@ class ErrorController extends Controller {
         outputType: Output::NONE
     )]
     public function default(string $input): void {
-        $settings = $this->settingsModel->getSettings();
-
-        if($settings->detailed404ClientError) {
+        if($this->settings->detailed404ClientError) {
             if(\preg_match('/^<ninja2>(.+?)<\/ninja2>/', $input, $matches)) {
                 $output = Output::NINJA2XML;
             } else if(\preg_match('/^<flash>(.+?)<\/flash>/', $input, $matches)) {

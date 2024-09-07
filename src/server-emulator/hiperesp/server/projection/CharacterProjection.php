@@ -6,15 +6,15 @@ use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\HairModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\WeaponModel;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\QuestVO;
+use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
 
 class CharacterProjection extends Projection {
 
-    private SettingsModel $settingsModel;
+    private SettingsVO $settings;
     private RaceModel $raceModel;
     private QuestModel $questModel;
     private ClassModel $classModel;
@@ -185,8 +185,7 @@ class CharacterProjection extends Projection {
 
         $coins = 0;
         if($quest->isDailyQuest()) {
-            $settings = $this->settingsModel->getSettings();
-            $coins = $settings->dailyQuestCoinsReward;
+            $coins = $this->settings->dailyQuestCoinsReward;
         }
         $questRewardEl->addAttribute('intCoins', $coins);
 
