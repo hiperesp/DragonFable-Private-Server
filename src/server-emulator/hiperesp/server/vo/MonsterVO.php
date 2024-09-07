@@ -46,11 +46,12 @@ class MonsterVO extends ValueObject {
     public readonly string $swf;
 
     public function __construct(array $monster) {
-        $monster['experience'] = $monster['experience'] * $this->settings->experienceMultiplier;
-        $monster['silver'] = $monster['silver'] * $this->settings->silverMultiplier;
-        $monster['gold'] = $monster['gold'] * $this->settings->goldMultiplier;
-        $monster['gems'] = $monster['gems'] * $this->settings->gemsMultiplier;
         parent::__construct($monster);
+
+        $this->experience = $this->experience * $this->settings->experienceMultiplier;
+        $this->silver = $this->silver * $this->settings->silverMultiplier;
+        $this->gold = $this->gold * $this->settings->goldMultiplier;
+        $this->gems = $this->gems * $this->settings->gemsMultiplier;
     }
 
 }

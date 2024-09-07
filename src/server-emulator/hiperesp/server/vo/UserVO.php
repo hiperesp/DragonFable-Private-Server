@@ -27,8 +27,9 @@ class UserVO extends ValueObject {
     public readonly ?string $lastLogin;
 
     public function __construct(array $user) {
-        $user["password"] = "";
         parent::__construct($user);
+
+        $this->password = "";
     }
 
     public function isBirthday(string $today): bool {
