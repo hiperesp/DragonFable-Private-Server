@@ -8,6 +8,7 @@ use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ItemModel;
 use hiperesp\server\models\ItemShopModel;
 use hiperesp\server\models\UserModel;
+use hiperesp\server\projection\CharacterItemProjection;
 use hiperesp\server\projection\ItemShopProjection;
 
 class ItemShopController extends Controller {
@@ -29,7 +30,6 @@ class ItemShopController extends Controller {
 
     }
 
-    // [WIP]
     #[Request(
         endpoint: '/cf-itembuy.asp',
         inputType: Input::NINJA2,
@@ -43,9 +43,9 @@ class ItemShopController extends Controller {
         $shop = $this->itemShopModel->getById((int)$input->intShopID);
         $item = $this->itemModel->getByShopAndId($shop, (int)$input->intItemID);
 
-        $this->characterModel->buyItem($char, $item);
+        $charItem = $this->characterModel->buyItem($char, $item);
 
-        return new \SimpleXMLElement('<shopItem xmlns:sql="urn:schemas-microsoft-com:xml-sql"><CharItemID>783181406</CharItemID><Bank>0</Bank><BankCount>1</BankCount></shopItem>');
+        return CharacterItemProjection::instance()->bought($charItem);
     }
 
 }

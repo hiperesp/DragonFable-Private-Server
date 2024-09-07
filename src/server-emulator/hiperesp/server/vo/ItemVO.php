@@ -1,6 +1,9 @@
 <?php
 namespace hiperesp\server\vo;
 
+use hiperesp\server\enums\Currency;
+use hiperesp\server\exceptions\DFException;
+
 class ItemVO extends ValueObject {
 
     public readonly int $id;
@@ -19,7 +22,7 @@ class ItemVO extends ValueObject {
     public readonly int $level;
     public readonly string $type;
     public readonly string $element;
-    public readonly string $category;
+    public readonly int $categoryId;
     public readonly string $equipSpot;
     public readonly string $itemType;
     public readonly string $swf;
@@ -41,5 +44,21 @@ class ItemVO extends ValueObject {
     public readonly int $dodge;
     public readonly int $block;
     public readonly string $resists;
+
+    public function getCurrency(): Currency {
+        return match($this->currency) {
+            2 => Currency::CURRENCY_GOLD,
+            1 => Currency::CURRENCY_DRAGON_COINS,
+            default => throw new DFException(DFException::CURRENCY_NOT_FOUND)
+        };
+    }
+
+    public function getPriceGold(): int {
+        return $this->getCurrency() === Currency::CURRENCY_GOLD ? $this->cost : 0;
+    }
+
+    public function getPriceCoins(): int {
+        return $this->getCurrency() === Currency::CURRENCY_DRAGON_COINS ? $this->cost : 0;
+    }
 
 }

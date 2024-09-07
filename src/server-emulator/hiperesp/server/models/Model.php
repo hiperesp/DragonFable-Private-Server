@@ -11,6 +11,7 @@ abstract class Model {
         $this->storage = $storage;
 
         $autoInstantiate = new AutoInstantiate($this);
+        $autoInstantiate->models();
         $autoInstantiate->settings();
     }
 

@@ -32,7 +32,7 @@ abstract class ValueObject {
             }
 
             if(!$property->isReadOnly()) throw new \Exception("Property {$propertyName} is not read-only");
-            if(!array_key_exists($propertyName, $data)) throw new \Exception("Property {$propertyName} not found in data");
+            if(!\array_key_exists($propertyName, $data)) throw new \Exception("Property {$propertyName} not found in data");
 
             $value = $data[$propertyName];
             if($propertyType->getName() == 'int') {

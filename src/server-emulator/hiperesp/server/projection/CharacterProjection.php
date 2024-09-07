@@ -2,8 +2,11 @@
 namespace hiperesp\server\projection;
 
 use hiperesp\server\models\ArmorModel;
+use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\HairModel;
+use hiperesp\server\models\ItemCategoryModel;
+use hiperesp\server\models\ItemModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\RaceModel;
 use hiperesp\server\models\WeaponModel;
@@ -21,6 +24,9 @@ class CharacterProjection extends Projection {
     private ArmorModel $armorModel;
     private WeaponModel $weaponModel;
     private HairModel $hairModel;
+    private ItemModel $itemModel;
+    private ItemCategoryModel $itemCategoryModel;
+    private CharacterItemModel $characterItemModel;
 
     public function created(): array {
         return [
@@ -48,16 +54,12 @@ class CharacterProjection extends Projection {
     }
 
     public function loaded(CharacterVO $char, UserVO $user): \SimpleXMLElement {
-        if($user->id != $char->userId) {
-            throw new \Exception('Character does not belong to the user');
-        }
-
         $xml = new \SimpleXMLElement('<character/>');
         $charEl = $xml->addChild('character');
         $charEl->addAttribute('CharID', $char->id);
         $charEl->addAttribute('strCharacterName', $char->name);
         $charEl->addAttribute('dateCreated', \date('Y-m-d\TH:i:s', \strtotime($char->createdAt)));
-        $charEl->addAttribute('isBirthday', $user->isBirthday(\date('c')) ? '1' : '0');
+        $charEl->addAttribute('isBirthday', $char->isBirthday($user, \date('c')) ? '1' : '0');
         $charEl->addAttribute('intLevel', $char->level);
         $charEl->addAttribute('intExp', $char->experience);
         $charEl->addAttribute('intHP', $char->hitPoints);
@@ -150,6 +152,59 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('gemReward', 0); // unknown meaning
         $charEl->addAttribute('intDaily', $char->getDailyQuestAvailable() ? 1 : 0);
         $charEl->addAttribute('intDailyRoll', 1); // unknown meaning, always 1 with or without char with dragon amulet.
+
+        foreach($this->characterItemModel->getByChar($char) as $characterItem) {
+            $itemEl = $charEl->addChild('items');
+
+            $itemEl->addAttribute('CharItemID', $characterItem->id);
+            $itemEl->addAttribute('bitEquipped', $characterItem->equipped ? 1 : 0);
+            $itemEl->addAttribute('intCount', $characterItem->count);
+            $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned($char));
+
+            $item = $this->itemModel->getByCharItem($characterItem);
+
+            $itemEl->addAttribute('ItemID', $item->id);
+            $itemEl->addAttribute('strItemName', $item->name);
+            $itemEl->addAttribute('strItemDescription', $item->description);
+            $itemEl->addAttribute('bitVisible', $item->visible);
+            $itemEl->addAttribute('bitDestroyable', $item->destroyable);
+            $itemEl->addAttribute('bitSellable', $item->sellable);
+            $itemEl->addAttribute('bitDragonAmulet', $item->dragonAmulet);
+            $itemEl->addAttribute('intCurrency', $item->currency);
+            $itemEl->addAttribute('intCost', $item->cost);
+            $itemEl->addAttribute('intMaxStackSize', $item->maxStackSize);
+            $itemEl->addAttribute('intBonus', $item->bonus);
+            $itemEl->addAttribute('intRarity', $item->rarity);
+            $itemEl->addAttribute('intLevel', $item->level);
+            $itemEl->addAttribute('strType', $item->type);
+            $itemEl->addAttribute('strElement', $item->element);
+
+            $category = $this->itemCategoryModel->getByItem($item);
+            $itemEl->addAttribute('intCategory', $category->id);
+            $itemEl->addAttribute('strCategory', $category->name);
+
+            $itemEl->addAttribute('strEquipSpot', $item->equipSpot);
+            $itemEl->addAttribute('strItemType', $item->itemType);
+            $itemEl->addAttribute('strFileName', $item->swf);
+            $itemEl->addAttribute('strIcon', $item->icon);
+            $itemEl->addAttribute('intStr', $item->strength);
+            $itemEl->addAttribute('intDex', $item->dexterity);
+            $itemEl->addAttribute('intInt', $item->intelligence);
+            $itemEl->addAttribute('intLuk', $item->luck);
+            $itemEl->addAttribute('intCha', $item->charisma);
+            $itemEl->addAttribute('intEnd', $item->endurance);
+            $itemEl->addAttribute('intWis', $item->wisdom);
+            $itemEl->addAttribute('intMin', $item->damageMin);
+            $itemEl->addAttribute('intMax', $item->damageMax);
+            $itemEl->addAttribute('intDefMelee', $item->defenseMelee);
+            $itemEl->addAttribute('intDefPierce', $item->defensePierce);
+            $itemEl->addAttribute('intDefMagic', $item->defenseMagic);
+            $itemEl->addAttribute('intCrit', $item->critical);
+            $itemEl->addAttribute('intParry', $item->parry);
+            $itemEl->addAttribute('intDodge', $item->dodge);
+            $itemEl->addAttribute('intBlock', $item->block);
+            $itemEl->addAttribute('strResists', $item->resists);
+        }
 
         return $xml;
     }

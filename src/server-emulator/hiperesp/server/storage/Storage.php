@@ -363,6 +363,18 @@ abstract class Storage {
             ],
             "data" => "interface/",
         ],
+        "itemCategory" => [
+            "structure" => [
+                "id"    => [ "INTEGER", "PRIMARY_KEY" ],
+                "name"  => [ "STRING" => 255 ],
+            ],
+            "data" => [
+                [ "id" => 1, "name" => "Weapon" ],
+                [ "id" => 2, "name" => "Armor" ],
+                [ "id" => 3, "name" => "Pet" ],
+                [ "id" => 4, "name" => "Item" ],
+            ],
+        ],
         "item" => [
             "structure" => [
                 "id"            => [ "INTEGER", "PRIMARY_KEY" ],
@@ -381,7 +393,7 @@ abstract class Storage {
                 "level"         => [ "INTEGER", "DEFAULT" => 1 ],
                 "type"          => [ "STRING" => 255, "DEFAULT" => "" ],
                 "element"       => [ "STRING" => 255, "DEFAULT" => "" ],
-                "category"      => [ "STRING" => 255, "DEFAULT" => "" ],
+                "categoryId"    => [ "INTEGER", "DEFAULT" => 1, "FOREIGN_KEY" => [ "collection" => "itemCategory", "field" => "id" ] ],
                 "equipSpot"     => [ "STRING" => 255, "DEFAULT" => "" ],
                 "itemType"      => [ "STRING" => 255, "DEFAULT" => "" ],
                 "swf"           => [ "STRING" => 255, "DEFAULT" => "" ],
@@ -421,6 +433,21 @@ abstract class Storage {
                 "itemId" => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "item", "field" => "id" ] ],
             ],
             "data" => "itemShop_item/",
+        ],
+        "char_item" => [
+            "structure" => [
+                "id"        => [ "INTEGER", "GENERATED", "PRIMARY_KEY" ],
+
+                "charId"    => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "char", "field" => "id" ] ],
+
+                "createdAt" => [ "DATETIME", "CREATED_DATETIME" ],
+                "updatedAt" => [ "DATETIME", "UPDATED_DATETIME" ],
+
+                "itemId"    => [ "INTEGER", "FOREIGN_KEY" => [ "collection" => "item", "field" => "id" ] ],
+                "equipped"  => [ "BIT", "DEFAULT" => 0 ],
+                "count"     => [ "INTEGER", "DEFAULT" => 1 ],
+            ],
+            "data" => [],
         ],
         "house" => [
             "structure" => [

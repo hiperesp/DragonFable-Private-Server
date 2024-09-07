@@ -60,6 +60,14 @@ class CharacterVO extends ValueObject {
     public readonly int $classId;
     public readonly int $baseClassId;
 
+    public function isBirthday(UserVO $user, string $today): bool {
+        if($user->id != $this->userId) {
+            throw new \Exception('Character does not belong to the user');
+        }
+
+        return $user->isBirthday($today);
+    }
+
     public function getAccessLevel(): int {
         return $this->dragonAmulet ? 1 : 0;
     }
@@ -103,6 +111,16 @@ class CharacterVO extends ValueObject {
             return $this->settings->upgradedMaxHouseItemSlots;
         }
         return $this->settings->nonUpgradedMaxHouseItemSlots;
+    }
+
+    public function canBuyItem(ItemVO $item): bool {
+        if($this->coins < $item->getPriceCoins()) {
+            return false;
+        }
+        if($this->gold < $item->getPriceGold()) {
+            return false;
+        }
+        return true;
     }
 
 }

@@ -2,6 +2,7 @@
 namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ItemVO;
 use hiperesp\server\vo\QuestVO;
@@ -13,6 +14,15 @@ class CharacterModel extends Model {
     const COLLECTION = 'char';
 
     private SettingsVO $settings;
+    private CharacterItemModel $characterItemModel;
+
+    public function getById(int $charId): CharacterVO {
+        $char = $this->storage->select(self::COLLECTION, ['id' => $charId]);
+        if(isset($char[0]) && $char = $char[0]) {
+            return new CharacterVO($char);
+        }
+        throw new DFException(DFException::CHARACTER_NOT_FOUND);
+    }
 
     /** @return array<CharacterVO> */
     public function getByUser(UserVO $user): array {
@@ -52,8 +62,17 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
-    public function buyItem(CharacterVO $char, ItemVO $item): void {
-        
+    public function buyItem(CharacterVO $char, ItemVO $item): CharacterItemVO {
+        if(!$char->canBuyItem($item)) {
+            throw new DFException(DFException::MONEY_NOT_ENOUGH);
+        }
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'gold' => $char->gold - $item->getPriceGold(),
+            'coins' => $char->coins - $item->getPriceCoins()
+        ]);
+
+        return $this->characterItemModel->addItemToChar($char, $item);
     }
 
     public function delete(CharacterVO $char): void {
