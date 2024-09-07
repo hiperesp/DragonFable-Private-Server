@@ -1,4 +1,6 @@
 <?php
+define('OS', 'mac'); // windows, mac, linux
+define('SWF_FILE', 'game15_9_02');
 
 $replaces = [
     "\"http://www.dragonfable.com/df-activation.asp\"" => "_root.conn.url + \"web/df-activation.asp\"",
@@ -9,7 +11,7 @@ $replaces = [
     "\"<a href=\'https://www.dragonfable.com/df-signup.asp\'><u>Create a new account.</u></a>\"" => "\"<a href=\'\" + _root.conn.url + \"web/df-signup.asp\'><u>Create a new account.</u></a>\"",
     "\"http://dragonfable.battleon.com/game/cf-dacheck.asp\"" => "_root.conn.url + \"cf-dacheck.asp\"",
     "\"https://dragonfable.battleon.com/game/cf-dacheck.asp\"" => "_root.conn.url + \"cf-dacheck.asp\"",
-    "\"Build 15.9.00\"" => "_root.core.gameVersion",
+    "var strBuild = " => "var strBuild = _root.core.gameVersion; //",
     <<<'ACTIONSCRIPT'
     _root.conn = new Object();
     if(_url.indexOf("file://") == -1)
@@ -51,7 +53,7 @@ for($i=20; $i>1; $i--) {
     $regexesReplaces[$key] = $value;
 }
 
-$file = "game15_9_00.swf";
+$file = SWF_FILE.".swf";
 $outfile = "{$file}-patched.swf";
 
 $scriptsDir = "{$file}-scripts";
@@ -60,7 +62,16 @@ if(!\is_dir("{$file}-scripts")) {
     \mkdir("{$file}-scripts");
 
     // first export all the scripts to a folder
-    $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script \"{$file}-scripts\" {$file}\n";
+    if(OS==='windows') {
+        $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script \"{$file}-scripts\" {$file}\n";
+    } else if(OS==='mac') {
+        $cmd = "java -jar /Applications/FFDec.app/Contents/Resources/ffdec.jar -export script \"{$file}-scripts\" {$file}\n";
+    } else if(OS==='linux') {
+        $cmd = "java -jar /opt/ffdec/ffdec.jar -export script \"{$file}-scripts\" {$file}\n";
+    } else {
+        echo "Unknown OS\n";
+        die;
+    }
 
     echo "Run the following command:\n";
     echo "{$cmd}\n";
@@ -77,6 +88,8 @@ if(!\is_dir($replacedScriptsDir)) {
     $uniqueId = 0;
     foreach ($scripts as $script) {
         $content = \file_get_contents($script);
+
+        $content = \preg_replace('/\r\n/', "\n", $content);
 
         foreach($replaces as $key => $value) {
             if(\strpos($content, $key) !== false) {
@@ -126,7 +139,17 @@ if(!\is_file($outfile)) {
 }
 
 // finally, import the scripts back to the swf file
-$cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+if(OS==='windows') {
+    $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+} else if(OS==='mac') {
+    $cmd = "java -jar /Applications/FFDec.app/Contents/Resources/ffdec.jar -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+} else if(OS==='linux') {
+    $cmd = "java -jar /opt/ffdec/ffdec.jar -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+} else {
+    echo "Unknown OS\n";
+    die;
+}
+
 echo "Run the following command:\n";
 echo "{$cmd}\n";
 die;
