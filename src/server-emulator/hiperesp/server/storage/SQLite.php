@@ -214,6 +214,7 @@ class SQLite extends Storage {
                     'DATETIME' => 'TEXT',
                     'STRING' => 'TEXT',
                     'CHAR' => 'TEXT',
+                    'FLOAT' => 'REAL',
                     default => throw new \Exception("Unknown definition: {$definition}"),
                 };
             }

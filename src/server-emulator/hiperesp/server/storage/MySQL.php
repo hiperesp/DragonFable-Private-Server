@@ -236,6 +236,7 @@ class MySQL extends Storage {
                     'DATETIME' => 'DATETIME',
                     'STRING' => 'TEXT',
                     'CHAR' => 'TEXT',
+                    'FLOAT' => 'FLOAT',
                     default => throw new \Exception("Unknown definition: {$definition}"),
                 };
             }
