@@ -3,6 +3,8 @@ namespace hiperesp\server\vo;
 
 class MonsterVO extends ValueObject {
 
+    private SettingsVO $settings;
+
     public readonly int $id;
 
     public readonly string $name;
@@ -49,6 +51,22 @@ class MonsterVO extends ValueObject {
         $monster['colorBase'] = \hexdec($monster['colorBase']);
         $monster['colorTrim'] = \hexdec($monster['colorTrim']);
         parent::__construct($monster);
+    }
+
+    public function setExperience(int $experience): void {
+        $this->experience = $experience * $this->settings->experienceMultiplier;
+    }
+
+    public function setSilver(int $silver): void {
+        $this->silver = $silver * $this->settings->silverMultiplier;
+    }
+
+    public function setGold(int $gold): void {
+        $this->gold = $gold * $this->settings->goldMultiplier;
+    }
+
+    public function setGems(int $gems): void {
+        $this->gems = $gems * $this->settings->gemsMultiplier;
     }
 
 }

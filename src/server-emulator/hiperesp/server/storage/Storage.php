@@ -97,6 +97,11 @@ abstract class Storage {
                 "upgradedChars"         => [ "INTEGER", "DEFAULT" => 6 ],
                 "dailyQuestCoinsReward" => [ "INTEGER", "DEFAULT" => 3 ],
 
+                "experienceMultiplier"  => [ "FLOAT", "DEFAULT" => 1 ],
+                "gemsMultiplier"        => [ "FLOAT", "DEFAULT" => 1 ],
+                "goldMultiplier"        => [ "FLOAT", "DEFAULT" => 1 ],
+                "silverMultiplier"      => [ "FLOAT", "DEFAULT" => 1 ],
+
                 "levelUpMultipleTimes"  => [ "BIT", "DEFAULT" => 0 ],
 
                 "onlineTimeout"         => [ "INTEGER", "DEFAULT" => 10 ],
@@ -126,6 +131,11 @@ abstract class Storage {
                     "nonUpgradedChars"      => 3, // number of characters allowed for non-upgraded players
                     "upgradedChars"         => 6, // number of characters allowed for upgraded players
                     "dailyQuestCoinsReward" => 200, // coins reward for daily quests (default: 3)
+
+                    "experienceMultiplier"  => 10,
+                    "gemsMultiplier"        => 10,
+                    "goldMultiplier"        => 10,
+                    "silverMultiplier"      => 10,
 
                     "levelUpMultipleTimes"  => 0, // if true, player can level up multiple times according to the experience gained
 

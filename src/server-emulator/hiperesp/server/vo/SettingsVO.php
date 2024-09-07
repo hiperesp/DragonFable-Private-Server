@@ -22,6 +22,11 @@ class SettingsVO extends ValueObject {
     public readonly int $upgradedChars;
     public readonly int $dailyQuestCoinsReward;
 
+    public readonly float $experienceMultiplier;
+    public readonly float $gemsMultiplier;
+    public readonly float $goldMultiplier;
+    public readonly float $silverMultiplier;
+
     public readonly bool $levelUpMultipleTimes;
 
     public readonly int $onlineTimeout;

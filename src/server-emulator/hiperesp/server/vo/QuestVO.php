@@ -3,6 +3,8 @@ namespace hiperesp\server\vo;
 
 class QuestVO extends ValueObject {
 
+    private SettingsVO $settings;
+
     public readonly int $id;
 
     public readonly string $name;
@@ -33,6 +35,22 @@ class QuestVO extends ValueObject {
 
     public function isDailyQuest(): bool {
         return $this->dailyIndex > 0;
+    }
+
+    public function setMaxSilver(int $maxSilver): void {
+        $this->maxSilver = $maxSilver * $this->settings->silverMultiplier;
+    }
+
+    public function setMaxGold(int $maxGold): void {
+        $this->maxGold = $maxGold * $this->settings->goldMultiplier;
+    }
+
+    public function setMaxGems(int $maxGems): void {
+        $this->maxGems = $maxGems * $this->settings->gemsMultiplier;
+    }
+
+    public function setMaxExp(int $maxExp): void {
+        $this->maxExp = $maxExp * $this->settings->experienceMultiplier;
     }
 
 }
