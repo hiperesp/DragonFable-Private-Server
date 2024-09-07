@@ -33,24 +33,16 @@ class QuestVO extends ValueObject {
     public readonly string $monsterType;
     public readonly string $monsterGroupSwf;
 
+    public function __construct(array $quest) {
+        $quest['maxSilver'] = $quest['maxSilver'] * $this->settings->silverMultiplier;
+        $quest['maxGold'] = $quest['maxGold'] * $this->settings->goldMultiplier;
+        $quest['maxGems'] = $quest['maxGems'] * $this->settings->gemsMultiplier;
+        $quest['maxExp'] = $quest['maxExp'] * $this->settings->experienceMultiplier;
+        parent::__construct($quest);
+    }
+
     public function isDailyQuest(): bool {
         return $this->dailyIndex > 0;
-    }
-
-    public function setMaxSilver(int $maxSilver): void {
-        $this->maxSilver = $maxSilver * $this->settings->silverMultiplier;
-    }
-
-    public function setMaxGold(int $maxGold): void {
-        $this->maxGold = $maxGold * $this->settings->goldMultiplier;
-    }
-
-    public function setMaxGems(int $maxGems): void {
-        $this->maxGems = $maxGems * $this->settings->gemsMultiplier;
-    }
-
-    public function setMaxExp(int $maxExp): void {
-        $this->maxExp = $maxExp * $this->settings->experienceMultiplier;
     }
 
 }

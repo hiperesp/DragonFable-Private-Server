@@ -63,14 +63,6 @@ class CharacterVO extends ValueObject {
     public readonly int $classId;
     public readonly int $baseClassId;
 
-    public function __construct(array $char) {
-        $char['colorHair'] = \hexdec($char['colorHair']);
-        $char['colorSkin'] = \hexdec($char['colorSkin']);
-        $char['colorBase'] = \hexdec($char['colorBase']);
-        $char['colorTrim'] = \hexdec($char['colorTrim']);
-        parent::__construct($char);
-    }
-
     public function getAccessLevel(): int {
         return $this->dragonAmulet ? 1 : 0;
     }

@@ -38,12 +38,6 @@ abstract class ValueObject {
                 throw new \Exception("Property {$propertyName} has an invalid type");
             }
 
-            if(\method_exists($this, "set{$propertyName}")) {
-                $setter = "set{$propertyName}";
-                $this->$setter($value);
-                continue;
-            }
-
             $property->setAccessible(true);
             $property->setValue($this, $value);
         }

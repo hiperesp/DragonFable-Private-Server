@@ -74,10 +74,10 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intAccesslevel', $char->getAccessLevel());
         $charEl->addAttribute('strGender', $char->gender);
         $charEl->addAttribute('strPronoun', $char->pronoun);
-        $charEl->addAttribute('intColorHair', $char->colorHair);
-        $charEl->addAttribute('intColorSkin', $char->colorSkin);
-        $charEl->addAttribute('intColorBase', $char->colorBase);
-        $charEl->addAttribute('intColorTrim', $char->colorTrim);
+        $charEl->addAttribute('intColorHair', \hexdec($char->colorHair));
+        $charEl->addAttribute('intColorSkin', \hexdec($char->colorSkin));
+        $charEl->addAttribute('intColorBase', \hexdec($char->colorBase));
+        $charEl->addAttribute('intColorTrim', \hexdec($char->colorTrim));
         $charEl->addAttribute('intStr', $char->strength);
         $charEl->addAttribute('intDex', $char->dexterity);
         $charEl->addAttribute('intInt', $char->intelligence);
