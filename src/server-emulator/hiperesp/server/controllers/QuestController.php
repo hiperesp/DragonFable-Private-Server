@@ -6,7 +6,6 @@ use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\QuestModel;
-use hiperesp\server\models\SettingsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\CharacterProjection;
 use hiperesp\server\projection\QuestProjection;
@@ -16,7 +15,6 @@ class QuestController extends Controller {
     private UserModel $userModel;
     private CharacterModel $characterModel;
     private QuestModel $questModel;
-    private SettingsModel $settingsModel;
 
     #[Request(
         endpoint: '/cf-questload.asp',
