@@ -20,6 +20,7 @@ class DFException extends \Exception {
     const CURRENCY_NOT_FOUND = self::INVALID_REFERENCE;
     const MONEY_NOT_ENOUGH = self::INVALID_REFERENCE;
     const CHARACTER_ITEM_NOT_FOUND = self::INVALID_REFERENCE;
+    const ITEM_NOT_ENOUGH = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";
     const EMAIL_ALREADY_EXISTS = "000.50";

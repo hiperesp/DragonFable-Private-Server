@@ -15,7 +15,6 @@ class CharacterItemVO extends ValueObject {
     public readonly bool $equipped;
     public readonly bool $count;
 
-
     public function getHoursOwned(CharacterVO $char): int {
         if($char->id != $this->charId) {
             throw new \Exception('Item does not belong to the character');

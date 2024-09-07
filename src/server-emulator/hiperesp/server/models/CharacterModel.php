@@ -14,6 +14,7 @@ class CharacterModel extends Model {
     const COLLECTION = 'char';
 
     private SettingsVO $settings;
+    private ItemModel $itemModel;
     private CharacterItemModel $characterItemModel;
 
     public function getById(int $charId): CharacterVO {
@@ -73,6 +74,23 @@ class CharacterModel extends Model {
         ]);
 
         return $this->characterItemModel->addItemToChar($char, $item);
+    }
+
+    public function sellItem(CharacterVO $char, CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
+        $item = $this->itemModel->getByCharItem($charItem);
+
+        if($quantity > $charItem->count) {
+            throw new DFException(DFException::ITEM_NOT_ENOUGH);
+        }
+        $returnPercent = \min(100, \max(0, $returnPercent));
+        $returnProportion = $returnPercent / 100;
+
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'gold' => (int)($char->gold + $item->getPriceGold() * $returnProportion),
+            'coins' => (int)($char->coins + $item->getPriceCoins() * $returnProportion)
+        ]);
+        $this->characterItemModel->destroy($charItem);
     }
 
     public function delete(CharacterVO $char): void {

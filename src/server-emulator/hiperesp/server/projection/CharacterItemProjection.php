@@ -21,5 +21,11 @@ class CharacterItemProjection extends Projection {
         return $xml;
     }
 
+    public function sold(CharacterItemVO $charItem): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<shopItem/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
 
 }
