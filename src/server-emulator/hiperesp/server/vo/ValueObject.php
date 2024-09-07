@@ -5,10 +5,19 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class ValueObject {
 
-    public function __construct(array $data) {
+    public final function __construct(array $data) {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->settings();
 
+        $data = $this->patch($data);
+        $this->applyData($data);
+    }
+
+    protected function patch(array $data): array {
+        return $data;
+    }
+
+    private function applyData(array $data) {
         $reflectionClass = new \ReflectionClass($this);
         $properties = $reflectionClass->getProperties();
         foreach ($properties as $property) {

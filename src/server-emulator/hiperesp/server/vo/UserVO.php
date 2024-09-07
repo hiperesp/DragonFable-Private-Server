@@ -26,10 +26,10 @@ class UserVO extends ValueObject {
     public readonly bool $banned;
     public readonly ?string $lastLogin;
 
-    public function __construct(array $user) {
-        parent::__construct($user);
+    protected function patch(array $user): array {
+        $user['password'] = "";
 
-        $this->password = "";
+        return $user;
     }
 
     public function isBirthday(string $today): bool {
