@@ -66,10 +66,10 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intGold', $char->gold);
         $charEl->addAttribute('intGems', $char->gems);
         $charEl->addAttribute('intCoins', $char->coins);
-        $charEl->addAttribute('intMaxBagSlots', $char->maxBagSlots);
-        $charEl->addAttribute('intMaxBankSlots', $char->maxBankSlots);
-        $charEl->addAttribute('intMaxHouseSlots', $char->maxHouseSlots);
-        $charEl->addAttribute('intMaxHouseItemSlots', $char->maxHouseItemSlots);
+        $charEl->addAttribute('intMaxBagSlots', $char->getMaxBagSlots());
+        $charEl->addAttribute('intMaxBankSlots', $char->getMaxBankSlots());
+        $charEl->addAttribute('intMaxHouseSlots', $char->getMaxHouseSlots());
+        $charEl->addAttribute('intMaxHouseItemSlots', $char->getMaxHouseItemSlots());
         $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
         $charEl->addAttribute('intAccesslevel', $char->getAccessLevel());
         $charEl->addAttribute('strGender', $char->gender);

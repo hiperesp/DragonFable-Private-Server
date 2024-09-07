@@ -18,9 +18,18 @@ class SettingsVO extends ValueObject {
     public readonly string $news;
 
     public readonly bool $enableAdvertising;
-    public readonly int $nonUpgradedChars;
-    public readonly int $upgradedChars;
     public readonly int $dailyQuestCoinsReward;
+
+    public readonly int $nonUpgradedChars;
+    public readonly int    $upgradedChars;
+    public readonly int $nonUpgradedMaxBagSlots;
+    public readonly int    $upgradedMaxBagSlots;
+    public readonly int $nonUpgradedMaxBankSlots;
+    public readonly int    $upgradedMaxBankSlots;
+    public readonly int $nonUpgradedMaxHouseSlots;
+    public readonly int    $upgradedMaxHouseSlots;
+    public readonly int $nonUpgradedMaxHouseItemSlots;
+    public readonly int    $upgradedMaxHouseItemSlots;
 
     public readonly float $experienceMultiplier;
     public readonly float $gemsMultiplier;

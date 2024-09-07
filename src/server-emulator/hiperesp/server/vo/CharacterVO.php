@@ -3,6 +3,8 @@ namespace hiperesp\server\vo;
 
 class CharacterVO extends ValueObject {
 
+    private SettingsVO $settings;
+
     public readonly int $id;
 
     public readonly int $userId;
@@ -23,11 +25,6 @@ class CharacterVO extends ValueObject {
     public readonly int $gold;
     public readonly int $gems;
     public readonly int $coins;
-
-    public readonly int $maxBagSlots;
-    public readonly int $maxBankSlots;
-    public readonly int $maxHouseSlots;
-    public readonly int $maxHouseItemSlots;
 
     public readonly bool $dragonAmulet;
 
@@ -78,6 +75,34 @@ class CharacterVO extends ValueObject {
     public function getDailyQuestAvailable(): bool {
         $today = \date('Y-m-d');
         return $this->lastDailyQuestDone != $today;
+    }
+
+    public function getMaxBagSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxBagSlots;
+        }
+        return $this->settings->nonUpgradedMaxBagSlots;
+    }
+
+    public function getMaxBankSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxBankSlots;
+        }
+        return $this->settings->nonUpgradedMaxBankSlots;
+    }
+
+    public function getMaxHouseSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxHouseSlots;
+        }
+        return $this->settings->nonUpgradedMaxHouseSlots;
+    }
+
+    public function getMaxHouseItemSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxHouseItemSlots;
+        }
+        return $this->settings->nonUpgradedMaxHouseItemSlots;
     }
 
 }

@@ -93,9 +93,18 @@ abstract class Storage {
                 "news"                  => [ "STRING" => 255 ],
 
                 "enableAdvertising"     => [ "BIT", "DEFAULT" => 0 ],
-                "nonUpgradedChars"      => [ "INTEGER", "DEFAULT" => 3 ],
-                "upgradedChars"         => [ "INTEGER", "DEFAULT" => 6 ],
                 "dailyQuestCoinsReward" => [ "INTEGER", "DEFAULT" => 3 ],
+
+                "nonUpgradedChars"              => [ "INTEGER", "DEFAULT" => 3 ],
+                "upgradedChars"                 => [ "INTEGER", "DEFAULT" => 6 ],
+                "nonUpgradedMaxBagSlots"        => [ "INTEGER", "DEFAULT" => 30 ],
+                "upgradedMaxBagSlots"           => [ "INTEGER", "DEFAULT" => 50 ],
+                "nonUpgradedMaxBankSlots"       => [ "INTEGER", "DEFAULT" => 0 ],
+                "upgradedMaxBankSlots"          => [ "INTEGER", "DEFAULT" => 0 ],
+                "nonUpgradedMaxHouseSlots"      => [ "INTEGER", "DEFAULT" => 5 ],
+                "upgradedMaxHouseSlots"         => [ "INTEGER", "DEFAULT" => 5 ],
+                "nonUpgradedMaxHouseItemSlots"  => [ "INTEGER", "DEFAULT" => 20 ],
+                "upgradedMaxHouseItemSlots"     => [ "INTEGER", "DEFAULT" => 20 ],
 
                 "experienceMultiplier"  => [ "FLOAT", "DEFAULT" => 1 ],
                 "gemsMultiplier"        => [ "FLOAT", "DEFAULT" => 1 ],
@@ -128,8 +137,8 @@ abstract class Storage {
                     "news"                  => "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!",
 
                     "enableAdvertising"     => 0, // if true, the game will show ads
-                    "nonUpgradedChars"      => 3, // number of characters allowed for non-upgraded players
-                    "upgradedChars"         => 6, // number of characters allowed for upgraded players
+                    "nonUpgradedMaxBagSlots"=> 30,
+                    "upgradedMaxBagSlots"   => 90,
                     "dailyQuestCoinsReward" => 200, // coins reward for daily quests (default: 3)
 
                     "experienceMultiplier"  => 10,
