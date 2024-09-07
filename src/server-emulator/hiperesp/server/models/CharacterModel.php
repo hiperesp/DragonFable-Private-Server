@@ -16,12 +16,12 @@ class CharacterModel extends Model {
 
     /** @return array<CharacterVO> */
     public function getByUser(UserVO $user): array {
-        $chars = $this->storage->select(self::COLLECTION, ['userID' => $user->id], null);
+        $chars = $this->storage->select(self::COLLECTION, ['userId' => $user->id], null);
         return \array_map(fn($char) => new CharacterVO($char), $chars);
     }
 
     public function getByUserAndId(UserVO $user, int $id): CharacterVO {
-        $char = $this->storage->select(self::COLLECTION, ['userID' => $user->id, 'id' => $id]);
+        $char = $this->storage->select(self::COLLECTION, ['userId' => $user->id, 'id' => $id]);
         if(isset($char[0]) && $char = $char[0]) {
             $char = new CharacterVO($char);
             $this->updateLastTimeSeen($char);
