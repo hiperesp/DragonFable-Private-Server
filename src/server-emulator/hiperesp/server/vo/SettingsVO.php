@@ -36,8 +36,6 @@ class SettingsVO extends ValueObject {
     public readonly float $goldMultiplier;
     public readonly float $silverMultiplier;
 
-    public readonly bool $levelUpMultipleTimes;
-
     public readonly int $onlineTimeout;
 
     public readonly bool $detailed404ClientError;

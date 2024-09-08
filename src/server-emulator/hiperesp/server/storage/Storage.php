@@ -111,8 +111,6 @@ abstract class Storage {
                 "goldMultiplier"        => [ "FLOAT", "DEFAULT" => 1 ],
                 "silverMultiplier"      => [ "FLOAT", "DEFAULT" => 1 ],
 
-                "levelUpMultipleTimes"  => [ "BIT", "DEFAULT" => 0 ],
-
                 "onlineTimeout"         => [ "INTEGER", "DEFAULT" => 10 ],
 
                 "detailed404ClientError"=> [ "BIT", "DEFAULT" => 1 ],
@@ -145,8 +143,6 @@ abstract class Storage {
                     "gemsMultiplier"        => 10,
                     "goldMultiplier"        => 10,
                     "silverMultiplier"      => 10,
-
-                    "levelUpMultipleTimes"  => 0, // if true, player can level up multiple times according to the experience gained
 
                     "onlineTimeout"         => 10, // minutes. It affects only the online status of the player
                 ]

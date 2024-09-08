@@ -148,20 +148,11 @@ class CharacterModel extends Model {
             $coins += $reward['coins']; // no max coins is defined in the quest
         }
 
-        if($this->settings->levelUpMultipleTimes) {
-            // if player gets more experience than needed to level up, will level up multiple times
-            while($experience >= $experienceToLevel) {
-                $experience -= $experienceToLevel;
-                $level++;
-                $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1) - $experience;
-            }
-        } else {
-            // if player gets more experience than needed to level up, will level up only once
-            if($experience >= $experienceToLevel) {
-                $experience = 0;
-                $level++;
-                $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1);
-            }
+        // if player gets more experience than needed to level up, will level up only once
+        if($experience >= $experienceToLevel) {
+            $experience = 0;
+            $level++;
+            $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1);
         }
 
         $this->applyLevelUpBonuses($char, $level);
