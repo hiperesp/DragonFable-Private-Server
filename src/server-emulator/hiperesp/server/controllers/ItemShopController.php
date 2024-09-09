@@ -66,10 +66,11 @@ class ItemShopController extends Controller {
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $charItem = $this->characterItemModel->getByCharAndId($char, (int)$input->intCharItemID);
 
-        $this->characterModel->sellItem($char, $charItem,
+        $this->characterModel->refundItem($char, $charItem,
             quantity: (int)$input->intAmnt,
             returnPercent: (int)$input->intReturnPer
         );
+        $this->characterItemModel->destroy($charItem);
 
         return CharacterItemProjection::instance()->sold($charItem);
     }

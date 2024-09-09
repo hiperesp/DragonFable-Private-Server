@@ -75,7 +75,7 @@ class CharacterModel extends Model {
         ]);
     }
 
-    public function sellItem(CharacterVO $char, CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
+    public function refundItem(CharacterVO $char, CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
         $item = $charItem->getItem();
         if($quantity > $charItem->count) {
             throw new DFException(DFException::ITEM_NOT_ENOUGH);
@@ -88,7 +88,6 @@ class CharacterModel extends Model {
             'gold' => (int)($char->gold + $item->getPriceGold() * $returnProportion),
             'coins' => (int)($char->coins + $item->getPriceCoins() * $returnProportion)
         ]);
-        $this->characterItemModel->destroy($charItem);
     }
 
     public function delete(CharacterVO $char): void {
