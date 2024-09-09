@@ -4,7 +4,6 @@ namespace hiperesp\server\models;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
-use hiperesp\server\vo\ItemVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
@@ -14,8 +13,6 @@ class CharacterModel extends Model {
     const COLLECTION = 'char';
 
     private SettingsVO $settings;
-    private ItemModel $itemModel;
-    private CharacterItemModel $characterItemModel;
 
     public function getById(int $charId): CharacterVO {
         $char = $this->storage->select(self::COLLECTION, ['id' => $charId]);
@@ -41,6 +38,10 @@ class CharacterModel extends Model {
         throw new DFException(DFException::CHARACTER_NOT_FOUND);
     }
 
+    public function getByCharItem(CharacterItemVO $charItem): CharacterVO {
+        return $this->getById($charItem->charId);
+    }
+
     public function create(UserVO $user, array $input): CharacterVO {
         $data['userId'] = $user->id;
         $data['name'] = $input['strCharacterName'];
@@ -63,22 +64,19 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
-    public function buyItem(CharacterVO $char, ItemVO $item): CharacterItemVO {
-        if(!$char->canBuyItem($item)) {
-            throw new DFException(DFException::MONEY_NOT_ENOUGH);
-        }
+    public function chargeItem(CharacterItemVO $charItem): void {
+        $item = $charItem->getItem();
+        $char = $charItem->getChar();
+
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'gold' => $char->gold - $item->getPriceGold(),
             'coins' => $char->coins - $item->getPriceCoins()
         ]);
-
-        return $this->characterItemModel->addItemToChar($char, $item);
     }
 
     public function sellItem(CharacterVO $char, CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
-        $item = $this->itemModel->getByCharItem($charItem);
-
+        $item = $charItem->getItem();
         if($quantity > $charItem->count) {
             throw new DFException(DFException::ITEM_NOT_ENOUGH);
         }

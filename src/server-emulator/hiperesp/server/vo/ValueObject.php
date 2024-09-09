@@ -8,6 +8,7 @@ abstract class ValueObject {
     public final function __construct(array $data) {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->settings();
+        $autoInstantiate->models();
 
         $data = $this->patch($data);
         $this->applyData($data);
@@ -29,6 +30,12 @@ abstract class ValueObject {
 
             if($propertyType->getName() === SettingsVO::class) {
                 continue;
+            }
+
+            if(!$propertyType->isBuiltin()) {
+                if(\is_subclass_of($propertyType->getName(), \hiperesp\server\models\Model::class)) {
+                    continue;
+                }
             }
 
             if(!$property->isReadOnly()) throw new \Exception("Property {$propertyName} is not read-only");

@@ -1,7 +1,13 @@
 <?php
 namespace hiperesp\server\vo;
 
+use hiperesp\server\models\CharacterModel;
+use hiperesp\server\models\ItemModel;
+
 class CharacterItemVO extends ValueObject {
+
+    private ItemModel $itemModel;
+    private CharacterModel $characterModel;
 
     public readonly int $id;
 
@@ -25,6 +31,14 @@ class CharacterItemVO extends ValueObject {
 
         $secondsOwned = \strtotime($itemPurchase) - \strtotime($charCreated);
         return \intval($secondsOwned / 3600);
+    }
+
+    public function getItem(): ItemVO {
+        return $this->itemModel->getByCharItem($this);
+    }
+
+    public function getChar(): CharacterVO {
+        return $this->characterModel->getByCharItem($this);
     }
 
 }

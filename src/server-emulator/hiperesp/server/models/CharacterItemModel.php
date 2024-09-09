@@ -17,6 +17,7 @@ class CharacterItemModel extends Model {
     }
 
     public function addItemToChar(CharacterVO $char, ItemVO $item): CharacterItemVO {
+        $data = [];
         $data['charId'] = $char->id;
         $data['itemId'] = $item->id;
         $newData = $this->storage->insert(self::COLLECTION, $data);

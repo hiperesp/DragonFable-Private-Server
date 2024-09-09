@@ -4,6 +4,7 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ItemModel;
@@ -45,7 +46,11 @@ class ItemShopController extends Controller {
         $shop = $this->itemShopModel->getById((int)$input->intShopID);
         $item = $this->itemModel->getByShopAndId($shop, (int)$input->intItemID);
 
-        $charItem = $this->characterModel->buyItem($char, $item);
+        if(!$char->canBuyItem($item)) {
+            throw new DFException(DFException::MONEY_NOT_ENOUGH);
+        }
+        $charItem = $this->characterItemModel->addItemToChar($char, $item);
+        $this->characterModel->chargeItem($charItem);
 
         return CharacterItemProjection::instance()->bought($charItem);
     }
