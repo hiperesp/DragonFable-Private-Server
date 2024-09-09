@@ -1,13 +1,7 @@
 <?php
 namespace hiperesp\server\storage;
 
-class MySQL extends Storage {
-
-    private \PDO $pdo;
-
-    private string $database;
-
-    private string $prefix;
+class MySQL extends SQL {
 
     public function __construct(array $options) {
         if(!isset($options["database"])) {
@@ -22,312 +16,82 @@ class MySQL extends Storage {
         if(!isset($options["password"])) {
             throw new \Exception("Missing Storage password");
         }
-        if(!isset($options["prefix"])) {
-            throw new \Exception("Missing Storage prefix");
-        }
 
-        $this->prefix = $options["prefix"];
-        $this->database = $options["database"];
-        if(!\in_array('mysql', \PDO::getAvailableDrivers())) {
-            throw new \Exception("MySQL driver not found");
-        }
-        $this->pdo = new \PDO("mysql:host={$options['host']};dbname={$options['database']}", $options['username'], $options['password']);
+        $options['driver'] = 'mysql';
+        $options['dsn'] = "mysql:host={$options['host']};dbname={$options['database']}";
+
+        parent::__construct($options);
     }
 
-    public function select(string $collection, array $where, ?int $limit = 1): array {
-        $where['_isDeleted'] = 0;
-
-        $data = $this->_select("{$this->prefix}{$collection}", $where, $limit);
-
-        foreach($data as $key => $document) {
-            unset($document['_isDeleted']);
-            $data[$key] = $document;
-        }
-        return $data;
-    }
-    public function insert(string $collection, array $document): array {
-        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            if(\in_array('CREATED_DATETIME', $definitions)) {
-                $document[$key] = \date('Y-m-d H:i:s');
+    protected function getFieldDefinition(string $field, array $definitions, string $collection, array &$afterCreateSql): string {
+        $sql = "`{$field}` ";
+        $definitionStr = [ ];
+        foreach($definitions as $definition => $params) {
+            if($definition === 'INDEX') {
+                $afterCreateSql[] = "CREATE INDEX {$this->prefix}{$collection}_{$field} ON {$this->prefix}{$collection} ({$field});";
                 continue;
             }
-            if(\in_array('UPDATED_DATETIME', $definitions)) {
-                $document[$key] = \date('Y-m-d H:i:s');
+            if($definition === 'UNIQUE') {
+                $afterCreateSql[] = "CREATE UNIQUE INDEX {$this->prefix}{$collection}_{$field} ON {$this->prefix}{$collection} ({$field}, `_isDeleted`);";
                 continue;
             }
-            if(isset($document[$key])) {
-                if(\in_array('DATE', $definitions)) {
-                    $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
-                    continue;
-                }
-                if(\in_array('DATETIME', $definitions)) {
-                    $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
-                    continue;
-                }
-            }
-        }
-
-        $this->_insert("{$this->prefix}{$collection}", $document);
-
-        $where = [];
-        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            if(\in_array('PRIMARY_KEY', $definitions)) {
-                if(isset($document[$key])) {
-                    $where[$key] = $document[$key];
-                    continue;
-                }
-                $where[$key] = $this->pdo->lastInsertId();
-                break;
-            }
-        }
-
-        $data = $this->select($collection, $where)[0];
-        unset($data['_isDeleted']);
-
-        return $data;
-    }
-
-    public function update(string $collection, array $document): bool {
-        $where = [];
-        $where['_isDeleted'] = 0;
-
-        $newFields = [];
-        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            if(\in_array('UPDATED_DATETIME', $definitions)) {
-                $document[$key] = \date('Y-m-d H:i:s');
-            }
-            if(isset($document[$key])) {
-                if(\in_array('PRIMARY_KEY', $definitions)) {
-                    $where[$key] = $document[$key];
-                    continue;
-                }
-                if(\in_array('DATE', $definitions)) {
-                    $document[$key] = \date('Y-m-d', \strtotime($document[$key]));
-                }
-                if(\in_array('DATETIME', $definitions)) {
-                    $document[$key] = \date('Y-m-d H:i:s', \strtotime($document[$key]));
-                }
-                $newFields[$key] = $document[$key];
-            }
-        }
-        if(\count($where) === 0) {
-            throw new \Exception("No primary key found in update document");
-        }
-        return $this->_update("{$this->prefix}{$collection}", $where, $newFields, 1);
-    }
-    public function delete(string $collection, array $document): bool {
-        $realDelete = false; // real delete has problems: apparently, the id is recycled, so it's better to just mark as deleted
-
-        $where = [];
-        foreach(self::getCollectionStructure($collection) as $key => $definitions) {
-            if(\in_array('PRIMARY_KEY', $definitions)) {
-                $where[$key] = $document[$key];
+            if($definition === 'FOREIGN_KEY') {
+                $afterCreateSql[] = "ALTER TABLE {$this->prefix}{$collection} ADD FOREIGN KEY (`{$field}`) REFERENCES {$this->prefix}{$params['collection']} (`{$params['field']}`);";
                 continue;
             }
-        }
-        if(\count($where) === 0) {
-            throw new \Exception("No primary key found in delete document");
-        }
-        if($realDelete) {
-            return $this->_delete("{$this->prefix}{$collection}", $where, 1);
-        }
-
-        $updateFields = [ '_isDeleted' => 1 ];
-
-        return $this->_update("{$this->prefix}{$collection}", $where, $updateFields, 1);
-    }
-
-    public function reset(): void {
-        foreach(self::getCollections() as $collection) {
-            $this->drop($collection);
-        }
-    }
-
-    public function drop(string $collection): void {
-        $this->_dropTable("{$collection}");
-    }
-
-    protected function needsSetup(): bool {
-        $needsSetup = false;
-        $this->eachMissingTable(function(string $table) use (&$needsSetup) {
-            $needsSetup = true;
-            return "break";
-        });
-        return $needsSetup;
-    }
-
-    public function setup(): void {
-        $this->eachMissingTable(function(string $table) {
-            $createTableSuccess = $this->_createTable("{$table}");
-            if(!$createTableSuccess) {
-                throw new \Exception("Setup error: Failed to create table {$table}");
+            if($definition === 'PRIMARY_KEY') {
+                $definitionStr['IS_PRIMARY_KEY'] = 'PRIMARY KEY';
+                continue;
             }
-
-            $toInsert = self::getFullCollectionSetup()[$table]['data'];
-            foreach($toInsert as $data) {
-                try {
-                    $this->insert($table, $data);
-                } catch(\Exception $e) {
-                    $this->_dropTable("{$table}");
-                    throw new \Exception("Setup error: Failed to insert data into table {$table}: {$e->getMessage()}");
-                }
+            if($definition === 'GENERATED') {
+                $definitionStr['IS_GENERATED'] = 'AUTO_INCREMENT';
+                continue;
             }
-            return "continue";
-        });
-    }
-
-    private function eachMissingTable(callable $callback): void {
-        $mustHaveTables = \array_map(function(string $collection) {
-            return $collection;
-        }, self::getCollections());
-
-        $tables = \array_map(function(array $table) {
-            return \preg_replace('/^'.\preg_quote($this->prefix).'/', '', $table['TABLE_NAME']);
-        }, $this->_select('information_schema.tables', [ 'table_schema' => $this->database, ], null));
-
-        foreach($mustHaveTables as $table) {
-            if(!\in_array($table, $tables)) {
-                $action = $callback($table);
-                if($action === "break") {
-                    break;
-                }
-                if($action === "continue") {
-                    continue;
-                }
-                throw new \Exception("Unknown action: {$action}");
+            if($definition === 'DEFAULT') {
+                $value = $params===null ? 'NULL' : "\"{$params}\" NOT NULL";
+                $definitionStr['DEFAULT'] = "DEFAULT {$value}";
+                continue;
             }
-        }
-    }
-
-    private function _createTable(string $table): bool {
-        $afterCreateSql = "";
-        $sql = "CREATE TABLE {$this->prefix}{$table} (";
-        foreach(self::getCollectionStructure($table) as $field => $definitions) {
-            $indexDefinedForField = false;
-            $sql.= "`{$field}` ";
-            $definitionStr = [ ];
-            foreach($definitions as $def1 => $def2) {
-                if(\is_numeric($def1)) {
-                    $definition = $def2;
-                    $params = null;
+            if(\in_array($definition, ['CREATED_DATETIME', 'UPDATED_DATETIME', 'DATETIME'])) {
+                $definitionStr['FIELD_TYPE'] = 'DATETIME';
+                continue;
+            }
+            if(\in_array($definition, ['DATE'])) {
+                $definitionStr['FIELD_TYPE'] = 'DATE';
+                continue;
+            }
+            if(\in_array($definition, ['INTEGER', 'FLOAT'])) {
+                $definitionStr['FIELD_TYPE'] = $definition;
+                continue;
+            }
+            if($definition === 'BIT') {
+                $definitionStr['FIELD_TYPE'] = 'TINYINT(1)';
+                continue;
+            }
+            if($definition === 'CHAR') {
+                if($params === null) {
+                    throw new \Exception("CHAR definition requires a length");
+                }
+                if($params > 255) {
+                    $definitionStr['FIELD_TYPE'] = "VARCHAR({$params})";
                 } else {
-                    $definition = $def1;
-                    $params = $def2;
+                    $definitionStr['FIELD_TYPE'] = "CHAR({$params})";
                 }
-                if(!$indexDefinedForField) {
-                    if($definition === 'INDEX' || $definition === 'UNIQUE' || $definition === 'FOREIGN_KEY') {
-                        $afterCreateSql.= "CREATE INDEX {$this->prefix}{$table}_{$field} ON {$this->prefix}{$table} ({$field});";
-                        $indexDefinedForField = true;
-                        continue;
-                    }
-                }
-                $definitionStr[] = match($definition) {
-                    'GENERATED' => 'AUTO_INCREMENT',
-                    'CREATED_DATETIME' => '',
-                    'UPDATED_DATETIME' => '',
-                    'PRIMARY_KEY' => 'PRIMARY KEY',
-                    'FOREIGN_KEY' => "", // let's ignore this for now
-                    'DEFAULT' => "DEFAULT ".($params===null ? 'NULL' : "\"{$params}\" NOT NULL"),
-                    'UNIQUE' => 'UNIQUE',
-
-                    'INTEGER' => 'INTEGER',
-                    'BIT' => 'INTEGER',
-                    'DATE' => 'DATE',
-                    'DATETIME' => 'DATETIME',
-                    'STRING' => 'TEXT',
-                    'CHAR' => 'TEXT',
-                    'FLOAT' => 'FLOAT',
-                    default => throw new \Exception("Unknown definition: {$definition}"),
-                };
-            }
-            $sql.= \implode(' ', $definitionStr).', ';
-        }
-        $sql.= '_isDeleted INTEGER DEFAULT 0';
-        $sql.= ');';
-        $sql.= $afterCreateSql;
-        $stmt = $this->pdo->prepare($sql);
-        return $stmt->execute();
-    }
-
-    private function _dropTable(string $table): bool {
-        $stmt = $this->pdo->prepare("DROP TABLE {$this->prefix}{$table};");
-        return $stmt->execute();
-    }
-
-    private function _select(string $table, array $where, ?int $limit): array {
-        $sqlParams = [];
-        $sql = "SELECT * FROM {$table} WHERE true ";
-        foreach($where as $key => $value) {
-            if(\is_iterable($value)) {
-                if(!$value) {
-                    return []; // field must be equals ony of the values, but there are no values, so no results, no need to query
-                }
-                $sql .= "AND {$key} IN (";
-                foreach($value as $v) {
-                    $sql .= "?,";
-                    $sqlParams[] = $v;
-                }
-                $sql = \substr($sql, 0, -1);
-                $sql .= ") ";
                 continue;
             }
-            $sql .= "AND {$key} = ? ";
-            $sqlParams[] = $value;
-        }
-        if($limit !== null) {
-            $sql .= "LIMIT {$limit}";
-        }
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute($sqlParams);
-        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
-    }
+            if($definition === 'STRING') {
+                if($params === null) {
+                    $definitionStr['FIELD_TYPE'] = "TEXT";
+                } else {
+                    $definitionStr['FIELD_TYPE'] = "VARCHAR({$params})";
+                }
+                continue;
+            }
 
-    private function _insert(string $table, array $document): void {
-        $fields = \array_keys($document);
-        $sql = "INSERT INTO {$table} (".\implode(',', $fields).") VALUES (";
-        $sqlParams = [];
-        foreach($fields as $field) {
-            $sql .= "?,";
-            $sqlParams[] = $document[$field];
+            throw new \Exception("Unknown definition: {$definition}(".\json_encode($params).")");
         }
-        $sql = \substr($sql, 0, -1).');';
-        $stmt = $this->pdo->prepare($sql);
-        if(!$stmt->execute($sqlParams)) {
-            throw new \Exception("Failed to insert into {$table}");
-        }
-    }
-
-    private function _update(string $table, array $where, array $newFields, ?int $limit): bool {
-        $sql = "UPDATE {$table} SET ";
-        $sqlParams = [];
-        foreach($newFields as $field => $value) {
-            $sql .= "{$field} = ?,";
-            $sqlParams[] = $value;
-        }
-        $sql = \substr($sql, 0, -1).' WHERE true ';
-        foreach($where as $key => $value) {
-            $sql .= "AND {$key} = ? ";
-            $sqlParams[] = $value;
-        }
-        if($limit !== null) {
-            $sql .= "LIMIT {$limit}";
-        }
-        $stmt = $this->pdo->prepare($sql);
-        return $stmt->execute($sqlParams);
-    }
-
-    private function _delete(string $table, array $where, ?int $limit): bool {
-        $sql = "DELETE FROM {$table} WHERE true ";
-        $sqlParams = [];
-        foreach($where as $key => $value) {
-            $sql .= "AND {$key} = ? ";
-            $sqlParams[] = $value;
-        }
-        if($limit !== null) {
-            $sql .= "LIMIT {$limit}";
-        }
-        $stmt = $this->pdo->prepare($sql);
-        return $stmt->execute($sqlParams);
+        $sql.= \implode(" ", $definitionStr);
+        return $sql;
     }
 
 }
