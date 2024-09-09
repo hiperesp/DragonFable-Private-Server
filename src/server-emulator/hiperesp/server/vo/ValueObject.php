@@ -7,8 +7,8 @@ abstract class ValueObject {
 
     public final function __construct(array $data) {
         $autoInstantiate = new AutoInstantiate($this);
-        $autoInstantiate->settings();
         $autoInstantiate->models();
+        $autoInstantiate->settings();
 
         $data = $this->patch($data);
         $this->applyData($data);

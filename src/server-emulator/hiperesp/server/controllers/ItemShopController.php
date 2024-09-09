@@ -4,7 +4,6 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ItemModel;
@@ -12,8 +11,11 @@ use hiperesp\server\models\ItemShopModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\CharacterItemProjection;
 use hiperesp\server\projection\ItemShopProjection;
+use hiperesp\server\services\ItemShopService;
 
 class ItemShopController extends Controller {
+
+    private ItemShopService $itemShopService;
 
     private UserModel $userModel;
     private CharacterModel $characterModel;
@@ -46,11 +48,7 @@ class ItemShopController extends Controller {
         $shop = $this->itemShopModel->getById((int)$input->intShopID);
         $item = $this->itemModel->getByShopAndId($shop, (int)$input->intItemID);
 
-        if(!$char->canBuyItem($item)) {
-            throw new DFException(DFException::MONEY_NOT_ENOUGH);
-        }
-        $charItem = $this->characterItemModel->addItemToChar($char, $item);
-        $this->characterModel->chargeItem($charItem);
+        $charItem = $this->itemShopService->buy($char, $item);
 
         return CharacterItemProjection::instance()->bought($charItem);
     }
@@ -66,11 +64,10 @@ class ItemShopController extends Controller {
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $charItem = $this->characterItemModel->getByCharAndId($char, (int)$input->intCharItemID);
 
-        $this->characterModel->refundItem($char, $charItem,
+        $this->itemShopService->sell($charItem,
             quantity: (int)$input->intAmnt,
             returnPercent: (int)$input->intReturnPer
         );
-        $this->characterItemModel->destroy($charItem);
 
         return CharacterItemProjection::instance()->sold($charItem);
     }

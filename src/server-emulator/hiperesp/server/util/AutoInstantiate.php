@@ -8,6 +8,7 @@ use hiperesp\server\vo\SettingsVO;
 class AutoInstantiate {
 
     const MODEL = \hiperesp\server\models\Model::class;
+    const SERVICE = \hiperesp\server\services\Service::class;
 
     private object $instance;
     private \ReflectionClass $rClass;
@@ -19,6 +20,9 @@ class AutoInstantiate {
 
     public function models(): void {
         $this->subclass(self::MODEL);
+    }
+    public function services(): void {
+        $this->subclass(self::SERVICE);
     }
     public function settings(): void {
         if($this->instance instanceof SettingsModel) {

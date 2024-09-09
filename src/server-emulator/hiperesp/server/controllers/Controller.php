@@ -13,6 +13,7 @@ abstract class Controller {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->models();
         $autoInstantiate->settings();
+        $autoInstantiate->services();
     }
 
     private function cors() { // https://stackoverflow.com/questions/8719276/cross-origin-request-headerscors-with-php-headers
