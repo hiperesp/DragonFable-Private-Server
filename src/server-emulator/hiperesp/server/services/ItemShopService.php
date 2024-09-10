@@ -17,14 +17,14 @@ class ItemShopService extends Service {
 
     public function buy(CharacterVO $char, ItemVO $item): CharacterItemVO {
         if(!$char->canBuyItem($item)) {
-            $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buy', 'Cannot buy item', $char, $item, []);
+            $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyItem', 'Cannot buy item', $char, $item, []);
             throw new DFException(DFException::CANNOT_BUY_ITEM);
         }
 
         $charItem = $this->characterItemModel->addItemToChar($char, $item);
         $this->characterModel->chargeItem($charItem);
 
-        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'buy', 'Item bought', $char, $charItem, []);
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'buyItem', 'Item bought', $char, $charItem, []);
         return $charItem;
     }
 
@@ -37,7 +37,7 @@ class ItemShopService extends Service {
         );
         $this->characterItemModel->destroy($charItem);
 
-        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'buy', 'Item sold', $char, $charItem, [
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'sellItem', 'Item sold', $char, $charItem, [
             'quantity' => $quantity,
             'returnPercent' => $returnPercent
         ]);
