@@ -5,8 +5,6 @@ class UserVO extends ValueObject {
 
     private SettingsVO $settings;
 
-    public readonly int $id;
-
     public readonly string $createdAt;
     public readonly string $updatedAt;
 

@@ -5,8 +5,6 @@ class MonsterVO extends ValueObject {
 
     private SettingsVO $settings;
 
-    public readonly int $id;
-
     public readonly string $name;
 
     public readonly int $level;

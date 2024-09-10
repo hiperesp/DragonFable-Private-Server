@@ -41,7 +41,7 @@ class DevController extends Controller {
     <fieldset>
         <legend>Database</legend>
         <form action="database/setup">
-            <button>Setup remaining collections</button>
+            <button>Setup collections</button>
         </form>
     </fieldset>
     <fieldset>

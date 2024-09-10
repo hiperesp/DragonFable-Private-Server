@@ -3,8 +3,6 @@ namespace hiperesp\server\vo;
 
 class ClassVO extends ValueObject {
 
-    public readonly int $id;
-
     public readonly string $name;
     public readonly string $element;
     public readonly string $swf;

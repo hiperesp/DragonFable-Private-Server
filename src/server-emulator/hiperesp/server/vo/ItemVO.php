@@ -6,7 +6,6 @@ use hiperesp\server\exceptions\DFException;
 
 class ItemVO extends ValueObject {
 
-    public readonly int $id;
     public readonly string $name;
     public readonly string $description;
     public readonly string $designInfo;

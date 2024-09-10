@@ -9,8 +9,6 @@ class CharacterItemVO extends ValueObject {
     private ItemModel $itemModel;
     private CharacterModel $characterModel;
 
-    public readonly int $id;
-
     public readonly int $charId;
 
     public readonly string $createdAt;

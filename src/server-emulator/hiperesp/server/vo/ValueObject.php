@@ -5,6 +5,8 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class ValueObject {
 
+    public readonly int $id;
+
     public final function __construct(array $data) {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->models();
@@ -42,20 +44,26 @@ abstract class ValueObject {
             if(!\array_key_exists($propertyName, $data)) throw new \Exception("Property {$propertyName} not found in data");
 
             $value = $data[$propertyName];
-            if($propertyType->getName() == 'int') {
-                $value = \intval($value);
+            if($value===null && $propertyType->allowsNull()) {
+                $newValue = null;
+            } else if($propertyType->getName() == 'int') {
+                $newValue = \intval($value);
             } else if($propertyType->getName() == 'string') {
-                $value = \strval($value);
+                $newValue = \strval($value);
             } else if($propertyType->getName() == 'float') {
-                $value = \floatval($value);
+                $newValue = \floatval($value);
             } else if($propertyType->getName() == 'bool') {
-                $value = \boolval($value);
+                $newValue = \boolval($value);
+            } else if($propertyType->getName() == 'array') {
+                $newValue = (array)$value;
+            } else if($propertyType->getName() == 'object') {
+                $newValue = (object)$value;
             } else {
                 throw new \Exception("Property {$propertyName} has an invalid type");
             }
 
             $property->setAccessible(true);
-            $property->setValue($this, $value);
+            $property->setValue($this, $newValue);
         }
     }
 

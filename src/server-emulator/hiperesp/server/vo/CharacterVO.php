@@ -5,8 +5,6 @@ class CharacterVO extends ValueObject {
 
     private SettingsVO $settings;
 
-    public readonly int $id;
-
     public readonly int $userId;
 
     public readonly string $createdAt;
