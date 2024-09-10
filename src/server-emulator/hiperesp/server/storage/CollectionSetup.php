@@ -427,6 +427,31 @@ final class CollectionSetup {
             ],
             "data" => "houseShop_house/",
         ],
+        "logs" => [
+            "structure" => [
+                "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+                "createdAt"     => [ 'DATETIME', 'CREATED_DATETIME' ],
+
+                "userId"        => [ 'INTEGER', 'DEFAULT' => NULL, 'FOREIGN_KEY' => [ "collection" => "user", "field" => "id" ] ],
+                "charId"        => [ 'INTEGER', 'DEFAULT' => NULL, 'FOREIGN_KEY' => [ "collection" => "char", "field" => "id" ] ],
+
+                "service"       => [ 'STRING' => 255 ],
+                "method"        => [ 'STRING' => 255 ],
+
+                "action"        => [ 'STRING' => 255 ],
+                "description"   => [ 'STRING' => 255 ],
+
+                "referenceClass"=> [ 'STRING' => 255 ],
+                "referenceId"   => [ 'INTEGER' ],
+                "additionalData"=> [ 'STRING' ],
+
+                "severity"      => [ 'STRING' => 255 ],
+
+                "ip"            => [ 'STRING' => 255 ],
+                "userAgent"     => [ 'STRING' => 255 ],
+            ],
+            "data" => [],
+        ],
     ];
 
     private static array $structures = [];
