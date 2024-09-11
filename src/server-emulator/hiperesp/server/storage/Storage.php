@@ -29,21 +29,17 @@ abstract class Storage {
     final public function insert(string $collection, array $document): array {
         foreach(CollectionSetup::getStructure($collection) as $key => $definitions) {
             if(\in_array('CREATED_DATETIME', $definitions)) {
-                $document[$key] = \date($this->dateTimeFormat);
-                break;
+                $document[$key] = \date('c');
             }
             if(\in_array('UPDATED_DATETIME', $definitions)) {
-                $document[$key] = \date($this->dateTimeFormat);
-                break;
+                $document[$key] = \date('c');
             }
             if(isset($document[$key])) {
                 if(\in_array('DATETIME', $definitions)) {
                     $document[$key] = \date($this->dateTimeFormat, \strtotime($document[$key]));
-                    break;
                 }
                 if(\in_array('DATE', $definitions)) {
                     $document[$key] = \date($this->dateFormat, \strtotime($document[$key]));
-                    break;
                 }
             }
         }
@@ -70,12 +66,11 @@ abstract class Storage {
 
     final public function update(string $collection, array $document): bool {
         $where = [];
-        $where['_isDeleted'] = 0;
 
         $newFields = [];
         foreach(CollectionSetup::getStructure($collection) as $key => $definitions) {
             if(\in_array('UPDATED_DATETIME', $definitions)) {
-                $document[$key] = \date($this->dateFormat);
+                $document[$key] = \date('c');
             }
             if(isset($document[$key])) {
                 if(\in_array('PRIMARY_KEY', $definitions)) {
@@ -94,21 +89,31 @@ abstract class Storage {
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in update document");
         }
+        $where['_isDeleted'] = 0;
         return $this->_update($collection, $where, $newFields, 1);
     }
     public function delete(string $collection, array $document): bool {
         $where = [];
+        $updateFields = [];
         foreach(CollectionSetup::getStructure($collection) as $key => $definitions) {
             if(\in_array('PRIMARY_KEY', $definitions)) {
                 $where[$key] = $document[$key];
-                break;
+                continue;
+            }
+            if(\in_array('UPDATED_DATETIME', $definitions)) {
+                $updateFields[$key] = \date('c');
+                if(\in_array('DATETIME', $definitions)) {
+                    $updateFields[$key] = \date($this->dateTimeFormat, \strtotime($updateFields[$key]));
+                } else if(\in_array('DATE', $definitions)) {
+                    $updateFields[$key] = \date($this->dateFormat, \strtotime($updateFields[$key]));
+                }
             }
         }
         if(\count($where) === 0) {
             throw new \Exception("No primary key found in delete document");
         }
-
-        $updateFields = [ '_isDeleted' => $document[\array_keys($where)[0]] ];
+        $where['_isDeleted'] = 0;
+        $updateFields['_isDeleted'] = $document[\array_keys($where)[0]];
 
         return $this->_update($collection, $where, $updateFields, 1);
     }
