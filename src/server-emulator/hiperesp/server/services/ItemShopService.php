@@ -22,8 +22,7 @@ class ItemShopService extends Service {
 
     public function buy(CharacterVO $char, ItemVO $item): CharacterItemVO {
         if(!$char->canBuyItem($item)) {
-            $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyItem', 'Cannot buy item', $char, $item, []);
-            throw new DFException(DFException::CANNOT_BUY_ITEM);
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyItem', 'Cannot buy item', $char, $item, [])->asException(DFException::CANNOT_BUY_ITEM);
         }
 
         $charItem = $this->characterItemModel->addItemToChar($char, $item);
@@ -49,13 +48,11 @@ class ItemShopService extends Service {
             }
             if($returnPercent != $newReturnPercent) {
                 if($this->settings->banInvalidClientValues) {
-                    $this->userModel->ban($char->getUser());
                     $actionLog = $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'sellItem', "Invalid returnPercent for charItem. Should be {$newReturnPercent}.", $char, $charItem, [
                         'quantity' => $quantity,
                         'returnPercent' => $returnPercent
                     ]);
-                    $this->logsModel->register(LogsModel::SEVERITY_INFO, 'banUser', "User banned due to invalid sellItem returnPercent.", $char, $actionLog, []);
-                    throw new DFException(DFException::USER_BANNED);
+                    $this->userModel->ban($char, 'Invalid returnPercent for sellItem.', $actionLog);
                 }
             }
             $returnPercent = $newReturnPercent;

@@ -247,4 +247,18 @@ class CharacterProjection extends Projection {
         return $xml;
     }
 
+    public function statsTrained(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<TrainStats/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
+
+    public function statsUntrained(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<TrainStats/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
+
 }

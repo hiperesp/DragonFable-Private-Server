@@ -12,6 +12,7 @@ abstract class Model {
 
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->settings();
+        $autoInstantiate->logs();
     }
 
 }

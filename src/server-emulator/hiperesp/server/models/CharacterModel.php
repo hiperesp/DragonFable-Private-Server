@@ -167,6 +167,36 @@ class CharacterModel extends Model {
         ]);
     }
 
+    public function trainStats(CharacterVO $char, int $wisdom, int $charisma, int $luck, int $endurance, int $dexterity, int $intelligence, int $strength, int $statPointsUsed, int $goldCost): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'wisdom' => $char->wisdom + $wisdom,
+            'charisma' => $char->charisma + $charisma,
+            'luck' => $char->luck + $luck,
+            'endurance' => $char->endurance + $endurance,
+            'dexterity' => $char->dexterity + $dexterity,
+            'intelligence' => $char->intelligence + $intelligence,
+            'strength' => $char->strength + $strength,
+            'gold' => $char->gold - $goldCost,
+            'statPoints' => $char->statPoints - $statPointsUsed,
+        ]);
+    }
+
+    public function untrainStats(CharacterVO $char, int $goldCost): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'wisdom' => 0,
+            'charisma' => 0,
+            'luck' => 0,
+            'endurance' => 0,
+            'dexterity' => 0,
+            'intelligence' => 0,
+            'strength' => 0,
+            'gold' => $char->gold - $goldCost,
+            'statPoints' => $char->statPoints + $char->wisdom + $char->charisma + $char->luck + $char->endurance + $char->dexterity + $char->intelligence + $char->strength,
+        ]);
+    }
+
     private function applyLevelUpBonuses(CharacterVO $char, int $newLevel): void {
         $bonusesPerLevel = [
             'hitPoints' => 20,

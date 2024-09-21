@@ -1,6 +1,8 @@
 <?php
 namespace hiperesp\server\vo;
 
+use hiperesp\server\exceptions\DFException;
+
 class LogsVO extends ValueObject {
 
     public readonly string $createdAt;
@@ -26,5 +28,9 @@ class LogsVO extends ValueObject {
     protected function patch(array $data): array {
         $data['additionalData'] = \json_decode($data['additionalData'], true);
         return $data;
+    }
+
+    public function asException(string $dfCode): DFException {
+        return new DFException($dfCode);
     }
 }

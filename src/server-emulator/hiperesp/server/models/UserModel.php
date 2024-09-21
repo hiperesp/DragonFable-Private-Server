@@ -3,12 +3,14 @@ namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\LogsVO;
 use hiperesp\server\vo\UserVO;
-use hiperesp\server\vo\ValueObject;
 
 class UserModel extends Model {
 
     public const COLLECTION = 'user';
+
+    private LogsModel $logsModel;
 
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
@@ -76,11 +78,19 @@ class UserModel extends Model {
         throw new DFException(DFException::USER_NOT_FOUND);
     }
 
-    public function ban(UserVO $user): void {
-        $this->storage->update(self::COLLECTION, [
-            'id' => $user->id,
-            'banned' => 1
-        ]);
+    public function ban(UserVO|CharacterVO $userOrChar, string $reason, LogsVO $action, array $additionalData = []): void {
+        if($userOrChar instanceof CharacterVO) {
+            $user = $userOrChar->getUser();
+            $char = $userOrChar;
+        } else if($userOrChar instanceof UserVO) {
+            $user = $userOrChar;
+            $char = null;
+        }
+
+        $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'banned' => 1 ]);
+        $this->logsModel->register(LogsModel::SEVERITY_INFO, 'banUser', $reason, $char, $action, $additionalData);
+
+        throw new DFException(DFException::USER_BANNED);
     }
 
 }
