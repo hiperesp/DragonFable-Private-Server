@@ -27,6 +27,9 @@ final class CollectionSetup {
                 "enableAdvertising"     => [ 'BIT', 'DEFAULT' => 0 ],
                 "dailyQuestCoinsReward" => [ 'INTEGER', 'DEFAULT' => 3 ],
 
+                "revalidateClientValues" => [ 'BIT', 'DEFAULT' => 0 ],
+                "banInvalidClientValues" => [ 'BIT', 'DEFAULT' => 0 ],
+
                 "nonUpgradedChars"              => [ 'INTEGER', 'DEFAULT' => 3 ],
                 "upgradedChars"                 => [ 'INTEGER', 'DEFAULT' => 6 ],
                 "nonUpgradedMaxBagSlots"        => [ 'INTEGER', 'DEFAULT' => 30 ],
