@@ -85,8 +85,8 @@ class CharacterModel extends Model {
 
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
-            'gold' => (int)($char->gold + $item->getPriceGold() * $returnProportion),
-            'coins' => (int)($char->coins + $item->getPriceCoins() * $returnProportion)
+            'gold' => \ceil($char->gold + $item->getPriceGold() * $returnProportion),
+            'coins' => \ceil($char->coins + $item->getPriceCoins() * $returnProportion)
         ]);
     }
 
