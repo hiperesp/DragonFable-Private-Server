@@ -2,11 +2,15 @@
 namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\UserVO;
+use hiperesp\server\vo\ValueObject;
 
 class UserModel extends Model {
 
     public const COLLECTION = 'user';
+
+    private LogsModel $logsModel;
 
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
@@ -24,11 +28,13 @@ class UserModel extends Model {
         throw new DFException(DFException::USER_NOT_FOUND);
     }
 
-    public function signup(array $data): UserVO {
-        $data['birthdate'] = \date('Y-m-d', \strtotime($data['birthdate'])); // from mm/dd/yyyy to yyyy-mm-dd
+    public function signup(string $username, #[\SensitiveParameter] string $password, string $email, string $birthdate): UserVO {
+        $data = [];
 
-        $data['username'] = \trim($data['username']);
-        $data['email'] = \trim($data['email']);
+        $data['birthdate'] = \date('Y-m-d', \strtotime($birthdate)); // from mm/dd/yyyy to yyyy-mm-dd
+
+        $data['username'] = \trim($username);
+        $data['email'] = \trim($email);
 
         $user = $this->storage->select(self::COLLECTION, ['username' => $data['username']]);
         if(isset($user[0]) && $user = $user[0]) {
@@ -39,9 +45,9 @@ class UserModel extends Model {
             throw new DFException(DFException::EMAIL_ALREADY_EXISTS);
         }
 
-        $data['password'] = \password_hash($data['password'], \PASSWORD_DEFAULT);
+        $data['password'] = \password_hash($password, \PASSWORD_DEFAULT);
         $data['sessionToken'] = $this->_generateUniqueSessionToken();
-        $data['birthdate'] = \date('Y-m-d', \strtotime($data['birthdate']));
+        $data['birthdate'] = \date('Y-m-d', \strtotime($birthdate));
 
         $user = $this->storage->insert(self::COLLECTION, $data);
 
@@ -62,6 +68,28 @@ class UserModel extends Model {
             return $this->_generateUniqueSessionToken();
         }
         return $token;
+    }
+
+    public function getByChar(CharacterVO $char): UserVO {
+        $user = $this->storage->select(self::COLLECTION, ['id' => $char->userId]);
+        if(isset($user[0]) && $user = $user[0]) {
+            return new UserVO($user);
+        }
+        throw new DFException(DFException::USER_NOT_FOUND);
+    }
+
+    public function ban(UserVO $user, string $reason, ?ValueObject $reference = null, array $additionalData = [], bool $throwException = true): void {
+        $this->storage->update(self::COLLECTION, ['banned' => 1], ['id' => $user->id]);
+
+        if($reference === null) {
+            $reference = $user;
+        }
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'banUser', $reason, $user, $reference, $additionalData);
+
+        if($throwException) {
+            throw new DFException(DFException::USER_BANNED);
+        }
     }
 
 }
