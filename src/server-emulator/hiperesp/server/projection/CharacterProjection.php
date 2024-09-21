@@ -159,7 +159,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('CharItemID', $characterItem->id);
             $itemEl->addAttribute('bitEquipped', $characterItem->equipped ? 1 : 0);
             $itemEl->addAttribute('intCount', $characterItem->count);
-            $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned($char));
+            $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned(\date('c')));
 
             $item = $this->itemModel->getByCharItem($characterItem);
 

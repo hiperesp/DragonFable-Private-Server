@@ -19,16 +19,14 @@ class CharacterItemVO extends ValueObject {
     public readonly bool $equipped;
     public readonly bool $count;
 
-    public function getHoursOwned(CharacterVO $char): int {
-        if($char->id != $this->charId) {
-            throw new \Exception('Item does not belong to the character');
-        }
+    public function getHoursOwned(string $today): int {
+        $todaySeconds = \strtotime($today);
+        $ownedAtSeconds = \strtotime($this->createdAt);
 
-        $charCreated = $char->createdAt;
-        $itemPurchase = $this->createdAt;
+        $secondsOwned = $todaySeconds - $ownedAtSeconds;
+        $hoursOwned = \floor($secondsOwned / 3600);
 
-        $secondsOwned = \strtotime($itemPurchase) - \strtotime($charCreated);
-        return \intval($secondsOwned / 3600);
+        return $hoursOwned;
     }
 
     public function getItem(): ItemVO {
