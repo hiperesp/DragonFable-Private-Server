@@ -10,8 +10,6 @@ class UserModel extends Model {
 
     public const COLLECTION = 'user';
 
-    private LogsModel $logsModel;
-
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
         if(isset($user[0]) && $user = $user[0]) {
@@ -78,18 +76,11 @@ class UserModel extends Model {
         throw new DFException(DFException::USER_NOT_FOUND);
     }
 
-    public function ban(UserVO $user, string $reason, ?ValueObject $reference = null, array $additionalData = [], bool $throwException = true): void {
-        $this->storage->update(self::COLLECTION, ['banned' => 1], ['id' => $user->id]);
-
-        if($reference === null) {
-            $reference = $user;
-        }
-
-        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'banUser', $reason, $user, $reference, $additionalData);
-
-        if($throwException) {
-            throw new DFException(DFException::USER_BANNED);
-        }
+    public function ban(UserVO $user): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $user->id,
+            'banned' => 1
+        ]);
     }
 
 }

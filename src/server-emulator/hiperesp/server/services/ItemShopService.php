@@ -5,15 +5,20 @@ use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\LogsModel;
+use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ItemVO;
+use hiperesp\server\vo\SettingsVO;
 
 class ItemShopService extends Service {
 
+    private UserModel $userModel;
     private CharacterModel $characterModel;
     private CharacterItemModel $characterItemModel;
     private LogsModel $logsModel;
+
+    private SettingsVO $settings;
 
     public function buy(CharacterVO $char, ItemVO $item): CharacterItemVO {
         if(!$char->canBuyItem($item)) {
@@ -30,6 +35,31 @@ class ItemShopService extends Service {
 
     public function sell(CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
         $char = $charItem->getChar();
+        $item = $charItem->getItem();
+
+        if($this->settings->revalidateClientValues) {
+            if($item->getPriceCoins()) {
+                if($charItem->getHoursOwned(\date('c')) >= 24) {
+                    $newReturnPercent = 25;
+                } else {
+                    $newReturnPercent = 90;
+                }
+            } else {
+                $newReturnPercent = 10;
+            }
+            if($returnPercent != $newReturnPercent) {
+                if($this->settings->banInvalidClientValues) {
+                    $this->userModel->ban($char->getUser());
+                    $actionLog = $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'sellItem', "Invalid returnPercent for charItem. Should be {$newReturnPercent}.", $char, $charItem, [
+                        'quantity' => $quantity,
+                        'returnPercent' => $returnPercent
+                    ]);
+                    $this->logsModel->register(LogsModel::SEVERITY_INFO, 'banUser', "User banned due to invalid sellItem returnPercent.", $char->getUser(), $actionLog, []);
+                    throw new DFException(DFException::USER_BANNED);
+                }
+            }
+            $returnPercent = $newReturnPercent;
+        }
 
         $this->characterModel->refundItem($char, $charItem,
             quantity: $quantity,
