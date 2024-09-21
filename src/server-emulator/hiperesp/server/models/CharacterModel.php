@@ -12,6 +12,7 @@ class CharacterModel extends Model {
 
     const COLLECTION = 'char';
 
+    private UserModel $userModel;
     private SettingsVO $settings;
 
     public function getById(int $charId): CharacterVO {
@@ -81,6 +82,26 @@ class CharacterModel extends Model {
             throw new DFException(DFException::ITEM_NOT_ENOUGH);
         }
         $returnPercent = \min(100, \max(0, $returnPercent));
+
+        if($this->settings->revalidateClientValues) {
+            if($item->getPriceCoins()) {
+                if($charItem->getHoursOwned(\date('c')) >= 24) {
+                    $newReturnPercent = 25;
+                } else {
+                    $newReturnPercent = 90;
+                }
+            } else {
+                $newReturnPercent = 10;
+            }
+            if($this->settings->banInvalidClientValues) {
+                $this->userModel->ban($char->getUser(), "Invalid returnPercent for charItem. Should be {$newReturnPercent}.", $charItem, [
+                    'quantity' => $quantity,
+                    'returnPercent' => $returnPercent
+                ]);
+            }
+            $returnPercent = $newReturnPercent;
+        }
+
         $returnProportion = $returnPercent / 100;
 
         $this->storage->update(self::COLLECTION, [

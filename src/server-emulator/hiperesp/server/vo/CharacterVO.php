@@ -1,8 +1,11 @@
 <?php
 namespace hiperesp\server\vo;
 
+use hiperesp\server\models\UserModel;
+
 class CharacterVO extends ValueObject {
 
+    private UserModel $userModel;
     private SettingsVO $settings;
 
     public readonly int $userId;
@@ -119,6 +122,10 @@ class CharacterVO extends ValueObject {
             return false;
         }
         return true;
+    }
+
+    public function getUser(): UserVO {
+        return $this->userModel->getByChar($this);
     }
 
 }
