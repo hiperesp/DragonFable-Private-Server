@@ -54,7 +54,7 @@ class ItemShopService extends Service {
                         'quantity' => $quantity,
                         'returnPercent' => $returnPercent
                     ]);
-                    $this->logsModel->register(LogsModel::SEVERITY_INFO, 'banUser', "User banned due to invalid sellItem returnPercent.", $char->getUser(), $actionLog, []);
+                    $this->logsModel->register(LogsModel::SEVERITY_INFO, 'banUser', "User banned due to invalid sellItem returnPercent.", $char, $actionLog, []);
                     throw new DFException(DFException::USER_BANNED);
                 }
             }
