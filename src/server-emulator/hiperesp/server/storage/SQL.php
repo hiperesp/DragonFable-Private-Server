@@ -39,7 +39,7 @@ abstract class SQL extends Storage {
         return (int)$this->pdo->lastInsertId();
     }
 
-    final protected function _select(string $collection, array $where, ?int $limit): array {
+    final protected function _select(string $collection, array $where, ?int $limit, int $skip): array {
         $sqlParams = [];
         $sql = "SELECT * FROM {$this->prefix}{$collection} WHERE true ";
         foreach($where as $key => $value) {
@@ -60,7 +60,10 @@ abstract class SQL extends Storage {
             $sqlParams[] = $value;
         }
         if($limit !== null) {
-            $sql .= "LIMIT {$limit}";
+            $sql .= "LIMIT {$limit} ";
+            if($skip > 0) {
+                $sql .= "OFFSET {$skip} ";
+            }
         }
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($sqlParams);

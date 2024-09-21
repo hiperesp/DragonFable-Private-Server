@@ -3,7 +3,7 @@ namespace hiperesp\server\storage;
 
 abstract class Storage {
 
-    protected abstract function _select(string $collection, array $where, ?int $limit): array;
+    protected abstract function _select(string $collection, array $where, ?int $limit, int $skip): array;
     protected abstract function _insert(string $collection, array $document): void;
     protected abstract function _update(string $collection, array $where, array $document, ?int $limit): bool;
 
@@ -14,10 +14,10 @@ abstract class Storage {
     protected string $dateFormat = "Y-m-d";
     protected string $dateTimeFormat = "Y-m-d H:i:s";
 
-    final public function select(string $collection, array $where, ?int $limit = 1): array {
+    final public function select(string $collection, array $where, ?int $limit = 1, int $skip = 0): array {
         $where['_isDeleted'] = 0;
 
-        $data = $this->_select($collection, $where, $limit);
+        $data = $this->_select($collection, $where, $limit, $skip);
 
         foreach($data as $key => $document) {
             unset($document['_isDeleted']);
