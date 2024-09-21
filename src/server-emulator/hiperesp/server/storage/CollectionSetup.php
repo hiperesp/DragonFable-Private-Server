@@ -67,9 +67,13 @@ final class CollectionSetup {
                     "news"                  => "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!",
 
                     "enableAdvertising"     => 0, // if true, the game will show ads
+                    "dailyQuestCoinsReward" => 200, // coins reward for daily quests (default: 3)
+
+                    "revalidateClientValues" => 1, // some inconsistencies in the client can occur.
+                    "banInvalidClientValues" => 1, // some users can be banned injustly if inconsistencies are found.
+
                     "nonUpgradedMaxBagSlots"=> 30,
                     "upgradedMaxBagSlots"   => 90,
-                    "dailyQuestCoinsReward" => 200, // coins reward for daily quests (default: 3)
 
                     "experienceMultiplier"  => 10,
                     "gemsMultiplier"        => 10,
@@ -79,208 +83,6 @@ final class CollectionSetup {
                     "onlineTimeout"         => 10, // minutes. It affects only the online status of the player
                 ]
             ],
-        ],
-        "user" => [
-            "structure" => [
-                "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
-
-                "createdAt"     => [ 'DATETIME', 'CREATED_DATETIME' ],
-                "updatedAt"     => [ 'DATETIME', 'UPDATED_DATETIME' ],
-
-                "username"      => [ 'STRING' => 20,  'UNIQUE' ],
-                "password"      => [ 'STRING' => 64,  ],
-                "email"         => [ 'STRING' => 255, 'UNIQUE' ],
-                "birthdate"     => [ 'DATE' ],
-
-                "sessionToken"  => [ 'STRING' => 32, 'UNIQUE' ],
-
-                "upgraded"      => [ 'BIT', 'DEFAULT' => 0],
-                "activated"     => [ 'BIT', 'DEFAULT' => 0],
-                "optIn"         => [ 'BIT', 'DEFAULT' => 0],
-                "special"       => [ 'BIT', 'DEFAULT' => 0],
-
-                "banned"        => [ 'BIT', 'DEFAULT' => 0],
-                "lastLogin"     => [ 'DATETIME', 'DEFAULT' => NULL ],
-            ],
-            "data" => "user.json",
-        ],
-        "char" => [
-            "structure" => [
-                "id"                => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
-
-                "userId"            => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "user", "field" => "id" ] ],
-
-                "createdAt"         => [ 'DATETIME', 'CREATED_DATETIME' ],
-                "updatedAt"         => [ 'DATETIME', 'UPDATED_DATETIME' ],
-
-                "name"              => [ 'STRING' => 20 ],
-
-                "level"             => [ 'INTEGER', 'DEFAULT' => 1 ],
-                "experience"        => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "experienceToLevel" => [ 'INTEGER', 'DEFAULT' => 20 ],
-
-                "hitPoints"         => [ 'INTEGER', 'DEFAULT' => 100 ],
-                "manaPoints"        => [ 'INTEGER', 'DEFAULT' => 100 ],
-
-                "silver"            => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "gold"              => [ 'INTEGER', 'DEFAULT' => 1000 ],
-                "gems"              => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "coins"             => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "maxBagSlots"       => [ 'INTEGER', 'DEFAULT' => 30 ],
-                "maxBankSlots"      => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "maxHouseSlots"     => [ 'INTEGER', 'DEFAULT' => 5 ],
-                "maxHouseItemSlots" => [ 'INTEGER', 'DEFAULT' => 20 ],
-
-                "dragonAmulet"      => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "gender"            => [ 'CHAR' => 1 ], // M or F
-                "pronoun"           => [ 'CHAR' => 1 ], // M, F or O
-
-                "hairId"            => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "hair", "field" => "id" ] ],
-                "colorHair"         => [ 'CHAR' => 6 ],
-                "colorSkin"         => [ 'CHAR' => 6 ],
-                "colorBase"         => [ 'CHAR' => 6 ],
-                "colorTrim"         => [ 'CHAR' => 6 ],
-
-                "strength"          => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "dexterity"         => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "intelligence"      => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "luck"              => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "charisma"          => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "endurance"         => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "wisdom"            => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "skillPoints"       => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "statPoints"        => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "lastDailyQuestDone"=> [ "DATE", 'DEFAULT' => NULL ],
-
-                "armor"             => [ 'CHAR' => 100, 'DEFAULT' => "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
-                "skills"            => [ 'CHAR' => 300, 'DEFAULT' => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
-                "quests"            => [ 'CHAR' => 300, 'DEFAULT' => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
-
-                "raceId"            => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "race", "field" => "id" ] ],
-                "classId"           => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "class", "field" => "id" ] ],
-                "baseClassId"       => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "class", "field" => "id" ] ],
-                "guildId"           => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "guild", "field" => "id" ] ],
-                "questId"           => [ 'INTEGER', 'DEFAULT' => 933, 'FOREIGN_KEY' => [ "collection" => "quest", "field" => "id" ] ],
-
-                "lastTimeSeen"      => [ 'DATETIME', 'DEFAULT' => NULL, 'INDEX' ],
-            ],
-            "data" => "char.json",
-        ],
-        "hair" => [
-            "structure" => [
-                "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"          => [ 'STRING' => 255 ],
-                "swf"           => [ 'STRING' => 255 ],
-                "gender"        => [ 'CHAR' => 1 ], // M or F
-            ],
-            "data" => "hair/",
-        ],
-        "race" => [
-            "structure" => [
-                "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"      => [ 'STRING' => 20 ],
-                "resists"   => [ 'STRING' => 255 ],
-            ],
-            "data" => "race/",
-        ],
-        "class" => [
-            "structure" => [
-                "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"      => [ 'STRING' => 20 ],
-                "element"   => [ 'STRING' => 255 ],
-                "swf"       => [ 'STRING' => 255 ],
-                "armorId"   => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "armor",  "field" => "id" ] ],
-                "weaponId"  => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "weapon", "field" => "id" ] ],
-                "savable"   => [ 'INTEGER' ],
-            ],
-            "data" => "class.json",
-        ],
-        "quest" => [
-            "structure" => [
-                "id"                => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"              => [ 'STRING' => 255, 'DEFAULT' => "" ],
-                "description"       => [ 'STRING', 'DEFAULT' => "" ],
-                "complete"          => [ 'STRING', 'DEFAULT' => "" ],
-                "swf"               => [ 'STRING' => 255, 'DEFAULT' => "" ],
-                "swfX"              => [ 'STRING' => 255, 'DEFAULT' => "" ],
-                "maxSilver"         => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "maxGold"           => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "maxGems"           => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "maxExp"            => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "minTime"           => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "counter"           => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "extra"             => [ 'STRING', 'DEFAULT' => "" ],
-                "dailyIndex"        => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "dailyReward"       => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "monsterMinLevel"   => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "monsterMaxLevel"   => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "monsterType"       => [ 'STRING', 'DEFAULT' => "" ],
-                "monsterGroupSwf"   => [ 'STRING', 'DEFAULT' => "" ],
-            ],
-            "data" => "quest/",
-        ],
-        "quest_monster" => [
-            "structure" => [
-                "id"        => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
-                "questId"   => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "quest",   "field" => "id" ] ],
-                "monsterId" => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "monster", "field" => "id" ] ],
-            ],
-            "data" => "quest_monster/",
-        ],
-        "monster" => [
-            "structure" => [
-                "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
-
-                "name"          => [ 'STRING' => 255 ],
-
-                "level"         => [ 'INTEGER', 'DEFAULT' => 1 ],
-                "experience"    => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "hitPoints"     => [ 'INTEGER', 'DEFAULT' => 100 ],
-                "manaPoints"    => [ 'INTEGER', 'DEFAULT' => 100 ],
-
-                "silver"        => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "gold"          => [ 'INTEGER', 'DEFAULT' => 1000 ],
-                "gems"          => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "coins"         => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "gender"        => [ 'CHAR' => 1 ], // M or F
-
-                "hairStyle"     => [ 'INTEGER' ],
-                "colorHair"     => [ 'CHAR' => 6 ],
-                "colorSkin"     => [ 'CHAR' => 6 ],
-                "colorBase"     => [ 'CHAR' => 6 ],
-                "colorTrim"     => [ 'CHAR' => 6 ],
-
-                "strength"      => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "dexterity"     => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "intelligence"  => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "luck"          => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "charisma"      => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "endurance"     => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "wisdom"        => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "element"       => [ 'STRING' => 255 ],
-
-                "raceId"        => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "race", "field" => "id" ] ],
-                "armorId"       => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "armor",  "field" => "id" ] ],
-                "weaponId"      => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "weapon", "field" => "id" ] ],
-
-                "movName"       => [ 'STRING' => 255 ],
-                "swf"           => [ 'STRING' => 255 ],
-            ],
-            "data" => "monster/",
-        ],
-        "guild" => [
-            "structure" => [
-                "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"  => [ 'STRING' => 255 ],
-            ],
-            "data" => "guild.json",
         ],
         "interface" => [
             "structure" => [
@@ -357,10 +159,160 @@ final class CollectionSetup {
         "itemShop_item" => [
             "structure" => [
                 "id"     => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "itemShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "shop", "field" => "id" ] ],
+                "itemShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "itemShop", "field" => "id" ] ],
                 "itemId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
             ],
             "data" => "itemShop_item/",
+        ],
+        "quest" => [
+            "structure" => [
+                "id"                => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"              => [ 'STRING' => 255, 'DEFAULT' => "" ],
+                "description"       => [ 'STRING', 'DEFAULT' => "" ],
+                "complete"          => [ 'STRING', 'DEFAULT' => "" ],
+                "swf"               => [ 'STRING' => 255, 'DEFAULT' => "" ],
+                "swfX"              => [ 'STRING' => 255, 'DEFAULT' => "" ],
+                "maxSilver"         => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "maxGold"           => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "maxGems"           => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "maxExp"            => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "minTime"           => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "counter"           => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "extra"             => [ 'STRING', 'DEFAULT' => "" ],
+                "dailyIndex"        => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "dailyReward"       => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "monsterMinLevel"   => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "monsterMaxLevel"   => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "monsterType"       => [ 'STRING', 'DEFAULT' => "" ],
+                "monsterGroupSwf"   => [ 'STRING', 'DEFAULT' => "" ],
+            ],
+            "data" => "quest/",
+        ],
+        "user" => [
+            "structure" => [
+                "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+
+                "createdAt"     => [ 'DATETIME', 'CREATED_DATETIME' ],
+                "updatedAt"     => [ 'DATETIME', 'UPDATED_DATETIME' ],
+
+                "username"      => [ 'STRING' => 20,  'UNIQUE' ],
+                "password"      => [ 'STRING' => 64,  ],
+                "email"         => [ 'STRING' => 255, 'UNIQUE' ],
+                "birthdate"     => [ 'DATE' ],
+
+                "sessionToken"  => [ 'STRING' => 32, 'UNIQUE' ],
+
+                "upgraded"      => [ 'BIT', 'DEFAULT' => 0],
+                "activated"     => [ 'BIT', 'DEFAULT' => 0],
+                "optIn"         => [ 'BIT', 'DEFAULT' => 0],
+                "special"       => [ 'BIT', 'DEFAULT' => 0],
+
+                "banned"        => [ 'BIT', 'DEFAULT' => 0],
+                "lastLogin"     => [ 'DATETIME', 'DEFAULT' => NULL ],
+            ],
+            "data" => "user.json",
+        ],
+        "hair" => [
+            "structure" => [
+                "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"          => [ 'STRING' => 255 ],
+                "swf"           => [ 'STRING' => 255 ],
+                "gender"        => [ 'CHAR' => 1 ], // M or F
+            ],
+            "data" => "hair/",
+        ],
+        "race" => [
+            "structure" => [
+                "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"      => [ 'STRING' => 20 ],
+                "resists"   => [ 'STRING' => 255 ],
+            ],
+            "data" => "race/",
+        ],
+        "class" => [
+            "structure" => [
+                "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"      => [ 'STRING' => 20 ],
+                "element"   => [ 'STRING' => 255 ],
+                "swf"       => [ 'STRING' => 255 ],
+                "armorId"   => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
+                "weaponId"  => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
+                "savable"   => [ 'INTEGER' ],
+            ],
+            "data" => "class.json",
+        ],
+        "guild" => [
+            "structure" => [
+                "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"  => [ 'STRING' => 255 ],
+            ],
+            "data" => "guild.json",
+        ],
+        "char" => [
+            "structure" => [
+                "id"                => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+
+                "userId"            => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "user", "field" => "id" ] ],
+
+                "createdAt"         => [ 'DATETIME', 'CREATED_DATETIME' ],
+                "updatedAt"         => [ 'DATETIME', 'UPDATED_DATETIME' ],
+
+                "name"              => [ 'STRING' => 20 ],
+
+                "level"             => [ 'INTEGER', 'DEFAULT' => 1 ],
+                "experience"        => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "experienceToLevel" => [ 'INTEGER', 'DEFAULT' => 20 ],
+
+                "hitPoints"         => [ 'INTEGER', 'DEFAULT' => 100 ],
+                "manaPoints"        => [ 'INTEGER', 'DEFAULT' => 100 ],
+
+                "silver"            => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "gold"              => [ 'INTEGER', 'DEFAULT' => 1000 ],
+                "gems"              => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "coins"             => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "maxBagSlots"       => [ 'INTEGER', 'DEFAULT' => 30 ],
+                "maxBankSlots"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "maxHouseSlots"     => [ 'INTEGER', 'DEFAULT' => 5 ],
+                "maxHouseItemSlots" => [ 'INTEGER', 'DEFAULT' => 20 ],
+
+                "dragonAmulet"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "gender"            => [ 'CHAR' => 1 ], // M or F
+                "pronoun"           => [ 'CHAR' => 1 ], // M, F or O
+
+                "hairId"            => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "hair", "field" => "id" ] ],
+                "colorHair"         => [ 'CHAR' => 6 ],
+                "colorSkin"         => [ 'CHAR' => 6 ],
+                "colorBase"         => [ 'CHAR' => 6 ],
+                "colorTrim"         => [ 'CHAR' => 6 ],
+
+                "strength"          => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "dexterity"         => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "intelligence"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "luck"              => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "charisma"          => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "endurance"         => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "wisdom"            => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "skillPoints"       => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "statPoints"        => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "lastDailyQuestDone"=> [ "DATE", 'DEFAULT' => NULL ],
+
+                "armor"             => [ 'CHAR' => 100, 'DEFAULT' => "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
+                "skills"            => [ 'CHAR' => 300, 'DEFAULT' => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
+                "quests"            => [ 'CHAR' => 300, 'DEFAULT' => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" ],
+
+                "raceId"            => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "race", "field" => "id" ] ],
+                "classId"           => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "class", "field" => "id" ] ],
+                "baseClassId"       => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "class", "field" => "id" ] ],
+                "guildId"           => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "guild", "field" => "id" ] ],
+                "questId"           => [ 'INTEGER', 'DEFAULT' => 933, 'FOREIGN_KEY' => [ "collection" => "quest", "field" => "id" ] ],
+
+                "lastTimeSeen"      => [ 'DATETIME', 'DEFAULT' => NULL, 'INDEX' ],
+            ],
+            "data" => "char.json",
         ],
         "char_item" => [
             "structure" => [
@@ -376,6 +328,58 @@ final class CollectionSetup {
                 "count"     => [ 'INTEGER', 'DEFAULT' => 1 ],
             ],
             "data" => [],
+        ],
+        "monster" => [
+            "structure" => [
+                "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
+
+                "name"          => [ 'STRING' => 255 ],
+
+                "level"         => [ 'INTEGER', 'DEFAULT' => 1 ],
+                "experience"    => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "hitPoints"     => [ 'INTEGER', 'DEFAULT' => 100 ],
+                "manaPoints"    => [ 'INTEGER', 'DEFAULT' => 100 ],
+
+                "silver"        => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "gold"          => [ 'INTEGER', 'DEFAULT' => 1000 ],
+                "gems"          => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "coins"         => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "gender"        => [ 'CHAR' => 1 ], // M or F
+
+                "hairStyle"     => [ 'INTEGER' ],
+                "colorHair"     => [ 'CHAR' => 6 ],
+                "colorSkin"     => [ 'CHAR' => 6 ],
+                "colorBase"     => [ 'CHAR' => 6 ],
+                "colorTrim"     => [ 'CHAR' => 6 ],
+
+                "strength"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "dexterity"     => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "intelligence"  => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "luck"          => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "charisma"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "endurance"     => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "wisdom"        => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "element"       => [ 'STRING' => 255 ],
+
+                "raceId"        => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "race", "field" => "id" ] ],
+                "armorId"       => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
+                "weaponId"      => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
+
+                "movName"       => [ 'STRING' => 255 ],
+                "swf"           => [ 'STRING' => 255 ],
+            ],
+            "data" => "monster/",
+        ],
+        "quest_monster" => [
+            "structure" => [
+                "id"        => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+                "questId"   => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "quest",   "field" => "id" ] ],
+                "monsterId" => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "monster", "field" => "id" ] ],
+            ],
+            "data" => "quest_monster/",
         ],
         "house" => [
             "structure" => [
