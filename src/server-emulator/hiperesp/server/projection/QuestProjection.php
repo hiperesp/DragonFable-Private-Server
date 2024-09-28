@@ -53,10 +53,10 @@ class QuestProjection extends Projection {
             $monsterEl->addAttribute('intDragonCoins', $monster->coins);
             $monsterEl->addAttribute('strGender', $monster->gender);
             $monsterEl->addAttribute('intHairStyle', $monster->hairStyle);
-            $monsterEl->addAttribute('intColorHair', $monster->colorHair);
-            $monsterEl->addAttribute('intColorSkin', $monster->colorSkin);
-            $monsterEl->addAttribute('intColorBase', $monster->colorBase);
-            $monsterEl->addAttribute('intColorTrim', $monster->colorTrim);
+            $monsterEl->addAttribute('intColorHair', \hexdec($monster->colorHair));
+            $monsterEl->addAttribute('intColorSkin', \hexdec($monster->colorSkin));
+            $monsterEl->addAttribute('intColorBase', \hexdec($monster->colorBase));
+            $monsterEl->addAttribute('intColorTrim', \hexdec($monster->colorTrim));
             $monsterEl->addAttribute('intStr', $monster->strength);
             $monsterEl->addAttribute('intDex', $monster->dexterity);
             $monsterEl->addAttribute('intInt', $monster->intelligence);

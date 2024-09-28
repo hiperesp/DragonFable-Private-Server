@@ -2,6 +2,7 @@
 namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\ItemVO;
 use hiperesp\server\vo\ItemShopVO;
 
@@ -35,6 +36,10 @@ class ItemModel extends Model {
         return \array_map(function(array $item): ItemVO {
             return new ItemVO($item);
         }, $this->storage->select(self::COLLECTION, ['id' => $itemIds], null));
+    }
+
+    public function getByCharItem(CharacterItemVO $charItem): ItemVO {
+        return $this->getById($charItem->itemId);
     }
 
 }

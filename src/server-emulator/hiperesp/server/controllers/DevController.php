@@ -41,7 +41,7 @@ class DevController extends Controller {
     <fieldset>
         <legend>Database</legend>
         <form action="database/setup">
-            <button>Setup remaining collections</button>
+            <button>Setup collections</button>
         </form>
     </fieldset>
     <fieldset>
@@ -65,7 +65,7 @@ HTML;
     public function databaseSetup(): string {
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
-        $storage = Storage::getStorage(false);
+        $storage = Storage::getStorage();
         $storage->setup();
         return "Database setup OK!";
     }

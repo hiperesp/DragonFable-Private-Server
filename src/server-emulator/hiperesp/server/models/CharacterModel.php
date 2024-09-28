@@ -2,8 +2,8 @@
 namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
-use hiperesp\server\vo\ItemVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
@@ -14,20 +14,32 @@ class CharacterModel extends Model {
 
     private SettingsVO $settings;
 
+    public function getById(int $charId): CharacterVO {
+        $char = $this->storage->select(self::COLLECTION, ['id' => $charId]);
+        if(isset($char[0]) && $char = $char[0]) {
+            return new CharacterVO($char);
+        }
+        throw new DFException(DFException::CHARACTER_NOT_FOUND);
+    }
+
     /** @return array<CharacterVO> */
     public function getByUser(UserVO $user): array {
-        $chars = $this->storage->select(self::COLLECTION, ['userID' => $user->id], null);
+        $chars = $this->storage->select(self::COLLECTION, ['userId' => $user->id], null);
         return \array_map(fn($char) => new CharacterVO($char), $chars);
     }
 
     public function getByUserAndId(UserVO $user, int $id): CharacterVO {
-        $char = $this->storage->select(self::COLLECTION, ['userID' => $user->id, 'id' => $id]);
+        $char = $this->storage->select(self::COLLECTION, ['userId' => $user->id, 'id' => $id]);
         if(isset($char[0]) && $char = $char[0]) {
             $char = new CharacterVO($char);
             $this->updateLastTimeSeen($char);
             return $char;
         }
         throw new DFException(DFException::CHARACTER_NOT_FOUND);
+    }
+
+    public function getByCharItem(CharacterItemVO $charItem): CharacterVO {
+        return $this->getById($charItem->charId);
     }
 
     public function create(UserVO $user, array $input): CharacterVO {
@@ -52,8 +64,31 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
-    public function buyItem(CharacterVO $char, ItemVO $item): void {
-        
+    public function chargeItem(CharacterItemVO $charItem): void {
+        $item = $charItem->getItem();
+        $char = $charItem->getChar();
+
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'gold' => $char->gold - $item->getPriceGold(),
+            'coins' => $char->coins - $item->getPriceCoins()
+        ]);
+    }
+
+    public function refundItem(CharacterVO $char, CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
+        $item = $charItem->getItem();
+        if($quantity > $charItem->count) {
+            throw new DFException(DFException::ITEM_NOT_ENOUGH);
+        }
+
+        $returnPercent = \min(100, \max(0, $returnPercent));
+        $returnProportion = $returnPercent / 100;
+
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'gold' => \ceil($char->gold + $item->getPriceGold() * $returnProportion),
+            'coins' => \ceil($char->coins + $item->getPriceCoins() * $returnProportion)
+        ]);
     }
 
     public function delete(CharacterVO $char): void {
@@ -111,20 +146,11 @@ class CharacterModel extends Model {
             $coins += $reward['coins']; // no max coins is defined in the quest
         }
 
-        if($this->settings->levelUpMultipleTimes) {
-            // if player gets more experience than needed to level up, will level up multiple times
-            while($experience >= $experienceToLevel) {
-                $experience -= $experienceToLevel;
-                $level++;
-                $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1) - $experience;
-            }
-        } else {
-            // if player gets more experience than needed to level up, will level up only once
-            if($experience >= $experienceToLevel) {
-                $experience = 0;
-                $level++;
-                $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1);
-            }
+        // if player gets more experience than needed to level up, will level up only once
+        if($experience >= $experienceToLevel) {
+            $experience = 0;
+            $level++;
+            $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1);
         }
 
         $this->applyLevelUpBonuses($char, $level);
@@ -138,6 +164,36 @@ class CharacterModel extends Model {
             'level' => $level,
             'coins' => $coins,
             'experienceToLevel' => $experienceToLevel
+        ]);
+    }
+
+    public function trainStats(CharacterVO $char, int $wisdom, int $charisma, int $luck, int $endurance, int $dexterity, int $intelligence, int $strength, int $statPointsUsed, int $goldCost): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'wisdom' => $char->wisdom + $wisdom,
+            'charisma' => $char->charisma + $charisma,
+            'luck' => $char->luck + $luck,
+            'endurance' => $char->endurance + $endurance,
+            'dexterity' => $char->dexterity + $dexterity,
+            'intelligence' => $char->intelligence + $intelligence,
+            'strength' => $char->strength + $strength,
+            'gold' => $char->gold - $goldCost,
+            'statPoints' => $char->statPoints - $statPointsUsed,
+        ]);
+    }
+
+    public function untrainStats(CharacterVO $char, int $goldCost): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'wisdom' => 0,
+            'charisma' => 0,
+            'luck' => 0,
+            'endurance' => 0,
+            'dexterity' => 0,
+            'intelligence' => 0,
+            'strength' => 0,
+            'gold' => $char->gold - $goldCost,
+            'statPoints' => $char->statPoints + $char->wisdom + $char->charisma + $char->luck + $char->endurance + $char->dexterity + $char->intelligence + $char->strength,
         ]);
     }
 

@@ -119,13 +119,13 @@ function save(string $type, array $newData): void {
                     "armor" => [
                         "type" => "item",
                         "appendData" => [
-                            "category" => "Armor",
+                            "categoryId" => "2", // armor
                         ],
                     ],
                     "weapon" => [
                         "type" => "item",
                         "appendData" => [
-                            "category" => "Weapon",
+                            "categoryId" => "1", // weapon
                         ],
                     ],
                 ] as $key => $findProps) {
@@ -330,7 +330,12 @@ function convert(string $type, string $file): array {
                     "level"         =>    (int)$item['@attributes']['intLevel'],
                     "type"          =>         $item['@attributes']['strType'],
                     "element"       =>         $item['@attributes']['strElement'],
-                    "category"      =>         $item['@attributes']['strCategory'],
+                    "categoryId"    =>       [
+                        "Weapon" => 1,
+                        "Armor"  => 2,
+                        "Pet"    => 3,
+                        "Item"   => 4,
+                    ][$item['@attributes']['strCategory']],
                     "equipSpot"     =>         $item['@attributes']['strEquipSpot'],
                     "itemType"      =>         $item['@attributes']['strItemType'],
                     "swf"           =>         $item['@attributes']['strFileName'],

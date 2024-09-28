@@ -1,6 +1,7 @@
 <?php
 namespace hiperesp\server\util;
 
+use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\SettingsModel;
 use hiperesp\server\storage\Storage;
 use hiperesp\server\vo\SettingsVO;
@@ -8,6 +9,7 @@ use hiperesp\server\vo\SettingsVO;
 class AutoInstantiate {
 
     const MODEL = \hiperesp\server\models\Model::class;
+    const SERVICE = \hiperesp\server\services\Service::class;
 
     private object $instance;
     private \ReflectionClass $rClass;
@@ -20,6 +22,9 @@ class AutoInstantiate {
     public function models(): void {
         $this->subclass(self::MODEL);
     }
+    public function services(): void {
+        $this->subclass(self::SERVICE);
+    }
     public function settings(): void {
         if($this->instance instanceof SettingsModel) {
             return; // avoid infinite loop
@@ -30,6 +35,19 @@ class AutoInstantiate {
                 $settings = $settingsModel->getSettings();
                 $rProperty->setAccessible(true);
                 $rProperty->setValue($this->instance, $settings);
+                continue;
+            }
+        }
+    }
+    public function logs(): void {
+        if($this->instance instanceof LogsModel) {
+            return; // avoid infinite loop
+        }
+        foreach($this->rClass->getProperties() as $rProperty) {
+            if($rProperty->getType()->getName() === LogsModel::class) {
+                $logsModel = new LogsModel(self::getStorage());
+                $rProperty->setAccessible(true);
+                $rProperty->setValue($this->instance, $logsModel);
                 continue;
             }
         }

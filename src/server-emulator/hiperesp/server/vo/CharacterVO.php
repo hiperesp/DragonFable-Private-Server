@@ -1,9 +1,12 @@
 <?php
 namespace hiperesp\server\vo;
 
+use hiperesp\server\models\UserModel;
+
 class CharacterVO extends ValueObject {
 
-    public readonly int $id;
+    private UserModel $userModel;
+    private SettingsVO $settings;
 
     public readonly int $userId;
 
@@ -23,11 +26,6 @@ class CharacterVO extends ValueObject {
     public readonly int $gold;
     public readonly int $gems;
     public readonly int $coins;
-
-    public readonly int $maxBagSlots;
-    public readonly int $maxBankSlots;
-    public readonly int $maxHouseSlots;
-    public readonly int $maxHouseItemSlots;
 
     public readonly bool $dragonAmulet;
 
@@ -63,12 +61,12 @@ class CharacterVO extends ValueObject {
     public readonly int $classId;
     public readonly int $baseClassId;
 
-    public function __construct(array $char) {
-        $char['colorHair'] = \hexdec($char['colorHair']);
-        $char['colorSkin'] = \hexdec($char['colorSkin']);
-        $char['colorBase'] = \hexdec($char['colorBase']);
-        $char['colorTrim'] = \hexdec($char['colorTrim']);
-        parent::__construct($char);
+    public function isBirthday(UserVO $user, string $today): bool {
+        if($user->id != $this->userId) {
+            throw new \Exception('Character does not belong to the user');
+        }
+
+        return $user->isBirthday($today);
     }
 
     public function getAccessLevel(): int {
@@ -86,6 +84,48 @@ class CharacterVO extends ValueObject {
     public function getDailyQuestAvailable(): bool {
         $today = \date('Y-m-d');
         return $this->lastDailyQuestDone != $today;
+    }
+
+    public function getMaxBagSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxBagSlots;
+        }
+        return $this->settings->nonUpgradedMaxBagSlots;
+    }
+
+    public function getMaxBankSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxBankSlots;
+        }
+        return $this->settings->nonUpgradedMaxBankSlots;
+    }
+
+    public function getMaxHouseSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxHouseSlots;
+        }
+        return $this->settings->nonUpgradedMaxHouseSlots;
+    }
+
+    public function getMaxHouseItemSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxHouseItemSlots;
+        }
+        return $this->settings->nonUpgradedMaxHouseItemSlots;
+    }
+
+    public function canBuyItem(ItemVO $item): bool {
+        if($this->coins < $item->getPriceCoins()) {
+            return false;
+        }
+        if($this->gold < $item->getPriceGold()) {
+            return false;
+        }
+        return true;
+    }
+
+    public function getUser(): UserVO {
+        return $this->userModel->getByChar($this);
     }
 
 }

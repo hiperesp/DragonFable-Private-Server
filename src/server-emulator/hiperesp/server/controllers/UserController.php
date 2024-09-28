@@ -36,12 +36,12 @@ class UserController extends Controller {
         $email = (string)$input['strEmail'];
         $dob = (string)$input['strDOB'];
 
-        $user = $this->userModel->signup([
-            'username' => $username,
-            'password' => $password,
-            'email' => $email,
-            'birthdate' => $dob
-        ]);
+        $user = $this->userModel->signup(
+            username: $username,
+            password: $password,
+            email: $email,
+            birthdate: $dob
+        );
 
         return UserProjection::instance()->signed($user);
     }

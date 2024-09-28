@@ -5,8 +5,6 @@ class MonsterVO extends ValueObject {
 
     private SettingsVO $settings;
 
-    public readonly int $id;
-
     public readonly string $name;
 
     public readonly int $level;
@@ -45,28 +43,13 @@ class MonsterVO extends ValueObject {
     public readonly string $movName;
     public readonly string $swf;
 
-    public function __construct(array $monster) {
-        $monster['colorHair'] = \hexdec($monster['colorHair']);
-        $monster['colorSkin'] = \hexdec($monster['colorSkin']);
-        $monster['colorBase'] = \hexdec($monster['colorBase']);
-        $monster['colorTrim'] = \hexdec($monster['colorTrim']);
-        parent::__construct($monster);
-    }
+    protected function patch(array $monster): array {
+        $monster['experience'] = $monster['experience'] * $this->settings->experienceMultiplier;
+        $monster['silver'] = $monster['silver'] * $this->settings->silverMultiplier;
+        $monster['gold'] = $monster['gold'] * $this->settings->goldMultiplier;
+        $monster['gems'] = $monster['gems'] * $this->settings->gemsMultiplier;
 
-    public function setExperience(int $experience): void {
-        $this->experience = $experience * $this->settings->experienceMultiplier;
-    }
-
-    public function setSilver(int $silver): void {
-        $this->silver = $silver * $this->settings->silverMultiplier;
-    }
-
-    public function setGold(int $gold): void {
-        $this->gold = $gold * $this->settings->goldMultiplier;
-    }
-
-    public function setGems(int $gems): void {
-        $this->gems = $gems * $this->settings->gemsMultiplier;
+        return $monster;
     }
 
 }

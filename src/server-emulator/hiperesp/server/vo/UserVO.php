@@ -5,8 +5,6 @@ class UserVO extends ValueObject {
 
     private SettingsVO $settings;
 
-    public readonly int $id;
-
     public readonly string $createdAt;
     public readonly string $updatedAt;
 
@@ -26,22 +24,16 @@ class UserVO extends ValueObject {
     public readonly bool $banned;
     public readonly ?string $lastLogin;
 
-    public function __construct(array $user) {
-        $user["password"] = "";
-        parent::__construct($user);
+    protected function patch(array $user): array {
+        $user['password'] = "";
+
+        return $user;
     }
 
     public function isBirthday(string $today): bool {
         $birthdate = \date('m-d', \strtotime($this->birthdate));
         $today = \date('m-d', \strtotime($today));
         return $birthdate === $today;
-    }
-
-    public function getCharsAllowed(): int {
-        if($this->upgraded || $this->special) {
-            return $this->settings->upgradedChars;
-        }
-        return $this->settings->nonUpgradedChars;
     }
 
     public function getAccessLevel(): int {
@@ -65,7 +57,13 @@ class UserVO extends ValueObject {
         }
 
         return 0;
+    }
 
+    public function getCharsAllowed(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedChars;
+        }
+        return $this->settings->nonUpgradedChars;
     }
 
 }

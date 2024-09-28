@@ -5,10 +5,22 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class ValueObject {
 
-    public function __construct(array $data) {
+    public readonly int $id;
+
+    public final function __construct(array $data) {
         $autoInstantiate = new AutoInstantiate($this);
+        $autoInstantiate->models();
         $autoInstantiate->settings();
 
+        $data = $this->patch($data);
+        $this->applyData($data);
+    }
+
+    protected function patch(array $data): array {
+        return $data;
+    }
+
+    private function applyData(array $data) {
         $reflectionClass = new \ReflectionClass($this);
         $properties = $reflectionClass->getProperties();
         foreach ($properties as $property) {
@@ -22,30 +34,36 @@ abstract class ValueObject {
                 continue;
             }
 
+            if(!$propertyType->isBuiltin()) {
+                if(\is_subclass_of($propertyType->getName(), \hiperesp\server\models\Model::class)) {
+                    continue;
+                }
+            }
+
             if(!$property->isReadOnly()) throw new \Exception("Property {$propertyName} is not read-only");
-            if(!array_key_exists($propertyName, $data)) throw new \Exception("Property {$propertyName} not found in data");
+            if(!\array_key_exists($propertyName, $data)) throw new \Exception("Property {$propertyName} not found in data");
 
             $value = $data[$propertyName];
-            if($propertyType->getName() == 'int') {
-                $value = \intval($value);
+            if($value===null && $propertyType->allowsNull()) {
+                $newValue = null;
+            } else if($propertyType->getName() == 'int') {
+                $newValue = \intval($value);
             } else if($propertyType->getName() == 'string') {
-                $value = \strval($value);
+                $newValue = \strval($value);
             } else if($propertyType->getName() == 'float') {
-                $value = \floatval($value);
+                $newValue = \floatval($value);
             } else if($propertyType->getName() == 'bool') {
-                $value = \boolval($value);
+                $newValue = \boolval($value);
+            } else if($propertyType->getName() == 'array') {
+                $newValue = (array)$value;
+            } else if($propertyType->getName() == 'object') {
+                $newValue = (object)$value;
             } else {
                 throw new \Exception("Property {$propertyName} has an invalid type");
             }
 
-            if(\method_exists($this, "set{$propertyName}")) {
-                $setter = "set{$propertyName}";
-                $this->$setter($value);
-                continue;
-            }
-
             $property->setAccessible(true);
-            $property->setValue($this, $value);
+            $property->setValue($this, $newValue);
         }
     }
 
