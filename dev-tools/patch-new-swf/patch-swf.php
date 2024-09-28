@@ -1,6 +1,6 @@
 <?php
 define('OS', 'mac'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_02');
+define('SWF_FILE', 'game15_9_03');
 
 $replaces = [
     "\"http://www.dragonfable.com/df-activation.asp\"" => "_root.conn.url + \"web/df-activation.asp\"",
