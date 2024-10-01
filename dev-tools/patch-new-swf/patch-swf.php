@@ -1,5 +1,5 @@
 <?php
-define('OS', 'mac'); // windows, mac, linux
+define('OS', 'windows'); // windows, mac, linux
 define('SWF_FILE', 'game15_9_03');
 
 $replaces = [
@@ -34,8 +34,7 @@ $replaces = [
     ACTIONSCRIPT,
 ];
 
-$regexesReplaces = [
-];
+$chainedAssignmentsReplaces = [];
 
 // fix all chained assignments
 for($i=20; $i>1; $i--) {
@@ -44,30 +43,30 @@ for($i=20; $i>1; $i--) {
 
     $valueIndex = $i+2;
 
-    $key = \str_replace('CHAINED_ASSIGNMENT', \str_repeat('(.+?) = ', $i), '/(\r\n\s+)CHAINED_ASSIGNMENT(.+?);/');
+    $key = \str_replace('CHAINED_ASSIGNMENT', \str_repeat('(.+?) = ', $i), '/(\r?\n\s+)CHAINED_ASSIGNMENT(.+?);/');
     $value = "$1var HIPERESP_VAR_NAME = \${$valueIndex};";
     for($j=2; $j<$valueIndex; $j++) {
         $value .= "$1\${$j} = HIPERESP_VAR_NAME;";
     }
 
-    $regexesReplaces[$key] = $value;
+    $chainedAssignmentsReplaces[$key] = $value;
 }
 
 $file = SWF_FILE.".swf";
-$outfile = "{$file}-patched.swf";
+$outfile = SWF_FILE."-patched.swf";
 
-$scriptsDir = "{$file}-scripts";
-$replacedScriptsDir = "{$file}-patched-scripts";
-if(!\is_dir("{$file}-scripts")) {
-    \mkdir("{$file}-scripts");
+$scriptsDir = SWF_FILE."-scripts";
+$replacedScriptsDir = SWF_FILE."-patched-scripts";
+if(!\is_dir($scriptsDir)) {
+    \mkdir($scriptsDir);
 
     // first export all the scripts to a folder
     if(OS==='windows') {
-        $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script \"{$file}-scripts\" {$file}\n";
+        $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -export script \"{$scriptsDir}\" {$file}\n";
     } else if(OS==='mac') {
-        $cmd = "java -jar /Applications/FFDec.app/Contents/Resources/ffdec.jar -export script \"{$file}-scripts\" {$file}\n";
+        $cmd = "java -jar /Applications/FFDec.app/Contents/Resources/ffdec.jar -export script \"{$scriptsDir}\" {$file}\n";
     } else if(OS==='linux') {
-        $cmd = "java -jar /opt/ffdec/ffdec.jar -export script \"{$file}-scripts\" {$file}\n";
+        $cmd = "java -jar /opt/ffdec/ffdec.jar -export script \"{$scriptsDir}\" {$file}\n";
     } else {
         echo "Unknown OS\n";
         die;
@@ -83,15 +82,22 @@ if(!\is_dir($replacedScriptsDir)) {
     // then replace all the occurrences of the keys with their values
 
     $replacesMatches = [];
+    $chainedAssignmentsReplacesCount = 0;
 
-    $scripts = globR("{$file}-scripts");
+    $scripts = globR("{$scriptsDir}");
     $uniqueId = 0;
     foreach ($scripts as $script) {
         $content = \file_get_contents($script);
 
         $content = \preg_replace('/\r\n/', "\n", $content);
 
+        $newReplaces = [];
+
         foreach($replaces as $key => $value) {
+            $key = \preg_replace('/\r\n/', "\n", $key);
+            $value = \preg_replace('/\r\n/', "\n", $value);
+            $newReplaces[$key] = $value;
+
             if(\strpos($content, $key) !== false) {
                 $replacesMatches[$key]++;
             } else {
@@ -100,12 +106,13 @@ if(!\is_dir($replacedScriptsDir)) {
                 }
             }
         }
-        $newContent = \str_replace(\array_keys($replaces), \array_values($replaces), $content);
+        $newContent = \str_replace(\array_keys($newReplaces), \array_values($newReplaces), $content);
 
-        foreach($regexesReplaces as $key => $value) {
+        foreach($chainedAssignmentsReplaces as $key => $value) {
             while(\preg_match($key, $newContent)) {
                 $newValue = \str_replace('HIPERESP_VAR_NAME', "hiperesp_fix_chained_assignment_".($uniqueId++), $value);
                 $newContent = \preg_replace($key, $newValue, $newContent, 1);
+                $chainedAssignmentsReplacesCount++;
             }
         }
 
@@ -128,10 +135,14 @@ if(!\is_dir($replacedScriptsDir)) {
         }
         $totalReplacedValues += $count;
     }
-    echo "All replaces matched\n";
-    echo " - Total keys: {$totalReplacesKeys}\n";
-    echo " - Total replaced values: {$totalReplacedValues}\n";
-    echo "Done!\n";
+
+    $info = "All string replaces matched\n";
+    $info.= " - Total keys: {$totalReplacesKeys}\n";
+    $info.= " - Total replaced values: {$totalReplacedValues}\n";
+    $info.= " - Total chained assignments fixes: {$chainedAssignmentsReplacesCount}\n";
+    $info.= "Done!\n";
+    \file_put_contents(SWF_FILE."-info.txt", $info);
+    echo $info;
 }
 
 if(!\is_file($outfile)) {
@@ -140,11 +151,11 @@ if(!\is_file($outfile)) {
 
 // finally, import the scripts back to the swf file
 if(OS==='windows') {
-    $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+    $cmd = "java -jar \"C:\\Program Files (x86)\\FFDec\\ffdec.jar\" -importScript {$outfile} {$outfile} \"{$replacedScriptsDir}\"\n";
 } else if(OS==='mac') {
-    $cmd = "java -jar /Applications/FFDec.app/Contents/Resources/ffdec.jar -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+    $cmd = "java -jar /Applications/FFDec.app/Contents/Resources/ffdec.jar -importScript {$outfile} {$outfile} \"{$replacedScriptsDir}\"\n";
 } else if(OS==='linux') {
-    $cmd = "java -jar /opt/ffdec/ffdec.jar -importScript {$outfile} {$outfile} \"{$file}-patched-scripts\"\n";
+    $cmd = "java -jar /opt/ffdec/ffdec.jar -importScript {$outfile} {$outfile} \"{$replacedScriptsDir}\"\n";
 } else {
     echo "Unknown OS\n";
     die;
