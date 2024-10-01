@@ -25,6 +25,7 @@ class ApiController extends Controller {
             'onlineUsers' => $onlineCount,
             'serverTime' => \date('c'),
             'serverVersion' => $this->settings->serverVersion,
+            'gitRev' => \getenv('GIT_REV') ?: null,
         ];
     }
 

@@ -34,6 +34,7 @@ window.RufflePlayer.config = {
             let countOnlinePlayers;
             let serverTime;
             let serverVersion;
+            let gitRev;
             try {
                 const response = await fetch(url);
                 if(response.status !== 200) throw new Error("Invalid response status code");
@@ -42,6 +43,7 @@ window.RufflePlayer.config = {
                 countOnlinePlayers = Number(data.onlineUsers);
                 serverTime = data.serverTime;
                 serverVersion = data.serverVersion;
+                gitRev = data.gitRev;
             } catch (error) {
                 console.log(error);
 
@@ -49,12 +51,14 @@ window.RufflePlayer.config = {
                 countOnlinePlayers = 0;
                 serverTime = "Unknown";
                 serverVersion = "Unknown";
+                gitRev = null;
             }
 
             const serverStatusEl = element.querySelector("[data-server-id='server-status']");
             const serverPlayersOnlineEl = element.querySelector("[data-server-id='server-players-online']");
             const serverTimeEl = element.querySelector("[data-server-id='server-time']");
             const serverVersionEl = element.querySelector("[data-server-id='server-version']");
+            const gitRevEl = document.querySelector("#git-rev");
 
             if(serverStatusEl) serverStatusEl.textContent = isServerAvailable ? "Online" : "Offline";
             if(serverPlayersOnlineEl) serverPlayersOnlineEl.textContent = countOnlinePlayers;
@@ -71,6 +75,15 @@ window.RufflePlayer.config = {
                 syncServerTime();
             }
             if(serverVersionEl) serverVersionEl.textContent = serverVersion;
+            if(gitRevEl) {
+                if(gitRev) {
+                    gitRevEl.href = "https://github.com/hiperesp/DragonFable-Private-Server/commit/"+gitRev;
+                    gitRevEl.textContent = "Current Commit: "+gitRev.substring(0, 7);
+                } else {
+                    gitRevEl.href = "";
+                    gitRevEl.textContent = "";
+                }
+            }
         });
     }
     setInterval(checkServerInfo, 5000); // 5 seconds
