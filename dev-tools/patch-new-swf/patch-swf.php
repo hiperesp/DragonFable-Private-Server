@@ -3,6 +3,7 @@ define('OS', 'windows'); // windows, mac, linux
 define('SWF_FILE', 'game15_9_03');
 
 $replaces = [
+    # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
     "\"http://www.dragonfable.com/df-activation.asp\"" => "_root.conn.url + \"web/df-activation.asp\"",
     "\"https://www.dragonfable.com/df-chardetail.asp?id=\"" => "_root.conn.url + \"web/df-chardetail.asp?id=\"",
     "\"https://www.dragonfable.com/amulet/df-upgrade3.asp?CharID=\"" => "_root.conn.url + \"web/df-upgrade3.asp?CharID=\"",
@@ -11,7 +12,11 @@ $replaces = [
     "\"<a href=\'https://www.dragonfable.com/df-signup.asp\'><u>Create a new account.</u></a>\"" => "\"<a href=\'\" + _root.conn.url + \"web/df-signup.asp\'><u>Create a new account.</u></a>\"",
     "\"http://dragonfable.battleon.com/game/cf-dacheck.asp\"" => "_root.conn.url + \"cf-dacheck.asp\"",
     "\"https://dragonfable.battleon.com/game/cf-dacheck.asp\"" => "_root.conn.url + \"cf-dacheck.asp\"",
+
+    # REPLACE BUILD VERSION TO DYNAMIC VERSION STRING
     "var strBuild = " => "var strBuild = _root.core.gameVersion; //",
+
+    # REPLACE GAME SERVER URL
     <<<'ACTIONSCRIPT'
     _root.conn = new Object();
     if(_url.indexOf("file://") == -1)
@@ -31,6 +36,25 @@ $replaces = [
     _root.conn = new Object();
     _root.conn.url = _root.core.server;
     _root.conn.login = function(strUsername, strPassword)
+    ACTIONSCRIPT,
+
+    # FIX "UNDEFINED" STRINGS IN ACTIONS TOOLTIPS
+    <<<'ACTIONSCRIPT'
+    function formatTTText(strText)
+    {
+       var _loc4_ = "";
+       var _loc3_ = false;
+       var _loc2_ = strText.split("");
+       var _loc1_ = 0;
+       while(_loc1_ <= _loc2_.length)
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    function formatTTText(strText)
+    {
+       var _loc4_ = "";
+       var _loc3_ = false;
+       var _loc2_ = strText.split("");
+       var _loc1_ = 0;
+       while(_loc1_ < _loc2_.length)
     ACTIONSCRIPT,
 ];
 
