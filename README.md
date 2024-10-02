@@ -44,7 +44,7 @@ A private server for DragonFable, allowing custom game and server file locations
 
 ### Demo:
 
-https://dragon-fable.deploy.app.br/
+https://dragonfable.hiper.esp.br/
 
 -----
 
