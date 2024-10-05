@@ -8,6 +8,7 @@ A private server for DragonFable, allowing custom game and server file locations
 - `/src/cdn/gamefiles/game15_8_05-patched.swf`: Match server path from `DFLoader-patched.swf`
 - `/src/cdn/gamefiles/game15_9_00-patched.swf`: Match server path from `DFLoader-patched.swf`
 - `/src/cdn/gamefiles/game15_9_03-patched.swf`: Match server path from `DFLoader-patched.swf`
+- `/src/cdn/gamefiles/game15_9_04-patched.swf`: Match server path from `DFLoader-patched.swf`
 - `/src/cdn/flash/usersignup-9Dec15-patched.swf`: Match server path like `DFLoader-patched.swf`
 
 ### Features:
