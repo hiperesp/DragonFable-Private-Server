@@ -219,19 +219,13 @@ class CharacterModel extends Model {
     }
 
     private function calcExperienceToLevelUp(int $level): int { // need to be tested and verified
-        $cap = [
-            10 => \pow(2, $level) * 10,
-            60 => \pow($level, 2) * 90,
-            70 => (24200 * $level) - 1032000,
-            80 => $level + 2000000,
-            "default" => 999999999
-        ];
-        foreach($cap as $lvl => $exp) {
-            if($level <= $lvl) {
-                return $exp;
-            }
-        }
-        return $cap['default'];
+        return match(true) {
+            $level < 10 => \pow(2, $level) * 10, // OK
+            $level < 60 => 90 * \pow($level - 10, 2) + 1800 * ($level - 10) + 9000,
+            default     => 90 * \pow($level - 10, 2) + 1800 * ($level - 10) + 9000,
+            // missing next levels. see #53
+            // see also https://forums2.battleon.com/f/tm.asp?m=18647631
+        };
     }
 
     private function updateLastTimeSeen(CharacterVO $char): void {

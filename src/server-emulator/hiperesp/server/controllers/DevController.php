@@ -20,6 +20,17 @@ class DevController extends Controller {
     }
 
     #[Request(
+        endpoint: '/dev/phpinfo',
+        inputType: Input::NONE,
+        outputType: Output::HTML
+    )]
+    public function phpinfo(): string {
+        \ob_start();
+        \phpinfo();
+        return \ob_get_clean();
+    }
+
+    #[Request(
         endpoint: '/dev/',
         inputType: Input::NONE,
         outputType: Output::HTML
@@ -48,6 +59,9 @@ class DevController extends Controller {
         <legend>Util</legend>
         <form action="sandbox">
             <button>Sandbox</button>
+        </form>
+        <form action="phpinfo">
+            <button>PHP info</button>
         </form>
     </fieldset>
 </div>
