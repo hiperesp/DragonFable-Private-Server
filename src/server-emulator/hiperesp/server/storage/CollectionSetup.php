@@ -155,7 +155,7 @@ final class CollectionSetup {
             "structure" => [
                 "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"  => [ 'STRING' => 255, 'DEFAULT' => ""],
-                "count" => [ 'INTEGER', 'DEFAULT' => -100 ], // not sure what means
+                "count" => [ 'INTEGER', 'DEFAULT' => -100 ],
             ],
             "data" => "itemShop/",
         ],
@@ -244,13 +244,6 @@ final class CollectionSetup {
             ],
             "data" => "class.json",
         ],
-        "guild" => [
-            "structure" => [
-                "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"  => [ 'STRING' => 255 ],
-            ],
-            "data" => "guild.json",
-        ],
         "char" => [
             "structure" => [
                 "id"                => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
@@ -308,7 +301,6 @@ final class CollectionSetup {
                 "raceId"            => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "race", "field" => "id" ] ],
                 "classId"           => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "class", "field" => "id" ] ],
                 "baseClassId"       => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "class", "field" => "id" ] ],
-                "guildId"           => [ 'INTEGER', 'DEFAULT' => 1, 'FOREIGN_KEY' => [ "collection" => "guild", "field" => "id" ] ],
                 "questId"           => [ 'INTEGER', 'DEFAULT' => 933, 'FOREIGN_KEY' => [ "collection" => "quest", "field" => "id" ] ],
 
                 "lastTimeSeen"      => [ 'DATETIME', 'DEFAULT' => NULL, 'INDEX' ],
