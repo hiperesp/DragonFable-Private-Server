@@ -4,15 +4,13 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\CharacterProjection;
 use hiperesp\server\services\CharacterService;
+use hiperesp\server\services\UserService;
 
 class CharacterController extends Controller {
 
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
+    private UserService $userService;
     private CharacterService $characterService;
 
     #[Request(
@@ -21,11 +19,9 @@ class CharacterController extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken($input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-
-        return CharacterProjection::instance()->loaded($char, $user);
+        return CharacterProjection::instance()->loaded($char);
     }
 
     #[Request(
@@ -34,9 +30,9 @@ class CharacterController extends Controller {
         outputType: Output::FORM
     )]
     public function new(array $input): array {
+        $user = $this->userService->auth($input);
 
-        $user = $this->userModel->getBySessionToken($input['strToken']);
-        $char = $this->characterModel->create($user, $input); // in case of error, a exception will be thrown
+        $char = $this->userService->createChar($user, $input);
 
         return CharacterProjection::instance()->created();
     }
@@ -47,10 +43,9 @@ class CharacterController extends Controller {
         outputType: Output::NINJA2XML
     )]
     public function delete(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $this->characterModel->delete($char);
+        $this->characterService->delete($char);
 
         return CharacterProjection::instance()->deleted();
     }
@@ -61,9 +56,7 @@ class CharacterController extends Controller {
         outputType: Output::XML
     )]
     public function dragonAmuletCheck(\SimpleXMLElement $input): \SimpleXMLElement {
-
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $char = $this->characterService->auth($input);
 
         return CharacterProjection::instance()->dragonAmuletCheck($char);
     }
@@ -74,8 +67,7 @@ class CharacterController extends Controller {
         outputType: Output::XML
     )]
     public function statsTrain(\SimpleXMLElement $input): \SimpleXMLElement {
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $char = $this->characterService->auth($input);
 
         $this->characterService->trainStats($char,
             wisdom: (int)$input->intWIS,
@@ -97,8 +89,7 @@ class CharacterController extends Controller {
         outputType: Output::XML
     )]
     public function statsUntrain(\SimpleXMLElement $input): \SimpleXMLElement {
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
+        $char = $this->characterService->auth($input);
 
         $this->characterService->untrainStats($char);
 

@@ -16,6 +16,43 @@ class CharacterService extends Service {
 
     private SettingsVO $settings;
 
+    public function auth(\SimpleXMLElement|array|string $inputOrUserToken, int|string|null $charId = null): CharacterVO {
+        if(\is_array($inputOrUserToken)) {
+            if(!isset($inputOrUserToken['strToken']) && !isset($inputOrUserToken['intCharID'])) {
+                throw new DFException(DFException::BAD_REQUEST);
+            }
+            $userToken = (string)$inputOrUserToken['strToken'];
+            $charId = (int)$inputOrUserToken['intCharID'];
+        } else if($inputOrUserToken instanceof \SimpleXMLElement) {
+            if(!isset($inputOrUserToken->strToken) && !isset($inputOrUserToken->intCharID)) {
+                throw new DFException(DFException::BAD_REQUEST);
+            }
+            $userToken = (string)$inputOrUserToken->strToken;
+            $charId = (int)$inputOrUserToken->intCharID;
+        } else {
+            $userToken = $inputOrUserToken;
+            $charId = (int)$charId;
+        }
+
+        $user = $this->userModel->getBySessionToken($userToken);
+
+        try {
+            $char = $this->characterModel->getByUserAndId($user, $charId);
+        } catch(DFException $e) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'auth', "Character not found.", $user, $user, [
+                'charId' => $charId
+            ])->asException(DFException::CHARACTER_NOT_FOUND);
+        }
+
+        return $char;
+    }
+
+    public function delete(CharacterVO $char): void {
+        $this->characterModel->delete($char);
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'delete', 'Character deleted', $char, $char, []);
+    }
+
     public function trainStats(CharacterVO $char, int $wisdom, int $charisma, int $luck, int $endurance, int $dexterity, int $intelligence, int $strength, int $goldCost): void {
         if($this->settings->revalidateClientValues) {
             if($char->dragonAmulet) {

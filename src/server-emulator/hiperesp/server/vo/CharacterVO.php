@@ -63,12 +63,8 @@ class CharacterVO extends ValueObject {
         return ($this->level - 1) * 5;
     }
 
-    public function isBirthday(UserVO $user, string $today): bool {
-        if($user->id != $this->userId) {
-            throw new \Exception('Character does not belong to the user');
-        }
-
-        return $user->isBirthday($today);
+    public function isBirthday(string $today): bool {
+        return $this->getUser()->isBirthday($today);
     }
 
     public function getAccessLevel(): int {

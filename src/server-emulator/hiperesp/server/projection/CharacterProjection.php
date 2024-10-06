@@ -53,13 +53,13 @@ class CharacterProjection extends Projection {
         return $xml;
     }
 
-    public function loaded(CharacterVO $char, UserVO $user): \SimpleXMLElement {
+    public function loaded(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<character/>');
         $charEl = $xml->addChild('character');
         $charEl->addAttribute('CharID', $char->id);
         $charEl->addAttribute('strCharacterName', $char->name);
         $charEl->addAttribute('dateCreated', \date('Y-m-d\TH:i:s', \strtotime($char->createdAt)));
-        $charEl->addAttribute('isBirthday', $char->isBirthday($user, \date('c')) ? '1' : '0');
+        $charEl->addAttribute('isBirthday', $char->isBirthday(\date('c')) ? '1' : '0');
         $charEl->addAttribute('intLevel', $char->level);
         $charEl->addAttribute('intExp', $char->experience);
         $charEl->addAttribute('intHP', $char->hitPoints);
