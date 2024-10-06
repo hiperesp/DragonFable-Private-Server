@@ -56,7 +56,7 @@ final class CollectionSetup {
 
                     "gameSwf"               => "game15_9_04-patched.swf",
                     "serverVersion"         => "Build 15.9.04 alpha", // appears in the game client version, only display
-                                            //                    ^ last visible char (aprox. 19 chars)
+                    //                                this is the ^ last visible char (aprox. 19 chars)
                     "serverLocation"        => "server-emulator/server.php/", // "http://localhost:40000/server-emulator/server.php/";
                     "gamefilesPath"         => "cdn/gamefiles/", // "http://localhost:40000/cdn/gamefiles/";
 
@@ -280,6 +280,7 @@ final class CollectionSetup {
                 "maxHouseItemSlots" => [ 'INTEGER', 'DEFAULT' => 20 ],
 
                 "dragonAmulet"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "pvpStatus"         => [ 'INTEGER', 'DEFAULT' => 0 ],
 
                 "gender"            => [ 'CHAR' => 1 ], // M or F
                 "pronoun"           => [ 'CHAR' => 1 ], // M, F or O
@@ -297,9 +298,6 @@ final class CollectionSetup {
                 "charisma"          => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "endurance"         => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "wisdom"            => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "skillPoints"       => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "statPoints"        => [ 'INTEGER', 'DEFAULT' => 0 ],
 
                 "lastDailyQuestDone"=> [ "DATE", 'DEFAULT' => NULL ],
 

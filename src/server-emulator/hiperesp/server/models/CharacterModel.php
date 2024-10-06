@@ -167,7 +167,7 @@ class CharacterModel extends Model {
         ]);
     }
 
-    public function trainStats(CharacterVO $char, int $wisdom, int $charisma, int $luck, int $endurance, int $dexterity, int $intelligence, int $strength, int $statPointsUsed, int $goldCost): void {
+    public function trainStats(CharacterVO $char, int $wisdom, int $charisma, int $luck, int $endurance, int $dexterity, int $intelligence, int $strength, int $goldCost): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'wisdom' => $char->wisdom + $wisdom,
@@ -178,7 +178,6 @@ class CharacterModel extends Model {
             'intelligence' => $char->intelligence + $intelligence,
             'strength' => $char->strength + $strength,
             'gold' => $char->gold - $goldCost,
-            'statPoints' => $char->statPoints - $statPointsUsed,
         ]);
     }
 
@@ -193,7 +192,6 @@ class CharacterModel extends Model {
             'intelligence' => 0,
             'strength' => 0,
             'gold' => $char->gold - $goldCost,
-            'statPoints' => $char->statPoints + $char->wisdom + $char->charisma + $char->luck + $char->endurance + $char->dexterity + $char->intelligence + $char->strength,
         ]);
     }
 
@@ -201,13 +199,11 @@ class CharacterModel extends Model {
         $bonusesPerLevel = [
             'hitPoints' => 20,
             'manaPoints' => 5,
-            'statPoints' => 5
         ];
 
         $fullBonuses = [
             'hitPoints'  => $char->hitPoints,
             'manaPoints' => $char->manaPoints,
-            'statPoints' => $char->statPoints,
         ];
         for($i = $char->level + 1; $i <= $newLevel; $i++) {
             foreach($bonusesPerLevel as $key => $value) {

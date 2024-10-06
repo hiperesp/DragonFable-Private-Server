@@ -87,9 +87,9 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intCha', $char->charisma);
         $charEl->addAttribute('intEnd', $char->endurance);
         $charEl->addAttribute('intWis', $char->wisdom);
-        $charEl->addAttribute('intSkillPoints', $char->skillPoints);
-        $charEl->addAttribute('intStatPoints', $char->statPoints);
-        $charEl->addAttribute('intCharStatus', 0);
+        $charEl->addAttribute('intSkillPoints', 0); // unused at game.swf
+        $charEl->addAttribute('intStatPoints', 0);  // unused at game.swf
+        $charEl->addAttribute('intCharStatus', $char->pvpStatus ? 1 : 0);
         $charEl->addAttribute('strArmor', $char->armor);
         $charEl->addAttribute('strSkills', $char->skills);
         $charEl->addAttribute('strQuests', $char->quests);
@@ -151,7 +151,7 @@ class CharacterProjection extends Projection {
 
         $charEl->addAttribute('gemReward', 0); // unknown meaning
         $charEl->addAttribute('intDaily', $char->getDailyQuestAvailable() ? 1 : 0);
-        $charEl->addAttribute('intDailyRoll', 1); // unknown meaning, always 1 with or without char with dragon amulet.
+        $charEl->addAttribute('intDailyRoll', 1); // not used at game.swf
 
         foreach($this->characterItemModel->getByChar($char) as $characterItem) {
             $itemEl = $charEl->addChild('items');
@@ -223,8 +223,8 @@ class CharacterProjection extends Projection {
         $questRewardEl->addAttribute('intSilver', $char->silver);
         $questRewardEl->addAttribute('intGold', $char->gold);
         $questRewardEl->addAttribute('intGems', $char->gems);
-        $questRewardEl->addAttribute('intSkillPoints', $char->skillPoints);
-        $questRewardEl->addAttribute('intStatPoints', $char->statPoints);
+        $questRewardEl->addAttribute('intSkillPoints', 0); // unused at game.swf
+        $questRewardEl->addAttribute('intStatPoints', 0);  // unused at game.swf
         $questRewardEl->addAttribute('intExpToLevel', $char->experienceToLevel);
         return $xml;
     }

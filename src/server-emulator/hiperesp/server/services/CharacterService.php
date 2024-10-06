@@ -48,14 +48,14 @@ class CharacterService extends Service {
         }
 
         $statPointsCost = $wisdom + $charisma + $luck + $endurance + $dexterity + $intelligence + $strength;
-        if($statPointsCost > $char->statPoints) {
+        if($statPointsCost > $char->getStatPoints()) {
             throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'trainStats', "Not enough stat points to train stats.", $char, $char, [
-                'charStatPoints' => $char->statPoints,
+                'charStatPoints' => $char->getStatPoints(),
                 'requiredStatPoints' => $statPointsCost
             ])->asException(DFException::STATS_POINTS_NOT_ENOUGH);
         }
 
-        $this->characterModel->trainStats($char, $wisdom, $charisma, $luck, $endurance, $dexterity, $intelligence, $strength, $statPointsCost, $goldCost);
+        $this->characterModel->trainStats($char, $wisdom, $charisma, $luck, $endurance, $dexterity, $intelligence, $strength, $goldCost);
 
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'trainStats', 'Stats trained', $char, $char, []);
     }

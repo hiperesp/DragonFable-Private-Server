@@ -28,6 +28,7 @@ class CharacterVO extends ValueObject {
     public readonly int $coins;
 
     public readonly bool $dragonAmulet;
+    public readonly bool $pvpStatus;
 
     public readonly string $gender;
     public readonly string $pronoun;
@@ -48,9 +49,6 @@ class CharacterVO extends ValueObject {
     public readonly int $endurance;
     public readonly int $wisdom;
 
-    public readonly int $skillPoints;
-    public readonly int $statPoints;
-
     public readonly string $lastDailyQuestDone;
 
     public readonly string $armor;
@@ -60,6 +58,10 @@ class CharacterVO extends ValueObject {
     public readonly int $raceId;
     public readonly int $classId;
     public readonly int $baseClassId;
+
+    public function getStatPoints(): int {
+        return ($this->level - 1) * 5;
+    }
 
     public function isBirthday(UserVO $user, string $today): bool {
         if($user->id != $this->userId) {
