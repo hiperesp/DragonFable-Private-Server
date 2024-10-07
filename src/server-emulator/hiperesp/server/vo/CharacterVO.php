@@ -17,7 +17,6 @@ class CharacterVO extends ValueObject {
 
     public readonly int $level;
     public readonly int $experience;
-    public readonly int $experienceToLevel;
 
     public readonly int $hitPoints;
     public readonly int $manaPoints;
@@ -58,6 +57,32 @@ class CharacterVO extends ValueObject {
     public readonly int $raceId;
     public readonly int $classId;
     public readonly int $baseClassId;
+
+    public int $experienceToLevel {
+        get {
+            $expToLevel = match(true) {
+                // level values extracted from https://forums2.battleon.com/f/tm.asp?m=18647631
+                $this->level < 10 => \pow(2, $this->level) * 10, // OK
+                $this->level < 60 => 90 * \pow($this->level - 10, 2) + 1800 * ($this->level - 10) + 9000,
+                // the next equation was taken from wolframalpha.com, prompting by
+                // "interpolate polynomial {(0, 346480), (1, 363072), (2, 380184), (3, 397824), (4, 416000), (5, 434720)}"
+                $this->level < 80 =>  4 * \pow($this->level - 60, 3) / 3 + 256 * \pow($this->level - 60, 2) + 49004 * ($this->level - 60) / 3 + 346480,
+                $this->level < 81 =>   787_360,
+                $this->level < 84 =>   815_000 + ($this->level - 81) * 29_000,
+                $this->level < 87 =>   873_000 + ($this->level - 83) * 30_000,
+                $this->level < 88 => 1_000_000,
+                $this->level < 89 => 1_037_000,
+                $this->level < 90 => 1_075_000,
+                # custom
+                $this->level < 96 => 1_075_000 + 41_000 * ($this->level - 90),
+                default           => 1_280_000 + 48_000 * ($this->level - 95),
+            };
+            if($expToLevel <= $this->experience) {
+                $expToLevel = $this->experience + 1;
+            }
+            return $expToLevel;
+        }
+    }
 
     public function getStatPoints(): int {
         return ($this->level - 1) * 5;

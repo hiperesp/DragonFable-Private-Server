@@ -14,6 +14,10 @@ class CharacterModel extends Model {
 
     private SettingsVO $settings;
 
+    public function reload(CharacterVO $char): CharacterVO {
+        return $this->getById($char->id);
+    }
+
     public function getById(int $charId): CharacterVO {
         $char = $this->storage->select(self::COLLECTION, ['id' => $charId]);
         if(isset($char[0]) && $char = $char[0]) {
@@ -128,7 +132,6 @@ class CharacterModel extends Model {
         $silver = $char->silver;
         $level = $char->level;
         $coins = $char->coins;
-        $experienceToLevel = $char->experienceToLevel;
 
         if(isset($reward['experience'])) {
             $experience += \min($reward['experience'], $quest->maxExp);
@@ -147,10 +150,9 @@ class CharacterModel extends Model {
         }
 
         // if player gets more experience than needed to level up, will level up only once
-        if($experience >= $experienceToLevel) {
+        if($experience >= $char->experienceToLevel) {
             $experience = 0;
             $level++;
-            $experienceToLevel = $this->calcExperienceToLevelUp($char->level + 1);
         }
 
         $this->applyLevelUpBonuses($char, $level);
@@ -163,7 +165,6 @@ class CharacterModel extends Model {
             'silver' => $silver,
             'level' => $level,
             'coins' => $coins,
-            'experienceToLevel' => $experienceToLevel
         ]);
     }
 
@@ -212,16 +213,6 @@ class CharacterModel extends Model {
         }
 
         $this->storage->update(self::COLLECTION, \array_merge([ 'id' => $char->id, ], $fullBonuses));
-    }
-
-    private function calcExperienceToLevelUp(int $level): int { // need to be tested and verified
-        return match(true) {
-            $level < 10 => \pow(2, $level) * 10, // OK
-            $level < 60 => 90 * \pow($level - 10, 2) + 1800 * ($level - 10) + 9000,
-            default     => 90 * \pow($level - 10, 2) + 1800 * ($level - 10) + 9000,
-            // missing next levels. see #53
-            // see also https://forums2.battleon.com/f/tm.asp?m=18647631
-        };
     }
 
     private function updateLastTimeSeen(CharacterVO $char): void {

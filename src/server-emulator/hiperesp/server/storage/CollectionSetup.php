@@ -257,7 +257,6 @@ final class CollectionSetup {
 
                 "level"             => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "experience"        => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "experienceToLevel" => [ 'INTEGER', 'DEFAULT' => 20 ],
 
                 "hitPoints"         => [ 'INTEGER', 'DEFAULT' => 100 ],
                 "manaPoints"        => [ 'INTEGER', 'DEFAULT' => 100 ],

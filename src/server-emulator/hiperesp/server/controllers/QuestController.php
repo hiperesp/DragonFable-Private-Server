@@ -49,7 +49,7 @@ class QuestController extends Controller {
             'silver' => (int)$input->intSilver
         ]);
 
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID); // reload the character
+        $char = $this->characterModel->reload($char);
 
         return CharacterProjection::instance()->expSaved($char);
     }
@@ -74,7 +74,7 @@ class QuestController extends Controller {
             'gold' => (int)$input->intGold,
         ]);
 
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID); // reload the character
+        $char = $this->characterModel->reload($char);
 
         return CharacterProjection::instance()->questCompletedMar2011($quest, $char, []);
     }

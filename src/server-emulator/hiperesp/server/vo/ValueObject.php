@@ -30,9 +30,8 @@ abstract class ValueObject {
             $propertyType = $property->getType();
             if($propertyType == null) throw new \Exception("Property {$propertyName} has no type");
 
-            if($propertyType->getName() === SettingsVO::class) {
-                continue;
-            }
+            if($propertyType->getName() === SettingsVO::class) continue;
+            if($property->getHooks()) continue;
 
             if(!$propertyType->isBuiltin()) {
                 if(\is_subclass_of($propertyType->getName(), \hiperesp\server\models\Model::class)) {
