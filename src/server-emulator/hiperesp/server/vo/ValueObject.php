@@ -7,7 +7,7 @@ abstract class ValueObject {
 
     public readonly int $id;
 
-    public final function __construct(array $data) {
+    final public function __construct(array $data) {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->models();
         $autoInstantiate->settings();

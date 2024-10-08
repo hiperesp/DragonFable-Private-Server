@@ -7,7 +7,7 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class Controller {
 
-    private final function __construct() {
+    final private function __construct() {
         $this->cors();
 
         $autoInstantiate = new AutoInstantiate($this);

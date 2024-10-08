@@ -23,6 +23,7 @@ class MySQL extends SQL {
         parent::__construct($options);
     }
 
+    #[\Override]
     protected function getFieldDefinition(string $field, array $definitions, string $collection, array &$afterCreateSql): string {
         $sql = "`{$field}` ";
         $definitionStr = [ ];

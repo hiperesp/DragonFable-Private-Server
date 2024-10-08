@@ -92,7 +92,7 @@ abstract class Storage {
         $where['_isDeleted'] = 0;
         return $this->_update($collection, $where, $newFields, 1);
     }
-    public function delete(string $collection, array $document): bool {
+    final public function delete(string $collection, array $document): bool {
         $where = [];
         $updateFields = [];
         foreach(CollectionSetup::getStructure($collection) as $key => $definitions) {
@@ -119,7 +119,7 @@ abstract class Storage {
     }
 
     private static Storage $instance;
-    public static function getStorage(): Storage {
+    final public static function getStorage(): Storage {
         $driver = \getenv("DB_DRIVER");
         $options = \json_decode(\getenv("DB_OPTIONS"), true);
 

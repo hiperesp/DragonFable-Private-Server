@@ -35,10 +35,12 @@ abstract class SQL extends Storage {
         $this->pdo = new \PDO($dsn, $username, $password, $pdoOptions);
     }
 
+    #[\Override]
     final protected function _lastInsertId(): int {
         return (int)$this->pdo->lastInsertId();
     }
 
+    #[\Override]
     final protected function _select(string $collection, array $where, ?int $limit, int $skip): array {
         $sqlParams = [];
         $sql = "SELECT * FROM {$this->prefix}{$collection} WHERE true ";
@@ -70,6 +72,7 @@ abstract class SQL extends Storage {
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 
+    #[\Override]
     final protected function _insert(string $collection, array $document): void {
         $fields = \array_keys($document);
         $sql = "INSERT INTO {$this->prefix}{$collection} (".\implode(',', $fields).") VALUES (";
@@ -85,6 +88,7 @@ abstract class SQL extends Storage {
         }
     }
 
+    #[\Override]
     final protected function _update(string $collection, array $where, array $newFields, ?int $limit): bool {
         $sql = "UPDATE {$this->prefix}{$collection} SET ";
         $sqlParams = [];
@@ -104,6 +108,7 @@ abstract class SQL extends Storage {
         return $stmt->execute($sqlParams);
     }
 
+    #[\Override]
     protected function createCollection(string $collection): bool {
         $afterCreateSql = [];
         $sql = "CREATE TABLE {$this->prefix}{$collection} (";
@@ -131,6 +136,7 @@ abstract class SQL extends Storage {
         return $stmt->execute();
     }
 
+    #[\Override]
     protected function dropCollection(string $collection): bool {
         $stmt = $this->pdo->prepare("DROP TABLE {$this->prefix}{$collection}");
         return $stmt->execute();

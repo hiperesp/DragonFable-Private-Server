@@ -5,7 +5,7 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class Service {
 
-    public function __construct() {
+    final public function __construct() {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->models();
         $autoInstantiate->settings();

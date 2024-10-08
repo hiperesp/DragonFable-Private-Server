@@ -5,7 +5,7 @@ use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\exceptions\DFException;
 
-#[\Attribute]
+#[\Attribute(\Attribute::TARGET_METHOD)]
 class Request {
     public function __construct(
         private string $endpoint,
