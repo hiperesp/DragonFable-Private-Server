@@ -117,7 +117,7 @@ class CharacterModel extends Model {
 
     public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $reward): void {
         if($quest->isDailyQuest()) {
-            if($char->getDailyQuestAvailable()) {
+            if($char->isDailyQuestAvailable()) {
                 $this->setDailyQuestDone($char);
                 $reward['coins'] = $this->settings->dailyQuestCoinsReward;
             }
