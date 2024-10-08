@@ -30,40 +30,44 @@ class UserVO extends ValueObject {
         return $user;
     }
 
-    public function isBirthday(string $today): bool {
+    public int $accessLevel {
+        get {
+            //   From game.swf:
+            //     < 0 = Disabled,
+            //     0 or 2 = Normal (Free or Upgraded),
+            //     Any other value = Special
+            //   What I think about the values:
+            //     -1 = disabled,
+            //     0 = free,
+            //     1 = special,
+            //     2 = upgraded
+            if($this->banned) {
+                return -1;
+            }
+            if($this->special) {
+                return 1;
+            }
+            if($this->upgraded) {
+                return 2;
+            }
+
+            return 0;
+        }
+    }
+
+    public int $charsAllowed {
+        get {
+            if($this->accessLevel > 0) {
+                return $this->settings->upgradedChars;
+            }
+            return $this->settings->nonUpgradedChars;
+        }
+    }
+
+    public function isBirthday(): bool {
         $birthdate = \date('m-d', \strtotime($this->birthdate));
-        $today = \date('m-d', \strtotime($today));
+        $today = \date('m-d', \strtotime(\date('c')));
         return $birthdate === $today;
-    }
-
-    public function getAccessLevel(): int {
-        //   From game.swf:
-        //     < 0 = Disabled,
-        //     0 or 2 = Normal (Free or Upgraded),
-        //     Any other value = Special
-        //   What I think about the values:
-        //     -1 = disabled,
-        //     0 = free,
-        //     1 = special,
-        //     2 = upgraded
-        if($this->banned) {
-            return -1;
-        }
-        if($this->special) {
-            return 1;
-        }
-        if($this->upgraded) {
-            return 2;
-        }
-
-        return 0;
-    }
-
-    public function getCharsAllowed(): int {
-        if($this->getAccessLevel() > 0) {
-            return $this->settings->upgradedChars;
-        }
-        return $this->settings->nonUpgradedChars;
     }
 
 }

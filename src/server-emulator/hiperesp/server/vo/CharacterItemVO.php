@@ -19,8 +19,8 @@ class CharacterItemVO extends ValueObject {
     public readonly bool $equipped;
     public readonly bool $count;
 
-    public function getHoursOwned(string $today): int {
-        $todaySeconds = \strtotime($today);
+    public function getHoursOwned(): int {
+        $todaySeconds = \strtotime(\date('c'));
         $ownedAtSeconds = \strtotime($this->createdAt);
 
         $secondsOwned = $todaySeconds - $ownedAtSeconds;

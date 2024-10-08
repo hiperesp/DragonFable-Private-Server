@@ -84,57 +84,52 @@ class CharacterVO extends ValueObject {
         }
     }
 
-    public function getStatPoints(): int {
-        return ($this->level - 1) * 5;
-    }
-
-    public function isBirthday(string $today): bool {
-        return $this->getUser()->isBirthday($today);
-    }
-
-    public function getAccessLevel(): int {
-        return $this->dragonAmulet ? 1 : 0;
-    }
-
-    public function getEquippable(): string {
-        $equippable = [
-            "Sword", "Mace", "Dagger", "Axe", "Ring", "Necklace", "Staff", "Belt", "Earring", "Bracer",
-            "Pet", "Cape", "Wings", "Helmet", "Armor", "Wand", "Scythe", "Trinket", "Artifact"
-        ];
-        return \implode(",", $equippable);
-    }
-
-    public function getDailyQuestAvailable(): bool {
-        $today = \date('Y-m-d');
-        return $this->lastDailyQuestDone != $today;
-    }
-
-    public function getMaxBagSlots(): int {
-        if($this->getAccessLevel() > 0) {
-            return $this->settings->upgradedMaxBagSlots;
+    public int $statPoints {
+        get {
+            return ($this->level - 1) * 5;
         }
-        return $this->settings->nonUpgradedMaxBagSlots;
     }
 
-    public function getMaxBankSlots(): int {
-        if($this->getAccessLevel() > 0) {
-            return $this->settings->upgradedMaxBankSlots;
+    public int $accessLevel {
+        get {
+            return $this->dragonAmulet ? 1 : 0;
         }
-        return $this->settings->nonUpgradedMaxBankSlots;
     }
 
-    public function getMaxHouseSlots(): int {
-        if($this->getAccessLevel() > 0) {
-            return $this->settings->upgradedMaxHouseSlots;
+    public int $maxBagSlots {
+        get {
+            if($this->accessLevel > 0) {
+                return $this->settings->upgradedMaxBagSlots;
+            }
+            return $this->settings->nonUpgradedMaxBagSlots;
         }
-        return $this->settings->nonUpgradedMaxHouseSlots;
     }
 
-    public function getMaxHouseItemSlots(): int {
-        if($this->getAccessLevel() > 0) {
-            return $this->settings->upgradedMaxHouseItemSlots;
+    public int $maxBankSlots {
+        get {
+            if($this->accessLevel > 0) {
+                return $this->settings->upgradedMaxBankSlots;
+            }
+            return $this->settings->nonUpgradedMaxBankSlots;
         }
-        return $this->settings->nonUpgradedMaxHouseItemSlots;
+    }
+
+    public int $maxHouseSlots {
+        get {
+            if($this->accessLevel > 0) {
+                return $this->settings->upgradedMaxHouseSlots;
+            }
+            return $this->settings->nonUpgradedMaxHouseSlots;
+        }
+    }
+
+    public int $maxHouseItemSlots {
+        get {
+            if($this->accessLevel > 0) {
+                return $this->settings->upgradedMaxHouseItemSlots;
+            }
+            return $this->settings->nonUpgradedMaxHouseItemSlots;
+        }
     }
 
     public function canBuyItem(ItemVO $item): bool {
@@ -145,6 +140,15 @@ class CharacterVO extends ValueObject {
             return false;
         }
         return true;
+    }
+
+    public function isBirthday(): bool {
+        return $this->getUser()->isBirthday();
+    }
+
+    public function isDailyQuestAvailable(): bool {
+        $today = \date('Y-m-d');
+        return $this->lastDailyQuestDone != $today;
     }
 
     public function getUser(): UserVO {

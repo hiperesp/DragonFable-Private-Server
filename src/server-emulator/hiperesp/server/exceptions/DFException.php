@@ -1,7 +1,7 @@
 <?php
 namespace hiperesp\server\exceptions;
 
-class DFException extends \Exception {
+final class DFException extends \Exception {
 
     const DYNAMIC_ERROR = "000.00";
 

@@ -13,7 +13,6 @@ use hiperesp\server\models\WeaponModel;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
-use hiperesp\server\vo\UserVO;
 
 class CharacterProjection extends Projection {
 
@@ -59,7 +58,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('CharID', $char->id);
         $charEl->addAttribute('strCharacterName', $char->name);
         $charEl->addAttribute('dateCreated', \date('Y-m-d\TH:i:s', \strtotime($char->createdAt)));
-        $charEl->addAttribute('isBirthday', $char->isBirthday(\date('c')) ? '1' : '0');
+        $charEl->addAttribute('isBirthday', $char->isBirthday() ? '1' : '0');
         $charEl->addAttribute('intLevel', $char->level);
         $charEl->addAttribute('intExp', $char->experience);
         $charEl->addAttribute('intHP', $char->hitPoints);
@@ -68,12 +67,12 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intGold', $char->gold);
         $charEl->addAttribute('intGems', $char->gems);
         $charEl->addAttribute('intCoins', $char->coins);
-        $charEl->addAttribute('intMaxBagSlots', $char->getMaxBagSlots());
-        $charEl->addAttribute('intMaxBankSlots', $char->getMaxBankSlots());
-        $charEl->addAttribute('intMaxHouseSlots', $char->getMaxHouseSlots());
-        $charEl->addAttribute('intMaxHouseItemSlots', $char->getMaxHouseItemSlots());
+        $charEl->addAttribute('intMaxBagSlots', $char->maxBagSlots);
+        $charEl->addAttribute('intMaxBankSlots', $char->maxBankSlots);
+        $charEl->addAttribute('intMaxHouseSlots', $char->maxHouseSlots);
+        $charEl->addAttribute('intMaxHouseItemSlots', $char->maxHouseItemSlots);
         $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
-        $charEl->addAttribute('intAccesslevel', $char->getAccessLevel());
+        $charEl->addAttribute('intAccesslevel', $char->accessLevel);
         $charEl->addAttribute('strGender', $char->gender);
         $charEl->addAttribute('strPronoun', $char->pronoun);
         $charEl->addAttribute('intColorHair', \hexdec($char->colorHair));
@@ -143,14 +142,16 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDmgMax', $weapon->damageMax);
         $charEl->addAttribute('intBonus', $weapon->bonus);
 
-        $charEl->addAttribute('strEquippable', $char->getEquippable());
+        $charEl->addAttribute('strEquippable', \implode(",", [
+            "Sword", "Mace", "Dagger", "Axe", "Ring", "Necklace", "Staff", "Belt", "Earring", "Bracer", "Pet", "Cape", "Wings", "Helmet", "Armor", "Wand", "Scythe", "Trinket", "Artifact"
+        ]));
 
         $hair = $this->hairModel->getByChar($char);
         $charEl->addAttribute('strHairFileName', $hair->swf);
         $charEl->addAttribute('intHairFrame', 1);
 
         $charEl->addAttribute('gemReward', 0); // unknown meaning
-        $charEl->addAttribute('intDaily', $char->getDailyQuestAvailable() ? 1 : 0);
+        $charEl->addAttribute('intDaily', $char->isDailyQuestAvailable() ? 1 : 0);
         $charEl->addAttribute('intDailyRoll', 1); // not used at game.swf
 
         foreach($this->characterItemModel->getByChar($char) as $characterItem) {
@@ -159,7 +160,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('CharItemID', $characterItem->id);
             $itemEl->addAttribute('bitEquipped', $characterItem->equipped ? 1 : 0);
             $itemEl->addAttribute('intCount', $characterItem->count);
-            $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned(\date('c')));
+            $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned());
 
             $item = $this->itemModel->getByCharItem($characterItem);
 
