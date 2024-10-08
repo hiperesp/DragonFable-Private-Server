@@ -43,6 +43,7 @@ class MonsterVO extends ValueObject {
     public readonly string $movName;
     public readonly string $swf;
 
+    #[\Override]
     protected function patch(array $monster): array {
         $monster['experience'] = $monster['experience'] * $this->settings->experienceMultiplier;
         $monster['silver'] = $monster['silver'] * $this->settings->silverMultiplier;

@@ -25,6 +25,7 @@ class LogsVO extends ValueObject {
     public readonly ?string $ip;
     public readonly ?string $userAgent;
 
+    #[\Override]
     protected function patch(array $data): array {
         $data['additionalData'] = \json_decode($data['additionalData'], true);
         return $data;

@@ -31,6 +31,7 @@ class QuestVO extends ValueObject {
     public readonly string $monsterType;
     public readonly string $monsterGroupSwf;
 
+    #[\Override]
     protected function patch(array $quest): array {
         $quest['maxSilver'] = $quest['maxSilver'] * $this->settings->silverMultiplier;
         $quest['maxGold']   = $quest['maxGold']   * $this->settings->goldMultiplier;

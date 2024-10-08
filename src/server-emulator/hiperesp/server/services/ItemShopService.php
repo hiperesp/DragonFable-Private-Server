@@ -38,7 +38,7 @@ class ItemShopService extends Service {
 
         if($this->settings->revalidateClientValues) {
             if($item->getPriceCoins()) {
-                if($charItem->getHoursOwned(\date('c')) >= 24) {
+                if($charItem->hoursOwned >= 24) {
                     $newReturnPercent = 25;
                 } else {
                     $newReturnPercent = 90;
