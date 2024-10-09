@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 \spl_autoload_register(function ($className) use($base) {
     $classFile = \preg_replace('/\\\\/', DIRECTORY_SEPARATOR, "{$base}/{$className}").".php";
     if(!\file_exists($classFile)) {

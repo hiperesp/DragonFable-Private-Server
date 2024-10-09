@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
 use hiperesp\server\exceptions\DFException;

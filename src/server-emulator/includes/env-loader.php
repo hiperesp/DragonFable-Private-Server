@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 if(\file_exists("{$base}/.env.php")) {
     require "{$base}/.env.php";
 }

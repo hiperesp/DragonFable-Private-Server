@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 try {
     if(!isset($_SERVER['PATH_INFO'])) {
         throw new \Exception("Invalid request method");

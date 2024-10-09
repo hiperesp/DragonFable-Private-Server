@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 $requestPath = $_SERVER['REQUEST_URI'];
 $requestPath = \preg_replace('/\?.*$/', '', $requestPath);
 $requestPath = \preg_replace('/^\/cdn\/gamefiles\//', '', $requestPath);

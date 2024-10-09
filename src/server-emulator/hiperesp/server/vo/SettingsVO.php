@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
 class SettingsVO extends ValueObject {

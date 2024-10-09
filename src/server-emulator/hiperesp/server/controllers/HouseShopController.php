@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
 use hiperesp\server\attributes\Request;
