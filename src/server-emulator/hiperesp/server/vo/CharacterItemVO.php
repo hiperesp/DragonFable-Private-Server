@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
 use hiperesp\server\models\CharacterModel;
@@ -25,7 +25,7 @@ class CharacterItemVO extends ValueObject {
             $ownedAtSeconds = \strtotime($this->createdAt);
 
             $secondsOwned = $todaySeconds - $ownedAtSeconds;
-            $hoursOwned = \floor($secondsOwned / 3600);
+            $hoursOwned = (int)\floor($secondsOwned / 3600);
 
             return $hoursOwned;
         }

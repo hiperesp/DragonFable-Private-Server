@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\util;
 
 class DragonFableNinja2 {
@@ -37,7 +37,7 @@ class DragonFableNinja2 {
         for($i=0; $i<$textLength; $i++) {
             $random = \floor(\mt_rand() / \mt_getrandmax() * 66) + 33;
             $char = \ord($this->key[$i % $keyLength]);
-            $encrypted .= \base_convert((string)(\ord($theText[$i]) + $random + $char), 10, 30).\base_convert($random, 10, 30);
+            $encrypted .= \base_convert((string)(\ord($theText[$i]) + $random + $char), 10, 30).\base_convert((string)$random, 10, 30);
         }
         return $encrypted;
     }

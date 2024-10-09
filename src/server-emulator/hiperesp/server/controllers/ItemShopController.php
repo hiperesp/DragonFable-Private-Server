@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
 use hiperesp\server\attributes\Request;
@@ -42,7 +42,7 @@ class ItemShopController extends Controller {
     )]
     public function buy(\SimpleXMLElement $input): \SimpleXMLElement {
 
-        $user = $this->userModel->getBySessionToken($input->strToken);
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
 
         $shop = $this->itemShopModel->getById((int)$input->intShopID);
@@ -60,7 +60,7 @@ class ItemShopController extends Controller {
     )]
     public function sell(\SimpleXMLElement $input): \SimpleXMLElement {
 
-        $user = $this->userModel->getBySessionToken($input->strToken);
+        $user = $this->userModel->getBySessionToken((string)$input->strToken);
         $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
         $charItem = $this->characterItemModel->getByCharAndId($char, (int)$input->intCharItemID);
 

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
 use hiperesp\server\exceptions\DFException;
@@ -27,7 +27,7 @@ class UserService extends Service {
             $userToken = $inputOrUserToken;
         }
 
-        $user = $this->userModel->getBySessionToken($userToken);
+        $user = $this->userModel->getBySessionToken((string)$userToken);
 
         return $user;
     }

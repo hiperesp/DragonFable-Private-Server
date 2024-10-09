@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
 use hiperesp\server\exceptions\DFException;
@@ -34,7 +34,7 @@ class CharacterService extends Service {
             $charId = (int)$charId;
         }
 
-        $user = $this->userModel->getBySessionToken($userToken);
+        $user = $this->userModel->getBySessionToken((string)$userToken);
 
         try {
             $char = $this->characterModel->getByUserAndId($user, $charId);
