@@ -18,8 +18,8 @@ class UserVO extends ValueObject {
 
     public readonly int $upgraded;
     public readonly int $special;
-    public readonly int $activated;
-    public readonly int $optIn;
+    public readonly int $activated; // is account activated by email?
+    public readonly int $optIn;     // opt in for newsletter
 
     public readonly bool $banned;
     public readonly ?string $lastLogin;
@@ -53,6 +53,18 @@ class UserVO extends ValueObject {
             }
 
             return 0;
+        }
+    }
+
+    public int $upgradedFlag { // this flag is how many chars is upgraded, but 2 to 5 is same as 0
+        get {
+            if($this->upgraded) {
+                if($this->settings->canDeleteUpgradedChar) {
+                    return 6; // user upgraded entire account, all chars can be deleted and new chars will be upgraded
+                }
+                return 1; // user upgraded a single char, user cant delete upgraded chars
+            }
+            return 0; // user not upgraded, can delete all chars
         }
     }
 

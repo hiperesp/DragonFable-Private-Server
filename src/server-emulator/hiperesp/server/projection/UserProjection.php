@@ -22,7 +22,7 @@ class UserProjection extends Projection {
         $userEl->addAttribute('UserID', $user->id);
         $userEl->addAttribute('intCharsAllowed', $user->charsAllowed);
         $userEl->addAttribute('intAccessLevel', $user->accessLevel);
-        $userEl->addAttribute('intUpgrade', $user->upgraded ? 6 : 0);
+        $userEl->addAttribute('intUpgrade', $user->upgradedFlag);
         $userEl->addAttribute('intActivationFlag', $user->activated ? 5 : 1);
         $userEl->addAttribute('bitOptin', $user->optIn);
         $userEl->addAttribute('strToken', $user->sessionToken);

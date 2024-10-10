@@ -29,6 +29,7 @@ final class CollectionSetup {
 
                 "revalidateClientValues" => [ 'BIT', 'DEFAULT' => 0 ],
                 "banInvalidClientValues" => [ 'BIT', 'DEFAULT' => 0 ],
+                "canDeleteUpgradedChar"  => [ 'BIT', 'DEFAULT' => 1 ],
 
                 "nonUpgradedChars"              => [ 'INTEGER', 'DEFAULT' => 3 ],
                 "upgradedChars"                 => [ 'INTEGER', 'DEFAULT' => 6 ],
@@ -74,6 +75,7 @@ final class CollectionSetup {
 
                     "revalidateClientValues" => 1, // some inconsistencies in the client can occur.
                     "banInvalidClientValues" => 1, // some users can be banned injustly if inconsistencies are found.
+                    "canDeleteUpgradedChar"  => 1, // if true, the user can delete an upgraded character.
 
                     "nonUpgradedMaxBagSlots"=> 30,
                     "upgradedMaxBagSlots"   => 90,

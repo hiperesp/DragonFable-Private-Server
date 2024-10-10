@@ -22,6 +22,7 @@ class SettingsVO extends ValueObject {
 
     public readonly bool $revalidateClientValues;
     public readonly bool $banInvalidClientValues;
+    public readonly bool $canDeleteUpgradedChar;
 
     public readonly int $nonUpgradedChars;
     public readonly int    $upgradedChars;
