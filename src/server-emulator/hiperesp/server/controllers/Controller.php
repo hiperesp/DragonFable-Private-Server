@@ -7,9 +7,7 @@ use hiperesp\server\util\AutoInstantiate;
 
 abstract class Controller {
 
-    final private function __construct() {
-        $this->cors();
-
+    final public function __construct() {
         $autoInstantiate = new AutoInstantiate($this);
         $autoInstantiate->models();
         $autoInstantiate->settings();
@@ -85,11 +83,14 @@ abstract class Controller {
         /** @var \ReflectionClass $controller */
 
         try {
+            /** @var Controller $instance */
             $instance = $controller->newInstanceWithoutConstructor();
 
             $constructor = $controller->getConstructor();
             $constructor->setAccessible(true);
             $constructor->invoke($instance);
+
+            $instance->cors();
 
             $input = $attribute->getInput();
             $output = $instance->{$method->getName()}($input);

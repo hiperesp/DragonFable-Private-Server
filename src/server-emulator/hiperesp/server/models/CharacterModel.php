@@ -52,10 +52,10 @@ class CharacterModel extends Model {
         $data['gender'] = $input['strGender'];
         $data['pronoun'] = $input['strPronoun'];
         $data['hairId'] = $input['intHairID'];
-        $data['colorHair'] = \dechex($input['intColorHair']);
-        $data['colorSkin'] = \dechex($input['intColorSkin']);
-        $data['colorBase'] = \dechex($input['intColorBase']);
-        $data['colorTrim'] = \dechex($input['intColorTrim']);
+        $data['colorHair'] = \dechex((int)$input['intColorHair']);
+        $data['colorSkin'] = \dechex((int)$input['intColorSkin']);
+        $data['colorBase'] = \dechex((int)$input['intColorBase']);
+        $data['colorTrim'] = \dechex((int)$input['intColorTrim']);
         $data['classId'] = $input['intClassID'];
         $data['baseClassId'] = $input['intClassID'];
         $data['raceId'] = '1';
