@@ -46,6 +46,8 @@ final class Runner {
         }
         $output = \ob_get_clean();
 
+        \count($context); # to avoid unused variable warning
+
         # Clean up with context
         \ob_start();
         eval(<<<EVAL_ANON
@@ -216,6 +218,8 @@ final class Runner {
                 $tests[$i] = \str_replace($base, "", $test);
             }
         }
+
+        \natsort($totalTests);
 
         $summary = [
             "totalTests" => \count($totalTests),
