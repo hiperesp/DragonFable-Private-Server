@@ -9,5 +9,3 @@ var_dump(\ord($out[6]), \ord($out[7]));
 --EXPECT--
 int(13)
 int(10)
-
---CLEAN--

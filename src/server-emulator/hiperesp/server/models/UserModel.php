@@ -93,4 +93,11 @@ class UserModel extends Model {
         throw new DFException(DFException::USER_BANNED);
     }
 
+    /**
+     * Currently only used for test-clean/delete-test-user
+     */
+    public function delete(UserVO $user): void {
+        $this->storage->delete(self::COLLECTION, ['id' => $user->id]);
+    }
+
 }

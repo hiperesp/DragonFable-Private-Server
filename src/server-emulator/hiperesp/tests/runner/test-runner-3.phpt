@@ -6,5 +6,3 @@ echo "Sample\ntest\n";
 --EXPECT--
 Sample
 test
-
---CLEAN--

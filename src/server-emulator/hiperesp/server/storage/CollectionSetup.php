@@ -198,7 +198,7 @@ final class CollectionSetup {
                 "createdAt"     => [ 'DATETIME', 'CREATED_DATETIME' ],
                 "updatedAt"     => [ 'DATETIME', 'UPDATED_DATETIME' ],
 
-                "username"      => [ 'STRING' => 20,  'UNIQUE' ],
+                "username"      => [ 'STRING' => 25,  'UNIQUE' ],
                 "password"      => [ 'STRING' => 64,  ],
                 "email"         => [ 'STRING' => 255, 'UNIQUE' ],
                 "birthdate"     => [ 'DATE' ],

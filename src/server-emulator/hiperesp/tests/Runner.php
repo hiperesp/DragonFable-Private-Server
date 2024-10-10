@@ -2,6 +2,7 @@
 namespace hiperesp\tests;
 
 final class Runner {
+
     const SECTION_TEST = '--TEST--';
     const SECTION_FILE = '--FILE--';
     const SECTION_EXPECT = '--EXPECT--';
@@ -25,24 +26,36 @@ final class Runner {
     public function __construct(
         private readonly string $testFileName
     ) {
-        $this->phpt = __DIR__ . "/{$testFileName}.phpt";
+        $this->phpt = __DIR__ . "/{$testFileName}";
     }
 
     private function startTest(): void {
-        # Clean up
-        \ob_start();
-        eval($this->getSection(self::SECTION_CLEAN));
-        \ob_end_clean();
-
         # Run test case
         \ob_start();
         try {
-            eval($this->getSection(self::SECTION_FILE));
+            $context = eval(<<<EVAL_ANON
+            return (function(): array {
+                \$context = [];
+                {$this->getSection(self::SECTION_FILE)};
+                return \$context;
+            })();
+            EVAL_ANON);
         } catch(\ErrorException $e) {
+            $context = [];
             echo $e->getMessage();
         }
         $output = \ob_get_clean();
 
+        # Clean up with context
+        \ob_start();
+        eval(<<<EVAL_ANON
+        (function(\$context) {
+            {$this->getSection(self::SECTION_CLEAN)};
+        })(\$context);
+        EVAL_ANON);
+        \ob_end_clean();
+
+        # Compare output
         $expectedOutput = $this->getSection(self::SECTION_EXPECT);
         if($output !== $expectedOutput) {
             \ob_start();
@@ -98,7 +111,7 @@ final class Runner {
     public function getTestName(): string {
         $name = "";
         if($this->hasSection(self::SECTION_TEST)) {
-            $name = \trim($this->getSection(self::SECTION_TEST));
+            $name = $this->getSection(self::SECTION_TEST);
         }
         if(!$name) {
             $name = $this->getTestFileName();
@@ -107,29 +120,35 @@ final class Runner {
     }
 
     public function getTestFileName(): string {
-        return $this->testFileName.".phpt";
+        return $this->testFileName;
     }
 
     private array $sections = [];
     private function parse(): void {
-        $lines = \file($this->phpt, \FILE_IGNORE_NEW_LINES);
+        $lines = \file($this->phpt);
 
         $currentSection = null;
-        foreach($lines as $line) {
+        foreach($lines as $i => $line) {
+            $line = \str_replace("\r", "", $line);
             foreach(self::SECTIONS as $sectionName) {
-                if($line === $sectionName) {
-                    $currentSection = $sectionName;
-                    if($this->hasSection($currentSection)) {
-                        throw new \Exception("Invalid PHPT file. Duplicate section: {$currentSection}");
-                    }
-                    $this->sections[$currentSection] = "";
-                    continue 2;
+                if($line !== "{$sectionName}\n") continue;
+
+                // remove last newline from last section
+                if($currentSection !== null) {
+                    $this->sections[$currentSection] = \substr($this->sections[$currentSection], 0, -1);
                 }
+
+                $currentSection = $sectionName;
+                if($this->hasSection($currentSection)) {
+                    throw new \Exception("Invalid PHPT file. Duplicate section: {$currentSection}");
+                }
+                $this->sections[$currentSection] = "";
+                continue 2;
             }
             if($currentSection === null) {
                 throw new \Exception("Invalid PHPT file. Section not found.");
             }
-            $this->sections[$currentSection] .= "{$line}\n";
+            $this->sections[$currentSection] .= "{$line}";
         }
 
         foreach(self::REQUIRED_SECTIONS as $sectionGroup) {
@@ -155,16 +174,7 @@ final class Runner {
     private function getSection(string ...$sections): string {
         foreach($sections as $section) {
             if($this->hasSection($section)) {
-                $sectionData = $this->sections[$section];
-
-                # remove last newline
-                if(\substr($sectionData, -2) === "\r\n") {
-                    $sectionData = \substr($sectionData, 0, -2);
-                } else if(\substr($sectionData, -1) === "\n") {
-                    $sectionData = \substr($sectionData, 0, -1);
-                }
-
-                return $sectionData;
+                return $this->sections[$section];
             }
         }
         return "";
@@ -178,22 +188,34 @@ final class Runner {
         return false;
     }
 
-    private static array $suites = [
-        "all"       => "*.phpt",
-        "tester"    => "test-runner*.phpt",
-        "api"       => "api-*.phpt",
-    ];
-
-    public static function getSuites(): array {
-        return \array_keys(self::$suites);
+    public static function getSuites() {
+        return \array_merge([
+            "all", 
+        ], \array_filter(\scandir(__DIR__), function($dir) {
+            return \is_dir(__DIR__ . '/' . $dir) && $dir !== "." && $dir !== "..";
+        }));
     }
 
     public static function runSuite(string $suite): string {
-        if(!isset(self::$suites[$suite])) {
-            throw new \Exception("Invalid test suite.");
+        $base = __DIR__."/";
+
+        $totalTests = \glob("{$base}*/*.phpt");
+        foreach($totalTests as $i => $test) {
+            $totalTests[$i] = \str_replace($base, "", $test);
         }
-        $tests = \glob(__DIR__ . '/' .self::$suites[$suite]);
-        $totalTests = \glob(__DIR__ . '/' .self::$suites["all"]);
+
+        if($suite==="all") {
+            $tests = $totalTests;
+        } else {
+            $suites = self::getSuites();
+            if(!\in_array($suite, $suites)) {
+                throw new \Exception("Invalid test suite.");
+            }
+            $tests = \glob("{$base}{$suite}/*.phpt");
+            foreach($tests as $i => $test) {
+                $tests[$i] = \str_replace($base, "", $test);
+            }
+        }
 
         $summary = [
             "totalTests" => \count($totalTests),
@@ -209,7 +231,7 @@ final class Runner {
         foreach($totalTests as $test) {
             $skip = !\in_array($test, $tests);
 
-            $runner = new self(\basename($test, ".phpt"));
+            $runner = new self($test);
             $output = $runner->run($skip);
 
             if($output["status"] === "error") {

@@ -5,4 +5,3 @@ echo "Sample test";
 
 --EXPECT--
 Sample test
---CLEAN--
