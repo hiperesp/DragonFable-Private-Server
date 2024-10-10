@@ -29,33 +29,39 @@ final class Runner {
         $this->phpt = __DIR__ . "/{$testFileName}";
     }
 
+    private static array $context = [];
+
     private function startTest(): void {
+        $context = self::$context;
         # Run test case
         \ob_start();
         try {
             $context = eval(<<<EVAL_ANON
-            return (function(): array {
-                \$context = [];
+            return (function(\$context): array {
                 {$this->getSection(self::SECTION_FILE)};
                 return \$context;
-            })();
+            })(\$context);
             EVAL_ANON);
         } catch(\ErrorException $e) {
-            $context = [];
             echo $e->getMessage();
         }
         $output = \ob_get_clean();
 
-        \count($context); # to avoid unused variable warning
-
         # Clean up with context
         \ob_start();
-        eval(<<<EVAL_ANON
-        (function(\$context) {
-            {$this->getSection(self::SECTION_CLEAN)};
-        })(\$context);
-        EVAL_ANON);
-        \ob_end_clean();
+        try {
+            $context = eval(<<<EVAL_ANON
+            return (function(\$context) {
+                {$this->getSection(self::SECTION_CLEAN)};
+                return \$context;
+            })(\$context);
+            EVAL_ANON);
+        } catch(\ErrorException $e) {
+            echo "Error while trying to clean up the test case: {$e->getMessage()}";
+        }
+        $output.= \ob_get_clean();
+
+        self::$context = $context;
 
         # Compare output
         $expectedOutput = $this->getSection(self::SECTION_EXPECT);
