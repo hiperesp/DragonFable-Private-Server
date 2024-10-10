@@ -20,6 +20,21 @@ class DevController extends Controller {
     }
 
     #[Request(
+        endpoint: '/dev/test',
+        inputType: Input::FORM,
+        outputType: Output::RAW
+    )]
+    public function test(array $input): string {
+        if(!isset($input["suite"])) {
+            return "No suite provided";
+        }
+        \ob_start();
+        $output = \hiperesp\tests\Runner::runSuite($input["suite"]);
+        $logs = \ob_get_clean();
+        return "{$logs}{$output}";
+    }
+
+    #[Request(
         endpoint: '/dev/phpinfo',
         inputType: Input::NONE,
         outputType: Output::HTML
@@ -35,7 +50,14 @@ class DevController extends Controller {
         inputType: Input::NONE,
         outputType: Output::HTML
     )]
-    public function dev(): string {
+    public function menu(): string {
+        $testsHtml = (function() {
+            $output = "";
+            foreach(\hiperesp\tests\Runner::getSuites() as $suite) {
+                $output .= "<form action='test' method='POST'><button name='suite' value='{$suite}'>{$suite}</button></form>";
+            }
+            return $output;
+        })();
         $output = <<<HTML
 <h1>Dev</h1>
 <hr>
@@ -63,6 +85,10 @@ class DevController extends Controller {
         <form action="phpinfo">
             <button>PHP info</button>
         </form>
+    </fieldset>
+    <fieldset>
+        <legend>Tests</legend>
+        {$testsHtml}
     </fieldset>
 </div>
 HTML;

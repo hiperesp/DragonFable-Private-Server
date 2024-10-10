@@ -1,0 +1,252 @@
+<?php declare(strict_types=1);
+namespace hiperesp\tests;
+
+final class Runner {
+    const SECTION_TEST = '--TEST--';
+    const SECTION_FILE = '--FILE--';
+    const SECTION_EXPECT = '--EXPECT--';
+    const SECTION_CLEAN = '--CLEAN--';
+
+    const SECTIONS = [
+        self::SECTION_TEST,
+        self::SECTION_FILE,
+        self::SECTION_EXPECT,
+        self::SECTION_CLEAN
+    ];
+    const REQUIRED_SECTIONS = [
+        [ self::SECTION_TEST ],
+        [ self::SECTION_FILE ],
+        [ self::SECTION_EXPECT ],
+    ];
+    const SECTIONS_UNIQUE = [
+    ];
+
+    private readonly string $phpt;
+    public function __construct(
+        private readonly string $testFileName
+    ) {
+        $this->phpt = __DIR__ . "/{$testFileName}.phpt";
+    }
+
+    private function startTest(): void {
+        # Clean up
+        \ob_start();
+        eval($this->getSection(self::SECTION_CLEAN));
+        \ob_end_clean();
+
+        # Run test case
+        \ob_start();
+        try {
+            eval($this->getSection(self::SECTION_FILE));
+        } catch(\ErrorException $e) {
+            echo $e->getMessage();
+        }
+        $output = \ob_get_clean();
+
+        $expectedOutput = $this->getSection(self::SECTION_EXPECT);
+        if($output !== $expectedOutput) {
+            \ob_start();
+            var_dump($output);
+            $got = \trim(\ob_get_clean());
+
+            \ob_start();
+            var_dump($expectedOutput);
+            $expected = \trim(\ob_get_clean());
+
+            throw new \Exception("Output does not match expected output.\n     Expected: {$expected}\n     Got: {$got}");
+        }
+    }
+
+    public function run(bool $skip): array {
+        try {
+            $this->parse();
+        } catch(\Exception $e) {
+            return [
+                "status" => "error",
+                "testName" => $this->getTestName(),
+                "testFile" => $this->getTestFileName(),
+                "message" => $e->getMessage()
+            ];
+        }
+        if($skip) {
+            return [
+                "status" => "skipped",
+                "testName" => $this->getTestName(),
+                "testFile" => $this->getTestFileName(),
+                "message" => "Test skipped."
+            ];
+        }
+
+        try {
+            $this->startTest();
+            return [
+                "status" => "success",
+                "testName" => $this->getTestName(),
+                "testFile" => $this->getTestFileName(),
+                "message" => "Test passed."
+            ];
+        } catch(\Exception $e) {
+            return [
+                "status" => "error",
+                "testName" => $this->getTestName(),
+                "testFile" => $this->getTestFileName(),
+                "message" => $e->getMessage()
+            ];
+        }
+    }
+
+    public function getTestName(): string {
+        $name = "";
+        if($this->hasSection(self::SECTION_TEST)) {
+            $name = \trim($this->getSection(self::SECTION_TEST));
+        }
+        if(!$name) {
+            $name = $this->getTestFileName();
+        }
+        return $name;
+    }
+
+    public function getTestFileName(): string {
+        return $this->testFileName.".phpt";
+    }
+
+    private array $sections = [];
+    private function parse(): void {
+        $lines = \file($this->phpt, \FILE_IGNORE_NEW_LINES);
+
+        $currentSection = null;
+        foreach($lines as $line) {
+            foreach(self::SECTIONS as $sectionName) {
+                if($line === $sectionName) {
+                    $currentSection = $sectionName;
+                    if($this->hasSection($currentSection)) {
+                        throw new \Exception("Invalid PHPT file. Duplicate section: {$currentSection}");
+                    }
+                    $this->sections[$currentSection] = "";
+                    continue 2;
+                }
+            }
+            if($currentSection === null) {
+                throw new \Exception("Invalid PHPT file. Section not found.");
+            }
+            $this->sections[$currentSection] .= "{$line}\n";
+        }
+
+        foreach(self::REQUIRED_SECTIONS as $sectionGroup) {
+            if(!$this->hasSection(...$sectionGroup)) {
+                throw new \Exception("Invalid PHPT file. Missing section: ".\implode(", ", $sectionGroup));
+            }
+        }
+
+        foreach(self::SECTIONS_UNIQUE as $sectionGroup) {
+            # must have only one of the group
+            $alreadyHas = false;
+            foreach($sectionGroup as $section) {
+                if($this->hasSection($section)) {
+                    if($alreadyHas) {
+                        throw new \Exception("Invalid PHPT file. Duplicate section: ".\implode(", ", $sectionGroup));
+                    }
+                    $alreadyHas = true;
+                }
+            }
+        }
+    }
+
+    private function getSection(string ...$sections): string {
+        foreach($sections as $section) {
+            if($this->hasSection($section)) {
+                $sectionData = $this->sections[$section];
+
+                # remove last newline
+                if(\substr($sectionData, -2) === "\r\n") {
+                    $sectionData = \substr($sectionData, 0, -2);
+                } else if(\substr($sectionData, -1) === "\n") {
+                    $sectionData = \substr($sectionData, 0, -1);
+                }
+
+                return $sectionData;
+            }
+        }
+        return "";
+    }
+    private function hasSection(string ...$sections): bool {
+        foreach($sections as $section) {
+            if(isset($this->sections[$section])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static array $suites = [
+        "all"       => "*.phpt",
+        "tester"    => "test-runner*.phpt",
+        "api"       => "api-*.phpt",
+    ];
+
+    public static function getSuites(): array {
+        return \array_keys(self::$suites);
+    }
+
+    public static function runSuite(string $suite): string {
+        if(!isset(self::$suites[$suite])) {
+            throw new \Exception("Invalid test suite.");
+        }
+        $tests = \glob(__DIR__ . '/' .self::$suites[$suite]);
+        $totalTests = \glob(__DIR__ . '/' .self::$suites["all"]);
+
+        $summary = [
+            "totalTests" => \count($totalTests),
+            "totalSuite" => \count($tests),
+            "failed" => 0,
+            "passed" => 0,
+            "skipped" => 0,
+            "start" => \microtime(true)
+        ];
+
+        echo "=====================================================================\n";
+        echo "Running {$suite} tests:\n";
+        foreach($totalTests as $test) {
+            $skip = !\in_array($test, $tests);
+
+            $runner = new self(\basename($test, ".phpt"));
+            $output = $runner->run($skip);
+
+            if($output["status"] === "error") {
+                $summary["failed"]++;
+                echo "FAIL {$output["testName"]} [{$output["testFile"]}]\n";
+                echo "     {$output["message"]}\n";
+            } else if($output["status"] === "success") {
+                $summary["passed"]++;
+                echo "PASS {$output["testName"]} [{$output["testFile"]}]\n";
+            } else if($output["status"] === "skipped") {
+                $summary["skipped"]++;
+                echo "SKIP {$output["testName"]} [{$output["testFile"]}]\n";
+            } else {
+                $summary["failed"]++;
+                echo "FAIL {$output["testName"]} [{$output["testFile"]}]\n";
+                echo "     Unknown status.\n";
+            }
+        }
+
+        $summary["end"] = \microtime(true);
+        $summary["timeTaken"] = \number_format($summary["end"] - $summary["start"], 2);
+
+        $percentSkipped = \str_pad(\number_format($summary["skipped"] / $summary["totalTests"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
+        $percentFailed1 = \str_pad(\number_format($summary["failed" ] / $summary["totalTests"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
+        $percentFailed2 = \str_pad(\number_format($summary["failed" ] / $summary["totalSuite"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
+        $percentPassed1 = \str_pad(\number_format($summary["passed" ] / $summary["totalTests"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
+        $percentPassed2 = \str_pad(\number_format($summary["passed" ] / $summary["totalSuite"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
+
+        $output ="=====================================================================\n";
+        $output.="Number of tests :    {$summary["totalTests"]}                 {$summary["totalSuite"]}\n";
+        $output.="Tests skipped   :    {$summary["skipped"   ]} ({$percentSkipped}) --------\n";
+        $output.="Tests failed    :    {$summary["failed"    ]} ({$percentFailed1}) ({$percentFailed2})\n";
+        $output.="Tests passed    :    {$summary["passed"    ]} ({$percentPassed1}) ({$percentPassed2})\n";
+        $output.="---------------------------------------------------------------------\n";
+        $output.="Time taken      :    {$summary["timeTaken"]} seconds\n";
+        $output.="=====================================================================\n";
+
+        return $output;
+    }
+}
