@@ -20,9 +20,24 @@ class DevController extends Controller {
     }
 
     #[Request(
-        endpoint: '/dev/test',
+        endpoint: '/dev/test-txt',
         inputType: Input::FORM,
         outputType: Output::RAW
+    )]
+    public function testTxt(array $input): string {
+        if(!isset($input["suite"])) {
+            return "No suite provided";
+        }
+        \ob_start();
+        $output = \hiperesp\tests\Runner::runSuite($input["suite"]);
+        $logs = \ob_get_clean();
+        return "{$logs}{$output}";
+    }
+
+    #[Request(
+        endpoint: '/dev/test',
+        inputType: Input::FORM,
+        outputType: Output::HTML
     )]
     public function test(array $input): string {
         if(!isset($input["suite"])) {
@@ -31,7 +46,15 @@ class DevController extends Controller {
         \ob_start();
         $output = \hiperesp\tests\Runner::runSuite($input["suite"]);
         $logs = \ob_get_clean();
-        return "{$logs}{$output}";
+        $fullOutput = "{$logs}{$output}";
+
+        $fullOutput = \preg_replace("/PASS/", "<span style='background-color: lime;  color: black;font-weight:bold;'>PASS</span>", $fullOutput);
+        $fullOutput = \preg_replace("/FAIL/", "<span style='background-color: red;   color: white;font-weight:bold;'>FAIL</span>", $fullOutput);
+        $fullOutput = \preg_replace("/SKIP/", "<span style='background-color: orange;color: black;font-weight:bold;'>SKIP</span>", $fullOutput);
+
+        $fullOutput = "<body style='background-color: black; color: white'><pre style='white-space: pre-wrap;'>{$fullOutput}</pre></body>";
+
+        return $fullOutput;
     }
 
     #[Request(

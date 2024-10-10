@@ -236,7 +236,7 @@ final class Runner {
             "start" => \microtime(true)
         ];
 
-        echo "=====================================================================\n";
+        echo "===============================================================================================\n";
         echo "Running {$suite} tests:\n";
         foreach($totalTests as $test) {
             $skip = !\in_array($test, $tests);
@@ -244,21 +244,37 @@ final class Runner {
             $runner = new self($test);
             $output = $runner->run($skip);
 
+            $statusStr = "";
+            $testNameStr = $output["testName"];
+            $testFileStr = $output["testFile"];
+            $messageStr = $output["message"];
+
             if($output["status"] === "error") {
                 $summary["failed"]++;
-                echo "FAIL {$output["testName"]} [{$output["testFile"]}]\n";
-                echo "     {$output["message"]}\n";
+                $statusStr = "FAIL";
             } else if($output["status"] === "success") {
                 $summary["passed"]++;
-                echo "PASS {$output["testName"]} [{$output["testFile"]}]\n";
+                $statusStr = "PASS";
+                $messageStr = "";
             } else if($output["status"] === "skipped") {
                 $summary["skipped"]++;
-                echo "SKIP {$output["testName"]} [{$output["testFile"]}]\n";
+                $statusStr = "SKIP";
+                $messageStr = "";
             } else {
                 $summary["failed"]++;
-                echo "FAIL {$output["testName"]} [{$output["testFile"]}]\n";
-                echo "     Unknown status.\n";
+                $statusStr = "FAIL";
+                $messageStr = "Unknown Status.";
             }
+
+            $statusStr = \str_pad("{$statusStr}", 4, ".", \STR_PAD_RIGHT);
+            $testNameStr = \str_pad("{$testNameStr} ", 50, ".", \STR_PAD_RIGHT);
+            $testFileStr = \str_pad(" [{$testFileStr}]", 40, ".", \STR_PAD_LEFT);
+
+            echo "{$statusStr} {$testNameStr}{$testFileStr}\n";
+            if($messageStr) {
+                echo "     {$messageStr}\n";
+            }
+
         }
 
         $summary["end"] = \microtime(true);
@@ -270,14 +286,21 @@ final class Runner {
         $percentPassed1 = \str_pad(\number_format($summary["passed" ] / $summary["totalTests"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
         $percentPassed2 = \str_pad(\number_format($summary["passed" ] / $summary["totalSuite"] * 100, 1)."%", 6, " ", \STR_PAD_LEFT);
 
-        $output ="=====================================================================\n";
-        $output.="Number of tests :    {$summary["totalTests"]}                 {$summary["totalSuite"]}\n";
-        $output.="Tests skipped   :    {$summary["skipped"   ]} ({$percentSkipped}) --------\n";
-        $output.="Tests failed    :    {$summary["failed"    ]} ({$percentFailed1}) ({$percentFailed2})\n";
-        $output.="Tests passed    :    {$summary["passed"    ]} ({$percentPassed1}) ({$percentPassed2})\n";
-        $output.="---------------------------------------------------------------------\n";
-        $output.="Time taken      :    {$summary["timeTaken"]} seconds\n";
-        $output.="=====================================================================\n";
+        $totalTestsStr = \str_pad((string)$summary["totalTests"], 6, " ", \STR_PAD_LEFT);
+        $totalSuiteStr = \str_pad((string)$summary["totalSuite"], 6, " ", \STR_PAD_LEFT);
+        $skippedStr    = \str_pad((string)$summary["skipped"   ], 6, " ", \STR_PAD_LEFT);
+        $failedStr     = \str_pad((string)$summary["failed"    ], 6, " ", \STR_PAD_LEFT);
+        $passedStr     = \str_pad((string)$summary["passed"    ], 6, " ", \STR_PAD_LEFT);
+        $timeTakenStr  = \str_pad((string)$summary["timeTaken" ], 6, " ", \STR_PAD_LEFT);
+
+        $output ="===============================================================================================\n";
+        $output.="Number of tests : {$totalTestsStr}            {$totalSuiteStr}\n";
+        $output.="Tests skipped   : {$skippedStr   } ({$percentSkipped}) --------\n";
+        $output.="Tests failed    : {$failedStr    } ({$percentFailed1}) ({$percentFailed2})\n";
+        $output.="Tests passed    : {$passedStr    } ({$percentPassed1}) ({$percentPassed2})\n";
+        $output.="-----------------------------------------------------------------------------------------------\n";
+        $output.="Time taken      : {$timeTakenStr } seconds\n";
+        $output.="===============================================================================================\n";
 
         return $output;
     }
