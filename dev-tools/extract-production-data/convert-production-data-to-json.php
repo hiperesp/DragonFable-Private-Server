@@ -595,7 +595,7 @@ function convert(string $type, string $file): array {
                     'damageMin'     => (int)$item['@attributes']['intMin'],
                     'damageMax'     => (int)$item['@attributes']['intMax'],
                     'strength'      => (int)$item['@attributes']['intStr'],
-                    'dexerity'      => (int)$item['@attributes']['intDex'],
+                    'dexterity'      => (int)$item['@attributes']['intDex'],
                     'intelligence'  => (int)$item['@attributes']['intInt'],
                     'luck'          => (int)$item['@attributes']['intLuk'],
                     'charisma'      => (int)$item['@attributes']['intCha'],
