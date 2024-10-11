@@ -100,6 +100,7 @@ if($save["mergeShop"]) {
 
         save("mergeShop", $data);
     }
+    include __DIR__."/remove-duplicated-mergeShops-items.php";
 }
 
 if($save["classes"]) {
