@@ -17,7 +17,7 @@ $data = [
     ],
     "interface" => [
         "minId" => 1,
-        "maxId" => 20,
+        "maxId" => 200,
         "skips" => [],
     ],
     "houseShop" => [
@@ -28,6 +28,11 @@ $data = [
     "houseItemShop" => [
         "minId" => 0,
         "maxId" => 200,
+        "skips" => [],
+    ],
+    "mergeShop" => [
+        "minId" => 0,
+        "maxId" => 500,
         "skips" => [],
     ],
     //? classes
@@ -200,6 +205,27 @@ if($choice=="quest") {
             echo "House item shop: {$houseItemShopId} done\n";
         } catch (\Exception $e) {
             echo "House item shop: {$houseItemShopId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+        }
+    }
+
+} else if($choice == "mergeShop") {
+    for($mergeShopId=$data['minId']; $mergeShopId<=$data['maxId']; $mergeShopId++) {
+        if(\in_array($mergeShopId, $data['skips'])) {
+            echo "Skipping merge shop {$mergeShopId}...\n";
+            continue;
+        }
+        if(\file_exists("mergeShops/mergeShop{$mergeShopId}.xml")) {
+            // echo "Merge shop {$mergeShopId} already extracted\n";
+            continue;
+        }
+        echo "Extracting merge shop {$mergeShopId}...\n";
+        try {
+            $mergeShop = getMergeShop($mergeShopId);
+            \file_put_contents("mergeShops/mergeShop{$mergeShopId}.xml", $mergeShop);
+            echo "Merge shop: {$mergeShopId} done\n";
+        } catch (\Exception $e) {
+            echo "Merge shop: {$mergeShopId} failed\n";
             echo "Error: {$e->getMessage()}\n";
         }
     }
@@ -427,7 +453,7 @@ function getHouseItemShop(int $shopId): string {
 
     $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
 
-    if(\strpos($result, '<houseshop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></houseshop>') !== false) {
+    if(\strpos($result, '<houseitemshop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></houseitemshop>') !== false) {
         throw new \Exception('Empty shop');
     }
     $validateXml = \simplexml_load_string($result);
@@ -437,6 +463,59 @@ function getHouseItemShop(int $shopId): string {
     }
     $child0 = $validateXml->children()[0];
     if(!$child0) {
+        echo $result."???";die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getMergeShop(int $shopId): string {
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-mergeshopload.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><intMergeShopID>{$shopId}</intMergeShopID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
+
+    if(\strpos($result, '<mergeshop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></mergeshop>') !== false) {
+        throw new \Exception('Empty shop');
+    }
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result."??";die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
+        echo $result."???";die;
         throw new \Exception('Invalid XML');
     }
     if($child0->getName() === "info") {
