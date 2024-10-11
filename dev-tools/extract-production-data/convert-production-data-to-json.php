@@ -647,9 +647,9 @@ function convert(string $type, string $file): array {
                 "element"       =>                  $class['@attributes']['strElement'],
                 "equippable"    =>                  $class['@attributes']['strEquippable'],
                 "swf"           =>                  $class['@attributes']['strClassFileName'],
-                "savable"       =>                  $class['@attributes']['intSavable'],
-                "armorId"       =>  $armorId = (int)$class['@attributes']['ClassID'] * 2 + 8_000_000,
-                "weaponId"      => $weaponId = (int)$class['@attributes']['ClassID'] * 2 + 8_000_001,
+                "savable"       =>             (int)$class['@attributes']['intSavable'],
+                "armorId"       =>  $armorId = (int)$class['@attributes']['ClassID'] * 2 + 8_000_000 - 2,
+                "weaponId"      => $weaponId = (int)$class['@attributes']['ClassID'] * 2 + 8_000_001 - 2,
             ];
 
             $out["item"][] = [
