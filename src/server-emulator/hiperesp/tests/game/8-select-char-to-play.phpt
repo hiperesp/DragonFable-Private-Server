@@ -77,6 +77,7 @@ Array
                     [strClassFileName] => class-2016warrior-r3.swf
                     [strElement] => Metal
                     [intSavable] => 2
+                    [strEquippable] => Sword,Mace,Dagger,Axe,Ring,Necklace,Staff,Belt,Earring,Bracer,Pet,Cape,Wings,Helmet,Armor,Wand,Scythe,Trinket,Artifact
                     [strArmorName] => Plate Mail
                     [strArmorDescription] => The shiny armor of Warriors!
                     [strArmorResists] => Darkness,5,Light,5
@@ -98,7 +99,6 @@ Array
                     [intDmgMin] => 5
                     [intDmgMax] => 10
                     [intBonus] => 1
-                    [strEquippable] => Sword,Mace,Dagger,Axe,Ring,Necklace,Staff,Belt,Earring,Bracer,Pet,Cape,Wings,Helmet,Armor,Wand,Scythe,Trinket,Artifact
                     [strHairFileName] => head/M/hair-male-hero.swf
                     [intHairFrame] => 1
                     [gemReward] => 0
