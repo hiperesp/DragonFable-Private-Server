@@ -17,7 +17,7 @@ $data = [
     ],
     "interface" => [
         "minId" => 1,
-        "maxId" => 200,
+        "maxId" => 20,
         "skips" => [],
     ],
     "houseShop" => [
