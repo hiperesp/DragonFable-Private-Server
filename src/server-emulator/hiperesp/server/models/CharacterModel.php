@@ -4,6 +4,7 @@ namespace hiperesp\server\models;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\ClassVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
@@ -236,6 +237,41 @@ class CharacterModel extends Model {
             $times[] = \date('Y-m-d H:i:00', \strtotime("-{$i} minutes"));
         }
         return \count($this->storage->select(self::COLLECTION, ['lastTimeSeen' => $times], null));
+    }
+
+    public function chargeCoins(CharacterVO $char, int $coins): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'coins' => $char->coins - $coins
+        ]);
+    }
+
+    public function changeGender(CharacterVO $char, string $gender): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'gender' => $gender
+        ]);
+    }
+
+    public function changeName(CharacterVO $char, string $name): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'name' => $name
+        ]);
+    }
+
+    public function changeClass(CharacterVO $char, ClassVO $class): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'classId' => $class->id
+        ]);
+    }
+
+    public function changePronoun(CharacterVO $char, string $pronoun): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'pronoun' => $pronoun
+        ]);
     }
 
 }

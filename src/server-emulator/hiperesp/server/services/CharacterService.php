@@ -3,6 +3,7 @@ namespace hiperesp\server\services;
 
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterModel;
+use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterVO;
@@ -10,6 +11,7 @@ use hiperesp\server\vo\SettingsVO;
 
 class CharacterService extends Service {
 
+    private ClassModel $classModel;
     private UserModel $userModel;
     private CharacterModel $characterModel;
     private LogsModel $logsModel;
@@ -114,6 +116,22 @@ class CharacterService extends Service {
         $this->characterModel->untrainStats($char, $goldCost);
 
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'untrainStats', 'Stats untrained', $char, $char, []);
+    }
+
+    public function changeClass(CharacterVO $char, int $newClassId): CharacterVO {
+        try {
+            $newClass = $this->classModel->getById($newClassId);
+        } catch(DFException $e) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'changeClass', 'Invalid class', $char, $char, [])->asException($e->getDFCode());
+        }
+
+        $this->characterModel->changeClass($char, $newClass);
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'changeClass', 'Class changed', $char, $char, [
+            'newClassId' => $newClassId
+        ]);
+
+        return $this->characterModel->reload($char);
     }
 
 }

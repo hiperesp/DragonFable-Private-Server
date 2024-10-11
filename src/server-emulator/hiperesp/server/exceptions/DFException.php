@@ -23,6 +23,7 @@ final class DFException extends \Exception {
     const ITEM_NOT_ENOUGH = self::INVALID_REFERENCE;
     const STATS_POINTS_NOT_ENOUGH = self::INVALID_REFERENCE;
     const GOLD_NOT_ENOUGH = self::INVALID_REFERENCE;
+    const DRAGONCOINS_NOT_ENOUGH = self::INVALID_REFERENCE;
     const CANNOT_UNTRAIN_STATS = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";
@@ -144,6 +145,10 @@ final class DFException extends \Exception {
         $exception->dfMessage = $dfMessage;
         $exception->dfAction = $dfAction;
         return $exception;
+    }
+
+    public function getDFCode(): string {
+        return $this->dfCode;
     }
 
 }
