@@ -675,7 +675,7 @@ function convert(string $type, string $file): array {
                 "resists"       =>      $class['@attributes']['strWeaponResists'],
                 "level"         => (int)$class['@attributes']['intWeaponLevel'],
                 "icon"          =>      $class['@attributes']['strWeaponIcon'],
-                "type"          =>      $class['@attributes']['strType'],
+                "type"          =>\trim($class['@attributes']['strType']),
                 "itemType"      =>      $class['@attributes']['strItemType'],
                 "critical"      => (int)$class['@attributes']['intCrit'],
                 "damageMin"     => (int)$class['@attributes']['intDmgMin'],
