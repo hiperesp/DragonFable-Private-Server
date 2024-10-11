@@ -2,11 +2,13 @@
 namespace hiperesp\server\services;
 
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\ClassVO;
 use hiperesp\server\vo\SettingsVO;
 
 class CharacterService extends Service {
@@ -14,6 +16,7 @@ class CharacterService extends Service {
     private ClassModel $classModel;
     private UserModel $userModel;
     private CharacterModel $characterModel;
+    private CharacterItemModel $characterItemModel;
     private LogsModel $logsModel;
 
     private SettingsVO $settings;
@@ -118,7 +121,7 @@ class CharacterService extends Service {
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'untrainStats', 'Stats untrained', $char, $char, []);
     }
 
-    public function changeClass(CharacterVO $char, int $newClassId): CharacterVO {
+    public function changeClass(CharacterVO $char, int $newClassId): ClassVO {
         try {
             $newClass = $this->classModel->getById($newClassId);
         } catch(DFException $e) {
@@ -131,7 +134,46 @@ class CharacterService extends Service {
             'newClassId' => $newClassId
         ]);
 
-        return $this->characterModel->reload($char);
+        return $newClass;
+    }
+
+    public function loadClass(CharacterVO $char, int $newClassId): ClassVO {
+        if($newClassId != $char->classId) {
+            if($this->settings->revalidateClientValues) {
+                $validClass = false;
+                foreach($this->characterItemModel->getByChar($char) as $characterItem) {
+                    $item = $characterItem->getItem();
+                    if(!$item->isArmor()) {
+                        continue;
+                    }
+                    if(\trim($item->swf)==(string)$newClassId) {
+                        $validClass = true;
+                        break;
+                    }
+                }
+                if(!$validClass) {
+                    $actionLog = $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'loadClass', "Invalid class for loadClass. User does not have the required item.", $char, $char, [
+                        'newClassId' => $newClassId
+                    ]);
+                    if($this->settings->banInvalidClientValues) {
+                        $this->userModel->ban($char, 'Invalid class for loadClass.', $actionLog);
+                    }
+                    throw $actionLog->asException(DFException::INVALID_REFERENCE);
+                }
+            }
+        }
+
+        try {
+            $class = $this->classModel->getById($newClassId);
+        } catch(DFException $e) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'loadClass', 'Invalid class', $char, $char, [])->asException($e->getDFCode());
+        }
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'loadClass', 'Class loaded', $char, $char, [
+            'newClassId' => $newClassId
+        ]);
+
+        return $class;
     }
 
 }

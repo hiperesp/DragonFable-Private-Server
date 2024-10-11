@@ -5,6 +5,8 @@ final class DFException extends \Exception {
 
     const DYNAMIC_ERROR = "000.00";
 
+    const CHARACTER_NOT_FOUND = "500.71";
+    const INVALID_SESSION = "500.72";
     const INVALID_REFERENCE = "500.73";
     const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
     const RACE_NOT_FOUND = self::INVALID_REFERENCE;
@@ -30,7 +32,6 @@ final class DFException extends \Exception {
     const EMAIL_ALREADY_EXISTS = "000.50";
     const USER_BANNED = "000.60";
 
-    const CHARACTER_NOT_FOUND = "500.71";
     const USER_NOT_FOUND = "526.14";
     const BAD_REQUEST = "538.07";
 
@@ -100,6 +101,11 @@ final class DFException extends \Exception {
             "dfReason"  => "Invalid Reference",
             "dfMessage" => "Invalid Reference",
             "dfAction"  => "Continue",
+        ],
+        self::INVALID_SESSION => [
+            "dfReason"  => "Account Already in Use",
+            "dfMessage" => "Warning: Your account has been logged into from another web browser terminating this game session. Please use the other browser or re-login.",
+            "dfAction"  => "none",
         ],
         self::USERNAME_ALREADY_EXISTS => [
             "dfReason"  => "Username Already Exists",

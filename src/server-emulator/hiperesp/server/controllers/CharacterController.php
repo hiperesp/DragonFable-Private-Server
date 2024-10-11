@@ -107,18 +107,4 @@ class CharacterController extends Controller {
         return CharacterProjection::instance()->bankLoaded($char);
     }
 
-    #[Request(
-        endpoint: '/cf-changeclass.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::XML
-    )]
-    public function changeClass(\SimpleXMLElement $input): \SimpleXMLElement {
-        $char = $this->characterService->auth($input);
-
-        $char = $this->characterService->changeClass($char, (int)$input->intClassID);
-
-        return CharacterProjection::instance()->classChanged($char);
-
-    }
-
 }

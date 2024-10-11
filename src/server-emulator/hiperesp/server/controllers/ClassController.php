@@ -4,17 +4,37 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\projection\ClassProjection;
+use hiperesp\server\services\CharacterService;
 
 class ClassController extends Controller {
 
-    // [WIP]
+    private CharacterService $characterService;
+
+    #[Request(
+        endpoint: '/cf-changeclass.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function changeClass(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $class = $this->characterService->changeClass($char, (int)$input->intClassID);
+
+        return ClassProjection::instance()->changed($class);
+    }
+
     #[Request(
         endpoint: '/cf-classload.asp',
-        inputType: Input::RAW,
-        outputType: Output::RAW
+        inputType: Input::NINJA2,
+        outputType: Output::XML
     )]
-    public function load(string $input): string {
-        return "";
+    public function loadClass(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $class = $this->characterService->loadClass($char, (int)$input->intClassID);
+
+        return ClassProjection::instance()->loaded($class);
     }
 
 }

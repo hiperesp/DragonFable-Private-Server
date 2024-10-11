@@ -6,6 +6,11 @@ use hiperesp\server\exceptions\DFException;
 
 class ItemVO extends ValueObject {
 
+    const CATEGORY_WEAPON = 1;
+    const CATEGORY_ARMOR = 2;
+    const CATEGORY_PET = 3;
+    const CATEGORY_ITEM = 4;
+
     public readonly string $name;
     public readonly string $description;
     public readonly string $designInfo;
@@ -58,6 +63,22 @@ class ItemVO extends ValueObject {
 
     public function getPriceCoins(): int {
         return $this->getCurrency() === Currency::CURRENCY_DRAGON_COINS ? $this->cost : 0;
+    }
+
+    public function isWeapon(): bool {
+        return $this->categoryId === self::CATEGORY_WEAPON;
+    }
+
+    public function isArmor(): bool {
+        return $this->categoryId === self::CATEGORY_ARMOR;
+    }
+
+    public function isPet(): bool {
+        return $this->categoryId === self::CATEGORY_PET;
+    }
+
+    public function isItem(): bool {
+        return $this->categoryId === self::CATEGORY_ITEM;
     }
 
 }
