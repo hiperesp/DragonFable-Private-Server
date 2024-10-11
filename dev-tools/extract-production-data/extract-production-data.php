@@ -35,13 +35,15 @@ $data = [
         "maxId" => 500,
         "skips" => [],
     ],
-    //? classes
+    "classes" => [
+        "minId" => 0,
+        "maxId" => 200,
+        "skips" => [],
+    ],
     //? dragoncustomize
     //? dragons
     //? equipment
     //? hairlist (extracted all from signup, need more) + hair vendors
-    //? interfaces
-    //? item merges + merge vendors
     //? quest merge
     //? vendors
     //? wars
@@ -226,6 +228,27 @@ if($choice=="quest") {
             echo "Merge shop: {$mergeShopId} done\n";
         } catch (\Exception $e) {
             echo "Merge shop: {$mergeShopId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+        }
+    }
+
+} else if($choice == "classes") {
+    for($classId=$data['minId']; $classId<=$data['maxId']; $classId++) {
+        if(\in_array($classId, $data['skips'])) {
+            echo "Skipping class {$classId}...\n";
+            continue;
+        }
+        if(\file_exists("classes/class{$classId}.xml")) {
+            // echo "Class {$classId} already extracted\n";
+            continue;
+        }
+        echo "Extracting class {$classId}...\n";
+        try {
+            $class = getClasses($classId);
+            \file_put_contents("classes/class{$classId}.xml", $class);
+            echo "Class: {$classId} done\n";
+        } catch (\Exception $e) {
+            echo "Class: {$classId} failed\n";
             echo "Error: {$e->getMessage()}\n";
         }
     }
@@ -507,6 +530,57 @@ function getMergeShop(int $shopId): string {
 
     if(\strpos($result, '<mergeshop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></mergeshop>') !== false) {
         throw new \Exception('Empty shop');
+    }
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result."??";die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
+        echo $result."???";die;
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getClasses(int $classId): string {
+    global $sessionToken;
+    global $charId;
+
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-classload.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><intClassID>{$classId}</intClassID><strToken>{$sessionToken}</strToken><intCharID>{$charId}</intCharID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
+
+    if(\strpos($result, '<ClassLoad xmlns:sql="urn:schemas-microsoft-com:xml-sql"></ClassLoad>') !== false) {
+        throw new \Exception('Empty class');
     }
     $validateXml = \simplexml_load_string($result);
     if($validateXml === false) {
