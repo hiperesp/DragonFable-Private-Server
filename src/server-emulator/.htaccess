@@ -1,4 +1,4 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_URI} \.sqlite3$ [NC]
+RewriteCond %{REQUEST_FILENAME} \.(sqlite3|json)$ [NC]
 RewriteRule .* - [F,L]

@@ -25,6 +25,11 @@ $data = [
         "maxId" => 20,
         "skips" => [],
     ],
+    "houseItemShop" => [
+        "minId" => 0,
+        "maxId" => 200,
+        "skips" => [],
+    ],
     //? classes
     //? dragoncustomize
     //? dragons
@@ -174,6 +179,27 @@ if($choice=="quest") {
             echo "House shop: {$houseShopId} done\n";
         } catch (\Exception $e) {
             echo "House shop: {$houseShopId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+        }
+    }
+
+} else if($choice == "houseItemShop") {
+    for($houseItemShopId=$data['minId']; $houseItemShopId<=$data['maxId']; $houseItemShopId++) {
+        if(\in_array($houseItemShopId, $data['skips'])) {
+            echo "Skipping house item shop {$houseItemShopId}...\n";
+            continue;
+        }
+        if(\file_exists("houseItemShops/houseItemShop{$houseItemShopId}.xml")) {
+            // echo "House item shop {$houseItemShopId} already extracted\n";
+            continue;
+        }
+        echo "Extracting house item shop {$houseItemShopId}...\n";
+        try {
+            $houseItemShop = getHouseItemShop($houseItemShopId);
+            \file_put_contents("houseItemShops/houseItemShop{$houseItemShopId}.xml", $houseItemShop);
+            echo "House item shop: {$houseItemShopId} done\n";
+        } catch (\Exception $e) {
+            echo "House item shop: {$houseItemShopId} failed\n";
             echo "Error: {$e->getMessage()}\n";
         }
     }
@@ -364,6 +390,53 @@ function getHouseShop(int $shopId): string {
     $child0 = $validateXml->children()[0];
     if(!$child0) {
         echo $result."???";die;
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getHouseItemShop(int $shopId): string {
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-loadhouseitemshop.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><intHouseItemShopID>{$shopId}</intHouseItemShopID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
+
+    if(\strpos($result, '<houseshop xmlns:sql="urn:schemas-microsoft-com:xml-sql"></houseshop>') !== false) {
+        throw new \Exception('Empty shop');
+    }
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result."??";die;
+        throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
         throw new \Exception('Invalid XML');
     }
     if($child0->getName() === "info") {
