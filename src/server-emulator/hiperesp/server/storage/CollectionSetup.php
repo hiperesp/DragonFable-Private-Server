@@ -239,12 +239,13 @@ final class CollectionSetup {
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"      => [ 'STRING' => 20 ],
                 "element"   => [ 'STRING' => 255 ],
+                "equippable"=> [ 'STRING' => 255 ],
                 "swf"       => [ 'STRING' => 255 ],
                 "armorId"   => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "weaponId"  => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "savable"   => [ 'INTEGER' ],
             ],
-            "data" => "class.json",
+            "data" => "class/",
         ],
         "char" => [
             "structure" => [
