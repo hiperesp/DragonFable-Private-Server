@@ -19,7 +19,7 @@ class UserVO extends ValueObject {
     public readonly int $upgraded;
     public readonly int $special;
     public readonly int $activated; // is account activated by email?
-    public readonly int $optIn;     // opt in for newsletter
+    public readonly int $optIn;     // opt in for newsletter: used at https://github.com/hiperesp/DragonFable-Private-Server/issues/49#issuecomment-2406559101
 
     public readonly bool $banned;
     public readonly ?string $lastLogin;
