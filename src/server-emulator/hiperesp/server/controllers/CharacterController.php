@@ -96,4 +96,15 @@ class CharacterController extends Controller {
         return CharacterProjection::instance()->statsUntrained($char);
     }
 
+    #[Request(
+        endpoint: '/cf-bankload.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function bankLoad(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        return CharacterProjection::instance()->bankLoaded($char);
+    }
+
 }

@@ -262,4 +262,13 @@ class CharacterProjection extends Projection {
         return $xml;
     }
 
+    public function bankLoaded(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<bank/>');
+        $bankEl = $xml->addChild('bank');
+        $bankEl->addAttribute('bankID', $char->id);
+        $bankEl->addAttribute('strCharacterName', $char->name);
+
+        return $xml;
+    }
+
 }
