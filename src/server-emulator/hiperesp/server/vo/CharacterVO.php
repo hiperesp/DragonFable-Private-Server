@@ -132,16 +132,6 @@ class CharacterVO extends ValueObject {
         }
     }
 
-    public string $equippable {
-        get {
-            return \implode(",", [
-                "Sword", "Mace", "Dagger", "Axe", "Ring", "Necklace", "Staff", "Belt", "Earring",
-                "Bracer", "Pet", "Cape", "Wings", "Helmet", "Armor", "Wand", "Scythe", "Trinket",
-                "Artifact"
-            ]);
-        }
-    }
-
     public function canBuyItem(ItemVO $item): bool {
         if($this->coins < $item->getPriceCoins()) {
             return false;

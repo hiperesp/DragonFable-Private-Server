@@ -116,6 +116,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('strClassFileName', $class->swf);
         $charEl->addAttribute('strElement', $class->element);
         $charEl->addAttribute('intSavable', $class->savable);
+        $charEl->addAttribute('strEquippable', $class->equippable);
 
         $armor = $this->armorModel->getByClass($class);
         $charEl->addAttribute('strArmorName', $armor->name);
@@ -141,8 +142,6 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDmgMin', $weapon->damageMin);
         $charEl->addAttribute('intDmgMax', $weapon->damageMax);
         $charEl->addAttribute('intBonus', $weapon->bonus);
-
-        $charEl->addAttribute('strEquippable', $char->equippable);
 
         $hair = $this->hairModel->getByChar($char);
         $charEl->addAttribute('strHairFileName', $hair->swf);
@@ -279,6 +278,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('strClassFileName', $class->swf);
         $charEl->addAttribute('strElement', $class->element);
         $charEl->addAttribute('intSavable', $class->savable);
+        $charEl->addAttribute('strEquippable', $class->equippable);
 
         $armor = $this->armorModel->getByClass($class);
         $charEl->addAttribute('strArmorName', $armor->name);
@@ -303,8 +303,6 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDmgMin', $weapon->damageMin);
         $charEl->addAttribute('intDmgMax', $weapon->damageMax);
         $charEl->addAttribute('intBonus', $weapon->bonus);
-
-        $charEl->addAttribute('strEquippable', $char->equippable);
 
         return $xml;
     }
