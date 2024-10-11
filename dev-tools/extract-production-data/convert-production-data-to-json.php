@@ -7,7 +7,10 @@ $save = [
     "quest" => false,
     "shop" => false,
     "interface" => false,
-    "houseShop" => true,
+    "houseShop" => false,
+    "houseItemShop" => false,
+    "mergeShop" => false,
+    "classes" => false,
 ];
 
 if($save["quest"]) {
@@ -69,6 +72,48 @@ if($save["houseShop"]) {
     }
 }
 
+if($save["houseItemShop"]) {
+    $shopFiles = \scandir(__DIR__."/houseItemShops");
+    \usort($shopFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($shopFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        $data = convert("houseItemShop", __DIR__."/houseItemShops/".$file);
+
+        save("houseItemShop", $data);
+    }
+}
+
+if($save["mergeShop"]) {
+    $shopFiles = \scandir(__DIR__."/mergeShops");
+    \usort($shopFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($shopFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        $data = convert("mergeShop", __DIR__."/mergeShops/".$file);
+
+        save("mergeShop", $data);
+    }
+}
+
+if($save["classes"]) {
+    $classFiles = \scandir(__DIR__."/classes");
+    \usort($classFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($classFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        $data = convert("classes", __DIR__."/classes/".$file);
+
+        save("classes", $data);
+    }
+}
+
 function save(string $type, array $newData): void {
     static $uniqueId = 9_900_000;
 
@@ -77,6 +122,8 @@ function save(string $type, array $newData): void {
         "quest" => [ "race", "quest", "monster", "quest_monster", "item" ],
         "interface" => [ "interface" ],
         "houseShop" => [ "houseShop", "house", "houseShop_house" ],
+        "houseItemShop" => [ "houseItemShop", "houseItem", "houseItemShop_houseItem" ],
+        
     };
 
     $outDir = __DIR__."/json/";
