@@ -237,7 +237,7 @@ final class CollectionSetup {
         "class" => [
             "structure" => [
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"      => [ 'STRING' => 20 ],
+                "name"      => [ 'STRING' => 255 ],
                 "element"   => [ 'STRING' => 255 ],
                 "equippable"=> [ 'STRING' => 255 ],
                 "swf"       => [ 'STRING' => 255 ],
