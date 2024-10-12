@@ -16,6 +16,9 @@ $response["character"]["@attributes"]["dateCreated"] = "2024-10-10T00:00:00";
 $response["character"]["@attributes"]["isBirthday"] = "0";
 $response["character"]["@attributes"]["intDragonAmulet"] = -1;
 $response["character"]["@attributes"]["intAccesslevel"] = -1;
+$response["character"]["@attributes"]["intMaxBagSlots"] = -1;
+$response["character"]["@attributes"]["intMaxHouseSlots"] = -1;
+$response["character"]["@attributes"]["intMaxHouseItemSlots"] = -1;
 
 print_r($response);
 
@@ -38,10 +41,10 @@ Array
                     [intGold] => 1000
                     [intGems] => 0
                     [intCoins] => 0
-                    [intMaxBagSlots] => 30
+                    [intMaxBagSlots] => -1
                     [intMaxBankSlots] => 0
-                    [intMaxHouseSlots] => 5
-                    [intMaxHouseItemSlots] => 20
+                    [intMaxHouseSlots] => -1
+                    [intMaxHouseItemSlots] => -1
                     [intDragonAmulet] => -1
                     [intAccesslevel] => -1
                     [strGender] => M
