@@ -1,4 +1,4 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} \.(sqlite3|json)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !/server\.php$ [NC]
 RewriteRule .* - [F,L]
