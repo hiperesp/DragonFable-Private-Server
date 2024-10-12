@@ -14,6 +14,8 @@ $response = \json_decode(\json_encode($response), true);
 $response["character"]["@attributes"]["CharID"] = -1;
 $response["character"]["@attributes"]["dateCreated"] = "2024-10-10T00:00:00";
 $response["character"]["@attributes"]["isBirthday"] = "0";
+$response["character"]["@attributes"]["intDragonAmulet"] = -1;
+$response["character"]["@attributes"]["intAccesslevel"] = -1;
 
 print_r($response);
 
@@ -40,8 +42,8 @@ Array
                     [intMaxBankSlots] => 0
                     [intMaxHouseSlots] => 5
                     [intMaxHouseItemSlots] => 20
-                    [intDragonAmulet] => 0
-                    [intAccesslevel] => 0
+                    [intDragonAmulet] => -1
+                    [intAccesslevel] => -1
                     [strGender] => M
                     [strPronoun] => M
                     [intColorHair] => 7027237
