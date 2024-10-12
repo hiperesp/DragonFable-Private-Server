@@ -51,15 +51,15 @@ final class CollectionSetup {
 
                 "detailed404ClientError"=> [ "BIT", 'DEFAULT' => 1 ],
             ],
-            "data" => [
+            "data" => [// See README.md (help > settings).
                 [
                     "id"                    => 1,
 
                     "gameSwf"               => "game15_9_04-patched.swf",
                     "serverVersion"         => "Build 15.9.04 alpha", // appears in the game client version, only display
                     //                                this is the ^ last visible char (aprox. 19 chars)
-                    "serverLocation"        => "server-emulator/server.php/", // "http://localhost:40000/server-emulator/server.php/";
-                    "gamefilesPath"         => "cdn/gamefiles/", // "http://localhost:40000/cdn/gamefiles/";
+                    "serverLocation"        => "server-emulator/server.php/", // You can also use something like "http://localhost:40000/server-emulator/server.php/";
+                    "gamefilesPath"         => "cdn/gamefiles/remote.php/",   // You can also use something like "http://localhost:40000/cdn/gamefiles/remote.php/";
 
                     "homeUrl"               => "../../../index.html",
                     "playUrl"               => "../../../play.html",
