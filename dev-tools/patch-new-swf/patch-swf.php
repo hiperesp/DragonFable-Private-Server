@@ -1,6 +1,6 @@
 <?php
 define('OS', 'windows'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_04');
+define('SWF_FILE', 'game15_9_11');
 
 $replaces = [
     # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
