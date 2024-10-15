@@ -5,6 +5,7 @@ use hiperesp\server\enums\Currency;
 use hiperesp\server\exceptions\DFException;
 
 class ItemVO extends ValueObject {
+    public readonly int $id;
 
     const CATEGORY_WEAPON = 1;
     const CATEGORY_ARMOR = 2;

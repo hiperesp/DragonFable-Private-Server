@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 class MonsterVO extends ValueObject {
+    public readonly int $id;
 
     private SettingsVO $settings;
 

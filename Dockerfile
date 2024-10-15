@@ -1,4 +1,4 @@
-FROM php:8.4-rc-apache AS base
+FROM php:8.2-apache AS base
 
 RUN a2enmod rewrite headers
 

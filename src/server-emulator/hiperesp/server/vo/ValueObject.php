@@ -4,7 +4,7 @@ namespace hiperesp\server\vo;
 use hiperesp\server\util\AutoInstantiate;
 
 abstract class ValueObject {
-
+    #[\Override]
     public readonly int $id;
 
     final public function __construct(array $data) {
@@ -31,7 +31,6 @@ abstract class ValueObject {
             if($propertyType == null) throw new \Exception("Property {$propertyName} has no type");
 
             if($propertyType->getName() === SettingsVO::class) continue;
-            if($property->getHooks()) continue;
 
             if(!$propertyType->isBuiltin()) {
                 if(\is_subclass_of($propertyType->getName(), \hiperesp\server\models\Model::class)) {

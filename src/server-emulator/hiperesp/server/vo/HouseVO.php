@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 class HouseVO extends ValueObject {
+    public readonly int $id;
 
     public readonly string $name;
     public readonly string $description;

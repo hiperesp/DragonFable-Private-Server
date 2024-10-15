@@ -4,6 +4,7 @@ namespace hiperesp\server\vo;
 use hiperesp\server\exceptions\DFException;
 
 class LogsVO extends ValueObject {
+    public readonly int $id;
 
     public readonly string $createdAt;
 

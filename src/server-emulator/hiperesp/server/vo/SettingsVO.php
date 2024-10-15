@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 class SettingsVO extends ValueObject {
+    public readonly int $id;
 
     public readonly string $gameSwf;
     public readonly string $serverVersion;

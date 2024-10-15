@@ -4,6 +4,7 @@ namespace hiperesp\server\vo;
 use hiperesp\server\models\UserModel;
 
 class CharacterVO extends ValueObject {
+    public readonly int $id;
 
     private UserModel $userModel;
     private SettingsVO $settings;
@@ -58,78 +59,64 @@ class CharacterVO extends ValueObject {
     public readonly int $classId;
     public readonly int $baseClassId;
 
-    public int $experienceToLevel {
-        get {
-            $expToLevel = match(true) {
-                // level values extracted from https://forums2.battleon.com/f/tm.asp?m=18647631
-                $this->level < 10 => \pow(2, $this->level) * 10, // OK
-                $this->level < 60 => 90 * \pow($this->level - 10, 2) + 1800 * ($this->level - 10) + 9000,
-                // the next equation was taken from wolframalpha.com, prompting by
-                // "interpolate polynomial {(0, 346480), (1, 363072), (2, 380184), (3, 397824), (4, 416000), (5, 434720)}"
-                $this->level < 80 =>  4 * \pow($this->level - 60, 3) / 3 + 256 * \pow($this->level - 60, 2) + 49004 * ($this->level - 60) / 3 + 346480,
-                $this->level < 81 =>   787_360,
-                $this->level < 84 =>   815_000 + ($this->level - 81) * 29_000,
-                $this->level < 87 =>   873_000 + ($this->level - 83) * 30_000,
-                $this->level < 88 => 1_000_000,
-                $this->level < 89 => 1_037_000,
-                $this->level < 90 => 1_075_000,
-                # custom
-                $this->level < 96 => 1_075_000 + 41_000 * ($this->level - 90),
-                default           => 1_280_000 + 48_000 * ($this->level - 95),
-            };
-            if($expToLevel <= $this->experience) {
-                $expToLevel = $this->experience + 1;
-            }
-            return $expToLevel;
+    public function getExperienceToLevel(): int {
+        $expToLevel = match(true) {
+            // level values extracted from https://forums2.battleon.com/f/tm.asp?m=18647631
+            $this->level < 10 => \pow(2, $this->level) * 10, // OK
+            $this->level < 60 => 90 * \pow($this->level - 10, 2) + 1800 * ($this->level - 10) + 9000,
+            // the next equation was taken from wolframalpha.com, prompting by
+            // "interpolate polynomial {(0, 346480), (1, 363072), (2, 380184), (3, 397824), (4, 416000), (5, 434720)}"
+            $this->level < 80 =>  4 * \pow($this->level - 60, 3) / 3 + 256 * \pow($this->level - 60, 2) + 49004 * ($this->level - 60) / 3 + 346480,
+            $this->level < 81 =>   787_360,
+            $this->level < 84 =>   815_000 + ($this->level - 81) * 29_000,
+            $this->level < 87 =>   873_000 + ($this->level - 83) * 30_000,
+            $this->level < 88 => 1_000_000,
+            $this->level < 89 => 1_037_000,
+            $this->level < 90 => 1_075_000,
+            # custom
+            $this->level < 96 => 1_075_000 + 41_000 * ($this->level - 90),
+            default           => 1_280_000 + 48_000 * ($this->level - 95),
+        };
+        if($expToLevel <= $this->experience) {
+            $expToLevel = $this->experience + 1;
         }
+        return $expToLevel;
     }
 
-    public int $statPoints {
-        get {
-            return ($this->level - 1) * 5;
-        }
+    public function getStatPoints(): int {
+        return ($this->level - 1) * 5;
     }
 
-    public int $accessLevel {
-        get {
-            return $this->dragonAmulet ? 1 : 0;
-        }
+    public function getAccessLevel(): int {
+        return $this->dragonAmulet ? 1 : 0;
     }
 
-    public int $maxBagSlots {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedMaxBagSlots;
-            }
-            return $this->settings->nonUpgradedMaxBagSlots;
+    public function getMaxBagSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxBagSlots;
         }
+        return $this->settings->nonUpgradedMaxBagSlots;
     }
 
-    public int $maxBankSlots {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedMaxBankSlots;
-            }
-            return $this->settings->nonUpgradedMaxBankSlots;
+    public function getMaxBankSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxBankSlots;
         }
+        return $this->settings->nonUpgradedMaxBankSlots;
     }
 
-    public int $maxHouseSlots {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedMaxHouseSlots;
-            }
-            return $this->settings->nonUpgradedMaxHouseSlots;
+    public function getMaxHouseSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxHouseSlots;
         }
+        return $this->settings->nonUpgradedMaxHouseSlots;
     }
 
-    public int $maxHouseItemSlots {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedMaxHouseItemSlots;
-            }
-            return $this->settings->nonUpgradedMaxHouseItemSlots;
+    public function getMaxHouseItemSlots(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedMaxHouseItemSlots;
         }
+        return $this->settings->nonUpgradedMaxHouseItemSlots;
     }
 
     public function canBuyItem(ItemVO $item): bool {

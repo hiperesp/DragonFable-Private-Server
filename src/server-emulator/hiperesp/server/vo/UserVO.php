@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 class UserVO extends ValueObject {
+    public readonly int $id;
 
     private SettingsVO $settings;
 
@@ -31,50 +32,44 @@ class UserVO extends ValueObject {
         return $user;
     }
 
-    public int $accessLevel {
-        get {
-            //   From game.swf:
-            //     < 0 = Disabled,
-            //     0 or 2 = Normal (Free or Upgraded),
-            //     Any other value = Special
-            //   What I think about the values:
-            //     -1 = disabled,
-            //     0 = free,
-            //     1 = special,
-            //     2 = upgraded
-            if($this->banned) {
-                return -1;
-            }
-            if($this->special) {
-                return 1;
-            }
-            if($this->upgraded) {
-                return 2;
-            }
-
-            return 0;
+    public function getAccessLevel(): int {
+        //   From game.swf:
+        //     < 0 = Disabled,
+        //     0 or 2 = Normal (Free or Upgraded),
+        //     Any other value = Special
+        //   What I think about the values:
+        //     -1 = disabled,
+        //     0 = free,
+        //     1 = special,
+        //     2 = upgraded
+        if($this->banned) {
+            return -1;
         }
+        if($this->special) {
+            return 1;
+        }
+        if($this->upgraded) {
+            return 2;
+        }
+
+        return 0;
     }
 
-    public int $upgradedFlag { // this flag is how many chars is upgraded, but 2 to 5 is same as 0
-        get {
-            if($this->upgraded) {
-                if($this->settings->canDeleteUpgradedChar) {
-                    return 6; // user upgraded entire account, all chars can be deleted and new chars will be upgraded
-                }
-                return 1; // user upgraded a single char, user cant delete upgraded chars
+    public function getUpgradedFlag(): int { // this flag is how many chars is upgraded, but 2 to 5 is same as 0
+        if($this->upgraded) {
+            if($this->settings->canDeleteUpgradedChar) {
+                return 6; // user upgraded entire account, all chars can be deleted and new chars will be upgraded
             }
-            return 0; // user not upgraded, can delete all chars
+            return 1; // user upgraded a single char, user cant delete upgraded chars
         }
+        return 0; // user not upgraded, can delete all chars
     }
 
-    public int $charsAllowed {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedChars;
-            }
-            return $this->settings->nonUpgradedChars;
+    public function getCharsAllowed(): int {
+        if($this->getAccessLevel() > 0) {
+            return $this->settings->upgradedChars;
         }
+        return $this->settings->nonUpgradedChars;
     }
 
     public function isBirthday(): bool {

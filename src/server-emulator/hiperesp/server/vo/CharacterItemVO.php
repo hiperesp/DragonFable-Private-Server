@@ -5,6 +5,7 @@ use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ItemModel;
 
 class CharacterItemVO extends ValueObject {
+    public readonly int $id;
 
     private ItemModel $itemModel;
     private CharacterModel $characterModel;
@@ -19,16 +20,14 @@ class CharacterItemVO extends ValueObject {
     public readonly bool $equipped;
     public readonly bool $count;
 
-    public int $hoursOwned {
-        get {
-            $todaySeconds = \strtotime(\date('c'));
-            $ownedAtSeconds = \strtotime($this->createdAt);
+    public function getHoursOwned(): int {
+        $todaySeconds = \strtotime(\date('c'));
+        $ownedAtSeconds = \strtotime($this->createdAt);
 
-            $secondsOwned = $todaySeconds - $ownedAtSeconds;
-            $hoursOwned = (int)\floor($secondsOwned / 3600);
+        $secondsOwned = $todaySeconds - $ownedAtSeconds;
+        $hoursOwned = (int)\floor($secondsOwned / 3600);
 
-            return $hoursOwned;
-        }
+        return $hoursOwned;
     }
 
     public function getItem(): ItemVO {

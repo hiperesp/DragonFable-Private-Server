@@ -67,12 +67,12 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intGold', $char->gold);
         $charEl->addAttribute('intGems', $char->gems);
         $charEl->addAttribute('intCoins', $char->coins);
-        $charEl->addAttribute('intMaxBagSlots', $char->maxBagSlots);
-        $charEl->addAttribute('intMaxBankSlots', $char->maxBankSlots);
-        $charEl->addAttribute('intMaxHouseSlots', $char->maxHouseSlots);
-        $charEl->addAttribute('intMaxHouseItemSlots', $char->maxHouseItemSlots);
+        $charEl->addAttribute('intMaxBagSlots', $char->getMaxBagSlots());
+        $charEl->addAttribute('intMaxBankSlots', $char->getMaxBankSlots());
+        $charEl->addAttribute('intMaxHouseSlots', $char->getMaxHouseSlots());
+        $charEl->addAttribute('intMaxHouseItemSlots', $char->getMaxHouseItemSlots());
         $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
-        $charEl->addAttribute('intAccesslevel', $char->accessLevel);
+        $charEl->addAttribute('intAccesslevel', $char->getAccessLevel());
         $charEl->addAttribute('strGender', $char->gender);
         $charEl->addAttribute('strPronoun', $char->pronoun);
         $charEl->addAttribute('intColorHair', \hexdec($char->colorHair));
@@ -92,7 +92,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('strArmor', $char->armor);
         $charEl->addAttribute('strSkills', $char->skills);
         $charEl->addAttribute('strQuests', $char->quests);
-        $charEl->addAttribute('intExpToLevel', $char->experienceToLevel);
+        $charEl->addAttribute('intExpToLevel', $char->getExperienceToLevel());
 
         $charEl->addAttribute('GuildID', 1);
         $charEl->addAttribute('strGuildName', "None");
@@ -116,7 +116,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('strClassFileName', $class->swf);
         $charEl->addAttribute('strElement', $class->element);
         $charEl->addAttribute('intSavable', $class->savable);
-        $charEl->addAttribute('strEquippable', $class->equippable);
+        $charEl->addAttribute('strEquippable', $class->getEquippable());
 
         $armor = $this->armorModel->getByClass($class);
         $charEl->addAttribute('strArmorName', $armor->name);
@@ -157,7 +157,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('CharItemID', $characterItem->id);
             $itemEl->addAttribute('bitEquipped', $characterItem->equipped ? 1 : 0);
             $itemEl->addAttribute('intCount', $characterItem->count);
-            $itemEl->addAttribute('intHoursOwned', $characterItem->hoursOwned);
+            $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned());
 
             $item = $this->itemModel->getByCharItem($characterItem);
 
@@ -223,7 +223,7 @@ class CharacterProjection extends Projection {
         $questRewardEl->addAttribute('intGems', $char->gems);
         $questRewardEl->addAttribute('intSkillPoints', 0); // unused at game.swf
         $questRewardEl->addAttribute('intStatPoints', 0);  // unused at game.swf
-        $questRewardEl->addAttribute('intExpToLevel', $char->experienceToLevel);
+        $questRewardEl->addAttribute('intExpToLevel', $char->getExperienceToLevel());
         return $xml;
     }
 

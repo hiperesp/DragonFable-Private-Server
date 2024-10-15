@@ -151,7 +151,7 @@ class CharacterModel extends Model {
         }
 
         // if player gets more experience than needed to level up, will level up only once
-        if($experience >= $char->experienceToLevel) {
+        if($experience >= $char->getExperienceToLevel()) {
             $experience = 0;
             $level++;
         }

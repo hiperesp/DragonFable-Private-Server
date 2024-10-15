@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 class ClassVO extends ValueObject {
+    public readonly int $id;
 
     public readonly string $name;
     public readonly string $element;
@@ -11,14 +12,12 @@ class ClassVO extends ValueObject {
     public readonly int $weaponId;
     public readonly int $savable;
 
-    public string $equippable { // will be changed later. See #62
-        get {
-            return \implode(",", [
-                "Sword", "Mace", "Dagger", "Axe", "Ring", "Necklace", "Staff", "Belt", "Earring",
-                "Bracer", "Pet", "Cape", "Wings", "Helmet", "Armor", "Wand", "Scythe", "Trinket",
-                "Artifact"
-            ]);
-        }
+    public function getEquippable(): string { // will be changed later. See #62
+        return \implode(",", [
+            "Sword", "Mace", "Dagger", "Axe", "Ring", "Necklace", "Staff", "Belt", "Earring",
+            "Bracer", "Pet", "Cape", "Wings", "Helmet", "Armor", "Wand", "Scythe", "Trinket",
+            "Artifact"
+        ]);
     }
 
 }
