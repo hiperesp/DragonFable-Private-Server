@@ -5,10 +5,7 @@ A private server for DragonFable, allowing custom game and server file locations
 ### Patched files:
 
 - `/src/cdn/loader/DFLoader-patched.swf`: Added ability to change the gamefiles path + server path through DFversion by flashvars (if not provided, `web/DFversion.txt` will be used)
-- `/src/cdn/gamefiles/game15_8_05-patched.swf`: Match server path from `DFLoader-patched.swf`
-- `/src/cdn/gamefiles/game15_9_00-patched.swf`: Match server path from `DFLoader-patched.swf`
-- `/src/cdn/gamefiles/game15_9_03-patched.swf`: Match server path from `DFLoader-patched.swf`
-- `/src/cdn/gamefiles/game15_9_04-patched.swf`: Match server path from `DFLoader-patched.swf`
+- `/src/cdn/gamefiles/game*-patched.swf`: Some bug fixes + Improvements + Match server path from `DFLoader-patched.swf`
 - `/src/cdn/flash/usersignup-9Dec15-patched.swf`: Match server path like `DFLoader-patched.swf`
 
 ### Features:
@@ -37,10 +34,34 @@ A private server for DragonFable, allowing custom game and server file locations
     - Using a .env.php file:
         Copy the /src/server-emulator/.env.default.php to /src/server-emulator/.env.php and edit the values as needed.
 
+    You can use MySQL or SQLite. See `/src/server-emulator/.env.default.php` for more details.
+
     **Note**: If you don't create the .env.php file, the server will use the default system environment variables.
 
 4. (Optional) Download the offline gamefiles from [here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) and extract it to `/src/cdn/gamefiles/`\
-    **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
+    **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the cache mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
+
+### Setup on shared hosting:
+
+Verify if your hosting provider supports PHP 8.4 with apache2.
+
+1. Clone this repository to your local machine:
+    ```sh
+    git clone https://github.com/hiperesp/DragonFable-Private-Server/
+    ```
+
+2. Upload the following dirs to your hosting provider:
+    - `/src/cdn/` to `public_html/cdn/`
+    - `/src/server-emulator/` to `public_html/server-emulator/`
+    - `/src/web/` to `public_html/` (move the files to the root dir)
+
+3. Configure the server:
+    Copy the `/src/server-emulator/.env.default.php` to `/src/server-emulator/.env.php` and edit the values as needed.
+
+    You can use MySQL or SQLite. See `/src/server-emulator/.env.default.php` for more details.
+
+4. (Optional) Download the offline gamefiles from [here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) and extract it to `public_html/cdn/gamefiles/`\
+    **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the cache mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
 
 ### Usage:
 
