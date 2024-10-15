@@ -148,7 +148,7 @@ function extractSwf($swf) {
     $file = __DIR__."/../../src/cdn/gamefiles/{$swf}";
 
     $swfUrl = \str_replace(' ', '%20', $swf);
-    $url = "http://localhost:40000/cdn/gamefiles/{$swfUrl}";
+    $url = "http://localhost:40000/cdn/gamefiles/cache.php/{$swfUrl}";
 
     if(\file_exists($file)) {
         $data = \file_get_contents($file);
