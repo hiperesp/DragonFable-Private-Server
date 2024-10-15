@@ -14,7 +14,7 @@ class MonsterModel extends Model {
     /** @return array<MonsterVO> */
     public function getByQuest(QuestVO $quest): array {
         $monsterIds = \array_map(function(array $monster): int {
-            return $monster['monsterId'];
+            return (int)$monster['monsterId'];
         }, $this->storage->select(self::QUEST_ASSOCIATION, ['questId' => $quest->id], null));
 
         return \array_map(function(array $monster): MonsterVO {
