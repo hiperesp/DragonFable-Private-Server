@@ -17,9 +17,18 @@ class MonsterModel extends Model {
             return (int)$monster['monsterId'];
         }, $this->storage->select(self::QUEST_ASSOCIATION, ['questId' => $quest->id], null));
 
-        return \array_map(function(array $monster): MonsterVO {
+        $monsters = \array_map(function(array $monster): MonsterVO {
             return new MonsterVO($monster);
         }, $this->storage->select(self::COLLECTION, ['id' => $monsterIds], null));
+
+        return \array_map(function(int $monsterId) use ($monsters): MonsterVO {
+            foreach($monsters as $monster) {
+                if($monster->id === $monsterId) {
+                    return $monster;
+                }
+            }
+            throw new DFException(DFException::MONSTER_NOT_FOUND);
+        }, $monsterIds);
     }
 
     public function getById(int $monsterId): MonsterVO {
