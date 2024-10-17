@@ -1,18 +1,17 @@
 <?php
+// $sessionToken = "SESSION_TOKEN_HERE";
+// $charId = 0;
 
 $data = [
-    "quest" => [
+    "quest" => [ // need session token and char id
         "minId" => 1,
-        "maxId" => 2172,
+        "maxId" => 2200,
         "skips" => [],
-        "onlyIds" => [
-            # lvl
-            462, 
-        ],
+        "onlyIds" => [],
     ],
     "shop" => [
         "minId" => 0,
-        "maxId" => 817,
+        "maxId" => 900,
         "skips" => [],
     ],
     "interface" => [
@@ -20,14 +19,14 @@ $data = [
         "maxId" => 20,
         "skips" => [],
     ],
-    "houseShop" => [
+    "houseShop" => [ // need session token and char id
         "minId" => 0,
         "maxId" => 20,
         "skips" => [],
     ],
     "houseItemShop" => [
         "minId" => 0,
-        "maxId" => 200,
+        "maxId" => 120,
         "skips" => [],
     ],
     "mergeShop" => [
@@ -35,7 +34,7 @@ $data = [
         "maxId" => 500,
         "skips" => [],
     ],
-    "classes" => [
+    "classes" => [ // need session token and char id
         "minId" => 0,
         "maxId" => 200,
         "skips" => [],
