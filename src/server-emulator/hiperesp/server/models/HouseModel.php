@@ -29,7 +29,7 @@ class HouseModel extends Model {
     /** @return array<HouseVO> */
     public function getByShop(HouseShopVO $shop): array {
         $houseIds = \array_map(function(array $house): int {
-            return $house['houseId'];
+            return (int)$house['houseId'];
         }, $this->storage->select(self::HOUSE_SHOP_ASSOCIATION, ['houseShopId' => $shop->id], null));
 
         return \array_map(function(array $house): HouseVO {
