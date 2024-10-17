@@ -43,7 +43,7 @@ This is the patched files. You can't use the original files from the game, as so
 
 ### How to debug the game.swf?
 
-I don't known anything about flash, but I was able to debug the game.swf file using the [FFDec](https://www.free-decompiler.com/flash/download/) tool.
+I don't known anything about flash, but I was able to debug the game.swf file using the [FFDec](https://github.com/jindrapetrik/jpexs-decompiler/releases) tool.
 
 I am using `flash.external.ExternalInterface.call("console.log", "Hello ExternalInterface");` to log flash messages to browser console, so I can debug the game.
 

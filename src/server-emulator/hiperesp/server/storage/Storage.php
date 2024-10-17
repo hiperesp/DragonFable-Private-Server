@@ -129,8 +129,11 @@ abstract class Storage {
         return self::$instance;
     }
 
-    final public function setup(): void {
+    final public function setup(array $ignore = []): void {
         foreach(CollectionSetup::getCollections() as $collection) {
+            if(\in_array($collection, $ignore)) {
+                continue;
+            }
             if(!$this->createCollection($collection)) {
                 throw new \Exception("Setup error: Failed to create collection {$collection}");
             }
