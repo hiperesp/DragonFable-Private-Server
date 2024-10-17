@@ -19,7 +19,7 @@ class ClassProjection extends Projection {
         $charEl->addAttribute('strClassFileName', $class->swf);
         $charEl->addAttribute('strElement', $class->element);
         $charEl->addAttribute('intSavable', $class->savable);
-        $charEl->addAttribute('strEquippable', $class->getEquippable());
+        $charEl->addAttribute('strEquippable', $class->equippable);
 
         $armor = $this->armorModel->getByClass($class);
         $charEl->addAttribute('strArmorName', $armor->name);
@@ -57,7 +57,7 @@ class ClassProjection extends Projection {
         $charEl->addAttribute('strClassFileName', $class->swf);
         $charEl->addAttribute('strElement', $class->element);
         $charEl->addAttribute('intSavable', $class->savable);
-        $charEl->addAttribute('strEquippable', $class->getEquippable());
+        $charEl->addAttribute('strEquippable', $class->equippable);
 
         $armor = $this->armorModel->getByClass($class);
         $charEl->addAttribute('strArmorName', $armor->name);

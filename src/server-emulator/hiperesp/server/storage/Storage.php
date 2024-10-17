@@ -129,8 +129,11 @@ abstract class Storage {
         return self::$instance;
     }
 
-    final public function setup(): void {
+    final public function setup(array $ignore = []): void {
         foreach(CollectionSetup::getCollections() as $collection) {
+            if(\in_array($collection, $ignore)) {
+                continue;
+            }
             if(!$this->createCollection($collection)) {
                 throw new \Exception("Setup error: Failed to create collection {$collection}");
             }
@@ -139,8 +142,7 @@ abstract class Storage {
                 try {
                     $this->insert($collection, $data);
                 } catch(\Exception $e) {
-                    $this->dropCollection($collection);
-                    throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}");
+                    throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}.\nData: ".\json_encode($data));
                 }
             }
         }

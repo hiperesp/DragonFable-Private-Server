@@ -96,8 +96,11 @@ class DevController extends Controller {
     </fieldset>
     <fieldset>
         <legend>Database</legend>
-        <form action="database/setup">
+        <form action="database/first-setup">
             <button>Setup collections</button>
+        </form>
+        <form action="database/update">
+            <button>Update game data</button><!-- without char, char_item, logs, settings and user collections -->
         </form>
     </fieldset>
     <fieldset>
@@ -121,16 +124,29 @@ HTML;
     }
 
     #[Request(
-        endpoint: '/dev/database/setup',
+        endpoint: '/dev/database/first-setup',
         inputType: Input::NONE,
         outputType: Output::RAW
     )]
-    public function databaseSetup(): string {
+    public function databaseFirstSetup(): string {
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
         $storage = Storage::getStorage();
         $storage->setup();
         return "Database setup OK!";
+    }
+
+    #[Request(
+        endpoint: '/dev/database/update',
+        inputType: Input::NONE,
+        outputType: Output::RAW
+    )]
+    public function databaseUpdate(): string {
+        \ini_set('memory_limit', '16G');
+        \set_time_limit(0);
+        $storage = Storage::getStorage();
+        $storage->setup([ "char", "char_item", "logs", "settings", "user" ]);
+        return "Database update OK!";
     }
 
     #[Request(
