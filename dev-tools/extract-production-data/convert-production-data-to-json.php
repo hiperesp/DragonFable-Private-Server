@@ -6,10 +6,10 @@
 \ini_set('display_errors', '1');
 
 $save = [
-    "quest" => false,
-    "shop" => false,
-    "interface" => false,
-    "houseShop" => false,
+    "quest" => true,
+    "shop" => true,
+    "interface" => true,
+    "houseShop" => true,
     "houseItemShop" => true,
     "mergeShop" => true,
     "classes" => true,
@@ -42,7 +42,7 @@ if($save["shop"]) {
         if(\preg_match('/empty_shop([\d]+)\.xml/', $file)) continue;
         $data = convert("shop", __DIR__."/shops/".$file);
 
-        save("shop", $data);
+        save("itemShop", $data);
     }
 }
 
