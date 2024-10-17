@@ -275,6 +275,15 @@ function convert(string $type, string $file): array {
                 $quest["monsters"] = [$quest["monsters"]];
             }
             foreach($quest["monsters"] as $monster) {
+                $colorHair = \dechex($monster['@attributes']['intColorHair']);
+                if($colorHair == "ffffffffffffffff") $colorHair = "000000";
+                $colorSkin = \dechex($monster['@attributes']['intColorSkin']);
+                if($colorSkin == "ffffffffffffffff") $colorSkin = "000000";
+                $colorBase = \dechex($monster['@attributes']['intColorBase']);
+                if($colorBase == "ffffffffffffffff") $colorBase = "000000";
+                $colorTrim = \dechex($monster['@attributes']['intColorTrim']);
+                if($colorTrim == "ffffffffffffffff") $colorTrim = "000000";
+
                 $out["monster"][] = [
                     "id"            =>    (int)$monster['@attributes']['MonsterID'],
                     "name"          =>         $monster['@attributes']['strCharacterName'],
@@ -288,10 +297,10 @@ function convert(string $type, string $file): array {
                     "coins"         =>    (int)$monster['@attributes']['intDragonCoins'],
                     "gender"        =>         $monster['@attributes']['strGender'],
                     "hairStyle"     =>         $monster['@attributes']['intHairStyle'],
-                    "colorHair"     => \dechex($monster['@attributes']['intColorHair']),
-                    "colorSkin"     => \dechex($monster['@attributes']['intColorSkin']),
-                    "colorBase"     => \dechex($monster['@attributes']['intColorBase']),
-                    "colorTrim"     => \dechex($monster['@attributes']['intColorTrim']),
+                    "colorHair"     =>         $colorHair,
+                    "colorSkin"     =>         $colorSkin,
+                    "colorBase"     =>         $colorBase,
+                    "colorTrim"     =>         $colorTrim,
                     "strength"      =>    (int)$monster['@attributes']['intStr'],
                     "dexterity"     =>    (int)$monster['@attributes']['intDex'],
                     "intelligence"  =>    (int)$monster['@attributes']['intInt'],
