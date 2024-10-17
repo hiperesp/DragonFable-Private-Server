@@ -7,12 +7,12 @@
 
 $save = [
     "quest" => true,
-    "shop" => true,
-    "interface" => true,
-    "houseShop" => true,
-    "houseItemShop" => true,
-    "mergeShop" => true,
-    "classes" => true,
+    "shop" => false,
+    "interface" => false,
+    "houseShop" => false,
+    "houseItemShop" => false,
+    "mergeShop" => false,
+    "classes" => false,
 ];
 
 if($save["quest"]) {
@@ -226,13 +226,30 @@ function save(string $type, array $newData): void {
     }
 }
 
+function normalizeNewLine(array $xml): array {
+    foreach($xml as $key => $value) {
+        if(\is_array($value)) {
+            $xml[$key] = normalizeNewLine($value);
+        } else if(\is_string($value)) {
+            $xml[$key] = \str_replace("HIPERESP-NEWLINE", "\n", $value);
+        }
+    }
+    return $xml;
+}
+
 function convert(string $type, string $file): array {
-    $xml = \simplexml_load_file($file);
+    $xmlStr = \file_get_contents($file);
+    $xmlStr = \trim($xmlStr);
+    $xmlStr = \preg_replace('/\r?\n/', "HIPERESP-NEWLINE", $xmlStr);
+    $xmlStr = \str_replace('>HIPERESP-NEWLINE<', ">\n<", $xmlStr);
+    $xml = \simplexml_load_string($xmlStr);
     if($xml===false) {
         throw new \Exception("Failed to load xml file: {$file}");
     }
     $xmlJsonStr = \json_encode($xml, JSON_PRETTY_PRINT);
     $xmlJson = \json_decode($xmlJsonStr, true); // fast way to get xml props as array
+
+    $xmlJson = normalizeNewLine($xmlJson);
 
     $out = [];
 
