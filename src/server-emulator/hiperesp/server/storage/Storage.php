@@ -142,8 +142,7 @@ abstract class Storage {
                 try {
                     $this->insert($collection, $data);
                 } catch(\Exception $e) {
-                    $this->dropCollection($collection);
-                    throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}");
+                    throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}.\nData: ".\json_encode($data));
                 }
             }
         }
