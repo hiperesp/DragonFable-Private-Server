@@ -12,6 +12,6 @@ class ClassVO extends ValueObject {
     public readonly int $weaponId;
     public readonly int $savable;
 
-    public readonly int $equippable;
+    public readonly string $equippable;
 
 }
