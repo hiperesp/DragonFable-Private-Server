@@ -21,7 +21,7 @@ class HouseModel extends Model {
     public function getByShopAndId(HouseShopVO $shop, int $id): HouseVO {
         $house = $this->storage->select(self::HOUSE_SHOP_ASSOCIATION, ['houseShopId' => $shop->id, 'houseId' => $id]);
         if(isset($house[0]) && $house = $house[0]) {
-            return $this->getById($house['houseId']);
+            return $this->getById((int)$house['houseId']);
         }
         throw new DFException(DFException::ITEM_NOT_FOUND);
     }

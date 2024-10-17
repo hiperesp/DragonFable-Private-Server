@@ -22,7 +22,7 @@ class ItemModel extends Model {
     public function getByShopAndId(ItemShopVO $shop, int $id): ItemVO {
         $item = $this->storage->select(self::ITEM_SHOP_ASSOCIATION, ['itemShopId' => $shop->id, 'itemId' => $id]);
         if(isset($item[0]) && $item = $item[0]) {
-            return $this->getById($item['itemId']);
+            return $this->getById((int)$item['itemId']);
         }
         throw new DFException(DFException::ITEM_NOT_FOUND);
     }
