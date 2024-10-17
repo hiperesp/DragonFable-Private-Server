@@ -30,7 +30,7 @@ class ItemModel extends Model {
     /** @return array<ItemVO> */
     public function getByShop(ItemShopVO $shop): array {
         $itemIds = \array_map(function(array $item): int {
-            return $item['itemId'];
+            return (int)$item['itemId'];
         }, $this->storage->select(self::ITEM_SHOP_ASSOCIATION, ['itemShopId' => $shop->id], null));
 
         return \array_map(function(array $item): ItemVO {
