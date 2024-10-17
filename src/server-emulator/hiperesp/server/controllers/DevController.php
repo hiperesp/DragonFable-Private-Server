@@ -145,7 +145,7 @@ HTML;
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
         $storage = Storage::getStorage();
-        $storage->setup([ "char", "char_item", "logs", "settings", "user", "interface", "item", "itemCategory", "itemShop", "itemShop_item", "quest" ]);
+        $storage->setup([ "char", "char_item", "logs", "settings", "user" ]);
         return "Database update OK!";
     }
 
