@@ -4,12 +4,12 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\InterfaceModel;
 use hiperesp\server\projection\InterfaceProjection;
+use hiperesp\server\services\InterfaceService;
 
 class InterfaceController extends Controller {
 
-    private InterfaceModel $interfaceModel;
+    private InterfaceService $interfaceService;
 
     #[Request(
         endpoint: '/cf-interfaceload.asp',
@@ -18,7 +18,7 @@ class InterfaceController extends Controller {
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
 
-        $interface = $this->interfaceModel->getById((int)$input->intInterfaceID);
+        $interface = $this->interfaceService->load((int)$input->intInterfaceID);
 
         return InterfaceProjection::instance()->loaded($interface);
     }

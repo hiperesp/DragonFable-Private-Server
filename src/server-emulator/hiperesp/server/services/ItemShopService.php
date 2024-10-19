@@ -4,11 +4,13 @@ namespace hiperesp\server\services;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
+use hiperesp\server\models\ItemModel;
+use hiperesp\server\models\ItemShopModel;
 use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
-use hiperesp\server\vo\ItemVO;
+use hiperesp\server\vo\ItemShopVO;
 use hiperesp\server\vo\SettingsVO;
 
 class ItemShopService extends Service {
@@ -16,11 +18,27 @@ class ItemShopService extends Service {
     private UserModel $userModel;
     private CharacterModel $characterModel;
     private CharacterItemModel $characterItemModel;
+    private ItemShopModel $itemShopModel;
+    private ItemModel $itemModel;
     private LogsModel $logsModel;
 
     private SettingsVO $settings;
 
-    public function buy(CharacterVO $char, ItemVO $item): CharacterItemVO {
+    public function getShop(int $shopId): ItemShopVO {
+        return $this->itemShopModel->getById($shopId);
+    }
+
+    public function buy(CharacterVO $char, int $shopId, int $itemId): CharacterItemVO {
+        try {
+            $shop = $this->itemShopModel->getById($shopId);
+            $item = $this->itemModel->getByShopAndId($shop, $itemId);
+        } catch(\Exception $e) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyItem', 'Invalid shopId or itemId', $char, $char, [
+                'shopId' => $shopId,
+                'itemId' => $itemId
+            ])->asException(DFException::INVALID_REFERENCE);
+        }
+
         if(!$char->canBuyItem($item)) {
             throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyItem', 'Cannot buy item', $char, $item, [])->asException(DFException::CANNOT_BUY_ITEM);
         }
@@ -32,11 +50,12 @@ class ItemShopService extends Service {
         return $charItem;
     }
 
-    public function sell(CharacterItemVO $charItem, int $quantity, int $returnPercent): void {
-        $char = $charItem->getChar();
-        $item = $charItem->getItem();
+    public function sell(CharacterVO $char, int $charItemId, int $quantity, int $returnPercent): void {
+
+        $charItem = $this->characterItemModel->getByCharAndId($char, $charItemId);
 
         if($this->settings->revalidateClientValues) {
+            $item = $charItem->getItem();
             if($item->getPriceCoins()) {
                 if($charItem->hoursOwned >= 24) {
                     $newReturnPercent = 25;
