@@ -15,7 +15,7 @@ class ApiController extends Controller {
         inputType: Input::NONE,
         outputType: Output::JSON
     )]
-    public function webStats(): mixed {
+    public function webStats(): array {
         return $this->apiService->getWebStats();
     }
 

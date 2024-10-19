@@ -9,7 +9,6 @@ abstract class Controller {
 
     final public function __construct() {
         $autoInstantiate = new AutoInstantiate($this);
-        $autoInstantiate->models();
         $autoInstantiate->settings();
         $autoInstantiate->services();
     }

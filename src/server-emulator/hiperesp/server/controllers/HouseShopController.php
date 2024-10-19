@@ -4,12 +4,12 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\HouseShopModel;
 use hiperesp\server\projection\HouseShopProjection;
+use hiperesp\server\services\HouseShopService;
 
 class HouseShopController extends Controller {
 
-    private HouseShopModel $houseShopModel;
+    private HouseShopService $houseShopService;
 
     #[Request(
         endpoint: '/cf-houseshopload.asp',
@@ -17,7 +17,7 @@ class HouseShopController extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
-        $shop = $this->houseShopModel->getById((int)$input->intShopID);
+        $shop = $this->houseShopService->getShop((int)$input->intShopID);
         return HouseShopProjection::instance()->loaded($shop);
     }
 

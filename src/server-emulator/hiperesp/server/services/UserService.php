@@ -19,6 +19,11 @@ class UserService extends Service {
             }
             $userToken = (string)$inputOrUserToken['strToken'];
         } else if($inputOrUserToken instanceof \SimpleXMLElement) {
+            if(isset($inputOrUserToken->strUsername) && isset($inputOrUserToken->strPassword)) {
+                $username = (string)$inputOrUserToken->strUsername;
+                $password = (string)$inputOrUserToken->strPassword;
+                return $this->userModel->login($username, $password);
+            }
             if(!isset($inputOrUserToken->strToken)) {
                 throw new DFException(DFException::BAD_REQUEST);
             }
@@ -30,6 +35,10 @@ class UserService extends Service {
         $user = $this->userModel->getBySessionToken((string)$userToken);
 
         return $user;
+    }
+
+    public function signup(string $username, string $password, string $email, string $birthdate): UserVO {
+        return $this->userModel->signup($username, $password, $email, $birthdate); // in case of error, a exception will be thrown
     }
 
     public function createChar(UserVO $user, array $input): CharacterVO {

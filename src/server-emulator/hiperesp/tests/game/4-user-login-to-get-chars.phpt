@@ -5,7 +5,7 @@
 $userController = new \hiperesp\server\controllers\UserController;
 
 $response = $userController->login(new \SimpleXMLElement(<<<XML
-<flash><strUsername>test-{$context["userNameId"]}</strUsername><strPassword>{$context["userPassword"]}</strPassword></flash>
+<flash><strUsername>{$context["username"]}</strUsername><strPassword>{$context["password"]}</strPassword></flash>
 XML));
 
 $response = \json_decode(\json_encode($response), true);

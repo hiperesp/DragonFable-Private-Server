@@ -4,12 +4,12 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\UserProjection;
+use hiperesp\server\services\UserService;
 
 class UserController extends Controller {
 
-    private UserModel $userModel;
+    private UserService $userService;
 
     #[Request(
         endpoint: '/cf-userlogin.asp',
@@ -17,10 +17,7 @@ class UserController extends Controller {
         outputType: Output::NINJA2XML
     )]
     public function login(\SimpleXMLElement $input): \SimpleXMLElement {
-        $username = (string)$input->strUsername;
-        $password = (string)$input->strPassword;
-
-        $user = $this->userModel->login($username, $password);
+        $user = $this->userService->auth($input);
 
         return UserProjection::instance()->logged($user);
     }
@@ -36,7 +33,7 @@ class UserController extends Controller {
         $email = (string)$input['strEmail'];
         $dob = (string)$input['strDOB'];
 
-        $user = $this->userModel->signup(
+        $user = $this->userService->signup(
             username: $username,
             password: $password,
             email: $email,
