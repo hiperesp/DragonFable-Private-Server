@@ -6,8 +6,10 @@ $userData = [
     "password" => $context["password"],
 ];
 
+$testService = new \hiperesp\server\services\TestService;
+$response = $testService->deleteTestUser($userData["username"], $userData["password"]);
 
 var_dump($response);
 
 --EXPECT--
-string(10) "&success=1"
+bool(true)
