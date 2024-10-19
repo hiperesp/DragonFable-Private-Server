@@ -45,7 +45,7 @@ class HeromartService extends Service {
                 'coins' => self::AFFECT_CHANGE_GENDER_COST
             ]);
 
-            return $this->characterModel->reload($char);
+            return $this->characterModel->refresh($char);
         }
 
         if($affectId == self::AFFECT_CHANGE_NAME) {
@@ -68,7 +68,7 @@ class HeromartService extends Service {
                 'coins' => self::AFFECT_CHANGE_NAME_COST
             ]);
 
-            return $this->characterModel->reload($char);
+            return $this->characterModel->refresh($char);
         }
 
         if($affectId == self::AFFECT_CHANGE_CLASS) {
@@ -101,7 +101,7 @@ class HeromartService extends Service {
                 'coins' => self::AFFECT_CHANGE_CLASS_COST
             ]);
 
-            return $this->characterModel->reload($char);
+            return $this->characterModel->refresh($char);
         }
 
         if($affectId == self::AFFECT_CHANGE_PRONOUN) {
@@ -124,7 +124,7 @@ class HeromartService extends Service {
                 'coins' => self::AFFECT_CHANGE_PRONOUN_COST
             ]);
 
-            return $this->characterModel->reload($char);
+            return $this->characterModel->refresh($char);
         }
 
         throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyAffect', 'Invalid affectId', $char, $char, [

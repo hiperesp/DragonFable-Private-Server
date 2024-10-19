@@ -15,7 +15,7 @@ class CharacterModel extends Model {
 
     private SettingsVO $settings;
 
-    public function reload(CharacterVO $char): CharacterVO {
+    public function refresh(CharacterVO $char): CharacterVO {
         return $this->getById($char->id);
     }
 

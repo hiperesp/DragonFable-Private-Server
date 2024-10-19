@@ -6,9 +6,11 @@ use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\LogsModel;
+use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ClassVO;
+use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 
 class CharacterService extends Service {
@@ -17,6 +19,7 @@ class CharacterService extends Service {
     private UserModel $userModel;
     private CharacterModel $characterModel;
     private CharacterItemModel $characterItemModel;
+    private QuestModel $questModel;
     private LogsModel $logsModel;
 
     private SettingsVO $settings;
@@ -174,6 +177,28 @@ class CharacterService extends Service {
         ]);
 
         return $class;
+    }
+
+    public function applyExpSave(CharacterVO $char, int $questId, int $experience, int $gems, int $gold, int $silver): CharacterVO {
+        $quest = $this->questModel->getById($questId);
+
+        $this->characterModel->applyExpSave($char, $quest, [
+            'experience' => $experience,
+            'gems'       => $gems,
+            'gold'       => $gold,
+            'silver'     => $silver
+        ]);
+
+        return $this->characterModel->refresh($char);
+    }
+
+    public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $rewards): CharacterVO {
+        $this->characterModel->applyQuestRewards($char, $quest, $rewards);
+        return $this->characterModel->refresh($char);
+    }
+
+    public function setQuestString(CharacterVO $char, int $index, int $value): void {
+        $this->characterModel->setQuestString($char, $index, $value);
     }
 
 }
