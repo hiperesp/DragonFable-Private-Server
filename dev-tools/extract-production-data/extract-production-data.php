@@ -9,6 +9,11 @@ $data = [
         "skips" => [],
         "onlyIds" => [],
     ],
+    "town" => [ // need session token and char id
+        "minId" => 1,
+        "maxId" => 2200,
+        "skips" => [],
+    ],
     "shop" => [
         "minId" => 0,
         "maxId" => 900,
@@ -114,6 +119,47 @@ if($choice=="quest") {
                 \file_put_contents("quests/lvl_quest{$questId}.xml", "");
             } else if($e->getMessage() === 'Invalid Reference') {
                 \file_put_contents("quests/ir_quest{$questId}.xml", "");
+            }
+            // die;
+        }
+    }
+
+} else if($choice=="town") {
+    for($townId=$data['minId']; $townId<=$data['maxId']; $townId++) {
+        if(\in_array($townId, $data['skips'])) {
+            echo "Skipping town {$townId}...\n";
+            continue;
+        }
+        if(\file_exists("towns/town{$townId}.xml")) {
+            // echo "Town {$townId} already extracted\n";
+            continue;
+        }
+        if(\file_exists("towns/da_town{$townId}.xml")) {
+            // echo "Town {$townId} not extracted due to Dragon Amulet requirement\n";
+            continue;
+        }
+        if(\file_exists("towns/lvl_town{$townId}.xml")) {
+            // echo "Town {$townId} not extracted due to level requirement\n";
+            continue;
+        }
+        if(\file_exists("towns/ir_town{$townId}.xml")) {
+            // echo "Town {$townId} not extracted due to invalid reference\n";
+            continue;
+        }
+        echo "Extracting town {$townId}...\n";
+        try {
+            $town = getTownData($townId);
+            \file_put_contents("towns/town{$townId}.xml", $town);
+            echo "Town: {$townId} done\n";
+        } catch (\Exception $e) {
+            echo "Town: {$townId} failed\n";
+            echo "Error: {$e->getMessage()}\n";
+            if($e->getMessage() === "Amulet Required!") {
+                \file_put_contents("towns/da_town{$townId}.xml", "");
+            } else if($e->getMessage() === "Town Level Requirement Not Met!") {
+                \file_put_contents("towns/lvl_town{$townId}.xml", "");
+            } else if($e->getMessage() === 'Invalid Reference') {
+                \file_put_contents("towns/ir_town{$townId}.xml", "");
             }
             // die;
         }
@@ -292,6 +338,57 @@ function getQuestData(int $questId): string {
     if($validateXml === false) {
         echo $result;die;
         throw new \Exception('Invalid XML');
+    }
+    $child0 = $validateXml->children()[0];
+    if(!$child0) {
+        echo $result;die;
+        throw new \Exception('Invalid XML');
+    }
+    if($child0->getName() === "info") {
+        /** @var \SimpleXMLElement $child0 */
+        $reason = $child0->attributes()->reason;
+        throw new \Exception("{$reason}");
+    }
+
+    return $result;
+}
+
+function getTownData(int $townId): string {
+    global $sessionToken;
+    global $charId;
+
+    $ch = \curl_init();
+    \curl_setopt($ch, \CURLOPT_URL, "http://dragonfable.battleon.com/game/cf-loadtowninfo.asp");
+    \curl_setopt($ch, \CURLOPT_RETURNTRANSFER, 1);
+    \curl_setopt($ch, \CURLOPT_POST, 1);
+    $data = "<ninja2>".encrypt("<flash><strToken>{$sessionToken}</strToken><intCharID>{$charId}</intCharID><intTownID>{$townId}</intTownID></flash>")."</ninja2>";
+    \curl_setopt($ch, \CURLOPT_POSTFIELDS, $data);
+
+    $headers = [
+        "Content-Type: application/x-www-form-urlencoded",
+        "Content-Length: ".\strlen($data),
+    ];
+    \curl_setopt($ch, \CURLOPT_HTTPHEADER, $headers);
+
+    $result = \curl_exec($ch);
+    \curl_close($ch);
+
+    if(\curl_errno($ch)) {
+        throw new \Exception('Curl error: ' . \curl_error($ch));
+    }
+    if(!$result) {
+        throw new \Exception('Empty response');
+    }
+
+    $result = \mb_convert_encoding($result, 'ISO-8859-1', 'UTF-8');
+    $validateXml = \simplexml_load_string($result);
+    if($validateXml === false) {
+        echo $result;die;
+        throw new \Exception('Invalid XML');
+    }
+
+    if(\strpos($result, '<LoadTown xmlns:sql="urn:schemas-microsoft-com:xml-sql"></LoadTown>') !== false) {
+        throw new \Exception('Empty town');
     }
     $child0 = $validateXml->children()[0];
     if(!$child0) {
