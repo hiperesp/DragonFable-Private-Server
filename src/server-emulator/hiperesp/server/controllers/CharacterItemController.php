@@ -4,16 +4,14 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\CharacterItemModel;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\CharacterItemProjection;
+use hiperesp\server\services\CharacterBagService;
+use hiperesp\server\services\CharacterService;
 
 class CharacterItemController extends Controller {
 
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private CharacterItemModel $characterItemModel;
+    private CharacterService $characterService;
+    private CharacterBagService $characterBagService;
 
     #[Request(
         endpoint: '/cf-itemdestroy.asp',
@@ -21,14 +19,11 @@ class CharacterItemController extends Controller {
         outputType: Output::XML
     )]
     public function destroy(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $charItem = $this->characterItemModel->getByCharAndId($char, (int)$input->intCharItemID);
+        $this->characterBagService->destroyItem($char, (int)$input->intCharItemID);
 
-        $this->characterItemModel->destroy($charItem);
-
-        return CharacterItemProjection::instance()->destroyed($charItem);
+        return CharacterItemProjection::instance()->destroyed();
     }
 
 }

@@ -4,13 +4,11 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\vo\SettingsVO;
+use hiperesp\server\services\ApiService;
 
 class ApiController extends Controller {
 
-    private SettingsVO $settings;
-    private CharacterModel $characterModel;
+    private ApiService $apiService;
 
     #[Request(
         endpoint: '/api/web-stats.json',
@@ -18,15 +16,7 @@ class ApiController extends Controller {
         outputType: Output::JSON
     )]
     public function webStats(): mixed {
-
-        $onlineCount = $this->characterModel->getOnlineCount();
-
-        return [
-            'onlineUsers' => $onlineCount,
-            'serverTime' => \date('c'),
-            'serverVersion' => $this->settings->serverVersion,
-            'gitRev' => \getenv('GIT_REV') ?: null,
-        ];
+        return $this->apiService->getWebStats();
     }
 
 }

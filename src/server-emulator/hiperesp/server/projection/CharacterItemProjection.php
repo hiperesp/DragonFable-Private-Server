@@ -14,7 +14,7 @@ class CharacterItemProjection extends Projection {
         return $xml;
     }
 
-    public function destroyed(CharacterItemVO $charItem): \SimpleXMLElement {
+    public function destroyed(): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<ItemDestroy/>');
         $xml->addChild('status', 'SUCCESS');
 
