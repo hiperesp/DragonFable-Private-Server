@@ -7,14 +7,13 @@ use hiperesp\server\enums\Output;
 
 class MergeShopController extends Controller {
 
-    // [WIP]
-    #[Request(
-        endpoint: '/cf-mergeshopload.asp',
-        inputType: Input::RAW,
-        outputType: Output::RAW
-    )]
-    public function load(string $input): string {
-        return "";
-    }
+    // #[Request(
+    //     endpoint: '/cf-mergeshopload.asp',
+    //     inputType: Input::RAW,
+    //     outputType: Output::RAW
+    // )]
+    // public function load(string $input): string {
+    //     return "";
+    // }
 
 }

@@ -30,7 +30,6 @@ class QuestController extends Controller {
         return QuestProjection::instance()->loaded($quest);
     }
 
-    // NEED ATTENTION
     #[Request(
         endpoint: '/cf-expsave.asp',
         inputType: Input::NINJA2,
@@ -79,26 +78,25 @@ class QuestController extends Controller {
         return CharacterProjection::instance()->questCompletedMar2011($quest, $char, []);
     }
 
-    // [WIP]
-    #[Request(
-        endpoint: '/cf-questreward.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::XML
-    )]
-    public function reward(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intNewItemID>20387</intNewItemID><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
+//     #[Request(
+//         endpoint: '/cf-questreward.asp',
+//         inputType: Input::NINJA2,
+//         outputType: Output::XML
+//     )]
+//     public function reward(\SimpleXMLElement $input): \SimpleXMLElement {
+//         // <flash><intNewItemID>20387</intNewItemID><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
 
-        $newItemID = (int)$input->intNewItemID;
+//         $newItemID = (int)$input->intNewItemID;
 
-        // find the item by id and add to the inventory
+//         // find the item by id and add to the inventory
 
-        return \simplexml_load_string(<<<XML
-<questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <CharItemID>783072142</CharItemID>
-</questreward>
-XML);
+//         return \simplexml_load_string(<<<XML
+// <questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql">
+//     <CharItemID>783072142</CharItemID>
+// </questreward>
+// XML);
 
-    }
+//     }
 
     #[Request(
         endpoint: '/cf-savequeststring.asp',

@@ -21,15 +21,14 @@ class HouseShopController extends Controller {
         return HouseShopProjection::instance()->loaded($shop);
     }
 
-    // [WIP]
-    #[Request(
-        endpoint: '/cf-buyhouse.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::XML
-    )]
-    public function buy(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intHouseID>1</intHouseID><intHouseShopID>1</intHouseShopID><strToken>f0ac492ae1c14d07118a54de7cbf46bb</strToken><intCharID>1</intCharID></flash>
-        return new \SimpleXMLElement('<randomthing/>');
-    }
+    // #[Request(
+    //     endpoint: '/cf-buyhouse.asp',
+    //     inputType: Input::NINJA2,
+    //     outputType: Output::XML
+    // )]
+    // public function buy(\SimpleXMLElement $input): \SimpleXMLElement {
+    //     // <flash><intHouseID>1</intHouseID><intHouseShopID>1</intHouseShopID><strToken>f0ac492ae1c14d07118a54de7cbf46bb</strToken><intCharID>1</intCharID></flash>
+    //     return new \SimpleXMLElement('<randomthing/>');
+    // }
 
 }
