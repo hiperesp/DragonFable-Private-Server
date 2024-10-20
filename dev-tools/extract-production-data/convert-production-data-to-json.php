@@ -6,14 +6,30 @@
 \ini_set('display_errors', '1');
 
 $save = [
+    "town" => true,
     "quest" => true,
-    "shop" => false,
-    "interface" => false,
-    "houseShop" => false,
-    "houseItemShop" => false,
-    "mergeShop" => false,
-    "classes" => false,
+    "shop" => true,
+    "interface" => true,
+    "houseShop" => true,
+    "houseItemShop" => true,
+    "mergeShop" => true,
+    "classes" => true,
 ];
+
+if($save["town"]) {
+    $questFiles = \scandir(__DIR__."/towns");
+    \usort($questFiles, function($a, $b) {
+        return \strnatcmp(\strtolower($a), \strtolower($b));
+    });
+
+    foreach($questFiles as $file) {
+        if(\pathinfo($file, PATHINFO_EXTENSION) !== 'xml') continue;
+        if(!\preg_match('/^town([\d]+)\.xml/', $file)) continue;
+
+        $data = convert("town", __DIR__."/towns/".$file);
+        save("town", $data);
+    }
+}
 
 if($save["quest"]) {
     $questFiles = \scandir(__DIR__."/quests");
@@ -100,7 +116,6 @@ if($save["mergeShop"]) {
 
         save("mergeShop", $data);
     }
-    include __DIR__."/remove-duplicated-mergeShops-items.php";
 }
 
 if($save["classes"]) {
@@ -122,6 +137,7 @@ function save(string $type, array $newData): void {
 
     $subTypes = match($type) {
         "itemShop" => [ "itemShop", "item", "itemShop_item" ],
+        "town" => [ "quest", ],
         "quest" => [ "race", "quest", "monster", "quest_monster", "item" ],
         "interface" => [ "interface" ],
         "houseShop" => [ "houseShop", "house", "houseShop_house" ],
@@ -253,7 +269,45 @@ function convert(string $type, string $file): array {
 
     $out = [];
 
-    if($type=="quest") {
+    if($type=="town") {
+        $out["quest"]         = [];
+
+        if(!isset($xmlJson["newTown"][0])) {
+            $xmlJson["newTown"] = [$xmlJson["newTown"]];
+        }
+        if(\count($xmlJson["newTown"]) != 1) {
+            throw new \Exception("Invalid town file: {$file}");
+        }
+
+        $id = \preg_replace('/[^0-9]/', '', $file);
+        if(!\is_numeric($id)) {
+            throw new \Exception("Invalid town file: {$file}");
+        }
+
+        foreach($xmlJson["newTown"] as $town) {
+            $out["quest"][] = [
+                "id"              => (int)$id,
+                "name"            =>      "",
+                "description"     =>      "",
+                "complete"        =>      "",
+                "swf"             =>      $town['@attributes']['strQuestFileName'],
+                "swfX"            =>      $town['@attributes']['strQuestXFileName'],
+                "maxSilver"       =>      0,
+                "maxGold"         =>      0,
+                "maxGems"         =>      0,
+                "maxExp"          =>      0,
+                "minTime"         =>      0,
+                "counter"         =>      0,
+                "extra"           =>      $town['@attributes']['strExtra'],
+                "dailyIndex"      =>      0,
+                "dailyReward"     =>      0,
+                "monsterMinLevel" =>      0,
+                "monsterMaxLevel" =>      0,
+                "monsterType"     =>      0,
+                "monsterGroupSwf" =>      0,
+            ];
+        }
+    } else if($type=="quest") {
 
         $out["quest"]         = [];
         $out["monster"]       = [];
@@ -608,7 +662,6 @@ function convert(string $type, string $file): array {
                     'icon'          =>      $item['@attributes']['strIcon'],
                     'dragonAmulet'  => (int)$item['@attributes']['bitDragonAmulet'],
                     'currency'      => (int)$item['@attributes']['intCurrency'],
-                    'cost'          => 0,
                     'element'       =>      $item['@attributes']['strElement'],
                     "categoryId"    =>       [
                         "Weapon" => 1,
