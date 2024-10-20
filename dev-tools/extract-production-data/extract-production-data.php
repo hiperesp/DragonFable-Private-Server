@@ -2,46 +2,56 @@
 // $sessionToken = "SESSION_TOKEN_HERE";
 // $charId = 0;
 
+if(isset($argv[1])) {
+    $choice = $argv[1];
+}
+if(isset($argv[2])) {
+    $sessionToken = $argv[2];
+}
+if(isset($argv[3])) {
+    $charId = (int)$argv[3];
+}
+
 $data = [
     "quest" => [ // need session token and char id
         "minId" => 1,
-        "maxId" => 2200,
+        "maxId" => 2300,
         "skips" => [],
         "onlyIds" => [],
     ],
     "town" => [ // need session token and char id
         "minId" => 1,
-        "maxId" => 2200,
+        "maxId" => 2300,
         "skips" => [],
     ],
     "shop" => [
-        "minId" => 0,
-        "maxId" => 900,
+        "minId" => 1,
+        "maxId" => 1000,
         "skips" => [],
     ],
     "interface" => [
         "minId" => 1,
-        "maxId" => 20,
+        "maxId" => 30,
         "skips" => [],
     ],
     "houseShop" => [ // need session token and char id
-        "minId" => 0,
-        "maxId" => 20,
+        "minId" => 1,
+        "maxId" => 30,
         "skips" => [],
     ],
     "houseItemShop" => [
-        "minId" => 0,
-        "maxId" => 120,
+        "minId" => 1,
+        "maxId" => 150,
         "skips" => [],
     ],
     "mergeShop" => [
-        "minId" => 0,
-        "maxId" => 500,
+        "minId" => 1,
+        "maxId" => 600,
         "skips" => [],
     ],
     "classes" => [ // need session token and char id
-        "minId" => 0,
-        "maxId" => 200,
+        "minId" => 1,
+        "maxId" => 100,
         "skips" => [],
     ],
     //? dragoncustomize
@@ -54,12 +64,14 @@ $data = [
     //? war waves
 ];
 
-echo "What do you want to extract?\n";
-foreach ($data as $key => $value) {
-    echo " - {$key}\n";
+if(!isset($choice)) {
+    echo "What do you want to extract?\n";
+    foreach ($data as $key => $value) {
+        echo " - {$key}\n";
+    }
+    echo "Choice: ";
+    $choice = \trim(\fgets(\STDIN));
 }
-echo "Choice: ";
-$choice = \trim(\fgets(\STDIN));
 
 if (!isset($data[$choice])) {
     echo "Invalid choice\n";
@@ -118,7 +130,7 @@ if($choice=="quest") {
             } else if($e->getMessage() === "Quest Level Requirement Not Met!") {
                 \file_put_contents("quests/lvl_quest{$questId}.xml", "");
             } else if($e->getMessage() === 'Invalid Reference') {
-                \file_put_contents("quests/ir_quest{$questId}.xml", "");
+                // \file_put_contents("quests/ir_quest{$questId}.xml", "");
             }
             // die;
         }
@@ -188,7 +200,7 @@ if($choice=="quest") {
             echo "Shop: {$shopId} failed\n";
             echo "Error: {$e->getMessage()}\n";
             if($e->getMessage() === 'Empty shop') {
-                \file_put_contents("shops/empty_shop{$shopId}.xml", "");
+                // \file_put_contents("shops/empty_shop{$shopId}.xml", "");
             }
         }
     }
@@ -534,7 +546,8 @@ function getHouseShop(int $shopId): string {
     }
     $child0 = $validateXml->children()[0];
     if(!$child0) {
-        echo $result."???";die;
+        // echo $result."???";die;
+        // returning in ninja2: <error><info code="513.02" reason="Database Syntax Error" message="Please Contact Support for Help" action="undefined"/></error>
         throw new \Exception('Invalid XML');
     }
     if($child0->getName() === "info") {
