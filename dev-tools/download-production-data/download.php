@@ -1,7 +1,7 @@
 <?php
-$sessionToken = "DFQS3A943mEEeaz";
-$charId = 47652217;
-$skipDownloaded = true;
+// $sessionToken = "";
+// $charId = 0;
+// $skipDownloaded = true;
 
 if(!isset($sessionToken)) {
     echo "What is your session token?\n";
@@ -17,28 +17,28 @@ if(!isset($skipDownloaded)) {
     echo "Skip downloaded files? (y/n)\n";
     echo "Skip Downloaded: ";
     $res = \trim(\fgets(\STDIN));
-    $skipDownloaded = \trim(\fgets(\STDIN)) === "y";
+    $skipDownloaded = $res === "y";
 }
 
 
 $thingsToDownload = [
     "quest" => [
         "from" => 1,
-        "to" => 2300,
+        "to" => 2200,
         "needAuth" => true,
         "endpoint" => "/cf-questload.asp",
         "param" => "intQuestID",
     ],
     "town" => [
         "from" => 1,
-        "to" => 2300,
+        "to" => 2200,
         "needAuth" => true,
         "endpoint" => "/cf-loadtowninfo.asp",
         "param" => "intTownID",
     ],
     "shop" => [
         "from" => 1,
-        "to" => 1000,
+        "to" => 850,
         "needAuth" => false,
         "endpoint" => "/cf-shopload.asp",
         "param" => "intShopID",
@@ -59,21 +59,21 @@ $thingsToDownload = [
     ],
     "houseItemShop" => [
         "from" => 1,
-        "to" => 30,
+        "to" => 100,
         "needAuth" => false,
         "endpoint" => "/cf-loadhouseitemshop.asp",
         "param" => "intHouseItemShopID",
     ],
     "mergeShop" => [
         "from" => 1,
-        "to" => 600,
+        "to" => 450,
         "needAuth" => false,
         "endpoint" => "/cf-mergeshopload.asp",
         "param" => "intMergeShopID",
     ],
     "classes" => [
         "from" => 1,
-        "to" => 30,
+        "to" => 200,
         "needAuth" => true,
         "endpoint" => "/cf-classload.asp",
         "param" => "intClassID",
@@ -87,7 +87,7 @@ function downloadAll(): void {
 
     foreach ($thingsToDownload as $thingToDownload => $thing) {
         for ($i = $thing["from"]; $i <= $thing["to"]; $i++) {
-            $percent = (\number_format(($i - $thing["from"]) / ($thing["to"] - $thing["from"]), 2) * 100)."%";
+            $percent = (\number_format(($i - $thing["from"]) / ($thing["to"] - $thing["from"]), 4) * 100)."%";
             echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} ({$percent})\n";
             download($thingToDownload, $i);
         }
@@ -100,7 +100,7 @@ function download(string $thingToDownload, int $id): void {
     $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
 
     if($skipDownloaded && \file_exists($file)) {
-        echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
+        // echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
         return;
     }
 
