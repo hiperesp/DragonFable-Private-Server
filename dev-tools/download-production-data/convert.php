@@ -215,7 +215,7 @@ function convert(string $folder, string $file): void {
                 }
                 $currentData[] = $newJson;
 
-                \usort($currentData, function($a, $b) {
+                \usort($currentData, function(array $a, array $b): int {
                     return \strnatcasecmp($a['id'], $b['id']);
                 });
 
