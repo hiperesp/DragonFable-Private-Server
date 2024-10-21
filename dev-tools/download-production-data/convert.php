@@ -216,7 +216,7 @@ function convert(string $folder, string $file): void {
                 $currentData[] = $newJson;
 
                 \usort($currentData, function($a, $b) {
-                    return $a['id'] <=> $b['id'];
+                    return \strnatcasecmp($a['id'], $b['id']);
                 });
 
                 \file_put_contents("{$newDir}/merged.json", \json_encode($currentData, JSON_PRETTY_PRINT));
