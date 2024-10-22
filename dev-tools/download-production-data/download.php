@@ -85,13 +85,17 @@ downloadAll();
 
 function downloadAll(): void {
     global $thingsToDownload;
+    $totalThingsToDownload = \count($thingsToDownload);
+    $maxProgressPerThing = 1 / $totalThingsToDownload;
 
+    $currentThingToDownload = 0;
     foreach ($thingsToDownload as $thingToDownload => $thing) {
         for ($i = $thing["from"]; $i <= $thing["to"]; $i++) {
-            $percent = (\number_format(($i - $thing["from"]) / ($thing["to"] - $thing["from"]), 4) * 100)."%";
+            $percent = (\number_format($maxProgressPerThing * $currentThingToDownload + ($i - $thing["from"]) / ($thing["to"] - $thing["from"] + 1) * $maxProgressPerThing, 5) * 100)."%";
             echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} ({$percent})\n";
             download($thingToDownload, $i);
         }
+        $currentThingToDownload++;
     }
 }
 

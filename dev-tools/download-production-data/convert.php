@@ -189,6 +189,40 @@ $merges = [
     },
 ];
 
+convertAll();
+
+function convertAll() {
+    // $folders = \scandir('downloaded');
+    $folders = [
+        // 'quest', 
+        'town', 
+    ];
+    $totalFolders = \count($folders);
+    $maxProgressPerFolder = 1 / $totalFolders;
+
+    foreach ($folders as $i => $folder) {
+        if ($folder === '.' || $folder === '..') {
+            continue;
+        }
+
+        $files = \scandir("downloaded/{$folder}");
+        \usort($files, function(string $a, string $b) {
+            return \strnatcasecmp($a, $b);
+        });
+        $totalFiles = \count($files);
+
+        foreach ($files as $i2 => $file) {
+            if ($file === '.' || $file === '..') {
+                continue;
+            }
+
+            $percent = (\number_format($maxProgressPerFolder * $i + ($i2 - 2) / ($totalFiles - 2) * $maxProgressPerFolder, 5) * 100)."%";
+            echo "[0] Converting {$folder}/{$file} ({$percent})\n";
+
+            convert($folder, $file);
+        }
+    }
+}
 
 function generatedIds(string $type, array $parents): int {
     if(\in_array($type, $itemLogic = [ 'weapon', 'armor', 'pet', 'item' ])) {
@@ -203,30 +237,6 @@ function generatedIds(string $type, array $parents): int {
     }
     throw new \Exception("Generated ID not found: {$type}");
 };
-
-
-// $folders = \scandir('downloaded');
-$folders = [
-    // 'quest', 
-    'town', 
-];
-foreach ($folders as $folder) {
-    if ($folder === '.' || $folder === '..') {
-        continue;
-    }
-
-    $files = \scandir("downloaded/{$folder}");
-    \usort($files, function($a, $b) {
-        return \strnatcasecmp($a, $b);
-    });
-    foreach ($files as $file) {
-        if ($file === '.' || $file === '..') {
-            continue;
-        }
-
-        convert($folder, $file);
-    }
-}
 
 function convert(string $folder, string $fileName): void {
     global $saveMode;
