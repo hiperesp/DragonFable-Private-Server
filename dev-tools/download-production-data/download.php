@@ -72,7 +72,7 @@ $thingsToDownload = [
         "endpoint" => "/cf-mergeshopload.asp",
         "param" => "intMergeShopID",
     ],
-    "classes" => [
+    "class" => [
         "from" => 1,
         "to" => 200,
         "needAuth" => true,
