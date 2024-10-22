@@ -88,25 +88,39 @@ function downloadAll(): void {
     $totalThingsToDownload = \count($thingsToDownload);
     $maxProgressPerThing = 1 / $totalThingsToDownload;
 
+    $lastDownloaded = [];
+
     $currentThingToDownload = 0;
     foreach ($thingsToDownload as $thingToDownload => $thing) {
         for ($i = $thing["from"]; $i <= $thing["to"]; $i++) {
             $percent = (\number_format($maxProgressPerThing * $currentThingToDownload + ($i - $thing["from"]) / ($thing["to"] - $thing["from"] + 1) * $maxProgressPerThing, 5) * 100)."%";
             echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} ({$percent})\n";
-            download($thingToDownload, $i);
+            $success = download($thingToDownload, $i);
+            if($i===$thing["to"] && $success) {
+                $lastDownloaded[] = $thingToDownload;
+            }
         }
         $currentThingToDownload++;
     }
+    echo "[0] Downloaded all things\n";
+    if($lastDownloaded) {
+        echo "[0] ATTENTION : The following things has the last thing downloaded:\n";
+        echo "[0] ATTENTION : You should check if there are more things to download\n";
+        echo "[0] ATTENTION : Please increase the 'to' value in the array to see if there are more things to download\n";
+        foreach($lastDownloaded as $thing) {
+            echo "[0] MAYBE MORE: {$thing}\n";
+        }
+    }
 }
 
-function download(string $thingToDownload, int $id): void {
+function download(string $thingToDownload, int $id): bool {
     global $sessionToken, $charId, $skipDownloaded, $thingsToDownload;
 
     $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
 
     if($skipDownloaded && \file_exists($file)) {
         // echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
-        return;
+        return true;
     }
 
     $thing = $thingsToDownload[$thingToDownload];
@@ -141,32 +155,35 @@ function download(string $thingToDownload, int $id): void {
     if($xml === false) {
         echo "[1] Failed to download {$thingToDownload} {$id}: Invalid XML\n";
         die;
+        return false;
     }
     $child0 = @$xml->children()[0];
     if(!$child0) {
         echo "[2] Failed to download {$thingToDownload} {$id}: No children\n";
-        return;
+        return false;
     }
     if($child0->getName() === "info") {
         /** @var \SimpleXMLElement $child0 */
         $reason = $child0->attributes()->reason;
         if($reason == "Invalid Reference") {
             echo "[3] Failed to download {$thingToDownload} {$id}: Invalid Reference\n";
-            return;
+            return false;
         }
         if($reason == "Invalid Item Reference") {
             echo "[4] Failed to download {$thingToDownload} {$id}: Invalid Item Reference\n";
-            return;
+            return false;
         }
 
         echo "[5] Failed to download {$thingToDownload} {$id}: {$reason}\n";
         die;
+        return false;
     }
 
     if(!\is_dir(\dirname($file))) {
         \mkdir(\dirname($file), 0777, true);
     }
     \file_put_contents($file, $result);
+    return true;
 }
 
 function decrypt(string $theText): string {
