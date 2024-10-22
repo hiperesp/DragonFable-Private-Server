@@ -129,6 +129,22 @@ $xsd = [
             ]
         ]
     ],
+    "newTown" => [
+        "jsonKey" => "quest",
+        "type" => "single",
+        "config" => [
+            "id"                => [ "type" => "int"   , 'fromSpecial' => 'idFromFileName', ],
+            "swf"               => [ "type" => "string", 'from'        => 'strFileName'   , ],
+            "swfX"              => [ "type" => "string", 'from'        => 'strXFileName'  , ],
+            "extra"             => [ "type" => "string", 'from'        => 'strExtra'      , ],
+        ],
+    ]
+];
+
+$merges = [
+    "quest" => function(array $data1, array $data2): array {
+        throw new \Exception("Merge not implemented yet for quest");
+    },
 ];
 
 
@@ -148,7 +164,10 @@ function generatedIds(string $type, array $parents): int {
 
 
 // $folders = \scandir('downloaded');
-$folders = [ 'quest' ];
+$folders = [
+    // 'quest', 
+    'town', 
+];
 foreach ($folders as $folder) {
     if ($folder === '.' || $folder === '..') {
         continue;
@@ -167,18 +186,17 @@ foreach ($folders as $folder) {
     }
 }
 
-function convert(string $folder, string $file): void {
+function convert(string $folder, string $fileName): void {
     global $xsd, $saveMode;
 
-    $xmlStr = \file_get_contents("downloaded/{$folder}/{$file}");
-    $xmlStr = \trim($xmlStr);
-    $xmlStr = \preg_replace('/\r?\n/', "HIPERESP-NEWLINE", $xmlStr);
+    $xmlStr = \file_get_contents("downloaded/{$folder}/{$fileName}");
+    $xmlStr = \preg_replace('/\r?\n/', "HIPERESP-NEWLINE", \trim($xmlStr));
     $xmlStr = \str_replace('>HIPERESP-NEWLINE<', ">\n<", $xmlStr);
     $xml = \simplexml_load_string($xmlStr);
     $json = \json_decode(\json_encode($xml), true);
     $json = normalizeJsonNewLine($json);
 
-    $json = convertJson($json, $xsd);
+    $json = convertJson($fileName, $json, $xsd);
 
     foreach($json as $newFolder => $newData) {
         $newDir = "converted/{$newFolder}";
@@ -227,7 +245,7 @@ function convert(string $folder, string $file): void {
     }
 }
 
-function convertJson(array $json, array $xsd, array $parents = []): array {
+function convertJson(string $fileName, array $json, array $xsd, array $parents = []): array {
     $newJson = [];
     foreach($json as $jsonKey => $jsonItemMult) {
         if($jsonKey=='@attributes') continue;
@@ -250,11 +268,11 @@ function convertJson(array $json, array $xsd, array $parents = []): array {
             }
         }
         foreach($jsonItemMult as $jsonItem) {
-            $newJsonItem = convertJsonFromConfig($jsonItem, $xsdItem, $parents);
+            $newJsonItem = convertJsonFromConfig($fileName, $jsonItem, $xsdItem, $parents);
             $newJson[$newJsonKey][] = $newJsonItem;
 
             if(isset($xsdItem['children'])) {
-                $newDataAppend = convertJson($jsonItem, $xsdItem['children'], createParents($newJsonItem, $jsonItem, $parents));
+                $newDataAppend = convertJson($fileName, $jsonItem, $xsdItem['children'], createParents($newJsonItem, $jsonItem, $parents));
                 foreach($newDataAppend as $newFolder => $newData) {
                     if(!isset($newJson[$newFolder])) {
                         $newJson[$newFolder] = [];
@@ -269,7 +287,7 @@ function convertJson(array $json, array $xsd, array $parents = []): array {
                     if(!isset($newJson[$newChildJsonKey])) {
                         $newJson[$newChildJsonKey] = [];
                     }
-                    $newJson[$newChildJsonKey][] = convertJsonFromConfig($jsonItem, $newChild, createParents($newJsonItem, $jsonItem, $parents));
+                    $newJson[$newChildJsonKey][] = convertJsonFromConfig($fileName, $jsonItem, $newChild, createParents($newJsonItem, $jsonItem, $parents));
                 }
             }
         }
@@ -278,7 +296,7 @@ function convertJson(array $json, array $xsd, array $parents = []): array {
     return $newJson;
 }
 
-function convertJsonFromConfig(array $jsonItem, array $xsdItem, array $parents = []): array {
+function convertJsonFromConfig(string $fileName, array $jsonItem, array $xsdItem, array $parents = []): array {
     $newJsonItem = [];
     foreach($xsdItem['config'] as $key => $config) {
         if(isset($config['generated'])) {
@@ -301,6 +319,12 @@ function convertJsonFromConfig(array $jsonItem, array $xsdItem, array $parents =
                 throw new \Exception("Parent level not found in XSD config: {$key}");
             }
             $newJsonItem[$key] = $parents[$config['parentLevel']]['raw']['@attributes'][$config['fromRawParent']];
+        }else if(isset($config['fromSpecial'])) {
+            if($config['fromSpecial']=="idFromFileName") {
+                $newJsonItem[$key] = (int)\str_replace('.xml', '', $fileName);
+            } else {
+                throw new \Exception("Invalid fromSpecial: {$config['fromSpecial']}");
+            }
         } else if(isset($config['defined'])) {
             $newJsonItem[$key] = $config['defined'];
         } else {
