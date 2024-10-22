@@ -49,10 +49,10 @@ $xsd = [
                     "coins"         => [ "type" => "int"   , 'from' => 'intDragonCoins'    , ],
                     "gender"        => [ "type" => "string", 'from' => 'strGender'         , ],
                     "hairStyle"     => [ "type" => "int"   , 'from' => 'intHairStyle'      , ],
-                    "colorHair"     => [ "type" => "string", 'from' => 'intColorHair'      , 'parse' => 'parseColor', ],
-                    "colorSkin"     => [ "type" => "string", 'from' => 'intColorSkin'      , 'parse' => 'parseColor', ],
-                    "colorBase"     => [ "type" => "string", 'from' => 'intColorBase'      , 'parse' => 'parseColor', ],
-                    "colorTrim"     => [ "type" => "string", 'from' => 'intColorTrim'      , 'parse' => 'parseColor', ],
+                    "colorHair"     => [ "type" => "string", 'from' => 'intColorHair'      , 'parseMethod' => 'parseColor', ],
+                    "colorSkin"     => [ "type" => "string", 'from' => 'intColorSkin'      , 'parseMethod' => 'parseColor', ],
+                    "colorBase"     => [ "type" => "string", 'from' => 'intColorBase'      , 'parseMethod' => 'parseColor', ],
+                    "colorTrim"     => [ "type" => "string", 'from' => 'intColorTrim'      , 'parseMethod' => 'parseColor', ],
                     "strength"      => [ "type" => "int"   , 'from' => 'intStr'            , ],
                     "dexterity"     => [ "type" => "int"   , 'from' => 'intDex'            , ],
                     "intelligence"  => [ "type" => "int"   , 'from' => 'intInt'            , ],
@@ -306,8 +306,8 @@ function convertJsonFromConfig(array $jsonItem, array $xsdItem, array $parents =
         } else {
             throw new \Exception("No data provider provided in XSD config: {$key}");
         }
-        if(isset($config['parse'])) {
-            $newJsonItem[$key] = $config['parse']($newJsonItem[$key]);
+        if(isset($config['parseMethod'])) {
+            $newJsonItem[$key] = $config['parseMethod']($newJsonItem[$key]);
         }
         if(!isset($config['type'])) {
             throw new \Exception("Type not found in XSD config: {$key}");
