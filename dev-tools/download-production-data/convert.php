@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 // saveMode can be "merged" or "individual".
 // - "merged" will save all data in a single file.
@@ -23,7 +24,8 @@ $xsd = [
             "maxGems"           => [ "type" => "int"   , 'from' => 'intMaxGems'              , ],
             "maxExp"            => [ "type" => "int"   , 'from' => 'intMaxExp'               , ],
             "minTime"           => [ "type" => "int"   , 'from' => 'intMinTime'              , ],
-            "counter"           => [ "type" => "int"   , 'from' => 'intCounter'              , ],
+            // "counter"           => [ "type" => "int"   , 'from' => 'intCounter'              , ],
+            "counter"           => [ "type" => "int"   , 'defined'     => '0'                , ],
             "extra"             => [ "type" => "string", 'from' => 'strExtra'                , ],
             "dailyIndex"        => [ "type" => "int"   , 'from' => 'intDailyIndex'           , ],
             "dailyReward"       => [ "type" => "int"   , 'from' => 'intDailyReward'          , ],
@@ -133,17 +135,57 @@ $xsd = [
         "jsonKey" => "quest",
         "type" => "single",
         "config" => [
-            "id"                => [ "type" => "int"   , 'fromSpecial' => 'idFromFileName', ],
-            "swf"               => [ "type" => "string", 'from'        => 'strFileName'   , ],
-            "swfX"              => [ "type" => "string", 'from'        => 'strXFileName'  , ],
-            "extra"             => [ "type" => "string", 'from'        => 'strExtra'      , ],
+            "id"                => [ "type" => "int"   , 'fromSpecial' => 'idFromFileName'   , ],
+            "name"              => [ "type" => "string", 'defined'     => ''                 , ],
+            "description"       => [ "type" => "string", 'defined'     => ''                 , ],
+            "complete"          => [ "type" => "string", 'defined'     => ''                 , ],
+            "swf"               => [ "type" => "string", 'from'        => 'strQuestFileName' , ],
+            "swfX"              => [ "type" => "string", 'from'        => 'strQuestXFileName', ],
+            "maxSilver"         => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "maxGold"           => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "maxGems"           => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "maxExp"            => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "minTime"           => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "counter"           => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "extra"             => [ "type" => "string", 'from'        => 'strExtra'         , ],
+            "dailyIndex"        => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "dailyReward"       => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "monsterMinLevel"   => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "monsterMaxLevel"   => [ "type" => "int"   , 'defined'     => '0'                , ],
+            "monsterType"       => [ "type" => "string", 'defined'     => ''                 , ],
+            "monsterGroupSwf"   => [ "type" => "string", 'defined'     => ''                 , ],
         ],
     ]
 ];
 
 $merges = [
-    "quest" => function(array $data1, array $data2): array {
-        throw new \Exception("Merge not implemented yet for quest");
+    "quest" => function(array $quest1, array $quest2): array {
+        $keys = \array_keys($quest1);
+        if($keys !== \array_keys($quest2)) {
+            throw new \Exception("Data already exists with different keys");
+        }
+
+        $quest3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
+            if($value1===$value2) return $value1;
+
+            return match($keyName) {
+                "counter" => 0,
+                default => $value1 ?: $value2,
+            };
+        }, $keys, $quest1, $quest2));
+
+        return $quest3;
+    },
+    "default" => function(array $data1, array $data2): array {
+        $keys = \array_keys($data1);
+        if($keys !== \array_keys($data2)) {
+            throw new \Exception("File already exists with different KEYS");
+        }
+
+        return \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
+            if($value1===$value2) return $value1;
+            throw new \Exception("File already exists with different VALUES");
+        }, $keys, $data1, $data2));
     },
 ];
 
@@ -187,7 +229,8 @@ foreach ($folders as $folder) {
 }
 
 function convert(string $folder, string $fileName): void {
-    global $xsd, $saveMode;
+    global $saveMode;
+    global $xsd, $merges;
 
     $xmlStr = \file_get_contents("downloaded/{$folder}/{$fileName}");
     $xmlStr = \preg_replace('/\r?\n/', "HIPERESP-NEWLINE", \trim($xmlStr));
@@ -209,14 +252,18 @@ function convert(string $folder, string $fileName): void {
             }
 
             if($saveMode=="individual") {
-                $dataToSave = \json_encode($newJson, JSON_PRETTY_PRINT);
                 if(\file_exists("{$newDir}/{$newJson['id']}.json")) {
                     $currentFileData = \file_get_contents("{$newDir}/{$newJson['id']}.json");
-                    if($dataToSave === $currentFileData) {
-                        continue;
+                    try {
+                        $newJson = $merges['default'](\json_decode($currentFileData, true)[0], $newJson);
+                    } catch(\Exception $e) {
+                        if(!isset($merges[$newFolder])) {
+                            throw new \Exception("{$e->getMessage()}: {$newDir}/{$newJson['id']}.json\nCurrent data:{$currentFileData}\nNew data    :".\json_encode($newJson, JSON_PRETTY_PRINT));
+                        }
+                        $newJson = $merges[$newFolder](\json_decode($currentFileData, true)[0], $newJson);
                     }
-                    throw new \Exception("File already exists with different data: {$newDir}/{$newJson['id']}.json\nCurrent data:{$currentFileData}\nNew data    :{$dataToSave}");
                 }
+                $dataToSave = \json_encode([$newJson], JSON_PRETTY_PRINT);
                 \file_put_contents("{$newDir}/{$newJson['id']}.json", $dataToSave);
             } else if($saveMode=="merged") {
                 if(!\file_exists("{$newDir}/merged.json")) {
@@ -225,10 +272,16 @@ function convert(string $folder, string $fileName): void {
                 $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
                 foreach($currentData as $currentDataKey => $currentDataItem) {
                     if($currentDataItem['id'] === $newJson['id']) {
-                        if(\json_encode($currentDataItem) === \json_encode($newJson)) {
-                            continue 2;
+                        try {
+                            $newJson = $merges['default']($currentDataItem, $newJson);
+                        } catch(\Exception $e) {
+                            if(!isset($merges[$newFolder])) {
+                                throw new \Exception("{$e->getMessage()}: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
+                            }
+                            $newJson = $merges[$newFolder]($currentDataItem, $newJson);
                         }
-                        throw new \Exception("File already exists with different data: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
+                        unset($currentData[$currentDataKey]);
+                        break;
                     }
                 }
                 $currentData[] = $newJson;

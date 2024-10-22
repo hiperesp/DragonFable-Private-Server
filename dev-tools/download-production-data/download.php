@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 // $sessionToken = "";
 // $charId = 0;
