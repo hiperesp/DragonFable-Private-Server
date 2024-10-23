@@ -100,6 +100,14 @@ Inspired by [AlphaFable, by MentalBlank](https://github.com/MentalBlank/AlphaFab
 
 Artix Entertainment (Creators of DragonFable and Intellectual Property holders)
 
+## Acknowledgments
+
+Thank you to everyone who has starred the project! Your support is greatly appreciated.
+
+[![Stargazers repo roster for @hiperesp/DragonFable-Private-Server](https://reporoster.com/stars/dark/hiperesp/DragonFable-Private-Server)](https://github.com/hiperesp/DragonFable-Private-Server/stargazers)
+
+We are aiming to reach 16 stars! If you enjoy the project, consider giving it a star.
+
 ## Contributing:
 
 Feel free to submit issues or pull requests. Contributions are welcome!
