@@ -194,7 +194,7 @@ convertAll();
 function convertAll() {
     // $folders = \scandir('downloaded');
     $folders = [
-        // 'quest', 
+        'quest', 
         'town', 
     ];
     $totalFolders = \count($folders);
@@ -264,6 +264,9 @@ function convert(string $folder, string $fileName): void {
             if($saveMode=="individual") {
                 if(\file_exists("{$newDir}/{$newJson['id']}.json")) {
                     $currentFileData = \file_get_contents("{$newDir}/{$newJson['id']}.json");
+                    if($currentFileData === \json_encode([$newJson], JSON_PRETTY_PRINT)) {
+                        continue;
+                    }
                     try {
                         $newJson = $merges['default'](\json_decode($currentFileData, true)[0], $newJson);
                     } catch(\Exception $e) {
@@ -281,6 +284,9 @@ function convert(string $folder, string $fileName): void {
                 }
                 $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
                 foreach($currentData as $currentDataKey => $currentDataItem) {
+                    if($currentDataItem===$newJson) {
+                        continue 2;
+                    }
                     if($currentDataItem['id'] === $newJson['id']) {
                         try {
                             $newJson = $merges['default']($currentDataItem, $newJson);
