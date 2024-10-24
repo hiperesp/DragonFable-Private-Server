@@ -12,6 +12,9 @@ $xsd = [
     "quest" => [ // from quest dir
         "jsonKey" => "quest",
         "type" => "single",
+        "ignoreParams" => [
+            "intCounter", // not convert counter because it has some random values every time, idk where it is used and if it is important
+        ],
         "config" => [
             "id"                => [ "type" => "int"   , "from" => "QuestID"                 , ],
             "name"              => [ "type" => "string", "from" => "strName"                 , ],
@@ -24,7 +27,7 @@ $xsd = [
             "maxGems"           => [ "type" => "int"   , "from" => "intMaxGems"              , ],
             "maxExp"            => [ "type" => "int"   , "from" => "intMaxExp"               , ],
             "minTime"           => [ "type" => "int"   , "from" => "intMinTime"              , ],
-            // "counter"           => [ "type" => "int"   , "from" => "intCounter"              , ], // not convert counter because it has some random values every time, idk where it is used and if it is important
+            // "counter"           => [ "type" => "int"   , "from" => "intCounter"              , ],
             "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
             "extra"             => [ "type" => "string", "from" => "strExtra"                , ],
             "dailyIndex"        => [ "type" => "int"   , "from" => "intDailyIndex"           , ],
@@ -38,6 +41,9 @@ $xsd = [
             "monsters" => [
                 "jsonKey" => "monster",
                 "type" => "multiple",
+                "ignoreParams" => [
+                    "intMonsterRef", // not save it, because this is the index of the monster in the quest and we calculate based on id
+                ],
                 "config" => [
                     "id"            => [ "type" => "int"   , "from" => "MonsterID"         , ],
                     "name"          => [ "type" => "string", "from" => "strCharacterName"  , ],
@@ -359,7 +365,7 @@ function convertToJson(string $fileName, array $json, array $xsd, array $parents
                     if(!isset($newJson[$newChildJsonKey])) {
                         $newJson[$newChildJsonKey] = [];
                     }
-                    $newJson[$newChildJsonKey][] = convertToJsonFromConfig($fileName, $jsonItem, $newChild, createParents($newJsonItem, $jsonItem, $parents));
+                    $newJson[$newChildJsonKey][] = convertToJsonFromConfig($fileName, $jsonItem, $newChild, createParents($newJsonItem, $jsonItem, $parents), true);
                 }
             }
         }
@@ -368,20 +374,41 @@ function convertToJson(string $fileName, array $json, array $xsd, array $parents
     return $newJson;
 }
 
-function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdItem, array $parents = []): array {
+function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdItem, array $parents = [], bool $ignoreValidation = false): array {
     $newJsonItem = [];
 
-    foreach($jsonItem as $key => $value) {
-        if($key === "@attributes") {
-            foreach($value as $key2 => $value2) {
-                if(!isset($xsdItem["config"][$key2])) {
+    if(!$ignoreValidation) {
+        foreach($jsonItem as $key => $value) {
+            if($key === "@attributes") {
+                foreach($value as $key2 => $value2) {
+                    if(isset($xsdItem["ignoreParams"])) {
+                        if(\in_array($key2, $xsdItem["ignoreParams"])) {
+                            continue;
+                        }
+                    }
+                    foreach($xsdItem["config"] as $config) {
+                        if(isset($config["from"]) && $config["from"] === $key2) {
+                            continue 2;
+                        }
+                    }
+                    if(isset($xsdItem["newChildren"])) {
+                        foreach($xsdItem["newChildren"] as $newChild) {
+                            if(isset($newChild["config"])) {
+                                foreach($newChild["config"] as $config) {
+                                    if(isset($config["from"]) && $config["from"] === $key2) {
+                                        continue 3;
+                                    }
+                                }
+                            }
+                        }
+                    }
                     throw new \Exception("Attribute key not found in XSD config: {$key2}");
                 }
+                continue;
             }
-            continue;
-        }
-        if(!isset($xsdItem["config"][$key])) {
-            throw new \Exception("Child key not found in XSD config: {$key}");
+            if(!isset($xsdItem["children"][$key])) {
+                throw new \Exception("Child key not found in XSD config: {$key}");
+            }
         }
     }
 
