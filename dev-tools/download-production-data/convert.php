@@ -9,7 +9,7 @@ $saveMode = 'merged';
 
 
 $xsd = [
-    "quest" => [
+    "quest" => [ // from quest dir
         "jsonKey" => "quest",
         "type" => "single",
         "config" => [
@@ -131,7 +131,7 @@ $xsd = [
             ]
         ]
     ],
-    "newTown" => [
+    "newTown" => [ // from town dir
         "jsonKey" => "quest",
         "type" => "single",
         "config" => [
@@ -155,6 +155,9 @@ $xsd = [
             "monsterType"       => [ "type" => "string", "defined"     => ""                 , ],
             "monsterGroupSwf"   => [ "type" => "string", "defined"     => ""                 , ],
         ],
+    ],
+    "character" => [ // from class dir
+
     ],
 ];
 
@@ -189,22 +192,21 @@ $merges = [
     },
 ];
 
-convertAll();
 
-function convertAll() {
-    // $folders = \scandir("downloaded");
-    $folders = [
-        "quest",
-        "town",
-        "classes",
-    ];
+// convertAll(\array_filter(\scandir("downloaded"), function(string $folder) {
+//     return $folder !== "." && $folder !== "..";
+// }));
+convertAll([
+    "quest",
+    "town",
+    "class",
+]);
+
+function convertAll(array $folders) {
     $totalFolders = \count($folders);
     $maxProgressPerFolder = 1 / $totalFolders;
 
     foreach ($folders as $i => $folder) {
-        if ($folder === "." || $folder === "..") {
-            continue;
-        }
 
         $files = \scandir("downloaded/{$folder}");
         \usort($files, function(string $a, string $b) {
@@ -220,7 +222,7 @@ function convertAll() {
             $percent = (\number_format($maxProgressPerFolder * $i + ($i2 - 2) / ($totalFiles - 2) * $maxProgressPerFolder, 5) * 100)."%";
             echo "[0] Converting {$folder}/{$file} ({$percent})\n";
 
-            convert($folder, $file);
+            convertFile($folder, $file);
         }
     }
 }
@@ -239,7 +241,7 @@ function generatedIds(string $type, array $parents): int {
     throw new \Exception("Generated ID not found: {$type}");
 };
 
-function convert(string $folder, string $fileName): void {
+function convertFile(string $folder, string $fileName): void {
     global $saveMode;
     global $xsd, $merges;
 
@@ -250,7 +252,7 @@ function convert(string $folder, string $fileName): void {
     $json = \json_decode(\json_encode($xml), true);
     $json = normalizeJsonNewLine($json);
 
-    $json = convertJson($fileName, $json, $xsd);
+    $json = convertToJson($fileName, $json, $xsd);
 
     foreach($json as $newFolder => $newData) {
         $newDir = "converted/{$newFolder}";
@@ -315,7 +317,7 @@ function convert(string $folder, string $fileName): void {
     }
 }
 
-function convertJson(string $fileName, array $json, array $xsd, array $parents = []): array {
+function convertToJson(string $fileName, array $json, array $xsd, array $parents = []): array {
     $newJson = [];
     foreach($json as $jsonKey => $jsonItemMult) {
         if($jsonKey=="@attributes") continue;
@@ -338,11 +340,11 @@ function convertJson(string $fileName, array $json, array $xsd, array $parents =
             }
         }
         foreach($jsonItemMult as $jsonItem) {
-            $newJsonItem = convertJsonFromConfig($fileName, $jsonItem, $xsdItem, $parents);
+            $newJsonItem = convertToJsonFromConfig($fileName, $jsonItem, $xsdItem, $parents);
             $newJson[$newJsonKey][] = $newJsonItem;
 
             if(isset($xsdItem["children"])) {
-                $newDataAppend = convertJson($fileName, $jsonItem, $xsdItem["children"], createParents($newJsonItem, $jsonItem, $parents));
+                $newDataAppend = convertToJson($fileName, $jsonItem, $xsdItem["children"], createParents($newJsonItem, $jsonItem, $parents));
                 foreach($newDataAppend as $newFolder => $newData) {
                     if(!isset($newJson[$newFolder])) {
                         $newJson[$newFolder] = [];
@@ -357,7 +359,7 @@ function convertJson(string $fileName, array $json, array $xsd, array $parents =
                     if(!isset($newJson[$newChildJsonKey])) {
                         $newJson[$newChildJsonKey] = [];
                     }
-                    $newJson[$newChildJsonKey][] = convertJsonFromConfig($fileName, $jsonItem, $newChild, createParents($newJsonItem, $jsonItem, $parents));
+                    $newJson[$newChildJsonKey][] = convertToJsonFromConfig($fileName, $jsonItem, $newChild, createParents($newJsonItem, $jsonItem, $parents));
                 }
             }
         }
@@ -366,8 +368,23 @@ function convertJson(string $fileName, array $json, array $xsd, array $parents =
     return $newJson;
 }
 
-function convertJsonFromConfig(string $fileName, array $jsonItem, array $xsdItem, array $parents = []): array {
+function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdItem, array $parents = []): array {
     $newJsonItem = [];
+
+    foreach($jsonItem as $key => $value) {
+        if($key === "@attributes") {
+            foreach($value as $key2 => $value2) {
+                if(!isset($xsdItem["config"][$key2])) {
+                    throw new \Exception("Attribute key not found in XSD config: {$key2}");
+                }
+            }
+            continue;
+        }
+        if(!isset($xsdItem["config"][$key])) {
+            throw new \Exception("Child key not found in XSD config: {$key}");
+        }
+    }
+
     foreach($xsdItem["config"] as $key => $config) {
         if(isset($config["generated"])) {
             $newJsonItem[$key] = null;
