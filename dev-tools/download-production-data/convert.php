@@ -45,35 +45,35 @@ $xsd = [
                     "intMonsterRef", // not save it, because this is the index of the monster in the quest and we calculate based on id
                 ],
                 "config" => [
-                    "id"            => [ "type" => "int"   , "from" => "MonsterID"         , ],
-                    "name"          => [ "type" => "string", "from" => "strCharacterName"  , ],
-                    "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
-                    "experience"    => [ "type" => "int"   , "from" => "intExp"            , ],
-                    "hitPoints"     => [ "type" => "int"   , "from" => "intHP"             , ],
-                    "manaPoints"    => [ "type" => "int"   , "from" => "intMP"             , ],
-                    "silver"        => [ "type" => "int"   , "from" => "intSilver"         , ],
-                    "gold"          => [ "type" => "int"   , "from" => "intGold"           , ],
-                    "gems"          => [ "type" => "int"   , "from" => "intGems"           , ],
-                    "coins"         => [ "type" => "int"   , "from" => "intDragonCoins"    , ],
-                    "gender"        => [ "type" => "string", "from" => "strGender"         , ],
-                    "hairStyle"     => [ "type" => "int"   , "from" => "intHairStyle"      , ],
-                    "colorHair"     => [ "type" => "string", "from" => "intColorHair"      , "parseMethod" => "parseColor", ],
-                    "colorSkin"     => [ "type" => "string", "from" => "intColorSkin"      , "parseMethod" => "parseColor", ],
-                    "colorBase"     => [ "type" => "string", "from" => "intColorBase"      , "parseMethod" => "parseColor", ],
-                    "colorTrim"     => [ "type" => "string", "from" => "intColorTrim"      , "parseMethod" => "parseColor", ],
-                    "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
-                    "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
-                    "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
-                    "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
-                    "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
-                    "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
-                    "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
-                    "element"       => [ "type" => "string", "from" => "strElement"        , ],
-                    "raceId"        => [ "type" => "int"   , "from" => "RaceID"            , ],
-                    "movName"       => [ "type" => "string", "from" => "strMovName"        , ],
-                    "swf"           => [ "type" => "string", "from" => "strMonsterFileName", ],
-                    "armorId"       => [ "type" => "int"   , "generated" => "armor"        , ],
-                    "weaponId"      => [ "type" => "int"   , "generated" => "weapon"       , ],
+                    "id"            => [ "type" => "int"   , "from" => "MonsterID"          , ],
+                    "name"          => [ "type" => "string", "from" => "strCharacterName"   , ],
+                    "level"         => [ "type" => "int"   , "from" => "intLevel"           , ],
+                    "experience"    => [ "type" => "int"   , "from" => "intExp"             , ],
+                    "hitPoints"     => [ "type" => "int"   , "from" => "intHP"              , ],
+                    "manaPoints"    => [ "type" => "int"   , "from" => "intMP"              , ],
+                    "silver"        => [ "type" => "int"   , "from" => "intSilver"          , ],
+                    "gold"          => [ "type" => "int"   , "from" => "intGold"            , ],
+                    "gems"          => [ "type" => "int"   , "from" => "intGems"            , ],
+                    "coins"         => [ "type" => "int"   , "from" => "intDragonCoins"     , ],
+                    "gender"        => [ "type" => "string", "from" => "strGender"          , ],
+                    "hairStyle"     => [ "type" => "int"   , "from" => "intHairStyle"       , ],
+                    "colorHair"     => [ "type" => "string", "from" => "intColorHair"       , "parseMethod" => "parseColor", ],
+                    "colorSkin"     => [ "type" => "string", "from" => "intColorSkin"       , "parseMethod" => "parseColor", ],
+                    "colorBase"     => [ "type" => "string", "from" => "intColorBase"       , "parseMethod" => "parseColor", ],
+                    "colorTrim"     => [ "type" => "string", "from" => "intColorTrim"       , "parseMethod" => "parseColor", ],
+                    "strength"      => [ "type" => "int"   , "from" => "intStr"             , ],
+                    "dexterity"     => [ "type" => "int"   , "from" => "intDex"             , ],
+                    "intelligence"  => [ "type" => "int"   , "from" => "intInt"             , ],
+                    "luck"          => [ "type" => "int"   , "from" => "intLuk"             , ],
+                    "charisma"      => [ "type" => "int"   , "from" => "intCha"             , ],
+                    "endurance"     => [ "type" => "int"   , "from" => "intEnd"             , ],
+                    "wisdom"        => [ "type" => "int"   , "from" => "intWis"             , ],
+                    "element"       => [ "type" => "string", "from" => "strElement"         , ],
+                    "raceId"        => [ "type" => "int"   , "from" => "RaceID"             , ],
+                    "movName"       => [ "type" => "string", "from" => "strMovName"         , ],
+                    "swf"           => [ "type" => "string", "from" => "strMonsterFileName" , ],
+                    "armorId"       => [ "type" => "int"   , "generated" => "monster_armor" , ],
+                    "weaponId"      => [ "type" => "int"   , "generated" => "monster_weapon", ],
                 ],
                 "newChildren" => [
                     [
@@ -228,6 +228,72 @@ $xsd = [
             "loadUnder" => [ "type" => "int",    "from" => "bitLoadUnder", ],
         ],
     ],
+    "shop" => [
+        "jsonKey" => "itemShop",
+        "type" => "single",
+        "config" => [
+            "id"    => [ "type" => "int"   , "from" => "ShopID"          , ],
+            "name"  => [ "type" => "string", "from" => "strCharacterName", ],
+            "count" => [ "type" => "int"   , "from" => "intCount"        , ],
+        ],
+        "children" => [
+            "items" => [
+                "jsonKey" => "item",
+                "type" => "multiple",
+                "ignoreParams" => [ "strCategory" ],
+                "config" => [
+                    "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
+                    "name"          => [ "type" => "string", "from" => "strItemName"       , ],
+                    "description"   => [ "type" => "string", "from" => "strItemDescription", ],
+                    "visible"       => [ "type" => "int"   , "from" => "bitVisible"        , ],
+                    "destroyable"   => [ "type" => "int"   , "from" => "bitDestroyable"    , ],
+                    "sellable"      => [ "type" => "int"   , "from" => "bitSellable"       , ],
+                    "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
+                    "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
+                    "cost"          => [ "type" => "int"   , "from" => "intCost"           , ],
+                    "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
+                    "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
+                    "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
+                    "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
+                    "type"          => [ "type" => "string", "from" => "strType"           , ],
+                    "element"       => [ "type" => "string", "from" => "strElement"        , ],
+                    "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
+                    "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
+                    "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
+                    "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
+                    "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
+                    "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
+                    "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
+                    "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
+                    "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
+                    "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
+                    "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
+                    "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
+                    "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
+                    "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
+                    "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
+                    "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
+                    "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
+                    "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
+                    "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
+                    "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
+                    "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
+                    "resists"       => [ "type" => "string", "from" => "strResists"        , ],
+                ],
+                "newChildren" => [
+                    [
+                        "jsonKey" => "itemShop_item",
+                        "type" => "single",
+                        "config" => [
+                            "id"         => [ "type" => "int", "from" => "ShopItemID"    , "parentLevel" => 0, ],
+                            "itemShopId" => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 1, ],
+                            "itemId"     => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
+                        ],
+                    ]
+                ]
+            ]
+        ]
+    ],
 ];
 
 $merges = [
@@ -269,8 +335,8 @@ convertAll([
     // "quest",
     // "town",
     // "class",
-    "interface",
-    // "shop",
+    // "interface",
+    "shop",
     // "mergeShop",
     // "houseShop",
     // "houseItemShop",
@@ -280,6 +346,7 @@ function convertAll(array $folders) {
     $totalFolders = \count($folders);
     $maxProgressPerFolder = 1 / $totalFolders;
 
+    $dataToSave = [];
     foreach ($folders as $i => $folder) {
 
         $files = \scandir("downloaded/{$folder}");
@@ -296,13 +363,21 @@ function convertAll(array $folders) {
             $percent = (\number_format($maxProgressPerFolder * $i + ($i2 - 2) / ($totalFiles - 2) * $maxProgressPerFolder, 5) * 100)."%";
             echo "[0] Converting {$folder}/{$file} ({$percent})\n";
 
-            convertFile($folder, $file);
+            $newFile = convertFile($folder, $file);
+            foreach($newFile as $key => $value) {
+                if(!isset($dataToSave[$key])) {
+                    $dataToSave[$key] = [];
+                }
+                $dataToSave[$key] = \array_merge($dataToSave[$key], $value);
+            }
         }
     }
+    echo "[0] Conversion done!\n";
+    saveData($dataToSave);
 }
 
 function generatedIds(string $type, array $parents): int {
-    if(\in_array($type, $itemLogic = [ "weapon", "armor", "pet", "item" ])) {
+    if(\in_array($type, $itemLogic = [ "monster_weapon", "monster_armor", "monster_pet", "monster_item" ])) {
         $monsterId = $parents[0]["parsed"]["id"];
         $itemCategoryId = \array_search($type, $itemLogic);
         $length = \count($itemLogic);
@@ -314,6 +389,15 @@ function generatedIds(string $type, array $parents): int {
         $length = \count($itemLogic);
         return 9800000 + $classId * $length + $itemCategoryId;
     }
+    if(\in_array($type, $itemLogic = [ "item_category" ])) {
+        return match(\trim($parents[0]['raw']['@attributes']['strCategory'])) {
+            "Weapon" => 1,
+            "Armor" => 2,
+            "Pet" => 3,
+            "Item" => 4,
+            default => throw new \Exception("Item category not found: {$parents[0]['raw']['@attributes']['strCategory']}"),
+        };
+    }
     if($type === "quest_monster") {
         static $questMonsterId = 0;
         return ++$questMonsterId;
@@ -321,9 +405,8 @@ function generatedIds(string $type, array $parents): int {
     throw new \Exception("Generated ID not found: {$type}");
 };
 
-function convertFile(string $folder, string $fileName): void {
-    global $saveMode;
-    global $xsd, $merges;
+function convertFile(string $folder, string $fileName): array {
+    global $xsd;
 
     $xmlStr = \file_get_contents("downloaded/{$folder}/{$fileName}");
     $xmlStr = \preg_replace('/\r?\n/', "HIPERESP-NEWLINE", \trim($xmlStr));
@@ -334,17 +417,25 @@ function convertFile(string $folder, string $fileName): void {
 
     $json = convertToJson($fileName, $json, $xsd);
 
+    return $json;
+}
+
+function saveData(array $json): void {
+    global $saveMode, $merges;
     foreach($json as $newFolder => $newData) {
+        echo "[1] Saving {$newFolder}...\n";
+
         $newDir = "converted/{$newFolder}";
         if (!\is_dir($newDir)) {
             \mkdir($newDir, 0777, true);
         }
-        foreach($newData as $newJson) {
-            if(!isset($newJson["id"])) {
-                throw new \Exception("ID not found");
-            }
 
-            if($saveMode=="individual") {
+        if($saveMode=="individual") {
+            foreach($newData as $newJson) {
+                if(!isset($newJson["id"])) {
+                    throw new \Exception("ID not found");
+                }
+                echo "[1] Saving {$newFolder}/{$newJson["id"]}.json\n";
                 if(\file_exists("{$newDir}/{$newJson["id"]}.json")) {
                     $currentFileData = \file_get_contents("{$newDir}/{$newJson["id"]}.json");
                     if($currentFileData === \json_encode([$newJson], JSON_PRETTY_PRINT)) {
@@ -361,11 +452,15 @@ function convertFile(string $folder, string $fileName): void {
                 }
                 $dataToSave = \json_encode([$newJson], JSON_PRETTY_PRINT);
                 \file_put_contents("{$newDir}/{$newJson["id"]}.json", $dataToSave);
-            } else if($saveMode=="merged") {
-                if(!\file_exists("{$newDir}/merged.json")) {
-                    \file_put_contents("{$newDir}/merged.json", "[]");
-                }
-                $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
+            }
+        } else if($saveMode=="merged") {
+            if(!\file_exists("{$newDir}/merged.json")) {
+                \file_put_contents("{$newDir}/merged.json", "[]");
+            }
+
+            echo "[1] Validating {$newFolder} data\n";
+            $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
+            foreach($newData as $newJson) {
                 foreach($currentData as $currentDataKey => $currentDataItem) {
                     if($currentDataItem===$newJson) {
                         continue 2;
@@ -384,17 +479,20 @@ function convertFile(string $folder, string $fileName): void {
                     }
                 }
                 $currentData[] = $newJson;
-
-                \usort($currentData, function(array $a, array $b): int {
-                    return \strnatcasecmp($a["id"], $b["id"]);
-                });
-
-                \file_put_contents("{$newDir}/merged.json", \json_encode($currentData, JSON_PRETTY_PRINT));
-            } else {
-                throw new \Exception("Save mode not supported: {$saveMode}");
             }
+
+            echo "[1] Sorting {$newFolder} data\n";
+            \usort($currentData, function(array $a, array $b): int {
+                return \strnatcasecmp($a["id"], $b["id"]);
+            });
+
+            echo "[1] Saving {$newFolder} data\n";
+            \file_put_contents("{$newDir}/merged.json", \json_encode($currentData, JSON_PRETTY_PRINT));
+        } else {
+            throw new \Exception("Save mode not supported: {$saveMode}");
         }
     }
+    echo "[1] Done!\n";
 }
 
 function convertToJson(string $fileName, array $json, array $xsd, array $parents = []): array {
@@ -507,7 +605,7 @@ function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdIt
                 throw new \Exception("Parent level not found in XSD config: {$key}");
             }
             $newJsonItem[$key] = $parents[$config["parentLevel"]]["raw"]["@attributes"][$config["fromRawParent"]];
-        }else if(isset($config["fromSpecial"])) {
+        } else if(isset($config["fromSpecial"])) {
             if($config["fromSpecial"]=="idFromFileName") {
                 $newJsonItem[$key] = (int)\str_replace(".xml", "", $fileName);
             } else {
