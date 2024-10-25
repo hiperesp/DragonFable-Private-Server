@@ -121,7 +121,7 @@ $xsd = [
                         "config" => [
                             "id"           => [ "type" => "int", "generated" => "quest_monster" , ],
                             "questId"      => [ "type" => "int", "fromParsedParent" => "id"     , "parentLevel" => 1, ],
-                            "monsterId"    => [ "type" => "int", "from" => "MonsterID"          , "parentLevel" => 0, ],
+                            "monsterId"    => [ "type" => "int", "from" => "MonsterID"          , ],
                         ]
                     ],
                     [
@@ -238,62 +238,79 @@ $xsd = [
         ],
         "children" => [
             "items" => [
-                "jsonKey" => "item",
+                "jsonKey" => "itemShop_item",
                 "type" => "multiple",
                 "ignoreParams" => [ "strCategory" ],
                 "config" => [
-                    "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
-                    "name"          => [ "type" => "string", "from" => "strItemName"       , ],
-                    "description"   => [ "type" => "string", "from" => "strItemDescription", ],
-                    "visible"       => [ "type" => "int"   , "from" => "bitVisible"        , ],
-                    "destroyable"   => [ "type" => "int"   , "from" => "bitDestroyable"    , ],
-                    "sellable"      => [ "type" => "int"   , "from" => "bitSellable"       , ],
-                    "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
-                    "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
-                    "cost"          => [ "type" => "int"   , "from" => "intCost"           , ],
-                    "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
-                    "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
-                    "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
-                    "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
-                    "type"          => [ "type" => "string", "from" => "strType"           , ],
-                    "element"       => [ "type" => "string", "from" => "strElement"        , ],
-                    "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
-                    "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
-                    "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
-                    "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
-                    "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
-                    "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
-                    "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
-                    "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
-                    "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
-                    "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
-                    "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
-                    "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
-                    "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
-                    "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
-                    "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
-                    "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
-                    "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
-                    "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
-                    "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
-                    "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
-                    "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
-                    "resists"       => [ "type" => "string", "from" => "strResists"        , ],
+                    "id"         => [ "type" => "int", "from" => "ShopItemID"                          ],
+                    "itemShopId" => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
+                    "itemId"     => [ "type" => "int", "from" => "ItemID"                              ],
                 ],
                 "newChildren" => [
                     [
-                        "jsonKey" => "itemShop_item",
+                        "jsonKey" => "item",
                         "type" => "single",
                         "config" => [
-                            "id"         => [ "type" => "int", "from" => "ShopItemID"    , "parentLevel" => 0, ],
-                            "itemShopId" => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 1, ],
-                            "itemId"     => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
+                            "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
+                            "name"          => [ "type" => "string", "from" => "strItemName"       , ],
+                            "description"   => [ "type" => "string", "from" => "strItemDescription", ],
+                            "visible"       => [ "type" => "int"   , "from" => "bitVisible"        , ],
+                            "destroyable"   => [ "type" => "int"   , "from" => "bitDestroyable"    , ],
+                            "sellable"      => [ "type" => "int"   , "from" => "bitSellable"       , ],
+                            "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
+                            "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
+                            "cost"          => [ "type" => "int"   , "from" => "intCost"           , ],
+                            "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
+                            "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
+                            "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
+                            "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
+                            "type"          => [ "type" => "string", "from" => "strType"           , ],
+                            "element"       => [ "type" => "string", "from" => "strElement"        , ],
+                            "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
+                            "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
+                            "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
+                            "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
+                            "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
+                            "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
+                            "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
+                            "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
+                            "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
+                            "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
+                            "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
+                            "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
+                            "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
+                            "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
+                            "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
+                            "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
+                            "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
+                            "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
+                            "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
+                            "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
+                            "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
+                            "resists"       => [ "type" => "string", "from" => "strResists"        , ],
                         ],
                     ]
                 ]
             ]
         ]
     ],
+    "mergeshop" => [
+        "jsonKey" => "mergeShop",
+        "type" => "single",
+        "config" => [
+            "id"    => [ "type" => "int"   , "from" => "MSID"   , ],
+            "name"  => [ "type" => "string", "from" => "strName", ],
+        ],
+        "children" => [
+            "items" => [
+                "jsonKey" => "mergeShop_item",
+                "type" => "multiple",
+                "config" => [
+                    "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
+                ],
+            ],
+        ],
+    ]
 ];
 
 $merges = [
@@ -336,8 +353,8 @@ convertAll([
     // "town",
     // "class",
     // "interface",
-    "shop",
-    // "mergeShop",
+    // "shop",
+    "mergeShop",
     // "houseShop",
     // "houseItemShop",
 ]);
@@ -458,7 +475,6 @@ function saveData(array $json): void {
                 \file_put_contents("{$newDir}/merged.json", "[]");
             }
 
-            echo "[1] Validating {$newFolder} data\n";
             $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
             foreach($newData as $newJson) {
                 foreach($currentData as $currentDataKey => $currentDataItem) {
@@ -481,12 +497,10 @@ function saveData(array $json): void {
                 $currentData[] = $newJson;
             }
 
-            echo "[1] Sorting {$newFolder} data\n";
             \usort($currentData, function(array $a, array $b): int {
                 return \strnatcasecmp($a["id"], $b["id"]);
             });
 
-            echo "[1] Saving {$newFolder} data\n";
             \file_put_contents("{$newDir}/merged.json", \json_encode($currentData, JSON_PRETTY_PRINT));
         } else {
             throw new \Exception("Save mode not supported: {$saveMode}");
