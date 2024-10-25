@@ -322,8 +322,8 @@ $xsd = [
                         "jsonKey" => "item",
                         "type" => "single",
                         "config" => [
-                            "id"            => [ "type" => "int"   , "from" => "ItemID1"           , ],
-                            "name"          => [ "type" => "string", "from" => "Item1"             , ],
+                            "id"            => [ "type" => "int"   , "from" => "ItemID1"                   , ],
+                            "name"          => [ "type" => "string", "from" => "Item1"                     , ],
                             "description"   => [ "type" => "string", "defined" => ""                       , ],
                             "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
                             "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
@@ -337,7 +337,7 @@ $xsd = [
                             "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
                             "type"          => [ "type" => "string", "defined" => ""                       , ],
                             "element"       => [ "type" => "string", "defined" => ""                       , ],
-                            "categoryId"    => [ "type" => "string", "defined" => "4"                      , ], // item
+                            "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
                             "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
                             "itemType"      => [ "type" => "string", "defined" => ""                       , ],
                             "swf"           => [ "type" => "string", "defined" => ""                       , ],
@@ -380,7 +380,7 @@ $xsd = [
                             "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
                             "type"          => [ "type" => "string", "defined" => ""                       , ],
                             "element"       => [ "type" => "string", "defined" => ""                       , ],
-                            "categoryId"    => [ "type" => "string", "defined" => "4"                      , ], // item
+                            "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
                             "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
                             "itemType"      => [ "type" => "string", "defined" => ""                       , ],
                             "swf"           => [ "type" => "string", "defined" => ""                       , ],
