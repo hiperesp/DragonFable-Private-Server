@@ -547,6 +547,19 @@ function convertAll(array $folders) {
     }
     echo "[0] Conversion done!\n";
     saveData($dataToSave);
+
+    if(isset($dataToSave["interface"])) {
+        // download all swf files
+        foreach($dataToSave["interface"] as $interface) {
+            echo "[0] Downloading {$interface['swf']}...\n";
+            $downloaded = !!@\file_get_contents("http://localhost/cdn/gamefiles/cache.php/{$interface['swf']}");
+            if(!$downloaded) {
+                echo "[0] Failed to download {$interface['swf']}...\n";
+            }
+        }
+    }
+
+    echo "[0] All done!\n";
 }
 
 function generatedIds(string $type, array $parents): int {
