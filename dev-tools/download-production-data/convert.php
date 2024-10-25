@@ -305,9 +305,149 @@ $xsd = [
             "items" => [
                 "jsonKey" => "mergeShop_item",
                 "type" => "multiple",
+                "ignoreParams" => [ "strCategory" ],
                 "config" => [
-                    "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
+                    "id"            => [ "type" => "int"   , "from" => "ID"            , ],
+                    "itemId1"       => [ "type" => "int"   , "from" => "ItemID1"       , ],
+                    "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
+                    "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
+                    "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
+                    "string"        => [ "type" => "int"   , "from" => "intString"     , ], // not sure what this is
+                    "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // not sure what this is
+                    "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // not sure what this is
+                    "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ], // not sure what this is
                 ],
+                "newChildren" => [
+                    [
+                        "jsonKey" => "item",
+                        "type" => "single",
+                        "config" => [
+                            "id"            => [ "type" => "int"   , "from" => "ItemID1"           , ],
+                            "name"          => [ "type" => "string", "from" => "Item1"             , ],
+                            "description"   => [ "type" => "string", "defined" => ""                       , ],
+                            "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
+                            "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
+                            "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
+                            "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "type"          => [ "type" => "string", "defined" => ""                       , ],
+                            "element"       => [ "type" => "string", "defined" => ""                       , ],
+                            "categoryId"    => [ "type" => "string", "defined" => "4"                      , ], // item
+                            "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
+                            "itemType"      => [ "type" => "string", "defined" => ""                       , ],
+                            "swf"           => [ "type" => "string", "defined" => ""                       , ],
+                            "icon"          => [ "type" => "string", "defined" => ""                       , ],
+                            "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "resists"       => [ "type" => "string", "defined" => ""                       , ],
+                        ],
+                    ],
+                    [
+                        "jsonKey" => "item",
+                        "type" => "single",
+                        "config" => [
+                            "id"            => [ "type" => "int"   , "from" => "ItemID2", "default" => "-1", ],
+                            "name"          => [ "type" => "string", "from" => "Item2"  , "default" => ""  , ],
+                            "description"   => [ "type" => "string", "defined" => ""                       , ],
+                            "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
+                            "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
+                            "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
+                            "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "type"          => [ "type" => "string", "defined" => ""                       , ],
+                            "element"       => [ "type" => "string", "defined" => ""                       , ],
+                            "categoryId"    => [ "type" => "string", "defined" => "4"                      , ], // item
+                            "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
+                            "itemType"      => [ "type" => "string", "defined" => ""                       , ],
+                            "swf"           => [ "type" => "string", "defined" => ""                       , ],
+                            "icon"          => [ "type" => "string", "defined" => ""                       , ],
+                            "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                            "resists"       => [ "type" => "string", "defined" => ""                       , ],
+                        ],
+                    ],
+                    [
+                        "jsonKey" => "item",
+                        "type" => "single",
+                        "config" => [
+                            "id"            => [ "type" => "int"   , "from" => "NewItemID"         , ],
+                            "name"          => [ "type" => "string", "from" => "strItemName"       , ],
+                            "description"   => [ "type" => "string", "from" => "strItemDescription", ],
+                            "visible"       => [ "type" => "int"   , "defined" => "1"              , ],
+                            "destroyable"   => [ "type" => "int"   , "defined" => "1"              , ],
+                            "sellable"      => [ "type" => "int"   , "defined" => "0"              , ],
+                            "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
+                            "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
+                            "cost"          => [ "type" => "int"   , "defined" => "0"              , ],
+                            "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
+                            "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
+                            "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
+                            "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
+                            "type"          => [ "type" => "string", "defined" => ""               , ],
+                            "element"       => [ "type" => "string", "from" => "strElement"        , ],
+                            "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
+                            "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
+                            "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
+                            "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
+                            "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
+                            "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
+                            "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
+                            "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
+                            "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
+                            "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
+                            "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
+                            "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
+                            "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
+                            "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
+                            "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
+                            "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
+                            "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
+                            "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
+                            "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
+                            "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
+                            "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
+                            "resists"       => [ "type" => "string", "from" => "strResists"        , ],
+                        ],
+                    ],
+                ]
             ],
         ],
     ]
@@ -331,13 +471,29 @@ $merges = [
 
         return $quest3;
     },
+    "item" => function(array $quest1, array $quest2): array {
+        $keys = \array_keys($quest1);
+        if($keys !== \array_keys($quest2)) {
+            throw new \Exception("Data already exists with different keys");
+        }
+
+        $item3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
+            if($value1===$value2) return $value1;
+
+            return match($keyName) {
+                default => $value1 ?: $value2,
+            };
+        }, $keys, $quest1, $quest2));
+
+        return $item3;
+    },
     "default" => function(array $data1, array $data2): array {
         $keys = \array_keys($data1);
         if($keys !== \array_keys($data2)) {
             throw new \Exception("File already exists with different KEYS");
         }
 
-        return \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
+        return \array_combine($keys, \array_map(function(string $keyName, mixed $value1, mixed $value2) {
             if($value1===$value2) return $value1;
             throw new \Exception("File already exists with different VALUES");
         }, $keys, $data1, $data2));
@@ -588,12 +744,12 @@ function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdIt
                             }
                         }
                     }
-                    throw new \Exception("Attribute key not found in XSD config: {$key2}");
+                    throw new \Exception("Attribute key not found in XSD config: {$key2}. Data (to speed the development): ".\json_encode($value, JSON_PRETTY_PRINT));
                 }
                 continue;
             }
             if(!isset($xsdItem["children"][$key])) {
-                throw new \Exception("Child key not found in XSD config: {$key}");
+                throw new \Exception("Child key not found in XSD config: {$key}.");
             }
         }
     }
