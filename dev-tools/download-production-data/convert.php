@@ -213,9 +213,20 @@ $xsd = [
                     "bonus"         => [ "type" => "int"   , "from" => "intBonus"            , ],
                     "swf"           => [ "type" => "string", "defined" => ""                 , ],
                     "categoryId"    => [ "type" => "int"   , "defined" => "1" /* weapon */   , ],
+                    "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
                 ],
             ],
         ]
+    ],
+    "intrface" => [
+        "jsonKey" => "interface",
+        "type" => "single",
+        "config" => [
+            "id"        => [ "type" => "int"   , "from" => "InterfaceID" , ],
+            "name"      => [ "type" => "string", "from" => "strName"     , ],
+            "swf"       => [ "type" => "string", "from" => "strFileName" , ],
+            "loadUnder" => [ "type" => "int",    "from" => "bitLoadUnder", ],
+        ],
     ],
 ];
 
@@ -257,7 +268,12 @@ $merges = [
 convertAll([
     // "quest",
     // "town",
-    "class",
+    // "class",
+    "interface",
+    // "shop",
+    // "mergeShop",
+    // "houseShop",
+    // "houseItemShop",
 ]);
 
 function convertAll(array $folders) {
