@@ -163,7 +163,59 @@ $xsd = [
         ],
     ],
     "character" => [ // from class dir
-
+        "jsonKey" => "class",
+        "type" => "single",
+        "config" => [
+            "id"            => [ "type" => "int"   , "from" => "ClassID"          , ],
+            "name"          => [ "type" => "string", "from" => "strClassName"     , ],
+            "element"       => [ "type" => "string", "from" => "strElement"       , ],
+            "equippable"    => [ "type" => "string", "from" => "strEquippable"    , ],
+            "swf"           => [ "type" => "string", "from" => "strClassFileName" , ],
+            "savable"       => [ "type" => "int"   , "from" => "intSavable"       , ],
+            "armorId"       => [ "type" => "int"   , "generated" => "class_armor" , ],
+            "weaponId"      => [ "type" => "int"   , "generated" => "class_weapon", ],
+        ],
+        "newChildren" => [
+            [
+                "jsonKey" => "item",
+                "type" => "single",
+                "config" => [
+                    "id"            => [ "type" => "int"   , "fromParsedParent" => "armorId" , "parentLevel" => 0, ],
+                    "name"          => [ "type" => "string", "from" => "strArmorName"        , ],
+                    "description"   => [ "type" => "string", "from" => "strArmorDescription" , ],
+                    "designInfo"    => [ "type" => "string", "defined" => ""                 , ],
+                    "resists"       => [ "type" => "string", "from" => "strArmorResists"     , ],
+                    "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"         , ],
+                    "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"        , ],
+                    "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"         , ],
+                    "parry"         => [ "type" => "int"   , "from" => "intParry"            , ],
+                    "dodge"         => [ "type" => "int"   , "from" => "intDodge"            , ],
+                    "block"         => [ "type" => "int"   , "from" => "intBlock"            , ],
+                    "categoryId"    => [ "type" => "int"   , "defined" => "2" /* armor */    , ],
+                ],
+            ],
+            [
+                "jsonKey" => "item",
+                "type" => "single",
+                "config" => [
+                    "id"            => [ "type" => "int"   , "fromParsedParent" => "weaponId", "parentLevel" => 0, ],
+                    "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
+                    "description"   => [ "type" => "string", "from" => "strWeaponDescription", ],
+                    "designInfo"    => [ "type" => "string", "from" => "strWeaponDesignInfo" , "default" => "" ],
+                    "resists"       => [ "type" => "string", "from" => "strWeaponResists"    , ],
+                    "level"         => [ "type" => "int"   , "from" => "intWeaponLevel"      , ],
+                    "icon"          => [ "type" => "string", "from" => "strWeaponIcon"       , ],
+                    "type"          => [ "type" => "string", "from" => "strType"             , ],
+                    "itemType"      => [ "type" => "string", "from" => "strItemType"         , ],
+                    "critical"      => [ "type" => "int"   , "from" => "intCrit"             , ],
+                    "damageMin"     => [ "type" => "int"   , "from" => "intDmgMin"           , ],
+                    "damageMax"     => [ "type" => "int"   , "from" => "intDmgMax"           , ],
+                    "bonus"         => [ "type" => "int"   , "from" => "intBonus"            , ],
+                    "swf"           => [ "type" => "string", "defined" => ""                 , ],
+                    "categoryId"    => [ "type" => "int"   , "defined" => "1" /* weapon */   , ],
+                ],
+            ],
+        ]
     ],
 ];
 
@@ -203,8 +255,8 @@ $merges = [
 //     return $folder !== "." && $folder !== "..";
 // }));
 convertAll([
-    "quest",
-    "town",
+    // "quest",
+    // "town",
     "class",
 ]);
 
@@ -239,6 +291,12 @@ function generatedIds(string $type, array $parents): int {
         $itemCategoryId = \array_search($type, $itemLogic);
         $length = \count($itemLogic);
         return 9900000 + $monsterId * $length + $itemCategoryId;
+    }
+    if(\in_array($type, $itemLogic = [ "class_weapon", "class_armor", "class_pet", "class_item" ])) {
+        $classId = $parents[0]["parsed"]["id"];
+        $itemCategoryId = \array_search($type, $itemLogic);
+        $length = \count($itemLogic);
+        return 9800000 + $classId * $length + $itemCategoryId;
     }
     if($type === "quest_monster") {
         static $questMonsterId = 0;
