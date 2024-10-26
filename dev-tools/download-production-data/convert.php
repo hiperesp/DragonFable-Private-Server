@@ -572,7 +572,7 @@ function convertAll(array $folders) {
         // download all swf files
         foreach($dataToSave["interface"] as $interface) {
             echo "[0] Downloading {$interface['swf']}...\n";
-            $downloaded = !!@\file_get_contents("http://localhost/cdn/gamefiles/cache.php/{$interface['swf']}");
+            $downloaded = !!@\file_get_contents("http://localhost/cdn/gamefiles/update.php/{$interface['swf']}");
             if(!$downloaded) {
                 echo "[0] Failed to download {$interface['swf']}...\n";
             }
