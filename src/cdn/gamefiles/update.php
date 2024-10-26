@@ -3,15 +3,21 @@
 $pathInfo = $_SERVER['PATH_INFO'];
 
 function update(string $pathInfo): string|false {
-    include 'remote.php';
-    $out = remote($pathInfo);
-    if($out!==false) {
-        $localFile = __DIR__.$pathInfo;
-        $localDir = \dirname($localFile);
-        if(!\is_dir($localDir)) {
-            \mkdir($localDir, 0755, true);
+    list($filemtimeInterval, $pathInfo) = parsePathInfo($pathInfo);
+
+    $fetchRemote = fetchRemote((int)$filemtimeInterval, $pathInfo);
+
+    if($fetchRemote) {
+        include 'remote.php';
+        $out = remote($pathInfo);
+        if($out!==false) {
+            $localFile = __DIR__.$pathInfo;
+            $localDir = \dirname($localFile);
+            if(!\is_dir($localDir)) {
+                \mkdir($localDir, 0755, true);
+            }
+            \file_put_contents($localFile, $out);
         }
-        \file_put_contents($localFile, $out);
     }
 
     include 'local.php';
@@ -21,6 +27,32 @@ function update(string $pathInfo): string|false {
     }
 
     return $out;
+}
+
+function parsePathInfo(string $pathInfo): array {
+    $pathParts = \explode('/', $pathInfo);
+    $filemtimeInterval = $pathParts[1];
+    unset($pathParts[1]);
+    return [ $filemtimeInterval, \implode('/', $pathParts) ];
+}
+
+function fetchRemote(int $filemtimeInterval, string $pathInfo): bool {
+
+    $pathInfo = \strtolower($pathInfo);
+    if(!\preg_match('/\.swf$/', $pathInfo)) {
+        return false;
+    }
+
+    $localFile = __DIR__.$pathInfo;
+
+    if(\file_exists($localFile)) {
+        $localFilemtime = \filemtime($localFile);
+        if($localFilemtime + $filemtimeInterval > \time()) {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 if(__FILE__ == $_SERVER["SCRIPT_FILENAME"]) {
