@@ -386,21 +386,7 @@ $merges = [
     "quest" => function(array $quest1, array $quest2): array {
         $keys = \array_keys($quest1);
         if($keys !== \array_keys($quest2)) {
-            foreach($quest1 as $key => $value) {
-                if(!isset($quest2[$key])) {
-                    $quest2[$key] = $value;
-                }
-            }
-            foreach($quest2 as $key => $value) {
-                if(!isset($quest1[$key])) {
-                    $quest1[$key] = $value;
-                }
-            }
-
-            // sort by keys
-            \ksort($quest1);
-            \ksort($quest2);
-            $keys = \array_keys($quest1);
+            list($keys, $quest1, $quest2) = addMissingKeys($quest1, $quest2);
         }
 
         $quest3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
@@ -415,21 +401,7 @@ $merges = [
     "item" => function(array $item1, array $item2): array {
         $keys = \array_keys($item1);
         if($keys !== \array_keys($item2)) {
-            foreach($item1 as $key => $value) {
-                if(!isset($item2[$key])) {
-                    $item2[$key] = $value;
-                }
-            }
-            foreach($item2 as $key => $value) {
-                if(!isset($item1[$key])) {
-                    $item1[$key] = $value;
-                }
-            }
-
-            // sort by keys
-            \ksort($item1);
-            \ksort($item2);
-            $keys = \array_keys($item1);
+            list($keys, $item1, $item2) = addMissingKeys($item1, $item2);
         }
 
         $item3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
@@ -532,46 +504,6 @@ function convertAll(array $folders) {
 
     echo "[0] All done!\n";
 }
-
-function getPercentString(int $current, int $total): string {
-    global $maxMemoryUsageMB;
-
-    $percent = (\number_format($current / $total, 5) * 100)."%";
-    $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
-    $memoryUsagePercent = (\number_format($memoryUsageMB / $maxMemoryUsageMB, 5) * 100)."%";
-    $memoryUsageStr = \number_format($memoryUsageMB)."M";
-
-    return "({$percent}) - MEM: {$memoryUsageStr} ({$memoryUsagePercent})";
-}
-
-function generatedIds(string $type, array $parents): int {
-    if(\in_array($type, $itemLogic = [ "monster_weapon", "monster_armor", "monster_pet", "monster_item" ])) {
-        $monsterId = $parents[0]["parsed"]["id"];
-        $itemCategoryId = \array_search($type, $itemLogic);
-        $length = \count($itemLogic);
-        return 9900000 + $monsterId * $length + $itemCategoryId;
-    }
-    if(\in_array($type, $itemLogic = [ "class_weapon", "class_armor", "class_pet", "class_item" ])) {
-        $classId = $parents[0]["parsed"]["id"];
-        $itemCategoryId = \array_search($type, $itemLogic);
-        $length = \count($itemLogic);
-        return 9800000 + $classId * $length + $itemCategoryId;
-    }
-    if(\in_array($type, $itemLogic = [ "item_category" ])) {
-        return match(\trim($parents[0]['raw']['@attributes']['strCategory'])) {
-            "Weapon" => 1,
-            "Armor" => 2,
-            "Pet" => 3,
-            "Item" => 4,
-            default => throw new \Exception("Item category not found: {$parents[0]['raw']['@attributes']['strCategory']}"),
-        };
-    }
-    if($type === "quest_monster") {
-        static $questMonsterId = 0;
-        return ++$questMonsterId;
-    }
-    throw new \Exception("Generated ID not found: {$type}");
-};
 
 function convertFile(string $folder, string $fileName): array {
     global $xsd;
@@ -677,7 +609,7 @@ function saveData(array &$json): void {
                                 }
                                 $newJson = $merges[$newFolder]($currentDataItem, $newJson);
                             } catch(\Exception $e) {
-                                throw new \Exception("{$e->getMessage()}: {$group} {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
+                                throw new \Exception("{$e->getMessage()}: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
                             }
                         }
                         unset($currentData[$currentDataKey]);
@@ -849,6 +781,35 @@ function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdIt
     return $newJsonItem;
 }
 
+function generatedIds(string $type, array $parents): int {
+    if(\in_array($type, $itemLogic = [ "monster_weapon", "monster_armor", "monster_pet", "monster_item" ])) {
+        $monsterId = $parents[0]["parsed"]["id"];
+        $itemCategoryId = \array_search($type, $itemLogic);
+        $length = \count($itemLogic);
+        return 9900000 + $monsterId * $length + $itemCategoryId;
+    }
+    if(\in_array($type, $itemLogic = [ "class_weapon", "class_armor", "class_pet", "class_item" ])) {
+        $classId = $parents[0]["parsed"]["id"];
+        $itemCategoryId = \array_search($type, $itemLogic);
+        $length = \count($itemLogic);
+        return 9800000 + $classId * $length + $itemCategoryId;
+    }
+    if(\in_array($type, $itemLogic = [ "item_category" ])) {
+        return match(\trim($parents[0]['raw']['@attributes']['strCategory'])) {
+            "Weapon" => 1,
+            "Armor" => 2,
+            "Pet" => 3,
+            "Item" => 4,
+            default => throw new \Exception("Item category not found: {$parents[0]['raw']['@attributes']['strCategory']}"),
+        };
+    }
+    if($type === "quest_monster") {
+        static $questMonsterId = 0;
+        return ++$questMonsterId;
+    }
+    throw new \Exception("Generated ID not found: {$type}");
+};
+
 function createParents(array $newJsonItem, array $jsonItem, array $parents): array {
     return \array_merge([
         [
@@ -875,4 +836,42 @@ function parseColor(string $color): string {
     $color = \str_pad($color, 6, "0", STR_PAD_LEFT);
     $color = \substr($color, 0, 6); // max 6 char
     return $color;
+}
+
+function getPercentString(int $current, int $total): string {
+    global $maxMemoryUsageMB;
+
+    $percent = (\number_format($current / $total, 5) * 100)."%";
+    $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
+    $memoryUsagePercent = (\number_format($memoryUsageMB / $maxMemoryUsageMB, 5) * 100)."%";
+    $memoryUsageStr = \number_format($memoryUsageMB)."M";
+
+    return "({$percent}) - MEM: {$memoryUsageStr} ({$memoryUsagePercent})";
+}
+
+function addMissingKeys(array $array1, array $array2): array {
+    $keys = \array_keys($array1);
+    if($keys !== \array_keys($array2)) {
+        $newArray1 = [];
+        foreach($array2 as $key => $value) {
+            if(isset($array1[$key])) {
+                $newArray1[$key] = $array1[$key];
+            } else {
+                $newArray1[$key] = $value;
+            }
+        }
+        $array1 = $newArray1;
+
+        $newArray2 = [];
+        foreach($array1 as $key => $value) {
+            if(isset($array2[$key])) {
+                $newArray2[$key] = $array2[$key];
+            } else {
+                $newArray2[$key] = $value;
+            }
+        }
+        $array2 = $newArray2;
+    }
+
+    return [\array_keys($array1), $array1, $array2];
 }
