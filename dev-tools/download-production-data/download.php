@@ -23,6 +23,13 @@ if(!isset($skipDownloaded)) {
 
 
 $thingsToDownload = [
+    "interface" => [
+        "from" => 1,
+        "to" => 30,
+        "needAuth" => false,
+        "endpoint" => "/cf-interfaceload.asp",
+        "param" => "intInterfaceID",
+    ],
     "quest" => [
         "from" => 1,
         "to" => 2200,
@@ -43,13 +50,6 @@ $thingsToDownload = [
         "needAuth" => false,
         "endpoint" => "/cf-shopload.asp",
         "param" => "intShopID",
-    ],
-    "interface" => [
-        "from" => 1,
-        "to" => 30,
-        "needAuth" => false,
-        "endpoint" => "/cf-interfaceload.asp",
-        "param" => "intInterfaceID",
     ],
     "houseShop" => [
         "from" => 1,
@@ -85,22 +85,25 @@ downloadAll();
 
 function downloadAll(): void {
     global $thingsToDownload;
-    $totalThingsToDownload = \count($thingsToDownload);
-    $maxProgressPerThing = 1 / $totalThingsToDownload;
+    $totalToDownload = \array_reduce($thingsToDownload, function($carry, $thing) {
+        return $carry + $thing["to"] - $thing["from"] + 1;
+    }, 0);
 
     $lastDownloaded = [];
 
-    $currentThingToDownload = 0;
+    $currentItem = 0;
     foreach ($thingsToDownload as $thingToDownload => $thing) {
         for ($i = $thing["from"]; $i <= $thing["to"]; $i++) {
-            $percent = (\number_format($maxProgressPerThing * $currentThingToDownload + ($i - $thing["from"]) / ($thing["to"] - $thing["from"] + 1) * $maxProgressPerThing, 5) * 100)."%";
-            echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} ({$percent})\n";
+
+            $percentStr = getPercentString($currentItem, $totalToDownload);
+            echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} {$percentStr}\n";
+
             $success = download($thingToDownload, $i);
             if($i===$thing["to"] && $success) {
                 $lastDownloaded[] = $thingToDownload;
             }
+            $currentItem++;
         }
-        $currentThingToDownload++;
     }
     echo "[0] Downloaded all things\n";
     if($lastDownloaded) {
@@ -111,6 +114,15 @@ function downloadAll(): void {
             echo "[0] MAYBE MORE: {$thing}\n";
         }
     }
+}
+
+function getPercentString(int $current, int $total): string {
+
+    $percent = (\number_format($current / $total, 5) * 100)."%";
+    $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
+    $memoryUsageStr = \number_format($memoryUsageMB)."M";
+
+    return "({$percent}) - MEM: {$memoryUsageStr}";
 }
 
 function download(string $thingToDownload, int $id): bool {
