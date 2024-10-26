@@ -4,17 +4,8 @@ $cdn = "http://localhost/cdn/";
 $maxFilemtime = 24 * 60 * 60; // 24 hours
 
 $toDownload = [
-    "class" => [
-        [ "field" => "swf", "basePath" => "classes/f/", ],
-        [ "field" => "swf", "basePath" => "classes/m/", ],
-    ],
+    
     "interface" => [
-        [ "field" => "swf", "basePath" => "", ],
-    ],
-    "item" => [
-        [ "field" => "swf", "basePath" => "", ],
-    ],
-    "monster" => [
         [ "field" => "swf", "basePath" => "", ],
     ],
     "quest" => [
@@ -22,6 +13,16 @@ $toDownload = [
         [ "field" => "swfX", "basePath" => "", ],
         [ "field" => "monsterGroupSwf", "basePath" => "monsters/", ],
         [ "field" => "extra", "basePath" => "", "special" => "quest_extra" ],
+    ],
+    "monster" => [
+        [ "field" => "swf", "basePath" => "", ],
+    ],
+    "class" => [
+        [ "field" => "swf", "basePath" => "classes/f/", ],
+        [ "field" => "swf", "basePath" => "classes/m/", ],
+    ],
+    "item" => [
+        [ "field" => "swf", "basePath" => "", ],
     ],
 ];
 
@@ -60,8 +61,11 @@ function downloadAll($toDownload) {
         foreach($data as $uri) {
             echo "[0] Downloading {$uri}... ".getPercentString($current, $total)."\n";
             $downloaded = !!@\file_get_contents("{$cdn}gamefiles/update.php/{$maxFilemtime}/{$uri}");
-            if(!$downloaded) {
+            if($downloaded) {
+                \file_put_contents("download-swf-success.txt", "{$uri}\n", FILE_APPEND);
+            } else {
                 echo "[0] Failed to download {$uri}...\n";
+                \file_put_contents("download-swf-fail.txt", "{$uri}\n", FILE_APPEND);
             }
             $current++;
         }
