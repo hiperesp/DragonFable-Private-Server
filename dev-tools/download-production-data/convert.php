@@ -6,451 +6,464 @@
 // both modes will check if the data already exists and will not save it if it's the same.
 // if the data is different, it will throw an exception.
 $saveMode = 'merged';
+$maxMemoryUsageMB = '384';
 
 
 $xsd = [
-    "quest" => [ // from quest dir
-        "jsonKey" => "quest",
-        "type" => "single",
-        "ignoreParams" => [
-            "intCounter", // not convert counter because it has some random values every time, idk where it is used and if it is important
-        ],
-        "config" => [
-            "id"                => [ "type" => "int"   , "from" => "QuestID"                 , ],
-            "name"              => [ "type" => "string", "from" => "strName"                 , ],
-            "description"       => [ "type" => "string", "from" => "strDescription"          , ],
-            "complete"          => [ "type" => "string", "from" => "strComplete"             , ],
-            "swf"               => [ "type" => "string", "from" => "strFileName"             , ],
-            "swfX"              => [ "type" => "string", "from" => "strXFileName"            , ],
-            "maxSilver"         => [ "type" => "int"   , "from" => "intMaxSilver"            , ],
-            "maxGold"           => [ "type" => "int"   , "from" => "intMaxGold"              , ],
-            "maxGems"           => [ "type" => "int"   , "from" => "intMaxGems"              , ],
-            "maxExp"            => [ "type" => "int"   , "from" => "intMaxExp"               , ],
-            "minTime"           => [ "type" => "int"   , "from" => "intMinTime"              , ],
-            // "counter"           => [ "type" => "int"   , "from" => "intCounter"              , ],
-            "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
-            "extra"             => [ "type" => "string", "from" => "strExtra"                , ],
-            "dailyIndex"        => [ "type" => "int"   , "from" => "intDailyIndex"           , ],
-            "dailyReward"       => [ "type" => "int"   , "from" => "intDailyReward"          , ],
-            "monsterMinLevel"   => [ "type" => "int"   , "from" => "intMonsterMinLevel"      , ],
-            "monsterMaxLevel"   => [ "type" => "int"   , "from" => "intMonsterMaxLevel"      , ],
-            "monsterType"       => [ "type" => "string", "from" => "strMonsterType"          , ],
-            "monsterGroupSwf"   => [ "type" => "string", "from" => "strMonsterGroupFileName" , ],
-        ],
-        "children" => [
-            "monsters" => [
-                "jsonKey" => "monster",
-                "type" => "multiple",
-                "ignoreParams" => [
-                    "intMonsterRef", // not save it, because this is the index of the monster in the quest and we calculate based on id
-                ],
-                "config" => [
-                    "id"            => [ "type" => "int"   , "from" => "MonsterID"          , ],
-                    "name"          => [ "type" => "string", "from" => "strCharacterName"   , ],
-                    "level"         => [ "type" => "int"   , "from" => "intLevel"           , ],
-                    "experience"    => [ "type" => "int"   , "from" => "intExp"             , ],
-                    "hitPoints"     => [ "type" => "int"   , "from" => "intHP"              , ],
-                    "manaPoints"    => [ "type" => "int"   , "from" => "intMP"              , ],
-                    "silver"        => [ "type" => "int"   , "from" => "intSilver"          , ],
-                    "gold"          => [ "type" => "int"   , "from" => "intGold"            , ],
-                    "gems"          => [ "type" => "int"   , "from" => "intGems"            , ],
-                    "coins"         => [ "type" => "int"   , "from" => "intDragonCoins"     , ],
-                    "gender"        => [ "type" => "string", "from" => "strGender"          , ],
-                    "hairStyle"     => [ "type" => "int"   , "from" => "intHairStyle"       , ],
-                    "colorHair"     => [ "type" => "string", "from" => "intColorHair"       , "parseMethod" => "parseColor", ],
-                    "colorSkin"     => [ "type" => "string", "from" => "intColorSkin"       , "parseMethod" => "parseColor", ],
-                    "colorBase"     => [ "type" => "string", "from" => "intColorBase"       , "parseMethod" => "parseColor", ],
-                    "colorTrim"     => [ "type" => "string", "from" => "intColorTrim"       , "parseMethod" => "parseColor", ],
-                    "strength"      => [ "type" => "int"   , "from" => "intStr"             , ],
-                    "dexterity"     => [ "type" => "int"   , "from" => "intDex"             , ],
-                    "intelligence"  => [ "type" => "int"   , "from" => "intInt"             , ],
-                    "luck"          => [ "type" => "int"   , "from" => "intLuk"             , ],
-                    "charisma"      => [ "type" => "int"   , "from" => "intCha"             , ],
-                    "endurance"     => [ "type" => "int"   , "from" => "intEnd"             , ],
-                    "wisdom"        => [ "type" => "int"   , "from" => "intWis"             , ],
-                    "element"       => [ "type" => "string", "from" => "strElement"         , ],
-                    "raceId"        => [ "type" => "int"   , "from" => "RaceID"             , ],
-                    "movName"       => [ "type" => "string", "from" => "strMovName"         , ],
-                    "swf"           => [ "type" => "string", "from" => "strMonsterFileName" , ],
-                    "armorId"       => [ "type" => "int"   , "generated" => "monster_armor" , ],
-                    "weaponId"      => [ "type" => "int"   , "generated" => "monster_weapon", ],
-                ],
-                "newChildren" => [
-                    [
-                        "jsonKey" => "item",
-                        "type" => "single",
-                        "config" => [
-                            "id"            => [ "type" => "int"   , "fromParsedParent" => "armorId" , "parentLevel" => 0, ],
-                            "name"          => [ "type" => "string", "from" => "strArmorName"        , ],
-                            "description"   => [ "type" => "string", "from" => "strArmorDescription" , ],
-                            "designInfo"    => [ "type" => "string", "from" => "strArmorDesignInfo"  , ],
-                            "resists"       => [ "type" => "string", "from" => "strArmorResists"     , ],
-                            "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"         , ],
-                            "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"        , ],
-                            "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"         , ],
-                            "parry"         => [ "type" => "int"   , "from" => "intParry"            , ],
-                            "dodge"         => [ "type" => "int"   , "from" => "intDodge"            , ],
-                            "block"         => [ "type" => "int"   , "from" => "intBlock"            , ],
-                            "categoryId"    => [ "type" => "int"   , "defined" => "2" /* armor */    , ],
+    "quest" => [
+        "quest" => [ // from quest dir
+            "jsonKey" => "quest",
+            "type" => "single",
+            "ignoreParams" => [
+                "intCounter", // not convert counter because it has some random values every time, idk where it is used and if it is important
+            ],
+            "config" => [
+                "id"                => [ "type" => "int"   , "from" => "QuestID"                 , ],
+                "name"              => [ "type" => "string", "from" => "strName"                 , ],
+                "description"       => [ "type" => "string", "from" => "strDescription"          , ],
+                "complete"          => [ "type" => "string", "from" => "strComplete"             , ],
+                "swf"               => [ "type" => "string", "from" => "strFileName"             , ],
+                "swfX"              => [ "type" => "string", "from" => "strXFileName"            , ],
+                "maxSilver"         => [ "type" => "int"   , "from" => "intMaxSilver"            , ],
+                "maxGold"           => [ "type" => "int"   , "from" => "intMaxGold"              , ],
+                "maxGems"           => [ "type" => "int"   , "from" => "intMaxGems"              , ],
+                "maxExp"            => [ "type" => "int"   , "from" => "intMaxExp"               , ],
+                "minTime"           => [ "type" => "int"   , "from" => "intMinTime"              , ],
+                // "counter"           => [ "type" => "int"   , "from" => "intCounter"              , ],
+                "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
+                "extra"             => [ "type" => "string", "from" => "strExtra"                , ],
+                "dailyIndex"        => [ "type" => "int"   , "from" => "intDailyIndex"           , ],
+                "dailyReward"       => [ "type" => "int"   , "from" => "intDailyReward"          , ],
+                "monsterMinLevel"   => [ "type" => "int"   , "from" => "intMonsterMinLevel"      , ],
+                "monsterMaxLevel"   => [ "type" => "int"   , "from" => "intMonsterMaxLevel"      , ],
+                "monsterType"       => [ "type" => "string", "from" => "strMonsterType"          , ],
+                "monsterGroupSwf"   => [ "type" => "string", "from" => "strMonsterGroupFileName" , ],
+            ],
+            "children" => [
+                "monsters" => [
+                    "jsonKey" => "monster",
+                    "type" => "multiple",
+                    "ignoreParams" => [
+                        "intMonsterRef", // not save it, because this is the index of the monster in the quest and we calculate based on id
+                    ],
+                    "config" => [
+                        "id"            => [ "type" => "int"   , "from" => "MonsterID"          , ],
+                        "name"          => [ "type" => "string", "from" => "strCharacterName"   , ],
+                        "level"         => [ "type" => "int"   , "from" => "intLevel"           , ],
+                        "experience"    => [ "type" => "int"   , "from" => "intExp"             , ],
+                        "hitPoints"     => [ "type" => "int"   , "from" => "intHP"              , ],
+                        "manaPoints"    => [ "type" => "int"   , "from" => "intMP"              , ],
+                        "silver"        => [ "type" => "int"   , "from" => "intSilver"          , ],
+                        "gold"          => [ "type" => "int"   , "from" => "intGold"            , ],
+                        "gems"          => [ "type" => "int"   , "from" => "intGems"            , ],
+                        "coins"         => [ "type" => "int"   , "from" => "intDragonCoins"     , ],
+                        "gender"        => [ "type" => "string", "from" => "strGender"          , ],
+                        "hairStyle"     => [ "type" => "int"   , "from" => "intHairStyle"       , ],
+                        "colorHair"     => [ "type" => "string", "from" => "intColorHair"       , "parseMethod" => "parseColor", ],
+                        "colorSkin"     => [ "type" => "string", "from" => "intColorSkin"       , "parseMethod" => "parseColor", ],
+                        "colorBase"     => [ "type" => "string", "from" => "intColorBase"       , "parseMethod" => "parseColor", ],
+                        "colorTrim"     => [ "type" => "string", "from" => "intColorTrim"       , "parseMethod" => "parseColor", ],
+                        "strength"      => [ "type" => "int"   , "from" => "intStr"             , ],
+                        "dexterity"     => [ "type" => "int"   , "from" => "intDex"             , ],
+                        "intelligence"  => [ "type" => "int"   , "from" => "intInt"             , ],
+                        "luck"          => [ "type" => "int"   , "from" => "intLuk"             , ],
+                        "charisma"      => [ "type" => "int"   , "from" => "intCha"             , ],
+                        "endurance"     => [ "type" => "int"   , "from" => "intEnd"             , ],
+                        "wisdom"        => [ "type" => "int"   , "from" => "intWis"             , ],
+                        "element"       => [ "type" => "string", "from" => "strElement"         , ],
+                        "raceId"        => [ "type" => "int"   , "from" => "RaceID"             , ],
+                        "movName"       => [ "type" => "string", "from" => "strMovName"         , ],
+                        "swf"           => [ "type" => "string", "from" => "strMonsterFileName" , ],
+                        "armorId"       => [ "type" => "int"   , "generated" => "monster_armor" , ],
+                        "weaponId"      => [ "type" => "int"   , "generated" => "monster_weapon", ],
+                    ],
+                    "newChildren" => [
+                        [
+                            "jsonKey" => "item",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "fromParsedParent" => "armorId" , "parentLevel" => 0, ],
+                                "name"          => [ "type" => "string", "from" => "strArmorName"        , ],
+                                "description"   => [ "type" => "string", "from" => "strArmorDescription" , ],
+                                "designInfo"    => [ "type" => "string", "from" => "strArmorDesignInfo"  , ],
+                                "resists"       => [ "type" => "string", "from" => "strArmorResists"     , ],
+                                "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"         , ],
+                                "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"        , ],
+                                "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"         , ],
+                                "parry"         => [ "type" => "int"   , "from" => "intParry"            , ],
+                                "dodge"         => [ "type" => "int"   , "from" => "intDodge"            , ],
+                                "block"         => [ "type" => "int"   , "from" => "intBlock"            , ],
+                                "categoryId"    => [ "type" => "int"   , "defined" => "2" /* armor */    , ],
+                            ],
+                        ],
+                        [
+                            "jsonKey" => "item",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "fromParsedParent" => "weaponId", "parentLevel" => 0, ],
+                                "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
+                                "description"   => [ "type" => "string", "from" => "strWeaponDescription", ],
+                                "designInfo"    => [ "type" => "string", "from" => "strWeaponDesignInfo" , ],
+                                "resists"       => [ "type" => "string", "from" => "strWeaponResists"    , ],
+                                "level"         => [ "type" => "int"   , "defined" => "0"                , ],
+                                "icon"          => [ "type" => "string", "defined" => ""                 , ],
+                                "type"          => [ "type" => "string", "from" => "strType"             , ],
+                                "itemType"      => [ "type" => "string", "defined" => ""                 , ],
+                                "critical"      => [ "type" => "int"   , "from" => "intCrit"             , ],
+                                "damageMin"     => [ "type" => "int"   , "from" => "intDmgMin"           , ],
+                                "damageMax"     => [ "type" => "int"   , "from" => "intDmgMax"           , ],
+                                "bonus"         => [ "type" => "int"   , "from" => "intBonus"            , ],
+                                "swf"           => [ "type" => "string", "from" => "strWeaponFile"       , ],
+                                "categoryId"    => [ "type" => "int"   , "defined" => "1" /* weapon */   , ],
+                            ],
+                        ],
+                        [
+                            "jsonKey" => "quest_monster",
+                            "type" => "single",
+                            "config" => [
+                                "id"           => [ "type" => "int", "generated" => "quest_monster" , ],
+                                "questId"      => [ "type" => "int", "fromParsedParent" => "id"     , "parentLevel" => 1, ],
+                                "monsterId"    => [ "type" => "int", "from" => "MonsterID"          , ],
+                            ],
+                        ],
+                        [
+                            "jsonKey" => "race",
+                            "type" => "single",
+                            "config" => [
+                                "id"      => [ "type" => "int"   , "from" => "RaceID"        , ],
+                                "name"    => [ "type" => "string", "from" => "strRaceName"   , ],
+                                "resists" => [ "type" => "string", "from" => "strRaceResists", "default" => "" ],
+                            ],
                         ],
                     ],
-                    [
-                        "jsonKey" => "item",
-                        "type" => "single",
-                        "config" => [
-                            "id"            => [ "type" => "int"   , "fromParsedParent" => "weaponId", "parentLevel" => 0, ],
-                            "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
-                            "description"   => [ "type" => "string", "from" => "strWeaponDescription", ],
-                            "designInfo"    => [ "type" => "string", "from" => "strWeaponDesignInfo" , ],
-                            "resists"       => [ "type" => "string", "from" => "strWeaponResists"    , ],
-                            "level"         => [ "type" => "int"   , "defined" => "0"                , ],
-                            "icon"          => [ "type" => "string", "defined" => ""                 , ],
-                            "type"          => [ "type" => "string", "from" => "strType"             , ],
-                            "itemType"      => [ "type" => "string", "defined" => ""                 , ],
-                            "critical"      => [ "type" => "int"   , "from" => "intCrit"             , ],
-                            "damageMin"     => [ "type" => "int"   , "from" => "intDmgMin"           , ],
-                            "damageMax"     => [ "type" => "int"   , "from" => "intDmgMax"           , ],
-                            "bonus"         => [ "type" => "int"   , "from" => "intBonus"            , ],
-                            "swf"           => [ "type" => "string", "from" => "strWeaponFile"       , ],
-                            "categoryId"    => [ "type" => "int"   , "defined" => "1" /* weapon */   , ],
-                        ],
-                    ],
-                    [
-                        "jsonKey" => "quest_monster",
-                        "type" => "single",
-                        "config" => [
-                            "id"           => [ "type" => "int", "generated" => "quest_monster" , ],
-                            "questId"      => [ "type" => "int", "fromParsedParent" => "id"     , "parentLevel" => 1, ],
-                            "monsterId"    => [ "type" => "int", "from" => "MonsterID"          , ],
-                        ]
-                    ],
-                    [
-                        "jsonKey" => "race",
-                        "type" => "single",
-                        "config" => [
-                            "id"      => [ "type" => "int"   , "from" => "RaceID"        , ],
-                            "name"    => [ "type" => "string", "from" => "strRaceName"   , ],
-                            "resists" => [ "type" => "string", "from" => "strRaceResists", "default" => "" ],
-                        ],
-                    ]
-                ]
-            ]
-        ]
-    ],
-    "newTown" => [ // from town dir
-        "jsonKey" => "quest",
-        "type" => "single",
-        "config" => [
-            "id"                => [ "type" => "int"   , "fromSpecial" => "idFromFileName"   , ],
-            "name"              => [ "type" => "string", "defined"     => ""                 , ],
-            "description"       => [ "type" => "string", "defined"     => ""                 , ],
-            "complete"          => [ "type" => "string", "defined"     => ""                 , ],
-            "swf"               => [ "type" => "string", "from"        => "strQuestFileName" , ],
-            "swfX"              => [ "type" => "string", "from"        => "strQuestXFileName", ],
-            "maxSilver"         => [ "type" => "int"   , "defined"     => "0"                , ],
-            "maxGold"           => [ "type" => "int"   , "defined"     => "0"                , ],
-            "maxGems"           => [ "type" => "int"   , "defined"     => "0"                , ],
-            "maxExp"            => [ "type" => "int"   , "defined"     => "0"                , ],
-            "minTime"           => [ "type" => "int"   , "defined"     => "0"                , ],
-            "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
-            "extra"             => [ "type" => "string", "from"        => "strExtra"         , ],
-            "dailyIndex"        => [ "type" => "int"   , "defined"     => "0"                , ],
-            "dailyReward"       => [ "type" => "int"   , "defined"     => "0"                , ],
-            "monsterMinLevel"   => [ "type" => "int"   , "defined"     => "0"                , ],
-            "monsterMaxLevel"   => [ "type" => "int"   , "defined"     => "0"                , ],
-            "monsterType"       => [ "type" => "string", "defined"     => ""                 , ],
-            "monsterGroupSwf"   => [ "type" => "string", "defined"     => ""                 , ],
-        ],
-    ],
-    "character" => [ // from class dir
-        "jsonKey" => "class",
-        "type" => "single",
-        "config" => [
-            "id"            => [ "type" => "int"   , "from" => "ClassID"          , ],
-            "name"          => [ "type" => "string", "from" => "strClassName"     , ],
-            "element"       => [ "type" => "string", "from" => "strElement"       , ],
-            "equippable"    => [ "type" => "string", "from" => "strEquippable"    , ],
-            "swf"           => [ "type" => "string", "from" => "strClassFileName" , ],
-            "savable"       => [ "type" => "int"   , "from" => "intSavable"       , ],
-            "armorId"       => [ "type" => "int"   , "generated" => "class_armor" , ],
-            "weaponId"      => [ "type" => "int"   , "generated" => "class_weapon", ],
-        ],
-        "newChildren" => [
-            [
-                "jsonKey" => "item",
-                "type" => "single",
-                "config" => [
-                    "id"            => [ "type" => "int"   , "fromParsedParent" => "armorId" , "parentLevel" => 0, ],
-                    "name"          => [ "type" => "string", "from" => "strArmorName"        , ],
-                    "description"   => [ "type" => "string", "from" => "strArmorDescription" , ],
-                    "designInfo"    => [ "type" => "string", "defined" => ""                 , ],
-                    "resists"       => [ "type" => "string", "from" => "strArmorResists"     , ],
-                    "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"         , ],
-                    "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"        , ],
-                    "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"         , ],
-                    "parry"         => [ "type" => "int"   , "from" => "intParry"            , ],
-                    "dodge"         => [ "type" => "int"   , "from" => "intDodge"            , ],
-                    "block"         => [ "type" => "int"   , "from" => "intBlock"            , ],
-                    "categoryId"    => [ "type" => "int"   , "defined" => "2" /* armor */    , ],
                 ],
             ],
-            [
-                "jsonKey" => "item",
-                "type" => "single",
-                "config" => [
-                    "id"            => [ "type" => "int"   , "fromParsedParent" => "weaponId", "parentLevel" => 0, ],
-                    "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
-                    "description"   => [ "type" => "string", "from" => "strWeaponDescription", ],
-                    "designInfo"    => [ "type" => "string", "from" => "strWeaponDesignInfo" , "default" => "" ],
-                    "resists"       => [ "type" => "string", "from" => "strWeaponResists"    , ],
-                    "level"         => [ "type" => "int"   , "from" => "intWeaponLevel"      , ],
-                    "icon"          => [ "type" => "string", "from" => "strWeaponIcon"       , ],
-                    "type"          => [ "type" => "string", "from" => "strType"             , ],
-                    "itemType"      => [ "type" => "string", "from" => "strItemType"         , ],
-                    "critical"      => [ "type" => "int"   , "from" => "intCrit"             , ],
-                    "damageMin"     => [ "type" => "int"   , "from" => "intDmgMin"           , ],
-                    "damageMax"     => [ "type" => "int"   , "from" => "intDmgMax"           , ],
-                    "bonus"         => [ "type" => "int"   , "from" => "intBonus"            , ],
-                    "swf"           => [ "type" => "string", "defined" => ""                 , ],
-                    "categoryId"    => [ "type" => "int"   , "defined" => "1" /* weapon */   , ],
-                    "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
+        ],
+    ],
+    "town" => [
+        "newTown" => [ // from town dir
+            "jsonKey" => "quest",
+            "type" => "single",
+            "config" => [
+                "id"                => [ "type" => "int"   , "fromSpecial" => "idFromFileName"   , ],
+                "name"              => [ "type" => "string", "defined"     => ""                 , ],
+                "description"       => [ "type" => "string", "defined"     => ""                 , ],
+                "complete"          => [ "type" => "string", "defined"     => ""                 , ],
+                "swf"               => [ "type" => "string", "from"        => "strQuestFileName" , ],
+                "swfX"              => [ "type" => "string", "from"        => "strQuestXFileName", ],
+                "maxSilver"         => [ "type" => "int"   , "defined"     => "0"                , ],
+                "maxGold"           => [ "type" => "int"   , "defined"     => "0"                , ],
+                "maxGems"           => [ "type" => "int"   , "defined"     => "0"                , ],
+                "maxExp"            => [ "type" => "int"   , "defined"     => "0"                , ],
+                "minTime"           => [ "type" => "int"   , "defined"     => "0"                , ],
+                "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
+                "extra"             => [ "type" => "string", "from"        => "strExtra"         , ],
+                "dailyIndex"        => [ "type" => "int"   , "defined"     => "0"                , ],
+                "dailyReward"       => [ "type" => "int"   , "defined"     => "0"                , ],
+                "monsterMinLevel"   => [ "type" => "int"   , "defined"     => "0"                , ],
+                "monsterMaxLevel"   => [ "type" => "int"   , "defined"     => "0"                , ],
+                "monsterType"       => [ "type" => "string", "defined"     => ""                 , ],
+                "monsterGroupSwf"   => [ "type" => "string", "defined"     => ""                 , ],
+            ],
+        ],
+    ],
+    "class" => [
+        "character" => [ // from class dir
+            "jsonKey" => "class",
+            "type" => "single",
+            "config" => [
+                "id"            => [ "type" => "int"   , "from" => "ClassID"          , ],
+                "name"          => [ "type" => "string", "from" => "strClassName"     , ],
+                "element"       => [ "type" => "string", "from" => "strElement"       , ],
+                "equippable"    => [ "type" => "string", "from" => "strEquippable"    , ],
+                "swf"           => [ "type" => "string", "from" => "strClassFileName" , ],
+                "savable"       => [ "type" => "int"   , "from" => "intSavable"       , ],
+                "armorId"       => [ "type" => "int"   , "generated" => "class_armor" , ],
+                "weaponId"      => [ "type" => "int"   , "generated" => "class_weapon", ],
+            ],
+            "newChildren" => [
+                [
+                    "jsonKey" => "item",
+                    "type" => "single",
+                    "config" => [
+                        "id"            => [ "type" => "int"   , "fromParsedParent" => "armorId" , "parentLevel" => 0, ],
+                        "name"          => [ "type" => "string", "from" => "strArmorName"        , ],
+                        "description"   => [ "type" => "string", "from" => "strArmorDescription" , ],
+                        "designInfo"    => [ "type" => "string", "defined" => ""                 , ],
+                        "resists"       => [ "type" => "string", "from" => "strArmorResists"     , ],
+                        "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"         , ],
+                        "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"        , ],
+                        "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"         , ],
+                        "parry"         => [ "type" => "int"   , "from" => "intParry"            , ],
+                        "dodge"         => [ "type" => "int"   , "from" => "intDodge"            , ],
+                        "block"         => [ "type" => "int"   , "from" => "intBlock"            , ],
+                        "categoryId"    => [ "type" => "int"   , "defined" => "2" /* armor */    , ],
+                    ],
+                ],
+                [
+                    "jsonKey" => "item",
+                    "type" => "single",
+                    "config" => [
+                        "id"            => [ "type" => "int"   , "fromParsedParent" => "weaponId", "parentLevel" => 0, ],
+                        "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
+                        "description"   => [ "type" => "string", "from" => "strWeaponDescription", ],
+                        "designInfo"    => [ "type" => "string", "from" => "strWeaponDesignInfo" , "default" => "" ],
+                        "resists"       => [ "type" => "string", "from" => "strWeaponResists"    , ],
+                        "level"         => [ "type" => "int"   , "from" => "intWeaponLevel"      , ],
+                        "icon"          => [ "type" => "string", "from" => "strWeaponIcon"       , ],
+                        "type"          => [ "type" => "string", "from" => "strType"             , ],
+                        "itemType"      => [ "type" => "string", "from" => "strItemType"         , ],
+                        "critical"      => [ "type" => "int"   , "from" => "intCrit"             , ],
+                        "damageMin"     => [ "type" => "int"   , "from" => "intDmgMin"           , ],
+                        "damageMax"     => [ "type" => "int"   , "from" => "intDmgMax"           , ],
+                        "bonus"         => [ "type" => "int"   , "from" => "intBonus"            , ],
+                        "swf"           => [ "type" => "string", "defined" => ""                 , ],
+                        "categoryId"    => [ "type" => "int"   , "defined" => "1" /* weapon */   , ],
+                        "name"          => [ "type" => "string", "from" => "strWeaponName"       , ],
+                    ],
                 ],
             ],
-        ]
+        ],
     ],
-    "intrface" => [
-        "jsonKey" => "interface",
-        "type" => "single",
-        "config" => [
-            "id"        => [ "type" => "int"   , "from" => "InterfaceID" , ],
-            "name"      => [ "type" => "string", "from" => "strName"     , ],
-            "swf"       => [ "type" => "string", "from" => "strFileName" , ],
-            "loadUnder" => [ "type" => "int",    "from" => "bitLoadUnder", ],
+    "interface" => [
+        "intrface" => [
+            "jsonKey" => "interface",
+            "type" => "single",
+            "config" => [
+                "id"        => [ "type" => "int"   , "from" => "InterfaceID" , ],
+                "name"      => [ "type" => "string", "from" => "strName"     , ],
+                "swf"       => [ "type" => "string", "from" => "strFileName" , ],
+                "loadUnder" => [ "type" => "int",    "from" => "bitLoadUnder", ],
+            ],
         ],
     ],
     "shop" => [
-        "jsonKey" => "itemShop",
-        "type" => "single",
-        "config" => [
-            "id"    => [ "type" => "int"   , "from" => "ShopID"          , ],
-            "name"  => [ "type" => "string", "from" => "strCharacterName", ],
-            "count" => [ "type" => "int"   , "from" => "intCount"        , ],
-        ],
-        "children" => [
-            "items" => [
-                "jsonKey" => "itemShop_item",
-                "type" => "multiple",
-                "ignoreParams" => [ "strCategory" ],
-                "config" => [
-                    "id"         => [ "type" => "int", "from" => "ShopItemID"                          ],
-                    "itemShopId" => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
-                    "itemId"     => [ "type" => "int", "from" => "ItemID"                              ],
+        "shop" => [
+            "jsonKey" => "itemShop",
+            "type" => "single",
+            "config" => [
+                "id"    => [ "type" => "int"   , "from" => "ShopID"          , ],
+                "name"  => [ "type" => "string", "from" => "strCharacterName", ],
+                "count" => [ "type" => "int"   , "from" => "intCount"        , ],
+            ],
+            "children" => [
+                "items" => [
+                    "jsonKey" => "itemShop_item",
+                    "type" => "multiple",
+                    "ignoreParams" => [ "strCategory" ],
+                    "config" => [
+                        "id"         => [ "type" => "int", "from" => "ShopItemID"                          ],
+                        "itemShopId" => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
+                        "itemId"     => [ "type" => "int", "from" => "ItemID"                              ],
+                    ],
+                    "newChildren" => [
+                        [
+                            "jsonKey" => "item",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
+                                "name"          => [ "type" => "string", "from" => "strItemName"       , ],
+                                "description"   => [ "type" => "string", "from" => "strItemDescription", ],
+                                "visible"       => [ "type" => "int"   , "from" => "bitVisible"        , ],
+                                "destroyable"   => [ "type" => "int"   , "from" => "bitDestroyable"    , ],
+                                "sellable"      => [ "type" => "int"   , "from" => "bitSellable"       , ],
+                                "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
+                                "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
+                                "cost"          => [ "type" => "int"   , "from" => "intCost"           , ],
+                                "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
+                                "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
+                                "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
+                                "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
+                                "type"          => [ "type" => "string", "from" => "strType"           , ],
+                                "element"       => [ "type" => "string", "from" => "strElement"        , ],
+                                "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
+                                "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
+                                "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
+                                "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
+                                "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
+                                "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
+                                "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
+                                "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
+                                "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
+                                "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
+                                "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
+                                "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
+                                "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
+                                "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
+                                "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
+                                "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
+                                "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
+                                "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
+                                "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
+                                "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
+                                "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
+                                "resists"       => [ "type" => "string", "from" => "strResists"        , ],
+                            ],
+                        ],
+                    ],
                 ],
-                "newChildren" => [
-                    [
-                        "jsonKey" => "item",
-                        "type" => "single",
-                        "config" => [
-                            "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
-                            "name"          => [ "type" => "string", "from" => "strItemName"       , ],
-                            "description"   => [ "type" => "string", "from" => "strItemDescription", ],
-                            "visible"       => [ "type" => "int"   , "from" => "bitVisible"        , ],
-                            "destroyable"   => [ "type" => "int"   , "from" => "bitDestroyable"    , ],
-                            "sellable"      => [ "type" => "int"   , "from" => "bitSellable"       , ],
-                            "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
-                            "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
-                            "cost"          => [ "type" => "int"   , "from" => "intCost"           , ],
-                            "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
-                            "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
-                            "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
-                            "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
-                            "type"          => [ "type" => "string", "from" => "strType"           , ],
-                            "element"       => [ "type" => "string", "from" => "strElement"        , ],
-                            "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
-                            "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
-                            "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
-                            "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
-                            "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
-                            "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
-                            "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
-                            "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
-                            "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
-                            "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
-                            "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
-                            "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
-                            "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
-                            "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
-                            "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
-                            "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
-                            "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
-                            "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
-                            "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
-                            "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
-                            "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
-                            "resists"       => [ "type" => "string", "from" => "strResists"        , ],
-                        ],
-                    ]
-                ]
-            ]
-        ]
-    ],
-    "mergeshop" => [
-        "jsonKey" => "mergeShop",
-        "type" => "single",
-        "config" => [
-            "id"    => [ "type" => "int"   , "from" => "MSID"   , ],
-            "name"  => [ "type" => "string", "from" => "strName", ],
-        ],
-        "children" => [
-            "items" => [
-                "jsonKey" => "mergeShop_item",
-                "type" => "multiple",
-                "ignoreParams" => [ "strCategory" ],
-                "config" => [
-                    "id"            => [ "type" => "int"   , "from" => "ID"            , ],
-                    "itemId1"       => [ "type" => "int"   , "from" => "ItemID1"       , ],
-                    "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
-                    "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
-                    "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
-                    "string"        => [ "type" => "int"   , "from" => "intString"     , ], // not sure what this is
-                    "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // not sure what this is
-                    "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // not sure what this is
-                    "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ], // not sure what this is
-                ],
-                "newChildren" => [
-                    [
-                        "jsonKey" => "item",
-                        "type" => "single",
-                        "config" => [
-                            "id"            => [ "type" => "int"   , "from" => "ItemID1"                   , ],
-                            "name"          => [ "type" => "string", "from" => "Item1"                     , ],
-                            "description"   => [ "type" => "string", "defined" => ""                       , ],
-                            "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
-                            "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
-                            "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
-                            "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "type"          => [ "type" => "string", "defined" => ""                       , ],
-                            "element"       => [ "type" => "string", "defined" => ""                       , ],
-                            "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
-                            "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
-                            "itemType"      => [ "type" => "string", "defined" => ""                       , ],
-                            "swf"           => [ "type" => "string", "defined" => ""                       , ],
-                            "icon"          => [ "type" => "string", "defined" => ""                       , ],
-                            "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "resists"       => [ "type" => "string", "defined" => ""                       , ],
-                        ],
-                    ],
-                    [
-                        "jsonKey" => "item",
-                        "type" => "single",
-                        "config" => [
-                            "id"            => [ "type" => "int"   , "from" => "ItemID2", "default" => "-1", ],
-                            "name"          => [ "type" => "string", "from" => "Item2"  , "default" => ""  , ],
-                            "description"   => [ "type" => "string", "defined" => ""                       , ],
-                            "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
-                            "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
-                            "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
-                            "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "type"          => [ "type" => "string", "defined" => ""                       , ],
-                            "element"       => [ "type" => "string", "defined" => ""                       , ],
-                            "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
-                            "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
-                            "itemType"      => [ "type" => "string", "defined" => ""                       , ],
-                            "swf"           => [ "type" => "string", "defined" => ""                       , ],
-                            "icon"          => [ "type" => "string", "defined" => ""                       , ],
-                            "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                            "resists"       => [ "type" => "string", "defined" => ""                       , ],
-                        ],
-                    ],
-                    [
-                        "jsonKey" => "item",
-                        "type" => "single",
-                        "config" => [
-                            "id"            => [ "type" => "int"   , "from" => "NewItemID"         , ],
-                            "name"          => [ "type" => "string", "from" => "strItemName"       , ],
-                            "description"   => [ "type" => "string", "from" => "strItemDescription", ],
-                            "visible"       => [ "type" => "int"   , "defined" => "1"              , ],
-                            "destroyable"   => [ "type" => "int"   , "defined" => "1"              , ],
-                            "sellable"      => [ "type" => "int"   , "defined" => "0"              , ],
-                            "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
-                            "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
-                            "cost"          => [ "type" => "int"   , "defined" => "0"              , ],
-                            "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
-                            "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
-                            "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
-                            "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
-                            "type"          => [ "type" => "string", "defined" => ""               , ],
-                            "element"       => [ "type" => "string", "from" => "strElement"        , ],
-                            "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
-                            "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
-                            "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
-                            "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
-                            "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
-                            "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
-                            "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
-                            "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
-                            "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
-                            "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
-                            "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
-                            "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
-                            "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
-                            "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
-                            "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
-                            "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
-                            "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
-                            "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
-                            "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
-                            "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
-                            "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
-                            "resists"       => [ "type" => "string", "from" => "strResists"        , ],
-                        ],
-                    ],
-                ]
             ],
         ],
-    ]
+    ],
+    "mergeShop" => [
+        "mergeshop" => [
+            "jsonKey" => "mergeShop",
+            "type" => "single",
+            "config" => [
+                "id"    => [ "type" => "int"   , "from" => "MSID"   , ],
+                "name"  => [ "type" => "string", "from" => "strName", ],
+            ],
+            "children" => [
+                "items" => [
+                    "jsonKey" => "mergeShop_item",
+                    "type" => "multiple",
+                    "ignoreParams" => [ "strCategory" ],
+                    "config" => [
+                        "id"            => [ "type" => "int"   , "from" => "ID"            , ],
+                        "itemId1"       => [ "type" => "int"   , "from" => "ItemID1"       , ],
+                        "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
+                        "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
+                        "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
+                        "string"        => [ "type" => "int"   , "from" => "intString"     , ], // not sure what this is
+                        "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // not sure what this is
+                        "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // not sure what this is
+                        "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ], // not sure what this is
+                    ],
+                    "newChildren" => [
+                        [
+                            "jsonKey" => "item",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "from" => "ItemID1"                   , ],
+                                "name"          => [ "type" => "string", "from" => "Item1"                     , ],
+                                "description"   => [ "type" => "string", "defined" => ""                       , ],
+                                "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
+                                "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
+                                "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
+                                "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "type"          => [ "type" => "string", "defined" => ""                       , ],
+                                "element"       => [ "type" => "string", "defined" => ""                       , ],
+                                "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
+                                "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
+                                "itemType"      => [ "type" => "string", "defined" => ""                       , ],
+                                "swf"           => [ "type" => "string", "defined" => ""                       , ],
+                                "icon"          => [ "type" => "string", "defined" => ""                       , ],
+                                "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "resists"       => [ "type" => "string", "defined" => ""                       , ],
+                            ],
+                        ],
+                        [
+                            "jsonKey" => "item",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "from" => "ItemID2", "default" => "-1", ],
+                                "name"          => [ "type" => "string", "from" => "Item2"  , "default" => ""  , ],
+                                "description"   => [ "type" => "string", "defined" => ""                       , ],
+                                "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
+                                "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
+                                "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
+                                "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "type"          => [ "type" => "string", "defined" => ""                       , ],
+                                "element"       => [ "type" => "string", "defined" => ""                       , ],
+                                "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
+                                "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
+                                "itemType"      => [ "type" => "string", "defined" => ""                       , ],
+                                "swf"           => [ "type" => "string", "defined" => ""                       , ],
+                                "icon"          => [ "type" => "string", "defined" => ""                       , ],
+                                "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
+                                "resists"       => [ "type" => "string", "defined" => ""                       , ],
+                            ],
+                        ],
+                        [
+                            "jsonKey" => "item",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "from" => "NewItemID"         , ],
+                                "name"          => [ "type" => "string", "from" => "strItemName"       , ],
+                                "description"   => [ "type" => "string", "from" => "strItemDescription", ],
+                                "visible"       => [ "type" => "int"   , "defined" => "1"              , ],
+                                "destroyable"   => [ "type" => "int"   , "defined" => "1"              , ],
+                                "sellable"      => [ "type" => "int"   , "defined" => "0"              , ],
+                                "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
+                                "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
+                                "cost"          => [ "type" => "int"   , "defined" => "0"              , ],
+                                "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
+                                "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
+                                "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
+                                "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
+                                "type"          => [ "type" => "string", "defined" => ""               , ],
+                                "element"       => [ "type" => "string", "from" => "strElement"        , ],
+                                "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
+                                "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
+                                "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
+                                "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
+                                "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
+                                "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
+                                "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
+                                "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
+                                "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
+                                "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
+                                "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
+                                "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , ],
+                                "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
+                                "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
+                                "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
+                                "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
+                                "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
+                                "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
+                                "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
+                                "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
+                                "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
+                                "resists"       => [ "type" => "string", "from" => "strResists"        , ],
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];
 
 $merges = [
@@ -500,41 +513,47 @@ $merges = [
     },
 ];
 
+\ini_set('memory_limit', "{$maxMemoryUsageMB}M");
 
 // convertAll(\array_filter(\scandir("downloaded"), function(string $folder) {
 //     return $folder !== "." && $folder !== "..";
 // }));
 convertAll([
-    // "quest",
-    // "town",
-    // "class",
-    // "interface",
-    // "shop",
+    "quest",
+    "town",
+    "class",
+    "interface",
+    "shop",
     "mergeShop",
     // "houseShop",
     // "houseItemShop",
 ]);
 
 function convertAll(array $folders) {
-    $totalFolders = \count($folders);
-    $maxProgressPerFolder = 1 / $totalFolders;
+
+    $totalFiles = (function() use ($folders): int {
+        return \array_reduce($folders, function(int $totalFiles, string $folder): int {
+            return $totalFiles + \count(\scandir("downloaded/{$folder}")) - 2; // ignoring . and ..
+        }, 0);
+    })();
 
     $dataToSave = [];
-    foreach ($folders as $i => $folder) {
+
+    $currentFile = 0;
+    foreach ($folders as $folder) {
 
         $files = \scandir("downloaded/{$folder}");
         \usort($files, function(string $a, string $b) {
             return \strnatcasecmp($a, $b);
         });
-        $totalFiles = \count($files);
 
-        foreach ($files as $i2 => $file) {
+        foreach ($files as $file) {
             if ($file === "." || $file === "..") {
                 continue;
             }
 
-            $percent = (\number_format($maxProgressPerFolder * $i + ($i2 - 2) / ($totalFiles - 2) * $maxProgressPerFolder, 5) * 100)."%";
-            echo "[0] Converting {$folder}/{$file} ({$percent})\n";
+            $percentStr = getPercentString($currentFile, $totalFiles);
+            echo "[0] Converting {$folder}/{$file} {$percentStr}\n";
 
             $newFile = convertFile($folder, $file);
             foreach($newFile as $key => $value) {
@@ -543,6 +562,7 @@ function convertAll(array $folders) {
                 }
                 $dataToSave[$key] = \array_merge($dataToSave[$key], $value);
             }
+            $currentFile++;
         }
     }
     echo "[0] Conversion done!\n";
@@ -560,6 +580,17 @@ function convertAll(array $folders) {
     }
 
     echo "[0] All done!\n";
+}
+
+function getPercentString(int $current, int $total): string {
+    global $maxMemoryUsageMB;
+
+    $percent = (\number_format($current / $total, 5) * 100)."%";
+    $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
+    $memoryUsagePercent = (\number_format($memoryUsageMB / $maxMemoryUsageMB, 5) * 100)."%";
+    $memoryUsageStr = \number_format($memoryUsageMB)."M";
+
+    return "({$percent}) - MEM: {$memoryUsageStr} ({$memoryUsagePercent})";
 }
 
 function generatedIds(string $type, array $parents): int {
@@ -601,13 +632,25 @@ function convertFile(string $folder, string $fileName): array {
     $json = \json_decode(\json_encode($xml), true);
     $json = normalizeJsonNewLine($json);
 
-    $json = convertToJson($fileName, $json, $xsd);
+    if(!isset($xsd[$folder])) {
+        throw new \Exception("XSD not found for folder: {$folder}");
+    }
+
+    $json = convertToJson($fileName, $json, $xsd[$folder]);
 
     return $json;
 }
 
-function saveData(array $json): void {
+function saveData(array &$json): void {
     global $saveMode, $merges;
+
+    $total = (function() use ($json): int {
+        return \array_reduce($json, function(int $total, array $data): int {
+            return $total + \count($data);
+        }, 0);
+    })();
+
+    $current = 0;
     foreach($json as $newFolder => $newData) {
         echo "[1] Saving {$newFolder}...\n";
 
@@ -621,7 +664,10 @@ function saveData(array $json): void {
                 if(!isset($newJson["id"])) {
                     throw new \Exception("ID not found");
                 }
-                echo "[1] Saving {$newFolder}/{$newJson["id"]}.json\n";
+
+                $percentStr = getPercentString($current, $total);
+
+                echo "[1] Saving {$newFolder}/{$newJson["id"]}.json {$percentStr}\n";
                 if(\file_exists("{$newDir}/{$newJson["id"]}.json")) {
                     $currentFileData = \file_get_contents("{$newDir}/{$newJson["id"]}.json");
                     if($currentFileData === \json_encode([$newJson], JSON_PRETTY_PRINT)) {
@@ -638,6 +684,7 @@ function saveData(array $json): void {
                 }
                 $dataToSave = \json_encode([$newJson], JSON_PRETTY_PRINT);
                 \file_put_contents("{$newDir}/{$newJson["id"]}.json", $dataToSave);
+                $current++;
             }
         } else if($saveMode=="merged") {
             if(!\file_exists("{$newDir}/merged.json")) {
@@ -645,7 +692,15 @@ function saveData(array $json): void {
             }
 
             $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
+
+            $percentStr = getPercentString($current, $total);
+            echo "[1] Saving {$newFolder}/merged.json {$percentStr}\n";
+
             foreach($newData as $newJson) {
+                if(!isset($newJson["id"])) {
+                    throw new \Exception("ID not found");
+                }
+
                 foreach($currentData as $currentDataKey => $currentDataItem) {
                     if($currentDataItem===$newJson) {
                         continue 2;
@@ -664,6 +719,7 @@ function saveData(array $json): void {
                     }
                 }
                 $currentData[] = $newJson;
+                $current++;
             }
 
             \usort($currentData, function(array $a, array $b): int {
