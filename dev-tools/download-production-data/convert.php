@@ -470,35 +470,47 @@ $merges = [
     "quest" => function(array $quest1, array $quest2): array {
         $keys = \array_keys($quest1);
         if($keys !== \array_keys($quest2)) {
-            throw new \Exception("Data already exists with different keys");
+            throw new \Exception("Quest already exists with different KEYS");
         }
 
         $quest3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
-            if($value1===$value2) return $value1;
-
             return match($keyName) {
                 "counter" => 0,
-                default => $value1 ?: $value2,
+                default => (function() use($keyName, $value1, $value2) {
+                    return $value2; // new data is always better
+                })(),
             };
         }, $keys, $quest1, $quest2));
 
         return $quest3;
     },
-    "item" => function(array $quest1, array $quest2): array {
-        $keys = \array_keys($quest1);
-        if($keys !== \array_keys($quest2)) {
-            throw new \Exception("Data already exists with different keys");
+    "item" => function(array $item1, array $item2): array {
+        $keys = \array_keys($item1);
+        if($keys !== \array_keys($item2)) {
+            throw new \Exception("Item already exists with different KEYS");
         }
 
         $item3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
-            if($value1===$value2) return $value1;
-
             return match($keyName) {
-                default => $value1 ?: $value2,
+                default => $value2,
             };
-        }, $keys, $quest1, $quest2));
+        }, $keys, $item1, $item2));
 
         return $item3;
+    },
+    "interface" => function(array $interface1, array $interface2): array {
+        $keys = \array_keys($interface1);
+        if($keys !== \array_keys($interface2)) {
+            throw new \Exception("Interface already exists with different KEYS");
+        }
+
+        $interface3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
+            return match($keyName) {
+                default => $value2,
+            };
+        }, $keys, $interface1, $interface2));
+
+        return $interface3;
     },
     "default" => function(array $data1, array $data2): array {
         $keys = \array_keys($data1);
@@ -515,16 +527,13 @@ $merges = [
 
 \ini_set('memory_limit', "{$maxMemoryUsageMB}M");
 
-// convertAll(\array_filter(\scandir("downloaded"), function(string $folder) {
-//     return $folder !== "." && $folder !== "..";
-// }));
 convertAll([
-    "quest",
     "town",
+    "quest",
     "class",
     "interface",
-    "shop",
     "mergeShop",
+    "shop",
     // "houseShop",
     // "houseItemShop",
 ]);
@@ -661,13 +670,14 @@ function saveData(array &$json): void {
 
         if($saveMode=="individual") {
             foreach($newData as $newJson) {
+                $current++;
                 if(!isset($newJson["id"])) {
                     throw new \Exception("ID not found");
                 }
 
-                $percentStr = getPercentString($current, $total);
+                $percentStr = getPercentString($current - 1, $total);
+                echo "[1] Saving {$newJson["id"]} to {$newFolder}/{$newJson["id"]}.json {$percentStr}\n";
 
-                echo "[1] Saving {$newFolder}/{$newJson["id"]}.json {$percentStr}\n";
                 if(\file_exists("{$newDir}/{$newJson["id"]}.json")) {
                     $currentFileData = \file_get_contents("{$newDir}/{$newJson["id"]}.json");
                     if($currentFileData === \json_encode([$newJson], JSON_PRETTY_PRINT)) {
@@ -676,15 +686,18 @@ function saveData(array &$json): void {
                     try {
                         $newJson = $merges["default"](\json_decode($currentFileData, true)[0], $newJson);
                     } catch(\Exception $e) {
-                        if(!isset($merges[$newFolder])) {
+                        try {
+                            if(!isset($merges[$newFolder])) {
+                                throw $e;
+                            }
+                            $newJson = $merges[$newFolder](\json_decode($currentFileData, true)[0], $newJson);
+                        } catch(\Exception $e) {
                             throw new \Exception("{$e->getMessage()}: {$newDir}/{$newJson["id"]}.json\nCurrent data:{$currentFileData}\nNew data    :".\json_encode($newJson, JSON_PRETTY_PRINT));
                         }
-                        $newJson = $merges[$newFolder](\json_decode($currentFileData, true)[0], $newJson);
                     }
                 }
                 $dataToSave = \json_encode([$newJson], JSON_PRETTY_PRINT);
                 \file_put_contents("{$newDir}/{$newJson["id"]}.json", $dataToSave);
-                $current++;
             }
         } else if($saveMode=="merged") {
             if(!\file_exists("{$newDir}/merged.json")) {
@@ -697,6 +710,7 @@ function saveData(array &$json): void {
             echo "[1] Saving {$newFolder}/merged.json {$percentStr}\n";
 
             foreach($newData as $newJson) {
+                $current++;
                 if(!isset($newJson["id"])) {
                     throw new \Exception("ID not found");
                 }
@@ -709,17 +723,20 @@ function saveData(array &$json): void {
                         try {
                             $newJson = $merges["default"]($currentDataItem, $newJson);
                         } catch(\Exception $e) {
-                            if(!isset($merges[$newFolder])) {
-                                throw new \Exception("{$e->getMessage()}: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
+                            try {
+                                if(!isset($merges[$newFolder])) {
+                                    throw $e;
+                                }
+                                $newJson = $merges[$newFolder]($currentDataItem, $newJson);
+                            } catch(\Exception $e) {
+                                throw new \Exception("{$e->getMessage()}: {$group} {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
                             }
-                            $newJson = $merges[$newFolder]($currentDataItem, $newJson);
                         }
                         unset($currentData[$currentDataKey]);
                         break;
                     }
                 }
                 $currentData[] = $newJson;
-                $current++;
             }
 
             \usort($currentData, function(array $a, array $b): int {
