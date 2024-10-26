@@ -30,7 +30,7 @@ $xsd = [
                 "maxExp"            => [ "type" => "int"   , "from" => "intMaxExp"               , ],
                 "minTime"           => [ "type" => "int"   , "from" => "intMinTime"              , ],
                 // "counter"           => [ "type" => "int"   , "from" => "intCounter"              , ],
-                "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
+                "counter"           => [ "type" => "int"   , "defined" => "0"                    , ],
                 "extra"             => [ "type" => "string", "from" => "strExtra"                , ],
                 "dailyIndex"        => [ "type" => "int"   , "from" => "intDailyIndex"           , ],
                 "dailyReward"       => [ "type" => "int"   , "from" => "intDailyReward"          , ],
@@ -146,24 +146,9 @@ $xsd = [
             "type" => "single",
             "config" => [
                 "id"                => [ "type" => "int"   , "fromSpecial" => "idFromFileName"   , ],
-                "name"              => [ "type" => "string", "defined"     => ""                 , ],
-                "description"       => [ "type" => "string", "defined"     => ""                 , ],
-                "complete"          => [ "type" => "string", "defined"     => ""                 , ],
                 "swf"               => [ "type" => "string", "from"        => "strQuestFileName" , ],
                 "swfX"              => [ "type" => "string", "from"        => "strQuestXFileName", ],
-                "maxSilver"         => [ "type" => "int"   , "defined"     => "0"                , ],
-                "maxGold"           => [ "type" => "int"   , "defined"     => "0"                , ],
-                "maxGems"           => [ "type" => "int"   , "defined"     => "0"                , ],
-                "maxExp"            => [ "type" => "int"   , "defined"     => "0"                , ],
-                "minTime"           => [ "type" => "int"   , "defined"     => "0"                , ],
-                "counter"           => [ "type" => "int"   , "defined"     => "0"                , ],
                 "extra"             => [ "type" => "string", "from"        => "strExtra"         , ],
-                "dailyIndex"        => [ "type" => "int"   , "defined"     => "0"                , ],
-                "dailyReward"       => [ "type" => "int"   , "defined"     => "0"                , ],
-                "monsterMinLevel"   => [ "type" => "int"   , "defined"     => "0"                , ],
-                "monsterMaxLevel"   => [ "type" => "int"   , "defined"     => "0"                , ],
-                "monsterType"       => [ "type" => "string", "defined"     => ""                 , ],
-                "monsterGroupSwf"   => [ "type" => "string", "defined"     => ""                 , ],
             ],
         ],
     ],
@@ -336,41 +321,6 @@ $xsd = [
                             "config" => [
                                 "id"            => [ "type" => "int"   , "from" => "ItemID1"                   , ],
                                 "name"          => [ "type" => "string", "from" => "Item1"                     , ],
-                                "description"   => [ "type" => "string", "defined" => ""                       , ],
-                                "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
-                                "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
-                                "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
-                                "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "type"          => [ "type" => "string", "defined" => ""                       , ],
-                                "element"       => [ "type" => "string", "defined" => ""                       , ],
-                                "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
-                                "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
-                                "itemType"      => [ "type" => "string", "defined" => ""                       , ],
-                                "swf"           => [ "type" => "string", "defined" => ""                       , ],
-                                "icon"          => [ "type" => "string", "defined" => ""                       , ],
-                                "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "resists"       => [ "type" => "string", "defined" => ""                       , ],
                             ],
                         ],
                         [
@@ -379,41 +329,6 @@ $xsd = [
                             "config" => [
                                 "id"            => [ "type" => "int"   , "from" => "ItemID2", "default" => "-1", ],
                                 "name"          => [ "type" => "string", "from" => "Item2"  , "default" => ""  , ],
-                                "description"   => [ "type" => "string", "defined" => ""                       , ],
-                                "visible"       => [ "type" => "int"   , "defined" => "1"                      , ],
-                                "destroyable"   => [ "type" => "int"   , "defined" => "1"                      , ],
-                                "sellable"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "dragonAmulet"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "currency"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "cost"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "maxStackSize"  => [ "type" => "int"   , "defined" => "1"                      , ],
-                                "bonus"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "rarity"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "level"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "type"          => [ "type" => "string", "defined" => ""                       , ],
-                                "element"       => [ "type" => "string", "defined" => ""                       , ],
-                                "categoryId"    => [ "type" => "string", "defined" => "4" /* item category */  , ],
-                                "equipSpot"     => [ "type" => "string", "defined" => ""                       , ],
-                                "itemType"      => [ "type" => "string", "defined" => ""                       , ],
-                                "swf"           => [ "type" => "string", "defined" => ""                       , ],
-                                "icon"          => [ "type" => "string", "defined" => ""                       , ],
-                                "strength"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "dexterity"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "intelligence"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "luck"          => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "charisma"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "endurance"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "wisdom"        => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "damageMin"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "damageMax"     => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "defenseMelee"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "defensePierce" => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "defenseMagic"  => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "critical"      => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "parry"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "dodge"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "block"         => [ "type" => "int"   , "defined" => "0"                      , ],
-                                "resists"       => [ "type" => "string", "defined" => ""                       , ],
                             ],
                         ],
                         [
@@ -423,17 +338,12 @@ $xsd = [
                                 "id"            => [ "type" => "int"   , "from" => "NewItemID"         , ],
                                 "name"          => [ "type" => "string", "from" => "strItemName"       , ],
                                 "description"   => [ "type" => "string", "from" => "strItemDescription", ],
-                                "visible"       => [ "type" => "int"   , "defined" => "1"              , ],
-                                "destroyable"   => [ "type" => "int"   , "defined" => "1"              , ],
-                                "sellable"      => [ "type" => "int"   , "defined" => "0"              , ],
                                 "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
                                 "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
-                                "cost"          => [ "type" => "int"   , "defined" => "0"              , ],
                                 "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
                                 "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
                                 "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
                                 "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
-                                "type"          => [ "type" => "string", "defined" => ""               , ],
                                 "element"       => [ "type" => "string", "from" => "strElement"        , ],
                                 "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
                                 "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
@@ -466,19 +376,37 @@ $xsd = [
     ],
 ];
 
+$resetFiles = [
+    "quest_monster", // some monsters are removed from old quests, changed order or added new ones in specific order
+    "itemShop_item", // some items are removed from old shops
+    "mergeShop_item", // some items are removed from old merge shops
+];
+
 $merges = [
     "quest" => function(array $quest1, array $quest2): array {
         $keys = \array_keys($quest1);
         if($keys !== \array_keys($quest2)) {
-            throw new \Exception("Quest already exists with different KEYS");
+            foreach($quest1 as $key => $value) {
+                if(!isset($quest2[$key])) {
+                    $quest2[$key] = $value;
+                }
+            }
+            foreach($quest2 as $key => $value) {
+                if(!isset($quest1[$key])) {
+                    $quest1[$key] = $value;
+                }
+            }
+
+            // sort by keys
+            \ksort($quest1);
+            \ksort($quest2);
+            $keys = \array_keys($quest1);
         }
 
         $quest3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
             return match($keyName) {
                 "counter" => 0,
-                default => (function() use($keyName, $value1, $value2) {
-                    return $value2; // new data is always better
-                })(),
+                default => $value2,
             };
         }, $keys, $quest1, $quest2));
 
@@ -487,7 +415,21 @@ $merges = [
     "item" => function(array $item1, array $item2): array {
         $keys = \array_keys($item1);
         if($keys !== \array_keys($item2)) {
-            throw new \Exception("Item already exists with different KEYS");
+            foreach($item1 as $key => $value) {
+                if(!isset($item2[$key])) {
+                    $item2[$key] = $value;
+                }
+            }
+            foreach($item2 as $key => $value) {
+                if(!isset($item1[$key])) {
+                    $item1[$key] = $value;
+                }
+            }
+
+            // sort by keys
+            \ksort($item1);
+            \ksort($item2);
+            $keys = \array_keys($item1);
         }
 
         $item3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
@@ -651,7 +593,7 @@ function convertFile(string $folder, string $fileName): array {
 }
 
 function saveData(array &$json): void {
-    global $saveMode, $merges;
+    global $saveMode, $merges, $resetFiles;
 
     $total = (function() use ($json): int {
         return \array_reduce($json, function(int $total, array $data): int {
@@ -664,6 +606,12 @@ function saveData(array &$json): void {
         echo "[1] Saving {$newFolder}...\n";
 
         $newDir = "converted/{$newFolder}";
+        if(\in_array($newFolder, $resetFiles)) {
+            if(\is_dir($newDir)) {
+                \array_map('unlink', \glob("{$newDir}/*"));
+            }
+        }
+
         if (!\is_dir($newDir)) {
             \mkdir($newDir, 0777, true);
         }
