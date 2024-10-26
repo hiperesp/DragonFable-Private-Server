@@ -53,6 +53,10 @@ function downloadAll($toDownload) {
         }
     }
 
+    foreach($dataToDownload as $type => $data) {
+        $dataToDownload[$type] = \array_unique($data);
+    }
+
     $total = \array_reduce($dataToDownload, function(int $carry, array $data) {
         return $carry + \count($data);
     }, 0);
