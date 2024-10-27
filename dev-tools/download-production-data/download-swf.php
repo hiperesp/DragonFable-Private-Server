@@ -2,6 +2,7 @@
 <?php
 $cdn = "http://localhost/cdn/";
 $maxFilemtime = 24 * 60 * 60; // 24 hours
+$maxFilemtime*= 5; // 5 days
 
 $toDownload = [
     
@@ -114,6 +115,8 @@ function createUri(array $data, array $definition): array {
 
     $uriList = [];
     foreach($toParse as $item) {
+        $item = \trim($item);
+
         if(\preg_match('/\d+/', $item)) {
             continue;
         }
@@ -123,6 +126,7 @@ function createUri(array $data, array $definition): array {
             continue;
         }
 
+        $item = \str_replace(" ", "%20", $item);
         $newUri = \trim("{$basePath}{$item}");
 
         if(\preg_match('/\.swf/', $newUri) === 0) {

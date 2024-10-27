@@ -5,6 +5,7 @@ function remote(string $pathInfo): string|false {
         return false;
     }
 
+    $pathInfo = \str_replace(' ', '%20', $pathInfo);
     $remoteFile = "https://play.dragonfable.com/game/gamefiles{$pathInfo}";
 
     $ch = \curl_init();
