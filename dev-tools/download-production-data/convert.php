@@ -309,10 +309,10 @@ $xsd = [
                         "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
                         "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
                         "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
-                        "string"        => [ "type" => "int"   , "from" => "intString"     , ], // not sure what this is
-                        "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // not sure what this is
-                        "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // not sure what this is
-                        "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ], // not sure what this is
+                        "string"        => [ "type" => "int"   , "from" => "intString"     , ], // 0: character.quests, 1: character.skills, 2: character.armor
+                        "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // is param for string, like string[index]
+                        "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // is value for string[index], like string[index] = value
+                        "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ],
                     ],
                     "newChildren" => [
                         [
