@@ -29,39 +29,51 @@ class AutoInstantiate {
         if($this->instance instanceof SettingsModel) {
             return; // avoid infinite loop
         }
-        foreach($this->rClass->getProperties() as $rProperty) {
-            if($rProperty->getType()->getName() === SettingsVO::class) {
-                $settingsModel = new SettingsModel(self::getStorage());
-                $settings = $settingsModel->getSettings();
-                $rProperty->setAccessible(true);
-                $rProperty->setValue($this->instance, $settings);
-                continue;
+        $currentClass = $this->rClass;
+        while($currentClass) {
+            foreach($currentClass->getProperties() as $rProperty) {
+                if($rProperty->getType()->getName() === SettingsVO::class) {
+                    $settingsModel = new SettingsModel(self::getStorage());
+                    $settings = $settingsModel->getSettings();
+                    $rProperty->setAccessible(true);
+                    $rProperty->setValue($this->instance, $settings);
+                    continue;
+                }
             }
+            $currentClass = $currentClass->getParentClass();
         }
     }
     public function logs(): void {
         if($this->instance instanceof LogsModel) {
             return; // avoid infinite loop
         }
-        foreach($this->rClass->getProperties() as $rProperty) {
-            if($rProperty->getType()->getName() === LogsModel::class) {
-                $logsModel = new LogsModel(self::getStorage());
-                $rProperty->setAccessible(true);
-                $rProperty->setValue($this->instance, $logsModel);
-                continue;
+        $currentClass = $this->rClass;
+        while($currentClass) {
+            foreach($currentClass->getProperties() as $rProperty) {
+                if($rProperty->getType()->getName() === LogsModel::class) {
+                    $logsModel = new LogsModel(self::getStorage());
+                    $rProperty->setAccessible(true);
+                    $rProperty->setValue($this->instance, $logsModel);
+                    continue;
+                }
             }
+            $currentClass = $currentClass->getParentClass();
         }
     }
 
     private function subclass(string $subclass): void {
-        foreach($this->rClass->getProperties() as $rProperty) {
-            $rType = $rProperty->getType();
-            if($rType===null) continue;
-            if($rType->isBuiltin()) continue;
-            $rTypeName = $rType->getName();
-            if(\is_subclass_of($rTypeName, $subclass)) {
-                $rProperty->setValue($this->instance, new $rTypeName(self::getStorage()));
+        $currentClass = $this->rClass;
+        while($currentClass) {
+            foreach($currentClass->getProperties() as $rProperty) {
+                $rType = $rProperty->getType();
+                if($rType===null) continue;
+                if($rType->isBuiltin()) continue;
+                $rTypeName = $rType->getName();
+                if(\is_subclass_of($rTypeName, $subclass)) {
+                    $rProperty->setValue($this->instance, new $rTypeName(self::getStorage()));
+                }
             }
+            $currentClass = $currentClass->getParentClass();
         }
     }
 
