@@ -30,6 +30,15 @@ $thingsToDownload = [
         "endpoint" => "/cf-interfaceload.asp",
         "param" => "intInterfaceID",
     ],
+    "hairShopM" => $hairShop = [
+        "from" => 1,
+        "to" => 50,
+        "needAuth" => false,
+        "endpoint" => "/cf-hairshopload.asp",
+        "param" => "intHairShopID",
+        "special" => "hairShop",
+    ],
+    "hairShopF" => $hairShop,
     "quest" => [
         "from" => 1,
         "to" => 2200,
@@ -140,6 +149,12 @@ function download(string $thingToDownload, int $id): bool {
     $input = "<{$thing["param"]}>{$id}</{$thing["param"]}>";
     if($thing["needAuth"]) {
         $input.= "<intCharID>{$charId}</intCharID><strToken>{$sessionToken}</strToken>";
+    }
+    if($thingToDownload === "hairShopM") {
+        $input.= "<strGender>M</strGender>";
+    }
+    if($thingToDownload === "hairShopF") {
+        $input.= "<strGender>F</strGender>";
     }
     $input = "<flash>{$input}</flash>";
     $input = "<ninja2>".encrypt($input)."</ninja2>";
