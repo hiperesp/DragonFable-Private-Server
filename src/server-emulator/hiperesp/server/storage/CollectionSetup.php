@@ -169,6 +169,27 @@ final class CollectionSetup {
             ],
             "data" => "itemShop_item/",
         ],
+        "mergeShop" => [
+            "structure" => [
+                "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"  => [ 'STRING' => 255, 'DEFAULT' => "" ],
+            ],
+            "data" => "mergeShop/",
+        ],
+        "mergeShop_item" => [
+            "structure" => [
+                "id"      => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+                "itemId1" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
+                "amount1" => [ 'INTEGER', 'DEFAULT' => 1 ],
+                "itemId2" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
+                "amount2" => [ 'INTEGER', 'DEFAULT' => 1 ],
+                "string"  => [ 'INTEGER', 'DEFAULT' => -1 ],
+                "index"   => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "value"   => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "level"   => [ 'INTEGER', 'DEFAULT' => 0 ],
+            ],
+            "data" => "mergeShop_item/",
+        ],
         "quest" => [
             "structure" => [
                 "id"                => [ 'INTEGER', 'PRIMARY_KEY' ],

@@ -21,6 +21,12 @@ class CharacterBagService extends Service {
             ])->asException($e->getDFCode());
         }
 
+        if(!$charItem->getItem()->destroyable) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'destroyItem', 'CharacterItem not destroyable', $char, $charItem, [
+                'itemId' => $itemId
+            ])->asException(DFException::ITEM_NOT_DESTROYABLE);
+        }
+
         $this->characterItemModel->destroy($charItem);
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'destroyItem', 'CharacterItem destroyed', $char, $charItem, []);
 

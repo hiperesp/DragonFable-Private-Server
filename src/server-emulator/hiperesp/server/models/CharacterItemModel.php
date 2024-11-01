@@ -16,10 +16,11 @@ class CharacterItemModel extends Model {
         return \array_map(fn($charItem) => new CharacterItemVO($charItem), $charItems);
     }
 
-    public function addItemToChar(CharacterVO $char, ItemVO $item): CharacterItemVO {
+    public function addItemToChar(CharacterVO $char, ItemVO $item, int $count = 1): CharacterItemVO {
         $data = [];
         $data['charId'] = $char->id;
         $data['itemId'] = $item->id;
+        $data['count'] = $count;
         $newData = $this->storage->insert(self::COLLECTION, $data);
         return new CharacterItemVO($newData);
     }

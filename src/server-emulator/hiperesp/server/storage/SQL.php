@@ -49,7 +49,7 @@ abstract class SQL extends Storage {
                 if(!$value) {
                     return []; // field must be equals ony of the values, but there are no values, so no results, no need to query
                 }
-                $sql .= "AND {$key} IN (";
+                $sql .= "AND `{$key}` IN (";
                 foreach($value as $v) {
                     $sql .= "?,";
                     $sqlParams[] = $v;
@@ -58,7 +58,7 @@ abstract class SQL extends Storage {
                 $sql .= ") ";
                 continue;
             }
-            $sql .= "AND {$key} = ? ";
+            $sql .= "AND `{$key}` = ? ";
             $sqlParams[] = $value;
         }
         if($limit !== null) {
@@ -75,7 +75,7 @@ abstract class SQL extends Storage {
     #[\Override]
     final protected function _insert(string $collection, array $document): void {
         $fields = \array_keys($document);
-        $sql = "INSERT INTO {$this->prefix}{$collection} (".\implode(',', $fields).") VALUES (";
+        $sql = "INSERT INTO {$this->prefix}{$collection} (`".\implode('`,`', $fields)."`) VALUES (";
         $sqlParams = [];
         foreach($fields as $field) {
             $sql .= "?,";
@@ -93,7 +93,7 @@ abstract class SQL extends Storage {
         $sql = "UPDATE {$this->prefix}{$collection} SET ";
         $sqlParams = [];
         foreach($newFields as $field => $value) {
-            $sql .= "{$field} = ?,";
+            $sql .= "`{$field}` = ?,";
             $sqlParams[] = $value;
         }
         $sql = \substr($sql, 0, -1).' WHERE true ';
@@ -106,6 +106,16 @@ abstract class SQL extends Storage {
         }
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute($sqlParams);
+    }
+
+    #[\Override]
+    protected function existsCollection(string $collection): bool {
+        $stmt = $this->pdo->prepare("SELECT 1 FROM {$this->prefix}{$collection} LIMIT 1");
+        try {
+            return $stmt->execute();
+        } catch(\Exception $e) {
+            return false;
+        }
     }
 
     #[\Override]

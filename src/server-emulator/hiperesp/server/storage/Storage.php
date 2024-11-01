@@ -8,6 +8,7 @@ abstract class Storage {
     protected abstract function _update(string $collection, array $where, array $document, ?int $limit): bool;
 
     protected abstract function _lastInsertId(): int;
+    protected abstract function existsCollection(string $collection): bool;
     protected abstract function createCollection(string $collection): bool;
     protected abstract function dropCollection(string $collection): bool;
 
@@ -134,15 +135,17 @@ abstract class Storage {
             if(\in_array($collection, $ignore)) {
                 continue;
             }
-            if(!$this->createCollection($collection)) {
-                throw new \Exception("Setup error: Failed to create collection {$collection}");
-            }
+            if(!$this->existsCollection($collection)) {
+                if(!$this->createCollection($collection)) {
+                    throw new \Exception("Setup error: Failed to create collection {$collection}");
+                }
 
-            foreach(CollectionSetup::getData($collection) as $data) {
-                try {
-                    $this->insert($collection, $data);
-                } catch(\Exception $e) {
-                    throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}.\nData: ".\json_encode($data));
+                foreach(CollectionSetup::getData($collection) as $data) {
+                    try {
+                        $this->insert($collection, $data);
+                    } catch(\Exception $e) {
+                        throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}.\nData: ".\json_encode($data));
+                    }
                 }
             }
         }
