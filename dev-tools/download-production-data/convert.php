@@ -374,6 +374,45 @@ $xsd = [
             ],
         ],
     ],
+    "hairShopF" => $hairShop = [
+        "HairShop" => [
+            "jsonKey" => "hairShop",
+            "type" => "single",
+            "config" => [
+                "id"        => [ "type" => "int"   , "from" => "HairShopID"     , ],
+                "name"      => [ "type" => "string", "from" => "strHairShopName", ],
+                "swf"       => [ "type" => "string", "from" => "strFileName"    , "default" => "" ],
+            ],
+            "children" => [
+                "hair" => [
+                    "jsonKey" => "hair",
+                    "type" => "multiple",
+                    "config" => [
+                        "id"        => [ "type" => "int"   , "from" => "HairID"        , ],
+                        "name"      => [ "type" => "string", "from" => "strName"       , ],
+                        "swf"       => [ "type" => "string", "from" => "strFileName"   , ],
+                        "frame"     => [ "type" => "int"   , "from" => "intFrame"      , ],
+                        "price"     => [ "type" => "int"   , "from" => "intPrice"      , ],
+                        "gender"    => [ "type" => "string", "from" => "strGender"     , ],
+                        "raceId"    => [ "type" => "int"   , "from" => "RaceID"        , ],
+                        "earVisible"=> [ "type" => "int"   , "from" => "bitEarVisible" , ],
+                    ],
+                    "newChildren" => [
+                        [
+                            "jsonKey" => "hairShop_hair",
+                            "type" => "single",
+                            "config" => [
+                                "id"           => [ "type" => "int", "generated" => "hairShop_hair", ],
+                                "hairShopId"   => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
+                                "hairId"       => [ "type" => "int", "from" => "HairID"                         , ],
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
+    "hairShopM" => $hairShop,
 ];
 
 $resetFiles = [
@@ -442,14 +481,16 @@ $merges = [
 \ini_set('memory_limit', "{$maxMemoryUsageMB}M");
 
 convertAll([
-    "town",
-    "quest",
-    "class",
-    "interface",
-    "mergeShop",
-    "shop",
+    // "town",
+    // "quest",
+    // "class",
+    // "interface",
+    // "mergeShop",
+    // "shop",
     // "houseShop",
     // "houseItemShop",
+    "hairShopF",
+    "hairShopM",
 ]);
 
 function convertAll(array $folders) {
@@ -795,6 +836,10 @@ function generatedIds(string $type, array $parents): int {
     if($type === "quest_monster") {
         static $questMonsterId = 0;
         return ++$questMonsterId;
+    }
+    if($type === "hairShop_hair") {
+        static $hairShop_hairId = 0;
+        return ++$hairShop_hairId;
     }
     throw new \Exception("Generated ID not found: {$type}");
 };
