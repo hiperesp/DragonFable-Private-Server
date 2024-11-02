@@ -3,8 +3,9 @@ namespace hiperesp\server\vo;
 
 use hiperesp\server\enums\Currency;
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\interfaces\Purchasable;
 
-class ItemVO extends ValueObject {
+class ItemVO extends ValueObject implements Purchasable {
 
     const CATEGORY_WEAPON = 1;
     const CATEGORY_ARMOR = 2;

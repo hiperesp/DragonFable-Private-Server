@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\models\UserModel;
 
 class CharacterVO extends ValueObject {
@@ -132,7 +133,7 @@ class CharacterVO extends ValueObject {
         }
     }
 
-    public function canBuyItem(ItemVO $item): bool {
+    public function canBuy(Purchasable $item): bool {
         if($this->coins < $item->getPriceCoins()) {
             return false;
         }

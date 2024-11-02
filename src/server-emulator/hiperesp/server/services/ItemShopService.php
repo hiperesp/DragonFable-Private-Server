@@ -39,12 +39,12 @@ class ItemShopService extends Service {
             ])->asException(DFException::INVALID_REFERENCE);
         }
 
-        if(!$char->canBuyItem($item)) {
+        if(!$char->canBuy($item)) {
             throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'buyItem', 'Cannot buy item', $char, $item, [])->asException(DFException::CANNOT_BUY_ITEM);
         }
 
         $charItem = $this->characterItemModel->addItemToChar($char, $item);
-        $this->characterModel->chargeItem($charItem);
+        $this->characterModel->charge($char, $item);
 
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'buyItem', 'Item bought', $char, $charItem, []);
         return $charItem;

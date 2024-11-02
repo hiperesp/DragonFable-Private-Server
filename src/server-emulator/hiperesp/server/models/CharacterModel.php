@@ -2,9 +2,11 @@
 namespace hiperesp\server\models;
 
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ClassVO;
+use hiperesp\server\vo\HairVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
@@ -69,10 +71,7 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
-    public function chargeItem(CharacterItemVO $charItem): void {
-        $item = $charItem->getItem();
-        $char = $charItem->getChar();
-
+    public function charge(CharacterVO $char, Purchasable $item): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'gold' => $char->gold - $item->getPriceGold(),
@@ -271,6 +270,15 @@ class CharacterModel extends Model {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'pronoun' => $pronoun
+        ]);
+    }
+
+    public function applyHair(CharacterVO $char, HairVO $hair, int $hairColor, int $skinColor): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'hairId' => $hair->id,
+            'colorHair' => \dechex($hairColor),
+            'colorSkin' => \dechex($skinColor)
         ]);
     }
 
