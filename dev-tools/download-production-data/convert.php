@@ -479,6 +479,7 @@ $merges = [
 ];
 
 \ini_set('memory_limit', "{$maxMemoryUsageMB}M");
+$startTime = (int)\microtime(true);
 
 convertAll([
     "town",
@@ -487,10 +488,10 @@ convertAll([
     "interface",
     "mergeShop",
     "shop",
-    "houseShop",
-    "houseItemShop",
     "hairShopF",
     "hairShopM",
+    // "houseShop",
+    // "houseItemShop",
 ]);
 
 function convertAll(array $folders) {
@@ -529,7 +530,7 @@ function convertAll(array $folders) {
             $currentFile++;
         }
     }
-    echo "[0] Conversion done!\n";
+    echo "[0] Conversion done! Saving data...\n";
     saveData($dataToSave);
 
     echo "[0] All done!\n";
@@ -873,14 +874,19 @@ function parseColor(string $color): string {
 }
 
 function getPercentString(int $current, int $total): string {
-    global $maxMemoryUsageMB;
+    global $maxMemoryUsageMB, $startTime;
 
     $percent = (\number_format($current / $total, 5) * 100)."%";
     $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
     $memoryUsagePercent = (\number_format($memoryUsageMB / $maxMemoryUsageMB, 5) * 100)."%";
     $memoryUsageStr = \number_format($memoryUsageMB)."M";
 
-    return "({$percent}) - MEM: {$memoryUsageStr} ({$memoryUsagePercent})";
+    $elapsedTime = (int)\microtime(true) - $startTime;
+    $estimatedTotalTime = ($elapsedTime / ($current + 1)) * $total;
+    $remainingTime = $estimatedTotalTime - $elapsedTime;
+    $eta = \gmdate("H:i:s", (int)$remainingTime);
+
+    return "({$percent}) - MEM: {$memoryUsageStr} ({$memoryUsagePercent}) - ETA: {$eta}";
 }
 
 function addMissingKeys(array $array1, array $array2): array {
