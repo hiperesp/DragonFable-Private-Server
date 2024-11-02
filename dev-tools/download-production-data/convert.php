@@ -403,9 +403,9 @@ $xsd = [
                             "jsonKey" => "hairShop_hair",
                             "type" => "single",
                             "config" => [
-                                "id"           => [ "type" => "int", "generated" => "hairShop_hair", ],
-                                "hairShopId"   => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
-                                "hairId"       => [ "type" => "int", "from" => "HairID"                         , ],
+                                "id"           => [ "type" => "int", "generated" => "hairShop_hair"                , ],
+                                "hairShopId"   => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 1, ],
+                                "hairId"       => [ "type" => "int", "fromParsedParent" => "id", "parentLevel" => 0, ],
                             ],
                         ],
                     ],
@@ -483,12 +483,12 @@ $merges = [
 $startTime = (int)\microtime(true);
 
 convertAll([
-    "town",
-    "quest",
-    "class",
-    "interface",
-    "mergeShop",
-    "shop",
+    // "town",
+    // "quest",
+    // "class",
+    // "interface",
+    // "mergeShop",
+    // "shop",
     "hairShopF",
     "hairShopM",
     // "houseShop",
