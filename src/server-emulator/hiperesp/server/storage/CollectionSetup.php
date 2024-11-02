@@ -238,15 +238,6 @@ final class CollectionSetup {
             ],
             "data" => "user.json",
         ],
-        "hair" => [
-            "structure" => [
-                "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "name"          => [ 'STRING' => 255 ],
-                "swf"           => [ 'STRING' => 255 ],
-                "gender"        => [ 'CHAR' => 1 ], // M or F
-            ],
-            "data" => "hair/",
-        ],
         "race" => [
             "structure" => [
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
@@ -254,6 +245,35 @@ final class CollectionSetup {
                 "resists"   => [ 'STRING' => 255 ],
             ],
             "data" => "race/",
+        ],
+        "hair" => [
+            "structure" => [
+                "id"         => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"       => [ 'STRING' => 255 ],
+                "swf"        => [ 'STRING' => 255 ],
+                "frame"      => [ 'BIT', 'DEFAULT' => 0 ],
+                "price"      => [ 'INTEGER' ],
+                "gender"     => [ 'CHAR' => 1 ], // M, F or B (both)
+                "raceId"     => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "race", "field" => "id" ] ],
+                "earVisible" => [ 'BIT', 'DEFAULT' => 0 ],
+            ],
+            "data" => "hair/",
+        ],
+        "hairShop" => [
+            "structure" => [
+                "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "name"  => [ 'STRING' => 255, 'DEFAULT' => "" ],
+                "swf"   => [ 'STRING' => 255, 'DEFAULT' => "" ],
+            ],
+            "data" => "hairShop/",
+        ],
+        "hairShop_hair" => [
+            "structure" => [
+                "id"         => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+                "hairShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "hairShop", "field" => "id" ] ],
+                "hairId"     => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "hair", "field" => "id" ] ],
+            ],
+            "data" => "hairShop_hair/",
         ],
         "class" => [
             "structure" => [
