@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-$pathInfo = $_SERVER['PATH_INFO'];
+$pathInfo = \strtolower($_SERVER['PATH_INFO']);
 
 function cache(string $pathInfo): string|false {
     include 'local.php';

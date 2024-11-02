@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-$pathInfo = $_SERVER['PATH_INFO'];
+$pathInfo = \strtolower($_SERVER['PATH_INFO']);
 
 function update(string $pathInfo): string|false {
     list($filemtimeInterval, $pathInfo) = parsePathInfo($pathInfo);
@@ -38,7 +38,6 @@ function parsePathInfo(string $pathInfo): array {
 
 function fetchRemote(int $filemtimeInterval, string $pathInfo): bool {
 
-    $pathInfo = \strtolower($pathInfo);
     if(!\preg_match('/\.swf$/', $pathInfo)) {
         return false;
     }
