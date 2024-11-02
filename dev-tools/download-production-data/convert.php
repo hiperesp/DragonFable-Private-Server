@@ -302,9 +302,10 @@ $xsd = [
                 "items" => [
                     "jsonKey" => "mergeShop_item",
                     "type" => "multiple",
-                    "ignoreParams" => [ "strCategory" ],
+                    "ignoreParams" => [ "ID", "strCategory" ],
                     "config" => [
-                        "id"            => [ "type" => "int"   , "from" => "ID"            , ],
+                        "id"            => [ "type" => "int"   , "generated" => "mergeShop_item", ],
+                        "mergeShopId"   => [ "type" => "int"   , "fromParsedParent" => "id", "parentLevel" => 0, ],
                         "itemId1"       => [ "type" => "int"   , "from" => "ItemID1"       , ],
                         "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
                         "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
@@ -841,6 +842,9 @@ function generatedIds(string $type, array $parents): int {
     if($type === "hairShop_hair") {
         static $hairShop_hairId = 0;
         return ++$hairShop_hairId;
+    }
+    if($type === "mergeShop_item") {
+        return $parents[0]["parsed"]["mergeShopId"] * 100_000 + $parents[0]["raw"]['@attributes']["ID"];
     }
     throw new \Exception("Generated ID not found: {$type}");
 };
