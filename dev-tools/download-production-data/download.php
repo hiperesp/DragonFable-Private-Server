@@ -21,7 +21,7 @@ if(!isset($skipDownloaded)) {
     $skipDownloaded = $res === "y";
 }
 
-
+$startTime = (int)\microtime(true);
 $thingsToDownload = [
     "interface" => [
         "from" => 1,
@@ -126,12 +126,18 @@ function downloadAll(): void {
 }
 
 function getPercentString(int $current, int $total): string {
+    global $startTime;
 
     $percent = (\number_format($current / $total, 5) * 100)."%";
     $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
     $memoryUsageStr = \number_format($memoryUsageMB)."M";
 
-    return "({$percent}) - MEM: {$memoryUsageStr}";
+    $elapsedTime = (int)\microtime(true) - $startTime;
+    $estimatedTotalTime = ($elapsedTime / ($current + 1)) * $total;
+    $remainingTime = $estimatedTotalTime - $elapsedTime;
+    $eta = \gmdate("H:i:s", (int)$remainingTime);
+
+    return "({$percent}) - MEM: {$memoryUsageStr} - ETA: {$eta}";
 }
 
 function download(string $thingToDownload, int $id): bool {
@@ -192,16 +198,17 @@ function download(string $thingToDownload, int $id): bool {
     if($child0->getName() === "info") {
         /** @var \SimpleXMLElement $child0 */
         $reason = $child0->attributes()->reason;
-        if($reason == "Invalid Reference") {
-            echo "[3] Failed to download {$thingToDownload} {$id}: Invalid Reference\n";
-            return false;
-        }
-        if($reason == "Invalid Item Reference") {
-            echo "[4] Failed to download {$thingToDownload} {$id}: Invalid Item Reference\n";
+
+        if(\in_array($reason, [
+            "Invalid Reference",
+            "Invalid Item Reference",
+            "Database Syntax Error",
+        ])) {
+            echo "[3] Failed to download {$thingToDownload} {$id}: {$reason}\n";
             return false;
         }
 
-        echo "[5] Failed to download {$thingToDownload} {$id}: {$reason}\n";
+        echo "[4] Failed to download {$thingToDownload} {$id}: {$reason}\n";
         die;
         return false;
     }
