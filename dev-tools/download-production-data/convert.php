@@ -481,14 +481,14 @@ $merges = [
 \ini_set('memory_limit', "{$maxMemoryUsageMB}M");
 
 convertAll([
-    // "town",
-    // "quest",
-    // "class",
-    // "interface",
-    // "mergeShop",
-    // "shop",
-    // "houseShop",
-    // "houseItemShop",
+    "town",
+    "quest",
+    "class",
+    "interface",
+    "mergeShop",
+    "shop",
+    "houseShop",
+    "houseItemShop",
     "hairShopF",
     "hairShopM",
 ]);
