@@ -55,8 +55,8 @@ final class CollectionSetup {
                 [
                     "id"                    => 1,
 
-                    "gameSwf"               => "game15_9_12-patched.swf",
-                    "serverVersion"         => "Build 15.9.12 alpha", // appears in the game client version, only display
+                    "gameSwf"               => "game15_9_14-patched.swf",
+                    "serverVersion"         => "Build 15.9.14 alpha", // appears in the game client version, only display
                     //                                this is the ^ last visible char (aprox. 19 chars)
                     "serverLocation"        => "server-emulator/server.php/", // You can also use something like "http://localhost:40000/server-emulator/server.php/";
                     "gamefilesPath"         => "cdn/gamefiles/cache.php/",   // You can also use something like "http://localhost:40000/cdn/gamefiles/cache.php/";
