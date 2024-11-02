@@ -142,7 +142,7 @@ abstract class SQL extends Storage {
         $sql.= \implode(",\n", $tableFieldsDefinitions);
         $sql.= ");\n";
         $sql.= \implode("\n", $afterCreateSql);
-        $stmt = $this->pdo->prepare($sql);
+        $stmt = $this->pdo->prepare("SET FOREIGN_KEY_CHECKS=0;{$sql};SET FOREIGN_KEY_CHECKS=1;");
         return $stmt->execute();
     }
 
