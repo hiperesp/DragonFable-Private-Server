@@ -10,7 +10,7 @@ use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
-use hiperesp\server\vo\ItemShopVO;
+use hiperesp\server\vo\MergeShopVO;
 use hiperesp\server\vo\SettingsVO;
 
 class MergeShopService extends Service {
@@ -24,7 +24,7 @@ class MergeShopService extends Service {
 
     private SettingsVO $settings;
 
-    public function getShop(int $shopId): ItemShopVO {
+    public function getShop(int $shopId): MergeShopVO {
         return $this->mergeShopModel->getById($shopId);
     }
 

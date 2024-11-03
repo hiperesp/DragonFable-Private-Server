@@ -4,6 +4,7 @@ namespace hiperesp\server\controllers;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
+use hiperesp\server\projection\MergeShopProjection;
 use hiperesp\server\services\CharacterService;
 use hiperesp\server\services\MergeShopService;
 
@@ -14,11 +15,14 @@ class MergeShopController extends Controller {
 
     #[Request(
         endpoint: '/cf-mergeshopload.asp',
-        inputType: Input::RAW,
-        outputType: Output::RAW
+        inputType: Input::NINJA2,
+        outputType: Output::NINJA2XML
     )]
-    public function load(string $input): string {
-        return "";
+    public function load(\SimpleXMLElement $input): \SimpleXMLElement {
+
+        $shop = $this->mergeShopService->getShop((int)$input->intMergeShopID);
+        return MergeShopProjection::instance()->loaded($shop);
+
     }
 
 }
