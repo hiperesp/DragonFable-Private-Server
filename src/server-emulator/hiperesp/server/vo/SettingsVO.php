@@ -13,6 +13,7 @@ class SettingsVO extends ValueObject {
     public readonly string $signUpUrl;
     public readonly string $lostPasswordUrl;
     public readonly string $tosUrl;
+    public readonly string $charDetailUrl;
 
     public readonly string $signUpMessage;
     public readonly string $news;

@@ -20,6 +20,7 @@ final class CollectionSetup {
                 "signUpUrl"             => [ 'STRING' => 255 ],
                 "lostPasswordUrl"       => [ 'STRING' => 255 ],
                 "tosUrl"                => [ 'STRING' => 255 ],
+                "charDetailUrl"         => [ 'STRING' => 255 ],
 
                 "signUpMessage"         => [ 'STRING' => 255 ],
                 "news"                  => [ 'STRING' => 255 ],
@@ -66,6 +67,7 @@ final class CollectionSetup {
                     "signUpUrl"             => "../../../signup.html",
                     "lostPasswordUrl"       => "../../../lost-password.html",
                     "tosUrl"                => "../../../tos.html",
+                    "charDetailUrl"         => "../../../char-detail.html",
 
                     "signUpMessage"         => "Welcome to the world of DragonFable!\n\nPlease sign up to play!",
                     "news"                  => "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!",

@@ -15,4 +15,5 @@ services:
       - ./src/web/signup.html:/var/www/html/signup.html
       - ./src/web/lost-password.html:/var/www/html/lost-password.html
       - ./src/web/tos.html:/var/www/html/tos.html
+      - ./src/web/char-detail.html:/var/www/html/char-detail.html
 

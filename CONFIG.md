@@ -26,7 +26,7 @@ Access your database and open your `settings` table. This is what each column me
 
     I recommend using the `cache` mode, as it will save the files locally and serve them faster in the future, but if space is a concern, you can use the `dynamic` mode.
 
-- `homeUrl`, `playUrl`, `signUpUrl`, `lostPasswordUrl`, `tosUrl`: These parameters are used to specify the URLs for the home, play, sign up, lost password, and terms of service pages. You can use any URL you want. You can use relative URLs, like `../../../index.html`, or absolute URLs, like `https://example.org/index.html`.
+- `homeUrl`, `playUrl`, `signUpUrl`, `lostPasswordUrl`, `tosUrl`, `charDetailUrl`: These parameters are used to specify the URLs for the home, play, sign up, lost password, and terms of service pages. You can use any URL you want. You can use relative URLs, like `../../../index.html`, or absolute URLs, like `https://example.org/index.html`.
 
 - `signUpMessage`: The `signUpMessage` parameter is used to specify the message that will be shown in the sign-up page.
 

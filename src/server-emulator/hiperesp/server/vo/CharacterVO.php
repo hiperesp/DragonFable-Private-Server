@@ -59,6 +59,8 @@ class CharacterVO extends ValueObject {
     public readonly int $classId;
     public readonly int $baseClassId;
 
+    public readonly string $lastTimeSeen;
+
     public int $experienceToLevel {
         get {
             $expToLevel = match(true) {

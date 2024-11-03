@@ -38,6 +38,15 @@ class WebController extends Controller {
     }
 
     #[Request(
+        endpoint: '/web/df-lostpassword.aspx',
+        inputType: Input::NONE,
+        outputType: Output::REDIRECT
+    )]
+    public function lostPassword(): string {
+        return $this->settings->lostPasswordUrl;
+    }
+
+    #[Request(
         endpoint: '/web/df-terms.asp',
         inputType: Input::NONE,
         outputType: Output::REDIRECT
@@ -47,12 +56,13 @@ class WebController extends Controller {
     }
 
     #[Request(
-        endpoint: '/web/df-lostpassword.aspx',
-        inputType: Input::NONE,
+        endpoint: '/web/df-chardetail.asp',
+        inputType: Input::QUERY,
         outputType: Output::REDIRECT
     )]
-    public function lostPassword(): string {
-        return $this->settings->lostPasswordUrl;
+    public function charDetail(array $input): string {
+        $queryParams = \http_build_query($input);
+        return "{$this->settings->charDetailUrl}?{$queryParams}";
     }
 
 }

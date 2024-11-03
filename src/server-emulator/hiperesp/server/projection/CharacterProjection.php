@@ -268,4 +268,50 @@ class CharacterProjection extends Projection {
         return $xml;
     }
 
+    public function characterPage(CharacterVO $char): array {
+
+        $user = $char->getUser();
+
+        $hair = $this->hairModel->getByChar($char);
+        $class = $this->classModel->getByChar($char);
+        $race = $this->raceModel->getByChar($char);
+
+        $armor = $this->armorModel->getByClass($class);
+        $weapon = $this->weaponModel->getByClass($class);
+
+        return [
+            "Name" => $char->name,
+            "Level" => $char->level,
+            "ClassName" => $class->name,
+            "ClassFileName" => $class->swf,
+            "Gender" => $char->gender,
+            "Race" => $race->name,
+            "Gold" => $char->gold,
+            "DA" => $char->dragonAmulet ? 1 : 0,
+            "strArmor" => $char->armor,
+            "strSkills" => $char->skills,
+            "strQuests" => $char->quests,
+            "Founder" => $user->id == 1 ? 1 : 0,
+            "HairColor" => \hexdec($char->colorHair),
+            "SkinColor" => \hexdec($char->colorSkin),
+            "BaseColor" => \hexdec($char->colorBase),
+            "TrimColor" => \hexdec($char->colorTrim),
+            "HairFileName" => $hair->swf,
+            "WeaponFilename" => $weapon->swf ?: "none",
+            "HelmFilename" => "none",
+            "BackFilename" => "none",
+            "NoDragon" => "right",
+            "DHead" => "none",
+            "DWing" => "none",
+            "DTail" => "none",
+            "DskinC" => "",
+            "DeyeC" => "",
+            "DhornC" => "",
+            "DwingC" => "",
+            "Created" => \date("Y-m-d", \strtotime($char->createdAt)),
+            "LastPlayed" => \date("Y-m-d", \strtotime($char->lastTimeSeen)),
+            "up" => "1",
+        ];
+    }
+
 }

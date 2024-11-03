@@ -1,10 +1,13 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\models\CharacterModel;
+use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\SettingsVO;
 
-class SettingsService extends Service {
+class WebApiService extends Service {
 
+    private CharacterModel $characterModel;
     private SettingsVO $settings;
 
     public function version(): array {
@@ -17,4 +20,9 @@ class SettingsService extends Service {
             "end"           => "here",
         ];
     }
+
+    public function characterData(int $id): CharacterVO {
+        return $this->characterModel->getById($id);
+    }
+
 }

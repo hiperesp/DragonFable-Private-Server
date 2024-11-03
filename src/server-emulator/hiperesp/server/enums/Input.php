@@ -9,6 +9,7 @@ enum Input {
     case NINJA2;
     case XML;
     case FORM;
+    case QUERY;
     case RAW;
 
     public function get(): mixed {
@@ -16,6 +17,7 @@ enum Input {
             Input::NINJA2 => $this->ninja2(),
             Input::XML => $this->xml(),
             Input::FORM => $this->form(),
+            Input::QUERY => $this->query(),
             Input::RAW => $this->raw(),
             Input::NONE => null,
         };
@@ -45,6 +47,10 @@ enum Input {
 
     private function form(): array {
         return $_POST;
+    }
+
+    private function query(): array {
+        return $_GET;
     }
 
     private function raw(): string {
