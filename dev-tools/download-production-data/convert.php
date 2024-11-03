@@ -310,6 +310,7 @@ $xsd = [
                         "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
                         "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
                         "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
+                        "itemId"        => [ "type" => "int"   , "from" => "NewItemID"     , ],
                         "string"        => [ "type" => "int"   , "from" => "intString"     , ], // 0: character.quests, 1: character.skills, 2: character.armor
                         "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // is param for string, like string[index]
                         "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // is value for string[index], like string[index] = value
@@ -487,10 +488,10 @@ convertAll([
     // "quest",
     // "class",
     // "interface",
-    // "mergeShop",
+    "mergeShop",
     // "shop",
-    "hairShopF",
-    "hairShopM",
+    // "hairShopF",
+    // "hairShopM",
     // "houseShop",
     // "houseItemShop",
 ]);

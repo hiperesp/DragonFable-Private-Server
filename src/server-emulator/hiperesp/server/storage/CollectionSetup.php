@@ -183,6 +183,7 @@ final class CollectionSetup {
                 "amount1" => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "itemId2" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "amount2" => [ 'INTEGER', 'DEFAULT' => 1 ],
+                "itemId"  => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "string"  => [ 'INTEGER', 'DEFAULT' => -1 ],
                 "index"   => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "value"   => [ 'INTEGER', 'DEFAULT' => 0 ],
