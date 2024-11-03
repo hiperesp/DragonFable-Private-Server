@@ -179,6 +179,7 @@ final class CollectionSetup {
         "mergeShop_item" => [
             "structure" => [
                 "id"      => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+                "mergeShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "mergeShop", "field" => "id" ] ],
                 "itemId1" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "amount1" => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "itemId2" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
