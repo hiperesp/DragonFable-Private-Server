@@ -11,7 +11,7 @@ $maxMemoryUsageMB = '384';
 
 $xsd = [
     "quest" => [
-        "quest" => [ // from quest dir
+        "quest" => [
             "jsonKey" => "quest",
             "type" => "single",
             "ignoreParams" => [
@@ -141,7 +141,7 @@ $xsd = [
         ],
     ],
     "town" => [
-        "newTown" => [ // from town dir
+        "newTown" => [
             "jsonKey" => "quest",
             "type" => "single",
             "config" => [
@@ -152,8 +152,73 @@ $xsd = [
             ],
         ],
     ],
+    "questRewards" => [
+        "questreward" => [
+            "jsonKey" => "QUEST_REWARD_CONTAINER",
+            "type" => "single",
+            "ignoreParams" => [ "intExp", "intSilver", "intGold", "intGems", "intCoins" ],
+            "config" => [],
+            "children" => [
+                "items" => [
+                    "jsonKey" => "item",
+                    "type" => "single",
+                    "ignoreParams" => [ "strCategory" ],
+                    "config" => [
+                        "id"            => [ "type" => "int"   , "from" => "ItemID"            , ],
+                        "name"          => [ "type" => "string", "from" => "strItemName"       , ],
+                        "description"   => [ "type" => "string", "from" => "strItemDescription", ],
+                        "visible"       => [ "type" => "int"   , "from" => "bitVisible"        , ],
+                        "destroyable"   => [ "type" => "int"   , "from" => "bitDestroyable"    , ],
+                        "sellable"      => [ "type" => "int"   , "from" => "bitSellable"       , ],
+                        "dragonAmulet"  => [ "type" => "int"   , "from" => "bitDragonAmulet"   , ],
+                        "currency"      => [ "type" => "int"   , "from" => "intCurrency"       , ],
+                        "cost"          => [ "type" => "int"   , "from" => "intCost"           , ],
+                        "maxStackSize"  => [ "type" => "int"   , "from" => "intMaxStackSize"   , ],
+                        "bonus"         => [ "type" => "int"   , "from" => "intBonus"          , ],
+                        "rarity"        => [ "type" => "int"   , "from" => "intRarity"         , ],
+                        "level"         => [ "type" => "int"   , "from" => "intLevel"          , ],
+                        "type"          => [ "type" => "string", "from" => "strType"           , ],
+                        "element"       => [ "type" => "string", "from" => "strElement"        , ],
+                        "categoryId"    => [ "type" => "string", "generated" => "item_category", ],
+                        "equipSpot"     => [ "type" => "string", "from" => "strEquipSpot"      , ],
+                        "itemType"      => [ "type" => "string", "from" => "strItemType"       , ],
+                        "swf"           => [ "type" => "string", "from" => "strFileName"       , ],
+                        "icon"          => [ "type" => "string", "from" => "strIcon"           , ],
+                        "strength"      => [ "type" => "int"   , "from" => "intStr"            , ],
+                        "dexterity"     => [ "type" => "int"   , "from" => "intDex"            , ],
+                        "intelligence"  => [ "type" => "int"   , "from" => "intInt"            , ],
+                        "luck"          => [ "type" => "int"   , "from" => "intLuk"            , ],
+                        "charisma"      => [ "type" => "int"   , "from" => "intCha"            , ],
+                        "endurance"     => [ "type" => "int"   , "from" => "intEnd"            , ],
+                        "wisdom"        => [ "type" => "int"   , "from" => "intWis"            , "default" => "0" ],
+                        "damageMin"     => [ "type" => "int"   , "from" => "intMin"            , ],
+                        "damageMax"     => [ "type" => "int"   , "from" => "intMax"            , ],
+                        "defenseMelee"  => [ "type" => "int"   , "from" => "intDefMelee"       , ],
+                        "defensePierce" => [ "type" => "int"   , "from" => "intDefPierce"      , ],
+                        "defenseMagic"  => [ "type" => "int"   , "from" => "intDefMagic"       , ],
+                        "critical"      => [ "type" => "int"   , "from" => "intCrit"           , ],
+                        "parry"         => [ "type" => "int"   , "from" => "intParry"          , ],
+                        "dodge"         => [ "type" => "int"   , "from" => "intDodge"          , ],
+                        "block"         => [ "type" => "int"   , "from" => "intBlock"          , ],
+                        "resists"       => [ "type" => "string", "from" => "strResists"        , ],
+                    ],
+                    "newChildren" => [
+                        [
+                            "jsonKey" => "quest_item",
+                            "type" => "single",
+                            "config" => [
+                                "id"           => [ "type" => "int", "generated" => "quest_item"      , ],
+                                "questId"      => [ "type" => "int", "fromSpecial" => "idFromFileName", ],
+                                "itemId"       => [ "type" => "int", "from" => "ItemID"               , ],
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ],
+    ],
     "class" => [
-        "character" => [ // from class dir
+        "character" => [
             "jsonKey" => "class",
             "type" => "single",
             "config" => [
@@ -486,9 +551,10 @@ $startTime = (int)\microtime(true);
 convertAll([
     // "town",
     // "quest",
+    "questRewards",
     // "class",
     // "interface",
-    "mergeShop",
+    // "mergeShop",
     // "shop",
     // "hairShopF",
     // "hairShopM",
@@ -524,6 +590,12 @@ function convertAll(array $folders) {
 
             $newFile = convertFile($folder, $file);
             foreach($newFile as $key => $value) {
+                $value = \array_filter($value, function($v) {
+                    return !!$v;
+                });
+                if(!$value) {
+                    continue;
+                }
                 if(!isset($dataToSave[$key])) {
                     $dataToSave[$key] = [];
                 }
@@ -839,6 +911,10 @@ function generatedIds(string $type, array $parents): int {
     if($type === "quest_monster") {
         static $questMonsterId = 0;
         return ++$questMonsterId;
+    }
+    if($type === "quest_item") {
+        static $questItemId = 0;
+        return ++$questItemId;
     }
     if($type === "hairShop_hair") {
         static $hairShop_hairId = 0;
