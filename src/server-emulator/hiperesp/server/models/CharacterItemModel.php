@@ -16,11 +16,20 @@ class CharacterItemModel extends Model {
         return \array_map(fn($charItem) => new CharacterItemVO($charItem), $charItems);
     }
 
-    public function addItemToChar(CharacterVO $char, ItemVO $item, int $count = 1): CharacterItemVO {
+    public function addItemToChar(CharacterVO $char, ItemVO $item): CharacterItemVO {
+        $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id]);
+        if(isset($charItem[0]) && $charItem = $charItem[0]) {
+            if($charItem['count'] < $item->maxStackSize) {
+                $charItem['count']++;
+                $this->storage->update(self::COLLECTION, ['id' => $charItem['id']], $charItem);
+                return new CharacterItemVO($charItem);
+            }
+        }
+
         $data = [];
         $data['charId'] = $char->id;
         $data['itemId'] = $item->id;
-        $data['count'] = $count;
+        $data['count'] = 1;
         $newData = $this->storage->insert(self::COLLECTION, $data);
         return new CharacterItemVO($newData);
     }

@@ -17,7 +17,7 @@ class CharacterItemVO extends ValueObject {
     public readonly int $itemId;
 
     public readonly bool $equipped;
-    public readonly bool $count;
+    public readonly int $count;
 
     public int $hoursOwned {
         get {
