@@ -365,23 +365,31 @@ $xsd = [
             ],
             "children" => [
                 "items" => [
-                    "jsonKey" => "mergeShop_item",
+                    "jsonKey" => "mergeShop_merge",
                     "type" => "multiple",
-                    "ignoreParams" => [ "ID", "strCategory" ],
+                    "ignoreParams" => [ "strCategory" ],
                     "config" => [
-                        "id"            => [ "type" => "int"   , "generated" => "mergeShop_item", ],
+                        "id"            => [ "type" => "int"   , "generated" => "mergeShop_merge"               , ],
                         "mergeShopId"   => [ "type" => "int"   , "fromParsedParent" => "id", "parentLevel" => 0, ],
-                        "itemId1"       => [ "type" => "int"   , "from" => "ItemID1"       , ],
-                        "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
-                        "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
-                        "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
-                        "itemId"        => [ "type" => "int"   , "from" => "NewItemID"     , ],
-                        "string"        => [ "type" => "int"   , "from" => "intString"     , ], // 0: character.quests, 1: character.skills, 2: character.armor
-                        "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // is param for string, like string[index]
-                        "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // is value for string[index], like string[index] = value
-                        "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ],
+                        "mergeId"       => [ "type" => "int"   , "from" => "ID"                                , ],
                     ],
                     "newChildren" => [
+                        [
+                            "jsonKey" => "merge",
+                            "type" => "single",
+                            "config" => [
+                                "id"            => [ "type" => "int"   , "from" => "ID"            , ],
+                                "itemId1"       => [ "type" => "int"   , "from" => "ItemID1"       , ],
+                                "amount1"       => [ "type" => "int"   , "from" => "Qty1"          , ],
+                                "itemId2"       => [ "type" => "int"   , "from" => "ItemID2"       , ],
+                                "amount2"       => [ "type" => "int"   , "from" => "Qty2"          , ],
+                                "itemId"        => [ "type" => "int"   , "from" => "NewItemID"     , ],
+                                "string"        => [ "type" => "int"   , "from" => "intString"     , ], // 0: character.quests, 1: character.skills, 2: character.armor
+                                "index"         => [ "type" => "int"   , "from" => "intIndex"      , ], // is param for string, like string[index]
+                                "value"         => [ "type" => "int"   , "from" => "intValue"      , ], // is value for string[index], like string[index] = value
+                                "level"         => [ "type" => "int"   , "from" => "intReqdLevel"  , ],
+                            ],
+                        ],
                         [
                             "jsonKey" => "item",
                             "type" => "single",
@@ -485,7 +493,7 @@ $xsd = [
 $resetFiles = [
     "quest_monster", // some monsters are removed from old quests, changed order or added new ones in specific order
     "itemShop_item", // some items are removed from old shops
-    "mergeShop_item", // some items are removed from old merge shops
+    "mergeShop_merge", // some items are removed from old merge shops
 ];
 
 $merges = [
@@ -551,10 +559,10 @@ $startTime = (int)\microtime(true);
 convertAll([
     // "town",
     // "quest",
-    "questRewards",
+    // "questRewards",
     // "class",
     // "interface",
-    // "mergeShop",
+    "mergeShop",
     // "shop",
     // "hairShopF",
     // "hairShopM",
@@ -920,8 +928,9 @@ function generatedIds(string $type, array $parents): int {
         static $hairShop_hairId = 0;
         return ++$hairShop_hairId;
     }
-    if($type === "mergeShop_item") {
-        return $parents[0]["parsed"]["mergeShopId"] * 100_000 + $parents[0]["raw"]['@attributes']["ID"];
+    if($type === "mergeShop_merge") {
+        static $mergeShop_mergeId = 0;
+        return ++$mergeShop_mergeId;
     }
     throw new \Exception("Generated ID not found: {$type}");
 };
