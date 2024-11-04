@@ -88,12 +88,18 @@ $thingsToDownload = [
         "endpoint" => "/cf-classload.asp",
         "param" => "intClassID",
     ],
+    // "questRewards" => [
+    //     "from" => 1,
+    //     "to" => 2200,
+    //     "needAuth" => true,
+    //     "endpoint" => "/cf-questcomplete-Mar2011.asp",
+    //     "param" => "intQuestID",
+    // ],
 ];
 
-downloadAll();
+downloadAll($thingsToDownload);
 
-function downloadAll(): void {
-    global $thingsToDownload;
+function downloadAll(array $thingsToDownload): void {
     $totalToDownload = \array_reduce($thingsToDownload, function($carry, $thing) {
         return $carry + $thing["to"] - $thing["from"] + 1;
     }, 0);
@@ -107,7 +113,7 @@ function downloadAll(): void {
             $percentStr = getPercentString($currentItem, $totalToDownload);
             echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} {$percentStr}\n";
 
-            $success = download($thingToDownload, $i);
+            $success = download($thingToDownload, $i, true);
             if($i===$thing["to"] && $success) {
                 $lastDownloaded[] = $thingToDownload;
             }
@@ -140,8 +146,8 @@ function getPercentString(int $current, int $total): string {
     return "({$percent}) - MEM: {$memoryUsageStr} - ETA: {$eta}";
 }
 
-function download(string $thingToDownload, int $id): bool {
-    global $sessionToken, $charId, $skipDownloaded, $thingsToDownload;
+function download(string $thingToDownload, int $id, bool $skipDownloaded): bool {
+    global $sessionToken, $charId, $thingsToDownload;
 
     $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
 
@@ -158,9 +164,13 @@ function download(string $thingToDownload, int $id): bool {
     }
     if($thingToDownload === "hairShopM") {
         $input.= "<strGender>M</strGender>";
-    }
-    if($thingToDownload === "hairShopF") {
+    } else if($thingToDownload === "hairShopF") {
         $input.= "<strGender>F</strGender>";
+    } else if($thingToDownload === "questRewards") {
+        if(!startQuest($id)) {
+            return false;
+        }
+        $input.= "<intWaveCount>1</intWaveCount><intRare>0</intRare><intWar>0</intWar><intLootID>-1</intLootID><intExp>0</intExp><intGold>0</intGold>";
     }
     $input = "<flash>{$input}</flash>";
     $input = "<ninja2>".encrypt($input)."</ninja2>";
@@ -207,6 +217,15 @@ function download(string $thingToDownload, int $id): bool {
             echo "[3] Failed to download {$thingToDownload} {$id}: {$reason}\n";
             return false;
         }
+        if(\in_array($reason, [
+            "Amulet Required!",
+            "Invalid Quest Time!",
+            "Quest Level Requirement Not Met!",
+        ])) {
+            echo "[4] Failed to download {$thingToDownload} {$id}: {$reason}\n";
+            \file_put_contents("treatable-errors.txt", "{$thingToDownload} {$id}: {$reason}\n", \FILE_APPEND);
+            return false;
+        }
 
         echo "[4] Failed to download {$thingToDownload} {$id}: {$reason}\n";
         die;
@@ -217,6 +236,22 @@ function download(string $thingToDownload, int $id): bool {
         \mkdir(\dirname($file), 0777, true);
     }
     \file_put_contents($file, $result);
+    return true;
+}
+
+function startQuest(int $id) {
+    $quest = download("quest", $id, false);
+    if(!$quest) {
+        return false;
+    }
+    $xml = \simplexml_load_file(__DIR__ . "/downloaded/quest/{$id}.xml");
+
+    $json = \json_decode(\json_encode($xml), true);
+    $minTime = $json["quest"]["@attributes"]["intMinTime"];
+
+    echo "[5] Starting quest {$id}. Waiting {$minTime} minute(s)\n";
+    \sleep($minTime * 60);
+
     return true;
 }
 
