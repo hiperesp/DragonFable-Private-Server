@@ -5,9 +5,11 @@ use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
+use hiperesp\server\models\ItemModel;
 use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\UserModel;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ClassVO;
 use hiperesp\server\vo\QuestVO;
@@ -18,6 +20,7 @@ class CharacterService extends Service {
     private ClassModel $classModel;
     private UserModel $userModel;
     private CharacterModel $characterModel;
+    private ItemModel $itemModel;
     private CharacterItemModel $characterItemModel;
     private QuestModel $questModel;
     private LogsModel $logsModel;
@@ -195,6 +198,12 @@ class CharacterService extends Service {
     public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $rewards): CharacterVO {
         $this->characterModel->applyQuestRewards($char, $quest, $rewards);
         return $this->characterModel->refresh($char);
+    }
+
+    public function applyQuestItemRewards(CharacterVO $char, int $newItemID): CharacterItemVO {
+        $item = $this->itemModel->getById($newItemID);
+        $charItem = $this->characterItemModel->addItemToChar($char, $item);
+        return $charItem;
     }
 
     public function setQuestString(CharacterVO $char, int $index, int $value): void {

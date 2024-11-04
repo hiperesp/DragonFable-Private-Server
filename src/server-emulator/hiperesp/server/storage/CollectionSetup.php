@@ -218,6 +218,14 @@ final class CollectionSetup {
             ],
             "data" => "quest/",
         ],
+        "quest_item" => [
+            "structure" => [
+                "id"      => [ 'INTEGER', 'PRIMARY_KEY' ],
+                "questId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "quest", "field" => "id" ] ],
+                "itemId"  => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item" , "field" => "id" ] ],
+            ],
+            "data" => "quest_item/",
+        ],
         "user" => [
             "structure" => [
                 "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],

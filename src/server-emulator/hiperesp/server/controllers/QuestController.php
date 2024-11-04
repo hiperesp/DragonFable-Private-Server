@@ -49,25 +49,18 @@ class QuestController extends Controller {
         return CharacterProjection::instance()->questCompletedMar2011($quest, $char, []);
     }
 
-//     #[Request(
-//         endpoint: '/cf-questreward.asp',
-//         inputType: Input::NINJA2,
-//         outputType: Output::XML
-//     )]
-//     public function reward(\SimpleXMLElement $input): \SimpleXMLElement {
-//         // <flash><intNewItemID>20387</intNewItemID><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
+    #[Request(
+        endpoint: '/cf-questreward.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function reward(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-//         $newItemID = (int)$input->intNewItemID;
+        $charItem = $this->characterService->applyQuestItemRewards($char, (int)$input->intNewItemID);
 
-//         // find the item by id and add to the inventory
-
-//         return \simplexml_load_string(<<<XML
-// <questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-//     <CharItemID>783072142</CharItemID>
-// </questreward>
-// XML);
-
-//     }
+        return CharacterProjection::instance()->questItemReward($charItem);
+    }
 
     #[Request(
         endpoint: '/cf-savequeststring.asp',
