@@ -7,6 +7,11 @@
     }
 }
 
+@font-face {
+    font-family: 'BD Merced Regular';
+    src: url(fonts/BD-Merced-Regular/BD-Merced-Regular.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -90,7 +95,7 @@ body {
     background-image: linear-gradient(to right, #330200ff, #33020040 400px), var(--background);
     background-size: cover;
     background-position: center;
-    font-family: "DM Serif Text", serif;
+    font-family: "BD Merced Regular", "DM Serif Text", serif;
     display: flex;
     position: relative;
     padding: 20px;
