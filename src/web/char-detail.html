@@ -11,6 +11,13 @@
     </head>
     <body>
         <section class="content">
+            <aside class="sidebar">
+                <a class="sidebar-logo-link" href="index.html">Dragon Fable Private Server</a>
+                <div class="sidebar-body">
+                    <h2>We are in alpha!</h2>
+                    <p>Dragon Fable Private Server is currently in alpha development. If you want, can contribute to the project <a href="https://github.com/hiperesp/DragonFable-Private-Server" target="_blank">here</a>.</p>
+                </div>
+            </aside>
             <div class="main-container">
                 <aside class="ad-container">
                     <div class="ad">
@@ -34,7 +41,21 @@
                         </ul>
                     </div>
                 </nav>
-                <main class="main-content" style="display: flex; justify-content: center" id="character-page-container">
+                <main class="main-content">
+                    <div class="main-content-header" style="--background:url('images/web/header.bmp')">
+                        <h1 style="white-space:nowrap">Dragon Fable <wbr>Private Server</h1>
+                        <div class="main-content-datetime">by hiperesp</div>
+                    </div>
+                    <div style="display: flex;">
+                        <div id="character-page-container"></div>
+                        <div class="main-content-body">
+                            <h2>Character Details</h2>
+                            <p>The Character Details page allows you to view important information about your character. Here, you can see your character's level, the amount of gold you have, and your account type. The account type includes special titles.</p>
+                            <p>You can also find details such as the date your character was created and the last time you played.</p>
+                            <p>You can also see badges you've earned. These are split into different categories: Quest Badges, Holiday Badges, PVP Badges, Skill Badges, and Armor Badges. Just flip through the pages to see them all!</p>
+                            <p>This page is a great way to keep track of your character's progress and achievements in the game. It's also perfect for showing off your accomplishments to your friends!</p>
+                        </div>
+                    </div>
                     <script>
                         const charId = new URLSearchParams(window.location.search).get('id');
                         const html = `
