@@ -1,15 +1,12 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
-use hiperesp\server\exceptions\DFException;
-use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\models\ItemModel;
 
-class MergeShopItemVO extends ValueObject implements Purchasable {
+class MergeVO extends ValueObject {
 
     private ItemModel $itemModel;
 
-    public readonly int $mergeShopId;
     public readonly int $itemId1;
     public readonly int $amount1;
     public readonly int $itemId2;
@@ -20,18 +17,28 @@ class MergeShopItemVO extends ValueObject implements Purchasable {
     public readonly int $value;
     public readonly int $level;
 
-    public function getPriceCoins(): int {
-        return $this->getItem()->getPriceCoins();
-    }
-    public function getPriceGold(): int {
-        return $this->getItem()->getPriceGold();
+    #[\Override]
+    protected function patch(array $data): array {
+        if($data['itemId1'] == -1) {
+            $data['itemId1'] = 0;
+        }
+        if($data['itemId2'] == -1) {
+            $data['itemId2'] = 0;
+        }
+        return $data;
     }
 
-    public function getItem1(): ItemVO {
+    public function getItem1(): ?ItemVO {
+        if(!$this->itemId1) {
+            return null;
+        }
         return $this->itemModel->getById($this->itemId1);
     }
 
-    public function getItem2(): ItemVO {
+    public function getItem2(): ?ItemVO {
+        if(!$this->itemId2) {
+            return null;
+        }
         return $this->itemModel->getById($this->itemId2);
     }
 

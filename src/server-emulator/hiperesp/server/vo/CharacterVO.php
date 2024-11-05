@@ -2,11 +2,13 @@
 namespace hiperesp\server\vo;
 
 use hiperesp\server\interfaces\Purchasable;
+use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\UserModel;
 
 class CharacterVO extends ValueObject {
 
     private UserModel $userModel;
+    private CharacterItemModel $characterItemModel;
     private SettingsVO $settings;
 
     public readonly int $userId;
@@ -142,6 +144,31 @@ class CharacterVO extends ValueObject {
         if($this->gold < $item->getPriceGold()) {
             return false;
         }
+        return true;
+    }
+
+    public function canMerge(MergeVO $merge): bool {
+
+        if($merge->itemId1) {
+            if($requiredItem1 = $this->characterItemModel->getByCharAndItemId($this, $merge->itemId1)) {
+                if($requiredItem1->count < $merge->amount1) {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        }
+
+        if($merge->itemId2) {
+            if($requiredItem2 = $this->characterItemModel->getByCharAndItemId($this, $merge->itemId2)) {
+                if($requiredItem2->count < $merge->amount2) {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        }
+
         return true;
     }
 

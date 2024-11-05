@@ -17,13 +17,16 @@ class CharacterItemModel extends Model {
     }
 
     public function addItemToChar(CharacterVO $char, ItemVO $item): CharacterItemVO {
-        $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id]);
-        if(isset($charItem[0]) && $charItem = $charItem[0]) {
-            if($charItem['count'] < $item->maxStackSize) {
-                $charItem['count']++;
-                $this->storage->update(self::COLLECTION, ['id' => $charItem['id']], $charItem);
-                return new CharacterItemVO($charItem);
+        if($item->maxStackSize > 1) {
+            $charItems = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id], null);
+            foreach($charItems as $charItem) {
+                if($charItem['count'] < $item->maxStackSize) {
+                    $charItem['count']++;
+                    $this->storage->update(self::COLLECTION, $charItem);
+                    return new CharacterItemVO($charItem);
+                }
             }
+            throw new DFException(DFException::CHARACTER_ITEM_MAX_STACK_SIZE);
         }
 
         $data = [];
@@ -34,6 +37,24 @@ class CharacterItemModel extends Model {
         return new CharacterItemVO($newData);
     }
 
+    public function removeItemFromChar(CharacterVO $char, ItemVO $item, int $amount): void {
+        $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id]);
+        if(!isset($charItem[0]) || !$charItem = $charItem[0]) {
+            throw new DFException(DFException::CHARACTER_ITEM_NOT_FOUND);
+        }
+
+        if($charItem['count'] < $amount) {
+            throw new DFException(DFException::ITEM_NOT_ENOUGH);
+        }
+
+        $charItem['count'] -= $amount;
+        if($charItem['count'] > 0) {
+            $this->storage->update(self::COLLECTION, $charItem);
+        } else {
+            $this->storage->delete(self::COLLECTION, ['id' => $charItem['id']]);
+        }
+    }
+
     public function getByCharAndId(CharacterVO $char, int $id): CharacterItemVO {
         $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'id' => $id]);
         if(isset($charItem[0]) && $charItem = $charItem[0]) {
@@ -42,7 +63,15 @@ class CharacterItemModel extends Model {
         throw new DFException(DFException::CHARACTER_ITEM_NOT_FOUND);
     }
 
-    public function destroy(CharacterItemVO $charItem) {
+    public function getByCharAndItemId(CharacterVO $char, int $itemId): CharacterItemVO {
+        $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $itemId]);
+        if(isset($charItem[0]) && $charItem = $charItem[0]) {
+            return new CharacterItemVO($charItem);
+        }
+        throw new DFException(DFException::CHARACTER_ITEM_NOT_FOUND);
+    }
+
+    public function destroy(CharacterItemVO $charItem): void {
         $this->storage->delete(self::COLLECTION, ['id' => $charItem->id]);
     }
 

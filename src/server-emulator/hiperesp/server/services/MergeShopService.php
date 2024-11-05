@@ -3,37 +3,52 @@ namespace hiperesp\server\services;
 
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\ItemModel;
 use hiperesp\server\models\MergeShopModel;
 use hiperesp\server\models\LogsModel;
-use hiperesp\server\models\UserModel;
+use hiperesp\server\models\MergeModel;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\MergeShopVO;
-use hiperesp\server\vo\SettingsVO;
+use hiperesp\server\vo\MergeVO;
 
 class MergeShopService extends Service {
 
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
     private CharacterItemModel $characterItemModel;
+    private MergeModel $mergeModel;
     private MergeShopModel $mergeShopModel;
-    private ItemModel $itemModel;
     private LogsModel $logsModel;
-
-    private SettingsVO $settings;
 
     public function getShop(int $shopId): MergeShopVO {
         return $this->mergeShopModel->getById($shopId);
     }
 
-    public function buy(CharacterVO $char, int $shopId, int $itemId): CharacterItemVO {
-        throw new \Exception('Not implemented');
+    public function getMerge(int $mergeId): MergeVO {
+        return $this->mergeModel->getById($mergeId);
     }
 
-    public function sell(CharacterVO $char, int $charItemId, int $quantity, int $returnPercent): void {
-        throw new \Exception('Not implemented');
+    /** @return array<CharacterItemVO> */
+    public function merge(CharacterVO $char, MergeVO $merge): array {
+        if(!$char->canMerge($merge)) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'mergeItem', 'Cannot merge item', $char, $merge, [])->asException(DFException::CANNOT_MERGE_ITEM);
+        }
+
+        $removedItem1 = null;
+        if($item1 = $merge->getItem1()) {
+            $removedItem1 = $this->characterItemModel->removeItemFromChar($char, $item1, $merge->amount1);
+        }
+
+        $removedItem2 = null;
+        if($item2 = $merge->getItem2()) {
+            $removedItem2 = $this->characterItemModel->removeItemFromChar($char, $item2, $merge->amount2);
+        }
+
+        $newCharItem = $this->characterItemModel->addItemToChar($char, $merge->getItem());
+
+        return [
+            'newCharItem'  => $newCharItem,
+            'removedItem1' => $removedItem1,
+            'removedItem2' => $removedItem2
+        ];
     }
 
 }

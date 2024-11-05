@@ -25,4 +25,22 @@ class MergeShopController extends Controller {
 
     }
 
+    #[Request(
+        endpoint: '/cf-itemmerge.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::NINJA2XML
+    )]
+    public function merge(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $merge = $this->mergeShopService->getMerge((int)$input->intMergeID);
+        $mergedItems = $this->mergeShopService->merge($char, $merge);
+
+        $newCharItem  = $mergedItems['newCharItem'];
+        $removedItem1 = $mergedItems['removedItem1'];
+        $removedItem2 = $mergedItems['removedItem2'];
+
+        return MergeShopProjection::instance()->merged($merge, $newCharItem, $removedItem1, $removedItem2);
+    }
+
 }

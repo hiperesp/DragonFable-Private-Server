@@ -178,10 +178,9 @@ final class CollectionSetup {
             ],
             "data" => "mergeShop/",
         ],
-        "mergeShop_item" => [
+        "merge" => [
             "structure" => [
                 "id"      => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
-                "mergeShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "mergeShop", "field" => "id" ] ],
                 "itemId1" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "amount1" => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "itemId2" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
@@ -192,7 +191,15 @@ final class CollectionSetup {
                 "value"   => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "level"   => [ 'INTEGER', 'DEFAULT' => 0 ],
             ],
-            "data" => "mergeShop_item/",
+            "data" => "merge/",
+        ],
+        "mergeShop_merge" => [
+            "structure" => [
+                "id"          => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
+                "mergeShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "mergeShop", "field" => "id" ] ],
+                "mergeId"     => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "merge", "field" => "id" ] ],
+            ],
+            "data" => "mergeShop_merge/",
         ],
         "quest" => [
             "structure" => [

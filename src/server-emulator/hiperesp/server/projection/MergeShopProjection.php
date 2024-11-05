@@ -2,12 +2,14 @@
 namespace hiperesp\server\projection;
 
 use hiperesp\server\models\ItemCategoryModel;
-use hiperesp\server\models\MergeShopItemModel;
+use hiperesp\server\models\MergeModel;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\MergeShopVO;
+use hiperesp\server\vo\MergeVO;
 
 class MergeShopProjection extends Projection {
 
-    private MergeShopItemModel $mergeShopItemModel;
+    private MergeModel $mergeModel;
     private ItemCategoryModel $itemCategoryModel;
 
     public function loaded(MergeShopVO $shop): \SimpleXMLElement {
@@ -17,27 +19,27 @@ class MergeShopProjection extends Projection {
         $shopEl->addAttribute('MSID', $shop->id);
         $shopEl->addAttribute('strCharacterName', $shop->name);
 
-        foreach($this->mergeShopItemModel->getByShop($shop) as $mergeShopItem) {
+        foreach($this->mergeModel->getByShop($shop) as $merge) {
             $itemEl = $shopEl->addChild('items');
 
-            $itemEl->addAttribute('ID', $mergeShopItem->id);
+            $itemEl->addAttribute('ID', $merge->id);
 
-            $item1 = $mergeShopItem->getItem1();
-            $itemEl->addAttribute('ItemID1', $item1->id);
-            $itemEl->addAttribute('Item1', $item1->name);
-            $itemEl->addAttribute('Qty1', $mergeShopItem->amount1);
+            $item1 = $merge->getItem1();
+            $itemEl->addAttribute('ItemID1', $item1?->id ?: '-1');
+            $itemEl->addAttribute('Item1', $item1?->name ?: '');
+            $itemEl->addAttribute('Qty1', $merge->amount1);
 
-            $item2 = $mergeShopItem->getItem2();
-            $itemEl->addAttribute('ItemID2', $item2->id);
-            $itemEl->addAttribute('Item2', $item2->name);
-            $itemEl->addAttribute('Qty2', $mergeShopItem->amount2);
+            $item2 = $merge->getItem2();
+            $itemEl->addAttribute('ItemID2', $item2?->id ?: '-1');
+            $itemEl->addAttribute('Item2', $item2?->name ?: '');
+            $itemEl->addAttribute('Qty2', $merge->amount2);
 
-            $itemEl->addAttribute('intString', $mergeShopItem->string);
-            $itemEl->addAttribute('intIndex', $mergeShopItem->index);
-            $itemEl->addAttribute('intValue', $mergeShopItem->value);
-            $itemEl->addAttribute('intReqdLevel', $mergeShopItem->level);
+            $itemEl->addAttribute('intString', $merge->string);
+            $itemEl->addAttribute('intIndex', $merge->index);
+            $itemEl->addAttribute('intValue', $merge->value);
+            $itemEl->addAttribute('intReqdLevel', $merge->level);
 
-            $item = $mergeShopItem->getItem();
+            $item = $merge->getItem();
             $itemEl->addAttribute('NewItemID', $item->id);
             $itemEl->addAttribute('strItemName', $item->name);
             $itemEl->addAttribute('strItemDescription', $item->description);
@@ -77,6 +79,70 @@ class MergeShopProjection extends Projection {
             $itemEl->addAttribute('strResists', $item->resists);
 
         }
+
+        return $xml;
+    }
+
+    public function merged(MergeVO $merge, CharacterItemVO $newCharItem, ?CharacterItemVO $removedCharItem1, ?CharacterItemVO $removedCharItem2): \SimpleXMLElement {
+
+        $xml = new \SimpleXMLElement('<ItemMerge/>');
+        $mergeEl = $xml->addChild('Merge');
+
+        $mergeEl->addAttribute('ItemID1', $removedCharItem1?->itemId ?: '-1');
+        $mergeEl->addAttribute('CharItemID1', $removedCharItem1?->id ?: '');
+        $mergeEl->addAttribute('Qty1', $merge->amount1);
+
+        $mergeEl->addAttribute('ItemID2', $removedCharItem2?->itemId ?: '-1');
+        $mergeEl->addAttribute('CharItemID2', $removedCharItem2?->id ?: '');
+        $mergeEl->addAttribute('Qty2', $merge->amount2);
+
+        $item = $newCharItem->getItem();
+        $newItemEl = $mergeEl->addChild('NewItem');
+        $newItemEl->addAttribute('ItemID', $item->id);
+        $newItemEl->addAttribute('strItemName', $item->name);
+        $newItemEl->addAttribute('strItemDescription', $item->description);
+
+        $newItemEl->addAttribute('bitVisible', $item->visible);
+        $newItemEl->addAttribute('bitDestroyable', $item->destroyable);
+        $newItemEl->addAttribute('bitSellable', $item->sellable);
+        $newItemEl->addAttribute('bitDragonAmulet', $item->dragonAmulet);
+        $newItemEl->addAttribute('intCurrency', $item->currency);
+        $newItemEl->addAttribute('intCost', $item->cost);
+        $newItemEl->addAttribute('intMaxStackSize', $item->maxStackSize);
+        $newItemEl->addAttribute('intBonus', $item->bonus);
+        $newItemEl->addAttribute('intRarity', $item->rarity);
+        $newItemEl->addAttribute('intLevel', $item->level);
+        $newItemEl->addAttribute('strType', $item->type);
+        $newItemEl->addAttribute('strElement', $item->element);
+
+        $category = $this->itemCategoryModel->getByItem($item);
+        $newItemEl->addAttribute('strCategory', $category->name);
+
+        $newItemEl->addAttribute('strEquipSpot', $item->equipSpot);
+        $newItemEl->addAttribute('strItemType', $item->itemType);
+        $newItemEl->addAttribute('strFileName', $item->swf);
+        $newItemEl->addAttribute('strIcon', $item->icon);
+        $newItemEl->addAttribute('intStr', $item->strength);
+        $newItemEl->addAttribute('intDex', $item->dexterity);
+        $newItemEl->addAttribute('intInt', $item->intelligence);
+        $newItemEl->addAttribute('intLuk', $item->luck);
+        $newItemEl->addAttribute('intCha', $item->charisma);
+        $newItemEl->addAttribute('intEnd', $item->endurance);
+        $newItemEl->addAttribute('intWis', $item->wisdom);
+        $newItemEl->addAttribute('intMin', $item->damageMin);
+        $newItemEl->addAttribute('intMax', $item->damageMax);
+        $newItemEl->addAttribute('intDefMelee', $item->defenseMelee);
+        $newItemEl->addAttribute('intDefPierce', $item->defensePierce);
+        $newItemEl->addAttribute('intDefMagic', $item->defenseMagic);
+        $newItemEl->addAttribute('intCrit', $item->critical);
+        $newItemEl->addAttribute('intParry', $item->parry);
+        $newItemEl->addAttribute('intDodge', $item->dodge);
+        $newItemEl->addAttribute('intBlock', $item->block);
+        $newItemEl->addAttribute('strResists', $item->resists);
+
+        $newItemEl->addAttribute('bitEquipped', $newCharItem->equipped);
+        $newItemEl->addAttribute('CharItemID', $newCharItem->id);
+        $newItemEl->addAttribute('intCount', $newCharItem->count);
 
         return $xml;
     }

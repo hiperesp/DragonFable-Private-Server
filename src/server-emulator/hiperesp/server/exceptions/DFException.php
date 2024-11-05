@@ -11,6 +11,7 @@ final class DFException extends \Exception {
     const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
     const RACE_NOT_FOUND = self::INVALID_REFERENCE;
     const ITEM_NOT_FOUND = self::INVALID_REFERENCE;
+    const MERGE_NOT_FOUND = self::INVALID_REFERENCE;
     const QUEST_NOT_FOUND = self::INVALID_REFERENCE;
     const HAIR_NOT_FOUND = self::INVALID_REFERENCE;
     const MONSTER_NOT_FOUND = self::INVALID_REFERENCE;
@@ -23,6 +24,7 @@ final class DFException extends \Exception {
     const CATEGORY_NOT_FOUND = self::INVALID_REFERENCE;
     const CURRENCY_NOT_FOUND = self::INVALID_REFERENCE;
     const CANNOT_BUY_ITEM = self::INVALID_REFERENCE;
+    const CANNOT_MERGE_ITEM = self::INVALID_REFERENCE;
     const CANNOT_BUY_HAIR = self::INVALID_REFERENCE;
     const CHARACTER_ITEM_NOT_FOUND = self::INVALID_REFERENCE;
     const ITEM_NOT_DESTROYABLE = self::INVALID_REFERENCE;
@@ -31,6 +33,7 @@ final class DFException extends \Exception {
     const GOLD_NOT_ENOUGH = self::INVALID_REFERENCE;
     const DRAGONCOINS_NOT_ENOUGH = self::INVALID_REFERENCE;
     const CANNOT_UNTRAIN_STATS = self::INVALID_REFERENCE;
+    const CHARACTER_ITEM_MAX_STACK_SIZE = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";
     const EMAIL_ALREADY_EXISTS = "000.50";
