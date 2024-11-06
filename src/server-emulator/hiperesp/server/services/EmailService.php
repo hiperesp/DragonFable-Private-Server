@@ -26,6 +26,55 @@ class EmailService extends Service {
     private function sendEmail(UserVO $user, string $template, array $params): bool {
         try {
             $credentials = (object)[
+                'url'   => 'https://send.api.mailtrap.io/api/send',
+                'token' => '',
+                'from'  => [
+                    "name" => "DragonFable",
+                    "email" => "welcome@dragonfable.hiper.esp.br"
+                ],
+            ];
+
+            $subject = $this->loadTemplate('subject.txt', $template, $params);
+            $messageText = $this->loadTemplate('template.txt', $template, $params);
+            $messageHtml = $this->loadTemplate('template.html', $template, $params);
+
+            $ch = \curl_init();
+            \curl_setopt_array($ch, [
+                CURLOPT_URL => $credentials->url,
+                CURLOPT_HTTPHEADER => [
+                    "Content-Type: application/json",
+                    "Authorization: Bearer {$credentials->token}",
+                ],
+                CURLOPT_POST => true,
+                CURLOPT_POSTFIELDS => \json_encode([
+                    "from" => $credentials->from,
+                    "to" => [[
+                        "name" => $user->username,
+                        "email" => $user->email,
+                    ]],
+                    "subject" => $subject,
+                    "text" => $messageText,
+                    "html" => $messageHtml,
+                    "category" => $template,
+                ]),
+                CURLOPT_RETURNTRANSFER => true,
+            ]);
+
+            $sentStatus = \curl_exec($ch);
+            if ($sentStatus === false) {
+                // echo \curl_errno($ch).' = '.\curl_error($ch).PHP_EOL;die;
+            }
+            \curl_close($ch);
+
+            return !!$sentStatus;
+        } catch (\Exception $e) {
+            return false;
+        }
+    }
+
+    private function sendEmailSMTP(UserVO $user, string $template, array $params): bool {
+        try {
+            $credentials = (object)[
                 'protocol'  => 'smtp',
                 'host'      => 'sandbox.smtp.mailtrap.io',
                 'port'      => 587,
@@ -58,8 +107,7 @@ class EmailService extends Service {
 
             $sentStatus = \curl_exec($ch);
             if ($sentStatus === false) {
-                // echo \curl_errno($ch).' = '.\curl_error($ch).PHP_EOL;
-                // die;
+                // echo \curl_errno($ch).' = '.\curl_error($ch).PHP_EOL;die;
             }
             \curl_close($ch);
             \fclose($emailFile);
