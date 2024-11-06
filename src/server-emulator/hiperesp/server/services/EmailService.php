@@ -29,7 +29,7 @@ class EmailService extends Service {
                 'url'   => 'https://send.api.mailtrap.io/api/send',
                 'token' => '',
                 'from'  => [
-                    "name" => "DragonFable",
+                    "name" => "DragonFable Private Server",
                     "email" => "welcome@dragonfable.hiper.esp.br"
                 ],
             ];
@@ -80,7 +80,7 @@ class EmailService extends Service {
                 'port'      => 587,
                 'username'  => '4bf70efe6be20c',
                 'password'  => '',
-                'from'      => "DragonFable <welcome@dragonfable.hiper.esp.br>"
+                'from'      => "DragonFable Private Server <welcome@dragonfable.hiper.esp.br>"
             ];
 
             $subject = $this->loadTemplate('subject.txt', $template, $params);
