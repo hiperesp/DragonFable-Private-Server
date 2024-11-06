@@ -13,6 +13,7 @@ use hiperesp\server\vo\UserVO;
 
 class UserService extends Service {
 
+    #[Inject] private EmailService $emailService;
     #[Inject] private UserModel $userModel;
     #[Inject] private CharacterModel $characterModel;
     #[Inject] private LogsModel $logsModel;
@@ -43,7 +44,9 @@ class UserService extends Service {
     }
 
     public function signup(string $username, string $password, string $email, string $birthdate): UserVO {
-        return $this->userModel->signup($username, $password, $email, $birthdate); // in case of error, a exception will be thrown
+        $user = $this->userModel->signup($username, $password, $email, $birthdate); // in case of error, a exception will be thrown
+        $this->emailService->sendWelcomeEmail($user);
+        return $user;
     }
 
     public function createChar(UserVO $user, array $input): CharacterVO {

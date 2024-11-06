@@ -113,6 +113,15 @@ class DevController extends Controller {
         </form>
     </fieldset>
     <fieldset>
+        <legend>Email</legend>
+        <form action="email/welcome">
+            <button>Welcome</button>
+        </form>
+        <form action="email/recover-password">
+            <button>Recover password</button>
+        </form>
+    </fieldset>
+    <fieldset>
         <legend>Tests</legend>
         {$testsHtml}
     </fieldset>
@@ -189,6 +198,36 @@ HTML;
             <button>Submit</button>
         </form>
         HTML;
+    }
+
+    #[Request(
+        endpoint: '/dev/email/welcome',
+        inputType: Input::NONE,
+        outputType: Output::REDIRECT
+    )]
+    public function email_welcome(): string {
+        $userModel = new \hiperesp\server\models\UserModel;
+        $user = $userModel->getById(1);
+
+        $emailService = new \hiperesp\server\services\EmailService;
+        $emailService->sendWelcomeEmail($user);
+
+        return "../";
+    }
+
+    #[Request(
+        endpoint: '/dev/email/recover-password',
+        inputType: Input::NONE,
+        outputType: Output::REDIRECT
+    )]
+    public function email_recoverPassword(): string {
+        $userModel = new \hiperesp\server\models\UserModel;
+        $user = $userModel->getById(1);
+
+        $emailService = new \hiperesp\server\services\EmailService;
+        $emailService->sendRecoverPassword($user);
+
+        return "../";
     }
 
 }

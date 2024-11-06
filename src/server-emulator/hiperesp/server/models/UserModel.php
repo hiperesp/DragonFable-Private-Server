@@ -9,6 +9,14 @@ class UserModel extends Model {
 
     public const COLLECTION = 'user';
 
+    public function getById(int $id): UserVO {
+        $user = $this->storage->select(self::COLLECTION, ['id' => $id]);
+        if(isset($user[0]) && $user = $user[0]) {
+            return new UserVO($user);
+        }
+        throw new DFException(DFException::USER_NOT_FOUND);
+    }
+
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
         if(isset($user[0]) && $user = $user[0]) {
