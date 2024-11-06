@@ -1,13 +1,14 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ItemModel;
 
 class CharacterItemVO extends ValueObject {
 
-    private ItemModel $itemModel;
-    private CharacterModel $characterModel;
+    #[Inject] private ItemModel $itemModel;
+    #[Inject] private CharacterModel $characterModel;
 
     public readonly int $charId;
 

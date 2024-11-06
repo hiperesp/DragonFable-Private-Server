@@ -1,9 +1,17 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\models\ArmorModel;
+use hiperesp\server\models\RaceModel;
+use hiperesp\server\models\WeaponModel;
+
 class MonsterVO extends ValueObject {
 
-    private SettingsVO $settings;
+    #[Inject] private ArmorModel $armorModel;
+    #[Inject] private WeaponModel $weaponModel;
+    #[Inject] private RaceModel $raceModel;
+    #[Inject] private SettingsVO $settings;
 
     public readonly string $name;
 
@@ -51,6 +59,18 @@ class MonsterVO extends ValueObject {
         $monster['gems'] = $monster['gems'] * $this->settings->gemsMultiplier;
 
         return $monster;
+    }
+
+    public function getArmor(): ItemVO {
+        return $this->armorModel->getByMonster($this);
+    }
+
+    public function getWeapon(): ItemVO {
+        return $this->weaponModel->getByMonster($this);
+    }
+
+    public function getRace(): RaceVO {
+        return $this->raceModel->getByMonster($this);
     }
 
 }

@@ -1,13 +1,14 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\vo\SettingsVO;
 
 class ApiService extends Service {
 
-    private SettingsVO $settings;
-    private CharacterModel $characterModel;
+    #[Inject] private SettingsVO $settings;
+    #[Inject] private CharacterModel $characterModel;
 
     public function getWebStats(): array {
         return [

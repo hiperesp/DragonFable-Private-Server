@@ -1,18 +1,9 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\ArmorModel;
-use hiperesp\server\models\MonsterModel;
-use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\WeaponModel;
 use hiperesp\server\vo\QuestVO;
 
 class QuestProjection extends Projection {
-
-    private MonsterModel $monsterModel;
-    private ArmorModel $armorModel;
-    private WeaponModel $weaponModel;
-    private RaceModel $raceModel;
 
     public function loaded(QuestVO $quest): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<quest/>');
@@ -37,7 +28,7 @@ class QuestProjection extends Projection {
         $questEl->addAttribute('strMonsterType', $quest->monsterType);
         $questEl->addAttribute('strMonsterGroupFileName', $quest->monsterGroupSwf);
 
-        foreach($this->monsterModel->getByQuest($quest) as $index => $monster) {
+        foreach($quest->getMonsters() as $index => $monster) {
             $monsterEl = $questEl->addChild('monsters');
 
             $monsterEl->addAttribute('MonsterID', $monster->id);
@@ -65,7 +56,7 @@ class QuestProjection extends Projection {
             $monsterEl->addAttribute('intEnd', $monster->endurance);
             $monsterEl->addAttribute('intWis', $monster->wisdom);
 
-            $armor = $this->armorModel->getById($monster->armorId);
+            $armor = $monster->getArmor();
             $monsterEl->addAttribute('strArmorName', $armor->name);
             $monsterEl->addAttribute('strArmorDescription', $armor->description);
             $monsterEl->addAttribute('strArmorDesignInfo', $armor->designInfo);
@@ -77,7 +68,7 @@ class QuestProjection extends Projection {
             $monsterEl->addAttribute('intDodge', $armor->dodge);
             $monsterEl->addAttribute('intBlock', $armor->block);
 
-            $weapon = $this->weaponModel->getById($monster->weaponId);
+            $weapon = $monster->getWeapon();
             $monsterEl->addAttribute('strWeaponName', $weapon->name);
             $monsterEl->addAttribute('strWeaponDescription', $weapon->description);
             $monsterEl->addAttribute('strWeaponDesignInfo', $weapon->designInfo);
@@ -92,7 +83,7 @@ class QuestProjection extends Projection {
             $monsterEl->addAttribute('strMovName', $monster->movName);
             $monsterEl->addAttribute('strMonsterFileName', $monster->swf);
 
-            $race = $this->raceModel->getById($monster->raceId);
+            $race = $monster->getRace();
             $monsterEl->addAttribute('RaceID', $monster->raceId);
             $monsterEl->addAttribute('strRaceName', $race->name);
             $monsterEl->addAttribute('strRaceResists', $race->resists);

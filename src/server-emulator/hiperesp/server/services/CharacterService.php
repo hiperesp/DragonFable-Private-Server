@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
@@ -17,15 +18,15 @@ use hiperesp\server\vo\SettingsVO;
 
 class CharacterService extends Service {
 
-    private ClassModel $classModel;
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private ItemModel $itemModel;
-    private CharacterItemModel $characterItemModel;
-    private QuestModel $questModel;
-    private LogsModel $logsModel;
-
-    private SettingsVO $settings;
+    #[Inject] private UserService $userService;
+    #[Inject] private ClassModel $classModel;
+    #[Inject] private UserModel $userModel;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private ItemModel $itemModel;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private QuestModel $questModel;
+    #[Inject] private LogsModel $logsModel;
+    #[Inject] private SettingsVO $settings;
 
     public function auth(\SimpleXMLElement|array|string $inputOrUserToken, int|string|null $charId = null): CharacterVO {
         if(\is_array($inputOrUserToken)) {
@@ -77,7 +78,7 @@ class CharacterService extends Service {
                     $actionLog = $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'trainStats', "Invalid gold cost for trainStats. Should be {$newGoldCost}.", $char, $char, [
                         'cost' => $goldCost
                     ]);
-                    $this->userModel->ban($char, 'Invalid gold cost for trainStats.', $actionLog);
+                    $this->userService->ban($char, 'Invalid gold cost for trainStats.', $actionLog);
                 }
             }
             $goldCost = $newGoldCost;
@@ -162,7 +163,7 @@ class CharacterService extends Service {
                         'newClassId' => $newClassId
                     ]);
                     if($this->settings->banInvalidClientValues) {
-                        $this->userModel->ban($char, 'Invalid class for loadClass.', $actionLog);
+                        $this->userService->ban($char, 'Invalid class for loadClass.', $actionLog);
                     }
                     throw $actionLog->asException(DFException::INVALID_REFERENCE);
                 }

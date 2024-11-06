@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
@@ -15,14 +16,13 @@ use hiperesp\server\vo\SettingsVO;
 
 class ItemShopService extends Service {
 
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private CharacterItemModel $characterItemModel;
-    private ItemShopModel $itemShopModel;
-    private ItemModel $itemModel;
-    private LogsModel $logsModel;
-
-    private SettingsVO $settings;
+    #[Inject] private UserService $userService;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private ItemShopModel $itemShopModel;
+    #[Inject] private ItemModel $itemModel;
+    #[Inject] private LogsModel $logsModel;
+    #[Inject] private SettingsVO $settings;
 
     public function getShop(int $shopId): ItemShopVO {
         return $this->itemShopModel->getById($shopId);
@@ -71,7 +71,7 @@ class ItemShopService extends Service {
                         'quantity' => $quantity,
                         'returnPercent' => $returnPercent
                     ]);
-                    $this->userModel->ban($char, 'Invalid returnPercent for sellItem.', $actionLog);
+                    $this->userService->ban($char, 'Invalid returnPercent for sellItem.', $actionLog);
                 }
             }
             $returnPercent = $newReturnPercent;

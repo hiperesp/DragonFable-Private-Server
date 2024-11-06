@@ -1,9 +1,15 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\models\ItemModel;
+use hiperesp\server\models\MonsterModel;
+
 class QuestVO extends ValueObject {
 
-    private SettingsVO $settings;
+    #[Inject] private MonsterModel $monsterModel;
+    #[Inject] private ItemModel $itemModel;
+    #[Inject] private SettingsVO $settings;
 
     public readonly string $name;
     public readonly string $description;
@@ -43,6 +49,16 @@ class QuestVO extends ValueObject {
 
     public function isDailyQuest(): bool {
         return $this->dailyIndex > 0;
+    }
+
+    /** @return array<ItemVO> */
+    public function getRewards(): array {
+        return $this->itemModel->getByQuest($this);
+    }
+
+    /** @return array<MonsterVO> */
+    public function getMonsters(): array {
+        return $this->monsterModel->getByQuest($this);
     }
 
 }

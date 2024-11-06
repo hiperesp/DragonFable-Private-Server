@@ -1,11 +1,15 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\enums\Currency;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\interfaces\Purchasable;
+use hiperesp\server\models\ItemCategoryModel;
 
 class ItemVO extends ValueObject implements Purchasable {
+
+    #[Inject] private ItemCategoryModel $itemCategoryModel;
 
     const CATEGORY_WEAPON = 1;
     const CATEGORY_ARMOR = 2;
@@ -80,6 +84,10 @@ class ItemVO extends ValueObject implements Purchasable {
 
     public function isItem(): bool {
         return $this->categoryId === self::CATEGORY_ITEM;
+    }
+
+    public function getCategory(): ItemCategoryVO {
+        return $this->itemCategoryModel->getByItem($this);
     }
 
 }

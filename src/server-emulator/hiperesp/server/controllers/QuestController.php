@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
@@ -11,8 +12,8 @@ use hiperesp\server\services\QuestService;
 
 class QuestController extends Controller {
 
-    private CharacterService $characterService;
-    private QuestService $questService;
+    #[Inject] private CharacterService $characterService;
+    #[Inject] private QuestService $questService;
 
     #[Request(
         endpoint: '/cf-questload.asp',

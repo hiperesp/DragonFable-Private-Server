@@ -1,9 +1,13 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\models\CharacterModel;
+
 class UserVO extends ValueObject {
 
-    private SettingsVO $settings;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private SettingsVO $settings;
 
     public readonly string $createdAt;
     public readonly string $updatedAt;
@@ -81,6 +85,10 @@ class UserVO extends ValueObject {
         $birthdate = \date('m-d', \strtotime($this->birthdate));
         $today = \date('m-d', \strtotime(\date('c')));
         return $birthdate === $today;
+    }
+
+    public function getChars(): array {
+        return $this->characterModel->getByUser($this);
     }
 
 }

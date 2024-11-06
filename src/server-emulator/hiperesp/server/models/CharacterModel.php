@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\models;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\vo\CharacterItemVO;
@@ -15,7 +16,7 @@ class CharacterModel extends Model {
 
     const COLLECTION = 'char';
 
-    private SettingsVO $settings;
+    #[Inject] private SettingsVO $settings;
 
     public function refresh(CharacterVO $char): CharacterVO {
         return $this->getById($char->id);

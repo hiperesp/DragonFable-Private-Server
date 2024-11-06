@@ -1,15 +1,24 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\models\CharacterItemModel;
+use hiperesp\server\models\ClassModel;
+use hiperesp\server\models\HairModel;
+use hiperesp\server\models\RaceModel;
+use hiperesp\server\models\TownModel;
 use hiperesp\server\models\UserModel;
 
 class CharacterVO extends ValueObject {
 
-    private UserModel $userModel;
-    private CharacterItemModel $characterItemModel;
-    private SettingsVO $settings;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private ClassModel $classModel;
+    #[Inject] private HairModel $hairModel;
+    #[Inject] private RaceModel $raceModel;
+    #[Inject] private TownModel $townModel;
+    #[Inject] private UserModel $userModel;
+    #[Inject] private SettingsVO $settings;
 
     public readonly int $userId;
 
@@ -183,6 +192,27 @@ class CharacterVO extends ValueObject {
 
     public function getUser(): UserVO {
         return $this->userModel->getByChar($this);
+    }
+
+    public function getRace(): RaceVO {
+        return $this->raceModel->getByChar($this);
+    }
+
+    public function getTown(): QuestVO {
+        return $this->townModel->getByChar($this);
+    }
+
+    public function getClass(): ClassVO {
+        return $this->classModel->getByChar($this);
+    }
+
+    public function getHair(): HairVO {
+        return $this->hairModel->getByChar($this);
+    }
+
+    /** @return array<CharacterItemVO> */
+    public function getBag(): array {
+        return $this->characterItemModel->getByChar($this);
     }
 
 }

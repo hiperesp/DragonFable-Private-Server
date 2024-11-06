@@ -1,15 +1,7 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\ArmorModel;
-use hiperesp\server\models\CharacterItemModel;
-use hiperesp\server\models\ClassModel;
-use hiperesp\server\models\HairModel;
-use hiperesp\server\models\ItemCategoryModel;
-use hiperesp\server\models\ItemModel;
-use hiperesp\server\models\QuestModel;
-use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\WeaponModel;
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\QuestVO;
@@ -17,16 +9,7 @@ use hiperesp\server\vo\SettingsVO;
 
 class CharacterProjection extends Projection {
 
-    private SettingsVO $settings;
-    private RaceModel $raceModel;
-    private QuestModel $questModel;
-    private ClassModel $classModel;
-    private ArmorModel $armorModel;
-    private WeaponModel $weaponModel;
-    private HairModel $hairModel;
-    private ItemModel $itemModel;
-    private ItemCategoryModel $itemCategoryModel;
-    private CharacterItemModel $characterItemModel;
+    #[Inject] private SettingsVO $settings;
 
     public function created(): array {
         return [
@@ -98,20 +81,20 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('GuildID', 1);
         $charEl->addAttribute('strGuildName', "None");
 
-        $race = $this->raceModel->getByChar($char);
+        $race = $char->getRace();
         $charEl->addAttribute('RaceID', $race->id);
         $charEl->addAttribute('strRaceName', $race->name);
 
-        $quest = $this->questModel->getByChar($char);
-        $charEl->addAttribute('QuestID', $quest->id);
-        $charEl->addAttribute('strQuestName', $quest->name);
-        $charEl->addAttribute('strQuestFileName', $quest->swf);
-        $charEl->addAttribute('strXQuestFileName', $quest->swfX);
-        $charEl->addAttribute('strExtra', $quest->extra);
+        $town = $char->getTown();
+        $charEl->addAttribute('QuestID', $town->id);
+        $charEl->addAttribute('strQuestName', $town->name);
+        $charEl->addAttribute('strQuestFileName', $town->swf);
+        $charEl->addAttribute('strXQuestFileName', $town->swfX);
+        $charEl->addAttribute('strExtra', $town->extra);
 
         $charEl->addAttribute('BaseClassID', $char->baseClassId);
 
-        $class = $this->classModel->getByChar($char);
+        $class = $char->getClass();
         $charEl->addAttribute('ClassID', $class->id);
         $charEl->addAttribute('strClassName', $class->name);
         $charEl->addAttribute('strClassFileName', $class->swf);
@@ -119,7 +102,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intSavable', $class->savable);
         $charEl->addAttribute('strEquippable', $class->equippable);
 
-        $armor = $this->armorModel->getByClass($class);
+        $armor = $class->getArmor();
         $charEl->addAttribute('strArmorName', $armor->name);
         $charEl->addAttribute('strArmorDescription', $armor->description);
         $charEl->addAttribute('strArmorResists', $armor->resists);
@@ -130,7 +113,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDodge', $armor->dodge);
         $charEl->addAttribute('intBlock', $armor->block);
 
-        $weapon = $this->weaponModel->getByClass($class);
+        $weapon = $class->getWeapon();
         $charEl->addAttribute('strWeaponName', $weapon->name);
         $charEl->addAttribute('strWeaponDescription', $weapon->description);
         $charEl->addAttribute('strWeaponDesignInfo', $weapon->designInfo);
@@ -144,7 +127,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDmgMax', $weapon->damageMax);
         $charEl->addAttribute('intBonus', $weapon->bonus);
 
-        $hair = $this->hairModel->getByChar($char);
+        $hair = $char->getHair();
         $charEl->addAttribute('strHairFileName', $hair->swf);
         $charEl->addAttribute('intHairFrame', 1);
 
@@ -152,7 +135,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDaily', $char->isDailyQuestAvailable() ? 1 : 0);
         $charEl->addAttribute('intDailyRoll', 1); // not used at game.swf
 
-        foreach($this->characterItemModel->getByChar($char) as $characterItem) {
+        foreach($char->getBag() as $characterItem) {
             $itemEl = $charEl->addChild('items');
 
             $itemEl->addAttribute('CharItemID', $characterItem->id);
@@ -160,8 +143,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('intCount', $characterItem->count);
             $itemEl->addAttribute('intHoursOwned', $characterItem->hoursOwned);
 
-            $item = $this->itemModel->getByCharItem($characterItem);
-
+            $item = $characterItem->getItem();
             $itemEl->addAttribute('ItemID', $item->id);
             $itemEl->addAttribute('strItemName', $item->name);
             $itemEl->addAttribute('strItemDescription', $item->description);
@@ -178,7 +160,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('strType', $item->type);
             $itemEl->addAttribute('strElement', $item->element);
 
-            $category = $this->itemCategoryModel->getByItem($item);
+            $category = $item->getCategory();
             $itemEl->addAttribute('intCategory', $category->id);
             $itemEl->addAttribute('strCategory', $category->name);
 
@@ -243,7 +225,7 @@ class CharacterProjection extends Projection {
         }
         $questRewardEl->addAttribute('intCoins', $coins);
 
-        foreach($this->itemModel->getByQuest($quest) as $item) {
+        foreach($quest->getRewards() as $item) {
             $itemEl = $questRewardEl->addChild('items');
 
             $itemEl->addAttribute('ItemID', $item->id);
@@ -262,7 +244,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('strType', $item->type);
             $itemEl->addAttribute('strElement', $item->element);
 
-            $category = $this->itemCategoryModel->getByItem($item);
+            $category = $item->getCategory();
             $itemEl->addAttribute('strCategory', $category->name);
 
             $itemEl->addAttribute('strEquipSpot', $item->equipSpot);
@@ -325,12 +307,12 @@ class CharacterProjection extends Projection {
 
         $user = $char->getUser();
 
-        $hair = $this->hairModel->getByChar($char);
-        $class = $this->classModel->getByChar($char);
-        $race = $this->raceModel->getByChar($char);
+        $hair = $char->getHair();
+        $class = $char->getClass();
+        $race = $char->getRace();
 
-        $armor = $this->armorModel->getByClass($class);
-        $weapon = $this->weaponModel->getByClass($class);
+        $armor = $class->getArmor();
+        $weapon = $class->getWeapon();
 
         return [
             "Name" => $char->name,

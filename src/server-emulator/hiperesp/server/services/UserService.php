@@ -1,16 +1,21 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\interfaces\Bannable;
 use hiperesp\server\models\CharacterModel;
+use hiperesp\server\models\LogsModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\vo\LogsVO;
 use hiperesp\server\vo\UserVO;
 
 class UserService extends Service {
 
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
+    #[Inject] private UserModel $userModel;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private LogsModel $logsModel;
 
     public function auth(\SimpleXMLElement|array|string $inputOrUserToken): UserVO {
         if(\is_array($inputOrUserToken)) {
@@ -43,6 +48,24 @@ class UserService extends Service {
 
     public function createChar(UserVO $user, array $input): CharacterVO {
         return $this->characterModel->create($user, $input); // in case of error, a exception will be thrown
+    }
+
+    public function ban(Bannable $bannable, string $reason, LogsVO $action, array $additionalData = []): void {
+        if($bannable instanceof CharacterVO) {
+            $user = $bannable->getUser();
+            $char = $bannable;
+        } else if($bannable instanceof UserVO) {
+            $user = $bannable;
+            $char = null;
+        } else {
+            throw new DFException(DFException::INVALID_REFERENCE);
+        }
+
+        $this->logsModel->register(LogsModel::SEVERITY_INFO, 'banUser', $reason, $char, $action, $additionalData);
+
+        $this->userModel->ban($user);
+
+        throw new DFException(DFException::USER_BANNED);
     }
 
 }

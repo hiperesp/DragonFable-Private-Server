@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
@@ -9,9 +10,9 @@ use hiperesp\server\vo\CharacterVO;
 
 class HeromartService extends Service {
 
-    private ClassModel $classModel;
-    private CharacterModel $characterModel;
-    private LogsModel $logsModel;
+    #[Inject] private ClassModel $classModel;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private LogsModel $logsModel;
 
     const AFFECT_CHANGE_GENDER  = 0;
     const AFFECT_CHANGE_NAME    = 1;

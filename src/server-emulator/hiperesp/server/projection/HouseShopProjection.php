@@ -1,12 +1,9 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\HouseModel;
 use hiperesp\server\vo\HouseShopVO;
 
 class HouseShopProjection extends Projection {
-
-    private HouseModel $houseModel;
 
     public function loaded(HouseShopVO $shop): \SimpleXMLElement {
 
@@ -15,7 +12,7 @@ class HouseShopProjection extends Projection {
         $shopEl->addAttribute('ShopID', $shop->id);
         $shopEl->addAttribute('strCharacterName', $shop->name);
 
-        foreach($this->houseModel->getByShop($shop) as $item) {
+        foreach($shop->getHouses() as $item) {
             $itemEl = $shopEl->addChild('sHouses');
 
             $itemEl->addAttribute('HouseID', $item->id);

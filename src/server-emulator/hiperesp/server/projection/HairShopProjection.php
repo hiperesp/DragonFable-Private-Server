@@ -1,13 +1,10 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\HairModel;
 use hiperesp\server\vo\HairShopVO;
 use hiperesp\server\vo\HairVO;
 
 class HairShopProjection extends Projection {
-
-    private HairModel $hairModel;
 
     public function loaded(HairShopVO $shop, string $gender): \SimpleXMLElement {
 
@@ -17,7 +14,7 @@ class HairShopProjection extends Projection {
         $shopEl->addAttribute('strHairShopName', $shop->name);
         $shopEl->addAttribute('strFileName', $shop->swf);
 
-        foreach($this->hairModel->getByShop($shop, $gender) as $hair) {
+        foreach($shop->getHairList($gender) as $hair) {
             $itemEl = $shopEl->addChild('hair');
 
             $itemEl->addAttribute('HairID', $hair->id);

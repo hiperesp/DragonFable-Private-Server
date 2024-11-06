@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\projection\CharacterProjection;
 use hiperesp\server\services\CharacterService;
-use hiperesp\server\services\QuestService;
 use hiperesp\server\services\UserService;
 
 class CharacterController extends Controller {
 
-    private UserService $userService;
-    private CharacterService $characterService;
+    #[Inject] private UserService $userService;
+    #[Inject] private CharacterService $characterService;
 
     #[Request(
         endpoint: '/cf-characterload.asp',

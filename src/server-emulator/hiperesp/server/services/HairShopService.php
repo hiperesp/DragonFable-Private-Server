@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\HairModel;
@@ -12,10 +13,10 @@ use hiperesp\server\vo\HairVO;
 
 class HairShopService extends Service {
 
-    private CharacterModel $characterModel;
-    private HairModel $hairModel;
-    private HairShopModel $hairShopModel;
-    private LogsModel $logsModel;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private HairModel $hairModel;
+    #[Inject] private HairShopModel $hairShopModel;
+    #[Inject] private LogsModel $logsModel;
 
     public function getShop(int $shopId): HairShopVO {
         return $this->hairShopModel->getById($shopId);

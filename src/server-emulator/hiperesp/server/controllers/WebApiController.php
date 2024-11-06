@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
@@ -9,7 +10,7 @@ use hiperesp\server\services\WebApiService;
 
 class WebApiController extends Controller {
 
-    private WebApiService $webApiService;
+    #[Inject] private WebApiService $webApiService;
 
     #[Request(
         endpoint: '/DFversion.asp',

@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
-use hiperesp\server\util\AutoInstantiate;
+use hiperesp\server\traits\InjectDependency;
 
 abstract class ValueObject {
+
+    use InjectDependency;
 
     public readonly int $id;
 
     final public function __construct(array $data) {
-        $autoInstantiate = new AutoInstantiate($this);
-        $autoInstantiate->models();
-        $autoInstantiate->settings();
+        $this->injectDependencies();
 
         $data = $this->patch($data);
         $this->applyData($data);

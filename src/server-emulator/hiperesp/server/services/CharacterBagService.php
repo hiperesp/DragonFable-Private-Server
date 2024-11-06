@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\LogsModel;
@@ -8,8 +9,8 @@ use hiperesp\server\vo\CharacterVO;
 
 class CharacterBagService extends Service {
 
-    private CharacterItemModel $characterItemModel;
-    private LogsModel $logsModel;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private LogsModel $logsModel;
 
     public function destroyItem(CharacterVO $char, int $itemId): void {
 

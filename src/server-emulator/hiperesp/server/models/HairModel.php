@@ -23,9 +23,7 @@ class HairModel extends Model {
         return $this->getById($char->hairId);
     }
 
-    /**
-     * @return array<HairVO>
-     */
+    /** @return array<HairVO> */
     public function getByShop(HairShopVO $shop, string $gender): array {
         $hairIds = \array_map(function(array $item): int {
             return (int)$item['hairId'];

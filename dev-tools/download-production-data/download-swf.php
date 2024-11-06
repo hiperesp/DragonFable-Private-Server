@@ -5,7 +5,6 @@ $maxFilemtime = 24 * 60 * 60; // 24 hours
 $maxFilemtime*= 5; // 5 days
 
 $toDownload = [
-    
     "interface" => [
         [ "field" => "swf", "basePath" => "", ],
     ],

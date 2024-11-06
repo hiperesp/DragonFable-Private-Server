@@ -15,18 +15,6 @@ cd TOOL_NAME/ # Enter in the tool dir (replace TOOL_NAME with the tool dir name,
 php TOOL_NAME.php # Run the tool (replace TOOL_NAME with the tool name, you can see the tools list below or use `ls` command)
 ```
 
-### extract-production-data (deprecated, will be removed soon. Use the `download-production-data` tool instead)
-
-Is a helper to extract the production data from the database, using only in the development.
-
-Tools:
-- `extract-production-data.php`: Extract the production data and store in `xml` files.
-- `convert-production-data-to-json.php`: Convert the `xml` files to `json` files, in order to be used by the server.
-- `remove-duplicated-mergeShops-items.php`: Remove the duplicated items from the `mergeShops` items. Some items can be duplicated in the `mergeShops` items, so this tool will remove the duplicated items.
-
-Other tools:
-- `extract-swf-from-extracted-production-data.php`: Extract the `swf` files from the `xml` files from `extract-production-data.php` tool and request it to the local cdn server at cache mode. (untested after some changes). If some `swf` file is not found, it will be stored in `current-swf-download-fails.txt` file.
-
 ### download-production-data
 
 Is a new helper to extract the production data from the database, using only in the development.
@@ -34,6 +22,7 @@ Is a new helper to extract the production data from the database, using only in 
 Tools:
 - `download.php`: Will download all known production data from the server and store in `xml` files, in format: `downloaded/{$type}/{$id}.xml`.
 - `convert.php`: Convert the `xml` files to `json` files, in order to be used by the server.
+- `download-swf.php`: Download all `swf` files from the server based on the converted `json` files. It will store in the `cdn` folder.
 
 ### extract-swf-strings
 

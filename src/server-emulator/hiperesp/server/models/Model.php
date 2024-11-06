@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\models;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\storage\Storage;
-use hiperesp\server\util\AutoInstantiate;
+use hiperesp\server\traits\InjectDependency;
 
 abstract class Model {
 
-    protected Storage $storage;
-    final public function __construct(Storage $storage) {
-        $this->storage = $storage;
+    #[Inject] protected Storage $storage;
 
-        $autoInstantiate = new AutoInstantiate($this);
-        $autoInstantiate->settings();
-        $autoInstantiate->logs();
+    use InjectDependency;
+
+    final public function __construct() {
+        $this->injectDependencies();
     }
 
 }

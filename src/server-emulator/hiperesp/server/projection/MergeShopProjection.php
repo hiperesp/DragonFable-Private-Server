@@ -1,16 +1,11 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\ItemCategoryModel;
-use hiperesp\server\models\MergeModel;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\MergeShopVO;
 use hiperesp\server\vo\MergeVO;
 
 class MergeShopProjection extends Projection {
-
-    private MergeModel $mergeModel;
-    private ItemCategoryModel $itemCategoryModel;
 
     public function loaded(MergeShopVO $shop): \SimpleXMLElement {
 
@@ -19,7 +14,7 @@ class MergeShopProjection extends Projection {
         $shopEl->addAttribute('MSID', $shop->id);
         $shopEl->addAttribute('strCharacterName', $shop->name);
 
-        foreach($this->mergeModel->getByShop($shop) as $merge) {
+        foreach($shop->getMerges() as $merge) {
             $itemEl = $shopEl->addChild('items');
 
             $itemEl->addAttribute('ID', $merge->id);
@@ -52,7 +47,7 @@ class MergeShopProjection extends Projection {
             $itemEl->addAttribute('intLevel', $item->level);
             $itemEl->addAttribute('strElement', $item->element);
 
-            $category = $this->itemCategoryModel->getByItem($item);
+            $category = $item->getCategory();
             $itemEl->addAttribute('strCategory', $category->name);
 
             $itemEl->addAttribute('strEquipSpot', $item->equipSpot);
@@ -115,7 +110,7 @@ class MergeShopProjection extends Projection {
         $newItemEl->addAttribute('strType', $item->type);
         $newItemEl->addAttribute('strElement', $item->element);
 
-        $category = $this->itemCategoryModel->getByItem($item);
+        $category = $item->getCategory();
         $newItemEl->addAttribute('strCategory', $category->name);
 
         $newItemEl->addAttribute('strEquipSpot', $item->equipSpot);

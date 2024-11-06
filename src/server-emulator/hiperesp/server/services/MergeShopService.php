@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\MergeShopModel;
@@ -13,10 +14,10 @@ use hiperesp\server\vo\MergeVO;
 
 class MergeShopService extends Service {
 
-    private CharacterItemModel $characterItemModel;
-    private MergeModel $mergeModel;
-    private MergeShopModel $mergeShopModel;
-    private LogsModel $logsModel;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private MergeModel $mergeModel;
+    #[Inject] private MergeShopModel $mergeShopModel;
+    #[Inject] private LogsModel $logsModel;
 
     public function getShop(int $shopId): MergeShopVO {
         return $this->mergeShopModel->getById($shopId);

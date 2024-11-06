@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
@@ -10,8 +11,8 @@ use hiperesp\server\services\CharacterService;
 
 class CharacterItemController extends Controller {
 
-    private CharacterService $characterService;
-    private CharacterBagService $characterBagService;
+    #[Inject] private CharacterService $characterService;
+    #[Inject] private CharacterBagService $characterBagService;
 
     #[Request(
         endpoint: '/cf-itemdestroy.asp',

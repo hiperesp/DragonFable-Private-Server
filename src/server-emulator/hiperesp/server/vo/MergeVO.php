@@ -1,11 +1,12 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\ItemModel;
 
 class MergeVO extends ValueObject {
 
-    private ItemModel $itemModel;
+    #[Inject] private ItemModel $itemModel;
 
     public readonly int $itemId1;
     public readonly int $amount1;

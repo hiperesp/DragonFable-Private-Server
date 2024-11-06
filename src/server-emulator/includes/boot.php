@@ -4,10 +4,7 @@ try {
         throw new \Exception("Invalid request method");
     }
 
-    $controller = new \ReflectionClass(\hiperesp\server\controllers\Controller::class);
-    $method = $controller->getMethod("entry");
-    $method->setAccessible(true);
-    $method->invoke(null, $_SERVER["PATH_INFO"]);
+    \hiperesp\server\controllers\Controller::___bootServer($_SERVER["PATH_INFO"]);
 } catch(\Exception $e) {
     \http_response_code(500);
     echo $e->getMessage();
