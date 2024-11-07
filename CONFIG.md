@@ -9,6 +9,8 @@ Access your database and open your `settings` table. This is what each column me
 
 - `id`: The `id` parameter is used to identify the settings. You can have multiple settings, each with a different `id`. The default `id` is `1`. To specify what settings to use, you can change the `DF_SETTINGS_ID` environment variable. It can be pretty cool if you use a production server and a staging server, for example. The staging server can have a different `id` and you can test some features with the same production data.
 
+- `serverName`: This is your server name.
+
 - `gameSwf`: The `gameSwf` parameter is used to specify the game file to load. The default is `game15_9_14-patched.swf`. You can change it to any other game file you want to use, if you use a custom patched version, for example or you can use a specific other version.
 
 - `serverVersion`: The `serverVersion` parameter is used to specify the game build version string. It is not used, you can use it to specify any string you want.
@@ -46,7 +48,13 @@ Access your database and open your `settings` table. This is what each column me
 
 - `experienceMultiplier`, `gemsMultiplier`, `goldMultiplier`, `silverMultiplier`: These parameters are used to specify the experience, gems, gold, and silver multipliers. You can change the values as you want. I never have seen the gems and silver currencies in the game, but they are in the database.
 
-- `onlineTimeout`: The `onlineTimeout` parameter is used to specify the online timeout to count in website. The default is `10` minutes.
+- `onlineThreshold`: The `onlineThreshold` parameter is used to specify the online timeout to count in website. The default is `10` minutes.
 
 - `detailed404ClientError`: The `detailed404ClientError` parameter is used to specify if the server should return a detailed 404 client error. If you want to return a detailed 404 client error, set it to `true`, otherwise set it to `false`. It can be useful to debug, but it can expose some information to the client and can confuse the user.
+
+- `sendEmails`: This parameter is used to specify if the server should send emails. If you want to send emails, set it to `true`, otherwise set it to `false`.
+
+- `emailApiUrl`, `emailApiToken`: These parameters are used to specify the email API URL and token. This is designed to work with the `mailtrap.io` service.
+
+- `emailAddress`: This parameter is used to specify the email address that will be used to send emails.
 

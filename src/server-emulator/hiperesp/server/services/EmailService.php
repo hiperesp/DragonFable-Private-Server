@@ -1,166 +1,81 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
 
 class EmailService extends Service {
 
+    #[Inject] private SettingsVO $settings;
+
     public function sendWelcomeEmail(UserVO $user): bool {
-        return $this->sendEmail(user: $user, template: 'welcome', params: [
+        return $this->sendEmail(isCritical: false, user: $user, template: 'welcome', params: [
+            'servername' => $this->settings->serverName,
             'username' => $user->username,
         ]);
     }
 
-    public function sendRecoverPassword(UserVO $user): bool {
-        return $this->sendEmail(user: $user, template: 'recover-password', params: [
-            'email' => $user->email,
-            'code1' => \random_int(0, 9),
-            'code2' => \random_int(0, 9),
-            'code3' => \random_int(0, 9),
-            'code4' => \random_int(0, 9),
-            'code5' => \random_int(0, 9),
-            'code6' => \random_int(0, 9),
+    public function sendRecoverPassword(UserVO $user, string $code): true {
+        return $this->sendEmail(isCritical: true, user: $user, template: 'recover-password', params: [
+            'servername' => $this->settings->serverName,
+            'username' => $user->username,
+            'code0' => $code[0],
+            'code1' => $code[1],
+            'code2' => $code[2],
+            'code3' => $code[3],
+            'code4' => $code[4],
+            'code5' => $code[5],
         ]);
     }
 
-    private function sendEmail(UserVO $user, string $template, array $params): bool {
-        try {
-            $credentials = (object)[
-                'url'   => 'https://send.api.mailtrap.io/api/send',
-                'token' => '',
-                'from'  => [
-                    "name" => "DragonFable Private Server",
-                    "email" => "welcome@dragonfable.hiper.esp.br"
-                ],
-            ];
+    private function sendEmail(bool $isCritical, UserVO $user, string $template, array $params): bool {
+        $credentials = (object)[
+            'url'   => $this->settings->emailApiUrl,
+            'token' => $this->settings->emailApiToken,
+            'from'  => [
+                "name" => $this->settings->serverName,
+                "email" => $this->settings->emailAddress,
+            ],
+        ];
 
-            $subject = $this->loadTemplate('subject.txt', $template, $params);
-            $messageText = $this->loadTemplate('template.txt', $template, $params);
-            $messageHtml = $this->loadTemplate('template.html', $template, $params);
+        $subject     = $this->loadTemplate('subject.txt',   $template, $params);
+        $messageText = $this->loadTemplate('template.txt',  $template, $params);
+        $messageHtml = $this->loadTemplate('template.html', $template, $params);
 
-            $ch = \curl_init();
-            \curl_setopt_array($ch, [
-                CURLOPT_URL => $credentials->url,
-                CURLOPT_HTTPHEADER => [
-                    "Content-Type: application/json",
-                    "Authorization: Bearer {$credentials->token}",
-                ],
-                CURLOPT_POST => true,
-                CURLOPT_POSTFIELDS => \json_encode([
-                    "from" => $credentials->from,
-                    "to" => [[
-                        "name" => $user->username,
-                        "email" => $user->email,
-                    ]],
-                    "subject" => $subject,
-                    "text" => $messageText,
-                    "html" => $messageHtml,
-                    "category" => $template,
-                ]),
-                CURLOPT_RETURNTRANSFER => true,
-            ]);
+        $ch = \curl_init();
+        \curl_setopt_array($ch, [
+            CURLOPT_URL => $credentials->url,
+            CURLOPT_HTTPHEADER => [
+                "Content-Type: application/json",
+                "Authorization: Bearer {$credentials->token}",
+            ],
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => \json_encode([
+                "from" => $credentials->from,
+                "to" => [[
+                    "name" => $user->username,
+                    "email" => $user->email,
+                ]],
+                "subject" => $subject,
+                "text" => $messageText,
+                "html" => $messageHtml,
+                "category" => $template,
+            ]),
+            CURLOPT_RETURNTRANSFER => true,
+        ]);
 
-            $sentStatus = \curl_exec($ch);
-            if ($sentStatus === false) {
-                // echo \curl_errno($ch).' = '.\curl_error($ch).PHP_EOL;die;
+        $sentStatus = \curl_exec($ch);
+        if ($sentStatus === false) {
+            if($isCritical) {
+                $exception = "Error sending email: [".\curl_errno($ch)."] ".\curl_error($ch);
+                \curl_close($ch);
+                throw new \Exception($exception);
             }
-            \curl_close($ch);
-
-            return !!$sentStatus;
-        } catch (\Exception $e) {
-            return false;
         }
-    }
+        \curl_close($ch);
 
-    private function sendEmailSMTP(UserVO $user, string $template, array $params): bool {
-        try {
-            $credentials = (object)[
-                'protocol'  => 'smtp',
-                'host'      => 'sandbox.smtp.mailtrap.io',
-                'port'      => 587,
-                'username'  => '4bf70efe6be20c',
-                'password'  => '',
-                'from'      => "DragonFable Private Server <welcome@dragonfable.hiper.esp.br>"
-            ];
-
-            $subject = $this->loadTemplate('subject.txt', $template, $params);
-            $messageText = $this->loadTemplate('template.txt', $template, $params);
-            $messageHtml = $this->loadTemplate('template.html', $template, $params);
-
-            $to = \filter_var($user->email, FILTER_SANITIZE_EMAIL);
-            $to = \filter_var("{$user->username}", FILTER_SANITIZE_FULL_SPECIAL_CHARS)." <{$to}>";
-
-            $emailFile = $this->createEmailFile($credentials->from, $to, $subject, $messageText, $messageHtml);
-
-            $ch = \curl_init();
-            \curl_setopt_array($ch, [
-                CURLOPT_URL => "{$credentials->protocol}://{$credentials->host}:{$credentials->port}",
-                CURLOPT_MAIL_FROM => $credentials->from,
-                CURLOPT_MAIL_RCPT => [$to],
-                CURLOPT_USERNAME => $credentials->username,
-                CURLOPT_PASSWORD => $credentials->password,
-                CURLOPT_INFILE => $emailFile,
-                CURLOPT_UPLOAD => true,
-                CURLOPT_VERBOSE => true,
-                CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2, // Specify the SSL version
-            ]);
-
-            $sentStatus = \curl_exec($ch);
-            if ($sentStatus === false) {
-                // echo \curl_errno($ch).' = '.\curl_error($ch).PHP_EOL;die;
-            }
-            \curl_close($ch);
-            \fclose($emailFile);
-
-            return $sentStatus;
-        } catch (\Exception $e) {
-            return false;
-        }
-    }
-
-    private function createEmailFile(string $from, string $to, string $subject, string $messageText, $messageHtml) {
-        $boundary = $this->generateBoundary($messageText, $messageHtml);
-
-        if(!$messageText && !$messageHtml) {
-            throw new \InvalidArgumentException("No message content provided");
-        }
-
-        $emailFile = \tmpfile();
-        \fwrite($emailFile, "From: \"{$from}\"\r\n");
-        \fwrite($emailFile, "To: \"{$to}\"\r\n");
-        \fwrite($emailFile, "Subject: {$subject}\r\n");
-        \fwrite($emailFile, "MIME-Version: 1.0\r\n");
-        \fwrite($emailFile, "Content-Type: multipart/alternative; boundary=\"{$boundary}\"\r\n");
-        \fwrite($emailFile, "\r\n");
-        if($messageText) {
-            \fwrite($emailFile, "--{$boundary}\r\n");
-            \fwrite($emailFile, "Content-Type: text/plain; charset=\"utf-8\"\r\n");
-            \fwrite($emailFile, "Content-Transfer-Encoding: quoted-printable\r\n");
-            \fwrite($emailFile, "Content-Disposition: inline\r\n");
-            \fwrite($emailFile, "\r\n");
-            \fwrite($emailFile, \quoted_printable_encode($messageText));
-            \fwrite($emailFile, "\r\n");
-        }
-        if($messageHtml) {
-            \fwrite($emailFile, "--{$boundary}\r\n");
-            \fwrite($emailFile, "Content-Type: text/html; charset=\"utf-8\"\r\n");
-            \fwrite($emailFile, "Content-Transfer-Encoding: quoted-printable\r\n");
-            \fwrite($emailFile, "Content-Disposition: inline\r\n");
-            \fwrite($emailFile, "\r\n");
-            \fwrite($emailFile, \quoted_printable_encode($messageHtml));
-            \fwrite($emailFile, "\r\n");
-        }
-        \fwrite($emailFile, "--{$boundary}--\r\n");
-        \rewind($emailFile);
-
-        return $emailFile;
-    }
-
-    private function generateBoundary(string ...$content): string {
-        do {
-            $boundary = \bin2hex(\random_bytes(16));
-        } while(\str_contains(\implode('', $content), $boundary));
-        return $boundary;
+        return !!$sentStatus;
     }
 
     private function loadTemplate(string $type, string $template, array $params): string {

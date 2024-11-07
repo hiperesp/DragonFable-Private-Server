@@ -231,7 +231,7 @@ class CharacterModel extends Model {
     }
 
     public function getOnlineCount(): int {
-        $minutesToConsiderOnline = $this->settings->onlineTimeout;
+        $minutesToConsiderOnline = $this->settings->onlineThreshold;
         $times = [];
         for($i = 0; $i < $minutesToConsiderOnline; $i++) {
             $times[] = \date('Y-m-d H:i:00', \strtotime("-{$i} minutes"));

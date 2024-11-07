@@ -4,9 +4,6 @@ namespace hiperesp\server\vo;
 use hiperesp\server\interfaces\Purchasable;
 
 class HairVO extends ValueObject implements Purchasable {
-    const GENDER_MALE = 'M';
-    const GENDER_FEMALE = 'F';
-    const GENDER_BOTH = 'B';
 
     public readonly string $name;
     public readonly string $swf;

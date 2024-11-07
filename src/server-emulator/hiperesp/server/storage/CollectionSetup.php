@@ -10,6 +10,8 @@ final class CollectionSetup {
                 "createdAt"             => [ 'DATETIME', 'CREATED_DATETIME' ],
                 "updatedAt"             => [ 'DATETIME', 'UPDATED_DATETIME' ],
 
+                "serverName"            => [ 'STRING' => 255, "DEFAULT" => "DragonFable Private Server" ],
+
                 "gameSwf"               => [ 'STRING' => 255 ],
                 "serverVersion"         => [ 'STRING' => 255 ],
                 "serverLocation"        => [ 'STRING' => 255 ],
@@ -48,13 +50,20 @@ final class CollectionSetup {
                 "goldMultiplier"        => [ 'FLOAT', 'DEFAULT' => 1 ],
                 "silverMultiplier"      => [ 'FLOAT', 'DEFAULT' => 1 ],
 
-                "onlineTimeout"         => [ 'INTEGER', 'DEFAULT' => 10 ],
+                "onlineThreshold"       => [ 'INTEGER', 'DEFAULT' => 10 ],
 
                 "detailed404ClientError"=> [ "BIT", 'DEFAULT' => 1 ],
+
+                "sendEmails"            => [ "BIT", 'DEFAULT' => 1 ],
+                "emailApiUrl"           => [ "STRING" => 255 ],
+                "emailApiToken"         => [ "STRING" => 255 ],
+                "emailAddress"          => [ "STRING" => 255 ],
             ],
             "data" => [// See README.md (help > settings).
                 [
                     "id"                    => 1,
+
+                    "serverName"            => "DragonFable Private Server",
 
                     "gameSwf"               => "game15_9_14-patched.swf",
                     "serverVersion"         => "Build 15.9.14 alpha", // appears in the game client version, only display
@@ -87,7 +96,12 @@ final class CollectionSetup {
                     "goldMultiplier"        => 10,
                     "silverMultiplier"      => 10,
 
-                    "onlineTimeout"         => 10, // minutes. It affects only the online status of the player
+                    "onlineThreshold"       => 10, // minutes. It affects only the online status of the player
+
+                    "sendEmails"            => 0,
+                    "emailApiUrl"           => "https://send.api.mailtrap.io/api/send",
+                    "emailApiToken"         => "280061d0e211c57de35f897d8bf0ad6c",
+                    "emailAddress"          => "yourserver@yourdomain.com",
                 ]
             ],
         ],

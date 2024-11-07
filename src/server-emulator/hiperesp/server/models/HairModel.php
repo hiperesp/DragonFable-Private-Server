@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\models;
 
+use hiperesp\server\enums\Gender;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\HairVO;
 use hiperesp\server\vo\CharacterVO;
@@ -31,7 +32,7 @@ class HairModel extends Model {
 
         return \array_map(function(array $item): HairVO {
             return new HairVO($item);
-        }, $this->storage->select(self::COLLECTION, ['id' => $hairIds, 'gender' => [ HairVO::GENDER_BOTH, $gender ]], null));
+        }, $this->storage->select(self::COLLECTION, ['id' => $hairIds, 'gender' => [ Gender::BOTH, $gender ]], null));
     }
 
 }

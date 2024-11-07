@@ -225,7 +225,7 @@ HTML;
         $user = $userModel->getById(1);
 
         $emailService = new \hiperesp\server\services\EmailService;
-        $emailService->sendRecoverPassword($user);
+        $emailService->sendRecoverPassword($user, (string)\rand(100000, 999999));
 
         return "../";
     }
