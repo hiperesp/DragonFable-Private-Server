@@ -156,8 +156,6 @@ class CharacterModel extends Model {
             $level++;
         }
 
-        $this->applyLevelUpBonuses($char, $level);
-
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'experience' => $experience,
@@ -195,25 +193,6 @@ class CharacterModel extends Model {
             'strength' => 0,
             'gold' => $char->gold - $goldCost,
         ]);
-    }
-
-    private function applyLevelUpBonuses(CharacterVO $char, int $newLevel): void {
-        $bonusesPerLevel = [
-            'hitPoints' => 20,
-            'manaPoints' => 5,
-        ];
-
-        $fullBonuses = [
-            'hitPoints'  => $char->hitPoints,
-            'manaPoints' => $char->manaPoints,
-        ];
-        for($i = $char->level + 1; $i <= $newLevel; $i++) {
-            foreach($bonusesPerLevel as $key => $value) {
-                $fullBonuses[$key] += $value;
-            }
-        }
-
-        $this->storage->update(self::COLLECTION, \array_merge([ 'id' => $char->id, ], $fullBonuses));
     }
 
     private function updateLastTimeSeen(CharacterVO $char): void {

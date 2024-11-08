@@ -30,9 +30,6 @@ class CharacterVO extends ValueObject {
     public readonly int $level;
     public readonly int $experience;
 
-    public readonly int $hitPoints;
-    public readonly int $manaPoints;
-
     public readonly int $silver;
     public readonly int $gold;
     public readonly int $gems;
@@ -95,6 +92,17 @@ class CharacterVO extends ValueObject {
                 $expToLevel = $this->experience + 1;
             }
             return $expToLevel;
+        }
+    }
+
+    public int $hitPoints {
+        get {
+            return ($this->level - 1) * 20 + 100;
+        }
+    }
+    public int $manaPoints {
+        get {
+            return ($this->level - 1) * 5 + 100;
         }
     }
 

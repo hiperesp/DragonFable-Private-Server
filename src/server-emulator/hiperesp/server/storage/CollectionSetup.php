@@ -335,9 +335,6 @@ final class CollectionSetup {
                 "level"             => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "experience"        => [ 'INTEGER', 'DEFAULT' => 0 ],
 
-                "hitPoints"         => [ 'INTEGER', 'DEFAULT' => 100 ],
-                "manaPoints"        => [ 'INTEGER', 'DEFAULT' => 100 ],
-
                 "silver"            => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "gold"              => [ 'INTEGER', 'DEFAULT' => 1000 ],
                 "gems"              => [ 'INTEGER', 'DEFAULT' => 0 ],
@@ -406,9 +403,6 @@ final class CollectionSetup {
 
                 "level"         => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "experience"    => [ 'INTEGER', 'DEFAULT' => 0 ],
-
-                "hitPoints"     => [ 'INTEGER', 'DEFAULT' => 100 ],
-                "manaPoints"    => [ 'INTEGER', 'DEFAULT' => 100 ],
 
                 "silver"        => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "gold"          => [ 'INTEGER', 'DEFAULT' => 1000 ],
