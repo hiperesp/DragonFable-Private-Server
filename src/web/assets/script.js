@@ -6,24 +6,6 @@ window.RufflePlayer.config = {
     muted: true
 };
 
-/** FULLSCREEN */
-(function() {
-    const element = document.querySelector("#game-container-fullscreen");
-    if(!element) return;
-    const button = document.querySelector("#btn-toggle-fullscreen");
-    if(!button) return;
-
-    button.addEventListener("click", function() {
-        if (document.fullscreenElement) {
-            document.exitFullscreen();
-            button.innerHTML = "Enter<br>Fullscreen";
-        } else {
-            element.requestFullscreen();
-            button.innerHTML = "Exit<br>Fullscreen";
-        }
-    });
-})();
-
 /**  SERVER STATUS */
 (function() {
     function checkServerInfo() {
