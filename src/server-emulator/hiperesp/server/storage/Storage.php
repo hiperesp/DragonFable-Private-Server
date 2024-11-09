@@ -35,7 +35,7 @@ abstract class Storage {
             if(\in_array('UPDATED_DATETIME', $definitions)) {
                 $document[$key] = \date('c');
             }
-            if(isset($document[$key])) {
+            if(\array_key_exists($key, $document)) {
                 if(\in_array('DATETIME', $definitions)) {
                     $document[$key] = \date($this->dateTimeFormat, \strtotime($document[$key]));
                 }
@@ -50,7 +50,7 @@ abstract class Storage {
         $where = [];
         foreach(CollectionSetup::getStructure($collection) as $key => $definitions) {
             if(\in_array('PRIMARY_KEY', $definitions)) {
-                if(isset($document[$key])) {
+                if(\array_key_exists($key, $document)) {
                     $where[$key] = $document[$key];
                     break;
                 }
@@ -73,7 +73,7 @@ abstract class Storage {
             if(\in_array('UPDATED_DATETIME', $definitions)) {
                 $document[$key] = \date('c');
             }
-            if(isset($document[$key])) {
+            if(\array_key_exists($key, $document)) {
                 if(\in_array('PRIMARY_KEY', $definitions)) {
                     $where[$key] = $document[$key];
                     continue;

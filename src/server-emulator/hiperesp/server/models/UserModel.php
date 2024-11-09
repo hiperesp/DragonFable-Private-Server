@@ -110,7 +110,7 @@ class UserModel extends Model {
     }
 
     public function changePassword(UserVO $user, string $password): void {
-        $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'password' => \password_hash($password, \PASSWORD_DEFAULT), 'recoveryCode' => '', 'recoveryExpires' => null ]);
+        $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'password' => \password_hash($password, \PASSWORD_DEFAULT), 'recoveryCode' => null, 'recoveryExpires' => null ]);
     }
 
 }
