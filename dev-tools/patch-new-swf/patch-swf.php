@@ -57,6 +57,8 @@ $replaces = [
        var _loc1_ = 0;
        while(_loc1_ < _loc2_.length)
     ACTIONSCRIPT,
+
+    # ADD ACTION WHEN CLICKING ON ACTIVATION BUTTON (IF USER IS NOT ACTIVATED)
     <<<'ACTIONSCRIPT'
     if(_root.user.intActivationFlag != 1)
     {
@@ -87,6 +89,8 @@ $replaces = [
     };
     stop();
     ACTIONSCRIPT,
+
+    # HIDE ERROR CODE IF EMPTY
     <<<'ACTIONSCRIPT'
     _root.conn.showConnError = function(strCode, strReason, strMessage, strAction)
     {
@@ -120,6 +124,20 @@ $replaces = [
        _root.game.mcConn.strReason = strReason;
        _root.game.mcConn.strMsg = strMessage;
     };
+    ACTIONSCRIPT,
+
+    # HIDE FIRST "SPECIAL CHARACTER SLOT" BUTTON IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ASH"
+    <<<'ACTIONSCRIPT'
+    _root.game.btnChar6.gotoAndPlay("New");
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.game.btnChar6.gotoAndStop("Blank");
+    ACTIONSCRIPT,
+
+    # HIDE SECOND "SPECIAL CHARACTER SLOT" BUTTON IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ALEX"
+    <<<'ACTIONSCRIPT'
+    _root.game.btnChar7.gotoAndPlay("New");
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.game.btnChar7.gotoAndStop("Blank");
     ACTIONSCRIPT,
 ];
 
