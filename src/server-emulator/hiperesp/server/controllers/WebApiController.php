@@ -31,4 +31,32 @@ class WebApiController extends Controller {
         return CharacterProjection::instance()->characterPage($char);
     }
 
+    #[Request(
+        endpoint: '/custom/activate-account',
+        inputType: Input::FORM,
+        outputType: Output::FORM
+    )]
+    public function activateAccount(array $input): array {
+        return [
+            "title" => "Not Implemented!",
+            "description" => "If you want to activate your account, please contact support for assistance.",
+            "gameAction" => "continue"
+        ];
+
+        $isActivated = false;
+
+        if(!$isActivated) {
+            return [
+                "title" => "Activation Email Sent",
+                "description" => "An email has been sent to you with further instructions. Please check your inbox and follow the steps to complete the activation. If you already activated your account, please click the \"Activate\" button again.",
+                "gameAction" => "continue"
+            ];
+        }
+        return [
+            "title" => "Activation Complete!",
+            "description" => "Your account has been successfully activated. You may now log in again and continue playing.",
+            "gameAction" => "none"
+        ];
+    }
+
 }
