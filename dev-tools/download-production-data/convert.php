@@ -213,7 +213,13 @@ $xsd = [
                             ]
                         ]
                     ]
-                ]
+                ],
+                "bank" => [
+                    "jsonKey" => "bank",
+                    "type" => "multiple",
+                    "ignoreParams" => [ "intBankCount" ],
+                    "config" => [],
+                ],
             ]
         ],
     ],
@@ -566,8 +572,8 @@ convertAll([
     "shop",
     "hairShopF",
     "hairShopM",
-    "houseShop",
-    "houseItemShop",
+    // "houseShop",
+    // "houseItemShop",
 ]);
 
 function convertAll(array $folders) {
