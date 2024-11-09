@@ -293,3 +293,44 @@ footer {
     max-width: 750px;
     max-height: 550px;
 }
+
+.form-container .input-text {
+    font-size: 1.1em;
+    width: 400px;
+    padding: 10px 0;
+    text-indent: 15px;
+}
+.form-container .button {
+    padding: 10px 15px;
+    font-size: 1em;
+    appearance: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    background: #600;
+    display: inline-block;
+}
+.form-container .button:hover {
+    color: yellow;
+}
+.form-container .small {
+    font-size: 0.8em;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.form-container .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.form-container label {
+    font-weight: bold;
+    color: yellow;
+    display: block;
+}

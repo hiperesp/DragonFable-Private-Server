@@ -71,3 +71,80 @@ window.RufflePlayer.config = {
     setInterval(checkServerInfo, 5000); // 5 seconds
     checkServerInfo();
 })();
+
+(function() {
+    function startLostPassword(dfVersionProvider) {
+        function setTabVisible(step, theCase = null) {
+            let tabElement = null;
+            document.querySelectorAll("[data-type='lost-password-tab']").forEach(function(element) {
+                let visible = false;
+                if(element.dataset.step == step) {
+                    if(theCase) {
+                        if(element.dataset.case == theCase) {
+                            visible = true;
+                        }
+                    } else {
+                        visible = true;
+                    }
+                }
+                if(visible) {
+                    element.style.display = "block";
+                    tabElement = element;
+                } else {
+                    element.style.display = "none";
+                }
+            });
+            return tabElement;
+        }
+        function step1() {
+            const tab = setTabVisible(1);
+            const emailInput = tab.querySelector("[data-id='email-field']");
+            const errorText = tab.querySelector("[data-id='error-text']");
+            const nextStepButton = tab.querySelector("[data-id='recover-password-button']");
+
+            nextStepButton.addEventListener("click", function() {
+                step2case1();
+            });
+        }
+        function step2case1() {
+            const tab = setTabVisible(2, 1);
+            const codeInput = tab.querySelector("[data-id='code-field']");
+            const errorText = tab.querySelector("[data-id='error-text']");
+            const nextStepButton = tab.querySelector("[data-id='submit-code-button']");
+
+            nextStepButton.addEventListener("click", function() {
+                step3();
+            });
+        }
+        function step2case2() {
+            const tab = setTabVisible(2, 2);
+            const siteEmailElements = tab.querySelectorAll("[data-id='site-email']");
+
+            siteEmailElements.forEach(function(element) {
+                const email = "support@dragonfable.hiper.esp.br";
+                element.textContent = email;
+                element.href = "mailto:"+email;
+            });
+        }
+        function step3() {
+            const tab = setTabVisible(3);
+            const newPasswordInput = tab.querySelector("[data-id='new-password-field']");
+            const confirmPasswordInput = tab.querySelector("[data-id='confirm-password-field']");
+            const errorText = tab.querySelector("[data-id='error-text']");
+            const nextStepButton = tab.querySelector("[data-id='submit-password-button']");
+
+            nextStepButton.addEventListener("click", function() {
+                step4();
+            });
+        }
+        function step4() {
+            setTabVisible(4);
+        }
+
+        step1();
+    }
+    const lostPasswordScreen = document.querySelector("#lost-password-container");
+    if(lostPasswordScreen) {
+        startLostPassword(lostPasswordScreen.dataset.dfVersionProvider);
+    }
+})();
