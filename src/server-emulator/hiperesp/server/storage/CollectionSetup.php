@@ -268,6 +268,9 @@ final class CollectionSetup {
 
                 "banned"        => [ 'BIT', 'DEFAULT' => 0],
                 "lastLogin"     => [ 'DATETIME', 'DEFAULT' => NULL ],
+
+                "recoveryCode"      => [ 'STRING' => 6, 'DEFAULT' => NULL ],
+                "recoveryExpires"   => [ 'DATETIME', 'DEFAULT' => NULL ],
             ],
             "data" => "user.json",
         ],

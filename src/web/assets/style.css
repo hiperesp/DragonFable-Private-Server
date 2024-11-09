@@ -314,8 +314,12 @@ footer {
     background: #600;
     display: inline-block;
 }
-.form-container .button:hover {
+.form-container .button:hover:not(:disabled) {
     color: yellow;
+}
+.form-container .button:disabled {
+    color: gray;
+    background: #322;
 }
 .form-container .small {
     font-size: 0.8em;

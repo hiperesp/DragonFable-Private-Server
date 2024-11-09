@@ -71,4 +71,31 @@ class UserService extends Service {
         throw new DFException(DFException::USER_BANNED);
     }
 
+    public function getByEmail(string $email): UserVO {
+        return $this->userModel->getByEmail($email);
+    }
+
+    public function sendRecoveryEmail(UserVO $user): bool {
+        $recoveryCode = $this->userModel->defineRecoveryCode($user);
+        return $this->emailService->sendRecoveryEmail($user, $recoveryCode);
+    }
+
+    public function validateRecoveryCode(UserVO $user, string $code): bool {
+        if(!$user->recoveryExpires) { // user has no recovery code
+            return false;
+        }
+        if(\strtotime($user->recoveryExpires) < \time()) { // code is expired
+            return false;
+        }
+        if($user->recoveryCode !== $code) { // code is different
+            return false;
+        }
+        return true;
+    }
+
+    public function changePassword(UserVO $user, string $password): void {
+        $this->userModel->changePassword($user, $password);
+        $this->emailService->sendChangedPasswordEmail($user);
+    }
+
 }

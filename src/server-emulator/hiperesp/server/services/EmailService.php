@@ -10,14 +10,14 @@ class EmailService extends Service {
     #[Inject] private SettingsVO $settings;
 
     public function sendWelcomeEmail(UserVO $user): bool {
-        return $this->sendEmail(isCritical: false, user: $user, template: 'welcome', params: [
+        return $this->sendEmail(userOrEmail: $user, template: 'welcome', params: [
             'servername' => $this->settings->serverName,
             'username' => $user->username,
         ]);
     }
 
-    public function sendRecoverPassword(UserVO $user, string $code): true {
-        return $this->sendEmail(isCritical: true, user: $user, template: 'recover-password', params: [
+    public function sendRecoveryEmail(UserVO $user, string $code): true {
+        return $this->sendEmail(userOrEmail: $user, template: 'recover-password', params: [
             'servername' => $this->settings->serverName,
             'username' => $user->username,
             'code0' => $code[0],
@@ -29,7 +29,24 @@ class EmailService extends Service {
         ]);
     }
 
-    private function sendEmail(bool $isCritical, UserVO $user, string $template, array $params): bool {
+    public function sendRecoveryPasswordNoUserEmail(string $email): bool {
+        return $this->sendEmail(userOrEmail: $email, template: 'recover-password-no-user', params: [
+            'servername' => $this->settings->serverName,
+            'email' => $email,
+        ]);
+    }
+
+    public function sendChangedPasswordEmail(UserVO $user): bool {
+        return $this->sendEmail(userOrEmail: $user, template: 'changed-password', params: [
+            'servername' => $this->settings->serverName,
+            'username' => $user->username,
+        ]);
+    }
+
+    private function sendEmail(UserVO|string $userOrEmail, string $template, array $params): bool {
+        if(!$this->settings->sendEmails) {
+            return false;
+        }
         $credentials = (object)[
             'url'   => $this->settings->emailApiUrl,
             'token' => $this->settings->emailApiToken,
@@ -43,6 +60,18 @@ class EmailService extends Service {
         $messageText = $this->loadTemplate('template.txt',  $template, $params);
         $messageHtml = $this->loadTemplate('template.html', $template, $params);
 
+        $to = [];
+        if($userOrEmail instanceof UserVO) {
+            $to[] = [
+                "name" => $userOrEmail->username,
+                "email" => $userOrEmail->email,
+            ];
+        } else {
+            $to[] = [
+                "email" => (string)$userOrEmail
+            ];
+        }
+
         $ch = \curl_init();
         \curl_setopt_array($ch, [
             CURLOPT_URL => $credentials->url,
@@ -53,10 +82,7 @@ class EmailService extends Service {
             CURLOPT_POST => true,
             CURLOPT_POSTFIELDS => \json_encode([
                 "from" => $credentials->from,
-                "to" => [[
-                    "name" => $user->username,
-                    "email" => $user->email,
-                ]],
+                "to" => $to,
                 "subject" => $subject,
                 "text" => $messageText,
                 "html" => $messageHtml,
@@ -67,11 +93,7 @@ class EmailService extends Service {
 
         $sentStatus = \curl_exec($ch);
         if ($sentStatus === false) {
-            if($isCritical) {
-                $exception = "Error sending email: [".\curl_errno($ch)."] ".\curl_error($ch);
-                \curl_close($ch);
-                throw new \Exception($exception);
-            }
+            \error_log("Error sending email: [".\curl_errno($ch)."] ".\curl_error($ch));
         }
         \curl_close($ch);
 

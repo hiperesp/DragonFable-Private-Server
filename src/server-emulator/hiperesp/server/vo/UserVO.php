@@ -28,6 +28,9 @@ class UserVO extends ValueObject {
     public readonly bool $banned;
     public readonly ?string $lastLogin;
 
+    public readonly string $recoveryCode;
+    public readonly string $recoveryExpires;
+
     #[\Override]
     protected function patch(array $user): array {
         $user['password'] = "";

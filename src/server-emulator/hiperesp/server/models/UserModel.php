@@ -17,6 +17,14 @@ class UserModel extends Model {
         throw new DFException(DFException::USER_NOT_FOUND);
     }
 
+    public function getByEmail(string $email): UserVO {
+        $user = $this->storage->select(self::COLLECTION, ['email' => $email]);
+        if(isset($user[0]) && $user = $user[0]) {
+            return new UserVO($user);
+        }
+        throw new DFException(DFException::USER_NOT_FOUND);
+    }
+
     public function login(string $username, string $password): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
         if(isset($user[0]) && $user = $user[0]) {
@@ -75,6 +83,13 @@ class UserModel extends Model {
         return $token;
     }
 
+    public function defineRecoveryCode(UserVO $user): string {
+        $code = \str_pad((string)\random_int(0, 999999), 6, '0', \STR_PAD_LEFT);
+        $expires = \date('c', \strtotime('+15 minutes'));
+        $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'recoveryCode' => $code, 'recoveryExpires' => $expires ]);
+        return $code;
+    }
+
     public function getByChar(CharacterVO $char): UserVO {
         $user = $this->storage->select(self::COLLECTION, ['id' => $char->userId]);
         if(isset($user[0]) && $user = $user[0]) {
@@ -92,6 +107,10 @@ class UserModel extends Model {
      */
     public function delete(UserVO $user): void {
         $this->storage->delete(self::COLLECTION, ['id' => $user->id]);
+    }
+
+    public function changePassword(UserVO $user, string $password): void {
+        $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'password' => \password_hash($password, \PASSWORD_DEFAULT), 'recoveryCode' => '', 'recoveryExpires' => null ]);
     }
 
 }
