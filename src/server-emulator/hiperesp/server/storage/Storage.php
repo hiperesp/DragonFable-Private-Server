@@ -37,10 +37,14 @@ abstract class Storage {
             }
             if(\array_key_exists($key, $document)) {
                 if(\in_array('DATETIME', $definitions)) {
-                    $document[$key] = \date($this->dateTimeFormat, \strtotime($document[$key]));
+                    if($document[$key] !== null) {
+                        $document[$key] = \date($this->dateTimeFormat, \strtotime($document[$key]));
+                    }
                 }
                 if(\in_array('DATE', $definitions)) {
-                    $document[$key] = \date($this->dateFormat, \strtotime($document[$key]));
+                    if($document[$key] !== null) {
+                        $document[$key] = \date($this->dateFormat, \strtotime($document[$key]));
+                    }
                 }
             }
         }
@@ -79,10 +83,14 @@ abstract class Storage {
                     continue;
                 }
                 if(\in_array('DATETIME', $definitions)) {
-                    $document[$key] = \date($this->dateTimeFormat, \strtotime($document[$key]));
+                    if($document[$key] !== null) {
+                        $document[$key] = \date($this->dateTimeFormat, \strtotime($document[$key]));
+                    }
                 }
                 if(\in_array('DATE', $definitions)) {
-                    $document[$key] = \date($this->dateFormat, \strtotime($document[$key]));
+                    if($document[$key] !== null) {
+                        $document[$key] = \date($this->dateFormat, \strtotime($document[$key]));
+                    }
                 }
                 $newFields[$key] = $document[$key];
             }
