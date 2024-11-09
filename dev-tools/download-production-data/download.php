@@ -88,18 +88,19 @@ $thingsToDownload = [
         "endpoint" => "/cf-classload.asp",
         "param" => "intClassID",
     ],
-    // "questRewards" => [
-    //     "from" => 1,
-    //     "to" => 2200,
-    //     "needAuth" => true,
-    //     "endpoint" => "/cf-questcomplete-Mar2011.asp",
-    //     "param" => "intQuestID",
-    // ],
+    "questRewards" => [
+        "from" => 1,
+        "to" => 2200,
+        "needAuth" => true,
+        "endpoint" => "/cf-questcomplete-Mar2011.asp",
+        "param" => "intQuestID",
+    ],
 ];
 
 downloadAll($thingsToDownload);
 
 function downloadAll(array $thingsToDownload): void {
+    global $skipDownloaded;
     $totalToDownload = \array_reduce($thingsToDownload, function($carry, $thing) {
         return $carry + $thing["to"] - $thing["from"] + 1;
     }, 0);
@@ -113,7 +114,7 @@ function downloadAll(array $thingsToDownload): void {
             $percentStr = getPercentString($currentItem, $totalToDownload);
             echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} {$percentStr}\n";
 
-            $success = download($thingToDownload, $i, true);
+            $success = download($thingToDownload, $i, $skipDownloaded);
             if($i===$thing["to"] && $success) {
                 $lastDownloaded[] = $thingToDownload;
             }
@@ -152,7 +153,7 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded): bool 
     $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
 
     if($skipDownloaded && \file_exists($file)) {
-        // echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
+        echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
         return true;
     }
 

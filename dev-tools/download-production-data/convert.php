@@ -557,17 +557,17 @@ $merges = [
 $startTime = (int)\microtime(true);
 
 convertAll([
-    // "town",
-    // "quest",
-    // "questRewards",
-    // "class",
-    // "interface",
+    "town",
+    "quest",
+    "questRewards",
+    "class",
+    "interface",
     "mergeShop",
-    // "shop",
-    // "hairShopF",
-    // "hairShopM",
-    // "houseShop",
-    // "houseItemShop",
+    "shop",
+    "hairShopF",
+    "hairShopM",
+    "houseShop",
+    "houseItemShop",
 ]);
 
 function convertAll(array $folders) {
