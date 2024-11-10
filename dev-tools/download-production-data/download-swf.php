@@ -9,10 +9,10 @@ $toDownload = [
         [ "field" => "swf", "basePath" => "", ],
     ],
     "quest" => [
-        [ "field" => "swf", "basePath" => "", ],
-        [ "field" => "swfX", "basePath" => "", ],
+        [ "field" => "swf", "basePath" => "maps/", ],
+        [ "field" => "swfX", "basePath" => "maps/", ],
         [ "field" => "monsterGroupSwf", "basePath" => "monsters/", ],
-        [ "field" => "extra", "basePath" => "", "special" => "quest_extra" ],
+        [ "field" => "extra", "basePath" => "maps/", "special" => "quest_extra" ],
     ],
     "monster" => [
         [ "field" => "swf", "basePath" => "", ],
@@ -26,10 +26,15 @@ $toDownload = [
     ],
 ];
 
+$startTime = (int)\microtime(true);
 downloadAll($toDownload);
 
 function downloadAll($toDownload) {
     global $cdn, $maxFilemtime;
+
+    \file_put_contents("download-swf-success.txt", "");
+    \file_put_contents("download-swf-fail.txt", "");
+    \file_put_contents("download-swf-skip.txt", "");
 
     $dataToDownload = [];
     foreach($toDownload as $type => $definitions) {
@@ -116,9 +121,6 @@ function createUri(array $data, array $definition): array {
     foreach($toParse as $item) {
         $item = \trim($item);
 
-        if(\preg_match('/\d+/', $item)) {
-            continue;
-        }
         if(\in_array($item, [
             "", "x", "none", "nothing",
         ])) {
@@ -128,7 +130,12 @@ function createUri(array $data, array $definition): array {
         $item = \str_replace(" ", "%20", $item);
         $newUri = \trim("{$basePath}{$item}");
 
+        if($newUri==="items/artifacts/") {
+            continue;
+        }
         if(\preg_match('/\.swf/', $newUri) === 0) {
+            \file_put_contents("download-swf-skip.txt", "{$newUri}\n", FILE_APPEND);
+            continue;
             throw new \Exception("Invalid swf uri: {$newUri}");
         }
 
@@ -139,9 +146,16 @@ function createUri(array $data, array $definition): array {
 }
 
 function getPercentString(int $current, int $total): string {
+    global $startTime;
+
     $percent = (\number_format($current / $total, 5) * 100)."%";
     $memoryUsageMB = \memory_get_usage(true) / 1024 / 1024;
     $memoryUsageStr = \number_format($memoryUsageMB)."M";
 
-    return "{$current} of {$total} ({$percent}) - MEM: {$memoryUsageStr}";
+    $elapsedTime = (int)\microtime(true) - $startTime;
+    $estimatedTotalTime = ($elapsedTime / ($current + 1)) * $total;
+    $remainingTime = $estimatedTotalTime - $elapsedTime;
+    $eta = \gmdate("H:i:s", (int)$remainingTime);
+
+    return "({$percent}) - MEM: {$memoryUsageStr} - ETA: {$eta}";
 }

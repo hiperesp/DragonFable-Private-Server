@@ -1,7 +1,5 @@
 <?php declare(strict_types=1);
 
-$pathInfo = \strtolower($_SERVER['PATH_INFO']);
-
 function local(string $pathInfo): string|false {
     if(!\preg_match('/\.swf$/', $pathInfo)) {
         return false;
@@ -17,6 +15,8 @@ function local(string $pathInfo): string|false {
 }
 
 if(__FILE__ == $_SERVER["SCRIPT_FILENAME"]) {
+    $pathInfo = \strtolower($_SERVER['PATH_INFO']);
+
     $out = local($pathInfo);
     if($out===false) {
         \http_response_code(404);

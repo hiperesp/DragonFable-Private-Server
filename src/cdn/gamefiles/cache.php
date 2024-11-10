@@ -1,7 +1,5 @@
 <?php declare(strict_types=1);
 
-$pathInfo = \strtolower($_SERVER['PATH_INFO']);
-
 function cache(string $pathInfo): string|false {
     include 'local.php';
     $out = local($pathInfo);
@@ -26,6 +24,8 @@ function cache(string $pathInfo): string|false {
 }
 
 if(__FILE__ == $_SERVER["SCRIPT_FILENAME"]) {
+    $pathInfo = \strtolower($_SERVER['PATH_INFO']);
+
     $out = cache($pathInfo);
     if($out===false) {
         \http_response_code(404);
