@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 use hiperesp\server\attributes\Inject;
+use hiperesp\server\interfaces\Bannable;
 use hiperesp\server\models\CharacterModel;
 
 class UserVO extends ValueObject implements Bannable {

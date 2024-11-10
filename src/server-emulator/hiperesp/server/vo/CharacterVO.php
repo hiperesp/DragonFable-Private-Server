@@ -2,6 +2,7 @@
 namespace hiperesp\server\vo;
 
 use hiperesp\server\attributes\Inject;
+use hiperesp\server\interfaces\Bannable;
 use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\ClassModel;
