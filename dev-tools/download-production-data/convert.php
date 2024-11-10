@@ -930,15 +930,10 @@ function generatedIds(string $type, array $parents): int {
         if(!isset($questMonsterIds[$questId])) {
             $questMonsterIds[$questId] = 0;
         }
-        return $questId * 10000 + ++$questMonsterIds[$questId];
+        return $questId * 10_000 + ++$questMonsterIds[$questId];
     }
     if($type === "quest_item") {
-        static $questItemIds = [];
-        $questId = $parents[0]["parsed"]["id"];
-        if(!isset($questItemIds[$questId])) {
-            $questItemIds[$questId] = 0;
-        }
-        return $questId * 10000 + ++$questItemIds[$questId];
+        return $parents[0]["parsed"]["questId"];
     }
     if($type === "hairShop_hair") {
         return $parents[2]["parsed"]["id"] * 1_000 + $parents[1]["parsed"]["id"];
