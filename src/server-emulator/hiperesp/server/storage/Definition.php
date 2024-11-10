@@ -56,7 +56,7 @@ final class Definition {
                 "detailed404ClientError"=> [ "BIT", 'DEFAULT' => 1 ],
 
                 "sendEmails"            => [ "BIT", 'DEFAULT' => 0 ],
-                "emailApiUrl"           => [ "STRING" => 255, "DEFAULT" => "" ],
+                "emailApiUrl"           => [ "STRING" => 255, "DEFAULT" => "https://send.api.mailtrap.io/api/send" ],
                 "emailApiToken"         => [ "STRING" => 255, "DEFAULT" => "" ],
                 "emailAddress"          => [ "STRING" => 255, "DEFAULT" => "" ],
             ],
