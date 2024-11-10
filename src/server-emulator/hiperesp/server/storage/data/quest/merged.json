@@ -873,7 +873,7 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "Shadowhunter and Mech",
-        "monsterGroupSwf": "mset-arenahunters.swf?ver=3"
+        "monsterGroupSwf": "mset-arenahunters.swf?ver=4"
     },
     {
         "id": 50,
@@ -10929,7 +10929,7 @@
         "maxExp": 50000,
         "minTime": 0,
         "counter": 0,
-        "extra": "intClass3ID=52\nintClass1ID=53\nintClass2ID=51\nintQuest1ID=2191\nintQuest2ID=2192\nintQuest3ID=2193\nintShop1ID=793\nintShop2ID=2\nintShop3ID=192\nintTown1ID=51\nintTown2ID=2187\nintTown3ID=147\n\n\nmsg=BOXKITTEH WAZ HERE       SO WAZ DOVE!!!!!!!",
+        "extra": "intClass3ID=52\nintClass1ID=53\nintClass2ID=51\nintQuest1ID=2191\nintQuest2ID=2192\nintQuest3ID=2193\nintShop1ID=793\nintShop2ID=2\nintShop3ID=192\nintTown1ID=51\nintTown2ID=1086\nintTown3ID=147\n\n\nmsg=BOXKITTEH WAZ HERE       SO WAZ DOVE!!!!!!!",
         "dailyIndex": 0,
         "dailyReward": 0,
         "monsterMinLevel": 0,
@@ -22009,15 +22009,15 @@
         "name": "3OspreyCove",
         "description": "Arrrgh, pirates!",
         "complete": "",
-        "swf": "towns\/3OspreyCove\/town-Ospreycove3Revamp-r1.swf",
-        "swfX": "towns\/3OspreyCove\/town-Ospreycove3Revamp-x.swf",
+        "swf": "towns\/3OspreyCove\/town-Ospreycove3Revamp-r1.swf?ver=1",
+        "swfX": "towns\/3OspreyCove\/town-Ospreycove3Revamp-x.swf?ver=1",
         "maxSilver": 0,
         "maxGold": 0,
         "maxGems": 0,
         "maxExp": 0,
         "minTime": 0,
         "counter": 0,
-        "extra": "ospreycove=towns\/3OspreyCove\/town-Ospreycove3Revamp-r1.swf\nospreycovex=towns\/3OspreyCove\/town-Ospreycove3Revamp-x.swf\nweaponshop=towns\/3ospreycove\/shop-PirateWeapon.swf\nhairshop=towns\/3ospreycove\/shop-PirateHair-r1.swf\npetshop=towns\/3ospreycove\/shop-PiratePet.swf\nInn=towns\/3ospreycove\/shop-PirateInn.swf",
+        "extra": "ospreycove=towns\/3OspreyCove\/town-Ospreycove3Revamp-r1.swf?ver=1\nospreycovex=towns\/3OspreyCove\/town-Ospreycove3Revamp-x.swf?ver=1\nweaponshop=towns\/3ospreycove\/shop-PirateWeapon.swf\nhairshop=towns\/3ospreycove\/shop-PirateHair-r1.swf\npetshop=towns\/3ospreycove\/shop-PiratePet.swf\nInn=towns\/3ospreycove\/shop-PirateInn.swf",
         "dailyIndex": 0,
         "dailyReward": 0,
         "monsterMinLevel": 0,
@@ -45192,7 +45192,7 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "Shadowhunter and Mech",
-        "monsterGroupSwf": "mset-arenahunters.swf?ver=3"
+        "monsterGroupSwf": "mset-arenahunters.swf?ver=4"
     },
     {
         "id": 2192,
@@ -45213,7 +45213,7 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "Shadowhunter and Mech",
-        "monsterGroupSwf": "mset-arenahunters.swf?ver=3"
+        "monsterGroupSwf": "mset-arenahunters.swf?ver=4"
     },
     {
         "id": 2193,
@@ -45234,6 +45234,48 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "Shadowhunter and Mech",
-        "monsterGroupSwf": "mset-arenahunters.swf?ver=3"
+        "monsterGroupSwf": "mset-arenahunters.swf?ver=4"
+    },
+    {
+        "id": 2194,
+        "name": "Storm Over Sho'nuff",
+        "description": "With the perpetual storm looming, the paths between Osprey Cove and the Shadow of the Wind village are more dangerous than ever.",
+        "complete": "The dangers of the roads will soon return.",
+        "swf": "towns\/3OspreyCove\/quest-tocheckpoint.swf",
+        "swfX": "towns\/3OspreyCove\/quest-tocheckpoint-x.swf",
+        "maxSilver": 0,
+        "maxGold": 5000,
+        "maxGems": 0,
+        "maxExp": 50000,
+        "minTime": 0,
+        "counter": 0,
+        "extra": "",
+        "dailyIndex": 0,
+        "dailyReward": 0,
+        "monsterMinLevel": 0,
+        "monsterMaxLevel": 100,
+        "monsterType": "Osprey Storm",
+        "monsterGroupSwf": "mset-ospreystorm.swf"
+    },
+    {
+        "id": 2195,
+        "name": "ShoNuff Checkpoint",
+        "description": "stormy checkpoint",
+        "complete": "stormy checkpoint",
+        "swf": "towns\/3OspreyCove\/town-checkpoint.swf",
+        "swfX": "towns\/3OspreyCove\/town-checkpoint-x.swf",
+        "maxSilver": 0,
+        "maxGold": 0,
+        "maxGems": 0,
+        "maxExp": 0,
+        "minTime": 0,
+        "counter": 0,
+        "extra": "",
+        "dailyIndex": 0,
+        "dailyReward": 0,
+        "monsterMinLevel": 0,
+        "monsterMaxLevel": 0,
+        "monsterType": "none",
+        "monsterGroupSwf": "none"
     }
 ]
