@@ -5,6 +5,7 @@ use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\MergeModel;
 
 class MergeShopVO extends ValueObject {
+    public readonly int $id;
 
     #[Inject] private MergeModel $mergeModel;
 

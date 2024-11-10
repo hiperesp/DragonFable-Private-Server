@@ -5,6 +5,7 @@ use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\ItemModel;
 
 class MergeVO extends ValueObject {
+    public readonly int $id;
 
     #[Inject] private ItemModel $itemModel;
 

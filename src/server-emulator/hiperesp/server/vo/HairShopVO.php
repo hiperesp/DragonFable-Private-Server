@@ -5,6 +5,7 @@ use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\HairModel;
 
 class HairShopVO extends ValueObject {
+    public readonly int $id;
 
     #[Inject] private HairModel $hairModel;
 

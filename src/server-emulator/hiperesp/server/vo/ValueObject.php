@@ -4,8 +4,6 @@ namespace hiperesp\server\vo;
 use hiperesp\server\traits\InjectDependency;
 
 abstract class ValueObject {
-    #[\Override]
-    public readonly int $id;
 
     use InjectDependency;
 
