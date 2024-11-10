@@ -128,6 +128,7 @@ function createUri(array $data, array $definition): array {
         }
 
         $item = \str_replace(" ", "%20", $item);
+        $item = \str_replace("\\", "/", $item);
         $newUri = \trim("{$basePath}{$item}");
 
         if($newUri==="items/artifacts/") {
