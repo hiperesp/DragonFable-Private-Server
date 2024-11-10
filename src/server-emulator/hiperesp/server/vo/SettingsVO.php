@@ -4,6 +4,8 @@ namespace hiperesp\server\vo;
 class SettingsVO extends ValueObject {
     public readonly int $id;
 
+    public readonly string $serverName;
+
     public readonly string $gameSwf;
     public readonly string $serverVersion;
     public readonly string $serverLocation;
@@ -14,12 +16,13 @@ class SettingsVO extends ValueObject {
     public readonly string $signUpUrl;
     public readonly string $lostPasswordUrl;
     public readonly string $tosUrl;
+    public readonly string $charDetailUrl;
 
     public readonly string $signUpMessage;
     public readonly string $news;
 
     public readonly bool $enableAdvertising;
-    public readonly int $dailyQuestCoinsReward;
+    public readonly int  $dailyQuestCoinsReward;
 
     public readonly bool $revalidateClientValues;
     public readonly bool $banInvalidClientValues;
@@ -41,8 +44,13 @@ class SettingsVO extends ValueObject {
     public readonly float $goldMultiplier;
     public readonly float $silverMultiplier;
 
-    public readonly int $onlineTimeout;
+    public readonly int $onlineThreshold;
 
     public readonly bool $detailed404ClientError;
+
+    public readonly bool   $sendEmails;
+    public readonly string $emailApiUrl;
+    public readonly string $emailApiToken;
+    public readonly string $emailAddress;
 
 }

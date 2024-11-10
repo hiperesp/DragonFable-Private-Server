@@ -1,19 +1,13 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\ClassModel;
-use hiperesp\server\models\RaceModel;
-use hiperesp\server\vo\CharacterVO;
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
 
 class UserProjection extends Projection {
 
-    private SettingsVO $settings;
-    private CharacterModel $characterModel;
-    private ClassModel $classModel;
-    private RaceModel $raceModel;
+    #[Inject] private SettingsVO $settings;
 
     public function logged(UserVO $user): \SimpleXMLElement {
 
@@ -30,10 +24,7 @@ class UserProjection extends Projection {
         $userEl->addAttribute('bitAdFlag', $this->settings->enableAdvertising ? 1 : 0);
         $userEl->addAttribute('dateToday', \date('c'));
 
-        $chars = $this->characterModel->getByUser($user);
-
-        /** @var CharacterVO $char */
-        foreach($chars as $char) {
+        foreach($user->getChars() as $char) {
             $charEl = $userEl->addChild('characters');
             $charEl->addAttribute('CharID', $char->id);
             $charEl->addAttribute('strCharacterName', $char->name);
@@ -41,11 +32,11 @@ class UserProjection extends Projection {
             $charEl->addAttribute('intAccessLevel', $char->getAccessLevel());
             $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
 
-            $class = $this->classModel->getByChar($char);
+            $class = $char->getClass();
             $charEl->addAttribute('orgClassID', $char->id);
             $charEl->addAttribute('strClassName', $class->name);
 
-            $race = $this->raceModel->getByChar($char);
+            $race = $char->getRace();
             $charEl->addAttribute('strRaceName', $race->name);
         }
 

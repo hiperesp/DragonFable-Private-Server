@@ -7,6 +7,11 @@
     }
 }
 
+@font-face {
+    font-family: 'BD Merced Regular';
+    src: url(fonts/BD-Merced-Regular/BD-Merced-Regular.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -85,12 +90,12 @@ body {
 }
 .main-content-header {
     background-color: #330200;
-    height: 126px;
+    height: 125.5px;
     border-bottom: 2px solid #ffff00;
     background-image: linear-gradient(to right, #330200ff, #33020040 400px), var(--background);
     background-size: cover;
     background-position: center;
-    font-family: "DM Serif Text", serif;
+    font-family: "BD Merced Regular", "DM Serif Text", serif;
     display: flex;
     position: relative;
     padding: 20px;
@@ -148,7 +153,7 @@ body {
     opacity: 0;
 }
 
-.home-intro video {
+.home-intro video, .home-intro object, .home-intro ruffle-object {
     margin-top: -20px;
     margin-left: -20px;
     width: calc(100% + 40px);
@@ -282,24 +287,54 @@ footer {
 
 
 .main-content-game {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 2px solid #ffff00;
-}
-
-#game-container-fullscreen {
+    margin: 0 auto;
     width: 100vw;
     height: 100vh;
     max-width: 750px;
     max-height: 550px;
-    position: relative;
 }
-#btn-toggle-fullscreen {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+
+.form-container .input-text {
+    font-size: 1.1em;
+    width: 400px;
+    padding: 10px 0;
+    text-indent: 15px;
+}
+.form-container .button {
+    padding: 10px 15px;
+    font-size: 1em;
+    appearance: none;
+    border: none;
+    font-weight: bold;
     color: white;
-    font-size: 12px;
-    text-align: right;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    background: #600;
+    display: inline-block;
+}
+.form-container .button:hover:not(:disabled) {
+    color: yellow;
+}
+.form-container .button:disabled {
+    color: gray;
+    background: #322;
+}
+.form-container .small {
+    font-size: 0.8em;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.form-container .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.form-container label {
+    font-weight: bold;
+    color: yellow;
+    display: block;
 }

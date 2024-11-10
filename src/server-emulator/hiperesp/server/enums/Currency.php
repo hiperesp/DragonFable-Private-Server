@@ -2,6 +2,6 @@
 namespace hiperesp\server\enums;
 
 enum Currency {
-    case CURRENCY_GOLD;
-    case CURRENCY_DRAGON_COINS;
+    const GOLD = 2;
+    const DRAGON_COINS = 2;
 }

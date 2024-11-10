@@ -1,27 +1,19 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\CharacterItemModel;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\ItemModel;
-use hiperesp\server\models\ItemShopModel;
-use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\CharacterItemProjection;
 use hiperesp\server\projection\ItemShopProjection;
+use hiperesp\server\services\CharacterService;
 use hiperesp\server\services\ItemShopService;
 
 class ItemShopController extends Controller {
 
-    private ItemShopService $itemShopService;
-
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private ItemShopModel $itemShopModel;
-    private ItemModel $itemModel;
-    private CharacterItemModel $characterItemModel;
+    #[Inject] private CharacterService $characterService;
+    #[Inject] private ItemShopService $itemShopService;
 
     #[Request(
         endpoint: '/cf-shopload.asp',
@@ -30,7 +22,7 @@ class ItemShopController extends Controller {
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
 
-        $shop = $this->itemShopModel->getById((int)$input->intShopID);
+        $shop = $this->itemShopService->getShop((int)$input->intShopID);
         return ItemShopProjection::instance()->loaded($shop);
 
     }
@@ -41,14 +33,9 @@ class ItemShopController extends Controller {
         outputType: Output::XML
     )]
     public function buy(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-
-        $shop = $this->itemShopModel->getById((int)$input->intShopID);
-        $item = $this->itemModel->getByShopAndId($shop, (int)$input->intItemID);
-
-        $charItem = $this->itemShopService->buy($char, $item);
+        $charItem = $this->itemShopService->buy($char, (int)$input->intShopID, (int)$input->intItemID);
 
         return CharacterItemProjection::instance()->bought($charItem);
     }
@@ -59,17 +46,15 @@ class ItemShopController extends Controller {
         outputType: Output::XML
     )]
     public function sell(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $charItem = $this->characterItemModel->getByCharAndId($char, (int)$input->intCharItemID);
-
-        $this->itemShopService->sell($charItem,
+        $this->itemShopService->sell($char,
+            charItemId: (int)$input->intCharItemID,
             quantity: (int)$input->intAmnt,
             returnPercent: (int)$input->intReturnPer
         );
 
-        return CharacterItemProjection::instance()->sold($charItem);
+        return CharacterItemProjection::instance()->sold();
     }
 
 }

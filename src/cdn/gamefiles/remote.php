@@ -5,6 +5,7 @@ function remote(string $pathInfo): string|false {
         return false;
     }
 
+    $pathInfo = \str_replace(' ', '%20', $pathInfo);
     $remoteFile = "https://play.dragonfable.com/game/gamefiles{$pathInfo}";
 
     $ch = \curl_init();
@@ -23,7 +24,9 @@ function remote(string $pathInfo): string|false {
 }
 
 if(__FILE__ == $_SERVER["SCRIPT_FILENAME"]) {
-    $out = remote($_SERVER['PATH_INFO']);
+    $pathInfo = \strtolower($_SERVER['PATH_INFO']);
+
+    $out = remote($pathInfo);
     if($out===false) {
         \http_response_code(404);
         echo 'File not found';

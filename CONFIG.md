@@ -9,7 +9,9 @@ Access your database and open your `settings` table. This is what each column me
 
 - `id`: The `id` parameter is used to identify the settings. You can have multiple settings, each with a different `id`. The default `id` is `1`. To specify what settings to use, you can change the `DF_SETTINGS_ID` environment variable. It can be pretty cool if you use a production server and a staging server, for example. The staging server can have a different `id` and you can test some features with the same production data.
 
-- `gameSwf`: The `gameSwf` parameter is used to specify the game file to load. The default is `game15_9_04-patched.swf`. You can change it to any other game file you want to use, if you use a custom patched version, for example or you can use a specific other version.
+- `serverName`: This is your server name.
+
+- `gameSwf`: The `gameSwf` parameter is used to specify the game file to load. The default is `game15_9_14-patched.swf`. You can change it to any other game file you want to use, if you use a custom patched version, for example or you can use a specific other version.
 
 - `serverVersion`: The `serverVersion` parameter is used to specify the game build version string. It is not used, you can use it to specify any string you want.
 
@@ -20,12 +22,13 @@ Access your database and open your `settings` table. This is what each column me
     - `dynamic`: Like `local`, but if the file is not found, it will fetch it from the remote server. It will not save the file locally.
     - `cache`: Like `dynamic`, but it will save the file locally. It will serve the file faster in the future.
     - The `remote` mode exists, but you should not use it, as it will fetch all files from the remote server, and they are not patched.
+    - The `update` mode exists, but you should not use it. It is used to update the game files. It needs to be used like `/update.php/{time}`, where `{time}` is the time offset in seconds.
 
     You can also use a custom domain, like `https://cdn.example.org/gamefiles/cache.php/`. CORS headers may be required.
 
     I recommend using the `cache` mode, as it will save the files locally and serve them faster in the future, but if space is a concern, you can use the `dynamic` mode.
 
-- `homeUrl`, `playUrl`, `signUpUrl`, `lostPasswordUrl`, `tosUrl`: These parameters are used to specify the URLs for the home, play, sign up, lost password, and terms of service pages. You can use any URL you want. You can use relative URLs, like `../../../index.html`, or absolute URLs, like `https://example.org/index.html`.
+- `homeUrl`, `playUrl`, `signUpUrl`, `lostPasswordUrl`, `tosUrl`, `charDetailUrl`: These parameters are used to specify the URLs for the home, play, sign up, lost password, and terms of service pages. You can use any URL you want. You can use relative URLs, like `../../../index.html`, or absolute URLs, like `https://example.org/index.html`.
 
 - `signUpMessage`: The `signUpMessage` parameter is used to specify the message that will be shown in the sign-up page.
 
@@ -45,7 +48,13 @@ Access your database and open your `settings` table. This is what each column me
 
 - `experienceMultiplier`, `gemsMultiplier`, `goldMultiplier`, `silverMultiplier`: These parameters are used to specify the experience, gems, gold, and silver multipliers. You can change the values as you want. I never have seen the gems and silver currencies in the game, but they are in the database.
 
-- `onlineTimeout`: The `onlineTimeout` parameter is used to specify the online timeout to count in website. The default is `10` minutes.
+- `onlineThreshold`: The `onlineThreshold` parameter is used to specify the online timeout to count in website. The default is `10` minutes.
 
 - `detailed404ClientError`: The `detailed404ClientError` parameter is used to specify if the server should return a detailed 404 client error. If you want to return a detailed 404 client error, set it to `true`, otherwise set it to `false`. It can be useful to debug, but it can expose some information to the client and can confuse the user.
+
+- `sendEmails`: This parameter is used to specify if the server should send emails. If you want to send emails, set it to `true`, otherwise set it to `false`.
+
+- `emailApiUrl`, `emailApiToken`: These parameters are used to specify the email API URL and token. This is designed to work with the `mailtrap.io` service.
+
+- `emailAddress`: This parameter is used to specify the email address that will be used to send emails.
 

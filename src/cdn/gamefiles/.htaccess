@@ -1,4 +1,4 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !/(local|remote|cache|dynamic)\.php$ [NC]
+RewriteCond %{REQUEST_FILENAME} !/(local|remote|cache|dynamic|update)\.php$ [NC]
 RewriteRule .* - [F,L]

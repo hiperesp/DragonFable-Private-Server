@@ -1,6 +1,7 @@
+#!/usr/bin/env php
 <?php
 define('OS', 'windows'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_11');
+define('SWF_FILE', 'game15_9_14');
 
 $replaces = [
     # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
@@ -55,6 +56,88 @@ $replaces = [
        var _loc2_ = strText.split("");
        var _loc1_ = 0;
        while(_loc1_ < _loc2_.length)
+    ACTIONSCRIPT,
+
+    # ADD ACTION WHEN CLICKING ON ACTIVATION BUTTON (IF USER IS NOT ACTIVATED)
+    <<<'ACTIONSCRIPT'
+    if(_root.user.intActivationFlag != 1)
+    {
+       this._visible = false;
+    }
+    stop();
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    if(_root.user.intActivationFlag != 1)
+    {
+       this._visible = false;
+    }
+    this.onRelease = function() {
+       var result = new LoadVars();
+       result.onLoad = function(success) {
+          if(success) {
+             traced("[Received]: " + result);
+             _root.conn.showConnError("10.10", result.title, result.description, result.gameAction);
+          } else {
+             _root.conn.showConnError("10.10","Failed to start activation","We're experiencing technical difficulties, and your activation could not be processed at this time. Please try again later. If the issue persists, contact support for assistance.","none");
+          }
+       };
+       result.onhttpStatus = function(httpStatus) {};
+    
+       var params = new LoadVars();
+       params.strToken = _root.user.strToken;
+       _root.conn.showConn("Starting activation...");
+       params.sendAndLoad(_root.conn.url + "/custom/activate-account",result,"POST");
+    };
+    stop();
+    ACTIONSCRIPT,
+
+    # HIDE ERROR CODE IF EMPTY
+    <<<'ACTIONSCRIPT'
+    _root.conn.showConnError = function(strCode, strReason, strMessage, strAction)
+    {
+       if(strAction == "continue")
+       {
+          _root.game.mcConn.gotoAndStop("ErrContinue");
+       }
+       else
+       {
+          _root.game.mcConn.gotoAndStop("ErrorCritical");
+       }
+       _root.game.mcConn.strCode = "Error Code: " + strCode;
+       _root.game.mcConn.strReason = strReason;
+       _root.game.mcConn.strMsg = strMessage;
+    };
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.conn.showConnError = function(strCode, strReason, strMessage, strAction)
+    {
+       if(strAction == "continue")
+       {
+          _root.game.mcConn.gotoAndStop("ErrContinue");
+       }
+       else
+       {
+          _root.game.mcConn.gotoAndStop("ErrorCritical");
+       }
+       if(strCode != "") {
+          _root.game.mcConn.strCode = "Error Code: " + strCode;
+       }
+       _root.game.mcConn.strCode = "";
+       _root.game.mcConn.strReason = strReason;
+       _root.game.mcConn.strMsg = strMessage;
+    };
+    ACTIONSCRIPT,
+
+    # HIDE FIRST "SPECIAL CHARACTER SLOT" BUTTON IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ASH"
+    <<<'ACTIONSCRIPT'
+    _root.game.btnChar6.gotoAndPlay("New");
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.game.btnChar6.gotoAndStop("Blank");
+    ACTIONSCRIPT,
+
+    # HIDE SECOND "SPECIAL CHARACTER SLOT" BUTTON IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ALEX"
+    <<<'ACTIONSCRIPT'
+    _root.game.btnChar7.gotoAndPlay("New");
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.game.btnChar7.gotoAndStop("Blank");
     ACTIONSCRIPT,
 ];
 
@@ -187,6 +270,7 @@ if(OS==='windows') {
 
 echo "Run the following command:\n";
 echo "{$cmd}\n";
+echo "Then, done!\n";
 die;
 
 function globR($dir) {

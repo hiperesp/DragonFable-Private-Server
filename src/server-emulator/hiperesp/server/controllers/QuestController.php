@@ -1,20 +1,19 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\models\CharacterModel;
-use hiperesp\server\models\QuestModel;
-use hiperesp\server\models\UserModel;
 use hiperesp\server\projection\CharacterProjection;
 use hiperesp\server\projection\QuestProjection;
+use hiperesp\server\services\CharacterService;
+use hiperesp\server\services\QuestService;
 
 class QuestController extends Controller {
 
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private QuestModel $questModel;
+    #[Inject] private CharacterService $characterService;
+    #[Inject] private QuestService $questService;
 
     #[Request(
         endpoint: '/cf-questload.asp',
@@ -22,36 +21,11 @@ class QuestController extends Controller {
         outputType: Output::XML
     )]
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $quest = $this->questModel->getById((int)$input->intQuestID);
+        $quest = $this->questService->load((int)$input->intQuestID);
 
         return QuestProjection::instance()->loaded($quest);
-    }
-
-    // NEED ATTENTION
-    #[Request(
-        endpoint: '/cf-expsave.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::NINJA2XML
-    )]
-    public function expSave(\SimpleXMLElement $input): \SimpleXMLElement {
-
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $quest = $this->questModel->getById((int)$input->intQuestID);
-
-        $this->characterModel->applyExpSave($char, $quest, [
-            'experience' => (int)$input->intExp,
-            'gems' => (int)$input->intGems,
-            'gold' => (int)$input->intGold,
-            'silver' => (int)$input->intSilver
-        ]);
-
-        $char = $this->characterModel->reload($char);
-
-        return CharacterProjection::instance()->expSaved($char);
     }
 
     #[Request(
@@ -60,12 +34,11 @@ class QuestController extends Controller {
         outputType: Output::XML
     )]
     public function complete_mar2011(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $quest = $this->questModel->getById((int)$input->intQuestID);
+        $quest = $this->questService->load((int)$input->intQuestID);
 
-        $this->characterModel->applyQuestRewards($char, $quest, [
+        $char = $this->characterService->applyQuestRewards($char, $quest, [
             'waveCount' => (int)$input->intWaveCount,
             'rare' => (int)$input->intRare,
             'war' => (int)$input->intWar,
@@ -74,30 +47,20 @@ class QuestController extends Controller {
             'gold' => (int)$input->intGold,
         ]);
 
-        $char = $this->characterModel->reload($char);
-
         return CharacterProjection::instance()->questCompletedMar2011($quest, $char, []);
     }
 
-    // [WIP]
     #[Request(
         endpoint: '/cf-questreward.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
     )]
     public function reward(\SimpleXMLElement $input): \SimpleXMLElement {
-        // <flash><intNewItemID>20387</intNewItemID><strToken>TOKEN HERE</strToken><intCharID>12345678</intCharID></flash>
+        $char = $this->characterService->auth($input);
 
-        $newItemID = (int)$input->intNewItemID;
+        $charItem = $this->characterService->applyQuestItemRewards($char, (int)$input->intNewItemID);
 
-        // find the item by id and add to the inventory
-
-        return \simplexml_load_string(<<<XML
-<questreward xmlns:sql="urn:schemas-microsoft-com:xml-sql">
-    <CharItemID>783072142</CharItemID>
-</questreward>
-XML);
-
+        return CharacterProjection::instance()->questItemReward($charItem);
     }
 
     #[Request(
@@ -106,12 +69,11 @@ XML);
         outputType: Output::XML
     )]
     public function saveQuestString(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-        $user = $this->userModel->getBySessionToken((string)$input->strToken);
-        $char = $this->characterModel->getByUserAndId($user, (int)$input->intCharID);
-        $this->characterModel->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);
+        $this->characterService->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);
 
-        return CharacterProjection::instance()->questStringSaved($char);
+        return CharacterProjection::instance()->questStringSaved();
     }
 
 }

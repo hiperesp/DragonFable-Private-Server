@@ -4,7 +4,6 @@ namespace hiperesp\server\storage;
 abstract class SQL extends Storage {
 
     private readonly \PDO $pdo;
-    protected readonly string $prefix;
 
     abstract protected function getFieldDefinition(string $field, array $definitions, string $collection, array &$afterCreateSql): string;
 
@@ -25,7 +24,7 @@ abstract class SQL extends Storage {
         if(!isset($options["prefix"])) {
             throw new \Exception("Missing prefix");
         }
-        $this->prefix = $options["prefix"];
+        $prefix = $options["prefix"];
 
         $username = isset($options['username']) ? $options['username'] : null;
         $password = isset($options['password']) ? $options['password'] : null;
@@ -33,6 +32,8 @@ abstract class SQL extends Storage {
         $pdoOptions = isset($options['pdoOptions']) ? $options['pdoOptions'] : [];
 
         $this->pdo = new \PDO($dsn, $username, $password, $pdoOptions);
+
+        parent::__construct($prefix);
     }
 
     #[\Override]
@@ -41,15 +42,15 @@ abstract class SQL extends Storage {
     }
 
     #[\Override]
-    final protected function _select(string $collection, array $where, ?int $limit, int $skip): array {
+    final protected function _select(string $prefix, string $collection, array $where, ?int $limit, int $skip): array {
         $sqlParams = [];
-        $sql = "SELECT * FROM {$this->prefix}{$collection} WHERE true ";
+        $sql = "SELECT * FROM {$prefix}{$collection} WHERE true ";
         foreach($where as $key => $value) {
             if(\is_iterable($value)) {
                 if(!$value) {
                     return []; // field must be equals ony of the values, but there are no values, so no results, no need to query
                 }
-                $sql .= "AND {$key} IN (";
+                $sql .= "AND `{$key}` IN (";
                 foreach($value as $v) {
                     $sql .= "?,";
                     $sqlParams[] = $v;
@@ -58,7 +59,7 @@ abstract class SQL extends Storage {
                 $sql .= ") ";
                 continue;
             }
-            $sql .= "AND {$key} = ? ";
+            $sql .= "AND `{$key}` = ? ";
             $sqlParams[] = $value;
         }
         if($limit !== null) {
@@ -73,9 +74,9 @@ abstract class SQL extends Storage {
     }
 
     #[\Override]
-    final protected function _insert(string $collection, array $document): void {
+    final protected function _insert(string $prefix, string $collection, array $document): void {
         $fields = \array_keys($document);
-        $sql = "INSERT INTO {$this->prefix}{$collection} (".\implode(',', $fields).") VALUES (";
+        $sql = "INSERT INTO {$prefix}{$collection} (`".\implode('`,`', $fields)."`) VALUES (";
         $sqlParams = [];
         foreach($fields as $field) {
             $sql .= "?,";
@@ -89,11 +90,11 @@ abstract class SQL extends Storage {
     }
 
     #[\Override]
-    final protected function _update(string $collection, array $where, array $newFields, ?int $limit): bool {
-        $sql = "UPDATE {$this->prefix}{$collection} SET ";
+    final protected function _update(string $prefix, string $collection, array $where, array $newFields, ?int $limit): bool {
+        $sql = "UPDATE {$prefix}{$collection} SET ";
         $sqlParams = [];
         foreach($newFields as $field => $value) {
-            $sql .= "{$field} = ?,";
+            $sql .= "`{$field}` = ?,";
             $sqlParams[] = $value;
         }
         $sql = \substr($sql, 0, -1).' WHERE true ';
@@ -109,12 +110,22 @@ abstract class SQL extends Storage {
     }
 
     #[\Override]
-    protected function createCollection(string $collection): bool {
+    protected function existsCollection(string $prefix, string $collection): bool {
+        $stmt = $this->pdo->prepare("SELECT 1 FROM {$prefix}{$collection} LIMIT 1");
+        try {
+            return $stmt->execute();
+        } catch(\Exception $e) {
+            return false;
+        }
+    }
+
+    #[\Override]
+    protected function createCollection(string $prefix, string $collection): bool {
         $afterCreateSql = [];
-        $sql = "CREATE TABLE {$this->prefix}{$collection} (";
+        $sql = "CREATE TABLE {$prefix}{$collection} (";
 
         $tableFieldsDefinitions = [];
-        foreach(CollectionSetup::getStructure($collection) as $field => $definitions) {
+        foreach(Setup::getStructure($collection) as $field => $definitions) {
             $parsedDefinitions = [];
             foreach($definitions as $key => $value) {
                 if(\is_numeric($key)) {
@@ -132,13 +143,19 @@ abstract class SQL extends Storage {
         $sql.= \implode(",\n", $tableFieldsDefinitions);
         $sql.= ");\n";
         $sql.= \implode("\n", $afterCreateSql);
-        $stmt = $this->pdo->prepare($sql);
+        $stmt = $this->pdo->prepare("SET FOREIGN_KEY_CHECKS=0;{$sql};SET FOREIGN_KEY_CHECKS=1;");
         return $stmt->execute();
     }
 
     #[\Override]
-    protected function dropCollection(string $collection): bool {
-        $stmt = $this->pdo->prepare("DROP TABLE {$this->prefix}{$collection}");
+    protected function dropCollection(string $prefix, string $collection): bool {
+        $stmt = $this->pdo->prepare("DROP TABLE {$prefix}{$collection}");
+        return $stmt->execute();
+    }
+
+    #[\Override]
+    protected function renameCollection(string $oldPrefix, string $oldCollectionName, string $newPrefix, string $newCollectionName): bool {
+        $stmt = $this->pdo->prepare("RENAME TABLE {$oldPrefix}{$oldCollectionName} TO {$newPrefix}{$newCollectionName}");
         return $stmt->execute();
     }
 

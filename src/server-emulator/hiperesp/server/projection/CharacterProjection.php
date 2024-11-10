@@ -1,31 +1,15 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\ArmorModel;
-use hiperesp\server\models\CharacterItemModel;
-use hiperesp\server\models\ClassModel;
-use hiperesp\server\models\HairModel;
-use hiperesp\server\models\ItemCategoryModel;
-use hiperesp\server\models\ItemModel;
-use hiperesp\server\models\QuestModel;
-use hiperesp\server\models\RaceModel;
-use hiperesp\server\models\WeaponModel;
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 
 class CharacterProjection extends Projection {
 
-    private SettingsVO $settings;
-    private RaceModel $raceModel;
-    private QuestModel $questModel;
-    private ClassModel $classModel;
-    private ArmorModel $armorModel;
-    private WeaponModel $weaponModel;
-    private HairModel $hairModel;
-    private ItemModel $itemModel;
-    private ItemCategoryModel $itemCategoryModel;
-    private CharacterItemModel $characterItemModel;
+    #[Inject] private SettingsVO $settings;
 
     public function created(): array {
         return [
@@ -97,20 +81,20 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('GuildID', 1);
         $charEl->addAttribute('strGuildName', "None");
 
-        $race = $this->raceModel->getByChar($char);
+        $race = $char->getRace();
         $charEl->addAttribute('RaceID', $race->id);
         $charEl->addAttribute('strRaceName', $race->name);
 
-        $quest = $this->questModel->getByChar($char);
-        $charEl->addAttribute('QuestID', $quest->id);
-        $charEl->addAttribute('strQuestName', $quest->name);
-        $charEl->addAttribute('strQuestFileName', $quest->swf);
-        $charEl->addAttribute('strXQuestFileName', $quest->swfX);
-        $charEl->addAttribute('strExtra', $quest->extra);
+        $town = $char->getTown();
+        $charEl->addAttribute('QuestID', $town->id);
+        $charEl->addAttribute('strQuestName', $town->name);
+        $charEl->addAttribute('strQuestFileName', $town->swf);
+        $charEl->addAttribute('strXQuestFileName', $town->swfX);
+        $charEl->addAttribute('strExtra', $town->extra);
 
         $charEl->addAttribute('BaseClassID', $char->baseClassId);
 
-        $class = $this->classModel->getByChar($char);
+        $class = $char->getClass();
         $charEl->addAttribute('ClassID', $class->id);
         $charEl->addAttribute('strClassName', $class->name);
         $charEl->addAttribute('strClassFileName', $class->swf);
@@ -118,7 +102,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intSavable', $class->savable);
         $charEl->addAttribute('strEquippable', $class->equippable);
 
-        $armor = $this->armorModel->getByClass($class);
+        $armor = $class->getArmor();
         $charEl->addAttribute('strArmorName', $armor->name);
         $charEl->addAttribute('strArmorDescription', $armor->description);
         $charEl->addAttribute('strArmorResists', $armor->resists);
@@ -129,7 +113,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDodge', $armor->dodge);
         $charEl->addAttribute('intBlock', $armor->block);
 
-        $weapon = $this->weaponModel->getByClass($class);
+        $weapon = $class->getWeapon();
         $charEl->addAttribute('strWeaponName', $weapon->name);
         $charEl->addAttribute('strWeaponDescription', $weapon->description);
         $charEl->addAttribute('strWeaponDesignInfo', $weapon->designInfo);
@@ -143,7 +127,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDmgMax', $weapon->damageMax);
         $charEl->addAttribute('intBonus', $weapon->bonus);
 
-        $hair = $this->hairModel->getByChar($char);
+        $hair = $char->getHair();
         $charEl->addAttribute('strHairFileName', $hair->swf);
         $charEl->addAttribute('intHairFrame', 1);
 
@@ -151,7 +135,7 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDaily', $char->isDailyQuestAvailable() ? 1 : 0);
         $charEl->addAttribute('intDailyRoll', 1); // not used at game.swf
 
-        foreach($this->characterItemModel->getByChar($char) as $characterItem) {
+        foreach($char->getBag() as $characterItem) {
             $itemEl = $charEl->addChild('items');
 
             $itemEl->addAttribute('CharItemID', $characterItem->id);
@@ -159,8 +143,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('intCount', $characterItem->count);
             $itemEl->addAttribute('intHoursOwned', $characterItem->getHoursOwned());
 
-            $item = $this->itemModel->getByCharItem($characterItem);
-
+            $item = $characterItem->getItem();
             $itemEl->addAttribute('ItemID', $item->id);
             $itemEl->addAttribute('strItemName', $item->name);
             $itemEl->addAttribute('strItemDescription', $item->description);
@@ -177,7 +160,7 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('strType', $item->type);
             $itemEl->addAttribute('strElement', $item->element);
 
-            $category = $this->itemCategoryModel->getByItem($item);
+            $category = $item->getCategory();
             $itemEl->addAttribute('intCategory', $category->id);
             $itemEl->addAttribute('strCategory', $category->name);
 
@@ -242,6 +225,58 @@ class CharacterProjection extends Projection {
         }
         $questRewardEl->addAttribute('intCoins', $coins);
 
+        foreach($quest->getRewards() as $item) {
+            $itemEl = $questRewardEl->addChild('items');
+
+            $itemEl->addAttribute('ItemID', $item->id);
+            $itemEl->addAttribute('strItemName', $item->name);
+            $itemEl->addAttribute('strItemDescription', $item->description);
+            $itemEl->addAttribute('bitVisible', $item->visible);
+            $itemEl->addAttribute('bitDestroyable', $item->destroyable);
+            $itemEl->addAttribute('bitSellable', $item->sellable);
+            $itemEl->addAttribute('bitDragonAmulet', $item->dragonAmulet);
+            $itemEl->addAttribute('intCurrency', $item->currency);
+            $itemEl->addAttribute('intCost', $item->cost);
+            $itemEl->addAttribute('intMaxStackSize', $item->maxStackSize);
+            $itemEl->addAttribute('intBonus', $item->bonus);
+            $itemEl->addAttribute('intRarity', $item->rarity);
+            $itemEl->addAttribute('intLevel', $item->level);
+            $itemEl->addAttribute('strType', $item->type);
+            $itemEl->addAttribute('strElement', $item->element);
+
+            $category = $item->getCategory();
+            $itemEl->addAttribute('strCategory', $category->name);
+
+            $itemEl->addAttribute('strEquipSpot', $item->equipSpot);
+            $itemEl->addAttribute('strItemType', $item->itemType);
+            $itemEl->addAttribute('strFileName', $item->swf);
+            $itemEl->addAttribute('strIcon', $item->icon);
+            $itemEl->addAttribute('intStr', $item->strength);
+            $itemEl->addAttribute('intDex', $item->dexterity);
+            $itemEl->addAttribute('intInt', $item->intelligence);
+            $itemEl->addAttribute('intLuk', $item->luck);
+            $itemEl->addAttribute('intCha', $item->charisma);
+            $itemEl->addAttribute('intEnd', $item->endurance);
+            $itemEl->addAttribute('intWis', $item->wisdom);
+            $itemEl->addAttribute('intMin', $item->damageMin);
+            $itemEl->addAttribute('intMax', $item->damageMax);
+            $itemEl->addAttribute('intDefMelee', $item->defenseMelee);
+            $itemEl->addAttribute('intDefPierce', $item->defensePierce);
+            $itemEl->addAttribute('intDefMagic', $item->defenseMagic);
+            $itemEl->addAttribute('intCrit', $item->critical);
+            $itemEl->addAttribute('intParry', $item->parry);
+            $itemEl->addAttribute('intDodge', $item->dodge);
+            $itemEl->addAttribute('intBlock', $item->block);
+            $itemEl->addAttribute('strResists', $item->resists);
+
+        }
+
+        return $xml;
+    }
+
+    public function questItemReward(CharacterItemVO $charItem): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<questreward/>');
+        $xml->addChild('CharItemID', $charItem->id);
         return $xml;
     }
 
@@ -266,6 +301,52 @@ class CharacterProjection extends Projection {
         $bankEl->addAttribute('strCharacterName', $char->name);
 
         return $xml;
+    }
+
+    public function characterPage(CharacterVO $char): array {
+
+        $user = $char->getUser();
+
+        $hair = $char->getHair();
+        $class = $char->getClass();
+        $race = $char->getRace();
+
+        $armor = $class->getArmor();
+        $weapon = $class->getWeapon();
+
+        return [
+            "Name" => $char->name,
+            "Level" => $char->level,
+            "ClassName" => $class->name,
+            "ClassFileName" => $class->swf,
+            "Gender" => $char->gender,
+            "Race" => $race->name,
+            "Gold" => $char->gold,
+            "DA" => $char->dragonAmulet ? 1 : 0,
+            "strArmor" => $char->armor,
+            "strSkills" => $char->skills,
+            "strQuests" => $char->quests,
+            "Founder" => $user->id == 1 ? 1 : 0,
+            "HairColor" => \hexdec($char->colorHair),
+            "SkinColor" => \hexdec($char->colorSkin),
+            "BaseColor" => \hexdec($char->colorBase),
+            "TrimColor" => \hexdec($char->colorTrim),
+            "HairFileName" => $hair->swf,
+            "WeaponFilename" => $weapon->swf ?: "none",
+            "HelmFilename" => "none",
+            "BackFilename" => "none",
+            "NoDragon" => "right",
+            "DHead" => "none",
+            "DWing" => "none",
+            "DTail" => "none",
+            "DskinC" => "",
+            "DeyeC" => "",
+            "DhornC" => "",
+            "DwingC" => "",
+            "Created" => \date("Y-m-d", \strtotime($char->createdAt)),
+            "LastPlayed" => \date("Y-m-d", \strtotime($char->lastTimeSeen)),
+            "up" => "1",
+        ];
     }
 
 }

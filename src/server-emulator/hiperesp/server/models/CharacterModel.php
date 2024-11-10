@@ -1,10 +1,13 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\models;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ClassVO;
+use hiperesp\server\vo\HairVO;
 use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 use hiperesp\server\vo\UserVO;
@@ -13,9 +16,9 @@ class CharacterModel extends Model {
 
     const COLLECTION = 'char';
 
-    private SettingsVO $settings;
+    #[Inject] private SettingsVO $settings;
 
-    public function reload(CharacterVO $char): CharacterVO {
+    public function refresh(CharacterVO $char): CharacterVO {
         return $this->getById($char->id);
     }
 
@@ -69,10 +72,7 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
-    public function chargeItem(CharacterItemVO $charItem): void {
-        $item = $charItem->getItem();
-        $char = $charItem->getChar();
-
+    public function charge(CharacterVO $char, Purchasable $item): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'gold' => $char->gold - $item->getPriceGold(),
@@ -156,8 +156,6 @@ class CharacterModel extends Model {
             $level++;
         }
 
-        $this->applyLevelUpBonuses($char, $level);
-
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'experience' => $experience,
@@ -197,25 +195,6 @@ class CharacterModel extends Model {
         ]);
     }
 
-    private function applyLevelUpBonuses(CharacterVO $char, int $newLevel): void {
-        $bonusesPerLevel = [
-            'hitPoints' => 20,
-            'manaPoints' => 5,
-        ];
-
-        $fullBonuses = [
-            'hitPoints'  => $char->hitPoints,
-            'manaPoints' => $char->manaPoints,
-        ];
-        for($i = $char->level + 1; $i <= $newLevel; $i++) {
-            foreach($bonusesPerLevel as $key => $value) {
-                $fullBonuses[$key] += $value;
-            }
-        }
-
-        $this->storage->update(self::COLLECTION, \array_merge([ 'id' => $char->id, ], $fullBonuses));
-    }
-
     private function updateLastTimeSeen(CharacterVO $char): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
@@ -231,7 +210,7 @@ class CharacterModel extends Model {
     }
 
     public function getOnlineCount(): int {
-        $minutesToConsiderOnline = $this->settings->onlineTimeout;
+        $minutesToConsiderOnline = $this->settings->onlineThreshold;
         $times = [];
         for($i = 0; $i < $minutesToConsiderOnline; $i++) {
             $times[] = \date('Y-m-d H:i:00', \strtotime("-{$i} minutes"));
@@ -271,6 +250,15 @@ class CharacterModel extends Model {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'pronoun' => $pronoun
+        ]);
+    }
+
+    public function applyHair(CharacterVO $char, HairVO $hair, int $hairColor, int $skinColor): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'hairId' => $hair->id,
+            'colorHair' => \dechex($hairColor),
+            'colorSkin' => \dechex($skinColor)
         ]);
     }
 

@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\controllers;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
@@ -10,8 +11,8 @@ use hiperesp\server\services\UserService;
 
 class CharacterController extends Controller {
 
-    private UserService $userService;
-    private CharacterService $characterService;
+    #[Inject] private UserService $userService;
+    #[Inject] private CharacterService $characterService;
 
     #[Request(
         endpoint: '/cf-characterload.asp',
@@ -105,6 +106,25 @@ class CharacterController extends Controller {
         $char = $this->characterService->auth($input);
 
         return CharacterProjection::instance()->bankLoaded($char);
+    }
+
+    #[Request(
+        endpoint: '/cf-expsave.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::NINJA2XML
+    )]
+    public function expSave(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $char = $this->characterService->applyExpSave($char,
+            questId: (int)$input->intQuestID,
+            experience: (int)$input->intExp,
+            gems: (int)$input->intGems,
+            gold: (int)$input->intGold,
+            silver: (int)$input->intSilver
+        );
+
+        return CharacterProjection::instance()->expSaved($char);
     }
 
 }

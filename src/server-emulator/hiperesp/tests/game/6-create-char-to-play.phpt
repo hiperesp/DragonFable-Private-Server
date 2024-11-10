@@ -6,8 +6,8 @@ $charController = new \hiperesp\server\controllers\CharacterController;
 
 $response = $charController->new([
     "intUserID" => $context["userId"],
-    "strUsername" => "test-".$context["userNameId"],
-    "strPassword" => $context["userPassword"],
+    "strUsername" => $context["username"],
+    "strPassword" => $context["password"],
     "strToken" => $context["userToken"],
     "strCharacterName" => "testchar",
     "strGender" => "M",

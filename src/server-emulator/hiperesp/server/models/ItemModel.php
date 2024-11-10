@@ -5,11 +5,13 @@ use hiperesp\server\exceptions\DFException;
 use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\ItemVO;
 use hiperesp\server\vo\ItemShopVO;
+use hiperesp\server\vo\QuestVO;
 
 class ItemModel extends Model {
 
     const COLLECTION = 'item';
     const ITEM_SHOP_ASSOCIATION = 'itemShop_item';
+    const QUEST_ITEM_ASSOCIATION = 'quest_item';
 
     public function getById(int $itemId): ItemVO {
         $item = $this->storage->select(self::COLLECTION, ['id' => $itemId]);
@@ -32,6 +34,17 @@ class ItemModel extends Model {
         $itemIds = \array_map(function(array $item): int {
             return (int)$item['itemId'];
         }, $this->storage->select(self::ITEM_SHOP_ASSOCIATION, ['itemShopId' => $shop->id], null));
+
+        return \array_map(function(array $item): ItemVO {
+            return new ItemVO($item);
+        }, $this->storage->select(self::COLLECTION, ['id' => $itemIds], null));
+    }
+
+    /** @return array<ItemVO> */
+    public function getByQuest(QuestVO $quest): array {
+        $itemIds = \array_map(function(array $item): int {
+            return (int)$item['itemId'];
+        }, $this->storage->select(self::QUEST_ITEM_ASSOCIATION, ['questId' => $quest->id], null));
 
         return \array_map(function(array $item): ItemVO {
             return new ItemVO($item);

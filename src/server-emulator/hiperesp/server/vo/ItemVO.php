@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\enums\ItemCategory;
 use hiperesp\server\enums\Currency;
-use hiperesp\server\exceptions\DFException;
+use hiperesp\server\interfaces\Purchasable;
+use hiperesp\server\models\ItemCategoryModel;
 
-class ItemVO extends ValueObject {
+class ItemVO extends ValueObject implements Purchasable {
     public readonly int $id;
 
-    const CATEGORY_WEAPON = 1;
-    const CATEGORY_ARMOR = 2;
-    const CATEGORY_PET = 3;
-    const CATEGORY_ITEM = 4;
+    #[Inject] private ItemCategoryModel $itemCategoryModel;
 
     public readonly string $name;
     public readonly string $description;
@@ -50,36 +50,32 @@ class ItemVO extends ValueObject {
     public readonly int $block;
     public readonly string $resists;
 
-    public function getCurrency(): Currency {
-        return match($this->currency) {
-            2 => Currency::CURRENCY_GOLD,
-            1 => Currency::CURRENCY_DRAGON_COINS,
-            default => throw new DFException(DFException::CURRENCY_NOT_FOUND)
-        };
-    }
-
     public function getPriceGold(): int {
-        return $this->getCurrency() === Currency::CURRENCY_GOLD ? $this->cost : 0;
+        return $this->currency === Currency::GOLD ? $this->cost : 0;
     }
 
     public function getPriceCoins(): int {
-        return $this->getCurrency() === Currency::CURRENCY_DRAGON_COINS ? $this->cost : 0;
+        return $this->currency === Currency::DRAGON_COINS ? $this->cost : 0;
     }
 
     public function isWeapon(): bool {
-        return $this->categoryId === self::CATEGORY_WEAPON;
+        return $this->categoryId === ItemCategory::WEAPON;
     }
 
     public function isArmor(): bool {
-        return $this->categoryId === self::CATEGORY_ARMOR;
+        return $this->categoryId === ItemCategory::ARMOR;
     }
 
     public function isPet(): bool {
-        return $this->categoryId === self::CATEGORY_PET;
+        return $this->categoryId === ItemCategory::PET;
     }
 
     public function isItem(): bool {
-        return $this->categoryId === self::CATEGORY_ITEM;
+        return $this->categoryId === ItemCategory::ITEM;
+    }
+
+    public function getCategory(): ItemCategoryVO {
+        return $this->itemCategoryModel->getByItem($this);
     }
 
 }

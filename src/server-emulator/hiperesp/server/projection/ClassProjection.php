@@ -1,14 +1,9 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\ArmorModel;
-use hiperesp\server\models\WeaponModel;
 use hiperesp\server\vo\ClassVO;
 
 class ClassProjection extends Projection {
-
-    private ArmorModel $armorModel;
-    private WeaponModel $weaponModel;
 
     public function changed(ClassVO $class): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<changeClass/>');
@@ -21,7 +16,7 @@ class ClassProjection extends Projection {
         $charEl->addAttribute('intSavable', $class->savable);
         $charEl->addAttribute('strEquippable', $class->equippable);
 
-        $armor = $this->armorModel->getByClass($class);
+        $armor = $class->getArmor();
         $charEl->addAttribute('strArmorName', $armor->name);
         $charEl->addAttribute('strArmorDescription', $armor->description);
         $charEl->addAttribute('strArmorResists', $armor->resists);
@@ -32,7 +27,7 @@ class ClassProjection extends Projection {
         $charEl->addAttribute('intDodge', $armor->dodge);
         $charEl->addAttribute('intBlock', $armor->block);
 
-        $weapon = $this->weaponModel->getByClass($class);
+        $weapon = $class->getWeapon();
         $charEl->addAttribute('strWeaponName', $weapon->name);
         $charEl->addAttribute('strWeaponDescription', $weapon->description);
         $charEl->addAttribute('strWeaponResists', $weapon->resists);
@@ -59,7 +54,7 @@ class ClassProjection extends Projection {
         $charEl->addAttribute('intSavable', $class->savable);
         $charEl->addAttribute('strEquippable', $class->equippable);
 
-        $armor = $this->armorModel->getByClass($class);
+        $armor = $class->getArmor();
         $charEl->addAttribute('strArmorName', $armor->name);
         $charEl->addAttribute('strArmorDescription', $armor->description);
         $charEl->addAttribute('strArmorResists', $armor->resists);
@@ -70,7 +65,7 @@ class ClassProjection extends Projection {
         $charEl->addAttribute('intDodge', $armor->dodge);
         $charEl->addAttribute('intBlock', $armor->block);
 
-        $weapon = $this->weaponModel->getByClass($class);
+        $weapon = $class->getWeapon();
         $charEl->addAttribute('strWeaponName', $weapon->name);
         $charEl->addAttribute('strWeaponDescription', $weapon->description);
         $charEl->addAttribute('strWeaponResists', $weapon->resists);

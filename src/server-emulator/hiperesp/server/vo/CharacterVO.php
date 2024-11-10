@@ -1,13 +1,25 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\vo;
 
+use hiperesp\server\attributes\Inject;
+use hiperesp\server\interfaces\Purchasable;
+use hiperesp\server\models\CharacterItemModel;
+use hiperesp\server\models\ClassModel;
+use hiperesp\server\models\HairModel;
+use hiperesp\server\models\RaceModel;
+use hiperesp\server\models\TownModel;
 use hiperesp\server\models\UserModel;
 
 class CharacterVO extends ValueObject {
     public readonly int $id;
 
-    private UserModel $userModel;
-    private SettingsVO $settings;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private ClassModel $classModel;
+    #[Inject] private HairModel $hairModel;
+    #[Inject] private RaceModel $raceModel;
+    #[Inject] private TownModel $townModel;
+    #[Inject] private UserModel $userModel;
+    #[Inject] private SettingsVO $settings;
 
     public readonly int $userId;
 
@@ -18,9 +30,6 @@ class CharacterVO extends ValueObject {
 
     public readonly int $level;
     public readonly int $experience;
-
-    public readonly int $hitPoints;
-    public readonly int $manaPoints;
 
     public readonly int $silver;
     public readonly int $gold;
@@ -58,6 +67,8 @@ class CharacterVO extends ValueObject {
     public readonly int $raceId;
     public readonly int $classId;
     public readonly int $baseClassId;
+
+    public readonly string $lastTimeSeen;
 
     public function getExperienceToLevel(): int {
         $expToLevel = match(true) {
@@ -119,13 +130,38 @@ class CharacterVO extends ValueObject {
         return $this->settings->nonUpgradedMaxHouseItemSlots;
     }
 
-    public function canBuyItem(ItemVO $item): bool {
+    public function canBuy(Purchasable $item): bool {
         if($this->coins < $item->getPriceCoins()) {
             return false;
         }
         if($this->gold < $item->getPriceGold()) {
             return false;
         }
+        return true;
+    }
+
+    public function canMerge(MergeVO $merge): bool {
+
+        if($merge->itemId1) {
+            if($requiredItem1 = $this->characterItemModel->getByCharAndItemId($this, $merge->itemId1)) {
+                if($requiredItem1->count < $merge->amount1) {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        }
+
+        if($merge->itemId2) {
+            if($requiredItem2 = $this->characterItemModel->getByCharAndItemId($this, $merge->itemId2)) {
+                if($requiredItem2->count < $merge->amount2) {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        }
+
         return true;
     }
 
@@ -140,6 +176,27 @@ class CharacterVO extends ValueObject {
 
     public function getUser(): UserVO {
         return $this->userModel->getByChar($this);
+    }
+
+    public function getRace(): RaceVO {
+        return $this->raceModel->getByChar($this);
+    }
+
+    public function getTown(): QuestVO {
+        return $this->townModel->getByChar($this);
+    }
+
+    public function getClass(): ClassVO {
+        return $this->classModel->getByChar($this);
+    }
+
+    public function getHair(): HairVO {
+        return $this->hairModel->getByChar($this);
+    }
+
+    /** @return array<CharacterItemVO> */
+    public function getBag(): array {
+        return $this->characterItemModel->getByChar($this);
     }
 
 }

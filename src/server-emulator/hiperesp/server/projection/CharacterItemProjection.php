@@ -14,14 +14,14 @@ class CharacterItemProjection extends Projection {
         return $xml;
     }
 
-    public function destroyed(CharacterItemVO $charItem): \SimpleXMLElement {
+    public function destroyed(): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<ItemDestroy/>');
         $xml->addChild('status', 'SUCCESS');
 
         return $xml;
     }
 
-    public function sold(CharacterItemVO $charItem): \SimpleXMLElement {
+    public function sold(): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<shopItem/>');
         $xml->addChild('status', 'SUCCESS');
 

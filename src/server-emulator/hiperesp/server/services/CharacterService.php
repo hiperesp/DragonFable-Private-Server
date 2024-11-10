@@ -1,25 +1,32 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
+use hiperesp\server\models\ItemModel;
 use hiperesp\server\models\LogsModel;
+use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\UserModel;
+use hiperesp\server\vo\CharacterItemVO;
 use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\ClassVO;
+use hiperesp\server\vo\QuestVO;
 use hiperesp\server\vo\SettingsVO;
 
 class CharacterService extends Service {
 
-    private ClassModel $classModel;
-    private UserModel $userModel;
-    private CharacterModel $characterModel;
-    private CharacterItemModel $characterItemModel;
-    private LogsModel $logsModel;
-
-    private SettingsVO $settings;
+    #[Inject] private UserService $userService;
+    #[Inject] private ClassModel $classModel;
+    #[Inject] private UserModel $userModel;
+    #[Inject] private CharacterModel $characterModel;
+    #[Inject] private ItemModel $itemModel;
+    #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private QuestModel $questModel;
+    #[Inject] private LogsModel $logsModel;
+    #[Inject] private SettingsVO $settings;
 
     public function auth(\SimpleXMLElement|array|string $inputOrUserToken, int|string|null $charId = null): CharacterVO {
         if(\is_array($inputOrUserToken)) {
@@ -71,7 +78,7 @@ class CharacterService extends Service {
                     $actionLog = $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'trainStats', "Invalid gold cost for trainStats. Should be {$newGoldCost}.", $char, $char, [
                         'cost' => $goldCost
                     ]);
-                    $this->userModel->ban($char, 'Invalid gold cost for trainStats.', $actionLog);
+                    $this->userService->ban($char, 'Invalid gold cost for trainStats.', $actionLog);
                 }
             }
             $goldCost = $newGoldCost;
@@ -156,7 +163,7 @@ class CharacterService extends Service {
                         'newClassId' => $newClassId
                     ]);
                     if($this->settings->banInvalidClientValues) {
-                        $this->userModel->ban($char, 'Invalid class for loadClass.', $actionLog);
+                        $this->userService->ban($char, 'Invalid class for loadClass.', $actionLog);
                     }
                     throw $actionLog->asException(DFException::INVALID_REFERENCE);
                 }
@@ -174,6 +181,34 @@ class CharacterService extends Service {
         ]);
 
         return $class;
+    }
+
+    public function applyExpSave(CharacterVO $char, int $questId, int $experience, int $gems, int $gold, int $silver): CharacterVO {
+        $quest = $this->questModel->getById($questId);
+
+        $this->characterModel->applyExpSave($char, $quest, [
+            'experience' => $experience,
+            'gems'       => $gems,
+            'gold'       => $gold,
+            'silver'     => $silver
+        ]);
+
+        return $this->characterModel->refresh($char);
+    }
+
+    public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $rewards): CharacterVO {
+        $this->characterModel->applyQuestRewards($char, $quest, $rewards);
+        return $this->characterModel->refresh($char);
+    }
+
+    public function applyQuestItemRewards(CharacterVO $char, int $newItemID): CharacterItemVO {
+        $item = $this->itemModel->getById($newItemID);
+        $charItem = $this->characterItemModel->addItemToChar($char, $item);
+        return $charItem;
+    }
+
+    public function setQuestString(CharacterVO $char, int $index, int $value): void {
+        $this->characterModel->setQuestString($char, $index, $value);
     }
 
 }

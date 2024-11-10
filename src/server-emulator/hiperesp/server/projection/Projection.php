@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\projection;
 
-use hiperesp\server\util\AutoInstantiate;
+use hiperesp\server\traits\InjectDependency;
 
 abstract class Projection {
 
+    use InjectDependency;
+
     final public function __construct() {
-        $autoInstantiate = new AutoInstantiate($this);
-        $autoInstantiate->models();
-        $autoInstantiate->settings();
+        $this->injectDependencies();
     }
 
     public final static function instance(): static {

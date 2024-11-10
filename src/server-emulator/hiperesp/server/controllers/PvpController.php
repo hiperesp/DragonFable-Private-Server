@@ -7,14 +7,13 @@ use hiperesp\server\enums\Output;
 
 class PvpController extends Controller {
 
-    // [WIP]
-    #[Request(
-        endpoint: '/cf-loadpvpchar.asp',
-        inputType: Input::RAW,
-        outputType: Output::RAW
-    )]
-    public function load(string $input): string {
-        return "";
-    }
+    // #[Request(
+    //     endpoint: '/cf-loadpvpchar.asp',
+    //     inputType: Input::RAW,
+    //     outputType: Output::RAW
+    // )]
+    // public function load(string $input): string {
+    //     return "";
+    // }
 
 }

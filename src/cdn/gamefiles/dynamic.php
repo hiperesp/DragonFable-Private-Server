@@ -1,7 +1,5 @@
 <?php declare(strict_types=1);
 
-$pathInfo = $_SERVER['PATH_INFO'];
-
 function dynamic(string $pathInfo): string|false {
     include 'local.php';
     $out = local($pathInfo);
@@ -19,6 +17,8 @@ function dynamic(string $pathInfo): string|false {
 }
 
 if(__FILE__ == $_SERVER["SCRIPT_FILENAME"]) {
+    $pathInfo = \strtolower($_SERVER['PATH_INFO']);
+
     $out = dynamic($pathInfo);
     if($out===false) {
         \http_response_code(404);

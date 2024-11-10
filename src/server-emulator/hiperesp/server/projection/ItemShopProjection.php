@@ -1,14 +1,9 @@
 <?php
 namespace hiperesp\server\projection;
 
-use hiperesp\server\models\ItemCategoryModel;
-use hiperesp\server\models\ItemModel;
 use hiperesp\server\vo\ItemShopVO;
 
 class ItemShopProjection extends Projection {
-
-    private ItemModel $itemModel;
-    private ItemCategoryModel $itemCategoryModel;
 
     public function loaded(ItemShopVO $shop): \SimpleXMLElement {
 
@@ -18,7 +13,7 @@ class ItemShopProjection extends Projection {
         $shopEl->addAttribute('strCharacterName', $shop->name);
         $shopEl->addAttribute('intCount', $shop->count);
 
-        foreach($this->itemModel->getByShop($shop) as $item) {
+        foreach($shop->getItems() as $item) {
             $itemEl = $shopEl->addChild('items');
 
             $itemEl->addAttribute('ItemID', $item->id);
@@ -37,7 +32,7 @@ class ItemShopProjection extends Projection {
             $itemEl->addAttribute('strType', $item->type);
             $itemEl->addAttribute('strElement', $item->element);
 
-            $category = $this->itemCategoryModel->getByItem($item);
+            $category = $item->getCategory();
             $itemEl->addAttribute('strCategory', $category->name);
 
             $itemEl->addAttribute('strEquipSpot', $item->equipSpot);

@@ -7,17 +7,22 @@ There are some tools and tips that can help you to develop the server.
 
 You can se the `/dev-tools/` dir for some tools that can help you to develop the server.
 
-### extract-production-data
+To use some tools, you need to enter in container and run the command. Example:
+```sh
+docker exec -it dragonfable-web /bin/bash # Enter in container, you must be at /var/www/html/ dir
+cd dev-tools/ # Enter in dev-tools dir
+cd TOOL_NAME/ # Enter in the tool dir (replace TOOL_NAME with the tool dir name, you can see the tools list below or use `ls` command)
+php TOOL_NAME.php # Run the tool (replace TOOL_NAME with the tool name, you can see the tools list below or use `ls` command)
+```
 
-Is a helper to extract the production data from the database, using only in the development.
+### download-production-data
+
+Is a new helper to extract the production data from the database, using only in the development.
 
 Tools:
-- `extract-production-data.php`: Extract the production data and store in `xml` files.
-- `convert-production-data-to-json.php`: Convert the `xml` files to `json` files, in order to be used by the server.
-- `remove-duplicated-mergeShops-items.php`: Remove the duplicated items from the `mergeShops` items. Some items can be duplicated in the `mergeShops` items, so this tool will remove the duplicated items.
-
-Other tools:
-- `extract-swf-from-extracted-production-data.php`: Extract the `swf` files from the `xml` files from `extract-production-data.php` tool and request it to the local cdn server at cache mode. (untested after some changes). If some `swf` file is not found, it will be stored in `current-swf-download-fails.txt` file.
+- `download.php`: Will download all known production data from the server and store in `xml` files, in format: `downloaded/{$type}/{$id}.xml`.
+- `convert.php`: Convert the `xml` files to `json` files, in order to be used by the server.
+- `download-swf.php`: Download all `swf` files from the server based on the converted `json` files. It will store in the `cdn` folder.
 
 ### extract-swf-strings
 

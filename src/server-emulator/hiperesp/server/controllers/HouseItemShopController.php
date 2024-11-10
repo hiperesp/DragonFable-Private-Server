@@ -7,14 +7,13 @@ use hiperesp\server\enums\Output;
 
 class HouseItemShopController extends Controller {
 
-    // [WIP]
-    #[Request(
-        endpoint: '/cf-loadhouseitemshop.asp',
-        inputType: Input::RAW,
-        outputType: Output::RAW
-    )]
-    public function load(string $input): string {
-        return "";
-    }
+    // #[Request(
+    //     endpoint: '/cf-loadhouseitemshop.asp',
+    //     inputType: Input::RAW,
+    //     outputType: Output::RAW
+    // )]
+    // public function load(string $input): string {
+    //     return "";
+    // }
 
 }
