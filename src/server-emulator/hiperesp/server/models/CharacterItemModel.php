@@ -37,7 +37,7 @@ class CharacterItemModel extends Model {
         return new CharacterItemVO($newData);
     }
 
-    public function removeItemFromChar(CharacterVO $char, ItemVO $item, int $amount): void {
+    public function removeItemFromChar(CharacterVO $char, ItemVO $item, int $amount): CharacterItemVO {
         $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id]);
         if(!isset($charItem[0]) || !$charItem = $charItem[0]) {
             throw new DFException(DFException::CHARACTER_ITEM_NOT_FOUND);
@@ -53,6 +53,8 @@ class CharacterItemModel extends Model {
         } else {
             $this->storage->delete(self::COLLECTION, ['id' => $charItem['id']]);
         }
+
+        return new CharacterItemVO($charItem);
     }
 
     public function getByCharAndId(CharacterVO $char, int $id): CharacterItemVO {
