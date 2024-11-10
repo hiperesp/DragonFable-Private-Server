@@ -95,6 +95,13 @@ class CharacterVO extends ValueObject implements Bannable {
         return $expToLevel;
     }
 
+    public function getHitPoints(): int {
+        return ($this->level - 1) * 20 + 100;
+    }
+    public function getManaPoints(): int {
+        return ($this->level - 1) * 5 + 100;
+    }
+
     public function getStatPoints(): int {
         return ($this->level - 1) * 5;
     }

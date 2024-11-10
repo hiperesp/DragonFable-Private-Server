@@ -45,8 +45,8 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('isBirthday', $char->isBirthday() ? '1' : '0');
         $charEl->addAttribute('intLevel', $char->level);
         $charEl->addAttribute('intExp', $char->experience);
-        $charEl->addAttribute('intHP', $char->hitPoints);
-        $charEl->addAttribute('intMP', $char->manaPoints);
+        $charEl->addAttribute('intHP', $char->getHitPoints());
+        $charEl->addAttribute('intMP', $char->getManaPoints());
         $charEl->addAttribute('intSilver', $char->silver);
         $charEl->addAttribute('intGold', $char->gold);
         $charEl->addAttribute('intGems', $char->gems);
@@ -199,8 +199,8 @@ class CharacterProjection extends Projection {
         $questRewardEl = $xml->addChild('questreward');
         $questRewardEl->addAttribute('intLevel', $char->level);
         $questRewardEl->addAttribute('intExp', $char->experience);
-        $questRewardEl->addAttribute('intHP', $char->hitPoints);
-        $questRewardEl->addAttribute('intMP', $char->manaPoints);
+        $questRewardEl->addAttribute('intHP', $char->getHitPoints());
+        $questRewardEl->addAttribute('intMP', $char->getManaPoints());
         $questRewardEl->addAttribute('intSilver', $char->silver);
         $questRewardEl->addAttribute('intGold', $char->gold);
         $questRewardEl->addAttribute('intGems', $char->gems);
