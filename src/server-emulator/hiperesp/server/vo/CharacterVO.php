@@ -10,7 +10,7 @@ use hiperesp\server\models\RaceModel;
 use hiperesp\server\models\TownModel;
 use hiperesp\server\models\UserModel;
 
-class CharacterVO extends ValueObject {
+class CharacterVO extends ValueObject implements Bannable {
 
     #[Inject] private CharacterItemModel $characterItemModel;
     #[Inject] private ClassModel $classModel;

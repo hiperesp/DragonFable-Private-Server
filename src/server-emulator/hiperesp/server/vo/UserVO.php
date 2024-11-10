@@ -4,7 +4,7 @@ namespace hiperesp\server\vo;
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\models\CharacterModel;
 
-class UserVO extends ValueObject {
+class UserVO extends ValueObject implements Bannable {
 
     #[Inject] private CharacterModel $characterModel;
     #[Inject] private SettingsVO $settings;
