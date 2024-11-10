@@ -107,7 +107,7 @@ final class DFException extends \Exception {
         self::INVALID_REFERENCE => [
             "dfReason"  => "Invalid Reference",
             "dfMessage" => "Invalid Reference",
-            "dfAction"  => "Continue",
+            "dfAction"  => "none",
         ],
         self::INVALID_SESSION => [
             "dfReason"  => "Account Already in Use",
@@ -132,23 +132,23 @@ final class DFException extends \Exception {
         self::CHARACTER_NOT_FOUND => [
             "dfReason"  => "Character doesn't exist!",
             "dfMessage" => "Character doesn't exist!",
-            "dfAction"  => "None",
+            "dfAction"  => "none",
         ],
         self::BAD_REQUEST => [
             "dfReason"  => "Invalid Input!",
             "dfMessage" => "Message",
-            "dfAction"  => "None",
+            "dfAction"  => "none",
         ],
         self::USER_BANNED => [
             "dfReason"  => "User Banned",
             // create a custom message using \n, <font color> tags, etc
             "dfMessage" => "Your account has been <font color=\"#FF0000\">banned</font>.\n\nIf you believe this is an error, please contact us through the <font color=\"#ff0000\">Help Pages</font>.",
-            "dfAction"  => "None",
+            "dfAction"  => "none",
         ],
         self::DYNAMIC_ERROR => [
             "dfReason"  => "Dynamic Error",
             "dfMessage" => "Dynamic Error",
-            "dfAction"  => "None",
+            "dfAction"  => "none",
         ],
     ];
 
