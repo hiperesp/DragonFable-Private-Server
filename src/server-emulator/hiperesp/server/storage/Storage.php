@@ -182,7 +182,6 @@ abstract class Storage {
 
     final public function upgrade(): void {
         $key = \date('YmdHis');
-        $key = "20241110044314";
 
         $migrationPrefix  = "{$this->prefix}migration{$key}_";
         $backupOldPrefix  = "{$this->prefix}backup{$key}_";
