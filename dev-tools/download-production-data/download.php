@@ -97,7 +97,9 @@ $thingsToDownload = [
     ],
 ];
 
-downloadAll($thingsToDownload);
+downloadAll([
+    "questRewards" => $thingsToDownload["questRewards"],
+]);
 
 function downloadAll(array $thingsToDownload): void {
     global $skipDownloaded;
@@ -147,14 +149,28 @@ function getPercentString(int $current, int $total): string {
     return "({$percent}) - MEM: {$memoryUsageStr} - ETA: {$eta}";
 }
 
-function download(string $thingToDownload, int $id, bool $skipDownloaded): bool {
+function download(string $thingToDownload, int $id, bool $skipDownloaded, array $customParams = []): bool {
     global $sessionToken, $charId, $thingsToDownload;
 
-    $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
+    if($thingToDownload=="questRewards") {
+        $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}/%rewardId%.xml";
+    } else {
+        $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
+    }
 
-    if($skipDownloaded && \file_exists($file)) {
-        echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
-        return true;
+    if($skipDownloaded) {
+        if(\file_exists($file)) {
+            echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
+            return true;
+        }
+        if($thingToDownload=="questRewards") {
+            if(!isset($customParams["sequenceWithRepeatedItems"])) {
+                if(\is_dir(\dirname($file))) {
+                    echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
+                    return true;
+                }
+            }
+        }
     }
 
     $thing = $thingsToDownload[$thingToDownload];
@@ -233,10 +249,45 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded): bool 
         return false;
     }
 
-    if(!\is_dir(\dirname($file))) {
-        \mkdir(\dirname($file), 0777, true);
+    $save = true;
+    if($thingToDownload=="questRewards") {
+        $itemId = $child0->items->attributes()?->ItemID;
+        if(!$itemId) {
+            echo "[4] Failed to download {$thingToDownload} {$id}: No ItemID\n";
+            if(!\is_dir(\dirname($file))) {
+                \mkdir(\dirname($file), 0777, true);
+            }
+            return false;
+        }
+        $file = \str_replace("%rewardId%", $itemId, $file);
+        if(\file_exists($file)) {
+            $save = false;
+        } else {
+            echo "[5] Downloaded {$thingToDownload}/{$id} ({$itemId})\n";
+        }
     }
-    \file_put_contents($file, $result);
+
+    if($save) {
+        if(!\is_dir(\dirname($file))) {
+            \mkdir(\dirname($file), 0777, true);
+        }
+        \file_put_contents($file, $result);
+    }
+
+    if($thingToDownload=="questRewards") {
+        $customParams["sequenceWithRepeatedItems"] = isset($customParams["sequenceWithRepeatedItems"]) ? $customParams["sequenceWithRepeatedItems"] : 0;
+        if($save) {
+            $customParams["sequenceWithRepeatedItems"] = 0;
+        } else {
+            $customParams["sequenceWithRepeatedItems"]++;
+        }
+        if($customParams["sequenceWithRepeatedItems"] > 50) {
+            echo "[5] Stopping quest rewards {$id} because of too many repeated items\n";
+            return true;
+        }
+        return download($thingToDownload, $id, $skipDownloaded, $customParams);
+    }
+
     return true;
 }
 
@@ -250,7 +301,9 @@ function startQuest(int $id) {
     $json = \json_decode(\json_encode($xml), true);
     $minTime = $json["quest"]["@attributes"]["intMinTime"];
 
-    echo "[5] Starting quest {$id}. Waiting {$minTime} minute(s)\n";
+    if($minTime > 0) {
+        echo "[5] Starting quest {$id}. Waiting {$minTime} minute(s)\n";
+    }
     \sleep($minTime * 60);
 
     return true;
