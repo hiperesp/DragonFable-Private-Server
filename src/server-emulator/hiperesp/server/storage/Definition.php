@@ -1,9 +1,10 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\storage;
 
-final class CollectionSetup {
-    private static array $collectionSetup = [
+final class Definition {
+    public static array $definition = [
         "settings" => [
+            "migrateOldData" => true,
             "structure" => [
                 "id"                    => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
 
@@ -12,20 +13,20 @@ final class CollectionSetup {
 
                 "serverName"            => [ 'STRING' => 255, "DEFAULT" => "DragonFable Private Server" ],
 
-                "gameSwf"               => [ 'STRING' => 255 ],
-                "serverVersion"         => [ 'STRING' => 255 ],
-                "serverLocation"        => [ 'STRING' => 255 ],
-                "gamefilesPath"         => [ 'STRING' => 255 ],
+                "gameSwf"               => [ 'STRING' => 255, "DEFAULT" => "" ],
+                "serverVersion"         => [ 'STRING' => 255, "DEFAULT" => "" ],
+                "serverLocation"        => [ 'STRING' => 255, "DEFAULT" => "" ],
+                "gamefilesPath"         => [ 'STRING' => 255, "DEFAULT" => "" ],
 
-                "homeUrl"               => [ 'STRING' => 255 ],
-                "playUrl"               => [ 'STRING' => 255 ],
-                "signUpUrl"             => [ 'STRING' => 255 ],
-                "lostPasswordUrl"       => [ 'STRING' => 255 ],
-                "tosUrl"                => [ 'STRING' => 255 ],
-                "charDetailUrl"         => [ 'STRING' => 255 ],
+                "homeUrl"               => [ 'STRING' => 255, "DEFAULT" => "../../../index.html" ],
+                "playUrl"               => [ 'STRING' => 255, "DEFAULT" => "../../../play.html" ],
+                "signUpUrl"             => [ 'STRING' => 255, "DEFAULT" => "../../../signup.html" ],
+                "lostPasswordUrl"       => [ 'STRING' => 255, "DEFAULT" => "../../../lost-password.html" ],
+                "tosUrl"                => [ 'STRING' => 255, "DEFAULT" => "../../../tos.html" ],
+                "charDetailUrl"         => [ 'STRING' => 255, "DEFAULT" => "../../../char-detail.html" ],
 
-                "signUpMessage"         => [ 'STRING' => 255 ],
-                "news"                  => [ 'STRING' => 255 ],
+                "signUpMessage"         => [ 'STRING' => 255, "DEFAULT" => "Welcome to the world of DragonFable!\n\nPlease sign up to play!" ],
+                "news"                  => [ 'STRING' => 255, "DEFAULT" => "It's been a thousand years... and once more, the Toglights in the sky have aligned. Which can mean only one, terrible, terrifying thing...!\n\nIt's Togsday!\n\nCheck out the DNs for more info!" ],
 
                 "enableAdvertising"     => [ 'BIT', 'DEFAULT' => 0 ],
                 "dailyQuestCoinsReward" => [ 'INTEGER', 'DEFAULT' => 3 ],
@@ -54,10 +55,10 @@ final class CollectionSetup {
 
                 "detailed404ClientError"=> [ "BIT", 'DEFAULT' => 1 ],
 
-                "sendEmails"            => [ "BIT", 'DEFAULT' => 1 ],
-                "emailApiUrl"           => [ "STRING" => 255 ],
-                "emailApiToken"         => [ "STRING" => 255 ],
-                "emailAddress"          => [ "STRING" => 255 ],
+                "sendEmails"            => [ "BIT", 'DEFAULT' => 0 ],
+                "emailApiUrl"           => [ "STRING" => 255, "DEFAULT" => "" ],
+                "emailApiToken"         => [ "STRING" => 255, "DEFAULT" => "" ],
+                "emailAddress"          => [ "STRING" => 255, "DEFAULT" => "" ],
             ],
             "data" => [// See README.md (help > settings).
                 [
@@ -106,6 +107,7 @@ final class CollectionSetup {
             ],
         ],
         "interface" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"      => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -115,6 +117,7 @@ final class CollectionSetup {
             "data" => "interface/",
         ],
         "itemCategory" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"  => [ 'STRING' => 255 ],
@@ -127,6 +130,7 @@ final class CollectionSetup {
             ],
         ],
         "item" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"          => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -170,6 +174,7 @@ final class CollectionSetup {
             "data" => "item/",
         ],
         "itemShop" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"  => [ 'STRING' => 255, 'DEFAULT' => ""],
@@ -178,6 +183,7 @@ final class CollectionSetup {
             "data" => "itemShop/",
         ],
         "itemShop_item" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"     => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "itemShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "itemShop", "field" => "id" ] ],
@@ -186,6 +192,7 @@ final class CollectionSetup {
             "data" => "itemShop_item/",
         ],
         "mergeShop" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"  => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -193,6 +200,7 @@ final class CollectionSetup {
             "data" => "mergeShop/",
         ],
         "merge" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"      => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
                 "itemId1" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
@@ -208,6 +216,7 @@ final class CollectionSetup {
             "data" => "merge/",
         ],
         "mergeShop_merge" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"          => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
                 "mergeShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "mergeShop", "field" => "id" ] ],
@@ -216,6 +225,7 @@ final class CollectionSetup {
             "data" => "mergeShop_merge/",
         ],
         "quest" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"                => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"              => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -240,6 +250,7 @@ final class CollectionSetup {
             "data" => "quest/",
         ],
         "quest_item" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"      => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "questId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "quest", "field" => "id" ] ],
@@ -248,6 +259,7 @@ final class CollectionSetup {
             "data" => "quest_item/",
         ],
         "user" => [
+            "migrateOldData" => true,
             "structure" => [
                 "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
 
@@ -275,6 +287,7 @@ final class CollectionSetup {
             "data" => "user.json",
         ],
         "race" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"      => [ 'STRING' => 20 ],
@@ -283,6 +296,7 @@ final class CollectionSetup {
             "data" => "race/",
         ],
         "hair" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"         => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"       => [ 'STRING' => 255 ],
@@ -296,6 +310,7 @@ final class CollectionSetup {
             "data" => "hair/",
         ],
         "hairShop" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"  => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -304,6 +319,7 @@ final class CollectionSetup {
             "data" => "hairShop/",
         ],
         "hairShop_hair" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"         => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
                 "hairShopId" => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "hairShop", "field" => "id" ] ],
@@ -312,6 +328,7 @@ final class CollectionSetup {
             "data" => "hairShop_hair/",
         ],
         "class" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"      => [ 'STRING' => 255 ],
@@ -325,6 +342,7 @@ final class CollectionSetup {
             "data" => "class/",
         ],
         "char" => [
+            "migrateOldData" => true,
             "structure" => [
                 "id"                => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
 
@@ -384,6 +402,7 @@ final class CollectionSetup {
             "data" => "char.json",
         ],
         "char_item" => [
+            "migrateOldData" => true,
             "structure" => [
                 "id"        => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
 
@@ -399,6 +418,7 @@ final class CollectionSetup {
             "data" => [],
         ],
         "monster" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
 
@@ -406,6 +426,9 @@ final class CollectionSetup {
 
                 "level"         => [ 'INTEGER', 'DEFAULT' => 1 ],
                 "experience"    => [ 'INTEGER', 'DEFAULT' => 0 ],
+
+                "hitPoints"     => [ 'INTEGER', 'DEFAULT' => 100 ],
+                "manaPoints"    => [ 'INTEGER', 'DEFAULT' => 100 ],
 
                 "silver"        => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "gold"          => [ 'INTEGER', 'DEFAULT' => 1000 ],
@@ -440,6 +463,7 @@ final class CollectionSetup {
             "data" => "monster/",
         ],
         "quest_monster" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"        => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
                 "questId"   => [ 'INTEGER', 'DEFAULT' => 0, 'FOREIGN_KEY' => [ "collection" => "quest",   "field" => "id" ] ],
@@ -448,6 +472,7 @@ final class CollectionSetup {
             "data" => "quest_monster/",
         ],
         "house" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"            => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"          => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -483,6 +508,7 @@ final class CollectionSetup {
             "data" => "house/",
         ],
         "houseShop" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"    => [ 'INTEGER', 'PRIMARY_KEY' ],
                 "name"  => [ 'STRING' => 255, 'DEFAULT' => "" ],
@@ -490,6 +516,7 @@ final class CollectionSetup {
             "data" => "houseShop/",
         ],
         "houseShop_house" => [
+            "migrateOldData" => false,
             "structure" => [
                 "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
                 "houseShopId"   => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "houseShop", "field" => "id" ] ],
@@ -498,6 +525,7 @@ final class CollectionSetup {
             "data" => "houseShop_house/",
         ],
         "logs" => [
+            "migrateOldData" => true,
             "structure" => [
                 "id"            => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
                 "createdAt"     => [ 'DATETIME', 'CREATED_DATETIME' ],
@@ -523,50 +551,4 @@ final class CollectionSetup {
             "data" => [],
         ],
     ];
-
-    private static array $structures = [];
-    private static array $data = [];
-
-    public static function getCollections(): array {
-        return \array_keys(self::$collectionSetup);
-    }
-
-    public static function getStructure(string $collection): array {
-        if(!isset(self::$structures[$collection])) {
-            self::$structures[$collection] = self::$collectionSetup[$collection]["structure"];
-        }
-        return self::$structures[$collection];
-    }
-
-    public static function getData(string $collection): array {
-        if(!isset(self::$data[$collection])) {
-            $data = self::$collectionSetup[$collection]["data"];
-
-            if(\is_string($data)) {
-                $fileOrDirectory = __DIR__ . "/data/{$data}";
-                $filesToParse = [];
-
-                if(\is_file($fileOrDirectory)) {
-                    $filesToParse[] = $fileOrDirectory;
-                } else if(\is_dir($fileOrDirectory)) {
-                    $files = \scandir($fileOrDirectory);
-                    foreach($files as $file) {
-                        if($file == "." || $file == "..") continue;
-                        $filesToParse[] = "{$fileOrDirectory}{$file}";
-                    }
-                } else {
-                    throw new \Exception("Invalid data source for collection '{$collection}'");
-                }
-
-                $data = [];
-                foreach($filesToParse as $file) {
-                    $data = \array_merge($data, \json_decode(\file_get_contents($file), true));
-                }
-            }
-
-            self::$data[$collection] = $data;
-        }
-        return self::$data[$collection];
-    }
-
 }

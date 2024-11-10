@@ -99,8 +99,8 @@ class DevController extends Controller {
         <form action="database/first-setup">
             <button>Setup collections</button>
         </form>
-        <form action="database/update">
-            <button>Update game data</button><!-- without char, char_item, logs, settings and user collections -->
+        <form action="database/upgrade">
+            <button>Upgrade game data</button><!-- without char, char_item, logs, settings and user collections -->
         </form>
     </fieldset>
     <fieldset>
@@ -116,9 +116,6 @@ class DevController extends Controller {
         <legend>Email</legend>
         <form action="email/welcome">
             <button>Welcome</button>
-        </form>
-        <form action="email/recover-password">
-            <button>Recover password</button>
         </form>
     </fieldset>
     <fieldset>
@@ -146,16 +143,16 @@ HTML;
     }
 
     #[Request(
-        endpoint: '/dev/database/update',
+        endpoint: '/dev/database/upgrade',
         inputType: Input::NONE,
         outputType: Output::RAW
     )]
-    public function databaseUpdate(): string {
+    public function databaseUpgrade(): string {
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
         $storage = Storage::getStorage();
-        $storage->setup([ "char", "char_item", "logs", "settings", "user" ]);
-        return "Database update OK!";
+        $storage->upgrade();
+        return "Database upgrade OK!";
     }
 
     #[Request(
@@ -211,21 +208,6 @@ HTML;
 
         $emailService = new \hiperesp\server\services\EmailService;
         $emailService->sendWelcomeEmail($user);
-
-        return "../";
-    }
-
-    #[Request(
-        endpoint: '/dev/email/recover-password',
-        inputType: Input::NONE,
-        outputType: Output::REDIRECT
-    )]
-    public function email_recoverPassword(): string {
-        $userModel = new \hiperesp\server\models\UserModel;
-        $user = $userModel->getById(1);
-
-        $emailService = new \hiperesp\server\services\EmailService;
-        $emailService->sendRecoverPassword($user, (string)\rand(100000, 999999));
 
         return "../";
     }
