@@ -497,9 +497,11 @@ $xsd = [
 ];
 
 $resetFiles = [
-    "quest_monster", // some monsters are removed from old quests, changed order or added new ones in specific order
+    "hairShop_hair", // some hairs are removed from old hair shops
     "itemShop_item", // some items are removed from old shops
-    "mergeShop_merge", // some items are removed from old merge shops
+    "mergeShop_merge", // some merges are removed from old merge shops
+    "quest_monster", // some monsters are removed from old quests, changed order or added new ones in specific order
+    "quest_item", // some rewards are removed from old quests, changed order or added new ones in specific order
 ];
 
 $merges = [
@@ -526,7 +528,7 @@ $merges = [
 
         $item3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
             return match($keyName) {
-                default => $value2,
+                default => $value2, // always use the new result
             };
         }, $keys, $item1, $item2));
 
@@ -540,7 +542,7 @@ $merges = [
 
         $interface3 = \array_combine($keys, \array_map(function(string $keyName, $value1, $value2) {
             return match($keyName) {
-                default => $value2,
+                default => $value2, // always use the new result
             };
         }, $keys, $interface1, $interface2));
 
@@ -923,16 +925,23 @@ function generatedIds(string $type, array $parents): int {
         };
     }
     if($type === "quest_monster") {
-        static $questMonsterId = 0;
-        return ++$questMonsterId;
+        static $questMonsterIds = [];
+        $questId = $parents[0]["parsed"]["id"];
+        if(!isset($questMonsterIds[$questId])) {
+            $questMonsterIds[$questId] = 0;
+        }
+        return $questId * 10000 + ++$questMonsterIds[$questId];
     }
     if($type === "quest_item") {
-        static $questItemId = 0;
-        return ++$questItemId;
+        static $questItemIds = [];
+        $questId = $parents[0]["parsed"]["id"];
+        if(!isset($questItemIds[$questId])) {
+            $questItemIds[$questId] = 0;
+        }
+        return $questId * 10000 + ++$questItemIds[$questId];
     }
     if($type === "hairShop_hair") {
-        static $hairShop_hairId = 0;
-        return ++$hairShop_hairId;
+        return $parents[2]["parsed"]["id"] * 1_000 + $parents[1]["parsed"]["id"];
     }
     if($type === "mergeShop_merge") {
         static $mergeShop_mergeId = 0;
@@ -986,26 +995,30 @@ function getPercentString(int $current, int $total): string {
 }
 
 function addMissingKeys(array $array1, array $array2): array {
-    $keys = \array_keys($array1);
-    if($keys !== \array_keys($array2)) {
+    $keys1 = \array_keys($array1);
+    $keys2 = \array_keys($array2);
+    if($keys1 !== $keys2) {
+        $allKeys = \array_unique(\array_merge($keys1, $keys2));
+
         $newArray1 = [];
-        foreach($array2 as $key => $value) {
-            if(isset($array1[$key])) {
+        foreach($allKeys as $key) {
+            if(\array_key_exists($key, $array1)) {
                 $newArray1[$key] = $array1[$key];
             } else {
-                $newArray1[$key] = $value;
+                $newArray1[$key] = $array2[$key];
             }
         }
-        $array1 = $newArray1;
 
         $newArray2 = [];
-        foreach($array1 as $key => $value) {
-            if(isset($array2[$key])) {
+        foreach($allKeys as $key) {
+            if(\array_key_exists($key, $array2)) {
                 $newArray2[$key] = $array2[$key];
             } else {
-                $newArray2[$key] = $value;
+                $newArray2[$key] = $array1[$key];
             }
         }
+
+        $array1 = $newArray1;
         $array2 = $newArray2;
     }
 
