@@ -33,7 +33,7 @@ class UserProjection extends Projection {
             $charEl->addAttribute('intDragonAmulet', $char->dragonAmulet ? 1 : 0);
 
             $class = $char->getClass();
-            $charEl->addAttribute('orgClassID', $char->id);
+            $charEl->addAttribute('orgClassID', $char->baseClassId);
             $charEl->addAttribute('strClassName', $class->name);
 
             $race = $char->getRace();
