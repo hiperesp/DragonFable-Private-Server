@@ -86,6 +86,7 @@ class UserVO extends ValueObject implements Bannable {
         return $birthdate === $today;
     }
 
+    /** @return array<CharacterVO> */
     public function getChars(): array {
         return $this->characterModel->getByUser($this);
     }
