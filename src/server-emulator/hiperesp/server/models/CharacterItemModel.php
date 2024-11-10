@@ -18,15 +18,15 @@ class CharacterItemModel extends Model {
 
     public function addItemToChar(CharacterVO $char, ItemVO $item): CharacterItemVO {
         if($item->maxStackSize > 1) {
-            $charItems = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id], null);
-            foreach($charItems as $charItem) {
+            $charItem = $this->storage->select(self::COLLECTION, ['charId' => $char->id, 'itemId' => $item->id]);
+            if(isset($charItem[0]) && $charItem = $charItem[0]) {
                 if($charItem['count'] < $item->maxStackSize) {
                     $charItem['count']++;
                     $this->storage->update(self::COLLECTION, $charItem);
                     return new CharacterItemVO($charItem);
                 }
+                throw new DFException(DFException::CHARACTER_ITEM_MAX_STACK_SIZE);
             }
-            throw new DFException(DFException::CHARACTER_ITEM_MAX_STACK_SIZE);
         }
 
         $data = [];
