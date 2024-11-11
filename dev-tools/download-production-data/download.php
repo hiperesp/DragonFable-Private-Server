@@ -94,12 +94,12 @@ $thingsToDownload = [
         "needAuth" => true,
         "endpoint" => "/cf-questcomplete-Mar2011.asp",
         "param" => "intQuestID",
+        "overrideSkipDownloaded" => true,
+        "maxRepeatedItems" => 100,
     ],
 ];
 
-downloadAll([
-    "questRewards" => $thingsToDownload["questRewards"],
-]);
+downloadAll($thingsToDownload);
 
 function downloadAll(array $thingsToDownload): void {
     global $skipDownloaded;
@@ -158,6 +158,10 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded, array 
         $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
     }
 
+    if(isset($thingsToDownload[$thingToDownload]["overrideSkipDownloaded"])) {
+        $skipDownloaded = $thingsToDownload[$thingToDownload]["overrideSkipDownloaded"];
+    }
+
     if($skipDownloaded) {
         if(\file_exists($file)) {
             echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
@@ -166,7 +170,7 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded, array 
     }
     if($thingToDownload=="questRewards") {
         if(!\file_exists(__DIR__."/downloaded/quest/{$id}.xml")) { // quest must exist
-            return true;
+            return false;
         }
         if(!isset($customParams["sequenceWithRepeatedItems"])) {
             if(\is_dir(\dirname($file))) {
@@ -283,7 +287,7 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded, array 
     }
 
     if($thingToDownload=="questRewards") {
-        $maxRepeatedItems = 50;
+        $maxRepeatedItems = $thing["maxRepeatedItems"];
         $customParams["sequenceWithRepeatedItems"] = isset($customParams["sequenceWithRepeatedItems"]) ? $customParams["sequenceWithRepeatedItems"] : 0;
         if($save) {
             $customParams["sequenceWithRepeatedItems"] = 0;
