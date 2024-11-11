@@ -91,6 +91,9 @@ class MySQL extends SQL {
 
             throw new \Exception("Unknown definition: {$definition}(".\json_encode($params).")");
         }
+        if(isset($definitionStr['FIELD_TYPE']) && \in_array($definitionStr['FIELD_TYPE'], ['BLOB', 'TEXT', 'GEOMETRY', 'JSON'])) {
+            unset($definitionStr['DEFAULT']);
+        }
         $sql.= \implode(" ", $definitionStr);
         return $sql;
     }

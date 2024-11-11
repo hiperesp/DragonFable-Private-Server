@@ -225,7 +225,7 @@ class CharacterProjection extends Projection {
         }
         $questRewardEl->addAttribute('intCoins', $coins);
 
-        foreach($quest->getRewards() as $item) {
+        if($item = $quest->getItemReward()) {
             $itemEl = $questRewardEl->addChild('items');
 
             $itemEl->addAttribute('ItemID', $item->id);
@@ -268,7 +268,6 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('intDodge', $item->dodge);
             $itemEl->addAttribute('intBlock', $item->block);
             $itemEl->addAttribute('strResists', $item->resists);
-
         }
 
         return $xml;
