@@ -127,4 +127,30 @@ class CharacterController extends Controller {
         return CharacterProjection::instance()->expSaved($char);
     }
 
+    #[Request(
+        endpoint: '/cf-savequeststring.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function saveQuestString(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $this->characterService->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);
+
+        return CharacterProjection::instance()->questStringSaved();
+    }
+
+    #[Request(
+        endpoint: '/cf-saveskillstring.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function saveSkillString(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $this->characterService->setSkillString($char, (int)$input->intIndex, (int)$input->intValue);
+
+        return CharacterProjection::instance()->skillStringSaved();
+    }
+
 }

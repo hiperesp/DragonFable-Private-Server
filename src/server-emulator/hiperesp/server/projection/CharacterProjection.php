@@ -194,6 +194,10 @@ class CharacterProjection extends Projection {
         return new \SimpleXMLElement('<SaveQuestString/>');
     }
 
+    public function skillStringSaved(): \SimpleXMLElement {
+        return new \SimpleXMLElement('<SaveSkillString/>');
+    }
+
     public function expSaved(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<questreward/>');
         $questRewardEl = $xml->addChild('questreward');

@@ -211,4 +211,8 @@ class CharacterService extends Service {
         $this->characterModel->setQuestString($char, $index, $value);
     }
 
+    public function setSkillString(CharacterVO $char, int $index, int $value): void {
+        $this->characterModel->setSkillString($char, $index, $value);
+    }
+
 }
