@@ -23,7 +23,7 @@ function cache(string $pathInfo): string|false {
     return $out;
 }
 
-if(__FILE__ == $_SERVER["SCRIPT_FILENAME"]) {
+if(__FILE__ == \realpath($_SERVER["SCRIPT_FILENAME"])) {
     $pathInfo = \strtolower($_SERVER['PATH_INFO']);
 
     $out = cache($pathInfo);
