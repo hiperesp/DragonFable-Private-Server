@@ -35,6 +35,17 @@ abstract class Storage {
         return $this->deletePrefix($this->prefix, $collection, $document);
     }
 
+    private function _createCollection(string $prefix, string $collection): bool {
+        if(!$this->createCollection($prefix, $collection)) {
+            return false;
+        }
+        if(!$this->existsCollection($prefix, $collection)) {
+            // throw new \Exception("Failed to create collection {$collection}: Collection not found after creation");
+            return false;
+        }
+        return true;
+    }
+
     private function selectPrefix(string $prefix, string $collection, array $where, ?int $limit = 1, int $skip = 0): array {
         $where['_isDeleted'] = 0;
 
@@ -167,7 +178,7 @@ abstract class Storage {
             if($this->existsCollection($prefix, $collection)) {
                 continue;
             }
-            if(!$this->createCollection($prefix, $collection)) {
+            if(!$this->_createCollection($prefix, $collection)) {
                 throw new \Exception("Setup error: Failed to create collection {$collection}");
             }
             foreach(Setup::getData($collection) as $data) {
@@ -192,7 +203,7 @@ abstract class Storage {
             if($this->existsCollection($migrationPrefix, $collection)) {
                 continue;
             }
-            if(!$this->createCollection($migrationPrefix, $collection)) {
+            if(!$this->_createCollection($migrationPrefix, $collection)) {
                 throw new \Exception("Setup error: Failed to create collection {$collection}");
             }
             $collectionStructure = Setup::getStructure($collection);

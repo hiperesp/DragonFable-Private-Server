@@ -94,6 +94,8 @@ $thingsToDownload = [
         "needAuth" => true,
         "endpoint" => "/cf-questcomplete-Mar2011.asp",
         "param" => "intQuestID",
+        "overrideSkipDownloaded" => true,
+        "maxRepeatedItems" => 100,
     ],
 ];
 
@@ -158,14 +160,26 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded, array 
         $file = __DIR__ . "/downloaded/{$thingToDownload}/{$id}.xml";
     }
 
+    if(isset($thingsToDownload[$thingToDownload]["overrideSkipDownloaded"])) {
+        $skipDownloaded = $thingsToDownload[$thingToDownload]["overrideSkipDownloaded"];
+    }
+
     if($skipDownloaded) {
         if(\file_exists($file)) {
             echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
             return true;
         }
-        if($thingToDownload=="questRewards") {
-            if(!isset($customParams["sequenceWithRepeatedItems"])) {
-                if(\is_dir(\dirname($file))) {
+    }
+    if($thingToDownload=="questRewards") {
+        if(!\file_exists(__DIR__."/downloaded/quest/{$id}.xml")) { // quest must exist
+            return false;
+        }
+        if(!isset($customParams["sequenceWithRepeatedItems"])) {
+            if(\is_dir(\dirname($file))) {
+                if(\count(\scandir(\dirname($file))) < 3) { // verify if directory is empty, . and .. is always there and count.
+                    return true;
+                }
+                if($skipDownloaded) {
                     echo "[0] Skipping {$thingToDownload} {$id} because it already exists\n";
                     return true;
                 }
@@ -275,14 +289,15 @@ function download(string $thingToDownload, int $id, bool $skipDownloaded, array 
     }
 
     if($thingToDownload=="questRewards") {
+        $maxRepeatedItems = $thing["maxRepeatedItems"];
         $customParams["sequenceWithRepeatedItems"] = isset($customParams["sequenceWithRepeatedItems"]) ? $customParams["sequenceWithRepeatedItems"] : 0;
         if($save) {
             $customParams["sequenceWithRepeatedItems"] = 0;
         } else {
             $customParams["sequenceWithRepeatedItems"]++;
         }
-        if($customParams["sequenceWithRepeatedItems"] > 50) {
-            echo "[5] Stopping quest rewards {$id} because of too many repeated items\n";
+        if($customParams["sequenceWithRepeatedItems"] > $maxRepeatedItems) {
+            echo "[5] Stopping quest rewards {$id} because of {$maxRepeatedItems} repeated items\n";
             return true;
         }
         return download($thingToDownload, $id, $skipDownloaded, $customParams);

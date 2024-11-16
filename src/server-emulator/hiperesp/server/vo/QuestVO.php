@@ -52,9 +52,13 @@ class QuestVO extends ValueObject {
         return $this->dailyIndex > 0;
     }
 
-    /** @return array<ItemVO> */
-    public function getRewards(): array {
-        return $this->itemModel->getByQuest($this);
+    public function getItemReward(): ?ItemVO {
+        $allPossibleRewards = $this->itemModel->getByQuest($this);
+        if(!$allPossibleRewards) {
+            return null;
+        }
+        $randomIndex = \array_rand($allPossibleRewards);
+        return $allPossibleRewards[$randomIndex];
     }
 
     /** @return array<MonsterVO> */

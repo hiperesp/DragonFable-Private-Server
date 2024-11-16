@@ -16,6 +16,7 @@ $xsd = [
             "type" => "single",
             "ignoreParams" => [
                 "intCounter", // not convert counter because it has some random values every time, idk where it is used and if it is important
+                "intDailyReward", // not convert dailyReward because it has some random values every time (0 and 1), idk where it is used and if it is important
             ],
             "config" => [
                 "id"                => [ "type" => "int"   , "from" => "QuestID"                 , ],
@@ -33,7 +34,7 @@ $xsd = [
                 "counter"           => [ "type" => "int"   , "defined" => "0"                    , ],
                 "extra"             => [ "type" => "string", "from" => "strExtra"                , ],
                 "dailyIndex"        => [ "type" => "int"   , "from" => "intDailyIndex"           , ],
-                "dailyReward"       => [ "type" => "int"   , "from" => "intDailyReward"          , ],
+                "dailyReward"       => [ "type" => "int"   , "defined" => "0"                    , ],
                 "monsterMinLevel"   => [ "type" => "int"   , "from" => "intMonsterMinLevel"      , ],
                 "monsterMaxLevel"   => [ "type" => "int"   , "from" => "intMonsterMaxLevel"      , ],
                 "monsterType"       => [ "type" => "string", "from" => "strMonsterType"          , ],
@@ -208,7 +209,7 @@ $xsd = [
                             "type" => "single",
                             "config" => [
                                 "id"           => [ "type" => "int", "generated" => "quest_item"      , ],
-                                "questId"      => [ "type" => "int", "fromSpecial" => "idFromFileName", ],
+                                "questId"      => [ "type" => "int", "fromSpecial" => "idFromDirName", ],
                                 "itemId"       => [ "type" => "int", "from" => "ItemID"               , ],
                             ]
                         ]
@@ -604,18 +605,29 @@ function convertAll(array $folders) {
             $percentStr = getPercentString($currentFile, $totalFiles);
             echo "[0] Converting {$folder}/{$file} {$percentStr}\n";
 
-            $newFile = convertFile($folder, $file);
-            foreach($newFile as $key => $value) {
-                $value = \array_filter($value, function($v) {
-                    return !!$v;
-                });
-                if(!$value) {
-                    continue;
+            if(\is_dir("downloaded/{$folder}/{$file}")) {
+                $filesFromDir = \array_map(function(string $newFileName) use($file) {
+                    return "{$file}/{$newFileName}";
+                }, \array_filter(\scandir("downloaded/{$folder}/{$file}"), function(string $newFileName) {
+                    return $newFileName !== "." && $newFileName !== "..";
+                }));
+            } else {
+                $filesFromDir = [$file];
+            }
+            foreach($filesFromDir as $file) {
+                $newFile = convertFile($folder, $file);
+                foreach($newFile as $key => $value) {
+                    $value = \array_filter($value, function($v) {
+                        return !!$v;
+                    });
+                    if(!$value) {
+                        continue;
+                    }
+                    if(!isset($dataToSave[$key])) {
+                        $dataToSave[$key] = [];
+                    }
+                    $dataToSave[$key] = \array_merge($dataToSave[$key], $value);
                 }
-                if(!isset($dataToSave[$key])) {
-                    $dataToSave[$key] = [];
-                }
-                $dataToSave[$key] = \array_merge($dataToSave[$key], $value);
             }
             $currentFile++;
         }
@@ -865,6 +877,8 @@ function convertToJsonFromConfig(string $fileName, array $jsonItem, array $xsdIt
         } else if(isset($config["fromSpecial"])) {
             if($config["fromSpecial"]=="idFromFileName") {
                 $newJsonItem[$key] = (int)\str_replace(".xml", "", $fileName);
+            } else if($config["fromSpecial"]=="idFromDirName") {
+                $newJsonItem[$key] = (int)\str_replace(".xml", "", \explode("/", $fileName)[0]);
             } else {
                 throw new \Exception("Invalid fromSpecial: {$config["fromSpecial"]}");
             }
@@ -933,7 +947,7 @@ function generatedIds(string $type, array $parents): int {
         return $questId * 10_000 + ++$questMonsterIds[$questId];
     }
     if($type === "quest_item") {
-        return $parents[0]["parsed"]["questId"];
+        return $parents[0]["parsed"]["questId"] * 100_000 + $parents[0]["parsed"]["itemId"];
     }
     if($type === "hairShop_hair") {
         return $parents[2]["parsed"]["id"] * 1_000 + $parents[1]["parsed"]["id"];

@@ -194,6 +194,10 @@ class CharacterProjection extends Projection {
         return new \SimpleXMLElement('<SaveQuestString/>');
     }
 
+    public function skillStringSaved(): \SimpleXMLElement {
+        return new \SimpleXMLElement('<SaveSkillString/>');
+    }
+
     public function expSaved(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<questreward/>');
         $questRewardEl = $xml->addChild('questreward');
@@ -225,7 +229,7 @@ class CharacterProjection extends Projection {
         }
         $questRewardEl->addAttribute('intCoins', $coins);
 
-        foreach($quest->getRewards() as $item) {
+        if($item = $quest->getItemReward()) {
             $itemEl = $questRewardEl->addChild('items');
 
             $itemEl->addAttribute('ItemID', $item->id);
@@ -268,7 +272,6 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('intDodge', $item->dodge);
             $itemEl->addAttribute('intBlock', $item->block);
             $itemEl->addAttribute('strResists', $item->resists);
-
         }
 
         return $xml;
@@ -347,6 +350,13 @@ class CharacterProjection extends Projection {
             "LastPlayed" => \date("Y-m-d", \strtotime($char->lastTimeSeen)),
             "up" => "1",
         ];
+    }
+
+    public function weaponConfigSaved(): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<SaveWeaponConfig/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
     }
 
 }

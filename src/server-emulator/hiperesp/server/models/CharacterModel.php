@@ -116,6 +116,15 @@ class CharacterModel extends Model {
         ]);
     }
 
+    public function setSkillString(CharacterVO $char, int $index, int $value): void {
+        $skillString = $char->skills;
+        $skillString[$index] = $value;
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'skills' => $skillString
+        ]);
+    }
+
     public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $reward): void {
         if($quest->isDailyQuest()) {
             if($char->isDailyQuestAvailable()) {

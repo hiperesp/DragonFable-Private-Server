@@ -63,17 +63,4 @@ class QuestController extends Controller {
         return CharacterProjection::instance()->questItemReward($charItem);
     }
 
-    #[Request(
-        endpoint: '/cf-savequeststring.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::XML
-    )]
-    public function saveQuestString(\SimpleXMLElement $input): \SimpleXMLElement {
-        $char = $this->characterService->auth($input);
-
-        $this->characterService->setQuestString($char, (int)$input->intIndex, (int)$input->intValue);
-
-        return CharacterProjection::instance()->questStringSaved();
-    }
-
 }
