@@ -20,7 +20,7 @@ abstract class ValueObject {
         return $data;
     }
 
-    private function applyData(array $data) {
+    private function applyData(array $data): void {
         $reflectionClass = new \ReflectionClass($this);
         $properties = $reflectionClass->getProperties();
         foreach ($properties as $property) {

@@ -7,10 +7,10 @@ class Test {
         private array $context = []
     ) {}
 
-    final protected function set(string $key, $value): void {
+    final protected function set(string $key, mixed $value): void {
         $this->context[$key] = $value;
     }
-    final protected function get(string $key) {
+    final protected function get(string $key): mixed {
         return $this->context[$key];
     }
 

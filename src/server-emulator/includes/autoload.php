@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-\spl_autoload_register(function (string $className) use($base) {
+\spl_autoload_register(function (string $className) use($base): void {
     $classFile = $base . DIRECTORY_SEPARATOR . \str_replace('\\', DIRECTORY_SEPARATOR, $className) . '.php';
     if (!\file_exists($classFile)) {
         throw new \Exception("The file {$classFile} does not exist or could not be included. See {$className}");
