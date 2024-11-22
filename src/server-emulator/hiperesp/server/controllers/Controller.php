@@ -74,7 +74,10 @@ abstract class Controller {
         }
     }
 
-    private static function cors() { // https://stackoverflow.com/questions/8719276/cross-origin-request-headerscors-with-php-headers
+    /**
+     * Ref: https://stackoverflow.com/questions/8719276/cross-origin-request-headerscors-with-php-headers
+     */
+    private static function cors(): void {
         // Allow from any origin
         if (isset($_SERVER['HTTP_ORIGIN'])) {
             // Decide if the origin in $_SERVER['HTTP_ORIGIN'] is one

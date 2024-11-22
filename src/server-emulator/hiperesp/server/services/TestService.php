@@ -8,7 +8,7 @@ class TestService extends Service {
 
     #[Inject] private UserModel $userModel;
 
-    public function deleteTestUser(string $username, $password): true {
+    public function deleteTestUser(string $username, string $password): true {
         $user = $this->userModel->login($username, $password);
         $this->userModel->delete($user);
         return true;
