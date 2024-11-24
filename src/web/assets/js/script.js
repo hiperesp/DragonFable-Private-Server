@@ -80,10 +80,10 @@ window.addEventListener("load", function() {
     })();
 
     (function() {
-        function startLostPassword(serverLocation) {
+        function startLostPassword(lostPasswordScreen, serverLocation) {
             function setTabVisible(step, theCase = null) {
                 let tabElement = null;
-                document.querySelectorAll("[data-type='lost-password-tab']").forEach(function(element) {
+                lostPasswordScreen.querySelectorAll("[data-type='lost-password-tab']").forEach(function(element) {
                     let visible = false;
                     if(element.dataset.step == step) {
                         if(theCase) {
@@ -142,7 +142,7 @@ window.addEventListener("load", function() {
                 const errorText = tab.querySelector("[data-id='error-text']");
                 const nextStepButton = tab.querySelector("[data-id='recover-password-button']");
 
-                nextStepButton.addEventListener("click", async function() {
+                nextStepButton.onclick = async function() {
                     const email = emailInput.value;
                     if(email.length < 3) {
                         errorText.textContent = "Invalid email";
@@ -153,7 +153,7 @@ window.addEventListener("load", function() {
                     nextStepButton.disabled = true;
                     await request(1, dataState, step2, errorText);
                     nextStepButton.disabled = false;
-                });
+                };
             }
             function step2() {
                 const tab = setTabVisible(2, 1);
@@ -161,7 +161,7 @@ window.addEventListener("load", function() {
                 const errorText = tab.querySelector("[data-id='error-text']");
                 const nextStepButton = tab.querySelector("[data-id='submit-code-button']");
 
-                nextStepButton.addEventListener("click", async function() {
+                nextStepButton.onclick = async function() {
                     const code = codeInput.value;
                     if(code.length < 1) {
                         errorText.textContent = "Invalid code";
@@ -172,7 +172,7 @@ window.addEventListener("load", function() {
                     nextStepButton.disabled = true;
                     await request(2, dataState, step3, errorText);
                     nextStepButton.disabled = false;
-                });
+                };
             }
             function step3() {
                 const tab = setTabVisible(3);
@@ -181,7 +181,7 @@ window.addEventListener("load", function() {
                 const errorText = tab.querySelector("[data-id='error-text']");
                 const nextStepButton = tab.querySelector("[data-id='submit-password-button']");
 
-                nextStepButton.addEventListener("click", async function() {
+                nextStepButton.onclick = async function() {
                     const newPassword = newPasswordInput.value;
                     const confirmPassword = confirmPasswordInput.value;
                     if(newPassword.length < 6) {
@@ -197,7 +197,7 @@ window.addEventListener("load", function() {
                     nextStepButton.disabled = true;
                     await request(3, dataState, step4, errorText);
                     nextStepButton.disabled = false;
-                });
+                };
             }
             function step4() {
                 setTabVisible(4);
@@ -207,7 +207,94 @@ window.addEventListener("load", function() {
         }
         const lostPasswordScreen = document.querySelector("#lost-password-container");
         if(lostPasswordScreen) {
-            startLostPassword(window.serverLocation);
+            startLostPassword(lostPasswordScreen, window.serverLocation);
+        }
+    })();
+
+    (function() {
+        function startManageAccount(manageAccountScreen, serverLocation) {
+            function setTabVisible(step, theCase = null) {
+                let tabElement = null;
+                manageAccountScreen.querySelectorAll("[data-type='manage-account-tab']").forEach(function(element) {
+                    let visible = false;
+                    if(element.dataset.step == step) {
+                        if(theCase) {
+                            if(element.dataset.case == theCase) {
+                                visible = true;
+                            }
+                        } else {
+                            visible = true;
+                        }
+                    }
+                    if(visible) {
+                        element.style.display = "block";
+                        tabElement = element;
+                    } else {
+                        element.style.display = "none";
+                    }
+                });
+                return tabElement;
+            }
+            async function request(action, data, successCallback, errorText) {
+                return await fetch(serverLocation+"/api/manage-account/"+action, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                }).then(response => response.json())
+                .then(data => {
+                    if(data.success) {
+                        successCallback();
+                        return;
+                    }
+                    errorText.textContent = data.error;
+                }).catch(error => {
+                    errorText.textContent = "An unexpected error occurred. Please try again later.";
+                    console.error(error);
+                });
+            }
+            const dataState = {};
+            function loginScreen() {
+                const tab = setTabVisible("login");
+                const loginInput = tab.querySelector("[data-id='login-field']");
+                const passwordInput = tab.querySelector("[data-id='password-field']");
+                const errorText = tab.querySelector("[data-id='error-text']");
+                const doLoginButton = tab.querySelector("[data-id='do-login-button']");
+
+                errorText.textContent = "Coming soon... If you have issues with your password, please use the Lost Password feature, by clicking on the link below.";
+                window.location.href = "lost-password.html";
+                return;
+
+                doLoginButton.onclick = async function() {
+                    const login = loginInput.value;
+                    if(login.length < 3) {
+                        errorText.textContent = "Invalid login";
+                        return;
+                    }
+                    dataState.login = login;
+
+                    const password = passwordInput.value;
+                    if(password.length < 6) {
+                        errorText.textContent = "Invalid password";
+                        return;
+                    }
+                    dataState.password = password;
+
+                    doLoginButton.disabled = true;
+                    await request("login", dataState, dashboard, errorText);
+                    doLoginButton.disabled = false;
+                };
+            }
+            function dashboard() {
+
+            }
+
+            loginScreen();
+        }
+        const manageAccountScreen = document.querySelector("#manage-account-container");
+        if(manageAccountScreen) {
+            startManageAccount(manageAccountScreen, window.serverLocation);
         }
     })();
 });
