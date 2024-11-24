@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script>
+            window.serverLocation = "server-emulator/server.php";
+        </script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a class="header-logo" href="index.html">
+                <img src="assets/images/custom-logo.png" height="100%">
+            </a>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="signup.html" class="nav-link">Register</a></li>
+                    <li><a href="play.html" class="nav-link">Play</a></li>
+                    <li><a href="lost-password.html" class="nav-link">Lost Password</a></li>
+                    <li><a href="tos.html" class="nav-link">ToS</a></li>
+                </ul>
+            </nav>
+            <img class="banner-overlap" src="assets/images/bg-launcher-df2-overlap.png">
+        </header>
+        <main>
+            <section class="main-banner">
+                <div class="container">
+                    <div class="banner-cta">
+                        <div class="cta-item">
+                            <a href="play.html">
+                                <img src="assets/images/btn-play-df.png" class="dynamic-button" style="--width: 196px; --height: 128px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <b>Players Online: </b> <span data-id="server-playing"></span>
+                            </div>
+                        </div>
+                        <div class="cta-item">
+                            <a href="signup.html">
+                                <img src="assets/images/btn-create-df.png" class="dynamic-button" style="--width: 196px; --height: 103px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <b>Server Status: </b> <span data-id="server-status"></span>
+                            </div>
+                        </div>
+                        <!--div class="cta-item">
+                            <a href="upgrade.html">
+                                <img src="assets/images/btn-upgrade-df.png" class="dynamic-button" style="--width: 196px; --height: 65px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <br>
+                            </div>
+                        </div-->
+                        <div class="cta-item">
+                            <a href="lost-password.html">
+                                <img src="assets/images/custom-btn-df-manage-account.png" class="dynamic-button" style="--width: 196px; --height: 128px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="background" src="assets/images/bg-launcher-df2.jpg">
+            </section>
+            <!--section class="content">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Latest News</h2>
+                    </div>
+                    <div class="section-content news-card-container">
+                        <article class="card">
+                            <a href="javascript:void(0)">
+                                <div class="article-title">
+                                    <h3>Thankstaking 2024: Clash of the Robots!</h3>
+                                </div>
+                                <div class="article-image">
+                                    <img src="assets/images/blog/post/1.png">
+                                </div>
+                                <div class="article-header">
+                                    <div class="article-author">
+                                        <div class="author-image">
+                                            <img src="assets/images/blog/author/1.jpg">
+                                        </div>
+                                        <div class="author-name">
+                                            <b>Admin</b>
+                                        </div>
+                                    </div>
+                                    <div class="article-date">
+                                        <b>2 weeks ago</b>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="card">
+                            <a href="javascript:void(0)">
+                                <div class="article-title">
+                                    <h3>Thankstaking 2024: Clash of the Robots!</h3>
+                                </div>
+                                <div class="article-image">
+                                    <img src="assets/images/blog/post/1.png">
+                                </div>
+                                <div class="article-header">
+                                    <div class="article-author">
+                                        <div class="author-image">
+                                            <img src="assets/images/blog/author/1.jpg">
+                                        </div>
+                                        <div class="author-name">
+                                            <b>Admin</b>
+                                        </div>
+                                    </div>
+                                    <div class="article-date">
+                                        <b>2 weeks ago</b>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="section-footer">
+                        <a href="javascript:void(0)" class="button">View all news</a>
+                    </div>
+                </div>
+            </section-->
+        </main>
+        <footer>
+            <div class="container">
+                <span class="title"><b>&copy; 2024 Unofficial DragonFable Private Server</b></span><br>
+                This is a fan-made project and is not affiliated with or endorsed by the creators of the official DragonFable game.<br>
+                All trademarks and copyrights belong to their respective owners.<br>
+                <div class="footer-info">
+                    <b>Server version:</b> <a data-id="server-git-rev"></a> - <span data-id="server-version"></span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

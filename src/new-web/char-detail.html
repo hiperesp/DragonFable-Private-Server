@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script>
+            window.serverLocation = "server-emulator/server.php";
+        </script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a class="header-logo" href="index.html">
+                <img src="assets/images/custom-logo.png" height="100%">
+            </a>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="signup.html" class="nav-link active">Register</a></li>
+                    <li><a href="play.html" class="nav-link">Play</a></li>
+                    <li><a href="lost-password.html" class="nav-link">Lost Password</a></li>
+                    <li><a href="tos.html" class="nav-link">ToS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container" style="display: flex;">
+                <div id="character-page-container"></div>
+                <section class="content" style="flex: 1;background-image:none;">
+                    <div class="container">
+                        <div class="section-title">
+                            <h2>Character Details</h2>
+                        </div>
+                        <div class="section-content content-post">
+                            <p>The Character Details page allows you to view important information about your character. Here, you can see your character's level, the amount of gold you have, and your account type. The account type includes special titles.</p>
+                            <p>You can also find details such as the date your character was created and the last time you played.</p>
+                            <p>You can also see badges you've earned. These are split into different categories: Quest Badges, Holiday Badges, PVP Badges, Skill Badges, and Armor Badges. Just flip through the pages to see them all!</p>
+                            <p>This page is a great way to keep track of your character's progress and achievements in the game. It's also perfect for showing off your accomplishments to your friends!</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <script>
+                const charId = new URLSearchParams(window.location.search).get('id');
+                const html = `
+                    <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="490" height="700" align="middle">
+                        <param name="allowScriptAccess" value="sameDomain" />
+                        <param name="movie" value="cdn/flash/charactersheet-badges-3Mar15-patched.swf" />
+                        <param name="menu" value="false" />
+                        <param name="allowFullScreen" value="true" />
+                        <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp&charId=${charId}" />
+                        <param name="bgcolor" value="#000000" />
+                        <embed src="cdn/flash/charactersheet-badges-3Mar15-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp&charId=${charId}" name="FFable" bgcolor="#000000" menu="false"  
+                            allowFullScreen="true" width="490" height="700" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
+                            pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
+                    </object>
+                `;
+                document.getElementById('character-page-container').innerHTML = html;
+            </script>
+        </main>
+        <footer>
+            <div class="container">
+                <span class="title"><b>&copy; 2024 Unofficial DragonFable Private Server</b></span><br>
+                This is a fan-made project and is not affiliated with or endorsed by the creators of the official DragonFable game.<br>
+                All trademarks and copyrights belong to their respective owners.<br>
+                <div class="footer-info">
+                    <b>Server version:</b> <a data-id="server-git-rev"></a> - <span data-id="server-version"></span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

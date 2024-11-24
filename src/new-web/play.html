@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script>
+            window.serverLocation = "server-emulator/server.php";
+        </script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a class="header-logo" href="index.html">
+                <img src="assets/images/custom-logo.png" height="100%">
+            </a>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="signup.html" class="nav-link">Register</a></li>
+                    <li><a href="play.html" class="nav-link active">Play</a></li>
+                    <li><a href="lost-password.html" class="nav-link">Lost Password</a></li>
+                    <li><a href="tos.html" class="nav-link">ToS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="640" align="middle">
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="movie" value="cdn/loader/DFLoader-patched.swf" />
+                <param name="menu" value="false" />
+                <param name="allowFullScreen" value="true" />
+                <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp" />
+                <param name="bgcolor" value="#000000" />
+                <embed src="cdn/loader/DFLoader-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
+                    allowFullScreen="true" width="100%" height="640" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
+                    pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
+            </object>
+        </main>
+        <footer>
+            <div class="container">
+                <span class="title"><b>&copy; 2024 Unofficial DragonFable Private Server</b></span><br>
+                This is a fan-made project and is not affiliated with or endorsed by the creators of the official DragonFable game.<br>
+                All trademarks and copyrights belong to their respective owners.<br>
+                <div class="footer-info">
+                    <b>Server version:</b> <a data-id="server-git-rev"></a> - <span data-id="server-version"></span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
