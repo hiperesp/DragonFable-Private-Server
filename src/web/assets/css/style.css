@@ -55,35 +55,49 @@ header {
 
     display: flex;
 
-    & .header-logo {
-        text-decoration: none;
-        display: flex;
-
-        & img {
-            height: 43.5px;
-        }
-    }
-
-    & .header-nav {
-        flex: 1;
+    & .header-nav, .header-logo {
         background-image: url('../images/gl-topnav75.png');
-        & .nav-links {
+        background-position: bottom center;
+        background-repeat: no-repeat;
+
+        &.header-logo {
+            text-decoration: none;
             display: flex;
-            & li {
-                list-style: none;
-                margin-right: 1rem;
-                & .nav-link {
-                    display: block;
-                    text-decoration: none;
-                    color: #ffffff;
-                    padding: 11px;
-                    font-family: 'Cinzel', sans-serif;
-                    &.active, &:hover {
-                        background-image: url('../images/gl-topnav-hover.png');
-                        background-position: bottom center;
-                        background-repeat: no-repeat;
-                        &.active {
-                            font-weight: bold;
+            padding: 0 20px;
+            align-items: center;
+            justify-content: center;
+
+            & img {
+                height: 35px;
+            }
+
+            &:hover {
+                background-image: url('../images/gl-topnav-hover.png'), url('../images/gl-topnav75.png');
+            }
+        }
+
+        &.header-nav {
+            flex: 1;
+            background-repeat: repeat;
+
+            & .nav-links {
+                display: flex;
+                & li {
+                    list-style: none;
+                    margin-right: 1rem;
+                    & .nav-link {
+                        display: block;
+                        text-decoration: none;
+                        color: #ffffff;
+                        padding: 11px;
+                        font-family: 'Cinzel', sans-serif;
+                        &.active, &:hover {
+                            background-image: url('../images/gl-topnav-hover.png');
+                            background-position: bottom center;
+                            background-repeat: no-repeat;
+                            &.active {
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
@@ -102,9 +116,9 @@ header {
 main {
     &.flash-content {
         display: flex;
-    }
-    & ~ footer {
-        margin-top: 0;
+        & ~ footer {
+            margin-top: 0;
+        }
     }
 }
 
@@ -165,7 +179,7 @@ section.content {
             }
         }
 
-        &.content-lost-password {
+        &.content-form {
             
             & label {
                 color: #f6a70c;
@@ -276,10 +290,11 @@ footer {
 
         & .header-logo {
             width: 100%;
+            background-size: cover;
 
             & img {
                 width: 100%;
-                height: auto;
+                height: auto!important;
             }
         }
         & .header-nav {
