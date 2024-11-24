@@ -176,4 +176,8 @@ final class DFException extends \Exception {
         return $this->dfCode;
     }
 
+    public function getDFMessage(): string {
+        return $this->dfMessage;
+    }
+
 }

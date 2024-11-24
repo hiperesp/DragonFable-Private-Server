@@ -99,6 +99,15 @@ header {
     }
 }
 
+main {
+    &.flash-content {
+        display: flex;
+    }
+    & ~ footer {
+        margin-top: 0;
+    }
+}
+
 .main-banner {
     overflow: hidden;
     position: relative;
@@ -111,7 +120,6 @@ header {
         padding: 20px 0;
 
         & .cta-item {
-
             & .cta-item-text {
                 font-family: 'Cinzel', sans-serif;
             }

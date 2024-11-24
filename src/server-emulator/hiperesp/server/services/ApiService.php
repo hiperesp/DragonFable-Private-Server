@@ -35,6 +35,14 @@ class ApiService extends Service {
         try {
             $user = $this->userService->getByEmail($email);
         } catch(DFException $e) {
+            if($e->getDFCode() !== DFException::USER_NOT_FOUND) {
+                return [
+                    'success' => false,
+                    'isEmailDisabled' => false,
+                    'supportEmail' => $this->settings->emailAddress,
+                    'error' => $e->getDFMessage()
+                ];
+            }
             $user = null;
         }
         if($user) {
@@ -72,6 +80,14 @@ class ApiService extends Service {
         try {
             $user = $this->userService->getByEmail($email);
         } catch(DFException $e) {
+            if($e->getDFCode() !== DFException::USER_NOT_FOUND) {
+                return [
+                    'success' => false,
+                    'isEmailDisabled' => false,
+                    'supportEmail' => $this->settings->emailAddress,
+                    'error' => $e->getDFMessage()
+                ];
+            }
             $user = null;
         }
 
@@ -104,6 +120,14 @@ class ApiService extends Service {
         try {
             $user = $this->userService->getByEmail($email);
         } catch(DFException $e) {
+            if($e->getDFCode() !== DFException::USER_NOT_FOUND) {
+                return [
+                    'success' => false,
+                    'isEmailDisabled' => false,
+                    'supportEmail' => $this->settings->emailAddress,
+                    'error' => $e->getDFMessage()
+                ];
+            }
             $user = null;
         }
 
