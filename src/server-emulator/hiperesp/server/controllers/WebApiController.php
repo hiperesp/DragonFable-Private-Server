@@ -13,6 +13,15 @@ class WebApiController extends Controller {
     #[Inject] private WebApiService $webApiService;
 
     #[Request(
+        endpoint: '/api/web-stats.json',
+        inputType: Input::NONE,
+        outputType: Output::JSON
+    )]
+    public function webStats(): array {
+        return $this->webApiService->stats();
+    }
+
+    #[Request(
         endpoint: '/DFversion.asp',
         inputType: Input::NONE,
         outputType: Output::FORM

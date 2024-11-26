@@ -58,11 +58,12 @@ window.addEventListener("load", function() {
 
             listeners.onlineUsers.forEach(function(element) {
                 element.textContent = serverStatus.onlineUsers || 0;
+                element.style.color = "#ffff00";
             });
 
             listeners.status.forEach(function(element) {
                 element.textContent = serverStatus.online ? "Online" : "Offline";
-                element.style.color = serverStatus.online ? null : "red";
+                element.style.color = serverStatus.online ? "#00ff00" : "#ff0000";
             });
 
             listeners.version.forEach(function(element) {
