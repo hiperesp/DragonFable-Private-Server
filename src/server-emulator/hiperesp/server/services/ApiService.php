@@ -3,25 +3,13 @@ namespace hiperesp\server\services;
 
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
-use hiperesp\server\models\CharacterModel;
 use hiperesp\server\vo\SettingsVO;
 
 class ApiService extends Service {
 
     #[Inject] private UserService $userService;
-    #[Inject] private CharacterModel $characterModel;
     #[Inject] private EmailService $emailService;
     #[Inject] private SettingsVO $settings;
-
-    public function getWebStats(): array {
-        return [
-            'onlineUsers' => $this->characterModel->getOnlineCount(),
-            'serverTime' => \date('c'),
-            'serverVersion' => $this->settings->serverVersion,
-            'gitRev' => \getenv('GIT_REV') ?: null,
-        ];
-    }
-    
 
     public function recoveryPassword(string $email): array {
         if(!$this->settings->sendEmails) {
@@ -35,6 +23,14 @@ class ApiService extends Service {
         try {
             $user = $this->userService->getByEmail($email);
         } catch(DFException $e) {
+            if($e->getDFCode() !== DFException::USER_NOT_FOUND) {
+                return [
+                    'success' => false,
+                    'isEmailDisabled' => false,
+                    'supportEmail' => $this->settings->emailAddress,
+                    'error' => $e->getDFMessage()
+                ];
+            }
             $user = null;
         }
         if($user) {
@@ -72,6 +68,14 @@ class ApiService extends Service {
         try {
             $user = $this->userService->getByEmail($email);
         } catch(DFException $e) {
+            if($e->getDFCode() !== DFException::USER_NOT_FOUND) {
+                return [
+                    'success' => false,
+                    'isEmailDisabled' => false,
+                    'supportEmail' => $this->settings->emailAddress,
+                    'error' => $e->getDFMessage()
+                ];
+            }
             $user = null;
         }
 
@@ -104,6 +108,14 @@ class ApiService extends Service {
         try {
             $user = $this->userService->getByEmail($email);
         } catch(DFException $e) {
+            if($e->getDFCode() !== DFException::USER_NOT_FOUND) {
+                return [
+                    'success' => false,
+                    'isEmailDisabled' => false,
+                    'supportEmail' => $this->settings->emailAddress,
+                    'error' => $e->getDFMessage()
+                ];
+            }
             $user = null;
         }
 

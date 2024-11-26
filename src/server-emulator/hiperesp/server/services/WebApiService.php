@@ -26,4 +26,13 @@ class WebApiService extends Service {
         return $this->characterModel->getById($id);
     }
 
+    public function stats(): array {
+        return [
+            'onlineUsers' => $this->characterModel->getOnlineCount(),
+            'serverTime' => \date('c'),
+            'serverVersion' => $this->settings->serverVersion,
+            'gitRev' => \getenv('GIT_REV') ?: null,
+        ];
+    }
+
 }

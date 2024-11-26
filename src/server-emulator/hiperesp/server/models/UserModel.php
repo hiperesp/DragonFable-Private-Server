@@ -26,7 +26,13 @@ class UserModel extends Model {
     }
 
     public function login(string $username, string $password): UserVO {
-        $user = $this->storage->select(self::COLLECTION, ['username' => $username]);
+        if(\filter_var($username, \FILTER_VALIDATE_EMAIL)) {
+            $field = 'email';
+        } else {
+            $field = 'username';
+        }
+
+        $user = $this->storage->select(self::COLLECTION, [ $field => $username ]);
         if(isset($user[0]) && $user = $user[0]) {
             if(\password_verify($password, $user['password'])) {
                 if($user['banned']) {
@@ -47,7 +53,14 @@ class UserModel extends Model {
         $data['birthdate'] = \date('Y-m-d', \strtotime($birthdate)); // from mm/dd/yyyy to yyyy-mm-dd
 
         $data['username'] = \trim($username);
+        if(\preg_match('/[^a-zA-Z0-9_]/', $data['username'])) {
+            throw new DFException(DFException::INVALID_USERNAME);
+        }
+
         $data['email'] = \trim($email);
+        if(!\filter_var($data['email'], \FILTER_VALIDATE_EMAIL)) {
+            throw new DFException(DFException::INVALID_EMAIL);
+        }
 
         $user = $this->storage->select(self::COLLECTION, ['username' => $data['username']]);
         if(isset($user[0]) && $user = $user[0]) {

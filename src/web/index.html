@@ -1,86 +1,143 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DragonFable Private Server by hiperesp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DragonFable Private Server Online RPG</title>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="shortcut icon" href="assets/images/logo-icon-df.png">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script> window.serverLocation = "server-emulator/server.php"; </script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/js/script.js"></script>
     </head>
     <body>
-        <section class="content">
-            <aside class="sidebar">
-                <a class="sidebar-logo-link" href="index.html">DragonFable Private Server</a>
-                <div class="sidebar-body">
-                    <h2>We are in alpha!</h2>
-                    <p>DragonFable Private Server is currently in alpha development. If you want, can contribute to the project <a href="https://github.com/hiperesp/DragonFable-Private-Server" target="_blank">here</a>.</p>
+        <header>
+            <a class="header-logo" href="index.html">
+                <img src="assets/images/logo-sm-df.png">
+            </a>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="signup.html" class="nav-link">Register</a></li>
+                    <li><a href="play.html" class="nav-link">Play</a></li>
+                    <li><a href="manage-account.html" class="nav-link">Manage Account</a></li>
+                    <li><a href="tos.html" class="nav-link">ToS</a></li>
+                </ul>
+            </nav>
+            <img class="banner-overlap" src="assets/images/bg-launcher-df2-overlap.png">
+        </header>
+        <main>
+            <section class="main-banner">
+                <div class="container">
+                    <div class="banner-cta">
+                        <div class="cta-item">
+                            <a href="play.html">
+                                <img src="assets/images/btn-play-df.png" class="dynamic-button" style="--width: 196px; --height: 128px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <b>Server Status: </b> <span data-id="server-status"></span>
+                            </div>
+                        </div>
+                        <div class="cta-item">
+                            <a href="signup.html">
+                                <img src="assets/images/btn-create-df.png" class="dynamic-button" style="--width: 196px; --height: 103px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <b>Playing Now: </b> <span data-id="server-playing"></span>
+                            </div>
+                        </div>
+                        <!--div class="cta-item">
+                            <a href="upgrade.html">
+                                <img src="assets/images/btn-upgrade-df.png" class="dynamic-button" style="--width: 196px; --height: 65px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <br>
+                            </div>
+                        </div-->
+                        <div class="cta-item">
+                            <a href="manage-account.html">
+                                <img src="assets/images/custom-btn-df-manage-account.png" class="dynamic-button" style="--width: 196px; --height: 128px;">
+                            </a>
+                            <div class="cta-item-text">
+                                <br>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </aside>
-            <div class="main-container">
-                <aside class="ad-container">
-                    <div class="ad">
-                        <a href="javascript:void(0)"><img src="assets/images/ads/468x60-DragonSlayer.gif" width="468" height="60"></a>
+                <img class="background" src="assets/images/bg-launcher-df2.jpg">
+            </section>
+            <!--section class="content">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Latest News</h2>
                     </div>
-                </aside>
-                <nav class="navbar">
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="signup.html">Register</a></li>
-                        <li><a href="play.html">Play</a></li>
-                        <li><a href="lost-password.html">Lost Password</a></li>
-                        <li><a href="tos.html">ToS</a></li>
-                    </ul>
-                    <div class="server-info">
-                        <ul data-server-stats-container data-server-location="server-emulator/server.php">
-                            <li><b>Server Status:</b> <span data-server-stats-field="server-status">Fetching...</span></li>
-                            <li><b>Players Online:</b> <span data-server-stats-field="server-players-online">Fetching...</span></li>
-                            <li><b>Time:</b> <span data-server-stats-field="server-time">Fetching...</span></li>
-                            <!-- <li><b>Server Version:</b> <span data-server-stats-field="server-version">Fetching...</span></li> -->
-                        </ul>
-                    </div>
-                </nav>
-                <main class="main-content">
-                    <div class="main-content-header" style="--background:url('images/web/header.bmp')">
-                        <h1 style="white-space:nowrap">DragonFable <wbr>Private Server</h1>
-                        <div class="main-content-datetime">by hiperesp</div>
-                    </div>
-                    <div class="main-content-body">
-                        <div class="home-intro">
-                            <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" height="438" align="middle">
-                                <param name="allowScriptAccess" value="sameDomain" />
-                                <param name="movie" value="assets/video/Banner-Rose-patched.swf" />
-                                <param name="menu" value="false" />
-                                <param name="allowFullScreen" value="true" />
-                                <param name="flashvars" value="" />
-                                <param name="bgcolor" value="#000000" />
-                                <embed src="assets/video/Banner-Rose-patched.swf" FLASHVARS="" name="FFable" bgcolor="#000000" menu="false"  
-                                    allowFullScreen="true" height="438" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
-                                    pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
-                            </object>
-                        </div>
-                        <div class="play-buttons">
-                            <a href="signup.html" class="signup">
-                                <img src="assets/images/web/button-register.gif">
+                    <div class="section-content news-card-container">
+                        <article class="card">
+                            <a href="javascript:void(0)">
+                                <div class="article-title">
+                                    <h3>Thankstaking 2024: Clash of the Robots!</h3>
+                                </div>
+                                <div class="article-image">
+                                    <img src="assets/images/blog/post/1.png">
+                                </div>
+                                <div class="article-header">
+                                    <div class="article-author">
+                                        <div class="author-image">
+                                            <img src="assets/images/blog/author/1.jpg">
+                                        </div>
+                                        <div class="author-name">
+                                            <b>Admin</b>
+                                        </div>
+                                    </div>
+                                    <div class="article-date">
+                                        <b>2 weeks ago</b>
+                                    </div>
+                                </div>
                             </a>
-                            <a href="play.html" class="login">
-                                <img src="assets/images/web/button-play.gif">
+                        </article>
+                        <article class="card">
+                            <a href="javascript:void(0)">
+                                <div class="article-title">
+                                    <h3>Thankstaking 2024: Clash of the Robots!</h3>
+                                </div>
+                                <div class="article-image">
+                                    <img src="assets/images/blog/post/1.png">
+                                </div>
+                                <div class="article-header">
+                                    <div class="article-author">
+                                        <div class="author-image">
+                                            <img src="assets/images/blog/author/1.jpg">
+                                        </div>
+                                        <div class="author-name">
+                                            <b>Admin</b>
+                                        </div>
+                                    </div>
+                                    <div class="article-date">
+                                        <b>2 weeks ago</b>
+                                    </div>
+                                </div>
                             </a>
-                        </div>
-                        <h2>What is DragonFable Private Server?</h2>
-                        <p>DragonFable is an animated fantasy RPG that you can play using your web browser. Each week the DragonFable creative team add new original content based on the suggestions of you and your fellow players as we evolve our ongoing storyline. DragonFable is free to play, but if you like what we are doing you can help support the game by upgrading with a powerful Dragon Amulet unlocking exclusive areas and powerful items.</p>
+                        </article>
                     </div>
-                </main>
-            </div>
-        </section>
+                    <div class="section-footer">
+                        <a href="javascript:void(0)" class="button">View all news</a>
+                    </div>
+                </div>
+            </section-->
+        </main>
         <footer>
-            <p>© 2024 <b>Unofficial</b> DragonFable Private Server.</p>
-            <p>This is a <b>fan-made</b> project and is <b>not affiliated</b> with or endorsed by the creators of the official DragonFable game.</p>
-            <p>All trademarks and copyrights belong to their respective owners.</p>
-            <a target="_blank" id="git-rev"></a>
+            <div class="container">
+                <span class="title"><b>&copy; 2024 Unofficial DragonFable Private Server</b></span><br>
+                This is a fan-made project and is not affiliated with or endorsed by the creators of the official DragonFable game.<br>
+                All trademarks and copyrights belong to their respective owners.<br>
+                <div class="footer-info">
+                    <b>Server version:</b> <a data-id="server-git-rev"></a> - <span data-id="server-version"></span>
+                </div>
+            </div>
         </footer>
-        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-        <script src="assets/script.js"></script>
     </body>
 </html>

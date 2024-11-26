@@ -72,6 +72,9 @@ class UserService extends Service {
     }
 
     public function getByEmail(string $email): UserVO {
+        if(\filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+            throw new DFException(DFException::INVALID_EMAIL);
+        }
         return $this->userModel->getByEmail($email);
     }
 

@@ -1,74 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Register - DragonFable Private Server by hiperesp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register - DragonFable Private Server Online RPG</title>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="shortcut icon" href="assets/images/logo-icon-df.png">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script> window.serverLocation = "server-emulator/server.php"; </script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/js/script.js"></script>
     </head>
     <body>
-        <section class="content">
-            <aside class="sidebar">
-                <a class="sidebar-logo-link" href="index.html">DragonFable Private Server</a>
-                <div class="sidebar-body">
-                    <h2>We are in alpha!</h2>
-                    <p>DragonFable Private Server is currently in alpha development. If you want, can contribute to the project <a href="https://github.com/hiperesp/DragonFable-Private-Server" target="_blank">here</a>.</p>
-                </div>
-            </aside>
-            <div class="main-container">
-                <aside class="ad-container">
-                    <div class="ad">
-                        <a href="javascript:void(0)"><img src="assets/images/ads/468x60-DragonSlayer.gif" width="468" height="60"></a>
-                    </div>
-                </aside>
-                <nav class="navbar">
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="signup.html">Register</a></li>
-                        <li><a href="play.html">Play</a></li>
-                        <li><a href="lost-password.html">Lost Password</a></li>
-                        <li><a href="tos.html">ToS</a></li>
-                    </ul>
-                    <div class="server-info">
-                        <ul data-server-stats-container data-server-location="server-emulator/server.php">
-                            <li><b>Server Status:</b> <span data-server-stats-field="server-status">Fetching...</span></li>
-                            <li><b>Players Online:</b> <span data-server-stats-field="server-players-online">Fetching...</span></li>
-                            <li><b>Time:</b> <span data-server-stats-field="server-time">Fetching...</span></li>
-                            <!-- <li><b>Server Version:</b> <span data-server-stats-field="server-version">Fetching...</span></li> -->
-                        </ul>
-                    </div>
-                </nav>
-                <main class="main-content">
-                    <div class="main-content-header" style="--background:url('images/web/header.bmp')">
-                        <h1 style="white-space:nowrap">Sign Up</h1>
-                        <div class="main-content-datetime"></div>
-                    </div>
-                    <div class="main-content-game">
-                        <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="100%" align="middle">
-                            <param name="allowScriptAccess" value="sameDomain" />
-                            <param name="movie" value="cdn/flash/usersignup-9Dec15-patched.swf" />
-                            <param name="menu" value="false" />
-                            <param name="allowFullScreen" value="true" />
-                            <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp" />
-                            <param name="bgcolor" value="#000000" />
-                            <embed src="cdn/flash/usersignup-9Dec15-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
-                                allowFullScreen="true" width="100%" height="100%" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
-                                pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
-                        </object>
-                    </div>
-                </main>
-            </div>
-        </section>
+        <header>
+            <a class="header-logo" href="index.html">
+                <img src="assets/images/logo-sm-df.png">
+            </a>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="signup.html" class="nav-link active">Register</a></li>
+                    <li><a href="play.html" class="nav-link">Play</a></li>
+                    <li><a href="manage-account.html" class="nav-link">Manage Account</a></li>
+                    <li><a href="tos.html" class="nav-link">ToS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flash-content">
+            <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="640" align="middle">
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="movie" value="cdn/flash/usersignup-9Dec15-patched.swf" />
+                <param name="menu" value="false" />
+                <param name="allowFullScreen" value="true" />
+                <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp" />
+                <param name="bgcolor" value="#000000" />
+                <embed src="cdn/flash/usersignup-9Dec15-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
+                    allowFullScreen="true" width="100%" height="640" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
+                    pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
+            </object>
+        </main>
         <footer>
-            <p>© 2024 <b>Unofficial</b> DragonFable Private Server.</p>
-            <p>This is a <b>fan-made</b> project and is <b>not affiliated</b> with or endorsed by the creators of the official DragonFable game.</p>
-            <p>All trademarks and copyrights belong to their respective owners.</p>
-            <a target="_blank" id="git-rev"></a>
+            <div class="container">
+                <span class="title"><b>&copy; 2024 Unofficial DragonFable Private Server</b></span><br>
+                This is a fan-made project and is not affiliated with or endorsed by the creators of the official DragonFable game.<br>
+                All trademarks and copyrights belong to their respective owners.<br>
+                <div class="footer-info">
+                    <b>Server version:</b> <a data-id="server-git-rev"></a> - <span data-id="server-version"></span>
+                </div>
+            </div>
         </footer>
-        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-        <script src="assets/script.js"></script>
     </body>
 </html>

@@ -14,6 +14,7 @@ services:
       - ./src/web/char-detail.html:/var/www/html/char-detail.html
       - ./src/web/index.html:/var/www/html/index.html
       - ./src/web/lost-password.html:/var/www/html/lost-password.html
+      - ./src/web/manage-account.html:/var/www/html/manage-account.html
       - ./src/web/play.html:/var/www/html/play.html
       - ./src/web/signup.html:/var/www/html/signup.html
       - ./src/web/tos.html:/var/www/html/tos.html

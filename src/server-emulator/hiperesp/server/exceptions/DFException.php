@@ -36,7 +36,9 @@ final class DFException extends \Exception {
     const CHARACTER_ITEM_MAX_STACK_SIZE = self::INVALID_REFERENCE;
 
     const USERNAME_ALREADY_EXISTS = "000.40";
+    const INVALID_USERNAME = "000.41";
     const EMAIL_ALREADY_EXISTS = "000.50";
+    const INVALID_EMAIL = "000.51";
     const USER_BANNED = "000.60";
 
     const USER_NOT_FOUND = "526.14";
@@ -119,9 +121,19 @@ final class DFException extends \Exception {
             "dfMessage" => "The username you are trying to use is already taken",
             "dfAction"  => "UserName",
         ],
+        self::INVALID_USERNAME => [
+            "dfReason"  => "Invalid Username",
+            "dfMessage" => "The username you are trying to use is invalid",
+            "dfAction"  => "UserName",
+        ],
         self::EMAIL_ALREADY_EXISTS => [
             "dfReason"  => "Email Already Exists",
             "dfMessage" => "The email you are trying to use is already taken",
+            "dfAction"  => "Email",
+        ],
+        self::INVALID_EMAIL => [
+            "dfReason"  => "Invalid Email",
+            "dfMessage" => "The email you are trying to use is invalid",
             "dfAction"  => "Email",
         ],
         self::USER_NOT_FOUND => [
@@ -162,6 +174,10 @@ final class DFException extends \Exception {
 
     public function getDFCode(): string {
         return $this->dfCode;
+    }
+
+    public function getDFMessage(): string {
+        return $this->dfMessage;
     }
 
 }
