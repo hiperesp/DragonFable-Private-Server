@@ -1,13 +1,14 @@
 <?php declare(strict_types=1);
-namespace hiperesp\server\controllers;
+namespace hiperesp\server\controllers\web;
 
+use hiperesp\server\controllers\Controller;
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\services\ApiService;
 
-class WebRecoveryPasswordController extends Controller {
+class RecoveryPasswordController extends Controller {
 
     #[Inject] private ApiService $apiService;
 
@@ -16,7 +17,7 @@ class WebRecoveryPasswordController extends Controller {
         inputType: Input::JSON,
         outputType: Output::JSON
     )]
-    public function recoveryPassword(array $input): array {
+    public function step1(array $input): array {
         return $this->apiService->recoveryPassword((string)$input["email"]);
     }
 
@@ -25,7 +26,7 @@ class WebRecoveryPasswordController extends Controller {
         inputType: Input::JSON,
         outputType: Output::JSON
     )]
-    public function recoveryPassword2(array $input): array {
+    public function step2(array $input): array {
         return $this->apiService->recoveryPassword2((string)$input["email"], (string)$input["code"]);
     }
 
@@ -34,7 +35,7 @@ class WebRecoveryPasswordController extends Controller {
         inputType: Input::JSON,
         outputType: Output::JSON
     )]
-    public function recoveryPassword3(array $input): array {
+    public function step3(array $input): array {
         return $this->apiService->recoveryPassword3((string)$input["email"], (string)$input["code"], (string)$input["password"]);
     }
 
