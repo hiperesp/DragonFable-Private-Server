@@ -58,7 +58,7 @@ header {
     & .header-nav, .header-logo {
         background-image: url('../images/gl-topnav75.png');
         background-position: bottom center;
-        background-repeat: no-repeat;
+        background-repeat: repeat-x;
 
         &.header-logo {
             text-decoration: none;
@@ -72,6 +72,7 @@ header {
             }
 
             &:hover {
+                background-repeat: no-repeat, repeat-x;
                 background-image: url('../images/gl-topnav-hover.png'), url('../images/gl-topnav75.png');
             }
         }
@@ -89,7 +90,7 @@ header {
                         display: block;
                         text-decoration: none;
                         color: #ffffff;
-                        padding: 11px;
+                        padding: calc(11px + 1px / 3);
                         font-family: 'Cinzel', sans-serif;
                         &.active, &:hover {
                             background-image: url('../images/gl-topnav-hover.png');
@@ -300,10 +301,10 @@ footer {
 
         & .header-logo {
             width: 100%;
-            background-size: cover;
+            max-height: 200px;
 
             & img {
-                width: 100%;
+                max-width: 100%;
                 height: auto!important;
             }
         }
@@ -312,6 +313,7 @@ footer {
                 flex-wrap: wrap;
 
                 & li {
+                    margin-right: 0!important;
                     width: 100%;
                     text-align: center;
                 }
