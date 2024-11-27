@@ -107,7 +107,7 @@ header {
     }
     & .banner-overlap {
         position: absolute;
-        top: 0px;
+        top: 1px;
         left: 50%;
         transform: translate(-50%);
         pointer-events: none;
@@ -223,15 +223,23 @@ section.content {
 .news-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(272.5px, 1fr));
-    gap: 10px;
+    gap: 5px;
+    padding-top: 5px;
 }
 
 article.card {
     font-family: 'Cinzel', sans-serif;
-    padding: 10px 0;
 
     & a {
+        display: block;
         text-decoration: none;
+        padding: 10px 5px;
+        border: 1px solid #282828;
+        background-color: #151515;
+
+        &:hover {
+            background-color: #202020;
+        }
     }
 
     & .article-image {
