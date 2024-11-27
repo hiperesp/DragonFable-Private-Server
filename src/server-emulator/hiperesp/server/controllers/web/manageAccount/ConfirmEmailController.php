@@ -6,7 +6,7 @@ use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 
-class ChangeEmailController extends Controller {
+class ConfirmEmailController extends Controller {
 
     #[Request(
         endpoint: '/api/manage-account/confirm-email/1',
