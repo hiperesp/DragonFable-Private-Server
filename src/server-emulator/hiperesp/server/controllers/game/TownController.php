@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
-namespace hiperesp\server\controllers;
+namespace hiperesp\server\controllers\game;
 
+use hiperesp\server\controllers\Controller;
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;

@@ -23,9 +23,23 @@ abstract class Controller {
 
         $selected = null;
 
-        $controllers = \array_filter(\scandir(__DIR__), fn(string $file) => \is_file(__DIR__."/{$file}") && \preg_match('/\.php$/', $file));
-        foreach($controllers as $controller) {
-            $className = \pathinfo($controller, \PATHINFO_FILENAME);
+        $controllers = (function(): array {
+            $filesRecursive = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator(__DIR__));
+
+            // maintaning only php files
+            $files = \array_filter(\array_keys(\iterator_to_array($filesRecursive)), fn($fileOrDir) => \is_file($fileOrDir) && \pathinfo($fileOrDir, \PATHINFO_EXTENSION)==='php');
+            // removing this current file from the list
+            $files = \array_filter($files, fn($file) => $file!==__FILE__);
+            // removing the __DIR__ from the file path
+            $files = \array_map(fn($file) => \substr($file, \strlen(__DIR__)+1), $files);
+            // removing the .php extension
+            $files = \array_map(fn($file) => \substr($file, 0, -4), $files);
+            // replacing / with \
+            $files = \array_map(fn($file) => \str_replace(\DIRECTORY_SEPARATOR, '\\', $file), $files);
+
+            return $files;
+        })();
+        foreach($controllers as $className) {
             $rClass = new \ReflectionClass("\\hiperesp\\server\\controllers\\{$className}");
             foreach($rClass->getMethods() as $rMethod) {
                 foreach($rMethod->getAttributes(Request::class) as $rAttribute) {

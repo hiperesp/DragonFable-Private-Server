@@ -1,13 +1,14 @@
 <?php declare(strict_types=1);
-namespace hiperesp\server\controllers;
+namespace hiperesp\server\controllers\web;
 
+use hiperesp\server\controllers\Controller;
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\vo\SettingsVO;
 
-class WebController extends Controller {
+class RedirectController extends Controller {
 
     #[Inject] private SettingsVO $settings;
 
