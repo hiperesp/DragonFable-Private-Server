@@ -9,7 +9,7 @@ function dynamic(string $pathInfo): string|false {
 
     include 'remote.php';
     $out = remote($pathInfo);
-    if($out!==false) {
+    if($out===false) {
         return false;
     }
 
