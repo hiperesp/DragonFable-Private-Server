@@ -5,6 +5,7 @@ final class Definition {
     public static array $definition = [
         "settings" => [
             "migrateOldData" => true,
+            "replaceFieldsWithNewData" => [ "gameSwf", "serverVersion", ],
             "structure" => [
                 "id"                    => [ 'INTEGER', 'GENERATED', 'PRIMARY_KEY' ],
 

@@ -225,6 +225,20 @@ abstract class Storage {
             } else {
                 $dataToInsert = Setup::getData($collection);
             }
+            if(Setup::canReplaceFieldsWithNewData($collection)) {
+                $fieldsToReplace = Setup::getReplaceFieldsWithNewData($collection);
+                $dataToReplace = Setup::getData($collection);
+                foreach($dataToInsert as $key => $data) {
+                    foreach($dataToReplace as $replaceData) {
+                        if($replaceData['id'] === $data['id']) {
+                            foreach($fieldsToReplace as $replaceField) {
+                                $dataToInsert[$key][$replaceField] = $replaceData[$replaceField];
+                            }
+                            break;
+                        }
+                    }
+                }
+            }
             foreach($dataToInsert as $data) {
                 try {
                     $this->insertPrefix($migrationPrefix, $collection, $data);

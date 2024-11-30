@@ -50,4 +50,15 @@ final class Setup {
         return Definition::$definition[$collection]["migrateOldData"];
     }
 
+    public static function canReplaceFieldsWithNewData(string $collection): bool {
+        return !!self::getReplaceFieldsWithNewData($collection);
+    }
+
+    public static function getReplaceFieldsWithNewData(string $collection): ?array {
+        if(!isset(Definition::$definition[$collection]["replaceFieldsWithNewData"])) {
+            return null;
+        }
+        return Definition::$definition[$collection]["replaceFieldsWithNewData"];
+    }
+
 }
