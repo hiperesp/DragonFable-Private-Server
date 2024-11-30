@@ -51,11 +51,8 @@ class DevController extends Controller {
     </fieldset>
     <fieldset>
         <legend>Database</legend>
-        <form action="database/first-setup">
-            <button>Setup collections</button>
-        </form>
-        <form action="database/upgrade">
-            <button>Upgrade game data</button><!-- without char, char_item, logs, settings and user collections -->
+        <form action="database/setup">
+            <button>Setup/upgrade server</button>
         </form>
     </fieldset>
     <fieldset>
@@ -81,20 +78,7 @@ HTML;
     }
 
     #[Request(
-        endpoint: '/dev/database/first-setup',
-        inputType: Input::NONE,
-        outputType: Output::RAW
-    )]
-    public function databaseFirstSetup(): string {
-        \ini_set('memory_limit', '16G');
-        \set_time_limit(0);
-        $storage = Storage::getStorage();
-        $storage->setup();
-        return "Database setup OK!";
-    }
-
-    #[Request(
-        endpoint: '/dev/database/upgrade',
+        endpoint: '/dev/database/setup',
         inputType: Input::NONE,
         outputType: Output::RAW
     )]
@@ -102,7 +86,7 @@ HTML;
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
         $storage = Storage::getStorage();
-        $storage->upgrade();
+        $storage->setup();
         return "Database upgrade OK!";
     }
 
