@@ -171,6 +171,13 @@ abstract class Storage {
     }
 
     final public function setup(): void {
+        global $base;
+
+        if(\file_exists("{$base}/setup.lock")) {
+            throw new \Exception("Setup error: Setup already done (or in progress). If you want to run setup again, remove the 'setup.lock' file");
+        }
+        \file_put_contents("{$base}/setup.lock", '');
+
         $key = \date('YmdHis');
 
         $migrationPrefix  = "{$this->prefix}migration{$key}_";
