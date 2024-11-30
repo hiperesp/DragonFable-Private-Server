@@ -170,28 +170,7 @@ abstract class Storage {
         return self::$instance;
     }
 
-    final public function setup(?string $prefix = null): void {
-        if($prefix === null) {
-            $prefix = $this->prefix;
-        }
-        foreach(Setup::getCollections() as $collection) {
-            if($this->existsCollection($prefix, $collection)) {
-                continue;
-            }
-            if(!$this->_createCollection($prefix, $collection)) {
-                throw new \Exception("Setup error: Failed to create collection {$collection}");
-            }
-            foreach(Setup::getData($collection) as $data) {
-                try {
-                    $this->insert($collection, $data);
-                } catch(\Exception $e) {
-                    throw new \Exception("Setup error: Failed to insert data into collection {$collection}: {$e->getMessage()}.\nData: ".\json_encode($data));
-                }
-            }
-        }
-    }
-
-    final public function upgrade(): void {
+    final public function setup(): void {
         $key = \date('YmdHis');
 
         $migrationPrefix  = "{$this->prefix}migration{$key}_";
@@ -207,7 +186,7 @@ abstract class Storage {
                 throw new \Exception("Setup error: Failed to create collection {$collection}");
             }
             $collectionStructure = Setup::getStructure($collection);
-            if(Setup::canMigrateOldDataFromCollection($collection)) {
+            if($this->existsCollection($productionPrefix, $collection) && Setup::canMigrateOldDataFromCollection($collection)) {
                 $dataToInsert = $this->select($collection, [], null);
                 foreach($dataToInsert as $key => $data) {
                     $newData = [];
@@ -222,22 +201,22 @@ abstract class Storage {
                     }
                     $dataToInsert[$key] = $newData;
                 }
-            } else {
-                $dataToInsert = Setup::getData($collection);
-            }
-            if(Setup::canReplaceFieldsWithNewData($collection)) {
-                $fieldsToReplace = Setup::getReplaceFieldsWithNewData($collection);
-                $dataToReplace = Setup::getData($collection);
-                foreach($dataToInsert as $key => $data) {
-                    foreach($dataToReplace as $replaceData) {
-                        if($replaceData['id'] === $data['id']) {
-                            foreach($fieldsToReplace as $replaceField) {
-                                $dataToInsert[$key][$replaceField] = $replaceData[$replaceField];
+                if(Setup::canReplaceFieldsWithNewData($collection)) {
+                    $fieldsToReplace = Setup::getReplaceFieldsWithNewData($collection);
+                    $dataToReplace = Setup::getData($collection);
+                    foreach($dataToInsert as $key => $data) {
+                        foreach($dataToReplace as $replaceData) {
+                            if($replaceData['id'] === $data['id']) {
+                                foreach($fieldsToReplace as $replaceField) {
+                                    $dataToInsert[$key][$replaceField] = $replaceData[$replaceField];
+                                }
+                                break;
                             }
-                            break;
                         }
                     }
                 }
+            } else {
+                $dataToInsert = Setup::getData($collection);
             }
             foreach($dataToInsert as $data) {
                 try {
