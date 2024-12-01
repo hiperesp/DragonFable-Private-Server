@@ -64,12 +64,6 @@ class DevController extends Controller {
             <button>PHP info</button>
         </form>
     </fieldset>
-    <fieldset>
-        <legend>Email</legend>
-        <form action="email/welcome">
-            <button>Welcome</button>
-        </form>
-    </fieldset>
 </div>
 HTML;
 // create a group with legend with the name of the group and the endpoints
@@ -130,21 +124,6 @@ HTML;
             <button>Submit</button>
         </form>
         HTML;
-    }
-
-    #[Request(
-        endpoint: '/dev/email/welcome',
-        inputType: Input::NONE,
-        outputType: Output::REDIRECT
-    )]
-    public function email_welcome(): string {
-        $userModel = new \hiperesp\server\models\UserModel;
-        $user = $userModel->getById(1);
-
-        $emailService = new \hiperesp\server\services\EmailService;
-        $emailService->sendWelcomeEmail($user);
-
-        return "../";
     }
 
 }
