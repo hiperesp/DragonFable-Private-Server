@@ -18,6 +18,7 @@ class WebApiService extends Service {
             "server"        => $this->settings->serverLocation,
             "gamefilesPath" => $this->settings->gamefilesPath,
             "gameVersion"   => $this->settings->serverVersion,
+            "online"        => $this->getStatus()['online'] ? "true" : "false",
             "end"           => "here",
         ];
     }
@@ -29,9 +30,46 @@ class WebApiService extends Service {
     public function stats(): array {
         return [
             'onlineUsers' => $this->characterModel->getOnlineCount(),
+            'status' => $this->getStatus(),
             'serverTime' => \date('c'),
             'serverVersion' => $this->settings->serverVersion,
             'gitRev' => \getenv('GIT_REV') ?: null,
+        ];
+    }
+
+    private function getStatus(): array {
+        global $base;
+
+        if(!\file_exists("{$base}/setup.lock")) {
+            return [
+                'online' => false,
+                'text' => 'Upgrade Needed',
+                'color' => 'hsl(0deg, 60%, 50%)',
+            ];
+        }
+
+        $setupStatusTxt = \file_get_contents("{$base}/setup.lock");
+        if($setupStatusTxt === 'UPGRADING') {
+            return [
+                'online' => false,
+                'text' => 'Upgrading',
+                'color' => 'hsl(60deg, 60%, 50%)',
+            ];
+        }
+        if($setupStatusTxt === 'DONE') {
+            return [
+                'online' => true,
+                'text' => 'Online',
+                'color' => 'hsl(110deg, 60%, 50%)',
+            ];
+        }
+        if(!$setupStatusTxt) {
+            $setupStatusTxt = 'Empty';
+        }
+        return [
+            'online' => false,
+            'text' => "Unknown ({$setupStatusTxt})",
+            'color' => 'hsl(200deg, 60%, 50%)',
         ];
     }
 

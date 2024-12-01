@@ -23,6 +23,7 @@ window.addEventListener("load", function() {
             const serverStatus = {
                 onlineUsers: null,
                 online: null,
+                status: null,
                 time: null,
                 version: null,
                 gitRev: null,
@@ -35,6 +36,7 @@ window.addEventListener("load", function() {
 
                 serverStatus.online = true;
                 serverStatus.onlineUsers = Number(data.onlineUsers);
+                serverStatus.status = data.status;
                 serverStatus.time = data.serverTime;
                 serverStatus.version = data.serverVersion;
                 serverStatus.gitRev = data.gitRev;
@@ -58,12 +60,12 @@ window.addEventListener("load", function() {
 
             listeners.onlineUsers.forEach(function(element) {
                 element.textContent = serverStatus.onlineUsers || 0;
-                element.style.color = "#ffff00";
+                element.style.color = "hsl(60deg, 60%, 50%)";
             });
 
             listeners.status.forEach(function(element) {
-                element.textContent = serverStatus.online ? "Online" : "Offline";
-                element.style.color = serverStatus.online ? "#00ff00" : "#ff0000";
+                element.textContent = serverStatus.status?.text ? serverStatus.status.text : "Offline";
+                element.style.color = serverStatus.status?.color? serverStatus.status.color: "hsl(0deg, 60%, 50%)";
             });
 
             listeners.version.forEach(function(element) {
