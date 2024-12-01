@@ -176,7 +176,7 @@ abstract class Storage {
         if(\file_exists("{$base}/setup.lock")) {
             throw new \Exception("Setup error: Setup already done (or in progress). If you want to run setup again, remove the 'setup.lock' file");
         }
-        \file_put_contents("{$base}/setup.lock", '');
+        \file_put_contents("{$base}/setup.lock", 'UPGRADING');
 
         $key = \date('YmdHis');
 
@@ -241,5 +241,7 @@ abstract class Storage {
             }
             $this->renameCollection($migrationPrefix, $collection, $productionPrefix, $collection);
         }
+
+        \file_put_contents("{$base}/setup.lock", 'DONE');
     }
 }
