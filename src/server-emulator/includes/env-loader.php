@@ -18,6 +18,9 @@ if(!isset($config['DF_SETTINGS_ID'])) {
 if(!isset($config['DF_NINJA2_KEY'])) {
     $config['DF_NINJA2_KEY'] = \getenv("DF_NINJA2_KEY");
 }
+if(!isset($config['GIT_REV'])) {
+    $config['GIT_REV'] = \getenv("GIT_REV");
+}
 
 if(!$config["DB_DRIVER"]) {
     throw new \Exception("The environment variable DB_DRIVER is not defined.");
