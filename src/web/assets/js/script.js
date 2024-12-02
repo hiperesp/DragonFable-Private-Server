@@ -1,10 +1,20 @@
-/** RUFFLE PLAYER */
-window.RufflePlayer.config = {
-    splashScreen: false,
-    autoplay: "on",
-    unmuteOverlay: "hidden",
-    muted: true
-};
+(function() {
+    /** RUFFLE PLAYER */
+    let polyfills = true;
+    if(window.navigator && window.navigator.plugins) {
+        if(window.navigator.plugins["Shockwave Flash"] != undefined) { // Flash Player is installed
+            polyfills = false;
+        }
+    }
+
+    window.RufflePlayer.config = {
+        splashScreen: false,
+        autoplay: "on",
+        unmuteOverlay: "hidden",
+        muted: true,
+        polyfills
+    };
+})();
 
 window.addEventListener("load", function() {
     /**  SERVER STATUS */

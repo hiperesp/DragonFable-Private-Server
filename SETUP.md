@@ -20,13 +20,13 @@
 
 2. Configure the server:
     - Using environment variables:
-        Read the /src/server-emulator/.env.default.php file and set the environment variables accordingly.
-    - Using a .env.php file:
-        Copy the /src/server-emulator/.env.default.php to /src/server-emulator/.env.php and edit the values as needed.
+        Read the /src/server-emulator/.config.default.php file and set the environment variables accordingly.
+    - Using a .config.php file:
+        Copy the /src/server-emulator/.config.default.php to /src/server-emulator/.config.php and edit the values as needed.
 
-    You can use MySQL or SQLite. See `/src/server-emulator/.env.default.php` for more details.
+    You can use MySQL or SQLite. See `/src/server-emulator/.config.default.php` for more details.
 
-    **Note**: If you don't create the .env.php file, the server will use the default system environment variables.
+    **Note**: If you don't create the .config.php file, the server will use the default system environment variables.
 
 3. (Optional) Download the offline gamefiles from [here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2024-11-10) and extract it to `/src/cdn/gamefiles/`\
     **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the `cache` mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
@@ -67,9 +67,9 @@
     - `/src/web/` to `public_html/` (move the files to the root dir)
 
 3. Configure the server:
-    Copy the `/src/server-emulator/.env.default.php` to `/src/server-emulator/.env.php` and edit the values as needed.
+    Copy the `/src/server-emulator/.config.default.php` to `/src/server-emulator/.config.php` and edit the values as needed.
 
-    You can use MySQL or SQLite. See `/src/server-emulator/.env.default.php` for more details. By default, the server will use SQLite.
+    You can use MySQL or SQLite. See `/src/server-emulator/.config.default.php` for more details. By default, the server will use SQLite.
 
 4. (Optional) Download the offline gamefiles from [here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2024-11-10) and extract it to `public_html/cdn/gamefiles/`\
     **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the `cache` mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.

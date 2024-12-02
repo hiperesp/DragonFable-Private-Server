@@ -1,7 +1,7 @@
 
 # DragonFable Private Server - Configuration
 
-You can configure the server connection by editing the `/src/server-emulator/.env.php` file or by setting your environment variables like this file.
+You can configure the server connection by editing the `/src/server-emulator/.config.php` file or by setting your environment variables like this file.
 
 ## Game Settings
 

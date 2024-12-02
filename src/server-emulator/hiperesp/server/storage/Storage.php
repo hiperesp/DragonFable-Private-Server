@@ -161,8 +161,10 @@ abstract class Storage {
 
     private static Storage $instance;
     final public static function getStorage(): Storage {
-        $driver = \getenv("DB_DRIVER");
-        $options = \json_decode(\getenv("DB_OPTIONS"), true);
+        global $config;
+
+        $driver = $config["DB_DRIVER"];
+        $options = \json_decode($config["DB_OPTIONS"], true);
 
         if(!isset(self::$instance)) {
             self::$instance = new $driver($options);
