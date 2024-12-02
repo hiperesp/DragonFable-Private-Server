@@ -28,12 +28,13 @@ class WebApiService extends Service {
     }
 
     public function stats(): array {
+        global $config;
         return [
             'onlineUsers' => $this->characterModel->getOnlineCount(),
             'status' => $this->getStatus(),
             'serverTime' => \date('c'),
             'serverVersion' => $this->settings->serverVersion,
-            'gitRev' => \getenv('GIT_REV') ?: null,
+            'gitRev' => $config['GIT_REV'] ?: null,
         ];
     }
 

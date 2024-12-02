@@ -18,8 +18,9 @@ class SettingsModel extends Model {
 
     private static SettingsVO $_settings;
     public function getSettings(): SettingsVO {
+        global $config;
         if(!isset(self::$_settings)) {
-            self::$_settings = $this->getById((int)\getenv("DF_SETTINGS_ID"));
+            self::$_settings = $this->getById((int)$config['DF_SETTINGS_ID']);
         }
         return self::$_settings;
     }

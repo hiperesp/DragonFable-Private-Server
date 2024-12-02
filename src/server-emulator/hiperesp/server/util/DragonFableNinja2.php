@@ -6,7 +6,8 @@ class DragonFableNinja2 {
     private readonly string $key;
 
     public function __construct() {
-        $this->key = \getenv("DF_NINJA2_KEY");
+        global $config;
+        $this->key = $config["DF_NINJA2_KEY"];
     }
 
     public function decrypt(string $theText): string {
