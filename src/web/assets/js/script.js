@@ -4,7 +4,7 @@
         splashScreen: false,
         autoplay: "on",
         unmuteOverlay: "hidden",
-        muted: true,
+        muted: true
     };
 })();
 
