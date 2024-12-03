@@ -32,5 +32,5 @@ if(!$config["DF_SETTINGS_ID"]) {
     $config["DF_SETTINGS_ID"] = 1;
 }
 if(!$config["DF_NINJA2_KEY"]) {
-    $config["DF_NINJA2_KEY=ZorbakOwnsYou"];
+    $config["DF_NINJA2_KEY"] = "ZorbakOwnsYou";
 }
