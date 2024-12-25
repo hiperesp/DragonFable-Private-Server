@@ -3,6 +3,7 @@
 $cdn = "http://localhost/cdn/";
 $maxFilemtime = 24 * 60 * 60; // 24 hours
 $maxFilemtime*= 5; // 5 days
+$maxFilemtime*= 1000; // 5000 days
 
 $toDownload = [
     "interface" => [
