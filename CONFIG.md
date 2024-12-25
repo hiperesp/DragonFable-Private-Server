@@ -11,7 +11,7 @@ Access your database and open your `settings` table. This is what each column me
 
 - `serverName`: This is your server name.
 
-- `gameSwf`: The `gameSwf` parameter is used to specify the game file to load. The default is `game15_9_14-patched.swf`. You can change it to any other game file you want to use, if you use a custom patched version, for example or you can use a specific other version.
+- `gameSwf`: The `gameSwf` parameter is used to specify the game file to load. You can change it to any other game file you want to use, if you use a custom patched version, for example or you can use a specific other version.
 
 - `serverVersion`: The `serverVersion` parameter is used to specify the game build version string. It is not used, you can use it to specify any string you want.
 
