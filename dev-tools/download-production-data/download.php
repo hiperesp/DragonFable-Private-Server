@@ -41,14 +41,14 @@ $thingsToDownload = [
     "hairShopF" => $hairShop,
     "quest" => [
         "from" => 1,
-        "to" => 2220,
+        "to" => 2400,
         "needAuth" => true,
         "endpoint" => "/cf-questload.asp",
         "param" => "intQuestID",
     ],
     "town" => [
         "from" => 1,
-        "to" => 2220,
+        "to" => 2400,
         "needAuth" => true,
         "endpoint" => "/cf-loadtowninfo.asp",
         "param" => "intTownID",
@@ -90,7 +90,7 @@ $thingsToDownload = [
     ],
     "questRewards" => [
         "from" => 1,
-        "to" => 2220,
+        "to" => 2400,
         "needAuth" => true,
         "endpoint" => "/cf-questcomplete-Mar2011.asp",
         "param" => "intQuestID",
