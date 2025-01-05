@@ -4,6 +4,7 @@ $cdn = "http://localhost/cdn/";
 $maxFilemtime = 24 * 60 * 60; // 24 hours
 $maxFilemtime*= 5; // 5 days
 $maxFilemtime*= 1000; // 5000 days
+$skipDownloaded = true;
 
 $toDownload = [
     "interface" => [
@@ -31,7 +32,7 @@ $startTime = (int)\microtime(true);
 downloadAll($toDownload);
 
 function downloadAll($toDownload) {
-    global $cdn, $maxFilemtime;
+    global $cdn, $maxFilemtime, $skipDownloaded;
 
     \file_put_contents("download-swf-success.txt", "");
     \file_put_contents("download-swf-fail.txt", "");
@@ -70,6 +71,15 @@ function downloadAll($toDownload) {
     foreach($dataToDownload as $type => $data) {
         foreach($data as $uri) {
             echo "[0] Downloading {$uri}... ".getPercentString($current, $total)."\n";
+            if($skipDownloaded) {
+                $uriLc = \strtolower($uri);
+                if(\file_exists("../../cdn/gamefiles/{$uriLc}")) {
+                    echo "[0] Skipping {$uri}...\n";
+                    $current++;
+                    continue;
+                }
+            }
+
             $downloaded = !!@\file_get_contents("{$cdn}gamefiles/update.php/{$maxFilemtime}/{$uri}");
             if($downloaded) {
                 \file_put_contents("download-swf-success.txt", "{$uri}\n", FILE_APPEND);
