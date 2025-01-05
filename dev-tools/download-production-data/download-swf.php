@@ -76,6 +76,7 @@ function downloadAll($toDownload) {
                 if(\file_exists("../../cdn/gamefiles/{$uriLc}")) {
                     echo "[0] Skipping {$uri}...\n";
                     $current++;
+                    \file_put_contents("download-swf-success.txt", "{$uri}\n", FILE_APPEND);
                     continue;
                 }
             }

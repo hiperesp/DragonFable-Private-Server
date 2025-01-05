@@ -521,6 +521,21 @@ $merges = [
 
         return $quest3;
     },
+    "itemShop" => function(array $itemShop1, array $itemShop2): array {
+        $itemShop1["count"] = $itemShop2["count"]; // always mantain the new count (idk what is this for)
+
+        $keys = \array_keys($itemShop1);
+        if($keys !== \array_keys($itemShop2)) {
+            throw new \Exception("File already exists with different KEYS");
+        }
+
+        return \array_combine($keys, \array_map(function(string $keyName, mixed $value1, mixed $value2) {
+            if($value1===$value2) return $value1;
+            throw new \Exception("File already exists with different VALUES");
+        }, $keys, $itemShop1, $itemShop2));
+
+
+    },
     "item" => function(array $item1, array $item2): array {
         $keys = \array_keys($item1);
         if($keys !== \array_keys($item2)) {
