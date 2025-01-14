@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
 function dynamic(string $pathInfo): string|false {
-    include 'local.php';
+    include_once 'local.php';
     $out = local($pathInfo);
     if($out!==false) {
         return $out;
     }
 
-    include 'remote.php';
+    include_once 'remote.php';
     $out = remote($pathInfo);
     if($out===false) {
         return false;

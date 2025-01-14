@@ -1,65 +1,45 @@
 <?php declare(strict_types=1);
 
-function update(string $pathInfo): string|false {
-    list($filemtimeInterval, $pathInfo) = parsePathInfo($pathInfo);
+function update(string $pathInfo, ?string $requestedVersion = null): bool {
+    $versionFile = \preg_replace('/\.swf$/', '.ver', __DIR__.$pathInfo);
 
-    $fetchRemote = fetchRemote((int)$filemtimeInterval, $pathInfo);
-
-    if($fetchRemote) {
-        include 'remote.php';
-        $out = remote($pathInfo);
-        if($out!==false) {
-            $localFile = __DIR__.$pathInfo;
-            $localDir = \dirname($localFile);
-            if(!\is_dir($localDir)) {
-                \mkdir($localDir, 0755, true);
+    $needUpdate = true;
+    if(\file_exists(__DIR__.$pathInfo)) {
+        $needUpdate = false;
+        if($requestedVersion) {
+            $needUpdate = true;
+            if(\file_exists($versionFile)) {
+                $version = \file_get_contents($versionFile);
+                if($version === $requestedVersion) {
+                    $needUpdate = false;
+                }
             }
-            \file_put_contents($localFile, $out);
         }
     }
 
-    include 'local.php';
-    $out = local($pathInfo);
+    if(!$needUpdate) {
+        return true; // already updated;
+    }
+
+    include_once 'remote.php';
+    $out = remote($pathInfo);
     if($out!==false) {
-        return $out;
-    }
+        $localFile = __DIR__.$pathInfo;
+        $localDir = \dirname($localFile);
+        if(!\is_dir($localDir)) {
+            \mkdir($localDir, 0755, true);
+        }
+        \file_put_contents($localFile, $out);
 
-    return $out;
-}
-
-function parsePathInfo(string $pathInfo): array {
-    $pathParts = \explode('/', $pathInfo);
-    $filemtimeInterval = $pathParts[1];
-    unset($pathParts[1]);
-    return [ $filemtimeInterval, \implode('/', $pathParts) ];
-}
-
-function fetchRemote(int $filemtimeInterval, string $pathInfo): bool {
-    if(!\preg_match('/\.swf$/', $pathInfo)) {
-        return false;
-    }
-
-    $localFile = __DIR__.$pathInfo;
-
-    if(\file_exists($localFile)) {
-        $localFilemtime = \filemtime($localFile);
-        if($localFilemtime + $filemtimeInterval > \time()) {
-            return false;
+        if($requestedVersion) {
+            \file_put_contents($versionFile, $requestedVersion);
         }
     }
 
-    return true;
+    return !!$out;
 }
 
 if(__FILE__ == \realpath($_SERVER["SCRIPT_FILENAME"])) {
-    $pathInfo = \strtolower($_SERVER['PATH_INFO']);
-
-    $out = update($pathInfo);
-    if($out===false) {
-        \http_response_code(404);
-        echo 'File not found';
-    } else {
-        \header("Content-Type: application/x-shockwave-flash");
-        echo $out;
-    }
+    \http_response_code(403);
+    echo 'Not Allowed';
 }

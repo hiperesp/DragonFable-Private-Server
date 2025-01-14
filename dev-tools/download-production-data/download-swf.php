@@ -1,10 +1,8 @@
 #!/usr/bin/env php
 <?php
-$cdn = "http://localhost/cdn/";
-$maxFilemtime = 24 * 60 * 60; // 24 hours
-$maxFilemtime*= 5; // 5 days
-$maxFilemtime*= 1000; // 5000 days
-$skipDownloaded = true;
+include_once "../../cdn/gamefiles/update.php";
+
+$skipDownloaded = false;
 
 $toDownload = [
     "interface" => [
@@ -32,7 +30,7 @@ $startTime = (int)\microtime(true);
 downloadAll($toDownload);
 
 function downloadAll($toDownload) {
-    global $cdn, $maxFilemtime, $skipDownloaded;
+    global $skipDownloaded;
 
     \file_put_contents("download-swf-success.txt", "");
     \file_put_contents("download-swf-fail.txt", "");
@@ -81,7 +79,10 @@ function downloadAll($toDownload) {
                 }
             }
 
-            $downloaded = !!@\file_get_contents("{$cdn}gamefiles/update.php/{$maxFilemtime}/{$uri}");
+            $parsedUri = "/".\parse_url($uri, PHP_URL_PATH);
+            $parsedVersion = \parse_url($uri, PHP_URL_QUERY);
+
+            $downloaded = update(\strtolower($parsedUri), $parsedVersion);
             if($downloaded) {
                 \file_put_contents("download-swf-success.txt", "{$uri}\n", FILE_APPEND);
             } else {
@@ -89,6 +90,11 @@ function downloadAll($toDownload) {
                 \file_put_contents("download-swf-fail.txt", "{$uri}\n", FILE_APPEND);
             }
             $current++;
+
+            // free memory
+            \gc_collect_cycles();
+            \gc_mem_caches();
+            unset($downloaded);
         }
     }
     return $dataToDownload;
@@ -139,14 +145,23 @@ function createUri(array $data, array $definition): array {
             continue;
         }
 
-        $item = \str_replace(" ", "%20", $item);
-        $item = \str_replace("\\", "/", $item);
-        $newUri = \trim("{$basePath}{$item}");
+        $replaces = [
+            " " => "%20",
+            "\\" => "/",
+        ];
+        $item = \str_replace(\array_keys($replaces), \array_values($replaces), $item);
+
+        $item = \trim($item);
+        if(\strpos($item, $basePath)===0) {
+            $newUri = $item;
+        } else {
+            $newUri = \trim("{$basePath}{$item}");
+        }
 
         if($newUri==="items/artifacts/") {
             continue;
         }
-        if(\preg_match('/\.swf/', $newUri) === 0) {
+        if(\strpos($newUri, '.swf') === false) {
             \file_put_contents("download-swf-skip.txt", "{$newUri}\n", FILE_APPEND);
             continue;
             throw new \Exception("Invalid swf uri: {$newUri}");

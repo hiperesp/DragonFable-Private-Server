@@ -22,7 +22,6 @@ Access your database and open your `settings` table. This is what each column me
     - `dynamic`: Like `local`, but if the file is not found, it will fetch it from the remote server. It will not save the file locally.
     - `cache`: Like `dynamic`, but it will save the file locally. It will serve the file faster in the future.
     - The `remote` mode exists, but you should not use it, as it will fetch all files from the remote server, and they are not patched.
-    - The `update` mode exists, but you should not use it. It is used to update the game files. It needs to be used like `/update.php/{time}`, where `{time}` is the time offset in seconds.
 
     You can also use a custom domain, like `https://cdn.example.org/gamefiles/cache.php/`. CORS headers may be required.
 
