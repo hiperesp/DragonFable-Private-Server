@@ -24,6 +24,13 @@ Tools:
 - `convert.php`: Convert the `xml` files to `json` files, in order to be used by the server.
 - `download-swf.php`: Download all `swf` files from the server based on the converted `json` files. It will store in the `cdn` folder.
 
+To update, run in order:
+```sh
+php download.php
+php convert.php
+php download-swf.php
+```
+
 ### patch-new-swf
 
 This tool will patch the new `game*.swf` files. The idea is when a new release is out at the original game, you can patch it to work with the server. See the last `patch-new-swf/game*-info.txt` to see the changes that was made and compare it with the new `game*-info.txt` to see if something is broken.
