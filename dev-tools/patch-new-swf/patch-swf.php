@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 define('OS', 'windows'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_32');
+define('SWF_FILE', 'game15_9_33');
 
 $replaces = [
     # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
@@ -273,9 +273,6 @@ $replaces = [
         setMode('normal');
     }
     ACTIONSCRIPT,
-
-    # FIX THE "Account" field in the character screen
-    '_root.user.intAcessLevel' => '_root.user.intAccessLevel',
 ];
 
 $chainedAssignmentsReplaces = [];

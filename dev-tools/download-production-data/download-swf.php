@@ -82,7 +82,7 @@ function downloadAll($toDownload) {
             $parsedUri = "/".\parse_url($uri, PHP_URL_PATH);
             $parsedVersion = \parse_url($uri, PHP_URL_QUERY);
 
-            $downloaded = update(\strtolower($parsedUri), $parsedVersion);
+            $downloaded = update(\strtolower(\urldecode($parsedUri)), $parsedVersion);
             if($downloaded) {
                 \file_put_contents("download-swf-success.txt", "{$uri}\n", FILE_APPEND);
             } else {
