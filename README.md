@@ -1,4 +1,4 @@
-# DragonFable Private Server [WIP]
+# DragonFable Private Server [WIP] 🇧🇷
 
 A private server for DragonFable, allowing custom game and server file locations.
 
