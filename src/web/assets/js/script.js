@@ -76,7 +76,7 @@ window.addEventListener("load", function() {
 
             listeners.gitRev.forEach(function(element) {
                 element.textContent = serverStatus.gitRev ? serverStatus.gitRev.substring(0, 7) : "Unknown";
-                element.href = serverStatus.gitRev ? "https://github.com/hiperesp/DragonFable-Private-Server/compare/"+serverStatus.gitRev.substring(0, 7)+"..main" : "javascript:void(0)";
+                element.href = serverStatus.gitRev ? "https://github.com/hiperesp/DragonFable-Private-Server/compare/"+serverStatus.gitRev.substring(0, 7)+"..php8.2" : "javascript:void(0)";
                 element.target = serverStatus.gitRev ? "_blank" : null;
             });
         }
