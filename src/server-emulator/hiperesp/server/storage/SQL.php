@@ -3,9 +3,11 @@ namespace hiperesp\server\storage;
 
 abstract class SQL extends Storage {
 
-    private readonly \PDO $pdo;
+    protected readonly \PDO $pdo;
+    protected bool $useForeignKeys = true;
 
-    abstract protected function getFieldDefinition(string $field, array $definitions, string $collection, array &$afterCreateSql): string;
+    abstract protected function getFieldDefinition(string $field, array $definitions, string $prefix, string $collection, array &$afterCreateSql): string;
+    abstract protected function getRenameTableDefinition(string $oldName, string $newName): string;
 
     protected function __construct(array $options) {
         if(!isset($options["driver"])) {
@@ -111,8 +113,8 @@ abstract class SQL extends Storage {
 
     #[\Override]
     protected function existsCollection(string $prefix, string $collection): bool {
-        $stmt = $this->pdo->prepare("SELECT 1 FROM {$prefix}{$collection} LIMIT 1");
         try {
+            $stmt = $this->pdo->prepare("SELECT 1 FROM {$prefix}{$collection} LIMIT 1");
             return $stmt->execute();
         } catch(\Exception $e) {
             return false;
@@ -137,13 +139,29 @@ abstract class SQL extends Storage {
                 }
                 $parsedDefinitions[$definition] = $params;
             }
-            $tableFieldsDefinitions[] = $this->getFieldDefinition($field, $parsedDefinitions, $collection, $afterCreateSql);
+            $tableFieldsDefinitions[] = $this->getFieldDefinition(
+                field: $field,
+                definitions: $parsedDefinitions,
+                prefix: $prefix,
+                collection: $collection,
+                afterCreateSql: $afterCreateSql);
         }
-        $tableFieldsDefinitions[] = $this->getFieldDefinition('_isDeleted', [ 'INTEGER' => NULL, 'INDEX' => NULL, 'DEFAULT' => '0'], $collection, $afterCreateSql);
+        $tableFieldsDefinitions[] = $this->getFieldDefinition(
+            field: '_isDeleted',
+            definitions: [ 'INTEGER' => NULL, 'INDEX' => NULL, 'DEFAULT' => '0'],
+            prefix: $prefix,
+            collection: $collection,
+            afterCreateSql: $afterCreateSql
+        );
         $sql.= \implode(",\n", $tableFieldsDefinitions);
         $sql.= ");\n";
         $sql.= \implode("\n", $afterCreateSql);
-        $stmt = $this->pdo->prepare("SET FOREIGN_KEY_CHECKS=0;{$sql};SET FOREIGN_KEY_CHECKS=1;");
+
+        if($this->useForeignKeys) {
+            $sql = "SET FOREIGN_KEY_CHECKS=0;{$sql};SET FOREIGN_KEY_CHECKS=1;";
+        }
+
+        $stmt = $this->pdo->prepare($sql);
         return $stmt->execute();
     }
 
@@ -155,7 +173,7 @@ abstract class SQL extends Storage {
 
     #[\Override]
     protected function renameCollection(string $oldPrefix, string $oldCollectionName, string $newPrefix, string $newCollectionName): bool {
-        $stmt = $this->pdo->prepare("RENAME TABLE {$oldPrefix}{$oldCollectionName} TO {$newPrefix}{$newCollectionName}");
+        $stmt = $this->pdo->prepare($this->getRenameTableDefinition("{$oldPrefix}{$oldCollectionName}", "{$newPrefix}{$newCollectionName}"));
         return $stmt->execute();
     }
 

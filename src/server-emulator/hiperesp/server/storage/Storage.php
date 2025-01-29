@@ -227,7 +227,7 @@ abstract class Storage {
             } else {
                 $dataToInsert = Setup::getData($collection);
             }
-            foreach($dataToInsert as $data) {
+            foreach($dataToInsert as $key => $data) {
                 try {
                     $this->insertPrefix($migrationPrefix, $collection, $data);
                 } catch(\Exception $e) {
