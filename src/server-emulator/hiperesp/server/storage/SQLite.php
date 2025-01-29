@@ -3,6 +3,8 @@ namespace hiperesp\server\storage;
 
 class SQLite extends SQL {
 
+    protected bool $useForeignKeys = false;
+
     public function __construct(array $options) {
         if(!isset($options["location"])) {
             throw new \Exception("Missing Storage location");
@@ -18,20 +20,22 @@ class SQLite extends SQL {
     }
 
     #[\Override]
-    protected function getFieldDefinition(string $field, array $definitions, string $collection, array &$afterCreateSql): string {
+    protected function getFieldDefinition(string $field, array $definitions, string $prefix, string $collection, array &$afterCreateSql): string {
         $sql = "`{$field}` ";
         $definitionStr = [ ];
         foreach($definitions as $definition => $params) {
             if($definition === 'INDEX') {
-                $afterCreateSql[] = "CREATE INDEX {$this->prefix}{$collection}_{$field} ON {$this->prefix}{$collection} ({$field});";
+                $afterCreateSql[] = "DROP INDEX IF EXISTS {$prefix}{$collection}_{$field};";
+                $afterCreateSql[] = "CREATE INDEX {$prefix}{$collection}_{$field} ON {$prefix}{$collection} ({$field});";
                 continue;
             }
             if($definition === 'UNIQUE') {
-                $afterCreateSql[] = "CREATE UNIQUE INDEX {$this->prefix}{$collection}_{$field} ON {$this->prefix}{$collection} ({$field}, `_isDeleted`);";
+                $afterCreateSql[] = "DROP INDEX IF EXISTS {$prefix}{$collection}_{$field};";
+                $afterCreateSql[] = "CREATE UNIQUE INDEX {$prefix}{$collection}_{$field} ON {$prefix}{$collection} ({$field}, `_isDeleted`);";
                 continue;
             }
             if($definition === 'FOREIGN_KEY') {
-                $afterCreateSql[] = "ALTER TABLE {$this->prefix}{$collection} ADD FOREIGN KEY (`{$field}`) REFERENCES {$this->prefix}{$params['collection']} (`{$params['field']}`);";
+                // we don't support foreign keys in SQLite due to complexity to manage them
                 continue;
             }
             if($definition === 'PRIMARY_KEY') {
@@ -87,6 +91,11 @@ class SQLite extends SQL {
         }
         $sql.= \implode(" ", $definitionStr);
         return $sql;
+    }
+
+    #[\Override]
+    protected function getRenameTableDefinition(string $oldName, string $newName): string {
+        return "ALTER TABLE {$oldName} RENAME TO {$newName}";
     }
 
 }
