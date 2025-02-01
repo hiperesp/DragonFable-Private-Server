@@ -28,7 +28,7 @@
 
     **Note**: If you don't create the .config.php file, the server will use the default system environment variables.
 
-3. (Optional) Download the offline gamefiles from [here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-01-14) and extract it to `/src/cdn/gamefiles/`\
+3. (Optional) Download the offline gamefiles from [mediafire, click here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-02-01) and extract it to `/src/cdn/gamefiles/`\
     **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the `cache` mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
 
 ### Usage:
@@ -71,7 +71,7 @@
 
     You can use MySQL or SQLite. See `/src/server-emulator/.config.default.php` for more details. By default, the server will use SQLite.
 
-4. (Optional) Download the offline gamefiles from [here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2024-11-10) and extract it to `public_html/cdn/gamefiles/`\
+4. (Optional) Download the offline gamefiles from [mediafire, click here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-02-01) and extract it to `public_html/cdn/gamefiles/`\
     **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the `cache` mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
 
 ### Usage:
