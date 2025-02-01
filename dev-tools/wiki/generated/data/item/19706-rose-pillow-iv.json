@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19706-rose-pillow-iv",
+        "fullSlug": "items\/19706-rose-pillow-iv",
+        "id": 19706,
+        "name": "Rose Pillow IV",
+        "description": "A standard-issue Rose body pillow. Extra stuffed for maximum comfort. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19706,
+            "name": "Rose Pillow IV",
+            "description": "A standard-issue Rose body pillow. Extra stuffed for maximum comfort. This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-rosepillow.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 14,
+            "wisdom": 14,
+            "damageMin": 1,
+            "damageMax": 148,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Health,-6,Darkness,6"
+        }
+    },
+    "related": {
+        "1725-rose-pajamas": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1725-rose-pajamas",
+                "fullSlug": "quests\/1725-rose-pajamas",
+                "id": 1725,
+                "name": "Rose Pajamas",
+                "description": "While you may not be at Espina Rosa anymore, your Rose buddies still are! Wonder if anything's changed about the daily routine..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1725,
+                    "name": "Rose Pajamas",
+                    "description": "While you may not be at Espina Rosa anymore, your Rose buddies still are! Wonder if anything's changed about the daily routine...",
+                    "complete": "Some things, unfortunately, do change...",
+                    "swf": "towns\/shears\/quest3-rosepajamas.swf",
+                    "swfX": "towns\/shears\/quest3-rosepajamas-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Rose in Pajamas",
+                    "monsterGroupSwf": "mset-rosepajamas.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

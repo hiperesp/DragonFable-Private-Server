@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15223-ashendal-s-z-blade",
+        "fullSlug": "items\/15223-ashendal-s-z-blade",
+        "id": 15223,
+        "name": "Ashendal's Z Blade",
+        "description": "Crafted by Ashendal in a... different time, this blade hums with kinetic energy."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15223,
+            "name": "Ashendal's Z Blade",
+            "description": "Crafted by Ashendal in a... different time, this blade hums with kinetic energy.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 50,
+            "level": 40,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-AshZBlade.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 70,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Water,3,Fire,2,Health,-1"
+        }
+    },
+    "related": {
+        "423-ash-s-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "423-ash-s-birthday",
+                "fullSlug": "item-shops\/423-ash-s-birthday",
+                "id": 423,
+                "name": "Ash's Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 423,
+                    "name": "Ash's Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

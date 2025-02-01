@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20067-warped-axe-handle",
+        "fullSlug": "items\/20067-warped-axe-handle",
+        "id": 20067,
+        "name": "Warped Axe Handle",
+        "description": "An axe handle, warped and twisted by some unknown cause. Proof of victory over Xing. Used to create the Forced Reflection scythe."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20067,
+            "name": "Warped Axe Handle",
+            "description": "An axe handle, warped and twisted by some unknown cause. Proof of victory over Xing. Used to create the Forced Reflection scythe.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 1,
+            "type": "Magic",
+            "element": "???",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1769-xing": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1769-xing",
+                "fullSlug": "quests\/1769-xing",
+                "id": 1769,
+                "name": "Xing",
+                "description": "She look a little too happy to see you."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1769,
+                    "name": "Xing",
+                    "description": "She look a little too happy to see you.",
+                    "complete": "Yeah, that was pretty Evil.",
+                    "swf": "towns\/TimeArena\/quest2-xing.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "xingxangvath",
+                    "monsterGroupSwf": "mset-chaostwinsvath.swf?ver=3"
+                }
+            },
+            "related": []
+        },
+        "338-forced-reflection": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "338-forced-reflection",
+                "fullSlug": "merge-shops\/338-forced-reflection",
+                "id": 338,
+                "name": "Forced Reflection",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 338,
+                    "name": "Forced Reflection"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3515,
+                    "mergeShopId": 338,
+                    "mergeId": 3597
+                },
+                "merge": {
+                    "id": 3597,
+                    "itemId1": 20066,
+                    "amount1": 1,
+                    "itemId2": 20067,
+                    "amount2": 1,
+                    "itemId": 20068,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

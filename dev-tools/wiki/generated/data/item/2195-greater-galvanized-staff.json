@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2195-greater-galvanized-staff",
+        "fullSlug": "items\/2195-greater-galvanized-staff",
+        "id": 2195,
+        "name": "Greater Galvanized Staff",
+        "description": "Lightning struck a cache of abandoned weapons in the woodlands, charging them with great power.  Your hair stands on end when you hold this staff, though.  It kind of tickles."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2195,
+            "name": "Greater Galvanized Staff",
+            "description": "Lightning struck a cache of abandoned weapons in the woodlands, charging them with great power.  Your hair stands on end when you hold this staff, though.  It kind of tickles.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 8,
+            "level": 43,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 59,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,5,Immobility,5,Nature,2"
+        }
+    },
+    "related": {
+        "346-he-s-a-lyin": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "346-he-s-a-lyin",
+                "fullSlug": "quests\/346-he-s-a-lyin",
+                "id": 346,
+                "name": "He's (a) Lyin'",
+                "description": "How could anyone be mean enough that they'd want to make chickencows cry?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 346,
+                    "name": "He's (a) Lyin'",
+                    "description": "How could anyone be mean enough that they'd want to make chickencows cry?!",
+                    "complete": "That didn't seem SO mean, but perhaps Zeuster's attendants are really, really sensitive.",
+                    "swf": "quests\/Zeuster\/quest-bacon2r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Energy, Nature",
+                    "monsterGroupSwf": "mset-bacon2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

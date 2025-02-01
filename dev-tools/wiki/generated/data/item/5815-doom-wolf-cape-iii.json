@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5815-doom-wolf-cape-iii",
+        "fullSlug": "items\/5815-doom-wolf-cape-iii",
+        "id": 5815,
+        "name": "Doom  Wolf Cape III",
+        "description": "As with the helm, True Mortal sent the early prototype of this cape to a friend for testing. When it was returned, it had been corrupted by darkness. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5815,
+            "name": "Doom  Wolf Cape III",
+            "description": "As with the helm, True Mortal sent the early prototype of this cape to a friend for testing. When it was returned, it had been corrupted by darkness. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-DOOMwarwolfcape.swf",
+            "icon": "cape",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Ice,2"
+        }
+    },
+    "related": {
+        "93-true-mortal": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "93-true-mortal",
+                "fullSlug": "merge-shops\/93-true-mortal",
+                "id": 93,
+                "name": "True Mortal",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 93,
+                    "name": "True Mortal"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1284,
+                    "mergeShopId": 93,
+                    "mergeId": 1111
+                },
+                "merge": {
+                    "id": 1111,
+                    "itemId1": 5760,
+                    "amount1": 30,
+                    "itemId2": 5815,
+                    "amount2": 1,
+                    "itemId": 5816,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

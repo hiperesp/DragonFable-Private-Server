@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16951-serenity-s-prowess",
+        "fullSlug": "items\/16951-serenity-s-prowess",
+        "id": 16951,
+        "name": "Serenity's Prowess",
+        "description": "Falconreach may have been destroyed, but hope lives on in the form of this weapon. It reminds you of fresh baked bread and warm beds."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16951,
+            "name": "Serenity's Prowess",
+            "description": "Falconreach may have been destroyed, but hope lives on in the form of this weapon. It reminds you of fresh baked bread and warm beds.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 65,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-serenity.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 9,
+            "intelligence": 0,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 82,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Darkness,5,Evil,5"
+        }
+    },
+    "related": {
+        "264-weapons-of-hope": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "264-weapons-of-hope",
+                "fullSlug": "merge-shops\/264-weapons-of-hope",
+                "id": 264,
+                "name": "Weapons of Hope",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 264,
+                    "name": "Weapons of Hope"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2947,
+                    "mergeShopId": 264,
+                    "mergeId": 2959
+                },
+                "merge": {
+                    "id": 2959,
+                    "itemId1": 16936,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16951,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

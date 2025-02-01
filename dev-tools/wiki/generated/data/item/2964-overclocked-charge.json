@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2964-overclocked-charge",
+        "fullSlug": "items\/2964-overclocked-charge",
+        "id": 2964,
+        "name": "Overclocked Charge",
+        "description": "Lim loves science. And energy. And making energy more science-y.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2964,
+            "name": "Overclocked Charge",
+            "description": "Lim loves science. And energy. And making energy more science-y.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 25000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 50,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-overclocked.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 80,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Fire,5,Immobility,2"
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

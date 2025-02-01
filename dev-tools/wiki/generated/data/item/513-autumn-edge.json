@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "513-autumn-edge",
+        "fullSlug": "items\/513-autumn-edge",
+        "id": 513,
+        "name": "Autumn Edge",
+        "description": "This sword was crafted in honor of your harvest-time victory against the forces of the Doomwood necromancers."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 513,
+            "name": "Autumn Edge",
+            "description": "This sword was crafted in honor of your harvest-time victory against the forces of the Doomwood necromancers.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 5,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-pumpkin.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 15,
+            "damageMax": 21,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "16-pumpkin-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "16-pumpkin-shop",
+                "fullSlug": "item-shops\/16-pumpkin-shop",
+                "id": 16,
+                "name": "Pumpkin Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 16,
+                    "name": "Pumpkin Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

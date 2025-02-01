@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22089-windwound-soulthread",
+        "fullSlug": "items\/22089-windwound-soulthread",
+        "id": 22089,
+        "name": "Windwound Soulthread",
+        "description": "A single wind aligned soulthread, pulsing with power. Proof of victory over the Unwavering Determination challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22089,
+            "name": "Windwound Soulthread",
+            "description": "A single wind aligned soulthread, pulsing with power. Proof of victory over the Unwavering Determination challenge.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2176-unwavering-determination": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2176-unwavering-determination",
+                "fullSlug": "quests\/2176-unwavering-determination",
+                "id": 2176,
+                "name": "Unwavering Determination",
+                "description": "The Headmaster and his Soulally look forward to this final lesson."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2176,
+                    "name": "Unwavering Determination",
+                    "description": "The Headmaster and his Soulally look forward to this final lesson.",
+                    "complete": "They have been humbled and beam with determination, seeing you surpass them.",
+                    "swf": "towns\/TimeArena\/quest3-danyelbaltael.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Danyel Balt",
+                    "monsterGroupSwf": "mset-arenadanyel.swf"
+                }
+            },
+            "related": []
+        },
+        "426-unwavering-determination": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "426-unwavering-determination",
+                "fullSlug": "merge-shops\/426-unwavering-determination",
+                "id": 426,
+                "name": "Unwavering Determination",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 426,
+                    "name": "Unwavering Determination"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4407,
+                    "mergeShopId": 426,
+                    "mergeId": 4435
+                },
+                "merge": {
+                    "id": 4435,
+                    "itemId1": 22091,
+                    "amount1": 1,
+                    "itemId2": 22089,
+                    "amount2": 1,
+                    "itemId": 22090,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

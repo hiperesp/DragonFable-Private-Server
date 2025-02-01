@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6410-joyful-starlight-staff",
+        "fullSlug": "items\/6410-joyful-starlight-staff",
+        "id": 6410,
+        "name": "Joyful Starlight Staff",
+        "description": "Ethereally light, it seems to be crafted from the silver trails of falling stars and starlight. A truly beautiful weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6410,
+            "name": "Joyful Starlight Staff",
+            "description": "Ethereally light, it seems to be crafted from the silver trails of falling stars and starlight. A truly beautiful weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 50,
+            "level": 41,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-starlight.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 57,
+            "damageMax": 75,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,5,Darkness,5,Evil,3"
+        }
+    },
+    "related": {
+        "247-starlight-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "247-starlight-weapons",
+                "fullSlug": "item-shops\/247-starlight-weapons",
+                "id": 247,
+                "name": "Starlight Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 247,
+                    "name": "Starlight Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

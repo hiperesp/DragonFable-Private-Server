@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11649-void-rift-cover",
+        "fullSlug": "items\/11649-void-rift-cover",
+        "id": 11649,
+        "name": "Void Rift Cover",
+        "description": "Made from materials found only in the deepest Void, this helm is ageless!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11649,
+            "name": "Void Rift Cover",
+            "description": "Made from materials found only in the deepest Void, this helm is ageless!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 25,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-voidrift.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Darkness,3"
+        }
+    },
+    "related": {
+        "1137-pellow-village": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1137-pellow-village",
+                "fullSlug": "quests\/1137-pellow-village",
+                "id": 1137,
+                "name": "Pellow Village",
+                "description": "Clear out Pellow Village!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1137,
+                    "name": "Pellow Village",
+                    "description": "Clear out Pellow Village!",
+                    "complete": "You've stopped one group of marauders but is Ravenloss safe?",
+                    "swf": "towns\/3Ravenloss\/random-pellow.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

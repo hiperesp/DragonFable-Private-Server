@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11492-knife-of-the-oculus",
+        "fullSlug": "items\/11492-knife-of-the-oculus",
+        "id": 11492,
+        "name": "Knife of the Oculus",
+        "description": "Crafted from reforged oculus shards this weapon will freeze your enemies!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11492,
+            "name": "Knife of the Oculus",
+            "description": "Crafted from reforged oculus shards this weapon will freeze your enemies!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 51,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-mana-orb.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 6,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5,Darkness,3,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "1133-search-for-refugees": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1133-search-for-refugees",
+                "fullSlug": "quests\/1133-search-for-refugees",
+                "id": 1133,
+                "name": "Search for Refugees",
+                "description": "Help Leon and Crest save Mages before the Rose get to them."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1133,
+                    "name": "Search for Refugees",
+                    "description": "Help Leon and Crest save Mages before the Rose get to them.",
+                    "complete": "You've helped a small group but there are many more out there.",
+                    "swf": "towns\/Shears\/random-theorbr3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-theorb-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "198-oculus-shards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "198-oculus-shards",
+                "fullSlug": "merge-shops\/198-oculus-shards",
+                "id": 198,
+                "name": "Oculus Shards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 198,
+                    "name": "Oculus Shards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2297,
+                    "mergeShopId": 198,
+                    "mergeId": 2146
+                },
+                "merge": {
+                    "id": 2146,
+                    "itemId1": 11427,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11492,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

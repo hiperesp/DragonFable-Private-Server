@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17313-dreadwyrm-katana-i",
+        "fullSlug": "items\/17313-dreadwyrm-katana-i",
+        "id": 17313,
+        "name": "Dreadwyrm Katana I",
+        "description": "Rewarded for defeating the mighty three headed dragon Trigoras, this katana was once used to slay the legendary Dreadwyrm, scourge of the far southern plains."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17313,
+            "name": "Dreadwyrm Katana I",
+            "description": "Rewarded for defeating the mighty three headed dragon Trigoras, this katana was once used to slay the legendary Dreadwyrm, scourge of the far southern plains.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 100,
+            "level": 50,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-dreadwyrmkatana.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 65,
+            "damageMax": 73,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,3"
+        }
+    },
+    "related": {
+        "1437-trigoras-challenge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1437-trigoras-challenge",
+                "fullSlug": "quests\/1437-trigoras-challenge",
+                "id": 1437,
+                "name": "Trigoras Challenge",
+                "description": "The three headed menace, Trigoras!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1437,
+                    "name": "Trigoras Challenge",
+                    "description": "The three headed menace, Trigoras!",
+                    "complete": "All three of Trigoras' heads bow down to you!",
+                    "swf": "towns\/TimeArena\/quest-trigoras-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Dragon Challenge 1",
+                    "monsterGroupSwf": "mset-dragonchallenge.swf"
+                }
+            },
+            "related": []
+        },
+        "266-dragon-challenge-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "266-dragon-challenge-upgrade",
+                "fullSlug": "merge-shops\/266-dragon-challenge-upgrade",
+                "id": 266,
+                "name": "Dragon Challenge Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 266,
+                    "name": "Dragon Challenge Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3002,
+                    "mergeShopId": 266,
+                    "mergeId": 3001
+                },
+                "merge": {
+                    "id": 3001,
+                    "itemId1": 17313,
+                    "amount1": 1,
+                    "itemId2": 17308,
+                    "amount2": 3,
+                    "itemId": 17309,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

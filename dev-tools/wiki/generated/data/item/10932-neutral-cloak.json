@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10932-neutral-cloak",
+        "fullSlug": "items\/10932-neutral-cloak",
+        "id": 10932,
+        "name": "Neutral Cloak",
+        "description": "Inside your chest beats a heart full of neutrality."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10932,
+            "name": "Neutral Cloak",
+            "description": "Inside your chest beats a heart full of neutrality.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 1,
+            "level": 50,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-neutral.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Nature,3"
+        }
+    },
+    "related": {
+        "380-neutral-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "380-neutral-shop",
+                "fullSlug": "item-shops\/380-neutral-shop",
+                "id": 380,
+                "name": "Neutral Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 380,
+                    "name": "Neutral Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

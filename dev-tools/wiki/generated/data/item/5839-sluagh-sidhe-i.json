@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5839-sluagh-sidhe-i",
+        "fullSlug": "items\/5839-sluagh-sidhe-i",
+        "id": 5839,
+        "name": "Sluagh Sidhe I",
+        "description": "These are the wings of those Sidhe who are not accepted in any otherworld. These are the evil sidhe who are cast aside."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5839,
+            "name": "Sluagh Sidhe I",
+            "description": "These are the wings of those Sidhe who are not accepted in any otherworld. These are the evil sidhe who are cast aside.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 40,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-Sluagh Sidhe.swf",
+            "icon": "wings",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 4,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Disease,1"
+        }
+    },
+    "related": {
+        "228-sidhe-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "228-sidhe-wings",
+                "fullSlug": "item-shops\/228-sidhe-wings",
+                "id": 228,
+                "name": "Sidhe Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 228,
+                    "name": "Sidhe Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "94-wing-merge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "94-wing-merge",
+                "fullSlug": "merge-shops\/94-wing-merge",
+                "id": 94,
+                "name": "Wing Merge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 94,
+                    "name": "Wing Merge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1325,
+                    "mergeShopId": 94,
+                    "mergeId": 1129
+                },
+                "merge": {
+                    "id": 1129,
+                    "itemId1": 5839,
+                    "amount1": 1,
+                    "itemId2": 5760,
+                    "amount2": 15,
+                    "itemId": 5840,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14264-harvested-mossy-bindings",
+        "fullSlug": "items\/14264-harvested-mossy-bindings",
+        "id": 14264,
+        "name": "Harvested Mossy Bindings",
+        "description": "This strange necklace shaped item seems to be made from moss that has grown together and hardened. A very odd growth for it to have happened without outside interference."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14264,
+            "name": "Harvested Mossy Bindings",
+            "description": "This strange necklace shaped item seems to be made from moss that has grown together and hardened. A very odd growth for it to have happened without outside interference.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 65,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 12,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 12,
+            "dodge": 12,
+            "block": 12,
+            "resists": "Darkness,7,Fire,7,Mana,-5,Health,-3,Immobility,5"
+        }
+    },
+    "related": {
+        "1279-the-great-petscape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1279-the-great-petscape",
+                "fullSlug": "quests\/1279-the-great-petscape",
+                "id": 1279,
+                "name": "The Great Petscape",
+                "description": "Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1279,
+                    "name": "The Great Petscape",
+                    "description": "Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!",
+                    "complete": "Those darn ninja monkeys! At least all the pets are accounted for, if a little bit grumpy.",
+                    "swf": "towns\/3OspreyCove\/quest-petscape.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pirate pets",
+                    "monsterGroupSwf": "mset-piratepets-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

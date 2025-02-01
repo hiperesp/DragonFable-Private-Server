@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4038-world-cup-2010-cape-ii-mexico",
+        "fullSlug": "items\/4038-world-cup-2010-cape-ii-mexico",
+        "id": 4038,
+        "name": "World Cup 2010 Cape II: Mexico",
+        "description": "Goooooo team!   Congratulations on making it to the Tournament!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4038,
+            "name": "World Cup 2010 Cape II: Mexico",
+            "description": "Goooooo team!   Congratulations on making it to the Tournament!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-mexico2.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Fire,9,Ice,9,Water,9,Stone,9,Wind,9,Energy,9"
+        }
+    },
+    "related": {
+        "148-tournament-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "148-tournament-shop",
+                "fullSlug": "item-shops\/148-tournament-shop",
+                "id": 148,
+                "name": "Tournament Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 148,
+                    "name": "Tournament Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "70-world-cup-tournament": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "70-world-cup-tournament",
+                "fullSlug": "merge-shops\/70-world-cup-tournament",
+                "id": 70,
+                "name": "World Cup Tournament",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 70,
+                    "name": "World Cup Tournament"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1034,
+                    "mergeShopId": 70,
+                    "mergeId": 735
+                },
+                "merge": {
+                    "id": 735,
+                    "itemId1": 3866,
+                    "amount1": 1,
+                    "itemId2": 4044,
+                    "amount2": 1,
+                    "itemId": 4038,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

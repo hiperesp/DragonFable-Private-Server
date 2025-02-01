@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3344-aurora-circlet",
+        "fullSlug": "items\/3344-aurora-circlet",
+        "id": 3344,
+        "name": "Aurora Circlet",
+        "description": "This item requires a Dragon Amulet. This ring looks like it was crafted from the light of the Aurora itself."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3344,
+            "name": "Aurora Circlet",
+            "description": "This item requires a Dragon Amulet. This ring looks like it was crafted from the light of the Aurora itself.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 40,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 3,
+            "dexterity": 6,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5"
+        }
+    },
+    "related": {
+        "529-in-the-mountains": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "529-in-the-mountains",
+                "fullSlug": "quests\/529-in-the-mountains",
+                "id": 529,
+                "name": "In the Mountains....",
+                "description": "Zadd continues to experiment on the Frostval moglins as you work your way through twisting mountain paths and snow!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 529,
+                    "name": "In the Mountains....",
+                    "description": "Zadd continues to experiment on the Frostval moglins as you work your way through twisting mountain paths and snow!",
+                    "complete": "You made it through the mountains! Now will you be able to save the moglins in time?",
+                    "swf": "towns\/Frostvale\/quest-frostval09-2r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "harder golems",
+                    "monsterGroupSwf": "mset-golem2r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

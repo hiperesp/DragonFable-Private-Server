@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17426-dragonoid-staff-iii",
+        "fullSlug": "items\/17426-dragonoid-staff-iii",
+        "id": 17426,
+        "name": "Dragonoid Staff III",
+        "description": "Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this staff hums with energy and glory."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17426,
+            "name": "Dragonoid Staff III",
+            "description": "Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this staff hums with energy and glory.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 100,
+            "level": 70,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-dragonoid.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 11,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 77,
+            "damageMax": 91,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "275-dragonoid-challenge-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "275-dragonoid-challenge-upgrade",
+                "fullSlug": "merge-shops\/275-dragonoid-challenge-upgrade",
+                "id": 275,
+                "name": "Dragonoid Challenge Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 275,
+                    "name": "Dragonoid Challenge Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3067,
+                    "mergeShopId": 275,
+                    "mergeId": 3070
+                },
+                "merge": {
+                    "id": 3070,
+                    "itemId1": 17424,
+                    "amount1": 1,
+                    "itemId2": 17424,
+                    "amount2": 1,
+                    "itemId": 17426,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

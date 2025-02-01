@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12533-treasure-key-staff",
+        "fullSlug": "items\/12533-treasure-key-staff",
+        "id": 12533,
+        "name": "Treasure Key Staff",
+        "description": "This giant key must unlock some massive treasure chest. Too bad you don't know where it could be. It does make a nice weapon though."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12533,
+            "name": "Treasure Key Staff",
+            "description": "This giant key must unlock some massive treasure chest. Too bad you don't know where it could be. It does make a nice weapon though.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 20,
+            "level": 60,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-PirateTreasureAnchor.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 8,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 70,
+            "damageMax": 88,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Water,8,Wind,8,Immobility,6"
+        }
+    },
+    "related": {
+        "414-booty-challenge-rares": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "414-booty-challenge-rares",
+                "fullSlug": "item-shops\/414-booty-challenge-rares",
+                "id": 414,
+                "name": "Booty Challenge Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 414,
+                    "name": "Booty Challenge Rares",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11213-frost-vine-wings-vi",
+        "fullSlug": "items\/11213-frost-vine-wings-vi",
+        "id": 11213,
+        "name": "Frost Vine Wings VI",
+        "description": "A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11213,
+            "name": "Frost Vine Wings VI",
+            "description": "A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-frostvinewings.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Wind,10,Ice,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "1120-zealot": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1120-zealot",
+                "fullSlug": "quests\/1120-zealot",
+                "id": 1120,
+                "name": "Zealot",
+                "description": "You've defeated the waves of cultists and now it's time to face their leader!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1120,
+                    "name": "Zealot",
+                    "description": "You've defeated the waves of cultists and now it's time to face their leader!",
+                    "complete": "Wow... that was creepy. Now it's time for Frostoween! Moglovale?",
+                    "swf": "wars\/F13-Frostval\/quest4-warfinale.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zealot",
+                    "monsterGroupSwf": "mset-zealot.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2919-bluelight-special",
+        "fullSlug": "items\/2919-bluelight-special",
+        "id": 2919,
+        "name": "Bluelight Special",
+        "description": "Using some wire, a paperclip, and a bagel, Lim managed to craft this sword. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2919,
+            "name": "Bluelight Special",
+            "description": "Using some wire, a paperclip, and a bagel, Lim managed to craft this sword. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 45,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-bluelaser.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 61,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,6"
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

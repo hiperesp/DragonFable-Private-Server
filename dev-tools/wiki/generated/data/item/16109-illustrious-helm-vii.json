@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16109-illustrious-helm-vii",
+        "fullSlug": "items\/16109-illustrious-helm-vii",
+        "id": 16109,
+        "name": "Illustrious Helm VII",
+        "description": "A mighty helm for a mighty tournament competitor! Made in Swordhaven! Organic! Gluten free! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16109,
+            "name": "Illustrious Helm VII",
+            "description": "A mighty helm for a mighty tournament competitor! Made in Swordhaven! Organic! Gluten free! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 70,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-illustrious.swf?ver=1",
+            "icon": "helm",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1375-tournament-of-champions": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1375-tournament-of-champions",
+                "fullSlug": "quests\/1375-tournament-of-champions",
+                "id": 1375,
+                "name": "Tournament of Champions",
+                "description": "Win the tournament and gain an audience with King Alteon!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1375,
+                    "name": "Tournament of Champions",
+                    "description": "Win the tournament and gain an audience with King Alteon!",
+                    "complete": "Fangblade awaits you. Are you ready?",
+                    "swf": "towns\/3swordhaven\/Board\/quest-tournament1redo.swf",
+                    "swfX": "towns\/3swordhaven\/Board\/quest-tournament1redo-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "champions part 1",
+                    "monsterGroupSwf": "mset-tournament1r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

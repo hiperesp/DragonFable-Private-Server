@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "246-dragonlord-s-prize",
+        "fullSlug": "items\/246-dragonlord-s-prize",
+        "id": 246,
+        "name": "Dragonlord's Prize",
+        "description": "This dagger is said to be a cherished prize of a powerful Dragonlord. It was taken from the hand of an assassin sent by a dragon to stop the Lord's rampage."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 246,
+            "name": "Dragonlord's Prize",
+            "description": "This dagger is said to be a cherished prize of a powerful Dragonlord. It was taken from the hand of an assassin sent by a dragon to stop the Lord's rampage.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-dragonlord.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 20,
+            "damageMax": 28,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Water,5"
+        }
+    },
+    "related": {
+        "14-enchanted-grove": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "14-enchanted-grove",
+                "fullSlug": "quests\/14-enchanted-grove",
+                "id": 14,
+                "name": "Enchanted Grove",
+                "description": "A place for wishes and secrets, for madness and dreams."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 14,
+                    "name": "Enchanted Grove",
+                    "description": "A place for wishes and secrets, for madness and dreams.",
+                    "complete": "A place for wishes and secrets, for madness and dreams.",
+                    "swf": "random\/random-faerieforest-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 15,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-faeries-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "24-watery-exploration": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "24-watery-exploration",
+                "fullSlug": "quests\/24-watery-exploration",
+                "id": 24,
+                "name": "Watery Exploration",
+                "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 24,
+                    "name": "Watery Exploration",
+                    "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "complete": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "swf": "random\/random-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Elemental",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

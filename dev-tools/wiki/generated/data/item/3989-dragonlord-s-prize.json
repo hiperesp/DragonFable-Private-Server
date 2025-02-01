@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3989-dragonlord-s-prize",
+        "fullSlug": "items\/3989-dragonlord-s-prize",
+        "id": 3989,
+        "name": "Dragonlord's Prize",
+        "description": "This dagger is said to be a cherished prize of a powerful Dragonlord. It was taken from the hand of an assassin sent by a dragon to stop the Lord's rampage.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3989,
+            "name": "Dragonlord's Prize",
+            "description": "This dagger is said to be a cherished prize of a powerful Dragonlord. It was taken from the hand of an assassin sent by a dragon to stop the Lord's rampage.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 10,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-dragonlord.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 20,
+            "damageMax": 36,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Water,5"
+        }
+    },
+    "related": {
+        "147-dragonlord-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "147-dragonlord-weapons",
+                "fullSlug": "item-shops\/147-dragonlord-weapons",
+                "id": 147,
+                "name": "DragonLord Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 147,
+                    "name": "DragonLord Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

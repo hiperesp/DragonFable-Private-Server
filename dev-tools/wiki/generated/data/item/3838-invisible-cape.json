@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3838-invisible-cape",
+        "fullSlug": "items\/3838-invisible-cape",
+        "id": 3838,
+        "name": "Invisible Cape",
+        "description": "All of the stats, none of the art!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3838,
+            "name": "Invisible Cape",
+            "description": "All of the stats, none of the art!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 9,
+            "level": 25,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-invisible.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3"
+        }
+    },
+    "related": {
+        "142-char-s-chest": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "142-char-s-chest",
+                "fullSlug": "item-shops\/142-char-s-chest",
+                "id": 142,
+                "name": "Char's Chest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 142,
+                    "name": "Char's Chest",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

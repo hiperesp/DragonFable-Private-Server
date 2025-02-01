@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11688-mulberry-pointer",
+        "fullSlug": "items\/11688-mulberry-pointer",
+        "id": 11688,
+        "name": "Mulberry Pointer",
+        "description": "Painted a pugnacious shade of purple this Lucky Day item is a plum punishment for your oppugners! Happy Lucky Day '14!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11688,
+            "name": "Mulberry Pointer",
+            "description": "Painted a pugnacious shade of purple this Lucky Day item is a plum punishment for your oppugners! Happy Lucky Day '14!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-purplelucky.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 6,
+            "intelligence": 0,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 61,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Darkness,4,Fire,3,Health,-2"
+        }
+    },
+    "related": {
+        "1141-purple-day": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1141-purple-day",
+                "fullSlug": "quests\/1141-purple-day",
+                "id": 1141,
+                "name": "Purple Day",
+                "description": "Find out who did this to those poor creatures!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1141,
+                    "name": "Purple Day",
+                    "description": "Find out who did this to those poor creatures!",
+                    "complete": "You better keep an eye on those two! But for now, Happy Lucky Day!",
+                    "swf": "towns\/LuckyDay\/Lucky2014\/quest-purpleday.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "purple stuff",
+                    "monsterGroupSwf": "mset-purpleday.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

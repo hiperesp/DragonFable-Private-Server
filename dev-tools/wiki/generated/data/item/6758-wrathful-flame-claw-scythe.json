@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6758-wrathful-flame-claw-scythe",
+        "fullSlug": "items\/6758-wrathful-flame-claw-scythe",
+        "id": 6758,
+        "name": "Wrathful Flame Claw Scythe",
+        "description": "Infused with the fury of Xan himself, this weapon burns brightly with hateful fire. Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6758,
+            "name": "Wrathful Flame Claw Scythe",
+            "description": "Infused with the fury of Xan himself, this weapon burns brightly with hateful fire. Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/specials\/posters\/scythe-ConsumingFire.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,6,Ice,6,Darkness,6,Immobility,1,Health,-2"
+        }
+    },
+    "related": {
+        "107-fire-claw-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "107-fire-claw-scythe",
+                "fullSlug": "merge-shops\/107-fire-claw-scythe",
+                "id": 107,
+                "name": "Fire Claw Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 107,
+                    "name": "Fire Claw Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1481,
+                    "mergeShopId": 107,
+                    "mergeId": 1372
+                },
+                "merge": {
+                    "id": 1372,
+                    "itemId1": 6758,
+                    "amount1": 1,
+                    "itemId2": 6762,
+                    "amount2": 1,
+                    "itemId": 6759,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

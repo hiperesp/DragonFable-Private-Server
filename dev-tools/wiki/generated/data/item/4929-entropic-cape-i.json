@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4929-entropic-cape-i",
+        "fullSlug": "items\/4929-entropic-cape-i",
+        "id": 4929,
+        "name": "Entropic Cape I",
+        "description": "This cloak is made of entropic dragon scale found in the wake of earth elementals digging through the earth."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4929,
+            "name": "Entropic Cape I",
+            "description": "This cloak is made of entropic dragon scale found in the wake of earth elementals digging through the earth.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 7,
+            "level": 22,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-entropiccape.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Stone,3"
+        }
+    },
+    "related": {
+        "759-surehunter-woes": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "759-surehunter-woes",
+                "fullSlug": "quests\/759-surehunter-woes",
+                "id": 759,
+                "name": "Surehunter Woes",
+                "description": "Can you catch up to Trey in time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 759,
+                    "name": "Surehunter Woes",
+                    "description": "Can you catch up to Trey in time?",
+                    "complete": "Trey won't be giving up the Blade of Awe or the Earth Orb without a fight...",
+                    "swf": "towns\/willowshire\/quest-earth16-trey.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "earth and sun",
+                    "monsterGroupSwf": "mset-earth16.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

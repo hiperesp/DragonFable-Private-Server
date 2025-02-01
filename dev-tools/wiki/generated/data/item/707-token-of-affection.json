@@ -1,0 +1,581 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "707-token-of-affection",
+        "fullSlug": "items\/707-token-of-affection",
+        "id": 707,
+        "name": "Token of Affection",
+        "description": "This small token of affection shows someone's special appreciation for you."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 707,
+            "name": "Token of Affection",
+            "description": "This small token of affection shows someone's special appreciation for you.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 500,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "96-snuggle-gram-delivery": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "96-snuggle-gram-delivery",
+                "fullSlug": "quests\/96-snuggle-gram-delivery",
+                "id": 96,
+                "name": "Snuggle-Gram Delivery!",
+                "description": "Make your way through the Forest of Infinite Terror and deliver the Snuggle-Gram to a broken hearted villager."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 96,
+                    "name": "Snuggle-Gram Delivery!",
+                    "description": "Make your way through the Forest of Infinite Terror and deliver the Snuggle-Gram to a broken hearted villager.",
+                    "complete": "Successful Snuggle-Gram delivery! For a job well done you will earn a Token of Affection which you can turn in to Big Daddy for rare Hero Heart Day items.",
+                    "swf": "towns\/heroheart\/random-herosheart.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "odd",
+                    "monsterGroupSwf": "mset-herosheart.swf"
+                }
+            },
+            "related": []
+        },
+        "97-love-is-in-the-air": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "97-love-is-in-the-air",
+                "fullSlug": "quests\/97-love-is-in-the-air",
+                "id": 97,
+                "name": "Love Is In The Air",
+                "description": "The wind elemental known as Blowheart has stolen a box of Big Daddy's Snuggle-Grams. Hundreds of people will remain sad and miserable if you do not recover them."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 97,
+                    "name": "Love Is In The Air",
+                    "description": "The wind elemental known as Blowheart has stolen a box of Big Daddy's Snuggle-Grams. Hundreds of people will remain sad and miserable if you do not recover them.",
+                    "complete": "With Blowheart defeated and the box of stolen Snuggle-Grams returned to Big Daddy, you can now continue your deliveries.",
+                    "swf": "towns\/heroheart\/quest-herosheart.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "odd",
+                    "monsterGroupSwf": "mset-herosheart.swf"
+                }
+            },
+            "related": []
+        },
+        "207-tunnel-of-love": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "207-tunnel-of-love",
+                "fullSlug": "quests\/207-tunnel-of-love",
+                "id": 207,
+                "name": "Tunnel of Love",
+                "description": "Big Daddy has asked you to investigate the Tunnel of Love. It seems like there is something here that he doesn't want the Snugvils finding."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 207,
+                    "name": "Tunnel of Love",
+                    "description": "Big Daddy has asked you to investigate the Tunnel of Love. It seems like there is something here that he doesn't want the Snugvils finding.",
+                    "complete": "Whatever Big Daddy was hiding in the Tunnel of Love has been taken by the newest residents of the Forest of Infinite Terror, the Snugvils!",
+                    "swf": "towns\/heroheart\/quest-HHchain1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "<3",
+                    "monsterGroupSwf": "mset-lovesneevil.swf"
+                }
+            },
+            "related": []
+        },
+        "208-heart-shaped-box": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "208-heart-shaped-box",
+                "fullSlug": "quests\/208-heart-shaped-box",
+                "id": 208,
+                "name": "Heart-Shaped Box",
+                "description": "Big Daddy has sent you deep into the Forest of Infinite Terror to the home of the Snugvils to retrieve his Heart-Shaped Box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 208,
+                    "name": "Heart-Shaped Box",
+                    "description": "Big Daddy has sent you deep into the Forest of Infinite Terror to the home of the Snugvils to retrieve his Heart-Shaped Box.",
+                    "complete": "Well, you found the box which was being jealously guarded by the Snugvils, but they had no interest in the contents. Whatever was in that box got dumped out. What could have been in a box that large?",
+                    "swf": "towns\/heroheart\/quest-heartbox.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "<3",
+                    "monsterGroupSwf": "mset-lovesneevil.swf"
+                }
+            },
+            "related": []
+        },
+        "360-the-stakeout": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "360-the-stakeout",
+                "fullSlug": "quests\/360-the-stakeout",
+                "id": 360,
+                "name": "The Stakeout",
+                "description": "Big Daddy wants you to find out who or what is causing all of his valuable customers to run away from the Forest of Infinite Terror in terror."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 360,
+                    "name": "The Stakeout",
+                    "description": "Big Daddy wants you to find out who or what is causing all of his valuable customers to run away from the Forest of Infinite Terror in terror.",
+                    "complete": "Lord Frydae XIII plans to ruin Big Daddy and Hero's Heart Day! That would be... well... I guess that wouldn't be too bad. It's not like it's Frostval or anything.",
+                    "swf": "towns\/heroheart\/quest-HHchain4.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness, Energy",
+                    "monsterGroupSwf": "mset-vampirewar.swf"
+                }
+            },
+            "related": []
+        },
+        "361-tangled-web": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "361-tangled-web",
+                "fullSlug": "quests\/361-tangled-web",
+                "id": 361,
+                "name": "Tangled Web",
+                "description": "AHHHH! SPIDERS!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 361,
+                    "name": "Tangled Web",
+                    "description": "AHHHH! SPIDERS!",
+                    "complete": "You got the key to the Ancient Vault. Better hurry back to Big Daddy before the sun sets!",
+                    "swf": "towns\/heroheart\/quest-HHchain5.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 1,
+                    "monsterType": "Poison",
+                    "monsterGroupSwf": "mset-herosheart09.swf"
+                }
+            },
+            "related": []
+        },
+        "362-heart-of-darkness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "362-heart-of-darkness",
+                "fullSlug": "quests\/362-heart-of-darkness",
+                "id": 362,
+                "name": "Heart of Darkness",
+                "description": "What is in the vault?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 362,
+                    "name": "Heart of Darkness",
+                    "description": "What is in the vault?",
+                    "complete": "You have awoken the queen of the vampires, and Lord Frydae XIII looks like he might finally believe in love. You have saved The Forest of Infinite Terror and Hero's Heart Day!",
+                    "swf": "towns\/heroheart\/quest-HHchain6.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness, Energy",
+                    "monsterGroupSwf": "mset-vampirewar.swf"
+                }
+            },
+            "related": []
+        },
+        "363-snugvil-thieves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "363-snugvil-thieves",
+                "fullSlug": "quests\/363-snugvil-thieves",
+                "id": 363,
+                "name": "Snugvil Thieves",
+                "description": "Big Daddy wants you to stop the snugvil thieves from stealing the candy boxes."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 363,
+                    "name": "Snugvil Thieves",
+                    "description": "Big Daddy wants you to stop the snugvil thieves from stealing the candy boxes.",
+                    "complete": "That will show those Snugvil thieves! It just goes to show you that you can dress a sneevil like Elton John but a sneevil is still a sneevil.",
+                    "swf": "towns\/heroheart\/quest-herosheart09.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "<3",
+                    "monsterGroupSwf": "mset-lovesneevil.swf"
+                }
+            },
+            "related": []
+        },
+        "561-change-of-heart": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "561-change-of-heart",
+                "fullSlug": "quests\/561-change-of-heart",
+                "id": 561,
+                "name": "Change of Heart",
+                "description": "Young love is so often fickle.  Can Ophelia's and Ash's awkward flirtation survive her being kidnapped?  And how will Lazuli feel about things?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 561,
+                    "name": "Change of Heart",
+                    "description": "Young love is so often fickle.  Can Ophelia's and Ash's awkward flirtation survive her being kidnapped?  And how will Lazuli feel about things?",
+                    "complete": "Awww.  No Hero's Heart Day festivities for Ash! There's always next year!",
+                    "swf": "towns\/heroheart\/quest-HHchain9.swf   ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 1,
+                    "monsterType": "Poison",
+                    "monsterGroupSwf": "mset-herosheart09.swf"
+                }
+            },
+            "related": []
+        },
+        "562-love-letter": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "562-love-letter",
+                "fullSlug": "quests\/562-love-letter",
+                "id": 562,
+                "name": "Love Letter",
+                "description": "Step one in Big Daddy's plan?  Plant this letter in Ash's mailbag.  What could he be plotting?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 562,
+                    "name": "Love Letter",
+                    "description": "Step one in Big Daddy's plan?  Plant this letter in Ash's mailbag.  What could he be plotting?!",
+                    "complete": "DING! You've got mail! Well, Ash does, at least.",
+                    "swf": "towns\/heroheart\/quest-HHchain7.swf   ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 1,
+                    "monsterType": "Poison",
+                    "monsterGroupSwf": "mset-herosheart09.swf"
+                }
+            },
+            "related": []
+        },
+        "735-pinkonreach": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "735-pinkonreach",
+                "fullSlug": "quests\/735-pinkonreach",
+                "id": 735,
+                "name": "Pinkonreach",
+                "description": "Save Falconreach from being over-run by undead. PINK undead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 735,
+                    "name": "Pinkonreach",
+                    "description": "Save Falconreach from being over-run by undead. PINK undead!",
+                    "complete": "After such fiercesome battling (and a cameo by Artix!) both you and Falconreach are in the pink!",
+                    "swf": "towns\/HeroHeart\/quest-HHD10a.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pink undead\/bugs",
+                    "monsterGroupSwf": "mset-HHD11r2.swf"
+                }
+            },
+            "related": []
+        },
+        "736-big-d-s-missing": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "736-big-d-s-missing",
+                "fullSlug": "quests\/736-big-d-s-missing",
+                "id": 736,
+                "name": "Big D.'s Missing!",
+                "description": "It's time to find Big Daddy! Thankfully, he had enough presence of mind to leave a trail for you to find him."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 736,
+                    "name": "Big D.'s Missing!",
+                    "description": "It's time to find Big Daddy! Thankfully, he had enough presence of mind to leave a trail for you to find him.",
+                    "complete": "Tin roof. CRUSTED!",
+                    "swf": "towns\/HeroHeart\/quest-HHchain10b.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pink undead\/bugs",
+                    "monsterGroupSwf": "mset-HHD11r2.swf"
+                }
+            },
+            "related": []
+        },
+        "737-greatest-hug-of-all": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "737-greatest-hug-of-all",
+                "fullSlug": "quests\/737-greatest-hug-of-all",
+                "id": 737,
+                "name": "Greatest Hug of All",
+                "description": "SOMEone is behind all these pink undead trying to hug you to death! And that someone is probably EEEEEBIL! Or EVIL. One of the two."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 737,
+                    "name": "Greatest Hug of All",
+                    "description": "SOMEone is behind all these pink undead trying to hug you to death! And that someone is probably EEEEEBIL! Or EVIL. One of the two.",
+                    "complete": "Oh, the dehumanity! Noxus has been pinkified! \nAnd you don't want to know how Twig will contain his magic. Twig has his own secrets. Vewwy vewwy SECWET secwets!",
+                    "swf": "towns\/HeroHeart\/quest-HHchain11.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pink undead\/bugs",
+                    "monsterGroupSwf": "mset-HHD11r2.swf"
+                }
+            },
+            "related": []
+        },
+        "19-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "19-hero-s-heart",
+                "fullSlug": "merge-shops\/19-hero-s-heart",
+                "id": 19,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 19,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 294,
+                    "mergeShopId": 19,
+                    "mergeId": 373
+                },
+                "merge": {
+                    "id": 373,
+                    "itemId1": 707,
+                    "amount1": 24,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 1497,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 773,
+                    "mergeShopId": 53,
+                    "mergeId": 2611
+                },
+                "merge": {
+                    "id": 2611,
+                    "itemId1": 13564,
+                    "amount1": 1,
+                    "itemId2": 707,
+                    "amount2": 14,
+                    "itemId": 13565,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

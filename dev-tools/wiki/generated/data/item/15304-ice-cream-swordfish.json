@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15304-ice-cream-swordfish",
+        "fullSlug": "items\/15304-ice-cream-swordfish",
+        "id": 15304,
+        "name": "Ice Cream Swordfish",
+        "description": "A delicious swordfish! Slap your enemies in the face with fish! Happy Frostval, 2015! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15304,
+            "name": "Ice Cream Swordfish",
+            "description": "A delicious swordfish! Slap your enemies in the face with fish! Happy Frostval, 2015! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 55,
+            "level": 78,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-fishie-high.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 73,
+            "damageMax": 101,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 11,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Energy,8,Fire,8,Metal,7,Water,7,Health,-3"
+        }
+    },
+    "related": {
+        "244-2015-present-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "244-2015-present-merges",
+                "fullSlug": "merge-shops\/244-2015-present-merges",
+                "id": 244,
+                "name": "2015 Present Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 244,
+                    "name": "2015 Present Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2728,
+                    "mergeShopId": 244,
+                    "mergeId": 2701
+                },
+                "merge": {
+                    "id": 2701,
+                    "itemId1": 15219,
+                    "amount1": 5,
+                    "itemId2": 15304,
+                    "amount2": 1,
+                    "itemId": 15305,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

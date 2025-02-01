@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8528-blazeheart",
+        "fullSlug": "items\/8528-blazeheart",
+        "id": 8528,
+        "name": "Blazeheart",
+        "description": "A sword forged by the master craftsman, FlameXero. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8528,
+            "name": "Blazeheart",
+            "description": "A sword forged by the master craftsman, FlameXero. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 45000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 76,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-blazeheart.swf",
+            "icon": "sword",
+            "strength": 9,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 72,
+            "damageMax": 96,
+            "defenseMelee": 7,
+            "defensePierce": 3,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,10,Water,10,Darkness,5,Immobility,1"
+        }
+    },
+    "related": {
+        "301-rosewood-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "301-rosewood-weapons",
+                "fullSlug": "item-shops\/301-rosewood-weapons",
+                "id": 301,
+                "name": "Rosewood Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 301,
+                    "name": "Rosewood Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

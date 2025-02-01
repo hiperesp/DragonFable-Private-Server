@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10537-atrea-dream-rod-v",
+        "fullSlug": "items\/10537-atrea-dream-rod-v",
+        "id": 10537,
+        "name": "Atrea Dream Rod V",
+        "description": "A special item from the unael, Yashta, he says it reflects the dreams of Atrea. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10537,
+            "name": "Atrea Dream Rod V",
+            "description": "A special item from the unael, Yashta, he says it reflects the dreams of Atrea. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 45,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 76,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-atreadream.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 12,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 98,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,11,Darkness,11,Ice,6,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "369-atrea-dream-dc-drop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "369-atrea-dream-dc-drop",
+                "fullSlug": "item-shops\/369-atrea-dream-dc-drop",
+                "id": 369,
+                "name": "Atrea Dream DC Drop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 369,
+                    "name": "Atrea Dream DC Drop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

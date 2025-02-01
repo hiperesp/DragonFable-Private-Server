@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11316-cider-mug",
+        "fullSlug": "items\/11316-cider-mug",
+        "id": 11316,
+        "name": "Cider Mug",
+        "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11316,
+            "name": "Cider Mug",
+            "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 25,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cidermug.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3,Fire,3"
+        }
+    },
+    "related": {
+        "1128-the-navigator": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1128-the-navigator",
+                "fullSlug": "quests\/1128-the-navigator",
+                "id": 1128,
+                "name": "The Navigator",
+                "description": "Who has enough power and knowledge to guide you through the Void?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1128,
+                    "name": "The Navigator",
+                    "description": "Who has enough power and knowledge to guide you through the Void?",
+                    "complete": "You have your Navigator, are you ready to sail the winds of the Deep Void?",
+                    "swf": "towns\/3Ravenloss\/quest10-Navigator-sec.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "soulless forest mobs",
+                    "monsterGroupSwf": "mset-navigator.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20932-notha-s-mechanical-assistant",
+        "fullSlug": "items\/20932-notha-s-mechanical-assistant",
+        "id": 20932,
+        "name": "Notha's Mechanical Assistant",
+        "description": "You're not entirely sure how the vision of this construct entered your dream, but it definitely seems like something Notha would come up with. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20932,
+            "name": "Notha's Mechanical Assistant",
+            "description": "You're not entirely sure how the vision of this construct entered your dream, but it definitely seems like something Notha would come up with. (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-nothamechanicalarms.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "366-dream-recreations": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "366-dream-recreations",
+                "fullSlug": "merge-shops\/366-dream-recreations",
+                "id": 366,
+                "name": "Dream Recreations",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 366,
+                    "name": "Dream Recreations"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3818,
+                    "mergeShopId": 366,
+                    "mergeId": 3924
+                },
+                "merge": {
+                    "id": 3924,
+                    "itemId1": 495,
+                    "amount1": 200,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20932,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

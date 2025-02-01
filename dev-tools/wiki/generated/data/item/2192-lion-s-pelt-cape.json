@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2192-lion-s-pelt-cape",
+        "fullSlug": "items\/2192-lion-s-pelt-cape",
+        "id": 2192,
+        "name": "Lion's Pelt Cape",
+        "description": "You collected enough scraps of hide after battling the Somean lion to put together this flattering cloak.    It was sewn in a pattern intended to display the shocking tattoos."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2192,
+            "name": "Lion's Pelt Cape",
+            "description": "You collected enough scraps of hide after battling the Somean lion to put together this flattering cloak.    It was sewn in a pattern intended to display the shocking tattoos.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 13,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-lion.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3"
+        }
+    },
+    "related": {
+        "346-he-s-a-lyin": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "346-he-s-a-lyin",
+                "fullSlug": "quests\/346-he-s-a-lyin",
+                "id": 346,
+                "name": "He's (a) Lyin'",
+                "description": "How could anyone be mean enough that they'd want to make chickencows cry?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 346,
+                    "name": "He's (a) Lyin'",
+                    "description": "How could anyone be mean enough that they'd want to make chickencows cry?!",
+                    "complete": "That didn't seem SO mean, but perhaps Zeuster's attendants are really, really sensitive.",
+                    "swf": "quests\/Zeuster\/quest-bacon2r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Energy, Nature",
+                    "monsterGroupSwf": "mset-bacon2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

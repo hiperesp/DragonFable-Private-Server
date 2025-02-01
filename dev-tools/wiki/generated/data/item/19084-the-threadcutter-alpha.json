@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19084-the-threadcutter-alpha",
+        "fullSlug": "items\/19084-the-threadcutter-alpha",
+        "id": 19084,
+        "name": "The Threadcutter Alpha",
+        "description": "Secundus says this weapon is for your hands alone. Use it to carve out your place in Lore's history. This weapon has color custom features. Can be upgraded at Secundus, but will lose all resale value. Also available from the Chaosweaver DC package."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19084,
+            "name": "The Threadcutter Alpha",
+            "description": "Secundus says this weapon is for your hands alone. Use it to carve out your place in Lore's history. This weapon has color custom features. Can be upgraded at Secundus, but will lose all resale value. Also available from the Chaosweaver DC package.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 10,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-chaos2019.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 33,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,1,Health,-1"
+        }
+    },
+    "related": {
+        "641-chaosweaver-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "641-chaosweaver-items",
+                "fullSlug": "item-shops\/641-chaosweaver-items",
+                "id": 641,
+                "name": "Chaosweaver Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 641,
+                    "name": "Chaosweaver Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "311-chaosweaver-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "311-chaosweaver-upgrades",
+                "fullSlug": "merge-shops\/311-chaosweaver-upgrades",
+                "id": 311,
+                "name": "Chaosweaver Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 311,
+                    "name": "Chaosweaver Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3352,
+                    "mergeShopId": 311,
+                    "mergeId": 3450
+                },
+                "merge": {
+                    "id": 3450,
+                    "itemId1": 19084,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19074,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

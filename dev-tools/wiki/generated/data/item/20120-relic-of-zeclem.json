@@ -1,0 +1,144 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20120-relic-of-zeclem",
+        "fullSlug": "items\/20120-relic-of-zeclem",
+        "id": 20120,
+        "name": "Relic of Zeclem",
+        "description": "This small scrap of black metal is a remnant of Zeclem's armory. 10 can be used to upgrade DeathKnight and Zeclem's items!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20120,
+            "name": "Relic of Zeclem",
+            "description": "This small scrap of black metal is a remnant of Zeclem's armory. 10 can be used to upgrade DeathKnight and Zeclem's items!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "687-relic-of-zeclem": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "687-relic-of-zeclem",
+                "fullSlug": "item-shops\/687-relic-of-zeclem",
+                "id": 687,
+                "name": "Relic of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 687,
+                    "name": "Relic of Zeclem",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "1781-zeclem-s-keep": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1781-zeclem-s-keep",
+                "fullSlug": "quests\/1781-zeclem-s-keep",
+                "id": 1781,
+                "name": "Zeclem's Keep",
+                "description": "A long abandoned ruin. What will you find inside?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1781,
+                    "name": "Zeclem's Keep",
+                    "description": "A long abandoned ruin. What will you find inside?",
+                    "complete": "And Zeclem rests once more.",
+                    "swf": "towns\/TimeArena\/random-zeclem-r5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "old old undead",
+                    "monsterGroupSwf": "mset-arenazeclem-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "341-relics-of-zeclem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "341-relics-of-zeclem",
+                "fullSlug": "merge-shops\/341-relics-of-zeclem",
+                "id": 341,
+                "name": "Relics of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 341,
+                    "name": "Relics of Zeclem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3580,
+                    "mergeShopId": 341,
+                    "mergeId": 3678
+                },
+                "merge": {
+                    "id": 3678,
+                    "itemId1": 12592,
+                    "amount1": 1,
+                    "itemId2": 20120,
+                    "amount2": 8,
+                    "itemId": 20150,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

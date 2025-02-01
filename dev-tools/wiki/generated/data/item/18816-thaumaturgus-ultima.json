@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18816-thaumaturgus-ultima",
+        "fullSlug": "items\/18816-thaumaturgus-ultima",
+        "id": 18816,
+        "name": "Thaumaturgus Ultima",
+        "description": "An ornate Celestial blade, upgraded from Thaumaturgus Omega. Can be upgraded."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18816,
+            "name": "Thaumaturgus Ultima",
+            "description": "An ornate Celestial blade, upgraded from Thaumaturgus Omega. Can be upgraded.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 15,
+            "level": 80,
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-celestial3.swf",
+            "icon": "scythe",
+            "strength": 18,
+            "dexterity": 18,
+            "intelligence": 18,
+            "luck": 14,
+            "charisma": 14,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 85,
+            "damageMax": 97,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 15,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,9,Health,-18"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3307,
+                    "mergeShopId": 303,
+                    "mergeId": 3405
+                },
+                "merge": {
+                    "id": 3405,
+                    "itemId1": 18816,
+                    "amount1": 1,
+                    "itemId2": 18941,
+                    "amount2": 5,
+                    "itemId": 18943,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

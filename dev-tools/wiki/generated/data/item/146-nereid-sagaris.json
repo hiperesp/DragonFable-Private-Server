@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "146-nereid-sagaris",
+        "fullSlug": "items\/146-nereid-sagaris",
+        "id": 146,
+        "name": "Nereid Sagaris",
+        "description": "Crafted by water nymphs to defeat sharks, this double-bladed axe proves effective against many other opponents, too."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 146,
+            "name": "Nereid Sagaris",
+            "description": "Crafted by water nymphs to defeat sharks, this double-bladed axe proves effective against many other opponents, too.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 7,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-water.swf",
+            "icon": "axe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 16,
+            "damageMax": 28,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "8-the-elemental-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "8-the-elemental-cave",
+                "fullSlug": "quests\/8-the-elemental-cave",
+                "id": 8,
+                "name": "The Elemental Cave",
+                "description": "This is a cave full of elementals. Duh."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 8,
+                    "name": "The Elemental Cave",
+                    "description": "This is a cave full of elementals. Duh.",
+                    "complete": "This is a cave full of elementals. Duh.",
+                    "swf": "random\/random-mudcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 5,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "Wind, Earth, Water",
+                    "monsterGroupSwf": "mset-elementalnew-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "389-the-elemental-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "389-the-elemental-cave",
+                "fullSlug": "quests\/389-the-elemental-cave",
+                "id": 389,
+                "name": "The Elemental Cave",
+                "description": "This is a cave full of elementals. Duh."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 389,
+                    "name": "The Elemental Cave",
+                    "description": "This is a cave full of elementals. Duh.",
+                    "complete": "This is a cave full of elementals. Duh.",
+                    "swf": "towns\/Ash\/random-mudcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "Wind, Earth, Water",
+                    "monsterGroupSwf": "mset-elementalnew-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

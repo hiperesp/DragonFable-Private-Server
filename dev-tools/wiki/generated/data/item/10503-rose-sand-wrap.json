@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10503-rose-sand-wrap",
+        "fullSlug": "items\/10503-rose-sand-wrap",
+        "id": 10503,
+        "name": "Rose Sand Wrap",
+        "description": "A wrap used to protect soldiers from the sun, sand, and wind of the Sandsea."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10503,
+            "name": "Rose Sand Wrap",
+            "description": "A wrap used to protect soldiers from the sun, sand, and wind of the Sandsea.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 55,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-rosehood.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,8,Wind,8"
+        }
+    },
+    "related": {
+        "1088-siege-on-atrea": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1088-siege-on-atrea",
+                "fullSlug": "quests\/1088-siege-on-atrea",
+                "id": 1088,
+                "name": "Siege on Atrea",
+                "description": "Atrea is under siege! Can you get past the Rose line and into the city?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1088,
+                    "name": "Siege on Atrea",
+                    "description": "Atrea is under siege! Can you get past the Rose line and into the city?",
+                    "complete": "You've made it past the siege line!",
+                    "swf": "towns\/3Ravenloss\/quest7-desertnight.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

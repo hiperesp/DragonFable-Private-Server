@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1888-kilguin-filet-knife",
+        "fullSlug": "items\/1888-kilguin-filet-knife",
+        "id": 1888,
+        "name": "Kilguin Filet Knife",
+        "description": "It slices, it dices, it's guaranteed to go through your enemies as easily as butter."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1888,
+            "name": "Kilguin Filet Knife",
+            "description": "It slices, it dices, it's guaranteed to go through your enemies as easily as butter.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 2,
+            "level": 45,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-penguin3.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 60,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,2"
+        }
+    },
+    "related": {
+        "274-the-killguin-arena": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "274-the-killguin-arena",
+                "fullSlug": "quests\/274-the-killguin-arena",
+                "id": 274,
+                "name": "The Killguin Arena",
+                "description": "Galanoth has sent you to the Killguin Battle Arena to speak to the king of the Killguins to try and convince him to join forces with the humans of Dragesvard!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 274,
+                    "name": "The Killguin Arena",
+                    "description": "Galanoth has sent you to the Killguin Battle Arena to speak to the king of the Killguins to try and convince him to join forces with the humans of Dragesvard!",
+                    "complete": "You did it! Linus and the Killguins have agreed to join forces to help defend Dragesvard against the ice elf queen! Next stop... the Ursice home camp!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-killguin-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

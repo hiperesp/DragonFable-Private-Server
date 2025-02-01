@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2679-linx-hero-hat",
+        "fullSlug": "items\/2679-linx-hero-hat",
+        "id": 2679,
+        "name": "Linx Hero Hat",
+        "description": "Hero hats are infinitely more stylish than hard hats, but hard hats will likely protect your head better."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2679,
+            "name": "Linx Hero Hat",
+            "description": "Hero hats are infinitely more stylish than hard hats, but hard hats will likely protect your head better.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 30,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-linx.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,4"
+        }
+    },
+    "related": {
+        "467-ashenvale": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "467-ashenvale",
+                "fullSlug": "quests\/467-ashenvale",
+                "id": 467,
+                "name": "Ashenvale",
+                "description": "The town of Ashenvale is under attack! Can you save all the townspeople before the fire rages out control?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 467,
+                    "name": "Ashenvale",
+                    "description": "The town of Ashenvale is under attack! Can you save all the townspeople before the fire rages out control?",
+                    "complete": "The townspeople are safe, but Drakonnan's forces have burned Ashenvale to the ground....",
+                    "swf": "towns\/FireWar\/quest-firewar7.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "crazy fire guys",
+                    "monsterGroupSwf": "mset-firewar7.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

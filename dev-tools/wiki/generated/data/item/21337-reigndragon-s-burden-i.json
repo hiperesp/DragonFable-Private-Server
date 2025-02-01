@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21337-reigndragon-s-burden-i",
+        "fullSlug": "items\/21337-reigndragon-s-burden-i",
+        "id": 21337,
+        "name": "ReignDragon's Burden I",
+        "description": "This cape of flowing lights and bells even comes with a handy bag for gifts!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21337,
+            "name": "ReignDragon's Burden I",
+            "description": "This cape of flowing lights and bells even comes with a handy bag for gifts!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 10,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-reigndragon.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Health,-1,Fire,1,Metal,1"
+        }
+    },
+    "related": {
+        "380-reigndragon-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "380-reigndragon-gear",
+                "fullSlug": "merge-shops\/380-reigndragon-gear",
+                "id": 380,
+                "name": "ReignDragon Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 380,
+                    "name": "ReignDragon Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3983,
+                    "mergeShopId": 380,
+                    "mergeId": 4083
+                },
+                "merge": {
+                    "id": 4083,
+                    "itemId1": 21318,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21337,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

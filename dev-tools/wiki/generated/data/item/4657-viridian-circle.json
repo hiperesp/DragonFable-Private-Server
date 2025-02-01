@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4657-viridian-circle",
+        "fullSlug": "items\/4657-viridian-circle",
+        "id": 4657,
+        "name": "Viridian Circle",
+        "description": "The gem in the center of this necklace pulses a malevolent, glowing green. If it weren't so hypnotic, I'd tell you to throw it away RIGHT NOW!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4657,
+            "name": "Viridian Circle",
+            "description": "The gem in the center of this necklace pulses a malevolent, glowing green. If it weren't so hypnotic, I'd tell you to throw it away RIGHT NOW!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 53,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,10,Wind,9,Stone,10"
+        }
+    },
+    "related": {
+        "700-memory-demons": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "700-memory-demons",
+                "fullSlug": "quests\/700-memory-demons",
+                "id": 700,
+                "name": "Memory-Demons",
+                "description": "Vayle cannot forget the past, but she will have to in order to have a brighter future. Help her see the light!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 700,
+                    "name": "Memory-Demons",
+                    "description": "Vayle cannot forget the past, but she will have to in order to have a brighter future. Help her see the light!",
+                    "complete": "The Darkness Orb is yours! And now Vayle has a chance to be truly happy in the future.",
+                    "swf": "quests\/quest-vayle2-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness",
+                    "monsterGroupSwf": "mset-vayle2-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

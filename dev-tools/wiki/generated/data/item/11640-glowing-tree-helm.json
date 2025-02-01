@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11640-glowing-tree-helm",
+        "fullSlug": "items\/11640-glowing-tree-helm",
+        "id": 11640,
+        "name": "Glowing Tree Helm",
+        "description": "A helm crafted by Yashta from a Glow Tree sapling from Pellow Village. It seems he may have many talents! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11640,
+            "name": "Glowing Tree Helm",
+            "description": "A helm crafted by Yashta from a Glow Tree sapling from Pellow Village. It seems he may have many talents! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5600,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-glowingtree.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 12,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Water,12,Ice,12,Fire,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "399-glow-tree": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "399-glow-tree",
+                "fullSlug": "item-shops\/399-glow-tree",
+                "id": 399,
+                "name": "Glow Tree",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 399,
+                    "name": "Glow Tree",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

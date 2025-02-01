@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9677-tusk-ring",
+        "fullSlug": "items\/9677-tusk-ring",
+        "id": 9677,
+        "name": "Tusk Ring",
+        "description": "It looks like a miniature tusk!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9677,
+            "name": "Tusk Ring",
+            "description": "It looks like a miniature tusk!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 36,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Wind,2"
+        }
+    },
+    "related": {
+        "139-tooth-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "139-tooth-rings",
+                "fullSlug": "merge-shops\/139-tooth-rings",
+                "id": 139,
+                "name": "Tooth Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 139,
+                    "name": "Tooth Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2000,
+                    "mergeShopId": 139,
+                    "mergeId": 1891
+                },
+                "merge": {
+                    "id": 1891,
+                    "itemId1": 9666,
+                    "amount1": 7,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9677,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

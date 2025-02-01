@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3840-custom-bat-wings",
+        "fullSlug": "items\/3840-custom-bat-wings",
+        "id": 3840,
+        "name": "Custom Bat Wings",
+        "description": "Char found these hidden in a box in the Market District.  What a find!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3840,
+            "name": "Custom Bat Wings",
+            "description": "Char found these hidden in a box in the Market District.  What a find!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 7,
+            "level": 10,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-custom.swf",
+            "icon": "wings",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,3,Fire,5"
+        }
+    },
+    "related": {
+        "142-char-s-chest": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "142-char-s-chest",
+                "fullSlug": "item-shops\/142-char-s-chest",
+                "id": 142,
+                "name": "Char's Chest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 142,
+                    "name": "Char's Chest",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

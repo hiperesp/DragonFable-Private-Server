@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3748-crogen-mantle",
+        "fullSlug": "items\/3748-crogen-mantle",
+        "id": 3748,
+        "name": "Crogen Mantle",
+        "description": "An ornate golden mantle, blessed with magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3748,
+            "name": "Crogen Mantle",
+            "description": "An ornate golden mantle, blessed with magic.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 45,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-golden_mantle.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Fire,2,Immobility,3"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 942,
+                    "mergeShopId": 67,
+                    "mergeId": 702
+                },
+                "merge": {
+                    "id": 702,
+                    "itemId1": 3735,
+                    "amount1": 7,
+                    "itemId2": 1205,
+                    "amount2": 3,
+                    "itemId": 3748,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2054-enchanter-s-stone",
+        "fullSlug": "items\/2054-enchanter-s-stone",
+        "id": 2054,
+        "name": "Enchanter's Stone",
+        "description": "One of Galanoth's mother's enchanting stones. Return this to him to learn a new Dragonslayer skill."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2054,
+            "name": "Enchanter's Stone",
+            "description": "One of Galanoth's mother's enchanting stones. Return this to him to learn a new Dragonslayer skill.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "light",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "313-tipping-the-scales": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "313-tipping-the-scales",
+                "fullSlug": "quests\/313-tipping-the-scales",
+                "id": 313,
+                "name": "Tipping the Scales",
+                "description": "Galanoth has asked you to get back his mother's stolen enchanting stones."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 313,
+                    "name": "Tipping the Scales",
+                    "description": "Galanoth has asked you to get back his mother's stolen enchanting stones.",
+                    "complete": "You won the roll and recovered a stone. Take it back to Galanoth to learn a new Dragonslayer skill.",
+                    "swf": "quests\/quest-casino-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "dragons and lizards",
+                    "monsterGroupSwf": "mset-casino.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19722-sky-blue-crystal-blade-vi",
+        "fullSlug": "items\/19722-sky-blue-crystal-blade-vi",
+        "id": 19722,
+        "name": "Sky Blue Crystal Blade VI",
+        "description": "Magic sands used by the Clawkin melted into this wicked blade in the fires. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19722,
+            "name": "Sky Blue Crystal Blade VI",
+            "description": "Magic sands used by the Clawkin melted into this wicked blade in the fires. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 90,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-crystalblade.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 15,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 78,
+            "damageMax": 106,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 12,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Water,11,Light,11,Wind,11,Fire,11,Immobility,5"
+        }
+    },
+    "related": {
+        "334-smoke-dc-drop-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "334-smoke-dc-drop-shop",
+                "fullSlug": "item-shops\/334-smoke-dc-drop-shop",
+                "id": 334,
+                "name": "Smoke DC Drop Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 334,
+                    "name": "Smoke DC Drop Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

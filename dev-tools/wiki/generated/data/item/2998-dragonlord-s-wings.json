@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2998-dragonlord-s-wings",
+        "fullSlug": "items\/2998-dragonlord-s-wings",
+        "id": 2998,
+        "name": "DragonLord's Wings",
+        "description": "Only the mightiest of Dragonlords can wear these wings.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2998,
+            "name": "DragonLord's Wings",
+            "description": "Only the mightiest of Dragonlords can wear these wings.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 2,
+            "level": 35,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-dragonblue.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Wind,5"
+        }
+    },
+    "related": {
+        "110-trinki-s-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "110-trinki-s-wings",
+                "fullSlug": "item-shops\/110-trinki-s-wings",
+                "id": 110,
+                "name": "Trinki's Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 110,
+                    "name": "Trinki's Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

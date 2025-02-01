@@ -1,0 +1,145 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7604-deatharrows-fearless-helm",
+        "fullSlug": "items\/7604-deatharrows-fearless-helm",
+        "id": 7604,
+        "name": "Deatharrows Fearless Helm",
+        "description": "The perfect helm for slinking through the shadows. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7604,
+            "name": "Deatharrows Fearless Helm",
+            "description": "The perfect helm for slinking through the shadows. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-deatharrows.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 11,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Silver,15,Darkness,15,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "121-mop-80": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "121-mop-80",
+                "fullSlug": "merge-shops\/121-mop-80",
+                "id": 121,
+                "name": "MOP 80",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 121,
+                    "name": "MOP 80"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1681,
+                    "mergeShopId": 121,
+                    "mergeId": 1561
+                },
+                "merge": {
+                    "id": 1561,
+                    "itemId1": 7603,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7604,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "336-mop-90": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "336-mop-90",
+                "fullSlug": "merge-shops\/336-mop-90",
+                "id": 336,
+                "name": "MOP 90",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 336,
+                    "name": "MOP 90"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3507,
+                    "mergeShopId": 336,
+                    "mergeId": 3586
+                },
+                "merge": {
+                    "id": 3586,
+                    "itemId1": 7604,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20007,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

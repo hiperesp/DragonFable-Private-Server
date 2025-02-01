@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6986-black-rose-staff",
+        "fullSlug": "items\/6986-black-rose-staff",
+        "id": 6986,
+        "name": "Black Rose Staff",
+        "description": "The flowers on this staff are created from elemental essences."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6986,
+            "name": "Black Rose Staff",
+            "description": "The flowers on this staff are created from elemental essences.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 10,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-blackrose.swf",
+            "icon": "staff",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 22,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,2"
+        }
+    },
+    "related": {
+        "907-petty-squabbles": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "907-petty-squabbles",
+                "fullSlug": "quests\/907-petty-squabbles",
+                "id": 907,
+                "name": "Petty Squabbles",
+                "description": "Alex is collecting elemental essences to create the perfect gift for Jaania!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 907,
+                    "name": "Petty Squabbles",
+                    "description": "Alex is collecting elemental essences to create the perfect gift for Jaania!",
+                    "complete": "Both Warlic and Alex have had enough of these petty squabbles, now it is time to see who is more powerful!",
+                    "swf": "towns\/swordhavenalex\/quest-alex6-bouquet-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "allllll the elementals",
+                    "monsterGroupSwf": "mset-elemental-all.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

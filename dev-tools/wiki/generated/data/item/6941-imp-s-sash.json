@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6941-imp-s-sash",
+        "fullSlug": "items\/6941-imp-s-sash",
+        "id": 6941,
+        "name": "Imp's Sash",
+        "description": "A brightly colored swath of cloth, it's still warm."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6941,
+            "name": "Imp's Sash",
+            "description": "A brightly colored swath of cloth, it's still warm.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 43,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Darkness,5,Immobility,3"
+        }
+    },
+    "related": {
+        "905-the-professor": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "905-the-professor",
+                "fullSlug": "quests\/905-the-professor",
+                "id": 905,
+                "name": "The Professor",
+                "description": "You've found the Professor and his... \"assistant\", but you've also led one of Wargoth's imps right to him!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 905,
+                    "name": "The Professor",
+                    "description": "You've found the Professor and his... \"assistant\", but you've also led one of Wargoth's imps right to him!",
+                    "complete": "You caught the imp, but you're going to have to be careful and try to keep the Professor safe!",
+                    "swf": "towns\/Atrea\/quest6-professor.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness, skeles, cave",
+                    "monsterGroupSwf": "mset-deadlands-cave.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

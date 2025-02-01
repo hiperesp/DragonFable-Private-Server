@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "298-chartreuse-drop",
+        "fullSlug": "items\/298-chartreuse-drop",
+        "id": 298,
+        "name": "Chartreuse Drop",
+        "description": "This exquisite green staff is for the most discriminating of mages, as it is made from very expensive materials."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 298,
+            "name": "Chartreuse Drop",
+            "description": "This exquisite green staff is for the most discriminating of mages, as it is made from very expensive materials.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 16,
+            "type": "Magic",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-crystalgreenslime.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 22,
+            "damageMax": 52,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "14-enchanted-grove": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "14-enchanted-grove",
+                "fullSlug": "quests\/14-enchanted-grove",
+                "id": 14,
+                "name": "Enchanted Grove",
+                "description": "A place for wishes and secrets, for madness and dreams."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 14,
+                    "name": "Enchanted Grove",
+                    "description": "A place for wishes and secrets, for madness and dreams.",
+                    "complete": "A place for wishes and secrets, for madness and dreams.",
+                    "swf": "random\/random-faerieforest-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 15,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-faeries-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "22-floating-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "22-floating-cave",
+                "fullSlug": "quests\/22-floating-cave",
+                "id": 22,
+                "name": "Floating Cave",
+                "description": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 22,
+                    "name": "Floating Cave",
+                    "description": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...",
+                    "complete": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...",
+                    "swf": "random\/random-windcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 17,
+                    "maxGold": 150,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 12,
+                    "monsterMaxLevel": 18,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalwind.swf"
+                }
+            },
+            "related": []
+        },
+        "27-the-deep-freeze": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "27-the-deep-freeze",
+                "fullSlug": "quests\/27-the-deep-freeze",
+                "id": 27,
+                "name": "The Deep Freeze",
+                "description": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 27,
+                    "name": "The Deep Freeze",
+                    "description": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.",
+                    "complete": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.",
+                    "swf": "random\/random-icecave.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 9,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Beast, Elemental",
+                    "monsterGroupSwf": "mset-arctic.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

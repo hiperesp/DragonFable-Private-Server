@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20860-ostara-s-guard-ix",
+        "fullSlug": "items\/20860-ostara-s-guard-ix",
+        "id": 20860,
+        "name": "Ostara's Guard IX",
+        "description": "Bear the helmet of Ostara, mythical warrior beast! It even comes with a pair of magical ears!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20860,
+            "name": "Ostara's Guard IX",
+            "description": "Bear the helmet of Ostara, mythical warrior beast! It even comes with a pair of magical ears!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 85,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-DCapril2022.swf",
+            "icon": "helm",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 12,
+            "charisma": 12,
+            "endurance": 12,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "743-ostara-s-armaments": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "743-ostara-s-armaments",
+                "fullSlug": "item-shops\/743-ostara-s-armaments",
+                "id": 743,
+                "name": "Ostara's Armaments",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 743,
+                    "name": "Ostara's Armaments",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

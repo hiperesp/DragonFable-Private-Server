@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6329-togsmas-sword",
+        "fullSlug": "items\/6329-togsmas-sword",
+        "id": 6329,
+        "name": "Togsmas Sword",
+        "description": "It's long and kinda pointy shaped. It clangs when you shake it. You'll want to merge this into a level-appropriate sword!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6329,
+            "name": "Togsmas Sword",
+            "description": "It's long and kinda pointy shaped. It clangs when you shake it. You'll want to merge this into a level-appropriate sword!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 50,
+            "level": 0,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "245-2011-presents": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "245-2011-presents",
+                "fullSlug": "item-shops\/245-2011-presents",
+                "id": 245,
+                "name": "2011 Presents",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 245,
+                    "name": "2011 Presents",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "101-togsmas-gifts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "101-togsmas-gifts",
+                "fullSlug": "merge-shops\/101-togsmas-gifts",
+                "id": 101,
+                "name": "Togsmas Gifts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 101,
+                    "name": "Togsmas Gifts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1402,
+                    "mergeShopId": 101,
+                    "mergeId": 1228
+                },
+                "merge": {
+                    "id": 1228,
+                    "itemId1": 6328,
+                    "amount1": 1,
+                    "itemId2": 6329,
+                    "amount2": 1,
+                    "itemId": 6348,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

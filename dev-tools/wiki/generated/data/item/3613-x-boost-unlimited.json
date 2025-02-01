@@ -1,0 +1,145 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3613-x-boost-unlimited",
+        "fullSlug": "items\/3613-x-boost-unlimited",
+        "id": 3613,
+        "name": "X-Boost: Unlimited",
+        "description": "X-Boost gives you +10% Exp and Gold for every battle you win!  Permanent Boost! Stacks up to 10!\nIf you have the duplicate stack bug, deactivate all X-Boosts, then reactivate them all."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3613,
+            "name": "X-Boost: Unlimited",
+            "description": "X-Boost gives you +10% Exp and Gold for every battle you win!  Permanent Boost! Stacks up to 10!\nIf you have the duplicate stack bug, deactivate all X-Boosts, then reactivate them all.",
+            "visible": 0,
+            "destroyable": 0,
+            "sellable": 0,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 1000,
+            "maxStackSize": 10,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "567-x-boost": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "567-x-boost",
+                "fullSlug": "item-shops\/567-x-boost",
+                "id": 567,
+                "name": "X-Boost!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 567,
+                    "name": "X-Boost!",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "280-x-boost-deactivation": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "280-x-boost-deactivation",
+                "fullSlug": "merge-shops\/280-x-boost-deactivation",
+                "id": 280,
+                "name": "X-Boost Deactivation",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 280,
+                    "name": "X-Boost Deactivation"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3096,
+                    "mergeShopId": 280,
+                    "mergeId": 3099
+                },
+                "merge": {
+                    "id": 3099,
+                    "itemId1": 3613,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 17544,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "279-x-boost-activation": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "279-x-boost-activation",
+                "fullSlug": "merge-shops\/279-x-boost-activation",
+                "id": 279,
+                "name": "X-Boost Activation",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 279,
+                    "name": "X-Boost Activation"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3095,
+                    "mergeShopId": 279,
+                    "mergeId": 3605
+                },
+                "merge": {
+                    "id": 3605,
+                    "itemId1": 3611,
+                    "amount1": 1,
+                    "itemId2": 20087,
+                    "amount2": 1,
+                    "itemId": 3613,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

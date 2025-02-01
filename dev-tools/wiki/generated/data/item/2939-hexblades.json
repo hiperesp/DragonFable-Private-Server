@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2939-hexblades",
+        "fullSlug": "items\/2939-hexblades",
+        "id": 2939,
+        "name": "Hexblades",
+        "description": "If you don't cut them with one side, cut them with the other!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2939,
+            "name": "Hexblades",
+            "description": "If you don't cut them with one side, cut them with the other!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 12,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-hexspike.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 22,
+            "damageMax": 42,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8016-alarmed-lion-s-head",
+        "fullSlug": "items\/8016-alarmed-lion-s-head",
+        "id": 8016,
+        "name": "Alarmed Lion's Head",
+        "description": "Who's scared of that mean ol' witch?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8016,
+            "name": "Alarmed Lion's Head",
+            "description": "Who's scared of that mean ol' witch?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 30,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-lionhead.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Fire,6,Darkness,6,Stone,6,Immobility,2"
+        }
+    },
+    "related": {
+        "290-red-brick-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "290-red-brick-drops",
+                "fullSlug": "item-shops\/290-red-brick-drops",
+                "id": 290,
+                "name": "Red Brick Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 290,
+                    "name": "Red Brick Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

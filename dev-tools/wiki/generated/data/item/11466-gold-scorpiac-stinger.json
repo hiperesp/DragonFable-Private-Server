@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11466-gold-scorpiac-stinger",
+        "fullSlug": "items\/11466-gold-scorpiac-stinger",
+        "id": 11466,
+        "name": "Gold Scorpiac Stinger",
+        "description": "Once won by the hunter who brought down the biggest scorpiac ever seen."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11466,
+            "name": "Gold Scorpiac Stinger",
+            "description": "Once won by the hunter who brought down the biggest scorpiac ever seen.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 67,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,5,Stone,5,Nature,5,Immobility,3"
+        }
+    },
+    "related": {
+        "1132-the-human-element": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1132-the-human-element",
+                "fullSlug": "quests\/1132-the-human-element",
+                "id": 1132,
+                "name": "The Human Element",
+                "description": "Aspar is looking for something... special."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1132,
+                    "name": "The Human Element",
+                    "description": "Aspar is looking for something... special.",
+                    "complete": "A soulthread vial labeled \"Tomix\"?!",
+                    "swf": "towns\/3Ravenloss\/quest11-humanelement-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "humans",
+                    "monsterGroupSwf": "mset-humanelement.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

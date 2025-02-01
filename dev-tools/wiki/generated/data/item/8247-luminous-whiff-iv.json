@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8247-luminous-whiff-iv",
+        "fullSlug": "items\/8247-luminous-whiff-iv",
+        "id": 8247,
+        "name": "Luminous Whiff IV",
+        "description": "Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8247,
+            "name": "Luminous Whiff IV",
+            "description": "Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Luminous Whiff middle.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 52,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Energy,4,Water,2,Health,-1"
+        }
+    },
+    "related": {
+        "127-sielu-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "127-sielu-s-shop",
+                "fullSlug": "merge-shops\/127-sielu-s-shop",
+                "id": 127,
+                "name": "Sielu's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 127,
+                    "name": "Sielu's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1819,
+                    "mergeShopId": 127,
+                    "mergeId": 1693
+                },
+                "merge": {
+                    "id": 1693,
+                    "itemId1": 8156,
+                    "amount1": 7,
+                    "itemId2": 8247,
+                    "amount2": 1,
+                    "itemId": 8248,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

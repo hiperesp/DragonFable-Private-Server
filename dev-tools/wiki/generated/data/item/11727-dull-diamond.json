@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11727-dull-diamond",
+        "fullSlug": "items\/11727-dull-diamond",
+        "id": 11727,
+        "name": "Dull Diamond",
+        "description": "A diamond, but it's full of inclusions."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11727,
+            "name": "Dull Diamond",
+            "description": "A diamond, but it's full of inclusions.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "gem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1143-desolation-ruins": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1143-desolation-ruins",
+                "fullSlug": "quests\/1143-desolation-ruins",
+                "id": 1143,
+                "name": "Desolation Ruins",
+                "description": "Help Leon recover the Runestone from the ruins of the Archtemple."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1143,
+                    "name": "Desolation Ruins",
+                    "description": "Help Leon recover the Runestone from the ruins of the Archtemple.",
+                    "complete": "You've defeated the Drake and obtained the Runestone from its clutches!",
+                    "swf": "towns\/shears\/quest4-desolationruins2-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ruins",
+                    "monsterGroupSwf": "mset-druins.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

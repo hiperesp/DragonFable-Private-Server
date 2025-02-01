@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4216-stabilized-arista-tauran",
+        "fullSlug": "items\/4216-stabilized-arista-tauran",
+        "id": 4216,
+        "name": "Stabilized Arista Tauran",
+        "description": "The magical metal used to create this weapon has, over time, cooled and hardened. But it is not any less potent!  This weapon requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4216,
+            "name": "Stabilized Arista Tauran",
+            "description": "The magical metal used to create this weapon has, over time, cooled and hardened. But it is not any less potent!  This weapon requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 23000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 56,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bacon7.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 6,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 4,
+            "damageMin": 62,
+            "damageMax": 82,
+            "defenseMelee": 6,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,7,Stone,5"
+        }
+    },
+    "related": {
+        "154-moonridge-knights": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "154-moonridge-knights",
+                "fullSlug": "item-shops\/154-moonridge-knights",
+                "id": 154,
+                "name": "Moonridge Knights",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 154,
+                    "name": "Moonridge Knights",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

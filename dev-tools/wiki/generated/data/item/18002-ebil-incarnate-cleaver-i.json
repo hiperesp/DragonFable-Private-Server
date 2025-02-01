@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18002-ebil-incarnate-cleaver-i",
+        "fullSlug": "items\/18002-ebil-incarnate-cleaver-i",
+        "id": 18002,
+        "name": "Ebil Incarnate Cleaver I",
+        "description": "A specially forged dagger made for you by the one and only Zorbak! How considerate! This weapon definitely won't come alive at night and pull harmless pranks. Guaranteed. Almost."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18002,
+            "name": "Ebil Incarnate Cleaver I",
+            "description": "A specially forged dagger made for you by the one and only Zorbak! How considerate! This weapon definitely won't come alive at night and pull harmless pranks. Guaranteed. Almost.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 25,
+            "type": "Pierce",
+            "element": "Ebil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-ebilincarnate.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 35,
+            "damageMax": 55,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1501-ghoulidays-boss": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1501-ghoulidays-boss",
+                "fullSlug": "quests\/1501-ghoulidays-boss",
+                "id": 1501,
+                "name": "Ghoulidays Boss",
+                "description": "Time to find out who is behind all of this!!!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1501,
+                    "name": "Ghoulidays Boss",
+                    "description": "Time to find out who is behind all of this!!!",
+                    "complete": "Vacation chores, yay!",
+                    "swf": "wars\/F13-Ghoulidays\/quest-beachboss.swf",
+                    "swfX": "wars\/F13-Ghoulidays\/quest-beachboss-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Beach Zorbak",
+                    "monsterGroupSwf": "mset-ZorbakBeach.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

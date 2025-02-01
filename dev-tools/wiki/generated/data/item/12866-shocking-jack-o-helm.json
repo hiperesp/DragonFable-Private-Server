@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12866-shocking-jack-o-helm",
+        "fullSlug": "items\/12866-shocking-jack-o-helm",
+        "id": 12866,
+        "name": "Shocking Jack 'o Helm ",
+        "description": "Jack apparently has multiple backup heads in case he loses his. He gave you one of them. How thoughtful!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12866,
+            "name": "Shocking Jack 'o Helm ",
+            "description": "Jack apparently has multiple backup heads in case he loses his. He gave you one of them. How thoughtful!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 15,
+            "level": 75,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-jackohelm.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,10,Nature,10,Fire,3,Immobility,2"
+        }
+    },
+    "related": {
+        "1201-the-perfect-year": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1201-the-perfect-year",
+                "fullSlug": "quests\/1201-the-perfect-year",
+                "id": 1201,
+                "name": "The Perfect Year",
+                "description": "Head to Croft and see how the Cauldron Sisters are doing!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1201,
+                    "name": "The Perfect Year",
+                    "description": "Head to Croft and see how the Cauldron Sisters are doing!",
+                    "complete": "Well, that was too good to be true. Something bad happened to the candy this year after all!",
+                    "swf": "towns\/Mogloween\/M14\/quest-perfectyear.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 35000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wood monsters",
+                    "monsterGroupSwf": "mset-moglo14-1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

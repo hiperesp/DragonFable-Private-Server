@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "234-knife-of-searing",
+        "fullSlug": "items\/234-knife-of-searing",
+        "id": 234,
+        "name": "Knife of Searing",
+        "description": "Once, in a village so small that it did not even have a name, there was a young Pyromancer... he might recognize this Knife."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 234,
+            "name": "Knife of Searing",
+            "description": "Once, in a village so small that it did not even have a name, there was a young Pyromancer... he might recognize this Knife.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 820,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 6,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-fire.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 12,
+            "damageMax": 30,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "14-enchanted-grove": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "14-enchanted-grove",
+                "fullSlug": "quests\/14-enchanted-grove",
+                "id": 14,
+                "name": "Enchanted Grove",
+                "description": "A place for wishes and secrets, for madness and dreams."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 14,
+                    "name": "Enchanted Grove",
+                    "description": "A place for wishes and secrets, for madness and dreams.",
+                    "complete": "A place for wishes and secrets, for madness and dreams.",
+                    "swf": "random\/random-faerieforest-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 15,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-faeries-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "24-watery-exploration": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "24-watery-exploration",
+                "fullSlug": "quests\/24-watery-exploration",
+                "id": 24,
+                "name": "Watery Exploration",
+                "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 24,
+                    "name": "Watery Exploration",
+                    "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "complete": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "swf": "random\/random-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Elemental",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

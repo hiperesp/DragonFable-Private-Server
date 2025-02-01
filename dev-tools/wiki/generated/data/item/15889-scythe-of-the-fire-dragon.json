@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15889-scythe-of-the-fire-dragon",
+        "fullSlug": "items\/15889-scythe-of-the-fire-dragon",
+        "id": 15889,
+        "name": "Scythe of the Fire Dragon",
+        "description": "Crafted to celebrate ten years of heroics on Lore, this scythe has a minor Orb of Fire to give it power!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15889,
+            "name": "Scythe of the Fire Dragon",
+            "description": "Crafted to celebrate ten years of heroics on Lore, this scythe has a minor Orb of Fire to give it power!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-10fire.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Ice,3"
+        }
+    },
+    "related": {
+        "504-dragon-scythes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "504-dragon-scythes",
+                "fullSlug": "item-shops\/504-dragon-scythes",
+                "id": 504,
+                "name": "Dragon Scythes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 504,
+                    "name": "Dragon Scythes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

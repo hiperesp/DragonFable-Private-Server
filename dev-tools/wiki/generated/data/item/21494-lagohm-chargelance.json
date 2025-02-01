@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21494-lagohm-chargelance",
+        "fullSlug": "items\/21494-lagohm-chargelance",
+        "id": 21494,
+        "name": "Lagohm Chargelance",
+        "description": "A spectacular recreation of a shocking Lagohm-tech antique! Although Lagohm society puts progress on a pedestal, the likes of the Champion's own creations has never since been seen. Proof of victory over Eulin II! (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21494,
+            "name": "Lagohm Chargelance",
+            "description": "A spectacular recreation of a shocking Lagohm-tech antique! Although Lagohm society puts progress on a pedestal, the likes of the Champion's own creations has never since been seen. Proof of victory over Eulin II! (Cosmetic)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 0,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lagohm.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2035-eulin-ii": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2035-eulin-ii",
+                "fullSlug": "quests\/2035-eulin-ii",
+                "id": 2035,
+                "name": "Eulin II",
+                "description": "Lightning Caller. The Spark of Brilliance. Alone in the storm, he held the line against a horde of invading elementals and came out unscathed. He is... Eulin II."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2035,
+                    "name": "Eulin II",
+                    "description": "Lightning Caller. The Spark of Brilliance. Alone in the storm, he held the line against a horde of invading elementals and came out unscathed. He is... Eulin II.",
+                    "complete": "And so the Champion of the Lagohm has met his match. Luckily for him, he's still quite cute. Also he's fine, don't worry. Nothing a good nap won't take care of.",
+                    "swf": "towns\/TimeArena\/quest4-lagohm.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Eulin II",
+                    "monsterGroupSwf": "mset-arenalagohm.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "390-lagohm-champion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "390-lagohm-champion",
+                "fullSlug": "merge-shops\/390-lagohm-champion",
+                "id": 390,
+                "name": "Lagohm Champion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 390,
+                    "name": "Lagohm Champion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4140,
+                    "mergeShopId": 390,
+                    "mergeId": 4180
+                },
+                "merge": {
+                    "id": 4180,
+                    "itemId1": 21494,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21493,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

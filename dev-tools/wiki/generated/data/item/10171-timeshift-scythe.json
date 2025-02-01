@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10171-timeshift-scythe",
+        "fullSlug": "items\/10171-timeshift-scythe",
+        "id": 10171,
+        "name": "TimeShift Scythe",
+        "description": "Crafted in honor of Cronix's birthday, this scythe almost seems to cut through time itself!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10171,
+            "name": "TimeShift Scythe",
+            "description": "Crafted in honor of Cronix's birthday, this scythe almost seems to cut through time itself!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-timeshift.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 45,
+            "damageMax": 57,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Darkness,1"
+        }
+    },
+    "related": {
+        "355-cronix-bd-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "355-cronix-bd-gold",
+                "fullSlug": "item-shops\/355-cronix-bd-gold",
+                "id": 355,
+                "name": "Cronix BD Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 355,
+                    "name": "Cronix BD Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

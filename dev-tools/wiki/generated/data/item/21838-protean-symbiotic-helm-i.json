@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21838-protean-symbiotic-helm-i",
+        "fullSlug": "items\/21838-protean-symbiotic-helm-i",
+        "id": 21838,
+        "name": "Protean Symbiotic Helm I",
+        "description": "This Protean that you revitalized seems to mean you no harm! In fact, it's offering to help be a helm!\nProof of victory over the Devoured Horizons challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21838,
+            "name": "Protean Symbiotic Helm I",
+            "description": "This Protean that you revitalized seems to mean you no harm! In fact, it's offering to help be a helm!\nProof of victory over the Devoured Horizons challenge.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 14,
+            "rarity": 0,
+            "level": 60,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-arenaprotean.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 0,
+            "parry": 11,
+            "dodge": 11,
+            "block": 11,
+            "resists": "All,8,Health,-3"
+        }
+    },
+    "related": {
+        "411-devoured-horizons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "411-devoured-horizons",
+                "fullSlug": "merge-shops\/411-devoured-horizons",
+                "id": 411,
+                "name": "Devoured Horizons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 411,
+                    "name": "Devoured Horizons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4241,
+                    "mergeShopId": 411,
+                    "mergeId": 4279
+                },
+                "merge": {
+                    "id": 4279,
+                    "itemId1": 21837,
+                    "amount1": 1,
+                    "itemId2": 21836,
+                    "amount2": 1,
+                    "itemId": 21838,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

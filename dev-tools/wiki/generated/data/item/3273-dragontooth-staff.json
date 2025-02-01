@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3273-dragontooth-staff",
+        "fullSlug": "items\/3273-dragontooth-staff",
+        "id": 3273,
+        "name": "Dragontooth Staff",
+        "description": "Can't you just hear the baby dragons singing: All I want for Frostval is my new front fang, my new front fang, my new front fang...  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3273,
+            "name": "Dragontooth Staff",
+            "description": "Can't you just hear the baby dragons singing: All I want for Frostval is my new front fang, my new front fang, my new front fang...  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 11,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-dragontooth.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 25,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,2"
+        }
+    },
+    "related": {
+        "125-bluestar-weaponry": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "125-bluestar-weaponry",
+                "fullSlug": "item-shops\/125-bluestar-weaponry",
+                "id": 125,
+                "name": "Bluestar Weaponry",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 125,
+                    "name": "Bluestar Weaponry",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

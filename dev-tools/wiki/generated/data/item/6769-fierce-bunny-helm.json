@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6769-fierce-bunny-helm",
+        "fullSlug": "items\/6769-fierce-bunny-helm",
+        "id": 6769,
+        "name": "Fierce Bunny Helm",
+        "description": "A fiercely cuddly helm! Count to five before throwing anything..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6769,
+            "name": "Fierce Bunny Helm",
+            "description": "A fiercely cuddly helm! Count to five before throwing anything...",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/mask-grenwog-rabbit.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 1,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Nature,4,Immobility,1"
+        }
+    },
+    "related": {
+        "106-egg-merge-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "106-egg-merge-shop",
+                "fullSlug": "merge-shops\/106-egg-merge-shop",
+                "id": 106,
+                "name": "Egg Merge Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 106,
+                    "name": "Egg Merge Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1474,
+                    "mergeShopId": 106,
+                    "mergeId": 1364
+                },
+                "merge": {
+                    "id": 1364,
+                    "itemId1": 6763,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6769,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

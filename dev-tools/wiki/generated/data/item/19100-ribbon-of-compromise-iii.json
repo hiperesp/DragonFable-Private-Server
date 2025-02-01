@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19100-ribbon-of-compromise-iii",
+        "fullSlug": "items\/19100-ribbon-of-compromise-iii",
+        "id": 19100,
+        "name": "Ribbon of Compromise III",
+        "description": "This gaudily decorated belt was produced by a perhaps overeager member of the court to celebrate the tentative truce between the Rose, Vind, and Magesterium. At least it's pretty."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19100,
+            "name": "Ribbon of Compromise III",
+            "description": "This gaudily decorated belt was produced by a perhaps overeager member of the court to celebrate the tentative truce between the Rose, Vind, and Magesterium. At least it's pretty.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 5,
+            "level": 60,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,3"
+        }
+    },
+    "related": {
+        "1653-the-golden-hand": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1653-the-golden-hand",
+                "fullSlug": "quests\/1653-the-golden-hand",
+                "id": 1653,
+                "name": "The Golden Hand",
+                "description": "With Magesterium rifts threatening all of the Kingdom of Greenguard, what can you do?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1653,
+                    "name": "The Golden Hand",
+                    "description": "With Magesterium rifts threatening all of the Kingdom of Greenguard, what can you do?",
+                    "complete": "Who will you help in defense of Lore?",
+                    "swf": "towns\/SulenEska\/quest4-truce.swf?ver=1",
+                    "swfX": "towns\/SulenEska\/quest4-truce-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Desert Elemental",
+                    "monsterGroupSwf": "mset-riftswordhaven.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17725-oversized-undead-knife-iii",
+        "fullSlug": "items\/17725-oversized-undead-knife-iii",
+        "id": 17725,
+        "name": "Oversized Undead Knife III",
+        "description": "Undead don't eat but you can eat with undead! Surely there's no lasting effects from using undead silverware?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17725,
+            "name": "Oversized Undead Knife III",
+            "description": "Undead don't eat but you can eat with undead! Surely there's no lasting effects from using undead silverware?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 35,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-undeadknife.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 114,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1470-a-boneheaded-brawl": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1470-a-boneheaded-brawl",
+                "fullSlug": "quests\/1470-a-boneheaded-brawl",
+                "id": 1470,
+                "name": "A Boneheaded Brawl",
+                "description": "Follow Sally's path and find the lair of the villains. That orb must be found and secured."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1470,
+                    "name": "A Boneheaded Brawl",
+                    "description": "Follow Sally's path and find the lair of the villains. That orb must be found and secured.",
+                    "complete": "Bonehead has been defeated, but the Orb is missing. For now, however, it's time for friends, fun, and feasting. Happy Thankstaking!",
+                    "swf": "towns\/Thankstaking\/tt17\/quest-tt17-2.swf",
+                    "swfX": "towns\/Thankstaking\/tt17\/quest-tt17-2-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 60000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "different things, bonehead",
+                    "monsterGroupSwf": "mset-thankstaking17-p2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

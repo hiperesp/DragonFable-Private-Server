@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14008-silver-arrows-edge",
+        "fullSlug": "items\/14008-silver-arrows-edge",
+        "id": 14008,
+        "name": "Silver Arrows Edge",
+        "description": "Runes are lightly etched along the lines and edges of this elegant weapon... a weapon sure to do damage to any creature that lurks in the darkness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14008,
+            "name": "Silver Arrows Edge",
+            "description": "Runes are lightly etched along the lines and edges of this elegant weapon... a weapon sure to do damage to any creature that lurks in the darkness.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-silverarrow.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,4,Water,4,Health,-1"
+        }
+    },
+    "related": {
+        "1274-castle-crashers": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1274-castle-crashers",
+                "fullSlug": "quests\/1274-castle-crashers",
+                "id": 1274,
+                "name": "Castle Crashers",
+                "description": "Queen Safiria has summoned you back to her castle at Thursday's request... you don't want to keep them waiting."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1274,
+                    "name": "Castle Crashers",
+                    "description": "Queen Safiria has summoned you back to her castle at Thursday's request... you don't want to keep them waiting.",
+                    "complete": "Frydae and his minions have captured Thursday! Follow after the Queen to save her from his clutches!",
+                    "swf": "towns\/3Amityvale\/quest9-castlecrashers-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "vampires",
+                    "monsterGroupSwf": "mset-vampiresnew.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5270-giltish-daggers-ii",
+        "fullSlug": "items\/5270-giltish-daggers-ii",
+        "id": 5270,
+        "name": "Giltish Daggers II",
+        "description": "The luck of the Sneevish IS with you! King Sneevrick thanks you for taking care of that twisted Arrrghus."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5270,
+            "name": "Giltish Daggers II",
+            "description": "The luck of the Sneevish IS with you! King Sneevrick thanks you for taking care of that twisted Arrrghus.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 24,
+            "type": "Pierce",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-saintpatrick.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 40,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Stone,3"
+        }
+    },
+    "related": {
+        "195-sneevrick-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "195-sneevrick-s-shop",
+                "fullSlug": "item-shops\/195-sneevrick-s-shop",
+                "id": 195,
+                "name": "Sneevrick's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 195,
+                    "name": "Sneevrick's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

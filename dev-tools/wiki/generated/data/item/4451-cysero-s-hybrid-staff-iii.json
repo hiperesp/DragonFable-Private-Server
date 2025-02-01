@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4451-cysero-s-hybrid-staff-iii",
+        "fullSlug": "items\/4451-cysero-s-hybrid-staff-iii",
+        "id": 4451,
+        "name": "Cysero's Hybrid Staff III",
+        "description": "Cysero, Lim, and Yix all worked together to make this weapon for you in celebration of the spirit of magiscience and togetherness!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4451,
+            "name": "Cysero's Hybrid Staff III",
+            "description": "Cysero, Lim, and Yix all worked together to make this weapon for you in celebration of the spirit of magiscience and togetherness!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 30,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-magiscience.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 44,
+            "damageMax": 60,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Ice,5,Stone,5"
+        }
+    },
+    "related": {
+        "74-magiscience-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "74-magiscience-rewards",
+                "fullSlug": "merge-shops\/74-magiscience-rewards",
+                "id": 74,
+                "name": "Magiscience Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 74,
+                    "name": "Magiscience Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1094,
+                    "mergeShopId": 74,
+                    "mergeId": 804
+                },
+                "merge": {
+                    "id": 804,
+                    "itemId1": 4408,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4451,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

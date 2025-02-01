@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15701-primary-frost-devil",
+        "fullSlug": "items\/15701-primary-frost-devil",
+        "id": 15701,
+        "name": "Primary Frost Devil",
+        "description": "This item requires a Dragon Amulet. It was the first dagger carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15701,
+            "name": "Primary Frost Devil",
+            "description": "This item requires a Dragon Amulet. It was the first dagger carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 12,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-ice4.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 28,
+            "damageMax": 40,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,2"
+        }
+    },
+    "related": {
+        "498-ashes-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "498-ashes-dc",
+                "fullSlug": "item-shops\/498-ashes-dc",
+                "id": 498,
+                "name": "Ashes DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 498,
+                    "name": "Ashes DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1758-black-scalehunter-helm",
+        "fullSlug": "items\/1758-black-scalehunter-helm",
+        "id": 1758,
+        "name": "Black Scalehunter Helm",
+        "description": "This helm was discovered underneath a the body of a massive dragon inside his own cave. They must have both persihed in their final battle. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1758,
+            "name": "Black Scalehunter Helm",
+            "description": "This helm was discovered underneath a the body of a massive dragon inside his own cave. They must have both persihed in their final battle. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 9,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-draco-black.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Water,3,Wind,2"
+        }
+    },
+    "related": {
+        "40-scavenger-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "40-scavenger-hunt",
+                "fullSlug": "merge-shops\/40-scavenger-hunt",
+                "id": 40,
+                "name": "Scavenger Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Scavenger Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 689,
+                    "mergeShopId": 40,
+                    "mergeId": 432
+                },
+                "merge": {
+                    "id": 432,
+                    "itemId1": 489,
+                    "amount1": 15,
+                    "itemId2": 864,
+                    "amount2": 5,
+                    "itemId": 1758,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

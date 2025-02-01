@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4198-lukewarm-knife-of-hellfire-1",
+        "fullSlug": "items\/4198-lukewarm-knife-of-hellfire-1",
+        "id": 4198,
+        "name": "Lukewarm Knife of Hellfire +1",
+        "description": "This might burn if you hold it for too long."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4198,
+            "name": "Lukewarm Knife of Hellfire +1",
+            "description": "This might burn if you hold it for too long.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 18000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 40,
+            "type": "Pierce",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-lukewarm.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 48,
+            "damageMax": 74,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,3,Water,3"
+        }
+    },
+    "related": {
+        "157-jibbley-s-junk": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "157-jibbley-s-junk",
+                "fullSlug": "item-shops\/157-jibbley-s-junk",
+                "id": 157,
+                "name": "Jibbley's Junk",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 157,
+                    "name": "Jibbley's Junk",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

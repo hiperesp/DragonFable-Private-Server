@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4335-icescythe",
+        "fullSlug": "items\/4335-icescythe",
+        "id": 4335,
+        "name": "IceScythe",
+        "description": "DragonMaster Frostscythe's infamous scythe, this wicked blade is carved from rock-solid ice. It's rumored the IceScythe has absorbed some of Frostscythe's own power. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4335,
+            "name": "IceScythe",
+            "description": "DragonMaster Frostscythe's infamous scythe, this wicked blade is carved from rock-solid ice. It's rumored the IceScythe has absorbed some of Frostscythe's own power. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 58,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-frostscythe3.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 67,
+            "damageMax": 81,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,8,Immobility,4"
+        }
+    },
+    "related": {
+        "663-betrayal": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "663-betrayal",
+                "fullSlug": "quests\/663-betrayal",
+                "id": 663,
+                "name": "Betrayal",
+                "description": "Will you be able to stop Frostscythe now that he's broken Cryozen and absorbed his power?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 663,
+                    "name": "Betrayal",
+                    "description": "Will you be able to stop Frostscythe now that he's broken Cryozen and absorbed his power?",
+                    "complete": "The truth about Vilmor, and Frostscythe, is finally known!",
+                    "swf": "towns\/Dragonsgrasp\/quest-dragonsgrasp8-finalr1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice",
+                    "monsterGroupSwf": "mset-dragonsgrasp8.swf"
+                }
+            },
+            "related": []
+        },
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1495,
+                    "mergeShopId": 108,
+                    "mergeId": 1409
+                },
+                "merge": {
+                    "id": 1409,
+                    "itemId1": 4335,
+                    "amount1": 1,
+                    "itemId2": 6911,
+                    "amount2": 1,
+                    "itemId": 6937,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

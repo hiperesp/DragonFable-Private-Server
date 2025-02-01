@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11386-funky-void-cider-mug-staff",
+        "fullSlug": "items\/11386-funky-void-cider-mug-staff",
+        "id": 11386,
+        "name": "Funky Void Cider Mug Staff",
+        "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11386,
+            "name": "Funky Void Cider Mug Staff",
+            "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 405,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 73,
+            "type": "Magic",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-voidcidermug.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 11,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 78,
+            "damageMax": 96,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,6,Energy,6,Water,5,Ice,5,Health,-3"
+        }
+    },
+    "related": {
+        "393-void-cider-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "393-void-cider-shop",
+                "fullSlug": "item-shops\/393-void-cider-shop",
+                "id": 393,
+                "name": "Void Cider Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 393,
+                    "name": "Void Cider Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

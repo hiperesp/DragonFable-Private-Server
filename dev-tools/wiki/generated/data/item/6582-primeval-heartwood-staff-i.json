@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6582-primeval-heartwood-staff-i",
+        "fullSlug": "items\/6582-primeval-heartwood-staff-i",
+        "id": 6582,
+        "name": "Primeval Heartwood Staff I",
+        "description": "This staff was carved from the heart of an ancient Oak tree and enchanted with the strength of the primeval forest. It was set aside for the mage worthy of carrying it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6582,
+            "name": "Primeval Heartwood Staff I",
+            "description": "This staff was carved from the heart of an ancient Oak tree and enchanted with the strength of the primeval forest. It was set aside for the mage worthy of carrying it.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 30,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-heartwood.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 58,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "869-forest-gate": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "869-forest-gate",
+                "fullSlug": "quests\/869-forest-gate",
+                "id": 869,
+                "name": "Forest Gate",
+                "description": "The Forest Gate is hidden somewhere between Oaklore and Falconreach. That narrows it down a bit. Hopefully it won't take TOO long to find the Gate."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 869,
+                    "name": "Forest Gate",
+                    "description": "The Forest Gate is hidden somewhere between Oaklore and Falconreach. That narrows it down a bit. Hopefully it won't take TOO long to find the Gate.",
+                    "complete": "You found the Gate!",
+                    "swf": "towns\/StoneheartFall\/quest7-forestgateD.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

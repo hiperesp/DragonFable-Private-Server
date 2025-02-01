@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "270-tuning-knife",
+        "fullSlug": "items\/270-tuning-knife",
+        "id": 270,
+        "name": "Tuning Knife",
+        "description": "This dagger was intended for the musically inclined. When it is struck it gives out a perfect A note."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 270,
+            "name": "Tuning Knife",
+            "description": "This dagger was intended for the musically inclined. When it is struck it gives out a perfect A note.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 3,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-split.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 8,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "20-bandit-camp": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "20-bandit-camp",
+                "fullSlug": "quests\/20-bandit-camp",
+                "id": 20,
+                "name": "Bandit Camp",
+                "description": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 20,
+                    "name": "Bandit Camp",
+                    "description": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!",
+                    "complete": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!",
+                    "swf": "random\/random-bandit.swf",
+                    "swfX": "none",
+                    "maxSilver": 5,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Bandits",
+                    "monsterGroupSwf": "mset-bandits.swf"
+                }
+            },
+            "related": []
+        },
+        "21-waterfall-secret-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "21-waterfall-secret-cave",
+                "fullSlug": "quests\/21-waterfall-secret-cave",
+                "id": 21,
+                "name": "Waterfall Secret Cave",
+                "description": "Behind this waterfall lies a secret cave protected by Dragon Magic!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 21,
+                    "name": "Waterfall Secret Cave",
+                    "description": "Behind this waterfall lies a secret cave protected by Dragon Magic!",
+                    "complete": "Behind this waterfall lies a secret cave protected by Dragon Magic!",
+                    "swf": "quests\/quest-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 14,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

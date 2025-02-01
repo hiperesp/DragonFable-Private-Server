@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "215-the-traitor",
+        "fullSlug": "quests\/215-the-traitor",
+        "id": 215,
+        "name": "The Traitor",
+        "description": "Sek-Duat XV has sent you to meet with a member of the rebellion who has decided to turn traitor. You have to stop the turncoat if you can!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 215,
+            "name": "The Traitor",
+            "description": "Sek-Duat XV has sent you to meet with a member of the rebellion who has decided to turn traitor. You have to stop the turncoat if you can!",
+            "complete": "Kasuf vanishes into the desert, looking defeated and full of regret. That was a close call, but the rebellion is safe, thanks to you. Why did Sek-Duat send you instead of Zhoom? What does he have up his sleeve?",
+            "swf": "towns\/Sandsea\/quest-zhoom7r1.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 1,
+            "monsterMaxLevel": 99,
+            "monsterType": "Werewolf, Ele",
+            "monsterGroupSwf": "mset-anubis.swf"
+        }
+    },
+    "related": {
+        "1528-anubis-burial-mask": {
+            "page": {
+                "slugBase": "items",
+                "slug": "1528-anubis-burial-mask",
+                "fullSlug": "items\/1528-anubis-burial-mask",
+                "id": 1528,
+                "name": "Anubis Burial Mask",
+                "description": "This item requires a Dragon Amulet. This helm was taken from the cursed temple of the Anubis Knight. It's a little hard to breathe under the mask but then again it was meant to go on a dead guy. "
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 1528,
+                    "name": "Anubis Burial Mask",
+                    "description": "This item requires a Dragon Amulet. This helm was taken from the cursed temple of the Anubis Knight. It's a little hard to breathe under the mask but then again it was meant to go on a dead guy. ",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 1,
+                    "currency": 2,
+                    "cost": 400,
+                    "maxStackSize": 1,
+                    "bonus": 0,
+                    "rarity": 9,
+                    "level": 7,
+                    "type": "Melee",
+                    "element": "Light",
+                    "categoryId": "2",
+                    "equipSpot": "Head",
+                    "itemType": "Helm",
+                    "swf": "head\/helms\/helm-anubis.swf",
+                    "icon": "helm",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 2,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 2,
+                    "defensePierce": 2,
+                    "defenseMagic": 2,
+                    "critical": 1,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": "Light,3"
+                }
+            },
+            "related": []
+        }
+    }
+}

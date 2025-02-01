@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3298-ionic-staff",
+        "fullSlug": "items\/3298-ionic-staff",
+        "id": 3298,
+        "name": "Ionic Staff",
+        "description": "Maybe after you've handled this weapon for a while, you'll be able to tell whether it's positively or negatively charged."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3298,
+            "name": "Ionic Staff",
+            "description": "Maybe after you've handled this weapon for a while, you'll be able to tell whether it's positively or negatively charged.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 33,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-electroplasma.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 47,
+            "damageMax": 59,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,5,Nature,2"
+        }
+    },
+    "related": {
+        "523-moglin-seeking-queen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "523-moglin-seeking-queen",
+                "fullSlug": "quests\/523-moglin-seeking-queen",
+                "id": 523,
+                "name": "Moglin Seeking Queen",
+                "description": "This moglin likes long walks through graveyards, necromancy by candlelight, and re-animating undead.  Seeking a queen of the Night who shares his dark interests."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 523,
+                    "name": "Moglin Seeking Queen",
+                    "description": "This moglin likes long walks through graveyards, necromancy by candlelight, and re-animating undead.  Seeking a queen of the Night who shares his dark interests.",
+                    "complete": "Aww, rejected!",
+                    "swf": "quests\/ZorbaksArmy\/quest-zarmy5r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness",
+                    "monsterGroupSwf": "mset-zarmy5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

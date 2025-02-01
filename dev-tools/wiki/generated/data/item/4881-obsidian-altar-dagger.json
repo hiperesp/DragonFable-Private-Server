@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4881-obsidian-altar-dagger",
+        "fullSlug": "items\/4881-obsidian-altar-dagger",
+        "id": 4881,
+        "name": "Obsidian Altar Dagger",
+        "description": "Hewn from the Stone around the ChaosWeaver temple altar, this dagger will slice through the strongest of enemies!This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4881,
+            "name": "Obsidian Altar Dagger",
+            "description": "Hewn from the Stone around the ChaosWeaver temple altar, this dagger will slice through the strongest of enemies!This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 62,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-altar.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 68,
+            "damageMax": 84,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 4,
+            "block": 0,
+            "resists": "Stone,10,Wind,10,Immobility,7"
+        }
+    },
+    "related": {
+        "718-altar-hill": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "718-altar-hill",
+                "fullSlug": "quests\/718-altar-hill",
+                "id": 718,
+                "name": "Altar Hill",
+                "description": "Do you hear that horrible chanting?  It fills your blood with fear!  And what's that you see tied up there?  It's- it's-"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 718,
+                    "name": "Altar Hill",
+                    "description": "Do you hear that horrible chanting?  It fills your blood with fear!  And what's that you see tied up there?  It's- it's-",
+                    "complete": "You saved Riadne!  AND you defeated the ChaosWeaver Queen!  AND found a Key!  Time to get back to the Equilibrium Gate!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix8-sec-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "underground",
+                    "monsterGroupSwf": "mset-chaosweavers.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

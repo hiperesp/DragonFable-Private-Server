@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8927-deadly-swamp-sai-i",
+        "fullSlug": "items\/8927-deadly-swamp-sai-i",
+        "id": 8927,
+        "name": "Deadly Swamp Sai I",
+        "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8927,
+            "name": "Deadly Swamp Sai I",
+            "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 26,
+            "type": "Pierce",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-swampsai.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 45,
+            "damageMax": 59,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Health,-2"
+        }
+    },
+    "related": {
+        "314-suleneska": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "314-suleneska",
+                "fullSlug": "item-shops\/314-suleneska",
+                "id": 314,
+                "name": "SulenEska",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 314,
+                    "name": "SulenEska",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18212-perpetual-eternity-key",
+        "fullSlug": "items\/18212-perpetual-eternity-key",
+        "id": 18212,
+        "name": "Perpetual Eternity Key",
+        "description": "Unlock the Lorian Cosmos with this ever-changing key."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18212,
+            "name": "Perpetual Eternity Key",
+            "description": "Unlock the Lorian Cosmos with this ever-changing key.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-eternitykey.swf",
+            "icon": "scythe",
+            "strength": 18,
+            "dexterity": 18,
+            "intelligence": 18,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 8,
+            "wisdom": 12,
+            "damageMin": 87,
+            "damageMax": 105,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 15,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Water,13,Wind,13,Ice,13,Energy,6,Silver,6,Immobility,8,Health,-3"
+        }
+    },
+    "related": {
+        "122-eternity-key": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "122-eternity-key",
+                "fullSlug": "merge-shops\/122-eternity-key",
+                "id": 122,
+                "name": "Eternity Key",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 122,
+                    "name": "Eternity Key"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1682,
+                    "mergeShopId": 122,
+                    "mergeId": 3243
+                },
+                "merge": {
+                    "id": 3243,
+                    "itemId1": 7688,
+                    "amount1": 1,
+                    "itemId2": 7689,
+                    "amount2": 1,
+                    "itemId": 18212,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

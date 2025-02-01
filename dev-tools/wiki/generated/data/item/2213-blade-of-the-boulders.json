@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2213-blade-of-the-boulders",
+        "fullSlug": "items\/2213-blade-of-the-boulders",
+        "id": 2213,
+        "name": "Blade of the Boulders ",
+        "description": "Ancient geomantic magic fused the remnants of a rockslide into this razor-edge blade.  You could cut through rock like butter with it.   Mmm, buttered rocks. Nutritious!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2213,
+            "name": "Blade of the Boulders ",
+            "description": "Ancient geomantic magic fused the remnants of a rockslide into this razor-edge blade.  You could cut through rock like butter with it.   Mmm, buttered rocks. Nutritious!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 27,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-bacon3.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 54,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,2"
+        }
+    },
+    "related": {
+        "353-purebred-protests": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "353-purebred-protests",
+                "fullSlug": "quests\/353-purebred-protests",
+                "id": 353,
+                "name": "Purebred Protests",
+                "description": "The birds in Lore are bitter and they're drowning out the songs of Zeuster's supplicants with cries of their own. Zeuster has asked you to silence them by any means necessary."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 353,
+                    "name": "Purebred Protests",
+                    "description": "The birds in Lore are bitter and they're drowning out the songs of Zeuster's supplicants with cries of their own. Zeuster has asked you to silence them by any means necessary.",
+                    "complete": "Appealing to their audience's ego works for Zeuster's supplicants, and now it's worked for you! It seems that full-fledged birds are susceptible to flattery, too.",
+                    "swf": "quests\/Zeuster\/quest-bacon3a1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Birds",
+                    "monsterGroupSwf": "mset-bacon3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

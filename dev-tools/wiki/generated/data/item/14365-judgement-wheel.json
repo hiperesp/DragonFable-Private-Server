@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14365-judgement-wheel",
+        "fullSlug": "items\/14365-judgement-wheel",
+        "id": 14365,
+        "name": "Judgement Wheel",
+        "description": "This replica of the complete Judgement Wheel was created by Ashendal. It is enchanted to occasionally judge your foe for their guilt with DoT!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14365,
+            "name": "Judgement Wheel",
+            "description": "This replica of the complete Judgement Wheel was created by Ashendal. It is enchanted to occasionally judge your foe for their guilt with DoT!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 380,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 60,
+            "level": 60,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-JudgementWheel.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 7,
+            "damageMin": 70,
+            "damageMax": 88,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Good,6,Evil,6,Immobility,4,Mana,-3,Health,-3"
+        }
+    },
+    "related": {
+        "456-dc-replicas": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "456-dc-replicas",
+                "fullSlug": "item-shops\/456-dc-replicas",
+                "id": 456,
+                "name": "DC Replicas",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 456,
+                    "name": "DC Replicas",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "455-judgement-wheel-replica": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "455-judgement-wheel-replica",
+                "fullSlug": "item-shops\/455-judgement-wheel-replica",
+                "id": 455,
+                "name": "Judgement Wheel Replica",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 455,
+                    "name": "Judgement Wheel Replica",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

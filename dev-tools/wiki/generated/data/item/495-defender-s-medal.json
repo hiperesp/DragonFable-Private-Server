@@ -1,0 +1,2108 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "495-defender-s-medal",
+        "fullSlug": "items\/495-defender-s-medal",
+        "id": 495,
+        "name": "Defender's Medal",
+        "description": "Proof of heroic accomplishments in wars. Used to purchase many different items."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 495,
+            "name": "Defender's Medal",
+            "description": "Proof of heroic accomplishments in wars. Used to purchase many different items.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 10,
+            "maxStackSize": 10000,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "shield",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "590-invasion-reward": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "590-invasion-reward",
+                "fullSlug": "item-shops\/590-invasion-reward",
+                "id": 590,
+                "name": "Invasion Reward",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 590,
+                    "name": "Invasion Reward",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "860-alien-attack": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "860-alien-attack",
+                "fullSlug": "quests\/860-alien-attack",
+                "id": 860,
+                "name": "Alien Attack!",
+                "description": "An alien army is pouring through dimensional rifts into Lore!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 860,
+                    "name": "Alien Attack!",
+                    "description": "An alien army is pouring through dimensional rifts into Lore!",
+                    "complete": "An alien army is pouring through dimensional rifts into Lore!",
+                    "swf": "wars\/F13-Aliens\/quest-alienwarwaves-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire infernal and goblins",
+                    "monsterGroupSwf": "mset-F13-alienwar.swf"
+                }
+            },
+            "related": []
+        },
+        "1613-bandit-ruins": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1613-bandit-ruins",
+                "fullSlug": "quests\/1613-bandit-ruins",
+                "id": 1613,
+                "name": "Bandit Ruins",
+                "description": "Search the ruins of the labyrinth for bandit leader bounties!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1613,
+                    "name": "Bandit Ruins",
+                    "description": "Search the ruins of the labyrinth for bandit leader bounties!",
+                    "complete": "One bandit down, so many more to go. Where do they keep coming from?",
+                    "swf": "towns\/HeroHeart\/HHD19\/random-hhd19.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 20000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Bandits",
+                    "monsterGroupSwf": "mset-bandits.swf"
+                }
+            },
+            "related": []
+        },
+        "1665-golden-hand-escort-swordhaven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1665-golden-hand-escort-swordhaven",
+                "fullSlug": "quests\/1665-golden-hand-escort-swordhaven",
+                "id": 1665,
+                "name": "Golden Hand Escort: Swordhaven",
+                "description": "Clear the way for the Golden Hand!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1665,
+                    "name": "Golden Hand Escort: Swordhaven",
+                    "description": "Clear the way for the Golden Hand!",
+                    "complete": "One step closer to the Proclamation rift.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesgolden.swf?ver=3",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1666-the-vind-defense-swordhaven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1666-the-vind-defense-swordhaven",
+                "fullSlug": "quests\/1666-the-vind-defense-swordhaven",
+                "id": 1666,
+                "name": "The Vind Defense: Swordhaven",
+                "description": "Defend the walls of Swordhaven!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1666,
+                    "name": "The Vind Defense: Swordhaven",
+                    "description": "Defend the walls of Swordhaven!",
+                    "complete": "One more wave of elementals down.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesvind.swf?ver=2",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1667-the-rose-defense-swordhaven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1667-the-rose-defense-swordhaven",
+                "fullSlug": "quests\/1667-the-rose-defense-swordhaven",
+                "id": 1667,
+                "name": "The Rose Defense: Swordhaven",
+                "description": "Defend the people of Swordhaven from the attacking elementals."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1667,
+                    "name": "The Rose Defense: Swordhaven",
+                    "description": "Defend the people of Swordhaven from the attacking elementals.",
+                    "complete": "The city and its people still stand, for now.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesrose.swf?ver=4",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1705-golden-hand-escort-swordhaven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1705-golden-hand-escort-swordhaven",
+                "fullSlug": "quests\/1705-golden-hand-escort-swordhaven",
+                "id": 1705,
+                "name": "Golden Hand Escort: Swordhaven",
+                "description": "Clear the way for the Golden Hand!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1705,
+                    "name": "Golden Hand Escort: Swordhaven",
+                    "description": "Clear the way for the Golden Hand!",
+                    "complete": "One step closer to the Proclamation rift.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesgoldenrebel.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1706-the-vind-defense-swordhaven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1706-the-vind-defense-swordhaven",
+                "fullSlug": "quests\/1706-the-vind-defense-swordhaven",
+                "id": 1706,
+                "name": "The Vind Defense: Swordhaven",
+                "description": "Defend the walls of Swordhaven!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1706,
+                    "name": "The Vind Defense: Swordhaven",
+                    "description": "Defend the walls of Swordhaven!",
+                    "complete": "One more wave of elementals down.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesvindrebel.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1707-the-rose-defense-swordhaven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1707-the-rose-defense-swordhaven",
+                "fullSlug": "quests\/1707-the-rose-defense-swordhaven",
+                "id": 1707,
+                "name": "The Rose Defense: Swordhaven",
+                "description": "Defend the people of Swordhaven from the attacking elementals."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1707,
+                    "name": "The Rose Defense: Swordhaven",
+                    "description": "Defend the people of Swordhaven from the attacking elementals.",
+                    "complete": "The city and its people still stand, for now.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesroserebel-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1750-the-doomwood-ruins-golden-hand": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1750-the-doomwood-ruins-golden-hand",
+                "fullSlug": "quests\/1750-the-doomwood-ruins-golden-hand",
+                "id": 1750,
+                "name": "The Doomwood Ruins: Golden Hand",
+                "description": "As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1750,
+                    "name": "The Doomwood Ruins: Golden Hand",
+                    "description": "As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus.",
+                    "complete": "Another step closer!",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesdoomwood-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "energy elementals and lagohm",
+                    "monsterGroupSwf": "mset-energyrift-r7.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "1751-the-doomwood-ruins-the-vind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1751-the-doomwood-ruins-the-vind",
+                "fullSlug": "quests\/1751-the-doomwood-ruins-the-vind",
+                "id": 1751,
+                "name": "The Doomwood Ruins: The Vind",
+                "description": "As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1751,
+                    "name": "The Doomwood Ruins: The Vind",
+                    "description": "As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus.",
+                    "complete": "Another step closer!",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesdoomwood-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "energy elementals and lagohm",
+                    "monsterGroupSwf": "mset-energyrift-r7.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "1752-the-doomwood-ruins-the-rose": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1752-the-doomwood-ruins-the-rose",
+                "fullSlug": "quests\/1752-the-doomwood-ruins-the-rose",
+                "id": 1752,
+                "name": "The Doomwood Ruins: The Rose",
+                "description": "As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1752,
+                    "name": "The Doomwood Ruins: The Rose",
+                    "description": "As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus.",
+                    "complete": "Another step closer!",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest-wavesdoomwood-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "energy elementals and lagohm",
+                    "monsterGroupSwf": "mset-energyrift-r7.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "1902-infested-northland-shores": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1902-infested-northland-shores",
+                "fullSlug": "quests\/1902-infested-northland-shores",
+                "id": 1902,
+                "name": "Infested Northland Shores",
+                "description": "On the edge of the Northland,fungal growths and creatures seem to be making their spread."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1902,
+                    "name": "Infested Northland Shores",
+                    "description": "On the edge of the Northland,fungal growths and creatures seem to be making their spread.",
+                    "complete": "The Hollow may have been driven back, but the fungus still stretches on, unabated.",
+                    "swf": "towns\/3Oceantyndur\/quest-oceanMush.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "hollow and mushrooms",
+                    "monsterGroupSwf": "mset-riftnorthlands-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "1903-tyndur-s-disarray": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1903-tyndur-s-disarray",
+                "fullSlug": "quests\/1903-tyndur-s-disarray",
+                "id": 1903,
+                "name": "Tyndur's Disarray",
+                "description": "The fallout of fungal growth spreading from the Northlands rift has displaced many creatures and peoples, and unfortunately, they will fight for every scrap they can find."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1903,
+                    "name": "Tyndur's Disarray",
+                    "description": "The fallout of fungal growth spreading from the Northlands rift has displaced many creatures and peoples, and unfortunately, they will fight for every scrap they can find.",
+                    "complete": "The Rift must be closed, before all of Lore becomes overrun.",
+                    "swf": "towns\/3Oceantyndur\/quest-oceanBeast.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Norhtlnds Creatures",
+                    "monsterGroupSwf": "mset-norhtlandsail.swf"
+                }
+            },
+            "related": []
+        },
+        "2048-outpost-patrol": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2048-outpost-patrol",
+                "fullSlug": "quests\/2048-outpost-patrol",
+                "id": 2048,
+                "name": "Outpost Patrol",
+                "description": "Just doing the rounds."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2048,
+                    "name": "Outpost Patrol",
+                    "description": "Just doing the rounds.",
+                    "complete": "An easy job for a hero.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/Convergence\/random-patrol.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fissure Fauna, Magi Golems",
+                    "monsterGroupSwf": "mset-fissureoutpost-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "2050-probing-the-outskirts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2050-probing-the-outskirts",
+                "fullSlug": "quests\/2050-probing-the-outskirts",
+                "id": 2050,
+                "name": "Probing the Outskirts",
+                "description": "Is this really a job for a hero...?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2050,
+                    "name": "Probing the Outskirts",
+                    "description": "Is this really a job for a hero...?",
+                    "complete": "The probes have been placed. Hopefully the Magesterium can gather whatever data they need.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest-probes.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest-probes-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fissure Fauna, Magi Golems",
+                    "monsterGroupSwf": "mset-fissureoutpost-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "2051-outskirts-hunt": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2051-outskirts-hunt",
+                "fullSlug": "quests\/2051-outskirts-hunt",
+                "id": 2051,
+                "name": "Outskirts Hunt",
+                "description": "What sort of new creature will you discover?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2051,
+                    "name": "Outskirts Hunt",
+                    "description": "What sort of new creature will you discover?",
+                    "complete": "...How exactly does the fissure affect the flora and fauna?!",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest-primaltog.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest-primaltog-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fissure Fauna, Magi Golems",
+                    "monsterGroupSwf": "mset-fissureoutpost-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "2203-storm-of-stars-wave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2203-storm-of-stars-wave",
+                "fullSlug": "quests\/2203-storm-of-stars-wave",
+                "id": 2203,
+                "name": "Storm of Stars Wave",
+                "description": "Fight your way to the storm's heart!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2203,
+                    "swf": "wars\/Frostval2024\/quest-waves-secondwaves.swf",
+                    "swfX": "wars\/Frostval2024\/quest-waves-secondwaves-x.swf",
+                    "extra": "",
+                    "name": "Storm of Stars Wave",
+                    "description": "Fight your way to the storm's heart!",
+                    "complete": "One wave down, but the blizzard howls as strong as ever...",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Storm of Stars war",
+                    "monsterGroupSwf": "mset-frostval2024.swf?ver=2"
+                }
+            },
+            "related": []
+        },
+        "5-def-necklaces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "5-def-necklaces",
+                "fullSlug": "merge-shops\/5-def-necklaces",
+                "id": 5,
+                "name": "Def. Necklaces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 5,
+                    "name": "Def. Necklaces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 186,
+                    "mergeShopId": 5,
+                    "mergeId": 3307
+                },
+                "merge": {
+                    "id": 3307,
+                    "itemId1": 18449,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18455,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "383-da-def-necklaces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "383-da-def-necklaces",
+                "fullSlug": "merge-shops\/383-da-def-necklaces",
+                "id": 383,
+                "name": "DA Def Necklaces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 383,
+                    "name": "DA Def Necklaces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4022,
+                    "mergeShopId": 383,
+                    "mergeId": 3304
+                },
+                "merge": {
+                    "id": 3304,
+                    "itemId1": 18450,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18456,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "3-def-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "3-def-rings",
+                "fullSlug": "merge-shops\/3-def-rings",
+                "id": 3,
+                "name": "Def. Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 3,
+                    "name": "Def. Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 17,
+                    "mergeShopId": 3,
+                    "mergeId": 3313
+                },
+                "merge": {
+                    "id": 3313,
+                    "itemId1": 18451,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18457,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "382-da-def-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "382-da-def-rings",
+                "fullSlug": "merge-shops\/382-da-def-rings",
+                "id": 382,
+                "name": "DA Def Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 382,
+                    "name": "DA Def Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3990,
+                    "mergeShopId": 382,
+                    "mergeId": 3310
+                },
+                "merge": {
+                    "id": 3310,
+                    "itemId1": 18452,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18458,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 70,
+                    "mergeShopId": 4,
+                    "mergeId": 2672
+                },
+                "merge": {
+                    "id": 2672,
+                    "itemId1": 13405,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 4500,
+                    "itemId": 14978,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "23-fire-chest": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "23-fire-chest",
+                "fullSlug": "merge-shops\/23-fire-chest",
+                "id": 23,
+                "name": "Fire Chest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 23,
+                    "name": "Fire Chest"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 334,
+                    "mergeShopId": 23,
+                    "mergeId": 164
+                },
+                "merge": {
+                    "id": 164,
+                    "itemId1": 495,
+                    "amount1": 30,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 754,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "34-thankstaking-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "34-thankstaking-weapons",
+                "fullSlug": "merge-shops\/34-thankstaking-weapons",
+                "id": 34,
+                "name": "Thankstaking Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 34,
+                    "name": "Thankstaking Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 527,
+                    "mergeShopId": 34,
+                    "mergeId": 2533
+                },
+                "merge": {
+                    "id": 2533,
+                    "itemId1": 581,
+                    "amount1": 10,
+                    "itemId2": 495,
+                    "amount2": 15,
+                    "itemId": 12958,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "40-scavenger-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "40-scavenger-hunt",
+                "fullSlug": "merge-shops\/40-scavenger-hunt",
+                "id": 40,
+                "name": "Scavenger Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Scavenger Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 682,
+                    "mergeShopId": 40,
+                    "mergeId": 434
+                },
+                "merge": {
+                    "id": 434,
+                    "itemId1": 495,
+                    "amount1": 15,
+                    "itemId2": 468,
+                    "amount2": 1,
+                    "itemId": 1760,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "61-turducken-pet": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "61-turducken-pet",
+                "fullSlug": "merge-shops\/61-turducken-pet",
+                "id": 61,
+                "name": "Turducken Pet",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 61,
+                    "name": "Turducken Pet"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 858,
+                    "mergeShopId": 61,
+                    "mergeId": 599
+                },
+                "merge": {
+                    "id": 599,
+                    "itemId1": 581,
+                    "amount1": 3,
+                    "itemId2": 495,
+                    "amount2": 11,
+                    "itemId": 3259,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "71-def-belts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "71-def-belts",
+                "fullSlug": "merge-shops\/71-def-belts",
+                "id": 71,
+                "name": "Def. Belts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 71,
+                    "name": "Def. Belts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1040,
+                    "mergeShopId": 71,
+                    "mergeId": 3301
+                },
+                "merge": {
+                    "id": 3301,
+                    "itemId1": 18447,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18453,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "384-da-def-belts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "384-da-def-belts",
+                "fullSlug": "merge-shops\/384-da-def-belts",
+                "id": 384,
+                "name": "DA Def Belts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 384,
+                    "name": "DA Def Belts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4057,
+                    "mergeShopId": 384,
+                    "mergeId": 3298
+                },
+                "merge": {
+                    "id": 3298,
+                    "itemId1": 18448,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18454,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "88-dragon-wolf-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "88-dragon-wolf-shop",
+                "fullSlug": "merge-shops\/88-dragon-wolf-shop",
+                "id": 88,
+                "name": "Dragon Wolf Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 88,
+                    "name": "Dragon Wolf Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1214,
+                    "mergeShopId": 88,
+                    "mergeId": 1012
+                },
+                "merge": {
+                    "id": 1012,
+                    "itemId1": 495,
+                    "amount1": 100,
+                    "itemId2": 5652,
+                    "amount2": 1,
+                    "itemId": 5653,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "86-war-wolf-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "86-war-wolf-shop",
+                "fullSlug": "merge-shops\/86-war-wolf-shop",
+                "id": 86,
+                "name": "War Wolf Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 86,
+                    "name": "War Wolf Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1176,
+                    "mergeShopId": 86,
+                    "mergeId": 1033
+                },
+                "merge": {
+                    "id": 1033,
+                    "itemId1": 495,
+                    "amount1": 75,
+                    "itemId2": 5655,
+                    "amount2": 1,
+                    "itemId": 5656,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "87-war-wolf-conversion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "87-war-wolf-conversion",
+                "fullSlug": "merge-shops\/87-war-wolf-conversion",
+                "id": 87,
+                "name": "War Wolf Conversion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 87,
+                    "name": "War Wolf Conversion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1196,
+                    "mergeShopId": 87,
+                    "mergeId": 1051
+                },
+                "merge": {
+                    "id": 1051,
+                    "itemId1": 5635,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 10,
+                    "itemId": 5653,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "115-escelense": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "115-escelense",
+                "fullSlug": "merge-shops\/115-escelense",
+                "id": 115,
+                "name": "Escelense",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 115,
+                    "name": "Escelense"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1654,
+                    "mergeShopId": 115,
+                    "mergeId": 1533
+                },
+                "merge": {
+                    "id": 1533,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7135,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "123-turkey-defender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "123-turkey-defender",
+                "fullSlug": "merge-shops\/123-turkey-defender",
+                "id": 123,
+                "name": "Turkey Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 123,
+                    "name": "Turkey Defender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1689,
+                    "mergeShopId": 123,
+                    "mergeId": 1616
+                },
+                "merge": {
+                    "id": 1616,
+                    "itemId1": 495,
+                    "amount1": 100,
+                    "itemId2": 7815,
+                    "amount2": 1,
+                    "itemId": 7816,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "124-turkey-dragon": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "124-turkey-dragon",
+                "fullSlug": "merge-shops\/124-turkey-dragon",
+                "id": 124,
+                "name": "Turkey Dragon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 124,
+                    "name": "Turkey Dragon"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1719,
+                    "mergeShopId": 124,
+                    "mergeId": 1626
+                },
+                "merge": {
+                    "id": 1626,
+                    "itemId1": 495,
+                    "amount1": 100,
+                    "itemId2": 7825,
+                    "amount2": 1,
+                    "itemId": 7826,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "125-nick-s-cap-and-cloak": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "125-nick-s-cap-and-cloak",
+                "fullSlug": "merge-shops\/125-nick-s-cap-and-cloak",
+                "id": 125,
+                "name": "Nick's Cap and Cloak",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 125,
+                    "name": "Nick's Cap and Cloak"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1748,
+                    "mergeShopId": 125,
+                    "mergeId": 1640
+                },
+                "merge": {
+                    "id": 1640,
+                    "itemId1": 8058,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 50,
+                    "itemId": 8059,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "234-unlucky-darkness-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "234-unlucky-darkness-weapons",
+                "fullSlug": "merge-shops\/234-unlucky-darkness-weapons",
+                "id": 234,
+                "name": "Unlucky Darkness Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 234,
+                    "name": "Unlucky Darkness Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2620,
+                    "mergeShopId": 234,
+                    "mergeId": 2690
+                },
+                "merge": {
+                    "id": 2690,
+                    "itemId1": 495,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 13527,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "235-doomed-pieces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "235-doomed-pieces",
+                "fullSlug": "merge-shops\/235-doomed-pieces",
+                "id": 235,
+                "name": "Doomed Pieces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 235,
+                    "name": "Doomed Pieces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2623,
+                    "mergeShopId": 235,
+                    "mergeId": 2614
+                },
+                "merge": {
+                    "id": 2614,
+                    "itemId1": 495,
+                    "amount1": 10,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10780,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "415-eclipse-of-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "415-eclipse-of-doom",
+                "fullSlug": "merge-shops\/415-eclipse-of-doom",
+                "id": 415,
+                "name": "Eclipse of Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 415,
+                    "name": "Eclipse of Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4271,
+                    "mergeShopId": 415,
+                    "mergeId": 4315
+                },
+                "merge": {
+                    "id": 4315,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21939,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "242-shadow-shards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "242-shadow-shards",
+                "fullSlug": "merge-shops\/242-shadow-shards",
+                "id": 242,
+                "name": "Shadow Shards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 242,
+                    "name": "Shadow Shards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2680,
+                    "mergeShopId": 242,
+                    "mergeId": 2684
+                },
+                "merge": {
+                    "id": 2684,
+                    "itemId1": 14975,
+                    "amount1": 40,
+                    "itemId2": 495,
+                    "amount2": 200,
+                    "itemId": 14990,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "339-dms-gift-exchange": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "339-dms-gift-exchange",
+                "fullSlug": "merge-shops\/339-dms-gift-exchange",
+                "id": 339,
+                "name": "DMs & Gift Exchange",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 339,
+                    "name": "DMs & Gift Exchange"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3521,
+                    "mergeShopId": 339,
+                    "mergeId": 3611
+                },
+                "merge": {
+                    "id": 3611,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20091,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "340-dms-gift-exchange": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "340-dms-gift-exchange",
+                "fullSlug": "merge-shops\/340-dms-gift-exchange",
+                "id": 340,
+                "name": "DMs & Gift Exchange",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 340,
+                    "name": "DMs & Gift Exchange"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3554,
+                    "mergeShopId": 340,
+                    "mergeId": 3611
+                },
+                "merge": {
+                    "id": 3611,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20091,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "353-notha-s-experiments": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "353-notha-s-experiments",
+                "fullSlug": "merge-shops\/353-notha-s-experiments",
+                "id": 353,
+                "name": "Notha's Experiments",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 353,
+                    "name": "Notha's Experiments"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3663,
+                    "mergeShopId": 353,
+                    "mergeId": 3757
+                },
+                "merge": {
+                    "id": 3757,
+                    "itemId1": 20427,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 50,
+                    "itemId": 20428,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "359-snowfight-dm-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "359-snowfight-dm-merges",
+                "fullSlug": "merge-shops\/359-snowfight-dm-merges",
+                "id": 359,
+                "name": "Snowfight DM Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 359,
+                    "name": "Snowfight DM Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3750,
+                    "mergeShopId": 359,
+                    "mergeId": 3873
+                },
+                "merge": {
+                    "id": 3873,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": 20726,
+                    "amount2": 1,
+                    "itemId": 20727,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "360-snow-s-repose-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "360-snow-s-repose-upgrades",
+                "fullSlug": "merge-shops\/360-snow-s-repose-upgrades",
+                "id": 360,
+                "name": "Snow's Repose Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 360,
+                    "name": "Snow's Repose Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3762,
+                    "mergeShopId": 360,
+                    "mergeId": 3866
+                },
+                "merge": {
+                    "id": 3866,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": 20735,
+                    "amount2": 1,
+                    "itemId": 20736,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "366-dream-recreations": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "366-dream-recreations",
+                "fullSlug": "merge-shops\/366-dream-recreations",
+                "id": 366,
+                "name": "Dream Recreations",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 366,
+                    "name": "Dream Recreations"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3818,
+                    "mergeShopId": 366,
+                    "mergeId": 3924
+                },
+                "merge": {
+                    "id": 3924,
+                    "itemId1": 495,
+                    "amount1": 200,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20932,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "376-ebil-replicas": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "376-ebil-replicas",
+                "fullSlug": "merge-shops\/376-ebil-replicas",
+                "id": 376,
+                "name": "Ebil Replicas",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 376,
+                    "name": "Ebil Replicas"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3939,
+                    "mergeShopId": 376,
+                    "mergeId": 4047
+                },
+                "merge": {
+                    "id": 4047,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21165,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "377-ebil-finale": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "377-ebil-finale",
+                "fullSlug": "merge-shops\/377-ebil-finale",
+                "id": 377,
+                "name": "Ebil Finale",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 377,
+                    "name": "Ebil Finale"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3940,
+                    "mergeShopId": 377,
+                    "mergeId": 4057
+                },
+                "merge": {
+                    "id": 4057,
+                    "itemId1": 21175,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 30,
+                    "itemId": 21176,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "386-abyssal-heart-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "386-abyssal-heart-upgrades",
+                "fullSlug": "merge-shops\/386-abyssal-heart-upgrades",
+                "id": 386,
+                "name": "Abyssal Heart Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 386,
+                    "name": "Abyssal Heart Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4103,
+                    "mergeShopId": 386,
+                    "mergeId": 4140
+                },
+                "merge": {
+                    "id": 4140,
+                    "itemId1": 21375,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 50,
+                    "itemId": 21376,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "387-ancient-abyss-loot": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "387-ancient-abyss-loot",
+                "fullSlug": "merge-shops\/387-ancient-abyss-loot",
+                "id": 387,
+                "name": "Ancient Abyss Loot",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 387,
+                    "name": "Ancient Abyss Loot"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4111,
+                    "mergeShopId": 387,
+                    "mergeId": 4148
+                },
+                "merge": {
+                    "id": 4148,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21384,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "393-yeden-supplies": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "393-yeden-supplies",
+                "fullSlug": "merge-shops\/393-yeden-supplies",
+                "id": 393,
+                "name": "Yeden Supplies",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 393,
+                    "name": "Yeden Supplies"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4160,
+                    "mergeShopId": 393,
+                    "mergeId": 4202
+                },
+                "merge": {
+                    "id": 4202,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21570,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "406-ebiltreats-candy-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "406-ebiltreats-candy-shop",
+                "fullSlug": "merge-shops\/406-ebiltreats-candy-shop",
+                "id": 406,
+                "name": "EbilTreats Candy Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 406,
+                    "name": "EbilTreats Candy Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4202,
+                    "mergeShopId": 406,
+                    "mergeId": 4242
+                },
+                "merge": {
+                    "id": 4242,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21713,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "417-doomed-eclipse-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "417-doomed-eclipse-upgrade",
+                "fullSlug": "merge-shops\/417-doomed-eclipse-upgrade",
+                "id": 417,
+                "name": "Doomed Eclipse Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 417,
+                    "name": "Doomed Eclipse Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4274,
+                    "mergeShopId": 417,
+                    "mergeId": 4323
+                },
+                "merge": {
+                    "id": 4323,
+                    "itemId1": 21947,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 20,
+                    "itemId": 21948,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "416-umbrabrand-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "416-umbrabrand-upgrades",
+                "fullSlug": "merge-shops\/416-umbrabrand-upgrades",
+                "id": 416,
+                "name": "Umbrabrand Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 416,
+                    "name": "Umbrabrand Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4273,
+                    "mergeShopId": 416,
+                    "mergeId": 4325
+                },
+                "merge": {
+                    "id": 4325,
+                    "itemId1": 21950,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 100,
+                    "itemId": 21951,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "424-togsday-ii-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "424-togsday-ii-shop",
+                "fullSlug": "merge-shops\/424-togsday-ii-shop",
+                "id": 424,
+                "name": "Togsday II Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 424,
+                    "name": "Togsday II Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4392,
+                    "mergeShopId": 424,
+                    "mergeId": 4418
+                },
+                "merge": {
+                    "id": 4418,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 22063,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "425-togsday-ii-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "425-togsday-ii-rewards",
+                "fullSlug": "merge-shops\/425-togsday-ii-rewards",
+                "id": 425,
+                "name": "Togsday II Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 425,
+                    "name": "Togsday II Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4393,
+                    "mergeShopId": 425,
+                    "mergeId": 4427
+                },
+                "merge": {
+                    "id": 4427,
+                    "itemId1": 22072,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 5,
+                    "itemId": 22073,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "434-storm-of-stars": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "434-storm-of-stars",
+                "fullSlug": "merge-shops\/434-storm-of-stars",
+                "id": 434,
+                "name": "Storm of Stars",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 434,
+                    "name": "Storm of Stars"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4451,
+                    "mergeShopId": 434,
+                    "mergeId": 4483
+                },
+                "merge": {
+                    "id": 4483,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 22263,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "435-thawed-heart-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "435-thawed-heart-rewards",
+                "fullSlug": "merge-shops\/435-thawed-heart-rewards",
+                "id": 435,
+                "name": "Thawed Heart Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 435,
+                    "name": "Thawed Heart Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4456,
+                    "mergeShopId": 435,
+                    "mergeId": 4488
+                },
+                "merge": {
+                    "id": 4488,
+                    "itemId1": 22269,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 22268,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

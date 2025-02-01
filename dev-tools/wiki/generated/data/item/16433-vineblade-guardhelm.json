@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16433-vineblade-guardhelm",
+        "fullSlug": "items\/16433-vineblade-guardhelm",
+        "id": 16433,
+        "name": "Vineblade Guardhelm",
+        "description": "This magical helmet from Apsaydaaun was originally a pumpkin plant. It's surprisingly comfortable and is definitely not parasitic. Don't mind the occasional sharp pains in your head!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16433,
+            "name": "Vineblade Guardhelm",
+            "description": "This magical helmet from Apsaydaaun was originally a pumpkin plant. It's surprisingly comfortable and is definitely not parasitic. Don't mind the occasional sharp pains in your head!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 120,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 50,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-pumpkin1.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": -3,
+            "endurance": -3,
+            "wisdom": -3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1386-apsaydaaun": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1386-apsaydaaun",
+                "fullSlug": "quests\/1386-apsaydaaun",
+                "id": 1386,
+                "name": "Apsaydaaun",
+                "description": "You found yourself in an upside-down land..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1386,
+                    "name": "Apsaydaaun",
+                    "description": "You found yourself in an upside-down land...",
+                    "complete": "Into the boods, it's time to go!",
+                    "swf": "towns\/Mogloween\/M16\/quest3-apsaydaaun.swf",
+                    "swfX": "towns\/Mogloween\/M16\/quest3-apsaydaaun-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 99999,
+                    "maxGems": 0,
+                    "maxExp": 99999,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Sweet monsters",
+                    "monsterGroupSwf": "mset-treatsr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

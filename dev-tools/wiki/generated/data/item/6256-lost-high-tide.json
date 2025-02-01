@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6256-lost-high-tide",
+        "fullSlug": "items\/6256-lost-high-tide",
+        "id": 6256,
+        "name": "Lost High Tide",
+        "description": "This item requires a Dragon Amulet. This water weapon was forged from the scales dropped by Cave Hydra during molting. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6256,
+            "name": "Lost High Tide",
+            "description": "This item requires a Dragon Amulet. This water weapon was forged from the scales dropped by Cave Hydra during molting. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 47,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-losthydra.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 76,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Energy,3"
+        }
+    },
+    "related": {
+        "843-swordhaven-marsh": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "843-swordhaven-marsh",
+                "fullSlug": "quests\/843-swordhaven-marsh",
+                "id": 843,
+                "name": "Swordhaven Marsh",
+                "description": "The area where the sewers drain is smelly, gross and full of monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 843,
+                    "name": "Swordhaven Marsh",
+                    "description": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "complete": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "swf": "random\/random-sh-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "boars, bugs, mushrooms",
+                    "monsterGroupSwf": "mset-shmarsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20206-hanzamune-dragon-koi-blade",
+        "fullSlug": "items\/20206-hanzamune-dragon-koi-blade",
+        "id": 20206,
+        "name": "Hanzamune Dragon Koi Blade",
+        "description": "A legendary blade crafted by the greatest Yokai swordsman, Hanzamune. Stolen by Kitsune, it's now in your possession... (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20206,
+            "name": "Hanzamune Dragon Koi Blade",
+            "description": "A legendary blade crafted by the greatest Yokai swordsman, Hanzamune. Stolen by Kitsune, it's now in your possession... (Cosmetic)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 1,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-kitsune.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1814-kitsune-the-shogun": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1814-kitsune-the-shogun",
+                "fullSlug": "quests\/1814-kitsune-the-shogun",
+                "id": 1814,
+                "name": "Kitsune, The Shogun",
+                "description": "The shape-shifting Kitsune threatens to deliver the world to the yokai."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1814,
+                    "name": "Kitsune, The Shogun",
+                    "description": "The shape-shifting Kitsune threatens to deliver the world to the yokai.",
+                    "complete": "The lure of power tempts the strongest wills.",
+                    "swf": "towns\/TimeArena\/quest4-kitsune.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Kitsune and Wolfwing",
+                    "monsterGroupSwf": "mset-arenakitsunewolfwing-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

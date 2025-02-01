@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2991-emerald-cloak",
+        "fullSlug": "items\/2991-emerald-cloak",
+        "id": 2991,
+        "name": "Emerald Cloak",
+        "description": "A druid who came to court asked a tailor to make him a cloak using green fabric to remind him of the forests he'd left."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2991,
+            "name": "Emerald Cloak",
+            "description": "A druid who came to court asked a tailor to make him a cloak using green fabric to remind him of the forests he'd left.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 30,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-royalemerald.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "110-trinki-s-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "110-trinki-s-wings",
+                "fullSlug": "item-shops\/110-trinki-s-wings",
+                "id": 110,
+                "name": "Trinki's Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 110,
+                    "name": "Trinki's Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

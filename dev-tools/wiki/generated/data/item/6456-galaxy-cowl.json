@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6456-galaxy-cowl",
+        "fullSlug": "items\/6456-galaxy-cowl",
+        "id": 6456,
+        "name": "Galaxy Cowl",
+        "description": "A protective cowl brought across dimensions by the strange alien refugees."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6456,
+            "name": "Galaxy Cowl",
+            "description": "A protective cowl brought across dimensions by the strange alien refugees.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 10,
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-ateala-riftwar.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,1,Ice,1"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 153,
+                    "mergeShopId": 4,
+                    "mergeId": 1286
+                },
+                "merge": {
+                    "id": 1286,
+                    "itemId1": 495,
+                    "amount1": 30,
+                    "itemId2": 6456,
+                    "amount2": 1,
+                    "itemId": 6457,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2375-gelid-staff",
+        "fullSlug": "items\/2375-gelid-staff",
+        "id": 2375,
+        "name": "Gelid Staff",
+        "description": "This staff is so cold that when you place it near slithy toves, they grow too cold to gyre and gimble.  That's how you know it's really, really cold.\n"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2375,
+            "name": "Gelid Staff",
+            "description": "This staff is so cold that when you place it near slithy toves, they grow too cold to gyre and gimble.  That's how you know it's really, really cold.\n",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 33,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon10.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 60,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "397-don-t-have-a-kow": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "397-don-t-have-a-kow",
+                "fullSlug": "quests\/397-don-t-have-a-kow",
+                "id": 397,
+                "name": "Don't have a Kow",
+                "description": "Zeuster and Archimoodes have asked that you take the young apprentice magepriests on a field trip to meet their relatives, the cattle of Jeryon.  Be careful, apprentices are known for mischief."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 397,
+                    "name": "Don't have a Kow",
+                    "description": "Zeuster and Archimoodes have asked that you take the young apprentice magepriests on a field trip to meet their relatives, the cattle of Jeryon.  Be careful, apprentices are known for mischief.",
+                    "complete": "You found all the scattered chickcalves AND managed to not get skewered on a set of the Jer'yon kow's horns.  I'd call this trip a success.",
+                    "swf": "quests\/Zeuster\/quest-bacon10.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Farm",
+                    "monsterGroupSwf": "mset-bacon10.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

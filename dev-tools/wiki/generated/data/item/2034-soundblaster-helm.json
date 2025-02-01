@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2034-soundblaster-helm",
+        "fullSlug": "items\/2034-soundblaster-helm",
+        "id": 2034,
+        "name": "Soundblaster Helm",
+        "description": "The latest in mage sound tech, this helm uses subliminal messages to increase your intelligence while you listen your favorite music. *message brought to you by Zorbak brand helms, give all your gold to Zorbak*"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2034,
+            "name": "Soundblaster Helm",
+            "description": "The latest in mage sound tech, this helm uses subliminal messages to increase your intelligence while you listen your favorite music. *message brought to you by Zorbak brand helms, give all your gold to Zorbak*",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 2,
+            "level": 32,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-soundblaster.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "314-ice-queen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "314-ice-queen",
+                "fullSlug": "quests\/314-ice-queen",
+                "id": 314,
+                "name": "Ice Queen",
+                "description": "Go with Galanoth to the lost city of the ice elves and finish the fight with Aisha."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 314,
+                    "name": "Ice Queen",
+                    "description": "Go with Galanoth to the lost city of the ice elves and finish the fight with Aisha.",
+                    "complete": "Aisha is defeated, the Elemental Ice Orb is yours and Dragesvard is saved. This brings you one step closer to gathering all of the orbs before Sepulchure can. You have the everlasting gratitude of the people of Dragesvard!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth9.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-aisha.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20802-broken-soulclaw",
+        "fullSlug": "items\/20802-broken-soulclaw",
+        "id": 20802,
+        "name": "Broken Soulclaw",
+        "description": "The shattered remains of a soulclaw. Could maybe be used to weave and repair a piece of broken gear... Proof of victory over Tomix, Weaver on a Mission."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20802,
+            "name": "Broken Soulclaw",
+            "description": "The shattered remains of a soulclaw. Could maybe be used to weave and repair a piece of broken gear... Proof of victory over Tomix, Weaver on a Mission.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1921-tomix-the-weaver-on-a-mission": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1921-tomix-the-weaver-on-a-mission",
+                "fullSlug": "quests\/1921-tomix-the-weaver-on-a-mission",
+                "id": 1921,
+                "name": "Tomix, the Weaver on a Mission",
+                "description": "A journey unseen."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1921,
+                    "name": "Tomix, the Weaver on a Mission",
+                    "description": "A journey unseen.",
+                    "complete": "A journey ended.",
+                    "swf": "towns\/TimeArena\/quest-tomix.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Tenets arena",
+                    "monsterGroupSwf": "mset-arenatomixdrakonnan-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "363-retribution-and-reclamation": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "363-retribution-and-reclamation",
+                "fullSlug": "merge-shops\/363-retribution-and-reclamation",
+                "id": 363,
+                "name": "Retribution and Reclamation",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 363,
+                    "name": "Retribution and Reclamation"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3795,
+                    "mergeShopId": 363,
+                    "mergeId": 3899
+                },
+                "merge": {
+                    "id": 3899,
+                    "itemId1": 20801,
+                    "amount1": 1,
+                    "itemId2": 20802,
+                    "amount2": 1,
+                    "itemId": 20798,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

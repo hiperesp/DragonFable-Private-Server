@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12221-necromancer-cloak",
+        "fullSlug": "items\/12221-necromancer-cloak",
+        "id": 12221,
+        "name": "Necromancer Cloak",
+        "description": "This cloak will keep you warm in any crypt or graveyard."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12221,
+            "name": "Necromancer Cloak",
+            "description": "This cloak will keep you warm in any crypt or graveyard.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 140,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 61,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/Cape-NecroCape.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,7,Light,7,Immobility,3"
+        }
+    },
+    "related": {
+        "408-necromancer-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "408-necromancer-items",
+                "fullSlug": "item-shops\/408-necromancer-items",
+                "id": 408,
+                "name": "Necromancer Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 408,
+                    "name": "Necromancer Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17289-infused-sheathed-rose-blade",
+        "fullSlug": "items\/17289-infused-sheathed-rose-blade",
+        "id": 17289,
+        "name": "Infused Sheathed Rose Blade",
+        "description": "Although it's sheathed, this weapon seems to make you feel safe and secure. Mostly. You can't help but be a little bit suspicious of everyone else, right? Only a little."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17289,
+            "name": "Infused Sheathed Rose Blade",
+            "description": "Although it's sheathed, this weapon seems to make you feel safe and secure. Mostly. You can't help but be a little bit suspicious of everyone else, right? Only a little.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 32,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-bradrose.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 1,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Metal,3"
+        }
+    },
+    "related": {
+        "1434-the-hunt-for-bradychwyd": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1434-the-hunt-for-bradychwyd",
+                "fullSlug": "quests\/1434-the-hunt-for-bradychwyd",
+                "id": 1434,
+                "name": "The Hunt for Bradychwyd",
+                "description": "Where did these old, dirty alleys come from?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1434,
+                    "name": "The Hunt for Bradychwyd",
+                    "description": "Where did these old, dirty alleys come from?",
+                    "complete": "Grams... Why?",
+                    "swf": "towns\/3swordhaven\/Board\/quest-brady.swf",
+                    "swfX": "towns\/3swordhaven\/Board\/quest-brady-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 4321,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "chaosweavers",
+                    "monsterGroupSwf": "mset-brady.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

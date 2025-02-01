@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3979-elucidas-platinum-staff",
+        "fullSlug": "items\/3979-elucidas-platinum-staff",
+        "id": 3979,
+        "name": "Elucidas' Platinum Staff",
+        "description": "Elucidas has great confidence in Nythera, and he's heard of YOU, too!  He gifted you with this staff to show his faith in you.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3979,
+            "name": "Elucidas' Platinum Staff",
+            "description": "Elucidas has great confidence in Nythera, and he's heard of YOU, too!  He gifted you with this staff to show his faith in you.  ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 43,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-silverglow.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 2,
+            "damageMin": 57,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 3,
+            "block": 0,
+            "resists": "Fire,7,Ice,7,Stone,7,Wind,7"
+        }
+    },
+    "related": {
+        "613-no-gain-without-loss": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "613-no-gain-without-loss",
+                "fullSlug": "quests\/613-no-gain-without-loss",
+                "id": 613,
+                "name": "No Gain Without Loss",
+                "description": "After exploring the Void, can you REALLY hope to master the forces that control it?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 613,
+                    "name": "No Gain Without Loss",
+                    "description": "After exploring the Void, can you REALLY hope to master the forces that control it?",
+                    "complete": "What else will Elucidas be able to teach you?",
+                    "swf": "quests\/quest-nythera2b-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest",
+                    "monsterGroupSwf": "mset-alchemy.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

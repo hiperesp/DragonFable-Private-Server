@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22013-blinding-star-shard",
+        "fullSlug": "items\/22013-blinding-star-shard",
+        "id": 22013,
+        "name": "Blinding Star Shard",
+        "description": "A glowing crystal shard, created in the heart of a star. Combine 10 with a Celestial Axe Haft to create the Blinding Starlight of Destiny!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22013,
+            "name": "Blinding Star Shard",
+            "description": "A glowing crystal shard, created in the heart of a star. Combine 10 with a Celestial Axe Haft to create the Blinding Starlight of Destiny!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 10,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "814-blinding-star-shard": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "814-blinding-star-shard",
+                "fullSlug": "item-shops\/814-blinding-star-shard",
+                "id": 814,
+                "name": "Blinding Star Shard",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 814,
+                    "name": "Blinding Star Shard",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "422-blinding-star-shard-merge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "422-blinding-star-shard-merge",
+                "fullSlug": "merge-shops\/422-blinding-star-shard-merge",
+                "id": 422,
+                "name": "Blinding Star Shard Merge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 422,
+                    "name": "Blinding Star Shard Merge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4367,
+                    "mergeShopId": 422,
+                    "mergeId": 4394
+                },
+                "merge": {
+                    "id": 4394,
+                    "itemId1": 22014,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 22013,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

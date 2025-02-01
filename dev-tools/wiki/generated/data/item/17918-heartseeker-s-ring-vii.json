@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17918-heartseeker-s-ring-vii",
+        "fullSlug": "items\/17918-heartseeker-s-ring-vii",
+        "id": 17918,
+        "name": "Heartseeker's Ring VII",
+        "description": "Fine gold and pink pearl entwine around this ring enchanted by Love. Wearing it comforts you with a sense of warmth. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17918,
+            "name": "Heartseeker's Ring VII",
+            "description": "Fine gold and pink pearl entwine around this ring enchanted by Love. Wearing it comforts you with a sense of warmth. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 180,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 75,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1487-what-is-love": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1487-what-is-love",
+                "fullSlug": "quests\/1487-what-is-love",
+                "id": 1487,
+                "name": "What is Love?",
+                "description": "A member of the Rose and a mage, together? Love is in the air, baby!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1487,
+                    "name": "What is Love?",
+                    "description": "A member of the Rose and a mage, together? Love is in the air, baby!",
+                    "complete": "Another satisfied customer! Happy Hero's Heart Day!",
+                    "swf": "towns\/HeroHeart\/HHD18\/quest-love.swf",
+                    "swfX": "towns\/HeroHeart\/HHD18\/quest-love-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "towns\/HeroHeart\/HHD18\/quest-love-x.swf",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Mana and Heart elementals",
+                    "monsterGroupSwf": "mset-HHD18.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

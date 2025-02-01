@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1223-the-deep-cut",
+        "fullSlug": "items\/1223-the-deep-cut",
+        "id": 1223,
+        "name": "The Deep Cut",
+        "description": "This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create. The design of this blade is said to take it right to the heart of your enemy. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1223,
+            "name": "The Deep Cut",
+            "description": "This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create. The design of this blade is said to take it right to the heart of your enemy. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 18,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-forge4.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 35,
+            "damageMax": 43,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,2"
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 470,
+                    "mergeShopId": 32,
+                    "mergeId": 278
+                },
+                "merge": {
+                    "id": 278,
+                    "itemId1": 1255,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 1223,
+                    "string": 1,
+                    "index": 2,
+                    "value": 18,
+                    "level": 13
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "742-sword-of-eye-rule",
+        "fullSlug": "items\/742-sword-of-eye-rule",
+        "id": 742,
+        "name": "Sword of Eye-Rule",
+        "description": "This item requires a Dragon Amulet. You got this ancient sword of eye-rule for reuniting the pieces of the Quad-Force and defeating the evil Gananana."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 742,
+            "name": "Sword of Eye-Rule",
+            "description": "This item requires a Dragon Amulet. You got this ancient sword of eye-rule for reuniting the pieces of the Quad-Force and defeating the evil Gananana.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 9,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-eyerule.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 25,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,1"
+        }
+    },
+    "related": {
+        "106-defeat-gananana": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "106-defeat-gananana",
+                "fullSlug": "quests\/106-defeat-gananana",
+                "id": 106,
+                "name": "Defeat Gananana!",
+                "description": "You have assembled all four pieces of the mighty Quad-Force and now you must battle the wicked Gananana to ensure that it is never stolen again."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 106,
+                    "name": "Defeat Gananana!",
+                    "description": "You have assembled all four pieces of the mighty Quad-Force and now you must battle the wicked Gananana to ensure that it is never stolen again.",
+                    "complete": "You and Robina the Hood have defeated the evil Gananana! Now the Quad-Force will be safe forever... or will it?!",
+                    "swf": "quests\/quest-eye-rule.swf",
+                    "swfX": "none",
+                    "maxSilver": 10,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Eyes",
+                    "monsterGroupSwf": "mset-eyes.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

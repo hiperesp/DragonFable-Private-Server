@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3049-utility-belt",
+        "fullSlug": "items\/3049-utility-belt",
+        "id": 3049,
+        "name": "Utility Belt",
+        "description": "Comes equipped with many pockets to keep your stuff, and your candy, safe from prying fingers."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3049,
+            "name": "Utility Belt",
+            "description": "Comes equipped with many pockets to keep your stuff, and your candy, safe from prying fingers.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 13,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "499-as-the-cauldron-boils": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "499-as-the-cauldron-boils",
+                "fullSlug": "quests\/499-as-the-cauldron-boils",
+                "id": 499,
+                "name": "As the Cauldron Boils...",
+                "description": "The Sisters have gone their separate ways! Can you figure out what's causing this rift and help them make up?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 499,
+                    "name": "As the Cauldron Boils...",
+                    "description": "The Sisters have gone their separate ways! Can you figure out what's causing this rift and help them make up?",
+                    "complete": "Greed is behind this whole mess! He has each sister wanting the fame, fortune and recognition for their candy for themselves. It looks like he has plans for the rest of town too....",
+                    "swf": "towns\/Mogloween\/quest-mogloween09-week2r3.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "greed and ghosts",
+                    "monsterGroupSwf": "mset-greed.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8578-rose-legacy-staff-i",
+        "fullSlug": "items\/8578-rose-legacy-staff-i",
+        "id": 8578,
+        "name": "Rose Legacy Staff I",
+        "description": "A lithe weapon, approved for use by the Rose. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8578,
+            "name": "Rose Legacy Staff I",
+            "description": "A lithe weapon, approved for use by the Rose. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-RoseLegacy.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 29,
+            "damageMax": 53,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Health,-1"
+        }
+    },
+    "related": {
+        "305-rosefort-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "305-rosefort-gold",
+                "fullSlug": "item-shops\/305-rosefort-gold",
+                "id": 305,
+                "name": "RoseFort Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 305,
+                    "name": "RoseFort Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

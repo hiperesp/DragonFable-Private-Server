@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5304-merchant-pack",
+        "fullSlug": "items\/5304-merchant-pack",
+        "id": 5304,
+        "name": "Merchant Pack",
+        "description": "No way you're gonna take two trips.... You can totally lift this!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5304,
+            "name": "Merchant Pack",
+            "description": "No way you're gonna take two trips.... You can totally lift this!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 20,
+            "level": 45,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-Merchant Pack.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,6,Nature,6,Wind,5,Energy,3"
+        }
+    },
+    "related": {
+        "751-escort-from-verteroche": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "751-escort-from-verteroche",
+                "fullSlug": "quests\/751-escort-from-verteroche",
+                "id": 751,
+                "name": "Escort From Verteroche",
+                "description": "Signature on delivery!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 751,
+                    "name": "Escort From Verteroche",
+                    "description": "Signature on delivery!",
+                    "complete": "Signature on delivery!",
+                    "swf": "towns\/verteroche\/quest-escort-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits, dravir, forest monsters",
+                    "monsterGroupSwf": "mset-escort-W-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

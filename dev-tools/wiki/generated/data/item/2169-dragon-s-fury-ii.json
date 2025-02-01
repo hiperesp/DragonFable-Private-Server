@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2169-dragon-s-fury-ii",
+        "fullSlug": "items\/2169-dragon-s-fury-ii",
+        "id": 2169,
+        "name": "Dragon's Fury II",
+        "description": "The blade hums with animosity."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2169,
+            "name": "Dragon's Fury II",
+            "description": "The blade hums with animosity.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 31,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-ancientish.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 64,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3"
+        }
+    },
+    "related": {
+        "334-the-coming-storm": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "334-the-coming-storm",
+                "fullSlug": "quests\/334-the-coming-storm",
+                "id": 334,
+                "name": "The Coming Storm",
+                "description": "What is going on at the tower?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 334,
+                    "name": "The Coming Storm",
+                    "description": "What is going on at the tower?",
+                    "complete": "The Blue Mage is dead, witness the rise of the Purple Mage.",
+                    "swf": "quests\/quest-nytherastorm1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "laundry and orbs",
+                    "monsterGroupSwf": "mset-agitower.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20382-prince-eulin-facsimile",
+        "fullSlug": "items\/20382-prince-eulin-facsimile",
+        "id": 20382,
+        "name": "Prince Eulin Facsimile",
+        "description": "A startlingly accurate facsimile of the Lagohm prince: Eulin Verriton IV, one of many commissioned by Raven. Just like the actual prince, however, this magical recreation doesn't do much in combat besides looking cute."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20382,
+            "name": "Prince Eulin Facsimile",
+            "description": "A startlingly accurate facsimile of the Lagohm prince: Eulin Verriton IV, one of many commissioned by Raven. Just like the actual prince, however, this magical recreation doesn't do much in combat besides looking cute.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-eulin.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 200,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Cute,1000,Energy,200"
+        }
+    },
+    "related": {
+        "1842-broken-circuit-part-2": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1842-broken-circuit-part-2",
+                "fullSlug": "quests\/1842-broken-circuit-part-2",
+                "id": 1842,
+                "name": "Broken Circuit (Part 2)",
+                "description": "Hopefully The Golden Hand are going to be okay..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1842,
+                    "name": "Broken Circuit (Part 2)",
+                    "description": "Hopefully The Golden Hand are going to be okay...",
+                    "complete": "The magic leaking through the Proclamation rifts waits for no one.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest15-brokencirc2.swf?ver=1",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest15-brokencirc2-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "energy elementals and lagohm",
+                    "monsterGroupSwf": "mset-energyrift-r7.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4492-harvest-reaper-i",
+        "fullSlug": "items\/4492-harvest-reaper-i",
+        "id": 4492,
+        "name": "Harvest Reaper I",
+        "description": "The ultimate weapon for reaping what you sow! Click on the Jack-o-Lantern to change elements from Fire to Nature! Happy Mogloween 2010!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4492,
+            "name": "Harvest Reaper I",
+            "description": "The ultimate weapon for reaping what you sow! Click on the Jack-o-Lantern to change elements from Fire to Nature! Happy Mogloween 2010!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 30,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-HarvestReaper-r1.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 56,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5,Fire,5,Darkness,5,Immobility,5"
+        }
+    },
+    "related": {
+        "161-harvest-reaper-30": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "161-harvest-reaper-30",
+                "fullSlug": "item-shops\/161-harvest-reaper-30",
+                "id": 161,
+                "name": "Harvest Reaper 30",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 161,
+                    "name": "Harvest Reaper 30",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "76-harvest-reaper-40": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "76-harvest-reaper-40",
+                "fullSlug": "merge-shops\/76-harvest-reaper-40",
+                "id": 76,
+                "name": "Harvest Reaper 40",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 76,
+                    "name": "Harvest Reaper 40"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1106,
+                    "mergeShopId": 76,
+                    "mergeId": 818
+                },
+                "merge": {
+                    "id": 818,
+                    "itemId1": 4492,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4493,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

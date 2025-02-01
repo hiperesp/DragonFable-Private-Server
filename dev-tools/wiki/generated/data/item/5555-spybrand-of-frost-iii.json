@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5555-spybrand-of-frost-iii",
+        "fullSlug": "items\/5555-spybrand-of-frost-iii",
+        "id": 5555,
+        "name": "Spybrand of Frost III",
+        "description": "It would seem that Sepulchure is outfitting his spies with the corrupted power of the elements! What could this mean? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5555,
+            "name": "Spybrand of Frost III",
+            "description": "It would seem that Sepulchure is outfitting his spies with the corrupted power of the elements! What could this mean? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 68,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-spy_ice.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 10,
+            "damageMin": 72,
+            "damageMax": 90,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,-10,Water,15,Wind,15,Darkness,15"
+        }
+    },
+    "related": {
+        "787-after-the-ice-orb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "787-after-the-ice-orb",
+                "fullSlug": "quests\/787-after-the-ice-orb",
+                "id": 787,
+                "name": "After the Ice Orb",
+                "description": "You have to make sure the Ice Orb is safe!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 787,
+                    "name": "After the Ice Orb",
+                    "description": "You have to make sure the Ice Orb is safe!",
+                    "complete": "Sepulchure has stolen the Ice Orb!",
+                    "swf": "towns\/Chap1Finale\/quest-finale3-iceorb-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice and darkness",
+                    "monsterGroupSwf": "mset-finale3-iceorb-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

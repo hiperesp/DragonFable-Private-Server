@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11839-burnt-splatula",
+        "fullSlug": "items\/11839-burnt-splatula",
+        "id": 11839,
+        "name": "Burnt Splatula",
+        "description": "A magic splatula filled with all your BBQ hopes and dreams and cravings! You can upgrade this item at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11839,
+            "name": "Burnt Splatula",
+            "description": "A magic splatula filled with all your BBQ hopes and dreams and cravings! You can upgrade this item at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-splatula.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Fire,4,Ice,2,Health,-1"
+        }
+    },
+    "related": {
+        "202-bbq-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "202-bbq-items",
+                "fullSlug": "merge-shops\/202-bbq-items",
+                "id": 202,
+                "name": "BBQ Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 202,
+                    "name": "BBQ Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2400,
+                    "mergeShopId": 202,
+                    "mergeId": 2210
+                },
+                "merge": {
+                    "id": 2210,
+                    "itemId1": 11839,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11840,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

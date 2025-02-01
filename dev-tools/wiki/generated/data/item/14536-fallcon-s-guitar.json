@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14536-fallcon-s-guitar",
+        "fullSlug": "items\/14536-fallcon-s-guitar",
+        "id": 14536,
+        "name": "Fallcon's Guitar",
+        "description": "Left behind after the Fight for Late Night, this acoustic guitar can make sure your battles are filled with sick riffs and heavy hits!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14536,
+            "name": "Fallcon's Guitar",
+            "description": "Left behind after the Fight for Late Night, this acoustic guitar can make sure your battles are filled with sick riffs and heavy hits!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 60,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-fallon.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "Water,6,Darkness,4,Immobility,2"
+        }
+    },
+    "related": {
+        "460-late-night-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "460-late-night-drops",
+                "fullSlug": "item-shops\/460-late-night-drops",
+                "id": 460,
+                "name": "Late Night Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 460,
+                    "name": "Late Night Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2609-ultimate-staff-of-hearts",
+        "fullSlug": "items\/2609-ultimate-staff-of-hearts",
+        "id": 2609,
+        "name": "Ultimate Staff of Hearts",
+        "description": "It takes heart to wield a staff like this.  It's a good thing this one comes with one already equipped.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2609,
+            "name": "Ultimate Staff of Hearts",
+            "description": "It takes heart to wield a staff like this.  It's a good thing this one comes with one already equipped.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1050,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 50,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-aria1.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 71,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,1,Fire,4"
+        }
+    },
+    "related": {
+        "451-aria-in-wanderland": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "451-aria-in-wanderland",
+                "fullSlug": "quests\/451-aria-in-wanderland",
+                "id": 451,
+                "name": "Aria In Wanderland",
+                "description": "Head down the tog tunnel to find Aria!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 451,
+                    "name": "Aria In Wanderland",
+                    "description": "Head down the tog tunnel to find Aria!",
+                    "complete": "You even managed to get back up the tunnel.  Promising the wild gryphons a schnozzberry cake worked wonders! Now... you just need to find a schnozzberry cake.",
+                    "swf": "quests\/AriainWanderland\/quest-aria1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "foresty monsters",
+                    "monsterGroupSwf": "mset-aria1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

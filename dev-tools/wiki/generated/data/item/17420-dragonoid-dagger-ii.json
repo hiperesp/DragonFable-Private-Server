@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17420-dragonoid-dagger-ii",
+        "fullSlug": "items\/17420-dragonoid-dagger-ii",
+        "id": 17420,
+        "name": "Dragonoid Dagger II",
+        "description": "Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this dagger hums with energy and glory."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17420,
+            "name": "Dragonoid Dagger II",
+            "description": "Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this dagger hums with energy and glory.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 100,
+            "level": 60,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-dragonoid.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 9,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 74,
+            "damageMax": 82,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,4"
+        }
+    },
+    "related": {
+        "275-dragonoid-challenge-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "275-dragonoid-challenge-upgrade",
+                "fullSlug": "merge-shops\/275-dragonoid-challenge-upgrade",
+                "id": 275,
+                "name": "Dragonoid Challenge Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 275,
+                    "name": "Dragonoid Challenge Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3069,
+                    "mergeShopId": 275,
+                    "mergeId": 3065
+                },
+                "merge": {
+                    "id": 3065,
+                    "itemId1": 17419,
+                    "amount1": 1,
+                    "itemId2": 17419,
+                    "amount2": 1,
+                    "itemId": 17420,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

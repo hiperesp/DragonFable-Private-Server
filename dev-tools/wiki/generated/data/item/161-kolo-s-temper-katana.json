@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "161-kolo-s-temper-katana",
+        "fullSlug": "items\/161-kolo-s-temper-katana",
+        "id": 161,
+        "name": "Kolo's Temper Katana",
+        "description": "This sword was designed for the legendary Kolo, first Guardian to earn the right to wield the ShadowReaper of Doom! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 161,
+            "name": "Kolo's Temper Katana",
+            "description": "This sword was designed for the legendary Kolo, first Guardian to earn the right to wield the ShadowReaper of Doom! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 1,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-kolo.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 5,
+            "damageMax": 15,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5"
+        }
+    },
+    "related": {
+        "5-marsh-madness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "5-marsh-madness",
+                "fullSlug": "quests\/5-marsh-madness",
+                "id": 5,
+                "name": "Marsh Madness",
+                "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 5,
+                    "name": "Marsh Madness",
+                    "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "complete": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "swf": "random\/random-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 7,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        },
+        "387-marsh-madness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "387-marsh-madness",
+                "fullSlug": "quests\/387-marsh-madness",
+                "id": 387,
+                "name": "Marsh Madness",
+                "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 387,
+                    "name": "Marsh Madness",
+                    "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "complete": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "swf": "towns\/Ash\/random-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

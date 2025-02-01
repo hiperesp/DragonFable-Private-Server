@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21964-bunker-helmet-iv",
+        "fullSlug": "items\/21964-bunker-helmet-iv",
+        "id": 21964,
+        "name": "Bunker Helmet IV",
+        "description": "This helmet was crafted by gnomes as a special order for Rudy. Guaranteed to protect moglin ears from giant mutated bugs!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21964,
+            "name": "Bunker Helmet IV",
+            "description": "This helmet was crafted by gnomes as a special order for Rudy. Guaranteed to protect moglin ears from giant mutated bugs!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 60,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-bunker.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Health,-8,Ice,3,Energy,3,Darkness,3,Wind,3,Poison,3,Bacon,3"
+        }
+    },
+    "related": {
+        "2145-prepared-for-anything": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2145-prepared-for-anything",
+                "fullSlug": "quests\/2145-prepared-for-anything",
+                "id": 2145,
+                "name": "Prepared for Anything!",
+                "description": "What a curious combination of requirements. Conveniently you know just where to find them all!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2145,
+                    "name": "Prepared for Anything!",
+                    "description": "What a curious combination of requirements. Conveniently you know just where to find them all!",
+                    "complete": "She means well, but it won't be needed... right?",
+                    "swf": "towns\/3Falconreach\/Ruby\/quest-prepare.swf",
+                    "swfX": "towns\/3Falconreach\/Ruby\/quest-prepare-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "eclectic magic forest",
+                    "monsterGroupSwf": "mset-preparedruby.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22272-suntouched-fang",
+        "fullSlug": "items\/22272-suntouched-fang",
+        "id": 22272,
+        "name": "Suntouched Fang",
+        "description": "This fang drips with a burning, electrical venom. Proof of victory over the Suntouched Viper."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22272,
+            "name": "Suntouched Fang",
+            "description": "This fang drips with a burning, electrical venom. Proof of victory over the Suntouched Viper.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "yellowgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2208-suntouched-viper": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2208-suntouched-viper",
+                "fullSlug": "quests\/2208-suntouched-viper",
+                "id": 2208,
+                "name": "Suntouched Viper",
+                "description": "This massive snake is said to rest under the sun for years, accumulating elemental energy... It's said if you can catch one sleeping, you'll get good luck! Too bad this one is awake. And very angry."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2208,
+                    "swf": "towns\/TimeArena\/quest2-snake.swf",
+                    "swfX": "none",
+                    "extra": "",
+                    "name": "Suntouched Viper",
+                    "description": "This massive snake is said to rest under the sun for years, accumulating elemental energy... It's said if you can catch one sleeping, you'll get good luck! Too bad this one is awake. And very angry.",
+                    "complete": "Does your victory count as good luck?",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Plasma Snake and Egg",
+                    "monsterGroupSwf": "mset-arenaplasmasnake.swf"
+                }
+            },
+            "related": []
+        },
+        "436-sunbathed-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "436-sunbathed-rewards",
+                "fullSlug": "merge-shops\/436-sunbathed-rewards",
+                "id": 436,
+                "name": "Sunbathed Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 436,
+                    "name": "Sunbathed Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4460,
+                    "mergeShopId": 436,
+                    "mergeId": 4489
+                },
+                "merge": {
+                    "id": 4489,
+                    "itemId1": 22271,
+                    "amount1": 1,
+                    "itemId2": 22272,
+                    "amount2": 1,
+                    "itemId": 22274,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

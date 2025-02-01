@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19615-devouring-cursed-serpent-claw",
+        "fullSlug": "items\/19615-devouring-cursed-serpent-claw",
+        "id": 19615,
+        "name": "Devouring Cursed Serpent Claw",
+        "description": "A dry, hot poison infuses this cursed claw.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19615,
+            "name": "Devouring Cursed Serpent Claw",
+            "description": "A dry, hot poison infuses this cursed claw.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 90,
+            "type": "Pierce",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-serpentclaw.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 20,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 14,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 80,
+            "damageMax": 106,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 12,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Fire,11,Light,11,Wind,11,Stone,11,Immobility,5"
+        }
+    },
+    "related": {
+        "1031-life-finds-a-way": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1031-life-finds-a-way",
+                "fullSlug": "quests\/1031-life-finds-a-way",
+                "id": 1031,
+                "name": "Life Finds A Way",
+                "description": "Dive into the desert and try to find Sek Duat!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1031,
+                    "name": "Life Finds A Way",
+                    "description": "Dive into the desert and try to find Sek Duat!",
+                    "complete": "Well, you found what is... left of him.",
+                    "swf": "towns\/3Rosewood\/quest3-sandsea-life-re.swf",
+                    "swfX": "towns\/3Rosewood\/quest3-sandsea-life-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "thugs, scarabs, mummies",
+                    "monsterGroupSwf": "mset-sandsea-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

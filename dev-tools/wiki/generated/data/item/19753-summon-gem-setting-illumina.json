@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19753-summon-gem-setting-illumina",
+        "fullSlug": "items\/19753-summon-gem-setting-illumina",
+        "id": 19753,
+        "name": "Summon Gem Setting - Illumina",
+        "description": "An intricate setting that looks like it may be able to fit the Summon Gem - Illumina. Proof of victory over Illumina!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19753,
+            "name": "Summon Gem Setting - Illumina",
+            "description": "An intricate setting that looks like it may be able to fit the Summon Gem - Illumina. Proof of victory over Illumina!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1731-summon-gem-illumina": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1731-summon-gem-illumina",
+                "fullSlug": "quests\/1731-summon-gem-illumina",
+                "id": 1731,
+                "name": "Summon Gem: Illumina",
+                "description": "Illumina returns once again to face the world."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1731,
+                    "name": "Summon Gem: Illumina",
+                    "description": "Illumina returns once again to face the world.",
+                    "complete": "Return to the light.",
+                    "swf": "towns\/TimeArena\/quest-illumina.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "light and time challenge",
+                    "monsterGroupSwf": "mset-arenailluintaym-r8.swf"
+                }
+            },
+            "related": []
+        },
+        "323-the-conduit-duty-rebellion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "323-the-conduit-duty-rebellion",
+                "fullSlug": "merge-shops\/323-the-conduit-duty-rebellion",
+                "id": 323,
+                "name": "The Conduit: Duty & Rebellion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 323,
+                    "name": "The Conduit: Duty & Rebellion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3442,
+                    "mergeShopId": 323,
+                    "mergeId": 3532
+                },
+                "merge": {
+                    "id": 3532,
+                    "itemId1": 5767,
+                    "amount1": 1,
+                    "itemId2": 19753,
+                    "amount2": 1,
+                    "itemId": 19754,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

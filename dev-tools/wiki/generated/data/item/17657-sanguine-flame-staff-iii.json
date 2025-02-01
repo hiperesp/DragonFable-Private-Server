@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17657-sanguine-flame-staff-iii",
+        "fullSlug": "items\/17657-sanguine-flame-staff-iii",
+        "id": 17657,
+        "name": "Sanguine Flame Staff III",
+        "description": "Forged from a combination of star metal and vampire victims' blood, this staff burns with a fraction of the power of the stars."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17657,
+            "name": "Sanguine Flame Staff III",
+            "description": "Forged from a combination of star metal and vampire victims' blood, this staff burns with a fraction of the power of the stars.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 140,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 60,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-sanguineflame.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 62,
+            "damageMax": 88,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1456-two-moons": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1456-two-moons",
+                "fullSlug": "quests\/1456-two-moons",
+                "id": 1456,
+                "name": "Two Moons",
+                "description": "The hero arrives in Croft, where an unusual phenomenon is occuring."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1456,
+                    "name": "Two Moons",
+                    "description": "The hero arrives in Croft, where an unusual phenomenon is occuring.",
+                    "complete": "Jack's back, baby!",
+                    "swf": "towns\/Mogloween\/M17\/quest1-twomoons.swf",
+                    "swfX": "towns\/Mogloween\/M17\/quest1-twomoons-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 6666,
+                    "maxGems": 0,
+                    "maxExp": 66666,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "vampbikers!",
+                    "monsterGroupSwf": "mset-twomoons.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14050-dragon-s-tooth",
+        "fullSlug": "items\/14050-dragon-s-tooth",
+        "id": 14050,
+        "name": "Dragon's Tooth",
+        "description": "This item requires a Dragon Amulet. The tooth looks like one of the Valtrith's pulled it directly from a dragon's skull!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14050,
+            "name": "Dragon's Tooth",
+            "description": "This item requires a Dragon Amulet. The tooth looks like one of the Valtrith's pulled it directly from a dragon's skull!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 23,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Ice,3"
+        }
+    },
+    "related": {
+        "1275-the-valtrith-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1275-the-valtrith-tomb",
+                "fullSlug": "quests\/1275-the-valtrith-tomb",
+                "id": 1275,
+                "name": "The Valtrith Tomb",
+                "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1275,
+                    "name": "The Valtrith Tomb",
+                    "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?",
+                    "complete": "Jaysun wasn't the only Valtrith whose sarcophagus was disturbed!",
+                    "swf": "towns\/Symone\/quest-valtrithtomb-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghosts",
+                    "monsterGroupSwf": "mset-valtrithtomb.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

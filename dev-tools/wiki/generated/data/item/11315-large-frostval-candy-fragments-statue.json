@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11315-large-frostval-candy-fragments-statue",
+        "fullSlug": "items\/11315-large-frostval-candy-fragments-statue",
+        "id": 11315,
+        "name": "Large Frostval Candy Fragments Statue",
+        "description": "It's modern art... someone'll probably buy it!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11315,
+            "name": "Large Frostval Candy Fragments Statue",
+            "description": "It's modern art... someone'll probably buy it!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 200,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluebag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "195-2013-frostval-gifts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "195-2013-frostval-gifts",
+                "fullSlug": "merge-shops\/195-2013-frostval-gifts",
+                "id": 195,
+                "name": "2013 Frostval Gifts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 195,
+                    "name": "2013 Frostval Gifts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2258,
+                    "mergeShopId": 195,
+                    "mergeId": 2111
+                },
+                "merge": {
+                    "id": 2111,
+                    "itemId1": 11245,
+                    "amount1": 100,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11315,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

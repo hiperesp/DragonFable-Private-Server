@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20454-neo-grove-tender-s-cloak",
+        "fullSlug": "items\/20454-neo-grove-tender-s-cloak",
+        "id": 20454,
+        "name": "Neo Grove Tender's Cloak",
+        "description": "This cloak woven with magical leaves helps you connect with nature! And you unlike branches, you don't have to worry about poking anyone's eyes out. You can upgrade this cape at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20454,
+            "name": "Neo Grove Tender's Cloak",
+            "description": "This cloak woven with magical leaves helps you connect with nature! And you unlike branches, you don't have to worry about poking anyone's eyes out. You can upgrade this cape at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-Grovetender.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Nature,3,Fire,3,Health,-1"
+        }
+    },
+    "related": {
+        "356-neo-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "356-neo-grove-tender",
+                "fullSlug": "merge-shops\/356-neo-grove-tender",
+                "id": 356,
+                "name": "Neo Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 356,
+                    "name": "Neo Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3700,
+                    "mergeShopId": 356,
+                    "mergeId": 3789
+                },
+                "merge": {
+                    "id": 3789,
+                    "itemId1": 20454,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20455,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

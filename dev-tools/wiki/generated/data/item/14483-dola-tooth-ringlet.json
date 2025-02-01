@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14483-dola-tooth-ringlet",
+        "fullSlug": "items\/14483-dola-tooth-ringlet",
+        "id": 14483,
+        "name": "Dola Tooth Ringlet",
+        "description": "A large tooth whittled down to be a nice ring. The smaller size indicates a bit too much was carved off by accident."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14483,
+            "name": "Dola Tooth Ringlet",
+            "description": "A large tooth whittled down to be a nice ring. The smaller size indicates a bit too much was carved off by accident.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 59,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Fire,6,Stone,5,Water,5"
+        }
+    },
+    "related": {
+        "1290-the-dola": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1290-the-dola",
+                "fullSlug": "quests\/1290-the-dola",
+                "id": 1290,
+                "name": "The Dola",
+                "description": "A Dola stalks the woods at the edge of Betrubung!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1290,
+                    "name": "The Dola",
+                    "description": "A Dola stalks the woods at the edge of Betrubung!",
+                    "complete": "You've stopped the Dola and the farmers and their bunnies are safe!",
+                    "swf": "towns\/SHborder\/quest3-dola.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp, forest, dola",
+                    "monsterGroupSwf": "mset-dola.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

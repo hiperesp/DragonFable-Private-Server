@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9323-on-wings-of-bacon",
+        "fullSlug": "items\/9323-on-wings-of-bacon",
+        "id": 9323,
+        "name": "On Wings Of Bacon",
+        "description": "You look awesome, smell amazing and will never go hungry again! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9323,
+            "name": "On Wings Of Bacon",
+            "description": "You look awesome, smell amazing and will never go hungry again! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "element": "Bacon",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-bacon.swf",
+            "icon": "wings",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,All,1"
+        }
+    },
+    "related": {
+        "136-on-wings-of-bacon": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "136-on-wings-of-bacon",
+                "fullSlug": "merge-shops\/136-on-wings-of-bacon",
+                "id": 136,
+                "name": "On Wings of Bacon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 136,
+                    "name": "On Wings of Bacon"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1974,
+                    "mergeShopId": 136,
+                    "mergeId": 1870
+                },
+                "merge": {
+                    "id": 1870,
+                    "itemId1": 9323,
+                    "amount1": 1,
+                    "itemId2": 9337,
+                    "amount2": 1,
+                    "itemId": 9324,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

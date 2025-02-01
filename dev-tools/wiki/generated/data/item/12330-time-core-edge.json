@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12330-time-core-edge",
+        "fullSlug": "items\/12330-time-core-edge",
+        "id": 12330,
+        "name": "Time Core Edge",
+        "description": "Crafted by Cronix from materials scattered through time... the Time Core Edge can switch elements as you attune it!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12330,
+            "name": "Time Core Edge",
+            "description": "Crafted by Cronix from materials scattered through time... the Time Core Edge can switch elements as you attune it!",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 410,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 75,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-timecoreedge.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 12,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 71,
+            "damageMax": 103,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Poison,7,Silver,7,Evil,6,Good,6,Health,-3"
+        }
+    },
+    "related": {
+        "410-timecoreedge": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "410-timecoreedge",
+                "fullSlug": "item-shops\/410-timecoreedge",
+                "id": 410,
+                "name": "TimeCoreEdge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 410,
+                    "name": "TimeCoreEdge",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7802-dragon-carving-rod-vi",
+        "fullSlug": "items\/7802-dragon-carving-rod-vi",
+        "id": 7802,
+        "name": "Dragon Carving Rod VI",
+        "description": "Carve your way through Thankstaking, 2012, fighting foods!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7802,
+            "name": "Dragon Carving Rod VI",
+            "description": "Carve your way through Thankstaking, 2012, fighting foods!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 60,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-thanksgiving12.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 84,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Poison,9,Darkness,5,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "124-turkey-dragon": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "124-turkey-dragon",
+                "fullSlug": "merge-shops\/124-turkey-dragon",
+                "id": 124,
+                "name": "Turkey Dragon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 124,
+                    "name": "Turkey Dragon"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1727,
+                    "mergeShopId": 124,
+                    "mergeId": 1603
+                },
+                "merge": {
+                    "id": 1603,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": 7802,
+                    "amount2": 1,
+                    "itemId": 7803,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

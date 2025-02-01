@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9485-eternal-hourglass-cape-i",
+        "fullSlug": "items\/9485-eternal-hourglass-cape-i",
+        "id": 9485,
+        "name": "Eternal Hourglass Cape I",
+        "description": "The sands of eternity run through this item."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9485,
+            "name": "Eternal Hourglass Cape I",
+            "description": "The sands of eternity run through this item.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 30,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-eternal hourglass.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 4,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Fire,1"
+        }
+    },
+    "related": {
+        "1042-sands-of-eternity": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1042-sands-of-eternity",
+                "fullSlug": "quests\/1042-sands-of-eternity",
+                "id": 1042,
+                "name": "Sands of Eternity",
+                "description": "Make your way to confront Sek Duat!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1042,
+                    "name": "Sands of Eternity",
+                    "description": "Make your way to confront Sek Duat!",
+                    "complete": "You've defeated the magic infused form of Sek Duat and restored new life to Zhoom!",
+                    "swf": "towns\/3Rosewood\/quest5-sandsea-eternity-re-r2.swf?ver=1",
+                    "swfX": "towns\/3Rosewood\/quest5-sandsea-eternity-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sek and mummies",
+                    "monsterGroupSwf": "mset-sekduattitan-r2.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

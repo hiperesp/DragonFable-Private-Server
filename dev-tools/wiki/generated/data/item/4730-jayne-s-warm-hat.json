@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4730-jayne-s-warm-hat",
+        "fullSlug": "items\/4730-jayne-s-warm-hat",
+        "id": 4730,
+        "name": "Jayne's Warm Hat",
+        "description": "It takes a brave adventurer to wear a hat like this..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4730,
+            "name": "Jayne's Warm Hat",
+            "description": "It takes a brave adventurer to wear a hat like this...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 6,
+            "level": 56,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-jayne.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,5,Fire,5,Immobility,3"
+        }
+    },
+    "related": {
+        "709-the-factory": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "709-the-factory",
+                "fullSlug": "quests\/709-the-factory",
+                "id": 709,
+                "name": "The Factory",
+                "description": "Plushies patrol the area outside!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 709,
+                    "name": "The Factory",
+                    "description": "Plushies patrol the area outside!",
+                    "complete": "Oh no! You're trapped inside Zadd's factory!",
+                    "swf": "towns\/frostvale\/f10\/quest-frostval2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "plushies",
+                    "monsterGroupSwf": "mset-frostval10-1-r6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4656-well-worn-lucky-cap",
+        "fullSlug": "items\/4656-well-worn-lucky-cap",
+        "id": 4656,
+        "name": "Well Worn Lucky Cap",
+        "description": "This well worn cap looks like it's been through some crazy adventures! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4656,
+            "name": "Well Worn Lucky Cap",
+            "description": "This well worn cap looks like it's been through some crazy adventures! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 6,
+            "level": 56,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-luckycap.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5,Wind,5,Water,5,Immobility,3"
+        }
+    },
+    "related": {
+        "165-locked-chest": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "165-locked-chest",
+                "fullSlug": "item-shops\/165-locked-chest",
+                "id": 165,
+                "name": "Locked Chest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 165,
+                    "name": "Locked Chest",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

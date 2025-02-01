@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9305-ieb-weight",
+        "fullSlug": "items\/9305-ieb-weight",
+        "id": 9305,
+        "name": "Ieb Weight",
+        "description": "It is very light...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9305,
+            "name": "Ieb Weight",
+            "description": "It is very light....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 26,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,2,Stone,2,Immobility,1"
+        }
+    },
+    "related": {
+        "1034-face-of-death": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1034-face-of-death",
+                "fullSlug": "quests\/1034-face-of-death",
+                "id": 1034,
+                "name": "Face of Death",
+                "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1034,
+                    "name": "Face of Death",
+                    "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!",
+                    "complete": "You've released the magic contained in the sacrificial crystal! That's good... right?",
+                    "swf": "towns\/3Rosewood\/quest4-sandsea-death-re.swf?ver=1",
+                    "swfX": "towns\/3Rosewood\/quest4-sandsea-death-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "thugs, scarabs, mummies",
+                    "monsterGroupSwf": "mset-sandsea-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

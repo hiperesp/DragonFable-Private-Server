@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7067-dragoncrest",
+        "fullSlug": "items\/7067-dragoncrest",
+        "id": 7067,
+        "name": "DragonCrest",
+        "description": "The DragonCrest scythe magically transforms its shape as it's wielder desires. Click on the blue gem!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7067,
+            "name": "DragonCrest",
+            "description": "The DragonCrest scythe magically transforms its shape as it's wielder desires. Click on the blue gem!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 90000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 60,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DragonCrest.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 7,
+            "damageMin": 67,
+            "damageMax": 85,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,4,Health,-6"
+        }
+    },
+    "related": {
+        "125-bluestar-weaponry": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "125-bluestar-weaponry",
+                "fullSlug": "item-shops\/125-bluestar-weaponry",
+                "id": 125,
+                "name": "Bluestar Weaponry",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 125,
+                    "name": "Bluestar Weaponry",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

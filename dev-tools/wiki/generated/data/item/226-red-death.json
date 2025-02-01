@@ -1,0 +1,194 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "226-red-death",
+        "fullSlug": "items\/226-red-death",
+        "id": 226,
+        "name": "Red Death",
+        "description": "This is a terrifying blade of unthinkable power! \nThere is an inscription on the hilt that reads  -- MADE IN TAIWAN."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 226,
+            "name": "Red Death",
+            "description": "This is a terrifying blade of unthinkable power! \nThere is an inscription on the hilt that reads  -- MADE IN TAIWAN.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 620,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 3,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-copperskull.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 10,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "5-marsh-madness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "5-marsh-madness",
+                "fullSlug": "quests\/5-marsh-madness",
+                "id": 5,
+                "name": "Marsh Madness",
+                "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 5,
+                    "name": "Marsh Madness",
+                    "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "complete": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "swf": "random\/random-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 7,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        },
+        "8-the-elemental-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "8-the-elemental-cave",
+                "fullSlug": "quests\/8-the-elemental-cave",
+                "id": 8,
+                "name": "The Elemental Cave",
+                "description": "This is a cave full of elementals. Duh."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 8,
+                    "name": "The Elemental Cave",
+                    "description": "This is a cave full of elementals. Duh.",
+                    "complete": "This is a cave full of elementals. Duh.",
+                    "swf": "random\/random-mudcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 5,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "Wind, Earth, Water",
+                    "monsterGroupSwf": "mset-elementalnew-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "20-bandit-camp": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "20-bandit-camp",
+                "fullSlug": "quests\/20-bandit-camp",
+                "id": 20,
+                "name": "Bandit Camp",
+                "description": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 20,
+                    "name": "Bandit Camp",
+                    "description": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!",
+                    "complete": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!",
+                    "swf": "random\/random-bandit.swf",
+                    "swfX": "none",
+                    "maxSilver": 5,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Bandits",
+                    "monsterGroupSwf": "mset-bandits.swf"
+                }
+            },
+            "related": []
+        },
+        "633-ocean-reef": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "633-ocean-reef",
+                "fullSlug": "quests\/633-ocean-reef",
+                "id": 633,
+                "name": "Ocean Reef",
+                "description": "A colorful coral reef."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 633,
+                    "name": "Ocean Reef",
+                    "description": "A colorful coral reef.",
+                    "complete": "A colorful coral reef.",
+                    "swf": "random\/random-underwater-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "the whole damn ocean!",
+                    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

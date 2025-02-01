@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20869-eggsalted-remnant",
+        "fullSlug": "items\/20869-eggsalted-remnant",
+        "id": 20869,
+        "name": "Eggsalted Remnant",
+        "description": "A shard of power from a (hopefully forever) lost reality. Focusing your will into it summons... well, you'll see."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20869,
+            "name": "Eggsalted Remnant",
+            "description": "A shard of power from a (hopefully forever) lost reality. Focusing your will into it summons... well, you'll see.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Bacon",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-chickencow.swf",
+            "icon": "trinket",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 10,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Nature,10,Fire,10,Bacon,5"
+        }
+    },
+    "related": {
+        "1937-eggsalted-chickencow": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1937-eggsalted-chickencow",
+                "fullSlug": "quests\/1937-eggsalted-chickencow",
+                "id": 1937,
+                "name": "Eggsalted Chickencow",
+                "description": "Wherever reality has gone, it is not here."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1937,
+                    "name": "Eggsalted Chickencow",
+                    "description": "Wherever reality has gone, it is not here.",
+                    "complete": "The faint smell of bacon and eggs wafts through the air, the final lingering affronts to the stability of the fabric of the universe.",
+                    "swf": "towns\/TimeArena\/quest2-exchickencow.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Chickencow",
+                    "monsterGroupSwf": "mset-eggsalted-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

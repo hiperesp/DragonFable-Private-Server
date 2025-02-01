@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13621-runed-hawk-cloak-vi",
+        "fullSlug": "items\/13621-runed-hawk-cloak-vi",
+        "id": 13621,
+        "name": "Runed Hawk Cloak VI",
+        "description": "You instantly feel smarter when you put this on. It looks amazing too. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13621,
+            "name": "Runed Hawk Cloak VI",
+            "description": "You instantly feel smarter when you put this on. It looks amazing too. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/RHCape.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 9,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Water,10,Darkness,10,Immobility,4,Mana,-3"
+        }
+    },
+    "related": {
+        "1249-missed-raven": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1249-missed-raven",
+                "fullSlug": "quests\/1249-missed-raven",
+                "id": 1249,
+                "name": "Missed Raven",
+                "description": "Find your way safely through the Doomwood!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1249,
+                    "name": "Missed Raven",
+                    "description": "Find your way safely through the Doomwood!",
+                    "complete": "Thursday was the only one in Amityvale to welcome Raven in, now Raven won't rest until she saves Thursday!",
+                    "swf": "towns\/3Amityvale\/quest-missedraven.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Vampires, werewolves, and bats, oh my",
+                    "monsterGroupSwf": "mset-bloodpatrol.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

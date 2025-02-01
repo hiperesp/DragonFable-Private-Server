@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13720-ascended-cloak",
+        "fullSlug": "items\/13720-ascended-cloak",
+        "id": 13720,
+        "name": "Ascended Cloak",
+        "description": "This cloak is a sign that you have triumphed and become an Ascended. Wear it with pride as you've done what few others ever are allowed to."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13720,
+            "name": "Ascended Cloak",
+            "description": "This cloak is a sign that you have triumphed and become an Ascended. Wear it with pride as you've done what few others ever are allowed to.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Bacon",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-AscendCloak.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Water,3,Darkness,2"
+        }
+    },
+    "related": {
+        "433-ascendant-cc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "433-ascendant-cc",
+                "fullSlug": "item-shops\/433-ascendant-cc",
+                "id": 433,
+                "name": "Ascendant CC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 433,
+                    "name": "Ascendant CC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

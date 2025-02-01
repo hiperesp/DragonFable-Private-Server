@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9409-scarab-doomlight-helm",
+        "fullSlug": "items\/9409-scarab-doomlight-helm",
+        "id": 9409,
+        "name": "Scarab DoomLight Helm",
+        "description": "A helm created for the greatest warriors of Light!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9409,
+            "name": "Scarab DoomLight Helm",
+            "description": "A helm created for the greatest warriors of Light!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-scarabseppy.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 9,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Darkness,10,Stone,10,Disease,10,Fire,7,Immobility,4,All,3"
+        }
+    },
+    "related": {
+        "327-masub-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "327-masub-dc",
+                "fullSlug": "item-shops\/327-masub-dc",
+                "id": 327,
+                "name": "Masub DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 327,
+                    "name": "Masub DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9321-on-wings-of-bacon",
+        "fullSlug": "items\/9321-on-wings-of-bacon",
+        "id": 9321,
+        "name": "On Wings Of Bacon",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9321,
+            "name": "On Wings Of Bacon"
+        }
+    },
+    "related": {
+        "136-on-wings-of-bacon": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "136-on-wings-of-bacon",
+                "fullSlug": "merge-shops\/136-on-wings-of-bacon",
+                "id": 136,
+                "name": "On Wings of Bacon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 136,
+                    "name": "On Wings of Bacon"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1976,
+                    "mergeShopId": 136,
+                    "mergeId": 1868
+                },
+                "merge": {
+                    "id": 1868,
+                    "itemId1": 9321,
+                    "amount1": 1,
+                    "itemId2": 9337,
+                    "amount2": 1,
+                    "itemId": 9322,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22287-pirate-s-reign-iii",
+        "fullSlug": "items\/22287-pirate-s-reign-iii",
+        "id": 22287,
+        "name": "Pirate's Reign III",
+        "description": "A legendary pirate captain once used this sword to rule eastern coasts. On one moonless night, his ship disappeared, crew and all, leaving nothing but the waves behind."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22287,
+            "name": "Pirate's Reign III",
+            "description": "A legendary pirate captain once used this sword to rule eastern coasts. On one moonless night, his ship disappeared, crew and all, leaving nothing but the waves behind.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-piratesreign.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 65,
+            "damageMax": 71,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,3,Light,3,Darkness,3,Health,-3"
+        }
+    },
+    "related": {
+        "2210-trawling-for-treasures": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2210-trawling-for-treasures",
+                "fullSlug": "quests\/2210-trawling-for-treasures",
+                "id": 2210,
+                "name": "Trawling for Treasures",
+                "description": "Under the storm-tossed waves off the coast of Osprey Cove, the remains and treasures of many a pirate awaits those brave enough to trawl the depths."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2210,
+                    "swf": "towns\/3OspreyCove\/random-seabed.swf",
+                    "swfX": "none",
+                    "extra": "",
+                    "name": "Trawling for Treasures",
+                    "description": "Under the storm-tossed waves off the coast of Osprey Cove, the remains and treasures of many a pirate awaits those brave enough to trawl the depths.",
+                    "complete": "Did you find the treasure you were hoping for?",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "underwater undead pirates",
+                    "monsterGroupSwf": "mset-ospreytreasure.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

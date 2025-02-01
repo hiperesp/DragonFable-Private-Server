@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12624-shadowed-deathknight-belt-iv",
+        "fullSlug": "items\/12624-shadowed-deathknight-belt-iv",
+        "id": 12624,
+        "name": "Shadowed DeathKnight Belt IV",
+        "description": "You've enhanced your belt with shadow energy. It feels as though you aren't clasping anything around your waist as you put it on."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12624,
+            "name": "Shadowed DeathKnight Belt IV",
+            "description": "You've enhanced your belt with shadow energy. It feels as though you aren't clasping anything around your waist as you put it on.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 11,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,8,Darkness,8,Good,1,Evil,1,Immobility,7"
+        }
+    },
+    "related": {
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2514,
+                    "mergeShopId": 210,
+                    "mergeId": 2426
+                },
+                "merge": {
+                    "id": 2426,
+                    "itemId1": 12623,
+                    "amount1": 1,
+                    "itemId2": 12581,
+                    "amount2": 1,
+                    "itemId": 12624,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "341-relics-of-zeclem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "341-relics-of-zeclem",
+                "fullSlug": "merge-shops\/341-relics-of-zeclem",
+                "id": 341,
+                "name": "Relics of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 341,
+                    "name": "Relics of Zeclem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3579,
+                    "mergeShopId": 341,
+                    "mergeId": 3677
+                },
+                "merge": {
+                    "id": 3677,
+                    "itemId1": 12624,
+                    "amount1": 1,
+                    "itemId2": 20120,
+                    "amount2": 5,
+                    "itemId": 20149,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

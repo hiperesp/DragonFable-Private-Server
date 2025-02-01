@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4884-jet-altar-dagger",
+        "fullSlug": "items\/4884-jet-altar-dagger",
+        "id": 4884,
+        "name": "Jet Altar Dagger",
+        "description": "Hewn from the Stone around the ChaosWeaver temple altar, this dagger will slice through the strongest of enemies!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4884,
+            "name": "Jet Altar Dagger",
+            "description": "Hewn from the Stone around the ChaosWeaver temple altar, this dagger will slice through the strongest of enemies!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 51,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-altar.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 62,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,7,Stone,7,Immobility,4"
+        }
+    },
+    "related": {
+        "718-altar-hill": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "718-altar-hill",
+                "fullSlug": "quests\/718-altar-hill",
+                "id": 718,
+                "name": "Altar Hill",
+                "description": "Do you hear that horrible chanting?  It fills your blood with fear!  And what's that you see tied up there?  It's- it's-"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 718,
+                    "name": "Altar Hill",
+                    "description": "Do you hear that horrible chanting?  It fills your blood with fear!  And what's that you see tied up there?  It's- it's-",
+                    "complete": "You saved Riadne!  AND you defeated the ChaosWeaver Queen!  AND found a Key!  Time to get back to the Equilibrium Gate!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix8-sec-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "underground",
+                    "monsterGroupSwf": "mset-chaosweavers.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

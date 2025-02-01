@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6270-cysero-s-magic-stick",
+        "fullSlug": "items\/6270-cysero-s-magic-stick",
+        "id": 6270,
+        "name": "Cysero's Magic Stick",
+        "description": "This gnarled stick is topped by a magical orb. Go ahead and look in there. I dare you. Go on. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6270,
+            "name": "Cysero's Magic Stick",
+            "description": "This gnarled stick is topped by a magical orb. Go ahead and look in there. I dare you. Go on. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5017,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 70,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-cyersosticknew.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 0,
+            "wisdom": 7,
+            "damageMin": 72,
+            "damageMax": 94,
+            "defenseMelee": 6,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Bacon,11,Ebil,5,Immobility,5,Shrink,-2"
+        }
+    },
+    "related": {
+        "842-swordhaven-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "842-swordhaven-forest",
+                "fullSlug": "quests\/842-swordhaven-forest",
+                "id": 842,
+                "name": "Swordhaven Forest",
+                "description": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 842,
+                    "name": "Swordhaven Forest",
+                    "description": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!",
+                    "complete": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!",
+                    "swf": "random\/random-sh-forest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        },
+        "844-mutant-caves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "844-mutant-caves",
+                "fullSlug": "quests\/844-mutant-caves",
+                "id": 844,
+                "name": "Mutant Caves",
+                "description": "The mutant caves at the bottom of the Swordhaven Sewers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 844,
+                    "name": "Mutant Caves",
+                    "description": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "complete": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "swf": "random\/random-sh-mutant-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sewer monsters",
+                    "monsterGroupSwf": "mset-sewers.swf"
+                }
+            },
+            "related": []
+        },
+        "845-swordhaven-fields": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "845-swordhaven-fields",
+                "fullSlug": "quests\/845-swordhaven-fields",
+                "id": 845,
+                "name": "Swordhaven Fields",
+                "description": "The Swordhaven Fields are being dug up by boars and rodents."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 845,
+                    "name": "Swordhaven Fields",
+                    "description": "The Swordhaven Fields are being dug up by boars and rodents.",
+                    "complete": "The Swordhaven Fields are being dug up by boars and rodents.",
+                    "swf": "random\/random-sh-fields.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rats, plants, boars",
+                    "monsterGroupSwf": "mset-shfields-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

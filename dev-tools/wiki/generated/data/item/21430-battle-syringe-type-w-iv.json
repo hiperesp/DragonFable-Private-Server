@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21430-battle-syringe-type-w-iv",
+        "fullSlug": "items\/21430-battle-syringe-type-w-iv",
+        "id": 21430,
+        "name": "Battle Syringe Type W IV",
+        "description": "From the laboratory of Infinite Terror comes a prototype syringe that has been adapted for battle purposes! Please note: The liquid inside is not intended for hero consumption."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21430,
+            "name": "Battle Syringe Type W IV",
+            "description": "From the laboratory of Infinite Terror comes a prototype syringe that has been adapted for battle purposes! Please note: The liquid inside is not intended for hero consumption.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 50,
+            "level": 40,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-syringe.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 120,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 20,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Water,4"
+        }
+    },
+    "related": {
+        "2033-lovesick": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2033-lovesick",
+                "fullSlug": "quests\/2033-lovesick",
+                "id": 2033,
+                "name": "Lovesick",
+                "description": "The Forest of Infinite Terror just isn't the same without Big Daddy... And, like usual, it looks like you're the only one who can help."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2033,
+                    "name": "Lovesick",
+                    "description": "The Forest of Infinite Terror just isn't the same without Big Daddy... And, like usual, it looks like you're the only one who can help.",
+                    "complete": "And so, Hero's Heart Day was saved, and love can be spread to all once more!",
+                    "swf": "towns\/heroheart\/HHD23\/quest-lovesick.swf",
+                    "swfX": "towns\/heroheart\/HHD23\/quest-lovesick-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "cells, doom",
+                    "monsterGroupSwf": "mset-doomcell.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

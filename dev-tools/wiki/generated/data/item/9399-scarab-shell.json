@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9399-scarab-shell",
+        "fullSlug": "items\/9399-scarab-shell",
+        "id": 9399,
+        "name": "Scarab Shell",
+        "description": "A ring carved from an iridescent scarab shell! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9399,
+            "name": "Scarab Shell",
+            "description": "A ring carved from an iridescent scarab shell! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 67,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Light,8,Stone,8,Nature,6,Poison,6"
+        }
+    },
+    "related": {
+        "324-kamilah": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "324-kamilah",
+                "fullSlug": "item-shops\/324-kamilah",
+                "id": 324,
+                "name": "Kamilah",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 324,
+                    "name": "Kamilah",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2301-death-s-scythe",
+        "fullSlug": "items\/2301-death-s-scythe",
+        "id": 2301,
+        "name": "Death's Scythe",
+        "description": "You managed to beat Death.  Now almost nothing is certain! Although his scythe is cursed, it has a small chance to damage your enemies. Not a very effective theft deterrent on Death's part.   This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2301,
+            "name": "Death's Scythe",
+            "description": "You managed to beat Death.  Now almost nothing is certain! Although his scythe is cursed, it has a small chance to damage your enemies. Not a very effective theft deterrent on Death's part.   This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 50,
+            "level": 30,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-bacon8.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": -1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 58,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Light,2"
+        }
+    },
+    "related": {
+        "372-no-horsing-around": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "372-no-horsing-around",
+                "fullSlug": "quests\/372-no-horsing-around",
+                "id": 372,
+                "name": "No Horsing Around",
+                "description": "Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 372,
+                    "name": "No Horsing Around",
+                    "description": "Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts.",
+                    "complete": "Death is but a door, time is but a window.  You'll be back.",
+                    "swf": "quests\/Zeuster\/quest-bacon8.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness monsters",
+                    "monsterGroupSwf": "mset-bacon8.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

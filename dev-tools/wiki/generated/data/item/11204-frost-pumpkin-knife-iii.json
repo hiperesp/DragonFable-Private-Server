@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11204-frost-pumpkin-knife-iii",
+        "fullSlug": "items\/11204-frost-pumpkin-knife-iii",
+        "id": 11204,
+        "name": "Frost Pumpkin Knife III",
+        "description": "A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11204,
+            "name": "Frost Pumpkin Knife III",
+            "description": "A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 35,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-FrostPumpkin.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 6,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 5,
+            "endurance": 1,
+            "wisdom": 5,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Darkness,5,Immobility,1"
+        }
+    },
+    "related": {
+        "390-frostval-13-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "390-frostval-13-dc",
+                "fullSlug": "item-shops\/390-frostval-13-dc",
+                "id": 390,
+                "name": "Frostval 13 DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 390,
+                    "name": "Frostval 13 DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

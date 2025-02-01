@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5411-warrior-of-chaos-iv",
+        "fullSlug": "items\/5411-warrior-of-chaos-iv",
+        "id": 5411,
+        "name": "Warrior of Chaos IV",
+        "description": "Sleek and deadly looking, this helm's visor lifts to provide a better view for finding enemies! This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5411,
+            "name": "Warrior of Chaos IV",
+            "description": "Sleek and deadly looking, this helm's visor lifts to provide a better view for finding enemies! This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 7300,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 14,
+            "level": 65,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-WarriorofChaos-r1.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Wind,9,Water,9,Light,9,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "759-surehunter-woes": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "759-surehunter-woes",
+                "fullSlug": "quests\/759-surehunter-woes",
+                "id": 759,
+                "name": "Surehunter Woes",
+                "description": "Can you catch up to Trey in time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 759,
+                    "name": "Surehunter Woes",
+                    "description": "Can you catch up to Trey in time?",
+                    "complete": "Trey won't be giving up the Blade of Awe or the Earth Orb without a fight...",
+                    "swf": "towns\/willowshire\/quest-earth16-trey.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "earth and sun",
+                    "monsterGroupSwf": "mset-earth16.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

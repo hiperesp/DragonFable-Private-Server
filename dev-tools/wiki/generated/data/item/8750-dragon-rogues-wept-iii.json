@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8750-dragon-rogues-wept-iii",
+        "fullSlug": "items\/8750-dragon-rogues-wept-iii",
+        "id": 8750,
+        "name": "Dragon Rogues Wept III",
+        "description": "Inspired by the all-powerful Reki, these daggers will cause your enemies to weep blood. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8750,
+            "name": "Dragon Rogues Wept III",
+            "description": "Inspired by the all-powerful Reki, these daggers will cause your enemies to weep blood. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 31,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-HHD-wept.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 46,
+            "damageMax": 62,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Water,3,Wind,3,Darkness,3"
+        }
+    },
+    "related": {
+        "307-hhd13-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "307-hhd13-gold",
+                "fullSlug": "item-shops\/307-hhd13-gold",
+                "id": 307,
+                "name": "HHD13 Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 307,
+                    "name": "HHD13 Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

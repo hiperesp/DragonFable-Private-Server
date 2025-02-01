@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3044-triks-the-moglin",
+        "fullSlug": "items\/3044-triks-the-moglin",
+        "id": 3044,
+        "name": "Triks the Moglin",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3044,
+            "name": "Triks the Moglin"
+        }
+    },
+    "related": {
+        "60-dc-mogloween-pet": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "60-dc-mogloween-pet",
+                "fullSlug": "merge-shops\/60-dc-mogloween-pet",
+                "id": 60,
+                "name": "DC Mogloween Pet",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 60,
+                    "name": "DC Mogloween Pet"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 855,
+                    "mergeShopId": 60,
+                    "mergeId": 564
+                },
+                "merge": {
+                    "id": 564,
+                    "itemId1": 3044,
+                    "amount1": 1,
+                    "itemId2": 864,
+                    "amount2": 6,
+                    "itemId": 3156,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10867-bloody-skullstaff-of-doom",
+        "fullSlug": "items\/10867-bloody-skullstaff-of-doom",
+        "id": 10867,
+        "name": "Bloody Skullstaff of Doom",
+        "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You think your exposure to this much evil might be affecting you..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10867,
+            "name": "Bloody Skullstaff of Doom",
+            "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You think your exposure to this much evil might be affecting you...",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 3,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/dooms\/staff-doom3.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 9,
+            "luck": -7,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 67,
+            "damageMax": 103,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": ""
+        }
+    },
+    "related": {
+        "193-bloody-dooms": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "193-bloody-dooms",
+                "fullSlug": "merge-shops\/193-bloody-dooms",
+                "id": 193,
+                "name": "Bloody Dooms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 193,
+                    "name": "Bloody Dooms"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2199,
+                    "mergeShopId": 193,
+                    "mergeId": 2045
+                },
+                "merge": {
+                    "id": 2045,
+                    "itemId1": 7029,
+                    "amount1": 1,
+                    "itemId2": 10780,
+                    "amount2": 13,
+                    "itemId": 10867,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "194-sanguine-dooms": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "194-sanguine-dooms",
+                "fullSlug": "merge-shops\/194-sanguine-dooms",
+                "id": 194,
+                "name": "Sanguine Dooms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 194,
+                    "name": "Sanguine Dooms"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2202,
+                    "mergeShopId": 194,
+                    "mergeId": 2048
+                },
+                "merge": {
+                    "id": 2048,
+                    "itemId1": 10867,
+                    "amount1": 1,
+                    "itemId2": 10780,
+                    "amount2": 13,
+                    "itemId": 10870,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

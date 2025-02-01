@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18480-turducken-wings-ii",
+        "fullSlug": "items\/18480-turducken-wings-ii",
+        "id": 18480,
+        "name": "Turducken Wings II",
+        "description": "Magical wings of a majestic turducken. Ruby says these are \"realistic\" but they don't resemble the wings of any turducken you know."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18480,
+            "name": "Turducken Wings II",
+            "description": "Magical wings of a majestic turducken. Ruby says these are \"realistic\" but they don't resemble the wings of any turducken you know.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 20,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-thankstaking18.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,2"
+        }
+    },
+    "related": {
+        "1561-return-of-the-felonious-five": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1561-return-of-the-felonious-five",
+                "fullSlug": "quests\/1561-return-of-the-felonious-five",
+                "id": 1561,
+                "name": "Return of the Felonious Five",
+                "description": "A beautiful day in Falconreach! But Thankstaking is just around the corner... What could go wrong?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1561,
+                    "name": "Return of the Felonious Five",
+                    "description": "A beautiful day in Falconreach! But Thankstaking is just around the corner... What could go wrong?",
+                    "complete": "That was definitely different. Here comes trouble!",
+                    "swf": "towns\/Thankstaking\/tt18\/quest1-returns.swf",
+                    "swfX": "towns\/Thankstaking\/tt18\/quest1-returns-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "food assorted",
+                    "monsterGroupSwf": "mset-thankstaking17.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

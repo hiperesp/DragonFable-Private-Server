@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4495-harvest-reaper-iv",
+        "fullSlug": "items\/4495-harvest-reaper-iv",
+        "id": 4495,
+        "name": "Harvest Reaper IV",
+        "description": "The ultimate weapon for reaping what you sow! Click on the Jack-o-Lantern to change elements from Fire to Nature! Happy Mogloween 2010! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4495,
+            "name": "Harvest Reaper IV",
+            "description": "The ultimate weapon for reaping what you sow! Click on the Jack-o-Lantern to change elements from Fire to Nature! Happy Mogloween 2010! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 60,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-HarvestReaper-r1.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 85,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,8,Fire,8,Darkness,8,Immobility,8"
+        }
+    },
+    "related": {
+        "78-harvest-reaper-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "78-harvest-reaper-60",
+                "fullSlug": "merge-shops\/78-harvest-reaper-60",
+                "id": 78,
+                "name": "Harvest Reaper 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 78,
+                    "name": "Harvest Reaper 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1108,
+                    "mergeShopId": 78,
+                    "mergeId": 820
+                },
+                "merge": {
+                    "id": 820,
+                    "itemId1": 4494,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4495,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "98-harvest-reaper-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "98-harvest-reaper-70",
+                "fullSlug": "merge-shops\/98-harvest-reaper-70",
+                "id": 98,
+                "name": "Harvest Reaper 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 98,
+                    "name": "Harvest Reaper 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1352,
+                    "mergeShopId": 98,
+                    "mergeId": 1181
+                },
+                "merge": {
+                    "id": 1181,
+                    "itemId1": 4495,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6032,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

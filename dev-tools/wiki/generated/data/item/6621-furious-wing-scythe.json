@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6621-furious-wing-scythe",
+        "fullSlug": "items\/6621-furious-wing-scythe",
+        "id": 6621,
+        "name": "Furious Wing Scythe",
+        "description": "This weapon has been handed down by an ancient civilization that worshiped the Furies as gods. Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6621,
+            "name": "Furious Wing Scythe",
+            "description": "This weapon has been handed down by an ancient civilization that worshiped the Furies as gods. Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 70,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-carnivalescythe-r1.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 8,
+            "damageMin": 78,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,13,Wind,13,Fire,13,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "104-furious-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "104-furious-scythe",
+                "fullSlug": "merge-shops\/104-furious-scythe",
+                "id": 104,
+                "name": "Furious Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 104,
+                    "name": "Furious Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1445,
+                    "mergeShopId": 104,
+                    "mergeId": 1338
+                },
+                "merge": {
+                    "id": 1338,
+                    "itemId1": 6621,
+                    "amount1": 1,
+                    "itemId2": 6623,
+                    "amount2": 1,
+                    "itemId": 6622,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

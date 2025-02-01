@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "179-sir-jeffery-s-can-opener",
+        "fullSlug": "items\/179-sir-jeffery-s-can-opener",
+        "id": 179,
+        "name": "Sir Jeffery's Can Opener",
+        "description": "Decades ago Sir Jeffery had this sword specially made to help get through his opponents armor."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 179,
+            "name": "Sir Jeffery's Can Opener",
+            "description": "Decades ago Sir Jeffery had this sword specially made to help get through his opponents armor.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 700,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 8,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-jeffsword.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 18,
+            "damageMax": 28,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "12-creepy-undead-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "12-creepy-undead-forest",
+                "fullSlug": "quests\/12-creepy-undead-forest",
+                "id": 12,
+                "name": "Creepy Undead Forest",
+                "description": "A forest that has been overtaken by the vile undead."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 12,
+                    "name": "Creepy Undead Forest",
+                    "description": "A forest that has been overtaken by the vile undead.",
+                    "complete": "A forest that has been overtaken by the vile undead.",
+                    "swf": "random\/random-creepy.swf",
+                    "swfX": "none",
+                    "maxSilver": 10,
+                    "maxGold": 300,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Undead",
+                    "monsterGroupSwf": "mset-creepyundead.swf"
+                }
+            },
+            "related": []
+        },
+        "24-watery-exploration": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "24-watery-exploration",
+                "fullSlug": "quests\/24-watery-exploration",
+                "id": 24,
+                "name": "Watery Exploration",
+                "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 24,
+                    "name": "Watery Exploration",
+                    "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "complete": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "swf": "random\/random-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Elemental",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

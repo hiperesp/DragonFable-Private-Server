@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17419-dragonoid-dagger-i",
+        "fullSlug": "items\/17419-dragonoid-dagger-i",
+        "id": 17419,
+        "name": "Dragonoid Dagger I",
+        "description": "Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this dagger hums with energy and glory."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17419,
+            "name": "Dragonoid Dagger I",
+            "description": "Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this dagger hums with energy and glory.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 100,
+            "level": 50,
+            "type": "Pierce",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-dragonoid.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 67,
+            "damageMax": 75,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,3"
+        }
+    },
+    "related": {
+        "1442-mechadragon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1442-mechadragon",
+                "fullSlug": "quests\/1442-mechadragon",
+                "id": 1442,
+                "name": "MechaDragon",
+                "description": "The mighty MechaDragon stands before you!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1442,
+                    "name": "MechaDragon",
+                    "description": "The mighty MechaDragon stands before you!",
+                    "complete": "The MechaDragon has fallen to you!",
+                    "swf": "towns\/TimeArena\/quest-mechadragon-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Mechadragon challenge",
+                    "monsterGroupSwf": "mset-mechadragon.swf"
+                }
+            },
+            "related": []
+        },
+        "275-dragonoid-challenge-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "275-dragonoid-challenge-upgrade",
+                "fullSlug": "merge-shops\/275-dragonoid-challenge-upgrade",
+                "id": 275,
+                "name": "Dragonoid Challenge Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 275,
+                    "name": "Dragonoid Challenge Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3060,
+                    "mergeShopId": 275,
+                    "mergeId": 3068
+                },
+                "merge": {
+                    "id": 3068,
+                    "itemId1": 17419,
+                    "amount1": 1,
+                    "itemId2": 17419,
+                    "amount2": 1,
+                    "itemId": 17423,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

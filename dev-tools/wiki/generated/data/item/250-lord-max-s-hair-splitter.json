@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "250-lord-max-s-hair-splitter",
+        "fullSlug": "items\/250-lord-max-s-hair-splitter",
+        "id": 250,
+        "name": "Lord Max's Hair Splitter",
+        "description": "This dagger was forged in honor of Lord Max II, the second person to obtain the Twin Blades of Doom! This dagger has been sharpened with a secret method and will never lose its razor edge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 250,
+            "name": "Lord Max's Hair Splitter",
+            "description": "This dagger was forged in honor of Lord Max II, the second person to obtain the Twin Blades of Doom! This dagger has been sharpened with a secret method and will never lose its razor edge.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 2,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-lordmax.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 4,
+            "damageMax": 22,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "14-enchanted-grove": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "14-enchanted-grove",
+                "fullSlug": "quests\/14-enchanted-grove",
+                "id": 14,
+                "name": "Enchanted Grove",
+                "description": "A place for wishes and secrets, for madness and dreams."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 14,
+                    "name": "Enchanted Grove",
+                    "description": "A place for wishes and secrets, for madness and dreams.",
+                    "complete": "A place for wishes and secrets, for madness and dreams.",
+                    "swf": "random\/random-faerieforest-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 15,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-faeries-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

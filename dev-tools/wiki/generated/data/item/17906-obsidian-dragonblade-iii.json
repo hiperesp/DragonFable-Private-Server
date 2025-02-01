@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17906-obsidian-dragonblade-iii",
+        "fullSlug": "items\/17906-obsidian-dragonblade-iii",
+        "id": 17906,
+        "name": "Obsidian DragonBlade III",
+        "description": "A DragonBlade forged from blackest diamond from another world. Does bonus damage against dragons and reptilians. Can be upgraded at the Black Market Moglin in Falconreach."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17906,
+            "name": "Obsidian DragonBlade III",
+            "description": "A DragonBlade forged from blackest diamond from another world. Does bonus damage against dragons and reptilians. Can be upgraded at the Black Market Moglin in Falconreach.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 35,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-blackdiamonddragonblade.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 55,
+            "damageMax": 61,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Light,3"
+        }
+    },
+    "related": {
+        "288-black-diamond": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "288-black-diamond",
+                "fullSlug": "merge-shops\/288-black-diamond",
+                "id": 288,
+                "name": "Black Diamond",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 288,
+                    "name": "Black Diamond"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3156,
+                    "mergeShopId": 288,
+                    "mergeId": 3161
+                },
+                "merge": {
+                    "id": 3161,
+                    "itemId1": 17906,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 17907,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

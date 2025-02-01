@@ -1,0 +1,108 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10498-mazurek-s-emerald-thumb-ring",
+        "fullSlug": "items\/10498-mazurek-s-emerald-thumb-ring",
+        "id": 10498,
+        "name": "Mazurek's Emerald Thumb Ring",
+        "description": "Maz has given you one of the rings off her fingers for your help against the ninjas! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10498,
+            "name": "Mazurek's Emerald Thumb Ring",
+            "description": "Maz has given you one of the rings off her fingers for your help against the ninjas! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2900,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 80,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Fire,8,Energy,7,Ice,5,Wind,5,Immobility,2"
+        }
+    },
+    "related": {
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "1087-the-autumn-wind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1087-the-autumn-wind",
+                "fullSlug": "quests\/1087-the-autumn-wind",
+                "id": 1087,
+                "name": "The Autumn Wind",
+                "description": "The best place to find a Captain? Osprey Cove!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1087,
+                    "name": "The Autumn Wind",
+                    "description": "The best place to find a Captain? Osprey Cove!",
+                    "complete": "You helped Captain Mazurek with the ninjas and she has agreed to guide your ship into the winds of the Void!",
+                    "swf": "towns\/3Ravenloss\/quest6-autumnwind-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ninjas",
+                    "monsterGroupSwf": "mset-pnwar-ninjas-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

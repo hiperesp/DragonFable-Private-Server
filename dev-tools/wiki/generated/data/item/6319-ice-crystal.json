@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6319-ice-crystal",
+        "fullSlug": "items\/6319-ice-crystal",
+        "id": 6319,
+        "name": "Ice Crystal",
+        "description": "A crystal of perfect ice, it seems to absorb heat."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6319,
+            "name": "Ice Crystal",
+            "description": "A crystal of perfect ice, it seems to absorb heat.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Ice,5"
+        }
+    },
+    "related": {
+        "847-the-wizards-apprentices": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "847-the-wizards-apprentices",
+                "fullSlug": "quests\/847-the-wizards-apprentices",
+                "id": 847,
+                "name": "The Wizards Apprentices",
+                "description": "A lesson in levitation."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 847,
+                    "name": "The Wizards Apprentices",
+                    "description": "A lesson in levitation.",
+                    "complete": "They still have a lot to learn....",
+                    "swf": "towns\/swordhavenalex\/quest-alex2-levitate-r4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        }
+    }
+}

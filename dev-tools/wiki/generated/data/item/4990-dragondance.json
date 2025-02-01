@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4990-dragondance",
+        "fullSlug": "items\/4990-dragondance",
+        "id": 4990,
+        "name": "Dragondance",
+        "description": "Happy Chinese New Year!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4990,
+            "name": "Dragondance",
+            "description": "Happy Chinese New Year!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dragondance.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,1,Metal,1"
+        }
+    },
+    "related": {
+        "184-dragon-dance-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "184-dragon-dance-mask-shop",
+                "fullSlug": "item-shops\/184-dragon-dance-mask-shop",
+                "id": 184,
+                "name": "Dragon Dance Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 184,
+                    "name": "Dragon Dance Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

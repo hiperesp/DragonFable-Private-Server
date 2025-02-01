@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6869-lightened-techangel-wings",
+        "fullSlug": "items\/6869-lightened-techangel-wings",
+        "id": 6869,
+        "name": "Lightened Techangel Wings",
+        "description": "Crafted from forged brass and gears, these wings will help you defend yourself.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6869,
+            "name": "Lightened Techangel Wings",
+            "description": "Crafted from forged brass and gears, these wings will help you defend yourself.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 33,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-techangel-da.swf",
+            "icon": "wings",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Metal,4,Light,3,All,1"
+        }
+    },
+    "related": {
+        "899-north": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "899-north",
+                "fullSlug": "quests\/899-north",
+                "id": 899,
+                "name": "North",
+                "description": "Is the Professor hiding somewhere in this desolate landscape?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 899,
+                    "name": "North",
+                    "description": "Is the Professor hiding somewhere in this desolate landscape?",
+                    "complete": "HIM?!",
+                    "swf": "towns\/Atrea\/quest5-north-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness, skeles, spider",
+                    "monsterGroupSwf": "mset-deadlands.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

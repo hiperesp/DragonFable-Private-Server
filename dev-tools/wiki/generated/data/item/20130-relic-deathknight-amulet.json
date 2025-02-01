@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20130-relic-deathknight-amulet",
+        "fullSlug": "items\/20130-relic-deathknight-amulet",
+        "id": 20130,
+        "name": "Relic DeathKnight Amulet",
+        "description": "You've enhanced your amulet with shadows. Wearing it allows you to make out odd shapes that seem to just barely come into view. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20130,
+            "name": "Relic DeathKnight Amulet",
+            "description": "You've enhanced your amulet with shadows. Wearing it allows you to make out odd shapes that seem to just barely come into view. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 10,
+            "level": 90,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 16,
+            "wisdom": 16,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 15,
+            "dodge": 15,
+            "block": 15,
+            "resists": "Darkness,13,Light,13,Immobility,10,Health,-3"
+        }
+    },
+    "related": {
+        "341-relics-of-zeclem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "341-relics-of-zeclem",
+                "fullSlug": "merge-shops\/341-relics-of-zeclem",
+                "id": 341,
+                "name": "Relics of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 341,
+                    "name": "Relics of Zeclem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3564,
+                    "mergeShopId": 341,
+                    "mergeId": 3650
+                },
+                "merge": {
+                    "id": 3650,
+                    "itemId1": 12656,
+                    "amount1": 1,
+                    "itemId2": 20120,
+                    "amount2": 5,
+                    "itemId": 20130,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18169-ancient-dragon-scythe-of-the-elements",
+        "fullSlug": "items\/18169-ancient-dragon-scythe-of-the-elements",
+        "id": 18169,
+        "name": "Ancient Dragon Scythe of the Elements",
+        "description": "Forged by the Avatars in ages long past. Now available for DragonFable's anniversary! Allows element selection. Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18169,
+            "name": "Ancient Dragon Scythe of the Elements",
+            "description": "Forged by the Avatars in ages long past. Now available for DragonFable's anniversary! Allows element selection. Visit the Black Market Moglin to upgrade this weapon.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-8ElementsAncient.swf?ver=1",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 52,
+            "damageMax": 92,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Darkness,6,Ice,6,Immobility,1,Health,-2"
+        }
+    },
+    "related": {
+        "597-ancient-dragon-scythe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "597-ancient-dragon-scythe",
+                "fullSlug": "item-shops\/597-ancient-dragon-scythe",
+                "id": 597,
+                "name": "Ancient Dragon Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 597,
+                    "name": "Ancient Dragon Scythe",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "140-ultimate-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "140-ultimate-scythe",
+                "fullSlug": "merge-shops\/140-ultimate-scythe",
+                "id": 140,
+                "name": "Ultimate Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 140,
+                    "name": "Ultimate Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2015,
+                    "mergeShopId": 140,
+                    "mergeId": 3214
+                },
+                "merge": {
+                    "id": 3214,
+                    "itemId1": 18169,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18170,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "293-ancient-dragon-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "293-ancient-dragon-upgrade",
+                "fullSlug": "merge-shops\/293-ancient-dragon-upgrade",
+                "id": 293,
+                "name": "Ancient Dragon Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 293,
+                    "name": "Ancient Dragon Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3192,
+                    "mergeShopId": 293,
+                    "mergeId": 3214
+                },
+                "merge": {
+                    "id": 3214,
+                    "itemId1": 18169,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18170,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

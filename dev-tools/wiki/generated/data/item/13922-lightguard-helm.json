@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13922-lightguard-helm",
+        "fullSlug": "items\/13922-lightguard-helm",
+        "id": 13922,
+        "name": "Lightguard Helm",
+        "description": "There are all sorts of fearsome beings of darkness. Don this helm and show that you will stand against them! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13922,
+            "name": "Lightguard Helm",
+            "description": "There are all sorts of fearsome beings of darkness. Don this helm and show that you will stand against them! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1400,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-CoveredPaladin.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,11,Light,11,Disease,4"
+        }
+    },
+    "related": {
+        "416-paladin-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "416-paladin-items",
+                "fullSlug": "item-shops\/416-paladin-items",
+                "id": 416,
+                "name": "Paladin Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 416,
+                    "name": "Paladin Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

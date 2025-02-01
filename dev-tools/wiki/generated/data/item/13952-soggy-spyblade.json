@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13952-soggy-spyblade",
+        "fullSlug": "items\/13952-soggy-spyblade",
+        "id": 13952,
+        "name": "Soggy Spyblade",
+        "description": "This weapon seems to have been down here for a while and has absorbed the essence of water. Is that good or bad for you?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13952,
+            "name": "Soggy Spyblade",
+            "description": "This weapon seems to have been down here for a while and has absorbed the essence of water. Is that good or bad for you?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-spy_water.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Water,4,Energy,4,Health,-1"
+        }
+    },
+    "related": {
+        "444-drowned-castle": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "444-drowned-castle",
+                "fullSlug": "item-shops\/444-drowned-castle",
+                "id": 444,
+                "name": "Drowned Castle",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 444,
+                    "name": "Drowned Castle",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

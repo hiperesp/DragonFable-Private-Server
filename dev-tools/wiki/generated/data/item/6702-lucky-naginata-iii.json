@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6702-lucky-naginata-iii",
+        "fullSlug": "items\/6702-lucky-naginata-iii",
+        "id": 6702,
+        "name": "Lucky Naginata III",
+        "description": "This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6702,
+            "name": "Lucky Naginata III",
+            "description": "This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 50,
+            "level": 61,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-luckynaginata.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 9,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 66,
+            "damageMax": 88,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Stone,7,Wind,7,Health,-2"
+        }
+    },
+    "related": {
+        "885-it-s-not-easy-being-gold": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "885-it-s-not-easy-being-gold",
+                "fullSlug": "quests\/885-it-s-not-easy-being-gold",
+                "id": 885,
+                "name": "It's Not Easy Being Gold",
+                "description": "It's time to confront whoever is inside the hovel!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 885,
+                    "name": "It's Not Easy Being Gold",
+                    "description": "It's time to confront whoever is inside the hovel!",
+                    "complete": "You... dont really feel that sorry for Zorbak.",
+                    "swf": "towns\/LuckyDay\/Lucky2012\/quest-goldzorbak.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zorbak",
+                    "monsterGroupSwf": "mset-goldzorbak.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

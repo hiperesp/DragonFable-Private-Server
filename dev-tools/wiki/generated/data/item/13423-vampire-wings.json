@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13423-vampire-wings",
+        "fullSlug": "items\/13423-vampire-wings",
+        "id": 13423,
+        "name": "Vampire Wings",
+        "description": "Embrace the night!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13423,
+            "name": "Vampire Wings",
+            "description": "Embrace the night!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 20,
+            "level": 45,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-vampire.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Ice,5"
+        }
+    },
+    "related": {
+        "1231-the-castle-in-the-woods": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1231-the-castle-in-the-woods",
+                "fullSlug": "quests\/1231-the-castle-in-the-woods",
+                "id": 1231,
+                "name": "The Castle in the Woods",
+                "description": "The vampire queen herself now has a nest of vampires in the Doomwood! Could Thursday be there?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1231,
+                    "name": "The Castle in the Woods",
+                    "description": "The vampire queen herself now has a nest of vampires in the Doomwood! Could Thursday be there?",
+                    "complete": "It's time to report back to Magus Neron in Amityvale!",
+                    "swf": "towns\/3Amityvale\/quest7-castleinthewoods-r4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "vampires",
+                    "monsterGroupSwf": "mset-vampiresnew.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

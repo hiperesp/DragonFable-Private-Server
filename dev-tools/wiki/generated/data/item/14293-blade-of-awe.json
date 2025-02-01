@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14293-blade-of-awe",
+        "fullSlug": "items\/14293-blade-of-awe",
+        "id": 14293,
+        "name": "Blade of Awe",
+        "description": "This replica of the legendary Blade of Awe was crafted by Zee and enhanced by Ashendal! It will occasionally heal your Health and Mana! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14293,
+            "name": "Blade of Awe",
+            "description": "This replica of the legendary Blade of Awe was crafted by Zee and enhanced by Ashendal! It will occasionally heal your Health and Mana! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-BladeofAwe.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Wind,6,Water,3,Immobility,1"
+        }
+    },
+    "related": {
+        "450-replica-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "450-replica-weapons",
+                "fullSlug": "item-shops\/450-replica-weapons",
+                "id": 450,
+                "name": "Replica Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 450,
+                    "name": "Replica Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

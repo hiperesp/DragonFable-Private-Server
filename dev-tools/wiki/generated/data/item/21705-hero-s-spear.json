@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21705-hero-s-spear",
+        "fullSlug": "items\/21705-hero-s-spear",
+        "id": 21705,
+        "name": "Hero's Spear",
+        "description": "This spear's legend has grown with yours! Reforged with a mysterious mineral, it is now truly a hero's weapon! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21705,
+            "name": "Hero's Spear",
+            "description": "This spear's legend has grown with yours! Reforged with a mysterious mineral, it is now truly a hero's weapon! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 45,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-pointystickatrea.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 61,
+            "damageMax": 65,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,5,Health,-5"
+        }
+    },
+    "related": {
+        "405-spear-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "405-spear-upgrades",
+                "fullSlug": "merge-shops\/405-spear-upgrades",
+                "id": 405,
+                "name": "Spear Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 405,
+                    "name": "Spear Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4194,
+                    "mergeShopId": 405,
+                    "mergeId": 4308
+                },
+                "merge": {
+                    "id": 4308,
+                    "itemId1": 21921,
+                    "amount1": 1,
+                    "itemId2": 21705,
+                    "amount2": 1,
+                    "itemId": 21919,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

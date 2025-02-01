@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9265-grenwog-dragon-egg-staff-iv",
+        "fullSlug": "items\/9265-grenwog-dragon-egg-staff-iv",
+        "id": 9265,
+        "name": "Grenwog Dragon Egg Staff IV",
+        "description": "Crafted by the elvish weaponsmith Dracelix in honor of Grenwog '13, this weapon displays a very special egg! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9265,
+            "name": "Grenwog Dragon Egg Staff IV",
+            "description": "Crafted by the elvish weaponsmith Dracelix in honor of Grenwog '13, this weapon displays a very special egg! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-grenwog13-DA.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 52,
+            "damageMax": 72,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Water,3,Energy,3,Wind,3,All,1,Health,-2"
+        }
+    },
+    "related": {
+        "320-grenwog-13": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "320-grenwog-13",
+                "fullSlug": "item-shops\/320-grenwog-13",
+                "id": 320,
+                "name": "Grenwog 13",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 320,
+                    "name": "Grenwog 13",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

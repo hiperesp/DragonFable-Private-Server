@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3733-rhoddhu-fur",
+        "fullSlug": "items\/3733-rhoddhu-fur",
+        "id": 3733,
+        "name": "Rhoddhu Fur",
+        "description": "Fur from a ferocious Rhoddhu."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3733,
+            "name": "Rhoddhu Fur",
+            "description": "Fur from a ferocious Rhoddhu.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 99,
+            "level": 1,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluebag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "597-rhoddhu-hunt": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "597-rhoddhu-hunt",
+                "fullSlug": "quests\/597-rhoddhu-hunt",
+                "id": 597,
+                "name": "Rhoddhu Hunt",
+                "description": "The Rhoddhu is indigenous to the snow fields of Ameron, north of Dragesvard where the terrain is quite dangerous. These furry monsters have been terrorizing the different tribes for years, but their fur pelts make for excellent material for fashioning clothes and supplies."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 597,
+                    "name": "Rhoddhu Hunt",
+                    "description": "The Rhoddhu is indigenous to the snow fields of Ameron, north of Dragesvard where the terrain is quite dangerous. These furry monsters have been terrorizing the different tribes for years, but their fur pelts make for excellent material for fashioning clothes and supplies.",
+                    "complete": "Take the Rhoddhu furs you've collected back to Hunter's Paradise for your reward.",
+                    "swf": "towns\/HuntersParadise\/quest-rhoddhu.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "icy",
+                    "monsterGroupSwf": "mset-rhoddhu.swf"
+                }
+            },
+            "related": []
+        },
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1004,
+                    "mergeShopId": 67,
+                    "mergeId": 823
+                },
+                "merge": {
+                    "id": 823,
+                    "itemId1": 3733,
+                    "amount1": 3,
+                    "itemId2": 1202,
+                    "amount2": 3,
+                    "itemId": 4579,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

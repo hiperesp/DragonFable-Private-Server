@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3124-conehead-mask",
+        "fullSlug": "items\/3124-conehead-mask",
+        "id": 3124,
+        "name": "Conehead Mask",
+        "description": "Doubles as a sweet treat on a hot summer day!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3124,
+            "name": "Conehead Mask",
+            "description": "Doubles as a sweet treat on a hot summer day!",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 30,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-mogloween08-conehead.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 4,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Fire,-2"
+        }
+    },
+    "related": {
+        "116-cysero-s-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "116-cysero-s-mask-shop",
+                "fullSlug": "item-shops\/116-cysero-s-mask-shop",
+                "id": 116,
+                "name": "Cysero's Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Cysero's Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

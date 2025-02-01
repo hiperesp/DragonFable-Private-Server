@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1496-heartbreak",
+        "fullSlug": "items\/1496-heartbreak",
+        "id": 1496,
+        "name": "Heartbreak",
+        "description": "This staff has been enchanted with the illusion of a pulsing heart on the top of the staff to gross out your enemies. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1496,
+            "name": "Heartbreak",
+            "description": "This staff has been enchanted with the illusion of a pulsing heart on the top of the staff to gross out your enemies. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 28,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-HH5.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 1,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 56,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4"
+        }
+    },
+    "related": {
+        "19-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "19-hero-s-heart",
+                "fullSlug": "merge-shops\/19-hero-s-heart",
+                "id": 19,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 19,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 293,
+                    "mergeShopId": 19,
+                    "mergeId": 372
+                },
+                "merge": {
+                    "id": 372,
+                    "itemId1": 707,
+                    "amount1": 24,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 1496,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

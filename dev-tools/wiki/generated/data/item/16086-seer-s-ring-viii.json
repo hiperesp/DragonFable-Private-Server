@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16086-seer-s-ring-viii",
+        "fullSlug": "items\/16086-seer-s-ring-viii",
+        "id": 16086,
+        "name": "Seer's Ring VIII",
+        "description": "There is a glittering blue stone on this ring. Staring into it doesn't show you your future, but it does make you feel a little better. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16086,
+            "name": "Seer's Ring VIII",
+            "description": "There is a glittering blue stone on this ring. Staring into it doesn't show you your future, but it does make you feel a little better. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 6,
+            "level": 80,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Water,6,Fire,6,Light,6"
+        }
+    },
+    "related": {
+        "1374-timelines": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1374-timelines",
+                "fullSlug": "quests\/1374-timelines",
+                "id": 1374,
+                "name": "Timelines",
+                "description": "Time to hear out what Jaania has to say..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1374,
+                    "name": "Timelines",
+                    "description": "Time to hear out what Jaania has to say...",
+                    "complete": "What now?",
+                    "swf": "towns\/3swordhaven\/quest3-timelinesredo.swf",
+                    "swfX": "towns\/3swordhaven\/quest3-timelinesredo-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 30000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest",
+                    "monsterGroupSwf": "mset-bacon9.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

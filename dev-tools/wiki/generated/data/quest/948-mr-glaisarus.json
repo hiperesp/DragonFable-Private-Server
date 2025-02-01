@@ -1,0 +1,142 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "948-mr-glaisarus",
+        "fullSlug": "quests\/948-mr-glaisarus",
+        "id": 948,
+        "name": "Mr. Glaisarus",
+        "description": "Find the frozen fiend and end his freezing filching!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 948,
+            "name": "Mr. Glaisarus",
+            "description": "Find the frozen fiend and end his freezing filching!",
+            "complete": "You defeated Mr. Glaisarus!",
+            "swf": "towns\/3Falconreach\/Batoro\/quest-glais.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 500,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 35,
+            "monsterMaxLevel": 35,
+            "monsterType": "snowballs, frozen",
+            "monsterGroupSwf": "mset-batoro-glais.swf"
+        }
+    },
+    "related": {
+        "7508-glaisarus-frosty-staff": {
+            "page": {
+                "slugBase": "items",
+                "slug": "7508-glaisarus-frosty-staff",
+                "fullSlug": "items\/7508-glaisarus-frosty-staff",
+                "id": 7508,
+                "name": "Glaisarus Frosty Staff",
+                "description": "This frosty staff is freezing cold! This item requires a Dragon Amulet."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 7508,
+                    "name": "Glaisarus Frosty Staff",
+                    "description": "This frosty staff is freezing cold! This item requires a Dragon Amulet.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 1,
+                    "currency": 2,
+                    "cost": 3300,
+                    "maxStackSize": 1,
+                    "bonus": 3,
+                    "rarity": 1,
+                    "level": 35,
+                    "type": "Magic",
+                    "element": "Ice",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Staff",
+                    "swf": "items\/staffs\/staff-glaisaurusx.swf",
+                    "icon": "staff",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 4,
+                    "luck": 2,
+                    "charisma": 0,
+                    "endurance": 3,
+                    "wisdom": 3,
+                    "damageMin": 49,
+                    "damageMax": 67,
+                    "defenseMelee": 2,
+                    "defensePierce": 2,
+                    "defenseMagic": 2,
+                    "critical": 4,
+                    "parry": 0,
+                    "dodge": 1,
+                    "block": 0,
+                    "resists": "Water,5,Fire,5,Darkness,5,Immobility,2"
+                }
+            },
+            "related": []
+        },
+        "7509-glaisaurus-staff": {
+            "page": {
+                "slugBase": "items",
+                "slug": "7509-glaisaurus-staff",
+                "fullSlug": "items\/7509-glaisaurus-staff",
+                "id": 7509,
+                "name": "Glaisaurus Staff",
+                "description": "This frosty staff is freezing cold!"
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 7509,
+                    "name": "Glaisaurus Staff",
+                    "description": "This frosty staff is freezing cold!",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 2500,
+                    "maxStackSize": 1,
+                    "bonus": 2,
+                    "rarity": 1,
+                    "level": 35,
+                    "type": "Magic",
+                    "element": "Ice",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Staff",
+                    "swf": "items\/staffs\/staff-glaisaurusx.swf",
+                    "icon": "staff",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 4,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 3,
+                    "wisdom": 0,
+                    "damageMin": 51,
+                    "damageMax": 65,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 2,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": "Water,5,Fire,1,Immobility,1"
+                }
+            },
+            "related": []
+        }
+    }
+}

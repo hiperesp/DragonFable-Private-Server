@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17826-leorilla-mane-belt-iii",
+        "fullSlug": "items\/17826-leorilla-mane-belt-iii",
+        "id": 17826,
+        "name": "Leorilla Mane Belt III",
+        "description": "This belt looks like a tiny Leorilla mane around your waist! It fills you with pride and ferocity! Proof of your conquering the Leorilla and Bearginion challenges. No Leorillas were harmed in the making of this belt. Really!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17826,
+            "name": "Leorilla Mane Belt III",
+            "description": "This belt looks like a tiny Leorilla mane around your waist! It fills you with pride and ferocity! Proof of your conquering the Leorilla and Bearginion challenges. No Leorillas were harmed in the making of this belt. Really!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 5,
+            "level": 65,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Nature,7"
+        }
+    },
+    "related": {
+        "286-leorilla-mane-belt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "286-leorilla-mane-belt",
+                "fullSlug": "merge-shops\/286-leorilla-mane-belt",
+                "id": 286,
+                "name": "Leorilla Mane Belt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 286,
+                    "name": "Leorilla Mane Belt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3143,
+                    "mergeShopId": 286,
+                    "mergeId": 3150
+                },
+                "merge": {
+                    "id": 3150,
+                    "itemId1": 17824,
+                    "amount1": 1,
+                    "itemId2": 17828,
+                    "amount2": 1,
+                    "itemId": 17826,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

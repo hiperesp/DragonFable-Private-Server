@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2255-burning-bloodletter",
+        "fullSlug": "items\/2255-burning-bloodletter",
+        "id": 2255,
+        "name": "Burning Bloodletter",
+        "description": "With its twin blades, this staff is perfect for magic-work or melee-oriented battling, just right for the mage who wants to get their hands dirty!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2255,
+            "name": "Burning Bloodletter",
+            "description": "With its twin blades, this staff is perfect for magic-work or melee-oriented battling, just right for the mage who wants to get their hands dirty!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 22,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon5.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 39,
+            "damageMax": 45,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "356-heart-of-gold": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "356-heart-of-gold",
+                "fullSlug": "quests\/356-heart-of-gold",
+                "id": 356,
+                "name": "Heart of Gold",
+                "description": "Now here's a quest you can really get behind.  It's always good to help out Aria."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 356,
+                    "name": "Heart of Gold",
+                    "description": "Now here's a quest you can really get behind.  It's always good to help out Aria.",
+                    "complete": "Zuester wanting to help Aria?  Maybe he has a heart after all.",
+                    "swf": "quests\/Zeuster\/quest-bacon5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-bacon5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

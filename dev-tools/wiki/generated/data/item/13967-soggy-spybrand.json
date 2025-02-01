@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13967-soggy-spybrand",
+        "fullSlug": "items\/13967-soggy-spybrand",
+        "id": 13967,
+        "name": "Soggy Spybrand",
+        "description": "After being locked away in a chest in the middle of a dark and corrupted dead dragon you aren't sure if these are alright to use. Oh well, waste not want not."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13967,
+            "name": "Soggy Spybrand",
+            "description": "After being locked away in a chest in the middle of a dark and corrupted dead dragon you aren't sure if these are alright to use. Oh well, waste not want not.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-spy_water.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 42,
+            "damageMax": 60,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Energy,3,Health,-1"
+        }
+    },
+    "related": {
+        "444-drowned-castle": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "444-drowned-castle",
+                "fullSlug": "item-shops\/444-drowned-castle",
+                "id": 444,
+                "name": "Drowned Castle",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 444,
+                    "name": "Drowned Castle",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

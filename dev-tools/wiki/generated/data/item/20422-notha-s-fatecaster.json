@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20422-notha-s-fatecaster",
+        "fullSlug": "items\/20422-notha-s-fatecaster",
+        "id": 20422,
+        "name": "Notha's Fatecaster",
+        "description": "A staff forged from a fusion of ancient mechanical and ancient Exalted technology, and further refined. Notha seems to have left this for you to use.\n(Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20422,
+            "name": "Notha's Fatecaster",
+            "description": "A staff forged from a fusion of ancient mechanical and ancient Exalted technology, and further refined. Notha seems to have left this for you to use.\n(Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Fear",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-exaltedphagemana.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "353-notha-s-experiments": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "353-notha-s-experiments",
+                "fullSlug": "merge-shops\/353-notha-s-experiments",
+                "id": 353,
+                "name": "Notha's Experiments",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 353,
+                    "name": "Notha's Experiments"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3666,
+                    "mergeShopId": 353,
+                    "mergeId": 3780
+                },
+                "merge": {
+                    "id": 3780,
+                    "itemId1": 20422,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20444,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

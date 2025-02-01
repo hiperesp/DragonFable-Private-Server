@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6629-wild-wood-necklace",
+        "fullSlug": "items\/6629-wild-wood-necklace",
+        "id": 6629,
+        "name": "Wild Wood Necklace",
+        "description": "A braided length of supple tree bark, the necklace brings you comfort in the darkness of the thickest wood."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6629,
+            "name": "Wild Wood Necklace",
+            "description": "A braided length of supple tree bark, the necklace brings you comfort in the darkness of the thickest wood.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 6,
+            "level": 42,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Water,3,Nature,3"
+        }
+    },
+    "related": {
+        "876-wolf-and-bear": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "876-wolf-and-bear",
+                "fullSlug": "quests\/876-wolf-and-bear",
+                "id": 876,
+                "name": "Wolf and Bear",
+                "description": "Can you complete the challenge set forth by Wolf and Bear?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 876,
+                    "name": "Wolf and Bear",
+                    "description": "Can you complete the challenge set forth by Wolf and Bear?",
+                    "complete": "The test of strength has been passed! You have made your way through the Forest Gate but what lies beyond?",
+                    "swf": "towns\/StoneheartFall\/quest7-forestgate-wolfandbear.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest gate guardians",
+                    "monsterGroupSwf": "mset-wolfandbear.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

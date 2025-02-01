@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15174-smashed-potatoes",
+        "fullSlug": "items\/15174-smashed-potatoes",
+        "id": 15174,
+        "name": "Smashed Potatoes",
+        "description": "The gravy is waaaay too salty. Not even Joules can repair the damage done to the Gravenator and its pet, Gary! Happy Thankstaking '15!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15174,
+            "name": "Smashed Potatoes",
+            "description": "The gravy is waaaay too salty. Not even Joules can repair the damage done to the Gravenator and its pet, Gary! Happy Thankstaking '15!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 35,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-smashedpotatoe.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Fire,4,Water,4"
+        }
+    },
+    "related": {
+        "1326-gravenator": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1326-gravenator",
+                "fullSlug": "quests\/1326-gravenator",
+                "id": 1326,
+                "name": "GRAVENATOR",
+                "description": "Do you DARE ask for extra GRAVY?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1326,
+                    "name": "GRAVENATOR",
+                    "description": "Do you DARE ask for extra GRAVY?",
+                    "complete": "Waaaay too much salt!",
+                    "swf": "towns\/Thankstaking\/tt15\/quest2-gravenator.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 1,
+                    "monsterType": "robot dragon and gary",
+                    "monsterGroupSwf": "mset-gravenator.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

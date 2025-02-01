@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20534-the-adventurefiend-s-visage",
+        "fullSlug": "items\/20534-the-adventurefiend-s-visage",
+        "id": 20534,
+        "name": "The AdventureFiend's Visage",
+        "description": "A replica of the AdventureFiend's face of nightmares.\n(Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20534,
+            "name": "The AdventureFiend's Visage",
+            "description": "A replica of the AdventureFiend's face of nightmares.\n(Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-adventurefiend.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "298-aargh-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "298-aargh-rewards",
+                "fullSlug": "merge-shops\/298-aargh-rewards",
+                "id": 298,
+                "name": "AARGH Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 298,
+                    "name": "AARGH Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3231,
+                    "mergeShopId": 298,
+                    "mergeId": 3843
+                },
+                "merge": {
+                    "id": 3843,
+                    "itemId1": 18514,
+                    "amount1": 25,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20534,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

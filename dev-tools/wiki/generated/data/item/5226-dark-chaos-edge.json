@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5226-dark-chaos-edge",
+        "fullSlug": "items\/5226-dark-chaos-edge",
+        "id": 5226,
+        "name": "Dark Chaos Edge",
+        "description": "It looks like one of the many weapons in En and Tropy's arsenal. You're not sure why it's hidden... but you leave some gold behind just in case."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5226,
+            "name": "Dark Chaos Edge",
+            "description": "It looks like one of the many weapons in En and Tropy's arsenal. You're not sure why it's hidden... but you leave some gold behind just in case.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15600,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 62,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-darkchaos.swf",
+            "icon": "sword",
+            "strength": 7,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 68,
+            "damageMax": 88,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,8,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "156-willowshire-alley": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "156-willowshire-alley",
+                "fullSlug": "item-shops\/156-willowshire-alley",
+                "id": 156,
+                "name": "Willowshire Alley",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 156,
+                    "name": "Willowshire Alley",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

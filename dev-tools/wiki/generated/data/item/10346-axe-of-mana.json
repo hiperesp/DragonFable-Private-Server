@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10346-axe-of-mana",
+        "fullSlug": "items\/10346-axe-of-mana",
+        "id": 10346,
+        "name": "Axe of Mana",
+        "description": "Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10346,
+            "name": "Axe of Mana",
+            "description": "Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 25,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-mana.swf",
+            "icon": "axe",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 47,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3"
+        }
+    },
+    "related": {
+        "363-mana-weapons-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "363-mana-weapons-dc",
+                "fullSlug": "item-shops\/363-mana-weapons-dc",
+                "id": 363,
+                "name": "Mana Weapons DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 363,
+                    "name": "Mana Weapons DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15722-soulforged-sword",
+        "fullSlug": "items\/15722-soulforged-sword",
+        "id": 15722,
+        "name": "SoulForged Sword",
+        "description": "Your very own SoulForged sword! It pulses with might and resolve!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15722,
+            "name": "SoulForged Sword",
+            "description": "Your very own SoulForged sword! It pulses with might and resolve!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 7,
+            "level": 50,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-soulforged.swf",
+            "icon": "sword",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 71,
+            "damageMax": 71,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All, 4"
+        }
+    },
+    "related": {
+        "247-soulforged-sword": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "247-soulforged-sword",
+                "fullSlug": "merge-shops\/247-soulforged-sword",
+                "id": 247,
+                "name": "SoulForged Sword",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 247,
+                    "name": "SoulForged Sword"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2791,
+                    "mergeShopId": 247,
+                    "mergeId": 2800
+                },
+                "merge": {
+                    "id": 2800,
+                    "itemId1": 15721,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15722,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "246-spirit-cast": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "246-spirit-cast",
+                "fullSlug": "merge-shops\/246-spirit-cast",
+                "id": 246,
+                "name": "Spirit Cast",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 246,
+                    "name": "Spirit Cast"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2785,
+                    "mergeShopId": 246,
+                    "mergeId": 2809
+                },
+                "merge": {
+                    "id": 2809,
+                    "itemId1": 15722,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15721,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

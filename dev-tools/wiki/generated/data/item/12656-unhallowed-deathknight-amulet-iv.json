@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12656-unhallowed-deathknight-amulet-iv",
+        "fullSlug": "items\/12656-unhallowed-deathknight-amulet-iv",
+        "id": 12656,
+        "name": "Unhallowed DeathKnight Amulet IV",
+        "description": "You've enhanced your amulet with shadows. Wearing it allows you to make out odd shapes that seem to just barely come into view. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12656,
+            "name": "Unhallowed DeathKnight Amulet IV",
+            "description": "You've enhanced your amulet with shadows. Wearing it allows you to make out odd shapes that seem to just barely come into view. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 14,
+            "wisdom": 14,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 12,
+            "dodge": 12,
+            "block": 12,
+            "resists": "Darkness,11,Light,11,Immobility,9,Health,-1"
+        }
+    },
+    "related": {
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2492,
+                    "mergeShopId": 210,
+                    "mergeId": 2446
+                },
+                "merge": {
+                    "id": 2446,
+                    "itemId1": 12655,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12656,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "341-relics-of-zeclem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "341-relics-of-zeclem",
+                "fullSlug": "merge-shops\/341-relics-of-zeclem",
+                "id": 341,
+                "name": "Relics of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 341,
+                    "name": "Relics of Zeclem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3564,
+                    "mergeShopId": 341,
+                    "mergeId": 3650
+                },
+                "merge": {
+                    "id": 3650,
+                    "itemId1": 12656,
+                    "amount1": 1,
+                    "itemId2": 20120,
+                    "amount2": 5,
+                    "itemId": 20130,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

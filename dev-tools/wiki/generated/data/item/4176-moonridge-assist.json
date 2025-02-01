@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4176-moonridge-assist",
+        "fullSlug": "items\/4176-moonridge-assist",
+        "id": 4176,
+        "name": "Moonridge Assist",
+        "description": "Call in the Moonridge Archers!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4176,
+            "name": "Moonridge Assist",
+            "description": "Call in the Moonridge Archers!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-moonridgeknights.swf",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "155-zardslayer-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "155-zardslayer-shop",
+                "fullSlug": "item-shops\/155-zardslayer-shop",
+                "id": 155,
+                "name": "ZardSlayer Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 155,
+                    "name": "ZardSlayer Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

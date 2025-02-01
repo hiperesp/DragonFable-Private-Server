@@ -1,0 +1,143 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16-noble-sword",
+        "fullSlug": "items\/16-noble-sword",
+        "id": 16,
+        "name": "Noble Sword",
+        "description": "A proud and sturdy blade, made in the style preferred by nobles and kings."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16,
+            "name": "Noble Sword",
+            "description": "A proud and sturdy blade, made in the style preferred by nobles and kings.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 5,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-expensivesword.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 5,
+            "damageMax": 30,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1-yulgar-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "1-yulgar-s-shop",
+                "fullSlug": "item-shops\/1-yulgar-s-shop",
+                "id": 1,
+                "name": "Yulgar's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 1,
+                    "name": "Yulgar's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "6-the-root-of-all-sneevil": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "6-the-root-of-all-sneevil",
+                "fullSlug": "quests\/6-the-root-of-all-sneevil",
+                "id": 6,
+                "name": "The Root of All Sneevil",
+                "description": "Find the lair of the box stealing thieves and recover the lost treasure!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 6,
+                    "name": "The Root of All Sneevil",
+                    "description": "Find the lair of the box stealing thieves and recover the lost treasure!",
+                    "complete": "You have made your way though the sneevil forest, defeating the thieving box-snatchers at every turn, and you didn't even get poison ivy!",
+                    "swf": "random\/random-sneevilforest.swf",
+                    "swfX": "none",
+                    "maxSilver": 1,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-forest-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "388-the-root-of-all-sneevil": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "388-the-root-of-all-sneevil",
+                "fullSlug": "quests\/388-the-root-of-all-sneevil",
+                "id": 388,
+                "name": "The Root of all Sneevil",
+                "description": "Find the lair of the box stealing thieves and recover the lost treasure!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 388,
+                    "name": "The Root of all Sneevil",
+                    "description": "Find the lair of the box stealing thieves and recover the lost treasure!",
+                    "complete": "You have made your way though the sneevil forest, defeating the thieving box-snatchers at every turn, and you didn't even get poison ivy!",
+                    "swf": "towns\/Ash\/random-sneevilforest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-forest-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

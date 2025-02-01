@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2813-crabastian-ii",
+        "fullSlug": "items\/2813-crabastian-ii",
+        "id": 2813,
+        "name": "Crabastian II",
+        "description": "Principal Musician in Crabastian and the AquaForce!  Their newest single is \"Through the Water and Bubbles\"! In stores now! (Not really.)  Dragon Amulet needed."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2813,
+            "name": "Crabastian II",
+            "description": "Principal Musician in Crabastian and the AquaForce!  Their newest single is \"Through the Water and Bubbles\"! In stores now! (Not really.)  Dragon Amulet needed.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 30,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Crabastianr1.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 13,
+            "damageMax": 18,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "487-under-the-sea": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "487-under-the-sea",
+                "fullSlug": "quests\/487-under-the-sea",
+                "id": 487,
+                "name": "Under the Sea",
+                "description": "The hunt for the stolen experimental weapons continues!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 487,
+                    "name": "Under the Sea",
+                    "description": "The hunt for the stolen experimental weapons continues!",
+                    "complete": "Under the sea! Down where it's wetter, the puns are much better.  Take it from me!",
+                    "swf": "quests\/quest-underthesea.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-underthesea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

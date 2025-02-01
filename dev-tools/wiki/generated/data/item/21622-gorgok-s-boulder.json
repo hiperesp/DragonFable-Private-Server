@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21622-gorgok-s-boulder",
+        "fullSlug": "items\/21622-gorgok-s-boulder",
+        "id": 21622,
+        "name": "Gorgok's Boulder",
+        "description": "A massive boulder left behind by Gorgok after being driven away from Willowshire yet again. Will it fit in your backpack? Only one way to find out! Proof of victory over Gorgok, the Relentless."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21622,
+            "name": "Gorgok's Boulder",
+            "description": "A massive boulder left behind by Gorgok after being driven away from Willowshire yet again. Will it fit in your backpack? Only one way to find out! Proof of victory over Gorgok, the Relentless.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2063-gorgok-the-relentless": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2063-gorgok-the-relentless",
+                "fullSlug": "quests\/2063-gorgok-the-relentless",
+                "id": 2063,
+                "name": "Gorgok, the Relentless",
+                "description": "Guess who's back? It's Gorgok, returned for another round, and another attempt at conquering Willowshire's Guardian Tower!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2063,
+                    "name": "Gorgok, the Relentless",
+                    "description": "Guess who's back? It's Gorgok, returned for another round, and another attempt at conquering Willowshire's Guardian Tower!",
+                    "complete": "How many times do we have to teach you this lesson, dragon?",
+                    "swf": "towns\/TimeArena\/quest4-gorgok.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Guardian and Gorgok",
+                    "monsterGroupSwf": "mset-arenaggdrag.swf"
+                }
+            },
+            "related": []
+        },
+        "395-willowshire-burns": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "395-willowshire-burns",
+                "fullSlug": "merge-shops\/395-willowshire-burns",
+                "id": 395,
+                "name": "Willowshire Burns",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 395,
+                    "name": "Willowshire Burns"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4166,
+                    "mergeShopId": 395,
+                    "mergeId": 4205
+                },
+                "merge": {
+                    "id": 4205,
+                    "itemId1": 21622,
+                    "amount1": 1,
+                    "itemId2": 21623,
+                    "amount2": 1,
+                    "itemId": 21625,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

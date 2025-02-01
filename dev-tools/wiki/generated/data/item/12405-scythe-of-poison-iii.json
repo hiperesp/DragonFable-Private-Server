@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12405-scythe-of-poison-iii",
+        "fullSlug": "items\/12405-scythe-of-poison-iii",
+        "id": 12405,
+        "name": "Scythe of Poison III",
+        "description": "Scythe filled with poison. Literally."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12405,
+            "name": "Scythe of Poison III",
+            "description": "Scythe filled with poison. Literally.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 50,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-poisonvial.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 62,
+            "damageMax": 70,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Light,5,Health,-2"
+        }
+    },
+    "related": {
+        "412-bloodflower-s-assortment": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "412-bloodflower-s-assortment",
+                "fullSlug": "item-shops\/412-bloodflower-s-assortment",
+                "id": 412,
+                "name": "Bloodflower's Assortment",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 412,
+                    "name": "Bloodflower's Assortment",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

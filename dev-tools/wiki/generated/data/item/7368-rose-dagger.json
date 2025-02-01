@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7368-rose-dagger",
+        "fullSlug": "items\/7368-rose-dagger",
+        "id": 7368,
+        "name": "Rose Dagger",
+        "description": "Rose-Approved: Absolutely, positively not elemental at all. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7368,
+            "name": "Rose Dagger",
+            "description": "Rose-Approved: Absolutely, positively not elemental at all. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 3,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-rose-3.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 17,
+            "damageMax": 21,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "273-rose-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "273-rose-weapons",
+                "fullSlug": "item-shops\/273-rose-weapons",
+                "id": 273,
+                "name": "Rose Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 273,
+                    "name": "Rose Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "265-vile-infused-rose": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "265-vile-infused-rose",
+                "fullSlug": "merge-shops\/265-vile-infused-rose",
+                "id": 265,
+                "name": "Vile Infused Rose",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 265,
+                    "name": "Vile Infused Rose"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2988,
+                    "mergeShopId": 265,
+                    "mergeId": 2979
+                },
+                "merge": {
+                    "id": 2979,
+                    "itemId1": 7368,
+                    "amount1": 1,
+                    "itemId2": 17101,
+                    "amount2": 1,
+                    "itemId": 17083,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

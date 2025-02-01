@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "916-unlucky-twin-blades-of-doom",
+        "fullSlug": "items\/916-unlucky-twin-blades-of-doom",
+        "id": 916,
+        "name": "Unlucky Twin Blades of Doom",
+        "description": "So much DOOM, it hurts!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 916,
+            "name": "Unlucky Twin Blades of Doom",
+            "description": "So much DOOM, it hurts!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 12,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/dooms\/dagger-doom.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": -3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "27-more-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "27-more-doom",
+                "fullSlug": "merge-shops\/27-more-doom",
+                "id": 27,
+                "name": "More Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 27,
+                    "name": "More Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 393,
+                    "mergeShopId": 27,
+                    "mergeId": 242
+                },
+                "merge": {
+                    "id": 242,
+                    "itemId1": 664,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 5,
+                    "itemId": 916,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 464,
+                    "mergeShopId": 32,
+                    "mergeId": 310
+                },
+                "merge": {
+                    "id": 310,
+                    "itemId1": 916,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 8,
+                    "itemId": 1260,
+                    "string": 1,
+                    "index": 2,
+                    "value": 15,
+                    "level": 10
+                }
+            }
+        },
+        "39-purify": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "39-purify",
+                "fullSlug": "merge-shops\/39-purify",
+                "id": 39,
+                "name": "Purify",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 39,
+                    "name": "Purify"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 666,
+                    "mergeShopId": 39,
+                    "mergeId": 414
+                },
+                "merge": {
+                    "id": 414,
+                    "itemId1": 916,
+                    "amount1": 1,
+                    "itemId2": 1594,
+                    "amount2": 10,
+                    "itemId": 1712,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

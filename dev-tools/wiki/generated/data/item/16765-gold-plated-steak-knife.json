@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16765-gold-plated-steak-knife",
+        "fullSlug": "items\/16765-gold-plated-steak-knife",
+        "id": 16765,
+        "name": "Gold-Plated Steak Knife",
+        "description": "A gold-plated steak knife to commemorate the 2016 Thankstaking celebration! Super cool! Using it to actually cut steak would probably be a bad idea. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16765,
+            "name": "Gold-Plated Steak Knife",
+            "description": "A gold-plated steak knife to commemorate the 2016 Thankstaking celebration! Super cool! Using it to actually cut steak would probably be a bad idea. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-goldplated.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 14,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 10,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 74,
+            "damageMax": 96,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Water,10,Energy,5"
+        }
+    },
+    "related": {
+        "1394-sibling-rivalry": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1394-sibling-rivalry",
+                "fullSlug": "quests\/1394-sibling-rivalry",
+                "id": 1394,
+                "name": "Sibling Rivalry",
+                "description": "Joules is at it again. Head to the Armory and deal with Joules so Thankstaking can be enjoyed."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1394,
+                    "name": "Sibling Rivalry",
+                    "description": "Joules is at it again. Head to the Armory and deal with Joules so Thankstaking can be enjoyed.",
+                    "complete": "Thanks to Eric and the Barrel Chested Men, Thankstaking is saved this year! Whatever Joules tries in the future, we'll be ready.\nHappy Thanksgiving!",
+                    "swf": "towns\/Thankstaking\/tt16\/quest3-sibling-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food!",
+                    "monsterGroupSwf": "mset-thanks16-2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

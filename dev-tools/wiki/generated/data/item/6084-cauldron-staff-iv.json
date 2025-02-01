@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6084-cauldron-staff-iv",
+        "fullSlug": "items\/6084-cauldron-staff-iv",
+        "id": 6084,
+        "name": "Cauldron Staff IV",
+        "description": "Your reward from the Cauldron Sisters for finding Bubble and Bubble during Mogloween, 2011!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6084,
+            "name": "Cauldron Staff IV",
+            "description": "Your reward from the Cauldron Sisters for finding Bubble and Bubble during Mogloween, 2011!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 48,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Mogloween11.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Ice,6,Darkness,5,Immobility,2"
+        }
+    },
+    "related": {
+        "827-zardbibubble": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "827-zardbibubble",
+                "fullSlug": "quests\/827-zardbibubble",
+                "id": 827,
+                "name": "ZardbiBubble",
+                "description": "You've got to stop the Zardbified Bubble!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 827,
+                    "name": "ZardbiBubble",
+                    "description": "You've got to stop the Zardbified Bubble!",
+                    "complete": "Uhoh... I hope the Sisters can get the Bubbles back to normal before next year!",
+                    "swf": "towns\/Mogloween\/M11\/quest-Croftboss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zardbified bubble",
+                    "monsterGroupSwf": "mset-bubbleboss.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

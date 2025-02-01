@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12505-sundering-emerald",
+        "fullSlug": "items\/12505-sundering-emerald",
+        "id": 12505,
+        "name": "Sundering Emerald",
+        "description": "This beautiful weapon was crafted by Dracelix in honor of Geopetal's Birthday. Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12505,
+            "name": "Sundering Emerald",
+            "description": "This beautiful weapon was crafted by Dracelix in honor of Geopetal's Birthday. Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 70,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-geo.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 8,
+            "damageMin": 78,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,9,Nature,9,Wind,9,Immobility,7,Health,-3"
+        }
+    },
+    "related": {
+        "207-sundering-emerald": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "207-sundering-emerald",
+                "fullSlug": "merge-shops\/207-sundering-emerald",
+                "id": 207,
+                "name": "Sundering Emerald",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 207,
+                    "name": "Sundering Emerald"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2472,
+                    "mergeShopId": 207,
+                    "mergeId": 2389
+                },
+                "merge": {
+                    "id": 2389,
+                    "itemId1": 12505,
+                    "amount1": 1,
+                    "itemId2": 12508,
+                    "amount2": 1,
+                    "itemId": 12506,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

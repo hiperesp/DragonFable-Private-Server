@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20124-zeclem-s-relic-heirloom",
+        "fullSlug": "items\/20124-zeclem-s-relic-heirloom",
+        "id": 20124,
+        "name": "Zeclem's Relic Heirloom",
+        "description": "VI. Zeclem walked outside and looked upon his assembled army of undead. The whisper in his mind told him where he must go next and he obeyed. He set off, his old life gone, he was now a DeathKnight and only the whisper mattered.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20124,
+            "name": "Zeclem's Relic Heirloom",
+            "description": "VI. Zeclem walked outside and looked upon his assembled army of undead. The whisper in his mind told him where he must go next and he obeyed. He set off, his old life gone, he was now a DeathKnight and only the whisper mattered.  ",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 10,
+            "level": 90,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 16,
+            "wisdom": 16,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 15,
+            "dodge": 15,
+            "block": 15,
+            "resists": "Darkness,13,Light,13,Immobility,10,Health,-3"
+        }
+    },
+    "related": {
+        "341-relics-of-zeclem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "341-relics-of-zeclem",
+                "fullSlug": "merge-shops\/341-relics-of-zeclem",
+                "id": 341,
+                "name": "Relics of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 341,
+                    "name": "Relics of Zeclem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3572,
+                    "mergeShopId": 341,
+                    "mergeId": 3648
+                },
+                "merge": {
+                    "id": 3648,
+                    "itemId1": 12656,
+                    "amount1": 1,
+                    "itemId2": 20120,
+                    "amount2": 5,
+                    "itemId": 20124,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

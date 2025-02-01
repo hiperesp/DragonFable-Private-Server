@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "769-dagger-of-falconreach-ii",
+        "fullSlug": "items\/769-dagger-of-falconreach-ii",
+        "id": 769,
+        "name": "Dagger of Falconreach II",
+        "description": "You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 769,
+            "name": "Dagger of Falconreach II",
+            "description": "You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 11,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-falconreach.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 26,
+            "damageMax": 32,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,2"
+        }
+    },
+    "related": {
+        "24-falconreach-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "24-falconreach-shop",
+                "fullSlug": "merge-shops\/24-falconreach-shop",
+                "id": 24,
+                "name": "Falconreach Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 24,
+                    "name": "Falconreach Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 345,
+                    "mergeShopId": 24,
+                    "mergeId": 175
+                },
+                "merge": {
+                    "id": 175,
+                    "itemId1": 762,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 769,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1508,
+                    "mergeShopId": 108,
+                    "mergeId": 1383
+                },
+                "merge": {
+                    "id": 1383,
+                    "itemId1": 769,
+                    "amount1": 1,
+                    "itemId2": 6908,
+                    "amount2": 1,
+                    "itemId": 772,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

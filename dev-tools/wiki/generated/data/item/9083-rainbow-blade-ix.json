@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9083-rainbow-blade-ix",
+        "fullSlug": "items\/9083-rainbow-blade-ix",
+        "id": 9083,
+        "name": "Rainbow Blade IX",
+        "description": "The sharp edge of this rainbow blade will lead you right to gold! How lucky were you during Lucky 13?This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9083,
+            "name": "Rainbow Blade IX",
+            "description": "The sharp edge of this rainbow blade will lead you right to gold! How lucky were you during Lucky 13?This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 73,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-rainbowblade.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 7,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 92,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,6,Energy,6,Water,5,All,2,Health,-3"
+        }
+    },
+    "related": {
+        "132-lucky-13-chest-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "132-lucky-13-chest-items",
+                "fullSlug": "merge-shops\/132-lucky-13-chest-items",
+                "id": 132,
+                "name": "Lucky 13 Chest Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 132,
+                    "name": "Lucky 13 Chest Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1905,
+                    "mergeShopId": 132,
+                    "mergeId": 1826
+                },
+                "merge": {
+                    "id": 1826,
+                    "itemId1": 9083,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9084,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

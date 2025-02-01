@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20536-lightstaff-of-the-eternal",
+        "fullSlug": "items\/20536-lightstaff-of-the-eternal",
+        "id": 20536,
+        "name": "Lightstaff of the Eternal",
+        "description": "A replica of Sek-Duat's staff.\n(Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20536,
+            "name": "Lightstaff of the Eternal",
+            "description": "A replica of Sek-Duat's staff.\n(Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-eternalsekduat.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "298-aargh-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "298-aargh-rewards",
+                "fullSlug": "merge-shops\/298-aargh-rewards",
+                "id": 298,
+                "name": "AARGH Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 298,
+                    "name": "AARGH Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3233,
+                    "mergeShopId": 298,
+                    "mergeId": 3845
+                },
+                "merge": {
+                    "id": 3845,
+                    "itemId1": 18514,
+                    "amount1": 25,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20536,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

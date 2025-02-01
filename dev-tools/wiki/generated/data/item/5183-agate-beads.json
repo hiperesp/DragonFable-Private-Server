@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5183-agate-beads",
+        "fullSlug": "items\/5183-agate-beads",
+        "id": 5183,
+        "name": "Agate Beads",
+        "description": "The colorful lines within the agate stones arch in rainbows of earthen colors. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5183,
+            "name": "Agate Beads",
+            "description": "The colorful lines within the agate stones arch in rainbows of earthen colors. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 56,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Wind,10,Stone,10"
+        }
+    },
+    "related": {
+        "744-reforged": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "744-reforged",
+                "fullSlug": "quests\/744-reforged",
+                "id": 744,
+                "name": "Reforged",
+                "description": "The halves of the earth orb combined!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 744,
+                    "name": "Reforged",
+                    "description": "The halves of the earth orb combined!",
+                    "complete": "The halves of the earth orb combined!",
+                    "swf": "towns\/willowshire\/quest-earth13-BoA.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "earth and nature",
+                    "monsterGroupSwf": "mset-earth13-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

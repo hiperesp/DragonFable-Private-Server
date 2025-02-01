@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2765-sword-of-the-fire-sign",
+        "fullSlug": "items\/2765-sword-of-the-fire-sign",
+        "id": 2765,
+        "name": "Sword of the Fire Sign",
+        "description": "Recovered from Drakonnan's defeated General, Varax, the orbs on this weapon almost look like tiny fire orbs..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2765,
+            "name": "Sword of the Fire Sign",
+            "description": "Recovered from Drakonnan's defeated General, Varax, the orbs on this weapon almost look like tiny fire orbs...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 13,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-firesign.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 29,
+            "damageMax": 37,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,1"
+        }
+    },
+    "related": {
+        "485-the-general": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "485-the-general",
+                "fullSlug": "quests\/485-the-general",
+                "id": 485,
+                "name": "The General",
+                "description": "Can you defeat Varax?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 485,
+                    "name": "The General",
+                    "description": "Can you defeat Varax?",
+                    "complete": "The General is down for the count, but the town is in ashes... and lots of friends are missing...",
+                    "swf": "towns\/FireWar\/quest-firewar9boss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "general varax",
+                    "monsterGroupSwf": "mset-firewar9boss.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

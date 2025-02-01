@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6326-tog-innards",
+        "fullSlug": "items\/6326-tog-innards",
+        "id": 6326,
+        "name": "Tog Innards",
+        "description": "Oh, by the Avatars... the smell is terrible! They'll keep you warm at least... but ugh!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6326,
+            "name": "Tog Innards",
+            "description": "Oh, by the Avatars... the smell is terrible! They'll keep you warm at least... but ugh!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 7,
+            "level": 60,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 6,
+            "charisma": -2,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,8,Ice,8,Wind,8,Immobility,2"
+        }
+    },
+    "related": {
+        "853-frostvale-defense": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "853-frostvale-defense",
+                "fullSlug": "quests\/853-frostvale-defense",
+                "id": 853,
+                "name": "Frostvale Defense",
+                "description": "Rolith has charged you with clearing out the woods around Frostvale of potential dangers!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 853,
+                    "name": "Frostvale Defense",
+                    "description": "Rolith has charged you with clearing out the woods around Frostvale of potential dangers!",
+                    "complete": "Did... did Rolith just kick you out of Frostval?!",
+                    "swf": "towns\/Frostvale\/F11\/quest1-defense.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "frostval monsters",
+                    "monsterGroupSwf": "mset-frostval11-1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

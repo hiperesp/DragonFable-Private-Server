@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7687-rolling-eternity-key",
+        "fullSlug": "items\/7687-rolling-eternity-key",
+        "id": 7687,
+        "name": "Rolling Eternity Key",
+        "description": "Unlock the Lorian Cosmos with this ever-changing key."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7687,
+            "name": "Rolling Eternity Key",
+            "description": "Unlock the Lorian Cosmos with this ever-changing key.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 75,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-eternitykey.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 9,
+            "damageMin": 80,
+            "damageMax": 96,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 12,
+            "parry": 3,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Water,13,Wind,13,Ice,13,Energy,3,Silver,3,Immobility,7,Health,-3"
+        }
+    },
+    "related": {
+        "122-eternity-key": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "122-eternity-key",
+                "fullSlug": "merge-shops\/122-eternity-key",
+                "id": 122,
+                "name": "Eternity Key",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 122,
+                    "name": "Eternity Key"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1683,
+                    "mergeShopId": 122,
+                    "mergeId": 1565
+                },
+                "merge": {
+                    "id": 1565,
+                    "itemId1": 7687,
+                    "amount1": 1,
+                    "itemId2": 7689,
+                    "amount2": 1,
+                    "itemId": 7688,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

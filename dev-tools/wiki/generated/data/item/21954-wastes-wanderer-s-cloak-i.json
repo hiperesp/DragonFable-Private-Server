@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21954-wastes-wanderer-s-cloak-i",
+        "fullSlug": "items\/21954-wastes-wanderer-s-cloak-i",
+        "id": 21954,
+        "name": "Wastes Wanderer's Cloak I",
+        "description": "This thick yet oddly lightweight cloak offers silent protection from the elements. Proof of victory over Odessa, Wanderer of the Wastes."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21954,
+            "name": "Wastes Wanderer's Cloak I",
+            "description": "This thick yet oddly lightweight cloak offers silent protection from the elements. Proof of victory over Odessa, Wanderer of the Wastes.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-odessa.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 11,
+            "charisma": 4,
+            "endurance": 11,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,6"
+        }
+    },
+    "related": {
+        "2142-wanderer-of-the-wastes": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2142-wanderer-of-the-wastes",
+                "fullSlug": "quests\/2142-wanderer-of-the-wastes",
+                "id": 2142,
+                "name": "Wanderer of the Wastes",
+                "description": "While there are many pockets and areas of the Wastes that are hospitable to life, much of the Wastes is a fluctuating mess that only the most prepared and skilled adventurers may wander."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2142,
+                    "name": "Wanderer of the Wastes",
+                    "description": "While there are many pockets and areas of the Wastes that are hospitable to life, much of the Wastes is a fluctuating mess that only the most prepared and skilled adventurers may wander.",
+                    "complete": "The Wastes claims many, forgotten and lost.",
+                    "swf": "towns\/TimeArena\/quest7-odessa.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Odessa and MogBots Arena",
+                    "monsterGroupSwf": "mset-arenaOdessa.swf?ver=5"
+                }
+            },
+            "related": []
+        },
+        "419-wastes-wanderer": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "419-wastes-wanderer",
+                "fullSlug": "merge-shops\/419-wastes-wanderer",
+                "id": 419,
+                "name": "Wastes Wanderer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 419,
+                    "name": "Wastes Wanderer"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4333,
+                    "mergeShopId": 419,
+                    "mergeId": 4376
+                },
+                "merge": {
+                    "id": 4376,
+                    "itemId1": 21954,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21955,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

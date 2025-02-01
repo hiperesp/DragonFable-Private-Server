@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4601-fall-foilage-frock-iii",
+        "fullSlug": "items\/4601-fall-foilage-frock-iii",
+        "id": 4601,
+        "name": "Fall Foilage Frock III",
+        "description": "A lattice of leaves and vines woven together from bounties of the forest floor in autumn. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4601,
+            "name": "Fall Foilage Frock III",
+            "description": "A lattice of leaves and vines woven together from bounties of the forest floor in autumn. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1750,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-fall.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,9,Stone,9,Fire,-5"
+        }
+    },
+    "related": {
+        "694-jellaton-mold": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "694-jellaton-mold",
+                "fullSlug": "quests\/694-jellaton-mold",
+                "id": 694,
+                "name": "JellaTON Mold",
+                "description": "Be bold because it's time to fight Oishii's most dangerous culinary creation: the JellaTON Mold!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 694,
+                    "name": "JellaTON Mold",
+                    "description": "Be bold because it's time to fight Oishii's most dangerous culinary creation: the JellaTON Mold!",
+                    "complete": "Mmmm, jiggly!  Happy Welcomegiving! Enjoy the feasts you go to this year!",
+                    "swf": "towns\/Thankstaking\/tt10\/quest-jellaton.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food",
+                    "monsterGroupSwf": "mset-thankstaking10.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

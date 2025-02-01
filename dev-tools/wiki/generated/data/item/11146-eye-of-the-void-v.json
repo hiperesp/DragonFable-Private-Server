@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11146-eye-of-the-void-v",
+        "fullSlug": "items\/11146-eye-of-the-void-v",
+        "id": 11146,
+        "name": "Eye of the Void V",
+        "description": "It's watching you.... This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11146,
+            "name": "Eye of the Void V",
+            "description": "It's watching you.... This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 45,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 76,
+            "type": "Pierce",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-eye of the void.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 12,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 98,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,11,Darkness,11,Ice,6,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "387-deep-void-drop-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "387-deep-void-drop-shop",
+                "fullSlug": "item-shops\/387-deep-void-drop-shop",
+                "id": 387,
+                "name": "Deep Void Drop Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 387,
+                    "name": "Deep Void Drop Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2805-touch-of-ebil",
+        "fullSlug": "items\/2805-touch-of-ebil",
+        "id": 2805,
+        "name": "Touch of Ebil",
+        "description": "Strike fear into goody two-shoes everywhere with this terrifying helm!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2805,
+            "name": "Touch of Ebil",
+            "description": "Strike fear into goody two-shoes everywhere with this terrifying helm!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 3,
+            "level": 20,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-zorbak.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3"
+        }
+    },
+    "related": {
+        "488-xan-has-a-plan": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "488-xan-has-a-plan",
+                "fullSlug": "quests\/488-xan-has-a-plan",
+                "id": 488,
+                "name": "Xan Has A Plan",
+                "description": "Xan is up to something...."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 488,
+                    "name": "Xan Has A Plan",
+                    "description": "Xan is up to something....",
+                    "complete": "This... should be interesting....",
+                    "swf": "towns\/FireWar\/random-firewar12.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "skeles and giant spiders",
+                    "monsterGroupSwf": "mset-firewar12.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "343-energy-titan",
+        "fullSlug": "quests\/343-energy-titan",
+        "id": 343,
+        "name": "Energy Titan!",
+        "description": "What a shock!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 343,
+            "name": "Energy Titan!",
+            "description": "What a shock!",
+            "complete": "The Energy Titan is defeated! He couldn't stand your charge.",
+            "swf": "wars\/quest-elementalwar-titan.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 0,
+            "monsterType": "energy",
+            "monsterGroupSwf": "mset-TITANenergy.swf"
+        }
+    },
+    "related": {
+        "864-elemental-essence": {
+            "page": {
+                "slugBase": "items",
+                "slug": "864-elemental-essence",
+                "fullSlug": "items\/864-elemental-essence",
+                "id": 864,
+                "name": "Elemental Essence",
+                "description": "This crystal shard is a pure fragment of elemental essence. Bring this and one of the metal weapons (found in the elemental quests) to Warlic to enchant in his elemental SHOP."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 864,
+                    "name": "Elemental Essence",
+                    "description": "This crystal shard is a pure fragment of elemental essence. Bring this and one of the metal weapons (found in the elemental quests) to Warlic to enchant in his elemental SHOP.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 100,
+                    "maxStackSize": 200,
+                    "bonus": 0,
+                    "rarity": 2,
+                    "level": 1,
+                    "type": "Melee",
+                    "element": "None",
+                    "categoryId": "4",
+                    "equipSpot": "Not Equipable",
+                    "itemType": "Resource",
+                    "swf": "",
+                    "icon": "silvergem",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": ""
+                }
+            },
+            "related": []
+        }
+    }
+}

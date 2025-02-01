@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9171-fallen-ice-dragon-edge",
+        "fullSlug": "items\/9171-fallen-ice-dragon-edge",
+        "id": 9171,
+        "name": "Fallen Ice Dragon Edge",
+        "description": "Forged from the scales of an ancient ice dragon, this weapon does increased damage against humans! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9171,
+            "name": "Fallen Ice Dragon Edge",
+            "description": "Forged from the scales of an ancient ice dragon, this weapon does increased damage against humans! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 30,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-FallenIceDragon.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 46,
+            "damageMax": 62,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,All,1"
+        }
+    },
+    "related": {
+        "134-ice-dragon-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "134-ice-dragon-weapons",
+                "fullSlug": "merge-shops\/134-ice-dragon-weapons",
+                "id": 134,
+                "name": "Ice Dragon Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 134,
+                    "name": "Ice Dragon Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1961,
+                    "mergeShopId": 134,
+                    "mergeId": 1860
+                },
+                "merge": {
+                    "id": 1860,
+                    "itemId1": 9171,
+                    "amount1": 1,
+                    "itemId2": 7578,
+                    "amount2": 1,
+                    "itemId": 9172,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

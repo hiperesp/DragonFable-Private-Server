@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7925-frostskull-mace-v",
+        "fullSlug": "items\/7925-frostskull-mace-v",
+        "id": 7925,
+        "name": "Frostskull Mace V",
+        "description": "Sally has certainly made some... festive changes for the holidays!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7925,
+            "name": "Frostskull Mace V",
+            "description": "Sally has certainly made some... festive changes for the holidays!\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 55,
+            "level": 78,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-frostskull.swf",
+            "icon": "mace",
+            "strength": 13,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 11,
+            "parry": 1,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,11,Darkness,11,Nature,11,Disease,11,Immobility,3"
+        }
+    },
+    "related": {
+        "288-snackinland-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "288-snackinland-drops",
+                "fullSlug": "item-shops\/288-snackinland-drops",
+                "id": 288,
+                "name": "SnackinLand Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 288,
+                    "name": "SnackinLand Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

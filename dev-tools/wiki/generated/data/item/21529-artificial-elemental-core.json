@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21529-artificial-elemental-core",
+        "fullSlug": "items\/21529-artificial-elemental-core",
+        "id": 21529,
+        "name": "Artificial Elemental Core",
+        "description": "This amalgamation of necromancy and technomancy appears to house potential similar to that of the Wind and Water Orbs, albeit on a far smaller scale. Proof of victory over Blades and Bones."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21529,
+            "name": "Artificial Elemental Core",
+            "description": "This amalgamation of necromancy and technomancy appears to house potential similar to that of the Wind and Water Orbs, albeit on a far smaller scale. Proof of victory over Blades and Bones.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2042-blades-and-bones": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2042-blades-and-bones",
+                "fullSlug": "quests\/2042-blades-and-bones",
+                "id": 2042,
+                "name": "Blades and Bones",
+                "description": "From stories of the past and future come legends across the sky and the sea, here to face you."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2042,
+                    "name": "Blades and Bones",
+                    "description": "From stories of the past and future come legends across the sky and the sea, here to face you.",
+                    "complete": "A legend all your own.",
+                    "swf": "towns\/TimeArena\/quest3-pirateninja.swf",
+                    "swfX": "towns\/TimeArena\/quest3-pirateninja-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Ghost Pirate, Techno Ninja",
+                    "monsterGroupSwf": "mset-arenaninjapirate-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "391-blades-and-bones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "391-blades-and-bones",
+                "fullSlug": "merge-shops\/391-blades-and-bones",
+                "id": 391,
+                "name": "Blades and Bones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 391,
+                    "name": "Blades and Bones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4144,
+                    "mergeShopId": 391,
+                    "mergeId": 4188
+                },
+                "merge": {
+                    "id": 4188,
+                    "itemId1": 21526,
+                    "amount1": 1,
+                    "itemId2": 21529,
+                    "amount2": 1,
+                    "itemId": 21528,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

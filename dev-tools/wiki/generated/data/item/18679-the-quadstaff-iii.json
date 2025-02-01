@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18679-the-quadstaff-iii",
+        "fullSlug": "items\/18679-the-quadstaff-iii",
+        "id": 18679,
+        "name": "The Quadstaff III",
+        "description": "This staff harnesses a portion of the power of the Quadforce! Wield it to banish evil and save Lore! Or something like that. It's not that picky. 5% chance on hit to recover MP = 3\/4 of your level. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18679,
+            "name": "The Quadstaff III",
+            "description": "This staff harnesses a portion of the power of the Quadforce! Wield it to banish evil and save Lore! Or something like that. It's not that picky. 5% chance on hit to recover MP = 3\/4 of your level. This item requires a Dragon Amulet to use.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 14,
+            "rarity": 0,
+            "level": 90,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-quadforce-r1.swf",
+            "icon": "scythe",
+            "strength": 24,
+            "dexterity": 24,
+            "intelligence": 24,
+            "luck": 24,
+            "charisma": 0,
+            "endurance": -24,
+            "wisdom": -24,
+            "damageMin": 96,
+            "damageMax": 96,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 14,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,10,Health,-20"
+        }
+    },
+    "related": {
+        "302-the-quadstaff": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "302-the-quadstaff",
+                "fullSlug": "merge-shops\/302-the-quadstaff",
+                "id": 302,
+                "name": "The Quadstaff",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 302,
+                    "name": "The Quadstaff"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3281,
+                    "mergeShopId": 302,
+                    "mergeId": 3370
+                },
+                "merge": {
+                    "id": 3370,
+                    "itemId1": 18676,
+                    "amount1": 1,
+                    "itemId2": 18677,
+                    "amount2": 1,
+                    "itemId": 18679,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3188-greater-destruction-staff",
+        "fullSlug": "items\/3188-greater-destruction-staff",
+        "id": 3188,
+        "name": "Greater Destruction Staff",
+        "description": "You... you did it.  You really did it.  How  COULD you?! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3188,
+            "name": "Greater Destruction Staff",
+            "description": "You... you did it.  You really did it.  How  COULD you?! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 50,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Battleonstaffdestroy.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 60,
+            "damageMax": 76,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,4,Stone,4"
+        }
+    },
+    "related": {
+        "120-battleon-destroyed": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "120-battleon-destroyed",
+                "fullSlug": "item-shops\/120-battleon-destroyed",
+                "id": 120,
+                "name": "Battleon Destroyed",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 120,
+                    "name": "Battleon Destroyed",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

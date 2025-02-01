@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11061-shockingly-good-hair",
+        "fullSlug": "items\/11061-shockingly-good-hair",
+        "id": 11061,
+        "name": "Shockingly Good Hair",
+        "description": "You're going to look gooooood at Thankstaking this year! Happy Thankstaking, 2013!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11061,
+            "name": "Shockingly Good Hair",
+            "description": "You're going to look gooooood at Thankstaking this year! Happy Thankstaking, 2013!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 35,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-voltabolt.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,4,Metal,4"
+        }
+    },
+    "related": {
+        "1112-food-fight": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1112-food-fight",
+                "fullSlug": "quests\/1112-food-fight",
+                "id": 1112,
+                "name": "Food Fight!",
+                "description": "Is that... noooo, it couldn't be?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1112,
+                    "name": "Food Fight!",
+                    "description": "Is that... noooo, it couldn't be?",
+                    "complete": "Ew, carrots!",
+                    "swf": "towns\/thankstaking\/tt13\/quest-food.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food",
+                    "monsterGroupSwf": "mset-tt12.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

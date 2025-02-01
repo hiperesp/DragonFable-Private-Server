@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9176-fallen-ice-dragon-wings",
+        "fullSlug": "items\/9176-fallen-ice-dragon-wings",
+        "id": 9176,
+        "name": "Fallen Ice Dragon Wings",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9176,
+            "name": "Fallen Ice Dragon Wings"
+        }
+    },
+    "related": {
+        "135-ice-dragon-wings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "135-ice-dragon-wings",
+                "fullSlug": "merge-shops\/135-ice-dragon-wings",
+                "id": 135,
+                "name": "Ice Dragon Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Ice Dragon Wings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1971,
+                    "mergeShopId": 135,
+                    "mergeId": 1864
+                },
+                "merge": {
+                    "id": 1864,
+                    "itemId1": 9176,
+                    "amount1": 1,
+                    "itemId2": 7578,
+                    "amount2": 1,
+                    "itemId": 9177,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

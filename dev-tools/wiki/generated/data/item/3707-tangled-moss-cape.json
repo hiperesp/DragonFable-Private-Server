@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3707-tangled-moss-cape",
+        "fullSlug": "items\/3707-tangled-moss-cape",
+        "id": 3707,
+        "name": "Tangled Moss Cape",
+        "description": "Murk made this by twining together strips of the moss found in Silkwood Park.  It's very stylish.  For being made of moss, that is. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3707,
+            "name": "Tangled Moss Cape",
+            "description": "Murk made this by twining together strips of the moss found in Silkwood Park.  It's very stylish.  For being made of moss, that is. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 50,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-mosscaper1.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,7,Water,7,Ice,7,Stone,7"
+        }
+    },
+    "related": {
+        "66-murk-s-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "66-murk-s-merch",
+                "fullSlug": "merge-shops\/66-murk-s-merch",
+                "id": 66,
+                "name": "Murk's Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 66,
+                    "name": "Murk's Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 927,
+                    "mergeShopId": 66,
+                    "mergeId": 685
+                },
+                "merge": {
+                    "id": 685,
+                    "itemId1": 3712,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 3707,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

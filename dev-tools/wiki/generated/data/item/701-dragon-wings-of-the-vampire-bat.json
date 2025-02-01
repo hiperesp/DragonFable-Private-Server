@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "701-dragon-wings-of-the-vampire-bat",
+        "fullSlug": "items\/701-dragon-wings-of-the-vampire-bat",
+        "id": 701,
+        "name": "Dragon Wings of the Vampire Bat",
+        "description": "These leather wings were hand made for you as a reward for protecting the town of Amityvale from Lord Frydae XIII. (Requires Dragon Amulet!)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 701,
+            "name": "Dragon Wings of the Vampire Bat",
+            "description": "These leather wings were hand made for you as a reward for protecting the town of Amityvale from Lord Frydae XIII. (Requires Dragon Amulet!)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 5,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-black.swf",
+            "icon": "wings",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4"
+        }
+    },
+    "related": {
+        "26-vampire-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "26-vampire-shop",
+                "fullSlug": "item-shops\/26-vampire-shop",
+                "id": 26,
+                "name": "Vampire Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 26,
+                    "name": "Vampire Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

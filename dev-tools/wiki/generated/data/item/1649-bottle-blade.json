@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1649-bottle-blade",
+        "fullSlug": "items\/1649-bottle-blade",
+        "id": 1649,
+        "name": "Bottle Blade",
+        "description": "When zombies are shuffling towards you, you need to think fast and use what you can as a weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1649,
+            "name": "Bottle Blade",
+            "description": "When zombies are shuffling towards you, you need to think fast and use what you can as a weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 19,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bottle.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 38,
+            "damageMax": 42,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "243-the-green-mist": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "243-the-green-mist",
+                "fullSlug": "quests\/243-the-green-mist",
+                "id": 243,
+                "name": "The Green Mist",
+                "description": "*wavy flashback lines*"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 243,
+                    "name": "The Green Mist",
+                    "description": "*wavy flashback lines*",
+                    "complete": "Now you know the mysterious connection between Lady Vayle and Artix. But How did Vayle survive the Green Mist? Where has she been all this time? Does Noxus have the darkness orb?... Is anyone still reading this?",
+                    "swf": "towns\/DoomWood\/quest-Artix7r5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "togs, fungus and zombies",
+                    "monsterGroupSwf": "mset-artix7.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

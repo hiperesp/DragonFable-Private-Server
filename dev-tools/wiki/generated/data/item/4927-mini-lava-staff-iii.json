@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4927-mini-lava-staff-iii",
+        "fullSlug": "items\/4927-mini-lava-staff-iii",
+        "id": 4927,
+        "name": "Mini Lava Staff III",
+        "description": "This staff is small but deadly!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4927,
+            "name": "Mini Lava Staff III",
+            "description": "This staff is small but deadly!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 60,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-minilavastaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 71,
+            "damageMax": 75,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Ice,3"
+        }
+    },
+    "related": {
+        "719-the-map-room": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "719-the-map-room",
+                "fullSlug": "quests\/719-the-map-room",
+                "id": 719,
+                "name": "The Map Room",
+                "description": "Who would build a scale model of Lore?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 719,
+                    "name": "The Map Room",
+                    "description": "Who would build a scale model of Lore?",
+                    "complete": "Fae?!",
+                    "swf": "towns\/willowshire\/quest-earth9-maproom.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "random monsters",
+                    "monsterGroupSwf": "mset-earth9.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

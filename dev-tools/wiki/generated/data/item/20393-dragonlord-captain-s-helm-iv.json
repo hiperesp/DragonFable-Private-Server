@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20393-dragonlord-captain-s-helm-iv",
+        "fullSlug": "items\/20393-dragonlord-captain-s-helm-iv",
+        "id": 20393,
+        "name": "DragonLord Captain's Helm IV",
+        "description": "A real DragonLord Captain's helm! It looks kind of familiar... This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20393,
+            "name": "DragonLord Captain's Helm IV",
+            "description": "A real DragonLord Captain's helm! It looks kind of familiar... This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 100000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 90,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dragonsgrasp.swf",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 10,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,8"
+        }
+    },
+    "related": {
+        "712-dragonsgrasp-armory": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "712-dragonsgrasp-armory",
+                "fullSlug": "item-shops\/712-dragonsgrasp-armory",
+                "id": 712,
+                "name": "Dragonsgrasp Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 712,
+                    "name": "Dragonsgrasp Armory",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

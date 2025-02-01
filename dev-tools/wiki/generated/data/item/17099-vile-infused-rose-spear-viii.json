@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17099-vile-infused-rose-spear-viii",
+        "fullSlug": "items\/17099-vile-infused-rose-spear-viii",
+        "id": 17099,
+        "name": "Vile Infused Rose Spear VIII",
+        "description": "Rose-approved... or is it? This common Rose spear seems be enchanted by an unusual magic. The ire of the shackled for its captor dwells within and will lash out when the weapon strikes. Who could have made this... and why?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17099,
+            "name": "Vile Infused Rose Spear VIII",
+            "description": "Rose-approved... or is it? This common Rose spear seems be enchanted by an unusual magic. The ire of the shackled for its captor dwells within and will lash out when the weapon strikes. Who could have made this... and why?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 80,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-roseatgas.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 13,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 82,
+            "damageMax": 92,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Light,7,Water,7"
+        }
+    },
+    "related": {
+        "265-vile-infused-rose": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "265-vile-infused-rose",
+                "fullSlug": "merge-shops\/265-vile-infused-rose",
+                "id": 265,
+                "name": "Vile Infused Rose",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 265,
+                    "name": "Vile Infused Rose"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2966,
+                    "mergeShopId": 265,
+                    "mergeId": 2996
+                },
+                "merge": {
+                    "id": 2996,
+                    "itemId1": 17099,
+                    "amount1": 1,
+                    "itemId2": 17101,
+                    "amount2": 3,
+                    "itemId": 17100,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

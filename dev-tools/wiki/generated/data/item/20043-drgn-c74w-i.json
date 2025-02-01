@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20043-drgn-c74w-i",
+        "fullSlug": "items\/20043-drgn-c74w-i",
+        "id": 20043,
+        "name": "DRGN-C74W I",
+        "description": "You managed to pick up this shifting piece of mechanism as you left Myalos. You're not sure if it's 'supposed' to be a weapon, but it definitely gets the job done."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20043,
+            "name": "DRGN-C74W I",
+            "description": "You managed to pick up this shifting piece of mechanism as you left Myalos. You're not sure if it's 'supposed' to be a weapon, but it definitely gets the job done.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 10,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-myalos.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 25,
+            "damageMax": 29,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Good,1,Evil,1"
+        }
+    },
+    "related": {
+        "1766-myalos": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1766-myalos",
+                "fullSlug": "quests\/1766-myalos",
+                "id": 1766,
+                "name": "Myalos",
+                "description": "It's time to find Myalos... and get some answers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1766,
+                    "name": "Myalos",
+                    "description": "It's time to find Myalos... and get some answers.",
+                    "complete": "Wait, how did Lock and Key get teleported along with you?",
+                    "swf": "wars\/F13-Maleurous-6\/quest2-myalos.swf?ver=1",
+                    "swfX": "wars\/F13-Maleurous-6\/quest2-myalos-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Awakened Robots and Seed",
+                    "monsterGroupSwf": "mset-myalos2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5496-major-axe-blade-of-aww",
+        "fullSlug": "items\/5496-major-axe-blade-of-aww",
+        "id": 5496,
+        "name": "Major Axe-Blade of Aww",
+        "description": "The legendary Blade of Aww! Valencia forged this decoy weapon after you helped to hide the powerful Blade of Awe from Sepulchure's entropic minions!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5496,
+            "name": "Major Axe-Blade of Aww",
+            "description": "The legendary Blade of Aww! Valencia forged this decoy weapon after you helped to hide the powerful Blade of Awe from Sepulchure's entropic minions!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 48,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-spearofawe-r1.swf",
+            "icon": "axe",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,5,Nature,2,Stone,2,Immobility,1"
+        }
+    },
+    "related": {
+        "773-entropic-earth-boss": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "773-entropic-earth-boss",
+                "fullSlug": "quests\/773-entropic-earth-boss",
+                "id": 773,
+                "name": "Entropic Earth Boss",
+                "description": "A huge Entropic Elemental is after Valencia and the Blades of Aww!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 773,
+                    "name": "Entropic Earth Boss",
+                    "description": "A huge Entropic Elemental is after Valencia and the Blades of Aww!",
+                    "complete": "A huge Entropic Elemental is after Valencia and the Blades of Aww!",
+                    "swf": "towns\/willowshire\/quest-earth18-digboss-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "entropic earth elemental",
+                    "monsterGroupSwf": "mset-BoA-Dig-Boss.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

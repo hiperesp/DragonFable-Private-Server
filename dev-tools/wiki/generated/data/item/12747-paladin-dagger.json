@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12747-paladin-dagger",
+        "fullSlug": "items\/12747-paladin-dagger",
+        "id": 12747,
+        "name": "Paladin Dagger",
+        "description": "This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12747,
+            "name": "Paladin Dagger",
+            "description": "This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3400,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 75,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-PaladinRevamp.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Light,7,Darkness,7,Health,-3"
+        }
+    },
+    "related": {
+        "416-paladin-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "416-paladin-items",
+                "fullSlug": "item-shops\/416-paladin-items",
+                "id": 416,
+                "name": "Paladin Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 416,
+                    "name": "Paladin Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

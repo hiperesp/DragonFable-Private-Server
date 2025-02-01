@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3292-electroplasma-staff",
+        "fullSlug": "items\/3292-electroplasma-staff",
+        "id": 3292,
+        "name": "Electroplasma Staff",
+        "description": "When you hold this staff, your hair stands on end.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3292,
+            "name": "Electroplasma Staff",
+            "description": "When you hold this staff, your hair stands on end.  ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 42,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-electroplasma.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 56,
+            "damageMax": 64,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,5,Immobility,3,Water,-3"
+        }
+    },
+    "related": {
+        "523-moglin-seeking-queen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "523-moglin-seeking-queen",
+                "fullSlug": "quests\/523-moglin-seeking-queen",
+                "id": 523,
+                "name": "Moglin Seeking Queen",
+                "description": "This moglin likes long walks through graveyards, necromancy by candlelight, and re-animating undead.  Seeking a queen of the Night who shares his dark interests."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 523,
+                    "name": "Moglin Seeking Queen",
+                    "description": "This moglin likes long walks through graveyards, necromancy by candlelight, and re-animating undead.  Seeking a queen of the Night who shares his dark interests.",
+                    "complete": "Aww, rejected!",
+                    "swf": "quests\/ZorbaksArmy\/quest-zarmy5r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness",
+                    "monsterGroupSwf": "mset-zarmy5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

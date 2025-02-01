@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21060-charm-of-symbiosis-v",
+        "fullSlug": "items\/21060-charm-of-symbiosis-v",
+        "id": 21060,
+        "name": "Charm of Symbiosis V",
+        "description": "A small amulet left behind by the Symbiotic Darkness Elemental. Wherever it came from, it must have been precious to its owner. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21060,
+            "name": "Charm of Symbiosis V",
+            "description": "A small amulet left behind by the Symbiotic Darkness Elemental. Wherever it came from, it must have been precious to its owner. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 170,
+            "maxStackSize": 1,
+            "bonus": 30,
+            "rarity": 5,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 30,
+            "charisma": 0,
+            "endurance": -30,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 30,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,-15,Health,15"
+        }
+    },
+    "related": {
+        "1972-fate-s-flow-part-1": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1972-fate-s-flow-part-1",
+                "fullSlug": "quests\/1972-fate-s-flow-part-1",
+                "id": 1972,
+                "name": "Fate's Flow (Part 1)",
+                "description": "With the Tytan awoken, time is short. You and your companions must find a way to stop it!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1972,
+                    "name": "Fate's Flow (Part 1)",
+                    "description": "With the Tytan awoken, time is short. You and your companions must find a way to stop it!",
+                    "complete": "What's the worst that could happen?",
+                    "swf": "towns\/3Oceantyndur\/quest7-Fate1.swf?ver=1",
+                    "swfX": "towns\/3Oceantyndur\/quest7-Fate1-x.swf?ver=1",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Chonker of a Darkness Elemental, misc Hollow",
+                    "monsterGroupSwf": "mset-fateflow1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

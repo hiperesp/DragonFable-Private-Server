@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20071-forced-reflection-iv",
+        "fullSlug": "items\/20071-forced-reflection-iv",
+        "id": 20071,
+        "name": "Forced Reflection IV",
+        "description": "A warped and twisted looking axe that appears to be consumed by chaos! However, it's only an illusion. The axe actually emanates a powerful aura of Darkness. Proof of victory over the Chaos Twins."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20071,
+            "name": "Forced Reflection IV",
+            "description": "A warped and twisted looking axe that appears to be consumed by chaos! However, it's only an illusion. The axe actually emanates a powerful aura of Darkness. Proof of victory over the Chaos Twins.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 13,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-xiang.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 77,
+            "damageMax": 81,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,7,Health,-12"
+        }
+    },
+    "related": {
+        "338-forced-reflection": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "338-forced-reflection",
+                "fullSlug": "merge-shops\/338-forced-reflection",
+                "id": 338,
+                "name": "Forced Reflection",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 338,
+                    "name": "Forced Reflection"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3512,
+                    "mergeShopId": 338,
+                    "mergeId": 3600
+                },
+                "merge": {
+                    "id": 3600,
+                    "itemId1": 20068,
+                    "amount1": 1,
+                    "itemId2": 20075,
+                    "amount2": 1,
+                    "itemId": 20071,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

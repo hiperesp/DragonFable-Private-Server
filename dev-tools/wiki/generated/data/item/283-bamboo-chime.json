@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "283-bamboo-chime",
+        "fullSlug": "items\/283-bamboo-chime",
+        "id": 283,
+        "name": "Bamboo Chime",
+        "description": "This staff was made from a piece of bamboo from a beautiful bamboo grove. It has a single chime in it that rings with a pure tone."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 283,
+            "name": "Bamboo Chime",
+            "description": "This staff was made from a piece of bamboo from a beautiful bamboo grove. It has a single chime in it that rings with a pure tone.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 720,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 13,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-greenbamboobell.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 18,
+            "damageMax": 48,
+            "defenseMelee": 0,
+            "defensePierce": 5,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 5,
+            "dodge": 0,
+            "block": 1,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-forest-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "19-forest-cave",
+                "fullSlug": "quests\/19-forest-cave",
+                "id": 19,
+                "name": "Forest Cave",
+                "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 19,
+                    "name": "Forest Cave",
+                    "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "complete": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "swf": "random\/random-normalcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        },
+        "25-its-a-dirty-job": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "25-its-a-dirty-job",
+                "fullSlug": "quests\/25-its-a-dirty-job",
+                "id": 25,
+                "name": "Its A Dirty Job...",
+                "description": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 25,
+                    "name": "Its A Dirty Job...",
+                    "description": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "complete": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "swf": "random\/random-earthcave1.swf",
+                    "swfX": "none",
+                    "maxSilver": 11,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 14,
+                    "monsterMaxLevel": 20,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalearth2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

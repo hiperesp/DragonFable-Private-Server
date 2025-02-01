@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7317-shackled-flame",
+        "fullSlug": "items\/7317-shackled-flame",
+        "id": 7317,
+        "name": "Shackled Flame",
+        "description": "The fire within this weapon is trapped and strains to get free. Click to change between fire element and evil element!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7317,
+            "name": "Shackled Flame",
+            "description": "The fire within this weapon is trapped and strains to get free. Click to change between fire element and evil element!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 33,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-wargoth-r1.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 47,
+            "damageMax": 59,
+            "defenseMelee": 3,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Ice,4,Water,2"
+        }
+    },
+    "related": {
+        "923-wrath-of-wargoth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "923-wrath-of-wargoth",
+                "fullSlug": "quests\/923-wrath-of-wargoth",
+                "id": 923,
+                "name": "Wrath of Wargoth",
+                "description": "You must keep The Professor safe!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 923,
+                    "name": "Wrath of Wargoth",
+                    "description": "You must keep The Professor safe!",
+                    "complete": "Even though Wargoth has won the battle, The Professor still lives. There has to be another way!",
+                    "swf": "wars\/F13-Wargoth\/quest-wargothboss-r1.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wargoth",
+                    "monsterGroupSwf": "mset-wargoth.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

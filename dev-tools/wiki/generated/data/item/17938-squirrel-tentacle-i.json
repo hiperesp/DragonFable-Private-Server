@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17938-squirrel-tentacle-i",
+        "fullSlug": "items\/17938-squirrel-tentacle-i",
+        "id": 17938,
+        "name": "Squirrel Tentacle I",
+        "description": "Don't question it. Just don't. Proof of your victory over Sciuridaehotep and the Witness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17938,
+            "name": "Squirrel Tentacle I",
+            "description": "Don't question it. Just don't. Proof of your victory over Sciuridaehotep and the Witness.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 25,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,3"
+        }
+    },
+    "related": {
+        "1490-sciuridaehotep": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1490-sciuridaehotep",
+                "fullSlug": "quests\/1490-sciuridaehotep",
+                "id": 1490,
+                "name": "Sciuridaehotep",
+                "description": "The Witness is here to observe its Master."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1490,
+                    "name": "Sciuridaehotep",
+                    "description": "The Witness is here to observe its Master.",
+                    "complete": "Its satisfied.",
+                    "swf": "towns\/TimeArena\/quest-squirrel.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Uthuluc and Squirrel",
+                    "monsterGroupSwf": "mset-arenaprimordialsr3.swf"
+                }
+            },
+            "related": []
+        },
+        "289-primordial": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "289-primordial",
+                "fullSlug": "merge-shops\/289-primordial",
+                "id": 289,
+                "name": "Primordial",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 289,
+                    "name": "Primordial"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3160,
+                    "mergeShopId": 289,
+                    "mergeId": 3170
+                },
+                "merge": {
+                    "id": 3170,
+                    "itemId1": 17938,
+                    "amount1": 1,
+                    "itemId2": 17937,
+                    "amount2": 1,
+                    "itemId": 17941,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

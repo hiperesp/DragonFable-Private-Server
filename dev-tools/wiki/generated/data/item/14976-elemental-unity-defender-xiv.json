@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14976-elemental-unity-defender-xiv",
+        "fullSlug": "items\/14976-elemental-unity-defender-xiv",
+        "id": 14976,
+        "name": "Elemental Unity Defender XIV",
+        "description": "Celebrate the end of Book One! The world of Lore needs elemental unity and balance between the planes for peace. Upgraded by defending Lore!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14976,
+            "name": "Elemental Unity Defender XIV",
+            "description": "Celebrate the end of Book One! The world of Lore needs elemental unity and balance between the planes for peace. Upgraded by defending Lore!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 77,
+            "level": 75,
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-elementalunity-r1.swf",
+            "icon": "trinket",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "All,5,Health,-5"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 114,
+                    "mergeShopId": 4,
+                    "mergeId": 2671
+                },
+                "merge": {
+                    "id": 2671,
+                    "itemId1": 14976,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 100,
+                    "itemId": 14977,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

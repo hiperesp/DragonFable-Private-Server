@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17684-gnarly-guitar-of-doom-i",
+        "fullSlug": "items\/17684-gnarly-guitar-of-doom-i",
+        "id": 17684,
+        "name": "Gnarly Guitar of Doom I",
+        "description": "The one, the only, Gnarly Guitar of Doom! An artifact for the DoomKnight class. Much like Jack Crescent, looks pretty, but doesn't do much else. At least it comes with a jacket!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17684,
+            "name": "Gnarly Guitar of Doom I",
+            "description": "The one, the only, Gnarly Guitar of Doom! An artifact for the DoomKnight class. Much like Jack Crescent, looks pretty, but doesn't do much else. At least it comes with a jacket!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 20,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-doomguitar.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 31,
+            "damageMax": 55,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Light,2",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "cost": 10000,
+            "type": "Melee"
+        }
+    },
+    "related": {
+        "1460-the-show-mustn-t-go-on": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1460-the-show-mustn-t-go-on",
+                "fullSlug": "quests\/1460-the-show-mustn-t-go-on",
+                "id": 1460,
+                "name": "The Show Mustn't Go On!",
+                "description": "You've dealt with ALL of Jack's Sons of Disorder, time to help the Sisters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1460,
+                    "name": "The Show Mustn't Go On!",
+                    "description": "You've dealt with ALL of Jack's Sons of Disorder, time to help the Sisters!",
+                    "complete": "Oh...",
+                    "swf": "wars\/Mog2017BloodMoon\/quest-boss.swf",
+                    "swfX": "wars\/Mog2017BloodMoon\/quest-boss-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "635",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Jack & guitar",
+                    "monsterGroupSwf": "mset-mog17bloodmoonboss.swf"
+                }
+            },
+            "related": []
+        },
+        "281-gnarly-guitar": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "281-gnarly-guitar",
+                "fullSlug": "merge-shops\/281-gnarly-guitar",
+                "id": 281,
+                "name": "Gnarly Guitar!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 281,
+                    "name": "Gnarly Guitar!"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3100,
+                    "mergeShopId": 281,
+                    "mergeId": 3101
+                },
+                "merge": {
+                    "id": 3101,
+                    "itemId1": 17683,
+                    "amount1": 10,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 17684,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20294-dragon-eye-vi",
+        "fullSlug": "items\/20294-dragon-eye-vi",
+        "id": 20294,
+        "name": "Dragon Eye VI",
+        "description": "It's said that a dragon can still see from a stolen eye.... This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20294,
+            "name": "Dragon Eye VI",
+            "description": "It's said that a dragon can still see from a stolen eye.... This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 90,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-dragoneye.swf",
+            "icon": "sword",
+            "strength": 16,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 10,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 79,
+            "damageMax": 107,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 13,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,11,Light,11,Water,11,Stone,11,Immobility,5"
+        }
+    },
+    "related": {
+        "352-dragon-challenge-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "352-dragon-challenge-shop",
+                "fullSlug": "item-shops\/352-dragon-challenge-shop",
+                "id": 352,
+                "name": "Dragon Challenge Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 352,
+                    "name": "Dragon Challenge Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

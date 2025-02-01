@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18805-wings-of-mahanaem-ii",
+        "fullSlug": "items\/18805-wings-of-mahanaem-ii",
+        "id": 18805,
+        "name": "Wings of Mahanaem II",
+        "description": "The enshadowed wings of the Infernal Mahanaem."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18805,
+            "name": "Wings of Mahanaem II",
+            "description": "The enshadowed wings of the Infernal Mahanaem.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 70,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-mahanaem.swf?ver=1",
+            "icon": "wings",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3284,
+                    "mergeShopId": 303,
+                    "mergeId": 3379
+                },
+                "merge": {
+                    "id": 3379,
+                    "itemId1": 18805,
+                    "amount1": 1,
+                    "itemId2": 18819,
+                    "amount2": 5,
+                    "itemId": 18806,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

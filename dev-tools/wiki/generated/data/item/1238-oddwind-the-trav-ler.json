@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1238-oddwind-the-trav-ler",
+        "fullSlug": "items\/1238-oddwind-the-trav-ler",
+        "id": 1238,
+        "name": "Oddwind, The Trav'ler",
+        "description": "This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 28 or higher to create. This staff design was traded to Yulgar by a traveling merchant in exchange for a new belt buckle."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1238,
+            "name": "Oddwind, The Trav'ler",
+            "description": "This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 28 or higher to create. This staff design was traded to Yulgar by a traveling merchant in exchange for a new belt buckle.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 28,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-forge9.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 54,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3"
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 485,
+                    "mergeShopId": 32,
+                    "mergeId": 292
+                },
+                "merge": {
+                    "id": 292,
+                    "itemId1": 1254,
+                    "amount1": 2,
+                    "itemId2": 1204,
+                    "amount2": 1,
+                    "itemId": 1238,
+                    "string": 1,
+                    "index": 2,
+                    "value": 28,
+                    "level": 23
+                }
+            }
+        }
+    }
+}

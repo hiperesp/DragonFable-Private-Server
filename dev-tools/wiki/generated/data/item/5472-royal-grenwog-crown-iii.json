@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5472-royal-grenwog-crown-iii",
+        "fullSlug": "items\/5472-royal-grenwog-crown-iii",
+        "id": 5472,
+        "name": "Royal Grenwog Crown III",
+        "description": "A beautiful crown sit atop a delicate Grenwog egg-shell. How many different eggs did you get?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5472,
+            "name": "Royal Grenwog Crown III",
+            "description": "A beautiful crown sit atop a delicate Grenwog egg-shell. How many different eggs did you get?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 6,
+            "level": 45,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-eggheadcrown.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5,Light,5,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "211-grenwog-dc-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "211-grenwog-dc-shop",
+                "fullSlug": "item-shops\/211-grenwog-dc-shop",
+                "id": 211,
+                "name": "Grenwog DC Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 211,
+                    "name": "Grenwog DC Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3697-fugu-hiki",
+        "fullSlug": "items\/3697-fugu-hiki",
+        "id": 3697,
+        "name": "Fugu Hiki",
+        "description": "Only the most highly trained elven smith can create this highly toxic weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3697,
+            "name": "Fugu Hiki",
+            "description": "Only the most highly trained elven smith can create this highly toxic weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 10,
+            "type": "Pierce",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-fugu.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 20,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "584-nightmare": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "584-nightmare",
+                "fullSlug": "quests\/584-nightmare",
+                "id": 584,
+                "name": "Nightmare",
+                "description": "What is going on?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 584,
+                    "name": "Nightmare",
+                    "description": "What is going on?!",
+                    "complete": "Even though it was just a dream you're convinced that what you saw actually happened. You have to keep Aquella safe... and ignore that nagging voice in your head....",
+                    "swf": "towns\/TheLocker\/quest-nightmare-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-waterorb4-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

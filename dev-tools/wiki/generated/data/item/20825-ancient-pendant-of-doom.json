@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20825-ancient-pendant-of-doom",
+        "fullSlug": "items\/20825-ancient-pendant-of-doom",
+        "id": 20825,
+        "name": "Ancient Pendant (Of Doom)",
+        "description": "An old, cracked pendant, with names inscribed on the back. Perhaps it was once used to contain something. Proof of victory over the Never Apart challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20825,
+            "name": "Ancient Pendant (Of Doom)",
+            "description": "An old, cracked pendant, with names inscribed on the back. Perhaps it was once used to contain something. Proof of victory over the Never Apart challenge!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1932-never-apart": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1932-never-apart",
+                "fullSlug": "quests\/1932-never-apart",
+                "id": 1932,
+                "name": "Never Apart",
+                "description": "DoomKnight and Spirit, entwined as one. Never to be separated again."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1932,
+                    "name": "Never Apart",
+                    "description": "DoomKnight and Spirit, entwined as one. Never to be separated again.",
+                    "complete": "Even in death.",
+                    "swf": "towns\/TimeArena\/quest3-duodoom.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Ties that Bind 1",
+                    "monsterGroupSwf": "mset-arenadoomspartan-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "364-never-apart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "364-never-apart",
+                "fullSlug": "merge-shops\/364-never-apart",
+                "id": 364,
+                "name": "Never Apart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 364,
+                    "name": "Never Apart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3799,
+                    "mergeShopId": 364,
+                    "mergeId": 3905
+                },
+                "merge": {
+                    "id": 3905,
+                    "itemId1": 20825,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20822,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

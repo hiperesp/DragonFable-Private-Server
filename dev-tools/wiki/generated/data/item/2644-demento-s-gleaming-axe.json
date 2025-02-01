@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2644-demento-s-gleaming-axe",
+        "fullSlug": "items\/2644-demento-s-gleaming-axe",
+        "id": 2644,
+        "name": "Demento's Gleaming Axe",
+        "description": "This silver Axe commemorates Demento, who gave his life to warn us of the coming evil of Drakonnan."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2644,
+            "name": "Demento's Gleaming Axe",
+            "description": "This silver Axe commemorates Demento, who gave his life to warn us of the coming evil of Drakonnan.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1900,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 4,
+            "level": 38,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-demento.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 56,
+            "damageMax": 64,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3"
+        }
+    },
+    "related": {
+        "465-flashpoint": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "465-flashpoint",
+                "fullSlug": "quests\/465-flashpoint",
+                "id": 465,
+                "name": "Flashpoint",
+                "description": "Falconreach, and the heroes of the west, ride east towards Yulgar's crossroads camp, while Demento investigates Konnan's disappearance."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 465,
+                    "name": "Flashpoint",
+                    "description": "Falconreach, and the heroes of the west, ride east towards Yulgar's crossroads camp, while Demento investigates Konnan's disappearance.",
+                    "complete": "The ties between Drakonnan and his humanity are severed, there is no going back. This new evil must be defeated.",
+                    "swf": "towns\/FireWar\/quest-firewar6-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire eaters, enslaved dragons",
+                    "monsterGroupSwf": "mset-firewar6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

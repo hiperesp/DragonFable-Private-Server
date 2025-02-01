@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5606-akriloth-s-bane-ii",
+        "fullSlug": "items\/5606-akriloth-s-bane-ii",
+        "id": 5606,
+        "name": "Akriloth's Bane II",
+        "description": "This item requires a Dragon Amulet. Though friend's and allies may have fallen, they will never be forgotten. May the bones of this enemy rest."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5606,
+            "name": "Akriloth's Bane II",
+            "description": "This item requires a Dragon Amulet. Though friend's and allies may have fallen, they will never be forgotten. May the bones of this enemy rest.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 7,
+            "level": 37,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Ice,5,Immobility,3,Health,-1"
+        }
+    },
+    "related": {
+        "221-akriloth-s-bane": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "221-akriloth-s-bane",
+                "fullSlug": "item-shops\/221-akriloth-s-bane",
+                "id": 221,
+                "name": "Akriloth's Bane",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 221,
+                    "name": "Akriloth's Bane",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

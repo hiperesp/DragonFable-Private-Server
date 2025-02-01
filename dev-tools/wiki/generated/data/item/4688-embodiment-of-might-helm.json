@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4688-embodiment-of-might-helm",
+        "fullSlug": "items\/4688-embodiment-of-might-helm",
+        "id": 4688,
+        "name": "Embodiment of Might Helm",
+        "description": "Murk made this helm by observing one of the new monsters that has recently started appearing in Ravenloss.  You should really find out more about them! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4688,
+            "name": "Embodiment of Might Helm",
+            "description": "Murk made this helm by observing one of the new monsters that has recently started appearing in Ravenloss.  You should really find out more about them! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-might.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,8,Wind,8,Immobility,8"
+        }
+    },
+    "related": {
+        "79-murk-s-sewer-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "79-murk-s-sewer-merch",
+                "fullSlug": "merge-shops\/79-murk-s-sewer-merch",
+                "id": 79,
+                "name": "Murk's Sewer Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 79,
+                    "name": "Murk's Sewer Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1113,
+                    "mergeShopId": 79,
+                    "mergeId": 859
+                },
+                "merge": {
+                    "id": 859,
+                    "itemId1": 4687,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4688,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

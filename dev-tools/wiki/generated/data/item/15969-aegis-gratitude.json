@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15969-aegis-gratitude",
+        "fullSlug": "items\/15969-aegis-gratitude",
+        "id": 15969,
+        "name": "Aegis' Gratitude",
+        "description": "Aegis was so grateful, his emotions manifested into this palpable necklace for you to wear. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15969,
+            "name": "Aegis' Gratitude",
+            "description": "Aegis was so grateful, his emotions manifested into this palpable necklace for you to wear. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 37,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Fire,3"
+        }
+    },
+    "related": {
+        "1366-just-chillin": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1366-just-chillin",
+                "fullSlug": "quests\/1366-just-chillin",
+                "id": 1366,
+                "name": "Just Chillin'",
+                "description": "Aegis has invited you to his house, better see what it's all about!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1366,
+                    "name": "Just Chillin'",
+                    "description": "Aegis has invited you to his house, better see what it's all about!",
+                    "complete": "Sweet dreams.",
+                    "swf": "towns\/3Ravenloss\/quest-justchillin-r1.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 40000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

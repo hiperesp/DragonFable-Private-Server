@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7595-the-baroness-heroic-helm",
+        "fullSlug": "items\/7595-the-baroness-heroic-helm",
+        "id": 7595,
+        "name": "The Baroness Heroic Helm",
+        "description": "You look dashing while you're bashing any and every monster that might cross your path!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7595,
+            "name": "The Baroness Heroic Helm",
+            "description": "You look dashing while you're bashing any and every monster that might cross your path!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 10,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-thebaroness.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Bacon,2,Fire,2"
+        }
+    },
+    "related": {
+        "282-mop-10": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "282-mop-10",
+                "fullSlug": "item-shops\/282-mop-10",
+                "id": 282,
+                "name": "MOP 10",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 282,
+                    "name": "MOP 10",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "118-mop-30": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "118-mop-30",
+                "fullSlug": "merge-shops\/118-mop-30",
+                "id": 118,
+                "name": "MOP 30",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 118,
+                    "name": "MOP 30"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1668,
+                    "mergeShopId": 118,
+                    "mergeId": 1554
+                },
+                "merge": {
+                    "id": 1554,
+                    "itemId1": 7595,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7596,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

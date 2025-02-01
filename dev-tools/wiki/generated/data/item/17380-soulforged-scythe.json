@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17380-soulforged-scythe",
+        "fullSlug": "items\/17380-soulforged-scythe",
+        "id": 17380,
+        "name": "SoulForged Scythe",
+        "description": "Your very own SoulForged scythe! It radiates with versatility!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17380,
+            "name": "SoulForged Scythe",
+            "description": "Your very own SoulForged scythe! It radiates with versatility!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 7,
+            "level": 60,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-soulforged.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 76,
+            "damageMax": 76,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,6"
+        }
+    },
+    "related": {
+        "269-soulforged-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "269-soulforged-scythe",
+                "fullSlug": "merge-shops\/269-soulforged-scythe",
+                "id": 269,
+                "name": "SoulForged Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 269,
+                    "name": "SoulForged Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3020,
+                    "mergeShopId": 269,
+                    "mergeId": 3036
+                },
+                "merge": {
+                    "id": 3036,
+                    "itemId1": 15721,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 17380,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "274-spirit-cast": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "274-spirit-cast",
+                "fullSlug": "merge-shops\/274-spirit-cast",
+                "id": 274,
+                "name": "Spirit Cast",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 274,
+                    "name": "Spirit Cast"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3055,
+                    "mergeShopId": 274,
+                    "mergeId": 3057
+                },
+                "merge": {
+                    "id": 3057,
+                    "itemId1": 17380,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15721,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

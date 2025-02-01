@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4166-defender-s-belt-ii",
+        "fullSlug": "items\/4166-defender-s-belt-ii",
+        "id": 4166,
+        "name": "Defender's Belt II",
+        "description": "This belt was awarded to you by the town of Falconreach for defending it against a terrible threat. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4166,
+            "name": "Defender's Belt II",
+            "description": "This belt was awarded to you by the town of Falconreach for defending it against a terrible threat. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 43,
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Stone,4,Energy,4"
+        }
+    },
+    "related": {
+        "71-def-belts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "71-def-belts",
+                "fullSlug": "merge-shops\/71-def-belts",
+                "id": 71,
+                "name": "Def. Belts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 71,
+                    "name": "Def. Belts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1060,
+                    "mergeShopId": 71,
+                    "mergeId": 769
+                },
+                "merge": {
+                    "id": 769,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": 4166,
+                    "amount2": 1,
+                    "itemId": 4169,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

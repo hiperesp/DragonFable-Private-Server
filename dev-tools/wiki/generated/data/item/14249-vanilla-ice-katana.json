@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14249-vanilla-ice-katana",
+        "fullSlug": "items\/14249-vanilla-ice-katana",
+        "id": 14249,
+        "name": "Vanilla Ice Katana",
+        "description": "This item requires a Dragon Amulet. This delicate katana was crafted by Yulgar using the remaining shards of the Ice Scythe and the Ice Gems from the north. It smells faintly of vanilla...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14249,
+            "name": "Vanilla Ice Katana",
+            "description": "This item requires a Dragon Amulet. This delicate katana was crafted by Yulgar using the remaining shards of the Ice Scythe and the Ice Gems from the north. It smells faintly of vanilla....",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 6,
+            "level": 70,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-katanar2.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 72,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,12"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1485,
+                    "mergeShopId": 108,
+                    "mergeId": 2632
+                },
+                "merge": {
+                    "id": 2632,
+                    "itemId1": 14249,
+                    "amount1": 1,
+                    "itemId2": 12091,
+                    "amount2": 1,
+                    "itemId": 14250,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

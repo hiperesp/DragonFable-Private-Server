@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19163-akaz-s-ampoule-ring-ii",
+        "fullSlug": "items\/19163-akaz-s-ampoule-ring-ii",
+        "id": 19163,
+        "name": "Akaz's Ampoule Ring II",
+        "description": "A tiny glass globe filled with some sort of potion, given to you from Akaz. Akaz says it's completely sealed. Hopefully he's right."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19163,
+            "name": "Akaz's Ampoule Ring II",
+            "description": "A tiny glass globe filled with some sort of potion, given to you from Akaz. Akaz says it's completely sealed. Hopefully he's right.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 10,
+            "dexterity": -20,
+            "intelligence": -20,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1655-heavy-lifting": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1655-heavy-lifting",
+                "fullSlug": "quests\/1655-heavy-lifting",
+                "id": 1655,
+                "name": "Heavy Lifting",
+                "description": "Learn what happened to Verlyrus, then make haste and find him."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1655,
+                    "name": "Heavy Lifting",
+                    "description": "Learn what happened to Verlyrus, then make haste and find him.",
+                    "complete": "Verlyrus is resting after his heavy workout, and it's time to trick or treat!",
+                    "swf": "towns\/Mogloween\/M19\/quest2-heavy-r2.swf",
+                    "swfX": "towns\/Mogloween\/M19\/quest2-heavy-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 60000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Swole Verlyrus",
+                    "monsterGroupSwf": "mset-swoleverly.swf?ver=3"
+                }
+            },
+            "related": []
+        }
+    }
+}

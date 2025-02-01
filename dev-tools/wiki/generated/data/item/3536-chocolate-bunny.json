@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3536-chocolate-bunny",
+        "fullSlug": "items\/3536-chocolate-bunny",
+        "id": 3536,
+        "name": "Chocolate Bunny",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3536,
+            "name": "Chocolate Bunny"
+        }
+    },
+    "related": {
+        "65-chocolate-bunny": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "65-chocolate-bunny",
+                "fullSlug": "merge-shops\/65-chocolate-bunny",
+                "id": 65,
+                "name": "Chocolate Bunny",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 65,
+                    "name": "Chocolate Bunny"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 925,
+                    "mergeShopId": 65,
+                    "mergeId": 677
+                },
+                "merge": {
+                    "id": 677,
+                    "itemId1": 3536,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 3537,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

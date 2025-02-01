@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5777-blackwyn-axe",
+        "fullSlug": "items\/5777-blackwyn-axe",
+        "id": 5777,
+        "name": "Blackwyn Axe",
+        "description": "One of the weapons from the Blackwyn Lich's arsenal, this axe has wickedly sharp blades."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5777,
+            "name": "Blackwyn Axe",
+            "description": "One of the weapons from the Blackwyn Lich's arsenal, this axe has wickedly sharp blades.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 20,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-blackwynaxe.swf",
+            "icon": "axe",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 37,
+            "damageMax": 43,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Ice,2"
+        }
+    },
+    "related": {
+        "227-weapons-cache": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "227-weapons-cache",
+                "fullSlug": "item-shops\/227-weapons-cache",
+                "id": 227,
+                "name": "Weapons Cache",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 227,
+                    "name": "Weapons Cache",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

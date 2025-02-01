@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6537-irrepressible-water-dragon-staff",
+        "fullSlug": "items\/6537-irrepressible-water-dragon-staff",
+        "id": 6537,
+        "name": "Irrepressible Water Dragon Staff",
+        "description": "It is the year of the water dragon. Perception and patience flow through these dragon's personalities. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6537,
+            "name": "Irrepressible Water Dragon Staff",
+            "description": "It is the year of the water dragon. Perception and patience flow through these dragon's personalities. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 15,
+            "level": 31,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-dragonstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 46,
+            "damageMax": 62,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Fire,3,Light,3,Darkness,3"
+        }
+    },
+    "related": {
+        "251-year-of-the-dragon": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "251-year-of-the-dragon",
+                "fullSlug": "item-shops\/251-year-of-the-dragon",
+                "id": 251,
+                "name": "Year of the Dragon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 251,
+                    "name": "Year of the Dragon",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

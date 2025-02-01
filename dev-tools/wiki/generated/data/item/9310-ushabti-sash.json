@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9310-ushabti-sash",
+        "fullSlug": "items\/9310-ushabti-sash",
+        "id": 9310,
+        "name": "Ushabti Sash",
+        "description": "A small mummiform figure hangs off this belt."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9310,
+            "name": "Ushabti Sash",
+            "description": "A small mummiform figure hangs off this belt.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 36,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Stone,4,Immobility,3"
+        }
+    },
+    "related": {
+        "1034-face-of-death": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1034-face-of-death",
+                "fullSlug": "quests\/1034-face-of-death",
+                "id": 1034,
+                "name": "Face of Death",
+                "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1034,
+                    "name": "Face of Death",
+                    "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!",
+                    "complete": "You've released the magic contained in the sacrificial crystal! That's good... right?",
+                    "swf": "towns\/3Rosewood\/quest4-sandsea-death-re.swf?ver=1",
+                    "swfX": "towns\/3Rosewood\/quest4-sandsea-death-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "thugs, scarabs, mummies",
+                    "monsterGroupSwf": "mset-sandsea-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

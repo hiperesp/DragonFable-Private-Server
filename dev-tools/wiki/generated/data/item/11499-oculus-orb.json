@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11499-oculus-orb",
+        "fullSlug": "items\/11499-oculus-orb",
+        "id": 11499,
+        "name": "Oculus Orb",
+        "description": "A fully completed Oculus Orb... this should come in handy in the future."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11499,
+            "name": "Oculus Orb",
+            "description": "A fully completed Oculus Orb... this should come in handy in the future.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Energy",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "198-oculus-shards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "198-oculus-shards",
+                "fullSlug": "merge-shops\/198-oculus-shards",
+                "id": 198,
+                "name": "Oculus Shards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 198,
+                    "name": "Oculus Shards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2307,
+                    "mergeShopId": 198,
+                    "mergeId": 2122
+                },
+                "merge": {
+                    "id": 2122,
+                    "itemId1": 11427,
+                    "amount1": 10,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11499,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

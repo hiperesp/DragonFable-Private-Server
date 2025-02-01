@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10430-dread-pirate-mask-ix",
+        "fullSlug": "items\/10430-dread-pirate-mask-ix",
+        "id": 10430,
+        "name": "Dread Pirate Mask IX",
+        "description": "Arrr, me mateys! Celebrate TLaPD in true pirate style!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10430,
+            "name": "Dread Pirate Mask IX",
+            "description": "Arrr, me mateys! Celebrate TLaPD in true pirate style!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 375,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dread-pirate-mask.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 12,
+            "parry": 2,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Energy,10,Water,10,Immobility,6,Poison,9,Health,-4"
+        }
+    },
+    "related": {
+        "276-tlapd-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "276-tlapd-dc",
+                "fullSlug": "item-shops\/276-tlapd-dc",
+                "id": 276,
+                "name": "TLaPD DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 276,
+                    "name": "TLaPD DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

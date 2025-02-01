@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15121-marked-zorbak-s-staff",
+        "fullSlug": "items\/15121-marked-zorbak-s-staff",
+        "id": 15121,
+        "name": "Marked Zorbak's Staff",
+        "description": "Twig got at Zorbak's staff... he's not gonna be happy! It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15121,
+            "name": "Marked Zorbak's Staff",
+            "description": "Twig got at Zorbak's staff... he's not gonna be happy! It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ebil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ZorbakStaff-twig.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 11,
+            "dodge": 11,
+            "block": 11,
+            "resists": "Light,11,Water,6,Good,9,Mana,-7"
+        }
+    },
+    "related": {
+        "162-black-marker-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "162-black-marker-shop",
+                "fullSlug": "item-shops\/162-black-marker-shop",
+                "id": 162,
+                "name": "Black Marker Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 162,
+                    "name": "Black Marker Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9204-consuming-cursed-pharoh-staff",
+        "fullSlug": "items\/9204-consuming-cursed-pharoh-staff",
+        "id": 9204,
+        "name": "Consuming Cursed Pharoh Staff",
+        "description": "A dry, hot poison infuses this cursed staff.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9204,
+            "name": "Consuming Cursed Pharoh Staff",
+            "description": "A dry, hot poison infuses this cursed staff.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 55,
+            "level": 79,
+            "type": "Magic",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-cursedpharohsstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 11,
+            "parry": 1,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,11,Light,11,Wind,11,Stone,11,Immobility,3"
+        }
+    },
+    "related": {
+        "319-cursed-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "319-cursed-shop",
+                "fullSlug": "item-shops\/319-cursed-shop",
+                "id": 319,
+                "name": "Cursed Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Cursed Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

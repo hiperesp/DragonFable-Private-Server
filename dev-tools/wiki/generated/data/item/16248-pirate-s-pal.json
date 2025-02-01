@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16248-pirate-s-pal",
+        "fullSlug": "items\/16248-pirate-s-pal",
+        "id": 16248,
+        "name": "Pirate's Pal",
+        "description": "Pirate's Pal: The go-to pistol for the modern pirate. Sleek, throwback design. Comes pre-polished and ready to use! Bullets sold separately."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16248,
+            "name": "Pirate's Pal",
+            "description": "Pirate's Pal: The go-to pistol for the modern pirate. Sleek, throwback design. Comes pre-polished and ready to use! Bullets sold separately.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 40,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-gun1.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 52,
+            "damageMax": 66,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4"
+        }
+    },
+    "related": {
+        "1380-back-to-the-mainland": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1380-back-to-the-mainland",
+                "fullSlug": "quests\/1380-back-to-the-mainland",
+                "id": 1380,
+                "name": "Back to the Mainland",
+                "description": "Time to go back to Osprey Cove!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1380,
+                    "name": "Back to the Mainland",
+                    "description": "Time to go back to Osprey Cove!",
+                    "complete": "Arr!",
+                    "swf": "towns\/3OspreyCove\/TLaPD16\/quest-tlapdback.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pirates, rose, birds, sharks",
+                    "monsterGroupSwf": "mset-tlapd16.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

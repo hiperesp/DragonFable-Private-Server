@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7370-detailed-orchidea",
+        "fullSlug": "items\/7370-detailed-orchidea",
+        "id": 7370,
+        "name": "Detailed Orchidea",
+        "description": "This gorgeous scythe was woven by the SoulWeaver, Tomix, in celebration of knowledge and learning."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7370,
+            "name": "Detailed Orchidea",
+            "description": "This gorgeous scythe was woven by the SoulWeaver, Tomix, in celebration of knowledge and learning.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Orchidea.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,3,Health,-5"
+        }
+    },
+    "related": {
+        "274-back-to-school-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "274-back-to-school-shop",
+                "fullSlug": "item-shops\/274-back-to-school-shop",
+                "id": 274,
+                "name": "Back to School Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 274,
+                    "name": "Back to School Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

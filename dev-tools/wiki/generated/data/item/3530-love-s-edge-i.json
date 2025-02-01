@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3530-love-s-edge-i",
+        "fullSlug": "items\/3530-love-s-edge-i",
+        "id": 3530,
+        "name": "Love's Edge I",
+        "description": "Be sure to clean the monster blood off this sword's blade, or it will rust!  Love is a battlefield!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3530,
+            "name": "Love's Edge I",
+            "description": "Be sure to clean the monster blood off this sword's blade, or it will rust!  Love is a battlefield!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 15,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-HHD10.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 32,
+            "damageMax": 40,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 824,
+                    "mergeShopId": 53,
+                    "mergeId": 637
+                },
+                "merge": {
+                    "id": 637,
+                    "itemId1": 707,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 3530,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

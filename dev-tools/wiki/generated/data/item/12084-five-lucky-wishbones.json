@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12084-five-lucky-wishbones",
+        "fullSlug": "items\/12084-five-lucky-wishbones",
+        "id": 12084,
+        "name": "Five \"Lucky\" Wishbones",
+        "description": "Wishbones are supposed to be lucky... right? This item requires a Dragon Amulet. Visit the Black Market Moglin to upgrade this item."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12084,
+            "name": "Five \"Lucky\" Wishbones",
+            "description": "Wishbones are supposed to be lucky... right? This item requires a Dragon Amulet. Visit the Black Market Moglin to upgrade this item.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 70,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "",
+            "icon": "trinket",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 14,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Light,12"
+        }
+    },
+    "related": {
+        "92-wishbones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "92-wishbones",
+                "fullSlug": "merge-shops\/92-wishbones",
+                "id": 92,
+                "name": "Wishbones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 92,
+                    "name": "Wishbones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1268,
+                    "mergeShopId": 92,
+                    "mergeId": 2316
+                },
+                "merge": {
+                    "id": 2316,
+                    "itemId1": 12084,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 12085,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

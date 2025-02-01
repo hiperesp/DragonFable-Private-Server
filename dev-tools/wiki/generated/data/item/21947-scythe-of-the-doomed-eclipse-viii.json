@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21947-scythe-of-the-doomed-eclipse-viii",
+        "fullSlug": "items\/21947-scythe-of-the-doomed-eclipse-viii",
+        "id": 21947,
+        "name": "Scythe of the Doomed Eclipse VIII",
+        "description": "As Doom gathered onto this massive bone, it formed a wicked blade, reminiscent of the eclipse above. Increases Bonus by Level\/5 when using Light or Darkness. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21947,
+            "name": "Scythe of the Doomed Eclipse VIII",
+            "description": "As Doom gathered onto this massive bone, it formed a wicked blade, reminiscent of the eclipse above. Increases Bonus by Level\/5 when using Light or Darkness. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 20,
+            "rarity": 0,
+            "level": 80,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-eclipsed.swf",
+            "icon": "scythe",
+            "strength": 20,
+            "dexterity": 20,
+            "intelligence": 20,
+            "luck": -20,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 86,
+            "damageMax": 90,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 0,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,5,Health,-3"
+        }
+    },
+    "related": {
+        "417-doomed-eclipse-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "417-doomed-eclipse-upgrade",
+                "fullSlug": "merge-shops\/417-doomed-eclipse-upgrade",
+                "id": 417,
+                "name": "Doomed Eclipse Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 417,
+                    "name": "Doomed Eclipse Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4274,
+                    "mergeShopId": 417,
+                    "mergeId": 4323
+                },
+                "merge": {
+                    "id": 4323,
+                    "itemId1": 21947,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 20,
+                    "itemId": 21948,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

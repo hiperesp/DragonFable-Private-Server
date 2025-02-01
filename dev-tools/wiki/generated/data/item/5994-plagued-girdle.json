@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5994-plagued-girdle",
+        "fullSlug": "items\/5994-plagued-girdle",
+        "id": 5994,
+        "name": "Plagued Girdle",
+        "description": "It's smelly and dirty and... do you really want this?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5994,
+            "name": "Plagued Girdle",
+            "description": "It's smelly and dirty and... do you really want this?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 40,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": -2,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Disease,7,Fire,6"
+        }
+    },
+    "related": {
+        "816-last-year": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "816-last-year",
+                "fullSlug": "quests\/816-last-year",
+                "id": 816,
+                "name": "Last Year",
+                "description": "Last year...."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 816,
+                    "name": "Last Year",
+                    "description": "Last year....",
+                    "complete": "Dundunduuuuuuuunnnnnn!",
+                    "swf": "towns\/Mogloween\/M11\/quest1-lastyear-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "z-virus monsters",
+                    "monsterGroupSwf": "mset-rs-uprising.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4610-woses-iv",
+        "fullSlug": "items\/4610-woses-iv",
+        "id": 4610,
+        "name": "Woses IV",
+        "description": "Pwetty!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4610,
+            "name": "Woses IV",
+            "description": "Pwetty!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-TwigBF1.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 72,
+            "damageMax": 78,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Ice,10,Water,10"
+        }
+    },
+    "related": {
+        "162-black-marker-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "162-black-marker-shop",
+                "fullSlug": "item-shops\/162-black-marker-shop",
+                "id": 162,
+                "name": "Black Marker Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 162,
+                    "name": "Black Marker Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

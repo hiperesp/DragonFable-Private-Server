@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12376-inlaid-trithril-belt",
+        "fullSlug": "items\/12376-inlaid-trithril-belt",
+        "id": 12376,
+        "name": "Inlaid Trithril Belt",
+        "description": "Trithril inlaid with trithril... double the trithril! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12376,
+            "name": "Inlaid Trithril Belt",
+            "description": "Trithril inlaid with trithril... double the trithril! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 12300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 76,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 12,
+            "defensePierce": 12,
+            "defenseMagic": 12,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1178-trithril-for-yashta": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1178-trithril-for-yashta",
+                "fullSlug": "quests\/1178-trithril-for-yashta",
+                "id": 1178,
+                "name": "Trithril for Yashta",
+                "description": "Yashta has asked you to to gather some trithril from caves under Atrea."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1178,
+                    "name": "Trithril for Yashta",
+                    "description": "Yashta has asked you to to gather some trithril from caves under Atrea.",
+                    "complete": "You got a few trithril stones sitting safely in your pocket. Time to return to Yashta.",
+                    "swf": "random\/random-atrea-caves-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire monsters",
+                    "monsterGroupSwf": "mset-atrea-caves-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

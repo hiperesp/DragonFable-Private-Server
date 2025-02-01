@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2853-commemorative-birthday-dagger",
+        "fullSlug": "items\/2853-commemorative-birthday-dagger",
+        "id": 2853,
+        "name": "Commemorative Birthday Dagger",
+        "description": "From Lady Celestia and all the people of Lore:  Happy Birthday, hero!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2853,
+            "name": "Commemorative Birthday Dagger",
+            "description": "From Lady Celestia and all the people of Lore:  Happy Birthday, hero!\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 25,
+            "level": 10,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-custom.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 20,
+            "damageMax": 38,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "107-birthday-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "107-birthday-shop",
+                "fullSlug": "item-shops\/107-birthday-shop",
+                "id": 107,
+                "name": "Birthday Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 107,
+                    "name": "Birthday Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

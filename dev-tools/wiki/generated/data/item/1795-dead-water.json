@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1795-dead-water",
+        "fullSlug": "items\/1795-dead-water",
+        "id": 1795,
+        "name": "Dead Water",
+        "description": "This strange blade was forged in the far north near Dragesvard, in the slowing waters of the sea. The strange properties make it deadly accurate."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1795,
+            "name": "Dead Water",
+            "description": "This strange blade was forged in the far north near Dragesvard, in the slowing waters of the sea. The strange properties make it deadly accurate.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 420,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 7,
+            "level": 44,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-dcon1.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 63,
+            "damageMax": 71,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4"
+        }
+    },
+    "related": {
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

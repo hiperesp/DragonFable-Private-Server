@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19236-drop-bear-hat-ii",
+        "fullSlug": "items\/19236-drop-bear-hat-ii",
+        "id": 19236,
+        "name": "Drop Bear Hat II",
+        "description": "All that remains of the Drop Bear. Makes a good hat, but holds on a little too tightly when you try to take it off."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19236,
+            "name": "Drop Bear Hat II",
+            "description": "All that remains of the Drop Bear. Makes a good hat, but holds on a little too tightly when you try to take it off.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 700,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dropbear.swf",
+            "icon": "helm",
+            "strength": -6,
+            "dexterity": -6,
+            "intelligence": -6,
+            "luck": -6,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,-12,Health,12"
+        }
+    },
+    "related": {
+        "1659-drop-bears": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1659-drop-bears",
+                "fullSlug": "quests\/1659-drop-bears",
+                "id": 1659,
+                "name": "Drop Bears",
+                "description": "Weird, another series of rare creatures has appeared in the forest. How about we hunt them down?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1659,
+                    "name": "Drop Bears",
+                    "description": "Weird, another series of rare creatures has appeared in the forest. How about we hunt them down?",
+                    "complete": "The Drop Bears are defeated, but it still feels like something is Behind you.",
+                    "swf": "towns\/3Falconreach\/Board\/random-dropbear.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 80000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "scared animals",
+                    "monsterGroupSwf": "mset-dropbear.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

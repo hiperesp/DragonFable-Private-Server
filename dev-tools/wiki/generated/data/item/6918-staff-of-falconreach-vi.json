@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6918-staff-of-falconreach-vi",
+        "fullSlug": "items\/6918-staff-of-falconreach-vi",
+        "id": 6918,
+        "name": "Staff of Falconreach VI",
+        "description": "You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6918,
+            "name": "Staff of Falconreach VI",
+            "description": "You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 46,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-falconreach.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,7,Stone,4"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1520,
+                    "mergeShopId": 108,
+                    "mergeId": 1395
+                },
+                "merge": {
+                    "id": 1395,
+                    "itemId1": 6918,
+                    "amount1": 1,
+                    "itemId2": 6908,
+                    "amount2": 1,
+                    "itemId": 6919,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

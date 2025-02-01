@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4660-soul-purifier",
+        "fullSlug": "items\/4660-soul-purifier",
+        "id": 4660,
+        "name": "Soul Purifier",
+        "description": "Is something casting a shadow over YOUR soul?  The Soul Purifier will help with that!  This trinket will raise your defenses for three turns while healing some of your health! This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4660,
+            "name": "Soul Purifier",
+            "description": "Is something casting a shadow over YOUR soul?  The Soul Purifier will help with that!  This trinket will raise your defenses for three turns while healing some of your health! This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-soul.swf",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,10"
+        }
+    },
+    "related": {
+        "700-memory-demons": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "700-memory-demons",
+                "fullSlug": "quests\/700-memory-demons",
+                "id": 700,
+                "name": "Memory-Demons",
+                "description": "Vayle cannot forget the past, but she will have to in order to have a brighter future. Help her see the light!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 700,
+                    "name": "Memory-Demons",
+                    "description": "Vayle cannot forget the past, but she will have to in order to have a brighter future. Help her see the light!",
+                    "complete": "The Darkness Orb is yours! And now Vayle has a chance to be truly happy in the future.",
+                    "swf": "quests\/quest-vayle2-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness",
+                    "monsterGroupSwf": "mset-vayle2-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

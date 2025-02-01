@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15493-lonely-lover",
+        "fullSlug": "items\/15493-lonely-lover",
+        "id": 15493,
+        "name": "Lonely Lover",
+        "description": "With the help of Big Daddy, a lonely sorcerer converted his old weapon into this in exchange for Snuggle-Grams. Now the scythe is pink and purple, and filled with love!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15493,
+            "name": "Lonely Lover",
+            "description": "With the help of Big Daddy, a lonely sorcerer converted his old weapon into this in exchange for Snuggle-Grams. Now the scythe is pink and purple, and filled with love!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lonelylover.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,6,Water,4,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "245-hero-s-heart-day-2016": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "245-hero-s-heart-day-2016",
+                "fullSlug": "merge-shops\/245-hero-s-heart-day-2016",
+                "id": 245,
+                "name": "Hero's Heart Day 2016",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 245,
+                    "name": "Hero's Heart Day 2016"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2766,
+                    "mergeShopId": 245,
+                    "mergeId": 2769
+                },
+                "merge": {
+                    "id": 2769,
+                    "itemId1": 15480,
+                    "amount1": 5,
+                    "itemId2": 15493,
+                    "amount2": 1,
+                    "itemId": 15494,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

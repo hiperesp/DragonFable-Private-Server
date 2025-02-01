@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18809-wings-of-yaphael-iii",
+        "fullSlug": "items\/18809-wings-of-yaphael-iii",
+        "id": 18809,
+        "name": "Wings of Yaphael III",
+        "description": "The black-feathered wings of the Infernal Yaphael. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18809,
+            "name": "Wings of Yaphael III",
+            "description": "The black-feathered wings of the Infernal Yaphael. This item requires a Dragon Amulet to use.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 90,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-yaphael.swf?ver=1",
+            "icon": "wings",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5,Health,-5"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3285,
+                    "mergeShopId": 303,
+                    "mergeId": 3381
+                },
+                "merge": {
+                    "id": 3381,
+                    "itemId1": 18808,
+                    "amount1": 1,
+                    "itemId2": 18819,
+                    "amount2": 5,
+                    "itemId": 18809,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

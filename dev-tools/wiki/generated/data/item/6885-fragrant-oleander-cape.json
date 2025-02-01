@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6885-fragrant-oleander-cape",
+        "fullSlug": "items\/6885-fragrant-oleander-cape",
+        "id": 6885,
+        "name": "Fragrant Oleander Cape",
+        "description": "A beautiful cape for Mother's Day! Happy Mother's Day!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6885,
+            "name": "Fragrant Oleander Cape",
+            "description": "A beautiful cape for Mother's Day! Happy Mother's Day!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 72,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-oleander veil.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 0,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,10,Nature,10,Immobility,4,Health,-2"
+        }
+    },
+    "related": {
+        "261-mother-s-day": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "261-mother-s-day",
+                "fullSlug": "item-shops\/261-mother-s-day",
+                "id": 261,
+                "name": "Mother's Day",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 261,
+                    "name": "Mother's Day",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

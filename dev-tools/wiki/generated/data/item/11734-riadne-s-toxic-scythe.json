@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11734-riadne-s-toxic-scythe",
+        "fullSlug": "items\/11734-riadne-s-toxic-scythe",
+        "id": 11734,
+        "name": "Riadne's Toxic Scythe",
+        "description": "A scythe once wielded by Riadne, made from her manaweb."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11734,
+            "name": "Riadne's Toxic Scythe",
+            "description": "A scythe once wielded by Riadne, made from her manaweb.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-riadne.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Darkness,3"
+        }
+    },
+    "related": {
+        "200-riadne-s-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "200-riadne-s-scythe",
+                "fullSlug": "merge-shops\/200-riadne-s-scythe",
+                "id": 200,
+                "name": "Riadne's Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 200,
+                    "name": "Riadne's Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2344,
+                    "mergeShopId": 200,
+                    "mergeId": 2186
+                },
+                "merge": {
+                    "id": 2186,
+                    "itemId1": 11731,
+                    "amount1": 3,
+                    "itemId2": 11734,
+                    "amount2": 1,
+                    "itemId": 11735,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

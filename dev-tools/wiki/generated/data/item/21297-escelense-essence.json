@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21297-escelense-essence",
+        "fullSlug": "items\/21297-escelense-essence",
+        "id": 21297,
+        "name": "Escelense Essence",
+        "description": "A mysterious essence harnessed by the Ateala. Proof of victory over Etaos."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21297,
+            "name": "Escelense Essence",
+            "description": "A mysterious essence harnessed by the Ateala. Proof of victory over Etaos.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2015-etaos-breaker-of-the-mind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2015-etaos-breaker-of-the-mind",
+                "fullSlug": "quests\/2015-etaos-breaker-of-the-mind",
+                "id": 2015,
+                "name": "Etaos, Breaker of the Mind",
+                "description": "Our children returned to us, with new stars in their eyes"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2015,
+                    "name": "Etaos, Breaker of the Mind",
+                    "description": "Our children returned to us, with new stars in their eyes",
+                    "complete": "...above the clouds, above the storms, they shone...",
+                    "swf": "towns\/TimeArena\/quest-etaos.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Alzein and Etaos",
+                    "monsterGroupSwf": "mset-arenaalzetaos.swf"
+                }
+            },
+            "related": []
+        },
+        "379-star-s-tears": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "379-star-s-tears",
+                "fullSlug": "merge-shops\/379-star-s-tears",
+                "id": 379,
+                "name": "Star's Tears",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 379,
+                    "name": "Star's Tears"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3956,
+                    "mergeShopId": 379,
+                    "mergeId": 4062
+                },
+                "merge": {
+                    "id": 4062,
+                    "itemId1": 21296,
+                    "amount1": 1,
+                    "itemId2": 21297,
+                    "amount2": 1,
+                    "itemId": 21292,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

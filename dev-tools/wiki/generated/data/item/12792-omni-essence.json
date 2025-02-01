@@ -1,0 +1,145 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12792-omni-essence",
+        "fullSlug": "items\/12792-omni-essence",
+        "id": 12792,
+        "name": "Omni Essence",
+        "description": "This mysterious essence was found in the space between spaces. It seems to glow brighter when you bring it close to either of the OmniBlade's. Perhaps it can increase their power?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12792,
+            "name": "Omni Essence",
+            "description": "This mysterious essence was found in the space between spaces. It seems to glow brighter when you bring it close to either of the OmniBlade's. Perhaps it can increase their power?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "218-special-essences": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "218-special-essences",
+                "fullSlug": "item-shops\/218-special-essences",
+                "id": 218,
+                "name": "Special Essences",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 218,
+                    "name": "Special Essences",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "211-omniblade-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "211-omniblade-upgrade",
+                "fullSlug": "merge-shops\/211-omniblade-upgrade",
+                "id": 211,
+                "name": "OmniBlade Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 211,
+                    "name": "OmniBlade Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2535,
+                    "mergeShopId": 211,
+                    "mergeId": 3268
+                },
+                "merge": {
+                    "id": 3268,
+                    "itemId1": 12671,
+                    "amount1": 1,
+                    "itemId2": 12792,
+                    "amount2": 1,
+                    "itemId": 18240,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "241-ultra-omniknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "241-ultra-omniknight-upgrades",
+                "fullSlug": "merge-shops\/241-ultra-omniknight-upgrades",
+                "id": 241,
+                "name": "Ultra OmniKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 241,
+                    "name": "Ultra OmniKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2670,
+                    "mergeShopId": 241,
+                    "mergeId": 3272
+                },
+                "merge": {
+                    "id": 3272,
+                    "itemId1": 14836,
+                    "amount1": 1,
+                    "itemId2": 12792,
+                    "amount2": 1,
+                    "itemId": 18244,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

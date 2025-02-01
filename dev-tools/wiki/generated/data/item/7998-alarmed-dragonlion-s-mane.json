@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7998-alarmed-dragonlion-s-mane",
+        "fullSlug": "items\/7998-alarmed-dragonlion-s-mane",
+        "id": 7998,
+        "name": "Alarmed DragonLion's Mane",
+        "description": "Who's scared of that mean ol' witch? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7998,
+            "name": "Alarmed DragonLion's Mane",
+            "description": "Who's scared of that mean ol' witch? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-lionmanecc.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Darkness,6,Stone,6,Immobility,2"
+        }
+    },
+    "related": {
+        "291-cc-lions": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "291-cc-lions",
+                "fullSlug": "item-shops\/291-cc-lions",
+                "id": 291,
+                "name": "CC Lions",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 291,
+                    "name": "CC Lions",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2341-hunter-s-wrath",
+        "fullSlug": "items\/2341-hunter-s-wrath",
+        "id": 2341,
+        "name": "Hunter's Wrath",
+        "description": "Dont underestimate the power of sticking a red-hot blade into an opponents face.  Yulgar knew this, and thats why he made this dagger the way he did.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2341,
+            "name": "Hunter's Wrath",
+            "description": "Dont underestimate the power of sticking a red-hot blade into an opponents face.  Yulgar knew this, and thats why he made this dagger the way he did.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 46,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bacon9.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 61,
+            "damageMax": 69,
+            "defenseMelee": 3,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5"
+        }
+    },
+    "related": {
+        "382-frenzy-at-the-forge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "382-frenzy-at-the-forge",
+                "fullSlug": "quests\/382-frenzy-at-the-forge",
+                "id": 382,
+                "name": "Frenzy at the Forge",
+                "description": "The smell of Yulgar's strawberry smoothies have attracted the local wildlife into town, including the ferocious boar Zeuster has sent you to hunt!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 382,
+                    "name": "Frenzy at the Forge",
+                    "description": "The smell of Yulgar's strawberry smoothies have attracted the local wildlife into town, including the ferocious boar Zeuster has sent you to hunt!",
+                    "complete": "It's hard to be bored when animals are going wild.  You might want to help Yulgar clean up his forge, too, since he DID make the smoothies for you.",
+                    "swf": "quests\/Zeuster\/quest-bacon9.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest",
+                    "monsterGroupSwf": "mset-bacon9.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

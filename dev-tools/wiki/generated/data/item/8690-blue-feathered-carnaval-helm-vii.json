@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8690-blue-feathered-carnaval-helm-vii",
+        "fullSlug": "items\/8690-blue-feathered-carnaval-helm-vii",
+        "id": 8690,
+        "name": "Blue Feathered Carnaval Helm VII",
+        "description": "Celebrate Carnaval 2013 with this feathery helm!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8690,
+            "name": "Blue Feathered Carnaval Helm VII",
+            "description": "Celebrate Carnaval 2013 with this feathery helm!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 12,
+            "level": 80,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-carnivale-bluefeathers.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 6,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Light,9,Wind,9,Immobility,5,Health,-5"
+        }
+    },
+    "related": {
+        "304-carnaval-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "304-carnaval-shop",
+                "fullSlug": "item-shops\/304-carnaval-shop",
+                "id": 304,
+                "name": "Carnaval Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 304,
+                    "name": "Carnaval Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

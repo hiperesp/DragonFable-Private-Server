@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11619-boggy-belt",
+        "fullSlug": "items\/11619-boggy-belt",
+        "id": 11619,
+        "name": "Boggy Belt",
+        "description": "It's tough, leathery, and smells like a fresh bog! Ew. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11619,
+            "name": "Boggy Belt",
+            "description": "It's tough, leathery, and smells like a fresh bog! Ew. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 28,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Silver,3,Darkness,3,All,1"
+        }
+    },
+    "related": {
+        "1136-mission-possible": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1136-mission-possible",
+                "fullSlug": "quests\/1136-mission-possible",
+                "id": 1136,
+                "name": "Mission Possible",
+                "description": "Kara has a special mission for you... Are you ready?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1136,
+                    "name": "Mission Possible",
+                    "description": "Kara has a special mission for you... Are you ready?",
+                    "complete": "You found the Face Nommer! It looks a bit worse for wear though...",
+                    "swf": "towns\/suleneska\/quest12-mission.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp creatures",
+                    "monsterGroupSwf": "mset-nommer.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

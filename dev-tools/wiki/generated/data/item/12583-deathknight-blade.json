@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12583-deathknight-blade",
+        "fullSlug": "items\/12583-deathknight-blade",
+        "id": 12583,
+        "name": "DeathKnight Blade",
+        "description": "Sir Malifact collected this weapon from a fallen DeathKnight and saved it. While he already has items bound to him, you might be able to make use of it. Click to switch between Darkness and Light. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12583,
+            "name": "DeathKnight Blade",
+            "description": "Sir Malifact collected this weapon from a fallen DeathKnight and saved it. While he already has items bound to him, you might be able to make use of it. Click to switch between Darkness and Light. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 40,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DKRevamp.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Darkness,3"
+        }
+    },
+    "related": {
+        "209-deathknight-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "209-deathknight-items",
+                "fullSlug": "merge-shops\/209-deathknight-items",
+                "id": 209,
+                "name": "DeathKnight Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 209,
+                    "name": "DeathKnight Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2481,
+                    "mergeShopId": 209,
+                    "mergeId": 2393
+                },
+                "merge": {
+                    "id": 2393,
+                    "itemId1": 1594,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12583,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2510,
+                    "mergeShopId": 210,
+                    "mergeId": 2403
+                },
+                "merge": {
+                    "id": 2403,
+                    "itemId1": 12583,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12593,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

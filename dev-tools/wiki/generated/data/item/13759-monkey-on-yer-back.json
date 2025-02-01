@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13759-monkey-on-yer-back",
+        "fullSlug": "items\/13759-monkey-on-yer-back",
+        "id": 13759,
+        "name": "Monkey On Yer Back",
+        "description": "Ever feel like you have something you just can't remember? This little guy will help you to by constantly poking your head!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13759,
+            "name": "Monkey On Yer Back",
+            "description": "Ever feel like you have something you just can't remember? This little guy will help you to by constantly poking your head!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 41,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-monkey.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Wind,4,Immobility,1"
+        }
+    },
+    "related": {
+        "435-pirate-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "435-pirate-items",
+                "fullSlug": "item-shops\/435-pirate-items",
+                "id": 435,
+                "name": "Pirate Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 435,
+                    "name": "Pirate Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

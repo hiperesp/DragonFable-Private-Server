@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14475-hunter-s-wiggly-wrap",
+        "fullSlug": "items\/14475-hunter-s-wiggly-wrap",
+        "id": 14475,
+        "name": "Hunter's Wiggly Wrap",
+        "description": "Your reward for helping Gingkage! This makes a nice belt and it fits just right. Not too tight, not too loose."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14475,
+            "name": "Hunter's Wiggly Wrap",
+            "description": "Your reward for helping Gingkage! This makes a nice belt and it fits just right. Not too tight, not too loose.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 56,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "Water,6,Nature,6,Stone,4"
+        }
+    },
+    "related": {
+        "1288-potion-help": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1288-potion-help",
+                "fullSlug": "quests\/1288-potion-help",
+                "id": 1288,
+                "name": "Potion Help",
+                "description": "Gingkage needs you to gather reagents for her."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1288,
+                    "name": "Potion Help",
+                    "description": "Gingkage needs you to gather reagents for her.",
+                    "complete": "You got the reagents! Hopefully you can get past that giant wolf....",
+                    "swf": "quests\/quest-alchemyr5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Random Foresty Mobs",
+                    "monsterGroupSwf": "mset-alchemy.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

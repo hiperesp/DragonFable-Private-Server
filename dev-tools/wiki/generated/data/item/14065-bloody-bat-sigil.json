@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14065-bloody-bat-sigil",
+        "fullSlug": "items\/14065-bloody-bat-sigil",
+        "id": 14065,
+        "name": "Bloody Bat Sigil",
+        "description": "A sigil necklace looted from an ancient minion of the Frydae clan."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14065,
+            "name": "Bloody Bat Sigil",
+            "description": "A sigil necklace looted from an ancient minion of the Frydae clan.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 40,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 7,
+            "level": 41,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Light,5,Water,4"
+        }
+    },
+    "related": {
+        "448-tomb-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "448-tomb-drops",
+                "fullSlug": "item-shops\/448-tomb-drops",
+                "id": 448,
+                "name": "Tomb Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 448,
+                    "name": "Tomb Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

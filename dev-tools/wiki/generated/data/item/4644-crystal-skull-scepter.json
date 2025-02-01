@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4644-crystal-skull-scepter",
+        "fullSlug": "items\/4644-crystal-skull-scepter",
+        "id": 4644,
+        "name": "Crystal Skull Scepter",
+        "description": "Recovered from the Temple of Gloom, this cursed scepter gleams."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4644,
+            "name": "Crystal Skull Scepter",
+            "description": "Recovered from the Temple of Gloom, this cursed scepter gleams.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 15,
+            "level": 22,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-crystalskull.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 34,
+            "damageMax": 52,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3"
+        }
+    },
+    "related": {
+        "699-the-temple-of-gloom": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "699-the-temple-of-gloom",
+                "fullSlug": "quests\/699-the-temple-of-gloom",
+                "id": 699,
+                "name": "The Temple of Gloom",
+                "description": "Can you survive?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 699,
+                    "name": "The Temple of Gloom",
+                    "description": "Can you survive?",
+                    "complete": "The first part of your journey to the Nature Orb is complete.",
+                    "swf": "towns\/willowshire\/quest-earth7-temple-r7.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "jungle",
+                    "monsterGroupSwf": "mset-scorpiarc-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

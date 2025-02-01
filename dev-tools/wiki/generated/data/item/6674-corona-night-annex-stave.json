@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6674-corona-night-annex-stave",
+        "fullSlug": "items\/6674-corona-night-annex-stave",
+        "id": 6674,
+        "name": "Corona Night Annex Stave",
+        "description": "A lithe weapon, orbs play along the edge of the blades of the Night Annex."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6674,
+            "name": "Corona Night Annex Stave",
+            "description": "A lithe weapon, orbs play along the edge of the blades of the Night Annex.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 6,
+            "level": 60,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/stave-nightannex.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,8,Light,8,Darkness,4,Metal,2,Immobility,1"
+        }
+    },
+    "related": {
+        "880-desert-thugs": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "880-desert-thugs",
+                "fullSlug": "quests\/880-desert-thugs",
+                "id": 880,
+                "name": "Desert Thugs",
+                "description": "Bandits are gathering to attack and loot Atrea!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 880,
+                    "name": "Desert Thugs",
+                    "description": "Bandits are gathering to attack and loot Atrea!",
+                    "complete": "Bandits are gathering to attack and loot Atrea!",
+                    "swf": "random\/random-atrea-desertthug.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Human",
+                    "monsterGroupSwf": "mset-desertthug.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

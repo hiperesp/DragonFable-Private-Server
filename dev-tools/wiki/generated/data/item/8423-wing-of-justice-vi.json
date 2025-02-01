@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8423-wing-of-justice-vi",
+        "fullSlug": "items\/8423-wing-of-justice-vi",
+        "id": 8423,
+        "name": "Wing of Justice VI",
+        "description": "Crafted from elemental essences, this weapon will serve you well! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8423,
+            "name": "Wing of Justice VI",
+            "description": "Crafted from elemental essences, this weapon will serve you well! ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Simple Wing of Justice.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 62,
+            "damageMax": 88,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Energy,5,Water,4,Health,-2"
+        }
+    },
+    "related": {
+        "127-sielu-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "127-sielu-s-shop",
+                "fullSlug": "merge-shops\/127-sielu-s-shop",
+                "id": 127,
+                "name": "Sielu's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 127,
+                    "name": "Sielu's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1829,
+                    "mergeShopId": 127,
+                    "mergeId": 1754
+                },
+                "merge": {
+                    "id": 1754,
+                    "itemId1": 8176,
+                    "amount1": 10,
+                    "itemId2": 8423,
+                    "amount2": 1,
+                    "itemId": 8424,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13303-frost-moglin-defender-blades",
+        "fullSlug": "items\/13303-frost-moglin-defender-blades",
+        "id": 13303,
+        "name": "Frost Moglin Defender Blades",
+        "description": "Defender of the Frost Moglins! Your good deeds and kind heart have made everyone in Frostvale Village proud to call you friend!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13303,
+            "name": "Frost Moglin Defender Blades",
+            "description": "Defender of the Frost Moglins! Your good deeds and kind heart have made everyone in Frostvale Village proud to call you friend!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 50,
+            "level": 10,
+            "type": "Pierce",
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/Dagger-FrostMoglinDefender.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 21,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,1,Health,-1"
+        }
+    },
+    "related": {
+        "425-frost-moglin-defender": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "425-frost-moglin-defender",
+                "fullSlug": "item-shops\/425-frost-moglin-defender",
+                "id": 425,
+                "name": "Frost Moglin Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 425,
+                    "name": "Frost Moglin Defender",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

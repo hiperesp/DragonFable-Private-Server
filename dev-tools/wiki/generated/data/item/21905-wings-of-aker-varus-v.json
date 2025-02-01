@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21905-wings-of-aker-varus-v",
+        "fullSlug": "items\/21905-wings-of-aker-varus-v",
+        "id": 21905,
+        "name": "Wings of Aker'varus V",
+        "description": "You found this pair of wings resembling the feargeist Aker'varus in your backpack after escaping from the Fearscape. A gift... or a curse? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21905,
+            "name": "Wings of Aker'varus V",
+            "description": "You found this pair of wings resembling the feargeist Aker'varus in your backpack after escaping from the Fearscape. A gift... or a curse? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 1,
+            "level": 80,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/wings-akervarus.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": -50,
+            "defensePierce": -50,
+            "defenseMagic": -50,
+            "critical": 8,
+            "parry": -50,
+            "dodge": -50,
+            "block": -50,
+            "resists": "All,9,Health,9,Fear,-18"
+        }
+    },
+    "related": {
+        "2130-the-aker-varus": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2130-the-aker-varus",
+                "fullSlug": "quests\/2130-the-aker-varus",
+                "id": 2130,
+                "name": "The Aker'varus",
+                "description": "The Aker'varus is here."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2130,
+                    "name": "The Aker'varus",
+                    "description": "The Aker'varus is here.",
+                    "complete": "...",
+                    "swf": "towns\/3Falconreach\/Fear\/quest7-aker.swf",
+                    "swfX": "towns\/3Falconreach\/Fear\/quest7-aker-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "fear engine boss",
+                    "monsterGroupSwf": "mset-akervarus.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

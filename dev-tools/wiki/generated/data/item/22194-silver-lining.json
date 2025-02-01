@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22194-silver-lining",
+        "fullSlug": "items\/22194-silver-lining",
+        "id": 22194,
+        "name": "Silver Lining",
+        "description": "Refined with enchanted silver, this sheet of star silver is ready to be used for any variety of anti-monster purposes. Proof of victory over ShadowSlayer E and V-Hunter EX13."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22194,
+            "name": "Silver Lining",
+            "description": "Refined with enchanted silver, this sheet of star silver is ready to be used for any variety of anti-monster purposes. Proof of victory over ShadowSlayer E and V-Hunter EX13.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Silver",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "432-the-moonlit-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "432-the-moonlit-hunt",
+                "fullSlug": "merge-shops\/432-the-moonlit-hunt",
+                "id": 432,
+                "name": "The Moonlit Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 432,
+                    "name": "The Moonlit Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4436,
+                    "mergeShopId": 432,
+                    "mergeId": 4471
+                },
+                "merge": {
+                    "id": 4471,
+                    "itemId1": 22195,
+                    "amount1": 1,
+                    "itemId2": 22194,
+                    "amount2": 1,
+                    "itemId": 22191,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

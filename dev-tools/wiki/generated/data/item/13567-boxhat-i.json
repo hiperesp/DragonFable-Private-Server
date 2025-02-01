@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13567-boxhat-i",
+        "fullSlug": "items\/13567-boxhat-i",
+        "id": 13567,
+        "name": "Boxhat I",
+        "description": "The birthday hat of the Boxcat, Verlyrus! Your very own box to hide in! Come to think of it, eye holes would have probably been a good idea."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13567,
+            "name": "Boxhat I",
+            "description": "The birthday hat of the Boxcat, Verlyrus! Your very own box to hide in! Come to think of it, eye holes would have probably been a good idea.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 15,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-boxhat.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Evil,2,Good,2"
+        }
+    },
+    "related": {
+        "430-verlyrus-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "430-verlyrus-birthday",
+                "fullSlug": "item-shops\/430-verlyrus-birthday",
+                "id": 430,
+                "name": "Verlyrus' Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 430,
+                    "name": "Verlyrus' Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

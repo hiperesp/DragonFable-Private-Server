@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "412-ring-of-the-netherworld",
+        "fullSlug": "items\/412-ring-of-the-netherworld",
+        "id": 412,
+        "name": "Ring of the Netherworld",
+        "description": "This ring is cold to the touch and made of a ghostly white material. It provides additional protection against Darkness attacks. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 412,
+            "name": "Ring of the Netherworld",
+            "description": "This ring is cold to the touch and made of a ghostly white material. It provides additional protection against Darkness attacks. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 4,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "32-spirits-in-the-inn": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "32-spirits-in-the-inn",
+                "fullSlug": "quests\/32-spirits-in-the-inn",
+                "id": 32,
+                "name": "Spirits in the Inn",
+                "description": "The Inn in town has been flooded with the spirits of the dead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 32,
+                    "name": "Spirits in the Inn",
+                    "description": "The Inn in town has been flooded with the spirits of the dead!",
+                    "complete": "The Inn in town has been flooded with the spirits of the dead!",
+                    "swf": "quests\/quest-inn.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 12,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-ghosts.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

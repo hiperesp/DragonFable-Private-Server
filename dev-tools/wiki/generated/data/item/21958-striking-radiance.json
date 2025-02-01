@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21958-striking-radiance",
+        "fullSlug": "items\/21958-striking-radiance",
+        "id": 21958,
+        "name": "Striking Radiance",
+        "description": "The weight of this blinding mace threatens to drag you down... On demand, deals damage that cannot crit, and increases DoT damage reduction by 5%.  (Special)(Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21958,
+            "name": "Striking Radiance",
+            "description": "The weight of this blinding mace threatens to drag you down... On demand, deals damage that cannot crit, and increases DoT damage reduction by 5%.  (Special)(Cosmetic)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-destiny.swf",
+            "icon": "mace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2143-lost-graveyard": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2143-lost-graveyard",
+                "fullSlug": "quests\/2143-lost-graveyard",
+                "id": 2143,
+                "name": "Lost Graveyard",
+                "description": "From this long abandoned graveyard come the sounds of battle against the undead..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2143,
+                    "name": "Lost Graveyard",
+                    "description": "From this long abandoned graveyard come the sounds of battle against the undead...",
+                    "complete": "...Was that Paladin even human?",
+                    "swf": "towns\/3DoomwoodPath\/quest-graveyard.swf",
+                    "swfX": "towns\/3DoomwoodPath\/quest-graveyard-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Undead and Paladin",
+                    "monsterGroupSwf": "mset-graveyard.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

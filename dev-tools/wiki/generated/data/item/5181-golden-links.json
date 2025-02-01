@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5181-golden-links",
+        "fullSlug": "items\/5181-golden-links",
+        "id": 5181,
+        "name": "Golden Links",
+        "description": "Rough links of gold ore create the chain of this necklace."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5181,
+            "name": "Golden Links",
+            "description": "Rough links of gold ore create the chain of this necklace.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 36,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 2,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,6"
+        }
+    },
+    "related": {
+        "744-reforged": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "744-reforged",
+                "fullSlug": "quests\/744-reforged",
+                "id": 744,
+                "name": "Reforged",
+                "description": "The halves of the earth orb combined!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 744,
+                    "name": "Reforged",
+                    "description": "The halves of the earth orb combined!",
+                    "complete": "The halves of the earth orb combined!",
+                    "swf": "towns\/willowshire\/quest-earth13-BoA.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "earth and nature",
+                    "monsterGroupSwf": "mset-earth13-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

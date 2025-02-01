@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15803-blood-of-the-hero",
+        "fullSlug": "items\/15803-blood-of-the-hero",
+        "id": 15803,
+        "name": "Blood of the Hero",
+        "description": "This cursed blade is infused with the corrupted blood of heroes harvested by Caitiff itself."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15803,
+            "name": "Blood of the Hero",
+            "description": "This cursed blade is infused with the corrupted blood of heroes harvested by Caitiff itself.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 10,
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/sword-heroblood.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 26,
+            "damageMax": 28,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,1,Nature,1"
+        }
+    },
+    "related": {
+        "251-hero-pieces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "251-hero-pieces",
+                "fullSlug": "merge-shops\/251-hero-pieces",
+                "id": 251,
+                "name": "Hero Pieces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 251,
+                    "name": "Hero Pieces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2848,
+                    "mergeShopId": 251,
+                    "mergeId": 2851
+                },
+                "merge": {
+                    "id": 2851,
+                    "itemId1": 15769,
+                    "amount1": 6,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15803,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

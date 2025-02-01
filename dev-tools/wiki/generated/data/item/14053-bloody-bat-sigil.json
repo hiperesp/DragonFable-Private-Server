@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14053-bloody-bat-sigil",
+        "fullSlug": "items\/14053-bloody-bat-sigil",
+        "id": 14053,
+        "name": "Bloody Bat Sigil",
+        "description": "A sigil necklace looted from an ancient minion of the Frydae clan."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14053,
+            "name": "Bloody Bat Sigil",
+            "description": "A sigil necklace looted from an ancient minion of the Frydae clan.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1100,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 7,
+            "level": 41,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Light,5,Water,4"
+        }
+    },
+    "related": {
+        "1275-the-valtrith-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1275-the-valtrith-tomb",
+                "fullSlug": "quests\/1275-the-valtrith-tomb",
+                "id": 1275,
+                "name": "The Valtrith Tomb",
+                "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1275,
+                    "name": "The Valtrith Tomb",
+                    "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?",
+                    "complete": "Jaysun wasn't the only Valtrith whose sarcophagus was disturbed!",
+                    "swf": "towns\/Symone\/quest-valtrithtomb-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghosts",
+                    "monsterGroupSwf": "mset-valtrithtomb.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

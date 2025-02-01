@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "715-ex-s-calibur-mark-2",
+        "fullSlug": "items\/715-ex-s-calibur-mark-2",
+        "id": 715,
+        "name": "Ex's Calibur Mark 2",
+        "description": "This sword was left behind after a nasty break-up. Oh well, their loss."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 715,
+            "name": "Ex's Calibur Mark 2",
+            "description": "This sword was left behind after a nasty break-up. Oh well, their loss.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 4,
+            "level": 13,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-HH1.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 31,
+            "damageMax": 38,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "19-hero-s-heart",
+                "fullSlug": "merge-shops\/19-hero-s-heart",
+                "id": 19,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 19,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 298,
+                    "mergeShopId": 19,
+                    "mergeId": 146
+                },
+                "merge": {
+                    "id": 146,
+                    "itemId1": 707,
+                    "amount1": 17,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 715,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

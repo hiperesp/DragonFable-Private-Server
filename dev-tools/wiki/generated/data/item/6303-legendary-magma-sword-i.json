@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6303-legendary-magma-sword-i",
+        "fullSlug": "items\/6303-legendary-magma-sword-i",
+        "id": 6303,
+        "name": "Legendary Magma Sword I",
+        "description": "An ancient blade forged in the pits of a volcano, that has been destroyed and forgotten. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6303,
+            "name": "Legendary Magma Sword I",
+            "description": "An ancient blade forged in the pits of a volcano, that has been destroyed and forgotten. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 28,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-magmanew.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 60,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3"
+        }
+    },
+    "related": {
+        "844-mutant-caves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "844-mutant-caves",
+                "fullSlug": "quests\/844-mutant-caves",
+                "id": 844,
+                "name": "Mutant Caves",
+                "description": "The mutant caves at the bottom of the Swordhaven Sewers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 844,
+                    "name": "Mutant Caves",
+                    "description": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "complete": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "swf": "random\/random-sh-mutant-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sewer monsters",
+                    "monsterGroupSwf": "mset-sewers.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

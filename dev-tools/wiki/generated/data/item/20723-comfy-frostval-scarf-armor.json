@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20723-comfy-frostval-scarf-armor",
+        "fullSlug": "items\/20723-comfy-frostval-scarf-armor",
+        "id": 20723,
+        "name": "Comfy Frostval Scarf (Armor)",
+        "description": "A comfy striped scarf, warm and cozy. Changes color to match your color choices. (Cosmetic)(CC: Base\/Trim)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20723,
+            "name": "Comfy Frostval Scarf (Armor)",
+            "description": "A comfy striped scarf, warm and cozy. Changes color to match your color choices. (Cosmetic)(CC: Base\/Trim)",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-scarfccbasetrim.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "359-snowfight-dm-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "359-snowfight-dm-merges",
+                "fullSlug": "merge-shops\/359-snowfight-dm-merges",
+                "id": 359,
+                "name": "Snowfight DM Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 359,
+                    "name": "Snowfight DM Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3752,
+                    "mergeShopId": 359,
+                    "mergeId": 3868
+                },
+                "merge": {
+                    "id": 3868,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": 20721,
+                    "amount2": 1,
+                    "itemId": 20723,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21823-frost-knight-s-scarf-v",
+        "fullSlug": "items\/21823-frost-knight-s-scarf-v",
+        "id": 21823,
+        "name": "Frost Knight's Scarf V",
+        "description": "Jacek gave you this scarf for Frostval! He's not sure where he got it, but it's yours now."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21823,
+            "name": "Frost Knight's Scarf V",
+            "description": "Jacek gave you this scarf for Frostval! He's not sure where he got it, but it's yours now.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 50,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-jacek.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Health,-5,Ice,5,Wind,5,Nature,5"
+        }
+    },
+    "related": {
+        "800-tks-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "800-tks-loot-for-dcs",
+                "fullSlug": "item-shops\/800-tks-loot-for-dcs",
+                "id": 800,
+                "name": "tKS Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 800,
+                    "name": "tKS Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

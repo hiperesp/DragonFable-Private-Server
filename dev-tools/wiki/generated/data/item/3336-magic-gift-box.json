@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3336-magic-gift-box",
+        "fullSlug": "items\/3336-magic-gift-box",
+        "id": 3336,
+        "name": "Magic Gift Box",
+        "description": "This item requires a Dragon Amulet. He'll swiftly wraps up your presents (and enemies) for a efficient and enjoyable Frostval season!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3336,
+            "name": "Magic Gift Box",
+            "description": "This item requires a Dragon Amulet. He'll swiftly wraps up your presents (and enemies) for a efficient and enjoyable Frostval season!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 25,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Giftr3.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 12,
+            "damageMax": 17,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "58-gift-boxes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "58-gift-boxes",
+                "fullSlug": "item-shops\/58-gift-boxes",
+                "id": 58,
+                "name": "Gift Boxes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 58,
+                    "name": "Gift Boxes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

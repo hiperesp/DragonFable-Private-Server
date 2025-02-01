@@ -1,0 +1,474 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1773-ice-dragon-scale",
+        "fullSlug": "items\/1773-ice-dragon-scale",
+        "id": 1773,
+        "name": "Ice Dragon Scale",
+        "description": "It goes up to thousands of pounds!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1773,
+            "name": "Ice Dragon Scale",
+            "description": "It goes up to thousands of pounds!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "260-dragonbane-vein": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "260-dragonbane-vein",
+                "fullSlug": "quests\/260-dragonbane-vein",
+                "id": 260,
+                "name": "Dragonbane Vein",
+                "description": "Fight your way to the small vein of Dragonbane ore and secure it for Galanoth."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 260,
+                    "name": "Dragonbane Vein",
+                    "description": "Fight your way to the small vein of Dragonbane ore and secure it for Galanoth.",
+                    "complete": "You have secured the small vein of Dragonbane, but there is hardly enough to make a coin out of. There must be more of the ore here in these caves! You have to get it before the Dravir do!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth-random1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ICE",
+                    "monsterGroupSwf": "mset-dragonwarICE1.swf"
+                }
+            },
+            "related": []
+        },
+        "261-snow-rescue": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "261-snow-rescue",
+                "fullSlug": "quests\/261-snow-rescue",
+                "id": 261,
+                "name": "Snow Rescue!",
+                "description": "Make your way to the igloo on the mainland and see if you can find the lost settlers!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 261,
+                    "name": "Snow Rescue!",
+                    "description": "Make your way to the igloo on the mainland and see if you can find the lost settlers!",
+                    "complete": "That is one down but there are a lot of igloos left to check out! With some luck you can save more lost settlers before they are lost to the wild animals of the tundra!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth-random2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ICE",
+                    "monsterGroupSwf": "mset-frostval-boss.swf"
+                }
+            },
+            "related": []
+        },
+        "262-the-hatchling-hunt": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "262-the-hatchling-hunt",
+                "fullSlug": "quests\/262-the-hatchling-hunt",
+                "id": 262,
+                "name": "The Hatchling Hunt",
+                "description": "Find and destroy the ice dragon hatchling"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 262,
+                    "name": "The Hatchling Hunt",
+                    "description": "Find and destroy the ice dragon hatchling",
+                    "complete": "You have found one of the hatchlings who were hunting Dragesvard into starvation, but there are a lot of other ice caves to check... keep it up hero!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth-random3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ICE",
+                    "monsterGroupSwf": "mset-icedragon.swf"
+                }
+            },
+            "related": []
+        },
+        "266-un-bear-able-cold": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "266-un-bear-able-cold",
+                "fullSlug": "quests\/266-un-bear-able-cold",
+                "id": 266,
+                "name": "Un-BEAR-Able Cold",
+                "description": "Galanoth has asked you to investigate the most recently destroyed human settlement, and look for clues to its destruction."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 266,
+                    "name": "Un-BEAR-Able Cold",
+                    "description": "Galanoth has asked you to investigate the most recently destroyed human settlement, and look for clues to its destruction.",
+                    "complete": "After finding evidence of a lost race of Ice Elves believed to be long dead, you are left only with more questions. Like, for example, \"What's the deal with these Ice Elves?\"",
+                    "swf": "towns\/Dragesvard\/quest-galanoth2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-polarbear-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "269-gary": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "269-gary",
+                "fullSlug": "quests\/269-gary",
+                "id": 269,
+                "name": "Gary",
+                "description": "Unravel the secrets of the Ice Elf ruins... and why we named the quest Gary."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 269,
+                    "name": "Gary",
+                    "description": "Unravel the secrets of the Ice Elf ruins... and why we named the quest Gary.",
+                    "complete": "Galanoth has been taken captive. Good thing he set up that cardboard cut out, or else you couldn't get the next quest. Now, all you have to do is sneak in and break him out of captivity! No problem!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth3r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-iceelfr1.swf"
+                }
+            },
+            "related": []
+        },
+        "270-not-so-great-escape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "270-not-so-great-escape",
+                "fullSlug": "quests\/270-not-so-great-escape",
+                "id": 270,
+                "name": "Not So Great Escape",
+                "description": "Break into the Ice Elf city and rescue Galanoth before he catches cold!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 270,
+                    "name": "Not So Great Escape",
+                    "description": "Break into the Ice Elf city and rescue Galanoth before he catches cold!",
+                    "complete": "So Aisha is behind the destruction of the human settlements! You have to get to those other tribes of northern monsters or Dragesvard is doomed!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth4b-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-iceelfr1.swf"
+                }
+            },
+            "related": []
+        },
+        "274-the-killguin-arena": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "274-the-killguin-arena",
+                "fullSlug": "quests\/274-the-killguin-arena",
+                "id": 274,
+                "name": "The Killguin Arena",
+                "description": "Galanoth has sent you to the Killguin Battle Arena to speak to the king of the Killguins to try and convince him to join forces with the humans of Dragesvard!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 274,
+                    "name": "The Killguin Arena",
+                    "description": "Galanoth has sent you to the Killguin Battle Arena to speak to the king of the Killguins to try and convince him to join forces with the humans of Dragesvard!",
+                    "complete": "You did it! Linus and the Killguins have agreed to join forces to help defend Dragesvard against the ice elf queen! Next stop... the Ursice home camp!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-killguin-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "278-bear-facts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "278-bear-facts",
+                "fullSlug": "quests\/278-bear-facts",
+                "id": 278,
+                "name": "Bear Facts",
+                "description": "Galanoth has sent you to the Ursice savages to convince them to join you in the coming battle!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 278,
+                    "name": "Bear Facts",
+                    "description": "Galanoth has sent you to the Ursice savages to convince them to join you in the coming battle!",
+                    "complete": "The bears may be proud and rude but they keep their oaths. You have gained another powerful ally in the coming war against Aisha and her Ice Dragons. And all it cost you was a picnic basket!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth6-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-polarbear-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "290-long-in-the-tooth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "290-long-in-the-tooth",
+                "fullSlug": "quests\/290-long-in-the-tooth",
+                "id": 290,
+                "name": "Long In The Tooth",
+                "description": "Galanoth has asked you to meet his Tusker contact near the bottom of the Dragesvard iceberg."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 290,
+                    "name": "Long In The Tooth",
+                    "description": "Galanoth has asked you to meet his Tusker contact near the bottom of the Dragesvard iceberg.",
+                    "complete": "The Tusker people have joined you! With the races of the frozen northlands united you stand a fighting chance against Aisha.... but if you can convince the dragons to join you, you will be unstoppable. Now, how to convince Galanoth of that?",
+                    "swf": "towns\/Dragesvard\/quest-galanoth7-r2.swf ",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-Tusker-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "298-the-snow-fields": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "298-the-snow-fields",
+                "fullSlug": "quests\/298-the-snow-fields",
+                "id": 298,
+                "name": "The Snow Fields",
+                "description": "You and Galanoth must travel to the Snow Fields and meet the Ice Dragons to try and see if the will turn their backs on Aisha."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 298,
+                    "name": "The Snow Fields",
+                    "description": "You and Galanoth must travel to the Snow Fields and meet the Ice Dragons to try and see if the will turn their backs on Aisha.",
+                    "complete": "So, Aisha's plan is global cooling! With the Elemental Ice Orb she may be able to pull it off. Defeating her is more important than ever. It looks like a war between the dragons, ice elves and Dragesvard cannot be avoided. PREPARE FOR WAR!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth8r4.swf ",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-Icedragondravir.swf"
+                }
+            },
+            "related": []
+        },
+        "317-olaf-s-party": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "317-olaf-s-party",
+                "fullSlug": "quests\/317-olaf-s-party",
+                "id": 317,
+                "name": "Olaf's Party",
+                "description": "PARTY TIME!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 317,
+                    "name": "Olaf's Party",
+                    "description": "PARTY TIME!",
+                    "complete": "You and your dragon put a stop to Aisha's final, evil plan and saved the people of Dragesvard from her icy clutches... and Olaf's pool.",
+                    "swf": "towns\/Dragesvard\/quest-galanoth10.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-aisha2.swf"
+                }
+            },
+            "related": []
+        },
+        "716-draggin-in-dragesvard": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "716-draggin-in-dragesvard",
+                "fullSlug": "quests\/716-draggin-in-dragesvard",
+                "id": 716,
+                "name": "Draggin' in Dragesvard",
+                "description": "See if you can find any loose pieces of Dragonbane in Dragesvard.  It is my hope that some of the townspeople have found some."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 716,
+                    "name": "Draggin' in Dragesvard",
+                    "description": "See if you can find any loose pieces of Dragonbane in Dragesvard.  It is my hope that some of the townspeople have found some.",
+                    "complete": "You really could have used a map! Dragesvard is bigger than you thought! And where were all the townspeople?!",
+                    "swf": "random\/random-dragesvard4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ICE",
+                    "monsterGroupSwf": "mset-dragonwarICE1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

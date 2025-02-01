@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6552-ambitious-water-dragon-scythe",
+        "fullSlug": "items\/6552-ambitious-water-dragon-scythe",
+        "id": 6552,
+        "name": "Ambitious Water Dragon Scythe",
+        "description": "It is the year of the water dragon. Perception and patience flow through these dragon's personalities. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6552,
+            "name": "Ambitious Water Dragon Scythe",
+            "description": "It is the year of the water dragon. Perception and patience flow through these dragon's personalities. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 51,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-dragonscythe.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 62,
+            "damageMax": 78,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,8,Fire,6,Light,6,Darkness,6"
+        }
+    },
+    "related": {
+        "251-year-of-the-dragon": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "251-year-of-the-dragon",
+                "fullSlug": "item-shops\/251-year-of-the-dragon",
+                "id": 251,
+                "name": "Year of the Dragon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 251,
+                    "name": "Year of the Dragon",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21540-carnax-devotee-s-battleaxe",
+        "fullSlug": "items\/21540-carnax-devotee-s-battleaxe",
+        "id": 21540,
+        "name": "Carnax Devotee's Battleaxe",
+        "description": "This weapon was pulled out of a portal following your encounter with Carnax. With its striking resemblance to Carnax's physiology, where could it have come from? (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21540,
+            "name": "Carnax Devotee's Battleaxe",
+            "description": "This weapon was pulled out of a portal following your encounter with Carnax. With its striking resemblance to Carnax's physiology, where could it have come from? (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-carnaxaxe.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "392-carnax": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "392-carnax",
+                "fullSlug": "merge-shops\/392-carnax",
+                "id": 392,
+                "name": "CARNAX",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 392,
+                    "name": "CARNAX"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4154,
+                    "mergeShopId": 392,
+                    "mergeId": 4197
+                },
+                "merge": {
+                    "id": 4197,
+                    "itemId1": 21536,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21540,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

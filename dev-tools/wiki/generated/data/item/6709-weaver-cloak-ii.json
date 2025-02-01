@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6709-weaver-cloak-ii",
+        "fullSlug": "items\/6709-weaver-cloak-ii",
+        "id": 6709,
+        "name": "Weaver Cloak II",
+        "description": "A beautifully woven Soulweaver cloak."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6709,
+            "name": "Weaver Cloak II",
+            "description": "A beautifully woven Soulweaver cloak.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-weaver-r1.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,2"
+        }
+    },
+    "related": {
+        "256-weaver-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "256-weaver-items",
+                "fullSlug": "item-shops\/256-weaver-items",
+                "id": 256,
+                "name": "Weaver Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 256,
+                    "name": "Weaver Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

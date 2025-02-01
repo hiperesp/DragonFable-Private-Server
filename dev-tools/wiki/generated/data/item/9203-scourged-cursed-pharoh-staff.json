@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9203-scourged-cursed-pharoh-staff",
+        "fullSlug": "items\/9203-scourged-cursed-pharoh-staff",
+        "id": 9203,
+        "name": "Scourged Cursed Pharoh Staff",
+        "description": "A dry, hot poison infuses this cursed staff."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9203,
+            "name": "Scourged Cursed Pharoh Staff",
+            "description": "A dry, hot poison infuses this cursed staff.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 74,
+            "type": "Magic",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-cursedpharohsstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Light,9,Fire,7,Wind,7,Immobility,3"
+        }
+    },
+    "related": {
+        "319-cursed-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "319-cursed-shop",
+                "fullSlug": "item-shops\/319-cursed-shop",
+                "id": 319,
+                "name": "Cursed Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Cursed Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

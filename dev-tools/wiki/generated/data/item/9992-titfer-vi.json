@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9992-titfer-vi",
+        "fullSlug": "items\/9992-titfer-vi",
+        "id": 9992,
+        "name": "Titfer VI",
+        "description": "A very classy hat to hold your cards! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9992,
+            "name": "Titfer VI",
+            "description": "A very classy hat to hold your cards! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 65,
+            "type": "Pierce",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-pokertitfer-bald.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Energy,10,Wind,10,Silver,3,Immobility,1"
+        }
+    },
+    "related": {
+        "346-titfer": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "346-titfer",
+                "fullSlug": "item-shops\/346-titfer",
+                "id": 346,
+                "name": "Titfer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 346,
+                    "name": "Titfer",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

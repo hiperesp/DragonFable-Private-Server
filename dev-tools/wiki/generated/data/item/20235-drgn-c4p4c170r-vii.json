@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20235-drgn-c4p4c170r-vii",
+        "fullSlug": "items\/20235-drgn-c4p4c170r-vii",
+        "id": 20235,
+        "name": "DRGN-C4P4C170R VII",
+        "description": "This backpiece was left behind in the upturned earth when Myalos left. It's a little heavy, but still functional! This item requires a Dragon Amulet"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20235,
+            "name": "DRGN-C4P4C170R VII",
+            "description": "This backpiece was left behind in the upturned earth when Myalos left. It's a little heavy, but still functional! This item requires a Dragon Amulet",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 180,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 1,
+            "level": 70,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-Myalos.swf",
+            "icon": "cape",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": -5,
+            "defensePierce": -5,
+            "defenseMagic": -5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Health,-7,Energy,7,Wind,7"
+        }
+    },
+    "related": {
+        "1823-reclamation": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1823-reclamation",
+                "fullSlug": "quests\/1823-reclamation",
+                "id": 1823,
+                "name": "Reclamation",
+                "description": "With Myalos fully charged, Notha forces yet another confrontation."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1823,
+                    "name": "Reclamation",
+                    "description": "With Myalos fully charged, Notha forces yet another confrontation.",
+                    "complete": "Time for a break.",
+                    "swf": "wars\/F13-Maleurous-6\/quest5-reclamation.swf",
+                    "swfX": "wars\/F13-Maleurous-6\/quest5-reclamation-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Primitive Elementals and warbeasts",
+                    "monsterGroupSwf": "mset-nothabound-r6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

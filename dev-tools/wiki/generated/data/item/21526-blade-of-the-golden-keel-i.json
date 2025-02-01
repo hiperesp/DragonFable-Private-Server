@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21526-blade-of-the-golden-keel-i",
+        "fullSlug": "items\/21526-blade-of-the-golden-keel-i",
+        "id": 21526,
+        "name": "Blade of the Golden Keel I",
+        "description": "A sinister cutlass with a gilded blade, said to have been forged from the wreckage of the infamous lost ship: The Golden Keel. Proof of victory over Keelhaul, the Sunken."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21526,
+            "name": "Blade of the Golden Keel I",
+            "description": "A sinister cutlass with a gilded blade, said to have been forged from the wreckage of the infamous lost ship: The Golden Keel. Proof of victory over Keelhaul, the Sunken.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 70,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ghostpirate.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 13,
+            "wisdom": 13,
+            "damageMin": 85,
+            "damageMax": 89,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "All,6,Health,-6"
+        }
+    },
+    "related": {
+        "2040-keelhaul-the-sunken": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2040-keelhaul-the-sunken",
+                "fullSlug": "quests\/2040-keelhaul-the-sunken",
+                "id": 2040,
+                "name": "Keelhaul, the Sunken",
+                "description": "The captain of a ship thought long lost to sea, Keelhaul has emerged from the depths to face you!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2040,
+                    "name": "Keelhaul, the Sunken",
+                    "description": "The captain of a ship thought long lost to sea, Keelhaul has emerged from the depths to face you!",
+                    "complete": "Back to the forgotten depths... for now.",
+                    "swf": "towns\/TimeArena\/quest1-pirate.swf",
+                    "swfX": "towns\/TimeArena\/quest1-pirate-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Ghost Pirate, Techno Ninja",
+                    "monsterGroupSwf": "mset-arenaninjapirate-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "391-blades-and-bones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "391-blades-and-bones",
+                "fullSlug": "merge-shops\/391-blades-and-bones",
+                "id": 391,
+                "name": "Blades and Bones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 391,
+                    "name": "Blades and Bones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4144,
+                    "mergeShopId": 391,
+                    "mergeId": 4188
+                },
+                "merge": {
+                    "id": 4188,
+                    "itemId1": 21526,
+                    "amount1": 1,
+                    "itemId2": 21529,
+                    "amount2": 1,
+                    "itemId": 21528,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

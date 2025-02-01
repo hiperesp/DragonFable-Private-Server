@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6009-roaring-chainstaff",
+        "fullSlug": "items\/6009-roaring-chainstaff",
+        "id": 6009,
+        "name": "Roaring Chainstaff",
+        "description": "THIS STAFF IS AWESOME!\nClick to turn it on! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6009,
+            "name": "Roaring Chainstaff",
+            "description": "THIS STAFF IS AWESOME!\nClick to turn it on! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 55,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-chainstave.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 4,
+            "wisdom": 1,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Nature,10,Energy,5,Immobility,1"
+        }
+    },
+    "related": {
+        "817-48-weeks-later": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "817-48-weeks-later",
+                "fullSlug": "quests\/817-48-weeks-later",
+                "id": 817,
+                "name": "48 Weeks Later",
+                "description": "M.O.P. is working hard to relocate and house all those who were displaced by the infection last year."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 817,
+                    "name": "48 Weeks Later",
+                    "description": "M.O.P. is working hard to relocate and house all those who were displaced by the infection last year.",
+                    "complete": "Hope that Andy doesn't bite....",
+                    "swf": "towns\/Mogloween\/M11\/quest2-48weeks.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Zardbies",
+                    "monsterGroupSwf": "mset-zardbie.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

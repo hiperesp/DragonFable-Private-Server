@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11042-dark-executioner-vii",
+        "fullSlug": "items\/11042-dark-executioner-vii",
+        "id": 11042,
+        "name": "Dark Executioner VII",
+        "description": "A weapon stolen from the Rose and reforged in darkness for Black Friday, 2013!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11042,
+            "name": "Dark Executioner VII",
+            "description": "A weapon stolen from the Rose and reforged in darkness for Black Friday, 2013!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 160,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-executioner-black.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 8,
+            "charisma": 7,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 66,
+            "damageMax": 92,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Ice,5,Water,4,Health,-2"
+        }
+    },
+    "related": {
+        "384-black-friday-2013": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "384-black-friday-2013",
+                "fullSlug": "item-shops\/384-black-friday-2013",
+                "id": 384,
+                "name": "Black Friday 2013",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 384,
+                    "name": "Black Friday 2013",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

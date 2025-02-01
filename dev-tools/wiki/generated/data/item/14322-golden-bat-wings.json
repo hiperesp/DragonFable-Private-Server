@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14322-golden-bat-wings",
+        "fullSlug": "items\/14322-golden-bat-wings",
+        "id": 14322,
+        "name": "Golden Bat Wings",
+        "description": "Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14322,
+            "name": "Golden Bat Wings",
+            "description": "Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 20,
+            "level": 45,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-gold.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 3,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Darkness,5,Silver,5,Light,-1"
+        }
+    },
+    "related": {
+        "1282-blood-feud": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1282-blood-feud",
+                "fullSlug": "quests\/1282-blood-feud",
+                "id": 1282,
+                "name": "Blood Feud",
+                "description": "Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1282,
+                    "name": "Blood Feud",
+                    "description": "Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!",
+                    "complete": "Frydae's been stopped....",
+                    "swf": "towns\/3Amityvale\/quest10-bloodfeud-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weres, bats, vamps",
+                    "monsterGroupSwf": "mset-darktowerFrydae3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

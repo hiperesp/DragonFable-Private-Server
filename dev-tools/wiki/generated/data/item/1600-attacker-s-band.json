@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1600-attacker-s-band",
+        "fullSlug": "items\/1600-attacker-s-band",
+        "id": 1600,
+        "name": "Attacker's Band",
+        "description": "This item requires a Dragon Amulet. It is a ring which is perfect for the all-out, front assault type of person. It adds to Crit, Bonus  to hit, and endurance as well as slightly boosting the wearer's strength and intelligence!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1600,
+            "name": "Attacker's Band",
+            "description": "This item requires a Dragon Amulet. It is a ring which is perfect for the all-out, front assault type of person. It adds to Crit, Bonus  to hit, and endurance as well as slightly boosting the wearer's strength and intelligence!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 160,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 35,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,-2,Darkness,-2"
+        }
+    },
+    "related": {
+        "235-the-outcast": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "235-the-outcast",
+                "fullSlug": "quests\/235-the-outcast",
+                "id": 235,
+                "name": "The Outcast",
+                "description": "The Mayor has sent you deep into Doomwood to find a powerful necromancer who might have a key to get into the Necropolis."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 235,
+                    "name": "The Outcast",
+                    "description": "The Mayor has sent you deep into Doomwood to find a powerful necromancer who might have a key to get into the Necropolis.",
+                    "complete": "Now that you have Zorbak's student I.D. (even though it looks nothing like you, it's expired and he was expelled) you might be able to get into the Necropolis!",
+                    "swf": "towns\/DoomWood\/quest-Artix3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "shelleton",
+                    "monsterGroupSwf": "mset-sheleton.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

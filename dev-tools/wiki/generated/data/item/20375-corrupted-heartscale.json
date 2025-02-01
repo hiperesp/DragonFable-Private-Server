@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20375-corrupted-heartscale",
+        "fullSlug": "items\/20375-corrupted-heartscale",
+        "id": 20375,
+        "name": "Corrupted Heartscale",
+        "description": "A shard of what may have been. Used to upgrade Doom weapons!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20375,
+            "name": "Corrupted Heartscale",
+            "description": "A shard of what may have been. Used to upgrade Doom weapons!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1840-the-doomed-destroyer": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1840-the-doomed-destroyer",
+                "fullSlug": "quests\/1840-the-doomed-destroyer",
+                "id": 1840,
+                "name": "The Doomed Destroyer",
+                "description": "Even the best of intentions can be twisted."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1840,
+                    "name": "The Doomed Destroyer",
+                    "description": "Even the best of intentions can be twisted.",
+                    "complete": "Welcome back.",
+                    "swf": "towns\/TimeArena\/quest-doomdraco.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Doom Fuffy & Draco",
+                    "monsterGroupSwf": "mset-arenadoomdragons-r6.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "350-unreal-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "350-unreal-doom",
+                "fullSlug": "merge-shops\/350-unreal-doom",
+                "id": 350,
+                "name": "Unreal Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 350,
+                    "name": "Unreal Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3650,
+                    "mergeShopId": 350,
+                    "mergeId": 3734
+                },
+                "merge": {
+                    "id": 3734,
+                    "itemId1": 20374,
+                    "amount1": 1,
+                    "itemId2": 20375,
+                    "amount2": 1,
+                    "itemId": 20377,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

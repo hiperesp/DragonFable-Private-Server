@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19854-yarek-s-staff-vi",
+        "fullSlug": "items\/19854-yarek-s-staff-vi",
+        "id": 19854,
+        "name": "Yarek's Staff VI",
+        "description": "This was the staff carried by Voyna, the Angel of Azaveyr.  Near one of the ends, etched in small letters is the name \"Yarek\"."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19854,
+            "name": "Yarek's Staff VI",
+            "description": "This was the staff carried by Voyna, the Angel of Azaveyr.  Near one of the ends, etched in small letters is the name \"Yarek\".",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-yarek.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 14,
+            "wisdom": 14,
+            "damageMin": 72,
+            "damageMax": 76,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,2,Health,-6"
+        }
+    },
+    "related": {
+        "1745-the-angel-s-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1745-the-angel-s-tomb",
+                "fullSlug": "quests\/1745-the-angel-s-tomb",
+                "id": 1745,
+                "name": "The Angel's Tomb",
+                "description": "It's time to face Voyna, the Angel of Azaveyr."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1745,
+                    "name": "The Angel's Tomb",
+                    "description": "It's time to face Voyna, the Angel of Azaveyr.",
+                    "complete": "The Avatars have much to consider, indeed.",
+                    "swf": "wars\/F13-Maleurous-5\/quest-tomb.swf",
+                    "swfX": "wars\/F13-Maleurous-5\/quest-tomb-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Voyna",
+                    "monsterGroupSwf": "mset-angel-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

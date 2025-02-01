@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5383-purple-dragon-wings-iii",
+        "fullSlug": "items\/5383-purple-dragon-wings-iii",
+        "id": 5383,
+        "name": "Purple Dragon Wings III",
+        "description": "The wings of Bargok.... they smell funny...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5383,
+            "name": "Purple Dragon Wings III",
+            "description": "The wings of Bargok.... they smell funny....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 20,
+            "level": 56,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-dragonpurple.swf",
+            "icon": "wings",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,6,Wind,6,Darkness,3,Immobility,1,Horse,3"
+        }
+    },
+    "related": {
+        "755-dragon-trap": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "755-dragon-trap",
+                "fullSlug": "quests\/755-dragon-trap",
+                "id": 755,
+                "name": "Dragon Trap!",
+                "description": "Ewwww......"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 755,
+                    "name": "Dragon Trap!",
+                    "description": "Ewwww......",
+                    "complete": "Ewwwww..... hurk.... ughhhhh! Gross!",
+                    "swf": "towns\/willowshire\/quest-fatdragon.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Bargok",
+                    "monsterGroupSwf": "mset-fatdragon.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

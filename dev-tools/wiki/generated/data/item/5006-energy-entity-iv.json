@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5006-energy-entity-iv",
+        "fullSlug": "items\/5006-energy-entity-iv",
+        "id": 5006,
+        "name": "Energy Entity IV",
+        "description": "This weapon has absorbed some of the energy emanating from the Equilibrium Gate! This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5006,
+            "name": "Energy Entity IV",
+            "description": "This weapon has absorbed some of the energy emanating from the Equilibrium Gate! This item requires a Dragon Amulet. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 5,
+            "level": 62,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-devourer.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 65,
+            "damageMax": 87,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 4,
+            "block": 0,
+            "resists": "Water,11,Darkness,11"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 60,
+                    "mergeShopId": 4,
+                    "mergeId": 922
+                },
+                "merge": {
+                    "id": 922,
+                    "itemId1": 3712,
+                    "amount1": 15,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 5006,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

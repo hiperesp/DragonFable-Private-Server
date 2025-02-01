@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10856-harrowing-dagger",
+        "fullSlug": "items\/10856-harrowing-dagger",
+        "id": 10856,
+        "name": "Harrowing Dagger",
+        "description": "A harrowing, sickly green wind envelops the blade of this weapon!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10856,
+            "name": "Harrowing Dagger",
+            "description": "A harrowing, sickly green wind envelops the blade of this weapon!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 30,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-harrowing.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 45,
+            "damageMax": 57,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,3,Darkness,1"
+        }
+    },
+    "related": {
+        "184-harrowing-30": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "184-harrowing-30",
+                "fullSlug": "merge-shops\/184-harrowing-30",
+                "id": 184,
+                "name": "Harrowing 30",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 184,
+                    "name": "Harrowing 30"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2165,
+                    "mergeShopId": 184,
+                    "mergeId": 2035
+                },
+                "merge": {
+                    "id": 2035,
+                    "itemId1": 10855,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10856,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "185-harrowing-40": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "185-harrowing-40",
+                "fullSlug": "merge-shops\/185-harrowing-40",
+                "id": 185,
+                "name": "Harrowing 40",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 185,
+                    "name": "Harrowing 40"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2169,
+                    "mergeShopId": 185,
+                    "mergeId": 2036
+                },
+                "merge": {
+                    "id": 2036,
+                    "itemId1": 10856,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10857,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

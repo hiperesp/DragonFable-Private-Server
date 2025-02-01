@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "387-protection-of-gorgok",
+        "fullSlug": "items\/387-protection-of-gorgok",
+        "id": 387,
+        "name": "Protection of Gorgok",
+        "description": "This magic ring was found in the treasure horde of the dragon Gorgok. It provides the wearer with 9% resistance against fire based attacks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 387,
+            "name": "Protection of Gorgok",
+            "description": "This magic ring was found in the treasure horde of the dragon Gorgok. It provides the wearer with 9% resistance against fire based attacks.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 1,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,9"
+        }
+    },
+    "related": {
+        "5-gargok-s-horde-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "5-gargok-s-horde-shop",
+                "fullSlug": "item-shops\/5-gargok-s-horde-shop",
+                "id": 5,
+                "name": "Gargok's Horde Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 5,
+                    "name": "Gargok's Horde Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

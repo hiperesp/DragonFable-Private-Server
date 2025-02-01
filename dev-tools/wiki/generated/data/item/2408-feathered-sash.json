@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2408-feathered-sash",
+        "fullSlug": "items\/2408-feathered-sash",
+        "id": 2408,
+        "name": "Feathered Sash",
+        "description": "One feather was added to this sash for each year the Keeper of the Perch held her office."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2408,
+            "name": "Feathered Sash",
+            "description": "One feather was added to this sash for each year the Keeper of the Perch held her office.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 35,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 1,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,3,Darkness,3,Wind,1"
+        }
+    },
+    "related": {
+        "403-queen-of-the-jungle": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "403-queen-of-the-jungle",
+                "fullSlug": "quests\/403-queen-of-the-jungle",
+                "id": 403,
+                "name": "Queen of the Jungle",
+                "description": "The Furies who live in the jungle are a peaceable species.  Really! Unless you are looking to trade with their Queen."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 403,
+                    "name": "Queen of the Jungle",
+                    "description": "The Furies who live in the jungle are a peaceable species.  Really! Unless you are looking to trade with their Queen.",
+                    "complete": "That was a really nice belt she had.  You should see about having a similar one made for you before handing this one over to Zeuster.",
+                    "swf": "quests\/Zeuster\/quest-bacon11.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Jungle",
+                    "monsterGroupSwf": "mset-bacon11.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

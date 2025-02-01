@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8922-swamp-sai-i",
+        "fullSlug": "items\/8922-swamp-sai-i",
+        "id": 8922,
+        "name": "Swamp Sai I",
+        "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8922,
+            "name": "Swamp Sai I",
+            "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 26,
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-swampsai.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 39,
+            "damageMax": 53,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,2,Health,-1"
+        }
+    },
+    "related": {
+        "131-rose-emblem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "131-rose-emblem",
+                "fullSlug": "merge-shops\/131-rose-emblem",
+                "id": 131,
+                "name": "Rose Emblem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 131,
+                    "name": "Rose Emblem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1891,
+                    "mergeShopId": 131,
+                    "mergeId": 1787
+                },
+                "merge": {
+                    "id": 1787,
+                    "itemId1": 8879,
+                    "amount1": 3,
+                    "itemId2": 8922,
+                    "amount2": 1,
+                    "itemId": 8923,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

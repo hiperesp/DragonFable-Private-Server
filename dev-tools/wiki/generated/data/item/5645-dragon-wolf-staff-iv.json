@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5645-dragon-wolf-staff-iv",
+        "fullSlug": "items\/5645-dragon-wolf-staff-iv",
+        "id": 5645,
+        "name": "Dragon Wolf Staff IV",
+        "description": "These weapons were forged by True Mortal, and inspired and enhanced by his Spirit Companion, Thorn, to aid the defenders of Falconreach in their time of need. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5645,
+            "name": "Dragon Wolf Staff IV",
+            "description": "These weapons were forged by True Mortal, and inspired and enhanced by his Spirit Companion, Thorn, to aid the defenders of Falconreach in their time of need. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 50,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-WarWolfStaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 61,
+            "damageMax": 77,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,7,Water,7,Fire,7,Darkness,7,Immobility,3"
+        }
+    },
+    "related": {
+        "88-dragon-wolf-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "88-dragon-wolf-shop",
+                "fullSlug": "merge-shops\/88-dragon-wolf-shop",
+                "id": 88,
+                "name": "Dragon Wolf Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 88,
+                    "name": "Dragon Wolf Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1216,
+                    "mergeShopId": 88,
+                    "mergeId": 1005
+                },
+                "merge": {
+                    "id": 1005,
+                    "itemId1": 495,
+                    "amount1": 100,
+                    "itemId2": 5645,
+                    "amount2": 1,
+                    "itemId": 5646,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "87-war-wolf-conversion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "87-war-wolf-conversion",
+                "fullSlug": "merge-shops\/87-war-wolf-conversion",
+                "id": 87,
+                "name": "War Wolf Conversion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 87,
+                    "name": "War Wolf Conversion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1201,
+                    "mergeShopId": 87,
+                    "mergeId": 1043
+                },
+                "merge": {
+                    "id": 1043,
+                    "itemId1": 5627,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 10,
+                    "itemId": 5645,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

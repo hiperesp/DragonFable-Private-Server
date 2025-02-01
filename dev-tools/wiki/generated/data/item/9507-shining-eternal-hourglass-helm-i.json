@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9507-shining-eternal-hourglass-helm-i",
+        "fullSlug": "items\/9507-shining-eternal-hourglass-helm-i",
+        "id": 9507,
+        "name": "Shining Eternal Hourglass Helm I",
+        "description": "The sands of eternity run through this item."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9507,
+            "name": "Shining Eternal Hourglass Helm I",
+            "description": "The sands of eternity run through this item.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 25,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 35,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-eternal hourglass.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Stone,4"
+        }
+    },
+    "related": {
+        "330-sek-duat-quest": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "330-sek-duat-quest",
+                "fullSlug": "item-shops\/330-sek-duat-quest",
+                "id": 330,
+                "name": "Sek Duat Quest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 330,
+                    "name": "Sek Duat Quest",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

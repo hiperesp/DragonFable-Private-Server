@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11111-half-of-a-stonefish",
+        "fullSlug": "items\/11111-half-of-a-stonefish",
+        "id": 11111,
+        "name": "Half of a Stonefish",
+        "description": "You have half a giant stonefish on your back!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11111,
+            "name": "Half of a Stonefish",
+            "description": "You have half a giant stonefish on your back!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-stonefish-half.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 11,
+            "charisma": 5,
+            "endurance": 10,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Wind,10,Immobility,4,All,3"
+        }
+    },
+    "related": {
+        "386-half-off-2013": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "386-half-off-2013",
+                "fullSlug": "item-shops\/386-half-off-2013",
+                "id": 386,
+                "name": "Half-Off 2013",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 386,
+                    "name": "Half-Off 2013",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

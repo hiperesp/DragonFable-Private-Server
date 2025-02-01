@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15866-scythe-of-the-nature-dragon",
+        "fullSlug": "items\/15866-scythe-of-the-nature-dragon",
+        "id": 15866,
+        "name": "Scythe of the Nature Dragon",
+        "description": "Crafted to celebrate ten years of heroics on Lore, this scythe has a minor Orb of Nature to give it power!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15866,
+            "name": "Scythe of the Nature Dragon",
+            "description": "Crafted to celebrate ten years of heroics on Lore, this scythe has a minor Orb of Nature to give it power!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-10nature.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 1,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5,Water,3,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "504-dragon-scythes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "504-dragon-scythes",
+                "fullSlug": "item-shops\/504-dragon-scythes",
+                "id": 504,
+                "name": "Dragon Scythes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 504,
+                    "name": "Dragon Scythes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

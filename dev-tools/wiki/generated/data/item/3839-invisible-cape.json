@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3839-invisible-cape",
+        "fullSlug": "items\/3839-invisible-cape",
+        "id": 3839,
+        "name": "Invisible Cape",
+        "description": "All of the stats, none of the art."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3839,
+            "name": "Invisible Cape",
+            "description": "All of the stats, none of the art.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 9,
+            "level": 50,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-invisible.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Darkness,7,Fire,7,Light,7"
+        }
+    },
+    "related": {
+        "142-char-s-chest": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "142-char-s-chest",
+                "fullSlug": "item-shops\/142-char-s-chest",
+                "id": 142,
+                "name": "Char's Chest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 142,
+                    "name": "Char's Chest",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

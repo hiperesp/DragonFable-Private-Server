@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12822-frankeneyes-staff-vi",
+        "fullSlug": "items\/12822-frankeneyes-staff-vi",
+        "id": 12822,
+        "name": "FrankenEyes Staff VI",
+        "description": "Those googly eyes are fresh from the monster to your staff!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12822,
+            "name": "FrankenEyes Staff VI",
+            "description": "Those googly eyes are fresh from the monster to your staff!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 5,
+            "level": 80,
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-frankenstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 11,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,-4,Stone,13,Immobility,5"
+        }
+    },
+    "related": {
+        "221-franken-80": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "221-franken-80",
+                "fullSlug": "merge-shops\/221-franken-80",
+                "id": 221,
+                "name": "Franken 80",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 221,
+                    "name": "Franken 80"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2574,
+                    "mergeShopId": 221,
+                    "mergeId": 2485
+                },
+                "merge": {
+                    "id": 2485,
+                    "itemId1": 6030,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12822,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "332-franken-90": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "332-franken-90",
+                "fullSlug": "merge-shops\/332-franken-90",
+                "id": 332,
+                "name": "Franken 90",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 332,
+                    "name": "Franken 90"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3498,
+                    "mergeShopId": 332,
+                    "mergeId": 3582
+                },
+                "merge": {
+                    "id": 3582,
+                    "itemId1": 12822,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20013,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

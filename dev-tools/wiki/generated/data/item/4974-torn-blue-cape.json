@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4974-torn-blue-cape",
+        "fullSlug": "items\/4974-torn-blue-cape",
+        "id": 4974,
+        "name": "Torn Blue Cape",
+        "description": "A well worn cape crafted by Lauren in Verteroche, this cape will protect you from the elements."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4974,
+            "name": "Torn Blue Cape",
+            "description": "A well worn cape crafted by Lauren in Verteroche, this cape will protect you from the elements.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 11000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 20,
+            "level": 48,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-tornbluecape.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,4,Ice,4,Fire,4,Water,4,Energy,4,Darkness,4,Light,4"
+        }
+    },
+    "related": {
+        "168-lauren-s-clothing-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "168-lauren-s-clothing-shop",
+                "fullSlug": "item-shops\/168-lauren-s-clothing-shop",
+                "id": 168,
+                "name": "Lauren's Clothing Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 168,
+                    "name": "Lauren's Clothing Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

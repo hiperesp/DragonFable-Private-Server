@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3372-moglin-juicer-gear",
+        "fullSlug": "items\/3372-moglin-juicer-gear",
+        "id": 3372,
+        "name": "Moglin Juicer Gear",
+        "description": "This item requires a Dragon Amulet. A little piece of the juicing machine. Better to keep this safe and out of evil hands!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3372,
+            "name": "Moglin Juicer Gear",
+            "description": "This item requires a Dragon Amulet. A little piece of the juicing machine. Better to keep this safe and out of evil hands!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 45,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,2,Darkness,2,Health,-2"
+        }
+    },
+    "related": {
+        "530-we-re-gonna-need-more-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "530-we-re-gonna-need-more-fire",
+                "fullSlug": "quests\/530-we-re-gonna-need-more-fire",
+                "id": 530,
+                "name": "We're Gonna Need More Fire...",
+                "description": "It's big and it's mad!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 530,
+                    "name": "We're Gonna Need More Fire...",
+                    "description": "It's big and it's mad!",
+                    "complete": "You've taken down Zadd's creations and the frost moglins are finally safe! Time for some cocoaberry juice!",
+                    "swf": "towns\/Frostvale\/quest-frostval09-3r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 2000,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "icy",
+                    "monsterGroupSwf": "mset-frostgolemebil.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

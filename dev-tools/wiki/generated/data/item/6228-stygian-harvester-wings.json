@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6228-stygian-harvester-wings",
+        "fullSlug": "items\/6228-stygian-harvester-wings",
+        "id": 6228,
+        "name": "Stygian Harvester Wings",
+        "description": "Doom surrounds these midnight black wings!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6228,
+            "name": "Stygian Harvester Wings",
+            "description": "Doom surrounds these midnight black wings!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-blackharvester.swf",
+            "icon": "wings",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 11,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Darkness,7,Evil,4"
+        }
+    },
+    "related": {
+        "239-black-friday-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "239-black-friday-shop",
+                "fullSlug": "item-shops\/239-black-friday-shop",
+                "id": 239,
+                "name": "Black Friday Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 239,
+                    "name": "Black Friday Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "477-black-friday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "477-black-friday",
+                "fullSlug": "item-shops\/477-black-friday",
+                "id": 477,
+                "name": "Black Friday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 477,
+                    "name": "Black Friday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

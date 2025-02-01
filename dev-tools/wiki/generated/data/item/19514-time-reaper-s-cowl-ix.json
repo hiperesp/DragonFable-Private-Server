@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19514-time-reaper-s-cowl-ix",
+        "fullSlug": "items\/19514-time-reaper-s-cowl-ix",
+        "id": 19514,
+        "name": "Time Reaper's Cowl IX",
+        "description": "A hood crafted from some unknown material. It's light and breathable, but completely obscures your face from prying eyes. Can be upgraded at Cysero."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19514,
+            "name": "Time Reaper's Cowl IX",
+            "description": "A hood crafted from some unknown material. It's light and breathable, but completely obscures your face from prying eyes. Can be upgraded at Cysero.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-uwehelm1.swf",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,9,Energy,9,Health,-4,Immobility,5"
+        }
+    },
+    "related": {
+        "319-underworld-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "319-underworld-upgrades",
+                "fullSlug": "merge-shops\/319-underworld-upgrades",
+                "id": 319,
+                "name": "Underworld Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Underworld Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3395,
+                    "mergeShopId": 319,
+                    "mergeId": 3495
+                },
+                "merge": {
+                    "id": 3495,
+                    "itemId1": 19514,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19515,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

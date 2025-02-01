@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6430-brightmist-carver",
+        "fullSlug": "items\/6430-brightmist-carver",
+        "id": 6430,
+        "name": "Brightmist Carver ",
+        "description": "A deadly dagger that glows with light magic. You found this item while searching the corridors of the tower of Brightmist."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6430,
+            "name": "Brightmist Carver ",
+            "description": "A deadly dagger that glows with light magic. You found this item while searching the corridors of the tower of Brightmist.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 60,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-BrightmistCarver.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 9,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 4,
+            "damageMin": 71,
+            "damageMax": 79,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,7,Darkness,7"
+        }
+    },
+    "related": {
+        "858-tower-of-brightmist": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "858-tower-of-brightmist",
+                "fullSlug": "quests\/858-tower-of-brightmist",
+                "id": 858,
+                "name": "Tower of Brightmist",
+                "description": ""
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 858,
+                    "name": "Tower of Brightmist",
+                    "description": "",
+                    "complete": "",
+                    "swf": "quests\/quest-towerofbrightmist.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "light",
+                    "monsterGroupSwf": "mset-brightmist.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

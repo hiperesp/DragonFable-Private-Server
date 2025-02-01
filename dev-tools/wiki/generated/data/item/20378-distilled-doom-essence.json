@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20378-distilled-doom-essence",
+        "fullSlug": "items\/20378-distilled-doom-essence",
+        "id": 20378,
+        "name": "Distilled Doom Essence",
+        "description": "This small bottle of Doom essence seems to contain a reddish black tangled ball of... something... that seems to flit and flutter in and out of its space.\nUsed to upgrade Doom weapons!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20378,
+            "name": "Distilled Doom Essence",
+            "description": "This small bottle of Doom essence seems to contain a reddish black tangled ball of... something... that seems to flit and flutter in and out of its space.\nUsed to upgrade Doom weapons!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "350-unreal-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "350-unreal-doom",
+                "fullSlug": "merge-shops\/350-unreal-doom",
+                "id": 350,
+                "name": "Unreal Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 350,
+                    "name": "Unreal Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3649,
+                    "mergeShopId": 350,
+                    "mergeId": 3738
+                },
+                "merge": {
+                    "id": 3738,
+                    "itemId1": 13667,
+                    "amount1": 1,
+                    "itemId2": 20378,
+                    "amount2": 1,
+                    "itemId": 20381,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

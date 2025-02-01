@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4121-keen-azure-gleam",
+        "fullSlug": "items\/4121-keen-azure-gleam",
+        "id": 4121,
+        "name": "Keen Azure Gleam",
+        "description": "This dagger is fabled to have been used by an ancient queen. Its wavy blade and blue gems hint at royalty."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4121,
+            "name": "Keen Azure Gleam",
+            "description": "This dagger is fabled to have been used by an ancient queen. Its wavy blade and blue gems hint at royalty.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 48,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-curved.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 74,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "633-ocean-reef": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "633-ocean-reef",
+                "fullSlug": "quests\/633-ocean-reef",
+                "id": 633,
+                "name": "Ocean Reef",
+                "description": "A colorful coral reef."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 633,
+                    "name": "Ocean Reef",
+                    "description": "A colorful coral reef.",
+                    "complete": "A colorful coral reef.",
+                    "swf": "random\/random-underwater-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "the whole damn ocean!",
+                    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

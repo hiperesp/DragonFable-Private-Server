@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16193-kickstarter-spear",
+        "fullSlug": "items\/16193-kickstarter-spear",
+        "id": 16193,
+        "name": "Kickstarter Spear",
+        "description": "This spear is available only to those that supported the AQ3D Kickstarter campaign. Thank you for your support!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16193,
+            "name": "Kickstarter Spear",
+            "description": "This spear is available only to those that supported the AQ3D Kickstarter campaign. Thank you for your support!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 50,
+            "element": "Bacon",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-kickstarter2.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 68,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,7"
+        }
+    },
+    "related": {
+        "254-kickstarter-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "254-kickstarter-rewards",
+                "fullSlug": "merge-shops\/254-kickstarter-rewards",
+                "id": 254,
+                "name": "Kickstarter Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 254,
+                    "name": "Kickstarter Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2904,
+                    "mergeShopId": 254,
+                    "mergeId": 3186
+                },
+                "merge": {
+                    "id": 3186,
+                    "itemId1": 16193,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15998,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1588-batwing-helm",
+        "fullSlug": "items\/1588-batwing-helm",
+        "id": 1588,
+        "name": "Batwing Helm",
+        "description": "A small tag inside this helm reads \"In case of loss please return to Alfred.\""
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1588,
+            "name": "Batwing Helm",
+            "description": "A small tag inside this helm reads \"In case of loss please return to Alfred.\"",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 3,
+            "level": 11,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-necro3.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3"
+        }
+    },
+    "related": {
+        "226-bombing-run": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "226-bombing-run",
+                "fullSlug": "quests\/226-bombing-run",
+                "id": 226,
+                "name": "Bombing Run",
+                "description": "You and your dragon have the ability to help defend Moonridge in a unique way! Take Artix's lightbombs and stop the undead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 226,
+                    "name": "Bombing Run",
+                    "description": "You and your dragon have the ability to help defend Moonridge in a unique way! Take Artix's lightbombs and stop the undead!",
+                    "complete": "You have thinned out the ground waves of undead but they keep coming up through the ground of the town.",
+                    "swf": "quests\/quest-firesovermoonridge.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 1,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        }
+    }
+}

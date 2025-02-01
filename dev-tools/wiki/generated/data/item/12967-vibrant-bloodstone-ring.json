@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12967-vibrant-bloodstone-ring",
+        "fullSlug": "items\/12967-vibrant-bloodstone-ring",
+        "id": 12967,
+        "name": "Vibrant Bloodstone Ring",
+        "description": "This stone holds a single drop of an ancient vampire's blood."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12967,
+            "name": "Vibrant Bloodstone Ring",
+            "description": "This stone holds a single drop of an ancient vampire's blood.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 68,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,7,Fire,6,Health,-8,Immobility,2"
+        }
+    },
+    "related": {
+        "1206-the-dark-tower": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1206-the-dark-tower",
+                "fullSlug": "quests\/1206-the-dark-tower",
+                "id": 1206,
+                "name": "The Dark Tower",
+                "description": "Thursday has gone missing! Head to the Darkness Guardian Tower to confront Frydae!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1206,
+                    "name": "The Dark Tower",
+                    "description": "Thursday has gone missing! Head to the Darkness Guardian Tower to confront Frydae!",
+                    "complete": "There is no sign of Thursday at the Darkness Tower... where could she have gone?",
+                    "swf": "towns\/3Amityvale\/quest5-darktower.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weres, bats, vamps",
+                    "monsterGroupSwf": "mset-darktowerFrydae3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20968-voidcutter-spear-iii",
+        "fullSlug": "items\/20968-voidcutter-spear-iii",
+        "id": 20968,
+        "name": "Voidcutter Spear III",
+        "description": "Notha and Myalos brought their expertise of ancient technology upon the Abysscutter Spear, forging a weapon to be feared by any would-be deities."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20968,
+            "name": "Voidcutter Spear III",
+            "description": "Notha and Myalos brought their expertise of ancient technology upon the Abysscutter Spear, forging a weapon to be feared by any would-be deities.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 50,
+            "level": 50,
+            "element": "Fear",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-remthalasupgraded.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 12,
+            "intelligence": 0,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 69,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5,Health,-5"
+        }
+    },
+    "related": {
+        "370-voidcutter": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "370-voidcutter",
+                "fullSlug": "merge-shops\/370-voidcutter",
+                "id": 370,
+                "name": "Voidcutter",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 370,
+                    "name": "Voidcutter"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3873,
+                    "mergeShopId": 370,
+                    "mergeId": 3945
+                },
+                "merge": {
+                    "id": 3945,
+                    "itemId1": 20951,
+                    "amount1": 1,
+                    "itemId2": 20973,
+                    "amount2": 1,
+                    "itemId": 20968,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

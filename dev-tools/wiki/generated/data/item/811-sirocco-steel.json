@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "811-sirocco-steel",
+        "fullSlug": "items\/811-sirocco-steel",
+        "id": 811,
+        "name": "Sirocco Steel",
+        "description": "The southerly wind powers this massive blade."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 811,
+            "name": "Sirocco Steel",
+            "description": "The southerly wind powers this massive blade.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 20,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-windy3.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 41,
+            "damageMax": 47,
+            "defenseMelee": 3,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,2"
+        }
+    },
+    "related": {
+        "25-temple-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "25-temple-shop",
+                "fullSlug": "merge-shops\/25-temple-shop",
+                "id": 25,
+                "name": "Temple Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 25,
+                    "name": "Temple Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 354,
+                    "mergeShopId": 25,
+                    "mergeId": 186
+                },
+                "merge": {
+                    "id": 186,
+                    "itemId1": 817,
+                    "amount1": 15,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 811,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

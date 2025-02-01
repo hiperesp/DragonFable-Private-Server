@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11778-traditional-grenwog-eggs-vi",
+        "fullSlug": "items\/11778-traditional-grenwog-eggs-vi",
+        "id": 11778,
+        "name": "Traditional Grenwog Eggs VI",
+        "description": "Magic Grenwog eggs colored for the season! Happy Grenwog '14! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11778,
+            "name": "Traditional Grenwog Eggs VI",
+            "description": "Magic Grenwog eggs colored for the season! Happy Grenwog '14! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-grenwog14.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Light,10,Ice,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "402-grenwog-14": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "402-grenwog-14",
+                "fullSlug": "item-shops\/402-grenwog-14",
+                "id": 402,
+                "name": "Grenwog 14",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 402,
+                    "name": "Grenwog 14",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

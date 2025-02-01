@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7203-fire-soul-i",
+        "fullSlug": "items\/7203-fire-soul-i",
+        "id": 7203,
+        "name": "Fire Soul I",
+        "description": "Your soul burns for revenge! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7203,
+            "name": "Fire Soul I",
+            "description": "Your soul burns for revenge! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 20,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-FireInMySoul.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 30,
+            "damageMax": 56,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Water,1,Ice,1"
+        }
+    },
+    "related": {
+        "270-fire-soul": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "270-fire-soul",
+                "fullSlug": "item-shops\/270-fire-soul",
+                "id": 270,
+                "name": "Fire Soul",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 270,
+                    "name": "Fire Soul",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

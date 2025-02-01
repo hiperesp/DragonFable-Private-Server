@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19958-apsaydaaun-harvester-iv",
+        "fullSlug": "items\/19958-apsaydaaun-harvester-iv",
+        "id": 19958,
+        "name": "Apsaydaaun Harvester IV",
+        "description": "The denizens of Apsaydaaun have never been known for their plant-tending. This prototype garden tool seems to be more practical for culling foes than weeds."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19958,
+            "name": "Apsaydaaun Harvester IV",
+            "description": "The denizens of Apsaydaaun have never been known for their plant-tending. This prototype garden tool seems to be more practical for culling foes than weeds.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 40,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-mog2020.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 53,
+            "damageMax": 67,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Nature,8,Ice,8"
+        }
+    },
+    "related": {
+        "1757-green-thumbs": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1757-green-thumbs",
+                "fullSlug": "quests\/1757-green-thumbs",
+                "id": 1757,
+                "name": "Green Thumbs",
+                "description": "While catching up with the Cauldron Sisters, a mysterious portal opens. It looks like something is happening in Apsaydaaun... again!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1757,
+                    "name": "Green Thumbs",
+                    "description": "While catching up with the Cauldron Sisters, a mysterious portal opens. It looks like something is happening in Apsaydaaun... again!",
+                    "complete": "Majji has some 'splaining to do!",
+                    "swf": "towns\/Mogloween\/M20\/quest1-greenthumbs.swf",
+                    "swfX": "towns\/Mogloween\/M20\/quest1-greenthumbs-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "People eaters",
+                    "monsterGroupSwf": "mset-greenthumbs.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

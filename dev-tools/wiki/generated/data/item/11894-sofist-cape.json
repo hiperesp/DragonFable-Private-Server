@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11894-sofist-cape",
+        "fullSlug": "items\/11894-sofist-cape",
+        "id": 11894,
+        "name": "Sofist Cape",
+        "description": "An opulent fur cape denoting Sofist's rank as a senior member amongst the Rose. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11894,
+            "name": "Sofist Cape",
+            "description": "An opulent fur cape denoting Sofist's rank as a senior member amongst the Rose. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-sofist.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 9,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Ice,10,Metal,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "1152-the-runed-fortress": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1152-the-runed-fortress",
+                "fullSlug": "quests\/1152-the-runed-fortress",
+                "id": 1152,
+                "name": "The Runed Fortress",
+                "description": "You're in. Good. Now find the Third Level and get in!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1152,
+                    "name": "The Runed Fortress",
+                    "description": "You're in. Good. Now find the Third Level and get in!",
+                    "complete": "The Third Level is off limits. Another way in must be found.",
+                    "swf": "towns\/SulenEska\/quest15-runed-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "shackled",
+                    "monsterGroupSwf": "mset-runed.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

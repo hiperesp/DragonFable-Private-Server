@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6980-rx-for-destruction",
+        "fullSlug": "items\/6980-rx-for-destruction",
+        "id": 6980,
+        "name": "Rx for Destruction",
+        "description": "You have a prescription to bring pain to your foes in battle! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6980,
+            "name": "Rx for Destruction",
+            "description": "You have a prescription to bring pain to your foes in battle! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 70,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/axes\/axe-RxDest.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 92,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,5,Health,-7"
+        }
+    },
+    "related": {
+        "109-rx": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "109-rx",
+                "fullSlug": "merge-shops\/109-rx",
+                "id": 109,
+                "name": "Rx",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Rx"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1533,
+                    "mergeShopId": 109,
+                    "mergeId": 1414
+                },
+                "merge": {
+                    "id": 1414,
+                    "itemId1": 6980,
+                    "amount1": 1,
+                    "itemId2": 6982,
+                    "amount2": 1,
+                    "itemId": 6981,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

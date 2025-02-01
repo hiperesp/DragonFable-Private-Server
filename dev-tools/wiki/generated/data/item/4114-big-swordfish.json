@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4114-big-swordfish",
+        "fullSlug": "items\/4114-big-swordfish",
+        "id": 4114,
+        "name": "Big Swordfish",
+        "description": "Something about this blade smells fishy."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4114,
+            "name": "Big Swordfish",
+            "description": "Something about this blade smells fishy.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 28,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-holymackerel.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 58,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,2"
+        }
+    },
+    "related": {
+        "633-ocean-reef": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "633-ocean-reef",
+                "fullSlug": "quests\/633-ocean-reef",
+                "id": 633,
+                "name": "Ocean Reef",
+                "description": "A colorful coral reef."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 633,
+                    "name": "Ocean Reef",
+                    "description": "A colorful coral reef.",
+                    "complete": "A colorful coral reef.",
+                    "swf": "random\/random-underwater-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "the whole damn ocean!",
+                    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

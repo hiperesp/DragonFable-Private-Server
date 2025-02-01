@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17252-the-hidebehind-iii",
+        "fullSlug": "items\/17252-the-hidebehind-iii",
+        "id": 17252,
+        "name": "The Hidebehind III",
+        "description": "There's something behind you! Is it friendly? Or is it just waiting for the perfect opportunity to strike?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17252,
+            "name": "The Hidebehind III",
+            "description": "There's something behind you! Is it friendly? Or is it just waiting for the perfect opportunity to strike?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 35,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-hidebehind.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": -4,
+            "endurance": -4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 16,
+            "defensePierce": 16,
+            "defenseMagic": 16,
+            "critical": 0,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "All,-16,Health,8"
+        }
+    },
+    "related": {
+        "1431-the-hidebehind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1431-the-hidebehind",
+                "fullSlug": "quests\/1431-the-hidebehind",
+                "id": 1431,
+                "name": "The Hidebehind",
+                "description": "A rare, mysterious creature is terrorizing magical creatures around Falconreach. A bounty has been placed on its head. Hunt it down, if you can!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1431,
+                    "name": "The Hidebehind",
+                    "description": "A rare, mysterious creature is terrorizing magical creatures around Falconreach. A bounty has been placed on its head. Hunt it down, if you can!",
+                    "complete": "The Hidebehind has been hunted, but where did it come from? And what exactly was it? Oh well, time to collect your reward!",
+                    "swf": "towns\/3Falconreach\/Board\/random-hidebehind.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 80000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Scared and hidebehind",
+                    "monsterGroupSwf": "mset-hidebehind.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

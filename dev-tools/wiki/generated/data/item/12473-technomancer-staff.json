@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12473-technomancer-staff",
+        "fullSlug": "items\/12473-technomancer-staff",
+        "id": 12473,
+        "name": "Technomancer Staff",
+        "description": "This staff is overcharged! You can feel your hair stand on end as it gets close to you."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12473,
+            "name": "Technomancer Staff",
+            "description": "This staff is overcharged! You can feel your hair stand on end as it gets close to you.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 260,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 66,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-TechnoRevamp.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 67,
+            "damageMax": 99,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Energy,7,Water,7,Health,-3"
+        }
+    },
+    "related": {
+        "413-technomancer-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "413-technomancer-items",
+                "fullSlug": "item-shops\/413-technomancer-items",
+                "id": 413,
+                "name": "Technomancer Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 413,
+                    "name": "Technomancer Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

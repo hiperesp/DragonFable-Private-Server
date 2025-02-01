@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "178-reens-s-cappuccino-maker",
+        "fullSlug": "items\/178-reens-s-cappuccino-maker",
+        "id": 178,
+        "name": "Reens's Cappuccino Maker",
+        "description": "This brass machine is said to be the source of Reens's power."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 178,
+            "name": "Reens's Cappuccino Maker",
+            "description": "This brass machine is said to be the source of Reens's power.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 1,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "treasure",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "13-elemental-attack": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "13-elemental-attack",
+                "fullSlug": "quests\/13-elemental-attack",
+                "id": 13,
+                "name": "Elemental Attack",
+                "description": "Elementals are pouring out of a Mage Portal.... can we hold them off?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 13,
+                    "name": "Elemental Attack",
+                    "description": "Elementals are pouring out of a Mage Portal.... can we hold them off?",
+                    "complete": "Elementals are pouring out of a Mage Portal.... can we hold them off?",
+                    "swf": "quests\/quest-elementalattack-r1.swf ",
+                    "swfX": "none",
+                    "maxSilver": 6,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "Wind, Earth, Water",
+                    "monsterGroupSwf": "mset-elementalnew-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "20-bandit-camp": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "20-bandit-camp",
+                "fullSlug": "quests\/20-bandit-camp",
+                "id": 20,
+                "name": "Bandit Camp",
+                "description": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 20,
+                    "name": "Bandit Camp",
+                    "description": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!",
+                    "complete": "This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!",
+                    "swf": "random\/random-bandit.swf",
+                    "swfX": "none",
+                    "maxSilver": 5,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Bandits",
+                    "monsterGroupSwf": "mset-bandits.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

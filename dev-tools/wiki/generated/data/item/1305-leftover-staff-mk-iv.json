@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1305-leftover-staff-mk-iv",
+        "fullSlug": "items\/1305-leftover-staff-mk-iv",
+        "id": 1305,
+        "name": "Leftover Staff Mk. IV",
+        "description": "This item requires a Dragon Amulet. This weapon was constructed from spare parts of the X-304 Pumpkin Pie Dispensing Dracobot, during Dr. Voltabolt's Thankstaking War!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1305,
+            "name": "Leftover Staff Mk. IV",
+            "description": "This item requires a Dragon Amulet. This weapon was constructed from spare parts of the X-304 Pumpkin Pie Dispensing Dracobot, during Dr. Voltabolt's Thankstaking War!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 25,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-x304.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 39,
+            "damageMax": 59,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,2"
+        }
+    },
+    "related": {
+        "35-leftovers": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "35-leftovers",
+                "fullSlug": "merge-shops\/35-leftovers",
+                "id": 35,
+                "name": "Leftovers!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 35,
+                    "name": "Leftovers!"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 596,
+                    "mergeShopId": 35,
+                    "mergeId": 341
+                },
+                "merge": {
+                    "id": 341,
+                    "itemId1": 1305,
+                    "amount1": 1,
+                    "itemId2": 581,
+                    "amount2": 5,
+                    "itemId": 1308,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21661-peridot-gemstone",
+        "fullSlug": "items\/21661-peridot-gemstone",
+        "id": 21661,
+        "name": "Peridot Gemstone",
+        "description": "A glittering gemstone, imbued with the power of Nature."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21661,
+            "name": "Peridot Gemstone",
+            "description": "A glittering gemstone, imbued with the power of Nature.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "greengem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "792-infused-geode": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "792-infused-geode",
+                "fullSlug": "item-shops\/792-infused-geode",
+                "id": 792,
+                "name": "Infused Geode",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 792,
+                    "name": "Infused Geode",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "404-peridot-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "404-peridot-weapons",
+                "fullSlug": "merge-shops\/404-peridot-weapons",
+                "id": 404,
+                "name": "Peridot Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 404,
+                    "name": "Peridot Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4192,
+                    "mergeShopId": 404,
+                    "mergeId": 4231
+                },
+                "merge": {
+                    "id": 4231,
+                    "itemId1": 21661,
+                    "amount1": 5,
+                    "itemId2": 21664,
+                    "amount2": 1,
+                    "itemId": 21685,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

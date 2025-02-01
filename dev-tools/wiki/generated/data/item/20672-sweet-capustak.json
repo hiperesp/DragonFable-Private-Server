@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20672-sweet-capustak",
+        "fullSlug": "items\/20672-sweet-capustak",
+        "id": 20672,
+        "name": "Sweet Capustak",
+        "description": "This capustak is sweet, and therefore not fit for eating! It's more than happy to follow you along on your adventures though... Does more damage the lower your HP is."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20672,
+            "name": "Sweet Capustak",
+            "description": "This capustak is sweet, and therefore not fit for eating! It's more than happy to follow you along on your adventures though... Does more damage the lower your HP is.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-capustak.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 200,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 10,
+            "damageMax": 15,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1889-stew-it-yourself": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1889-stew-it-yourself",
+                "fullSlug": "quests\/1889-stew-it-yourself",
+                "id": 1889,
+                "name": "Stew It Yourself",
+                "description": "You have volunteered to visit Gaelan's village in order to acquire a special ingredient!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1889,
+                    "name": "Stew It Yourself",
+                    "description": "You have volunteered to visit Gaelan's village in order to acquire a special ingredient!",
+                    "complete": "Happy Thankstaking!!!",
+                    "swf": "towns\/Thankstaking\/tt21\/quest-stew.swf",
+                    "swfX": "towns\/Thankstaking\/tt21\/quest-stew-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "cabbage",
+                    "monsterGroupSwf": "mset-cabbage.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

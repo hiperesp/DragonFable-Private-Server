@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3203-forsaken-shadowreaper-of-doom",
+        "fullSlug": "items\/3203-forsaken-shadowreaper-of-doom",
+        "id": 3203,
+        "name": "Forsaken ShadowReaper of Doom",
+        "description": "Upgrading requires a DA and Blacksmithing Skill of at least Rank 18. The darkness from this weapon seems to overflow.."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3203,
+            "name": "Forsaken ShadowReaper of Doom",
+            "description": "Upgrading requires a DA and Blacksmithing Skill of at least Rank 18. The darkness from this weapon seems to overflow..",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 3,
+            "level": 31,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/dooms\/axe-doom2.swf",
+            "icon": "axe",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": -5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 53,
+            "damageMax": 87,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 410,
+                    "mergeShopId": 32,
+                    "mergeId": 759
+                },
+                "merge": {
+                    "id": 759,
+                    "itemId1": 3203,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 13,
+                    "itemId": 4158,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

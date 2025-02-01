@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17323-isandel-v",
+        "fullSlug": "items\/17323-isandel-v",
+        "id": 17323,
+        "name": "Isandel V",
+        "description": "Rewarded for defeating the murky ice dragon Gelunguis. It had three previous owners, each of them dying under questionable circumstances. It craves glory, you can hear it sing to you."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17323,
+            "name": "Isandel V",
+            "description": "Rewarded for defeating the murky ice dragon Gelunguis. It had three previous owners, each of them dying under questionable circumstances. It craves glory, you can hear it sing to you.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 200,
+            "level": 85,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-isandel.swf",
+            "icon": "scythe",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 87,
+            "damageMax": 95,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "All,7"
+        }
+    },
+    "related": {
+        "266-dragon-challenge-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "266-dragon-challenge-upgrade",
+                "fullSlug": "merge-shops\/266-dragon-challenge-upgrade",
+                "id": 266,
+                "name": "Dragon Challenge Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 266,
+                    "name": "Dragon Challenge Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2993,
+                    "mergeShopId": 266,
+                    "mergeId": 3012
+                },
+                "merge": {
+                    "id": 3012,
+                    "itemId1": 17322,
+                    "amount1": 1,
+                    "itemId2": 17308,
+                    "amount2": 3,
+                    "itemId": 17323,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

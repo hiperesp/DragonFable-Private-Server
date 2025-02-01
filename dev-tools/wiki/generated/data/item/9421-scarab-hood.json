@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9421-scarab-hood",
+        "fullSlug": "items\/9421-scarab-hood",
+        "id": 9421,
+        "name": "Scarab Hood",
+        "description": "The hood on this intricate helm helps protect you from the elements! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9421,
+            "name": "Scarab Hood",
+            "description": "The hood on this intricate helm helps protect you from the elements! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 40000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-scarabhood.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Wind,12,Light,10,Stone,9,Ice,9,Water,9,Poison,8,Immobility,5"
+        }
+    },
+    "related": {
+        "323-masub-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "323-masub-helms",
+                "fullSlug": "item-shops\/323-masub-helms",
+                "id": 323,
+                "name": "Masub Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 323,
+                    "name": "Masub Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

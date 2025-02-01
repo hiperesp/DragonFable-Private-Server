@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1357-miasma",
+        "fullSlug": "items\/1357-miasma",
+        "id": 1357,
+        "name": "Miasma",
+        "description": "This item requires a Dragon Amulet. This poisonous staff was a gift from the Shadow of the Wind ninja clan for saving their village from Honda, the Iron-Fisted Giant."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1357,
+            "name": "Miasma",
+            "description": "This item requires a Dragon Amulet. This poisonous staff was a gift from the Shadow of the Wind ninja clan for saving their village from Honda, the Iron-Fisted Giant.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 4,
+            "level": 33,
+            "type": "Magic",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-oaklore2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "182-honda-s-accord": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "182-honda-s-accord",
+                "fullSlug": "quests\/182-honda-s-accord",
+                "id": 182,
+                "name": "Honda's Accord",
+                "description": "Thyton, jonin of the Shadow of the Wind ninja clan has asked you to save his village! Honda, the Iron-Fisted Giant has been turned from the town's guardian into the town's destroyer!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 182,
+                    "name": "Honda's Accord",
+                    "description": "Thyton, jonin of the Shadow of the Wind ninja clan has asked you to save his village! Honda, the Iron-Fisted Giant has been turned from the town's guardian into the town's destroyer!",
+                    "complete": "The Shadow of the Wind Village has been saved! You and your dragon were more than a match for the Iron-Fisted Giant! You have saved the village twice in one day... that's gotta be a record!",
+                    "swf": "towns\/Ninjavillage\/quest-ninja6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Honda",
+                    "monsterGroupSwf": "mset-Honda.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

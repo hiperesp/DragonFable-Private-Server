@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1407-doom-amulet",
+        "fullSlug": "quests\/1407-doom-amulet",
+        "id": 1407,
+        "name": "Doom Amulet",
+        "description": "While something or someone is playing with your companions' thoughts, the Doom Dragon arrives!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1407,
+            "name": "Doom Amulet",
+            "description": "While something or someone is playing with your companions' thoughts, the Doom Dragon arrives!",
+            "complete": "The (Doom?) Dragon falls...",
+            "swf": "wars\/F13-DoomDragon\/quest-doomamuletr3.swf",
+            "swfX": "wars\/F13-DoomDragon\/quest-doomamulet-x.swf",
+            "maxSilver": 0,
+            "maxGold": 13131,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "finale",
+            "monsterGroupSwf": "mset-doomamulet.swf"
+        }
+    },
+    "related": {
+        "16934-broken-doom-amulet-powder": {
+            "page": {
+                "slugBase": "items",
+                "slug": "16934-broken-doom-amulet-powder",
+                "fullSlug": "items\/16934-broken-doom-amulet-powder",
+                "id": 16934,
+                "name": "Broken Doom Amulet Powder",
+                "description": "The shattered dust of the Doom Amulet that Caitiff used to bind your dragon. Even destroyed, it radiates pure evil."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 16934,
+                    "name": "Broken Doom Amulet Powder",
+                    "description": "The shattered dust of the Doom Amulet that Caitiff used to bind your dragon. Even destroyed, it radiates pure evil.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 500,
+                    "maxStackSize": 1000,
+                    "bonus": 0,
+                    "rarity": 99,
+                    "level": 1,
+                    "type": "Melee",
+                    "element": "None",
+                    "categoryId": "4",
+                    "equipSpot": "Not Equipable",
+                    "itemType": "Resource",
+                    "swf": "",
+                    "icon": "bag",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": ""
+                }
+            },
+            "related": []
+        }
+    }
+}

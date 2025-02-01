@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17454-flying-saucer-belt-vii",
+        "fullSlug": "items\/17454-flying-saucer-belt-vii",
+        "id": 17454,
+        "name": "Flying Saucer Belt VII",
+        "description": "This flimsy-looking belt buckle protects against \"space and the unknown\". At least that's what the box it came in said."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17454,
+            "name": "Flying Saucer Belt VII",
+            "description": "This flimsy-looking belt buckle protects against \"space and the unknown\". At least that's what the box it came in said.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 170,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 70,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "???,7"
+        }
+    },
+    "related": {
+        "1445-harboring-an-alien": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1445-harboring-an-alien",
+                "fullSlug": "quests\/1445-harboring-an-alien",
+                "id": 1445,
+                "name": "Harboring an Alien",
+                "description": "Would aliens need water-breathing potions to breathe underwater?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1445,
+                    "name": "Harboring an Alien",
+                    "description": "Would aliens need water-breathing potions to breathe underwater?",
+                    "complete": "No aliens, just sea monsters. Hey, at least the pay is nice!",
+                    "swf": "towns\/3Falconreach\/Board\/quest-aliens.swf",
+                    "swfX": "towns\/3Falconreach\/Board\/quest-aliens-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 4321,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "marine life!",
+                    "monsterGroupSwf": "mset-waterorb3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

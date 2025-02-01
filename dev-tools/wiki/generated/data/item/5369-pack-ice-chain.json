@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5369-pack-ice-chain",
+        "fullSlug": "items\/5369-pack-ice-chain",
+        "id": 5369,
+        "name": "Pack Ice Chain",
+        "description": "This necklace is made of pack ice, which is frozen seawater!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5369,
+            "name": "Pack Ice Chain",
+            "description": "This necklace is made of pack ice, which is frozen seawater!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 38,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Water,6"
+        }
+    },
+    "related": {
+        "754-escort-to-dragesvard": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "754-escort-to-dragesvard",
+                "fullSlug": "quests\/754-escort-to-dragesvard",
+                "id": 754,
+                "name": "Escort to Dragesvard",
+                "description": "Meh, squishy shoes..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 754,
+                    "name": "Escort to Dragesvard",
+                    "description": "Meh, squishy shoes...",
+                    "complete": "Meh, squishy shoes...",
+                    "swf": "towns\/verteroche\/quest-escort2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "the whole damn ocean!",
+                    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7225-bullseye-spear",
+        "fullSlug": "items\/7225-bullseye-spear",
+        "id": 7225,
+        "name": "Bullseye Spear",
+        "description": "Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7225,
+            "name": "Bullseye Spear",
+            "description": "Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 15,
+            "level": 70,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Bullseye.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 92,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,5,Light,5"
+        }
+    },
+    "related": {
+        "116-bullseye": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "116-bullseye",
+                "fullSlug": "merge-shops\/116-bullseye",
+                "id": 116,
+                "name": "Bullseye",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Bullseye"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1657,
+                    "mergeShopId": 116,
+                    "mergeId": 1537
+                },
+                "merge": {
+                    "id": 1537,
+                    "itemId1": 7225,
+                    "amount1": 1,
+                    "itemId2": 7227,
+                    "amount2": 1,
+                    "itemId": 7226,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

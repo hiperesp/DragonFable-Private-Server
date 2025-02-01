@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11589-tidal-helm",
+        "fullSlug": "items\/11589-tidal-helm",
+        "id": 11589,
+        "name": "Tidal Helm",
+        "description": "Forged in the shadow of the Ocean Gate!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11589,
+            "name": "Tidal Helm",
+            "description": "Forged in the shadow of the Ocean Gate!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 27,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-riptide.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Water,3"
+        }
+    },
+    "related": {
+        "1135-dive-in": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1135-dive-in",
+                "fullSlug": "quests\/1135-dive-in",
+                "id": 1135,
+                "name": "Dive In",
+                "description": "Dive into the water and seek out the Ocean Gate. The mysteries here at the sea floor are deep and unfathomable."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1135,
+                    "name": "Dive In",
+                    "description": "Dive into the water and seek out the Ocean Gate. The mysteries here at the sea floor are deep and unfathomable.",
+                    "complete": "In the depths of the ocean, the gate was waiting for you. Now it is time to move on, and visit the last gate.",
+                    "swf": "towns\\StoneheartFall\\quest9-DiveIn-r4.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-underthesea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13485-maroon-love-poison-9",
+        "fullSlug": "items\/13485-maroon-love-poison-9",
+        "id": 13485,
+        "name": "Maroon Love Poison #9",
+        "description": "So sweet, but very very deadly! Happy Hero's Heart Day 2011! This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13485,
+            "name": "Maroon Love Poison #9",
+            "description": "So sweet, but very very deadly! Happy Hero's Heart Day 2011! This item requires a Dragon Amulet. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 20,
+            "level": 80,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lovepoison9.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 78,
+            "damageMax": 98,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Water,14,Fire,14,Ice,14"
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 769,
+                    "mergeShopId": 53,
+                    "mergeId": 2564
+                },
+                "merge": {
+                    "id": 2564,
+                    "itemId1": 13484,
+                    "amount1": 1,
+                    "itemId2": 707,
+                    "amount2": 18,
+                    "itemId": 13485,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

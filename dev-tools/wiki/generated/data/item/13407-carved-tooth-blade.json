@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13407-carved-tooth-blade",
+        "fullSlug": "items\/13407-carved-tooth-blade",
+        "id": 13407,
+        "name": "Carved Tooth Blade",
+        "description": "With all these dragons fighting, there's a lot of draconic resources lying around. Someone whittled fallen dragon teeth into these weapons to pass the time."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13407,
+            "name": "Carved Tooth Blade",
+            "description": "With all these dragons fighting, there's a lot of draconic resources lying around. Someone whittled fallen dragon teeth into these weapons to pass the time.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 31,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-carvedtooth.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 45,
+            "damageMax": 57,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Energy,1"
+        }
+    },
+    "related": {
+        "1226-saellah": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1226-saellah",
+                "fullSlug": "quests\/1226-saellah",
+                "id": 1226,
+                "name": "Saellah",
+                "description": "The DragonLord General himself has descended to deal with your dragon."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1226,
+                    "name": "Saellah",
+                    "description": "The DragonLord General himself has descended to deal with your dragon.",
+                    "complete": "Saellah has been taken away and the remaining enemy dragonriders are scattering. Your dragon and Mritha's dragonriders were victorious! Now it's time to free Kara!",
+                    "swf": "towns\/SulenEska\/quest-dragonriderboss.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "DragonRider Boss",
+                    "monsterGroupSwf": "mset-Saellah.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

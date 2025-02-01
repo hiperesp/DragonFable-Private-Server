@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14498-obsidian-band",
+        "fullSlug": "items\/14498-obsidian-band",
+        "id": 14498,
+        "name": "Obsidian Band",
+        "description": "This band is made from the pieces of obsidian you recovered. The stone has been shaped in such a way that it's smooth and cool to the touch."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14498,
+            "name": "Obsidian Band",
+            "description": "This band is made from the pieces of obsidian you recovered. The stone has been shaped in such a way that it's smooth and cool to the touch.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 40,
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Water,3,Stone,3,Wind,2"
+        }
+    },
+    "related": {
+        "240-obsidian-shards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "240-obsidian-shards",
+                "fullSlug": "merge-shops\/240-obsidian-shards",
+                "id": 240,
+                "name": "Obsidian Shards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 240,
+                    "name": "Obsidian Shards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2662,
+                    "mergeShopId": 240,
+                    "mergeId": 2648
+                },
+                "merge": {
+                    "id": 2648,
+                    "itemId1": 14510,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 14498,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

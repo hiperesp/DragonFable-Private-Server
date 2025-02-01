@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19116-mint-cream-slasher-ix",
+        "fullSlug": "items\/19116-mint-cream-slasher-ix",
+        "id": 19116,
+        "name": "Mint Cream Slasher IX",
+        "description": "Carved from the walls of Akaz's lab, this enchanted blade is not only sharp, but tastes good too! Just make sure not to nibble too much at once. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19116,
+            "name": "Mint Cream Slasher IX",
+            "description": "Carved from the walls of Akaz's lab, this enchanted blade is not only sharp, but tastes good too! Just make sure not to nibble too much at once. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 90,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-mintcream.swf",
+            "icon": "sword",
+            "strength": 22,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 84,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,10,Ice,10,Light,10"
+        }
+    },
+    "related": {
+        "1654-the-plot-thickens": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1654-the-plot-thickens",
+                "fullSlug": "quests\/1654-the-plot-thickens",
+                "id": 1654,
+                "name": "The Plot Thickens",
+                "description": "Croft has appeared, time to visit the Cauldron Sisters and see what's new!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1654,
+                    "name": "The Plot Thickens",
+                    "description": "Croft has appeared, time to visit the Cauldron Sisters and see what's new!",
+                    "complete": "Cat...? THE cat?!",
+                    "swf": "towns\/Mogloween\/M19\/quest1-swole.swf",
+                    "swfX": "towns\/Mogloween\/M19\/quest1-swole-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "swollen animals 2019 Oct",
+                    "monsterGroupSwf": "mset-swole.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

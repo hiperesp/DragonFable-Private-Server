@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3110-dark-batwing-broom",
+        "fullSlug": "items\/3110-dark-batwing-broom",
+        "id": 3110,
+        "name": "Dark Batwing Broom",
+        "description": "Crafted from the limb of a giant bat, this broom channels the night winds to blow evil spirits away! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3110,
+            "name": "Dark Batwing Broom",
+            "description": "Crafted from the limb of a giant bat, this broom channels the night winds to blow evil spirits away! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 2,
+            "level": 50,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Vampire2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 71,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Immobility,2,Wind,4"
+        }
+    },
+    "related": {
+        "501-share-and-share-alike": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "501-share-and-share-alike",
+                "fullSlug": "quests\/501-share-and-share-alike",
+                "id": 501,
+                "name": "Share and Share Alike",
+                "description": "Can you recover candies from each of the sisters?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 501,
+                    "name": "Share and Share Alike",
+                    "description": "Can you recover candies from each of the sisters?",
+                    "complete": "The Sisters are working together again! Now it's up to you to share their delicious candy with everyone!",
+                    "swf": "towns\/Mogloween\/quest-mogloween09-week4r3.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "greedlings,greed,moglinsters",
+                    "monsterGroupSwf": "mset-greed3.swf"
+                }
+            },
+            "related": []
+        },
+        "510-tricks-and-treats-09": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "510-tricks-and-treats-09",
+                "fullSlug": "quests\/510-tricks-and-treats-09",
+                "id": 510,
+                "name": "Tricks and Treats 09",
+                "description": "Give The Candy Up"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 510,
+                    "name": "Tricks and Treats 09",
+                    "description": "Give The Candy Up",
+                    "complete": "Give That candy away!",
+                    "swf": "towns\/mogloween\/quest-trickortreat_rc.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Mogloween",
+                    "monsterGroupSwf": "mset-mogloween2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

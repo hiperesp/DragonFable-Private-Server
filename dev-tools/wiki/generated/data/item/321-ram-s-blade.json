@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "321-ram-s-blade",
+        "fullSlug": "items\/321-ram-s-blade",
+        "id": 321,
+        "name": "Ram's Blade",
+        "description": "Powerful and large, this sword packs a punch."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 321,
+            "name": "Ram's Blade",
+            "description": "Powerful and large, this sword packs a punch.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 11,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-goattounge.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 32,
+            "damageMax": 32,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-forest-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "19-forest-cave",
+                "fullSlug": "quests\/19-forest-cave",
+                "id": 19,
+                "name": "Forest Cave",
+                "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 19,
+                    "name": "Forest Cave",
+                    "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "complete": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "swf": "random\/random-normalcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

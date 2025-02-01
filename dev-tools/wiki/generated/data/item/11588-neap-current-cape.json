@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11588-neap-current-cape",
+        "fullSlug": "items\/11588-neap-current-cape",
+        "id": 11588,
+        "name": "Neap Current Cape",
+        "description": "Forged in the shadow of the Ocean Gate! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11588,
+            "name": "Neap Current Cape",
+            "description": "Forged in the shadow of the Ocean Gate! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-riptide.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Energy,10,Fire,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "1135-dive-in": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1135-dive-in",
+                "fullSlug": "quests\/1135-dive-in",
+                "id": 1135,
+                "name": "Dive In",
+                "description": "Dive into the water and seek out the Ocean Gate. The mysteries here at the sea floor are deep and unfathomable."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1135,
+                    "name": "Dive In",
+                    "description": "Dive into the water and seek out the Ocean Gate. The mysteries here at the sea floor are deep and unfathomable.",
+                    "complete": "In the depths of the ocean, the gate was waiting for you. Now it is time to move on, and visit the last gate.",
+                    "swf": "towns\\StoneheartFall\\quest9-DiveIn-r4.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-underthesea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

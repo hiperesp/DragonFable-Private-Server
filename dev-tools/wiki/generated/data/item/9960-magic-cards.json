@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9960-magic-cards",
+        "fullSlug": "items\/9960-magic-cards",
+        "id": 9960,
+        "name": "Magic Cards",
+        "description": "Which will suit you?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9960,
+            "name": "Magic Cards",
+            "description": "Which will suit you?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 1,
+            "level": 52,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-magic-cards.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 5,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,7,Stone,5"
+        }
+    },
+    "related": {
+        "344-floating-cards": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "344-floating-cards",
+                "fullSlug": "item-shops\/344-floating-cards",
+                "id": 344,
+                "name": "Floating Cards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 344,
+                    "name": "Floating Cards",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

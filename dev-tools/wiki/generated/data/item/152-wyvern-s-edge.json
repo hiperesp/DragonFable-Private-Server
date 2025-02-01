@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "152-wyvern-s-edge",
+        "fullSlug": "items\/152-wyvern-s-edge",
+        "id": 152,
+        "name": "Wyvern's Edge",
+        "description": "A wyvern's wing has been magically hardened and placed upon this axe to make it a wily weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 152,
+            "name": "Wyvern's Edge",
+            "description": "A wyvern's wing has been magically hardened and placed upon this axe to make it a wily weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 6,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-dragon.swf",
+            "icon": "axe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 13,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "12-creepy-undead-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "12-creepy-undead-forest",
+                "fullSlug": "quests\/12-creepy-undead-forest",
+                "id": 12,
+                "name": "Creepy Undead Forest",
+                "description": "A forest that has been overtaken by the vile undead."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 12,
+                    "name": "Creepy Undead Forest",
+                    "description": "A forest that has been overtaken by the vile undead.",
+                    "complete": "A forest that has been overtaken by the vile undead.",
+                    "swf": "random\/random-creepy.swf",
+                    "swfX": "none",
+                    "maxSilver": 10,
+                    "maxGold": 300,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Undead",
+                    "monsterGroupSwf": "mset-creepyundead.swf"
+                }
+            },
+            "related": []
+        },
+        "390-creepy-undead-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "390-creepy-undead-forest",
+                "fullSlug": "quests\/390-creepy-undead-forest",
+                "id": 390,
+                "name": "Creepy Undead Forest",
+                "description": "A forest that has been overtaken by the vile undead."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 390,
+                    "name": "Creepy Undead Forest",
+                    "description": "A forest that has been overtaken by the vile undead.",
+                    "complete": "A forest that has been overtaken by the vile undead.",
+                    "swf": "towns\/Ash\/random-creepy.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Undead",
+                    "monsterGroupSwf": "mset-creepyundead.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

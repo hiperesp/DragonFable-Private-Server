@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21786-the-dreadblight-iii",
+        "fullSlug": "items\/21786-the-dreadblight-iii",
+        "id": 21786,
+        "name": "The Dreadblight III",
+        "description": "This cursed blade was once kept safe by the Ice Elves... until it was stolen by a knight who would stop at nothing to save his people."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21786,
+            "name": "The Dreadblight III",
+            "description": "This cursed blade was once kept safe by the Ice Elves... until it was stolen by a knight who would stop at nothing to save his people.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 90,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-dreadblight.swf",
+            "icon": "scythe",
+            "strength": 18,
+            "dexterity": 18,
+            "intelligence": 18,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 18,
+            "wisdom": 18,
+            "damageMin": 97,
+            "damageMax": 97,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "All,10,Health,-18"
+        }
+    },
+    "related": {
+        "410-dreadblight": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "410-dreadblight",
+                "fullSlug": "merge-shops\/410-dreadblight",
+                "id": 410,
+                "name": "Dreadblight",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 410,
+                    "name": "Dreadblight"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4235,
+                    "mergeShopId": 410,
+                    "mergeId": 4277
+                },
+                "merge": {
+                    "id": 4277,
+                    "itemId1": 21789,
+                    "amount1": 1,
+                    "itemId2": 21790,
+                    "amount2": 1,
+                    "itemId": 21786,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21587-drahaj-ix",
+        "fullSlug": "items\/21587-drahaj-ix",
+        "id": 21587,
+        "name": "Drahaj IX",
+        "description": "A plush dragon, made for you by your dragon, with the help of the people of Falconreach! Perfect for hugging, squishing, and destroying your foes. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21587,
+            "name": "Drahaj IX",
+            "description": "A plush dragon, made for you by your dragon, with the help of the people of Falconreach! Perfect for hugging, squishing, and destroying your foes. This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 90,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-drahaj.swf",
+            "icon": "scythe",
+            "strength": 18,
+            "dexterity": 18,
+            "intelligence": 18,
+            "luck": 20,
+            "charisma": 20,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 190,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Health,-10,Good,10,Evil,10,Marketability,-1"
+        }
+    },
+    "related": {
+        "2055-a-dragon-s-day-out": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2055-a-dragon-s-day-out",
+                "fullSlug": "quests\/2055-a-dragon-s-day-out",
+                "id": 2055,
+                "name": "A Dragon's Day Out",
+                "description": "What exactly does your dragon get up to when you're not around...?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2055,
+                    "name": "A Dragon's Day Out",
+                    "description": "What exactly does your dragon get up to when you're not around...?",
+                    "complete": "A partnership of hero and dragon, a legend for the ages!",
+                    "swf": "towns\/3Sunbreeze\/quest-dragonday.swf",
+                    "swfX": "towns\/3Sunbreeze\/quest-dragonday-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Oddtog and animals",
+                    "monsterGroupSwf": "mset-oddtog.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

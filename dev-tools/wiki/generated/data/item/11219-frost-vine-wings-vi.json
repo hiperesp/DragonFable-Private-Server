@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11219-frost-vine-wings-vi",
+        "fullSlug": "items\/11219-frost-vine-wings-vi",
+        "id": 11219,
+        "name": "Frost Vine Wings VI",
+        "description": "A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11219,
+            "name": "Frost Vine Wings VI",
+            "description": "A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 45,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-frostvinewings.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Wind,10,Ice,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "390-frostval-13-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "390-frostval-13-dc",
+                "fullSlug": "item-shops\/390-frostval-13-dc",
+                "id": 390,
+                "name": "Frostval 13 DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 390,
+                    "name": "Frostval 13 DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

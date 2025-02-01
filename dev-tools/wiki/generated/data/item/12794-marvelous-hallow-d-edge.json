@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12794-marvelous-hallow-d-edge",
+        "fullSlug": "items\/12794-marvelous-hallow-d-edge",
+        "id": 12794,
+        "name": "Marvelous Hallow'd Edge",
+        "description": "This item requires a Dragon Amulet. This powerful light sword was made for you by the Cauldron Sisters for your help in saving the first Mogloween. This pumpkin carves your enemies. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12794,
+            "name": "Marvelous Hallow'd Edge",
+            "description": "This item requires a Dragon Amulet. This powerful light sword was made for you by the Cauldron Sisters for your help in saving the first Mogloween. This pumpkin carves your enemies. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-mogloween3.swf",
+            "icon": "sword",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 76,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,7,Light,7,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "224-hallow-d-50": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "224-hallow-d-50",
+                "fullSlug": "merge-shops\/224-hallow-d-50",
+                "id": 224,
+                "name": "Hallow'd 50",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 224,
+                    "name": "Hallow'd 50"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2579,
+                    "mergeShopId": 224,
+                    "mergeId": 2457
+                },
+                "merge": {
+                    "id": 2457,
+                    "itemId1": 12793,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12794,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "225-hallow-d-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "225-hallow-d-60",
+                "fullSlug": "merge-shops\/225-hallow-d-60",
+                "id": 225,
+                "name": "Hallow'd 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 225,
+                    "name": "Hallow'd 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2582,
+                    "mergeShopId": 225,
+                    "mergeId": 2458
+                },
+                "merge": {
+                    "id": 2458,
+                    "itemId1": 12794,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12795,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

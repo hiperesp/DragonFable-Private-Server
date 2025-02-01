@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7129-red-s-crimson-hood",
+        "fullSlug": "items\/7129-red-s-crimson-hood",
+        "id": 7129,
+        "name": "Red's Crimson Hood",
+        "description": "A cloth hood dyed blood red and trimmed with wolf fur. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7129,
+            "name": "Red's Crimson Hood",
+            "description": "A cloth hood dyed blood red and trimmed with wolf fur. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3400,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 54,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-redridinghood.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Water,6,Nature,4,Wind,4"
+        }
+    },
+    "related": {
+        "918-red-riding-hood": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "918-red-riding-hood",
+                "fullSlug": "quests\/918-red-riding-hood",
+                "id": 918,
+                "name": "Red Riding Hood",
+                "description": "There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 918,
+                    "name": "Red Riding Hood",
+                    "description": "There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods.",
+                    "complete": "Wow, Red was mad. I mean really mad. Perhaps I should send a basket of goodies. It might be too early though. Perhaps I should wait a week or so.",
+                    "swf": "quests\/quest-redridinghood.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "woods",
+                    "monsterGroupSwf": "mset-redridinghood.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

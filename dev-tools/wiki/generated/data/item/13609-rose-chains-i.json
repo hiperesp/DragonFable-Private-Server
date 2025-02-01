@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13609-rose-chains-i",
+        "fullSlug": "items\/13609-rose-chains-i",
+        "id": 13609,
+        "name": "Rose Chains I",
+        "description": "Erm...should you really be wearing this since they...you know... Well, maybe since they aren't actually touching you it's ok?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13609,
+            "name": "Rose Chains I",
+            "description": "Erm...should you really be wearing this since they...you know... Well, maybe since they aren't actually touching you it's ok?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 18,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/RoseCape1.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Wind,1"
+        }
+    },
+    "related": {
+        "1248-homecoming-hurts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1248-homecoming-hurts",
+                "fullSlug": "quests\/1248-homecoming-hurts",
+                "id": 1248,
+                "name": "Homecoming Hurts",
+                "description": "Leon with his knights are readying themselves to storm the place where Kara is being held captive."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1248,
+                    "name": "Homecoming Hurts",
+                    "description": "Leon with his knights are readying themselves to storm the place where Kara is being held captive.",
+                    "complete": "Kara has been freed!",
+                    "swf": "towns\/SulenEska\/quest19-homecoming.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Kara and the Rose",
+                    "monsterGroupSwf": "mset-kara-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

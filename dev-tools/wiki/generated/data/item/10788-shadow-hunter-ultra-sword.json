@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10788-shadow-hunter-ultra-sword",
+        "fullSlug": "items\/10788-shadow-hunter-ultra-sword",
+        "id": 10788,
+        "name": "Shadow Hunter Ultra Sword",
+        "description": "This massive blade was once forged for new Shadow Hunters to carry on their quests! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10788,
+            "name": "Shadow Hunter Ultra Sword",
+            "description": "This massive blade was once forged for new Shadow Hunters to carry on their quests! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 70,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-shadowhunter-ultra-sword.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 4,
+            "charisma": 8,
+            "endurance": 2,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Darkness,8,Light,2,Evil,3,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "155-shadowhunter-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "155-shadowhunter-70",
+                "fullSlug": "merge-shops\/155-shadowhunter-70",
+                "id": 155,
+                "name": "ShadowHunter 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 155,
+                    "name": "ShadowHunter 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2127,
+                    "mergeShopId": 155,
+                    "mergeId": 1973
+                },
+                "merge": {
+                    "id": 1973,
+                    "itemId1": 10787,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10788,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "156-shadowhunter-73": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "156-shadowhunter-73",
+                "fullSlug": "merge-shops\/156-shadowhunter-73",
+                "id": 156,
+                "name": "ShadowHunter 73",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 156,
+                    "name": "ShadowHunter 73"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2128,
+                    "mergeShopId": 156,
+                    "mergeId": 1974
+                },
+                "merge": {
+                    "id": 1974,
+                    "itemId1": 10788,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10789,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13943-guardian-cloak",
+        "fullSlug": "items\/13943-guardian-cloak",
+        "id": 13943,
+        "name": "Guardian Cloak",
+        "description": "The cloak of a high ranking Guardian. Wear it well as it shows how dedicated you are in protecting the innocent."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13943,
+            "name": "Guardian Cloak",
+            "description": "The cloak of a high ranking Guardian. Wear it well as it shows how dedicated you are in protecting the innocent.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 20,
+            "level": 50,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-GuardianCloak.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Light,5,Immobility,2"
+        }
+    },
+    "related": {
+        "442-guardian-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "442-guardian-items",
+                "fullSlug": "item-shops\/442-guardian-items",
+                "id": 442,
+                "name": "Guardian Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 442,
+                    "name": "Guardian Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20990-dragon-amulet-cleaver-of-the-elements-i",
+        "fullSlug": "items\/20990-dragon-amulet-cleaver-of-the-elements-i",
+        "id": 20990,
+        "name": "Dragon Amulet Cleaver of the Elements I",
+        "description": "A golden axe of ancient design, harnessing the power of the elements. Visit the Black Market Moglin to upgrade this weapon. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20990,
+            "name": "Dragon Amulet Cleaver of the Elements I",
+            "description": "A golden axe of ancient design, harnessing the power of the elements. Visit the Black Market Moglin to upgrade this weapon. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 10,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-dragonaxeelemental.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 30,
+            "damageMax": 36,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Light,4,Energy,4,Immobility,1,Health,-1"
+        }
+    },
+    "related": {
+        "751-dragon-cleavers": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "751-dragon-cleavers",
+                "fullSlug": "item-shops\/751-dragon-cleavers",
+                "id": 751,
+                "name": "Dragon Cleavers",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 751,
+                    "name": "Dragon Cleavers",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "369-dragon-cleavers": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "369-dragon-cleavers",
+                "fullSlug": "merge-shops\/369-dragon-cleavers",
+                "id": 369,
+                "name": "Dragon Cleavers",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 369,
+                    "name": "Dragon Cleavers"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3848,
+                    "mergeShopId": 369,
+                    "mergeId": 3977
+                },
+                "merge": {
+                    "id": 3977,
+                    "itemId1": 20998,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20990,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

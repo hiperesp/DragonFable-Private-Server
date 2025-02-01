@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2265-heart-attack-bat",
+        "fullSlug": "items\/2265-heart-attack-bat",
+        "id": 2265,
+        "name": "Heart Attack Bat",
+        "description": "A rare species of vampiric bat, this deadly hunter gets to the heart of the matter."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2265,
+            "name": "Heart Attack Bat",
+            "description": "A rare species of vampiric bat, this deadly hunter gets to the heart of the matter.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 9,
+            "level": 22,
+            "element": "Metal",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-lovebat.swf",
+            "icon": "pet",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 10,
+            "damageMax": 16,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 817,
+                    "mergeShopId": 53,
+                    "mergeId": 519
+                },
+                "merge": {
+                    "id": 519,
+                    "itemId1": 707,
+                    "amount1": 13,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 2265,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

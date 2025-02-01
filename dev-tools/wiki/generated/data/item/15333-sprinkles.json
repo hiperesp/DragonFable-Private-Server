@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15333-sprinkles",
+        "fullSlug": "items\/15333-sprinkles",
+        "id": 15333,
+        "name": "Sprinkles",
+        "description": "This Twig-animated ice cream snowball has glommed onto you... you just can't bring yourself to take it out. This pet requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15333,
+            "name": "Sprinkles",
+            "description": "This Twig-animated ice cream snowball has glommed onto you... you just can't bring yourself to take it out. This pet requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 1,
+            "level": 80,
+            "element": "Ice",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-whippedcream.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 23,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "243-fish-heads": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "243-fish-heads",
+                "fullSlug": "merge-shops\/243-fish-heads",
+                "id": 243,
+                "name": "Fish Heads",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 243,
+                    "name": "Fish Heads"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2691,
+                    "mergeShopId": 243,
+                    "mergeId": 2738
+                },
+                "merge": {
+                    "id": 2738,
+                    "itemId1": 15219,
+                    "amount1": 10,
+                    "itemId2": 15332,
+                    "amount2": 1,
+                    "itemId": 15333,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

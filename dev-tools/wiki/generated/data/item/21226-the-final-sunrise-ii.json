@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21226-the-final-sunrise-ii",
+        "fullSlug": "items\/21226-the-final-sunrise-ii",
+        "id": 21226,
+        "name": "The Final Sunrise II",
+        "description": "The sole treasure of an ancient long-forgotten dragon. With it in your hands, dawn shall break upon all of Lore."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21226,
+            "name": "The Final Sunrise II",
+            "description": "The sole treasure of an ancient long-forgotten dragon. With it in your hands, dawn shall break upon all of Lore.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-finalsunrise.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 66,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,3,Health,-5"
+        }
+    },
+    "related": {
+        "2009-the-forgotten-dragon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2009-the-forgotten-dragon",
+                "fullSlug": "quests\/2009-the-forgotten-dragon",
+                "id": 2009,
+                "name": "The Forgotten Dragon",
+                "description": "In a deep cave, far from prying eyes, waits a slumbering dragon, slowly gathering energy over the years. Until you woke it up. Good job, hero."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2009,
+                    "name": "The Forgotten Dragon",
+                    "description": "In a deep cave, far from prying eyes, waits a slumbering dragon, slowly gathering energy over the years. Until you woke it up. Good job, hero.",
+                    "complete": "After its defeat, the dragon retreats further into the cave. Might be best to let it go for now.",
+                    "swf": "towns\/3Sandsea\/quest-dragon.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Sandsea Bk3",
+                    "monsterGroupSwf": "mset-sandseaexplorebk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

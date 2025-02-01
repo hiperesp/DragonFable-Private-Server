@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20395-dragonlord-s-travel-cloak-ii",
+        "fullSlug": "items\/20395-dragonlord-s-travel-cloak-ii",
+        "id": 20395,
+        "name": "DragonLord's Travel Cloak II",
+        "description": "A well made travel cloak made specially for DragonLords! This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20395,
+            "name": "DragonLord's Travel Cloak II",
+            "description": "A well made travel cloak made specially for DragonLords! This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 60000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 70,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-dragonsgrasp.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 3,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,6,Health,-2"
+        }
+    },
+    "related": {
+        "712-dragonsgrasp-armory": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "712-dragonsgrasp-armory",
+                "fullSlug": "item-shops\/712-dragonsgrasp-armory",
+                "id": 712,
+                "name": "Dragonsgrasp Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 712,
+                    "name": "Dragonsgrasp Armory",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

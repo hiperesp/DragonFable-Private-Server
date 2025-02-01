@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7061-crystalline-necklace",
+        "fullSlug": "items\/7061-crystalline-necklace",
+        "id": 7061,
+        "name": "Crystalline Necklace",
+        "description": "Made of crystallized mana fragments, power flows through this necklace. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7061,
+            "name": "Crystalline Necklace",
+            "description": "Made of crystallized mana fragments, power flows through this necklace. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 72,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,5,Immobility,2"
+        }
+    },
+    "related": {
+        "916-dreamscape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "916-dreamscape",
+                "fullSlug": "quests\/916-dreamscape",
+                "id": 916,
+                "name": "Dreamscape",
+                "description": "Help protect The Professor inside the clashing dreamscapes!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 916,
+                    "name": "Dreamscape",
+                    "description": "Help protect The Professor inside the clashing dreamscapes!",
+                    "complete": "",
+                    "swf": "towns\/Atrea\/quest7-dreamscaper3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire, mana, science",
+                    "monsterGroupSwf": "mset-dreamscape.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

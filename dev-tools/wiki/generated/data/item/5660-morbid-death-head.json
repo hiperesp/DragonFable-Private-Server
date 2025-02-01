@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5660-morbid-death-head",
+        "fullSlug": "items\/5660-morbid-death-head",
+        "id": 5660,
+        "name": "Morbid Death head",
+        "description": "Scavenged from Sepulchure's minions this Death Head is infused with darkness! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5660,
+            "name": "Morbid Death head",
+            "description": "Scavenged from Sepulchure's minions this Death Head is infused with darkness! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4500,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 58,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-deathhead.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": -2,
+            "endurance": 9,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Darkness,9,Light,9,Ice,5,Fire,5,Health,-2"
+        }
+    },
+    "related": {
+        "794-sepulchure-s-fortress": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "794-sepulchure-s-fortress",
+                "fullSlug": "quests\/794-sepulchure-s-fortress",
+                "id": 794,
+                "name": "Sepulchure's Fortress",
+                "description": "Can you make it to the top of the tower in time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 794,
+                    "name": "Sepulchure's Fortress",
+                    "description": "Can you make it to the top of the tower in time?",
+                    "complete": "Can you make it to the top of the tower in time?",
+                    "swf": "towns\/Chap1Finale\/quest-finale7-Seppy-Fortress-lower.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "seppys minions",
+                    "monsterGroupSwf": "mset-finale7-lowerfortress.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

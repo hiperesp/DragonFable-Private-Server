@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14582-ranger-blade",
+        "fullSlug": "items\/14582-ranger-blade",
+        "id": 14582,
+        "name": "Ranger Blade",
+        "description": "A trusty blade used by a Ranger to get out of any situation. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14582,
+            "name": "Ranger Blade",
+            "description": "A trusty blade used by a Ranger to get out of any situation. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 60,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-RangerBlade.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 69,
+            "damageMax": 81,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Stone,7,Water,7,Mana,-4"
+        }
+    },
+    "related": {
+        "462-ranger-cache": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "462-ranger-cache",
+                "fullSlug": "item-shops\/462-ranger-cache",
+                "id": 462,
+                "name": "Ranger Cache",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 462,
+                    "name": "Ranger Cache",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

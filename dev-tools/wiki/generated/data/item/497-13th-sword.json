@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "497-13th-sword",
+        "fullSlug": "items\/497-13th-sword",
+        "id": 497,
+        "name": "13th Sword",
+        "description": "This sword once belonged to the great and terrible warrior Jaysun. It was said long ago that anyone who holds his power would be impossible to kill."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 497,
+            "name": "13th Sword",
+            "description": "This sword once belonged to the great and terrible warrior Jaysun. It was said long ago that anyone who holds his power would be impossible to kill.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 10,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-friday13.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 21,
+            "damageMax": 35,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "360-the-stakeout": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "360-the-stakeout",
+                "fullSlug": "quests\/360-the-stakeout",
+                "id": 360,
+                "name": "The Stakeout",
+                "description": "Big Daddy wants you to find out who or what is causing all of his valuable customers to run away from the Forest of Infinite Terror in terror."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 360,
+                    "name": "The Stakeout",
+                    "description": "Big Daddy wants you to find out who or what is causing all of his valuable customers to run away from the Forest of Infinite Terror in terror.",
+                    "complete": "Lord Frydae XIII plans to ruin Big Daddy and Hero's Heart Day! That would be... well... I guess that wouldn't be too bad. It's not like it's Frostval or anything.",
+                    "swf": "towns\/heroheart\/quest-HHchain4.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness, Energy",
+                    "monsterGroupSwf": "mset-vampirewar.swf"
+                }
+            },
+            "related": []
+        },
+        "380-unlucky-waves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "380-unlucky-waves",
+                "fullSlug": "quests\/380-unlucky-waves",
+                "id": 380,
+                "name": "Unlucky Waves",
+                "description": "The undead have Falconreach surrounded!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 380,
+                    "name": "Unlucky Waves",
+                    "description": "The undead have Falconreach surrounded!",
+                    "complete": "One wave down!",
+                    "swf": "wars\/quest-Fri13Mar09wavesr3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "undead",
+                    "monsterGroupSwf": "mset-friday13mar09.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

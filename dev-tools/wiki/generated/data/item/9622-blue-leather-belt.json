@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9622-blue-leather-belt",
+        "fullSlug": "items\/9622-blue-leather-belt",
+        "id": 9622,
+        "name": "Blue Leather Belt",
+        "description": "A worn piece of blue leather with a rose shaped buckle."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9622,
+            "name": "Blue Leather Belt",
+            "description": "A worn piece of blue leather with a rose shaped buckle.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 45,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Bacon,5,Immobility,3"
+        }
+    },
+    "related": {
+        "1044-the-border-prison": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1044-the-border-prison",
+                "fullSlug": "quests\/1044-the-border-prison",
+                "id": 1044,
+                "name": "The Border Prison",
+                "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1044,
+                    "name": "The Border Prison",
+                    "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance.",
+                    "complete": "You found Elanee and some other prisoners, but many clawkin are still missing, and Kara hasn't come out yet. Time to go back in!",
+                    "swf": "towns\/SulenEska\/quest5-rescue2020.swf",
+                    "swfX": "towns\/SulenEska\/quest5-rescue2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

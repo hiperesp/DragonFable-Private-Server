@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10892-nabulsi-helm",
+        "fullSlug": "items\/10892-nabulsi-helm",
+        "id": 10892,
+        "name": "Nabulsi Helm",
+        "description": "It's gouda for you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10892,
+            "name": "Nabulsi Helm",
+            "description": "It's gouda for you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 45,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cheesy.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 6,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,6,Wind,6,Bacon,3"
+        }
+    },
+    "related": {
+        "377-cheese-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "377-cheese-shop",
+                "fullSlug": "item-shops\/377-cheese-shop",
+                "id": 377,
+                "name": "Cheese Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 377,
+                    "name": "Cheese Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

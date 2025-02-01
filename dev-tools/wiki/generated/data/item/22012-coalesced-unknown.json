@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22012-coalesced-unknown",
+        "fullSlug": "items\/22012-coalesced-unknown",
+        "id": 22012,
+        "name": "Coalesced Unknown",
+        "description": "Inside this vial is a portion of the Mana Core's power. While certain researchers would do anything to get their hands on it... Used to further upgrade Hawkscry's Legacy."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22012,
+            "name": "Coalesced Unknown",
+            "description": "Inside this vial is a portion of the Mana Core's power. While certain researchers would do anything to get their hands on it... Used to further upgrade Hawkscry's Legacy.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Fear",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "421-yeden-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "421-yeden-upgrades",
+                "fullSlug": "merge-shops\/421-yeden-upgrades",
+                "id": 421,
+                "name": "Yeden Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 421,
+                    "name": "Yeden Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4344,
+                    "mergeShopId": 421,
+                    "mergeId": 4392
+                },
+                "merge": {
+                    "id": 4392,
+                    "itemId1": 21876,
+                    "amount1": 1,
+                    "itemId2": 22012,
+                    "amount2": 1,
+                    "itemId": 22010,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

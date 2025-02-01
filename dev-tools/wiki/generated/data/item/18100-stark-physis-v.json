@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18100-stark-physis-v",
+        "fullSlug": "items\/18100-stark-physis-v",
+        "id": 18100,
+        "name": "Stark Physis V",
+        "description": "An ancient relic of the Ostveld coast. Found deep within a magic influenced coastal forest, it seems to be connected deeply to that area. Its craftsmanship is indecipherable."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18100,
+            "name": "Stark Physis V",
+            "description": "An ancient relic of the Ostveld coast. Found deep within a magic influenced coastal forest, it seems to be connected deeply to that area. Its craftsmanship is indecipherable.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 55,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-starkphysis.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 66,
+            "damageMax": 80,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Metal,4,Darkness,4"
+        }
+    },
+    "related": {
+        "1516-verdant-glade": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1516-verdant-glade",
+                "fullSlug": "quests\/1516-verdant-glade",
+                "id": 1516,
+                "name": "Verdant Glade",
+                "description": "This beautiful place hides forgotten treasures... and creatures!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1516,
+                    "name": "Verdant Glade",
+                    "description": "This beautiful place hides forgotten treasures... and creatures!",
+                    "complete": "They were coming right for you...",
+                    "swf": "towns\/3Ocean\/random-dryad.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "dryad and her pets",
+                    "monsterGroupSwf": "mset-dryad.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

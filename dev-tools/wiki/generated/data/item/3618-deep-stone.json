@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3618-deep-stone",
+        "fullSlug": "items\/3618-deep-stone",
+        "id": 3618,
+        "name": "Deep Stone",
+        "description": "The giant gem that hangs from this necklace seems to absorb light."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3618,
+            "name": "Deep Stone",
+            "description": "The giant gem that hangs from this necklace seems to absorb light.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 38,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Water,3"
+        }
+    },
+    "related": {
+        "577-as-you-lie-dreaming": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "577-as-you-lie-dreaming",
+                "fullSlug": "quests\/577-as-you-lie-dreaming",
+                "id": 577,
+                "name": "As You Lie Dreaming...",
+                "description": "What is going on?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 577,
+                    "name": "As You Lie Dreaming...",
+                    "description": "What is going on?!",
+                    "complete": "Whoa... that was some nightmare... from now on, less sushi before bedtime!",
+                    "swf": "towns\/TheLocker\/quest-dreamingechoes-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-kathooladept.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

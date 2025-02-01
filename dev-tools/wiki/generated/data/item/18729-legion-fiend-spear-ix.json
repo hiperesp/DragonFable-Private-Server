@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18729-legion-fiend-spear-ix",
+        "fullSlug": "items\/18729-legion-fiend-spear-ix",
+        "id": 18729,
+        "name": "Legion Fiend Spear IX",
+        "description": "A special spear forged for Dage's birthday!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18729,
+            "name": "Legion Fiend Spear IX",
+            "description": "A special spear forged for Dage's birthday!",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-dagespear.swf",
+            "icon": "scythe",
+            "strength": 19,
+            "dexterity": 19,
+            "intelligence": 19,
+            "luck": 13,
+            "charisma": 13,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 96,
+            "damageMax": 96,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 15,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "Darkness,10,Light,10,Health,-5"
+        }
+    },
+    "related": {
+        "623-dage-s-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "623-dage-s-birthday",
+                "fullSlug": "item-shops\/623-dage-s-birthday",
+                "id": 623,
+                "name": "Dage's Birthday!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 623,
+                    "name": "Dage's Birthday!",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "701-march-dc-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "701-march-dc-store",
+                "fullSlug": "item-shops\/701-march-dc-store",
+                "id": 701,
+                "name": "March DC Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 701,
+                    "name": "March DC Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

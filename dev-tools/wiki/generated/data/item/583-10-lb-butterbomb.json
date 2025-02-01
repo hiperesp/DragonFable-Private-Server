@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "583-10-lb-butterbomb",
+        "fullSlug": "items\/583-10-lb-butterbomb",
+        "id": 583,
+        "name": "10 lb Butterbomb",
+        "description": "Butterbomb the battle turkey was trained by Dr. Voltabolt to be the worlds most deadly turkey and pilot. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 583,
+            "name": "10 lb Butterbomb",
+            "description": "Butterbomb the battle turkey was trained by Dr. Voltabolt to be the worlds most deadly turkey and pilot. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 10,
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Turkey.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 6,
+            "damageMax": 11,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "33-battle-turkey-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "33-battle-turkey-upgrade",
+                "fullSlug": "merge-shops\/33-battle-turkey-upgrade",
+                "id": 33,
+                "name": "Battle Turkey Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 33,
+                    "name": "Battle Turkey Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 521,
+                    "mergeShopId": 33,
+                    "mergeId": 312
+                },
+                "merge": {
+                    "id": 312,
+                    "itemId1": 583,
+                    "amount1": 1,
+                    "itemId2": 581,
+                    "amount2": 10,
+                    "itemId": 584,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

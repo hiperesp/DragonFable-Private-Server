@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3832-shiny-frostgoblin-helm",
+        "fullSlug": "items\/3832-shiny-frostgoblin-helm",
+        "id": 3832,
+        "name": "Shiny Frostgoblin Helm",
+        "description": "This helm is perfect for summer months. It really keeps you cool! (If a bit less attractive...)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3832,
+            "name": "Shiny Frostgoblin Helm",
+            "description": "This helm is perfect for summer months. It really keeps you cool! (If a bit less attractive...)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1250,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 40,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-frostgoblin.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Fire,6,Wind,6,Stone,6"
+        }
+    },
+    "related": {
+        "140-zoo-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "140-zoo-shop",
+                "fullSlug": "item-shops\/140-zoo-shop",
+                "id": 140,
+                "name": "Zoo Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 140,
+                    "name": "Zoo Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

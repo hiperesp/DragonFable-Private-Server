@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13459-cloak-of-shadows",
+        "fullSlug": "items\/13459-cloak-of-shadows",
+        "id": 13459,
+        "name": "Cloak of Shadows",
+        "description": "The shadows surround you! You may not be able to see them but they're there, trust me!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13459,
+            "name": "Cloak of Shadows",
+            "description": "The shadows surround you! You may not be able to see them but they're there, trust me!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 41,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-invisible.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,4,Stone,4,Immobility,1"
+        }
+    },
+    "related": {
+        "427-ninja-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "427-ninja-items",
+                "fullSlug": "item-shops\/427-ninja-items",
+                "id": 427,
+                "name": "Ninja Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 427,
+                    "name": "Ninja Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

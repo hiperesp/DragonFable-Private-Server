@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10046-the-magister",
+        "fullSlug": "items\/10046-the-magister",
+        "id": 10046,
+        "name": "The Magister",
+        "description": "In an ancient language, magister means master.  This sword is a master work from the long lived weaponsmith, Letalis. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10046,
+            "name": "The Magister",
+            "description": "In an ancient language, magister means master.  This sword is a master work from the long lived weaponsmith, Letalis. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 25000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-ericBD.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 1,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,5,Darkness,3,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "349-magister-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "349-magister-shop",
+                "fullSlug": "item-shops\/349-magister-shop",
+                "id": 349,
+                "name": "Magister Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 349,
+                    "name": "Magister Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

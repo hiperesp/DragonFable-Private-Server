@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6390-frost-dragon-head-blade-vii",
+        "fullSlug": "items\/6390-frost-dragon-head-blade-vii",
+        "id": 6390,
+        "name": "Frost Dragon Head Blade VII",
+        "description": "This magical sword was crafted for you by the moglins of Frostvale. It was infused with moglin healing magic, which gives it a small chance to heal 5% of your life upon a successful hit. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6390,
+            "name": "Frost Dragon Head Blade VII",
+            "description": "This magical sword was crafted for you by the moglins of Frostvale. It was infused with moglin healing magic, which gives it a small chance to heal 5% of your life upon a successful hit. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-frostdragon-new.swf",
+            "icon": "sword",
+            "strength": 7,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 6,
+            "damageMin": 77,
+            "damageMax": 81,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "102-frost-dragon-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "102-frost-dragon-weapons",
+                "fullSlug": "merge-shops\/102-frost-dragon-weapons",
+                "id": 102,
+                "name": "Frost Dragon Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 102,
+                    "name": "Frost Dragon Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1405,
+                    "mergeShopId": 102,
+                    "mergeId": 2537
+                },
+                "merge": {
+                    "id": 2537,
+                    "itemId1": 6390,
+                    "amount1": 1,
+                    "itemId2": 6383,
+                    "amount2": 1,
+                    "itemId": 13122,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

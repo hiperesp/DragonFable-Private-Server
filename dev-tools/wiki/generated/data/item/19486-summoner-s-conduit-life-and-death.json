@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19486-summoner-s-conduit-life-and-death",
+        "fullSlug": "items\/19486-summoner-s-conduit-life-and-death",
+        "id": 19486,
+        "name": "Summoner's Conduit: Life and Death",
+        "description": "This sticky residue glows warmly when held. Perhaps it will interact with certain Summon Gems. Proof of victory over Ayauhnqui and Reaver!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19486,
+            "name": "Summoner's Conduit: Life and Death",
+            "description": "This sticky residue glows warmly when held. Perhaps it will interact with certain Summon Gems. Proof of victory over Ayauhnqui and Reaver!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1690-summon-gems-life-death": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1690-summon-gems-life-death",
+                "fullSlug": "quests\/1690-summon-gems-life-death",
+                "id": 1690,
+                "name": "Summon Gems: Life & Death",
+                "description": "Life and death, giving and taking, push and pull."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1690,
+                    "name": "Summon Gems: Life & Death",
+                    "description": "Life and death, giving and taking, push and pull.",
+                    "complete": "Summoning and banishment.",
+                    "swf": "towns\/TimeArena\/quest-reaveraya.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Ayauhnqui & Reaver",
+                    "monsterGroupSwf": "mset-ArenaConduitAyaRea-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "318-the-conduit-life-death": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "318-the-conduit-life-death",
+                "fullSlug": "merge-shops\/318-the-conduit-life-death",
+                "id": 318,
+                "name": "The Conduit: Life & Death",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 318,
+                    "name": "The Conduit: Life & Death"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3393,
+                    "mergeShopId": 318,
+                    "mergeId": 3486
+                },
+                "merge": {
+                    "id": 3486,
+                    "itemId1": 19485,
+                    "amount1": 1,
+                    "itemId2": 19486,
+                    "amount2": 1,
+                    "itemId": 19483,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

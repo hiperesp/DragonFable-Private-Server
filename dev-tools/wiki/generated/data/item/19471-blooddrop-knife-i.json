@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19471-blooddrop-knife-i",
+        "fullSlug": "items\/19471-blooddrop-knife-i",
+        "id": 19471,
+        "name": "Blooddrop Knife I",
+        "description": "A dagger crafted by Big Daddy from a massive drop of sea monster blood. How did Big Daddy manage that trick?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19471,
+            "name": "Blooddrop Knife I",
+            "description": "A dagger crafted by Big Daddy from a massive drop of sea monster blood. How did Big Daddy manage that trick?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 50,
+            "level": 10,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-monsterblood.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 21,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,1,Health,-1"
+        }
+    },
+    "related": {
+        "658-tmatt-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "658-tmatt-loot-for-dcs",
+                "fullSlug": "item-shops\/658-tmatt-loot-for-dcs",
+                "id": 658,
+                "name": "TMatT Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 658,
+                    "name": "TMatT Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

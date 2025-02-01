@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16098-illustrious-cape-iv",
+        "fullSlug": "items\/16098-illustrious-cape-iv",
+        "id": 16098,
+        "name": "Illustrious Cape IV",
+        "description": "A distinguished cape for a victor in the arena. It would stand out more, but every other vendor is selling a souvenir replica."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16098,
+            "name": "Illustrious Cape IV",
+            "description": "A distinguished cape for a victor in the arena. It would stand out more, but every other vendor is selling a souvenir replica.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1050,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-illustrious.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Light,3"
+        }
+    },
+    "related": {
+        "1375-tournament-of-champions": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1375-tournament-of-champions",
+                "fullSlug": "quests\/1375-tournament-of-champions",
+                "id": 1375,
+                "name": "Tournament of Champions",
+                "description": "Win the tournament and gain an audience with King Alteon!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1375,
+                    "name": "Tournament of Champions",
+                    "description": "Win the tournament and gain an audience with King Alteon!",
+                    "complete": "Fangblade awaits you. Are you ready?",
+                    "swf": "towns\/3swordhaven\/Board\/quest-tournament1redo.swf",
+                    "swfX": "towns\/3swordhaven\/Board\/quest-tournament1redo-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "champions part 1",
+                    "monsterGroupSwf": "mset-tournament1r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

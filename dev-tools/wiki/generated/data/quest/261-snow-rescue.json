@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "261-snow-rescue",
+        "fullSlug": "quests\/261-snow-rescue",
+        "id": 261,
+        "name": "Snow Rescue!",
+        "description": "Make your way to the igloo on the mainland and see if you can find the lost settlers!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 261,
+            "name": "Snow Rescue!",
+            "description": "Make your way to the igloo on the mainland and see if you can find the lost settlers!",
+            "complete": "That is one down but there are a lot of igloos left to check out! With some luck you can save more lost settlers before they are lost to the wild animals of the tundra!",
+            "swf": "towns\/Dragesvard\/quest-galanoth-random2.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 1,
+            "monsterMaxLevel": 99,
+            "monsterType": "ICE",
+            "monsterGroupSwf": "mset-frostval-boss.swf"
+        }
+    },
+    "related": {
+        "1773-ice-dragon-scale": {
+            "page": {
+                "slugBase": "items",
+                "slug": "1773-ice-dragon-scale",
+                "fullSlug": "items\/1773-ice-dragon-scale",
+                "id": 1773,
+                "name": "Ice Dragon Scale",
+                "description": "It goes up to thousands of pounds!"
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 1773,
+                    "name": "Ice Dragon Scale",
+                    "description": "It goes up to thousands of pounds!",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 250,
+                    "maxStackSize": 50,
+                    "bonus": 0,
+                    "rarity": 1,
+                    "level": 1,
+                    "type": "Melee",
+                    "element": "None",
+                    "categoryId": "4",
+                    "equipSpot": "Not Equipable",
+                    "itemType": "Resource",
+                    "swf": "",
+                    "icon": "",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": ""
+                }
+            },
+            "related": []
+        }
+    }
+}

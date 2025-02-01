@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6237-turducken-plume",
+        "fullSlug": "items\/6237-turducken-plume",
+        "id": 6237,
+        "name": "Turducken Plume",
+        "description": "You can now tickle your enemies into submission! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6237,
+            "name": "Turducken Plume",
+            "description": "You can now tickle your enemies into submission! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1300,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 4,
+            "level": 20,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-turkeyfeather.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 36,
+            "damageMax": 50,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,3,Fire,3,Darkness,3,Immobility,1"
+        }
+    },
+    "related": {
+        "839-a-whole-lotta-turducken": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "839-a-whole-lotta-turducken",
+                "fullSlug": "quests\/839-a-whole-lotta-turducken",
+                "id": 839,
+                "name": "A Whole Lotta Turducken",
+                "description": "That is too much turkey... duck... and chicken...."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 839,
+                    "name": "A Whole Lotta Turducken",
+                    "description": "That is too much turkey... duck... and chicken....",
+                    "complete": "That is too much turkey... duck... and chicken....",
+                    "swf": "towns\/Thankstaking\/tt11\/quest-thanksgiving11-titan-r6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 35,
+                    "monsterMaxLevel": 35,
+                    "monsterType": "turducken",
+                    "monsterGroupSwf": "mset-thanksgiving11-titan-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

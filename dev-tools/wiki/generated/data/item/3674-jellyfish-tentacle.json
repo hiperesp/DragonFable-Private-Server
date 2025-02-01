@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3674-jellyfish-tentacle",
+        "fullSlug": "items\/3674-jellyfish-tentacle",
+        "id": 3674,
+        "name": "Jellyfish Tentacle",
+        "description": "Rumor has it this belt was the height of fashion when water elves populated the sea... you don't understand why."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3674,
+            "name": "Jellyfish Tentacle",
+            "description": "Rumor has it this belt was the height of fashion when water elves populated the sea... you don't understand why.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 14,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,1"
+        }
+    },
+    "related": {
+        "580-rescue": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "580-rescue",
+                "fullSlug": "quests\/580-rescue",
+                "id": 580,
+                "name": "Rescue!",
+                "description": "That's it! No more poring through books and maps! You're an action hero... it's time for action!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 580,
+                    "name": "Rescue!",
+                    "description": "That's it! No more poring through books and maps! You're an action hero... it's time for action!",
+                    "complete": "You've saved Aquella but Davey has escaped!",
+                    "swf": "towns\/TheLocker\/quest-aquellarescue-r1.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-waterorb2r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

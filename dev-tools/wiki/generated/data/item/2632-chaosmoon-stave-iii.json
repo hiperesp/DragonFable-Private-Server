@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2632-chaosmoon-stave-iii",
+        "fullSlug": "items\/2632-chaosmoon-stave-iii",
+        "id": 2632,
+        "name": "ChaosMoon Stave III",
+        "description": "Forged by a Ghostly DragonLord, the blade of the ChaosMoon  is infused with the fire of the once mighty Akriloth."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2632,
+            "name": "ChaosMoon Stave III",
+            "description": "Forged by a Ghostly DragonLord, the blade of the ChaosMoon  is infused with the fire of the once mighty Akriloth.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 38,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-ChaosMoon.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 55,
+            "damageMax": 63,
+            "defenseMelee": 3,
+            "defensePierce": 1,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4"
+        }
+    },
+    "related": {
+        "462-the-mighty-akriloth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "462-the-mighty-akriloth",
+                "fullSlug": "quests\/462-the-mighty-akriloth",
+                "id": 462,
+                "name": "The Mighty Akriloth",
+                "description": "Mutated by the power of the Fire Orb, Akriloth is more powerful then ever. Can you take him down, even with the power of the Frozen Claymore?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 462,
+                    "name": "The Mighty Akriloth",
+                    "description": "Mutated by the power of the Fire Orb, Akriloth is more powerful then ever. Can you take him down, even with the power of the Frozen Claymore?",
+                    "complete": "Akriloth is defeated, but Yulgar needs our help to the East! Battleon!",
+                    "swf": "towns\/FireWar\/quest-firewar1bossfightr10.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "dragon",
+                    "monsterGroupSwf": "mset-hotrodakrilothr2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

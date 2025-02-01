@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15285-roly-poly-fishhead",
+        "fullSlug": "items\/15285-roly-poly-fishhead",
+        "id": 15285,
+        "name": "Roly Poly Fishhead",
+        "description": "Dooooon't wear this in front of Twig... Happy Twigsmas! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15285,
+            "name": "Roly Poly Fishhead",
+            "description": "Dooooon't wear this in front of Twig... Happy Twigsmas! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-fishmaster.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 15,
+            "dodge": 15,
+            "block": 15,
+            "resists": "Fire,11,Water,11,Ice,11,Immobility,5,Health,-3"
+        }
+    },
+    "related": {
+        "1333-jwealouswy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1333-jwealouswy",
+                "fullSlug": "quests\/1333-jwealouswy",
+                "id": 1333,
+                "name": "Jwealouswy",
+                "description": "Twig is gonna make da biggest, bestest, furriest, ice creamest, fishiest fwend EVER!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1333,
+                    "name": "Jwealouswy",
+                    "description": "Twig is gonna make da biggest, bestest, furriest, ice creamest, fishiest fwend EVER!",
+                    "complete": "*Gasp*! That was his best fwend!",
+                    "swf": "towns\/Frostvale\/F15\/quest-twigsmasboss-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Fishmaster. 0 norm, 1 titan, 2 static",
+                    "monsterGroupSwf": "mset-jwealouswy.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

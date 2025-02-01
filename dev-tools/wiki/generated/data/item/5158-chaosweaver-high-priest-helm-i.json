@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5158-chaosweaver-high-priest-helm-i",
+        "fullSlug": "items\/5158-chaosweaver-high-priest-helm-i",
+        "id": 5158,
+        "name": "ChaosWeaver High Priest Helm I",
+        "description": "This is only an imitation, as the REAL thing is rolling around Ravenloss somewhere.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5158,
+            "name": "ChaosWeaver High Priest Helm I",
+            "description": "This is only an imitation, as the REAL thing is rolling around Ravenloss somewhere.  ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 25,
+            "level": 15,
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-CWPriest.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,3,Darkness,3"
+        }
+    },
+    "related": {
+        "84-murk-s-pellow-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "84-murk-s-pellow-merch",
+                "fullSlug": "merge-shops\/84-murk-s-pellow-merch",
+                "id": 84,
+                "name": "Murk's Pellow Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 84,
+                    "name": "Murk's Pellow Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1160,
+                    "mergeShopId": 84,
+                    "mergeId": 959
+                },
+                "merge": {
+                    "id": 959,
+                    "itemId1": 3712,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 5158,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20094-frozen-spirit-sword-ii",
+        "fullSlug": "items\/20094-frozen-spirit-sword-ii",
+        "id": 20094,
+        "name": "Frozen Spirit Sword II",
+        "description": "This special blade was crafted by the frost moglins from a single large blue crystal. You managed to save it from the clutches of the coalepti in The Great Giftnapping war!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20094,
+            "name": "Frozen Spirit Sword II",
+            "description": "This special blade was crafted by the frost moglins from a single large blue crystal. You managed to save it from the clutches of the coalepti in The Great Giftnapping war!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 50,
+            "level": 20,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-gift2021.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 38,
+            "damageMax": 42,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,2,Ice,2"
+        }
+    },
+    "related": {
+        "340-dms-gift-exchange": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "340-dms-gift-exchange",
+                "fullSlug": "merge-shops\/340-dms-gift-exchange",
+                "id": 340,
+                "name": "DMs & Gift Exchange",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 340,
+                    "name": "DMs & Gift Exchange"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3545,
+                    "mergeShopId": 340,
+                    "mergeId": 3613
+                },
+                "merge": {
+                    "id": 3613,
+                    "itemId1": 20089,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20094,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

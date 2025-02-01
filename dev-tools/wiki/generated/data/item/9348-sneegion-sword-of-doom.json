@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9348-sneegion-sword-of-doom",
+        "fullSlug": "items\/9348-sneegion-sword-of-doom",
+        "id": 9348,
+        "name": "Sneegion Sword of DOOM",
+        "description": "The official sword of Dage the Sneevil's minions!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9348,
+            "name": "Sneegion Sword of DOOM",
+            "description": "The official sword of Dage the Sneevil's minions!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-sneegion.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 61,
+            "damageMax": 83,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,4,Light,3,All,2"
+        }
+    },
+    "related": {
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

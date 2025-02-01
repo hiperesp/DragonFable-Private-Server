@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18220-sun-god-scythe",
+        "fullSlug": "items\/18220-sun-god-scythe",
+        "id": 18220,
+        "name": "Sun God Scythe",
+        "description": "The power of the sun flows through this weapon to do extra damage to elementals! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18220,
+            "name": "Sun God Scythe",
+            "description": "The power of the sun flows through this weapon to do extra damage to elementals! ",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 25,
+            "level": 90,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-sungod-bmap.swf",
+            "icon": "scythe",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 12,
+            "damageMin": 83,
+            "damageMax": 107,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,10,All,4"
+        }
+    },
+    "related": {
+        "145-sun-god": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "145-sun-god",
+                "fullSlug": "merge-shops\/145-sun-god",
+                "id": 145,
+                "name": "Sun God",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 145,
+                    "name": "Sun God"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2084,
+                    "mergeShopId": 145,
+                    "mergeId": 3251
+                },
+                "merge": {
+                    "id": 3251,
+                    "itemId1": 10223,
+                    "amount1": 1,
+                    "itemId2": 10234,
+                    "amount2": 1,
+                    "itemId": 18220,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

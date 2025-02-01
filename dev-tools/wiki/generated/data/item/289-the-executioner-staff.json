@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "289-the-executioner-staff",
+        "fullSlug": "items\/289-the-executioner-staff",
+        "id": 289,
+        "name": "The Executioner Staff",
+        "description": "Grim and gruff, this staff can help you carry out the most difficult of tasks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 289,
+            "name": "The Executioner Staff",
+            "description": "Grim and gruff, this staff can help you carry out the most difficult of tasks.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 16,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-celestialbluelumpybluer1.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 24,
+            "damageMax": 54,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-forest-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "19-forest-cave",
+                "fullSlug": "quests\/19-forest-cave",
+                "id": 19,
+                "name": "Forest Cave",
+                "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 19,
+                    "name": "Forest Cave",
+                    "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "complete": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "swf": "random\/random-normalcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        },
+        "24-watery-exploration": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "24-watery-exploration",
+                "fullSlug": "quests\/24-watery-exploration",
+                "id": 24,
+                "name": "Watery Exploration",
+                "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 24,
+                    "name": "Watery Exploration",
+                    "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "complete": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "swf": "random\/random-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Elemental",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        },
+        "26-desert-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "26-desert-tomb",
+                "fullSlug": "quests\/26-desert-tomb",
+                "id": 26,
+                "name": "Desert Tomb",
+                "description": "You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 26,
+                    "name": "Desert Tomb",
+                    "description": "You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever.",
+                    "complete": "You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever.",
+                    "swf": "random\/random-pyramid.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 150,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 9,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Elemental,Reptile,Bug",
+                    "monsterGroupSwf": "mset-pyramid.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

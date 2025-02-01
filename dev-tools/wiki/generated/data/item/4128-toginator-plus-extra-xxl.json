@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4128-toginator-plus-extra-xxl",
+        "fullSlug": "items\/4128-toginator-plus-extra-xxl",
+        "id": 4128,
+        "name": "Toginator Plus Extra XXL",
+        "description": "This scythe goes great with the cape."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4128,
+            "name": "Toginator Plus Extra XXL",
+            "description": "This scythe goes great with the cape.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 40,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-tog.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 51,
+            "damageMax": 71,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,7,Fire,7"
+        }
+    },
+    "related": {
+        "68-cmc-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "68-cmc-shop",
+                "fullSlug": "merge-shops\/68-cmc-shop",
+                "id": 68,
+                "name": "CMC Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 68,
+                    "name": "CMC Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1009,
+                    "mergeShopId": 68,
+                    "mergeId": 757
+                },
+                "merge": {
+                    "id": 757,
+                    "itemId1": 4131,
+                    "amount1": 1,
+                    "itemId2": 4128,
+                    "amount2": 1,
+                    "itemId": 4129,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4710-neela-paani-dagger-ii",
+        "fullSlug": "items\/4710-neela-paani-dagger-ii",
+        "id": 4710,
+        "name": "Neela Paani Dagger II",
+        "description": "You received this weapon for battling valiantly through the Falconreach Guardian Tower Arena! Battle On!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4710,
+            "name": "Neela Paani Dagger II",
+            "description": "You received this weapon for battling valiantly through the Falconreach Guardian Tower Arena! Battle On!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 20,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-spiritdagger.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 33,
+            "damageMax": 51,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,2,Water,2,Ice,2"
+        }
+    },
+    "related": {
+        "80-arena-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "80-arena-rewards",
+                "fullSlug": "merge-shops\/80-arena-rewards",
+                "id": 80,
+                "name": "Arena Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 80,
+                    "name": "Arena Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1137,
+                    "mergeShopId": 80,
+                    "mergeId": 874
+                },
+                "merge": {
+                    "id": 874,
+                    "itemId1": 4721,
+                    "amount1": 6,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4710,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11805-escherion-s-staff",
+        "fullSlug": "items\/11805-escherion-s-staff",
+        "id": 11805,
+        "name": "Escherion's Staff",
+        "description": "Known by many names, this Staff of Inversion seems to have a mind of its own! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11805,
+            "name": "Escherion's Staff",
+            "description": "Known by many names, this Staff of Inversion seems to have a mind of its own! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 50,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-escherionstaff.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 61,
+            "damageMax": 79,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,4,All,2"
+        }
+    },
+    "related": {
+        "201-escherion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "201-escherion",
+                "fullSlug": "merge-shops\/201-escherion",
+                "id": 201,
+                "name": "Escherion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 201,
+                    "name": "Escherion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2358,
+                    "mergeShopId": 201,
+                    "mergeId": 2195
+                },
+                "merge": {
+                    "id": 2195,
+                    "itemId1": 11805,
+                    "amount1": 1,
+                    "itemId2": 11820,
+                    "amount2": 1,
+                    "itemId": 11806,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

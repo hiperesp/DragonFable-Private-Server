@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15001-bone-shard-axe",
+        "fullSlug": "items\/15001-bone-shard-axe",
+        "id": 15001,
+        "name": "Bone Shard Axe",
+        "description": "Made from unlucky remains of Baron Jaysun Valtrith's army!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15001,
+            "name": "Bone Shard Axe",
+            "description": "Made from unlucky remains of Baron Jaysun Valtrith's army!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 66,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-boneshard.swf",
+            "icon": "axe",
+            "strength": 12,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 12,
+            "dodge": 12,
+            "block": 12,
+            "resists": "Energy,9,Light,9,Fire,8,Health,-6"
+        }
+    },
+    "related": {
+        "1324-given-to-darkness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1324-given-to-darkness",
+                "fullSlug": "quests\/1324-given-to-darkness",
+                "id": 1324,
+                "name": "Given to Darkness",
+                "description": "The siege around Falconreach has been broken and your dragon has spotted the captured soldiers! Gear up and head into the fog shrouded woods to try and rescue your friends!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1324,
+                    "name": "Given to Darkness",
+                    "description": "The siege around Falconreach has been broken and your dragon has spotted the captured soldiers! Gear up and head into the fog shrouded woods to try and rescue your friends!",
+                    "complete": "Falconreach and Oaklore have been saved from the catapults... but what did the explosion rain down on the towns?",
+                    "swf": "wars\/F13-DarkNight\/quest3-end.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-DKboss.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

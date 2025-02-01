@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22300-trithril-blade-vii",
+        "fullSlug": "items\/22300-trithril-blade-vii",
+        "id": 22300,
+        "name": "Trithril Blade VII",
+        "description": "This blade was infused with trithril, making it feel incredibly light in your hands. Its combat durability, however... This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22300,
+            "name": "Trithril Blade VII",
+            "description": "This blade was infused with trithril, making it feel incredibly light in your hands. Its combat durability, however... This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 90,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-escelense2025.swf",
+            "icon": "scythe",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 90,
+            "damageMax": 96,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "All,5,Metal,5,Wind,5,Health,-5"
+        }
+    },
+    "related": {
+        "2213-cleaning-the-lens": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2213-cleaning-the-lens",
+                "fullSlug": "quests\/2213-cleaning-the-lens",
+                "id": 2213,
+                "name": "Cleaning the Lens",
+                "description": "The Cryptics need your help protecting the Lens from invading desert monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2213,
+                    "swf": "towns\/Atrea\/quest-atrealens.swf",
+                    "swfX": "none",
+                    "extra": "",
+                    "name": "Cleaning the Lens",
+                    "description": "The Cryptics need your help protecting the Lens from invading desert monsters!",
+                    "complete": "You've cleared out this group of monsters, but when might they return?",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Sandsea Fliers",
+                    "monsterGroupSwf": "mset-atrealens.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

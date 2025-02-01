@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20400-grimoire-of-the-lich-ii",
+        "fullSlug": "items\/20400-grimoire-of-the-lich-ii",
+        "id": 20400,
+        "name": "Grimoire of the Lich II",
+        "description": "This ancient and tattered tome is sealed tightly. Try as you might, it will not relinquish its secrets to you.  At least it comes with a nifty belt and book-holster! Proof of victory over Noxus and Sek-Duat."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20400,
+            "name": "Grimoire of the Lich II",
+            "description": "This ancient and tattered tome is sealed tightly. Try as you might, it will not relinquish its secrets to you.  At least it comes with a nifty belt and book-holster! Proof of victory over Noxus and Sek-Duat.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 5,
+            "level": 70,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,8"
+        }
+    },
+    "related": {
+        "352-unending-empires": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "352-unending-empires",
+                "fullSlug": "merge-shops\/352-unending-empires",
+                "id": 352,
+                "name": "Unending Empires",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 352,
+                    "name": "Unending Empires"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3661,
+                    "mergeShopId": 352,
+                    "mergeId": 3747
+                },
+                "merge": {
+                    "id": 3747,
+                    "itemId1": 20399,
+                    "amount1": 1,
+                    "itemId2": 20404,
+                    "amount2": 1,
+                    "itemId": 20400,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

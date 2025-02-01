@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6325-moglinberry-necklace",
+        "fullSlug": "items\/6325-moglinberry-necklace",
+        "id": 6325,
+        "name": "Moglinberry Necklace",
+        "description": "A strand of moglinberries. The smell is amazing... if you had some fire you could brew up a cup of moglinberry juice! This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6325,
+            "name": "Moglinberry Necklace",
+            "description": "A strand of moglinberries. The smell is amazing... if you had some fire you could brew up a cup of moglinberry juice! This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 45,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,2,Wind,2,Immobility,2,Health,-2"
+        }
+    },
+    "related": {
+        "853-frostvale-defense": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "853-frostvale-defense",
+                "fullSlug": "quests\/853-frostvale-defense",
+                "id": 853,
+                "name": "Frostvale Defense",
+                "description": "Rolith has charged you with clearing out the woods around Frostvale of potential dangers!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 853,
+                    "name": "Frostvale Defense",
+                    "description": "Rolith has charged you with clearing out the woods around Frostvale of potential dangers!",
+                    "complete": "Did... did Rolith just kick you out of Frostval?!",
+                    "swf": "towns\/Frostvale\/F11\/quest1-defense.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "frostval monsters",
+                    "monsterGroupSwf": "mset-frostval11-1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

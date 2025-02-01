@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15232-light-of-balance",
+        "fullSlug": "items\/15232-light-of-balance",
+        "id": 15232,
+        "name": "Light of Balance",
+        "description": "There are two sides to every story. This magical weapon brings justice to both."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15232,
+            "name": "Light of Balance",
+            "description": "There are two sides to every story. This magical weapon brings justice to both.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 325,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 7,
+            "level": 40,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lightofbalance.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 66,
+            "damageMax": 66,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Light,4,Darkness,4,Immobility,3,Good,4,Evil,4,???,4"
+        }
+    },
+    "related": {
+        "484-ancient-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "484-ancient-weapons",
+                "fullSlug": "item-shops\/484-ancient-weapons",
+                "id": 484,
+                "name": "Ancient Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 484,
+                    "name": "Ancient Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

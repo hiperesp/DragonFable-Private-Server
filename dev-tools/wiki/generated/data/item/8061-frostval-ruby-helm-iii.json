@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8061-frostval-ruby-helm-iii",
+        "fullSlug": "items\/8061-frostval-ruby-helm-iii",
+        "id": 8061,
+        "name": "Frostval Ruby Helm III",
+        "description": "Guaranteed to keep your ears warm! Happy Frostval, 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8061,
+            "name": "Frostval Ruby Helm III",
+            "description": "Guaranteed to keep your ears warm! Happy Frostval, 2012!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-present-2012.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 1,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Ice,3"
+        }
+    },
+    "related": {
+        "126-2012-presents": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "126-2012-presents",
+                "fullSlug": "merge-shops\/126-2012-presents",
+                "id": 126,
+                "name": "2012 Presents",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 126,
+                    "name": "2012 Presents"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1776,
+                    "mergeShopId": 126,
+                    "mergeId": 1643
+                },
+                "merge": {
+                    "id": 1643,
+                    "itemId1": 8061,
+                    "amount1": 1,
+                    "itemId2": 8032,
+                    "amount2": 1,
+                    "itemId": 8062,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

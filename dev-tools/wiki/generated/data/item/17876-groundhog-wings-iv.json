@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17876-groundhog-wings-iv",
+        "fullSlug": "items\/17876-groundhog-wings-iv",
+        "id": 17876,
+        "name": "Groundhog Wings IV",
+        "description": "They're Groundhog Wings. Don't think about it too much. Your reward for clearing the Groundhog Dave challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17876,
+            "name": "Groundhog Wings IV",
+            "description": "They're Groundhog Wings. Don't think about it too much. Your reward for clearing the Groundhog Dave challenge!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 85,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/wings-groundhog.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "All,10"
+        }
+    },
+    "related": {
+        "287-big-and-small": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "287-big-and-small",
+                "fullSlug": "merge-shops\/287-big-and-small",
+                "id": 287,
+                "name": "Big and Small",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 287,
+                    "name": "Big and Small"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3146,
+                    "mergeShopId": 287,
+                    "mergeId": 3157
+                },
+                "merge": {
+                    "id": 3157,
+                    "itemId1": 17873,
+                    "amount1": 1,
+                    "itemId2": 17877,
+                    "amount2": 1,
+                    "itemId": 17876,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

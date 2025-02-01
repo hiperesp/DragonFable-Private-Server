@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14058-giant-ruby",
+        "fullSlug": "items\/14058-giant-ruby",
+        "id": 14058,
+        "name": "Giant Ruby",
+        "description": "Spoils from some ancient battle, this ruby has lain in the darkness for 600 years. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14058,
+            "name": "Giant Ruby",
+            "description": "Spoils from some ancient battle, this ruby has lain in the darkness for 600 years. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 7,
+            "level": 69,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,10,Wind,10,Fire,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "1275-the-valtrith-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1275-the-valtrith-tomb",
+                "fullSlug": "quests\/1275-the-valtrith-tomb",
+                "id": 1275,
+                "name": "The Valtrith Tomb",
+                "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1275,
+                    "name": "The Valtrith Tomb",
+                    "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?",
+                    "complete": "Jaysun wasn't the only Valtrith whose sarcophagus was disturbed!",
+                    "swf": "towns\/Symone\/quest-valtrithtomb-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghosts",
+                    "monsterGroupSwf": "mset-valtrithtomb.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

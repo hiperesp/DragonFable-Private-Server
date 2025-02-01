@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17373-soulforged-wand",
+        "fullSlug": "items\/17373-soulforged-wand",
+        "id": 17373,
+        "name": "SoulForged Wand",
+        "description": "Your very own SoulForged wand! It shivers with swiftness and cleverness!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17373,
+            "name": "SoulForged Wand",
+            "description": "Your very own SoulForged wand! It shivers with swiftness and cleverness!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 7,
+            "level": 60,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-soulforged.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 76,
+            "damageMax": 76,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,6"
+        }
+    },
+    "related": {
+        "268-soulforged-wand": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "268-soulforged-wand",
+                "fullSlug": "merge-shops\/268-soulforged-wand",
+                "id": 268,
+                "name": "SoulForged Wand",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 268,
+                    "name": "SoulForged Wand"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3013,
+                    "mergeShopId": 268,
+                    "mergeId": 3029
+                },
+                "merge": {
+                    "id": 3029,
+                    "itemId1": 15721,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 17373,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "273-spirit-cast": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "273-spirit-cast",
+                "fullSlug": "merge-shops\/273-spirit-cast",
+                "id": 273,
+                "name": "Spirit Cast",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 273,
+                    "name": "Spirit Cast"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3048,
+                    "mergeShopId": 273,
+                    "mergeId": 3050
+                },
+                "merge": {
+                    "id": 3050,
+                    "itemId1": 17373,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15721,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

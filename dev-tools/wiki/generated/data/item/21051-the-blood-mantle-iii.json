@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21051-the-blood-mantle-iii",
+        "fullSlug": "items\/21051-the-blood-mantle-iii",
+        "id": 21051,
+        "name": "The Blood Mantle III",
+        "description": "An ancient vampire lord's warhelm. The more you thirst for blood, the more menacing it becomes... Proof of victory over the Everlasting Night challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21051,
+            "name": "The Blood Mantle III",
+            "description": "An ancient vampire lord's warhelm. The more you thirst for blood, the more menacing it becomes... Proof of victory over the Everlasting Night challenge!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 15,
+            "rarity": 0,
+            "level": 90,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/hairhelm-bloodmantle.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 12,
+            "charisma": 12,
+            "endurance": 25,
+            "wisdom": 25,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 15,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5,Health,-5"
+        }
+    },
+    "related": {
+        "372-everlasting-night": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "372-everlasting-night",
+                "fullSlug": "merge-shops\/372-everlasting-night",
+                "id": 372,
+                "name": "Everlasting Night",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 372,
+                    "name": "Everlasting Night"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3883,
+                    "mergeShopId": 372,
+                    "mergeId": 3992
+                },
+                "merge": {
+                    "id": 3992,
+                    "itemId1": 21049,
+                    "amount1": 1,
+                    "itemId2": 21054,
+                    "amount2": 1,
+                    "itemId": 21051,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

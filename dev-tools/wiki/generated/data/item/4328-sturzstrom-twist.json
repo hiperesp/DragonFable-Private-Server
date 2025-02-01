@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4328-sturzstrom-twist",
+        "fullSlug": "items\/4328-sturzstrom-twist",
+        "id": 4328,
+        "name": "Sturzstrom Twist",
+        "description": "The rocks that make up this necklace were displaced a great distance from their origin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4328,
+            "name": "Sturzstrom Twist",
+            "description": "The rocks that make up this necklace were displaced a great distance from their origin.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 38,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,5,Stone,6"
+        }
+    },
+    "related": {
+        "664-your-secret-is-safe": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "664-your-secret-is-safe",
+                "fullSlug": "quests\/664-your-secret-is-safe",
+                "id": 664,
+                "name": "Your Secret Is Safe",
+                "description": "Can you distract the monsters long enough for Valencia to escape without getting caught yourself?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 664,
+                    "name": "Your Secret Is Safe",
+                    "description": "Can you distract the monsters long enough for Valencia to escape without getting caught yourself?",
+                    "complete": "The Secret of the Thorn is safe... for now!",
+                    "swf": "towns\/Willowshire\/quest-earth5-game.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Skellies, Darkness Ele",
+                    "monsterGroupSwf": "mset-earth4.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

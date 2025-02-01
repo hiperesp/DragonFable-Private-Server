@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5272-sneevrick-rod-vi",
+        "fullSlug": "items\/5272-sneevrick-rod-vi",
+        "id": 5272,
+        "name": "Sneevrick Rod VI",
+        "description": "The luck of the Sneevish IS with you! King Sneevrick thanks you for taking care of that twisted Arrrghus. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5272,
+            "name": "Sneevrick Rod VI",
+            "description": "The luck of the Sneevish IS with you! King Sneevrick thanks you for taking care of that twisted Arrrghus. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3750,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 64,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-saintpatrick.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 11,
+            "wisdom": 8,
+            "damageMin": 65,
+            "damageMax": 89,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,10,Stone,10"
+        }
+    },
+    "related": {
+        "195-sneevrick-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "195-sneevrick-s-shop",
+                "fullSlug": "item-shops\/195-sneevrick-s-shop",
+                "id": 195,
+                "name": "Sneevrick's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 195,
+                    "name": "Sneevrick's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

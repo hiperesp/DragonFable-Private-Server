@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11827-decadere-carcass-cape-iii",
+        "fullSlug": "items\/11827-decadere-carcass-cape-iii",
+        "id": 11827,
+        "name": "Decadere Carcass \"Cape\" III",
+        "description": "This... is kinda gross."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11827,
+            "name": "Decadere Carcass \"Cape\" III",
+            "description": "This... is kinda gross.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 20,
+            "level": 48,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-voidling.swf",
+            "icon": "wings",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": -1,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,5,Fire,5"
+        }
+    },
+    "related": {
+        "1151-into-the-ynnungaap": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1151-into-the-ynnungaap",
+                "fullSlug": "quests\/1151-into-the-ynnungaap",
+                "id": 1151,
+                "name": "Into the Ynnungaap",
+                "description": "Begin the voyage into the unknown!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1151,
+                    "name": "Into the Ynnungaap",
+                    "description": "Begin the voyage into the unknown!",
+                    "complete": "Beige sabotaged the ship! What will happen to our heroes now?",
+                    "swf": "towns\/3Ravenloss\/quest13-departure-r1.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7080-psychosis-bag",
+        "fullSlug": "items\/7080-psychosis-bag",
+        "id": 7080,
+        "name": "Psychosis Bag",
+        "description": "A tiny bags hangs from this necklace. You do not want to look inside of it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7080,
+            "name": "Psychosis Bag",
+            "description": "A tiny bags hangs from this necklace. You do not want to look inside of it.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 24,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Darkness,3"
+        }
+    },
+    "related": {
+        "917-nightmares": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "917-nightmares",
+                "fullSlug": "quests\/917-nightmares",
+                "id": 917,
+                "name": "Nightmares",
+                "description": "Wargoth is throwing all sorts of fire monsters at you to get you out of his head!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 917,
+                    "name": "Nightmares",
+                    "description": "Wargoth is throwing all sorts of fire monsters at you to get you out of his head!",
+                    "complete": "Just who is The Professor?!",
+                    "swf": "towns\/Atrea\/quest8-nightmares.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "science, mana, fire",
+                    "monsterGroupSwf": "mset-nightmares.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

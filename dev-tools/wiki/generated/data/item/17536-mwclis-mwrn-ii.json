@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17536-mwclis-mwrn-ii",
+        "fullSlug": "items\/17536-mwclis-mwrn-ii",
+        "id": 17536,
+        "name": "Mwclis Mwrn II",
+        "description": "The oval tied by fine black chains on this necklace seems like a rather opaque and unreliable mirror. It seems to make you braver and contain your fears, making you a bit more resilient. But the reflection in the mirror itself seems terrified."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17536,
+            "name": "Mwclis Mwrn II",
+            "description": "The oval tied by fine black chains on this necklace seems like a rather opaque and unreliable mirror. It seems to make you braver and contain your fears, making you a bit more resilient. But the reflection in the mirror itself seems terrified.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 25,
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,4,Health,-4"
+        }
+    },
+    "related": {
+        "278-mwrn": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "278-mwrn",
+                "fullSlug": "merge-shops\/278-mwrn",
+                "id": 278,
+                "name": "Mwrn",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 278,
+                    "name": "Mwrn"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3090,
+                    "mergeShopId": 278,
+                    "mergeId": 3093
+                },
+                "merge": {
+                    "id": 3093,
+                    "itemId1": 17536,
+                    "amount1": 1,
+                    "itemId2": 17534,
+                    "amount2": 1,
+                    "itemId": 17541,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

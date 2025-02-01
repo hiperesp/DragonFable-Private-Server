@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18825-ostara-s-cull-v",
+        "fullSlug": "items\/18825-ostara-s-cull-v",
+        "id": 18825,
+        "name": "Ostara's Cull V",
+        "description": "An elegant living weapon summoned through ritual. Be sure to tend to it well, or it may turn on you! This weapon was forged by Dracelix!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18825,
+            "name": "Ostara's Cull V",
+            "description": "An elegant living weapon summoned through ritual. Be sure to tend to it well, or it may turn on you! This weapon was forged by Dracelix!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 50,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ostara-grenwog2019.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 59,
+            "damageMax": 75,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,5,Light,5,Health,-5"
+        }
+    },
+    "related": {
+        "304-ostara-s-eggs": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "304-ostara-s-eggs",
+                "fullSlug": "merge-shops\/304-ostara-s-eggs",
+                "id": 304,
+                "name": "Ostara's Eggs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 304,
+                    "name": "Ostara's Eggs"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3314,
+                    "mergeShopId": 304,
+                    "mergeId": 3394
+                },
+                "merge": {
+                    "id": 3394,
+                    "itemId1": 18831,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18825,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

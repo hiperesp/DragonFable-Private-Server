@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5764-doomed-draconis-tenebras",
+        "fullSlug": "items\/5764-doomed-draconis-tenebras",
+        "id": 5764,
+        "name": "Doomed Draconis Tenebras",
+        "description": "Created from a piece of the most powerful, wrathful darkness dragon that Lore has ever seen... so far!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5764,
+            "name": "Doomed Draconis Tenebras",
+            "description": "Created from a piece of the most powerful, wrathful darkness dragon that Lore has ever seen... so far!\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-drakathdeath.swf",
+            "icon": "helm",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": -3,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Darkness,13,Ice,6,Fire,6,Immobility,4,All,2"
+        }
+    },
+    "related": {
+        "800-an-unlikely-duo": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "800-an-unlikely-duo",
+                "fullSlug": "quests\/800-an-unlikely-duo",
+                "id": 800,
+                "name": "An Unlikely Duo",
+                "description": "The only way to beat Drakath is by teaming up with Sepulchure!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 800,
+                    "name": "An Unlikely Duo",
+                    "description": "The only way to beat Drakath is by teaming up with Sepulchure!",
+                    "complete": "Drakath is dead, Sepulchure's power has been drained and the Mysterious Stranger is now bonded to the most powerful darkness weapon ever created!",
+                    "swf": "towns\/Chap1finale\/quest-finale10-titandrakathr2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 35,
+                    "monsterMaxLevel": 35,
+                    "monsterType": "darkness dragon drakath",
+                    "monsterGroupSwf": "mset-finale10-drakathtitan.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

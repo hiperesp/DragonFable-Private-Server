@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6641-ethereal-atreileon-wings-v",
+        "fullSlug": "items\/6641-ethereal-atreileon-wings-v",
+        "id": 6641,
+        "name": "Ethereal Atreileon Wings V",
+        "description": "These architectural wings were sculpted from paraginium.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6641,
+            "name": "Ethereal Atreileon Wings V",
+            "description": "These architectural wings were sculpted from paraginium.  This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 71,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-atreileon mk2.swf",
+            "icon": "wings",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,8,Light,8,Silver,4,Immobility,4"
+        }
+    },
+    "related": {
+        "105-paraginium-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "105-paraginium-items",
+                "fullSlug": "merge-shops\/105-paraginium-items",
+                "id": 105,
+                "name": "Paraginium Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 105,
+                    "name": "Paraginium Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1449,
+                    "mergeShopId": 105,
+                    "mergeId": 1348
+                },
+                "merge": {
+                    "id": 1348,
+                    "itemId1": 6655,
+                    "amount1": 5,
+                    "itemId2": 6640,
+                    "amount2": 1,
+                    "itemId": 6641,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

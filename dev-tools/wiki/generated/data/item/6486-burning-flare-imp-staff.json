@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6486-burning-flare-imp-staff",
+        "fullSlug": "items\/6486-burning-flare-imp-staff",
+        "id": 6486,
+        "name": "Burning Flare Imp Staff",
+        "description": "You took this from a cache of weapons that belonged to the fiery invading army of the 2012 Rift War!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6486,
+            "name": "Burning Flare Imp Staff",
+            "description": "You took this from a cache of weapons that belonged to the fiery invading army of the 2012 Rift War!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 41,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-hobgoblin.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 50,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Ice,3,Water,3,Darkness,3"
+        }
+    },
+    "related": {
+        "250-infernal-army-cache": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "250-infernal-army-cache",
+                "fullSlug": "item-shops\/250-infernal-army-cache",
+                "id": 250,
+                "name": "Infernal Army Cache",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 250,
+                    "name": "Infernal Army Cache",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5855-ultimate-brand-of-glory",
+        "fullSlug": "items\/5855-ultimate-brand-of-glory",
+        "id": 5855,
+        "name": "Ultimate Brand of Glory",
+        "description": "This weapon was forged to celebrate you and your dragon saving Lore from being swallowed by darkness forever! A shard of the Ultimate Orb is lodged deep within the blade of this golden weapon. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5855,
+            "name": "Ultimate Brand of Glory",
+            "description": "This weapon was forged to celebrate you and your dragon saving Lore from being swallowed by darkness forever! A shard of the Ultimate Orb is lodged deep within the blade of this golden weapon. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 100,
+            "level": 70,
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-divine.swf",
+            "icon": "sword",
+            "strength": 10,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 76,
+            "damageMax": 94,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,10,Health,-15"
+        }
+    },
+    "related": {
+        "95-glory-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "95-glory-weapons",
+                "fullSlug": "merge-shops\/95-glory-weapons",
+                "id": 95,
+                "name": "Glory Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 95,
+                    "name": "Glory Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1327,
+                    "mergeShopId": 95,
+                    "mergeId": 1139
+                },
+                "merge": {
+                    "id": 1139,
+                    "itemId1": 5576,
+                    "amount1": 1,
+                    "itemId2": 5852,
+                    "amount2": 1,
+                    "itemId": 5855,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11101-half-of-a-goldfish",
+        "fullSlug": "items\/11101-half-of-a-goldfish",
+        "id": 11101,
+        "name": "Half of a Goldfish",
+        "description": "You have half a giant goldfish on your back!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11101,
+            "name": "Half of a Goldfish",
+            "description": "You have half a giant goldfish on your back!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 80,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 70,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-goldfish-half.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 9,
+            "charisma": 4,
+            "endurance": 8,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,8,Immobility,3,All,1"
+        }
+    },
+    "related": {
+        "386-half-off-2013": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "386-half-off-2013",
+                "fullSlug": "item-shops\/386-half-off-2013",
+                "id": 386,
+                "name": "Half-Off 2013",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 386,
+                    "name": "Half-Off 2013",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "478-half-off": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "478-half-off",
+                "fullSlug": "item-shops\/478-half-off",
+                "id": 478,
+                "name": "Half Off",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 478,
+                    "name": "Half Off",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

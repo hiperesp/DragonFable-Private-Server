@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8901-simple-eternal-flame-vii",
+        "fullSlug": "items\/8901-simple-eternal-flame-vii",
+        "id": 8901,
+        "name": "Simple Eternal Flame VII",
+        "description": "Smithed by Sielu, this helm will protect you with elvish craftsmanship!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8901,
+            "name": "Simple Eternal Flame VII",
+            "description": "Smithed by Sielu, this helm will protect you with elvish craftsmanship!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 12,
+            "level": 80,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-Simpleeternalflame.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Water,9,Ice,9,Light,9,Wind,9,Immobility,5,Health,-5"
+        }
+    },
+    "related": {
+        "299-sielu-s-dc-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "299-sielu-s-dc-helms",
+                "fullSlug": "item-shops\/299-sielu-s-dc-helms",
+                "id": 299,
+                "name": "Sielu's DC Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 299,
+                    "name": "Sielu's DC Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

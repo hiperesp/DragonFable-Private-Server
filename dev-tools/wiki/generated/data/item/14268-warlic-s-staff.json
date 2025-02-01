@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14268-warlic-s-staff",
+        "fullSlug": "items\/14268-warlic-s-staff",
+        "id": 14268,
+        "name": "Warlic's Staff",
+        "description": "This replica of the staff favored by Warlic was created by Ashendal. It is enchanted to occasionally heal your mana, just like how Warlic creates mana instead of using it!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14268,
+            "name": "Warlic's Staff",
+            "description": "This replica of the staff favored by Warlic was created by Ashendal. It is enchanted to occasionally heal your mana, just like how Warlic creates mana instead of using it!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 60,
+            "level": 30,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-WarlicStaff.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Wind,3,Water,3,Immobility,2,Mana,-2"
+        }
+    },
+    "related": {
+        "453-warlic-s-replica-staff": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "453-warlic-s-replica-staff",
+                "fullSlug": "item-shops\/453-warlic-s-replica-staff",
+                "id": 453,
+                "name": "Warlic's Replica Staff",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 453,
+                    "name": "Warlic's Replica Staff",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "456-dc-replicas": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "456-dc-replicas",
+                "fullSlug": "item-shops\/456-dc-replicas",
+                "id": 456,
+                "name": "DC Replicas",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 456,
+                    "name": "DC Replicas",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

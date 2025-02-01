@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15370-gouda-fwendship-necklace",
+        "fullSlug": "items\/15370-gouda-fwendship-necklace",
+        "id": 15370,
+        "name": "Gouda Fwendship Necklace",
+        "description": "Twig made this handwoven necklace in thanks for finding him new fwends! This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15370,
+            "name": "Gouda Fwendship Necklace",
+            "description": "Twig made this handwoven necklace in thanks for finding him new fwends! This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 78,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "Ice,10,Darkness,10,Water,9"
+        }
+    },
+    "related": {
+        "1335-fwendquest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1335-fwendquest",
+                "fullSlug": "quests\/1335-fwendquest",
+                "id": 1335,
+                "name": "FwendQuest",
+                "description": "Can you find a new fwend for Twig?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1335,
+                    "name": "FwendQuest",
+                    "description": "Can you find a new fwend for Twig?",
+                    "complete": "Prepare yourself for new cheesy flavors!",
+                    "swf": "towns\/Frostvale\/F15\/quest-FwendQuest-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "humanoidish monsters",
+                    "monsterGroupSwf": "mset-fwendquest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6937-icescythe",
+        "fullSlug": "items\/6937-icescythe",
+        "id": 6937,
+        "name": "IceScythe",
+        "description": "DragonMaster Frostscythe's infamous scythe, this wicked blade is carved from rock-solid ice. It's rumored the IceScythe has absorbed some of Frostscythe's own power. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6937,
+            "name": "IceScythe",
+            "description": "DragonMaster Frostscythe's infamous scythe, this wicked blade is carved from rock-solid ice. It's rumored the IceScythe has absorbed some of Frostscythe's own power. This item requires a Dragon Amulet. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 68,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-frostscythe3.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 72,
+            "damageMax": 90,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Ice,10,Immobility,4,All,2"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1488,
+                    "mergeShopId": 108,
+                    "mergeId": 1410
+                },
+                "merge": {
+                    "id": 1410,
+                    "itemId1": 6937,
+                    "amount1": 1,
+                    "itemId2": 6911,
+                    "amount2": 1,
+                    "itemId": 6938,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

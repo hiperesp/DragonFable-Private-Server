@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13929-closed-guardian-armet",
+        "fullSlug": "items\/13929-closed-guardian-armet",
+        "id": 13929,
+        "name": "Closed Guardian Armet",
+        "description": "This armet will protect you from any number of attacks. There is nothing worse than getting an arrow to the face."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13929,
+            "name": "Closed Guardian Armet",
+            "description": "This armet will protect you from any number of attacks. There is nothing worse than getting an arrow to the face.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 20,
+            "level": 30,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-GuardianClosed.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Darkness,3,Light,3"
+        }
+    },
+    "related": {
+        "442-guardian-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "442-guardian-items",
+                "fullSlug": "item-shops\/442-guardian-items",
+                "id": 442,
+                "name": "Guardian Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 442,
+                    "name": "Guardian Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8155-rock-essence",
+        "fullSlug": "items\/8155-rock-essence",
+        "id": 8155,
+        "name": "Rock Essence",
+        "description": "This really just looks like a stone...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8155,
+            "name": "Rock Essence",
+            "description": "This really just looks like a stone....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "992-it-s-a-dirty-job": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "992-it-s-a-dirty-job",
+                "fullSlug": "quests\/992-it-s-a-dirty-job",
+                "id": 992,
+                "name": "It's A Dirty Job...",
+                "description": "Even more earth elementals and bugs have gathered in the Earth Elemental Cave!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 992,
+                    "name": "It's A Dirty Job...",
+                    "description": "Even more earth elementals and bugs have gathered in the Earth Elemental Cave!",
+                    "complete": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "swf": "random\/random-earthcave-bk3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 14,
+                    "monsterMaxLevel": 20,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalearth2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

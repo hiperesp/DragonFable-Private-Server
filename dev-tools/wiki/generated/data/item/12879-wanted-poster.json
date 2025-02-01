@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12879-wanted-poster",
+        "fullSlug": "items\/12879-wanted-poster",
+        "id": 12879,
+        "name": "Wanted Poster",
+        "description": "This poster has your name on it! Luckily you've managed to clear your name. You can keep it as a souvenir or you can sell it to collectors."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12879,
+            "name": "Wanted Poster",
+            "description": "This poster has your name on it! Luckily you've managed to clear your name. You can keep it as a souvenir or you can sell it to collectors.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 8500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "note",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1205-impersonator": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1205-impersonator",
+                "fullSlug": "quests\/1205-impersonator",
+                "id": 1205,
+                "name": "Impersonator",
+                "description": "Someone is defiling your good reputation! Find out who!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1205,
+                    "name": "Impersonator",
+                    "description": "Someone is defiling your good reputation! Find out who!",
+                    "complete": "How could people even believe that?!?",
+                    "swf": "quests\/quest-impersonator-r2.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 500000,
+                    "maxGems": 0,
+                    "maxExp": 500000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest, fake hero, fake dragon",
+                    "monsterGroupSwf": "mset-impersonator.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

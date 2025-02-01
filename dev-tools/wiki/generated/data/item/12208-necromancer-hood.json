@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12208-necromancer-hood",
+        "fullSlug": "items\/12208-necromancer-hood",
+        "id": 12208,
+        "name": "Necromancer Hood",
+        "description": "This hood hides your face from prying eyes. It's also great at keeping dust out."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12208,
+            "name": "Necromancer Hood",
+            "description": "This hood hides your face from prying eyes. It's also great at keeping dust out.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 170,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-NecroNew.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,12,Light,12,Disease,5"
+        }
+    },
+    "related": {
+        "408-necromancer-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "408-necromancer-items",
+                "fullSlug": "item-shops\/408-necromancer-items",
+                "id": 408,
+                "name": "Necromancer Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 408,
+                    "name": "Necromancer Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

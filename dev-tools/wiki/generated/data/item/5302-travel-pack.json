@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5302-travel-pack",
+        "fullSlug": "items\/5302-travel-pack",
+        "id": 5302,
+        "name": "Travel Pack",
+        "description": "A simple pack containing just the essentials."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5302,
+            "name": "Travel Pack",
+            "description": "A simple pack containing just the essentials.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-Travel Pack.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,3,Nature,3,Wind,1"
+        }
+    },
+    "related": {
+        "751-escort-from-verteroche": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "751-escort-from-verteroche",
+                "fullSlug": "quests\/751-escort-from-verteroche",
+                "id": 751,
+                "name": "Escort From Verteroche",
+                "description": "Signature on delivery!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 751,
+                    "name": "Escort From Verteroche",
+                    "description": "Signature on delivery!",
+                    "complete": "Signature on delivery!",
+                    "swf": "towns\/verteroche\/quest-escort-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits, dravir, forest monsters",
+                    "monsterGroupSwf": "mset-escort-W-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

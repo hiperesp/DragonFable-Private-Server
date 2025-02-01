@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14722-pirate-s-bandana",
+        "fullSlug": "items\/14722-pirate-s-bandana",
+        "id": 14722,
+        "name": "Pirate's Bandana",
+        "description": "This bandana keeps your hair out of your face while you swab the deck!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14722,
+            "name": "Pirate's Bandana",
+            "description": "This bandana keeps your hair out of your face while you swab the deck!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 25,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-nubandanaF.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,3,Water,3"
+        }
+    },
+    "related": {
+        "435-pirate-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "435-pirate-items",
+                "fullSlug": "item-shops\/435-pirate-items",
+                "id": 435,
+                "name": "Pirate Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 435,
+                    "name": "Pirate Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5956-law-maker-i",
+        "fullSlug": "items\/5956-law-maker-i",
+        "id": 5956,
+        "name": "Law Maker I",
+        "description": "A deadly spear used by the Fire Riders of the Sandsea. Roaming the harsh dunes, they live by their own rules. This item requires a DA."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5956,
+            "name": "Law Maker I",
+            "description": "A deadly spear used by the Fire Riders of the Sandsea. Roaming the harsh dunes, they live by their own rules. This item requires a DA.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 60,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-LawMaker.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Fire,8,Stone,8,Immobility,2"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 934,
+                    "mergeShopId": 67,
+                    "mergeId": 1156
+                },
+                "merge": {
+                    "id": 1156,
+                    "itemId1": 5956,
+                    "amount1": 1,
+                    "itemId2": 5954,
+                    "amount2": 5,
+                    "itemId": 5957,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

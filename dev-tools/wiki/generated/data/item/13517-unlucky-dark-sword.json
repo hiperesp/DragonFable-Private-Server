@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13517-unlucky-dark-sword",
+        "fullSlug": "items\/13517-unlucky-dark-sword",
+        "id": 13517,
+        "name": "Unlucky Dark Sword",
+        "description": "The dark one lives again. Do you dare take up this cursed weapon, knowing who it once belonged to?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13517,
+            "name": "Unlucky Dark Sword",
+            "description": "The dark one lives again. Do you dare take up this cursed weapon, knowing who it once belonged to?",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-dark-unlucky.swf",
+            "icon": "sword",
+            "strength": 11,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": -7,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 17,
+            "damageMin": 77,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": -5,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,-100,Immobility,8,Health,-5"
+        }
+    },
+    "related": {
+        "234-unlucky-darkness-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "234-unlucky-darkness-weapons",
+                "fullSlug": "merge-shops\/234-unlucky-darkness-weapons",
+                "id": 234,
+                "name": "Unlucky Darkness Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 234,
+                    "name": "Unlucky Darkness Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2597,
+                    "mergeShopId": 234,
+                    "mergeId": 2588
+                },
+                "merge": {
+                    "id": 2588,
+                    "itemId1": 13517,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 5,
+                    "itemId": 13518,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

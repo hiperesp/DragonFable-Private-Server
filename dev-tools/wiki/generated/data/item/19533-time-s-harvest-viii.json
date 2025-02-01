@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19533-time-s-harvest-viii",
+        "fullSlug": "items\/19533-time-s-harvest-viii",
+        "id": 19533,
+        "name": "Time's Harvest VIII",
+        "description": "This scythe is much, much lighter than it seems. Take care when swinging it. Who knows what such an eldritch item is capable of beyond the normal? Can be upgraded at Cysero."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19533,
+            "name": "Time's Harvest VIII",
+            "description": "This scythe is much, much lighter than it seems. Take care when swinging it. Who knows what such an eldritch item is capable of beyond the normal? Can be upgraded at Cysero.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 0,
+            "level": 80,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-uwescythe.swf",
+            "icon": "scythe",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 80,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,4,Health,-4"
+        }
+    },
+    "related": {
+        "319-underworld-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "319-underworld-upgrades",
+                "fullSlug": "merge-shops\/319-underworld-upgrades",
+                "id": 319,
+                "name": "Underworld Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Underworld Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3397,
+                    "mergeShopId": 319,
+                    "mergeId": 3512
+                },
+                "merge": {
+                    "id": 3512,
+                    "itemId1": 19533,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19534,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

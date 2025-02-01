@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11799-voidling-helm-iii",
+        "fullSlug": "items\/11799-voidling-helm-iii",
+        "id": 11799,
+        "name": "Voidling Helm III",
+        "description": "A headpiece made from Decadere carcass."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11799,
+            "name": "Voidling Helm III",
+            "description": "A headpiece made from Decadere carcass.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1850,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 67,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-voidling.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 8,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,10,Light,10,Fire,3,Immobility,1,All,1"
+        }
+    },
+    "related": {
+        "1149-the-codex": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1149-the-codex",
+                "fullSlug": "quests\/1149-the-codex",
+                "id": 1149,
+                "name": "The Codex",
+                "description": "Play as Aspar and find a way to manipulate the Ynnungaap Core."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1149,
+                    "name": "The Codex",
+                    "description": "Play as Aspar and find a way to manipulate the Ynnungaap Core.",
+                    "complete": "Aspar has found The Codex. Nothing can stop him now from altering the core!",
+                    "swf": "towns\/3Ravenloss\/quest12-Codex-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7338-vaekan-s-reaper-vi",
+        "fullSlug": "items\/7338-vaekan-s-reaper-vi",
+        "id": 7338,
+        "name": "Vaekan's Reaper VI",
+        "description": "Built out of one of Vaekan?s experiments, this glaive is imbued with a lethal poison. Better not touch the blades?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7338,
+            "name": "Vaekan's Reaper VI",
+            "description": "Built out of one of Vaekan?s experiments, this glaive is imbued with a lethal poison. Better not touch the blades?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 15,
+            "level": 65,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-vaekanreaper.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 65,
+            "damageMax": 89,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,7,Light,7,Immobility,2"
+        }
+    },
+    "related": {
+        "931-the-maker": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "931-the-maker",
+                "fullSlug": "quests\/931-the-maker",
+                "id": 931,
+                "name": "The Maker",
+                "description": "Going to speak to a necromancer about the Khy'Rhian?  Nice.  Hopefully he will have some useful information about them."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 931,
+                    "name": "The Maker",
+                    "description": "Going to speak to a necromancer about the Khy'Rhian?  Nice.  Hopefully he will have some useful information about them.",
+                    "complete": "The information about the Khy'Rhian wasn't incredibly helpful, but it was enlightening.  The Khy'Rhian are golems? sort of.  At least we know where they come from now.",
+                    "swf": "towns\/StoneheartFall\/quest8-themaker.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "skeles and eles",
+                    "monsterGroupSwf": "mset-maker.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

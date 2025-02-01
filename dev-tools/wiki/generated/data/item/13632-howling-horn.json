@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13632-howling-horn",
+        "fullSlug": "items\/13632-howling-horn",
+        "id": 13632,
+        "name": "Howling Horn",
+        "description": "Used by wind elves to communicate across vast distances."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13632,
+            "name": "Howling Horn",
+            "description": "Used by wind elves to communicate across vast distances.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7800,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 6,
+            "level": 57,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5,Energy,3,Wind,3,Immobility,2"
+        }
+    },
+    "related": {
+        "1250-an-uncertain-future": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1250-an-uncertain-future",
+                "fullSlug": "quests\/1250-an-uncertain-future",
+                "id": 1250,
+                "name": "An Uncertain Future",
+                "description": "Let's catch up to Leon!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1250,
+                    "name": "An Uncertain Future",
+                    "description": "Let's catch up to Leon!",
+                    "complete": "Kara has been retrieved, but will she still be the same? Where will the Vind go from here? And while all that's happening, what of Espina Rosa? Many questions, few answers.",
+                    "swf": "towns\/SulenEska\/quest20-uncertain.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

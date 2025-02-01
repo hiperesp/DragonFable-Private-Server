@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11967-relaxing-staff-of-primal-water",
+        "fullSlug": "items\/11967-relaxing-staff-of-primal-water",
+        "id": 11967,
+        "name": "Relaxing Staff of Primal Water",
+        "description": "You found this staff in the cavern with the Tear. It will always remind you that water can heal as well as harm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11967,
+            "name": "Relaxing Staff of Primal Water",
+            "description": "You found this staff in the cavern with the Tear. It will always remind you that water can heal as well as harm. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 9000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 8,
+            "level": 50,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-waterprimal.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 5,
+            "damageMin": 58,
+            "damageMax": 78,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 3,
+            "block": 0,
+            "resists": "Stone,9,Energy,9,Fire,9"
+        }
+    },
+    "related": {
+        "1155-water-primal": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1155-water-primal",
+                "fullSlug": "quests\/1155-water-primal",
+                "id": 1155,
+                "name": "Water Primal",
+                "description": "Quest for water power!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1155,
+                    "name": "Water Primal",
+                    "description": "Quest for water power!",
+                    "complete": "Speak to Elysia to change the element of your Dragon and attune its primal power!",
+                    "swf": "towns\/3Sunbreeze\/quest-primalwater.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water monsters",
+                    "monsterGroupSwf": "mset-primalwater-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

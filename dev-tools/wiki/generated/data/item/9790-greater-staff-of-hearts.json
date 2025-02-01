@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9790-greater-staff-of-hearts",
+        "fullSlug": "items\/9790-greater-staff-of-hearts",
+        "id": 9790,
+        "name": "Greater Staff of Hearts",
+        "description": "Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9790,
+            "name": "Greater Staff of Hearts",
+            "description": "Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 40,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Hearts-update.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 3,
+            "damageMin": 51,
+            "damageMax": 71,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 3,
+            "block": 0,
+            "resists": "Stone,6,Wind,6,Fire,6"
+        }
+    },
+    "related": {
+        "340-card-shoppe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "340-card-shoppe",
+                "fullSlug": "item-shops\/340-card-shoppe",
+                "id": 340,
+                "name": "Card Shoppe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 340,
+                    "name": "Card Shoppe",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

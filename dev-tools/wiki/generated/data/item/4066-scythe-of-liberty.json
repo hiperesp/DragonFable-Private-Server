@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4066-scythe-of-liberty",
+        "fullSlug": "items\/4066-scythe-of-liberty",
+        "id": 4066,
+        "name": "Scythe of Liberty",
+        "description": "Infused with a burning spirit of liberty, this scythe was designed to rise beyond limitations, withstand injustices, and is ultimately the weapon for freedom.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4066,
+            "name": "Scythe of Liberty",
+            "description": "Infused with a burning spirit of liberty, this scythe was designed to rise beyond limitations, withstand injustices, and is ultimately the weapon for freedom.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1550,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 6,
+            "level": 55,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-liberty.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 69,
+            "damageMax": 77,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,8,Energy,8,Fire,8"
+        }
+    },
+    "related": {
+        "149-liberty-days-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "149-liberty-days-shop",
+                "fullSlug": "item-shops\/149-liberty-days-shop",
+                "id": 149,
+                "name": "Liberty Days Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 149,
+                    "name": "Liberty Days Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

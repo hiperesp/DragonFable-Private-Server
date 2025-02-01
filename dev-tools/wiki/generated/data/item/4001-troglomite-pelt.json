@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4001-troglomite-pelt",
+        "fullSlug": "items\/4001-troglomite-pelt",
+        "id": 4001,
+        "name": "Troglomite Pelt",
+        "description": "The furry pelt of the elusive Troglomite!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4001,
+            "name": "Troglomite Pelt",
+            "description": "The furry pelt of the elusive Troglomite!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 99,
+            "level": 1,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "614-troglomite": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "614-troglomite",
+                "fullSlug": "quests\/614-troglomite",
+                "id": 614,
+                "name": "Troglomite",
+                "description": "The cave of the elusive troglomite!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 614,
+                    "name": "Troglomite",
+                    "description": "The cave of the elusive troglomite!",
+                    "complete": "You have found the troglomite!",
+                    "swf": "random\/random-troglomite-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cave monsters",
+                    "monsterGroupSwf": "mset-troglomite-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 988,
+                    "mergeShopId": 67,
+                    "mergeId": 825
+                },
+                "merge": {
+                    "id": 825,
+                    "itemId1": 4579,
+                    "amount1": 1,
+                    "itemId2": 4001,
+                    "amount2": 5,
+                    "itemId": 4581,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12642-unhallowed-deathknight-circlet-ii",
+        "fullSlug": "items\/12642-unhallowed-deathknight-circlet-ii",
+        "id": 12642,
+        "name": "Unhallowed DeathKnight Circlet II",
+        "description": "You've infused this ring with shadow energy. As you move your hand it seems to blur, almost as though it was leaving shadows of itself behind. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12642,
+            "name": "Unhallowed DeathKnight Circlet II",
+            "description": "You've infused this ring with shadow energy. As you move your hand it seems to blur, almost as though it was leaving shadows of itself behind. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Evil,9,Good,9,Health,-3"
+        }
+    },
+    "related": {
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2494,
+                    "mergeShopId": 210,
+                    "mergeId": 2437
+                },
+                "merge": {
+                    "id": 2437,
+                    "itemId1": 12642,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12643,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

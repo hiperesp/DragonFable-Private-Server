@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15088-twig-s-ascended-wings",
+        "fullSlug": "items\/15088-twig-s-ascended-wings",
+        "id": 15088,
+        "name": "Twig's Ascended Wings",
+        "description": "Twig got to these Ascended Wings with his black marker. He wanted to help out this Black Friday '15!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15088,
+            "name": "Twig's Ascended Wings",
+            "description": "Twig got to these Ascended Wings with his black marker. He wanted to help out this Black Friday '15!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Bacon",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-AscendWings-twig.swf",
+            "icon": "wings",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Light,10,Immobility,4,All,3"
+        }
+    },
+    "related": {
+        "162-black-marker-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "162-black-marker-shop",
+                "fullSlug": "item-shops\/162-black-marker-shop",
+                "id": 162,
+                "name": "Black Marker Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 162,
+                    "name": "Black Marker Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

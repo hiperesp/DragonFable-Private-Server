@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13446-shadowy-mask",
+        "fullSlug": "items\/13446-shadowy-mask",
+        "id": 13446,
+        "name": "Shadowy Mask",
+        "description": "As a ninja you need to strike a balance between being able to see clearly and hiding who you are from your target. This mask does both perfectly!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13446,
+            "name": "Shadowy Mask",
+            "description": "As a ninja you need to strike a balance between being able to see clearly and hiding who you are from your target. This mask does both perfectly!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1400,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 65,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-Ninja2.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 7,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Wind,8,Stone,8,Poison,2"
+        }
+    },
+    "related": {
+        "427-ninja-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "427-ninja-items",
+                "fullSlug": "item-shops\/427-ninja-items",
+                "id": 427,
+                "name": "Ninja Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 427,
+                    "name": "Ninja Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

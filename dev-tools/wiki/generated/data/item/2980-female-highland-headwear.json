@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2980-female-highland-headwear",
+        "fullSlug": "items\/2980-female-highland-headwear",
+        "id": 2980,
+        "name": "Female Highland Headwear",
+        "description": "Lim does love plaid.  This was a gift from one of his friends, and he's selling an imitation of it.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2980,
+            "name": "Female Highland Headwear",
+            "description": "Lim does love plaid.  This was a gift from one of his friends, and he's selling an imitation of it.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1300,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 40,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-habdash4f.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Water,6"
+        }
+    },
+    "related": {
+        "496-mad-haberdasher": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "496-mad-haberdasher",
+                "fullSlug": "quests\/496-mad-haberdasher",
+                "id": 496,
+                "name": "Mad Haberdasher",
+                "description": "Go ahead, you know you want to try the teacake!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 496,
+                    "name": "Mad Haberdasher",
+                    "description": "Go ahead, you know you want to try the teacake!",
+                    "complete": "I wonder if he'd let you borrow his hat sometime?",
+                    "swf": "quests\/AriainWanderland\/quest-aria4r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "foresty monsters",
+                    "monsterGroupSwf": "mset-aria1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

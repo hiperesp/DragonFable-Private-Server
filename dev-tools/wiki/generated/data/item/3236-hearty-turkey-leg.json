@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3236-hearty-turkey-leg",
+        "fullSlug": "items\/3236-hearty-turkey-leg",
+        "id": 3236,
+        "name": "Hearty Turkey Leg",
+        "description": "This weapon is hot, delicious and extremely dangerous."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3236,
+            "name": "Hearty Turkey Leg",
+            "description": "This weapon is hot, delicious and extremely dangerous.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 4,
+            "level": 35,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-turkey.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 54,
+            "damageMax": 60,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5"
+        }
+    },
+    "related": {
+        "34-thankstaking-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "34-thankstaking-weapons",
+                "fullSlug": "merge-shops\/34-thankstaking-weapons",
+                "id": 34,
+                "name": "Thankstaking Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 34,
+                    "name": "Thankstaking Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 556,
+                    "mergeShopId": 34,
+                    "mergeId": 586
+                },
+                "merge": {
+                    "id": 586,
+                    "itemId1": 581,
+                    "amount1": 2,
+                    "itemId2": 495,
+                    "amount2": 11,
+                    "itemId": 3236,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

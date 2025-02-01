@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4525-moonridge-cutters",
+        "fullSlug": "items\/4525-moonridge-cutters",
+        "id": 4525,
+        "name": "Moonridge Cutters",
+        "description": "This weapon was crafted to commemorate your bravery in the battle against the Z-Virus. The red cloth on the hilt symbolizes freedom. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4525,
+            "name": "Moonridge Cutters",
+            "description": "This weapon was crafted to commemorate your bravery in the battle against the Z-Virus. The red cloth on the hilt symbolizes freedom. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 3,
+            "level": 16,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-Moonridge Cutters.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 28,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2"
+        }
+    },
+    "related": {
+        "160-infected-defeated": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "160-infected-defeated",
+                "fullSlug": "item-shops\/160-infected-defeated",
+                "id": 160,
+                "name": "Infected Defeated!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 160,
+                    "name": "Infected Defeated!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21116-blades-of-the-great-one",
+        "fullSlug": "items\/21116-blades-of-the-great-one",
+        "id": 21116,
+        "name": "Blades of The Great One",
+        "description": "Forged by the DragonLords in honor of The Great One's protection, this unfinished weapon is too brittle to be used in battle. Perhaps your Alliance faction will be able to put the finishing touches on it. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21116,
+            "name": "Blades of The Great One",
+            "description": "Forged by the DragonLords in honor of The Great One's protection, this unfinished weapon is too brittle to be used in battle. Perhaps your Alliance faction will be able to put the finishing touches on it. (Cosmetic)",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 50,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-greatone.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "374-the-awakened-depths": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "374-the-awakened-depths",
+                "fullSlug": "merge-shops\/374-the-awakened-depths",
+                "id": 374,
+                "name": "The Awakened Depths",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 374,
+                    "name": "The Awakened Depths"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3901,
+                    "mergeShopId": 374,
+                    "mergeId": 4010
+                },
+                "merge": {
+                    "id": 4010,
+                    "itemId1": 21116,
+                    "amount1": 1,
+                    "itemId2": 21118,
+                    "amount2": 1,
+                    "itemId": 21112,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11445-lightblade-caliburn-vi",
+        "fullSlug": "items\/11445-lightblade-caliburn-vi",
+        "id": 11445,
+        "name": "Lightblade Caliburn VI",
+        "description": "A mysterious magical weapon, said to have come from the plane of light itself. Crafted in honor of Dracelix's birthday!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11445,
+            "name": "Lightblade Caliburn VI",
+            "description": "A mysterious magical weapon, said to have come from the plane of light itself. Crafted in honor of Dracelix's birthday!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 375,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-caliburn2017.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 68,
+            "damageMax": 92,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "All,5,Health,-7"
+        }
+    },
+    "related": {
+        "579-dracelix-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "579-dracelix-birthday",
+                "fullSlug": "item-shops\/579-dracelix-birthday",
+                "id": 579,
+                "name": "Dracelix Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 579,
+                    "name": "Dracelix Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

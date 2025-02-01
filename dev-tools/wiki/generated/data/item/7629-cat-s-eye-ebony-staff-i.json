@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7629-cat-s-eye-ebony-staff-i",
+        "fullSlug": "items\/7629-cat-s-eye-ebony-staff-i",
+        "id": 7629,
+        "name": "Cat's Eye Ebony Staff I",
+        "description": "This staff, carved from the heart of an ebony tree, is decorated with obsidian and amber and the cat's eye was enchanted by the light of a full moon to act as a channel for magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7629,
+            "name": "Cat's Eye Ebony Staff I",
+            "description": "This staff, carved from the heart of an ebony tree, is decorated with obsidian and amber and the cat's eye was enchanted by the light of a full moon to act as a channel for magic.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 32,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-mogloween12.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 46,
+            "damageMax": 60,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Water,4,Wind,3,Immobility,1"
+        }
+    },
+    "related": {
+        "962-catastrophic-candy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "962-catastrophic-candy",
+                "fullSlug": "quests\/962-catastrophic-candy",
+                "id": 962,
+                "name": "Catastrophic Candy",
+                "description": "Can you defeat Furrkenstein?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 962,
+                    "name": "Catastrophic Candy",
+                    "description": "Can you defeat Furrkenstein?!",
+                    "complete": "Furrkenstein is no more!",
+                    "swf": "towns\/Mogloween\/M12\/quest4-catastrophic.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "furrkenstein",
+                    "monsterGroupSwf": "mset-furrkenstein.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

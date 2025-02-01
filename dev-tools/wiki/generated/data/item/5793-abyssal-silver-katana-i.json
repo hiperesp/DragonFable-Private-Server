@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5793-abyssal-silver-katana-i",
+        "fullSlug": "items\/5793-abyssal-silver-katana-i",
+        "id": 5793,
+        "name": "Abyssal Silver Katana I",
+        "description": "When True Mortal forged the silver hammer he also forged this katana for a friend to use in battle against the Yokai."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5793,
+            "name": "Abyssal Silver Katana I",
+            "description": "When True Mortal forged the silver hammer he also forged this katana for a friend to use in battle against the Yokai.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 40,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-Abyssal Katana.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 54,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "93-true-mortal": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "93-true-mortal",
+                "fullSlug": "merge-shops\/93-true-mortal",
+                "id": 93,
+                "name": "True Mortal",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 93,
+                    "name": "True Mortal"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1297,
+                    "mergeShopId": 93,
+                    "mergeId": 1089
+                },
+                "merge": {
+                    "id": 1089,
+                    "itemId1": 5760,
+                    "amount1": 20,
+                    "itemId2": 5793,
+                    "amount2": 1,
+                    "itemId": 5794,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

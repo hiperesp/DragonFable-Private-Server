@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "282-luminary",
+        "fullSlug": "items\/282-luminary",
+        "id": 282,
+        "name": "Luminary",
+        "description": "Legend has it this gem fell from the sky long ago. Where it came from is unknown, but it shines with a bright light."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 282,
+            "name": "Luminary",
+            "description": "Legend has it this gem fell from the sky long ago. Where it came from is unknown, but it shines with a bright light.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 12,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-goldscaleyellowcrystal.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 32,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 2,
+            "block": 6,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-forest-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "19-forest-cave",
+                "fullSlug": "quests\/19-forest-cave",
+                "id": 19,
+                "name": "Forest Cave",
+                "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 19,
+                    "name": "Forest Cave",
+                    "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "complete": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "swf": "random\/random-normalcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        },
+        "23-fiery-heart-of-mt-shining-star": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "23-fiery-heart-of-mt-shining-star",
+                "fullSlug": "quests\/23-fiery-heart-of-mt-shining-star",
+                "id": 23,
+                "name": "Fiery Heart of Mt. Shining Star",
+                "description": "You have braved the heat and come out the other side of the mountain only slightly toasted! Is that burning hair that you smell?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 23,
+                    "name": "Fiery Heart of Mt. Shining Star",
+                    "description": "You have braved the heat and come out the other side of the mountain only slightly toasted! Is that burning hair that you smell?",
+                    "complete": "You have braved the heat and come out the other side of the mountain only slightly toasted! Is that burning hair that you smell?",
+                    "swf": "quests\/quest-firecave4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 150,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 10,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Elemental",
+                    "monsterGroupSwf": "mset-elementalfire.swf"
+                }
+            },
+            "related": []
+        },
+        "25-its-a-dirty-job": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "25-its-a-dirty-job",
+                "fullSlug": "quests\/25-its-a-dirty-job",
+                "id": 25,
+                "name": "Its A Dirty Job...",
+                "description": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 25,
+                    "name": "Its A Dirty Job...",
+                    "description": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "complete": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "swf": "random\/random-earthcave1.swf",
+                    "swfX": "none",
+                    "maxSilver": 11,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 14,
+                    "monsterMaxLevel": 20,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalearth2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

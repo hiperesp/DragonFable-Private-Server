@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17521-syzygy-key-iii",
+        "fullSlug": "items\/17521-syzygy-key-iii",
+        "id": 17521,
+        "name": "Syzygy Key III",
+        "description": "With this key, you can view the Lorian eclipse whenever you like!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17521,
+            "name": "Syzygy Key III",
+            "description": "With this key, you can view the Lorian eclipse whenever you like!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 60,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-syzygykey.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 73,
+            "damageMax": 86,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,7"
+        }
+    },
+    "related": {
+        "566-solar-eclipse": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "566-solar-eclipse",
+                "fullSlug": "item-shops\/566-solar-eclipse",
+                "id": 566,
+                "name": "Solar Eclipse",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 566,
+                    "name": "Solar Eclipse",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

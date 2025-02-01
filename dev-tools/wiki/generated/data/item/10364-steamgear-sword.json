@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10364-steamgear-sword",
+        "fullSlug": "items\/10364-steamgear-sword",
+        "id": 10364,
+        "name": "SteamGear Sword",
+        "description": "MG crafted these for you with items left in Popsprocket."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10364,
+            "name": "SteamGear Sword",
+            "description": "MG crafted these for you with items left in Popsprocket.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-steamgear.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 47,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3"
+        }
+    },
+    "related": {
+        "1075-the-gnomes-gnow": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1075-the-gnomes-gnow",
+                "fullSlug": "quests\/1075-the-gnomes-gnow",
+                "id": 1075,
+                "name": "The Gnomes Gnow",
+                "description": "You need a way to harness Void energy and defend the ship! Time to talk to the gnomes."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1075,
+                    "name": "The Gnomes Gnow",
+                    "description": "You need a way to harness Void energy and defend the ship! Time to talk to the gnomes.",
+                    "complete": "The ugly face of Envy has been defeated... for now.",
+                    "swf": "towns\/3Ravenloss\/quest5-gnomes-new.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "mech",
+                    "monsterGroupSwf": "mset-popsmash-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

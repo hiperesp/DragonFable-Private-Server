@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21624-shattered-antique-lance",
+        "fullSlug": "items\/21624-shattered-antique-lance",
+        "id": 21624,
+        "name": "Shattered Antique Lance",
+        "description": "An ancient, broken lance once wielded by a long forgotten hero. Perhaps it could be repaired with the right resources. Proof of victory over the Willowshire Burns challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21624,
+            "name": "Shattered Antique Lance",
+            "description": "An ancient, broken lance once wielded by a long forgotten hero. Perhaps it could be repaired with the right resources. Proof of victory over the Willowshire Burns challenge.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2065-willowshire-burns-arena": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2065-willowshire-burns-arena",
+                "fullSlug": "quests\/2065-willowshire-burns-arena",
+                "id": 2065,
+                "name": "Willowshire Burns (Arena)",
+                "description": "This dynamic duo of dragons is turning Willowshire into even more of a ruin! It's up to you to stop them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2065,
+                    "name": "Willowshire Burns (Arena)",
+                    "description": "This dynamic duo of dragons is turning Willowshire into even more of a ruin! It's up to you to stop them!",
+                    "complete": "Something, something, rock and a hard place.",
+                    "swf": "towns\/TimeArena\/quest5-guardiangorgok.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Guardian and Gorgok",
+                    "monsterGroupSwf": "mset-arenaggdrag.swf"
+                }
+            },
+            "related": []
+        },
+        "395-willowshire-burns": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "395-willowshire-burns",
+                "fullSlug": "merge-shops\/395-willowshire-burns",
+                "id": 395,
+                "name": "Willowshire Burns",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 395,
+                    "name": "Willowshire Burns"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4163,
+                    "mergeShopId": 395,
+                    "mergeId": 4208
+                },
+                "merge": {
+                    "id": 4208,
+                    "itemId1": 21625,
+                    "amount1": 1,
+                    "itemId2": 21624,
+                    "amount2": 1,
+                    "itemId": 21621,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

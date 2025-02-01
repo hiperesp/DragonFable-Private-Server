@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2428-death-s-cowl",
+        "fullSlug": "items\/2428-death-s-cowl",
+        "id": 2428,
+        "name": "Death's Cowl",
+        "description": "The aura surrounding this hood is so intimidating not even your own mother would hug you while you wear it!  Especially not if you click on the pulsing blue gem! *shudder*  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2428,
+            "name": "Death's Cowl",
+            "description": "The aura surrounding this hood is so intimidating not even your own mother would hug you while you wear it!  Especially not if you click on the pulsing blue gem! *shudder*  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 8,
+            "level": 25,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-death.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,3,Immobility,2"
+        }
+    },
+    "related": {
+        "407-triple-threat": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "407-triple-threat",
+                "fullSlug": "quests\/407-triple-threat",
+                "id": 407,
+                "name": "Triple Threat?",
+                "description": "So you've got to find the three-headed monster who guards Death's realm?  The gates would be a good place to start."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 407,
+                    "name": "Triple Threat?",
+                    "description": "So you've got to find the three-headed monster who guards Death's realm?  The gates would be a good place to start.",
+                    "complete": "You might not have found Triskylos, but you got a REALLY cute pet in its place.",
+                    "swf": "quests\/Zeuster\/quest-bacon12.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-bacon12.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

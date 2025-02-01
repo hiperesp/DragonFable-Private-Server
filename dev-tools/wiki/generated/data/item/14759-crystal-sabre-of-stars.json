@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14759-crystal-sabre-of-stars",
+        "fullSlug": "items\/14759-crystal-sabre-of-stars",
+        "id": 14759,
+        "name": "Crystal Sabre of Stars",
+        "description": "This blade is half of an ancient blade once guarded by the Vizalain. Its other half was lost to Darkness, but this weapon will help you to fight against evil!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14759,
+            "name": "Crystal Sabre of Stars",
+            "description": "This blade is half of an ancient blade once guarded by the Vizalain. Its other half was lost to Darkness, but this weapon will help you to fight against evil!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-CrystalStarSword.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Darkness,8,Fire,3,Ice,3,Immobility,3"
+        }
+    },
+    "related": {
+        "467-vizalain-s-gratitude": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "467-vizalain-s-gratitude",
+                "fullSlug": "item-shops\/467-vizalain-s-gratitude",
+                "id": 467,
+                "name": "Vizalain's Gratitude",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 467,
+                    "name": "Vizalain's Gratitude",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

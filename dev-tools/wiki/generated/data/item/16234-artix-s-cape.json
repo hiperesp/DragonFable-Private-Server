@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16234-artix-s-cape",
+        "fullSlug": "items\/16234-artix-s-cape",
+        "id": 16234,
+        "name": "Artix's Cape",
+        "description": "Artix's trademark red cape! Warm and comfy, and stylish too. Great for any undead slayer's ensemble."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16234,
+            "name": "Artix's Cape",
+            "description": "Artix's trademark red cape! Warm and comfy, and stylish too. Great for any undead slayer's ensemble.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 140,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 60,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-artix.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness, 10"
+        }
+    },
+    "related": {
+        "511-paladay-loot": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "511-paladay-loot",
+                "fullSlug": "item-shops\/511-paladay-loot",
+                "id": 511,
+                "name": "Paladay Loot",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 511,
+                    "name": "Paladay Loot",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

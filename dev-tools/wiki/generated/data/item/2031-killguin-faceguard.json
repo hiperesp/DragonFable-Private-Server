@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2031-killguin-faceguard",
+        "fullSlug": "items\/2031-killguin-faceguard",
+        "id": 2031,
+        "name": "Killguin Faceguard",
+        "description": "This golden helm is reserved for the most elite of Kilguin warriors. In addition to it's uses for battle, it is also a key piece of equipment for a tribal competition known as HOC-EE."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2031,
+            "name": "Killguin Faceguard",
+            "description": "This golden helm is reserved for the most elite of Kilguin warriors. In addition to it's uses for battle, it is also a key piece of equipment for a tribal competition known as HOC-EE.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 12,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-faceguard.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3"
+        }
+    },
+    "related": {
+        "314-ice-queen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "314-ice-queen",
+                "fullSlug": "quests\/314-ice-queen",
+                "id": 314,
+                "name": "Ice Queen",
+                "description": "Go with Galanoth to the lost city of the ice elves and finish the fight with Aisha."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 314,
+                    "name": "Ice Queen",
+                    "description": "Go with Galanoth to the lost city of the ice elves and finish the fight with Aisha.",
+                    "complete": "Aisha is defeated, the Elemental Ice Orb is yours and Dragesvard is saved. This brings you one step closer to gathering all of the orbs before Sepulchure can. You have the everlasting gratitude of the people of Dragesvard!",
+                    "swf": "towns\/Dragesvard\/quest-galanoth9.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-aisha.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

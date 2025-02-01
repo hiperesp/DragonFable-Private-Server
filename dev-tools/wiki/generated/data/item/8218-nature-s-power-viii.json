@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8218-nature-s-power-viii",
+        "fullSlug": "items\/8218-nature-s-power-viii",
+        "id": 8218,
+        "name": "Nature's Power VIII",
+        "description": "Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8218,
+            "name": "Nature's Power VIII",
+            "description": "Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 73,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Nature Power final.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 92,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Metal,6,Fire,6,Water,5,Ice,5,Health,-3"
+        }
+    },
+    "related": {
+        "127-sielu-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "127-sielu-s-shop",
+                "fullSlug": "merge-shops\/127-sielu-s-shop",
+                "id": 127,
+                "name": "Sielu's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 127,
+                    "name": "Sielu's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1802,
+                    "mergeShopId": 127,
+                    "mergeId": 1686
+                },
+                "merge": {
+                    "id": 1686,
+                    "itemId1": 7869,
+                    "amount1": 10,
+                    "itemId2": 8218,
+                    "amount2": 1,
+                    "itemId": 8219,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

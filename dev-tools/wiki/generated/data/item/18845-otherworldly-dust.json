@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18845-otherworldly-dust",
+        "fullSlug": "items\/18845-otherworldly-dust",
+        "id": 18845,
+        "name": "Otherworldly Dust",
+        "description": "A small pile of dust gathered from the Otherworld. It doesn't seem particularly magical. Or maybe you just can't tell. Proof of your victory over the Kerfluffle. Used to upgrade the Ring of Otherworld."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18845,
+            "name": "Otherworldly Dust",
+            "description": "A small pile of dust gathered from the Otherworld. It doesn't seem particularly magical. Or maybe you just can't tell. Proof of your victory over the Kerfluffle. Used to upgrade the Ring of Otherworld.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1624-kerfluffle": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1624-kerfluffle",
+                "fullSlug": "quests\/1624-kerfluffle",
+                "id": 1624,
+                "name": "Kerfluffle",
+                "description": "It's so fluffy! And somewhat ominous. But fluffy!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1624,
+                    "name": "Kerfluffle",
+                    "description": "It's so fluffy! And somewhat ominous. But fluffy!",
+                    "complete": "Pair of furballs, dealt with.",
+                    "swf": "towns\/TimeArena\/quest-gufferkitty.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Doomkitten & Guffer",
+                    "monsterGroupSwf": "mset-kittenguffer.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "305-ring-of-otherworld": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "305-ring-of-otherworld",
+                "fullSlug": "merge-shops\/305-ring-of-otherworld",
+                "id": 305,
+                "name": "Ring of Otherworld",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 305,
+                    "name": "Ring of Otherworld"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3320,
+                    "mergeShopId": 305,
+                    "mergeId": 3403
+                },
+                "merge": {
+                    "id": 3403,
+                    "itemId1": 18841,
+                    "amount1": 1,
+                    "itemId2": 18845,
+                    "amount2": 1,
+                    "itemId": 18842,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

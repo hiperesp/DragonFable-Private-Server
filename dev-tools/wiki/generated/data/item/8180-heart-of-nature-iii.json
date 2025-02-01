@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8180-heart-of-nature-iii",
+        "fullSlug": "items\/8180-heart-of-nature-iii",
+        "id": 8180,
+        "name": "Heart of Nature III",
+        "description": "Crafted from elemental essences, this weapon will serve you well! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8180,
+            "name": "Heart of Nature III",
+            "description": "Crafted from elemental essences, this weapon will serve you well! ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/polearm-Heart of Nature simple.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 42,
+            "damageMax": 60,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,3,Fire,3,Health,-1"
+        }
+    },
+    "related": {
+        "127-sielu-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "127-sielu-s-shop",
+                "fullSlug": "merge-shops\/127-sielu-s-shop",
+                "id": 127,
+                "name": "Sielu's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 127,
+                    "name": "Sielu's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1845,
+                    "mergeShopId": 127,
+                    "mergeId": 1670
+                },
+                "merge": {
+                    "id": 1670,
+                    "itemId1": 7869,
+                    "amount1": 7,
+                    "itemId2": 8180,
+                    "amount2": 1,
+                    "itemId": 8181,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

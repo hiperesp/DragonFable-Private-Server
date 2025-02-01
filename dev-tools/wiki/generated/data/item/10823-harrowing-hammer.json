@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10823-harrowing-hammer",
+        "fullSlug": "items\/10823-harrowing-hammer",
+        "id": 10823,
+        "name": "Harrowing Hammer",
+        "description": "Made of pumpkin vines and hardened wood, this harrowing weapon will strike fear into the hearts of your enemies!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10823,
+            "name": "Harrowing Hammer",
+            "description": "Made of pumpkin vines and hardened wood, this harrowing weapon will strike fear into the hearts of your enemies!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/hammers\/hammer-harrowing pumpkin.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,6,Darkness,4,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "187-harrowing-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "187-harrowing-60",
+                "fullSlug": "merge-shops\/187-harrowing-60",
+                "id": 187,
+                "name": "Harrowing 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 187,
+                    "name": "Harrowing 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2174,
+                    "mergeShopId": 187,
+                    "mergeId": 2005
+                },
+                "merge": {
+                    "id": 2005,
+                    "itemId1": 10822,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10823,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "188-harrowing-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "188-harrowing-70",
+                "fullSlug": "merge-shops\/188-harrowing-70",
+                "id": 188,
+                "name": "Harrowing 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 188,
+                    "name": "Harrowing 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2178,
+                    "mergeShopId": 188,
+                    "mergeId": 2006
+                },
+                "merge": {
+                    "id": 2006,
+                    "itemId1": 10823,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10824,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

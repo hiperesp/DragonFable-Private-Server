@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5728-found-defiled-skull-ripper-helm",
+        "fullSlug": "items\/5728-found-defiled-skull-ripper-helm",
+        "id": 5728,
+        "name": "Found Defiled Skull Ripper Helm",
+        "description": "A demonic energy reverberates through the skull. Visit the Black Market Moglin to upgrade this item."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5728,
+            "name": "Found Defiled Skull Ripper Helm",
+            "description": "A demonic energy reverberates through the skull. Visit the Black Market Moglin to upgrade this item.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 65,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-ripper mask.swf",
+            "icon": "helm",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,11,Fire,8,Ice,8,Disease,5,Immobility,3"
+        }
+    },
+    "related": {
+        "90-skull-ripper-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "90-skull-ripper-helm",
+                "fullSlug": "merge-shops\/90-skull-ripper-helm",
+                "id": 90,
+                "name": "Skull Ripper Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 90,
+                    "name": "Skull Ripper Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1238,
+                    "mergeShopId": 90,
+                    "mergeId": 1059
+                },
+                "merge": {
+                    "id": 1059,
+                    "itemId1": 5728,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 5729,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

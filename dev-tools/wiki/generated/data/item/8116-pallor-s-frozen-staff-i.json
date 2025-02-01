@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8116-pallor-s-frozen-staff-i",
+        "fullSlug": "items\/8116-pallor-s-frozen-staff-i",
+        "id": 8116,
+        "name": "Pallor's Frozen Staff I",
+        "description": "Left behind when that wicked witch melted! Happy FrostVayle!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8116,
+            "name": "Pallor's Frozen Staff I",
+            "description": "Left behind when that wicked witch melted! Happy FrostVayle!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 30,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 20,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-pallor.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 2,
+            "damageMin": 29,
+            "damageMax": 53,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3"
+        }
+    },
+    "related": {
+        "296-boss-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "296-boss-drops",
+                "fullSlug": "item-shops\/296-boss-drops",
+                "id": 296,
+                "name": "Boss Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 296,
+                    "name": "Boss Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

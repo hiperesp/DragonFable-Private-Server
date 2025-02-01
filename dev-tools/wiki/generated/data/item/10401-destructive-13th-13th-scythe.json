@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10401-destructive-13th-13th-scythe",
+        "fullSlug": "items\/10401-destructive-13th-13th-scythe",
+        "id": 10401,
+        "name": "Destructive 13th 13th Scythe",
+        "description": "Souls or spirits... something is screaming to escape! Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10401,
+            "name": "Destructive 13th 13th Scythe",
+            "description": "Souls or spirits... something is screaming to escape! Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Fr13.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,6,Fire,6,Ice,6,Immobility,1,Health,-2"
+        }
+    },
+    "related": {
+        "147-13th-13th": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "147-13th-13th",
+                "fullSlug": "merge-shops\/147-13th-13th",
+                "id": 147,
+                "name": "13th 13th",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 147,
+                    "name": "13th 13th"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2114,
+                    "mergeShopId": 147,
+                    "mergeId": 2328
+                },
+                "merge": {
+                    "id": 2328,
+                    "itemId1": 10401,
+                    "amount1": 1,
+                    "itemId2": 10405,
+                    "amount2": 1,
+                    "itemId": 12110,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21837-inert-protean",
+        "fullSlug": "items\/21837-inert-protean",
+        "id": 21837,
+        "name": "Inert Protean",
+        "description": "One of those little blobs managed to survive! Doesn't seem too responsive though... Proof of victory over the Devoured Horizons challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21837,
+            "name": "Inert Protean",
+            "description": "One of those little blobs managed to survive! Doesn't seem too responsive though... Proof of victory over the Devoured Horizons challenge.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2120-devoured-horizons": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2120-devoured-horizons",
+                "fullSlug": "quests\/2120-devoured-horizons",
+                "id": 2120,
+                "name": "Devoured Horizons",
+                "description": "From beyond the reach of the stars, an unlikely pair of space-faring creatures is here to face you."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2120,
+                    "name": "Devoured Horizons",
+                    "description": "From beyond the reach of the stars, an unlikely pair of space-faring creatures is here to face you.",
+                    "complete": "Alien threats can't make it past you!",
+                    "swf": "towns\/TimeArena\/quest7-snakeprotean.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Protus Symbiote and Snake",
+                    "monsterGroupSwf": "mset-arenaprosnek-r4.swf?ver=3"
+                }
+            },
+            "related": []
+        },
+        "411-devoured-horizons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "411-devoured-horizons",
+                "fullSlug": "merge-shops\/411-devoured-horizons",
+                "id": 411,
+                "name": "Devoured Horizons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 411,
+                    "name": "Devoured Horizons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4239,
+                    "mergeShopId": 411,
+                    "mergeId": 4281
+                },
+                "merge": {
+                    "id": 4281,
+                    "itemId1": 21837,
+                    "amount1": 1,
+                    "itemId2": 21836,
+                    "amount2": 1,
+                    "itemId": 21840,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

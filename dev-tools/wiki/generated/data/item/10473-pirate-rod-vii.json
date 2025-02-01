@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10473-pirate-rod-vii",
+        "fullSlug": "items\/10473-pirate-rod-vii",
+        "id": 10473,
+        "name": "Pirate Rod VII",
+        "description": "This be th' perfect weapon to be fightin' off ninja's with! This weapon be requirin' a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10473,
+            "name": "Pirate Rod VII",
+            "description": "This be th' perfect weapon to be fightin' off ninja's with! This weapon be requirin' a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 38750,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 70,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-pirate-rod.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 9,
+            "luck": 11,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 6,
+            "damageMin": 75,
+            "damageMax": 89,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Energy,10,Wind,8,Fire,8,All,1"
+        }
+    },
+    "related": {
+        "275-tlapd-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "275-tlapd-items",
+                "fullSlug": "item-shops\/275-tlapd-items",
+                "id": 275,
+                "name": "TLaPD Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 275,
+                    "name": "TLaPD Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

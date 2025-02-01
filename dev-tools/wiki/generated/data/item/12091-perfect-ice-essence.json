@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12091-perfect-ice-essence",
+        "fullSlug": "items\/12091-perfect-ice-essence",
+        "id": 12091,
+        "name": "Perfect Ice Essence",
+        "description": "This essence was collected from an ice cave in the far north. It's so perfect that it should increase the already impressive power of the Frozen Claymore and the Vanilla Ice Katana even more."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12091,
+            "name": "Perfect Ice Essence",
+            "description": "This essence was collected from an ice cave in the far north. It's so perfect that it should increase the already impressive power of the Frozen Claymore and the Vanilla Ice Katana even more.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 200,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluebag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "264-robins-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "264-robins-shop",
+                "fullSlug": "item-shops\/264-robins-shop",
+                "id": 264,
+                "name": "Robins Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 264,
+                    "name": "Robins Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1485,
+                    "mergeShopId": 108,
+                    "mergeId": 2632
+                },
+                "merge": {
+                    "id": 2632,
+                    "itemId1": 14249,
+                    "amount1": 1,
+                    "itemId2": 12091,
+                    "amount2": 1,
+                    "itemId": 14250,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

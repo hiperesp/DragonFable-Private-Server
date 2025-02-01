@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2981-mad-tophat",
+        "fullSlug": "items\/2981-mad-tophat",
+        "id": 2981,
+        "name": "Mad Tophat",
+        "description": "Only the maddest of haberdashers can pull off this tophat!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2981,
+            "name": "Mad Tophat",
+            "description": "Only the maddest of haberdashers can pull off this tophat!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1400,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-habdash1.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,6,Light,6,Immobility,2"
+        }
+    },
+    "related": {
+        "496-mad-haberdasher": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "496-mad-haberdasher",
+                "fullSlug": "quests\/496-mad-haberdasher",
+                "id": 496,
+                "name": "Mad Haberdasher",
+                "description": "Go ahead, you know you want to try the teacake!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 496,
+                    "name": "Mad Haberdasher",
+                    "description": "Go ahead, you know you want to try the teacake!",
+                    "complete": "I wonder if he'd let you borrow his hat sometime?",
+                    "swf": "quests\/AriainWanderland\/quest-aria4r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "foresty monsters",
+                    "monsterGroupSwf": "mset-aria1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

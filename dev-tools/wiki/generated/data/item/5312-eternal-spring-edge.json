@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5312-eternal-spring-edge",
+        "fullSlug": "items\/5312-eternal-spring-edge",
+        "id": 5312,
+        "name": "Eternal Spring Edge",
+        "description": "Hope springs eternal! Happy April Fool's Day 2011!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5312,
+            "name": "Eternal Spring Edge",
+            "description": "Hope springs eternal! Happy April Fool's Day 2011!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 24,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-springweapon.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 40,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Water,3"
+        }
+    },
+    "related": {
+        "202-eternal-spring": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "202-eternal-spring",
+                "fullSlug": "item-shops\/202-eternal-spring",
+                "id": 202,
+                "name": "Eternal Spring",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 202,
+                    "name": "Eternal Spring",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "208-happy-2011-april-fools": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "208-happy-2011-april-fools",
+                "fullSlug": "item-shops\/208-happy-2011-april-fools",
+                "id": 208,
+                "name": "Happy 2011 April Fools!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 208,
+                    "name": "Happy 2011 April Fools!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

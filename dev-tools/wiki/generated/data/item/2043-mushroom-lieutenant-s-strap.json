@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2043-mushroom-lieutenant-s-strap",
+        "fullSlug": "items\/2043-mushroom-lieutenant-s-strap",
+        "id": 2043,
+        "name": "Mushroom Lieutenant's Strap",
+        "description": "One of the mushroom lieutenants dropped this as he fell in battle in the deep woods near Oaklore Keep.  It's a bit musty but seems to have made you a bit quicker and more able to dodge enemies when you wear it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2043,
+            "name": "Mushroom Lieutenant's Strap",
+            "description": "One of the mushroom lieutenants dropped this as he fell in battle in the deep woods near Oaklore Keep.  It's a bit musty but seems to have made you a bit quicker and more able to dodge enemies when you wear it.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 550,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 30,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Nature,3,Immobility,1"
+        }
+    },
+    "related": {
+        "311-major-mayhem": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "311-major-mayhem",
+                "fullSlug": "quests\/311-major-mayhem",
+                "id": 311,
+                "name": "Major Mayhem",
+                "description": "Little Jenny disappeared while hunting mushrooms for the Keep's pantry. Hopefully she's just lost, and nothing has mistaken her for its dinner instead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 311,
+                    "name": "Major Mayhem",
+                    "description": "Little Jenny disappeared while hunting mushrooms for the Keep's pantry. Hopefully she's just lost, and nothing has mistaken her for its dinner instead!",
+                    "complete": "Jenny is safe and Sir Ano is (slowly) learning the art of a Hero's humor with your help!  And the loot littered around the Mushroom camp isn't too shabby, either.",
+                    "swf": "quests\/quest-cyrano2-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "deepwoods",
+                    "monsterGroupSwf": "mset-cyrano2-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

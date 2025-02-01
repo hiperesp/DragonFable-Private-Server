@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8412-gloom-glaive",
+        "fullSlug": "items\/8412-gloom-glaive",
+        "id": 8412,
+        "name": "Gloom Glaive",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8412,
+            "name": "Gloom Glaive"
+        }
+    },
+    "related": {
+        "128-gloom-glaive": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "128-gloom-glaive",
+                "fullSlug": "merge-shops\/128-gloom-glaive",
+                "id": 128,
+                "name": "Gloom Glaive",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 128,
+                    "name": "Gloom Glaive"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1868,
+                    "mergeShopId": 128,
+                    "mergeId": 1744
+                },
+                "merge": {
+                    "id": 1744,
+                    "itemId1": 8412,
+                    "amount1": 1,
+                    "itemId2": 8417,
+                    "amount2": 1,
+                    "itemId": 8413,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

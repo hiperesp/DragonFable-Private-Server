@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14943-dola-mask",
+        "fullSlug": "items\/14943-dola-mask",
+        "id": 14943,
+        "name": "Dola Mask",
+        "description": "Which houses are handing out carrots? Happy Mogloween 2015!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14943,
+            "name": "Dola Mask",
+            "description": "Which houses are handing out carrots? Happy Mogloween 2015!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 5,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/mask-dola.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 14,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,10,Darkness,10,Wind,9,Immobility,12,Health,-1"
+        }
+    },
+    "related": {
+        "116-cysero-s-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "116-cysero-s-mask-shop",
+                "fullSlug": "item-shops\/116-cysero-s-mask-shop",
+                "id": 116,
+                "name": "Cysero's Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Cysero's Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

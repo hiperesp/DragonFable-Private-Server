@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8904-swamp-katana-iii",
+        "fullSlug": "items\/8904-swamp-katana-iii",
+        "id": 8904,
+        "name": "Swamp Katana III",
+        "description": "With a blade crafted from the metal of Rose Emblems, the edge of this weapon is coated in a deadly swamp poison!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8904,
+            "name": "Swamp Katana III",
+            "description": "With a blade crafted from the metal of Rose Emblems, the edge of this weapon is coated in a deadly swamp poison!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 31,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-swampkatana.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 46,
+            "damageMax": 68,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,3,Water,2,Darkness,2"
+        }
+    },
+    "related": {
+        "314-suleneska": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "314-suleneska",
+                "fullSlug": "item-shops\/314-suleneska",
+                "id": 314,
+                "name": "SulenEska",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 314,
+                    "name": "SulenEska",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

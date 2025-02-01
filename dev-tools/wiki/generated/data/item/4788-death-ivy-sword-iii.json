@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4788-death-ivy-sword-iii",
+        "fullSlug": "items\/4788-death-ivy-sword-iii",
+        "id": 4788,
+        "name": "Death Ivy Sword III",
+        "description": "And you thought falling into poison ivy was bad! You REALLY don't want to fall into a patch of THIS ivy.  But it sure makes great weapons! Suggested by Zhukai, forest wanderer and naturalist extraordinaire! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4788,
+            "name": "Death Ivy Sword III",
+            "description": "And you thought falling into poison ivy was bad! You REALLY don't want to fall into a patch of THIS ivy.  But it sure makes great weapons! Suggested by Zhukai, forest wanderer and naturalist extraordinaire! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 9500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 59,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-deathivysword.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,10,Water,10"
+        }
+    },
+    "related": {
+        "135-player-suggestion-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "135-player-suggestion-shop",
+                "fullSlug": "item-shops\/135-player-suggestion-shop",
+                "id": 135,
+                "name": "Player Suggestion Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Player Suggestion Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

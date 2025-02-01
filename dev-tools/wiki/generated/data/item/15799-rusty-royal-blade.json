@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15799-rusty-royal-blade",
+        "fullSlug": "items\/15799-rusty-royal-blade",
+        "id": 15799,
+        "name": "Rusty Royal Blade",
+        "description": "This ancient blade from an ancient kingdom was once a majestic and powerful weapon. It still is. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15799,
+            "name": "Rusty Royal Blade",
+            "description": "This ancient blade from an ancient kingdom was once a majestic and powerful weapon. It still is. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-rustedroyal.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 74,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Fire,7,Energy,5,Ice,5"
+        }
+    },
+    "related": {
+        "250-rusty-royal-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "250-rusty-royal-weapons",
+                "fullSlug": "merge-shops\/250-rusty-royal-weapons",
+                "id": 250,
+                "name": "Rusty Royal Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 250,
+                    "name": "Rusty Royal Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2817,
+                    "mergeShopId": 250,
+                    "mergeId": 2846
+                },
+                "merge": {
+                    "id": 2846,
+                    "itemId1": 15776,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15799,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

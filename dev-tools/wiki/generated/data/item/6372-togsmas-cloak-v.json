@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6372-togsmas-cloak-v",
+        "fullSlug": "items\/6372-togsmas-cloak-v",
+        "id": 6372,
+        "name": "Togsmas Cloak V",
+        "description": "Merry Togsmas 2011! A special cape made to honor your brave fight through Rolith's tog army to free Frostvale from his tyranny of silly hats!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6372,
+            "name": "Togsmas Cloak V",
+            "description": "Merry Togsmas 2011! A special cape made to honor your brave fight through Rolith's tog army to free Frostvale from his tyranny of silly hats!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-togsmas.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5,Darkness,4"
+        }
+    },
+    "related": {
+        "101-togsmas-gifts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "101-togsmas-gifts",
+                "fullSlug": "merge-shops\/101-togsmas-gifts",
+                "id": 101,
+                "name": "Togsmas Gifts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 101,
+                    "name": "Togsmas Gifts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1376,
+                    "mergeShopId": 101,
+                    "mergeId": 1253
+                },
+                "merge": {
+                    "id": 1253,
+                    "itemId1": 6328,
+                    "amount1": 1,
+                    "itemId2": 6372,
+                    "amount2": 1,
+                    "itemId": 6373,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

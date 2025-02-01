@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19798-tytanvisage-helm-gold-i",
+        "fullSlug": "items\/19798-tytanvisage-helm-gold-i",
+        "id": 19798,
+        "name": "Tytanvisage Helm (Gold) I",
+        "description": "A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of The Golden Hand."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19798,
+            "name": "Tytanvisage Helm (Gold) I",
+            "description": "A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of The Golden Hand.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 30,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-tytangold.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Fire,1,All,1"
+        }
+    },
+    "related": {
+        "325-golden-hand-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "325-golden-hand-helm",
+                "fullSlug": "merge-shops\/325-golden-hand-helm",
+                "id": 325,
+                "name": "Golden Hand Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 325,
+                    "name": "Golden Hand Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3457,
+                    "mergeShopId": 325,
+                    "mergeId": 3546
+                },
+                "merge": {
+                    "id": 3546,
+                    "itemId1": 19798,
+                    "amount1": 1,
+                    "itemId2": 19272,
+                    "amount2": 5,
+                    "itemId": 19799,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8610-rose-eternal-legacy-dagger-iii",
+        "fullSlug": "items\/8610-rose-eternal-legacy-dagger-iii",
+        "id": 8610,
+        "name": "Rose Eternal Legacy Dagger III",
+        "description": "A lithe weapon, approved for use by the Rose."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8610,
+            "name": "Rose Eternal Legacy Dagger III",
+            "description": "A lithe weapon, approved for use by the Rose.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 275,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-RoseLegacy.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 56,
+            "damageMax": 76,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Nature,4,Water,2,Health,-1"
+        }
+    },
+    "related": {
+        "306-rosefort-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "306-rosefort-dc",
+                "fullSlug": "item-shops\/306-rosefort-dc",
+                "id": 306,
+                "name": "RoseFort DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 306,
+                    "name": "RoseFort DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

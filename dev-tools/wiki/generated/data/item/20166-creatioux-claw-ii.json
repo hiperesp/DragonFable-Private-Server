@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20166-creatioux-claw-ii",
+        "fullSlug": "items\/20166-creatioux-claw-ii",
+        "id": 20166,
+        "name": "Creatioux Claw II",
+        "description": "A weapon from another time and space. Fires a beam that increases enemy Health resistance. Proof of victory over Nythera, the Half Void Dragon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20166,
+            "name": "Creatioux Claw II",
+            "description": "A weapon from another time and space. Fires a beam that increases enemy Health resistance. Proof of victory over Nythera, the Half Void Dragon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 16,
+            "rarity": 0,
+            "level": 70,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-arenaNythera.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 81,
+            "damageMax": 85,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 16,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,4,Health,-12"
+        }
+    },
+    "related": {
+        "342-teacher-and-student": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "342-teacher-and-student",
+                "fullSlug": "merge-shops\/342-teacher-and-student",
+                "id": 342,
+                "name": "Teacher and Student",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 342,
+                    "name": "Teacher and Student"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3587,
+                    "mergeShopId": 342,
+                    "mergeId": 3679
+                },
+                "merge": {
+                    "id": 3679,
+                    "itemId1": 20165,
+                    "amount1": 1,
+                    "itemId2": 20174,
+                    "amount2": 1,
+                    "itemId": 20166,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

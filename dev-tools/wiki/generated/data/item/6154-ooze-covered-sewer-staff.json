@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6154-ooze-covered-sewer-staff",
+        "fullSlug": "items\/6154-ooze-covered-sewer-staff",
+        "id": 6154,
+        "name": "Ooze Covered Sewer Staff",
+        "description": "The sewer mutants are collecting these for some reason.... This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6154,
+            "name": "Ooze Covered Sewer Staff",
+            "description": "The sewer mutants are collecting these for some reason.... This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 65,
+            "type": "Magic",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-sewerstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 9,
+            "wisdom": 3,
+            "damageMin": 67,
+            "damageMax": 91,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,10,Nature,10,Immobility,3"
+        }
+    },
+    "related": {
+        "236-sewer-chest": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "236-sewer-chest",
+                "fullSlug": "item-shops\/236-sewer-chest",
+                "id": 236,
+                "name": "Sewer Chest",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 236,
+                    "name": "Sewer Chest",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

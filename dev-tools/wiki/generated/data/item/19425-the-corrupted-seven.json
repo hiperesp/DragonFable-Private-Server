@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19425-the-corrupted-seven",
+        "fullSlug": "items\/19425-the-corrupted-seven",
+        "id": 19425,
+        "name": "The Corrupted Seven",
+        "description": "Summon the Seven Corrupted elemental spirits to attack your foe! Increases your Boost by 5 on use as well. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19425,
+            "name": "The Corrupted Seven",
+            "description": "Summon the Seven Corrupted elemental spirits to attack your foe! Increases your Boost by 5 on use as well. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 60,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-corrupted7.swf",
+            "icon": "trinket",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,4,Health,-4",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 0,
+            "cost": 0,
+            "type": "Melee"
+        }
+    },
+    "related": {
+        "1685-pandora-s-gauntlet": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1685-pandora-s-gauntlet",
+                "fullSlug": "quests\/1685-pandora-s-gauntlet",
+                "id": 1685,
+                "name": "Pandora's Gauntlet",
+                "description": "Before you stands Pandora herself, in her most sinful incarnation."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1685,
+                    "name": "Pandora's Gauntlet",
+                    "description": "Before you stands Pandora herself, in her most sinful incarnation.",
+                    "complete": "And finally, all that was left was Hope.",
+                    "swf": "towns\/TimeArena\/quest-pandora-r4.swf",
+                    "swfX": "towns\/TimeArena\/quest-pandora-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Corrupted Elemental Spirits",
+                    "monsterGroupSwf": "mset-7ES-Pandora-r3.swf"
+                }
+            },
+            "related": []
+        },
+        "317-pandora-s-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "317-pandora-s-merges",
+                "fullSlug": "merge-shops\/317-pandora-s-merges",
+                "id": 317,
+                "name": "Pandora's Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 317,
+                    "name": "Pandora's Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3390,
+                    "mergeShopId": 317,
+                    "mergeId": 3483
+                },
+                "merge": {
+                    "id": 3483,
+                    "itemId1": 19424,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19425,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

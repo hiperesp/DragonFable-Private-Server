@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10053-minivolt-i",
+        "fullSlug": "items\/10053-minivolt-i",
+        "id": 10053,
+        "name": "MiniVolt I",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10053,
+            "name": "MiniVolt I"
+        }
+    },
+    "related": {
+        "142-minivolt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "142-minivolt",
+                "fullSlug": "merge-shops\/142-minivolt",
+                "id": 142,
+                "name": "MiniVolt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 142,
+                    "name": "MiniVolt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2070,
+                    "mergeShopId": 142,
+                    "mergeId": 1913
+                },
+                "merge": {
+                    "id": 1913,
+                    "itemId1": 10053,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10054,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

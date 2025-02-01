@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4214-reforged-bos-primigenius",
+        "fullSlug": "items\/4214-reforged-bos-primigenius",
+        "id": 4214,
+        "name": "Reforged Bos Primigenius",
+        "description": "Passed down from a long line of warriors and explorers, this enchanted axe is the weapon of choice when facing creatures that dwell in maze-like structures. This weapon requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4214,
+            "name": "Reforged Bos Primigenius",
+            "description": "Passed down from a long line of warriors and explorers, this enchanted axe is the weapon of choice when facing creatures that dwell in maze-like structures. This weapon requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 23000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 20,
+            "level": 56,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-bacon7.swf",
+            "icon": "axe",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 68,
+            "damageMax": 76,
+            "defenseMelee": 4,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Metal,7,Stone,5"
+        }
+    },
+    "related": {
+        "154-moonridge-knights": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "154-moonridge-knights",
+                "fullSlug": "item-shops\/154-moonridge-knights",
+                "id": 154,
+                "name": "Moonridge Knights",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 154,
+                    "name": "Moonridge Knights",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

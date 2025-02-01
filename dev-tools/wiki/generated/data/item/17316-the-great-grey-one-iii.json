@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17316-the-great-grey-one-iii",
+        "fullSlug": "items\/17316-the-great-grey-one-iii",
+        "id": 17316,
+        "name": "The Great Grey One III",
+        "description": "Rewarded for defeating the pure dragon Oratath, a heavy scythe forged by vengeful Dragon Slayers that is said to allows the owner to turn insubstantia. It's merely a legend, though."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17316,
+            "name": "The Great Grey One III",
+            "description": "Rewarded for defeating the pure dragon Oratath, a heavy scythe forged by vengeful Dragon Slayers that is said to allows the owner to turn insubstantia. It's merely a legend, though.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 100,
+            "level": 70,
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-greydragon.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 75,
+            "damageMax": 89,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "266-dragon-challenge-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "266-dragon-challenge-upgrade",
+                "fullSlug": "merge-shops\/266-dragon-challenge-upgrade",
+                "id": 266,
+                "name": "Dragon Challenge Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 266,
+                    "name": "Dragon Challenge Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2995,
+                    "mergeShopId": 266,
+                    "mergeId": 3007
+                },
+                "merge": {
+                    "id": 3007,
+                    "itemId1": 17316,
+                    "amount1": 1,
+                    "itemId2": 17308,
+                    "amount2": 3,
+                    "itemId": 17317,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

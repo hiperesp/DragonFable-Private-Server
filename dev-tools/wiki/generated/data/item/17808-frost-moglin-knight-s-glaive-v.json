@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17808-frost-moglin-knight-s-glaive-v",
+        "fullSlug": "items\/17808-frost-moglin-knight-s-glaive-v",
+        "id": 17808,
+        "name": "Frost Moglin Knight's Glaive V",
+        "description": "The preferred weapon of the Frost Moglin Knights! It's been magically enlarged so you can wield it properly."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17808,
+            "name": "Frost Moglin Knight's Glaive V",
+            "description": "The preferred weapon of the Frost Moglin Knights! It's been magically enlarged so you can wield it properly.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 55,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-FrostMog.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 85,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Ice,4,Fire,4"
+        }
+    },
+    "related": {
+        "285-frost-moglin-artifacts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "285-frost-moglin-artifacts",
+                "fullSlug": "merge-shops\/285-frost-moglin-artifacts",
+                "id": 285,
+                "name": "Frost Moglin Artifacts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 285,
+                    "name": "Frost Moglin Artifacts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3127,
+                    "mergeShopId": 285,
+                    "mergeId": 3143
+                },
+                "merge": {
+                    "id": 3143,
+                    "itemId1": 17784,
+                    "amount1": 1,
+                    "itemId2": 17787,
+                    "amount2": 1,
+                    "itemId": 17808,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

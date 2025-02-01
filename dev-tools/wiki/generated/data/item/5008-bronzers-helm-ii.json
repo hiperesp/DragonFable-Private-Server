@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5008-bronzers-helm-ii",
+        "fullSlug": "items\/5008-bronzers-helm-ii",
+        "id": 5008,
+        "name": "Bronzers Helm II",
+        "description": "The Bronzers are an elite sport team followed by many of Falconreach's townspeople.  Are YOU a fan?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5008,
+            "name": "Bronzers Helm II",
+            "description": "The Bronzers are an elite sport team followed by many of Falconreach's townspeople.  Are YOU a fan?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 15,
+            "level": 42,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-superbowl11a.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 3,
+            "block": 0,
+            "resists": "Fire,7,Water,7"
+        }
+    },
+    "related": {
+        "185-superbowl-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "185-superbowl-shop",
+                "fullSlug": "item-shops\/185-superbowl-shop",
+                "id": 185,
+                "name": "SuperBowl Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 185,
+                    "name": "SuperBowl Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

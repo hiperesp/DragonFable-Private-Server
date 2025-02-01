@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21916-murk-deathknight-s-helm",
+        "fullSlug": "items\/21916-murk-deathknight-s-helm",
+        "id": 21916,
+        "name": "Murk DeathKnight's Helm",
+        "description": "Between the necromancers and the paladins were those who strove to stand between... and like the others, were lost all the same. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21916,
+            "name": "Murk DeathKnight's Helm",
+            "description": "Between the necromancers and the paladins were those who strove to stand between... and like the others, were lost all the same. (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-paladindeath.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "112-shadow-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "112-shadow-doom",
+                "fullSlug": "merge-shops\/112-shadow-doom",
+                "id": 112,
+                "name": "Shadow Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 112,
+                    "name": "Shadow Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1575,
+                    "mergeShopId": 112,
+                    "mergeId": 4307
+                },
+                "merge": {
+                    "id": 4307,
+                    "itemId1": 7016,
+                    "amount1": 13,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21916,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

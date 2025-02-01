@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2215-aggregate-dagger-ii",
+        "fullSlug": "items\/2215-aggregate-dagger-ii",
+        "id": 2215,
+        "name": "Aggregate Dagger II",
+        "description": "A bored geomancer's apprentice was playing around and managed to get the rocks he was studying to stick together.  Apprentices, bah! You can't ever leave them unsupervised!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2215,
+            "name": "Aggregate Dagger II",
+            "description": "A bored geomancer's apprentice was playing around and managed to get the rocks he was studying to stick together.  Apprentices, bah! You can't ever leave them unsupervised!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 37,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bacon3.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 49,
+            "damageMax": 63,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,3"
+        }
+    },
+    "related": {
+        "353-purebred-protests": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "353-purebred-protests",
+                "fullSlug": "quests\/353-purebred-protests",
+                "id": 353,
+                "name": "Purebred Protests",
+                "description": "The birds in Lore are bitter and they're drowning out the songs of Zeuster's supplicants with cries of their own. Zeuster has asked you to silence them by any means necessary."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 353,
+                    "name": "Purebred Protests",
+                    "description": "The birds in Lore are bitter and they're drowning out the songs of Zeuster's supplicants with cries of their own. Zeuster has asked you to silence them by any means necessary.",
+                    "complete": "Appealing to their audience's ego works for Zeuster's supplicants, and now it's worked for you! It seems that full-fledged birds are susceptible to flattery, too.",
+                    "swf": "quests\/Zeuster\/quest-bacon3a1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Birds",
+                    "monsterGroupSwf": "mset-bacon3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

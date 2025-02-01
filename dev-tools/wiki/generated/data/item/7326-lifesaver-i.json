@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7326-lifesaver-i",
+        "fullSlug": "items\/7326-lifesaver-i",
+        "id": 7326,
+        "name": "Lifesaver I",
+        "description": "A well worn cloak, this was given to you by a grateful being rescued from the fighting elements! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7326,
+            "name": "Lifesaver I",
+            "description": "A well worn cloak, this was given to you by a grateful being rescued from the fighting elements! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 7,
+            "level": 21,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-rescue-blue.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,1,Water,1,Wind,1,Stone,1,All,1"
+        }
+    },
+    "related": {
+        "930-disarray": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "930-disarray",
+                "fullSlug": "quests\/930-disarray",
+                "id": 930,
+                "name": "Disarray",
+                "description": "While you were fighting Wargoth... the rest of Lore has fallen into disarray!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 930,
+                    "name": "Disarray",
+                    "description": "While you were fighting Wargoth... the rest of Lore has fallen into disarray!",
+                    "complete": "Will you be able to merge both halves of Warlic?",
+                    "swf": "towns\/Atrea\/quest11-disarray-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "all DF style eles",
+                    "monsterGroupSwf": "mset-elementalwarr5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

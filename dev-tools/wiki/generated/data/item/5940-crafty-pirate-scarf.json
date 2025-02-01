@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5940-crafty-pirate-scarf",
+        "fullSlug": "items\/5940-crafty-pirate-scarf",
+        "id": 5940,
+        "name": "Crafty Pirate Scarf",
+        "description": "Ye'll be ready t' sail o'er t' seas o' Lore with this handsome scarf."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5940,
+            "name": "Crafty Pirate Scarf",
+            "description": "Ye'll be ready t' sail o'er t' seas o' Lore with this handsome scarf.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 9000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 2,
+            "level": 65,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helmet-FPirateNoHat.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,7,Water,7,Nature,7,Wind,7,Immobility,3"
+        }
+    },
+    "related": {
+        "229-tlapd-old": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "229-tlapd-old",
+                "fullSlug": "item-shops\/229-tlapd-old",
+                "id": 229,
+                "name": "TLaPD Old",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 229,
+                    "name": "TLaPD Old",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "366-tlapd-bandanas": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "366-tlapd-bandanas",
+                "fullSlug": "item-shops\/366-tlapd-bandanas",
+                "id": 366,
+                "name": "TLaPD Bandanas",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 366,
+                    "name": "TLaPD Bandanas",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

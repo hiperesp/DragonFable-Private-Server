@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21415-old-energy-blade",
+        "fullSlug": "items\/21415-old-energy-blade",
+        "id": 21415,
+        "name": "Old Energy Blade",
+        "description": "Once a mighty weapon, this blade no longer functions. Proof of victory over Master Twang."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21415,
+            "name": "Old Energy Blade",
+            "description": "Once a mighty weapon, this blade no longer functions. Proof of victory over Master Twang.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2031-master-twang": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2031-master-twang",
+                "fullSlug": "quests\/2031-master-twang",
+                "id": 2031,
+                "name": "Master Twang",
+                "description": "It's time for the final test."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2031,
+                    "name": "Master Twang",
+                    "description": "It's time for the final test.",
+                    "complete": "The Master is eternal.",
+                    "swf": "towns\/TimeArena\/quest5-twang.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "J6 and Twang",
+                    "monsterGroupSwf": "mset-arenaJ6twang.swf"
+                }
+            },
+            "related": []
+        },
+        "389-passion-peace": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "389-passion-peace",
+                "fullSlug": "merge-shops\/389-passion-peace",
+                "id": 389,
+                "name": "Passion & Peace",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 389,
+                    "name": "Passion & Peace"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4139,
+                    "mergeShopId": 389,
+                    "mergeId": 4174
+                },
+                "merge": {
+                    "id": 4174,
+                    "itemId1": 21415,
+                    "amount1": 1,
+                    "itemId2": 21416,
+                    "amount2": 1,
+                    "itemId": 21418,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

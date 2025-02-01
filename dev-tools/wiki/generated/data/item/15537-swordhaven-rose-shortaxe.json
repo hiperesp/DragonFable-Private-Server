@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15537-swordhaven-rose-shortaxe",
+        "fullSlug": "items\/15537-swordhaven-rose-shortaxe",
+        "id": 15537,
+        "name": "Swordhaven Rose Shortaxe",
+        "description": "A shortaxe used only by Rose Elite rogues."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15537,
+            "name": "Swordhaven Rose Shortaxe",
+            "description": "A shortaxe used only by Rose Elite rogues.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3400,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 1,
+            "level": 60,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-Swordhavenrose.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 7,
+            "damageMin": 70,
+            "damageMax": 76,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Wind,6,Energy,6"
+        }
+    },
+    "related": {
+        "491-rose-defender": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "491-rose-defender",
+                "fullSlug": "item-shops\/491-rose-defender",
+                "id": 491,
+                "name": "Rose Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 491,
+                    "name": "Rose Defender",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

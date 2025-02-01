@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14593-ranger-s-cover",
+        "fullSlug": "items\/14593-ranger-s-cover",
+        "id": 14593,
+        "name": "Ranger's Cover",
+        "description": "This hood keeps the desert sun out of your eyes so you can focus on your target."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14593,
+            "name": "Ranger's Cover",
+            "description": "This hood keeps the desert sun out of your eyes so you can focus on your target.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-RangerHood.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,10,Stone,10"
+        }
+    },
+    "related": {
+        "462-ranger-cache": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "462-ranger-cache",
+                "fullSlug": "item-shops\/462-ranger-cache",
+                "id": 462,
+                "name": "Ranger Cache",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 462,
+                    "name": "Ranger Cache",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

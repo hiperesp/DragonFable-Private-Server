@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1025-rose-encampment",
+        "fullSlug": "quests\/1025-rose-encampment",
+        "id": 1025,
+        "name": "Rose Encampment",
+        "description": "Can you take out the encampment and its leader before they start sending troops into the depths of Betrubung?"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1025,
+            "name": "Rose Encampment",
+            "description": "Can you take out the encampment and its leader before they start sending troops into the depths of Betrubung?",
+            "complete": "You've destroyed one of the Rose encampments!",
+            "swf": "towns\/SulenEska\/quest-encampment.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 99,
+            "monsterType": "swamp and rose",
+            "monsterGroupSwf": "mset-swamp-bk3.swf"
+        }
+    },
+    "related": {
+        "8879-rose-emblem": {
+            "page": {
+                "slugBase": "items",
+                "slug": "8879-rose-emblem",
+                "fullSlug": "items\/8879-rose-emblem",
+                "id": 8879,
+                "name": "Rose Emblem",
+                "description": "Collected from Rose members in Betrubung Swamp."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 8879,
+                    "name": "Rose Emblem",
+                    "description": "Collected from Rose members in Betrubung Swamp.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 0,
+                    "maxStackSize": 60,
+                    "bonus": 0,
+                    "rarity": 0,
+                    "level": 0,
+                    "type": "Melee",
+                    "element": "Metal",
+                    "categoryId": "4",
+                    "equipSpot": "Not Equipable",
+                    "itemType": "Resource",
+                    "swf": "",
+                    "icon": "bag",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": ""
+                }
+            },
+            "related": []
+        }
+    }
+}

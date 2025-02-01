@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3726-defiled-adept-helm",
+        "fullSlug": "items\/3726-defiled-adept-helm",
+        "id": 3726,
+        "name": "Defiled Adept Helm",
+        "description": "An deep evil rises... Can you resist? Or will you become what you once destroyed? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3726,
+            "name": "Defiled Adept Helm",
+            "description": "An deep evil rises... Can you resist? Or will you become what you once destroyed? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 5,
+            "level": 53,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-kathoolmask_custom.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": -2,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Water,7,Darkness,7,Immobility,4"
+        }
+    },
+    "related": {
+        "587-descent": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "587-descent",
+                "fullSlug": "quests\/587-descent",
+                "id": 587,
+                "name": "Descent",
+                "description": "Can you resist the call of Kathool?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 587,
+                    "name": "Descent",
+                    "description": "Can you resist the call of Kathool?",
+                    "complete": "Kathool A'choo waits.",
+                    "swf": "towns\/TheLocker\/quest-descent.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 0,
+                    "maxGems": 0,
+                    "maxExp": 0,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        }
+    }
+}

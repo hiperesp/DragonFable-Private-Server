@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2810-jellyfish-faceguard",
+        "fullSlug": "items\/2810-jellyfish-faceguard",
+        "id": 2810,
+        "name": "Jellyfish Faceguard",
+        "description": "No enemies will want to punch you in the mouth with THIS on!  Dragon Amulet required."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2810,
+            "name": "Jellyfish Faceguard",
+            "description": "No enemies will want to punch you in the mouth with THIS on!  Dragon Amulet required.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 40,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-jellyfish.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,7"
+        }
+    },
+    "related": {
+        "487-under-the-sea": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "487-under-the-sea",
+                "fullSlug": "quests\/487-under-the-sea",
+                "id": 487,
+                "name": "Under the Sea",
+                "description": "The hunt for the stolen experimental weapons continues!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 487,
+                    "name": "Under the Sea",
+                    "description": "The hunt for the stolen experimental weapons continues!",
+                    "complete": "Under the sea! Down where it's wetter, the puns are much better.  Take it from me!",
+                    "swf": "quests\/quest-underthesea.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-underthesea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

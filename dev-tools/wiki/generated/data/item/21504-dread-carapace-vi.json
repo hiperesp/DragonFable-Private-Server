@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21504-dread-carapace-vi",
+        "fullSlug": "items\/21504-dread-carapace-vi",
+        "id": 21504,
+        "name": "Dread Carapace VI",
+        "description": "Something about these shed scales fills you with impending dread... Just think about what effect it will have on your foes! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21504,
+            "name": "Dread Carapace VI",
+            "description": "Something about these shed scales fills you with impending dread... Just think about what effect it will have on your foes! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 220,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 85,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-blackshuck.swf",
+            "icon": "cape",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": -30,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 30,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,-40,Health,40"
+        }
+    },
+    "related": {
+        "2037-black-shuck": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2037-black-shuck",
+                "fullSlug": "quests\/2037-black-shuck",
+                "id": 2037,
+                "name": "Black Shuck",
+                "description": "Ah, the Whispering Steppes. But is that howling the wind...? Or something else entirely?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2037,
+                    "name": "Black Shuck",
+                    "description": "Ah, the Whispering Steppes. But is that howling the wind...? Or something else entirely?",
+                    "complete": "These creatures are getting weirder and weirder. What could be Behind them?",
+                    "swf": "towns\/3Falconreach\/Board\/quest-blackshuck.swf",
+                    "swfX": "towns\/3Falconreach\/Board\/quest-blackshuck-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Scared Plains Monsters",
+                    "monsterGroupSwf": "mset-blackshuck.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

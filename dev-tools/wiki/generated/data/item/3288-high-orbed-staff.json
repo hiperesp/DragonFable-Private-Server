@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3288-high-orbed-staff",
+        "fullSlug": "items\/3288-high-orbed-staff",
+        "id": 3288,
+        "name": "High Orbed Staff",
+        "description": "The Dragon grasping the orb on this staff was carved from high-grade corundum.  It is worth it's weight in gold.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3288,
+            "name": "High Orbed Staff",
+            "description": "The Dragon grasping the orb on this staff was carved from high-grade corundum.  It is worth it's weight in gold.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 60,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-dragonwing.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,5,Stone,5,Immobility,3"
+        }
+    },
+    "related": {
+        "125-bluestar-weaponry": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "125-bluestar-weaponry",
+                "fullSlug": "item-shops\/125-bluestar-weaponry",
+                "id": 125,
+                "name": "Bluestar Weaponry",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 125,
+                    "name": "Bluestar Weaponry",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

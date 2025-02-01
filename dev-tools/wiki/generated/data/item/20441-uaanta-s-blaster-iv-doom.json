@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20441-uaanta-s-blaster-iv-doom",
+        "fullSlug": "items\/20441-uaanta-s-blaster-iv-doom",
+        "id": 20441,
+        "name": "Uaanta's Blaster IV (Doom)",
+        "description": "Uaanta gifted this emergency back-up wand to you. With the addition of the Infected Stability Core, the complete wand now does Evil damage and decreases its target's Avoidance!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20441,
+            "name": "Uaanta's Blaster IV (Doom)",
+            "description": "Uaanta gifted this emergency back-up wand to you. With the addition of the Infected Stability Core, the complete wand now does Evil damage and decreases its target's Avoidance!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 15,
+            "level": 90,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-uaantablaster-evil.swf",
+            "icon": "trinket",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 12,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Light,10,Darkness,10,Good,5,Evil,5"
+        }
+    },
+    "related": {
+        "354-blaster-reconfiguration": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "354-blaster-reconfiguration",
+                "fullSlug": "merge-shops\/354-blaster-reconfiguration",
+                "id": 354,
+                "name": "Blaster Reconfiguration",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 354,
+                    "name": "Blaster Reconfiguration"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3675,
+                    "mergeShopId": 354,
+                    "mergeId": 3769
+                },
+                "merge": {
+                    "id": 3769,
+                    "itemId1": 20441,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19359,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "355-stability-core-adaptation": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "355-stability-core-adaptation",
+                "fullSlug": "merge-shops\/355-stability-core-adaptation",
+                "id": 355,
+                "name": "Stability Core Adaptation",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 355,
+                    "name": "Stability Core Adaptation"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3686,
+                    "mergeShopId": 355,
+                    "mergeId": 3777
+                },
+                "merge": {
+                    "id": 3777,
+                    "itemId1": 19359,
+                    "amount1": 1,
+                    "itemId2": 20433,
+                    "amount2": 1,
+                    "itemId": 20441,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "367-forgotten-dream": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "367-forgotten-dream",
+                "fullSlug": "merge-shops\/367-forgotten-dream",
+                "id": 367,
+                "name": "Forgotten Dream",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 367,
+                    "name": "Forgotten Dream"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3821,
+                    "mergeShopId": 367,
+                    "mergeId": 3955
+                },
+                "merge": {
+                    "id": 3955,
+                    "itemId1": 20441,
+                    "amount1": 1,
+                    "itemId2": 20948,
+                    "amount2": 1,
+                    "itemId": 20947,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

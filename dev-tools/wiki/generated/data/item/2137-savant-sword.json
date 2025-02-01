@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2137-savant-sword",
+        "fullSlug": "items\/2137-savant-sword",
+        "id": 2137,
+        "name": "Savant Sword",
+        "description": "It became available to you after reaching the rank of Savant at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2137,
+            "name": "Savant Sword",
+            "description": "It became available to you after reaching the rank of Savant at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 33,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-pvpnew1.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 50,
+            "damageMax": 56,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Shrink,20,Fire,3"
+        }
+    },
+    "related": {
+        "82-pvp-savant": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "82-pvp-savant",
+                "fullSlug": "item-shops\/82-pvp-savant",
+                "id": 82,
+                "name": "PVP Savant",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 82,
+                    "name": "PVP Savant",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

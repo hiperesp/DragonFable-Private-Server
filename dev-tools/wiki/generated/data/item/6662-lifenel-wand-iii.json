@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6662-lifenel-wand-iii",
+        "fullSlug": "items\/6662-lifenel-wand-iii",
+        "id": 6662,
+        "name": "Lifenel Wand III",
+        "description": "The blade on this weapon is colored with the glowing spores of Somorahan fungi."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6662,
+            "name": "Lifenel Wand III",
+            "description": "The blade on this weapon is colored with the glowing spores of Somorahan fungi.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 6,
+            "level": 60,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-lifenel.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 2,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,8,Fire,8,Darkness,4,Disease,2,Immobility,1"
+        }
+    },
+    "related": {
+        "878-the-desert-s-light": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "878-the-desert-s-light",
+                "fullSlug": "quests\/878-the-desert-s-light",
+                "id": 878,
+                "name": "The Desert's Light",
+                "description": "The light monsters of the Sandsea have been drawn to Atrea."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 878,
+                    "name": "The Desert's Light",
+                    "description": "The light monsters of the Sandsea have been drawn to Atrea.",
+                    "complete": "The light monsters of the Sandsea have been drawn to Atrea.",
+                    "swf": "random\/random-atrea-desert.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "insects and reptiles",
+                    "monsterGroupSwf": "mset-ruins-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

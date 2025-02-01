@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18943-celestial-relic-shard",
+        "fullSlug": "items\/18943-celestial-relic-shard",
+        "id": 18943,
+        "name": "Celestial Relic Shard",
+        "description": "This smooth shard of metal is a pale silver. It glows with a faint, unsettling, but familiar light. Merge with Infernal Relic Shard to create Exalted Unity."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18943,
+            "name": "Celestial Relic Shard",
+            "description": "This smooth shard of metal is a pale silver. It glows with a faint, unsettling, but familiar light. Merge with Infernal Relic Shard to create Exalted Unity.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 9999,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3290,
+                    "mergeShopId": 303,
+                    "mergeId": 3406
+                },
+                "merge": {
+                    "id": 3406,
+                    "itemId1": 18942,
+                    "amount1": 1,
+                    "itemId2": 18943,
+                    "amount2": 1,
+                    "itemId": 18940,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

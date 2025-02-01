@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15129-world-destroyer-wings",
+        "fullSlug": "items\/15129-world-destroyer-wings",
+        "id": 15129,
+        "name": "World Destroyer Wings",
+        "description": "Over ten years you and your dragon have had some crazy adventures and they're not over yet! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15129,
+            "name": "World Destroyer Wings",
+            "description": "Over ten years you and your dragon have had some crazy adventures and they're not over yet! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 73,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-dragon.swf",
+            "icon": "wings",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,3,Immobility,2"
+        }
+    },
+    "related": {
+        "479-dragon-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "479-dragon-wings",
+                "fullSlug": "item-shops\/479-dragon-wings",
+                "id": 479,
+                "name": "Dragon Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 479,
+                    "name": "Dragon Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

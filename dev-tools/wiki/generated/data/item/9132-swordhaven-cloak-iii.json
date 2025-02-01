@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9132-swordhaven-cloak-iii",
+        "fullSlug": "items\/9132-swordhaven-cloak-iii",
+        "id": 9132,
+        "name": "Swordhaven Cloak III",
+        "description": "This dusty cloak was used by a Swordhaven Knight who perhaps met an unfortunate end."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9132,
+            "name": "Swordhaven Cloak III",
+            "description": "This dusty cloak was used by a Swordhaven Knight who perhaps met an unfortunate end.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 41,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-swordhaven.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Bacon,5,Stone,3"
+        }
+    },
+    "related": {
+        "1029-swirl-of-color-and-fragrance": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1029-swirl-of-color-and-fragrance",
+                "fullSlug": "quests\/1029-swirl-of-color-and-fragrance",
+                "id": 1029,
+                "name": "Swirl of Color and Fragrance",
+                "description": "Laesa Forn wants you to find Vindeflauers for her friend in her stead. But do they even still grow in this wasteland?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1029,
+                    "name": "Swirl of Color and Fragrance",
+                    "description": "Laesa Forn wants you to find Vindeflauers for her friend in her stead. But do they even still grow in this wasteland?",
+                    "complete": "A long way to go for a small spark of brightness.",
+                    "swf": "towns\/SulenEska\/quest2-flower2020.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Skellies, Darkness Ele",
+                    "monsterGroupSwf": "mset-earth4.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

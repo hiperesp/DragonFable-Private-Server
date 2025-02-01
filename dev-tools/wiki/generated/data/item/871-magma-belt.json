@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "871-magma-belt",
+        "fullSlug": "items\/871-magma-belt",
+        "id": 871,
+        "name": "Magma Belt",
+        "description": "This item requires a Dragon Amulet. It is a belt constructed of enchanted plates of cooled lava. It's heavy but stylish."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 871,
+            "name": "Magma Belt",
+            "description": "This item requires a Dragon Amulet. It is a belt constructed of enchanted plates of cooled lava. It's heavy but stylish.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 4,
+            "level": 10,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 2,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5"
+        }
+    },
+    "related": {
+        "128-the-river-of-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "128-the-river-of-fire",
+                "fullSlug": "quests\/128-the-river-of-fire",
+                "id": 128,
+                "name": "The River Of Fire",
+                "description": "Warlic has asked you to investigate what has happened to the river flowing past the mining town of Lymcrest."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 128,
+                    "name": "The River Of Fire",
+                    "description": "Warlic has asked you to investigate what has happened to the river flowing past the mining town of Lymcrest.",
+                    "complete": "The insane pyromancer Xan has replaced the water in Lymcrest's river with a scalding lava flow. If you do not find a way to get the water back soon Lymcrest will be doomed!",
+                    "swf": "quests\/quest-xan1-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire",
+                    "monsterGroupSwf": "mset-lava-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "136-fetching-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "136-fetching-fire",
+                "fullSlug": "quests\/136-fetching-fire",
+                "id": 136,
+                "name": "Fetching Fire",
+                "description": "In order to turn the river of fire back into water, Warlic needs a sample of the magical fire that is filling the river. It flows from its source deep inside a cave protected by fire."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 136,
+                    "name": "Fetching Fire",
+                    "description": "In order to turn the river of fire back into water, Warlic needs a sample of the magical fire that is filling the river. It flows from its source deep inside a cave protected by fire.",
+                    "complete": "You have secured a sample of the magical flaming water for Warlic. Now maybe he will be able to help the people of Lymcrest change their river back to cool, drinkable water.",
+                    "swf": "quests\/quest-Xan2-r2.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire",
+                    "monsterGroupSwf": "mset-lava-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

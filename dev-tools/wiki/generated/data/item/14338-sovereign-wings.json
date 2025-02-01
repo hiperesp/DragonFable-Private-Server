@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14338-sovereign-wings",
+        "fullSlug": "items\/14338-sovereign-wings",
+        "id": 14338,
+        "name": "Sovereign Wings",
+        "description": "Modeled after the wings of the true Queen of Darkovia, Safiria, the shadows cast by these wings seem to drink in the darkness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14338,
+            "name": "Sovereign Wings",
+            "description": "Modeled after the wings of the true Queen of Darkovia, Safiria, the shadows cast by these wings seem to drink in the darkness.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 80,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 20,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-safiria.swf",
+            "icon": "wings",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Darkness,3,Ice,1,Health,-1"
+        }
+    },
+    "related": {
+        "452-sovereign-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "452-sovereign-wings",
+                "fullSlug": "item-shops\/452-sovereign-wings",
+                "id": 452,
+                "name": "Sovereign Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 452,
+                    "name": "Sovereign Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

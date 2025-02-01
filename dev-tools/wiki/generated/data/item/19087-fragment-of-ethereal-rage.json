@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19087-fragment-of-ethereal-rage",
+        "fullSlug": "items\/19087-fragment-of-ethereal-rage",
+        "id": 19087,
+        "name": "Fragment of Ethereal Rage",
+        "description": "A small blob of blue essence, left behind by Wrath in the Arena at the Edge of Time. Pointy! Used to create the Chibi Wrath cape."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19087,
+            "name": "Fragment of Ethereal Rage",
+            "description": "A small blob of blue essence, left behind by Wrath in the Arena at the Edge of Time. Pointy! Used to create the Chibi Wrath cape.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 9999,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1651-the-elemental-spirit-of-wrath": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1651-the-elemental-spirit-of-wrath",
+                "fullSlug": "quests\/1651-the-elemental-spirit-of-wrath",
+                "id": 1651,
+                "name": "The Elemental Spirit of Wrath",
+                "description": "Before you stands Wrath, an artificial Elemental Spirit born of Pandora's anger."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1651,
+                    "name": "The Elemental Spirit of Wrath",
+                    "description": "Before you stands Wrath, an artificial Elemental Spirit born of Pandora's anger.",
+                    "complete": "Patience overpowers Wrath.",
+                    "swf": "towns\/TimeArena\/quest-wrath.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Wrath and Sloth",
+                    "monsterGroupSwf": "mset-7ES-WrathSloth.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "312-wrath-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "312-wrath-merges",
+                "fullSlug": "merge-shops\/312-wrath-merges",
+                "id": 312,
+                "name": "Wrath Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 312,
+                    "name": "Wrath Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3362,
+                    "mergeShopId": 312,
+                    "mergeId": 3453
+                },
+                "merge": {
+                    "id": 3453,
+                    "itemId1": 19087,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19085,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

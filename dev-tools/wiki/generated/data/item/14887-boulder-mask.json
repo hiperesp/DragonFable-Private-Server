@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14887-boulder-mask",
+        "fullSlug": "items\/14887-boulder-mask",
+        "id": 14887,
+        "name": "Boulder Mask",
+        "description": "For boulder heroes. Happy Mogloween 2015!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14887,
+            "name": "Boulder Mask",
+            "description": "For boulder heroes. Happy Mogloween 2015!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 5,
+            "level": 70,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/mask-boulderrock.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 12,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,8,Stone,8,Immobility,10"
+        }
+    },
+    "related": {
+        "116-cysero-s-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "116-cysero-s-mask-shop",
+                "fullSlug": "item-shops\/116-cysero-s-mask-shop",
+                "id": 116,
+                "name": "Cysero's Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Cysero's Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

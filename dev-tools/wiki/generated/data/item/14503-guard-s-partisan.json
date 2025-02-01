@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14503-guard-s-partisan",
+        "fullSlug": "items\/14503-guard-s-partisan",
+        "id": 14503,
+        "name": "Guard's Partisan",
+        "description": "The traditional weapon of the guards that protect those in the Sandsea. The obsidian used to make them is used as a base along with sandstone and other materials."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14503,
+            "name": "Guard's Partisan",
+            "description": "The traditional weapon of the guards that protect those in the Sandsea. The obsidian used to make them is used as a base along with sandstone and other materials.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 20,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-sandPartisan.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 47,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,3"
+        }
+    },
+    "related": {
+        "240-obsidian-shards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "240-obsidian-shards",
+                "fullSlug": "merge-shops\/240-obsidian-shards",
+                "id": 240,
+                "name": "Obsidian Shards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 240,
+                    "name": "Obsidian Shards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2667,
+                    "mergeShopId": 240,
+                    "mergeId": 2653
+                },
+                "merge": {
+                    "id": 2653,
+                    "itemId1": 14510,
+                    "amount1": 2,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 14503,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16699-sausagemancer-s-delight",
+        "fullSlug": "items\/16699-sausagemancer-s-delight",
+        "id": 16699,
+        "name": "Sausagemancer's Delight",
+        "description": "They called the Sausagemancer crazy- they said it would be impossible to channel magical energies through a mere sausage! This staff is proof that they were wrong. It's also a quick snack."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16699,
+            "name": "Sausagemancer's Delight",
+            "description": "They called the Sausagemancer crazy- they said it would be impossible to channel magical energies through a mere sausage! This staff is proof that they were wrong. It's also a quick snack.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 60,
+            "type": "Magic",
+            "element": "Bacon",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-sausage.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 69,
+            "damageMax": 77,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Bacon,7,Fire,-5"
+        }
+    },
+    "related": {
+        "1393-what-s-that-whistling-noise": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1393-what-s-that-whistling-noise",
+                "fullSlug": "quests\/1393-what-s-that-whistling-noise",
+                "id": 1393,
+                "name": "What's That Whistling Noise?",
+                "description": "Monsters are coming out of fruitcake bombs! What could be their source?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1393,
+                    "name": "What's That Whistling Noise?",
+                    "description": "Monsters are coming out of fruitcake bombs! What could be their source?",
+                    "complete": "That was a piece of cake! Time to take the fight to Joules!",
+                    "swf": "towns\/Thankstaking\/tt16\/quest2-noise.swf",
+                    "swfX": "towns\/Thankstaking\/tt16\/quest2-noise-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food!",
+                    "monsterGroupSwf": "mset-thanks16-2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

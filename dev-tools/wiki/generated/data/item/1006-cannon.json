@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1006-cannon",
+        "fullSlug": "items\/1006-cannon",
+        "id": 1006,
+        "name": "Cannon",
+        "description": "BOOM, BABY! We're not sure how this small cannon got into a pet shop but, hey... if you want to pay for it, no pirate is going to argue with you. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1006,
+            "name": "Cannon",
+            "description": "BOOM, BABY! We're not sure how this small cannon got into a pet shop but, hey... if you want to pay for it, no pirate is going to argue with you. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 20,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-cannon.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 6,
+            "damageMax": 15,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "40-piratical-pets": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "40-piratical-pets",
+                "fullSlug": "item-shops\/40-piratical-pets",
+                "id": 40,
+                "name": "Piratical Pets",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Piratical Pets",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

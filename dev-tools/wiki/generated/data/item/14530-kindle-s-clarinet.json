@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14530-kindle-s-clarinet",
+        "fullSlug": "items\/14530-kindle-s-clarinet",
+        "id": 14530,
+        "name": "Kindle's Clarinet",
+        "description": "Left behind after the Fight for Late Night, this bass clarinet can help make sure you bring the heat as you rock out with smooth notes."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14530,
+            "name": "Kindle's Clarinet",
+            "description": "Left behind after the Fight for Late Night, this bass clarinet can help make sure you bring the heat as you rock out with smooth notes.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 80,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-kimmel.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Water,10,Darkness,8,Immobility,4"
+        }
+    },
+    "related": {
+        "1296-fight-for-late-night": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1296-fight-for-late-night",
+                "fullSlug": "quests\/1296-fight-for-late-night",
+                "id": 1296,
+                "name": "Fight for Late Night",
+                "description": "Sir Stephan of Coldbear is changing up his format, but his new competition has something to say about it!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1296,
+                    "name": "Fight for Late Night",
+                    "description": "Sir Stephan of Coldbear is changing up his format, but his new competition has something to say about it!",
+                    "complete": "Sad Daemon...",
+                    "swf": "towns\/3Falconreach\/quest-latenight.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 20000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "jimmies",
+                    "monsterGroupSwf": "mset-latenight.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

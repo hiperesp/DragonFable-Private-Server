@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9341-dark-esoterica",
+        "fullSlug": "items\/9341-dark-esoterica",
+        "id": 9341,
+        "name": "Dark Esoterica",
+        "description": "Crafted by Lupus the Wolf, this foreboding darkness weapon carries an evil secret if you click above the handle!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9341,
+            "name": "Dark Esoterica",
+            "description": "Crafted by Lupus the Wolf, this foreboding darkness weapon carries an evil secret if you click above the handle!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 55000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 76,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-darklupus.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 72,
+            "damageMax": 96,
+            "defenseMelee": 7,
+            "defensePierce": 3,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,10,Energy,10,Fire,5,Immobility,1"
+        }
+    },
+    "related": {
+        "301-rosewood-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "301-rosewood-weapons",
+                "fullSlug": "item-shops\/301-rosewood-weapons",
+                "id": 301,
+                "name": "Rosewood Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 301,
+                    "name": "Rosewood Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

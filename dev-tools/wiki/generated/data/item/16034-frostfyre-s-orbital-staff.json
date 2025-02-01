@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16034-frostfyre-s-orbital-staff",
+        "fullSlug": "items\/16034-frostfyre-s-orbital-staff",
+        "id": 16034,
+        "name": "Frostfyre's Orbital Staff",
+        "description": "Frostfyre, greatest of the Ice Giants, forged this staff from pure ice from the northern reaches of Lore."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16034,
+            "name": "Frostfyre's Orbital Staff",
+            "description": "Frostfyre, greatest of the Ice Giants, forged this staff from pure ice from the northern reaches of Lore.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 5,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-frostfyre.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 16,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,1"
+        }
+    },
+    "related": {
+        "1373-icy-beginnings": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1373-icy-beginnings",
+                "fullSlug": "quests\/1373-icy-beginnings",
+                "id": 1373,
+                "name": "Icy Beginnings",
+                "description": "Head to the frozen north to find all the information that can be found about Nivalis."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1373,
+                    "name": "Icy Beginnings",
+                    "description": "Head to the frozen north to find all the information that can be found about Nivalis.",
+                    "complete": "This looks promising, but who is this Laguzoki guy? What?s his story?",
+                    "swf": "towns\/StoneheartFall\/quest10-icybeginnings.swf ",
+                    "swfX": "towns\/StoneheartFall\/quest10-icybeginnings-x.swf ",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "chill monsters",
+                    "monsterGroupSwf": "mset-icybeginnings.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

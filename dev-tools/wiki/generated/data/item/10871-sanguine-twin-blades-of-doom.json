@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10871-sanguine-twin-blades-of-doom",
+        "fullSlug": "items\/10871-sanguine-twin-blades-of-doom",
+        "id": 10871,
+        "name": "Sanguine Twin Blades of Doom",
+        "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10871,
+            "name": "Sanguine Twin Blades of Doom",
+            "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 3,
+            "level": 64,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/dooms\/dagger-doom3.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 10,
+            "intelligence": 0,
+            "luck": -7,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 69,
+            "damageMax": 105,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": ""
+        }
+    },
+    "related": {
+        "194-sanguine-dooms": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "194-sanguine-dooms",
+                "fullSlug": "merge-shops\/194-sanguine-dooms",
+                "id": 194,
+                "name": "Sanguine Dooms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 194,
+                    "name": "Sanguine Dooms"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2203,
+                    "mergeShopId": 194,
+                    "mergeId": 2049
+                },
+                "merge": {
+                    "id": 2049,
+                    "itemId1": 10868,
+                    "amount1": 1,
+                    "itemId2": 10780,
+                    "amount2": 13,
+                    "itemId": 10871,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "236-corrupted-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "236-corrupted-doom",
+                "fullSlug": "merge-shops\/236-corrupted-doom",
+                "id": 236,
+                "name": "Corrupted Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 236,
+                    "name": "Corrupted Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2625,
+                    "mergeShopId": 236,
+                    "mergeId": 2622
+                },
+                "merge": {
+                    "id": 2622,
+                    "itemId1": 13668,
+                    "amount1": 20,
+                    "itemId2": 10871,
+                    "amount2": 1,
+                    "itemId": 13666,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

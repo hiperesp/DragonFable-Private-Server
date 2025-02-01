@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3143-xan-mask",
+        "fullSlug": "items\/3143-xan-mask",
+        "id": 3143,
+        "name": "Xan Mask",
+        "description": "Burn baby, burn! The mad pyromancer's frightening visage is now yours!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3143,
+            "name": "Xan Mask",
+            "description": "Burn baby, burn! The mad pyromancer's frightening visage is now yours!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 270,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 5,
+            "level": 35,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-mogloween08-xanhead.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": -4,
+            "defensePierce": 0,
+            "defenseMagic": -4,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Water,-5"
+        }
+    },
+    "related": {
+        "116-cysero-s-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "116-cysero-s-mask-shop",
+                "fullSlug": "item-shops\/116-cysero-s-mask-shop",
+                "id": 116,
+                "name": "Cysero's Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Cysero's Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

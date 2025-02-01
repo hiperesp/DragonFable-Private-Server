@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15763-depths-of-madness-v",
+        "fullSlug": "items\/15763-depths-of-madness-v",
+        "id": 15763,
+        "name": "Depths of Madness V",
+        "description": "As you gaze into the glowing blades of this weapon, your mind begins to drift into a haze. Better not stare too long! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15763,
+            "name": "Depths of Madness V",
+            "description": "As you gaze into the glowing blades of this weapon, your mind begins to drift into a haze. Better not stare too long! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 120,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 8,
+            "level": 70,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-madness_da.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 12,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": -4,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 81,
+            "damageMax": 85,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Water,7,Darkness,7,Evil,7"
+        }
+    },
+    "related": {
+        "502-madness-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "502-madness-shop",
+                "fullSlug": "item-shops\/502-madness-shop",
+                "id": 502,
+                "name": "Madness Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 502,
+                    "name": "Madness Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

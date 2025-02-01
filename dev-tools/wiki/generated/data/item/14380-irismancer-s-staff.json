@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14380-irismancer-s-staff",
+        "fullSlug": "items\/14380-irismancer-s-staff",
+        "id": 14380,
+        "name": "Irismancer's Staff",
+        "description": "This replica of the staff used by the Irismancer was created by Ashendal. It is enchanted to occasionally increase your BtH! Eye see you! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14380,
+            "name": "Irismancer's Staff",
+            "description": "This replica of the staff used by the Irismancer was created by Ashendal. It is enchanted to occasionally increase your BtH! Eye see you! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-irismancerStaff.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 76,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Stone,7,Energy,4,Immobility,5"
+        }
+    },
+    "related": {
+        "450-replica-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "450-replica-weapons",
+                "fullSlug": "item-shops\/450-replica-weapons",
+                "id": 450,
+                "name": "Replica Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 450,
+                    "name": "Replica Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

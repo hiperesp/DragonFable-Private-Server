@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13939-guardian-armet",
+        "fullSlug": "items\/13939-guardian-armet",
+        "id": 13939,
+        "name": "Guardian Armet",
+        "description": "This armet is the signature cover of a Guardian. Wear it with pride as all others will know your dedication to protecting all those in need!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13939,
+            "name": "Guardian Armet",
+            "description": "This armet is the signature cover of a Guardian. Wear it with pride as all others will know your dedication to protecting all those in need!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 20,
+            "level": 70,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-GuardianOpen.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "Darkness,9,Light,9"
+        }
+    },
+    "related": {
+        "442-guardian-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "442-guardian-items",
+                "fullSlug": "item-shops\/442-guardian-items",
+                "id": 442,
+                "name": "Guardian Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 442,
+                    "name": "Guardian Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

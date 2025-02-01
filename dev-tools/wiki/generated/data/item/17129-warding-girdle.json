@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17129-warding-girdle",
+        "fullSlug": "items\/17129-warding-girdle",
+        "id": 17129,
+        "name": "Warding Girdle",
+        "description": "This girdle worn around the waist is made up of chains of bracelets specifically enchanted to defend against hostile creatures. Smells kind of funny."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17129,
+            "name": "Warding Girdle",
+            "description": "This girdle worn around the waist is made up of chains of bracelets specifically enchanted to defend against hostile creatures. Smells kind of funny.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 15,
+            "type": "Melee",
+            "element": "Heal",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,1"
+        }
+    },
+    "related": {
+        "1420-a-new-discovery": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1420-a-new-discovery",
+                "fullSlug": "quests\/1420-a-new-discovery",
+                "id": 1420,
+                "name": "A New Discovery",
+                "description": "Leon received a letter addressed to you. Explore and find out what Akanthus' henchmen are up to."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1420,
+                    "name": "A New Discovery",
+                    "description": "Leon received a letter addressed to you. Explore and find out what Akanthus' henchmen are up to.",
+                    "complete": "Who's that ragged man covered in Rose-made bracelets and chains?",
+                    "swf": "towns\/shears\/quest1-discovery-r1.swf",
+                    "swfX": "towns\/shears\/quest1-discovery-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "rose and monsters",
+                    "monsterGroupSwf": "mset-discovery-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

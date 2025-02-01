@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3060-bonegnaw-rapier-i",
+        "fullSlug": "items\/3060-bonegnaw-rapier-i",
+        "id": 3060,
+        "name": "Bonegnaw Rapier I",
+        "description": "Cobbled together from the bones of evil necromancers, this spiny blade radiates dark energy."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3060,
+            "name": "Bonegnaw Rapier I",
+            "description": "Cobbled together from the bones of evil necromancers, this spiny blade radiates dark energy.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 3,
+            "level": 25,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-skeletal.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 43,
+            "damageMax": 53,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,1,Darkness,1"
+        }
+    },
+    "related": {
+        "505-zorbak-s-legion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "505-zorbak-s-legion",
+                "fullSlug": "quests\/505-zorbak-s-legion",
+                "id": 505,
+                "name": "Zorbak's Legion",
+                "description": "Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 505,
+                    "name": "Zorbak's Legion",
+                    "description": "Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!",
+                    "complete": "With as cute as those baby dracolich are, how can you NOT make sure they stay safe?!",
+                    "swf": "quests\/ZorbaksArmy\/quest-zarmy1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cave",
+                    "monsterGroupSwf": "mset-zarmy1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

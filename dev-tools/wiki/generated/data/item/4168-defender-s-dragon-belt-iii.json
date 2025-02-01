@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4168-defender-s-dragon-belt-iii",
+        "fullSlug": "items\/4168-defender-s-dragon-belt-iii",
+        "id": 4168,
+        "name": "Defender's Dragon Belt III",
+        "description": "This belt can only be worn by one who bears the DragonAmulet. It was awarded to you by the town of Falconreach for defending it against a terrible threat. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4168,
+            "name": "Defender's Dragon Belt III",
+            "description": "This belt can only be worn by one who bears the DragonAmulet. It was awarded to you by the town of Falconreach for defending it against a terrible threat. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 46,
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,7,Stone,7,Energy,7"
+        }
+    },
+    "related": {
+        "384-da-def-belts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "384-da-def-belts",
+                "fullSlug": "merge-shops\/384-da-def-belts",
+                "id": 384,
+                "name": "DA Def Belts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 384,
+                    "name": "DA Def Belts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4076,
+                    "mergeShopId": 384,
+                    "mergeId": 772
+                },
+                "merge": {
+                    "id": 772,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": 4168,
+                    "amount2": 1,
+                    "itemId": 4171,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

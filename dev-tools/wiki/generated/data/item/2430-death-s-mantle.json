@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2430-death-s-mantle",
+        "fullSlug": "items\/2430-death-s-mantle",
+        "id": 2430,
+        "name": "Death's Mantle",
+        "description": "Not only did you beat Death when he was even angrier and more powerful than the last time you faced him, but you decided to steal his mantle?  You ARE a brave hero!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2430,
+            "name": "Death's Mantle",
+            "description": "Not only did you beat Death when he was even angrier and more powerful than the last time you faced him, but you decided to steal his mantle?  You ARE a brave hero!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 8,
+            "level": 20,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-death.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,1"
+        }
+    },
+    "related": {
+        "407-triple-threat": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "407-triple-threat",
+                "fullSlug": "quests\/407-triple-threat",
+                "id": 407,
+                "name": "Triple Threat?",
+                "description": "So you've got to find the three-headed monster who guards Death's realm?  The gates would be a good place to start."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 407,
+                    "name": "Triple Threat?",
+                    "description": "So you've got to find the three-headed monster who guards Death's realm?  The gates would be a good place to start.",
+                    "complete": "You might not have found Triskylos, but you got a REALLY cute pet in its place.",
+                    "swf": "quests\/Zeuster\/quest-bacon12.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-bacon12.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

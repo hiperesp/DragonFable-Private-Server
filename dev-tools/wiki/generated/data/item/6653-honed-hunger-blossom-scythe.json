@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6653-honed-hunger-blossom-scythe",
+        "fullSlug": "items\/6653-honed-hunger-blossom-scythe",
+        "id": 6653,
+        "name": "Honed Hunger Blossom Scythe",
+        "description": "The blades of this weapon look almost organic,  but are honed to a wicked sharpness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6653,
+            "name": "Honed Hunger Blossom Scythe",
+            "description": "The blades of this weapon look almost organic,  but are honed to a wicked sharpness.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 30,
+            "level": 61,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-hungerblossom.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 88,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Darkness,8,Fire,6,Poison,3"
+        }
+    },
+    "related": {
+        "105-paraginium-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "105-paraginium-items",
+                "fullSlug": "merge-shops\/105-paraginium-items",
+                "id": 105,
+                "name": "Paraginium Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 105,
+                    "name": "Paraginium Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1452,
+                    "mergeShopId": 105,
+                    "mergeId": 1361
+                },
+                "merge": {
+                    "id": 1361,
+                    "itemId1": 6655,
+                    "amount1": 6,
+                    "itemId2": 6653,
+                    "amount2": 1,
+                    "itemId": 6654,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

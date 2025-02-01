@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3834-shiny-lavagoblin-helm",
+        "fullSlug": "items\/3834-shiny-lavagoblin-helm",
+        "id": 3834,
+        "name": "Shiny Lavagoblin Helm",
+        "description": "Thankfully you received a full complement of a hero's good lucks, but if you put on this helm, you'll get a good look at how the less fortunate feel!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3834,
+            "name": "Shiny Lavagoblin Helm",
+            "description": "Thankfully you received a full complement of a hero's good lucks, but if you put on this helm, you'll get a good look at how the less fortunate feel!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-lavagoblin.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": -3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,7,Stone,7,Immobility,3"
+        }
+    },
+    "related": {
+        "140-zoo-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "140-zoo-shop",
+                "fullSlug": "item-shops\/140-zoo-shop",
+                "id": 140,
+                "name": "Zoo Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 140,
+                    "name": "Zoo Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

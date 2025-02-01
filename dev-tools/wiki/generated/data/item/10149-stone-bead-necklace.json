@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10149-stone-bead-necklace",
+        "fullSlug": "items\/10149-stone-bead-necklace",
+        "id": 10149,
+        "name": "Stone Bead Necklace",
+        "description": "The colorful beads that the clawkin use to make wind chimes also make up this necklace."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10149,
+            "name": "Stone Bead Necklace",
+            "description": "The colorful beads that the clawkin use to make wind chimes also make up this necklace.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 66,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,5,Stone,5,Metal,5,Immobility,3"
+        }
+    },
+    "related": {
+        "1065-one-step-forward": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1065-one-step-forward",
+                "fullSlug": "quests\/1065-one-step-forward",
+                "id": 1065,
+                "name": "One Step Forward",
+                "description": "Things are looking up for the Vind..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1065,
+                    "name": "One Step Forward",
+                    "description": "Things are looking up for the Vind...",
+                    "complete": "It's been a while, Jaania.",
+                    "swf": "towns\/SulenEska\/quest8-onestep.swf",
+                    "swfX": "towns\/SulenEska\/quest8-onestep-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp and rose",
+                    "monsterGroupSwf": "mset-betrubung.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

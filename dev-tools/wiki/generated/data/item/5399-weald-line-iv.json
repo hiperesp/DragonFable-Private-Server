@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5399-weald-line-iv",
+        "fullSlug": "items\/5399-weald-line-iv",
+        "id": 5399,
+        "name": "Weald Line IV",
+        "description": "You feel the power of nature flow through as you defeat your enemies with this lively weapon. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5399,
+            "name": "Weald Line IV",
+            "description": "You feel the power of nature flow through as you defeat your enemies with this lively weapon. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 63,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-NatureFaeBlade.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 88,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Light,10,Darkness,10,Immobility,3,Health,-3"
+        }
+    },
+    "related": {
+        "757-nature-s-keeper": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "757-nature-s-keeper",
+                "fullSlug": "quests\/757-nature-s-keeper",
+                "id": 757,
+                "name": "Nature's Keeper",
+                "description": "The mystery of the Nature Orb."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 757,
+                    "name": "Nature's Keeper",
+                    "description": "The mystery of the Nature Orb.",
+                    "complete": "The mystery of the Nature Orb is solved... but how will we recover the complete Orb from Trey?",
+                    "swf": "towns\/willowshire\/quest-earth15-fae.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "all DF style eles",
+                    "monsterGroupSwf": "mset-elementalwarr5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

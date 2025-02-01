@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15116-marked-zorbak-s-staff",
+        "fullSlug": "items\/15116-marked-zorbak-s-staff",
+        "id": 15116,
+        "name": "Marked Zorbak's Staff",
+        "description": "Twig got at Zorbak's staff... he's not gonna be happy! It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15116,
+            "name": "Marked Zorbak's Staff",
+            "description": "Twig got at Zorbak's staff... he's not gonna be happy! It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "Ebil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ZorbakStaff-twig.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 45,
+            "damageMax": 59,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,5,Good,2,Mana,-1"
+        }
+    },
+    "related": {
+        "162-black-marker-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "162-black-marker-shop",
+                "fullSlug": "item-shops\/162-black-marker-shop",
+                "id": 162,
+                "name": "Black Marker Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 162,
+                    "name": "Black Marker Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7209-fire-soul-vii",
+        "fullSlug": "items\/7209-fire-soul-vii",
+        "id": 7209,
+        "name": "Fire Soul VII",
+        "description": "Your soul burns for revenge! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7209,
+            "name": "Fire Soul VII",
+            "description": "Your soul burns for revenge! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 9000,
+            "maxStackSize": 1,
+            "bonus": 11,
+            "rarity": 15,
+            "level": 80,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-FireInMySoul.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 70,
+            "damageMax": 106,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 13,
+            "dodge": 13,
+            "block": 13,
+            "resists": "Ice,10,Water,10,Immobility,4,Mana,-7"
+        }
+    },
+    "related": {
+        "270-fire-soul": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "270-fire-soul",
+                "fullSlug": "item-shops\/270-fire-soul",
+                "id": 270,
+                "name": "Fire Soul",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 270,
+                    "name": "Fire Soul",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

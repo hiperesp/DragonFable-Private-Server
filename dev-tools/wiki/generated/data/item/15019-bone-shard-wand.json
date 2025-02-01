@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15019-bone-shard-wand",
+        "fullSlug": "items\/15019-bone-shard-wand",
+        "id": 15019,
+        "name": "Bone Shard Wand",
+        "description": "Made from unlucky remains of Baron Jaysun Valtrith's army!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15019,
+            "name": "Bone Shard Wand",
+            "description": "Made from unlucky remains of Baron Jaysun Valtrith's army!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 66,
+            "level": 20,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-boneshard.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 29,
+            "damageMax": 53,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Light,3"
+        }
+    },
+    "related": {
+        "475-bone-shard": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "475-bone-shard",
+                "fullSlug": "item-shops\/475-bone-shard",
+                "id": 475,
+                "name": "Bone Shard",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 475,
+                    "name": "Bone Shard",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

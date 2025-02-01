@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7018-the-big-cheese",
+        "fullSlug": "items\/7018-the-big-cheese",
+        "id": 7018,
+        "name": "The Big Cheese",
+        "description": "A huge chunk of golden... cheese? Really guys?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7018,
+            "name": "The Big Cheese",
+            "description": "A huge chunk of golden... cheese? Really guys?",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "yellowbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "111-golden-prize": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "111-golden-prize",
+                "fullSlug": "merge-shops\/111-golden-prize",
+                "id": 111,
+                "name": "Golden Prize",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 111,
+                    "name": "Golden Prize"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1561,
+                    "mergeShopId": 111,
+                    "mergeId": 1439
+                },
+                "merge": {
+                    "id": 1439,
+                    "itemId1": 7015,
+                    "amount1": 20,
+                    "itemId2": 7016,
+                    "amount2": 20,
+                    "itemId": 7018,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

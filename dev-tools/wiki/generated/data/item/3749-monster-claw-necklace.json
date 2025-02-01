@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3749-monster-claw-necklace",
+        "fullSlug": "items\/3749-monster-claw-necklace",
+        "id": 3749,
+        "name": "Monster Claw Necklace",
+        "description": "Show the world you are a monster hunter!  Enhances your critical hit chance."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3749,
+            "name": "Monster Claw Necklace",
+            "description": "Show the world you are a monster hunter!  Enhances your critical hit chance.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 34,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 981,
+                    "mergeShopId": 67,
+                    "mergeId": 689
+                },
+                "merge": {
+                    "id": 689,
+                    "itemId1": 3734,
+                    "amount1": 15,
+                    "itemId2": 1256,
+                    "amount2": 10,
+                    "itemId": 3749,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

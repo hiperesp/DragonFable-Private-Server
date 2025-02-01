@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19483-summon-gem-ayauhnqui-ex",
+        "fullSlug": "items\/19483-summon-gem-ayauhnqui-ex",
+        "id": 19483,
+        "name": "Summon Gem - Ayauhnqui EX",
+        "description": "The long lost Summon Gem - Ayauhnqui! Its special ability will boost your All resist by 5 when used. Proof of victory over Ayauhnqui and Reaver!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19483,
+            "name": "Summon Gem - Ayauhnqui EX",
+            "description": "The long lost Summon Gem - Ayauhnqui! Its special ability will boost your All resist by 5 when used. Proof of victory over Ayauhnqui and Reaver!",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 25,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-SummonGem-Ayauhnqui.swf",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": ""
+        }
+    },
+    "related": {
+        "318-the-conduit-life-death": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "318-the-conduit-life-death",
+                "fullSlug": "merge-shops\/318-the-conduit-life-death",
+                "id": 318,
+                "name": "The Conduit: Life & Death",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 318,
+                    "name": "The Conduit: Life & Death"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3393,
+                    "mergeShopId": 318,
+                    "mergeId": 3486
+                },
+                "merge": {
+                    "id": 3486,
+                    "itemId1": 19485,
+                    "amount1": 1,
+                    "itemId2": 19486,
+                    "amount2": 1,
+                    "itemId": 19483,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

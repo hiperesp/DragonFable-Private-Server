@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13904-guardian-blade",
+        "fullSlug": "items\/13904-guardian-blade",
+        "id": 13904,
+        "name": "Guardian Blade",
+        "description": "This is the ancient weapon of the Guardians. Who knows what secrets this sword holds. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13904,
+            "name": "Guardian Blade",
+            "description": "This is the ancient weapon of the Guardians. Who knows what secrets this sword holds. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 20,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-guardianRevamp.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 40,
+            "damageMax": 40,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Health,-3,Mana,-3"
+        }
+    },
+    "related": {
+        "6-tower-spirit-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "6-tower-spirit-shop",
+                "fullSlug": "item-shops\/6-tower-spirit-shop",
+                "id": 6,
+                "name": "Tower Spirit Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 6,
+                    "name": "Tower Spirit Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

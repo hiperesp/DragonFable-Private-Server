@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20417-scythe-of-the-soul-s-song",
+        "fullSlug": "items\/20417-scythe-of-the-soul-s-song",
+        "id": 20417,
+        "name": "Scythe of the Soul's Song",
+        "description": "A beautiful weapon and instrument said to be attuned to its wielder's wishes. Although it is silent for you now, perhaps one day, you'll hear its song as it slices your foes. Proof of victory over Discordia.\n(Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20417,
+            "name": "Scythe of the Soul's Song",
+            "description": "A beautiful weapon and instrument said to be attuned to its wielder's wishes. Although it is silent for you now, perhaps one day, you'll hear its song as it slices your foes. Proof of victory over Discordia.\n(Cosmetic)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 0,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-discordia.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1853-discordia-the-maestro": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1853-discordia-the-maestro",
+                "fullSlug": "quests\/1853-discordia-the-maestro",
+                "id": 1853,
+                "name": "Discordia, The Maestro",
+                "description": "Dance to the discordant tune of Discordia!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1853,
+                    "name": "Discordia, The Maestro",
+                    "description": "Dance to the discordant tune of Discordia!",
+                    "complete": "Pulling the strings.",
+                    "swf": "towns\/TimeArena\/quest6-discordia.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Chaos Lords",
+                    "monsterGroupSwf": "mset-arenachaosdiscledg-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

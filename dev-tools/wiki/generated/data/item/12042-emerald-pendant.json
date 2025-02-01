@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12042-emerald-pendant",
+        "fullSlug": "items\/12042-emerald-pendant",
+        "id": 12042,
+        "name": "Emerald Pendant",
+        "description": "Nature magics cause this gem to glow."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12042,
+            "name": "Emerald Pendant",
+            "description": "Nature magics cause this gem to glow.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 6,
+            "level": 57,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 6,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,12,Water,4,Immobility,1"
+        }
+    },
+    "related": {
+        "1161-the-elite-patrol": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1161-the-elite-patrol",
+                "fullSlug": "quests\/1161-the-elite-patrol",
+                "id": 1161,
+                "name": "The Elite Patrol",
+                "description": "Who is the Elite Patrol? How do you get in to the Third Level? Plenty of questions that need answers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1161,
+                    "name": "The Elite Patrol",
+                    "description": "Who is the Elite Patrol? How do you get in to the Third Level? Plenty of questions that need answers.",
+                    "complete": "Uh oh... Sofist is here. Not good!",
+                    "swf": "towns\/SulenEska\/quest16-patrol-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 35000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose patrol",
+                    "monsterGroupSwf": "mset-patrol-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

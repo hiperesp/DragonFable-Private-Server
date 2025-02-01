@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2999-chain-of-endurance",
+        "fullSlug": "items\/2999-chain-of-endurance",
+        "id": 2999,
+        "name": "Chain of Endurance",
+        "description": "Putting this on will make you feel stronger!  And the strange light pulsing from the gem increases your resistances!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2999,
+            "name": "Chain of Endurance",
+            "description": "Putting this on will make you feel stronger!  And the strange light pulsing from the gem increases your resistances!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 10,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,2,Light,2,Fire,2,Ice,2"
+        }
+    },
+    "related": {
+        "112-trinki-s-rings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "112-trinki-s-rings",
+                "fullSlug": "item-shops\/112-trinki-s-rings",
+                "id": 112,
+                "name": "Trinki's Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 112,
+                    "name": "Trinki's Rings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

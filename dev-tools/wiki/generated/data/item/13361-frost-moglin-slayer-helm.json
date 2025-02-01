@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13361-frost-moglin-slayer-helm",
+        "fullSlug": "items\/13361-frost-moglin-slayer-helm",
+        "id": 13361,
+        "name": "Frost Moglin Slayer Helm",
+        "description": "Your face may be hidden but every Frost Moglin knows who you are! You are their enemy and greatest fear!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13361,
+            "name": "Frost Moglin Slayer Helm",
+            "description": "Your face may be hidden but every Frost Moglin knows who you are! You are their enemy and greatest fear!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 25,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-FrostMoglinSlayer.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Good,5,Light,5"
+        }
+    },
+    "related": {
+        "426-frost-moglin-slayer": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "426-frost-moglin-slayer",
+                "fullSlug": "item-shops\/426-frost-moglin-slayer",
+                "id": 426,
+                "name": "Frost Moglin Slayer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 426,
+                    "name": "Frost Moglin Slayer",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

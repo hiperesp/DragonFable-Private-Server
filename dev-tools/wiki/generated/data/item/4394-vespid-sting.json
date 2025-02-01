@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4394-vespid-sting",
+        "fullSlug": "items\/4394-vespid-sting",
+        "id": 4394,
+        "name": "Vespid Sting",
+        "description": "The stingers from the Z-Virus infected Bees come together to form a wicked weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4394,
+            "name": "Vespid Sting",
+            "description": "The stingers from the Z-Virus infected Bees come together to form a wicked weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 28,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/swords-VespidSting.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 38,
+            "damageMax": 60,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,1,Immobility,1"
+        }
+    },
+    "related": {
+        "676-experiment-storage": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "676-experiment-storage",
+                "fullSlug": "quests\/676-experiment-storage",
+                "id": 676,
+                "name": "Experiment Storage",
+                "description": "The area where all the Z-Virus infected were contained."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 676,
+                    "name": "Experiment Storage",
+                    "description": "The area where all the Z-Virus infected were contained.",
+                    "complete": "You found a way through to the Control Center... now to face down the Red Queen!",
+                    "swf": "towns\/Mogloween\/M10\/quest-m4-6-cages-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "z-virus experiments",
+                    "monsterGroupSwf": "mset-rs-parasol.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

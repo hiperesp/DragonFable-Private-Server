@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7794-carving-rod-viii",
+        "fullSlug": "items\/7794-carving-rod-viii",
+        "id": 7794,
+        "name": "Carving Rod VIII",
+        "description": "Carve your way through Thankstaking, 2012, fighting foods!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7794,
+            "name": "Carving Rod VIII",
+            "description": "Carve your way through Thankstaking, 2012, fighting foods!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 75,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-thanksgiving12.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 5,
+            "charisma": 6,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 98,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Poison,9,Darkness,9,Light,3,Immobility,4"
+        }
+    },
+    "related": {
+        "123-turkey-defender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "123-turkey-defender",
+                "fullSlug": "merge-shops\/123-turkey-defender",
+                "id": 123,
+                "name": "Turkey Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 123,
+                    "name": "Turkey Defender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1691,
+                    "mergeShopId": 123,
+                    "mergeId": 1595
+                },
+                "merge": {
+                    "id": 1595,
+                    "itemId1": 495,
+                    "amount1": 75,
+                    "itemId2": 7794,
+                    "amount2": 1,
+                    "itemId": 7795,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1503-hudson-s-hawk-helm",
+        "fullSlug": "items\/1503-hudson-s-hawk-helm",
+        "id": 1503,
+        "name": "Hudson's Hawk Helm",
+        "description": "This item requires a Dragon Amulet. You could be swingin' on a star. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1503,
+            "name": "Hudson's Hawk Helm",
+            "description": "This item requires a Dragon Amulet. You could be swingin' on a star. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 15,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-RA2.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5"
+        }
+    },
+    "related": {
+        "211-hudson-s-hawk": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "211-hudson-s-hawk",
+                "fullSlug": "quests\/211-hudson-s-hawk",
+                "id": 211,
+                "name": "Hudson's Hawk",
+                "description": "Zhoom has sent you to Hudson's Cavern in search of one desert hawk egg that has not yet been eaten by the Venomkings."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 211,
+                    "name": "Hudson's Hawk",
+                    "description": "Zhoom has sent you to Hudson's Cavern in search of one desert hawk egg that has not yet been eaten by the Venomkings.",
+                    "complete": "You found the one whole hawk egg in all of Hudson's Cavern! With the hawk saved and the secrets of falconry at your fingertips, you can finally learn your skill.",
+                    "swf": "quests\/quest-hawkegg.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Snakedude",
+                    "monsterGroupSwf": "mset-snakedude.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

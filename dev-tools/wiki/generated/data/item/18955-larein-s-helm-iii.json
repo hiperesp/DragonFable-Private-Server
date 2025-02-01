@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18955-larein-s-helm-iii",
+        "fullSlug": "items\/18955-larein-s-helm-iii",
+        "id": 18955,
+        "name": "Larein's Helm III",
+        "description": "Oh, she did have a helmet after all."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18955,
+            "name": "Larein's Helm III",
+            "description": "Oh, she did have a helmet after all.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-larein.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 16,
+            "wisdom": 16,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Metal,3,Energy,3,Wind,3"
+        }
+    },
+    "related": {
+        "1640-fortress-of-thorns": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1640-fortress-of-thorns",
+                "fullSlug": "quests\/1640-fortress-of-thorns",
+                "id": 1640,
+                "name": "Fortress of Thorns",
+                "description": "With Belle's training under Warlic complete, she is ready to meet up with the Hero in an attempt to stop the Thorns for good!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1640,
+                    "name": "Fortress of Thorns",
+                    "description": "With Belle's training under Warlic complete, she is ready to meet up with the Hero in an attempt to stop the Thorns for good!",
+                    "complete": "Despite their best efforts, the Hero and Belle couldn't stop Theano from casting the resurrection spell. It's time to see Theano's plan come to fruition and stop him before he causes more damage!",
+                    "swf": "towns\/3Falconreach\/Thorns\/quest7-fortress.swf",
+                    "swfX": "towns\/3Falconreach\/Thorns\/quest7-fortress-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "thorns",
+                    "monsterGroupSwf": "mset-thornfortress.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

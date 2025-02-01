@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2949-dark-star",
+        "fullSlug": "items\/2949-dark-star",
+        "id": 2949,
+        "name": "Dark Star",
+        "description": "Lim uses the energy from a dark star to power this staff.  Don't look directly at it or the invisible radiation will burn your eyes."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2949,
+            "name": "Dark Star",
+            "description": "Lim uses the energy from a dark star to power this staff.  Don't look directly at it or the invisible radiation will burn your eyes.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 22,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-darkstar.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 36,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,2"
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

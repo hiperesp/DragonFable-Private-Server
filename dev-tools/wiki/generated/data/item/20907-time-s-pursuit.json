@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20907-time-s-pursuit",
+        "fullSlug": "items\/20907-time-s-pursuit",
+        "id": 20907,
+        "name": "Time's Pursuit",
+        "description": "An ever present reminder of time's flow. Can be activated in combat to heal a small amount of health. Proof of victory over Iadoa. Color Custom to armor trim."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20907,
+            "name": "Time's Pursuit",
+            "description": "An ever present reminder of time's flow. Can be activated in combat to heal a small amount of health. Proof of victory over Iadoa. Color Custom to armor trim.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 1,
+            "type": "Magic",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-iadoacog.swf",
+            "icon": "trinket",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1944-iadoa-the-chronomancer": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1944-iadoa-the-chronomancer",
+                "fullSlug": "quests\/1944-iadoa-the-chronomancer",
+                "id": 1944,
+                "name": "Iadoa, The Chronomancer",
+                "description": "Again and again and again."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1944,
+                    "name": "Iadoa, The Chronomancer",
+                    "description": "Again and again and again.",
+                    "complete": "Released, at last.",
+                    "swf": "towns\/TimeArena\/quest10-iadoa.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "iadoa and lionfang",
+                    "monsterGroupSwf": "mset-arenachaosiadlion.swf?ver=4"
+                }
+            },
+            "related": []
+        }
+    }
+}

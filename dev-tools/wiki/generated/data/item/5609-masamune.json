@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5609-masamune",
+        "fullSlug": "items\/5609-masamune",
+        "id": 5609,
+        "name": "Masamune",
+        "description": "Said to be forged by a master blacksmith of another planet, this nodachi has been inlaid with magically treated gold to be able to stand up to even the thickest of blades. Created by Mordred."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5609,
+            "name": "Masamune",
+            "description": "Said to be forged by a master blacksmith of another planet, this nodachi has been inlaid with magically treated gold to be able to stand up to even the thickest of blades. Created by Mordred.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 65,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/sword-masamune.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 74,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Darkness,7,Light,7,Immobility,7,Silver,3,All,2,Health,-5"
+        }
+    },
+    "related": {
+        "220-the-lady": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "220-the-lady",
+                "fullSlug": "item-shops\/220-the-lady",
+                "id": 220,
+                "name": "The Lady",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 220,
+                    "name": "The Lady",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

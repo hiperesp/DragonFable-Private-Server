@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1655-paladin-s-wrath",
+        "fullSlug": "items\/1655-paladin-s-wrath",
+        "id": 1655,
+        "name": "Paladin's Wrath",
+        "description": "Even through improvisation, paladins can make the most mundane items weapons of their holy wrath."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1655,
+            "name": "Paladin's Wrath",
+            "description": "Even through improvisation, paladins can make the most mundane items weapons of their holy wrath.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": -1,
+            "rarity": 5,
+            "level": 31,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/hammers\/hammer-undead.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 66,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2"
+        }
+    },
+    "related": {
+        "244-artix-vs-the-undead": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "244-artix-vs-the-undead",
+                "fullSlug": "quests\/244-artix-vs-the-undead",
+                "id": 244,
+                "name": "Artix Vs. The Undead",
+                "description": "You and Artix have to get to the purple robed necromantress before she notices you... but just between you and me... I think she might already know."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 244,
+                    "name": "Artix Vs. The Undead",
+                    "description": "You and Artix have to get to the purple robed necromantress before she notices you... but just between you and me... I think she might already know.",
+                    "complete": "Poor deluded Vayle does not seem to want to understand that you and Artix have freed her brother's life force from tormented captivity. You may have just made a dangerous new foe in the Necropolis.",
+                    "swf": "towns\/DoomWood\/quest-Artix8-r6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "undeads and undead brothers",
+                    "monsterGroupSwf": "mset-brother-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

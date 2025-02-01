@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20446-astravian-helm-i",
+        "fullSlug": "items\/20446-astravian-helm-i",
+        "id": 20446,
+        "name": "Astravian Helm I",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20446,
+            "name": "Astravian Helm I"
+        }
+    },
+    "related": {
+        "357-astravian-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "357-astravian-gear",
+                "fullSlug": "merge-shops\/357-astravian-gear",
+                "id": 357,
+                "name": "Astravian Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 357,
+                    "name": "Astravian Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3729,
+                    "mergeShopId": 357,
+                    "mergeId": 3797
+                },
+                "merge": {
+                    "id": 3797,
+                    "itemId1": 20446,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20463,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

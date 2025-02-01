@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12029-undead-obsidian-dragon-staff",
+        "fullSlug": "items\/12029-undead-obsidian-dragon-staff",
+        "id": 12029,
+        "name": "Undead Obsidian Dragon Staff",
+        "description": "A malevolent magic seeps from these bones... just one question, who's been harvesting them and why?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12029,
+            "name": "Undead Obsidian Dragon Staff",
+            "description": "A malevolent magic seeps from these bones... just one question, who's been harvesting them and why?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 51,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-undeadobsidiandragon.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 1,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5,Darkness,3,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "1160-howl-at-the-moon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1160-howl-at-the-moon",
+                "fullSlug": "quests\/1160-howl-at-the-moon",
+                "id": 1160,
+                "name": "Howl at the Moon",
+                "description": "The war is over but why were the were-creatures attacking?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1160,
+                    "name": "Howl at the Moon",
+                    "description": "The war is over but why were the were-creatures attacking?",
+                    "complete": "What could Chaney mean?",
+                    "swf": "towns\/3Amityvale\/quest-moonboss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "lon and chaney",
+                    "monsterGroupSwf": "mset-fullmoon.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

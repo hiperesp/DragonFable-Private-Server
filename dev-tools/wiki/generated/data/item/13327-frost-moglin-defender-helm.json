@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13327-frost-moglin-defender-helm",
+        "fullSlug": "items\/13327-frost-moglin-defender-helm",
+        "id": 13327,
+        "name": "Frost Moglin Defender Helm",
+        "description": "Your face may be hidden but every Frost Moglin knows who you are! You are their hero and defender!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13327,
+            "name": "Frost Moglin Defender Helm",
+            "description": "Your face may be hidden but every Frost Moglin knows who you are! You are their hero and defender!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 13000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-FrostMoglinDefender.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Evil,10,Darkness,10,Immobility,5,Health,-2"
+        }
+    },
+    "related": {
+        "425-frost-moglin-defender": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "425-frost-moglin-defender",
+                "fullSlug": "item-shops\/425-frost-moglin-defender",
+                "id": 425,
+                "name": "Frost Moglin Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 425,
+                    "name": "Frost Moglin Defender",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

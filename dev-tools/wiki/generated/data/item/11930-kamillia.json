@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11930-kamillia",
+        "fullSlug": "items\/11930-kamillia",
+        "id": 11930,
+        "name": "Kamillia",
+        "description": "Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11930,
+            "name": "Kamillia",
+            "description": "Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-sofist.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 6,
+            "charisma": 9,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 11,
+            "parry": 2,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Metal,12,Darkness,11,Poison,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "403-runed-fortress": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "403-runed-fortress",
+                "fullSlug": "item-shops\/403-runed-fortress",
+                "id": 403,
+                "name": "Runed Fortress",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 403,
+                    "name": "Runed Fortress",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

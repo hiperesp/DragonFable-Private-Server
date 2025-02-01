@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4551-dark-shadowrune-cape",
+        "fullSlug": "items\/4551-dark-shadowrune-cape",
+        "id": 4551,
+        "name": "Dark Shadowrune Cape",
+        "description": "The runes on this cape are mysterious and imbued with a pulsing, dark power.  Take care when wearing this!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4551,
+            "name": "Dark Shadowrune Cape",
+            "description": "The runes on this cape are mysterious and imbued with a pulsing, dark power.  Take care when wearing this!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 40,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-darkrune.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,7"
+        }
+    },
+    "related": {
+        "689-a-dark-letter": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "689-a-dark-letter",
+                "fullSlug": "quests\/689-a-dark-letter",
+                "id": 689,
+                "name": "A Dark Letter",
+                "description": "Vayle receives a proposition from an un-named letter writer who wants to use her power in return for letting her use his to get back at you for killing her brother!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 689,
+                    "name": "A Dark Letter",
+                    "description": "Vayle receives a proposition from an un-named letter writer who wants to use her power in return for letting her use his to get back at you for killing her brother!",
+                    "complete": "Next step: To Amityvale and Vayle's hideout!",
+                    "swf": "quests\/quest-vayle1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-artix5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

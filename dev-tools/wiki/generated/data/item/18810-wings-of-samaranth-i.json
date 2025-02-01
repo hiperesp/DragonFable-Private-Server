@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18810-wings-of-samaranth-i",
+        "fullSlug": "items\/18810-wings-of-samaranth-i",
+        "id": 18810,
+        "name": "Wings of Samaranth I",
+        "description": "The storm-borne wings of the Celestial Samaranth."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18810,
+            "name": "Wings of Samaranth I",
+            "description": "The storm-borne wings of the Celestial Samaranth.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 50,
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-samaranth.swf?ver=1",
+            "icon": "wings",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,2,Health,-2"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3300,
+                    "mergeShopId": 303,
+                    "mergeId": 3387
+                },
+                "merge": {
+                    "id": 3387,
+                    "itemId1": 18820,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18810,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2405-master-s-hood",
+        "fullSlug": "items\/2405-master-s-hood",
+        "id": 2405,
+        "name": "Master's Hood",
+        "description": "The Emperors of Sek-Duat's line are served by a line of sycophants who have turned their service into a form of worship.  This hood was taken from one of their masters. This item is color customizable and requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2405,
+            "name": "Master's Hood",
+            "description": "The Emperors of Sek-Duat's line are served by a line of sycophants who have turned their service into a form of worship.  This hood was taken from one of their masters. This item is color customizable and requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1100,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 2,
+            "level": 31,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-tomix8da.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,3,Light,3,Immobility,1"
+        }
+    },
+    "related": {
+        "100-sandsea-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "100-sandsea-helms",
+                "fullSlug": "item-shops\/100-sandsea-helms",
+                "id": 100,
+                "name": "SandSea Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 100,
+                    "name": "SandSea Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

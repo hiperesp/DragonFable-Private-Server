@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19725-ancient-dragonlord-helm-iii",
+        "fullSlug": "items\/19725-ancient-dragonlord-helm-iii",
+        "id": 19725,
+        "name": "Ancient DragonLord Helm III",
+        "description": "It's unknown from exactly when or where this ancient helm originated. Proof of victory over the Inevitable Equilibrium challenge. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19725,
+            "name": "Ancient DragonLord Helm III",
+            "description": "It's unknown from exactly when or where this ancient helm originated. Proof of victory over the Inevitable Equilibrium challenge. This item requires a Dragon Amulet to use.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 15,
+            "rarity": 0,
+            "level": 90,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-ancientdragonlordCC.swf?ver=2",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,10,Immobility,5,Health,-15"
+        }
+    },
+    "related": {
+        "322-inevitable-equilibrium": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "322-inevitable-equilibrium",
+                "fullSlug": "merge-shops\/322-inevitable-equilibrium",
+                "id": 322,
+                "name": "Inevitable Equilibrium",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 322,
+                    "name": "Inevitable Equilibrium"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3434,
+                    "mergeShopId": 322,
+                    "mergeId": 3529
+                },
+                "merge": {
+                    "id": 3529,
+                    "itemId1": 19723,
+                    "amount1": 1,
+                    "itemId2": 19731,
+                    "amount2": 1,
+                    "itemId": 19725,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

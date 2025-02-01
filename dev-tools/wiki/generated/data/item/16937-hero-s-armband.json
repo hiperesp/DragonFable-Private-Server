@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16937-hero-s-armband",
+        "fullSlug": "items\/16937-hero-s-armband",
+        "id": 16937,
+        "name": "Hero's Armband",
+        "description": "A red cloth armband, emblazoned with a black and gold dragon emblem. The symbol of a hero. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16937,
+            "name": "Hero's Armband",
+            "description": "A red cloth armband, emblazoned with a black and gold dragon emblem. The symbol of a hero. This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 85,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Wrist",
+            "itemType": "Bracer",
+            "swf": "",
+            "icon": "bracer",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1413-calamity": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1413-calamity",
+                "fullSlug": "quests\/1413-calamity",
+                "id": 1413,
+                "name": "Calamity",
+                "description": "The Doom Amulet has been destroyed, your dragon is still corrupted and you are falling from the sky. Can things get any worse!?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1413,
+                    "name": "Calamity",
+                    "description": "The Doom Amulet has been destroyed, your dragon is still corrupted and you are falling from the sky. Can things get any worse!?",
+                    "complete": "It's... finally over, isn't it?",
+                    "swf": "towns\/10AnnDF\/quest15-finale-r1.swf",
+                    "swfX": "towns\/10AnnDF\/quest15-finale-x-r1.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Caitiff",
+                    "monsterGroupSwf": "mset-finale-caitiff.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

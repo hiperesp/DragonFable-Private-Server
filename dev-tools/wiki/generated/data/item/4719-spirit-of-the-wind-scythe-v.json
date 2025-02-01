@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4719-spirit-of-the-wind-scythe-v",
+        "fullSlug": "items\/4719-spirit-of-the-wind-scythe-v",
+        "id": 4719,
+        "name": "Spirit of the Wind Scythe V",
+        "description": "Let the spirit of the wind move you to battle on!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4719,
+            "name": "Spirit of the Wind Scythe V",
+            "description": "Let the spirit of the wind move you to battle on!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 6,
+            "level": 45,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-windspirit.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 63,
+            "damageMax": 69,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,6,Wind,6"
+        }
+    },
+    "related": {
+        "80-arena-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "80-arena-rewards",
+                "fullSlug": "merge-shops\/80-arena-rewards",
+                "id": 80,
+                "name": "Arena Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 80,
+                    "name": "Arena Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1127,
+                    "mergeShopId": 80,
+                    "mergeId": 883
+                },
+                "merge": {
+                    "id": 883,
+                    "itemId1": 4721,
+                    "amount1": 25,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4719,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

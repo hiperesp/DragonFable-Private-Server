@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19755-summon-gem-intaym-ex",
+        "fullSlug": "items\/19755-summon-gem-intaym-ex",
+        "id": 19755,
+        "name": "Summon Gem - Intaym EX",
+        "description": "The long lost Summon Gem - Intaym! Its special ability will boost your Crit by 50 when used. Proof of victory over Illumina and Intaym!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19755,
+            "name": "Summon Gem - Intaym EX",
+            "description": "The long lost Summon Gem - Intaym! Its special ability will boost your Crit by 50 when used. Proof of victory over Illumina and Intaym!",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 25,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-SummonGem-intaym-r1.swf",
+            "icon": "trinket",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": ""
+        }
+    },
+    "related": {
+        "323-the-conduit-duty-rebellion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "323-the-conduit-duty-rebellion",
+                "fullSlug": "merge-shops\/323-the-conduit-duty-rebellion",
+                "id": 323,
+                "name": "The Conduit: Duty & Rebellion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 323,
+                    "name": "The Conduit: Duty & Rebellion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3441,
+                    "mergeShopId": 323,
+                    "mergeId": 3534
+                },
+                "merge": {
+                    "id": 3534,
+                    "itemId1": 19752,
+                    "amount1": 1,
+                    "itemId2": 19757,
+                    "amount2": 1,
+                    "itemId": 19755,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

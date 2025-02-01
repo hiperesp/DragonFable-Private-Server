@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5616-mantle-of-destiny",
+        "fullSlug": "items\/5616-mantle-of-destiny",
+        "id": 5616,
+        "name": "Mantle of Destiny",
+        "description": "Once upon a time, a great crusader of the Light donned this mantle; its brilliant glowing wings blinded his enemies with the power of truth and justice!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5616,
+            "name": "Mantle of Destiny",
+            "description": "Once upon a time, a great crusader of the Light donned this mantle; its brilliant glowing wings blinded his enemies with the power of truth and justice!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-destiny.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Evil,4,Darkness,4"
+        }
+    },
+    "related": {
+        "804-the-growing-darkness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "804-the-growing-darkness",
+                "fullSlug": "quests\/804-the-growing-darkness",
+                "id": 804,
+                "name": "The Growing Darkness",
+                "description": "The Mysterious Stranger's Super Ultra Mega Darkness Dracolich is growing... gathering all the spirits of darkness from the shadows in the world to block out the light!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 804,
+                    "name": "The Growing Darkness",
+                    "description": "The Mysterious Stranger's Super Ultra Mega Darkness Dracolich is growing... gathering all the spirits of darkness from the shadows in the world to block out the light!",
+                    "complete": "The Mysterious Stranger's Super Ultra Mega Darkness Dracolich is growing... gathering all the  spirits of darkness from the shadows in the world to block out the light!",
+                    "swf": "towns\/Chap1Finale\/quest-finale11-DarknessSpreads-r2.swf",
+                    "swfX": "towns\/Chap1Finale\/quest-finale11-DarknessSpreads-xmap.swf",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "seppys minions",
+                    "monsterGroupSwf": "mset-finale7-lowerfortress.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

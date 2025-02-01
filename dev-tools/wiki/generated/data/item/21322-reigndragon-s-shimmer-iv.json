@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21322-reigndragon-s-shimmer-iv",
+        "fullSlug": "items\/21322-reigndragon-s-shimmer-iv",
+        "id": 21322,
+        "name": "ReignDragon's Shimmer IV",
+        "description": "This ethereal weapon glows with the shining lights of the north. The bells on it ring softly as you face your foes!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21322,
+            "name": "ReignDragon's Shimmer IV",
+            "description": "This ethereal weapon glows with the shining lights of the north. The bells on it ring softly as you face your foes!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 40,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-reigndragon.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 55,
+            "damageMax": 65,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,4,Health,-3"
+        }
+    },
+    "related": {
+        "380-reigndragon-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "380-reigndragon-gear",
+                "fullSlug": "merge-shops\/380-reigndragon-gear",
+                "id": 380,
+                "name": "ReignDragon Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 380,
+                    "name": "ReignDragon Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3973,
+                    "mergeShopId": 380,
+                    "mergeId": 4068
+                },
+                "merge": {
+                    "id": 4068,
+                    "itemId1": 21318,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21322,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

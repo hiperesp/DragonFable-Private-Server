@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19668-dragon-scale-coil-i",
+        "fullSlug": "items\/19668-dragon-scale-coil-i",
+        "id": 19668,
+        "name": "Dragon Scale Coil I",
+        "description": "A fine ring, painstakingly crafted by Cole from Messimy's fallen dragon scales. As Cole says, it's \"Somethin' to remember her and the kids by.\" "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19668,
+            "name": "Dragon Scale Coil I",
+            "description": "A fine ring, painstakingly crafted by Cole from Messimy's fallen dragon scales. As Cole says, it's \"Somethin' to remember her and the kids by.\" ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,5,Silver,5,Health,-5"
+        }
+    },
+    "related": {
+        "1712-leaving-the-nest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1712-leaving-the-nest",
+                "fullSlug": "quests\/1712-leaving-the-nest",
+                "id": 1712,
+                "name": "Leaving the Nest",
+                "description": "The final stand-off against Siofra!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1712,
+                    "name": "Leaving the Nest",
+                    "description": "The final stand-off against Siofra!",
+                    "complete": "And so The Nest and its children are kept safe. The memory of Messimy will live on in the young children she cared for, while another magical threat has been contained by The Rose.",
+                    "swf": "towns\/Nest\/quest6-leavingnest.swf",
+                    "swfX": "towns\/Nest\/quest6-leavingnest-x.swf?ver=1",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "smoke & silver & siofra",
+                    "monsterGroupSwf": "mset-nestfinale-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2273-marsh-malaise",
+        "fullSlug": "items\/2273-marsh-malaise",
+        "id": 2273,
+        "name": "Marsh Malaise",
+        "description": "Dank, dark marshes are REALLY depressing.  Better head for higher, sunnier ground and maybe the malaise you're suffering will go away."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2273,
+            "name": "Marsh Malaise",
+            "description": "Dank, dark marshes are REALLY depressing.  Better head for higher, sunnier ground and maybe the malaise you're suffering will go away.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 850,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 20,
+            "level": 26,
+            "type": "Magic",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-bacon6.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": -1,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 51,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,2,Nature,2"
+        }
+    },
+    "related": {
+        "90-hydra-souvenirs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "90-hydra-souvenirs",
+                "fullSlug": "item-shops\/90-hydra-souvenirs",
+                "id": 90,
+                "name": "Hydra Souvenirs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 90,
+                    "name": "Hydra Souvenirs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3813-depths-of-madness-i",
+        "fullSlug": "items\/3813-depths-of-madness-i",
+        "id": 3813,
+        "name": "Depths of Madness I",
+        "description": "As you gaze into the glowing blades of this weapon, your mind begins to drift into a haze. Better not stare too long! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3813,
+            "name": "Depths of Madness I",
+            "description": "As you gaze into the glowing blades of this weapon, your mind begins to drift into a haze. Better not stare too long! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 33,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-madness_da.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 1,
+            "wisdom": 2,
+            "damageMin": 51,
+            "damageMax": 59,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Darkness,3,Evil,3"
+        }
+    },
+    "related": {
+        "603-risen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "603-risen",
+                "fullSlug": "quests\/603-risen",
+                "id": 603,
+                "name": "Risen",
+                "description": "Kathool has risen!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 603,
+                    "name": "Risen",
+                    "description": "Kathool has risen!",
+                    "complete": "You defeated the Great One, Kathool Achoo, with the help of Aquella!",
+                    "swf": "towns\/TheLocker\/quest-KathoolTitan.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Elder god",
+                    "monsterGroupSwf": "mset-kathool.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

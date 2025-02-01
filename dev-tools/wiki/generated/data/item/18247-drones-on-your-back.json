@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18247-drones-on-your-back",
+        "fullSlug": "items\/18247-drones-on-your-back",
+        "id": 18247,
+        "name": "Drones On Your Back",
+        "description": "Is something following you...?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18247,
+            "name": "Drones On Your Back",
+            "description": "Is something following you...?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-drones.swf",
+            "icon": "cape",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 12,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Stone,12,All,3"
+        }
+    },
+    "related": {
+        "143-drones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "143-drones",
+                "fullSlug": "merge-shops\/143-drones",
+                "id": 143,
+                "name": "Drones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 143,
+                    "name": "Drones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2071,
+                    "mergeShopId": 143,
+                    "mergeId": 3275
+                },
+                "merge": {
+                    "id": 3275,
+                    "itemId1": 10162,
+                    "amount1": 1,
+                    "itemId2": 7689,
+                    "amount2": 1,
+                    "itemId": 18247,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

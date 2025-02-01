@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19604-refraction-pendant-v",
+        "fullSlug": "items\/19604-refraction-pendant-v",
+        "id": 19604,
+        "name": "Refraction Pendant V",
+        "description": "This small, rough pebble of rubble seems to have been enchanted as a side effect of Jaania's barrier spell. But... what else could could have been affected? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19604,
+            "name": "Refraction Pendant V",
+            "description": "This small, rough pebble of rubble seems to have been enchanted as a side effect of Jaania's barrier spell. But... what else could could have been affected? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 70,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,11,Ice,11"
+        }
+    },
+    "related": {
+        "1708-collapse": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1708-collapse",
+                "fullSlug": "quests\/1708-collapse",
+                "id": 1708,
+                "name": "Collapse",
+                "description": "Time to move."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1708,
+                    "name": "Collapse",
+                    "description": "Time to move.",
+                    "complete": "Back to the battlefront. Hopefully the plan can be finalized before the barrier breaks...",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest4-collapse.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest4-collapse-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

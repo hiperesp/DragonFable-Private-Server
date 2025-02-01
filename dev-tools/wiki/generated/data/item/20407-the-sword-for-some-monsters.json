@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20407-the-sword-for-some-monsters",
+        "fullSlug": "items\/20407-the-sword-for-some-monsters",
+        "id": 20407,
+        "name": "The Sword For Some Monsters",
+        "description": "One of many Rivalt's swords that he chose to part with for your sake! (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20407,
+            "name": "The Sword For Some Monsters",
+            "description": "One of many Rivalt's swords that he chose to part with for your sake! (Cosmetic)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 0,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/scythes\/scythe-rivalt1.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1849-the-valley-of-greenguard": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1849-the-valley-of-greenguard",
+                "fullSlug": "quests\/1849-the-valley-of-greenguard",
+                "id": 1849,
+                "name": "The Valley of Greenguard",
+                "description": "There's a monster on the loose in the valley of Greenguard!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1849,
+                    "name": "The Valley of Greenguard",
+                    "description": "There's a monster on the loose in the valley of Greenguard!",
+                    "complete": "Toss some gold to your werewolf!",
+                    "swf": "towns\/3Swordhaven\/Board\/quest-valleygreenguard.swf",
+                    "swfX": "towns\/3Swordhaven\/Board\/quest-valleygreenguard-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "witcher spoof",
+                    "monsterGroupSwf": "mset-valley.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

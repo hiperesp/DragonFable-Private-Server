@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5591-spybrand-of-judgment-ii",
+        "fullSlug": "items\/5591-spybrand-of-judgment-ii",
+        "id": 5591,
+        "name": "Spybrand of Judgment II",
+        "description": "Even the power of Light is not safe from Sepulchure's corruption. This weapon represents Light at its most callous and cruel."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5591,
+            "name": "Spybrand of Judgment II",
+            "description": "Even the power of Light is not safe from Sepulchure's corruption. This weapon represents Light at its most callous and cruel.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 40,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-spy_light.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 52,
+            "damageMax": 68,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Evil,-5,Light,8,Energy,8,Darkness,8"
+        }
+    },
+    "related": {
+        "793-dying-light": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "793-dying-light",
+                "fullSlug": "quests\/793-dying-light",
+                "id": 793,
+                "name": "Dying Light",
+                "description": "The last of the known elemental orbs lies in the balance. Will you be able to save it.... or will Sepulchure finally have all eight in his grasp?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 793,
+                    "name": "Dying Light",
+                    "description": "The last of the known elemental orbs lies in the balance. Will you be able to save it.... or will Sepulchure finally have all eight in his grasp?",
+                    "complete": "The Orbs are gone. We'll have to take the fight to Sepulchure and end this!",
+                    "swf": "towns\/Chap1Finale\/quest-finale6-lightorb-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "light",
+                    "monsterGroupSwf": "mset-havoc-sandsea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

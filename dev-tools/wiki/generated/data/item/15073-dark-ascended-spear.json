@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15073-dark-ascended-spear",
+        "fullSlug": "items\/15073-dark-ascended-spear",
+        "id": 15073,
+        "name": "Dark Ascended Spear ",
+        "description": "The most evil of smells... burnt bacon... follows you with the Black Friday '15 spear!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15073,
+            "name": "Dark Ascended Spear ",
+            "description": "The most evil of smells... burnt bacon... follows you with the Black Friday '15 spear!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 450,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 90,
+            "level": 70,
+            "type": "Melee",
+            "element": "Bacon",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-AscendSpear-dark.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 4,
+            "charisma": 8,
+            "endurance": 2,
+            "wisdom": 6,
+            "damageMin": 78,
+            "damageMax": 94,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Water,9,Fire,9,Bacon,9,Immobility,5,Health,-5"
+        }
+    },
+    "related": {
+        "477-black-friday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "477-black-friday",
+                "fullSlug": "item-shops\/477-black-friday",
+                "id": 477,
+                "name": "Black Friday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 477,
+                    "name": "Black Friday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

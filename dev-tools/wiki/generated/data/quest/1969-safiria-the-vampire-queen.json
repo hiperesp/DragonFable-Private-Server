@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1969-safiria-the-vampire-queen",
+        "fullSlug": "quests\/1969-safiria-the-vampire-queen",
+        "id": 1969,
+        "name": "Safiria, the Vampire Queen",
+        "description": "Time to find out what kind of miserable little pile of secrets you are."
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1969,
+            "name": "Safiria, the Vampire Queen",
+            "description": "Time to find out what kind of miserable little pile of secrets you are.",
+            "complete": "It seems she's satisfied.",
+            "swf": "towns\/TimeArena\/quest4-safiria.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 5000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "Safiria, Amaris",
+            "monsterGroupSwf": "mset-arenasafamaris.swf?ver=2"
+        }
+    },
+    "related": {
+        "21049-the-blood-mantle-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "21049-the-blood-mantle-i",
+                "fullSlug": "items\/21049-the-blood-mantle-i",
+                "id": 21049,
+                "name": "The Blood Mantle I",
+                "description": "An ancient vampire lord's warhelm. The more you thirst for blood, the more menacing it becomes... Proof of victory over Safiria!"
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 21049,
+                    "name": "The Blood Mantle I",
+                    "description": "An ancient vampire lord's warhelm. The more you thirst for blood, the more menacing it becomes... Proof of victory over Safiria!",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 3,
+                    "rarity": 0,
+                    "level": 30,
+                    "type": "Pierce",
+                    "element": "Darkness",
+                    "categoryId": "2",
+                    "equipSpot": "Head",
+                    "itemType": "Helm",
+                    "swf": "head\/helms\/hairhelm-bloodmantle.swf",
+                    "icon": "helm",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 3,
+                    "charisma": 3,
+                    "endurance": 8,
+                    "wisdom": 8,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 1,
+                    "defensePierce": 1,
+                    "defenseMagic": 1,
+                    "critical": 3,
+                    "parry": 1,
+                    "dodge": 1,
+                    "block": 1,
+                    "resists": "All,3,Health,-3"
+                }
+            },
+            "related": []
+        }
+    }
+}

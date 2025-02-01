@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2351-gedaur",
+        "fullSlug": "items\/2351-gedaur",
+        "id": 2351,
+        "name": "Gedaur",
+        "description": "Whispered rumors claim this wand once served as a torch in an Elvish Queen's Hall. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2351,
+            "name": "Gedaur",
+            "description": "Whispered rumors claim this wand once served as a torch in an Elvish Queen's Hall. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 17750,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 40,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-march09-1.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 51,
+            "damageMax": 71,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4,Water,2"
+        }
+    },
+    "related": {
+        "1-yulgar-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "1-yulgar-s-shop",
+                "fullSlug": "item-shops\/1-yulgar-s-shop",
+                "id": 1,
+                "name": "Yulgar's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 1,
+                    "name": "Yulgar's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

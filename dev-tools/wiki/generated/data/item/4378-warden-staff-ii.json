@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4378-warden-staff-ii",
+        "fullSlug": "items\/4378-warden-staff-ii",
+        "id": 4378,
+        "name": "Warden Staff II",
+        "description": "Ward off the denizens of the night with this awesome staff!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4378,
+            "name": "Warden Staff II",
+            "description": "Ward off the denizens of the night with this awesome staff!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1750,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 53,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/RS-WardenStaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 65,
+            "damageMax": 75,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Wind,6,Darkness,6"
+        }
+    },
+    "related": {
+        "670-resident-sneevil-parasol-chronicles": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "670-resident-sneevil-parasol-chronicles",
+                "fullSlug": "quests\/670-resident-sneevil-parasol-chronicles",
+                "id": 670,
+                "name": "Resident Sneevil: Parasol Chronicles",
+                "description": "The door to the library is locked... maybe you can find a key or crank or something to open it?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 670,
+                    "name": "Resident Sneevil: Parasol Chronicles",
+                    "description": "The door to the library is locked... maybe you can find a key or crank or something to open it?",
+                    "complete": "Of course the creepy abandoned mansion belongs to Zorbak.",
+                    "swf": "towns\/Mogloween\/M10\/quest-m3-parasol.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "z-virus experiments",
+                    "monsterGroupSwf": "mset-rs-parasol.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

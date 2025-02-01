@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17937-chunk-of-void-radiance",
+        "fullSlug": "items\/17937-chunk-of-void-radiance",
+        "id": 17937,
+        "name": "Chunk of Void Radiance",
+        "description": "This piece of... something rapidly flashes between green, blue, and red. But when you look away, does it turn... purple? It's warm though, and can probably help incubate your egg! Nothing can go wrong there!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17937,
+            "name": "Chunk of Void Radiance",
+            "description": "This piece of... something rapidly flashes between green, blue, and red. But when you look away, does it turn... purple? It's warm though, and can probably help incubate your egg! Nothing can go wrong there!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1491-the-primordials": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1491-the-primordials",
+                "fullSlug": "quests\/1491-the-primordials",
+                "id": 1491,
+                "name": "The Primordials",
+                "description": "They came."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1491,
+                    "name": "The Primordials",
+                    "description": "They came.",
+                    "complete": "They left.",
+                    "swf": "towns\/TimeArena\/quest-primordials.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Uthuluc and Squirrel",
+                    "monsterGroupSwf": "mset-arenaprimordialsr3.swf"
+                }
+            },
+            "related": []
+        },
+        "289-primordial": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "289-primordial",
+                "fullSlug": "merge-shops\/289-primordial",
+                "id": 289,
+                "name": "Primordial",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 289,
+                    "name": "Primordial"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3161,
+                    "mergeShopId": 289,
+                    "mergeId": 3173
+                },
+                "merge": {
+                    "id": 3173,
+                    "itemId1": 17942,
+                    "amount1": 1,
+                    "itemId2": 17937,
+                    "amount2": 1,
+                    "itemId": 17945,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5153-mantle-of-deadly-doom",
+        "fullSlug": "items\/5153-mantle-of-deadly-doom",
+        "id": 5153,
+        "name": "Mantle of Deadly Doom",
+        "description": "This gruesome mantle of skulls should help you make your point!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5153,
+            "name": "Mantle of Deadly Doom",
+            "description": "This gruesome mantle of skulls should help you make your point!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 52,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-doom_mantle.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": -4,
+            "endurance": 4,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,6,Darkness,6"
+        }
+    },
+    "related": {
+        "745-new-face-of-entropy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "745-new-face-of-entropy",
+                "fullSlug": "quests\/745-new-face-of-entropy",
+                "id": 745,
+                "name": "New Face of Entropy",
+                "description": "En and Tropy have merged with Gorgok!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 745,
+                    "name": "New Face of Entropy",
+                    "description": "En and Tropy have merged with Gorgok!",
+                    "complete": "En and Tropy have merged with Gorgok!",
+                    "swf": "towns\/willowshire\/quest-earth14-newentropyr3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "entropy and entogs",
+                    "monsterGroupSwf": "mset-earth14.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

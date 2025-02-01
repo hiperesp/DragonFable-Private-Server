@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14575-ranger-blade",
+        "fullSlug": "items\/14575-ranger-blade",
+        "id": 14575,
+        "name": "Ranger Blade",
+        "description": "A trusty blade used by a Ranger to get out of any situation."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14575,
+            "name": "Ranger Blade",
+            "description": "A trusty blade used by a Ranger to get out of any situation.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 23,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-RangerBlade.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 51,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,1,Water,1,Mana,-1"
+        }
+    },
+    "related": {
+        "462-ranger-cache": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "462-ranger-cache",
+                "fullSlug": "item-shops\/462-ranger-cache",
+                "id": 462,
+                "name": "Ranger Cache",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 462,
+                    "name": "Ranger Cache",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

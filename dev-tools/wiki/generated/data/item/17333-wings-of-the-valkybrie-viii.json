@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17333-wings-of-the-valkybrie-viii",
+        "fullSlug": "items\/17333-wings-of-the-valkybrie-viii",
+        "id": 17333,
+        "name": "Wings of the Valkybrie VIII",
+        "description": "Cry Havarti and let loose the Dorset of war! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17333,
+            "name": "Wings of the Valkybrie VIII",
+            "description": "Cry Havarti and let loose the Dorset of war! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 220,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 85,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-valkybrie.swf",
+            "icon": "wings",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1440-feta-finale": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1440-feta-finale",
+                "fullSlug": "quests\/1440-feta-finale",
+                "id": 1440,
+                "name": "Feta Finale",
+                "description": "It's time for San Robin to put the bandits to justice."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1440,
+                    "name": "Feta Finale",
+                    "description": "It's time for San Robin to put the bandits to justice.",
+                    "complete": "That? was unexpected.",
+                    "swf": "towns\/1Falconreach\/1SanRobin\/quest-fetafinale.swf",
+                    "swfX": "towns\/1Falconreach\/1SanRobin\/quest-fetafinale-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 4321,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "guard beasts",
+                    "monsterGroupSwf": "mset-fetafinale.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

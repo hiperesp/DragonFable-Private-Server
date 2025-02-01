@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "358-captain-s-hook",
+        "fullSlug": "items\/358-captain-s-hook",
+        "id": 358,
+        "name": "Captain's Hook",
+        "description": "This short, curvey blade can do a lot of damage no matter how it is wielded."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 358,
+            "name": "Captain's Hook",
+            "description": "This short, curvey blade can do a lot of damage no matter how it is wielded.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1955,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 18,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-flow2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 28,
+            "damageMax": 54,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "26-desert-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "26-desert-tomb",
+                "fullSlug": "quests\/26-desert-tomb",
+                "id": 26,
+                "name": "Desert Tomb",
+                "description": "You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 26,
+                    "name": "Desert Tomb",
+                    "description": "You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever.",
+                    "complete": "You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever.",
+                    "swf": "random\/random-pyramid.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 150,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 9,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Elemental,Reptile,Bug",
+                    "monsterGroupSwf": "mset-pyramid.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

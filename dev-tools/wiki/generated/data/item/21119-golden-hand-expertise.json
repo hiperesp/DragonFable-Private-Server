@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21119-golden-hand-expertise",
+        "fullSlug": "items\/21119-golden-hand-expertise",
+        "id": 21119,
+        "name": "Golden Hand Expertise",
+        "description": "Ostromir and Vseslava think they can figure out a way to combine Magesterium technology with DragonLord magic. They will help you upgrade your Blades of The Great One to a functional weapon!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21119,
+            "name": "Golden Hand Expertise",
+            "description": "Ostromir and Vseslava think they can figure out a way to combine Magesterium technology with DragonLord magic. They will help you upgrade your Blades of The Great One to a functional weapon!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1982-awakened-depths-epilogue-gh": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1982-awakened-depths-epilogue-gh",
+                "fullSlug": "quests\/1982-awakened-depths-epilogue-gh",
+                "id": 1982,
+                "name": "Awakened Depths: Epilogue (GH)",
+                "description": "With Tyndur's Depths (mostly) at peace once more, all that's left to do is celebrate... and say your goodbyes."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1982,
+                    "name": "Awakened Depths: Epilogue (GH)",
+                    "description": "With Tyndur's Depths (mostly) at peace once more, all that's left to do is celebrate... and say your goodbyes.",
+                    "complete": "Time to go back to Swordhaven and update Queen Victoria on everything that's happened!",
+                    "swf": "towns\/3Oceantyndur\/quest10-epilogue.swf",
+                    "swfX": "towns\/3Oceantyndur\/quest10-epilogue-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 0,
+                    "maxGems": 0,
+                    "maxExp": 0,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        },
+        "374-the-awakened-depths": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "374-the-awakened-depths",
+                "fullSlug": "merge-shops\/374-the-awakened-depths",
+                "id": 374,
+                "name": "The Awakened Depths",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 374,
+                    "name": "The Awakened Depths"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3900,
+                    "mergeShopId": 374,
+                    "mergeId": 4006
+                },
+                "merge": {
+                    "id": 4006,
+                    "itemId1": 21116,
+                    "amount1": 1,
+                    "itemId2": 21119,
+                    "amount2": 1,
+                    "itemId": 21108,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2742-model-of-popsprocket",
+        "fullSlug": "items\/2742-model-of-popsprocket",
+        "id": 2742,
+        "name": "Model of Popsprocket",
+        "description": "This scale model of the town is proof that you've visited it!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2742,
+            "name": "Model of Popsprocket",
+            "description": "This scale model of the town is proof that you've visited it!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 30,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "greengem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "481-to-popsprocket": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "481-to-popsprocket",
+                "fullSlug": "quests\/481-to-popsprocket",
+                "id": 481,
+                "name": "To Popsprocket",
+                "description": "Gears and gnomes and grease, oh my!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 481,
+                    "name": "To Popsprocket",
+                    "description": "Gears and gnomes and grease, oh my!",
+                    "complete": "One location down!",
+                    "swf": "random\/random-popsprocket.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "masheenz",
+                    "monsterGroupSwf": "mset-colorless2.swf"
+                }
+            },
+            "related": []
+        },
+        "54-valencia-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "54-valencia-s-shop",
+                "fullSlug": "merge-shops\/54-valencia-s-shop",
+                "id": 54,
+                "name": "Valencia's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 54,
+                    "name": "Valencia's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 829,
+                    "mergeShopId": 54,
+                    "mergeId": 555
+                },
+                "merge": {
+                    "id": 555,
+                    "itemId1": 2741,
+                    "amount1": 1,
+                    "itemId2": 2742,
+                    "amount2": 1,
+                    "itemId": 2723,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22173-moglinmade-travel-cloak-iii",
+        "fullSlug": "items\/22173-moglinmade-travel-cloak-iii",
+        "id": 22173,
+        "name": "Moglinmade Travel Cloak III",
+        "description": "Many years ago, Falconreach received a massive shipment of these comfortable yet light cloaks. According to Spruce, there's a little bit of moglin magic woven into each one, like a small hug."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22173,
+            "name": "Moglinmade Travel Cloak III",
+            "description": "Many years ago, Falconreach received a massive shipment of these comfortable yet light cloaks. According to Spruce, there's a little bit of moglin magic woven into each one, like a small hug.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 30,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-greencloak.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Ice,3,Water,3,Health,-3"
+        }
+    },
+    "related": {
+        "2190-starlit-sandsea": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2190-starlit-sandsea",
+                "fullSlug": "quests\/2190-starlit-sandsea",
+                "id": 2190,
+                "name": "Starlit Sandsea",
+                "description": "The moon has risen, which means it's time to make the journey to the Sandsea, and the floating city of Atrea."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2190,
+                    "name": "Starlit Sandsea",
+                    "description": "The moon has risen, which means it's time to make the journey to the Sandsea, and the floating city of Atrea.",
+                    "complete": "Welcome to Atrea, final remnant of Somorah.",
+                    "swf": "towns\/Atrea\/quest-sands.swf",
+                    "swfX": "towns\/Atrea\/quest-sands-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Forest to Desert",
+                    "monsterGroupSwf": "mset-bk2Sandsea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

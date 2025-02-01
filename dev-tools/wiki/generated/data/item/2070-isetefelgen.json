@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2070-isetefelgen",
+        "fullSlug": "items\/2070-isetefelgen",
+        "id": 2070,
+        "name": "Isetefelgen",
+        "description": "This item requires a Dragon Amulet. This powerful staff is topped with a rune inscribed metal sphere. Stick your tongue to the orb and taste its power. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2070,
+            "name": "Isetefelgen",
+            "description": "This item requires a Dragon Amulet. This powerful staff is topped with a rune inscribed metal sphere. Stick your tongue to the orb and taste its power. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 40,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-aishatitan.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4"
+        }
+    },
+    "related": {
+        "317-olaf-s-party": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "317-olaf-s-party",
+                "fullSlug": "quests\/317-olaf-s-party",
+                "id": 317,
+                "name": "Olaf's Party",
+                "description": "PARTY TIME!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 317,
+                    "name": "Olaf's Party",
+                    "description": "PARTY TIME!",
+                    "complete": "You and your dragon put a stop to Aisha's final, evil plan and saved the people of Dragesvard from her icy clutches... and Olaf's pool.",
+                    "swf": "towns\/Dragesvard\/quest-galanoth10.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-aisha2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

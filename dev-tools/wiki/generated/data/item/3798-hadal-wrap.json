@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3798-hadal-wrap",
+        "fullSlug": "items\/3798-hadal-wrap",
+        "id": 3798,
+        "name": "Hadal Wrap",
+        "description": "It's almost as though no light or warmth reaches this belt at all. It's freezing to the touch."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3798,
+            "name": "Hadal Wrap",
+            "description": "It's almost as though no light or warmth reaches this belt at all. It's freezing to the touch.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 700,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 33,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 1,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Darkness,5,Light,5"
+        }
+    },
+    "related": {
+        "602-the-bottom": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "602-the-bottom",
+                "fullSlug": "quests\/602-the-bottom",
+                "id": 602,
+                "name": "The Bottom",
+                "description": "Can you break Kathool's spell? Can you resist the call?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 602,
+                    "name": "The Bottom",
+                    "description": "Can you break Kathool's spell? Can you resist the call?",
+                    "complete": "Davey lies defeated... as Kathool Achoo rises.",
+                    "swf": "towns\/TheLocker\/quest-davey-final-r4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "undead",
+                    "monsterGroupSwf": "mset-curruptedDavey.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

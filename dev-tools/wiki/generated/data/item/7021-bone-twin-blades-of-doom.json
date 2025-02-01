@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7021-bone-twin-blades-of-doom",
+        "fullSlug": "items\/7021-bone-twin-blades-of-doom",
+        "id": 7021,
+        "name": "Bone Twin Blades of Doom",
+        "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7021,
+            "name": "Bone Twin Blades of Doom",
+            "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 3,
+            "level": 44,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/dooms\/dagger-doom2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 7,
+            "intelligence": 0,
+            "luck": -6,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 59,
+            "damageMax": 93,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "112-shadow-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "112-shadow-doom",
+                "fullSlug": "merge-shops\/112-shadow-doom",
+                "id": 112,
+                "name": "Shadow Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 112,
+                    "name": "Shadow Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1570,
+                    "mergeShopId": 112,
+                    "mergeId": 1447
+                },
+                "merge": {
+                    "id": 1447,
+                    "itemId1": 7016,
+                    "amount1": 13,
+                    "itemId2": 7021,
+                    "amount2": 1,
+                    "itemId": 7024,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

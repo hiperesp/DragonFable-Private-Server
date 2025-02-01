@@ -1,0 +1,145 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "521-crash",
+        "fullSlug": "items\/521-crash",
+        "id": 521,
+        "name": "Crash",
+        "description": "This staff is a well-made weapon, crafted by Amityvale's weaponsmith, Lugosi."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 521,
+            "name": "Crash",
+            "description": "This staff is a well-made weapon, crafted by Amityvale's weaponsmith, Lugosi.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 10,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-prelight.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 24,
+            "damageMax": 28,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "17-lugosi-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "17-lugosi-s-shop",
+                "fullSlug": "item-shops\/17-lugosi-s-shop",
+                "id": 17,
+                "name": "Lugosi's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 17,
+                    "name": "Lugosi's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "7-amityvale": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "7-amityvale",
+                "fullSlug": "merge-shops\/7-amityvale",
+                "id": 7,
+                "name": "Amityvale",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 7,
+                    "name": "Amityvale"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 229,
+                    "mergeShopId": 7,
+                    "mergeId": 27
+                },
+                "merge": {
+                    "id": 27,
+                    "itemId1": 528,
+                    "amount1": 20,
+                    "itemId2": 521,
+                    "amount2": 1,
+                    "itemId": 527,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "21-lugosi-s": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "21-lugosi-s",
+                "fullSlug": "merge-shops\/21-lugosi-s",
+                "id": 21,
+                "name": "Lugosi's",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 21,
+                    "name": "Lugosi's"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 328,
+                    "mergeShopId": 21,
+                    "mergeId": 27
+                },
+                "merge": {
+                    "id": 27,
+                    "itemId1": 528,
+                    "amount1": 20,
+                    "itemId2": 521,
+                    "amount2": 1,
+                    "itemId": 527,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

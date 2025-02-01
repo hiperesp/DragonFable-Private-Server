@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18252-fallen-ice-dragon-wings",
+        "fullSlug": "items\/18252-fallen-ice-dragon-wings",
+        "id": 18252,
+        "name": "Fallen Ice Dragon Wings",
+        "description": "Forged from the scales of an ancient ice dragon, these wings shield you from heat!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18252,
+            "name": "Fallen Ice Dragon Wings",
+            "description": "Forged from the scales of an ancient ice dragon, these wings shield you from heat!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 90,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-fallen ice dragon.swf",
+            "icon": "wings",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,15,All,3"
+        }
+    },
+    "related": {
+        "135-ice-dragon-wings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "135-ice-dragon-wings",
+                "fullSlug": "merge-shops\/135-ice-dragon-wings",
+                "id": 135,
+                "name": "Ice Dragon Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Ice Dragon Wings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1967,
+                    "mergeShopId": 135,
+                    "mergeId": 3280
+                },
+                "merge": {
+                    "id": 3280,
+                    "itemId1": 9180,
+                    "amount1": 1,
+                    "itemId2": 7578,
+                    "amount2": 1,
+                    "itemId": 18252,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

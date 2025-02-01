@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12321-chronobirthday-girl-hat-viii",
+        "fullSlug": "items\/12321-chronobirthday-girl-hat-viii",
+        "id": 12321,
+        "name": "ChronoBirthday Girl Hat VIII",
+        "description": "The birthday hat of the future... today! Happy Birthday Cronix! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12321,
+            "name": "ChronoBirthday Girl Hat VIII",
+            "description": "The birthday hat of the future... today! Happy Birthday Cronix! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 16000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cronixbirthdayf.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,12,Water,12,Fire,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "409-chronobirthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "409-chronobirthday",
+                "fullSlug": "item-shops\/409-chronobirthday",
+                "id": 409,
+                "name": "ChronoBirthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 409,
+                    "name": "ChronoBirthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

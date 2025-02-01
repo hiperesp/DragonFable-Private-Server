@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22261-frozen-moglin-backpack",
+        "fullSlug": "items\/22261-frozen-moglin-backpack",
+        "id": 22261,
+        "name": "Frozen Moglin Backpack",
+        "description": "This Frost Moglin has been frozen! Might as well carry it around on your back until the ice thaws, right? (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22261,
+            "name": "Frozen Moglin Backpack",
+            "description": "This Frost Moglin has been frozen! Might as well carry it around on your back until the ice thaws, right? (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-frozenmoglin.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "434-storm-of-stars": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "434-storm-of-stars",
+                "fullSlug": "merge-shops\/434-storm-of-stars",
+                "id": 434,
+                "name": "Storm of Stars",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 434,
+                    "name": "Storm of Stars"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4449,
+                    "mergeShopId": 434,
+                    "mergeId": 4481
+                },
+                "merge": {
+                    "id": 4481,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 22261,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

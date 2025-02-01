@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10895-parmesan-helm",
+        "fullSlug": "items\/10895-parmesan-helm",
+        "id": 10895,
+        "name": "Parmesan Helm",
+        "description": "It's gouda for you! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10895,
+            "name": "Parmesan Helm",
+            "description": "It's gouda for you! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 17000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cheesy.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 11,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,12,Wind,12,Stone,5,Bacon,5,Immobility,5,Health,-2"
+        }
+    },
+    "related": {
+        "377-cheese-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "377-cheese-shop",
+                "fullSlug": "item-shops\/377-cheese-shop",
+                "id": 377,
+                "name": "Cheese Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 377,
+                    "name": "Cheese Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

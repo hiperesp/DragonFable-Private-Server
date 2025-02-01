@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19925-ogorek-s-treasure",
+        "fullSlug": "items\/19925-ogorek-s-treasure",
+        "id": 19925,
+        "name": "Ogorek's Treasure",
+        "description": "Ogorek gave this small carved wooden keepsake to hang from your belt for good luck. Despite your protests, he insisted it would help you find Elanee. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19925,
+            "name": "Ogorek's Treasure",
+            "description": "Ogorek gave this small carved wooden keepsake to hang from your belt for good luck. Despite your protests, he insisted it would help you find Elanee. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 6,
+            "level": 90,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,5,Immobility,5,Health,-10"
+        }
+    },
+    "related": {
+        "1044-the-border-prison": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1044-the-border-prison",
+                "fullSlug": "quests\/1044-the-border-prison",
+                "id": 1044,
+                "name": "The Border Prison",
+                "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1044,
+                    "name": "The Border Prison",
+                    "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance.",
+                    "complete": "You found Elanee and some other prisoners, but many clawkin are still missing, and Kara hasn't come out yet. Time to go back in!",
+                    "swf": "towns\/SulenEska\/quest5-rescue2020.swf",
+                    "swfX": "towns\/SulenEska\/quest5-rescue2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

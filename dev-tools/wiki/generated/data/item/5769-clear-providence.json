@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5769-clear-providence",
+        "fullSlug": "items\/5769-clear-providence",
+        "id": 5769,
+        "name": "Clear Providence",
+        "description": "Asandar's holy glaive. This item was entrusted to you by Asandar for your bravery. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5769,
+            "name": "Clear Providence",
+            "description": "Asandar's holy glaive. This item was entrusted to you by Asandar for your bravery. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 46,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-providence.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 55,
+            "damageMax": 75,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Light,6,Darkness,6,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "224-asandar-s-gift": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "224-asandar-s-gift",
+                "fullSlug": "item-shops\/224-asandar-s-gift",
+                "id": 224,
+                "name": "Asandar's Gift",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 224,
+                    "name": "Asandar's Gift",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

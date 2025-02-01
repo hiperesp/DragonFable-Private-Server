@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21290-runed-chains-x",
+        "fullSlug": "items\/21290-runed-chains-x",
+        "id": 21290,
+        "name": "Runed Chains X",
+        "description": "Giant steam powered anti-magic chains. That is so super metal. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21290,
+            "name": "Runed Chains X",
+            "description": "Giant steam powered anti-magic chains. That is so super metal. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 5,
+            "level": 90,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-runedchains.swf",
+            "icon": "cape",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 9,
+            "wisdom": 12,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 15,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,10,Water,10,Poison,5,All,2"
+        }
+    },
+    "related": {
+        "1353-the-beast": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1353-the-beast",
+                "fullSlug": "quests\/1353-the-beast",
+                "id": 1353,
+                "name": "The Beast",
+                "description": "The Beastmaster has caught you sneaking into the Rose Tower!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1353,
+                    "name": "The Beast",
+                    "description": "The Beastmaster has caught you sneaking into the Rose Tower!",
+                    "complete": "It's time to talk with the ArchMagus.",
+                    "swf": "towns\/3swordhaven\/quest2-thebeastredo.swf",
+                    "swfX": "towns\/3swordhaven\/quest2-thebeastredo-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "beastmaster boss",
+                    "monsterGroupSwf": "mset-beastmaster.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

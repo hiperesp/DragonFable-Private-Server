@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19687-tytanbone-pack-iii",
+        "fullSlug": "items\/19687-tytanbone-pack-iii",
+        "id": 19687,
+        "name": "Tytanbone Pack III",
+        "description": "A chunk of Tytan strapped to your back! Even now, it seems to glow and sprinkle sand behind your steps."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19687,
+            "name": "Tytanbone Pack III",
+            "description": "A chunk of Tytan strapped to your back! Even now, it seems to glow and sprinkle sand behind your steps.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 30,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-whalebone.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,3,Darkness,3,Wind,3"
+        }
+    },
+    "related": {
+        "1724-the-spells-we-weave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1724-the-spells-we-weave",
+                "fullSlug": "quests\/1724-the-spells-we-weave",
+                "id": 1724,
+                "name": "The Spells We Weave",
+                "description": "As the Tytan's siege continues, plans are put into motion..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1724,
+                    "name": "The Spells We Weave",
+                    "description": "As the Tytan's siege continues, plans are put into motion...",
+                    "complete": "So many uncertainties. Sometimes you just have to take the leap.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest5-spells-r1.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest5-spells-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

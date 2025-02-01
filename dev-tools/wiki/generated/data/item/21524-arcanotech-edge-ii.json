@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21524-arcanotech-edge-ii",
+        "fullSlug": "items\/21524-arcanotech-edge-ii",
+        "id": 21524,
+        "name": "Arcanotech Edge II",
+        "description": "A precise blade forged from lightning and shadow, it hums with the ticks and whirs of its inner workings, delivering swift and deadly strikes. Proof of victory over Blades and Bones."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21524,
+            "name": "Arcanotech Edge II",
+            "description": "A precise blade forged from lightning and shadow, it hums with the ticks and whirs of its inner workings, delivering swift and deadly strikes. Proof of victory over Blades and Bones.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 13,
+            "level": 70,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-techninja.swf",
+            "icon": "scythe",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 75,
+            "damageMax": 99,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,8,Health,-13"
+        }
+    },
+    "related": {
+        "391-blades-and-bones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "391-blades-and-bones",
+                "fullSlug": "merge-shops\/391-blades-and-bones",
+                "id": 391,
+                "name": "Blades and Bones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 391,
+                    "name": "Blades and Bones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4146,
+                    "mergeShopId": 391,
+                    "mergeId": 4185
+                },
+                "merge": {
+                    "id": 4185,
+                    "itemId1": 21523,
+                    "amount1": 1,
+                    "itemId2": 21529,
+                    "amount2": 1,
+                    "itemId": 21524,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

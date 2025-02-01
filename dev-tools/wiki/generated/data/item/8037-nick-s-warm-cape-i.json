@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8037-nick-s-warm-cape-i",
+        "fullSlug": "items\/8037-nick-s-warm-cape-i",
+        "id": 8037,
+        "name": "Nick's Warm Cape I",
+        "description": "A warm, red cape to keep you safe from darkness... and ice... and wind... well, everything. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8037,
+            "name": "Nick's Warm Cape I",
+            "description": "A warm, red cape to keep you safe from darkness... and ice... and wind... well, everything. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 7,
+            "level": 21,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-santacape.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "All,1"
+        }
+    },
+    "related": {
+        "125-nick-s-cap-and-cloak": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "125-nick-s-cap-and-cloak",
+                "fullSlug": "merge-shops\/125-nick-s-cap-and-cloak",
+                "id": 125,
+                "name": "Nick's Cap and Cloak",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 125,
+                    "name": "Nick's Cap and Cloak"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1757,
+                    "mergeShopId": 125,
+                    "mergeId": 1628
+                },
+                "merge": {
+                    "id": 1628,
+                    "itemId1": 8037,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 20,
+                    "itemId": 8038,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

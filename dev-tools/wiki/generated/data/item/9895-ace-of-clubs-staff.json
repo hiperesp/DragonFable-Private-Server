@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9895-ace-of-clubs-staff",
+        "fullSlug": "items\/9895-ace-of-clubs-staff",
+        "id": 9895,
+        "name": "Ace of Clubs Staff ",
+        "description": "Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9895,
+            "name": "Ace of Clubs Staff ",
+            "description": "Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 10,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Clubs-update.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 25,
+            "damageMax": 31,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,1,Wind,1,Fire,1"
+        }
+    },
+    "related": {
+        "340-card-shoppe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "340-card-shoppe",
+                "fullSlug": "item-shops\/340-card-shoppe",
+                "id": 340,
+                "name": "Card Shoppe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 340,
+                    "name": "Card Shoppe",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

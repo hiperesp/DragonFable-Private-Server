@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9934-ultimate-dragon-scythe-of-elementals",
+        "fullSlug": "items\/9934-ultimate-dragon-scythe-of-elementals",
+        "id": 9934,
+        "name": "Ultimate Dragon Scythe of Elementals",
+        "description": "Seven elemental choices for seven years of DragonFable! Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9934,
+            "name": "Ultimate Dragon Scythe of Elementals",
+            "description": "Seven elemental choices for seven years of DragonFable! Visit the Black Market Moglin to upgrade this weapon.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 40,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-7elements.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 54,
+            "damageMax": 76,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Darkness,6,Ice,6,Immobility,1,Health,-2"
+        }
+    },
+    "related": {
+        "338-ultimate-scythe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "338-ultimate-scythe",
+                "fullSlug": "item-shops\/338-ultimate-scythe",
+                "id": 338,
+                "name": "Ultimate Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 338,
+                    "name": "Ultimate Scythe",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "140-ultimate-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "140-ultimate-scythe",
+                "fullSlug": "merge-shops\/140-ultimate-scythe",
+                "id": 140,
+                "name": "Ultimate Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 140,
+                    "name": "Ultimate Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2019,
+                    "mergeShopId": 140,
+                    "mergeId": 1908
+                },
+                "merge": {
+                    "id": 1908,
+                    "itemId1": 9934,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9935,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

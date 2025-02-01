@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19535-time-s-harvest-alpha",
+        "fullSlug": "items\/19535-time-s-harvest-alpha",
+        "id": 19535,
+        "name": "Time's Harvest Alpha",
+        "description": "This scythe is much, much lighter than it seems. Take care when swinging it. Who knows what such an eldritch item is capable of beyond the normal? Can be upgraded at Cysero, but will be unable to resold."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19535,
+            "name": "Time's Harvest Alpha",
+            "description": "This scythe is much, much lighter than it seems. Take care when swinging it. Who knows what such an eldritch item is capable of beyond the normal? Can be upgraded at Cysero, but will be unable to resold.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 10,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-uwescythe.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 22,
+            "damageMax": 44,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,1,Health,-1"
+        }
+    },
+    "related": {
+        "660-underworld-epoch": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "660-underworld-epoch",
+                "fullSlug": "item-shops\/660-underworld-epoch",
+                "id": 660,
+                "name": "Underworld Epoch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 660,
+                    "name": "Underworld Epoch",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "319-underworld-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "319-underworld-upgrades",
+                "fullSlug": "merge-shops\/319-underworld-upgrades",
+                "id": 319,
+                "name": "Underworld Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Underworld Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3421,
+                    "mergeShopId": 319,
+                    "mergeId": 3513
+                },
+                "merge": {
+                    "id": 3513,
+                    "itemId1": 19535,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19526,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

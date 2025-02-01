@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1163-hallow-d-staff",
+        "fullSlug": "items\/1163-hallow-d-staff",
+        "id": 1163,
+        "name": "Hallow'd Staff",
+        "description": "This item required a Dragon Amulet. The head of the staff is a pumpkin filled with fire which eternally burns using the Cauldron Sister's candy as fuel. It lights the darkest paths on Mogloween. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1163,
+            "name": "Hallow'd Staff",
+            "description": "This item required a Dragon Amulet. The head of the staff is a pumpkin filled with fire which eternally burns using the Cauldron Sister's candy as fuel. It lights the darkest paths on Mogloween. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 9,
+            "level": 10,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-mogloween1.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 22,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,1"
+        }
+    },
+    "related": {
+        "170-zorbak-s-back": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "170-zorbak-s-back",
+                "fullSlug": "quests\/170-zorbak-s-back",
+                "id": 170,
+                "name": "Zorbak's Back!",
+                "description": "You nearly had all the Cauldron Sister's candy gathered when Zorbak showed up and began to cause his usual mischief. Will Mogloween end before it has begun?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 170,
+                    "name": "Zorbak's Back!",
+                    "description": "You nearly had all the Cauldron Sister's candy gathered when Zorbak showed up and began to cause his usual mischief. Will Mogloween end before it has begun?",
+                    "complete": "Well done Hero! You defeated the moglinster Zorbak and thanks to you and your fellow heroes, Doomwood, Falconreach and all of Lore has been saved from candy crazed moglins...until next year!",
+                    "swf": "zones\/mogloween\/quest-mogloweenboss3.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Monster Zorbak",
+                    "monsterGroupSwf": "mset-zorbakmoglinster.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

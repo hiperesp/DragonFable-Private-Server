@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3821-wheel-replica-necklace",
+        "fullSlug": "items\/3821-wheel-replica-necklace",
+        "id": 3821,
+        "name": "Wheel Replica Necklace",
+        "description": "Someone copied the plans of the Judgment Wheel and made a charm shaped like it.  Even the shape is powerful, and this charm will add to your endurance! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3821,
+            "name": "Wheel Replica Necklace",
+            "description": "Someone copied the plans of the Judgment Wheel and made a charm shaped like it.  Even the shape is powerful, and this charm will add to your endurance! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 42,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,4,Immobility,1,Stone,4"
+        }
+    },
+    "related": {
+        "604-mystlyk-museum": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "604-mystlyk-museum",
+                "fullSlug": "quests\/604-mystlyk-museum",
+                "id": 604,
+                "name": "Mystlyk Museum",
+                "description": "A strange, quiet building full of old relics from the time of the human Chaosweavers!  Be sure to gather up anything laying around, it might be useful later on in the quest!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 604,
+                    "name": "Mystlyk Museum",
+                    "description": "A strange, quiet building full of old relics from the time of the human Chaosweavers!  Be sure to gather up anything laying around, it might be useful later on in the quest!",
+                    "complete": "You've GOT to get Riadne back!  She's got the Key!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "chaosweavers",
+                    "monsterGroupSwf": "mset-tomix5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

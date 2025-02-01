@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9978-joker-s-madness",
+        "fullSlug": "items\/9978-joker-s-madness",
+        "id": 9978,
+        "name": "Joker's Madness",
+        "description": "AhahahahahahaaaaahahahaahaHAHAHAHAHAHAHAHAaaaaaa! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9978,
+            "name": "Joker's Madness",
+            "description": "AhahahahahahaaaaahahahaahaHAHAHAHAHAHAHAHAaaaaaa! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-madness-joker.swf",
+            "icon": "helm",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,6,Immobility,5"
+        }
+    },
+    "related": {
+        "345-joker": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "345-joker",
+                "fullSlug": "item-shops\/345-joker",
+                "id": 345,
+                "name": "Joker",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 345,
+                    "name": "Joker",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

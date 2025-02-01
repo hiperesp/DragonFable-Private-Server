@@ -1,0 +1,67 @@
+{
+    "page": {
+        "slugBase": "merge-shops",
+        "slug": "180-bloody-point-78",
+        "fullSlug": "merge-shops\/180-bloody-point-78",
+        "id": 180,
+        "name": "Bloody Point 78",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "mergeShop",
+        "properties": {
+            "id": 180,
+            "name": "Bloody Point 78"
+        }
+    },
+    "related": {
+        "10815-bloody-point": {
+            "page": {
+                "slugBase": "items",
+                "slug": "10815-bloody-point",
+                "fullSlug": "items\/10815-bloody-point",
+                "id": 10815,
+                "name": "Bloody Point",
+                "description": "The essences of all the monster hearts you collected illuminate the blade! This item requires a Dragon Amulet."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 10815,
+                    "name": "Bloody Point",
+                    "description": "The essences of all the monster hearts you collected illuminate the blade! This item requires a Dragon Amulet.",
+                    "dragonAmulet": 1,
+                    "currency": 2,
+                    "maxStackSize": 1,
+                    "bonus": 10,
+                    "rarity": 55,
+                    "level": 78,
+                    "element": "Darkness",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Scythe",
+                    "swf": "items\/scythes\/scythe-bloody point.swf",
+                    "icon": "scythe",
+                    "strength": 13,
+                    "dexterity": 13,
+                    "intelligence": 13,
+                    "luck": 5,
+                    "charisma": 8,
+                    "endurance": 6,
+                    "wisdom": 6,
+                    "damageMin": 74,
+                    "damageMax": 100,
+                    "defenseMelee": 7,
+                    "defensePierce": 7,
+                    "defenseMagic": 7,
+                    "critical": 10,
+                    "parry": 1,
+                    "dodge": 2,
+                    "block": 1,
+                    "resists": "Ice,11,Darkness,11,Light,9,Immobility,4,Health,-3"
+                }
+            },
+            "related": []
+        }
+    }
+}

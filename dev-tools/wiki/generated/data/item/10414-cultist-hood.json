@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10414-cultist-hood",
+        "fullSlug": "items\/10414-cultist-hood",
+        "id": 10414,
+        "name": "Cultist Hood",
+        "description": "Dark magic and strange murmurs flow through your head."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10414,
+            "name": "Cultist Hood",
+            "description": "Dark magic and strange murmurs flow through your head.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 25,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 15,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cultist.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Ice,2"
+        }
+    },
+    "related": {
+        "365-cultist-hood": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "365-cultist-hood",
+                "fullSlug": "item-shops\/365-cultist-hood",
+                "id": 365,
+                "name": "Cultist Hood",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 365,
+                    "name": "Cultist Hood",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12971-hawkarrot",
+        "fullSlug": "items\/12971-hawkarrot",
+        "id": 12971,
+        "name": "Hawkarrot",
+        "description": "Aria decided to give you one of her messenger Hawkarrots, however it is quite a fowl mouth!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12971,
+            "name": "Hawkarrot",
+            "description": "Aria decided to give you one of her messenger Hawkarrots, however it is quite a fowl mouth!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 20,
+            "level": 50,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Parrothawk.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 18,
+            "damageMax": 22,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1208-saving-private-practice": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1208-saving-private-practice",
+                "fullSlug": "quests\/1208-saving-private-practice",
+                "id": 1208,
+                "name": "Saving Private Practice",
+                "description": "The trail ends here, where to go now?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1208,
+                    "name": "Saving Private Practice",
+                    "description": "The trail ends here, where to go now?",
+                    "complete": "Happy Thankstaking to all!",
+                    "swf": "towns\/Thankstaking\/tt14\/quest-SPP.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "robits!",
+                    "monsterGroupSwf": "mset-spp.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

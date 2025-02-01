@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20523-reforged-chronoz",
+        "fullSlug": "items\/20523-reforged-chronoz",
+        "id": 20523,
+        "name": "Reforged ChronoZ",
+        "description": "Harness the power of time data! Although reforged by unknown means, this version of ChronoZ is just as effective as when it was first made."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20523,
+            "name": "Reforged ChronoZ",
+            "description": "Harness the power of time data! Although reforged by unknown means, this version of ChronoZ is just as effective as when it was first made.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 99,
+            "level": 1,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Armor",
+            "itemType": "Armor",
+            "swf": "157",
+            "icon": "armor",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "252-heromart-classes": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "252-heromart-classes",
+                "fullSlug": "merge-shops\/252-heromart-classes",
+                "id": 252,
+                "name": "HeroMart Classes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 252,
+                    "name": "HeroMart Classes"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2855,
+                    "mergeShopId": 252,
+                    "mergeId": 3836
+                },
+                "merge": {
+                    "id": 3836,
+                    "itemId1": 15986,
+                    "amount1": 4,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20523,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

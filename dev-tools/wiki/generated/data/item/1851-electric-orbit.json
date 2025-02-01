@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1851-electric-orbit",
+        "fullSlug": "items\/1851-electric-orbit",
+        "id": 1851,
+        "name": "Electric Orbit",
+        "description": "Someone, somehow, molded the energy of a wisp into a ring."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1851,
+            "name": "Electric Orbit",
+            "description": "Someone, somehow, molded the energy of a wisp into a ring.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 27,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,4,Water,-2"
+        }
+    },
+    "related": {
+        "267-stocking-the-shelves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "267-stocking-the-shelves",
+                "fullSlug": "quests\/267-stocking-the-shelves",
+                "id": 267,
+                "name": "Stocking the Shelves",
+                "description": "Find as many of the reagents that Nythera needs to replace as you can."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 267,
+                    "name": "Stocking the Shelves",
+                    "description": "Find as many of the reagents that Nythera needs to replace as you can.",
+                    "complete": "You found all the reagents that Nythera needed to get for Warlic.",
+                    "swf": "quests\/quest-nythera1-r5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-nythera1-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

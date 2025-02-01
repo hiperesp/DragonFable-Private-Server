@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2239-aqueric-force",
+        "fullSlug": "items\/2239-aqueric-force",
+        "id": 2239,
+        "name": "Aqueric Force",
+        "description": "The essence of the water elementals slain in this quest were forged into the blade of this sword. It's force drives the spinning blades in the hilt.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2239,
+            "name": "Aqueric Force",
+            "description": "The essence of the water elementals slain in this quest were forged into the blade of this sword. It's force drives the spinning blades in the hilt.  ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 25,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-bacon4.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 50,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Energy,1"
+        }
+    },
+    "related": {
+        "355-it-s-a-wash": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "355-it-s-a-wash",
+                "fullSlug": "quests\/355-it-s-a-wash",
+                "id": 355,
+                "name": "It's A Wash",
+                "description": "They want you to do WHAT?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 355,
+                    "name": "It's A Wash",
+                    "description": "They want you to do WHAT?!",
+                    "complete": "With as messy as those magepriest novices are, they should rename it to the Temple of Dooooooom.",
+                    "swf": "quests\/Zeuster\/quest-bacon4b-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-water2-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2944-glittering-chakram",
+        "fullSlug": "items\/2944-glittering-chakram",
+        "id": 2944,
+        "name": "Glittering Chakram",
+        "description": "Originally thought to only be used by ice elves, Lim brings the razor-sharp edges of the chakram to you! Catch!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2944,
+            "name": "Glittering Chakram",
+            "description": "Originally thought to only be used by ice elves, Lim brings the razor-sharp edges of the chakram to you! Catch!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 13500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-chakram.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 50,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,3,Wind,3"
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2374-arctic-blade",
+        "fullSlug": "items\/2374-arctic-blade",
+        "id": 2374,
+        "name": "Arctic Blade",
+        "description": "This blade is so cold it is covered in white frost, which is much more painful that white-hot metal under the right conditions.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2374,
+            "name": "Arctic Blade",
+            "description": "This blade is so cold it is covered in white frost, which is much more painful that white-hot metal under the right conditions.  ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 33,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-bacon10.swf",
+            "icon": "mace",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 60,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Fire,1"
+        }
+    },
+    "related": {
+        "397-don-t-have-a-kow": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "397-don-t-have-a-kow",
+                "fullSlug": "quests\/397-don-t-have-a-kow",
+                "id": 397,
+                "name": "Don't have a Kow",
+                "description": "Zeuster and Archimoodes have asked that you take the young apprentice magepriests on a field trip to meet their relatives, the cattle of Jeryon.  Be careful, apprentices are known for mischief."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 397,
+                    "name": "Don't have a Kow",
+                    "description": "Zeuster and Archimoodes have asked that you take the young apprentice magepriests on a field trip to meet their relatives, the cattle of Jeryon.  Be careful, apprentices are known for mischief.",
+                    "complete": "You found all the scattered chickcalves AND managed to not get skewered on a set of the Jer'yon kow's horns.  I'd call this trip a success.",
+                    "swf": "quests\/Zeuster\/quest-bacon10.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Farm",
+                    "monsterGroupSwf": "mset-bacon10.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

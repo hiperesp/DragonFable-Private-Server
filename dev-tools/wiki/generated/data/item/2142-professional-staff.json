@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2142-professional-staff",
+        "fullSlug": "items\/2142-professional-staff",
+        "id": 2142,
+        "name": "Professional Staff",
+        "description": "This staff requires a Dragon Amulet. It became available to you after reaching the rank of Professional at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2142,
+            "name": "Professional Staff",
+            "description": "This staff requires a Dragon Amulet. It became available to you after reaching the rank of Professional at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 37,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-pvpnew2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 55,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Shrink,20,Fire,3"
+        }
+    },
+    "related": {
+        "83-pvp-professional": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "83-pvp-professional",
+                "fullSlug": "item-shops\/83-pvp-professional",
+                "id": 83,
+                "name": "PVP Professional",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 83,
+                    "name": "PVP Professional",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

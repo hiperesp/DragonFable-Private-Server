@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20432-firmament-stability-core",
+        "fullSlug": "items\/20432-firmament-stability-core",
+        "id": 20432,
+        "name": "Firmament Stability Core",
+        "description": "A scrap of crystal once used in the creation of the firmament. Seems like it could be adapted to work with Uaanta's Blaster!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20432,
+            "name": "Firmament Stability Core",
+            "description": "A scrap of crystal once used in the creation of the firmament. Seems like it could be adapted to work with Uaanta's Blaster!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "714-firmament-stability-core": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "714-firmament-stability-core",
+                "fullSlug": "item-shops\/714-firmament-stability-core",
+                "id": 714,
+                "name": "Firmament Stability Core",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 714,
+                    "name": "Firmament Stability Core",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "355-stability-core-adaptation": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "355-stability-core-adaptation",
+                "fullSlug": "merge-shops\/355-stability-core-adaptation",
+                "id": 355,
+                "name": "Stability Core Adaptation",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 355,
+                    "name": "Stability Core Adaptation"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3685,
+                    "mergeShopId": 355,
+                    "mergeId": 3773
+                },
+                "merge": {
+                    "id": 3773,
+                    "itemId1": 19359,
+                    "amount1": 1,
+                    "itemId2": 20432,
+                    "amount2": 1,
+                    "itemId": 20437,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

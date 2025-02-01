@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13471-dripping-ring",
+        "fullSlug": "items\/13471-dripping-ring",
+        "id": 13471,
+        "name": "Dripping Ring",
+        "description": "Ewwwwwww... it's covered with drool!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13471,
+            "name": "Dripping Ring",
+            "description": "Ewwwwwww... it's covered with drool!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 6,
+            "level": 56,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": -2,
+            "endurance": 6,
+            "wisdom": -1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,6,Water,6,Ice,4,Immobility,1"
+        }
+    },
+    "related": {
+        "1232-hide-n-seek": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1232-hide-n-seek",
+                "fullSlug": "quests\/1232-hide-n-seek",
+                "id": 1232,
+                "name": "Hide n' Seek",
+                "description": "It's Twillys turn to hide! Can you find him before snack time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1232,
+                    "name": "Hide n' Seek",
+                    "description": "It's Twillys turn to hide! Can you find him before snack time?",
+                    "complete": "You found Twilly! Just in time too, your stomach is rumbling....",
+                    "swf": "random\/random-100room-hidenseek-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

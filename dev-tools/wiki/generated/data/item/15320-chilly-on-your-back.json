@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15320-chilly-on-your-back",
+        "fullSlug": "items\/15320-chilly-on-your-back",
+        "id": 15320,
+        "name": "Chilly On Your Back",
+        "description": "A special doll made for you by Chilly! It's so fluffy! Happy Frostval '15!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15320,
+            "name": "Chilly On Your Back",
+            "description": "A special doll made for you by Chilly! It's so fluffy! Happy Frostval '15!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chillydoll.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Energy,4"
+        }
+    },
+    "related": {
+        "244-2015-present-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "244-2015-present-merges",
+                "fullSlug": "merge-shops\/244-2015-present-merges",
+                "id": 244,
+                "name": "2015 Present Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 244,
+                    "name": "2015 Present Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2742,
+                    "mergeShopId": 244,
+                    "mergeId": 2717
+                },
+                "merge": {
+                    "id": 2717,
+                    "itemId1": 15219,
+                    "amount1": 5,
+                    "itemId2": 15320,
+                    "amount2": 1,
+                    "itemId": 15321,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

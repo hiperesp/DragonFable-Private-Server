@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4581-hide-cape-iii",
+        "fullSlug": "items\/4581-hide-cape-iii",
+        "id": 4581,
+        "name": "Hide Cape III",
+        "description": "This tough leather cape is made from the hides of monsters you've defeated in battle. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4581,
+            "name": "Hide Cape III",
+            "description": "This tough leather cape is made from the hides of monsters you've defeated in battle. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 30,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-hidecape.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 966,
+                    "mergeShopId": 67,
+                    "mergeId": 826
+                },
+                "merge": {
+                    "id": 826,
+                    "itemId1": 4581,
+                    "amount1": 1,
+                    "itemId2": 4577,
+                    "amount2": 5,
+                    "itemId": 4582,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

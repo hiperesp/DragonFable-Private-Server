@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19624-rose-legacy-sword-xi",
+        "fullSlug": "items\/19624-rose-legacy-sword-xi",
+        "id": 19624,
+        "name": "Rose Legacy Sword XI",
+        "description": "A lithe weapon, approved for use by the Rose. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19624,
+            "name": "Rose Legacy Sword XI",
+            "description": "A lithe weapon, approved for use by the Rose. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 55000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-RoseLegacy.swf",
+            "icon": "sword",
+            "strength": 20,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 79,
+            "damageMax": 107,
+            "defenseMelee": 10,
+            "defensePierce": 10,
+            "defenseMagic": 10,
+            "critical": 12,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Darkness,10,Nature,10,Water,10,Fire,10,Health,-5"
+        }
+    },
+    "related": {
+        "305-rosefort-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "305-rosefort-gold",
+                "fullSlug": "item-shops\/305-rosefort-gold",
+                "id": 305,
+                "name": "RoseFort Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 305,
+                    "name": "RoseFort Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10847-harrowing-staff",
+        "fullSlug": "items\/10847-harrowing-staff",
+        "id": 10847,
+        "name": "Harrowing Staff",
+        "description": "A harrowing, sickly green wind envelops the blade of this weapon!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10847,
+            "name": "Harrowing Staff",
+            "description": "A harrowing, sickly green wind envelops the blade of this weapon!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-harrowing.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,6,Darkness,4,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "187-harrowing-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "187-harrowing-60",
+                "fullSlug": "merge-shops\/187-harrowing-60",
+                "id": 187,
+                "name": "Harrowing 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 187,
+                    "name": "Harrowing 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2176,
+                    "mergeShopId": 187,
+                    "mergeId": 2027
+                },
+                "merge": {
+                    "id": 2027,
+                    "itemId1": 10846,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10847,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "188-harrowing-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "188-harrowing-70",
+                "fullSlug": "merge-shops\/188-harrowing-70",
+                "id": 188,
+                "name": "Harrowing 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 188,
+                    "name": "Harrowing 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2180,
+                    "mergeShopId": 188,
+                    "mergeId": 2028
+                },
+                "merge": {
+                    "id": 2028,
+                    "itemId1": 10847,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10848,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

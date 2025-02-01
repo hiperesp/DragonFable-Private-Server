@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14318-giant-bat-wings",
+        "fullSlug": "items\/14318-giant-bat-wings",
+        "id": 14318,
+        "name": "Giant Bat Wings",
+        "description": "Giant wings fit for vampire royalty! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14318,
+            "name": "Giant Bat Wings",
+            "description": "Giant wings fit for vampire royalty! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-giantfrydae.swf",
+            "icon": "wings",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 9,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 4,
+            "block": 0,
+            "resists": "Darkness,9,Silver,9,Immobility,4,Health,-2"
+        }
+    },
+    "related": {
+        "1282-blood-feud": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1282-blood-feud",
+                "fullSlug": "quests\/1282-blood-feud",
+                "id": 1282,
+                "name": "Blood Feud",
+                "description": "Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1282,
+                    "name": "Blood Feud",
+                    "description": "Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!",
+                    "complete": "Frydae's been stopped....",
+                    "swf": "towns\/3Amityvale\/quest10-bloodfeud-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weres, bats, vamps",
+                    "monsterGroupSwf": "mset-darktowerFrydae3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

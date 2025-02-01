@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20740-ourobouros-root-belt-i",
+        "fullSlug": "items\/20740-ourobouros-root-belt-i",
+        "id": 20740,
+        "name": "Ourobouros Root Belt I",
+        "description": "A belt woven of living roots, it glows with purple energy. Wherever the root ends or starts, you cannot tell. Proof of victory over Junipurr and The Adjudicator."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20740,
+            "name": "Ourobouros Root Belt I",
+            "description": "A belt woven of living roots, it glows with purple energy. Wherever the root ends or starts, you cannot tell. Proof of victory over Junipurr and The Adjudicator.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 50,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,6"
+        }
+    },
+    "related": {
+        "361-the-weight-of-life": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "361-the-weight-of-life",
+                "fullSlug": "merge-shops\/361-the-weight-of-life",
+                "id": 361,
+                "name": "The Weight of Life",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 361,
+                    "name": "The Weight of Life"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3770,
+                    "mergeShopId": 361,
+                    "mergeId": 3878
+                },
+                "merge": {
+                    "id": 3878,
+                    "itemId1": 20740,
+                    "amount1": 1,
+                    "itemId2": 20745,
+                    "amount2": 1,
+                    "itemId": 20742,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

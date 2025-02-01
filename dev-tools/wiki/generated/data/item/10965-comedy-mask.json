@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10965-comedy-mask",
+        "fullSlug": "items\/10965-comedy-mask",
+        "id": 10965,
+        "name": "Comedy Mask",
+        "description": "You're a good and true hero! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10965,
+            "name": "Comedy Mask",
+            "description": "You're a good and true hero! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-good-mask.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 10,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,12,Wind,12,Poison,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "378-comedy-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "378-comedy-shop",
+                "fullSlug": "item-shops\/378-comedy-shop",
+                "id": 378,
+                "name": "Comedy Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 378,
+                    "name": "Comedy Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

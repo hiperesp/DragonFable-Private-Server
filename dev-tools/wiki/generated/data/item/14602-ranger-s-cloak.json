@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14602-ranger-s-cloak",
+        "fullSlug": "items\/14602-ranger-s-cloak",
+        "id": 14602,
+        "name": "Ranger's Cloak",
+        "description": "This cloak will help you blend into the desert."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14602,
+            "name": "Ranger's Cloak",
+            "description": "This cloak will help you blend into the desert.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 41,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-RangerShawl.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,5,Stone,5,Immobility,2"
+        }
+    },
+    "related": {
+        "462-ranger-cache": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "462-ranger-cache",
+                "fullSlug": "item-shops\/462-ranger-cache",
+                "id": 462,
+                "name": "Ranger Cache",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 462,
+                    "name": "Ranger Cache",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

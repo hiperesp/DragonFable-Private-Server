@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18457-defender-s-ring-xxxii",
+        "fullSlug": "items\/18457-defender-s-ring-xxxii",
+        "id": 18457,
+        "name": "Defender's Ring XXXII",
+        "description": "This ring was awarded to you by the town of Falconreach for defending it against a terrible threat. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18457,
+            "name": "Defender's Ring XXXII",
+            "description": "This ring was awarded to you by the town of Falconreach for defending it against a terrible threat. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 90,
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 6,
+            "charisma": 8,
+            "endurance": 12,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,5,Immobility,-5"
+        }
+    },
+    "related": {
+        "3-def-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "3-def-rings",
+                "fullSlug": "merge-shops\/3-def-rings",
+                "id": 3,
+                "name": "Def. Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 3,
+                    "name": "Def. Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 17,
+                    "mergeShopId": 3,
+                    "mergeId": 3313
+                },
+                "merge": {
+                    "id": 3313,
+                    "itemId1": 18451,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18457,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "385-defender-item-swap": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "385-defender-item-swap",
+                "fullSlug": "merge-shops\/385-defender-item-swap",
+                "id": 385,
+                "name": "Defender Item Swap",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 385,
+                    "name": "Defender Item Swap"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4080,
+                    "mergeShopId": 385,
+                    "mergeId": 4104
+                },
+                "merge": {
+                    "id": 4104,
+                    "itemId1": 18457,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18458,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

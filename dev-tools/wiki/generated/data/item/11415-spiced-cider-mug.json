@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11415-spiced-cider-mug",
+        "fullSlug": "items\/11415-spiced-cider-mug",
+        "id": 11415,
+        "name": "Spiced Cider Mug",
+        "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11415,
+            "name": "Spiced Cider Mug",
+            "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 35,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 55,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cidermug.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,8,Fire,8"
+        }
+    },
+    "related": {
+        "392-cider-loot-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "392-cider-loot-shop",
+                "fullSlug": "item-shops\/392-cider-loot-shop",
+                "id": 392,
+                "name": "Cider Loot Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 392,
+                    "name": "Cider Loot Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "2053-the-fang-and-the-scales",
+        "fullSlug": "quests\/2053-the-fang-and-the-scales",
+        "id": 2053,
+        "name": "The Fang and the Scales",
+        "description": "DragonLords of a time past, the Fang and the Scales of Akriloth!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 2053,
+            "name": "The Fang and the Scales",
+            "description": "DragonLords of a time past, the Fang and the Scales of Akriloth!",
+            "complete": "Yet Akriloth is far from defenseless.",
+            "swf": "towns\/TimeArena\/quest2-dlords.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 5000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "Akriloth and attendants",
+            "monsterGroupSwf": "mset-arenaakriloth.swf"
+        }
+    },
+    "related": {
+        "21573-great-dragon-s-claw-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "21573-great-dragon-s-claw-i",
+                "fullSlug": "items\/21573-great-dragon-s-claw-i",
+                "id": 21573,
+                "name": "Great Dragon's Claw I",
+                "description": "An ancient relic of Maar, said to have been forged from a claw of the Great Dragon Akriloth. Proof of victory over the Fang and the Scales."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 21573,
+                    "name": "Great Dragon's Claw I",
+                    "description": "An ancient relic of Maar, said to have been forged from a claw of the Great Dragon Akriloth. Proof of victory over the Fang and the Scales.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 10,
+                    "rarity": 0,
+                    "level": 60,
+                    "type": "Melee",
+                    "element": "Fire",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Scythe",
+                    "swf": "items\/scythes\/scythe-arenaakriloth.swf",
+                    "icon": "scythe",
+                    "strength": 16,
+                    "dexterity": 16,
+                    "intelligence": 16,
+                    "luck": 12,
+                    "charisma": 12,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 81,
+                    "damageMax": 87,
+                    "defenseMelee": 4,
+                    "defensePierce": 4,
+                    "defenseMagic": 4,
+                    "critical": 10,
+                    "parry": 4,
+                    "dodge": 4,
+                    "block": 4,
+                    "resists": "All,7,Health,-14"
+                }
+            },
+            "related": []
+        }
+    }
+}

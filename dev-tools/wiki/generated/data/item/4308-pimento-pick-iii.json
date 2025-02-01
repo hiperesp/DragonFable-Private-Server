@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4308-pimento-pick-iii",
+        "fullSlug": "items\/4308-pimento-pick-iii",
+        "id": 4308,
+        "name": "Pimento Pick III",
+        "description": "An olive on a toothpick?  Zhukai must be a hungry, hungry weaponsmith!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4308,
+            "name": "Pimento Pick III",
+            "description": "An olive on a toothpick?  Zhukai must be a hungry, hungry weaponsmith!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 55,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-toothpick.swf",
+            "icon": "axe",
+            "strength": 7,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Water,7"
+        }
+    },
+    "related": {
+        "135-player-suggestion-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "135-player-suggestion-shop",
+                "fullSlug": "item-shops\/135-player-suggestion-shop",
+                "id": 135,
+                "name": "Player Suggestion Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Player Suggestion Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

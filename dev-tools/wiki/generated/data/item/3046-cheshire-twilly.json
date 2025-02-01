@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3046-cheshire-twilly",
+        "fullSlug": "items\/3046-cheshire-twilly",
+        "id": 3046,
+        "name": "Cheshire Twilly",
+        "description": "He's so adorable, and yet all your enemies will flee from him in terror! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3046,
+            "name": "Cheshire Twilly",
+            "description": "He's so adorable, and yet all your enemies will flee from him in terror! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 40,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-cheshiretwillyr1.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 15,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "504-queen-of-tarts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "504-queen-of-tarts",
+                "fullSlug": "quests\/504-queen-of-tarts",
+                "id": 504,
+                "name": "Queen of Tarts",
+                "description": "Can you convince the Queen of Tarts to let Aria go?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 504,
+                    "name": "Queen of Tarts",
+                    "description": "Can you convince the Queen of Tarts to let Aria go?!",
+                    "complete": "Well, who know that the Schnozzberry bush would have THAT reaction?  The Mad Haberdasher, of course!",
+                    "swf": "quests\/AriainWanderland\/quest-aria5-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Castle monsters",
+                    "monsterGroupSwf": "mset-aria5r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

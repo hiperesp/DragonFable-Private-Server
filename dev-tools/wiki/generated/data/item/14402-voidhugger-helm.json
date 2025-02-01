@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14402-voidhugger-helm",
+        "fullSlug": "items\/14402-voidhugger-helm",
+        "id": 14402,
+        "name": "Voidhugger Helm",
+        "description": "Mmmpffhh, mmpppff mmhhh pppffhhh hhmmmm. Tttttfffmmmm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14402,
+            "name": "Voidhugger Helm",
+            "description": "Mmmpffhh, mmpppff mmhhh pppffhhh hhmmmm. Tttttfffmmmm. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-facehugger.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 12,
+            "dodge": 12,
+            "block": 12,
+            "resists": "Darkness,12,Light,12,Poison,5"
+        }
+    },
+    "related": {
+        "1284-castle-nostromo": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1284-castle-nostromo",
+                "fullSlug": "quests\/1284-castle-nostromo",
+                "id": 1284,
+                "name": "Castle Nostromo",
+                "description": "You've climbed from the depths of the Valtrith tomb into the ruins of their ancestral castle... and you're not alone!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1284,
+                    "name": "Castle Nostromo",
+                    "description": "You've climbed from the depths of the Valtrith tomb into the ruins of their ancestral castle... and you're not alone!",
+                    "complete": "You've escaped from Castle Nostromo! Will you be able to use what you've learnt about Jaysun though?",
+                    "swf": "towns\/Symone\/quest-castlenostromo-r6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 30000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void Dragon",
+                    "monsterGroupSwf": "mset-nostromo.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

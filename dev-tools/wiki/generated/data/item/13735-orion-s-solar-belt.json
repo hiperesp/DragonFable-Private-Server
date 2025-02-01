@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13735-orion-s-solar-belt",
+        "fullSlug": "items\/13735-orion-s-solar-belt",
+        "id": 13735,
+        "name": "Orion's Solar Belt",
+        "description": "As thanks for your help Orion has given you one of his many belts. This one looks like it holds a dozen or so."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13735,
+            "name": "Orion's Solar Belt",
+            "description": "As thanks for your help Orion has given you one of his many belts. This one looks like it holds a dozen or so.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2400,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 6,
+            "level": 38,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,3,Water,3"
+        }
+    },
+    "related": {
+        "1265-the-lost-egg-of-orion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1265-the-lost-egg-of-orion",
+                "fullSlug": "quests\/1265-the-lost-egg-of-orion",
+                "id": 1265,
+                "name": "The Lost Egg of Orion",
+                "description": "Retrieve the egg Orion lost before Zeuster finds out it is missing!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1265,
+                    "name": "The Lost Egg of Orion",
+                    "description": "Retrieve the egg Orion lost before Zeuster finds out it is missing!",
+                    "complete": "You took the egg back to Orion and he gave you his belt in return!",
+                    "swf": "towns\/Mootopolis\/quest-OrionEgg.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Egg Eating Monsters",
+                    "monsterGroupSwf": "mset-OrionEgg.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

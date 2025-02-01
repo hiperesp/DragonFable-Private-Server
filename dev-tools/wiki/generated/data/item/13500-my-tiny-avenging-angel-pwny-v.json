@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13500-my-tiny-avenging-angel-pwny-v",
+        "fullSlug": "items\/13500-my-tiny-avenging-angel-pwny-v",
+        "id": 13500,
+        "name": "My Tiny Avenging Angel Pwny V",
+        "description": "He is named Sir Lights-a-lot! The brightest Pwny in the herd! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13500,
+            "name": "My Tiny Avenging Angel Pwny V",
+            "description": "He is named Sir Lights-a-lot! The brightest Pwny in the herd! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 10,
+            "level": 80,
+            "element": "Light",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-AngelPegasus.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 23,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 772,
+                    "mergeShopId": 53,
+                    "mergeId": 2580
+                },
+                "merge": {
+                    "id": 2580,
+                    "itemId1": 707,
+                    "amount1": 19,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 13500,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

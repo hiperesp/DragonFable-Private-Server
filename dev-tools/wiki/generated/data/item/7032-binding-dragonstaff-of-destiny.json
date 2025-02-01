@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7032-binding-dragonstaff-of-destiny",
+        "fullSlug": "items\/7032-binding-dragonstaff-of-destiny",
+        "id": 7032,
+        "name": "Binding DragonStaff of Destiny",
+        "description": "The light shining from this staff is so bright it hurts! Just think what it will do to undead!\nThis item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7032,
+            "name": "Binding DragonStaff of Destiny",
+            "description": "The light shining from this staff is so bright it hurts! Just think what it will do to undead!\nThis item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 32,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-destinyr1.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 57,
+            "damageMax": 87,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "113-binding-destiny": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "113-binding-destiny",
+                "fullSlug": "merge-shops\/113-binding-destiny",
+                "id": 113,
+                "name": "Binding Destiny",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 113,
+                    "name": "Binding Destiny"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1583,
+                    "mergeShopId": 113,
+                    "mergeId": 1457
+                },
+                "merge": {
+                    "id": 1457,
+                    "itemId1": 7015,
+                    "amount1": 13,
+                    "itemId2": 7032,
+                    "amount2": 1,
+                    "itemId": 7035,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

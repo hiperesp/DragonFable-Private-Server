@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6648-atreileon-helm-ii",
+        "fullSlug": "items\/6648-atreileon-helm-ii",
+        "id": 6648,
+        "name": "Atreileon Helm II",
+        "description": "Crafted from paraginium, this helm is sleek and battle ready."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6648,
+            "name": "Atreileon Helm II",
+            "description": "Crafted from paraginium, this helm is sleek and battle ready.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 31,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-atreileon.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,6,Fire,5,Darkness,3,Light,2"
+        }
+    },
+    "related": {
+        "105-paraginium-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "105-paraginium-items",
+                "fullSlug": "merge-shops\/105-paraginium-items",
+                "id": 105,
+                "name": "Paraginium Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 105,
+                    "name": "Paraginium Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1459,
+                    "mergeShopId": 105,
+                    "mergeId": 1356
+                },
+                "merge": {
+                    "id": 1356,
+                    "itemId1": 6655,
+                    "amount1": 5,
+                    "itemId2": 6648,
+                    "amount2": 1,
+                    "itemId": 6649,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

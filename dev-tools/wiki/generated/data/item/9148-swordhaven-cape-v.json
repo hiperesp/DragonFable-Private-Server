@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9148-swordhaven-cape-v",
+        "fullSlug": "items\/9148-swordhaven-cape-v",
+        "id": 9148,
+        "name": "Swordhaven Cape V",
+        "description": "A forgotten cape of a soldier of Swordhaven. Perhaps you can put it to better use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9148,
+            "name": "Swordhaven Cape V",
+            "description": "A forgotten cape of a soldier of Swordhaven. Perhaps you can put it to better use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 61,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-swordhaven2.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 6,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Bacon,9,Fire,5"
+        }
+    },
+    "related": {
+        "1030-dancing-on-the-breeze": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1030-dancing-on-the-breeze",
+                "fullSlug": "quests\/1030-dancing-on-the-breeze",
+                "id": 1030,
+                "name": "Dancing On the Breeze",
+                "description": "Laesa's final request is for you to find scraps in Falconreach that can be used to make a magical windmill. But where did these togs come from?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1030,
+                    "name": "Dancing On the Breeze",
+                    "description": "Laesa's final request is for you to find scraps in Falconreach that can be used to make a magical windmill. But where did these togs come from?",
+                    "complete": "A sign for those who are seeking it, hope for those who need it.",
+                    "swf": "towns\/SulenEska\/quest3-mill2020.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

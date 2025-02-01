@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7683-fierce-baron-cat-mask",
+        "fullSlug": "items\/7683-fierce-baron-cat-mask",
+        "id": 7683,
+        "name": "Fierce Baron Cat Mask",
+        "description": "Happy Mogloween, 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7683,
+            "name": "Fierce Baron Cat Mask",
+            "description": "Happy Mogloween, 2012!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 395,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 12,
+            "level": 79,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "maps\/towns\/Mogloween\/M12\/Masks\/mask-cat-baron.swf",
+            "icon": "helm",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Darkness,15,Light,15,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "116-cysero-s-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "116-cysero-s-mask-shop",
+                "fullSlug": "item-shops\/116-cysero-s-mask-shop",
+                "id": 116,
+                "name": "Cysero's Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Cysero's Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

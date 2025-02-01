@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12454-abhorrent-agneau",
+        "fullSlug": "items\/12454-abhorrent-agneau",
+        "id": 12454,
+        "name": "Abhorrent Agneau",
+        "description": "You can scarce conceive what twisted mind created this much less how it was fitted into a necklace. Strangely, simply knowing you can endure the horrible stench and sight makes you feel stronger."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12454,
+            "name": "Abhorrent Agneau",
+            "description": "You can scarce conceive what twisted mind created this much less how it was fitted into a necklace. Strangely, simply knowing you can endure the horrible stench and sight makes you feel stronger.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2100,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 7,
+            "level": 70,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": -1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,9,Nature,9,Bacon,5"
+        }
+    },
+    "related": {
+        "1185-prison-brawl": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1185-prison-brawl",
+                "fullSlug": "quests\/1185-prison-brawl",
+                "id": 1185,
+                "name": "Prison Brawl",
+                "description": "Can you prove to Sofist that you are worthy of being on the Patrol?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1185,
+                    "name": "Prison Brawl",
+                    "description": "Can you prove to Sofist that you are worthy of being on the Patrol?",
+                    "complete": "Two weeks pass while you train under Sofist at Espina Rosa. Above ground, war brews on the horizon. The Dragonriders are coming.",
+                    "swf": "towns\/SulenEska\/quest17-brawl.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "creatures and bandits",
+                    "monsterGroupSwf": "mset-brawl.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

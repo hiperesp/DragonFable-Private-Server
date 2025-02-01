@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10240-goldfish",
+        "fullSlug": "items\/10240-goldfish",
+        "id": 10240,
+        "name": "Goldfish",
+        "description": "You have a giant goldfish on your back!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10240,
+            "name": "Goldfish",
+            "description": "You have a giant goldfish on your back!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 80,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 7,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-goldfish.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,3,Immobility,1"
+        }
+    },
+    "related": {
+        "43-helms-and-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "43-helms-and-capes",
+                "fullSlug": "item-shops\/43-helms-and-capes",
+                "id": 43,
+                "name": "Helms and Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Helms and Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

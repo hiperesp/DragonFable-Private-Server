@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2883-high-huntari",
+        "fullSlug": "items\/2883-high-huntari",
+        "id": 2883,
+        "name": "High Huntari",
+        "description": "When an aeromancer wound a length of ribbon around a wind elemental, she liked the shape it took on, so kept it like that.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2883,
+            "name": "High Huntari",
+            "description": "When an aeromancer wound a length of ribbon around a wind elemental, she liked the shape it took on, so kept it like that.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1150,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 4,
+            "level": 33,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-aria3.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 68,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3"
+        }
+    },
+    "related": {
+        "492-questions": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "492-questions",
+                "fullSlug": "quests\/492-questions",
+                "id": 492,
+                "name": "Questions",
+                "description": "Cheshire Twilly knows of someone who can help you rescue Aria. IF you can convince him to listen to you!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 492,
+                    "name": "Questions",
+                    "description": "Cheshire Twilly knows of someone who can help you rescue Aria. IF you can convince him to listen to you!",
+                    "complete": "Oooo R U?",
+                    "swf": "quests\/AriainWanderland\/quest-aria3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "random",
+                    "monsterGroupSwf": "mset-aria3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

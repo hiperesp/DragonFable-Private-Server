@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2932-platinum-morningstar",
+        "fullSlug": "items\/2932-platinum-morningstar",
+        "id": 2932,
+        "name": "Platinum Morningstar",
+        "description": "Lim has an appreciation for the classics.  He's just overclocked this morningstar by coating it with reactive platinum. \nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2932,
+            "name": "Platinum Morningstar",
+            "description": "Lim has an appreciation for the classics.  He's just overclocked this morningstar by coating it with reactive platinum. \nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 46,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-morningstar.swf",
+            "icon": "mace",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 61,
+            "damageMax": 69,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,5,Water,5,Immobility,2"
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

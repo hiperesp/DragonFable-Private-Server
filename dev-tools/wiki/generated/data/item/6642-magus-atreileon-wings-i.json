@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6642-magus-atreileon-wings-i",
+        "fullSlug": "items\/6642-magus-atreileon-wings-i",
+        "id": 6642,
+        "name": "Magus Atreileon Wings I",
+        "description": "These architectural wings were sculpted from paraginium."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6642,
+            "name": "Magus Atreileon Wings I",
+            "description": "These architectural wings were sculpted from paraginium.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 31,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-atreileon mk3.swf",
+            "icon": "wings",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,3,Light,3"
+        }
+    },
+    "related": {
+        "105-paraginium-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "105-paraginium-items",
+                "fullSlug": "merge-shops\/105-paraginium-items",
+                "id": 105,
+                "name": "Paraginium Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 105,
+                    "name": "Paraginium Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1463,
+                    "mergeShopId": 105,
+                    "mergeId": 1350
+                },
+                "merge": {
+                    "id": 1350,
+                    "itemId1": 6655,
+                    "amount1": 5,
+                    "itemId2": 6642,
+                    "amount2": 1,
+                    "itemId": 6643,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

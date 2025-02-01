@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13788-mini-squishie",
+        "fullSlug": "items\/13788-mini-squishie",
+        "id": 13788,
+        "name": "Mini Squishie",
+        "description": "Looks like something tagged along when the shrink-ray wore off! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13788,
+            "name": "Mini Squishie",
+            "description": "Looks like something tagged along when the shrink-ray wore off! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 77,
+            "level": 76,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-cell.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 17,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1266-bloodwork": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1266-bloodwork",
+                "fullSlug": "quests\/1266-bloodwork",
+                "id": 1266,
+                "name": "Bloodwork",
+                "description": "Magus Neron has been studying infected blood samples but he needs your help to get a closer view!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1266,
+                    "name": "Bloodwork",
+                    "description": "Magus Neron has been studying infected blood samples but he needs your help to get a closer view!",
+                    "complete": "Neron and Chaney might start working together in secret... if you can recover his notes from the Darkness Tower. First, you need to get back to Safiria's castle!",
+                    "swf": "towns\/3Amityvale\/quest8-bloodwork.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cells",
+                    "monsterGroupSwf": "mset-virus.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

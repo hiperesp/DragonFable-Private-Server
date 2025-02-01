@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18321-uaanta-s-blaster-iv-uncharged",
+        "fullSlug": "items\/18321-uaanta-s-blaster-iv-uncharged",
+        "id": 18321,
+        "name": "Uaanta's Blaster IV (Uncharged)",
+        "description": "Uaanta gifted this emergency back-up wand to you. Unfortunately it's not charged. Maybe you'll be able to find some way to charge it up in the future! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18321,
+            "name": "Uaanta's Blaster IV (Uncharged)",
+            "description": "Uaanta gifted this emergency back-up wand to you. Unfortunately it's not charged. Maybe you'll be able to find some way to charge it up in the future! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 15,
+            "level": 90,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 12,
+            "charisma": 12,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,10"
+        }
+    },
+    "related": {
+        "1531-sinnocence": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1531-sinnocence",
+                "fullSlug": "quests\/1531-sinnocence",
+                "id": 1531,
+                "name": "Sinnocence",
+                "description": "Sinnocence must be stopped."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1531,
+                    "name": "Sinnocence",
+                    "description": "Sinnocence must be stopped.",
+                    "complete": "Sinnocence has been destroyed. But what of the other Maleurous?",
+                    "swf": "wars\/F13-Maleurous-1\/quest-sinnocence.swf?ver=1",
+                    "swfX": "wars\/F13-Maleurous-1\/quest-sinnocence-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Doom and Destiny Figments",
+                    "monsterGroupSwf": "mset-sinnocence.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "315-uaanta-s-blaster": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "315-uaanta-s-blaster",
+                "fullSlug": "merge-shops\/315-uaanta-s-blaster",
+                "id": 315,
+                "name": "Uaanta's Blaster",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 315,
+                    "name": "Uaanta's Blaster"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3382,
+                    "mergeShopId": 315,
+                    "mergeId": 3480
+                },
+                "merge": {
+                    "id": 3480,
+                    "itemId1": 18321,
+                    "amount1": 1,
+                    "itemId2": 19360,
+                    "amount2": 1,
+                    "itemId": 19359,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

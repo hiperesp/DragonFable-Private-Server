@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19372-scythe-of-the-new-dawn-ii",
+        "fullSlug": "items\/19372-scythe-of-the-new-dawn-ii",
+        "id": 19372,
+        "name": "Scythe of the New Dawn II",
+        "description": "This scythe was forged by Dracelix to celebrate the New Year! Overflowing with New Year's spirit, it has a chance on-hit to set off spiritworks on your enemy for 5 turns."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19372,
+            "name": "Scythe of the New Dawn II",
+            "description": "This scythe was forged by Dracelix to celebrate the New Year! Overflowing with New Year's spirit, it has a chance on-hit to set off spiritworks on your enemy for 5 turns.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-jan2020.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 50,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,1,Health,-1"
+        }
+    },
+    "related": {
+        "653-new-dawn": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "653-new-dawn",
+                "fullSlug": "item-shops\/653-new-dawn",
+                "id": 653,
+                "name": "New Dawn",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 653,
+                    "name": "New Dawn",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "727-january-dc-specials": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "727-january-dc-specials",
+                "fullSlug": "item-shops\/727-january-dc-specials",
+                "id": 727,
+                "name": "January DC Specials",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 727,
+                    "name": "January DC Specials",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9182-virulent-cursed-scimitar",
+        "fullSlug": "items\/9182-virulent-cursed-scimitar",
+        "id": 9182,
+        "name": "Virulent Cursed Scimitar",
+        "description": "A dry, hot poison infuses this cursed blade."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9182,
+            "name": "Virulent Cursed Scimitar",
+            "description": "A dry, hot poison infuses this cursed blade.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 22,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-cursedscimitar.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 49,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,2"
+        }
+    },
+    "related": {
+        "1031-life-finds-a-way": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1031-life-finds-a-way",
+                "fullSlug": "quests\/1031-life-finds-a-way",
+                "id": 1031,
+                "name": "Life Finds A Way",
+                "description": "Dive into the desert and try to find Sek Duat!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1031,
+                    "name": "Life Finds A Way",
+                    "description": "Dive into the desert and try to find Sek Duat!",
+                    "complete": "Well, you found what is... left of him.",
+                    "swf": "towns\/3Rosewood\/quest3-sandsea-life-re.swf",
+                    "swfX": "towns\/3Rosewood\/quest3-sandsea-life-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "thugs, scarabs, mummies",
+                    "monsterGroupSwf": "mset-sandsea-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

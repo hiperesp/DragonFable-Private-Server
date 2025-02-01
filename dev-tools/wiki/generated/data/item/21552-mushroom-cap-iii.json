@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21552-mushroom-cap-iii",
+        "fullSlug": "items\/21552-mushroom-cap-iii",
+        "id": 21552,
+        "name": "Mushroom Cap III",
+        "description": "Ruby fashioned this from the preserved remains of the defeated mushrooms. It's very fashionable and quite adorable as long as you don't think about it too hard."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21552,
+            "name": "Mushroom Cap III",
+            "description": "Ruby fashioned this from the preserved remains of the defeated mushrooms. It's very fashionable and quite adorable as long as you don't think about it too hard.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-shroom.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Health,-6,Fire,3,Water,3,Nature,3,Stone,3,Poison,3,Bacon,3"
+        }
+    },
+    "related": {
+        "2046-revenge-of-the-shrooms": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2046-revenge-of-the-shrooms",
+                "fullSlug": "quests\/2046-revenge-of-the-shrooms",
+                "id": 2046,
+                "name": "Revenge of the Shrooms",
+                "description": "Another day, another attack on Falconreach. This time from... mushrooms?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2046,
+                    "name": "Revenge of the Shrooms",
+                    "description": "Another day, another attack on Falconreach. This time from... mushrooms?",
+                    "complete": "No one can prove it was you.",
+                    "swf": "towns\/3Falconreach\/Ruby\/quest-revengeshrooms.swf",
+                    "swfX": "towns\/3Falconreach\/Ruby\/quest-revengeshrooms-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Mushrooms. Mad ones.",
+                    "monsterGroupSwf": "mset-mushroommadness.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,370 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "188-nature-s-call",
+        "fullSlug": "items\/188-nature-s-call",
+        "id": 188,
+        "name": "Nature's Call",
+        "description": "This is the type of staff carried by those who practice natural magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 188,
+            "name": "Nature's Call",
+            "description": "This is the type of staff carried by those who practice natural magic.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 3,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-simplegreen.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 6,
+            "damageMax": 18,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "6-the-root-of-all-sneevil": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "6-the-root-of-all-sneevil",
+                "fullSlug": "quests\/6-the-root-of-all-sneevil",
+                "id": 6,
+                "name": "The Root of All Sneevil",
+                "description": "Find the lair of the box stealing thieves and recover the lost treasure!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 6,
+                    "name": "The Root of All Sneevil",
+                    "description": "Find the lair of the box stealing thieves and recover the lost treasure!",
+                    "complete": "You have made your way though the sneevil forest, defeating the thieving box-snatchers at every turn, and you didn't even get poison ivy!",
+                    "swf": "random\/random-sneevilforest.swf",
+                    "swfX": "none",
+                    "maxSilver": 1,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-forest-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "14-enchanted-grove": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "14-enchanted-grove",
+                "fullSlug": "quests\/14-enchanted-grove",
+                "id": 14,
+                "name": "Enchanted Grove",
+                "description": "A place for wishes and secrets, for madness and dreams."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 14,
+                    "name": "Enchanted Grove",
+                    "description": "A place for wishes and secrets, for madness and dreams.",
+                    "complete": "A place for wishes and secrets, for madness and dreams.",
+                    "swf": "random\/random-faerieforest-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 15,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-faeries-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "16-sneevil-box-fort": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "16-sneevil-box-fort",
+                "fullSlug": "quests\/16-sneevil-box-fort",
+                "id": 16,
+                "name": "Sneevil Box Fort",
+                "description": "This is the sneevils base of operations for the surrounding area. It seems to be built almost entirely out of the remnants of broken containers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 16,
+                    "name": "Sneevil Box Fort",
+                    "description": "This is the sneevils base of operations for the surrounding area. It seems to be built almost entirely out of the remnants of broken containers.",
+                    "complete": "You have defeated the regional Sneevil Box Lord. On your adventure you learned more about the Sneevils and their goals in the area.",
+                    "swf": "quests\/quest-sneeviltreefort2019-r1.swf",
+                    "swfX": "quests\/quest-sneeviltreefort2019-x.swf",
+                    "maxSilver": 3,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "AdvCrest=quests\/quest-sneeviltreefort2019-r1.swf",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-forest-r2.swf "
+                }
+            },
+            "related": []
+        },
+        "17-save-the-mill": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "17-save-the-mill",
+                "fullSlug": "quests\/17-save-the-mill",
+                "id": 17,
+                "name": "Save The Mill!",
+                "description": "SEED SPITTERIFIC!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 17,
+                    "name": "Save The Mill!",
+                    "description": "SEED SPITTERIFIC!",
+                    "complete": "SEED SPITTERIFIC!",
+                    "swf": "quests\/quest-lumbermill-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 4,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-forest-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "58-sir-koffagus-sarcophagus": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "58-sir-koffagus-sarcophagus",
+                "fullSlug": "quests\/58-sir-koffagus-sarcophagus",
+                "id": 58,
+                "name": "Sir Koffagus Sarcophagus",
+                "description": "The undead knight Sir Koffagus has fallen to you in battle. As a reward he has let you take a weapon from his horde."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 58,
+                    "name": "Sir Koffagus Sarcophagus",
+                    "description": "The undead knight Sir Koffagus has fallen to you in battle. As a reward he has let you take a weapon from his horde.",
+                    "complete": "The undead knight Sir Koffagus has fallen to you in battle. As a reward he has let you take a weapon from his horde.",
+                    "swf": "quests\/quest-crypt2020.swf",
+                    "swfX": "quests\/quest-crypt2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "0",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-spookyforest-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "71-the-keep-invasion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "71-the-keep-invasion",
+                "fullSlug": "quests\/71-the-keep-invasion",
+                "id": 71,
+                "name": "The Keep Invasion",
+                "description": "Oaklore Keep has been invaded by a force of sneaky sneevils! They seem to be after one of two Ironwood Boxes that were delivered to the Knights of the Pactogonal Table, but which is the real chest?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 71,
+                    "name": "The Keep Invasion",
+                    "description": "Oaklore Keep has been invaded by a force of sneaky sneevils! They seem to be after one of two Ironwood Boxes that were delivered to the Knights of the Pactogonal Table, but which is the real chest?",
+                    "complete": "You saved the tower but Sneevil ninajs escaped with the real Ironwood Box, and you were left with the DECOY BOX!  It looks like you will have to get it back from the King Splurt himself!",
+                    "swf": "quests\/quest-oaklore-tower.swf",
+                    "swfX": "none",
+                    "maxSilver": 3,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Sneevils",
+                    "monsterGroupSwf": "mset-sneevils-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "72-sneevil-jitsu-dojo": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "72-sneevil-jitsu-dojo",
+                "fullSlug": "quests\/72-sneevil-jitsu-dojo",
+                "id": 72,
+                "name": "Sneevil-Jitsu Dojo",
+                "description": "You have come directly to the home of the Sneevil Ninja Army to find out about their plans to attack Oaklore keep."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 72,
+                    "name": "Sneevil-Jitsu Dojo",
+                    "description": "You have come directly to the home of the Sneevil Ninja Army to find out about their plans to attack Oaklore keep.",
+                    "complete": "Shogun Snizix confessed his plans to invade Oaklore Keep in a daring daylight attack and added, laughing: \"You too late, human! Sneevil Ninja attack is already happenings! The Kings will haves his SPECIAL BOX!\". Quick! To the Keep!",
+                    "swf": "quests\/quest-dojo.swf",
+                    "swfX": "none",
+                    "maxSilver": 3,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Sneevils",
+                    "monsterGroupSwf": "mset-sneevils-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "73-sneevil-boxopolis": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "73-sneevil-boxopolis",
+                "fullSlug": "quests\/73-sneevil-boxopolis",
+                "id": 73,
+                "name": "Sneevil Boxopolis",
+                "description": "The sneevils stole an Ironwood Box intended for the Knights of Oaklore Keep when they invaded. You must enter their Boxopolis high in the trees of Oaklore forest and retrieve the box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 73,
+                    "name": "Sneevil Boxopolis",
+                    "description": "The sneevils stole an Ironwood Box intended for the Knights of Oaklore Keep when they invaded. You must enter their Boxopolis high in the trees of Oaklore forest and retrieve the box.",
+                    "complete": "It turns out that King Splurt had no interest in the contents of the box, but simply in the box itself. However, you taught them a valuable lesson about taking things that do not belong to them.",
+                    "swf": "quests\/quest-sneeviltreetown2.swf",
+                    "swfX": "none",
+                    "maxSilver": 5,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Sneevils",
+                    "monsterGroupSwf": "mset-sneevils-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "1-yulgar-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "1-yulgar-s-shop",
+                "fullSlug": "merge-shops\/1-yulgar-s-shop",
+                "id": 1,
+                "name": "Yulgar's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 1,
+                    "name": "Yulgar's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 6,
+                    "mergeShopId": 1,
+                    "mergeId": 3
+                },
+                "merge": {
+                    "id": 3,
+                    "itemId1": 460,
+                    "amount1": 10,
+                    "itemId2": 188,
+                    "amount2": 1,
+                    "itemId": 465,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

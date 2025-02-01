@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20331-lagohmcraft-protector-rose-vi",
+        "fullSlug": "items\/20331-lagohmcraft-protector-rose-vi",
+        "id": 20331,
+        "name": "Lagohmcraft Protector (Rose) VI",
+        "description": "With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Rose. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20331,
+            "name": "Lagohmcraft Protector (Rose) VI",
+            "description": "With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Rose. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 1,
+            "level": 90,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-lagohmRose.swf",
+            "icon": "cape",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 11,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5,Health,-10,Energy,10,Darkness,10"
+        }
+    },
+    "related": {
+        "347-rose-backpiece": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "347-rose-backpiece",
+                "fullSlug": "merge-shops\/347-rose-backpiece",
+                "id": 347,
+                "name": "Rose Backpiece",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 347,
+                    "name": "Rose Backpiece"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3617,
+                    "mergeShopId": 347,
+                    "mergeId": 3717
+                },
+                "merge": {
+                    "id": 3717,
+                    "itemId1": 20330,
+                    "amount1": 1,
+                    "itemId2": 19924,
+                    "amount2": 5,
+                    "itemId": 20331,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

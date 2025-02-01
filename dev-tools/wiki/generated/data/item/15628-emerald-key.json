@@ -1,0 +1,964 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15628-emerald-key",
+        "fullSlug": "items\/15628-emerald-key",
+        "id": 15628,
+        "name": "Emerald Key",
+        "description": "A key carved out of solid emerald! This is surely a lucky one! You'll need three to unlock the Lucky Chest!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15628,
+            "name": "Emerald Key",
+            "description": "A key carved out of solid emerald! This is surely a lucky one! You'll need three to unlock the Lucky Chest!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 10,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "greengem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "21-waterfall-secret-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "21-waterfall-secret-cave",
+                "fullSlug": "quests\/21-waterfall-secret-cave",
+                "id": 21,
+                "name": "Waterfall Secret Cave",
+                "description": "Behind this waterfall lies a secret cave protected by Dragon Magic!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 21,
+                    "name": "Waterfall Secret Cave",
+                    "description": "Behind this waterfall lies a secret cave protected by Dragon Magic!",
+                    "complete": "Behind this waterfall lies a secret cave protected by Dragon Magic!",
+                    "swf": "quests\/quest-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 14,
+                    "maxGold": 200,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        },
+        "32-spirits-in-the-inn": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "32-spirits-in-the-inn",
+                "fullSlug": "quests\/32-spirits-in-the-inn",
+                "id": 32,
+                "name": "Spirits in the Inn",
+                "description": "The Inn in town has been flooded with the spirits of the dead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 32,
+                    "name": "Spirits in the Inn",
+                    "description": "The Inn in town has been flooded with the spirits of the dead!",
+                    "complete": "The Inn in town has been flooded with the spirits of the dead!",
+                    "swf": "quests\/quest-inn.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 12,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-ghosts.swf"
+                }
+            },
+            "related": []
+        },
+        "86-yaga-stone-circle": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "86-yaga-stone-circle",
+                "fullSlug": "quests\/86-yaga-stone-circle",
+                "id": 86,
+                "name": "Yaga Stone Circle",
+                "description": "After being handed a note by Thursday, you make your way to the ancient stone circle which the Five Yaga Sisters call home to stop them from summoning the Strange Outworlder to destroy Lore."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 86,
+                    "name": "Yaga Stone Circle",
+                    "description": "After being handed a note by Thursday, you make your way to the ancient stone circle which the Five Yaga Sisters call home to stop them from summoning the Strange Outworlder to destroy Lore.",
+                    "complete": "You have defeated the Strange Outworlder, also known as Guffer. Who knew that a pot-bellied furball could hit so hard?",
+                    "swf": "quests\/quest-yaga2-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness, Nature",
+                    "monsterGroupSwf": "mset-yaga-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "91-the-mollo-tree": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "91-the-mollo-tree",
+                "fullSlug": "quests\/91-the-mollo-tree",
+                "id": 91,
+                "name": "The Mollo Tree",
+                "description": "Sir Vey has sent you into Oaklore forest to see what has caused the Forest Furies to stop eating their normal diet of Mollo fruit."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 91,
+                    "name": "The Mollo Tree",
+                    "description": "Sir Vey has sent you into Oaklore forest to see what has caused the Forest Furies to stop eating their normal diet of Mollo fruit.",
+                    "complete": "When you arrived at the Mollo tree it was being guarded by Vurr'men and the ground had been picked clean of the fallen fruit.",
+                    "swf": "quests\/quest-mollotree-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 4,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 7,
+                    "monsterType": "Rats, Birds, Bears and Boars",
+                    "monsterGroupSwf": "mset-sirvey-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "119-the-hydra-s-lair": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "119-the-hydra-s-lair",
+                "fullSlug": "quests\/119-the-hydra-s-lair",
+                "id": 119,
+                "name": "The Hydra's Lair",
+                "description": "You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 119,
+                    "name": "The Hydra's Lair",
+                    "description": "You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!",
+                    "complete": "The Hydras numbers have been thinned and Oaklore forest is safe from the watery menace for a little while.",
+                    "swf": "random\/random-hydra.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-hydracave.swf"
+                }
+            },
+            "related": []
+        },
+        "123-the-temple-of-the-four-winds": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "123-the-temple-of-the-four-winds",
+                "fullSlug": "quests\/123-the-temple-of-the-four-winds",
+                "id": 123,
+                "name": "The Temple Of The Four Winds",
+                "description": "To find out more about Sepulchure's plans, you head to the Temple of the Four Winds, the last place that Sepulchure and his Dracolich Fortress attacked."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 123,
+                    "name": "The Temple Of The Four Winds",
+                    "description": "To find out more about Sepulchure's plans, you head to the Temple of the Four Winds, the last place that Sepulchure and his Dracolich Fortress attacked.",
+                    "complete": "You have rescued the surviving Wind Temple priests from invading monsters, and in return you've gotten a lot more information about Sepulchure and the Dragon Boxes.",
+                    "swf": "quests\/dracolich\/quest-windtempler1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Wind,Stone",
+                    "monsterGroupSwf": "mset-windtemple-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "138-the-pure-pool": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "138-the-pure-pool",
+                "fullSlug": "quests\/138-the-pure-pool",
+                "id": 138,
+                "name": "The Pure Pool",
+                "description": "In order to stop the river of fire, Warlic requires a sample of pure elemental water from the Pure Pool. He said that the best sample would come from where the waterfall feeds into the pool."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 138,
+                    "name": "The Pure Pool",
+                    "description": "In order to stop the river of fire, Warlic requires a sample of pure elemental water from the Pure Pool. He said that the best sample would come from where the waterfall feeds into the pool.",
+                    "complete": "Splashy, the Pure Pool's guardian, lies defeated at your feet and you can feel your toes squishing inside your socks. You have gotten the water sample from the purest part of the pure pool. Now Warlic can change the river of fire back to water.",
+                    "swf": "quests\/quest-Xan4-r2.swf ",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-spring-r3.swf"
+                }
+            },
+            "related": []
+        },
+        "201-the-blue-lotus": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "201-the-blue-lotus",
+                "fullSlug": "quests\/201-the-blue-lotus",
+                "id": 201,
+                "name": "The Blue Lotus",
+                "description": "Search through the Wastelands to find the rare Blue Lotus, the symbol of the resistance! Look for stacks of stones to find the path."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 201,
+                    "name": "The Blue Lotus",
+                    "description": "Search through the Wastelands to find the rare Blue Lotus, the symbol of the resistance! Look for stacks of stones to find the path.",
+                    "complete": "You've found a rare Blue Desert Lotus! You need to take this rare flower to the Oasis Inn in town. If Kasuf's information was right, a member of the resistance will then approach you and help you find the Orb of Light hidden somewhere in the Sandsea.",
+                    "swf": "towns\/Sandsea\/quest-zhoom3-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "stone and wind elementals",
+                    "monsterGroupSwf": "mset-wastelands-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "504-queen-of-tarts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "504-queen-of-tarts",
+                "fullSlug": "quests\/504-queen-of-tarts",
+                "id": 504,
+                "name": "Queen of Tarts",
+                "description": "Can you convince the Queen of Tarts to let Aria go?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 504,
+                    "name": "Queen of Tarts",
+                    "description": "Can you convince the Queen of Tarts to let Aria go?!",
+                    "complete": "Well, who know that the Schnozzberry bush would have THAT reaction?  The Mad Haberdasher, of course!",
+                    "swf": "quests\/AriainWanderland\/quest-aria5-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Castle monsters",
+                    "monsterGroupSwf": "mset-aria5r2.swf"
+                }
+            },
+            "related": []
+        },
+        "570-pirate-attack": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "570-pirate-attack",
+                "fullSlug": "quests\/570-pirate-attack",
+                "id": 570,
+                "name": "Pirate Attack",
+                "description": "Attack Attack!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 570,
+                    "name": "Pirate Attack",
+                    "description": "Attack Attack!",
+                    "complete": "Wow, what a bad reference",
+                    "swf": "towns\/TheLocker\/quest-pirateattack-r5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-waterorb2r2.swf"
+                }
+            },
+            "related": []
+        },
+        "640-the-adventure-of-the-broken-tower": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "640-the-adventure-of-the-broken-tower",
+                "fullSlug": "quests\/640-the-adventure-of-the-broken-tower",
+                "id": 640,
+                "name": "The Adventure  of the Broken Tower",
+                "description": "What clues will be unearthed in your investigation of the maze of Bask's broken tower?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 640,
+                    "name": "The Adventure  of the Broken Tower",
+                    "description": "What clues will be unearthed in your investigation of the maze of Bask's broken tower?",
+                    "complete": "A few scraps of an old note and the remains of a strange Amulet... what could they mean?",
+                    "swf": "towns\/Dragonsgrasp\/quest-dragonsgrasp4r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Dogs and Ice Mobs",
+                    "monsterGroupSwf": "mset-dragonsgrasp3.swf"
+                }
+            },
+            "related": []
+        },
+        "717-ninja-pizza-delivery": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "717-ninja-pizza-delivery",
+                "fullSlug": "quests\/717-ninja-pizza-delivery",
+                "id": 717,
+                "name": "Ninja Pizza Delivery",
+                "description": "This is most definitely not a trap."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 717,
+                    "name": "Ninja Pizza Delivery",
+                    "description": "This is most definitely not a trap.",
+                    "complete": "Ok, maybe it was a trap.",
+                    "swf": "random\/random-ninjadelivery.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Pirates",
+                    "monsterGroupSwf": "mset-pnwar-pirates-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "843-swordhaven-marsh": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "843-swordhaven-marsh",
+                "fullSlug": "quests\/843-swordhaven-marsh",
+                "id": 843,
+                "name": "Swordhaven Marsh",
+                "description": "The area where the sewers drain is smelly, gross and full of monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 843,
+                    "name": "Swordhaven Marsh",
+                    "description": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "complete": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "swf": "random\/random-sh-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "boars, bugs, mushrooms",
+                    "monsterGroupSwf": "mset-shmarsh.swf"
+                }
+            },
+            "related": []
+        },
+        "844-mutant-caves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "844-mutant-caves",
+                "fullSlug": "quests\/844-mutant-caves",
+                "id": 844,
+                "name": "Mutant Caves",
+                "description": "The mutant caves at the bottom of the Swordhaven Sewers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 844,
+                    "name": "Mutant Caves",
+                    "description": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "complete": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "swf": "random\/random-sh-mutant-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sewer monsters",
+                    "monsterGroupSwf": "mset-sewers.swf"
+                }
+            },
+            "related": []
+        },
+        "845-swordhaven-fields": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "845-swordhaven-fields",
+                "fullSlug": "quests\/845-swordhaven-fields",
+                "id": 845,
+                "name": "Swordhaven Fields",
+                "description": "The Swordhaven Fields are being dug up by boars and rodents."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 845,
+                    "name": "Swordhaven Fields",
+                    "description": "The Swordhaven Fields are being dug up by boars and rodents.",
+                    "complete": "The Swordhaven Fields are being dug up by boars and rodents.",
+                    "swf": "random\/random-sh-fields.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rats, plants, boars",
+                    "monsterGroupSwf": "mset-shfields-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "975-secret-waterfall-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "975-secret-waterfall-cave",
+                "fullSlug": "quests\/975-secret-waterfall-cave",
+                "id": 975,
+                "name": "Secret Waterfall Cave",
+                "description": "Behind this waterfall lies a secret cave protected by Dragon Magic!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 975,
+                    "name": "Secret Waterfall Cave",
+                    "description": "Behind this waterfall lies a secret cave protected by Dragon Magic!",
+                    "complete": "The cave seems to have gotten a bit more crowded since The Rose has camped nearby...",
+                    "swf": "random\/random-watercave-bk3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        },
+        "1022-lava-tube": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1022-lava-tube",
+                "fullSlug": "quests\/1022-lava-tube",
+                "id": 1022,
+                "name": "Lava Tube",
+                "description": "The lava tubes twist and turn through the far side of Mt Shining Star."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1022,
+                    "name": "Lava Tube",
+                    "description": "The lava tubes twist and turn through the far side of Mt Shining Star.",
+                    "complete": "You've defeated the denizens of this particular lava tube and harvested an essence of fire!",
+                    "swf": "random\/random-lavatube.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire mix",
+                    "monsterGroupSwf": "mset-firepuppets.swf"
+                }
+            },
+            "related": []
+        },
+        "1206-the-dark-tower": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1206-the-dark-tower",
+                "fullSlug": "quests\/1206-the-dark-tower",
+                "id": 1206,
+                "name": "The Dark Tower",
+                "description": "Thursday has gone missing! Head to the Darkness Guardian Tower to confront Frydae!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1206,
+                    "name": "The Dark Tower",
+                    "description": "Thursday has gone missing! Head to the Darkness Guardian Tower to confront Frydae!",
+                    "complete": "There is no sign of Thursday at the Darkness Tower... where could she have gone?",
+                    "swf": "towns\/3Amityvale\/quest5-darktower.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weres, bats, vamps",
+                    "monsterGroupSwf": "mset-darktowerFrydae3.swf"
+                }
+            },
+            "related": []
+        },
+        "1284-castle-nostromo": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1284-castle-nostromo",
+                "fullSlug": "quests\/1284-castle-nostromo",
+                "id": 1284,
+                "name": "Castle Nostromo",
+                "description": "You've climbed from the depths of the Valtrith tomb into the ruins of their ancestral castle... and you're not alone!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1284,
+                    "name": "Castle Nostromo",
+                    "description": "You've climbed from the depths of the Valtrith tomb into the ruins of their ancestral castle... and you're not alone!",
+                    "complete": "You've escaped from Castle Nostromo! Will you be able to use what you've learnt about Jaysun though?",
+                    "swf": "towns\/Symone\/quest-castlenostromo-r6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 30000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void Dragon",
+                    "monsterGroupSwf": "mset-nostromo.swf"
+                }
+            },
+            "related": []
+        },
+        "1290-the-dola": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1290-the-dola",
+                "fullSlug": "quests\/1290-the-dola",
+                "id": 1290,
+                "name": "The Dola",
+                "description": "A Dola stalks the woods at the edge of Betrubung!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1290,
+                    "name": "The Dola",
+                    "description": "A Dola stalks the woods at the edge of Betrubung!",
+                    "complete": "You've stopped the Dola and the farmers and their bunnies are safe!",
+                    "swf": "towns\/SHborder\/quest3-dola.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp, forest, dola",
+                    "monsterGroupSwf": "mset-dola.swf"
+                }
+            },
+            "related": []
+        },
+        "1295-plumbing-problems": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1295-plumbing-problems",
+                "fullSlug": "quests\/1295-plumbing-problems",
+                "id": 1295,
+                "name": "Plumbing Problems",
+                "description": "Good help is hard to find!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1295,
+                    "name": "Plumbing Problems",
+                    "description": "Good help is hard to find!",
+                    "complete": "Is there even a Sir Vivor...? Seriously... you shouldn't trust anyone from the Prize family....",
+                    "swf": "random\/random-oaklore-sewer.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "gross",
+                    "monsterGroupSwf": "mset-oaklore-sewer.swf"
+                }
+            },
+            "related": []
+        },
+        "1329-edamlet": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1329-edamlet",
+                "fullSlug": "quests\/1329-edamlet",
+                "id": 1329,
+                "name": "Edamlet",
+                "description": "Prevent the bandits from interrupting San Robin's one man show. You can do it!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1329,
+                    "name": "Edamlet",
+                    "description": "Prevent the bandits from interrupting San Robin's one man show. You can do it!",
+                    "complete": "Well, that was much ado about nothing.",
+                    "swf": "towns\/3Falconreach\/quest-edamlet.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "plain poetic bandits",
+                    "monsterGroupSwf": "mset-banditshake.swf"
+                }
+            },
+            "related": []
+        },
+        "1336-life-s-a-beach": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1336-life-s-a-beach",
+                "fullSlug": "quests\/1336-life-s-a-beach",
+                "id": 1336,
+                "name": "Life's A Beach",
+                "description": "A vicious crab is terrorizing the beach!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1336,
+                    "name": "Life's A Beach",
+                    "description": "A vicious crab is terrorizing the beach!",
+                    "complete": "That's what he was afraid of?",
+                    "swf": "quests\/quest-lifesabeach.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 300,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-lifesabeach.swf"
+                }
+            },
+            "related": []
+        },
+        "1337-oaklore-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1337-oaklore-forest",
+                "fullSlug": "quests\/1337-oaklore-forest",
+                "id": 1337,
+                "name": "Oaklore Forest",
+                "description": "Don't get lost in the woods!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1337,
+                    "name": "Oaklore Forest",
+                    "description": "Don't get lost in the woods!",
+                    "complete": "Man, those little green guys are mean!",
+                    "swf": "random\/random-oaklore-forest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Forest",
+                    "monsterGroupSwf": "mset-forest-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "1338-biobeasts-escape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1338-biobeasts-escape",
+                "fullSlug": "quests\/1338-biobeasts-escape",
+                "id": 1338,
+                "name": "BioBeasts Escape!",
+                "description": "BioBeasts are trying to escape Frysteland through inter-dimensional portals! Can you find and save them before Alydriah and her minions capture them and find new samples?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1338,
+                    "name": "BioBeasts Escape!",
+                    "description": "BioBeasts are trying to escape Frysteland through inter-dimensional portals! Can you find and save them before Alydriah and her minions capture them and find new samples?",
+                    "complete": "You defeated Alydriah and saved the BioBeasts that managed to make it through the portal! Hopefully, her guards didn't take anything else back to Frysteland!",
+                    "swf": "random\/random-50room-biobeasts-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bio. beasts. ",
+                    "monsterGroupSwf": "mset-biobeasts.swf"
+                }
+            },
+            "related": []
+        },
+        "1344-unbound": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1344-unbound",
+                "fullSlug": "quests\/1344-unbound",
+                "id": 1344,
+                "name": "Unbound",
+                "description": "There has to be more information on the Rose somewhere in Swordhaven..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1344,
+                    "name": "Unbound",
+                    "description": "There has to be more information on the Rose somewhere in Swordhaven...",
+                    "complete": "You... are going to have a headache.",
+                    "swf": "towns\/3swordhaven\/quest1-unboundredo.swf",
+                    "swfX": "towns\/3swordhaven\/quest1-unboundredo-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "shackled",
+                    "monsterGroupSwf": "mset-unbound.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

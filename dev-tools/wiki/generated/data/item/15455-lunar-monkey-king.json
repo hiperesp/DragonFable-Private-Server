@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15455-lunar-monkey-king",
+        "fullSlug": "items\/15455-lunar-monkey-king",
+        "id": 15455,
+        "name": "Lunar Monkey King",
+        "description": "Celebrate the Year of the Monkey with this festive mask!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15455,
+            "name": "Lunar Monkey King",
+            "description": "Celebrate the Year of the Monkey with this festive mask!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-lunarmonkeyking.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Nature,15,Health,-10,Mana,-10"
+        }
+    },
+    "related": {
+        "489-lunar-new-year": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "489-lunar-new-year",
+                "fullSlug": "item-shops\/489-lunar-new-year",
+                "id": 489,
+                "name": "Lunar New Year",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 489,
+                    "name": "Lunar New Year",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

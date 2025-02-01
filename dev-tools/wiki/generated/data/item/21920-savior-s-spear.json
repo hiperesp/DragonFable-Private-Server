@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21920-savior-s-spear",
+        "fullSlug": "items\/21920-savior-s-spear",
+        "id": 21920,
+        "name": "Savior's Spear",
+        "description": "This spear's legend has grown with yours! Reforged with a soulwoven crystal shard, it has become an instrument of Lore's salvation! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21920,
+            "name": "Savior's Spear",
+            "description": "This spear's legend has grown with yours! Reforged with a soulwoven crystal shard, it has become an instrument of Lore's salvation! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 0,
+            "level": 75,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-pointystickjaania.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 81,
+            "damageMax": 85,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,9,Health,-9"
+        }
+    },
+    "related": {
+        "405-spear-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "405-spear-upgrades",
+                "fullSlug": "merge-shops\/405-spear-upgrades",
+                "id": 405,
+                "name": "Spear Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 405,
+                    "name": "Spear Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4193,
+                    "mergeShopId": 405,
+                    "mergeId": 4309
+                },
+                "merge": {
+                    "id": 4309,
+                    "itemId1": 21922,
+                    "amount1": 1,
+                    "itemId2": 21919,
+                    "amount2": 1,
+                    "itemId": 21920,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20249-party-tog",
+        "fullSlug": "items\/20249-party-tog",
+        "id": 20249,
+        "name": "Party Tog",
+        "description": "This tog followed you back from the Togsday party! Can buff your Crit chance based on your CHA stat, and does damage based on your level."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20249,
+            "name": "Party Tog",
+            "description": "This tog followed you back from the Togsday party! Can buff your Crit chance based on your CHA stat, and does damage based on your level.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-togparty.swf?ver=1",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 200,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 10,
+            "damageMax": 10,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1824-togsday": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1824-togsday",
+                "fullSlug": "quests\/1824-togsday",
+                "id": 1824,
+                "name": "Togsday",
+                "description": "It Togsday!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1824,
+                    "name": "Togsday",
+                    "description": "It Togsday!",
+                    "complete": "And so, togkind was cast down into yet another millenium of darkness and lack of cake. It's sad, but it had to happen.",
+                    "swf": "towns\/3Falconreach\/quest-togsday.swf",
+                    "swfX": "towns\/3Falconreach\/quest-togsday-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Togmothy & Knights",
+                    "monsterGroupSwf": "mset-togsday-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

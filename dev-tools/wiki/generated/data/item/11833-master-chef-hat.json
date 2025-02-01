@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11833-master-chef-hat",
+        "fullSlug": "items\/11833-master-chef-hat",
+        "id": 11833,
+        "name": "Master Chef Hat",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11833,
+            "name": "Master Chef Hat"
+        }
+    },
+    "related": {
+        "202-bbq-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "202-bbq-items",
+                "fullSlug": "merge-shops\/202-bbq-items",
+                "id": 202,
+                "name": "BBQ Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 202,
+                    "name": "BBQ Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2418,
+                    "mergeShopId": 202,
+                    "mergeId": 2243
+                },
+                "merge": {
+                    "id": 2243,
+                    "itemId1": 11833,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11878,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

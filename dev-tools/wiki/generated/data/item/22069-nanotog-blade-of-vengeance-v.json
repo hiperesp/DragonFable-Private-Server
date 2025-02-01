@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22069-nanotog-blade-of-vengeance-v",
+        "fullSlug": "items\/22069-nanotog-blade-of-vengeance-v",
+        "id": 22069,
+        "name": "Nanotog Blade of Vengeance V",
+        "description": "This surprisingly elegant blade is supposedly formed of nanotogs and able to cut through any defenses. Believe in the nanotogs, believe in yourself!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22069,
+            "name": "Nanotog Blade of Vengeance V",
+            "description": "This surprisingly elegant blade is supposedly formed of nanotogs and able to cut through any defenses. Believe in the nanotogs, believe in yourself!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 16,
+            "rarity": 0,
+            "level": 50,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-togkatana.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 6,
+            "charisma": -10,
+            "endurance": 6,
+            "wisdom": -10,
+            "damageMin": 40,
+            "damageMax": 50,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 35,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "425-togsday-ii-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "425-togsday-ii-rewards",
+                "fullSlug": "merge-shops\/425-togsday-ii-rewards",
+                "id": 425,
+                "name": "Togsday II Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 425,
+                    "name": "Togsday II Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4396,
+                    "mergeShopId": 425,
+                    "mergeId": 4424
+                },
+                "merge": {
+                    "id": 4424,
+                    "itemId1": 22069,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 5,
+                    "itemId": 22070,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

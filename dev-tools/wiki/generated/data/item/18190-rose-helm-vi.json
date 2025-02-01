@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18190-rose-helm-vi",
+        "fullSlug": "items\/18190-rose-helm-vi",
+        "id": 18190,
+        "name": "Rose Helm VI",
+        "description": "A standard Manahunter Helm."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18190,
+            "name": "Rose Helm VI",
+            "description": "A standard Manahunter Helm.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1400,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 65,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-rosestandard.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Metal,6"
+        }
+    },
+    "related": {
+        "598-rose-helms-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "598-rose-helms-shop",
+                "fullSlug": "item-shops\/598-rose-helms-shop",
+                "id": 598,
+                "name": "Rose Helms Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 598,
+                    "name": "Rose Helms Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

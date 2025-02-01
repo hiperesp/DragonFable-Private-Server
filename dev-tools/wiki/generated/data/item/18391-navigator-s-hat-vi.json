@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18391-navigator-s-hat-vi",
+        "fullSlug": "items\/18391-navigator-s-hat-vi",
+        "id": 18391,
+        "name": "Navigator's Hat VI",
+        "description": "A legendary pirate hat, worn by a long gone pirate hero who is said to have guided the first expedition across the Pale Sea. This artifact will change the appearance of the Pirate class when equipped!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18391,
+            "name": "Navigator's Hat VI",
+            "description": "A legendary pirate hat, worn by a long gone pirate hero who is said to have guided the first expedition across the Pale Sea. This artifact will change the appearance of the Pirate class when equipped!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 90,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Artifact",
+            "swf": "head\/helms\/helm-navigator.swf?ver=5",
+            "icon": "helm",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,10,Health,-10,Wind,6"
+        }
+    },
+    "related": {
+        "606-navigator-s-hat": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "606-navigator-s-hat",
+                "fullSlug": "item-shops\/606-navigator-s-hat",
+                "id": 606,
+                "name": "Navigator's Hat",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 606,
+                    "name": "Navigator's Hat",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

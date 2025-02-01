@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3034-circuit-slicer-iii",
+        "fullSlug": "items\/3034-circuit-slicer-iii",
+        "id": 3034,
+        "name": "Circuit Slicer III",
+        "description": "The circuits embedded into this metal weapon help it do... science! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3034,
+            "name": "Circuit Slicer III",
+            "description": "The circuits embedded into this metal weapon help it do... science! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 21000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 9,
+            "level": 50,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-clockwork.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 62,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,6,Water,6,Wind,6"
+        }
+    },
+    "related": {
+        "109-lim-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "109-lim-s-shop",
+                "fullSlug": "item-shops\/109-lim-s-shop",
+                "id": 109,
+                "name": "Lim's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 109,
+                    "name": "Lim's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

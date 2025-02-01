@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10180-timeshift-cape",
+        "fullSlug": "items\/10180-timeshift-cape",
+        "id": 10180,
+        "name": "TimeShift Cape",
+        "description": "Created in honor of Cronix's birthday, this cape will shift through to time to change color!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10180,
+            "name": "TimeShift Cape",
+            "description": "Created in honor of Cronix's birthday, this cape will shift through to time to change color!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 80,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 7,
+            "level": 21,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-timeshift.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Energy,3,Immobility,1"
+        }
+    },
+    "related": {
+        "356-cronix-bd-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "356-cronix-bd-dc",
+                "fullSlug": "item-shops\/356-cronix-bd-dc",
+                "id": 356,
+                "name": "Cronix BD DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 356,
+                    "name": "Cronix BD DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

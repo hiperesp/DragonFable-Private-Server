@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14455-grove-tender-twigs",
+        "fullSlug": "items\/14455-grove-tender-twigs",
+        "id": 14455,
+        "name": "Grove Tender Twigs",
+        "description": "Nature itself is sprouting from your back! You can upgrade this cape at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14455,
+            "name": "Grove Tender Twigs",
+            "description": "Nature itself is sprouting from your back! You can upgrade this cape at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-grovebreaker.swf",
+            "icon": "wings",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Nature,5,Fire,5,Health,-2"
+        }
+    },
+    "related": {
+        "239-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "239-grove-tender",
+                "fullSlug": "merge-shops\/239-grove-tender",
+                "id": 239,
+                "name": "Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 239,
+                    "name": "Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2642,
+                    "mergeShopId": 239,
+                    "mergeId": 2644
+                },
+                "merge": {
+                    "id": 2644,
+                    "itemId1": 14455,
+                    "amount1": 1,
+                    "itemId2": 14457,
+                    "amount2": 1,
+                    "itemId": 14456,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

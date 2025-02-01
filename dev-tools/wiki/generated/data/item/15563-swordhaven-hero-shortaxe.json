@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15563-swordhaven-hero-shortaxe",
+        "fullSlug": "items\/15563-swordhaven-hero-shortaxe",
+        "id": 15563,
+        "name": "Swordhaven Hero Shortaxe",
+        "description": "The shortaxe of the ancient hero of Swordhaven."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15563,
+            "name": "Swordhaven Hero Shortaxe",
+            "description": "The shortaxe of the ancient hero of Swordhaven.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 415,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 20,
+            "level": 80,
+            "type": "Pierce",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-swordhavenhero.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 13,
+            "intelligence": 0,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 82,
+            "damageMax": 100,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Stone,14,Energy,14,Wind,10,Nature,10,Immobility,-6"
+        }
+    },
+    "related": {
+        "492-hero-defender": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "492-hero-defender",
+                "fullSlug": "item-shops\/492-hero-defender",
+                "id": 492,
+                "name": "Hero Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 492,
+                    "name": "Hero Defender",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18217-scythe-of-the-dark-amulet",
+        "fullSlug": "items\/18217-scythe-of-the-dark-amulet",
+        "id": 18217,
+        "name": "Scythe of the Dark Amulet",
+        "description": "A special scythe made for those who wear their amulet proudly!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18217,
+            "name": "Scythe of the Dark Amulet",
+            "description": "A special scythe made for those who wear their amulet proudly!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-darkamulet.swf",
+            "icon": "scythe",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 12,
+            "damageMin": 83,
+            "damageMax": 107,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 12,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,10,All,4"
+        }
+    },
+    "related": {
+        "146-amulet-scythes": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "146-amulet-scythes",
+                "fullSlug": "merge-shops\/146-amulet-scythes",
+                "id": 146,
+                "name": "Amulet Scythes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 146,
+                    "name": "Amulet Scythes"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2099,
+                    "mergeShopId": 146,
+                    "mergeId": 3248
+                },
+                "merge": {
+                    "id": 3248,
+                    "itemId1": 10299,
+                    "amount1": 1,
+                    "itemId2": 8417,
+                    "amount2": 1,
+                    "itemId": 18217,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

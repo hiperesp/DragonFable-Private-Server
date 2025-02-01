@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4003-hide-cap",
+        "fullSlug": "items\/4003-hide-cap",
+        "id": 4003,
+        "name": "Hide Cap",
+        "description": "A nice light helm that provides good protection. Great for traveling!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4003,
+            "name": "Hide Cap",
+            "description": "A nice light helm that provides good protection. Great for traveling!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 9,
+            "level": 18,
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-hidecap.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,3,Stone,3"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 989,
+                    "mergeShopId": 67,
+                    "mergeId": 749
+                },
+                "merge": {
+                    "id": 749,
+                    "itemId1": 4003,
+                    "amount1": 1,
+                    "itemId2": 4074,
+                    "amount2": 5,
+                    "itemId": 4081,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

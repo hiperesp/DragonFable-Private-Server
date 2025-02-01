@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8152-time-killer-headgear",
+        "fullSlug": "items\/8152-time-killer-headgear",
+        "id": 8152,
+        "name": "Time Killer Headgear",
+        "description": "No man in black will be able to evade you now."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8152,
+            "name": "Time Killer Headgear",
+            "description": "No man in black will be able to evade you now.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 12,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-TimeKiller(F).swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Energy,9,Darkness,9,Light,9,Water,9,Immobility,5,Health,-5"
+        }
+    },
+    "related": {
+        "43-helms-and-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "43-helms-and-capes",
+                "fullSlug": "item-shops\/43-helms-and-capes",
+                "id": 43,
+                "name": "Helms and Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Helms and Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22122-sparkle-pack-i",
+        "fullSlug": "items\/22122-sparkle-pack-i",
+        "id": 22122,
+        "name": "Sparkle Pack I",
+        "description": "This mechanized backpack was... hatched from a robotic egg? Space is a weird place. Proof of victory over the Star Defenders challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22122,
+            "name": "Sparkle Pack I",
+            "description": "This mechanized backpack was... hatched from a robotic egg? Space is a weird place. Proof of victory over the Star Defenders challenge!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 70,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-sparkleboy.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 10,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,6,Immobility,7"
+        }
+    },
+    "related": {
+        "427-star-defenders": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "427-star-defenders",
+                "fullSlug": "merge-shops\/427-star-defenders",
+                "id": 427,
+                "name": "Star Defenders",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 427,
+                    "name": "Star Defenders"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4410,
+                    "mergeShopId": 427,
+                    "mergeId": 4440
+                },
+                "merge": {
+                    "id": 4440,
+                    "itemId1": 22120,
+                    "amount1": 1,
+                    "itemId2": 22121,
+                    "amount2": 1,
+                    "itemId": 22122,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6109-scepter-of-the-emporer",
+        "fullSlug": "items\/6109-scepter-of-the-emporer",
+        "id": 6109,
+        "name": "Scepter of the Emporer",
+        "description": "The scepter of Emperor Kuron, an ancient ruler in the city of Sil."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6109,
+            "name": "Scepter of the Emporer",
+            "description": "The scepter of Emperor Kuron, an ancient ruler in the city of Sil.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 9,
+            "level": 70,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Scepter of the Emperor.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 74,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Silver,10,Poison,10,Immobility,3,Health,-3"
+        }
+    },
+    "related": {
+        "233-sil-ruins": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "233-sil-ruins",
+                "fullSlug": "item-shops\/233-sil-ruins",
+                "id": 233,
+                "name": "Sil Ruins",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 233,
+                    "name": "Sil Ruins",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

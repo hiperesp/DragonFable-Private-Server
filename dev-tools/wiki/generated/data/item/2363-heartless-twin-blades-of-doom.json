@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2363-heartless-twin-blades-of-doom",
+        "fullSlug": "items\/2363-heartless-twin-blades-of-doom",
+        "id": 2363,
+        "name": "Heartless Twin Blades of Doom",
+        "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2363,
+            "name": "Heartless Twin Blades of Doom",
+            "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 24,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/dooms\/dagger-doom2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": -5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 52,
+            "damageMax": 85,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 418,
+                    "mergeShopId": 32,
+                    "mergeId": 570
+                },
+                "merge": {
+                    "id": 570,
+                    "itemId1": 2363,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 13,
+                    "itemId": 3206,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "55-heartless": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "55-heartless",
+                "fullSlug": "merge-shops\/55-heartless",
+                "id": 55,
+                "name": "Heartless",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 55,
+                    "name": "Heartless"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 841,
+                    "mergeShopId": 55,
+                    "mergeId": 525
+                },
+                "merge": {
+                    "id": 525,
+                    "itemId1": 1703,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 13,
+                    "itemId": 2363,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "39-purify": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "39-purify",
+                "fullSlug": "merge-shops\/39-purify",
+                "id": 39,
+                "name": "Purify",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 39,
+                    "name": "Purify"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 657,
+                    "mergeShopId": 39,
+                    "mergeId": 530
+                },
+                "merge": {
+                    "id": 530,
+                    "itemId1": 2363,
+                    "amount1": 1,
+                    "itemId2": 1594,
+                    "amount2": 10,
+                    "itemId": 2367,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

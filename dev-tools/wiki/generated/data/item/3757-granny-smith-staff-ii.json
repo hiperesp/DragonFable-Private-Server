@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3757-granny-smith-staff-ii",
+        "fullSlug": "items\/3757-granny-smith-staff-ii",
+        "id": 3757,
+        "name": "Granny Smith Staff II",
+        "description": "An apple a day keeps Twilly away!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3757,
+            "name": "Granny Smith Staff II",
+            "description": "An apple a day keeps Twilly away!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 12,
+            "level": 40,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-apple.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 49,
+            "damageMax": 75,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Water,5,Ice,5"
+        }
+    },
+    "related": {
+        "556-theory-of-gravitivity": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "556-theory-of-gravitivity",
+                "fullSlug": "quests\/556-theory-of-gravitivity",
+                "id": 556,
+                "name": "Theory of Gravitivity",
+                "description": "What goes up..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 556,
+                    "name": "Theory of Gravitivity",
+                    "description": "What goes up...",
+                    "complete": "What goes up... Must come down!",
+                    "swf": "quests\/quest-clash3-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food and garden",
+                    "monsterGroupSwf": "mset-clash3-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

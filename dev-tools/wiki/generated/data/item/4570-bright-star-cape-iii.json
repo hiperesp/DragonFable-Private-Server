@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4570-bright-star-cape-iii",
+        "fullSlug": "items\/4570-bright-star-cape-iii",
+        "id": 4570,
+        "name": "Bright Star Cape III",
+        "description": "You're a STAR!  You might not have won a place as Lim's assistant in Falconreach Idle, but you definitely proved that you've got talent! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4570,
+            "name": "Bright Star Cape III",
+            "description": "You're a STAR!  You might not have won a place as Lim's assistant in Falconreach Idle, but you definitely proved that you've got talent! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-brightstar.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,8,Light,8"
+        }
+    },
+    "related": {
+        "696-we-now-return-to-your-show": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "696-we-now-return-to-your-show",
+                "fullSlug": "quests\/696-we-now-return-to-your-show",
+                "id": 696,
+                "name": "We now return to your show!",
+                "description": "Wow! I want to get some Paladin Ultrasoft Toilet Paper of my own!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 696,
+                    "name": "We now return to your show!",
+                    "description": "Wow! I want to get some Paladin Ultrasoft Toilet Paper of my own!",
+                    "complete": "Armor on the ground, armor on the ground, helm turned sideways... Ash is lookin' like a FOOL with his armor on the ground!",
+                    "swf": "quests\/quest-falconreachidle2r5.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "human",
+                    "monsterGroupSwf": "mset-falconreachidle.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

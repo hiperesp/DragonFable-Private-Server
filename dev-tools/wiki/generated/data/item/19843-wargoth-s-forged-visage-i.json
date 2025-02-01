@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19843-wargoth-s-forged-visage-i",
+        "fullSlug": "items\/19843-wargoth-s-forged-visage-i",
+        "id": 19843,
+        "name": "Wargoth's Forged Visage I",
+        "description": "The remains of Wargoth, but different. From another time or place, perhaps? Burns bright all the same. Proof of victory over Wargoth!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19843,
+            "name": "Wargoth's Forged Visage I",
+            "description": "The remains of Wargoth, but different. From another time or place, perhaps? Burns bright all the same. Proof of victory over Wargoth!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 0,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 60,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-arenawargoth.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,2,Health,-4,Immobility,2"
+        }
+    },
+    "related": {
+        "1738-wargoth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1738-wargoth",
+                "fullSlug": "quests\/1738-wargoth",
+                "id": 1738,
+                "name": "Wargoth",
+                "description": "Wargoth is here to burn. Burn, and destroy."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1738,
+                    "name": "Wargoth",
+                    "description": "Wargoth is here to burn. Burn, and destroy.",
+                    "complete": "An inevitable end, a regrettable end, all burnt out.",
+                    "swf": "towns\/TimeArena\/quest-wargoth.swf",
+                    "swfX": "towns\/TimeArena\/quest-wargoth-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Wargoth and Professor",
+                    "monsterGroupSwf": "mset-arenawarprof-r7.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "327-fractured-self": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "327-fractured-self",
+                "fullSlug": "merge-shops\/327-fractured-self",
+                "id": 327,
+                "name": "Fractured Self",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 327,
+                    "name": "Fractured Self"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3471,
+                    "mergeShopId": 327,
+                    "mergeId": 3563
+                },
+                "merge": {
+                    "id": 3563,
+                    "itemId1": 19843,
+                    "amount1": 1,
+                    "itemId2": 19847,
+                    "amount2": 1,
+                    "itemId": 19846,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

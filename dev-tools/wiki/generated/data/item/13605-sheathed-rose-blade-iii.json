@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13605-sheathed-rose-blade-iii",
+        "fullSlug": "items\/13605-sheathed-rose-blade-iii",
+        "id": 13605,
+        "name": "Sheathed Rose Blade III",
+        "description": "Looks like a member of the Rose left their weapon behind. It even comes with a cool holder!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13605,
+            "name": "Sheathed Rose Blade III",
+            "description": "Looks like a member of the Rose left their weapon behind. It even comes with a cool holder!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 20,
+            "level": 47,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/RoseCape2.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Metal,5"
+        }
+    },
+    "related": {
+        "1248-homecoming-hurts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1248-homecoming-hurts",
+                "fullSlug": "quests\/1248-homecoming-hurts",
+                "id": 1248,
+                "name": "Homecoming Hurts",
+                "description": "Leon with his knights are readying themselves to storm the place where Kara is being held captive."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1248,
+                    "name": "Homecoming Hurts",
+                    "description": "Leon with his knights are readying themselves to storm the place where Kara is being held captive.",
+                    "complete": "Kara has been freed!",
+                    "swf": "towns\/SulenEska\/quest19-homecoming.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Kara and the Rose",
+                    "monsterGroupSwf": "mset-kara-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

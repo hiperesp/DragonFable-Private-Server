@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16258-experimental-captain-s-rifle",
+        "fullSlug": "items\/16258-experimental-captain-s-rifle",
+        "id": 16258,
+        "name": "Experimental Captain's Rifle",
+        "description": "A pirate captain commissioned this rifle from a famous inventor. Pleased with the prototype, the captain threw the inventor overboard... and ran out of its custom made bullets in a week."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16258,
+            "name": "Experimental Captain's Rifle",
+            "description": "A pirate captain commissioned this rifle from a famous inventor. Pleased with the prototype, the captain threw the inventor overboard... and ran out of its custom made bullets in a week.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 60,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-gun2.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 1,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 61,
+            "damageMax": 85,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Energy,7"
+        }
+    },
+    "related": {
+        "1380-back-to-the-mainland": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1380-back-to-the-mainland",
+                "fullSlug": "quests\/1380-back-to-the-mainland",
+                "id": 1380,
+                "name": "Back to the Mainland",
+                "description": "Time to go back to Osprey Cove!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1380,
+                    "name": "Back to the Mainland",
+                    "description": "Time to go back to Osprey Cove!",
+                    "complete": "Arr!",
+                    "swf": "towns\/3OspreyCove\/TLaPD16\/quest-tlapdback.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pirates, rose, birds, sharks",
+                    "monsterGroupSwf": "mset-tlapd16.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

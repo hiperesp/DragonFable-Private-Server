@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10164-valoth-helm",
+        "fullSlug": "items\/10164-valoth-helm",
+        "id": 10164,
+        "name": "Valoth Helm",
+        "description": "The visage of an ancient villain, from the days of MechQuest! You can upgrade this helm at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10164,
+            "name": "Valoth Helm",
+            "description": "The visage of an ancient villain, from the days of MechQuest! You can upgrade this helm at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-valoth.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,4,Metal,2,Disease,2,Immobility,1"
+        }
+    },
+    "related": {
+        "144-valoth": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "144-valoth",
+                "fullSlug": "merge-shops\/144-valoth",
+                "id": 144,
+                "name": "Valoth",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 144,
+                    "name": "Valoth"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2080,
+                    "mergeShopId": 144,
+                    "mergeId": 1930
+                },
+                "merge": {
+                    "id": 1930,
+                    "itemId1": 10164,
+                    "amount1": 1,
+                    "itemId2": 7689,
+                    "amount2": 1,
+                    "itemId": 10165,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21117-blood-of-the-mountain",
+        "fullSlug": "items\/21117-blood-of-the-mountain",
+        "id": 21117,
+        "name": "Blood of the Mountain",
+        "description": "Captain Lestrad gifted you this cloudy brown-green crystal. Carved from within The Great One's mountainous sanctuary, the DragonLords believe it can be used to forge new weapons."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21117,
+            "name": "Blood of the Mountain",
+            "description": "Captain Lestrad gifted you this cloudy brown-green crystal. Carved from within The Great One's mountainous sanctuary, the DragonLords believe it can be used to forge new weapons.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1980-twin-tides": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1980-twin-tides",
+                "fullSlug": "quests\/1980-twin-tides",
+                "id": 1980,
+                "name": "Twin Tides",
+                "description": "The heroism of you and your allies has stirred The Great One to action. But with the Hollow Tytan's seemingly unlimited source of energy, more decisive action may be required."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1980,
+                    "name": "Twin Tides",
+                    "description": "The heroism of you and your allies has stirred The Great One to action. But with the Hollow Tytan's seemingly unlimited source of energy, more decisive action may be required.",
+                    "complete": "And peace finds Tyndur's Depths once more.",
+                    "swf": "towns\/3Oceantyndur\/quest9-twintides.swf",
+                    "swfX": "towns\/3Oceantyndur\/quest9-twintides-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Hollow Tytan leg",
+                    "monsterGroupSwf": "mset-tytanleg.swf"
+                }
+            },
+            "related": []
+        },
+        "374-the-awakened-depths": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "374-the-awakened-depths",
+                "fullSlug": "merge-shops\/374-the-awakened-depths",
+                "id": 374,
+                "name": "The Awakened Depths",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 374,
+                    "name": "The Awakened Depths"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3895,
+                    "mergeShopId": 374,
+                    "mergeId": 4001
+                },
+                "merge": {
+                    "id": 4001,
+                    "itemId1": 21103,
+                    "amount1": 1,
+                    "itemId2": 21117,
+                    "amount2": 1,
+                    "itemId": 21116,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

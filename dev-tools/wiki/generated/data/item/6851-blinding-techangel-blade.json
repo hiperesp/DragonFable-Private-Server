@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6851-blinding-techangel-blade",
+        "fullSlug": "items\/6851-blinding-techangel-blade",
+        "id": 6851,
+        "name": "Blinding Techangel Blade",
+        "description": "You can hear gears and lenses whirring in the machinery that focuses the light into blades."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6851,
+            "name": "Blinding Techangel Blade",
+            "description": "You can hear gears and lenses whirring in the machinery that focuses the light into blades.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 52,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-techangel.swf",
+            "icon": "sword",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 78,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Light,3,Energy,3,Metal,2,Immobility,1"
+        }
+    },
+    "related": {
+        "899-north": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "899-north",
+                "fullSlug": "quests\/899-north",
+                "id": 899,
+                "name": "North",
+                "description": "Is the Professor hiding somewhere in this desolate landscape?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 899,
+                    "name": "North",
+                    "description": "Is the Professor hiding somewhere in this desolate landscape?",
+                    "complete": "HIM?!",
+                    "swf": "towns\/Atrea\/quest5-north-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness, skeles, spider",
+                    "monsterGroupSwf": "mset-deadlands.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

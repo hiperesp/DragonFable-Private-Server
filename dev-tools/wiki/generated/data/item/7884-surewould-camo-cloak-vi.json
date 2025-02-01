@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7884-surewould-camo-cloak-vi",
+        "fullSlug": "items\/7884-surewould-camo-cloak-vi",
+        "id": 7884,
+        "name": "Surewould Camo Cloak VI",
+        "description": "The dark green fabric of this cloak will help you blend into the trees! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7884,
+            "name": "Surewould Camo Cloak VI",
+            "description": "The dark green fabric of this cloak will help you blend into the trees! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 40,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 71,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-surewould2.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 7,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Stone,9,Wind,5,Water,5,Nature,5,All,2"
+        }
+    },
+    "related": {
+        "287-mill-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "287-mill-drops",
+                "fullSlug": "item-shops\/287-mill-drops",
+                "id": 287,
+                "name": "Mill Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 287,
+                    "name": "Mill Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

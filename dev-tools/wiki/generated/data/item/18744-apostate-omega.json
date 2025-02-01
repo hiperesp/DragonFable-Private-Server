@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18744-apostate-omega",
+        "fullSlug": "items\/18744-apostate-omega",
+        "id": 18744,
+        "name": "Apostate Omega",
+        "description": "An ornate Infernal blade, upgraded from Apostate Alpha. Can be upgraded."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18744,
+            "name": "Apostate Omega",
+            "description": "An ornate Infernal blade, upgraded from Apostate Alpha. Can be upgraded.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 15,
+            "rarity": 15,
+            "level": 60,
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-infernal2.swf",
+            "icon": "scythe",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 11,
+            "wisdom": 11,
+            "damageMin": 74,
+            "damageMax": 86,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,7,Health,-14"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3292,
+                    "mergeShopId": 303,
+                    "mergeId": 3376
+                },
+                "merge": {
+                    "id": 3376,
+                    "itemId1": 18744,
+                    "amount1": 1,
+                    "itemId2": 18818,
+                    "amount2": 5,
+                    "itemId": 18817,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

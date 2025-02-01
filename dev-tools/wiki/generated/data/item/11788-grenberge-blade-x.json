@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11788-grenberge-blade-x",
+        "fullSlug": "items\/11788-grenberge-blade-x",
+        "id": 11788,
+        "name": "Grenberge Blade X",
+        "description": "An expensive blade with a very intricately decorated Grenberge Egg featured in its hilt. Happy Grenwog '14! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11788,
+            "name": "Grenberge Blade X",
+            "description": "An expensive blade with a very intricately decorated Grenberge Egg featured in its hilt. Happy Grenwog '14! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 40000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-grenwog14.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 11,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Stone,9,Fire,9,Water,8,Darkness,8,Health,-4"
+        }
+    },
+    "related": {
+        "402-grenwog-14": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "402-grenwog-14",
+                "fullSlug": "item-shops\/402-grenwog-14",
+                "id": 402,
+                "name": "Grenwog 14",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 402,
+                    "name": "Grenwog 14",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

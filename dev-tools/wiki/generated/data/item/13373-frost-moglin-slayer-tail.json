@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13373-frost-moglin-slayer-tail",
+        "fullSlug": "items\/13373-frost-moglin-slayer-tail",
+        "id": 13373,
+        "name": "Frost Moglin Slayer Tail",
+        "description": "The Frost Moglins crafted this tail in the hope of appeasing you. It's a reminder that you are their greatest foe."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13373,
+            "name": "Frost Moglin Slayer Tail",
+            "description": "The Frost Moglins crafted this tail in the hope of appeasing you. It's a reminder that you are their greatest foe.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 80,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 70,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-FrostMoglinSlayer.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 9,
+            "charisma": 4,
+            "endurance": 8,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,7,Immobility,3,All,1"
+        }
+    },
+    "related": {
+        "426-frost-moglin-slayer": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "426-frost-moglin-slayer",
+                "fullSlug": "item-shops\/426-frost-moglin-slayer",
+                "id": 426,
+                "name": "Frost Moglin Slayer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 426,
+                    "name": "Frost Moglin Slayer",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8414-mournful-gloom-glaive",
+        "fullSlug": "items\/8414-mournful-gloom-glaive",
+        "id": 8414,
+        "name": "Mournful Gloom Glaive",
+        "description": "Nothing can fill the void left behind by this glaive! Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8414,
+            "name": "Mournful Gloom Glaive",
+            "description": "Nothing can fill the void left behind by this glaive! Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 70,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-gloom-r1.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 8,
+            "damageMin": 78,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 1,
+            "block": 0,
+            "resists": "All,10,Health,-15"
+        }
+    },
+    "related": {
+        "128-gloom-glaive": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "128-gloom-glaive",
+                "fullSlug": "merge-shops\/128-gloom-glaive",
+                "id": 128,
+                "name": "Gloom Glaive",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 128,
+                    "name": "Gloom Glaive"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1866,
+                    "mergeShopId": 128,
+                    "mergeId": 1746
+                },
+                "merge": {
+                    "id": 1746,
+                    "itemId1": 8414,
+                    "amount1": 1,
+                    "itemId2": 8417,
+                    "amount2": 1,
+                    "itemId": 8415,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

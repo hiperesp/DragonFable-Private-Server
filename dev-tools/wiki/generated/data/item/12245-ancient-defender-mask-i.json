@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12245-ancient-defender-mask-i",
+        "fullSlug": "items\/12245-ancient-defender-mask-i",
+        "id": 12245,
+        "name": "Ancient Defender Mask I",
+        "description": "Ancient soldiers used these masks for protection against the beasts and monsters that dwelled with the Void Core."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12245,
+            "name": "Ancient Defender Mask I",
+            "description": "Ancient soldiers used these masks for protection against the beasts and monsters that dwelled with the Void Core.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-ancient.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 1,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3,Wind,3"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 132,
+                    "mergeShopId": 4,
+                    "mergeId": 2342
+                },
+                "merge": {
+                    "id": 2342,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": 12245,
+                    "amount2": 1,
+                    "itemId": 12246,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21335-reignyeti-helm-viii",
+        "fullSlug": "items\/21335-reignyeti-helm-viii",
+        "id": 21335,
+        "name": "ReignYeti Helm VIII",
+        "description": "While originally decorative, the frost moglins enchanted this antlered yeti helm for you! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21335,
+            "name": "ReignYeti Helm VIII",
+            "description": "While originally decorative, the frost moglins enchanted this antlered yeti helm for you! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-reigndragon.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 11,
+            "charisma": 11,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 8,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Wind,9,Nature,9,Metal,9,Health,-5"
+        }
+    },
+    "related": {
+        "380-reigndragon-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "380-reigndragon-gear",
+                "fullSlug": "merge-shops\/380-reigndragon-gear",
+                "id": 380,
+                "name": "ReignDragon Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 380,
+                    "name": "ReignDragon Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3961,
+                    "mergeShopId": 380,
+                    "mergeId": 4081
+                },
+                "merge": {
+                    "id": 4081,
+                    "itemId1": 21318,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21335,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

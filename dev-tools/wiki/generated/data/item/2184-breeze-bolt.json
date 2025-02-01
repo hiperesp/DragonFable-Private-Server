@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2184-breeze-bolt",
+        "fullSlug": "items\/2184-breeze-bolt",
+        "id": 2184,
+        "name": "Breeze Bolt",
+        "description": "The energy emanating from this staff has the power to control the winds which rage around Mount Beeflympu.   Since Zeuster hasn't said anything about you taking it yet, you're probably alright."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2184,
+            "name": "Breeze Bolt",
+            "description": "The energy emanating from this staff has the power to control the winds which rage around Mount Beeflympu.   Since Zeuster hasn't said anything about you taking it yet, you're probably alright.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 12,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon1.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 23,
+            "damageMax": 37,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "335-bringing-home-the-bacon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "335-bringing-home-the-bacon",
+                "fullSlug": "quests\/335-bringing-home-the-bacon",
+                "id": 335,
+                "name": "Bringing Home the Bacon",
+                "description": "Valencia has asked you to find out more about the rare bacon element. Can you find anyone who knows more than the rumors you've heard?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 335,
+                    "name": "Bringing Home the Bacon",
+                    "description": "Valencia has asked you to find out more about the rare bacon element. Can you find anyone who knows more than the rumors you've heard?",
+                    "complete": "Chickencows are ruled by a ... rooster god?!",
+                    "swf": "quests\/Zeuster\/quest-bacon1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Elementals",
+                    "monsterGroupSwf": "mset-beeflympus.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

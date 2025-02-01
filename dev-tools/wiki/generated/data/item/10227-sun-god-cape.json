@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10227-sun-god-cape",
+        "fullSlug": "items\/10227-sun-god-cape",
+        "id": 10227,
+        "name": "Sun God Cape",
+        "description": "The power of the sun radiates from this cape! You can upgrade this cape at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10227,
+            "name": "Sun God Cape",
+            "description": "The power of the sun radiates from this cape! You can upgrade this cape at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-sungod.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,5,Energy,5,All,2"
+        }
+    },
+    "related": {
+        "145-sun-god": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "145-sun-god",
+                "fullSlug": "merge-shops\/145-sun-god",
+                "id": 145,
+                "name": "Sun God",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 145,
+                    "name": "Sun God"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2086,
+                    "mergeShopId": 145,
+                    "mergeId": 1942
+                },
+                "merge": {
+                    "id": 1942,
+                    "itemId1": 10227,
+                    "amount1": 1,
+                    "itemId2": 10234,
+                    "amount2": 1,
+                    "itemId": 10228,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12254-icebound-axe",
+        "fullSlug": "items\/12254-icebound-axe",
+        "id": 12254,
+        "name": "Icebound Axe",
+        "description": "This massive axe was found in a cave in the far north. The cursed metal it's forged from seems to draw cold to it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12254,
+            "name": "Icebound Axe",
+            "description": "This massive axe was found in a cave in the far north. The cursed metal it's forged from seems to draw cold to it.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 450,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 70,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-FrostDeathAxe.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 12,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 78,
+            "damageMax": 94,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,5,Ice,5,Fire,5,Health,-2"
+        }
+    },
+    "related": {
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

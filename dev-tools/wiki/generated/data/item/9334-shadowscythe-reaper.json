@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9334-shadowscythe-reaper",
+        "fullSlug": "items\/9334-shadowscythe-reaper",
+        "id": 9334,
+        "name": "Shadowscythe Reaper",
+        "description": "This wicked reaper is used by the armies of the Shadowscythe! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9334,
+            "name": "Shadowscythe Reaper",
+            "description": "This wicked reaper is used by the armies of the Shadowscythe! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 15,
+            "level": 70,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/axes\/axe-shadowscythe.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 92,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,5,Light,4,All,2"
+        }
+    },
+    "related": {
+        "137-shadowscythe-reaper-and-bane": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "137-shadowscythe-reaper-and-bane",
+                "fullSlug": "merge-shops\/137-shadowscythe-reaper-and-bane",
+                "id": 137,
+                "name": "Shadowscythe Reaper and Bane",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 137,
+                    "name": "Shadowscythe Reaper and Bane"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1981,
+                    "mergeShopId": 137,
+                    "mergeId": 1879
+                },
+                "merge": {
+                    "id": 1879,
+                    "itemId1": 9334,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 9335,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

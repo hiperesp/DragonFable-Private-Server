@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18581-ancient-frost-moglin-staff-ii",
+        "fullSlug": "items\/18581-ancient-frost-moglin-staff-ii",
+        "id": 18581,
+        "name": "Ancient Frost Moglin Staff II",
+        "description": "A lost weapon forged by the ancient Frost Moglins, and gifted to you by Papa Moglin as thanks for defeating the legendary wyrm Frallmar! This weapon has a chance to reduce the amount of health your foe can recover."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18581,
+            "name": "Ancient Frost Moglin Staff II",
+            "description": "A lost weapon forged by the ancient Frost Moglins, and gifted to you by Papa Moglin as thanks for defeating the legendary wyrm Frallmar! This weapon has a chance to reduce the amount of health your foe can recover.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 20,
+            "level": 20,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-frallmar.swf",
+            "icon": "staff",
+            "strength": -5,
+            "dexterity": -5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 50,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Immobility,6"
+        }
+    },
+    "related": {
+        "300-presents-and-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "300-presents-and-upgrades",
+                "fullSlug": "merge-shops\/300-presents-and-upgrades",
+                "id": 300,
+                "name": "Presents and Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 300,
+                    "name": "Presents and Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3276,
+                    "mergeShopId": 300,
+                    "mergeId": 3350
+                },
+                "merge": {
+                    "id": 3350,
+                    "itemId1": 18580,
+                    "amount1": 1,
+                    "itemId2": 18598,
+                    "amount2": 1,
+                    "itemId": 18581,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

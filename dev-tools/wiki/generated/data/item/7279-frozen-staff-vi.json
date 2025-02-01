@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7279-frozen-staff-vi",
+        "fullSlug": "items\/7279-frozen-staff-vi",
+        "id": 7279,
+        "name": "Frozen Staff VI",
+        "description": "A wicked edge, honed from magic, self-healing ice! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7279,
+            "name": "Frozen Staff VI",
+            "description": "A wicked edge, honed from magic, self-healing ice! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 72,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-crystal.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 9,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 5,
+            "wisdom": 4,
+            "damageMin": 66,
+            "damageMax": 102,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 8,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Fire,8,Water,6,Energy,6,All,2,Health,-6,Immobility,2"
+        }
+    },
+    "related": {
+        "928-breaking-crystal": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "928-breaking-crystal",
+                "fullSlug": "quests\/928-breaking-crystal",
+                "id": 928,
+                "name": "Breaking Crystal",
+                "description": "Help The Professor and Xan break Jaania free!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 928,
+                    "name": "Breaking Crystal",
+                    "description": "Help The Professor and Xan break Jaania free!",
+                    "complete": "Using magic and science you've managed to free Jaania from her crystal prison! Will she be able to help you though?",
+                    "swf": "towns\/Atrea\/quest10-breaking-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wisps, knights",
+                    "monsterGroupSwf": "mset-mageguards-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

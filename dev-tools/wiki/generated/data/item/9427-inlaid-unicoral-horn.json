@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9427-inlaid-unicoral-horn",
+        "fullSlug": "items\/9427-inlaid-unicoral-horn",
+        "id": 9427,
+        "name": "Inlaid Unicoral Horn",
+        "description": "This belt is made of coins of Unicornal Horn that shimmer as you move! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9427,
+            "name": "Inlaid Unicoral Horn",
+            "description": "This belt is made of coins of Unicornal Horn that shimmer as you move! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 12300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 6,
+            "level": 76,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 1,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "All,1,Immobility,2"
+        }
+    },
+    "related": {
+        "328-zoo": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "328-zoo",
+                "fullSlug": "item-shops\/328-zoo",
+                "id": 328,
+                "name": "Zoo",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 328,
+                    "name": "Zoo",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

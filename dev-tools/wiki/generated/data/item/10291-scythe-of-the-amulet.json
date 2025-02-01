@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10291-scythe-of-the-amulet",
+        "fullSlug": "items\/10291-scythe-of-the-amulet",
+        "id": 10291,
+        "name": "Scythe of the Amulet",
+        "description": "A special scythe made for those who wear their amulet proudly! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10291,
+            "name": "Scythe of the Amulet",
+            "description": "A special scythe made for those who wear their amulet proudly! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 70,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-amulet.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 92,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Ice,6,All,2"
+        }
+    },
+    "related": {
+        "146-amulet-scythes": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "146-amulet-scythes",
+                "fullSlug": "merge-shops\/146-amulet-scythes",
+                "id": 146,
+                "name": "Amulet Scythes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 146,
+                    "name": "Amulet Scythes"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2102,
+                    "mergeShopId": 146,
+                    "mergeId": 1950
+                },
+                "merge": {
+                    "id": 1950,
+                    "itemId1": 10291,
+                    "amount1": 1,
+                    "itemId2": 6762,
+                    "amount2": 1,
+                    "itemId": 10292,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

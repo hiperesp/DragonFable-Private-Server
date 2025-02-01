@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17797-frost-moglin-knight-s-cloak-ii",
+        "fullSlug": "items\/17797-frost-moglin-knight-s-cloak-ii",
+        "id": 17797,
+        "name": "Frost Moglin Knight's Cloak II",
+        "description": "The warm and magically infused cloak of the Frost Moglin Knights! Equip this item with the Frost Moglin Knight's Helm to upgrade the Frost Moglin Armor!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17797,
+            "name": "Frost Moglin Knight's Cloak II",
+            "description": "The warm and magically infused cloak of the Frost Moglin Knights! Equip this item with the Frost Moglin Knight's Helm to upgrade the Frost Moglin Armor!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 25,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Artifact",
+            "swf": "items\/back\/cape-FrostMogArtefact.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Metal,6,Poison,6"
+        }
+    },
+    "related": {
+        "285-frost-moglin-artifacts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "285-frost-moglin-artifacts",
+                "fullSlug": "merge-shops\/285-frost-moglin-artifacts",
+                "id": 285,
+                "name": "Frost Moglin Artifacts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 285,
+                    "name": "Frost Moglin Artifacts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3137,
+                    "mergeShopId": 285,
+                    "mergeId": 3132
+                },
+                "merge": {
+                    "id": 3132,
+                    "itemId1": 17785,
+                    "amount1": 1,
+                    "itemId2": 17787,
+                    "amount2": 1,
+                    "itemId": 17797,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

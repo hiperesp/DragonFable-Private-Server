@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6927-mightiest-100k-scythe",
+        "fullSlug": "items\/6927-mightiest-100k-scythe",
+        "id": 6927,
+        "name": "Mightiest 100k Scythe",
+        "description": "This is purely a status symbol.  If you have this in your backpack, other players who haven't been able to get 100K gold will look at you in awe (and maybe wonder a little about your sanity.)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6927,
+            "name": "Mightiest 100k Scythe",
+            "description": "This is purely a status symbol.  If you have this in your backpack, other players who haven't been able to get 100K gold will look at you in awe (and maybe wonder a little about your sanity.)",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 9001,
+            "level": 72,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-panicscythe1.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 96,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,11,Darkness,11,Water,11,Fire,11,Immobility,2"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1512,
+                    "mergeShopId": 108,
+                    "mergeId": 1399
+                },
+                "merge": {
+                    "id": 1399,
+                    "itemId1": 4847,
+                    "amount1": 1,
+                    "itemId2": 6909,
+                    "amount2": 1,
+                    "itemId": 6927,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

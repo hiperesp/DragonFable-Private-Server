@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11772-grenwog-celebration-helm-v",
+        "fullSlug": "items\/11772-grenwog-celebration-helm-v",
+        "id": 11772,
+        "name": "Grenwog Celebration Helm V",
+        "description": "A festive helm traditionally worn in celebration of Grenwog! Happy Grenwog '14! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11772,
+            "name": "Grenwog Celebration Helm V",
+            "description": "A festive helm traditionally worn in celebration of Grenwog! Happy Grenwog '14! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-grenwog14.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 11,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 10,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,12,Energy,12,Fire,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "402-grenwog-14": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "402-grenwog-14",
+                "fullSlug": "item-shops\/402-grenwog-14",
+                "id": 402,
+                "name": "Grenwog 14",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 402,
+                    "name": "Grenwog 14",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

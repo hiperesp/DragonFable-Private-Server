@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21402-daggers-of-the-shattered-dream-v",
+        "fullSlug": "items\/21402-daggers-of-the-shattered-dream-v",
+        "id": 21402,
+        "name": "Daggers of the Shattered Dream V",
+        "description": "Discovered in the temple of the ancient abyss, this weapon is adorned with the visage of a long forgotten Abyssal hero. Despite everything, this weapon somehow maintains its form, refusing to fall to corruption. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21402,
+            "name": "Daggers of the Shattered Dream V",
+            "description": "Discovered in the temple of the ancient abyss, this weapon is adorned with the visage of a long forgotten Abyssal hero. Despite everything, this weapon somehow maintains its form, refusing to fall to corruption. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 60,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-TMRem.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 19,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 74,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "All,7,Health,-7"
+        }
+    },
+    "related": {
+        "388-shattered-dream": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "388-shattered-dream",
+                "fullSlug": "merge-shops\/388-shattered-dream",
+                "id": 388,
+                "name": "Shattered Dream",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 388,
+                    "name": "Shattered Dream"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4122,
+                    "mergeShopId": 388,
+                    "mergeId": 4162
+                },
+                "merge": {
+                    "id": 4162,
+                    "itemId1": 21387,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21402,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

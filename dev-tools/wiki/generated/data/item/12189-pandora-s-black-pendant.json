@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12189-pandora-s-black-pendant",
+        "fullSlug": "items\/12189-pandora-s-black-pendant",
+        "id": 12189,
+        "name": "Pandora's Black Pendant",
+        "description": "A necklace you've taken from Pandora's cabin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12189,
+            "name": "Pandora's Black Pendant",
+            "description": "A necklace you've taken from Pandora's cabin.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 7,
+            "level": 73,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,9,Ice,9,Stone,9,Immobility,4"
+        }
+    },
+    "related": {
+        "1162-the-origins-of-aspar": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1162-the-origins-of-aspar",
+                "fullSlug": "quests\/1162-the-origins-of-aspar",
+                "id": 1162,
+                "name": "The Origins of Aspar",
+                "description": "Continue your journey deeper into the mysterious forest full of Pandora Worshippers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1162,
+                    "name": "The Origins of Aspar",
+                    "description": "Continue your journey deeper into the mysterious forest full of Pandora Worshippers.",
+                    "complete": "Our heroes go back to the ship, carrying the wood, in silence....",
+                    "swf": "towns\/3Ravenloss\/quest15-origins-sec-r1.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 35000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "worshippers and yellow",
+                    "monsterGroupSwf": "mset-yellow.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

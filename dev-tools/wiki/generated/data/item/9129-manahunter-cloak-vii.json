@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9129-manahunter-cloak-vii",
+        "fullSlug": "items\/9129-manahunter-cloak-vii",
+        "id": 9129,
+        "name": "Manahunter Cloak VII",
+        "description": "A manahunter's cloak! Surprisingly comfortable. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9129,
+            "name": "Manahunter Cloak VII",
+            "description": "A manahunter's cloak! Surprisingly comfortable. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 45,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 76,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-manahunter.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 8,
+            "charisma": 7,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Bacon,12,Wind,6,Water,6,All,2"
+        }
+    },
+    "related": {
+        "318-vind-mission-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "318-vind-mission-capes",
+                "fullSlug": "item-shops\/318-vind-mission-capes",
+                "id": 318,
+                "name": "Vind Mission Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 318,
+                    "name": "Vind Mission Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17872-sentog-helm-iv",
+        "fullSlug": "items\/17872-sentog-helm-iv",
+        "id": 17872,
+        "name": "Sentog Helm IV",
+        "description": "Proof of your victory over the Super Sentog Justice Go! Be the hero of tog justice as the ignoble flee from your visage!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17872,
+            "name": "Sentog Helm IV",
+            "description": "Proof of your victory over the Super Sentog Justice Go! Be the hero of tog justice as the ignoble flee from your visage!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 85,
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-togtron.swf",
+            "icon": "helm",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 14,
+            "charisma": 14,
+            "endurance": 14,
+            "wisdom": 14,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 4,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Fire,10,Water,10,Energy,10"
+        }
+    },
+    "related": {
+        "287-big-and-small": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "287-big-and-small",
+                "fullSlug": "merge-shops\/287-big-and-small",
+                "id": 287,
+                "name": "Big and Small",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 287,
+                    "name": "Big and Small"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3145,
+                    "mergeShopId": 287,
+                    "mergeId": 3154
+                },
+                "merge": {
+                    "id": 3154,
+                    "itemId1": 17869,
+                    "amount1": 1,
+                    "itemId2": 17877,
+                    "amount2": 1,
+                    "itemId": 17872,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

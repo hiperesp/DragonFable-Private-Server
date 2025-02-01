@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20310-extra-fluffy-tog-iii",
+        "fullSlug": "items\/20310-extra-fluffy-tog-iii",
+        "id": 20310,
+        "name": "Extra Fluffy Tog III",
+        "description": "This tog is somehow extremely soft and fluffy! A tog that only few could ever dream of. Enrages when you're under 50% HP, and when enraged, has a chance (CHA\/8) to do double damage!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20310,
+            "name": "Extra Fluffy Tog III",
+            "description": "This tog is somehow extremely soft and fluffy! A tog that only few could ever dream of. Enrages when you're under 50% HP, and when enraged, has a chance (CHA\/8) to do double damage!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 20,
+            "rarity": 1,
+            "level": 90,
+            "element": "Ebil",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-fluffytog.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 200,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 27,
+            "damageMax": 32,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "348-extra-fluffy-tog": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "348-extra-fluffy-tog",
+                "fullSlug": "merge-shops\/348-extra-fluffy-tog",
+                "id": 348,
+                "name": "Extra Fluffy Tog",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 348,
+                    "name": "Extra Fluffy Tog"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3627,
+                    "mergeShopId": 348,
+                    "mergeId": 3696
+                },
+                "merge": {
+                    "id": 3696,
+                    "itemId1": 20309,
+                    "amount1": 1,
+                    "itemId2": 20313,
+                    "amount2": 1,
+                    "itemId": 20310,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "361-the-weight-of-life": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "361-the-weight-of-life",
+                "fullSlug": "merge-shops\/361-the-weight-of-life",
+                "id": 361,
+                "name": "The Weight of Life",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 361,
+                    "name": "The Weight of Life"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3771,
+                    "mergeShopId": 361,
+                    "mergeId": 3874
+                },
+                "merge": {
+                    "id": 3874,
+                    "itemId1": 20310,
+                    "amount1": 1,
+                    "itemId2": 20747,
+                    "amount2": 1,
+                    "itemId": 20739,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

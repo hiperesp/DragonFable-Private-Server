@@ -1,0 +1,392 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7016-shadow-bone-shard",
+        "fullSlug": "items\/7016-shadow-bone-shard",
+        "id": 7016,
+        "name": "Shadow Bone Shard",
+        "description": "A shard of dark bone left behind from the battle between the Braughlmurk Paladins and the Shadow Necromancers."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7016,
+            "name": "Shadow Bone Shard",
+            "description": "A shard of dark bone left behind from the battle between the Braughlmurk Paladins and the Shadow Necromancers.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 9999,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "805-shadow-bone-shard": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "805-shadow-bone-shard",
+                "fullSlug": "item-shops\/805-shadow-bone-shard",
+                "id": 805,
+                "name": "Shadow Bone Shard",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 805,
+                    "name": "Shadow Bone Shard",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "909-braughlmurk-dungeon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "909-braughlmurk-dungeon",
+                "fullSlug": "quests\/909-braughlmurk-dungeon",
+                "id": 909,
+                "name": "Braughlmurk Dungeon",
+                "description": "The dungeons under the ruins of Braughlmurk Cape."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 909,
+                    "name": "Braughlmurk Dungeon",
+                    "description": "The dungeons under the ruins of Braughlmurk Cape.",
+                    "complete": "The dungeons under the ruins of Braughlmurk Cape.",
+                    "swf": "towns\/Braughlmurk\/random-dungeon.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghost, skele, light",
+                    "monsterGroupSwf": "mset-braughlmurk.swf"
+                }
+            },
+            "related": []
+        },
+        "912-haunted-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "912-haunted-forest",
+                "fullSlug": "quests\/912-haunted-forest",
+                "id": 912,
+                "name": "Haunted Forest",
+                "description": "The woods around Braughlmurk Cape."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 912,
+                    "name": "Haunted Forest",
+                    "description": "The woods around Braughlmurk Cape.",
+                    "complete": "The woods around Braughlmurk Cape.",
+                    "swf": "towns\/Braughlmurk\/random-hauntedforest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghost, skele, light",
+                    "monsterGroupSwf": "mset-braughlmurk.swf"
+                }
+            },
+            "related": []
+        },
+        "914-braughlmurk-sewers": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "914-braughlmurk-sewers",
+                "fullSlug": "quests\/914-braughlmurk-sewers",
+                "id": 914,
+                "name": "Braughlmurk Sewers",
+                "description": "The sewers under the town of Braughlmurk Cape."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 914,
+                    "name": "Braughlmurk Sewers",
+                    "description": "The sewers under the town of Braughlmurk Cape.",
+                    "complete": "The sewers under the town of Braughlmurk Cape.",
+                    "swf": "towns\/Braughlmurk\/random-sewersr1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghost, skele, light",
+                    "monsterGroupSwf": "mset-braughlmurk.swf"
+                }
+            },
+            "related": []
+        },
+        "2133-braughlmurk-crypt": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2133-braughlmurk-crypt",
+                "fullSlug": "quests\/2133-braughlmurk-crypt",
+                "id": 2133,
+                "name": "Braughlmurk Crypt",
+                "description": "Once a paladin order's crypt, these dusty halls were used by the invading necromancers to summon undead."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2133,
+                    "name": "Braughlmurk Crypt",
+                    "description": "Once a paladin order's crypt, these dusty halls were used by the invading necromancers to summon undead.",
+                    "complete": "The Darkness always finds a way to return.",
+                    "swf": "towns\/Braughlmurk\/quest-capecrypt.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghost, skele, light",
+                    "monsterGroupSwf": "mset-braughlmurk.swf"
+                }
+            },
+            "related": []
+        },
+        "2134-braughlmurk-battlefield": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2134-braughlmurk-battlefield",
+                "fullSlug": "quests\/2134-braughlmurk-battlefield",
+                "id": 2134,
+                "name": "Braughlmurk Battlefield",
+                "description": "An ancient battlefield, filled with the ruined weapons of its combatants... and their lingering spirits and bones."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2134,
+                    "name": "Braughlmurk Battlefield",
+                    "description": "An ancient battlefield, filled with the ruined weapons of its combatants... and their lingering spirits and bones.",
+                    "complete": "The battle between Light and Darkness never truly ended.",
+                    "swf": "towns\/Braughlmurk\/random-battlefield.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 100000,
+                    "maxGems": 0,
+                    "maxExp": 1000000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghost, skele, light",
+                    "monsterGroupSwf": "mset-braughlmurk.swf"
+                }
+            },
+            "related": []
+        },
+        "111-golden-prize": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "111-golden-prize",
+                "fullSlug": "merge-shops\/111-golden-prize",
+                "id": 111,
+                "name": "Golden Prize",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 111,
+                    "name": "Golden Prize"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1561,
+                    "mergeShopId": 111,
+                    "mergeId": 1439
+                },
+                "merge": {
+                    "id": 1439,
+                    "itemId1": 7015,
+                    "amount1": 20,
+                    "itemId2": 7016,
+                    "amount2": 20,
+                    "itemId": 7018,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "112-shadow-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "112-shadow-doom",
+                "fullSlug": "merge-shops\/112-shadow-doom",
+                "id": 112,
+                "name": "Shadow Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 112,
+                    "name": "Shadow Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1575,
+                    "mergeShopId": 112,
+                    "mergeId": 4307
+                },
+                "merge": {
+                    "id": 4307,
+                    "itemId1": 7016,
+                    "amount1": 13,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21916,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "208-deathknight-resources": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "208-deathknight-resources",
+                "fullSlug": "merge-shops\/208-deathknight-resources",
+                "id": 208,
+                "name": "DeathKnight Resources",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 208,
+                    "name": "DeathKnight Resources"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2479,
+                    "mergeShopId": 208,
+                    "mergeId": 2391
+                },
+                "merge": {
+                    "id": 2391,
+                    "itemId1": 7015,
+                    "amount1": 1,
+                    "itemId2": 7016,
+                    "amount2": 1,
+                    "itemId": 12581,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "235-doomed-pieces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "235-doomed-pieces",
+                "fullSlug": "merge-shops\/235-doomed-pieces",
+                "id": 235,
+                "name": "Doomed Pieces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 235,
+                    "name": "Doomed Pieces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2622,
+                    "mergeShopId": 235,
+                    "mergeId": 2613
+                },
+                "merge": {
+                    "id": 2613,
+                    "itemId1": 495,
+                    "amount1": 10,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7016,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

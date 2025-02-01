@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12618-unhallowed-deathknight-cloak-ii",
+        "fullSlug": "items\/12618-unhallowed-deathknight-cloak-ii",
+        "id": 12618,
+        "name": "Unhallowed DeathKnight Cloak II",
+        "description": "You've infused your cloak with shadow energy. It seems to wrap around you like your own shadow, but it no longer keeps you warm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12618,
+            "name": "Unhallowed DeathKnight Cloak II",
+            "description": "You've infused your cloak with shadow energy. It seems to wrap around you like your own shadow, but it no longer keeps you warm. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-OrnateDeathknight.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,6,Light,6,Immobility,3"
+        }
+    },
+    "related": {
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2496,
+                    "mergeShopId": 210,
+                    "mergeId": 2421
+                },
+                "merge": {
+                    "id": 2421,
+                    "itemId1": 12618,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12619,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

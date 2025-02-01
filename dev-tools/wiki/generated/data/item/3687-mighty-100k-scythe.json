@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3687-mighty-100k-scythe",
+        "fullSlug": "items\/3687-mighty-100k-scythe",
+        "id": 3687,
+        "name": "Mighty 100k Scythe",
+        "description": "This is purely a status symbol.  If you have this in your backpack, other players who haven't been able to get 100K gold will look at you in awe (and maybe wonder a little about your sanity.)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3687,
+            "name": "Mighty 100k Scythe",
+            "description": "This is purely a status symbol.  If you have this in your backpack, other players who haven't been able to get 100K gold will look at you in awe (and maybe wonder a little about your sanity.)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 100000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 9001,
+            "level": 50,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-panicscythe1.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 63,
+            "damageMax": 75,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,5,Darkness,5,Water,5,Fire,5"
+        }
+    },
+    "related": {
+        "137-mighty-100k": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "137-mighty-100k",
+                "fullSlug": "item-shops\/137-mighty-100k",
+                "id": 137,
+                "name": "Mighty 100K",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 137,
+                    "name": "Mighty 100K",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1516,
+                    "mergeShopId": 108,
+                    "mergeId": 1398
+                },
+                "merge": {
+                    "id": 1398,
+                    "itemId1": 3687,
+                    "amount1": 1,
+                    "itemId2": 6909,
+                    "amount2": 1,
+                    "itemId": 4847,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

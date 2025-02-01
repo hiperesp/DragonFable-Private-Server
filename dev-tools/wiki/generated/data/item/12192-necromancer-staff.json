@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12192-necromancer-staff",
+        "fullSlug": "items\/12192-necromancer-staff",
+        "id": 12192,
+        "name": "Necromancer Staff",
+        "description": "This ornate staff glows with an eerie inner light."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12192,
+            "name": "Necromancer Staff",
+            "description": "This ornate staff glows with an eerie inner light.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 220,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 7,
+            "level": 46,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/staffs\/staff-NecroNew.swf",
+            "icon": "staff",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 61,
+            "damageMax": 77,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Light,5,Health,-2"
+        }
+    },
+    "related": {
+        "408-necromancer-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "408-necromancer-items",
+                "fullSlug": "item-shops\/408-necromancer-items",
+                "id": 408,
+                "name": "Necromancer Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 408,
+                    "name": "Necromancer Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

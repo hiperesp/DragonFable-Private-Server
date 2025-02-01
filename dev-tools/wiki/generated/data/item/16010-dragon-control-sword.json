@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16010-dragon-control-sword",
+        "fullSlug": "items\/16010-dragon-control-sword",
+        "id": 16010,
+        "name": "Dragon Control Sword",
+        "description": "Does this sword control dragons? Or do dragons control it?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16010,
+            "name": "Dragon Control Sword",
+            "description": "Does this sword control dragons? Or do dragons control it?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DragonControl-r1.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 82,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Metal,9,Light,5,Wind,5,Nature,2,Energy,2,Immobility,5"
+        }
+    },
+    "related": {
+        "253-heromart-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "253-heromart-items",
+                "fullSlug": "merge-shops\/253-heromart-items",
+                "id": 253,
+                "name": "HeroMart Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 253,
+                    "name": "HeroMart Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2864,
+                    "mergeShopId": 253,
+                    "mergeId": 2882
+                },
+                "merge": {
+                    "id": 2882,
+                    "itemId1": 15986,
+                    "amount1": 2,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16010,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10674-pumpkin-leaf-point",
+        "fullSlug": "items\/10674-pumpkin-leaf-point",
+        "id": 10674,
+        "name": "Pumpkin Leaf Point",
+        "description": "Slice and dice through pumpkins, and anything else, with ease! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10674,
+            "name": "Pumpkin Leaf Point",
+            "description": "Slice and dice through pumpkins, and anything else, with ease! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 50000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 78,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-pumpkinleaf.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 13,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Water,11,Darkness,11,Light,9,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "374-mogloween-2013-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "374-mogloween-2013-gold",
+                "fullSlug": "item-shops\/374-mogloween-2013-gold",
+                "id": 374,
+                "name": "Mogloween 2013 Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 374,
+                    "name": "Mogloween 2013 Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

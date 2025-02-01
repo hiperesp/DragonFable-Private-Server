@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22275-suntouched-viper-s-visage-i",
+        "fullSlug": "items\/22275-suntouched-viper-s-visage-i",
+        "id": 22275,
+        "name": "Suntouched Viper's Visage I",
+        "description": "This helm bears the visage of a young Suntouched Viper. Will it bring you luck? Proof of victory over The Sunbathed Slither challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22275,
+            "name": "Suntouched Viper's Visage I",
+            "description": "This helm bears the visage of a young Suntouched Viper. Will it bring you luck? Proof of victory over The Sunbathed Slither challenge.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 60,
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-snek.swf",
+            "icon": "helm",
+            "strength": 10,
+            "dexterity": 20,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,7,Health,-3"
+        }
+    },
+    "related": {
+        "436-sunbathed-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "436-sunbathed-rewards",
+                "fullSlug": "merge-shops\/436-sunbathed-rewards",
+                "id": 436,
+                "name": "Sunbathed Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 436,
+                    "name": "Sunbathed Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4459,
+                    "mergeShopId": 436,
+                    "mergeId": 4490
+                },
+                "merge": {
+                    "id": 4490,
+                    "itemId1": 22274,
+                    "amount1": 1,
+                    "itemId2": 22273,
+                    "amount2": 1,
+                    "itemId": 22275,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20010-pristine-hallow-d-staff",
+        "fullSlug": "items\/20010-pristine-hallow-d-staff",
+        "id": 20010,
+        "name": "Pristine Hallow'd Staff",
+        "description": "This item requires a Dragon Amulet. The head of the staff is a pumpkin filled with fire which eternally burns using the Cauldron Sister's candy as fuel. They made it as a reward to thank you for helping save the first Mogloween."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20010,
+            "name": "Pristine Hallow'd Staff",
+            "description": "This item requires a Dragon Amulet. The head of the staff is a pumpkin filled with fire which eternally burns using the Cauldron Sister's candy as fuel. They made it as a reward to thank you for helping save the first Mogloween.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 10,
+            "level": 90,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-mogloween3.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 16,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 79,
+            "damageMax": 107,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 12,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Darkness,12,Light,12,Immobility,5,Health,-5"
+        }
+    },
+    "related": {
+        "334-hallow-d-90": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "334-hallow-d-90",
+                "fullSlug": "merge-shops\/334-hallow-d-90",
+                "id": 334,
+                "name": "Hallow'd 90",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 334,
+                    "name": "Hallow'd 90"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3502,
+                    "mergeShopId": 334,
+                    "mergeId": 3589
+                },
+                "merge": {
+                    "id": 3589,
+                    "itemId1": 12807,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20010,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

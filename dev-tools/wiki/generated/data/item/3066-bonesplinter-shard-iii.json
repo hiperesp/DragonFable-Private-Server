@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3066-bonesplinter-shard-iii",
+        "fullSlug": "items\/3066-bonesplinter-shard-iii",
+        "id": 3066,
+        "name": "Bonesplinter Shard III",
+        "description": "This item requires a Dragon Amulet. It's a broken piece of bone from a defeated dracolich. It contains a small part of its powerful necrotic essence!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3066,
+            "name": "Bonesplinter Shard III",
+            "description": "This item requires a Dragon Amulet. It's a broken piece of bone from a defeated dracolich. It contains a small part of its powerful necrotic essence!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 50,
+            "type": "Pierce",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-skeletal.swf",
+            "icon": "dagger",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 78,
+            "defenseMelee": 4,
+            "defensePierce": 0,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Darkness,3,Immobility,1"
+        }
+    },
+    "related": {
+        "505-zorbak-s-legion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "505-zorbak-s-legion",
+                "fullSlug": "quests\/505-zorbak-s-legion",
+                "id": 505,
+                "name": "Zorbak's Legion",
+                "description": "Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 505,
+                    "name": "Zorbak's Legion",
+                    "description": "Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!",
+                    "complete": "With as cute as those baby dracolich are, how can you NOT make sure they stay safe?!",
+                    "swf": "quests\/ZorbaksArmy\/quest-zarmy1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cave",
+                    "monsterGroupSwf": "mset-zarmy1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

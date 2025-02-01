@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15476-lunar-lantern-lighter",
+        "fullSlug": "items\/15476-lunar-lantern-lighter",
+        "id": 15476,
+        "name": "Lunar Lantern Lighter",
+        "description": "Start the Year of the Monkey with luck, light, and fire!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15476,
+            "name": "Lunar Lantern Lighter",
+            "description": "Start the Year of the Monkey with luck, light, and fire!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 20,
+            "level": 50,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-lunarlantern.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 5,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,8,Light,8,Wind,6,Darkness,6,Health,-5"
+        }
+    },
+    "related": {
+        "489-lunar-new-year": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "489-lunar-new-year",
+                "fullSlug": "item-shops\/489-lunar-new-year",
+                "id": 489,
+                "name": "Lunar New Year",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 489,
+                    "name": "Lunar New Year",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

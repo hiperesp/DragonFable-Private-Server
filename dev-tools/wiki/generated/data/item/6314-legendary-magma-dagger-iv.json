@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6314-legendary-magma-dagger-iv",
+        "fullSlug": "items\/6314-legendary-magma-dagger-iv",
+        "id": 6314,
+        "name": "Legendary Magma Dagger IV",
+        "description": "An ancient blade forged in the pits of a volcano, that has been destroyed and forgotten.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6314,
+            "name": "Legendary Magma Dagger IV",
+            "description": "An ancient blade forged in the pits of a volcano, that has been destroyed and forgotten.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 70,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-magmanew.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 72,
+            "damageMax": 94,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,8,Water,8,Ice,8,Immobility,4"
+        }
+    },
+    "related": {
+        "844-mutant-caves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "844-mutant-caves",
+                "fullSlug": "quests\/844-mutant-caves",
+                "id": 844,
+                "name": "Mutant Caves",
+                "description": "The mutant caves at the bottom of the Swordhaven Sewers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 844,
+                    "name": "Mutant Caves",
+                    "description": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "complete": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "swf": "random\/random-sh-mutant-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sewer monsters",
+                    "monsterGroupSwf": "mset-sewers.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

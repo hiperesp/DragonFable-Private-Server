@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3269-northern-explorer-s-hood-i",
+        "fullSlug": "items\/3269-northern-explorer-s-hood-i",
+        "id": 3269,
+        "name": "Northern Explorer's Hood I",
+        "description": "Take a bit of the frozen northern winds with you where ever you may go with this cool winter helm! Click on the goggles!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3269,
+            "name": "Northern Explorer's Hood I",
+            "description": "Take a bit of the frozen northern winds with you where ever you may go with this cool winter helm! Click on the goggles!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 30,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-NorthernExplorerr1.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 4,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4"
+        }
+    },
+    "related": {
+        "525-there-s-something-about-twilly": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "525-there-s-something-about-twilly",
+                "fullSlug": "quests\/525-there-s-something-about-twilly",
+                "id": 525,
+                "name": "There's Something About Twilly...",
+                "description": "It's that time of year again!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 525,
+                    "name": "There's Something About Twilly...",
+                    "description": "It's that time of year again!",
+                    "complete": "Someone has kidnapped all the moglins again! Who could be behind it this year?",
+                    "swf": "towns\/Frostvale\/quest-frostval09-1-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "frosty",
+                    "monsterGroupSwf": "mset-golem.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

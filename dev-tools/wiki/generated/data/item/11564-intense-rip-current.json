@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11564-intense-rip-current",
+        "fullSlug": "items\/11564-intense-rip-current",
+        "id": 11564,
+        "name": "Intense Rip Current",
+        "description": "Forged in the shadow of the Ocean Gate!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11564,
+            "name": "Intense Rip Current",
+            "description": "Forged in the shadow of the Ocean Gate!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 31,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-riptide.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 45,
+            "damageMax": 57,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,3,Energy,1"
+        }
+    },
+    "related": {
+        "398-rip-tide-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "398-rip-tide-shop",
+                "fullSlug": "item-shops\/398-rip-tide-shop",
+                "id": 398,
+                "name": "Rip Tide Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 398,
+                    "name": "Rip Tide Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

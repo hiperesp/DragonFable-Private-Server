@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "936-the-crushing-deep",
+        "fullSlug": "items\/936-the-crushing-deep",
+        "id": 936,
+        "name": "The Crushing Deep",
+        "description": "This Item Requires a Dragon Amulet. This blade was forged under amazing pressure at the bottom of the deepest sea... by a fish. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 936,
+            "name": "The Crushing Deep",
+            "description": "This Item Requires a Dragon Amulet. This blade was forged under amazing pressure at the bottom of the deepest sea... by a fish. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 20,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-splashy1.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 37,
+            "damageMax": 49,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,2"
+        }
+    },
+    "related": {
+        "138-the-pure-pool": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "138-the-pure-pool",
+                "fullSlug": "quests\/138-the-pure-pool",
+                "id": 138,
+                "name": "The Pure Pool",
+                "description": "In order to stop the river of fire, Warlic requires a sample of pure elemental water from the Pure Pool. He said that the best sample would come from where the waterfall feeds into the pool."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 138,
+                    "name": "The Pure Pool",
+                    "description": "In order to stop the river of fire, Warlic requires a sample of pure elemental water from the Pure Pool. He said that the best sample would come from where the waterfall feeds into the pool.",
+                    "complete": "Splashy, the Pure Pool's guardian, lies defeated at your feet and you can feel your toes squishing inside your socks. You have gotten the water sample from the purest part of the pure pool. Now Warlic can change the river of fire back to water.",
+                    "swf": "quests\/quest-Xan4-r2.swf ",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-spring-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

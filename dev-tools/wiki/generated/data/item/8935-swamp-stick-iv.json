@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8935-swamp-stick-iv",
+        "fullSlug": "items\/8935-swamp-stick-iv",
+        "id": 8935,
+        "name": "Swamp Stick IV",
+        "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8935,
+            "name": "Swamp Stick IV",
+            "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 76,
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-swampwand.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 72,
+            "damageMax": 98,
+            "defenseMelee": 7,
+            "defensePierce": 3,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Nature,10,Water,10,Fire,5,Darkness,5,Immobility,1"
+        }
+    },
+    "related": {
+        "131-rose-emblem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "131-rose-emblem",
+                "fullSlug": "merge-shops\/131-rose-emblem",
+                "id": 131,
+                "name": "Rose Emblem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 131,
+                    "name": "Rose Emblem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1882,
+                    "mergeShopId": 131,
+                    "mergeId": 1795
+                },
+                "merge": {
+                    "id": 1795,
+                    "itemId1": 8879,
+                    "amount1": 3,
+                    "itemId2": 8935,
+                    "amount2": 1,
+                    "itemId": 8936,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

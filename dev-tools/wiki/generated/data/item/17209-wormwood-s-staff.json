@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17209-wormwood-s-staff",
+        "fullSlug": "items\/17209-wormwood-s-staff",
+        "id": 17209,
+        "name": "Wormwood's Staff",
+        "description": "This staff still contains a portion of Wormwood's power. Perhaps you could summon more Disease Elementals with it?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17209,
+            "name": "Wormwood's Staff",
+            "description": "This staff still contains a portion of Wormwood's power. Perhaps you could summon more Disease Elementals with it?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 75,
+            "type": "Magic",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-wormwood.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 0,
+            "wisdom": 7,
+            "damageMin": 71,
+            "damageMax": 95,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Nature,6,Fire,6"
+        }
+    },
+    "related": {
+        "551-epidemic-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "551-epidemic-loot-for-dcs",
+                "fullSlug": "item-shops\/551-epidemic-loot-for-dcs",
+                "id": 551,
+                "name": "Epidemic Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 551,
+                    "name": "Epidemic Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

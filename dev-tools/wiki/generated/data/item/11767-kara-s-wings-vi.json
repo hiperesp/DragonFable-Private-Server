@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11767-kara-s-wings-vi",
+        "fullSlug": "items\/11767-kara-s-wings-vi",
+        "id": 11767,
+        "name": "Kara's Wings VI",
+        "description": "Crafted in honor of those who fought with Kara Su'Lema. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11767,
+            "name": "Kara's Wings VI",
+            "description": "Crafted in honor of those who fought with Kara Su'Lema. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-kara.swf",
+            "icon": "wings",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 10,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Wind,10,Stone,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "1147-on-broken-wings": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1147-on-broken-wings",
+                "fullSlug": "quests\/1147-on-broken-wings",
+                "id": 1147,
+                "name": "On Broken Wings",
+                "description": "Insider intelligence has located a hideaway where future plans may be set in motion.  Find out what Akanthus has planned next to thwart him."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1147,
+                    "name": "On Broken Wings",
+                    "description": "Insider intelligence has located a hideaway where future plans may be set in motion.  Find out what Akanthus has planned next to thwart him.",
+                    "complete": "Though Mritha has the next attack in her hands, the resistance has lost a major asset.",
+                    "swf": "towns\/SulenEska\/quest14-wings.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

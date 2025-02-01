@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13217-crystalline-staff",
+        "fullSlug": "items\/13217-crystalline-staff",
+        "id": 13217,
+        "name": "Crystalline Staff",
+        "description": "This staff seems to want to pull itself out of your hands on occasion. It's like it's trying to get home..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13217,
+            "name": "Crystalline Staff",
+            "description": "This staff seems to want to pull itself out of your hands on occasion. It's like it's trying to get home...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 61,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-CrystallineStaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,6,Stone,4,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "1215-a-tale-of-two-timelines": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1215-a-tale-of-two-timelines",
+                "fullSlug": "quests\/1215-a-tale-of-two-timelines",
+                "id": 1215,
+                "name": "A Tale of Two Timelines",
+                "description": "It's that time of year! You've planned for every contingency to have a safe Frostval, right?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1215,
+                    "name": "A Tale of Two Timelines",
+                    "description": "It's that time of year! You've planned for every contingency to have a safe Frostval, right?",
+                    "complete": "The timelines of Lore are merging and that means the good guys, and the bad, are merging together too! Will you be able to fix this mess?",
+                    "swf": "towns\/Frostvale\/F14\/quest1-twotimelines.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "df and aqw art merged",
+                    "monsterGroupSwf": "mset-aqwmerge1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

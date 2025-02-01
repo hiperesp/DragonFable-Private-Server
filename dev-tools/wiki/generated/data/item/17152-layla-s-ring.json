@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17152-layla-s-ring",
+        "fullSlug": "items\/17152-layla-s-ring",
+        "id": 17152,
+        "name": "Layla's Ring",
+        "description": "It used to work as a charm for a girl named Layla. Then she lost it. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17152,
+            "name": "Layla's Ring",
+            "description": "It used to work as a charm for a girl named Layla. Then she lost it. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 70,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Light,5,Fire,5,Darkness,5"
+        }
+    },
+    "related": {
+        "1423-banshee-by-the-well": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1423-banshee-by-the-well",
+                "fullSlug": "quests\/1423-banshee-by-the-well",
+                "id": 1423,
+                "name": "Banshee By the Well",
+                "description": "A banshee near a well, huh? Better investigate."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1423,
+                    "name": "Banshee By the Well",
+                    "description": "A banshee near a well, huh? Better investigate.",
+                    "complete": "Well Well Well.",
+                    "swf": "towns\/3swordhaven\/Board\/quest-SHwell.swf",
+                    "swfX": "towns\/3swordhaven\/Board\/quest-SHwell-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "undead and spooks",
+                    "monsterGroupSwf": "mset-well-banshee.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

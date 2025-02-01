@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17476-oversized-knight-s-fork-iii",
+        "fullSlug": "items\/17476-oversized-knight-s-fork-iii",
+        "id": 17476,
+        "name": "Oversized Knight's Fork III",
+        "description": "Knights have mighty appetites to fuel their training. You too can participate with this commemorative Knight's Fork! Perfect for eating gigantic broccoli and potatoes."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17476,
+            "name": "Oversized Knight's Fork III",
+            "description": "Knights have mighty appetites to fuel their training. You too can participate with this commemorative Knight's Fork! Perfect for eating gigantic broccoli and potatoes.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 35,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-knightfork.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 114,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1446-nest-robber": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1446-nest-robber",
+                "fullSlug": "quests\/1446-nest-robber",
+                "id": 1446,
+                "name": "Nest Robber",
+                "description": "The Nest is an interesting place, but it can use some help."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1446,
+                    "name": "Nest Robber",
+                    "description": "The Nest is an interesting place, but it can use some help.",
+                    "complete": "It looks like you'll be here for a while longer.",
+                    "swf": "towns\/Nest\/quest2-robber.swf",
+                    "swfX": "towns\/Nest\/quest2-robber-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Bugs & Siofra",
+                    "monsterGroupSwf": "mset-robber-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

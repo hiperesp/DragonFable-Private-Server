@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11240-eternity-joy",
+        "fullSlug": "items\/11240-eternity-joy",
+        "id": 11240,
+        "name": "Eternity Joy",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11240,
+            "name": "Eternity Joy"
+        }
+    },
+    "related": {
+        "196-eternity-joy": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "196-eternity-joy",
+                "fullSlug": "merge-shops\/196-eternity-joy",
+                "id": 196,
+                "name": "Eternity Joy",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 196,
+                    "name": "Eternity Joy"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2266,
+                    "mergeShopId": 196,
+                    "mergeId": 2053
+                },
+                "merge": {
+                    "id": 2053,
+                    "itemId1": 11240,
+                    "amount1": 1,
+                    "itemId2": 11249,
+                    "amount2": 1,
+                    "itemId": 11241,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

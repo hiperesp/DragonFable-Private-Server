@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6115-diamond-ring-of-the-emperor",
+        "fullSlug": "items\/6115-diamond-ring-of-the-emperor",
+        "id": 6115,
+        "name": "Diamond Ring of the Emperor",
+        "description": "The ring of the Emperor Kuron, an ancient ruler in the city of Sil. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6115,
+            "name": "Diamond Ring of the Emperor",
+            "description": "The ring of the Emperor Kuron, an ancient ruler in the city of Sil. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 68,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,10,Ice,8,Silver,6,Water,4,Immobility,2,Health,-2"
+        }
+    },
+    "related": {
+        "235-sil-ruins": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "235-sil-ruins",
+                "fullSlug": "item-shops\/235-sil-ruins",
+                "id": 235,
+                "name": "Sil Ruins",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 235,
+                    "name": "Sil Ruins",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4062-liberty-candle-blade",
+        "fullSlug": "items\/4062-liberty-candle-blade",
+        "id": 4062,
+        "name": "Liberty Candle Blade",
+        "description": "The flame of liberty burns brightly with this tribute to freedom and national pride! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4062,
+            "name": "Liberty Candle Blade",
+            "description": "The flame of liberty burns brightly with this tribute to freedom and national pride! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 60,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-4th2010_lvl60.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 4,
+            "damageMin": 71,
+            "damageMax": 79,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Water,7,Ice,7"
+        }
+    },
+    "related": {
+        "149-liberty-days-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "149-liberty-days-shop",
+                "fullSlug": "item-shops\/149-liberty-days-shop",
+                "id": 149,
+                "name": "Liberty Days Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 149,
+                    "name": "Liberty Days Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

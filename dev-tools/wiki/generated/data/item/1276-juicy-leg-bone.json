@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1276-juicy-leg-bone",
+        "fullSlug": "items\/1276-juicy-leg-bone",
+        "id": 1276,
+        "name": "Juicy Leg Bone",
+        "description": "This weapon is hot, delicious and extremely dangerous."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1276,
+            "name": "Juicy Leg Bone",
+            "description": "This weapon is hot, delicious and extremely dangerous.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 4,
+            "level": 30,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-turkey.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 50,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "34-thankstaking-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "34-thankstaking-weapons",
+                "fullSlug": "merge-shops\/34-thankstaking-weapons",
+                "id": 34,
+                "name": "Thankstaking Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 34,
+                    "name": "Thankstaking Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 564,
+                    "mergeShopId": 34,
+                    "mergeId": 329
+                },
+                "merge": {
+                    "id": 329,
+                    "itemId1": 581,
+                    "amount1": 2,
+                    "itemId2": 495,
+                    "amount2": 11,
+                    "itemId": 1276,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

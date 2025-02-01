@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10431-dread-pirate-hat-i",
+        "fullSlug": "items\/10431-dread-pirate-hat-i",
+        "id": 10431,
+        "name": "Dread Pirate Hat I",
+        "description": "Arrr, me mateys! Celebrate TLaPD in true pirate style!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10431,
+            "name": "Dread Pirate Hat I",
+            "description": "Arrr, me mateys! Celebrate TLaPD in true pirate style!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 75,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 10,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dread-pirate-hat.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,1,Water,1,Immobility,1"
+        }
+    },
+    "related": {
+        "276-tlapd-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "276-tlapd-dc",
+                "fullSlug": "item-shops\/276-tlapd-dc",
+                "id": 276,
+                "name": "TLaPD DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 276,
+                    "name": "TLaPD DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

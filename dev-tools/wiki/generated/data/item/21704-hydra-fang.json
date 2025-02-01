@@ -1,0 +1,160 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21704-hydra-fang",
+        "fullSlug": "items\/21704-hydra-fang",
+        "id": 21704,
+        "name": "Hydra Fang",
+        "description": "A fang wrested from a massive hydra! Maybe you can find some way to use it...\n(Used to improve the Forgotten Spear!)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21704,
+            "name": "Hydra Fang",
+            "description": "A fang wrested from a massive hydra! Maybe you can find some way to use it...\n(Used to improve the Forgotten Spear!)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "55-hydra-boss": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "55-hydra-boss",
+                "fullSlug": "quests\/55-hydra-boss",
+                "id": 55,
+                "name": "Hydra Boss",
+                "description": "A three headed Hydra blocks the path to Falconreach."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 55,
+                    "name": "Hydra Boss",
+                    "description": "A three headed Hydra blocks the path to Falconreach.",
+                    "complete": "Onward to Falconreach! Be sure to set your home town in the Inn.",
+                    "swf": "quests\/quest-oaklore-boss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-hydra.swf"
+                }
+            },
+            "related": []
+        },
+        "945-hydra-boss": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "945-hydra-boss",
+                "fullSlug": "quests\/945-hydra-boss",
+                "id": 945,
+                "name": "Hydra Boss",
+                "description": "Eeeeeeeeeewwwwwwwwww."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 945,
+                    "name": "Hydra Boss",
+                    "description": "Eeeeeeeeeewwwwwwwwww.",
+                    "complete": "Eeeeeeeeeewwwwwwwwww.",
+                    "swf": "towns\/3Oaklore\/quest-oaklore-boss2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "deadra",
+                    "monsterGroupSwf": "mset-hydradead.swf"
+                }
+            },
+            "related": []
+        },
+        "405-spear-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "405-spear-upgrades",
+                "fullSlug": "merge-shops\/405-spear-upgrades",
+                "id": 405,
+                "name": "Spear Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 405,
+                    "name": "Spear Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4197,
+                    "mergeShopId": 405,
+                    "mergeId": 4236
+                },
+                "merge": {
+                    "id": 4236,
+                    "itemId1": 21704,
+                    "amount1": 1,
+                    "itemId2": 20388,
+                    "amount2": 1,
+                    "itemId": 20389,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8100-pallor-s-frozen-staff-iii",
+        "fullSlug": "items\/8100-pallor-s-frozen-staff-iii",
+        "id": 8100,
+        "name": "Pallor's Frozen Staff III",
+        "description": "Left behind when that wicked witch melted! Happy FrostVayle!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8100,
+            "name": "Pallor's Frozen Staff III",
+            "description": "Left behind when that wicked witch melted! Happy FrostVayle!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-pallor.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 6,
+            "damageMin": 62,
+            "damageMax": 88,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Fire,5,Darkness,4"
+        }
+    },
+    "related": {
+        "988-wicked-queen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "988-wicked-queen",
+                "fullSlug": "quests\/988-wicked-queen",
+                "id": 988,
+                "name": "Wicked Queen",
+                "description": "Defeat Queen Pallor and put an end to her horrible experiments!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 988,
+                    "name": "Wicked Queen",
+                    "description": "Defeat Queen Pallor and put an end to her horrible experiments!",
+                    "complete": "You've defeated the wicked queen!",
+                    "swf": "towns\/Frostvale\/F12\/quest6-boss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wings and dead",
+                    "monsterGroupSwf": "mset-f12-wingwar-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

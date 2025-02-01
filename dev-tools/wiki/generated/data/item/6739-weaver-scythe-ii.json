@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6739-weaver-scythe-ii",
+        "fullSlug": "items\/6739-weaver-scythe-ii",
+        "id": 6739,
+        "name": "Weaver Scythe II",
+        "description": "A weapon crafted by a special sect of Soulweavers."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6739,
+            "name": "Weaver Scythe II",
+            "description": "A weapon crafted by a special sect of Soulweavers.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 12000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 50,
+            "level": 41,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-weaver-r1.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 50,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,3"
+        }
+    },
+    "related": {
+        "256-weaver-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "256-weaver-items",
+                "fullSlug": "item-shops\/256-weaver-items",
+                "id": 256,
+                "name": "Weaver Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 256,
+                    "name": "Weaver Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16725-stake-beans",
+        "fullSlug": "items\/16725-stake-beans",
+        "id": 16725,
+        "name": "Stake & Beans",
+        "description": "A stake speared through a can of beans. A magically enchanted can of beans. Not the most heroic looking of weapons, but it'll do."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16725,
+            "name": "Stake & Beans",
+            "description": "A stake speared through a can of beans. A magically enchanted can of beans. Not the most heroic looking of weapons, but it'll do.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-beans.swf",
+            "icon": "mace",
+            "strength": 14,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 81,
+            "damageMax": 89,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Bacon,10,Fire,-5"
+        }
+    },
+    "related": {
+        "531-whistling-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "531-whistling-loot-for-dcs",
+                "fullSlug": "item-shops\/531-whistling-loot-for-dcs",
+                "id": 531,
+                "name": "Whistling Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 531,
+                    "name": "Whistling Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

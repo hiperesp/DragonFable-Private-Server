@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13664-wondrous-dragonstaff-of-destiny",
+        "fullSlug": "items\/13664-wondrous-dragonstaff-of-destiny",
+        "id": 13664,
+        "name": "Wondrous DragonStaff of Destiny",
+        "description": "When you stand against the darkness holding this staff you never feel alone. This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13664,
+            "name": "Wondrous DragonStaff of Destiny",
+            "description": "When you stand against the darkness holding this staff you never feel alone. This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 5,
+            "level": 50,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-destiny2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 10,
+            "charisma": 4,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 66,
+            "damageMax": 96,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,4,Health,-8"
+        }
+    },
+    "related": {
+        "237-righteous-destiny": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "237-righteous-destiny",
+                "fullSlug": "merge-shops\/237-righteous-destiny",
+                "id": 237,
+                "name": "Righteous Destiny",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 237,
+                    "name": "Righteous Destiny"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2629,
+                    "mergeShopId": 237,
+                    "mergeId": 2620
+                },
+                "merge": {
+                    "id": 2620,
+                    "itemId1": 13669,
+                    "amount1": 20,
+                    "itemId2": 13661,
+                    "amount2": 1,
+                    "itemId": 13664,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "277-destiny-reforging": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "277-destiny-reforging",
+                "fullSlug": "merge-shops\/277-destiny-reforging",
+                "id": 277,
+                "name": "Destiny Reforging",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 277,
+                    "name": "Destiny Reforging"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3082,
+                    "mergeShopId": 277,
+                    "mergeId": 3083
+                },
+                "merge": {
+                    "id": 3083,
+                    "itemId1": 17399,
+                    "amount1": 1,
+                    "itemId2": 13664,
+                    "amount2": 1,
+                    "itemId": 17527,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10219-sun-god-scythe",
+        "fullSlug": "items\/10219-sun-god-scythe",
+        "id": 10219,
+        "name": "Sun God Scythe",
+        "description": "The power of the sun flows through this weapon to do extra damage to elementals! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10219,
+            "name": "Sun God Scythe",
+            "description": "The power of the sun flows through this weapon to do extra damage to elementals! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 30,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-sungod-bmap.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 46,
+            "damageMax": 62,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,All,1"
+        }
+    },
+    "related": {
+        "145-sun-god": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "145-sun-god",
+                "fullSlug": "merge-shops\/145-sun-god",
+                "id": 145,
+                "name": "Sun God",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 145,
+                    "name": "Sun God"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2093,
+                    "mergeShopId": 145,
+                    "mergeId": 1935
+                },
+                "merge": {
+                    "id": 1935,
+                    "itemId1": 10219,
+                    "amount1": 1,
+                    "itemId2": 10234,
+                    "amount2": 1,
+                    "itemId": 10220,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

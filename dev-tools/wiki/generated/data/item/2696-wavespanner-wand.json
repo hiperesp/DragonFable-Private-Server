@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2696-wavespanner-wand",
+        "fullSlug": "items\/2696-wavespanner-wand",
+        "id": 2696,
+        "name": "Wavespanner Wand",
+        "description": " All the power of the ocean contained in one small wand!  Use it wisely."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2696,
+            "name": "Wavespanner Wand",
+            "description": " All the power of the ocean contained in one small wand!  Use it wisely.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 19,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-colorless3.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 32,
+            "damageMax": 44,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "468-dye-another-day": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "468-dye-another-day",
+                "fullSlug": "quests\/468-dye-another-day",
+                "id": 468,
+                "name": "Dye Another Day",
+                "description": "Sneegol and Robina seem to think you'll be able to find some dye in the Sneevil dumpsite."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 468,
+                    "name": "Dye Another Day",
+                    "description": "Sneegol and Robina seem to think you'll be able to find some dye in the Sneevil dumpsite.",
+                    "complete": "Maybe you won't need to dye another day, you'll be able to dye today!",
+                    "swf": "quests\/quest-colorless3-r6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "garbage",
+                    "monsterGroupSwf": "mset-colorless3-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

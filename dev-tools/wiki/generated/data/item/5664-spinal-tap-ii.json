@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5664-spinal-tap-ii",
+        "fullSlug": "items\/5664-spinal-tap-ii",
+        "id": 5664,
+        "name": "Spinal Tap II",
+        "description": "This ricassoed greatsword was fused with a demonic skeleton and magically reinforced.  It's a blade worthy of any Lich King."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5664,
+            "name": "Spinal Tap II",
+            "description": "This ricassoed greatsword was fused with a demonic skeleton and magically reinforced.  It's a blade worthy of any Lich King.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-spinaltap.swf",
+            "icon": "sword",
+            "strength": 6,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 59,
+            "damageMax": 73,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Light,6,Fire,6,Darkness,6,Immobility,1,Health,-1"
+        }
+    },
+    "related": {
+        "795-the-ultimate-orb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "795-the-ultimate-orb",
+                "fullSlug": "quests\/795-the-ultimate-orb",
+                "id": 795,
+                "name": "The Ultimate Orb",
+                "description": "Can you make it to the top of the darkest tower in time to stop Sepulchure?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 795,
+                    "name": "The Ultimate Orb",
+                    "description": "Can you make it to the top of the darkest tower in time to stop Sepulchure?",
+                    "complete": "Sepulchure has been betrayed!",
+                    "swf": "towns\/Chap1Finale\/quest-finale8-Seppy-Fortress-tower-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "spies",
+                    "monsterGroupSwf": "mset-spys.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

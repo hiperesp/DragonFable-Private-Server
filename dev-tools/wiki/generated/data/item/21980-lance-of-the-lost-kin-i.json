@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21980-lance-of-the-lost-kin-i",
+        "fullSlug": "items\/21980-lance-of-the-lost-kin-i",
+        "id": 21980,
+        "name": "Lance of the Lost Kin I",
+        "description": "This mighty weapon was forged through cooperation between Void dragons. Click to change appearance and swap its Bonus and Crit. Proof of victory over the Void Reunion challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21980,
+            "name": "Lance of the Lost Kin I",
+            "description": "This mighty weapon was forged through cooperation between Void dragons. Click to change appearance and swap its Bonus and Crit. Proof of victory over the Void Reunion challenge.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 16,
+            "rarity": 0,
+            "level": 70,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-voidlance.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 8,
+            "damageMin": 76,
+            "damageMax": 96,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,8,Health,-8"
+        }
+    },
+    "related": {
+        "420-void-reunion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "420-void-reunion",
+                "fullSlug": "merge-shops\/420-void-reunion",
+                "id": 420,
+                "name": "Void Reunion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 420,
+                    "name": "Void Reunion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4336,
+                    "mergeShopId": 420,
+                    "mergeId": 4379
+                },
+                "merge": {
+                    "id": 4379,
+                    "itemId1": 21985,
+                    "amount1": 1,
+                    "itemId2": 21986,
+                    "amount2": 1,
+                    "itemId": 21980,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

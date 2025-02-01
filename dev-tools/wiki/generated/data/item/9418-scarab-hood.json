@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9418-scarab-hood",
+        "fullSlug": "items\/9418-scarab-hood",
+        "id": 9418,
+        "name": "Scarab Hood",
+        "description": "The hood on this intricate helm helps protect you from the elements! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9418,
+            "name": "Scarab Hood",
+            "description": "The hood on this intricate helm helps protect you from the elements! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 25000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-scarabhood.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,6,Light,6,Stone,3,Ice,3,Water,3"
+        }
+    },
+    "related": {
+        "323-masub-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "323-masub-helms",
+                "fullSlug": "item-shops\/323-masub-helms",
+                "id": 323,
+                "name": "Masub Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 323,
+                    "name": "Masub Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

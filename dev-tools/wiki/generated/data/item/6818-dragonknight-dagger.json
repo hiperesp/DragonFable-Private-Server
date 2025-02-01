@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6818-dragonknight-dagger",
+        "fullSlug": "items\/6818-dragonknight-dagger",
+        "id": 6818,
+        "name": "DragonKnight Dagger",
+        "description": "Brought by a traveling merchant from an exotic land, these weapons increase your damage against dragons!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6818,
+            "name": "DragonKnight Dagger",
+            "description": "Brought by a traveling merchant from an exotic land, these weapons increase your damage against dragons!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-dragonknight-r2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,3"
+        }
+    },
+    "related": {
+        "260-dragonknight-relics": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "260-dragonknight-relics",
+                "fullSlug": "item-shops\/260-dragonknight-relics",
+                "id": 260,
+                "name": "DragonKnight Relics",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 260,
+                    "name": "DragonKnight Relics",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

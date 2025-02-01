@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21221-powdered-red-dragon-scale",
+        "fullSlug": "items\/21221-powdered-red-dragon-scale",
+        "id": 21221,
+        "name": "Powdered Red Dragon Scale",
+        "description": "Powdered red dragon scales! Can probably be used to repair or reinforce a weapon. Proof of victory over the Red Dragon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21221,
+            "name": "Powdered Red Dragon Scale",
+            "description": "Powdered red dragon scales! Can probably be used to repair or reinforce a weapon. Proof of victory over the Red Dragon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2004-the-red-dragon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2004-the-red-dragon",
+                "fullSlug": "quests\/2004-the-red-dragon",
+                "id": 2004,
+                "name": "The Red Dragon",
+                "description": "Remember this guy?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2004,
+                    "name": "The Red Dragon",
+                    "description": "Remember this guy?",
+                    "complete": "Too arrogant, really.",
+                    "swf": "towns\/TimeArena\/quest-reddragon.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Red Dragon and Rolith",
+                    "monsterGroupSwf": "mset-arenaredrolith-r1.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "378-rolith-s-backup-hammer": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "378-rolith-s-backup-hammer",
+                "fullSlug": "merge-shops\/378-rolith-s-backup-hammer",
+                "id": 378,
+                "name": "Rolith's Backup Hammer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 378,
+                    "name": "Rolith's Backup Hammer"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3953,
+                    "mergeShopId": 378,
+                    "mergeId": 4058
+                },
+                "merge": {
+                    "id": 4058,
+                    "itemId1": 21221,
+                    "amount1": 1,
+                    "itemId2": 21220,
+                    "amount2": 1,
+                    "itemId": 21222,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

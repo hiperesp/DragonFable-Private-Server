@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "69-the-pumpkin-patch",
+        "fullSlug": "quests\/69-the-pumpkin-patch",
+        "id": 69,
+        "name": "The Pumpkin Patch",
+        "description": "Someone has been using this pumkpin patch to build an army of pumpkin golems. Head to the barn and put a stop to this!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 69,
+            "name": "The Pumpkin Patch",
+            "description": "Someone has been using this pumkpin patch to build an army of pumpkin golems. Head to the barn and put a stop to this!",
+            "complete": "You have defeated the Gourdking and found that the necromancer has been using Moonglow to animate their pumpkin army.",
+            "swf": "quests\/quest-pumpkinpatch-r1.swf",
+            "swfX": "none",
+            "maxSilver": 15,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 15,
+            "monsterMaxLevel": 29,
+            "monsterType": "Nature, Darkness",
+            "monsterGroupSwf": "mset-halloween2-r1.swf"
+        }
+    },
+    "related": {
+        "528-moonglow": {
+            "page": {
+                "slugBase": "items",
+                "slug": "528-moonglow",
+                "fullSlug": "items\/528-moonglow",
+                "id": 528,
+                "name": "Moonglow",
+                "description": "This rare powdered mineral has many uses in magic and glows faintly in low light. It gathers only on plants grown in full moonlight."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 528,
+                    "name": "Moonglow",
+                    "description": "This rare powdered mineral has many uses in magic and glows faintly in low light. It gathers only on plants grown in full moonlight.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 20,
+                    "maxStackSize": 20,
+                    "bonus": 0,
+                    "rarity": 1,
+                    "level": 1,
+                    "type": "Melee",
+                    "element": "Light",
+                    "categoryId": "4",
+                    "equipSpot": "Not Equipable",
+                    "itemType": "Resource",
+                    "swf": "",
+                    "icon": "redbag",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": ""
+                }
+            },
+            "related": []
+        }
+    }
+}

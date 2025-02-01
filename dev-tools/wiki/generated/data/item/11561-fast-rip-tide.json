@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11561-fast-rip-tide",
+        "fullSlug": "items\/11561-fast-rip-tide",
+        "id": 11561,
+        "name": "Fast Rip Tide",
+        "description": "Forged in the shadow of the Ocean Gate! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11561,
+            "name": "Fast Rip Tide",
+            "description": "Forged in the shadow of the Ocean Gate! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 49000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 79,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-riptide.swf",
+            "icon": "sword",
+            "strength": 13,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 74,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Stone,11,Energy,11,Poison,9,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "398-rip-tide-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "398-rip-tide-shop",
+                "fullSlug": "item-shops\/398-rip-tide-shop",
+                "id": 398,
+                "name": "Rip Tide Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 398,
+                    "name": "Rip Tide Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

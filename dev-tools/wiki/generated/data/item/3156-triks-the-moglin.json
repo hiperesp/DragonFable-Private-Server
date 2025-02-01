@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3156-triks-the-moglin",
+        "fullSlug": "items\/3156-triks-the-moglin",
+        "id": 3156,
+        "name": "Triks the Moglin",
+        "description": "This pet requires a Dragon Amulet. Triks loves to go trick-or-treating every day, and he has a mask for every occasion!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3156,
+            "name": "Triks the Moglin",
+            "description": "This pet requires a Dragon Amulet. Triks loves to go trick-or-treating every day, and he has a mask for every occasion!",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 99,
+            "level": 45,
+            "element": "Light",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Triks.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 16,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "60-dc-mogloween-pet": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "60-dc-mogloween-pet",
+                "fullSlug": "merge-shops\/60-dc-mogloween-pet",
+                "id": 60,
+                "name": "DC Mogloween Pet",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 60,
+                    "name": "DC Mogloween Pet"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 855,
+                    "mergeShopId": 60,
+                    "mergeId": 564
+                },
+                "merge": {
+                    "id": 564,
+                    "itemId1": 3044,
+                    "amount1": 1,
+                    "itemId2": 864,
+                    "amount2": 6,
+                    "itemId": 3156,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

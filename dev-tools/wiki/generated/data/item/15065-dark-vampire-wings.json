@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15065-dark-vampire-wings",
+        "fullSlug": "items\/15065-dark-vampire-wings",
+        "id": 15065,
+        "name": "Dark Vampire Wings",
+        "description": "Embrace the night! These vampire wings will really bring out your dark side after Black Friday, '15!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15065,
+            "name": "Dark Vampire Wings",
+            "description": "Embrace the night! These vampire wings will really bring out your dark side after Black Friday, '15!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 60,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-vampire-dark.swf",
+            "icon": "wings",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 1,
+            "charisma": 7,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Darkness,8,Ice,6,Fire,4,Immobility,1,Health,-2"
+        }
+    },
+    "related": {
+        "477-black-friday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "477-black-friday",
+                "fullSlug": "item-shops\/477-black-friday",
+                "id": 477,
+                "name": "Black Friday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 477,
+                    "name": "Black Friday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

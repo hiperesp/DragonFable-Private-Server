@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20251-vilmor-s-helm-ii",
+        "fullSlug": "items\/20251-vilmor-s-helm-ii",
+        "id": 20251,
+        "name": "Vilmor's Helm II",
+        "description": "Vilmor's helm, worn into many a battle. Proof of victory over Vilmor and Cryozen."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20251,
+            "name": "Vilmor's Helm II",
+            "description": "Vilmor's helm, worn into many a battle. Proof of victory over Vilmor and Cryozen.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 60,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-vilmorarena.swf",
+            "icon": "helm",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,5,Health,-10"
+        }
+    },
+    "related": {
+        "344-ice-and-dragons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "344-ice-and-dragons",
+                "fullSlug": "merge-shops\/344-ice-and-dragons",
+                "id": 344,
+                "name": "Ice and Dragons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 344,
+                    "name": "Ice and Dragons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3596,
+                    "mergeShopId": 344,
+                    "mergeId": 3687
+                },
+                "merge": {
+                    "id": 3687,
+                    "itemId1": 20250,
+                    "amount1": 1,
+                    "itemId2": 20256,
+                    "amount2": 1,
+                    "itemId": 20251,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

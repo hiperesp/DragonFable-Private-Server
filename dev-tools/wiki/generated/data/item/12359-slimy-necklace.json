@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12359-slimy-necklace",
+        "fullSlug": "items\/12359-slimy-necklace",
+        "id": 12359,
+        "name": "Slimy Necklace",
+        "description": "You found this slimy necklace inside the shell of the Snail. It seems to have absorbed the defense of the snail."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12359,
+            "name": "Slimy Necklace",
+            "description": "You found this slimy necklace inside the shell of the Snail. It seems to have absorbed the defense of the snail.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 75,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 15,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 2,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Health,-20,Immobility,25"
+        }
+    },
+    "related": {
+        "1173-culinextraordinary": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1173-culinextraordinary",
+                "fullSlug": "quests\/1173-culinextraordinary",
+                "id": 1173,
+                "name": "CulinExtraordinary",
+                "description": "Collect the ingredients so Leanie can make this ?delicious? course!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1173,
+                    "name": "CulinExtraordinary",
+                    "description": "Collect the ingredients so Leanie can make this ?delicious? course!",
+                    "complete": "Enormescargot a la flambe with seedspitter salad and Frogzard legs in slimesauce? yum?",
+                    "swf": "random\/random-culinextraordinary-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "monster ingrendients",
+                    "monsterGroupSwf": "mset-culinextraordinary.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

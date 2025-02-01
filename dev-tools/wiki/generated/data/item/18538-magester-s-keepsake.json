@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18538-magester-s-keepsake",
+        "fullSlug": "items\/18538-magester-s-keepsake",
+        "id": 18538,
+        "name": "Magester's Keepsake",
+        "description": "A small ornament carved to resemble the Shapeless. Seems to spin on its own if held in your hand. Proof of victory over the Beginning and the End challenge. Used for merging."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18538,
+            "name": "Magester's Keepsake",
+            "description": "A small ornament carved to resemble the Shapeless. Seems to spin on its own if held in your hand. Proof of victory over the Beginning and the End challenge. Used for merging.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1593-the-beginning-and-the-end": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1593-the-beginning-and-the-end",
+                "fullSlug": "quests\/1593-the-beginning-and-the-end",
+                "id": 1593,
+                "name": "The Beginning and the End",
+                "description": "The start of the Magesterium, and its demise, both against you at once."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1593,
+                    "name": "The Beginning and the End",
+                    "description": "The start of the Magesterium, and its demise, both against you at once.",
+                    "complete": "And that was the end.",
+                    "swf": "towns\/TimeArena\/quest-duo.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Magester and Roirr challenge",
+                    "monsterGroupSwf": "mset-arenamagesterroirr.swf?ver=6"
+                }
+            },
+            "related": []
+        },
+        "299-azaveyran-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "299-azaveyran-rewards",
+                "fullSlug": "merge-shops\/299-azaveyran-rewards",
+                "id": 299,
+                "name": "Azaveyran Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 299,
+                    "name": "Azaveyran Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3248,
+                    "mergeShopId": 299,
+                    "mergeId": 3338
+                },
+                "merge": {
+                    "id": 3338,
+                    "itemId1": 18534,
+                    "amount1": 1,
+                    "itemId2": 18538,
+                    "amount2": 1,
+                    "itemId": 18536,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

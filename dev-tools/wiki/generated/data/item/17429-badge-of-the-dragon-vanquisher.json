@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17429-badge-of-the-dragon-vanquisher",
+        "fullSlug": "items\/17429-badge-of-the-dragon-vanquisher",
+        "id": 17429,
+        "name": "Badge of the Dragon Vanquisher",
+        "description": "Proof of your victory over the Triple Trouble Dragon Challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17429,
+            "name": "Badge of the Dragon Vanquisher",
+            "description": "Proof of your victory over the Triple Trouble Dragon Challenge!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 6000,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "shield",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1443-triple-trouble": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1443-triple-trouble",
+                "fullSlug": "quests\/1443-triple-trouble",
+                "id": 1443,
+                "name": "Triple Trouble",
+                "description": "Welp."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1443,
+                    "name": "Triple Trouble",
+                    "description": "Welp.",
+                    "complete": "Nice.",
+                    "swf": "towns\/TimeArena\/quest-tripletrouble.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Dragon Challenge 1",
+                    "monsterGroupSwf": "mset-dragonchallenge.swf"
+                }
+            },
+            "related": []
+        },
+        "276-destiny-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "276-destiny-upgrades",
+                "fullSlug": "merge-shops\/276-destiny-upgrades",
+                "id": 276,
+                "name": "Destiny Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 276,
+                    "name": "Destiny Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3071,
+                    "mergeShopId": 276,
+                    "mergeId": 3073
+                },
+                "merge": {
+                    "id": 3073,
+                    "itemId1": 17533,
+                    "amount1": 1,
+                    "itemId2": 17429,
+                    "amount2": 1,
+                    "itemId": 17515,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

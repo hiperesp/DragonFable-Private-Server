@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "737-shellack",
+        "fullSlug": "items\/737-shellack",
+        "id": 737,
+        "name": "Shellack",
+        "description": "This pet requires a Dragon Amulet. This hard-shelled pet is amazingly loyal and is found only in the forest of Oaklore, making it the perfect pet for the Knights of the Pactogonal Table."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 737,
+            "name": "Shellack",
+            "description": "This pet requires a Dragon Amulet. This hard-shelled pet is amazingly loyal and is found only in the forest of Oaklore, making it the perfect pet for the Knights of the Pactogonal Table.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-crabbyturtle.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 5,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "20-book-return": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "20-book-return",
+                "fullSlug": "merge-shops\/20-book-return",
+                "id": 20,
+                "name": "Book Return",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 20,
+                    "name": "Book Return"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 319,
+                    "mergeShopId": 20,
+                    "mergeId": 161
+                },
+                "merge": {
+                    "id": 161,
+                    "itemId1": 733,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 737,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

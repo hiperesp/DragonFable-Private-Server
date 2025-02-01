@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5691-found-ripper-wings",
+        "fullSlug": "items\/5691-found-ripper-wings",
+        "id": 5691,
+        "name": "Found Ripper Wings",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5691,
+            "name": "Found Ripper Wings"
+        }
+    },
+    "related": {
+        "91-ripper-wings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "91-ripper-wings",
+                "fullSlug": "merge-shops\/91-ripper-wings",
+                "id": 91,
+                "name": "Ripper Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 91,
+                    "name": "Ripper Wings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1264,
+                    "mergeShopId": 91,
+                    "mergeId": 1066
+                },
+                "merge": {
+                    "id": 1066,
+                    "itemId1": 5691,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 5736,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

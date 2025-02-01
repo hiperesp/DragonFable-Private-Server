@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17338-valkybrie-helm-v",
+        "fullSlug": "items\/17338-valkybrie-helm-v",
+        "id": 17338,
+        "name": "Valkybrie Helm V",
+        "description": "A helmet said to once be owned by angels who would choose cheese lovers to take to Fetahalla, where the fondue freely flows and the Swiss never runs out."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17338,
+            "name": "Valkybrie Helm V",
+            "description": "A helmet said to once be owned by angels who would choose cheese lovers to take to Fetahalla, where the fondue freely flows and the Swiss never runs out.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 120,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 55,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-valkybrie.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 8,
+            "charisma": 4,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Ice,5,Fire,5,Water,1"
+        }
+    },
+    "related": {
+        "1440-feta-finale": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1440-feta-finale",
+                "fullSlug": "quests\/1440-feta-finale",
+                "id": 1440,
+                "name": "Feta Finale",
+                "description": "It's time for San Robin to put the bandits to justice."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1440,
+                    "name": "Feta Finale",
+                    "description": "It's time for San Robin to put the bandits to justice.",
+                    "complete": "That? was unexpected.",
+                    "swf": "towns\/1Falconreach\/1SanRobin\/quest-fetafinale.swf",
+                    "swfX": "towns\/1Falconreach\/1SanRobin\/quest-fetafinale-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 4321,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "guard beasts",
+                    "monsterGroupSwf": "mset-fetafinale.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

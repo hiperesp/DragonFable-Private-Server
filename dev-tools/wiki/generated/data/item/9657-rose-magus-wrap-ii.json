@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9657-rose-magus-wrap-ii",
+        "fullSlug": "items\/9657-rose-magus-wrap-ii",
+        "id": 9657,
+        "name": "Rose Magus Wrap II",
+        "description": "This cape was pulled from a crate in Magus Z's office. Strands of enchanted silver thread run through this cape, enhancing its wearer. Just ignore the musty smell."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9657,
+            "name": "Rose Magus Wrap II",
+            "description": "This cape was pulled from a crate in Magus Z's office. Strands of enchanted silver thread run through this cape, enhancing its wearer. Just ignore the musty smell.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 1,
+            "level": 50,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-rosezadd.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Metal,7,Darkness,5"
+        }
+    },
+    "related": {
+        "1045-chains-of-command": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1045-chains-of-command",
+                "fullSlug": "quests\/1045-chains-of-command",
+                "id": 1045,
+                "name": "Chains of Command",
+                "description": "It's time to find Kara and rescue the Clawkin!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1045,
+                    "name": "Chains of Command",
+                    "description": "It's time to find Kara and rescue the Clawkin!",
+                    "complete": "The Clawkin have been rescued, but it seems the conflict will only escalate from here...",
+                    "swf": "towns\/SulenEska\/quest6-zadd2020-r1.swf",
+                    "swfX": "towns\/SulenEska\/quest6-zadd2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 500,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zadd,golems,rose",
+                    "monsterGroupSwf": "mset-zaddgolem4.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

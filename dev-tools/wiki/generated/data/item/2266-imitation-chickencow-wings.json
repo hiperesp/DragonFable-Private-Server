@@ -1,0 +1,108 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2266-imitation-chickencow-wings",
+        "fullSlug": "items\/2266-imitation-chickencow-wings",
+        "id": 2266,
+        "name": "Imitation Chickencow Wings",
+        "description": "No chickencows were harmed in the making of these novelty wings.  They're almost as good as the real thing!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2266,
+            "name": "Imitation Chickencow Wings",
+            "description": "No chickencows were harmed in the making of these novelty wings.  They're almost as good as the real thing!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 10,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/birdwings-chickencow.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Nature,4"
+        }
+    },
+    "related": {
+        "90-hydra-souvenirs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "90-hydra-souvenirs",
+                "fullSlug": "item-shops\/90-hydra-souvenirs",
+                "id": 90,
+                "name": "Hydra Souvenirs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 90,
+                    "name": "Hydra Souvenirs",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "420-the-secret-revealed": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "420-the-secret-revealed",
+                "fullSlug": "quests\/420-the-secret-revealed",
+                "id": 420,
+                "name": "The Secret Revealed",
+                "description": "Its finally time to learn the secret of element Bacon! Can you handle the truth?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 420,
+                    "name": "The Secret Revealed",
+                    "description": "Its finally time to learn the secret of element Bacon! Can you handle the truth?",
+                    "complete": "The first rule of element bacon: You do NOT talk about element bacon. (Except to Valencia.)",
+                    "swf": "quests\/Zeuster\/quest-bacon14.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 0,
+                    "maxGems": 0,
+                    "maxExp": 0,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        }
+    }
+}

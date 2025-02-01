@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11342-mulled-cider-keg",
+        "fullSlug": "items\/11342-mulled-cider-keg",
+        "id": 11342,
+        "name": "Mulled Cider Keg",
+        "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11342,
+            "name": "Mulled Cider Keg",
+            "description": "From Vaal's personal stash, this'll protect you while you still get a nice cider-y scent! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 140,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-voidciderkeg.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Fire,8,Water,6,Darkness,4"
+        }
+    },
+    "related": {
+        "393-void-cider-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "393-void-cider-shop",
+                "fullSlug": "item-shops\/393-void-cider-shop",
+                "id": 393,
+                "name": "Void Cider Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 393,
+                    "name": "Void Cider Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

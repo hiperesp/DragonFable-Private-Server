@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15769-hero-pieces",
+        "fullSlug": "items\/15769-hero-pieces",
+        "id": 15769,
+        "name": "Hero Pieces",
+        "description": "Gross... You probably don't want a lot of these."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15769,
+            "name": "Hero Pieces",
+            "description": "Gross... You probably don't want a lot of these.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1000,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 8,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1360-hero-waves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1360-hero-waves",
+                "fullSlug": "quests\/1360-hero-waves",
+                "id": 1360,
+                "name": "Hero Waves",
+                "description": "Fight back against the Heroes! (Note: This does not count as a war wave.)"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1360,
+                    "name": "Hero Waves",
+                    "description": "Fight back against the Heroes! (Note: This does not count as a war wave.)",
+                    "complete": "Fight back against the Heroes! (Note: This does not count as a war wave.)",
+                    "swf": "wars\/F13-Weal\/quest-caitiff.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "humans",
+                    "monsterGroupSwf": "mset-humanelement.swf"
+                }
+            },
+            "related": []
+        },
+        "251-hero-pieces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "251-hero-pieces",
+                "fullSlug": "merge-shops\/251-hero-pieces",
+                "id": 251,
+                "name": "Hero Pieces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 251,
+                    "name": "Hero Pieces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2840,
+                    "mergeShopId": 251,
+                    "mergeId": 2859
+                },
+                "merge": {
+                    "id": 2859,
+                    "itemId1": 15769,
+                    "amount1": 30,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15811,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2420-chocobunny-storm",
+        "fullSlug": "items\/2420-chocobunny-storm",
+        "id": 2420,
+        "name": "Chocobunny Storm",
+        "description": "This item requires a Dragon Amulet. Using the power of this trinket, you can summon a small army of chocolate bunnies to attack your foe for 125% of you weapon's base damage!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2420,
+            "name": "Chocobunny Storm",
+            "description": "This item requires a Dragon Amulet. Using the power of this trinket, you can summon a small army of chocolate bunnies to attack your foe for 125% of you weapon's base damage!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 75,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 77,
+            "level": 5,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-bunnyr2.swf",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 7,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "65-holiday-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "65-holiday-shop",
+                "fullSlug": "item-shops\/65-holiday-shop",
+                "id": 65,
+                "name": "Holiday Shop!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 65,
+                    "name": "Holiday Shop!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

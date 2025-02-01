@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15605-spectral-night-vision",
+        "fullSlug": "items\/15605-spectral-night-vision",
+        "id": 15605,
+        "name": "Spectral Night Vision",
+        "description": "A staff that was once used by a school of magicians who drew their power from the night. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15605,
+            "name": "Spectral Night Vision",
+            "description": "A staff that was once used by a school of magicians who drew their power from the night. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 20,
+            "level": 10,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-shadowstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 21,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Health,-1"
+        }
+    },
+    "related": {
+        "493-shattered-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "493-shattered-dc",
+                "fullSlug": "item-shops\/493-shattered-dc",
+                "id": 493,
+                "name": "Shattered DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 493,
+                    "name": "Shattered DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

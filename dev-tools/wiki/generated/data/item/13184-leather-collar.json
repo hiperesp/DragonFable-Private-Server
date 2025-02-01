@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13184-leather-collar",
+        "fullSlug": "items\/13184-leather-collar",
+        "id": 13184,
+        "name": "Leather Collar",
+        "description": "A strip of rugged leather makes up this rough collar.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13184,
+            "name": "Leather Collar",
+            "description": "A strip of rugged leather makes up this rough collar.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 52,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,8,Darkness,10,Metal,5,Fire,7"
+        }
+    },
+    "related": {
+        "1214-bitten": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1214-bitten",
+                "fullSlug": "quests\/1214-bitten",
+                "id": 1214,
+                "name": "Bitten",
+                "description": "Raven has taken off towards the werewolf camps to the south in search of Thursday!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1214,
+                    "name": "Bitten",
+                    "description": "Raven has taken off towards the werewolf camps to the south in search of Thursday!",
+                    "complete": "You have to find Thursday before the next full moon!",
+                    "swf": "towns\/3Amityvale\/quest6-bitten.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Vampires, werewolves, and bats, oh my",
+                    "monsterGroupSwf": "mset-bloodpatrol.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

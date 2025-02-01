@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7045-frozen-tear",
+        "fullSlug": "items\/7045-frozen-tear",
+        "id": 7045,
+        "name": "Frozen Tear",
+        "description": "A drop of liquid, magically frozen, it has been carved to fit your hand... "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7045,
+            "name": "Frozen Tear",
+            "description": "A drop of liquid, magically frozen, it has been carved to fit your hand... ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 46,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,6,Ice,6,Silver,2"
+        }
+    },
+    "related": {
+        "915-mop-clearance": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "915-mop-clearance",
+                "fullSlug": "quests\/915-mop-clearance",
+                "id": 915,
+                "name": "MOP Clearance",
+                "description": "Help the MOP team clear out the roving pack of zards from the woods around Amityvale."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 915,
+                    "name": "MOP Clearance",
+                    "description": "Help the MOP team clear out the roving pack of zards from the woods around Amityvale.",
+                    "complete": "Help the MOP team clear out the roving pack of zards from the woods around Amityvale.",
+                    "swf": "random\/random-amityvale-mop.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Zards!",
+                    "monsterGroupSwf": "mset-zardsr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

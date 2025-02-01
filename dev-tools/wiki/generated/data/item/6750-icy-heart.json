@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6750-icy-heart",
+        "fullSlug": "items\/6750-icy-heart",
+        "id": 6750,
+        "name": "Icy Heart",
+        "description": "Revenge is best served cold... the perfect ring for an up and coming cryomancer.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6750,
+            "name": "Icy Heart",
+            "description": "Revenge is best served cold... the perfect ring for an up and coming cryomancer.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 5,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Ice,4"
+        }
+    },
+    "related": {
+        "888-revenge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "888-revenge",
+                "fullSlug": "quests\/888-revenge",
+                "id": 888,
+                "name": "Revenge",
+                "description": "Alex is tired of Warlic pushing him around and isn't going to take it anymore!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 888,
+                    "name": "Revenge",
+                    "description": "Alex is tired of Warlic pushing him around and isn't going to take it anymore!",
+                    "complete": "Revenge is sweet.... until it escalates!",
+                    "swf": "towns\/SwordhavenAlex\/quest-alex5-revenge.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wisps, knights",
+                    "monsterGroupSwf": "mset-mageguards-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

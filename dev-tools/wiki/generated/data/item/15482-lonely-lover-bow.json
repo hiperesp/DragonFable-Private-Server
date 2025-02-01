@@ -1,0 +1,160 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15482-lonely-lover-bow",
+        "fullSlug": "items\/15482-lonely-lover-bow",
+        "id": 15482,
+        "name": "Lonely Lover Bow",
+        "description": "They say this bow can shoot arrows of pure love that can make whoever is hit fall in love with the next thing they see. Unfortunately, no known arrows fit the bow, because love doesn't acutally work like that. But you can still use it to hit people!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15482,
+            "name": "Lonely Lover Bow",
+            "description": "They say this bow can shoot arrows of pure love that can make whoever is hit fall in love with the next thing they see. Unfortunately, no known arrows fit the bow, because love doesn't acutally work like that. But you can still use it to hit people!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/Scythe-LonelyLoverBow.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 47,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "cost": 1500,
+            "type": "Melee"
+        }
+    },
+    "related": {
+        "1340-trouble-in-paradise": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1340-trouble-in-paradise",
+                "fullSlug": "quests\/1340-trouble-in-paradise",
+                "id": 1340,
+                "name": "Trouble in Paradise",
+                "description": "Big Daddy needs your help! Why are there monsters in the Snuggle Forest?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1340,
+                    "name": "Trouble in Paradise",
+                    "description": "Big Daddy needs your help! Why are there monsters in the Snuggle Forest?",
+                    "complete": "Trouble?s brewing at the Snuggle Forest!",
+                    "swf": "towns\/HeroHeart\/HHD16\/quest1-trouble.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "odd",
+                    "monsterGroupSwf": "mset-herosheart.swf"
+                }
+            },
+            "related": []
+        },
+        "1342-the-culprit": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1342-the-culprit",
+                "fullSlug": "quests\/1342-the-culprit",
+                "id": 1342,
+                "name": "The Culprit",
+                "description": "Big Daddy found the devious devil behind the spam! It's time to take them down!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1342,
+                    "name": "The Culprit",
+                    "description": "Big Daddy found the devious devil behind the spam! It's time to take them down!",
+                    "complete": "That'll teach him to mess with the mail!",
+                    "swf": "towns\/HeroHeart\/HHD16\/quest2-culprit.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "all the love bears",
+                    "monsterGroupSwf": "mset-HHD16.swf"
+                }
+            },
+            "related": []
+        },
+        "245-hero-s-heart-day-2016": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "245-hero-s-heart-day-2016",
+                "fullSlug": "merge-shops\/245-hero-s-heart-day-2016",
+                "id": 245,
+                "name": "Hero's Heart Day 2016",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 245,
+                    "name": "Hero's Heart Day 2016"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2774,
+                    "mergeShopId": 245,
+                    "mergeId": 2758
+                },
+                "merge": {
+                    "id": 2758,
+                    "itemId1": 15480,
+                    "amount1": 5,
+                    "itemId2": 15482,
+                    "amount2": 1,
+                    "itemId": 15483,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

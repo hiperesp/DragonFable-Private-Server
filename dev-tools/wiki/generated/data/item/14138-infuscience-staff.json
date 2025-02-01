@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14138-infuscience-staff",
+        "fullSlug": "items\/14138-infuscience-staff",
+        "id": 14138,
+        "name": "Infuscience Staff",
+        "description": "This beautiful staff harnesses the power of Ice through SCIENCE! The warning label says not to lick it. Pft. What could really happen?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14138,
+            "name": "Infuscience Staff",
+            "description": "This beautiful staff harnesses the power of Ice through SCIENCE! The warning label says not to lick it. Pft. What could really happen?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/Staff-Infuscience.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 9,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 72,
+            "damageMax": 90,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 9,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Fire,5,Energy,5,Health,-2"
+        }
+    },
+    "related": {
+        "1278-gremoglims": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1278-gremoglims",
+                "fullSlug": "quests\/1278-gremoglims",
+                "id": 1278,
+                "name": "Gremoglims",
+                "description": "Lim's basement is infested with gremoglins? They're GREMOGLIMS!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1278,
+                    "name": "Gremoglims",
+                    "description": "Lim's basement is infested with gremoglins? They're GREMOGLIMS!",
+                    "complete": "You got every last one of them, but who fed them after noon?",
+                    "swf": "quests\/quest-gremoglims-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "moglinster, bots",
+                    "monsterGroupSwf": "mset-gremoglims.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

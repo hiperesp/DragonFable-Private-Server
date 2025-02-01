@@ -1,0 +1,195 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7869-nature-essence",
+        "fullSlug": "items\/7869-nature-essence",
+        "id": 7869,
+        "name": "Nature Essence",
+        "description": "A bag of... magical mud!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7869,
+            "name": "Nature Essence",
+            "description": "A bag of... magical mud!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "978-surewould": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "978-surewould",
+                "fullSlug": "quests\/978-surewould",
+                "id": 978,
+                "name": "Surewould",
+                "description": "The woulds seem strangely quiet."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 978,
+                    "name": "Surewould",
+                    "description": "The woulds seem strangely quiet.",
+                    "complete": "Not even sneevils are safe!",
+                    "swf": "random\/random-culinextraordinary-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Rose + enslaved",
+                    "monsterGroupSwf": "mset-forest-bk3-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "1069-edelia-sewers": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1069-edelia-sewers",
+                "fullSlug": "quests\/1069-edelia-sewers",
+                "id": 1069,
+                "name": "Edelia Sewers",
+                "description": "Flushed soulthreads and tangled creatures."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1069,
+                    "name": "Edelia Sewers",
+                    "description": "Flushed soulthreads and tangled creatures.",
+                    "complete": "You've cleaned out a good section of the sewers, hopefully that's enough for Danyel.",
+                    "swf": "towns\/3Ravenloss\/random-sewers.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "mushroom, slime, fishman, frog",
+                    "monsterGroupSwf": "mset-edeliasewer.swf"
+                }
+            },
+            "related": []
+        },
+        "1070-servants-hall": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1070-servants-hall",
+                "fullSlug": "quests\/1070-servants-hall",
+                "id": 1070,
+                "name": "Servants Hall",
+                "description": "Thing are running amok in the servants hallways of Edelia and Danyel wants you to clear them out!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1070,
+                    "name": "Servants Hall",
+                    "description": "Thing are running amok in the servants hallways of Edelia and Danyel wants you to clear them out!",
+                    "complete": "You've finished with this section of hallways, hopefully that's enough for Danyel.",
+                    "swf": "towns\/3Ravenloss\/random-edelia.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "laundry and orbs",
+                    "monsterGroupSwf": "mset-agitower.swf"
+                }
+            },
+            "related": []
+        },
+        "127-sielu-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "127-sielu-s-shop",
+                "fullSlug": "merge-shops\/127-sielu-s-shop",
+                "id": 127,
+                "name": "Sielu's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 127,
+                    "name": "Sielu's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1788,
+                    "mergeShopId": 127,
+                    "mergeId": 1688
+                },
+                "merge": {
+                    "id": 1688,
+                    "itemId1": 7869,
+                    "amount1": 10,
+                    "itemId2": 8220,
+                    "amount2": 1,
+                    "itemId": 8221,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

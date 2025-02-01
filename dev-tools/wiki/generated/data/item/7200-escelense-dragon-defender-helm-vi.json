@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7200-escelense-dragon-defender-helm-vi",
+        "fullSlug": "items\/7200-escelense-dragon-defender-helm-vi",
+        "id": 7200,
+        "name": "Escelense Dragon Defender Helm VI",
+        "description": "Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7200,
+            "name": "Escelense Dragon Defender Helm VI",
+            "description": "Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 73,
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-escelense.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,10,Fire,10,Nature,7,Immobility,5,Health,-2"
+        }
+    },
+    "related": {
+        "115-escelense": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "115-escelense",
+                "fullSlug": "merge-shops\/115-escelense",
+                "id": 115,
+                "name": "Escelense",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 115,
+                    "name": "Escelense"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1598,
+                    "mergeShopId": 115,
+                    "mergeId": 1532
+                },
+                "merge": {
+                    "id": 1532,
+                    "itemId1": 7199,
+                    "amount1": 1,
+                    "itemId2": 7135,
+                    "amount2": 10,
+                    "itemId": 7200,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

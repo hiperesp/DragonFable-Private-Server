@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19947-jade-cleaver-of-the-lone-tree",
+        "fullSlug": "items\/19947-jade-cleaver-of-the-lone-tree",
+        "id": 19947,
+        "name": "Jade Cleaver of the Lone Tree",
+        "description": "This majestic jade axe fits well in your hands, as though it were made for you. Mid-swing, you swear you can sometimes hear a voice calling out, as if from far away. Probably nothing to worry about. Proof of victory over Yalla and Braytes San."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19947,
+            "name": "Jade Cleaver of the Lone Tree",
+            "description": "This majestic jade axe fits well in your hands, as though it were made for you. Mid-swing, you swear you can sometimes hear a voice calling out, as if from far away. Probably nothing to worry about. Proof of victory over Yalla and Braytes San.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 13,
+            "level": 90,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-yalla.swf",
+            "icon": "scythe",
+            "strength": 26,
+            "dexterity": 26,
+            "intelligence": 26,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 86,
+            "damageMax": 110,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,10,Health,-15"
+        }
+    },
+    "related": {
+        "329-jade-cleaver": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "329-jade-cleaver",
+                "fullSlug": "merge-shops\/329-jade-cleaver",
+                "id": 329,
+                "name": "Jade Cleaver",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 329,
+                    "name": "Jade Cleaver"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3485,
+                    "mergeShopId": 329,
+                    "mergeId": 3575
+                },
+                "merge": {
+                    "id": 3575,
+                    "itemId1": 19946,
+                    "amount1": 1,
+                    "itemId2": 19951,
+                    "amount2": 1,
+                    "itemId": 19947,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

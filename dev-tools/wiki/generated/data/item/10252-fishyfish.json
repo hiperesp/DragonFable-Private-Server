@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10252-fishyfish",
+        "fullSlug": "items\/10252-fishyfish",
+        "id": 10252,
+        "name": "FishyFish",
+        "description": "You have a giant fish on your back!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10252,
+            "name": "FishyFish",
+            "description": "You have a giant fish on your back!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-fishfish.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,5,Fire,4"
+        }
+    },
+    "related": {
+        "359-fish-cape": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "359-fish-cape",
+                "fullSlug": "item-shops\/359-fish-cape",
+                "id": 359,
+                "name": "Fish Cape",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 359,
+                    "name": "Fish Cape",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

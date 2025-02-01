@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18241-grove-tender-visage",
+        "fullSlug": "items\/18241-grove-tender-visage",
+        "id": 18241,
+        "name": "Grove Tender Visage",
+        "description": "Don this visage and be empowered by nature itself!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18241,
+            "name": "Grove Tender Visage",
+            "description": "Don this visage and be empowered by nature itself!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-Grovebreaker.swf",
+            "icon": "helm",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "Nature,10,Light,10,Darkness,10,Immobility,5"
+        }
+    },
+    "related": {
+        "239-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "239-grove-tender",
+                "fullSlug": "merge-shops\/239-grove-tender",
+                "id": 239,
+                "name": "Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 239,
+                    "name": "Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2639,
+                    "mergeShopId": 239,
+                    "mergeId": 3269
+                },
+                "merge": {
+                    "id": 3269,
+                    "itemId1": 14451,
+                    "amount1": 1,
+                    "itemId2": 14457,
+                    "amount2": 1,
+                    "itemId": 18241,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

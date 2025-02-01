@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20323-lagohmcraft-protector-gold-iv",
+        "fullSlug": "items\/20323-lagohmcraft-protector-gold-iv",
+        "id": 20323,
+        "name": "Lagohmcraft Protector (Gold) IV",
+        "description": "With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Golden Hand.This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20323,
+            "name": "Lagohmcraft Protector (Gold) IV",
+            "description": "With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Golden Hand.This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 1,
+            "level": 70,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-Lagohmgold.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,5,Health,-7,Energy,7,Darkness,7"
+        }
+    },
+    "related": {
+        "346-golden-hand-backpiece": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "346-golden-hand-backpiece",
+                "fullSlug": "merge-shops\/346-golden-hand-backpiece",
+                "id": 346,
+                "name": "Golden Hand Backpiece",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 346,
+                    "name": "Golden Hand Backpiece"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3608,
+                    "mergeShopId": 346,
+                    "mergeId": 3710
+                },
+                "merge": {
+                    "id": 3710,
+                    "itemId1": 20323,
+                    "amount1": 1,
+                    "itemId2": 19924,
+                    "amount2": 5,
+                    "itemId": 20324,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

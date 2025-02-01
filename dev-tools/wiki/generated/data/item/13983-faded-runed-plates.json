@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13983-faded-runed-plates",
+        "fullSlug": "items\/13983-faded-runed-plates",
+        "id": 13983,
+        "name": "Faded Runed Plates",
+        "description": "The inscribed runes on this plated belt are now home to tiny corals, rust, and salt crystals.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13983,
+            "name": "Faded Runed Plates",
+            "description": "The inscribed runes on this plated belt are now home to tiny corals, rust, and salt crystals.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 35,
+            "level": 63,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Water,10,Fire,10,Darkness,2"
+        }
+    },
+    "related": {
+        "443-drowned-dungeon": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "443-drowned-dungeon",
+                "fullSlug": "item-shops\/443-drowned-dungeon",
+                "id": 443,
+                "name": "Drowned Dungeon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 443,
+                    "name": "Drowned Dungeon",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

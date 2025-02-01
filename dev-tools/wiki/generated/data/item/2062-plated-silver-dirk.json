@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2062-plated-silver-dirk",
+        "fullSlug": "items\/2062-plated-silver-dirk",
+        "id": 2062,
+        "name": "Plated Silver Dirk",
+        "description": "The gleam of this dagger is reminiscent of the moonlight. It's razorsharp edge will aid you in any stealthy missions you might undertake, but be careful that it's shine does not give you away as you hide in the shadows."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2062,
+            "name": "Plated Silver Dirk",
+            "description": "The gleam of this dagger is reminiscent of the moonlight. It's razorsharp edge will aid you in any stealthy missions you might undertake, but be careful that it's shine does not give you away as you hide in the shadows.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1750,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 6,
+            "level": 35,
+            "type": "Pierce",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-tomixano.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 54,
+            "damageMax": 62,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Wind,5"
+        }
+    },
+    "related": {
+        "315-there-s-no-place-like-oaklore": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "315-there-s-no-place-like-oaklore",
+                "fullSlug": "quests\/315-there-s-no-place-like-oaklore",
+                "id": 315,
+                "name": "There's No Place Like Oaklore",
+                "description": "Sir Ano is off to see the Wizard, and he's taking you, too!  Luckily there's a crumbled old road that will guide you to the ruined city where the Wizard lives."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 315,
+                    "name": "There's No Place Like Oaklore",
+                    "description": "Sir Ano is off to see the Wizard, and he's taking you, too!  Luckily there's a crumbled old road that will guide you to the ruined city where the Wizard lives.",
+                    "complete": "Boardrakes and Appletrees and yagas, oh my!",
+                    "swf": "quests\/quest-cyrano3-r1.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-cyrano3-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

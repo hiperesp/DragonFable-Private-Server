@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2460-overcharged-circuit-breaker",
+        "fullSlug": "items\/2460-overcharged-circuit-breaker",
+        "id": 2460,
+        "name": "OverCharged Circuit Breaker",
+        "description": "Warning: sticking this sword into a wall outlet will disrupt the flow of electricity.  SHOCK DANGER.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2460,
+            "name": "OverCharged Circuit Breaker",
+            "description": "Warning: sticking this sword into a wall outlet will disrupt the flow of electricity.  SHOCK DANGER.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1750,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 2,
+            "level": 46,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-luke2.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 59,
+            "damageMax": 71,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Energy,2,Metal,2"
+        }
+    },
+    "related": {
+        "415-nuts-and-bolts": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "415-nuts-and-bolts",
+                "fullSlug": "quests\/415-nuts-and-bolts",
+                "id": 415,
+                "name": "Nuts and Bolts",
+                "description": "Someone is stealing the nuts and bolts keeping the machinery grinding away.  Can you find where this golem in the gears has hidden the parts?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 415,
+                    "name": "Nuts and Bolts",
+                    "description": "Someone is stealing the nuts and bolts keeping the machinery grinding away.  Can you find where this golem in the gears has hidden the parts?",
+                    "complete": "Yix is very glad you found the nuts and bolts and promises he'll have the cogs and gears back up and running before things grind to a halt.",
+                    "swf": "random\/random-nutsbolts.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Robots",
+                    "monsterGroupSwf": "mset-poprandom-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "416-ground-to-a-halt": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "416-ground-to-a-halt",
+                "fullSlug": "quests\/416-ground-to-a-halt",
+                "id": 416,
+                "name": "Ground To A Halt",
+                "description": "Airheart's mechagryphon has been throwing off sparks and making an unsettling grind-y crunch-y noise when it takes off.  She's hoping the Mysterious Gnome will have something to make it run smooth again!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 416,
+                    "name": "Ground To A Halt",
+                    "description": "Airheart's mechagryphon has been throwing off sparks and making an unsettling grind-y crunch-y noise when it takes off.  She's hoping the Mysterious Gnome will have something to make it run smooth again!",
+                    "complete": "Now that all its joints are well-oiled and its hinges greased, Airheart's mechagryphon is ready to show you just how advanced gnome-tech really is!",
+                    "swf": "towns\/Popsprocket\/quest-oilcan.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Robots",
+                    "monsterGroupSwf": "mset-poprandom-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "417-gryphons-gone-wild": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "417-gryphons-gone-wild",
+                "fullSlug": "quests\/417-gryphons-gone-wild",
+                "id": 417,
+                "name": "Gryphons Gone Wild!",
+                "description": "Something is driving the mechagryphons crazy!  They broke out of the hatchery and are scattered around the outskirts of town.  Track them down and subdue them before they get out of control!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 417,
+                    "name": "Gryphons Gone Wild!",
+                    "description": "Something is driving the mechagryphons crazy!  They broke out of the hatchery and are scattered around the outskirts of town.  Track them down and subdue them before they get out of control!",
+                    "complete": "Ah, peace has been restored. Well, if you don't think about Balthar and his robots and Sepulchure and his minions, at least.",
+                    "swf": "towns\/Popsprocket\/quest-mechagryphons.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Robots",
+                    "monsterGroupSwf": "mset-poprandom-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

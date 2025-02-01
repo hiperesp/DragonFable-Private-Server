@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18814-wings-of-ezrajal-ii",
+        "fullSlug": "items\/18814-wings-of-ezrajal-ii",
+        "id": 18814,
+        "name": "Wings of Ezrajal II",
+        "description": "The gilded wings of the Celestial Ezrajal."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18814,
+            "name": "Wings of Ezrajal II",
+            "description": "The gilded wings of the Celestial Ezrajal.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 70,
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-ezrajal.swf?ver=1",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 11,
+            "charisma": 11,
+            "endurance": 11,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3286,
+                    "mergeShopId": 303,
+                    "mergeId": 3385
+                },
+                "merge": {
+                    "id": 3385,
+                    "itemId1": 18814,
+                    "amount1": 1,
+                    "itemId2": 18819,
+                    "amount2": 5,
+                    "itemId": 18815,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

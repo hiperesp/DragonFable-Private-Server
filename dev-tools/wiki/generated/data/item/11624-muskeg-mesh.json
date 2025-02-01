@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11624-muskeg-mesh",
+        "fullSlug": "items\/11624-muskeg-mesh",
+        "id": 11624,
+        "name": "Muskeg Mesh",
+        "description": "A surprisingly strong mesh infused with swamp yaga magic. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11624,
+            "name": "Muskeg Mesh",
+            "description": "A surprisingly strong mesh infused with swamp yaga magic. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 73,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 8,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "All,4,Immobility,2"
+        }
+    },
+    "related": {
+        "1136-mission-possible": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1136-mission-possible",
+                "fullSlug": "quests\/1136-mission-possible",
+                "id": 1136,
+                "name": "Mission Possible",
+                "description": "Kara has a special mission for you... Are you ready?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1136,
+                    "name": "Mission Possible",
+                    "description": "Kara has a special mission for you... Are you ready?",
+                    "complete": "You found the Face Nommer! It looks a bit worse for wear though...",
+                    "swf": "towns\/suleneska\/quest12-mission.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp creatures",
+                    "monsterGroupSwf": "mset-nommer.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12627-unhallowed-deathknight-belt-iii",
+        "fullSlug": "items\/12627-unhallowed-deathknight-belt-iii",
+        "id": 12627,
+        "name": "Unhallowed DeathKnight Belt III",
+        "description": "You've enhanced your belt with shadow energy. It feels as though you aren't clasping anything around your waist as you put it on. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12627,
+            "name": "Unhallowed DeathKnight Belt III",
+            "description": "You've enhanced your belt with shadow energy. It feels as though you aren't clasping anything around your waist as you put it on. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 70,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,9,Darkness,9,Immobility,5"
+        }
+    },
+    "related": {
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2490,
+                    "mergeShopId": 210,
+                    "mergeId": 2430
+                },
+                "merge": {
+                    "id": 2430,
+                    "itemId1": 12627,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12628,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

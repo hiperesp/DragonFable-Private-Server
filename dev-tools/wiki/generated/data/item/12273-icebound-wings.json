@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12273-icebound-wings",
+        "fullSlug": "items\/12273-icebound-wings",
+        "id": 12273,
+        "name": "Icebound Wings",
+        "description": "These wings are formed from cursed ice. They won't shatter no matter how hard they are struck."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12273,
+            "name": "Icebound Wings",
+            "description": "These wings are formed from cursed ice. They won't shatter no matter how hard they are struck.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 160,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-FrostDeathWings.swf",
+            "icon": "wings",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,8,Darkness,6,Evil,4"
+        }
+    },
+    "related": {
+        "43-helms-and-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "43-helms-and-capes",
+                "fullSlug": "item-shops\/43-helms-and-capes",
+                "id": 43,
+                "name": "Helms and Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Helms and Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

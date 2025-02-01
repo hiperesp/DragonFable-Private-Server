@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20947-exalted-blaster-ii-doom",
+        "fullSlug": "items\/20947-exalted-blaster-ii-doom",
+        "id": 20947,
+        "name": "Exalted Blaster II (Doom)",
+        "description": "Notha and Myalos worked together to attach some ancient tech to Uaanta's Blaster! This wand does Evil damage and decreases its target's Avoidance! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20947,
+            "name": "Exalted Blaster II (Doom)",
+            "description": "Notha and Myalos worked together to attach some ancient tech to Uaanta's Blaster! This wand does Evil damage and decreases its target's Avoidance! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 14,
+            "rarity": 15,
+            "level": 90,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-uaantablaster-evil.swf",
+            "icon": "trinket",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 14,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Light,10,Darkness,10,Good,5,Evil,5"
+        }
+    },
+    "related": {
+        "367-forgotten-dream": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "367-forgotten-dream",
+                "fullSlug": "merge-shops\/367-forgotten-dream",
+                "id": 367,
+                "name": "Forgotten Dream",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 367,
+                    "name": "Forgotten Dream"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3821,
+                    "mergeShopId": 367,
+                    "mergeId": 3955
+                },
+                "merge": {
+                    "id": 3955,
+                    "itemId1": 20441,
+                    "amount1": 1,
+                    "itemId2": 20948,
+                    "amount2": 1,
+                    "itemId": 20947,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

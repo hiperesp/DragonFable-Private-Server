@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10210-junior-soulthread-loop",
+        "fullSlug": "items\/10210-junior-soulthread-loop",
+        "id": 10210,
+        "name": "Junior Soulthread Loop",
+        "description": "One of the student belts that denotes rank in Edelia.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10210,
+            "name": "Junior Soulthread Loop",
+            "description": "One of the student belts that denotes rank in Edelia.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 35,
+            "level": 65,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,9,Wind,5,Immobility,3"
+        }
+    },
+    "related": {
+        "1067-to-edelia": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1067-to-edelia",
+                "fullSlug": "quests\/1067-to-edelia",
+                "id": 1067,
+                "name": "To Edelia",
+                "description": "Journey with Tomix to the hidden school of Edelia."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1067,
+                    "name": "To Edelia",
+                    "description": "Journey with Tomix to the hidden school of Edelia.",
+                    "complete": "Danyel needs your help before he can help you....",
+                    "swf": "towns\/3Ravenloss\/quest1-ToEdelia-sec.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wolf,spider,mushroom,rose",
+                    "monsterGroupSwf": "mset-toedelia.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

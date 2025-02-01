@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14334-golden-bat-wings",
+        "fullSlug": "items\/14334-golden-bat-wings",
+        "id": 14334,
+        "name": "Golden Bat Wings",
+        "description": "Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14334,
+            "name": "Golden Bat Wings",
+            "description": "Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 45,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 20,
+            "level": 45,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-gold.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 3,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Darkness,5,Silver,5,Light,-1"
+        }
+    },
+    "related": {
+        "451-blood-feud-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "451-blood-feud-drops",
+                "fullSlug": "item-shops\/451-blood-feud-drops",
+                "id": 451,
+                "name": "Blood Feud Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 451,
+                    "name": "Blood Feud Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

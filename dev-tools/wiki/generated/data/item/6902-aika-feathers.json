@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6902-aika-feathers",
+        "fullSlug": "items\/6902-aika-feathers",
+        "id": 6902,
+        "name": "Aika Feathers",
+        "description": "Feathers gathered from the Neverglade Furies are the centerpiece for this topical helm."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6902,
+            "name": "Aika Feathers",
+            "description": "Feathers gathered from the Neverglade Furies are the centerpiece for this topical helm.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 54,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-Aika Feathers.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 3,
+            "dodge": 3,
+            "block": 0,
+            "resists": "Wind,8"
+        }
+    },
+    "related": {
+        "262-hut-junk": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "262-hut-junk",
+                "fullSlug": "item-shops\/262-hut-junk",
+                "id": 262,
+                "name": "Hut Junk",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 262,
+                    "name": "Hut Junk",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

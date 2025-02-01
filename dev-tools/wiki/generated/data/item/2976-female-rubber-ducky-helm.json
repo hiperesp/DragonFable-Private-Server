@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2976-female-rubber-ducky-helm",
+        "fullSlug": "items\/2976-female-rubber-ducky-helm",
+        "id": 2976,
+        "name": "Female Rubber Ducky Helm",
+        "description": "Only the Mad Haberdasher would wear something like this!  Dragon Amulet required."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2976,
+            "name": "Female Rubber Ducky Helm",
+            "description": "Only the Mad Haberdasher would wear something like this!  Dragon Amulet required.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1100,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 20,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-habdash3f.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Energy,5"
+        }
+    },
+    "related": {
+        "496-mad-haberdasher": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "496-mad-haberdasher",
+                "fullSlug": "quests\/496-mad-haberdasher",
+                "id": 496,
+                "name": "Mad Haberdasher",
+                "description": "Go ahead, you know you want to try the teacake!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 496,
+                    "name": "Mad Haberdasher",
+                    "description": "Go ahead, you know you want to try the teacake!",
+                    "complete": "I wonder if he'd let you borrow his hat sometime?",
+                    "swf": "quests\/AriainWanderland\/quest-aria4r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "foresty monsters",
+                    "monsterGroupSwf": "mset-aria1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

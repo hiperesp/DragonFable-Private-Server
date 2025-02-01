@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20101-frozen-spirit-sword-ix",
+        "fullSlug": "items\/20101-frozen-spirit-sword-ix",
+        "id": 20101,
+        "name": "Frozen Spirit Sword IX",
+        "description": "This special blade was crafted by the frost moglins from a single large blue crystal. You managed to save it from the clutches of the coalepti in The Great Giftnapping war! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20101,
+            "name": "Frozen Spirit Sword IX",
+            "description": "This special blade was crafted by the frost moglins from a single large blue crystal. You managed to save it from the clutches of the coalepti in The Great Giftnapping war! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 50,
+            "level": 90,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-gift2021.swf",
+            "icon": "sword",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 15,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 91,
+            "damageMax": 95,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 12,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "Fire,9,Ice,9,Health,-3"
+        }
+    },
+    "related": {
+        "340-dms-gift-exchange": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "340-dms-gift-exchange",
+                "fullSlug": "merge-shops\/340-dms-gift-exchange",
+                "id": 340,
+                "name": "DMs & Gift Exchange",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 340,
+                    "name": "DMs & Gift Exchange"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3522,
+                    "mergeShopId": 340,
+                    "mergeId": 3620
+                },
+                "merge": {
+                    "id": 3620,
+                    "itemId1": 20089,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20101,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

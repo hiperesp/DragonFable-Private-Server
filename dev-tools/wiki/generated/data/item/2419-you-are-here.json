@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2419-you-are-here",
+        "fullSlug": "items\/2419-you-are-here",
+        "id": 2419,
+        "name": "You Are Here",
+        "description": "This item requires a Dragon Amulet. Never get lost again! Use this powerful trinket to add damage power to your attack for 5 rounds but be careful, that big arrow makes it eaiser for monster to hit you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2419,
+            "name": "You Are Here",
+            "description": "This item requires a Dragon Amulet. Never get lost again! Use this powerful trinket to add damage power to your attack for 5 rounds but be careful, that big arrow makes it eaiser for monster to hit you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 75,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 77,
+            "level": 5,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-youarehere.swf",
+            "icon": "trinket",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": -5,
+            "defensePierce": -5,
+            "defenseMagic": -5,
+            "critical": 4,
+            "parry": -1,
+            "dodge": -1,
+            "block": -1,
+            "resists": ""
+        }
+    },
+    "related": {
+        "65-holiday-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "65-holiday-shop",
+                "fullSlug": "item-shops\/65-holiday-shop",
+                "id": 65,
+                "name": "Holiday Shop!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 65,
+                    "name": "Holiday Shop!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1698-spellwing",
+        "fullSlug": "items\/1698-spellwing",
+        "id": 1698,
+        "name": "Spellwing",
+        "description": "The symmetry of the extensions topping this staff have been proven to aid in the enhancement of the magic matrix controlling flight.  Until further tests have been run, though, it's a good idea to be careful while on cliffs and mountaintops."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1698,
+            "name": "Spellwing",
+            "description": "The symmetry of the extensions topping this staff have been proven to aid in the enhancement of the magic matrix controlling flight.  Until further tests have been run, though, it's a good idea to be careful while on cliffs and mountaintops.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 3,
+            "level": 30,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-SpellWing.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 62,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "251-noxus-fumes": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "251-noxus-fumes",
+                "fullSlug": "quests\/251-noxus-fumes",
+                "id": 251,
+                "name": "Noxus Fumes",
+                "description": "The destruction of the leagues of undead has made Noxus angry. It's time to take down the Dean!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 251,
+                    "name": "Noxus Fumes",
+                    "description": "The destruction of the leagues of undead has made Noxus angry. It's time to take down the Dean!",
+                    "complete": "You have defeated the Dean of the Necropolis and foiled his plans to overrun Doomwood with this army of undead. It is hard to say if Vayle is friend or foe, but either way, the Darkness Orb is hers... for now.",
+                    "swf": "towns\/DoomWood\/quest-Artix9r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "noxus",
+                    "monsterGroupSwf": "mset-noxus.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2418-chocobunny-helm",
+        "fullSlug": "items\/2418-chocobunny-helm",
+        "id": 2418,
+        "name": "Chocobunny Helm",
+        "description": "This item requires a Dragon Amulet. This enchanged chocolate bunny head affords remarkable protection for a gooey mass of melting candy. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2418,
+            "name": "Chocobunny Helm",
+            "description": "This item requires a Dragon Amulet. This enchanged chocolate bunny head affords remarkable protection for a gooey mass of melting candy. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 75,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 77,
+            "level": 5,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-chocobunny.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Ice,5,Metal,5,Darkness,5"
+        }
+    },
+    "related": {
+        "65-holiday-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "65-holiday-shop",
+                "fullSlug": "item-shops\/65-holiday-shop",
+                "id": 65,
+                "name": "Holiday Shop!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 65,
+                    "name": "Holiday Shop!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11933-worshipper-mask",
+        "fullSlug": "items\/11933-worshipper-mask",
+        "id": 11933,
+        "name": "Worshipper Mask",
+        "description": "A twisted \"mask\" worn by worshippers of Pandora."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11933,
+            "name": "Worshipper Mask",
+            "description": "A twisted \"mask\" worn by worshippers of Pandora.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1750,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 64,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-worshipper.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": -2,
+            "charisma": 8,
+            "endurance": 5,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,10,Energy,10,???,3,Immobility,1"
+        }
+    },
+    "related": {
+        "1153-adrift": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1153-adrift",
+                "fullSlug": "quests\/1153-adrift",
+                "id": 1153,
+                "name": "Adrift",
+                "description": "The Void Ship is partially destroyed, people are injured, food supply is gone... things are not looking well."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1153,
+                    "name": "Adrift",
+                    "description": "The Void Ship is partially destroyed, people are injured, food supply is gone... things are not looking well.",
+                    "complete": "Our heroes found themselves on an island inhabited by... worshippers of Pandora!",
+                    "swf": "towns\/3Ravenloss\/quest14-adrift.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "void stuff",
+                    "monsterGroupSwf": "mset-voidworship.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

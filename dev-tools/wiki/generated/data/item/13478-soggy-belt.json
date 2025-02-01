@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13478-soggy-belt",
+        "fullSlug": "items\/13478-soggy-belt",
+        "id": 13478,
+        "name": "Soggy Belt",
+        "description": "It smells like dragon morning breath! Ew. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13478,
+            "name": "Soggy Belt",
+            "description": "It smells like dragon morning breath! Ew. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 28,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,3,Fire,3,All,1"
+        }
+    },
+    "related": {
+        "1232-hide-n-seek": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1232-hide-n-seek",
+                "fullSlug": "quests\/1232-hide-n-seek",
+                "id": 1232,
+                "name": "Hide n' Seek",
+                "description": "It's Twillys turn to hide! Can you find him before snack time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1232,
+                    "name": "Hide n' Seek",
+                    "description": "It's Twillys turn to hide! Can you find him before snack time?",
+                    "complete": "You found Twilly! Just in time too, your stomach is rumbling....",
+                    "swf": "random\/random-100room-hidenseek-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17091-vile-infused-rose-dagger-ix",
+        "fullSlug": "items\/17091-vile-infused-rose-dagger-ix",
+        "id": 17091,
+        "name": "Vile Infused Rose Dagger IX",
+        "description": "Rose-approved... or is it? This common Rose dagger seems be enchanted by an unusual magic. The ire of the shackled for its captor dwells within and will lash out when the weapon strikes. Who could have made this... and why?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17091,
+            "name": "Vile Infused Rose Dagger IX",
+            "description": "Rose-approved... or is it? This common Rose dagger seems be enchanted by an unusual magic. The ire of the shackled for its captor dwells within and will lash out when the weapon strikes. Who could have made this... and why?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 85,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-roseatgas.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 14,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 85,
+            "damageMax": 95,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Light,7,Water,7"
+        }
+    },
+    "related": {
+        "265-vile-infused-rose": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "265-vile-infused-rose",
+                "fullSlug": "merge-shops\/265-vile-infused-rose",
+                "id": 265,
+                "name": "Vile Infused Rose",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 265,
+                    "name": "Vile Infused Rose"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2965,
+                    "mergeShopId": 265,
+                    "mergeId": 2987
+                },
+                "merge": {
+                    "id": 2987,
+                    "itemId1": 17090,
+                    "amount1": 1,
+                    "itemId2": 17101,
+                    "amount2": 3,
+                    "itemId": 17091,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

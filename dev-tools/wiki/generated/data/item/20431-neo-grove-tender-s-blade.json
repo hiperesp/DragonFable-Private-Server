@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20431-neo-grove-tender-s-blade",
+        "fullSlug": "items\/20431-neo-grove-tender-s-blade",
+        "id": 20431,
+        "name": "Neo Grove Tender's Blade",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20431,
+            "name": "Neo Grove Tender's Blade"
+        }
+    },
+    "related": {
+        "356-neo-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "356-neo-grove-tender",
+                "fullSlug": "merge-shops\/356-neo-grove-tender",
+                "id": 356,
+                "name": "Neo Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 356,
+                    "name": "Neo Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3707,
+                    "mergeShopId": 356,
+                    "mergeId": 3792
+                },
+                "merge": {
+                    "id": 3792,
+                    "itemId1": 20431,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20458,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

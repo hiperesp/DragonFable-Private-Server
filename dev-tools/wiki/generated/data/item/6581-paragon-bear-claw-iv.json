@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6581-paragon-bear-claw-iv",
+        "fullSlug": "items\/6581-paragon-bear-claw-iv",
+        "id": 6581,
+        "name": "Paragon Bear Claw IV",
+        "description": "This sword was crafted in honor of True Mortal's friend Bear many years ago. It has been held in trust for the hero deserving of it.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6581,
+            "name": "Paragon Bear Claw IV",
+            "description": "This sword was crafted in honor of True Mortal's friend Bear many years ago. It has been held in trust for the hero deserving of it.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4500,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 6,
+            "level": 71,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-bearclaw.swf",
+            "icon": "sword",
+            "strength": 10,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 71,
+            "damageMax": 95,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Water,10,Fire,10,Immobility,4"
+        }
+    },
+    "related": {
+        "869-forest-gate": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "869-forest-gate",
+                "fullSlug": "quests\/869-forest-gate",
+                "id": 869,
+                "name": "Forest Gate",
+                "description": "The Forest Gate is hidden somewhere between Oaklore and Falconreach. That narrows it down a bit. Hopefully it won't take TOO long to find the Gate."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 869,
+                    "name": "Forest Gate",
+                    "description": "The Forest Gate is hidden somewhere between Oaklore and Falconreach. That narrows it down a bit. Hopefully it won't take TOO long to find the Gate.",
+                    "complete": "You found the Gate!",
+                    "swf": "towns\/StoneheartFall\/quest7-forestgateD.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

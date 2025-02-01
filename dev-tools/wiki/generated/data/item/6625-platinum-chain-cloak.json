@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6625-platinum-chain-cloak",
+        "fullSlug": "items\/6625-platinum-chain-cloak",
+        "id": 6625,
+        "name": "Platinum Chain Cloak",
+        "description": "This item requires a Dragon Amulet. Created from links forged from pure platinum."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6625,
+            "name": "Platinum Chain Cloak",
+            "description": "This item requires a Dragon Amulet. Created from links forged from pure platinum.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 150,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 2,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chain.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "875-playing-with-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "875-playing-with-fire",
+                "fullSlug": "quests\/875-playing-with-fire",
+                "id": 875,
+                "name": "Playing With Fire",
+                "description": "Not using your magic is no fun...."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 875,
+                    "name": "Playing With Fire",
+                    "description": "Not using your magic is no fun....",
+                    "complete": "You made it through the Fire Cave!",
+                    "swf": "towns\/SwordhavenAlex\/quest-alex3-fire.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire monsters",
+                    "monsterGroupSwf": "mset-alex3-fire.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

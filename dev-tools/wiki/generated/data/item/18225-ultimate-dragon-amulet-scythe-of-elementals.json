@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18225-ultimate-dragon-amulet-scythe-of-elementals",
+        "fullSlug": "items\/18225-ultimate-dragon-amulet-scythe-of-elementals",
+        "id": 18225,
+        "name": "Ultimate Dragon Amulet Scythe of Elementals",
+        "description": "Seven elemental choices for seven years of DragonFable! Thank you for helping support DF during our birthday month in 2013!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18225,
+            "name": "Ultimate Dragon Amulet Scythe of Elementals",
+            "description": "Seven elemental choices for seven years of DragonFable! Thank you for helping support DF during our birthday month in 2013!",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-7elements.swf",
+            "icon": "scythe",
+            "strength": 18,
+            "dexterity": 18,
+            "intelligence": 18,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 10,
+            "wisdom": 12,
+            "damageMin": 86,
+            "damageMax": 106,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 15,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Fire,15,Darkness,15,Ice,15,Poison,8,Silver,8,Immobility,10,Health,-5"
+        }
+    },
+    "related": {
+        "141-ultimate-da-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "141-ultimate-da-scythe",
+                "fullSlug": "merge-shops\/141-ultimate-da-scythe",
+                "id": 141,
+                "name": "Ultimate DA Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 141,
+                    "name": "Ultimate DA Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2064,
+                    "mergeShopId": 141,
+                    "mergeId": 3410
+                },
+                "merge": {
+                    "id": 3410,
+                    "itemId1": 18225,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9940,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

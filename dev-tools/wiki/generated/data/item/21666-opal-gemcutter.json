@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21666-opal-gemcutter",
+        "fullSlug": "items\/21666-opal-gemcutter",
+        "id": 21666,
+        "name": "Opal Gemcutter",
+        "description": "A dagger magically crafted from a collection of Light-infused Opal. On special, reduces foe's Bonus. (Cosmetic) (Special)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21666,
+            "name": "Opal Gemcutter",
+            "description": "A dagger magically crafted from a collection of Light-infused Opal. On special, reduces foe's Bonus. (Cosmetic) (Special)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-geodeopal.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "397-opal-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "397-opal-weapons",
+                "fullSlug": "merge-shops\/397-opal-weapons",
+                "id": 397,
+                "name": "Opal Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 397,
+                    "name": "Opal Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4170,
+                    "mergeShopId": 397,
+                    "mergeId": 4212
+                },
+                "merge": {
+                    "id": 4212,
+                    "itemId1": 21654,
+                    "amount1": 5,
+                    "itemId2": 21663,
+                    "amount2": 1,
+                    "itemId": 21666,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

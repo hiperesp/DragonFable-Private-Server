@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19710-rose-pillow-i",
+        "fullSlug": "items\/19710-rose-pillow-i",
+        "id": 19710,
+        "name": "Rose Pillow I",
+        "description": "A standard-issue Rose body pillow. Extra stuffed for maximum comfort."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19710,
+            "name": "Rose Pillow I",
+            "description": "A standard-issue Rose body pillow. Extra stuffed for maximum comfort.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-rosepillow.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 1,
+            "damageMax": 100,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Health,-3,Darkness,3"
+        }
+    },
+    "related": {
+        "671-rpjs-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "671-rpjs-loot-for-dcs",
+                "fullSlug": "item-shops\/671-rpjs-loot-for-dcs",
+                "id": 671,
+                "name": "RPJS Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 671,
+                    "name": "RPJS Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2009-ursice-stone-knife",
+        "fullSlug": "items\/2009-ursice-stone-knife",
+        "id": 2009,
+        "name": "Ursice Stone Knife",
+        "description": "This hammer was made by the Ursice Savages to reward you for heroism in the war."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2009,
+            "name": "Ursice Stone Knife",
+            "description": "This hammer was made by the Ursice Savages to reward you for heroism in the war.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 33,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-warbear.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 45,
+            "damageMax": 61,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "46-grrol-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "46-grrol-upgrade",
+                "fullSlug": "merge-shops\/46-grrol-upgrade",
+                "id": 46,
+                "name": "Grrol upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 46,
+                    "name": "Grrol upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 707,
+                    "mergeShopId": 46,
+                    "mergeId": 461
+                },
+                "merge": {
+                    "id": 461,
+                    "itemId1": 1974,
+                    "amount1": 5,
+                    "itemId2": 2009,
+                    "amount2": 1,
+                    "itemId": 2010,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

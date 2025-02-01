@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21910-wings-of-aker-varus-iv",
+        "fullSlug": "items\/21910-wings-of-aker-varus-iv",
+        "id": 21910,
+        "name": "Wings of Aker'varus IV",
+        "description": "You found this pair of wings resembling the feargeist Aker'varus in your backpack after escaping from the Fearscape. A gift... or a curse?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21910,
+            "name": "Wings of Aker'varus IV",
+            "description": "You found this pair of wings resembling the feargeist Aker'varus in your backpack after escaping from the Fearscape. A gift... or a curse?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 1,
+            "level": 70,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/wings-akervarus.swf",
+            "icon": "cape",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": -50,
+            "defensePierce": -50,
+            "defenseMagic": -50,
+            "critical": 8,
+            "parry": -50,
+            "dodge": -50,
+            "block": -50,
+            "resists": "All,8,Health,8,Fear,-16"
+        }
+    },
+    "related": {
+        "803-tav-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "803-tav-loot-for-dcs",
+                "fullSlug": "item-shops\/803-tav-loot-for-dcs",
+                "id": 803,
+                "name": "tAV Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 803,
+                    "name": "tAV Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

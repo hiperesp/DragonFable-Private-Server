@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7993-spooked-lion-s-head",
+        "fullSlug": "items\/7993-spooked-lion-s-head",
+        "id": 7993,
+        "name": "Spooked Lion's Head",
+        "description": "Who's scared of that mean ol' witch?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7993,
+            "name": "Spooked Lion's Head",
+            "description": "Who's scared of that mean ol' witch?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-lionhead.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,8,Darkness,8,Stone,8,Bacon,3,Immobility,3"
+        }
+    },
+    "related": {
+        "982-finding-the-red-brick-road": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "982-finding-the-red-brick-road",
+                "fullSlug": "quests\/982-finding-the-red-brick-road",
+                "id": 982,
+                "name": "Finding the Red Brick Road",
+                "description": "Finding, finding, finding, finding, fiiiiiinding!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 982,
+                    "name": "Finding the Red Brick Road",
+                    "description": "Finding, finding, finding, finding, fiiiiiinding!",
+                    "complete": "Red bricks? Check. Remote cave? Check. Amethyst glow? Check. Vayle? Hopefully....",
+                    "swf": "towns\/Frostvale\/F12\/quest3-redbrick.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "necro holiday woods",
+                    "monsterGroupSwf": "mset-redbrick.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

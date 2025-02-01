@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13439-toxic-katana",
+        "fullSlug": "items\/13439-toxic-katana",
+        "id": 13439,
+        "name": "Toxic Katana",
+        "description": "This blade may appear delicate but it has been forged by a master sword smith. It will hold its edge even after 10,000 strikes. A thin layer of deadly Scorpiarc venom makes sure it finishes any foe."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13439,
+            "name": "Toxic Katana",
+            "description": "This blade may appear delicate but it has been forged by a master sword smith. It will hold its edge even after 10,000 strikes. A thin layer of deadly Scorpiarc venom makes sure it finishes any foe.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2400,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-NinjaBlade.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 72,
+            "damageMax": 100,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Wind,7,Stone,7,Immobility,6"
+        }
+    },
+    "related": {
+        "427-ninja-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "427-ninja-items",
+                "fullSlug": "item-shops\/427-ninja-items",
+                "id": 427,
+                "name": "Ninja Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 427,
+                    "name": "Ninja Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

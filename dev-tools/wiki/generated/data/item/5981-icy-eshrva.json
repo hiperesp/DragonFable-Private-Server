@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5981-icy-eshrva",
+        "fullSlug": "items\/5981-icy-eshrva",
+        "id": 5981,
+        "name": "Icy Eshrva",
+        "description": "Eshrva was a brilliant Rogue and was highly skilled with the daggers.  Together with his brothers, he went missing while exploring in the frozen mountains north of Dragesvard."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5981,
+            "name": "Icy Eshrva",
+            "description": "Eshrva was a brilliant Rogue and was highly skilled with the daggers.  Together with his brothers, he went missing while exploring in the frozen mountains north of Dragesvard.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 36,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-eshrva.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 50,
+            "damageMax": 60,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Ice,6"
+        }
+    },
+    "related": {
+        "815-khyrhian-outpost": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "815-khyrhian-outpost",
+                "fullSlug": "quests\/815-khyrhian-outpost",
+                "id": 815,
+                "name": "KhyRhian Outpost",
+                "description": "There are a LOT of tents here.  There are a LOT of Khy'Rhian here.  Who knew there were THIS many of those things???"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 815,
+                    "name": "KhyRhian Outpost",
+                    "description": "There are a LOT of tents here.  There are a LOT of Khy'Rhian here.  Who knew there were THIS many of those things???",
+                    "complete": "Those Khy'Rhian were prepared.  Nivalis is obviously expecting company.  Get ready to get your grind on!",
+                    "swf": "towns\/StoneheartFall\/quest4-outpostr1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice and khyrian",
+                    "monsterGroupSwf": "mset-TMsaga-newhorizon.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8911-swamp-katana-x",
+        "fullSlug": "items\/8911-swamp-katana-x",
+        "id": 8911,
+        "name": "Swamp Katana X",
+        "description": "With a blade crafted from the metal of Rose Emblems, the edge of this weapon is coated in a deadly swamp poison!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8911,
+            "name": "Swamp Katana X",
+            "description": "With a blade crafted from the metal of Rose Emblems, the edge of this weapon is coated in a deadly swamp poison!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 11,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-swampkatana.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 10,
+            "damageMin": 78,
+            "damageMax": 104,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Nature,8,Water,7,Darkness,7,Poison,6,Immobility,4"
+        }
+    },
+    "related": {
+        "314-suleneska": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "314-suleneska",
+                "fullSlug": "item-shops\/314-suleneska",
+                "id": 314,
+                "name": "SulenEska",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 314,
+                    "name": "SulenEska",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

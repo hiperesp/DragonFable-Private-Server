@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11904-kamillia",
+        "fullSlug": "items\/11904-kamillia",
+        "id": 11904,
+        "name": "Kamillia",
+        "description": "Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11904,
+            "name": "Kamillia",
+            "description": "Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-sofist.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Metal,6,Darkness,4,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "1152-the-runed-fortress": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1152-the-runed-fortress",
+                "fullSlug": "quests\/1152-the-runed-fortress",
+                "id": 1152,
+                "name": "The Runed Fortress",
+                "description": "You're in. Good. Now find the Third Level and get in!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1152,
+                    "name": "The Runed Fortress",
+                    "description": "You're in. Good. Now find the Third Level and get in!",
+                    "complete": "The Third Level is off limits. Another way in must be found.",
+                    "swf": "towns\/SulenEska\/quest15-runed-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "shackled",
+                    "monsterGroupSwf": "mset-runed.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

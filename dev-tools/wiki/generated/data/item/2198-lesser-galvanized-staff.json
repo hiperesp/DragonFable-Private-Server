@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2198-lesser-galvanized-staff",
+        "fullSlug": "items\/2198-lesser-galvanized-staff",
+        "id": 2198,
+        "name": "Lesser Galvanized Staff",
+        "description": "Someone spent quite a bit of time rubbing this staff with a strong magnet. Static electricity crackles in the globe.  The tickle kind of itches."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2198,
+            "name": "Lesser Galvanized Staff",
+            "description": "Someone spent quite a bit of time rubbing this staff with a strong magnet. Static electricity crackles in the globe.  The tickle kind of itches.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 29,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 44,
+            "damageMax": 55,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,2,Nature,1"
+        }
+    },
+    "related": {
+        "346-he-s-a-lyin": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "346-he-s-a-lyin",
+                "fullSlug": "quests\/346-he-s-a-lyin",
+                "id": 346,
+                "name": "He's (a) Lyin'",
+                "description": "How could anyone be mean enough that they'd want to make chickencows cry?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 346,
+                    "name": "He's (a) Lyin'",
+                    "description": "How could anyone be mean enough that they'd want to make chickencows cry?!",
+                    "complete": "That didn't seem SO mean, but perhaps Zeuster's attendants are really, really sensitive.",
+                    "swf": "quests\/Zeuster\/quest-bacon2r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Energy, Nature",
+                    "monsterGroupSwf": "mset-bacon2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

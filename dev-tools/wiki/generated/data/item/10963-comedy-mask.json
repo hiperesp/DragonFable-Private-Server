@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10963-comedy-mask",
+        "fullSlug": "items\/10963-comedy-mask",
+        "id": 10963,
+        "name": "Comedy Mask",
+        "description": "You're a good and true hero! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10963,
+            "name": "Comedy Mask",
+            "description": "You're a good and true hero! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 65,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-good-mask.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,10,Wind,10,Poison,3,Immobility,1"
+        }
+    },
+    "related": {
+        "378-comedy-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "378-comedy-shop",
+                "fullSlug": "item-shops\/378-comedy-shop",
+                "id": 378,
+                "name": "Comedy Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 378,
+                    "name": "Comedy Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

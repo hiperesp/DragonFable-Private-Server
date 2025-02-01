@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6034-pure-soul-harvester-wings",
+        "fullSlug": "items\/6034-pure-soul-harvester-wings",
+        "id": 6034,
+        "name": "Pure Soul Harvester Wings",
+        "description": "These white wings are used by the Soul Harvesters to aid them in their travels to collect the souls of the fallen heroes of Lore.  When they were described to True Mortal by Serenity Okami, he decided to make some."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6034,
+            "name": "Pure Soul Harvester Wings",
+            "description": "These white wings are used by the Soul Harvesters to aid them in their travels to collect the souls of the fallen heroes of Lore.  When they were described to True Mortal by Serenity Okami, he decided to make some.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 20,
+            "level": 50,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-soulharvester.swf",
+            "icon": "wings",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Energy,6"
+        }
+    },
+    "related": {
+        "821-origins": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "821-origins",
+                "fullSlug": "quests\/821-origins",
+                "id": 821,
+                "name": "Origins",
+                "description": "The Fire elementals seem to be thawing those Khy'Rhian from the pillars. These things are made, then? hatched. It's high time you find out who or what this Nivalis is."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 821,
+                    "name": "Origins",
+                    "description": "The Fire elementals seem to be thawing those Khy'Rhian from the pillars. These things are made, then? hatched. It's high time you find out who or what this Nivalis is.",
+                    "complete": "He's hunting the gates. If True Mortal is correct, then this is VERY bad news. Better get back to True Mortal as quickly as possible and tell him about this.",
+                    "swf": "towns\/StoneheartFall\/quest5-originsredux-r15.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "KhyRhian and Fire Eles",
+                    "monsterGroupSwf": "mset-TM-origins.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

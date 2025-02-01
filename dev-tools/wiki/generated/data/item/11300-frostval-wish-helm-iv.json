@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11300-frostval-wish-helm-iv",
+        "fullSlug": "items\/11300-frostval-wish-helm-iv",
+        "id": 11300,
+        "name": "Frostval Wish Helm IV",
+        "description": "You'll have a slaying time tonight! Happy Frostval, 2013!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11300,
+            "name": "Frostval Wish Helm IV",
+            "description": "You'll have a slaying time tonight! Happy Frostval, 2013!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 50,
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-christmas wish.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,6,Ice,6,Water,3"
+        }
+    },
+    "related": {
+        "195-2013-frostval-gifts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "195-2013-frostval-gifts",
+                "fullSlug": "merge-shops\/195-2013-frostval-gifts",
+                "id": 195,
+                "name": "2013 Frostval Gifts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 195,
+                    "name": "2013 Frostval Gifts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2223,
+                    "mergeShopId": 195,
+                    "mergeId": 2097
+                },
+                "merge": {
+                    "id": 2097,
+                    "itemId1": 11300,
+                    "amount1": 1,
+                    "itemId2": 11245,
+                    "amount2": 5,
+                    "itemId": 11301,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

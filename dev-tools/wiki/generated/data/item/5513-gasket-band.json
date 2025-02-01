@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5513-gasket-band",
+        "fullSlug": "items\/5513-gasket-band",
+        "id": 5513,
+        "name": "Gasket Band",
+        "description": "This metallic ring is highly polished and was heavily machined. It probably fell from a mechagryphon. Hopefully not the one you are leaving on. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5513,
+            "name": "Gasket Band",
+            "description": "This metallic ring is highly polished and was heavily machined. It probably fell from a mechagryphon. Hopefully not the one you are leaving on. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 55,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Energy,8,Water,8,Metal,4"
+        }
+    },
+    "related": {
+        "777-popsprocket-havoc": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "777-popsprocket-havoc",
+                "fullSlug": "quests\/777-popsprocket-havoc",
+                "id": 777,
+                "name": "Popsprocket Havoc",
+                "description": "Monsters are attacking!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 777,
+                    "name": "Popsprocket Havoc",
+                    "description": "Monsters are attacking!",
+                    "complete": "Who could be behind this?!",
+                    "swf": "towns\/Chap1Finale\/quest-havoc-popsprocket.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "energy",
+                    "monsterGroupSwf": "mset-havoc-popsprocket.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

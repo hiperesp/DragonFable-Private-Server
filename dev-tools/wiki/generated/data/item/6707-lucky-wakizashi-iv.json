@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6707-lucky-wakizashi-iv",
+        "fullSlug": "items\/6707-lucky-wakizashi-iv",
+        "id": 6707,
+        "name": "Lucky Wakizashi IV",
+        "description": "This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6707,
+            "name": "Lucky Wakizashi IV",
+            "description": "This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6500,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 50,
+            "level": 71,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-luckywakizashi.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 9,
+            "intelligence": 0,
+            "luck": 11,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 76,
+            "damageMax": 90,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 2,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Stone,9,Wind,9,Immobility,5,Health,-3"
+        }
+    },
+    "related": {
+        "885-it-s-not-easy-being-gold": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "885-it-s-not-easy-being-gold",
+                "fullSlug": "quests\/885-it-s-not-easy-being-gold",
+                "id": 885,
+                "name": "It's Not Easy Being Gold",
+                "description": "It's time to confront whoever is inside the hovel!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 885,
+                    "name": "It's Not Easy Being Gold",
+                    "description": "It's time to confront whoever is inside the hovel!",
+                    "complete": "You... dont really feel that sorry for Zorbak.",
+                    "swf": "towns\/LuckyDay\/Lucky2012\/quest-goldzorbak.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zorbak",
+                    "monsterGroupSwf": "mset-goldzorbak.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

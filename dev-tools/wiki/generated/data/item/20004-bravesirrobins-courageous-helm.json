@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20004-bravesirrobins-courageous-helm",
+        "fullSlug": "items\/20004-bravesirrobins-courageous-helm",
+        "id": 20004,
+        "name": "BraveSirRobins Courageous Helm",
+        "description": "You will not run away! You look dashing while you're bashing any and every monster that might cross your path!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20004,
+            "name": "BraveSirRobins Courageous Helm",
+            "description": "You will not run away! You look dashing while you're bashing any and every monster that might cross your path!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-bravesirrobin.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 15,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Nature,15,Energy,15,Immobility,5,Health,-5"
+        }
+    },
+    "related": {
+        "336-mop-90": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "336-mop-90",
+                "fullSlug": "merge-shops\/336-mop-90",
+                "id": 336,
+                "name": "MOP 90",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 336,
+                    "name": "MOP 90"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3504,
+                    "mergeShopId": 336,
+                    "mergeId": 3583
+                },
+                "merge": {
+                    "id": 3583,
+                    "itemId1": 7589,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20004,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

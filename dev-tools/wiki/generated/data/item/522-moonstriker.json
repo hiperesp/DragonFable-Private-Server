@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "522-moonstriker",
+        "fullSlug": "items\/522-moonstriker",
+        "id": 522,
+        "name": "Moonstriker",
+        "description": "This sword is has been empowered with Light element by Amityvales weaponsmith Lugosi, after combining his sword Striker and the rare element called Moonglow."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 522,
+            "name": "Moonstriker",
+            "description": "This sword is has been empowered with Light element by Amityvales weaponsmith Lugosi, after combining his sword Striker and the rare element called Moonglow.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 15,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-light.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 33,
+            "damageMax": 43,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "7-amityvale": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "7-amityvale",
+                "fullSlug": "merge-shops\/7-amityvale",
+                "id": 7,
+                "name": "Amityvale",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 7,
+                    "name": "Amityvale"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 230,
+                    "mergeShopId": 7,
+                    "mergeId": 22
+                },
+                "merge": {
+                    "id": 22,
+                    "itemId1": 528,
+                    "amount1": 10,
+                    "itemId2": 519,
+                    "amount2": 1,
+                    "itemId": 522,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "21-lugosi-s": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "21-lugosi-s",
+                "fullSlug": "merge-shops\/21-lugosi-s",
+                "id": 21,
+                "name": "Lugosi's",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 21,
+                    "name": "Lugosi's"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 329,
+                    "mergeShopId": 21,
+                    "mergeId": 22
+                },
+                "merge": {
+                    "id": 22,
+                    "itemId1": 528,
+                    "amount1": 10,
+                    "itemId2": 519,
+                    "amount2": 1,
+                    "itemId": 522,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12123-grand-master-staff",
+        "fullSlug": "items\/12123-grand-master-staff",
+        "id": 12123,
+        "name": "Grand Master Staff",
+        "description": "It became available to you after reaching the rank of Grand Master at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12123,
+            "name": "Grand Master Staff",
+            "description": "It became available to you after reaching the rank of Grand Master at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 30000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 8,
+            "level": 58,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-pvpnew5.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 69,
+            "damageMax": 77,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "arkness,5,Shrink,22,Fire,5"
+        }
+    },
+    "related": {
+        "86-pvp-grand-master": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "86-pvp-grand-master",
+                "fullSlug": "item-shops\/86-pvp-grand-master",
+                "id": 86,
+                "name": "PVP Grand Master",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 86,
+                    "name": "PVP Grand Master",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17010-mooncaller-scimitar",
+        "fullSlug": "items\/17010-mooncaller-scimitar",
+        "id": 17010,
+        "name": "Mooncaller Scimitar",
+        "description": "Valorous Mooncalled charged into battle against an onslaught of undead creatures that fell on a small, remote village. This sword is a replica made to the effigy of the Staff she wielded in the heat of battle."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17010,
+            "name": "Mooncaller Scimitar",
+            "description": "Valorous Mooncalled charged into battle against an onslaught of undead creatures that fell on a small, remote village. This sword is a replica made to the effigy of the Staff she wielded in the heat of battle.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 15,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-mooncalled.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 34,
+            "damageMax": 34,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,1,Light,1"
+        }
+    },
+    "related": {
+        "544-mooncalled-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "544-mooncalled-loot-for-dcs",
+                "fullSlug": "item-shops\/544-mooncalled-loot-for-dcs",
+                "id": 544,
+                "name": "Mooncalled Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 544,
+                    "name": "Mooncalled Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "1415-the-spear-of-lumina": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1415-the-spear-of-lumina",
+                "fullSlug": "quests\/1415-the-spear-of-lumina",
+                "id": 1415,
+                "name": "The Spear of Lumina",
+                "description": "Romp through one of the many ruins of Braughlmurk, and somewhere you should find a rare book of the Paladin Order."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1415,
+                    "name": "The Spear of Lumina",
+                    "description": "Romp through one of the many ruins of Braughlmurk, and somewhere you should find a rare book of the Paladin Order.",
+                    "complete": "You found an old shelf full of paladin tales and folk stories.",
+                    "swf": "towns\/Braughlmurk\/random-Braughlmurk2r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghost, skele, light",
+                    "monsterGroupSwf": "mset-braughlmurk.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

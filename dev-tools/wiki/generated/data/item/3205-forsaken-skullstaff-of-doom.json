@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3205-forsaken-skullstaff-of-doom",
+        "fullSlug": "items\/3205-forsaken-skullstaff-of-doom",
+        "id": 3205,
+        "name": "Forsaken Skullstaff of Doom",
+        "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You think your exposure to this much evil might be affecting you..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3205,
+            "name": "Forsaken Skullstaff of Doom",
+            "description": "This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You think your exposure to this much evil might be affecting you...",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 3,
+            "level": 31,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/dooms\/staff-doom2.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": -5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 53,
+            "damageMax": 87,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 412,
+                    "mergeShopId": 32,
+                    "mergeId": 761
+                },
+                "merge": {
+                    "id": 761,
+                    "itemId1": 3205,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 13,
+                    "itemId": 4160,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

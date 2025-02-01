@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10158-drones-on-your-back",
+        "fullSlug": "items\/10158-drones-on-your-back",
+        "id": 10158,
+        "name": "Drones On Your Back",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10158,
+            "name": "Drones On Your Back"
+        }
+    },
+    "related": {
+        "143-drones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "143-drones",
+                "fullSlug": "merge-shops\/143-drones",
+                "id": 143,
+                "name": "Drones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 143,
+                    "name": "Drones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2075,
+                    "mergeShopId": 143,
+                    "mergeId": 1925
+                },
+                "merge": {
+                    "id": 1925,
+                    "itemId1": 10158,
+                    "amount1": 1,
+                    "itemId2": 7689,
+                    "amount2": 1,
+                    "itemId": 10159,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11817-escherion-cape",
+        "fullSlug": "items\/11817-escherion-cape",
+        "id": 11817,
+        "name": "Escherion Cape",
+        "description": "As the winds of the world twist around you, this cape provides protection! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11817,
+            "name": "Escherion Cape",
+            "description": "As the winds of the world twist around you, this cape provides protection! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-escherion.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,6,All,1"
+        }
+    },
+    "related": {
+        "201-escherion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "201-escherion",
+                "fullSlug": "merge-shops\/201-escherion",
+                "id": 201,
+                "name": "Escherion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 201,
+                    "name": "Escherion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2357,
+                    "mergeShopId": 201,
+                    "mergeId": 2205
+                },
+                "merge": {
+                    "id": 2205,
+                    "itemId1": 11817,
+                    "amount1": 1,
+                    "itemId2": 11820,
+                    "amount2": 1,
+                    "itemId": 11818,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

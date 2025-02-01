@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11656-void-rift-wings",
+        "fullSlug": "items\/11656-void-rift-wings",
+        "id": 11656,
+        "name": "Void Rift Wings",
+        "description": "Made from materials found only in the deepest Void, these wings are ageless!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11656,
+            "name": "Void Rift Wings",
+            "description": "Made from materials found only in the deepest Void, these wings are ageless!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-voidrift.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3,Darkness,2"
+        }
+    },
+    "related": {
+        "1137-pellow-village": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1137-pellow-village",
+                "fullSlug": "quests\/1137-pellow-village",
+                "id": 1137,
+                "name": "Pellow Village",
+                "description": "Clear out Pellow Village!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1137,
+                    "name": "Pellow Village",
+                    "description": "Clear out Pellow Village!",
+                    "complete": "You've stopped one group of marauders but is Ravenloss safe?",
+                    "swf": "towns\/3Ravenloss\/random-pellow.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15715-soulforged-staff",
+        "fullSlug": "items\/15715-soulforged-staff",
+        "id": 15715,
+        "name": "SoulForged Staff",
+        "description": "Your very own SoulForged staff! It emanates an aura of wisdom and determination!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15715,
+            "name": "SoulForged Staff",
+            "description": "Your very own SoulForged staff! It emanates an aura of wisdom and determination!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 7,
+            "level": 60,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-soulforged.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 12,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 76,
+            "damageMax": 76,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All, 6"
+        }
+    },
+    "related": {
+        "248-soulforged-staff": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "248-soulforged-staff",
+                "fullSlug": "merge-shops\/248-soulforged-staff",
+                "id": 248,
+                "name": "SoulForged Staff",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 248,
+                    "name": "SoulForged Staff"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2797,
+                    "mergeShopId": 248,
+                    "mergeId": 2783
+                },
+                "merge": {
+                    "id": 2783,
+                    "itemId1": 15721,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15715,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "270-spirit-cast": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "270-spirit-cast",
+                "fullSlug": "merge-shops\/270-spirit-cast",
+                "id": 270,
+                "name": "Spirit Cast",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 270,
+                    "name": "Spirit Cast"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3024,
+                    "mergeShopId": 270,
+                    "mergeId": 2792
+                },
+                "merge": {
+                    "id": 2792,
+                    "itemId1": 15715,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15721,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "page": {
+        "slugBase": "merge-shops",
+        "slug": "409-eternal-light",
+        "fullSlug": "merge-shops\/409-eternal-light",
+        "id": 409,
+        "name": "Eternal Light",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "mergeShop",
+        "properties": {
+            "id": 409,
+            "name": "Eternal Light"
+        }
+    },
+    "related": {
+        "21757-wings-of-eternal-light-reforged": {
+            "page": {
+                "slugBase": "items",
+                "slug": "21757-wings-of-eternal-light-reforged",
+                "fullSlug": "items\/21757-wings-of-eternal-light-reforged",
+                "id": 21757,
+                "name": "Wings of Eternal Light, Reforged",
+                "description": "Light undrownable, eternal. This item requires a Dragon Amulet."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 21757,
+                    "name": "Wings of Eternal Light, Reforged",
+                    "description": "Light undrownable, eternal. This item requires a Dragon Amulet.",
+                    "dragonAmulet": 1,
+                    "currency": 2,
+                    "maxStackSize": 1,
+                    "bonus": 0,
+                    "rarity": 100,
+                    "level": 5,
+                    "element": "Light",
+                    "categoryId": "2",
+                    "equipSpot": "Back",
+                    "itemType": "Wings",
+                    "swf": "items\/back\/cape-lightwings.swf",
+                    "icon": "wings",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 5,
+                    "charisma": 5,
+                    "endurance": 5,
+                    "wisdom": 5,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": "All,15"
+                }
+            },
+            "related": []
+        },
+        "21755-shrouded-light-shard": {
+            "page": {
+                "slugBase": "items",
+                "slug": "21755-shrouded-light-shard",
+                "fullSlug": "items\/21755-shrouded-light-shard",
+                "id": 21755,
+                "name": "Shrouded Light Shard",
+                "description": "A small shard of crystallized Light magic, clouded by Darkness. Combine 100 to create Wings of Eternal Light, Reforged."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 21755,
+                    "name": "Shrouded Light Shard",
+                    "description": "A small shard of crystallized Light magic, clouded by Darkness. Combine 100 to create Wings of Eternal Light, Reforged.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 1,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 100,
+                    "bonus": 0,
+                    "rarity": 0,
+                    "level": 0,
+                    "type": "Melee",
+                    "element": "Light",
+                    "categoryId": "4",
+                    "equipSpot": "Not Equipable",
+                    "itemType": "Resource",
+                    "swf": "",
+                    "icon": "yellowgem",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": ""
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15526-swordhaven-rose-trident",
+        "fullSlug": "items\/15526-swordhaven-rose-trident",
+        "id": 15526,
+        "name": "Swordhaven Rose Trident",
+        "description": "A staff used only by the Rose Elite."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15526,
+            "name": "Swordhaven Rose Trident",
+            "description": "A staff used only by the Rose Elite.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1700,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 30,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Swordhavenrose.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 47,
+            "damageMax": 53,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,2,Wind,2"
+        }
+    },
+    "related": {
+        "491-rose-defender": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "491-rose-defender",
+                "fullSlug": "item-shops\/491-rose-defender",
+                "id": 491,
+                "name": "Rose Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 491,
+                    "name": "Rose Defender",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1561-filament",
+        "fullSlug": "items\/1561-filament",
+        "id": 1561,
+        "name": "Filament",
+        "description": "A twisted magical wire."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1561,
+            "name": "Filament",
+            "description": "A twisted magical wire.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "52-voltabolt-s-challenge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "52-voltabolt-s-challenge",
+                "fullSlug": "quests\/52-voltabolt-s-challenge",
+                "id": 52,
+                "name": "Voltabolt's Challenge",
+                "description": "Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 52,
+                    "name": "Voltabolt's Challenge",
+                    "description": "Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation.",
+                    "complete": "That's one creation down... but why does it still sound like gnashing metal and electric sparking?",
+                    "swf": "quests\/quest-fullmetal-2019-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "0",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-elementalmetal2.swf"
+                }
+            },
+            "related": []
+        },
+        "2-voltabolt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "2-voltabolt",
+                "fullSlug": "merge-shops\/2-voltabolt",
+                "id": 2,
+                "name": "Voltabolt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 2,
+                    "name": "Voltabolt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 7,
+                    "mergeShopId": 2,
+                    "mergeId": 374
+                },
+                "merge": {
+                    "id": 374,
+                    "itemId1": 1561,
+                    "amount1": 1,
+                    "itemId2": 467,
+                    "amount2": 15,
+                    "itemId": 1565,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8640-pink-carnaval-cape-iii",
+        "fullSlug": "items\/8640-pink-carnaval-cape-iii",
+        "id": 8640,
+        "name": "Pink Carnaval Cape III",
+        "description": "Celebrate Carnaval 2013 with this feathery cloak!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8640,
+            "name": "Pink Carnaval Cape III",
+            "description": "Celebrate Carnaval 2013 with this feathery cloak!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 41,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-carnival-pink.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 4,
+            "charisma": 3,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5,Immobility,2"
+        }
+    },
+    "related": {
+        "304-carnaval-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "304-carnaval-shop",
+                "fullSlug": "item-shops\/304-carnaval-shop",
+                "id": 304,
+                "name": "Carnaval Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 304,
+                    "name": "Carnaval Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

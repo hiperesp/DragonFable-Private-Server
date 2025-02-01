@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22252-hourglass-a-01",
+        "fullSlug": "items\/22252-hourglass-a-01",
+        "id": 22252,
+        "name": "Hourglass A.01",
+        "description": "This small hourglass holds no sand. Proof of victory over the Test of Meanwhile challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22252,
+            "name": "Hourglass A.01",
+            "description": "This small hourglass holds no sand. Proof of victory over the Test of Meanwhile challenge.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2201-test-of-meanwhile": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2201-test-of-meanwhile",
+                "fullSlug": "quests\/2201-test-of-meanwhile",
+                "id": 2201,
+                "name": "Test of Meanwhile",
+                "description": "The first test."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2201,
+                    "swf": "towns\/TimeArena\/quest3-chaoschrono.swf",
+                    "swfX": "none",
+                    "extra": "",
+                    "name": "Test of Meanwhile",
+                    "description": "The first test.",
+                    "complete": "The next lesson of the Chronology awaits.",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "chronomancer\/corruptor",
+                    "monsterGroupSwf": "mset-arenachrono1.swf"
+                }
+            },
+            "related": []
+        },
+        "433-meanwhile-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "433-meanwhile-rewards",
+                "fullSlug": "merge-shops\/433-meanwhile-rewards",
+                "id": 433,
+                "name": "Meanwhile Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 433,
+                    "name": "Meanwhile Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4441,
+                    "mergeShopId": 433,
+                    "mergeId": 4478
+                },
+                "merge": {
+                    "id": 4478,
+                    "itemId1": 22252,
+                    "amount1": 1,
+                    "itemId2": 22253,
+                    "amount2": 1,
+                    "itemId": 22249,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

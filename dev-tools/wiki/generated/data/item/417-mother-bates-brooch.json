@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "417-mother-bates-brooch",
+        "fullSlug": "items\/417-mother-bates-brooch",
+        "id": 417,
+        "name": "Mother Bates' Brooch",
+        "description": "This is a brooch in the style worn by elderly women."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 417,
+            "name": "Mother Bates' Brooch",
+            "description": "This is a brooch in the style worn by elderly women.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "treasure",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "32-spirits-in-the-inn": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "32-spirits-in-the-inn",
+                "fullSlug": "quests\/32-spirits-in-the-inn",
+                "id": 32,
+                "name": "Spirits in the Inn",
+                "description": "The Inn in town has been flooded with the spirits of the dead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 32,
+                    "name": "Spirits in the Inn",
+                    "description": "The Inn in town has been flooded with the spirits of the dead!",
+                    "complete": "The Inn in town has been flooded with the spirits of the dead!",
+                    "swf": "quests\/quest-inn.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 12,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-ghosts.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

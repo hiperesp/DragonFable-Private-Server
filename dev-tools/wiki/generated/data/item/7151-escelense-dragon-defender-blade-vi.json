@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7151-escelense-dragon-defender-blade-vi",
+        "fullSlug": "items\/7151-escelense-dragon-defender-blade-vi",
+        "id": 7151,
+        "name": "Escelense Dragon Defender Blade VI",
+        "description": "Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions. This item requires a Dragon Amulet. Weapon does 30% more damage to elementals."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7151,
+            "name": "Escelense Dragon Defender Blade VI",
+            "description": "Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions. This item requires a Dragon Amulet. Weapon does 30% more damage to elementals.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 15,
+            "level": 73,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-escelense-r1.swf",
+            "icon": "sword",
+            "strength": 9,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 5,
+            "wisdom": 4,
+            "damageMin": 66,
+            "damageMax": 98,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Fire,10,Energy,10,Ice,8,Water,8,Immobility,3"
+        }
+    },
+    "related": {
+        "115-escelense": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "115-escelense",
+                "fullSlug": "merge-shops\/115-escelense",
+                "id": 115,
+                "name": "Escelense",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 115,
+                    "name": "Escelense"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1595,
+                    "mergeShopId": 115,
+                    "mergeId": 1538
+                },
+                "merge": {
+                    "id": 1538,
+                    "itemId1": 7151,
+                    "amount1": 1,
+                    "itemId2": 7135,
+                    "amount2": 10,
+                    "itemId": 7322,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

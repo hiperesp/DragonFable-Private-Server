@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7223-bullseye-spear",
+        "fullSlug": "items\/7223-bullseye-spear",
+        "id": 7223,
+        "name": "Bullseye Spear",
+        "description": "Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7223,
+            "name": "Bullseye Spear",
+            "description": "Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 30,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Bullseye.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 46,
+            "damageMax": 60,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,3,Light,3"
+        }
+    },
+    "related": {
+        "116-bullseye": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "116-bullseye",
+                "fullSlug": "merge-shops\/116-bullseye",
+                "id": 116,
+                "name": "Bullseye",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Bullseye"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1659,
+                    "mergeShopId": 116,
+                    "mergeId": 1535
+                },
+                "merge": {
+                    "id": 1535,
+                    "itemId1": 7223,
+                    "amount1": 1,
+                    "itemId2": 7227,
+                    "amount2": 1,
+                    "itemId": 7224,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

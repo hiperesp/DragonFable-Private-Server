@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2092-dagger-of-rejoicing",
+        "fullSlug": "items\/2092-dagger-of-rejoicing",
+        "id": 2092,
+        "name": "Dagger of Rejoicing",
+        "description": "It is truly a time to rejoice, for your friends have been freed from Noxus cruel, coal-loving grasp.  Carry this dagger as a reminder of your victory and enjoy its healing powers: a 5% chance to heal you on a successful hit."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2092,
+            "name": "Dagger of Rejoicing",
+            "description": "It is truly a time to rejoice, for your friends have been freed from Noxus cruel, coal-loving grasp.  Carry this dagger as a reminder of your victory and enjoy its healing powers: a 5% chance to heal you on a successful hit.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-frostval08.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 58,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "79-lumps-of-coal-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "79-lumps-of-coal-shop",
+                "fullSlug": "item-shops\/79-lumps-of-coal-shop",
+                "id": 79,
+                "name": "Lumps of Coal Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 79,
+                    "name": "Lumps of Coal Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

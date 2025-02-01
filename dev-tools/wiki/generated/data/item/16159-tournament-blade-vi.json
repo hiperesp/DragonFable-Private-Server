@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16159-tournament-blade-vi",
+        "fullSlug": "items\/16159-tournament-blade-vi",
+        "id": 16159,
+        "name": "Tournament Blade VI",
+        "description": "This blade commemorates victors in the Swordhaven Tournament. It's supposed to be ornamental, but you could sharpen it up."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16159,
+            "name": "Tournament Blade VI",
+            "description": "This blade commemorates victors in the Swordhaven Tournament. It's supposed to be ornamental, but you could sharpen it up.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 55,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-tournament.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 64,
+            "damageMax": 76,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Metal,5,Silver,5,Evil,5"
+        }
+    },
+    "related": {
+        "509-tournament-part-2": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "509-tournament-part-2",
+                "fullSlug": "item-shops\/509-tournament-part-2",
+                "id": 509,
+                "name": "Tournament Part 2!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 509,
+                    "name": "Tournament Part 2!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

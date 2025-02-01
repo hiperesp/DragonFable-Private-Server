@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6125-sil-greatsword-v",
+        "fullSlug": "items\/6125-sil-greatsword-v",
+        "id": 6125,
+        "name": "Sil Greatsword V",
+        "description": "A beautiful and light-weight blade that you reforged from items found in the ruins of Sil. Made from zephyrite, a very rare wind metal."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6125,
+            "name": "Sil Greatsword V",
+            "description": "A beautiful and light-weight blade that you reforged from items found in the ruins of Sil. Made from zephyrite, a very rare wind metal.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 54,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-Sil Greatsword.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 63,
+            "damageMax": 77,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,6,Stone,6"
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 436,
+                    "mergeShopId": 32,
+                    "mergeId": 1199
+                },
+                "merge": {
+                    "id": 1199,
+                    "itemId1": 6103,
+                    "amount1": 1,
+                    "itemId2": 6104,
+                    "amount2": 1,
+                    "itemId": 6125,
+                    "string": 1,
+                    "index": 2,
+                    "value": 10,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

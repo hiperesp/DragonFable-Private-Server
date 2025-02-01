@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7625-cat-s-eye-kama-iii",
+        "fullSlug": "items\/7625-cat-s-eye-kama-iii",
+        "id": 7625,
+        "name": "Cat's Eye Kama III",
+        "description": "These small kama are crafted from obsidian, iron, and amber and are decorated with a cat's eye and enchanted by the light of a full moon to remain sharp."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7625,
+            "name": "Cat's Eye Kama III",
+            "description": "These small kama are crafted from obsidian, iron, and amber and are decorated with a cat's eye and enchanted by the light of a full moon to remain sharp.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 52,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-mogloween12.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 78,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,7,Water,6,Wind,5,Immobility,2"
+        }
+    },
+    "related": {
+        "962-catastrophic-candy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "962-catastrophic-candy",
+                "fullSlug": "quests\/962-catastrophic-candy",
+                "id": 962,
+                "name": "Catastrophic Candy",
+                "description": "Can you defeat Furrkenstein?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 962,
+                    "name": "Catastrophic Candy",
+                    "description": "Can you defeat Furrkenstein?!",
+                    "complete": "Furrkenstein is no more!",
+                    "swf": "towns\/Mogloween\/M12\/quest4-catastrophic.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "furrkenstein",
+                    "monsterGroupSwf": "mset-furrkenstein.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

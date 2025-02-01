@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19792-tytanvisage-helm-vind-v",
+        "fullSlug": "items\/19792-tytanvisage-helm-vind-v",
+        "id": 19792,
+        "name": "Tytanvisage Helm (Vind) V",
+        "description": "A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of the Vind. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19792,
+            "name": "Tytanvisage Helm (Vind) V",
+            "description": "A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of the Vind. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 70,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-tytanvind.swf",
+            "icon": "helm",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 13,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Light,5,Fire,5,All,5"
+        }
+    },
+    "related": {
+        "324-vind-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "324-vind-helm",
+                "fullSlug": "merge-shops\/324-vind-helm",
+                "id": 324,
+                "name": "Vind Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 324,
+                    "name": "Vind Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3444,
+                    "mergeShopId": 324,
+                    "mergeId": 3544
+                },
+                "merge": {
+                    "id": 3544,
+                    "itemId1": 19792,
+                    "amount1": 1,
+                    "itemId2": 19272,
+                    "amount2": 5,
+                    "itemId": 19793,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

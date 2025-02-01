@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16342-comte-cape",
+        "fullSlug": "items\/16342-comte-cape",
+        "id": 16342,
+        "name": "Comte Cape",
+        "description": "You?re the Big Cheese now!."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16342,
+            "name": "Comte Cape",
+            "description": "You?re the Big Cheese now!.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 20,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-bigcheese.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Nature,1"
+        }
+    },
+    "related": {
+        "1383-a-lincoln-log-to-the-past": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1383-a-lincoln-log-to-the-past",
+                "fullSlug": "quests\/1383-a-lincoln-log-to-the-past",
+                "id": 1383,
+                "name": "A Lincoln Log to the past",
+                "description": "Learn about San Robin's past."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1383,
+                    "name": "A Lincoln Log to the past",
+                    "description": "Learn about San Robin's past.",
+                    "complete": "You've managed to safely get back to Falconreach. But San Robin's story still echoes...",
+                    "swf": "towns\/1Falconreach\/1SanRobin\/quest-lincoln.swf ",
+                    "swfX": "towns\/1Falconreach\/1SanRobin\/quest-lincoln-x.swf ",
+                    "maxSilver": 0,
+                    "maxGold": 1234,
+                    "maxGems": 0,
+                    "maxExp": 54321,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "woodland creatures and bandits",
+                    "monsterGroupSwf": "mset-lincoln.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

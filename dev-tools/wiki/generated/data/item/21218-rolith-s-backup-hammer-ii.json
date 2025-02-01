@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21218-rolith-s-backup-hammer-ii",
+        "fullSlug": "items\/21218-rolith-s-backup-hammer-ii",
+        "id": 21218,
+        "name": "Rolith's Backup Hammer II",
+        "description": "Rolith's backup hammer! Every 9 hits, your next hit will channel the power of togs and will be critical! Proof of victory over the First Encounters challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21218,
+            "name": "Rolith's Backup Hammer II",
+            "description": "Rolith's backup hammer! Every 9 hits, your next hit will channel the power of togs and will be critical! Proof of victory over the First Encounters challenge!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 60,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-rolithhammernew.swf",
+            "icon": "scythe",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 18,
+            "charisma": 18,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 76,
+            "damageMax": 92,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,7,Health,-14"
+        }
+    },
+    "related": {
+        "378-rolith-s-backup-hammer": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "378-rolith-s-backup-hammer",
+                "fullSlug": "merge-shops\/378-rolith-s-backup-hammer",
+                "id": 378,
+                "name": "Rolith's Backup Hammer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 378,
+                    "name": "Rolith's Backup Hammer"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3951,
+                    "mergeShopId": 378,
+                    "mergeId": 4060
+                },
+                "merge": {
+                    "id": 4060,
+                    "itemId1": 21222,
+                    "amount1": 1,
+                    "itemId2": 21223,
+                    "amount2": 1,
+                    "itemId": 21218,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

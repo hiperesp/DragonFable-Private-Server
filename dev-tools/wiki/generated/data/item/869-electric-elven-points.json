@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "869-electric-elven-points",
+        "fullSlug": "items\/869-electric-elven-points",
+        "id": 869,
+        "name": "Electric Elven Points",
+        "description": "These weapons require a Dragon Amulet. Elves crafted these daggers and seared them with pure energy. You can tell because they're pointy like elf ears. Wait, all daggers are pointy..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 869,
+            "name": "Electric Elven Points",
+            "description": "These weapons require a Dragon Amulet. Elves crafted these daggers and seared them with pure energy. You can tell because they're pointy like elf ears. Wait, all daggers are pointy...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 6,
+            "level": 15,
+            "type": "Pierce",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-xanenergy.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 46,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,2"
+        }
+    },
+    "related": {
+        "128-the-river-of-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "128-the-river-of-fire",
+                "fullSlug": "quests\/128-the-river-of-fire",
+                "id": 128,
+                "name": "The River Of Fire",
+                "description": "Warlic has asked you to investigate what has happened to the river flowing past the mining town of Lymcrest."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 128,
+                    "name": "The River Of Fire",
+                    "description": "Warlic has asked you to investigate what has happened to the river flowing past the mining town of Lymcrest.",
+                    "complete": "The insane pyromancer Xan has replaced the water in Lymcrest's river with a scalding lava flow. If you do not find a way to get the water back soon Lymcrest will be doomed!",
+                    "swf": "quests\/quest-xan1-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire",
+                    "monsterGroupSwf": "mset-lava-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

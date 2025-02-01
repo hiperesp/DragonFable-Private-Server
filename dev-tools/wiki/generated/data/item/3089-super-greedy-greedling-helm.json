@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3089-super-greedy-greedling-helm",
+        "fullSlug": "items\/3089-super-greedy-greedling-helm",
+        "id": 3089,
+        "name": "Super Greedy Greedling Helm",
+        "description": "This item requires a Dragon Amulet. A trophy from Mogloween 2009! Wearing it makes you feel slightly stingy..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3089,
+            "name": "Super Greedy Greedling Helm",
+            "description": "This item requires a Dragon Amulet. A trophy from Mogloween 2009! Wearing it makes you feel slightly stingy...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-mogloween09-quest-GREED.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 12,
+            "charisma": -6,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,8,Charity,-100"
+        }
+    },
+    "related": {
+        "510-tricks-and-treats-09": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "510-tricks-and-treats-09",
+                "fullSlug": "quests\/510-tricks-and-treats-09",
+                "id": 510,
+                "name": "Tricks and Treats 09",
+                "description": "Give The Candy Up"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 510,
+                    "name": "Tricks and Treats 09",
+                    "description": "Give The Candy Up",
+                    "complete": "Give That candy away!",
+                    "swf": "towns\/mogloween\/quest-trickortreat_rc.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Mogloween",
+                    "monsterGroupSwf": "mset-mogloween2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

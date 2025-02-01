@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14265-linked-bands-of-nature-s-bounty",
+        "fullSlug": "items\/14265-linked-bands-of-nature-s-bounty",
+        "id": 14265,
+        "name": "Linked Bands of Nature's Bounty",
+        "description": "This necklace is made of bands of ivy, moss, and oak bark. It seems to radiate the power of nature. Someone had to have made this, but who? This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14265,
+            "name": "Linked Bands of Nature's Bounty",
+            "description": "This necklace is made of bands of ivy, moss, and oak bark. It seems to radiate the power of nature. Someone had to have made this, but who? This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 15,
+            "rarity": 0,
+            "level": 77,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 15,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 20,
+            "dodge": 20,
+            "block": 20,
+            "resists": "Darkness,8,Fire,10,Mana,-8,Health,-5,Immobility,6"
+        }
+    },
+    "related": {
+        "1279-the-great-petscape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1279-the-great-petscape",
+                "fullSlug": "quests\/1279-the-great-petscape",
+                "id": 1279,
+                "name": "The Great Petscape",
+                "description": "Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1279,
+                    "name": "The Great Petscape",
+                    "description": "Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!",
+                    "complete": "Those darn ninja monkeys! At least all the pets are accounted for, if a little bit grumpy.",
+                    "swf": "towns\/3OspreyCove\/quest-petscape.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pirate pets",
+                    "monsterGroupSwf": "mset-piratepets-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

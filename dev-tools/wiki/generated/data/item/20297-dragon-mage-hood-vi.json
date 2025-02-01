@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20297-dragon-mage-hood-vi",
+        "fullSlug": "items\/20297-dragon-mage-hood-vi",
+        "id": 20297,
+        "name": "Dragon Mage Hood VI",
+        "description": "Crafted from a dragon's molted skin, this hood is highly resisted to magic and fire! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20297,
+            "name": "Dragon Mage Hood VI",
+            "description": "Crafted from a dragon's molted skin, this hood is highly resisted to magic and fire! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-dragonmage.swf",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 12,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 12,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Fire,11,Immobility,10"
+        }
+    },
+    "related": {
+        "352-dragon-challenge-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "352-dragon-challenge-shop",
+                "fullSlug": "item-shops\/352-dragon-challenge-shop",
+                "id": 352,
+                "name": "Dragon Challenge Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 352,
+                    "name": "Dragon Challenge Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6575-atrea-s-sentinel-helm-ii",
+        "fullSlug": "items\/6575-atrea-s-sentinel-helm-ii",
+        "id": 6575,
+        "name": "Atrea's Sentinel Helm II",
+        "description": "A specially made helm, crafted to withstand the forces that create interdimensional rifts!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6575,
+            "name": "Atrea's Sentinel Helm II",
+            "description": "A specially made helm, crafted to withstand the forces that create interdimensional rifts!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 31,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-atreas sentinel helm.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,6,Fire,5,Water,3,Ice,2"
+        }
+    },
+    "related": {
+        "865-the-puppet-general": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "865-the-puppet-general",
+                "fullSlug": "quests\/865-the-puppet-general",
+                "id": 865,
+                "name": "The Puppet General",
+                "description": "Defeat the general of the invading army!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 865,
+                    "name": "The Puppet General",
+                    "description": "Defeat the general of the invading army!",
+                    "complete": "Wargoth used Veyla as a puppet to lead his legion of infernals. You've freed her mind, but will Wargoth eventually enslave all of Lore?",
+                    "swf": "wars\/F13-Aliens\/quest-alienboss-new.swf",
+                    "swfX": "wars\/F13-Aliens\/quest-alienboss-new-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "veyla",
+                    "monsterGroupSwf": "mset-f13-alienboss.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

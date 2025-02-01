@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9777-king-blade-of-hearts",
+        "fullSlug": "items\/9777-king-blade-of-hearts",
+        "id": 9777,
+        "name": "King Blade of Hearts",
+        "description": "Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9777,
+            "name": "King Blade of Hearts",
+            "description": "Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 28000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 8,
+            "level": 80,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-Hearts-update.swf",
+            "icon": "sword",
+            "strength": 13,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 12,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 80,
+            "damageMax": 96,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 12,
+            "parry": 0,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Stone,15,Wind,15,Fire,15"
+        }
+    },
+    "related": {
+        "340-card-shoppe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "340-card-shoppe",
+                "fullSlug": "item-shops\/340-card-shoppe",
+                "id": 340,
+                "name": "Card Shoppe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 340,
+                    "name": "Card Shoppe",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

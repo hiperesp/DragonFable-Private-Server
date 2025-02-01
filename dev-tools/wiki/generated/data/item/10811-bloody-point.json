@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10811-bloody-point",
+        "fullSlug": "items\/10811-bloody-point",
+        "id": 10811,
+        "name": "Bloody Point",
+        "description": "The essences of all the monster hearts you collected illuminate the blade!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10811,
+            "name": "Bloody Point",
+            "description": "The essences of all the monster hearts you collected illuminate the blade!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-bloody point.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 80,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,6,Darkness,4,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "176-bloody-point-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "176-bloody-point-60",
+                "fullSlug": "merge-shops\/176-bloody-point-60",
+                "id": 176,
+                "name": "Bloody Point 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 176,
+                    "name": "Bloody Point 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2148,
+                    "mergeShopId": 176,
+                    "mergeId": 1994
+                },
+                "merge": {
+                    "id": 1994,
+                    "itemId1": 10810,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10811,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "177-bloody-point-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "177-bloody-point-70",
+                "fullSlug": "merge-shops\/177-bloody-point-70",
+                "id": 177,
+                "name": "Bloody Point 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 177,
+                    "name": "Bloody Point 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2149,
+                    "mergeShopId": 177,
+                    "mergeId": 1995
+                },
+                "merge": {
+                    "id": 1995,
+                    "itemId1": 10811,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10812,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

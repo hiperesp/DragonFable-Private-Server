@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2269-akinetos-fury",
+        "fullSlug": "items\/2269-akinetos-fury",
+        "id": 2269,
+        "name": "Akinetos' Fury",
+        "description": "You would be raging too if you were stuck with 8 other individuals without being able to take a \nbreak! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2269,
+            "name": "Akinetos' Fury",
+            "description": "You would be raging too if you were stuck with 8 other individuals without being able to take a \nbreak! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1550,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 46,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bacon6.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 7,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 61,
+            "damageMax": 69,
+            "defenseMelee": 2,
+            "defensePierce": 1,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,7,Nature,5"
+        }
+    },
+    "related": {
+        "90-hydra-souvenirs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "90-hydra-souvenirs",
+                "fullSlug": "item-shops\/90-hydra-souvenirs",
+                "id": 90,
+                "name": "Hydra Souvenirs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 90,
+                    "name": "Hydra Souvenirs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

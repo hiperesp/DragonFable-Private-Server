@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21877-mixed-metal-shards",
+        "fullSlug": "items\/21877-mixed-metal-shards",
+        "id": 21877,
+        "name": "Mixed Metal Shards",
+        "description": "Forged with magics and techniques continents apart, this pile of metal shards has seen more than many people could ever hope to."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21877,
+            "name": "Mixed Metal Shards",
+            "description": "Forged with magics and techniques continents apart, this pile of metal shards has seen more than many people could ever hope to.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "413-yeden-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "413-yeden-upgrades",
+                "fullSlug": "merge-shops\/413-yeden-upgrades",
+                "id": 413,
+                "name": "Yeden Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 413,
+                    "name": "Yeden Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4261,
+                    "mergeShopId": 413,
+                    "mergeId": 4287
+                },
+                "merge": {
+                    "id": 4287,
+                    "itemId1": 21877,
+                    "amount1": 1,
+                    "itemId2": 21809,
+                    "amount2": 1,
+                    "itemId": 21878,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "421-yeden-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "421-yeden-upgrades",
+                "fullSlug": "merge-shops\/421-yeden-upgrades",
+                "id": 421,
+                "name": "Yeden Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 421,
+                    "name": "Yeden Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4363,
+                    "mergeShopId": 421,
+                    "mergeId": 4287
+                },
+                "merge": {
+                    "id": 4287,
+                    "itemId1": 21877,
+                    "amount1": 1,
+                    "itemId2": 21809,
+                    "amount2": 1,
+                    "itemId": 21878,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

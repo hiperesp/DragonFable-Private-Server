@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12439-dragonlord-vath-wings",
+        "fullSlug": "items\/12439-dragonlord-vath-wings",
+        "id": 12439,
+        "name": "DragonLord Vath Wings",
+        "description": "The pride of DragonLord Vath. These wings showed how powerful of a DragonLord he really was. Sadly, he lost the ability to use them when he became chaorrupted."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12439,
+            "name": "DragonLord Vath Wings",
+            "description": "The pride of DragonLord Vath. These wings showed how powerful of a DragonLord he really was. Sadly, he lost the ability to use them when he became chaorrupted.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 80,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-vath.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,4"
+        }
+    },
+    "related": {
+        "206-vath": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "206-vath",
+                "fullSlug": "merge-shops\/206-vath",
+                "id": 206,
+                "name": "Vath",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 206,
+                    "name": "Vath"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2447,
+                    "mergeShopId": 206,
+                    "mergeId": 3265
+                },
+                "merge": {
+                    "id": 3265,
+                    "itemId1": 12439,
+                    "amount1": 1,
+                    "itemId2": 12456,
+                    "amount2": 1,
+                    "itemId": 18237,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

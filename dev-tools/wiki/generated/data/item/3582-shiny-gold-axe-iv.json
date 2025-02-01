@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3582-shiny-gold-axe-iv",
+        "fullSlug": "items\/3582-shiny-gold-axe-iv",
+        "id": 3582,
+        "name": "Shiny Gold Axe IV",
+        "description": "This axe looks great with some polishing and a coat of gold, don't you think?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3582,
+            "name": "Shiny Gold Axe IV",
+            "description": "This axe looks great with some polishing and a coat of gold, don't you think?",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 43,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-gold1.swf",
+            "icon": "axe",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 57,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,7,Stone,5"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 71,
+                    "mergeShopId": 4,
+                    "mergeId": 663
+                },
+                "merge": {
+                    "id": 663,
+                    "itemId1": 3582,
+                    "amount1": 1,
+                    "itemId2": 3578,
+                    "amount2": 11,
+                    "itemId": 3583,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "37-gold-war": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "37-gold-war",
+                "fullSlug": "merge-shops\/37-gold-war",
+                "id": 37,
+                "name": "Gold War!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 37,
+                    "name": "Gold War!"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 622,
+                    "mergeShopId": 37,
+                    "mergeId": 663
+                },
+                "merge": {
+                    "id": 663,
+                    "itemId1": 3582,
+                    "amount1": 1,
+                    "itemId2": 3578,
+                    "amount2": 11,
+                    "itemId": 3583,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "64-gold-war-2010": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "64-gold-war-2010",
+                "fullSlug": "merge-shops\/64-gold-war-2010",
+                "id": 64,
+                "name": "Gold War 2010",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 64,
+                    "name": "Gold War 2010"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 908,
+                    "mergeShopId": 64,
+                    "mergeId": 663
+                },
+                "merge": {
+                    "id": 663,
+                    "itemId1": 3582,
+                    "amount1": 1,
+                    "itemId2": 3578,
+                    "amount2": 11,
+                    "itemId": 3583,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

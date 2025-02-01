@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18537-entangled-crown-of-azaveyr",
+        "fullSlug": "items\/18537-entangled-crown-of-azaveyr",
+        "id": 18537,
+        "name": "Entangled Crown of Azaveyr",
+        "description": "A brilliant crown strewn with glistening threads.\nProof of victory over the Azaveyran Extreme challenges. Used for merging."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18537,
+            "name": "Entangled Crown of Azaveyr",
+            "description": "A brilliant crown strewn with glistening threads.\nProof of victory over the Azaveyran Extreme challenges. Used for merging.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "299-azaveyran-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "299-azaveyran-rewards",
+                "fullSlug": "merge-shops\/299-azaveyran-rewards",
+                "id": 299,
+                "name": "Azaveyran Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 299,
+                    "name": "Azaveyran Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3252,
+                    "mergeShopId": 299,
+                    "mergeId": 3334
+                },
+                "merge": {
+                    "id": 3334,
+                    "itemId1": 18377,
+                    "amount1": 1,
+                    "itemId2": 18378,
+                    "amount2": 1,
+                    "itemId": 18537,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21641-shadecloak-of-the-emperor-vii",
+        "fullSlug": "items\/21641-shadecloak-of-the-emperor-vii",
+        "id": 21641,
+        "name": "Shadecloak of the Emperor VII",
+        "description": "Manifested as part of Sirius' fears, this cloak somehow remains even after its owner was defeated."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21641,
+            "name": "Shadecloak of the Emperor VII",
+            "description": "Manifested as part of Sirius' fears, this cloak somehow remains even after its owner was defeated.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 1,
+            "level": 90,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-fearemp.swf",
+            "icon": "cape",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "All,7,Good,-5,Evil,-5"
+        }
+    },
+    "related": {
+        "790-atf-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "790-atf-loot-for-dcs",
+                "fullSlug": "item-shops\/790-atf-loot-for-dcs",
+                "id": 790,
+                "name": "AtF Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 790,
+                    "name": "AtF Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

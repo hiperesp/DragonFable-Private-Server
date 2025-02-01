@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20828-frostbreaker-s-ring-ii",
+        "fullSlug": "items\/20828-frostbreaker-s-ring-ii",
+        "id": 20828,
+        "name": "Frostbreaker's Ring II",
+        "description": "Pulled from the remains of a Hollow Behemoth, this ring bearing an intricate carving of pine trees and mountains. Whatever stories its previous owner had to share are lost with them."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20828,
+            "name": "Frostbreaker's Ring II",
+            "description": "Pulled from the remains of a Hollow Behemoth, this ring bearing an intricate carving of pine trees and mountains. Whatever stories its previous owner had to share are lost with them.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1250,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 60,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Darkness,8,Nature,8,Ice,8"
+        }
+    },
+    "related": {
+        "1934-the-way-forward": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1934-the-way-forward",
+                "fullSlug": "quests\/1934-the-way-forward",
+                "id": 1934,
+                "name": "The Way Forward",
+                "description": "All across Greenguard, it's time to take the next step forward."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1934,
+                    "name": "The Way Forward",
+                    "description": "All across Greenguard, it's time to take the next step forward.",
+                    "complete": "As you get closer to the center of Dragesvard, what will you uncover?",
+                    "swf": "towns\/3Oceantyndur\/quest3-forward-r2.swf",
+                    "swfX": "towns\/3Oceantyndur\/quest3-forward-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "hollow and mushrooms",
+                    "monsterGroupSwf": "mset-riftnorthlands-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

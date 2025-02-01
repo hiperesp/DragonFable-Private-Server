@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21022-flight-signet-v",
+        "fullSlug": "items\/21022-flight-signet-v",
+        "id": 21022,
+        "name": "Flight Signet V",
+        "description": "A simple silver band, embedded with a tiny clear orange jewel. Given to you by one of the rebel DragonLords. \"I can never go back. Better to leave those memories behind.\" This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21022,
+            "name": "Flight Signet V",
+            "description": "A simple silver band, embedded with a tiny clear orange jewel. Given to you by one of the rebel DragonLords. \"I can never go back. Better to leave those memories behind.\" This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 70,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Metal,9,Ice,9,Wind,9"
+        }
+    },
+    "related": {
+        "1960-fight-flight-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1960-fight-flight-fire",
+                "fullSlug": "quests\/1960-fight-flight-fire",
+                "id": 1960,
+                "name": "Fight, Flight, & Fire",
+                "description": "The Rose must be pushed back. Sulen'Eska and the refugees must be saved. But at what cost?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1960,
+                    "name": "Fight, Flight, & Fire",
+                    "description": "The Rose must be pushed back. Sulen'Eska and the refugees must be saved. But at what cost?",
+                    "complete": "And so the fires burn.",
+                    "swf": "towns\/Suleneska\/quest16-fightflight.swf",
+                    "swfX": "towns\/Suleneska\/quest16-fightflight-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Rose soldiers",
+                    "monsterGroupSwf": "mset-rosecrowd.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

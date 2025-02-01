@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6958-celestia-s-thorn-i",
+        "fullSlug": "items\/6958-celestia-s-thorn-i",
+        "id": 6958,
+        "name": "Celestia's Thorn I",
+        "description": "Crafted in memory of the Priestess Celestia, defend it well."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6958,
+            "name": "Celestia's Thorn I",
+            "description": "Crafted in memory of the Priestess Celestia, defend it well.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 35,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-celestia.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 48,
+            "damageMax": 62,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Nature,1"
+        }
+    },
+    "related": {
+        "266-rose-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "266-rose-shop",
+                "fullSlug": "item-shops\/266-rose-shop",
+                "id": 266,
+                "name": "Rose Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 266,
+                    "name": "Rose Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

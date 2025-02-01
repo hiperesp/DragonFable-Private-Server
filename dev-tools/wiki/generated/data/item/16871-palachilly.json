@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16871-palachilly",
+        "fullSlug": "items\/16871-palachilly",
+        "id": 16871,
+        "name": "Palachilly",
+        "description": "A dashing moglin paladin knight! Here to save the day, anyone who needs saving, and their toys too!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16871,
+            "name": "Palachilly",
+            "description": "A dashing moglin paladin knight! Here to save the day, anyone who needs saving, and their toys too!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 20,
+            "element": "Light",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-chillypally.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 6,
+            "damageMax": 13,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "262-frostval-presents": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "262-frostval-presents",
+                "fullSlug": "merge-shops\/262-frostval-presents",
+                "id": 262,
+                "name": "Frostval Presents!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 262,
+                    "name": "Frostval Presents!"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2927,
+                    "mergeShopId": 262,
+                    "mergeId": 2921
+                },
+                "merge": {
+                    "id": 2921,
+                    "itemId1": 16853,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16871,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

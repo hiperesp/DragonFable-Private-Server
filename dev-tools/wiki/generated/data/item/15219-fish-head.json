@@ -1,0 +1,196 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15219-fish-head",
+        "fullSlug": "items\/15219-fish-head",
+        "id": 15219,
+        "name": "Fish head",
+        "description": "Roly-poly fish heads! Eat them up!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15219,
+            "name": "Fish head",
+            "description": "Roly-poly fish heads! Eat them up!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1001,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Confuse",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1331-twigsmas-waves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1331-twigsmas-waves",
+                "fullSlug": "quests\/1331-twigsmas-waves",
+                "id": 1331,
+                "name": "Twigsmas Waves",
+                "description": "Sentient globs of ice cream and candy are attacking the town?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1331,
+                    "name": "Twigsmas Waves",
+                    "description": "Sentient globs of ice cream and candy are attacking the town?!",
+                    "complete": "The smell is... not appetizing.",
+                    "swf": "towns\/Frostvale\/F15\/quest-twigsmaswaves.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "twig food",
+                    "monsterGroupSwf": "mset-twigsmas.swf"
+                }
+            },
+            "related": []
+        },
+        "1332-twigmas-bombs": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1332-twigmas-bombs",
+                "fullSlug": "quests\/1332-twigmas-bombs",
+                "id": 1332,
+                "name": "Twigmas Bombs",
+                "description": "Take to the skies to firebomb the advancing waves of sweets!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1332,
+                    "name": "Twigmas Bombs",
+                    "description": "Take to the skies to firebomb the advancing waves of sweets!",
+                    "complete": "Excellent work! You melted quite a few down!",
+                    "swf": "towns\/Frostvale\/F15\/quest-twigbomb.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        },
+        "244-2015-present-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "244-2015-present-merges",
+                "fullSlug": "merge-shops\/244-2015-present-merges",
+                "id": 244,
+                "name": "2015 Present Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 244,
+                    "name": "2015 Present Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2740,
+                    "mergeShopId": 244,
+                    "mergeId": 2719
+                },
+                "merge": {
+                    "id": 2719,
+                    "itemId1": 15219,
+                    "amount1": 5,
+                    "itemId2": 15322,
+                    "amount2": 1,
+                    "itemId": 15323,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "243-fish-heads": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "243-fish-heads",
+                "fullSlug": "merge-shops\/243-fish-heads",
+                "id": 243,
+                "name": "Fish Heads",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 243,
+                    "name": "Fish Heads"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2694,
+                    "mergeShopId": 243,
+                    "mergeId": 2756
+                },
+                "merge": {
+                    "id": 2756,
+                    "itemId1": 15219,
+                    "amount1": 10,
+                    "itemId2": 15350,
+                    "amount2": 1,
+                    "itemId": 15351,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

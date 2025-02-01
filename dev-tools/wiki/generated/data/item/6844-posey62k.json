@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6844-posey62k",
+        "fullSlug": "items\/6844-posey62k",
+        "id": 6844,
+        "name": "Posey62k",
+        "description": "Crush your enemies without an appointment!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6844,
+            "name": "Posey62k",
+            "description": "Crush your enemies without an appointment!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 62,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-voltbolt.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 3,
+            "damageMin": 66,
+            "damageMax": 84,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,7,Water,5,Stone,5,Immobility,3"
+        }
+    },
+    "related": {
+        "898-appointment": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "898-appointment",
+                "fullSlug": "quests\/898-appointment",
+                "id": 898,
+                "name": "Appointment",
+                "description": "Did you remember to call ahead?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 898,
+                    "name": "Appointment",
+                    "description": "Did you remember to call ahead?",
+                    "complete": "Where on Lore could the Professor be?",
+                    "swf": "towns\/Atrea\/quest4-appointment.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "robots",
+                    "monsterGroupSwf": "mset-robotsecretaries-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

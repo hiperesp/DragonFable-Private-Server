@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14054-gold-tooth",
+        "fullSlug": "items\/14054-gold-tooth",
+        "id": 14054,
+        "name": "Gold Tooth",
+        "description": "A tooth pulled from a conquered foe. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14054,
+            "name": "Gold Tooth",
+            "description": "A tooth pulled from a conquered foe. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 7,
+            "level": 47,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Stone,10,Water,7"
+        }
+    },
+    "related": {
+        "1275-the-valtrith-tomb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1275-the-valtrith-tomb",
+                "fullSlug": "quests\/1275-the-valtrith-tomb",
+                "id": 1275,
+                "name": "The Valtrith Tomb",
+                "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1275,
+                    "name": "The Valtrith Tomb",
+                    "description": "For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?",
+                    "complete": "Jaysun wasn't the only Valtrith whose sarcophagus was disturbed!",
+                    "swf": "towns\/Symone\/quest-valtrithtomb-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ghosts",
+                    "monsterGroupSwf": "mset-valtrithtomb.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3201-greater-darkovian-destruction-staff",
+        "fullSlug": "items\/3201-greater-darkovian-destruction-staff",
+        "id": 3201,
+        "name": "Greater Darkovian Destruction Staff",
+        "description": "This powerful fire weapon was rediscovered after many centuries by Galanoth after he defeated the great fire wyrm, Citredelakon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3201,
+            "name": "Greater Darkovian Destruction Staff",
+            "description": "This powerful fire weapon was rediscovered after many centuries by Galanoth after he defeated the great fire wyrm, Citredelakon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 40,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-darkstaffdestroy.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Water,3"
+        }
+    },
+    "related": {
+        "122-amityvale-destroyed": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "122-amityvale-destroyed",
+                "fullSlug": "item-shops\/122-amityvale-destroyed",
+                "id": 122,
+                "name": "Amityvale Destroyed",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 122,
+                    "name": "Amityvale Destroyed",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

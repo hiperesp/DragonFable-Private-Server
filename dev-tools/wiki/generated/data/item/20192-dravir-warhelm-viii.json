@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20192-dravir-warhelm-viii",
+        "fullSlug": "items\/20192-dravir-warhelm-viii",
+        "id": 20192,
+        "name": "Dravir Warhelm VIII",
+        "description": "Impressed with the bond you share with your dragon, the dravir smiths refitted this helm for you. It's a little uncomfortable, but very functional! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20192,
+            "name": "Dravir Warhelm VIII",
+            "description": "Impressed with the bond you share with your dragon, the dravir smiths refitted this helm for you. It's a little uncomfortable, but very functional! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 220,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 85,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dravir.swf",
+            "icon": "helm",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 5,
+            "charisma": 10,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Fire,10,Health,-5"
+        }
+    },
+    "related": {
+        "1813-caught-in-a-vise": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1813-caught-in-a-vise",
+                "fullSlug": "quests\/1813-caught-in-a-vise",
+                "id": 1813,
+                "name": "Caught in a Vise",
+                "description": "Tensions are high in the Haven. There has to be something you can do to help!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1813,
+                    "name": "Caught in a Vise",
+                    "description": "Tensions are high in the Haven. There has to be something you can do to help!",
+                    "complete": "You've gained the trust of the dravir. With both The Rose and dragons on the warpath, the Haven must be defended!",
+                    "swf": "towns\/SulenEska\/quest-vise.swf",
+                    "swfX": "towns\/SulenEska\/quest-vise-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Rose and Dragons",
+                    "monsterGroupSwf": "mset-se-vise-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

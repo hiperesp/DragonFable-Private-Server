@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "373-artifice-blade",
+        "fullSlug": "items\/373-artifice-blade",
+        "id": 373,
+        "name": "Artifice Blade",
+        "description": "This sword was designed to look like a magical weapon but holds no magical power"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 373,
+            "name": "Artifice Blade",
+            "description": "This sword was designed to look like a magical weapon but holds no magical power",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 760,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 8,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-tbird.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 23,
+            "damageMax": 23,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "12-creepy-undead-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "12-creepy-undead-forest",
+                "fullSlug": "quests\/12-creepy-undead-forest",
+                "id": 12,
+                "name": "Creepy Undead Forest",
+                "description": "A forest that has been overtaken by the vile undead."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 12,
+                    "name": "Creepy Undead Forest",
+                    "description": "A forest that has been overtaken by the vile undead.",
+                    "complete": "A forest that has been overtaken by the vile undead.",
+                    "swf": "random\/random-creepy.swf",
+                    "swfX": "none",
+                    "maxSilver": 10,
+                    "maxGold": 300,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Undead",
+                    "monsterGroupSwf": "mset-creepyundead.swf"
+                }
+            },
+            "related": []
+        },
+        "19-forest-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "19-forest-cave",
+                "fullSlug": "quests\/19-forest-cave",
+                "id": 19,
+                "name": "Forest Cave",
+                "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 19,
+                    "name": "Forest Cave",
+                    "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "complete": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "swf": "random\/random-normalcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        },
+        "24-watery-exploration": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "24-watery-exploration",
+                "fullSlug": "quests\/24-watery-exploration",
+                "id": 24,
+                "name": "Watery Exploration",
+                "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 24,
+                    "name": "Watery Exploration",
+                    "description": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "complete": "You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.",
+                    "swf": "random\/random-watercave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 5,
+                    "monsterMaxLevel": 15,
+                    "monsterType": "Elemental",
+                    "monsterGroupSwf": "mset-water.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

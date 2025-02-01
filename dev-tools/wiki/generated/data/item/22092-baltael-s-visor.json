@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22092-baltael-s-visor",
+        "fullSlug": "items\/22092-baltael-s-visor",
+        "id": 22092,
+        "name": "Baltael's Visor",
+        "description": "This modified visor lets you show your hair while maintaining a ferocious facade! Proof of victory over Danyel. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22092,
+            "name": "Baltael's Visor",
+            "description": "This modified visor lets you show your hair while maintaining a ferocious facade! Proof of victory over Danyel. (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/hairhelm-baltael.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "426-unwavering-determination": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "426-unwavering-determination",
+                "fullSlug": "merge-shops\/426-unwavering-determination",
+                "id": 426,
+                "name": "Unwavering Determination",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 426,
+                    "name": "Unwavering Determination"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4404,
+                    "mergeShopId": 426,
+                    "mergeId": 4438
+                },
+                "merge": {
+                    "id": 4438,
+                    "itemId1": 12355,
+                    "amount1": 1,
+                    "itemId2": 22088,
+                    "amount2": 1,
+                    "itemId": 22092,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

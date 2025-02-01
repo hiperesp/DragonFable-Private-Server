@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7599-the-baroness-fearless-helm",
+        "fullSlug": "items\/7599-the-baroness-fearless-helm",
+        "id": 7599,
+        "name": "The Baroness Fearless Helm",
+        "description": "You look dashing while you're bashing any and every monster that might cross your path! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7599,
+            "name": "The Baroness Fearless Helm",
+            "description": "You look dashing while you're bashing any and every monster that might cross your path! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-thebaroness.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Bacon,15,Fire,15,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "121-mop-80": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "121-mop-80",
+                "fullSlug": "merge-shops\/121-mop-80",
+                "id": 121,
+                "name": "MOP 80",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 121,
+                    "name": "MOP 80"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1680,
+                    "mergeShopId": 121,
+                    "mergeId": 1557
+                },
+                "merge": {
+                    "id": 1557,
+                    "itemId1": 7598,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7599,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "336-mop-90": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "336-mop-90",
+                "fullSlug": "merge-shops\/336-mop-90",
+                "id": 336,
+                "name": "MOP 90",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 336,
+                    "name": "MOP 90"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3506,
+                    "mergeShopId": 336,
+                    "mergeId": 3585
+                },
+                "merge": {
+                    "id": 3585,
+                    "itemId1": 7599,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20006,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

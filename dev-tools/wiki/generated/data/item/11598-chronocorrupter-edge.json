@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11598-chronocorrupter-edge",
+        "fullSlug": "items\/11598-chronocorrupter-edge",
+        "id": 11598,
+        "name": "Chronocorrupter Edge",
+        "description": "Give yourself an edge in a time of chaos!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11598,
+            "name": "Chronocorrupter Edge",
+            "description": "Give yourself an edge in a time of chaos!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-chronoedge.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Energy,4,Water,3,Health,-2"
+        }
+    },
+    "related": {
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

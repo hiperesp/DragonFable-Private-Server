@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19796-incomplete-rift-helmet",
+        "fullSlug": "items\/19796-incomplete-rift-helmet",
+        "id": 19796,
+        "name": "Incomplete Rift Helmet",
+        "description": "Using the Mysterious Helm Template and the Swordhaven Tytan's Tooth, this helm was able to be partially completed. Looks like it still needs some finishing touches to be usable!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19796,
+            "name": "Incomplete Rift Helmet",
+            "description": "Using the Mysterious Helm Template and the Swordhaven Tytan's Tooth, this helm was able to be partially completed. Looks like it still needs some finishing touches to be usable!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "whitegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "324-vind-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "324-vind-helm",
+                "fullSlug": "merge-shops\/324-vind-helm",
+                "id": 324,
+                "name": "Vind Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 324,
+                    "name": "Vind Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3451,
+                    "mergeShopId": 324,
+                    "mergeId": 3536
+                },
+                "merge": {
+                    "id": 3536,
+                    "itemId1": 19796,
+                    "amount1": 1,
+                    "itemId2": 19272,
+                    "amount2": 10,
+                    "itemId": 19797,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "325-golden-hand-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "325-golden-hand-helm",
+                "fullSlug": "merge-shops\/325-golden-hand-helm",
+                "id": 325,
+                "name": "Golden Hand Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 325,
+                    "name": "Golden Hand Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3460,
+                    "mergeShopId": 325,
+                    "mergeId": 3536
+                },
+                "merge": {
+                    "id": 3536,
+                    "itemId1": 19796,
+                    "amount1": 1,
+                    "itemId2": 19272,
+                    "amount2": 10,
+                    "itemId": 19797,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "326-rose-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "326-rose-helm",
+                "fullSlug": "merge-shops\/326-rose-helm",
+                "id": 326,
+                "name": "Rose Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 326,
+                    "name": "Rose Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3469,
+                    "mergeShopId": 326,
+                    "mergeId": 3536
+                },
+                "merge": {
+                    "id": 3536,
+                    "itemId1": 19796,
+                    "amount1": 1,
+                    "itemId2": 19272,
+                    "amount2": 10,
+                    "itemId": 19797,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6713-weaver-cowl-iii",
+        "fullSlug": "items\/6713-weaver-cowl-iii",
+        "id": 6713,
+        "name": "Weaver Cowl III",
+        "description": "A cowl made from beautifully woven cloth.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6713,
+            "name": "Weaver Cowl III",
+            "description": "A cowl made from beautifully woven cloth.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-weaver.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,8,Light,8,Immobility,3"
+        }
+    },
+    "related": {
+        "256-weaver-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "256-weaver-items",
+                "fullSlug": "item-shops\/256-weaver-items",
+                "id": 256,
+                "name": "Weaver Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 256,
+                    "name": "Weaver Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

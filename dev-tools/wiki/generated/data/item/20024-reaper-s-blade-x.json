@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20024-reaper-s-blade-x",
+        "fullSlug": "items\/20024-reaper-s-blade-x",
+        "id": 20024,
+        "name": "Reaper's Blade X",
+        "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20024,
+            "name": "Reaper's Blade X",
+            "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 10,
+            "level": 90,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-moglo08.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 15,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 11,
+            "wisdom": 11,
+            "damageMin": 83,
+            "damageMax": 107,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Ice,12,Darkness,12,Immobility,5,All,2"
+        }
+    },
+    "related": {
+        "331-reaper-lv-90": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "331-reaper-lv-90",
+                "fullSlug": "merge-shops\/331-reaper-lv-90",
+                "id": 331,
+                "name": "Reaper Lv 90",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 331,
+                    "name": "Reaper Lv 90"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3493,
+                    "mergeShopId": 331,
+                    "mergeId": 3594
+                },
+                "merge": {
+                    "id": 3594,
+                    "itemId1": 12815,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20024,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

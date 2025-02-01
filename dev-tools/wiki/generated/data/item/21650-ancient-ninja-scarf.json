@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21650-ancient-ninja-scarf",
+        "fullSlug": "items\/21650-ancient-ninja-scarf",
+        "id": 21650,
+        "name": "Ancient Ninja Scarf",
+        "description": "An old, battered scarf. Proof of victory over Thyton, the Shadow of the Wind."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21650,
+            "name": "Ancient Ninja Scarf",
+            "description": "An old, battered scarf. Proof of victory over Thyton, the Shadow of the Wind.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2068-thyton-the-shadow-of-the-wind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2068-thyton-the-shadow-of-the-wind",
+                "fullSlug": "quests\/2068-thyton-the-shadow-of-the-wind",
+                "id": 2068,
+                "name": "Thyton, the Shadow of the Wind",
+                "description": "Thyton, the leader of the Shadow of the Wind ninja clan, has taken a break from leading to test his might..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2068,
+                    "name": "Thyton, the Shadow of the Wind",
+                    "description": "Thyton, the leader of the Shadow of the Wind ninja clan, has taken a break from leading to test his might...",
+                    "complete": "And the winds calm to a standstill.",
+                    "swf": "towns\/TimeArena\/quest1-thyton.swf",
+                    "swfX": "towns\/TimeArena\/quest1-thyton-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Greg and Thyton",
+                    "monsterGroupSwf": "mset-arenagregthyton.swf"
+                }
+            },
+            "related": []
+        },
+        "396-masters-of-wind": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "396-masters-of-wind",
+                "fullSlug": "merge-shops\/396-masters-of-wind",
+                "id": 396,
+                "name": "Masters of Wind",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 396,
+                    "name": "Masters of Wind"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4168,
+                    "mergeShopId": 396,
+                    "mergeId": 4209
+                },
+                "merge": {
+                    "id": 4209,
+                    "itemId1": 21651,
+                    "amount1": 1,
+                    "itemId2": 21650,
+                    "amount2": 1,
+                    "itemId": 21653,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

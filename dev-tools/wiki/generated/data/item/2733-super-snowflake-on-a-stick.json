@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2733-super-snowflake-on-a-stick",
+        "fullSlug": "items\/2733-super-snowflake-on-a-stick",
+        "id": 2733,
+        "name": "Super Snowflake on a Stick",
+        "description": "This item requires a Dragon Amulet. The enchanted Ice weapon of the mysterious centocor, Jorhath. The magic contained within the snowflake sometimes causes icicles to erupt from the ground!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2733,
+            "name": "Super Snowflake on a Stick",
+            "description": "This item requires a Dragon Amulet. The enchanted Ice weapon of the mysterious centocor, Jorhath. The magic contained within the snowflake sometimes causes icicles to erupt from the ground!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 43,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-centocor2.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 53,
+            "damageMax": 71,
+            "defenseMelee": 3,
+            "defensePierce": 0,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6"
+        }
+    },
+    "related": {
+        "473-ice-gems": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "473-ice-gems",
+                "fullSlug": "quests\/473-ice-gems",
+                "id": 473,
+                "name": "Ice Gems",
+                "description": "Find as many Ice Gems as you can! Click on the to collect them."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 473,
+                    "name": "Ice Gems",
+                    "description": "Find as many Ice Gems as you can! Click on the to collect them.",
+                    "complete": "Hopefully, Yulgar, Warlic and Cysero together will be able to forge something with the Ice Gems you collected.",
+                    "swf": "towns\/FireWar\/quest-firewar10.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice monster, centocor",
+                    "monsterGroupSwf": "mset-firewar10r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

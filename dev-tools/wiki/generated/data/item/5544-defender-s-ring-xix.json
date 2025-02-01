@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5544-defender-s-ring-xix",
+        "fullSlug": "items\/5544-defender-s-ring-xix",
+        "id": 5544,
+        "name": "Defender's Ring XIX",
+        "description": "This ring was awarded to you by the town of Falconreach for defending it against a terrible threat. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5544,
+            "name": "Defender's Ring XIX",
+            "description": "This ring was awarded to you by the town of Falconreach for defending it against a terrible threat. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 60,
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Water,6,Poison,6,Silver,3"
+        }
+    },
+    "related": {
+        "3-def-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "3-def-rings",
+                "fullSlug": "merge-shops\/3-def-rings",
+                "id": 3,
+                "name": "Def. Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 3,
+                    "name": "Def. Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 29,
+                    "mergeShopId": 3,
+                    "mergeId": 987
+                },
+                "merge": {
+                    "id": 987,
+                    "itemId1": 5544,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 5546,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

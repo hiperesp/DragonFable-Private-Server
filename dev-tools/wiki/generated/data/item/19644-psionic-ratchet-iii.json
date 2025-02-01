@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19644-psionic-ratchet-iii",
+        "fullSlug": "items\/19644-psionic-ratchet-iii",
+        "id": 19644,
+        "name": "Psionic Ratchet III",
+        "description": "Doctor When's famous(?) Psionic Ratchet! You don't know what a ratchet is, or what makes it psionic but it's certainly an effective weapon! Proof of victory over the Tainted Time challenge! This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19644,
+            "name": "Psionic Ratchet III",
+            "description": "Doctor When's famous(?) Psionic Ratchet! You don't know what a ratchet is, or what makes it psionic but it's certainly an effective weapon! Proof of victory over the Tainted Time challenge! This item requires a Dragon Amulet to use.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 15,
+            "rarity": 0,
+            "level": 90,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-psionic.swf",
+            "icon": "scythe",
+            "strength": 20,
+            "dexterity": 20,
+            "intelligence": 20,
+            "luck": 15,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 88,
+            "damageMax": 104,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 15,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,10,Health,-20"
+        }
+    },
+    "related": {
+        "321-whentropy": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "321-whentropy",
+                "fullSlug": "merge-shops\/321-whentropy",
+                "id": 321,
+                "name": "Whentropy",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 321,
+                    "name": "Whentropy"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3431,
+                    "mergeShopId": 321,
+                    "mergeId": 3525
+                },
+                "merge": {
+                    "id": 3525,
+                    "itemId1": 19643,
+                    "amount1": 1,
+                    "itemId2": 19647,
+                    "amount2": 1,
+                    "itemId": 19644,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

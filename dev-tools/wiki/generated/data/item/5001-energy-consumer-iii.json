@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5001-energy-consumer-iii",
+        "fullSlug": "items\/5001-energy-consumer-iii",
+        "id": 5001,
+        "name": "Energy Consumer III",
+        "description": "This weapon has absorbed some of the energy emanating from the Equilibrium Gate!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5001,
+            "name": "Energy Consumer III",
+            "description": "This weapon has absorbed some of the energy emanating from the Equilibrium Gate!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 2,
+            "level": 60,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-devourer.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 6,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 6,
+            "damageMin": 64,
+            "damageMax": 86,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Water,8,Darkness,8"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 127,
+                    "mergeShopId": 4,
+                    "mergeId": 918
+                },
+                "merge": {
+                    "id": 918,
+                    "itemId1": 3712,
+                    "amount1": 12,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 5001,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

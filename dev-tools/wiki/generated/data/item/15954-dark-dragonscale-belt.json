@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15954-dark-dragonscale-belt",
+        "fullSlug": "items\/15954-dark-dragonscale-belt",
+        "id": 15954,
+        "name": "Dark Dragonscale Belt",
+        "description": "This belt was woven from Dragon Leather, and plated with shards from an dark dragon?s scales. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15954,
+            "name": "Dark Dragonscale Belt",
+            "description": "This belt was woven from Dragon Leather, and plated with shards from an dark dragon?s scales. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 700,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 19,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Light,1,Darkness,1,Energy,1,Stone,1"
+        }
+    },
+    "related": {
+        "1365-peril": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1365-peril",
+                "fullSlug": "quests\/1365-peril",
+                "id": 1365,
+                "name": "Peril",
+                "description": "Your dragon has gone south towards the Doomwood... are you prepared to follow?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1365,
+                    "name": "Peril",
+                    "description": "Your dragon has gone south towards the Doomwood... are you prepared to follow?",
+                    "complete": "Caitiff has captured your Dragon and it will take all your friends to get it back!",
+                    "swf": "towns\/10AnnDF\/quest7-peril.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cultists, skeles, dark ele",
+                    "monsterGroupSwf": "mset-artifact.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

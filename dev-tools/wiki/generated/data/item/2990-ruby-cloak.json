@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2990-ruby-cloak",
+        "fullSlug": "items\/2990-ruby-cloak",
+        "id": 2990,
+        "name": "Ruby Cloak",
+        "description": "A fire dancer commissioned this cloak because the color of the cloth reminds her of ruby flames."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2990,
+            "name": "Ruby Cloak",
+            "description": "A fire dancer commissioned this cloak because the color of the cloth reminds her of ruby flames.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-royalruby.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,5"
+        }
+    },
+    "related": {
+        "110-trinki-s-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "110-trinki-s-wings",
+                "fullSlug": "item-shops\/110-trinki-s-wings",
+                "id": 110,
+                "name": "Trinki's Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 110,
+                    "name": "Trinki's Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

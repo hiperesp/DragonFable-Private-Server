@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8882-esoterica",
+        "fullSlug": "items\/8882-esoterica",
+        "id": 8882,
+        "name": "Esoterica",
+        "description": "Crafted by Lupus the Wolf, this unassuming nature weapon carries a secret charge if you click above the handle!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8882,
+            "name": "Esoterica",
+            "description": "Crafted by Lupus the Wolf, this unassuming nature weapon carries a secret charge if you click above the handle!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 36000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 66,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-lupus.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 63,
+            "damageMax": 93,
+            "defenseMelee": 6,
+            "defensePierce": 2,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Water,7,Energy,7,Immobility,2"
+        }
+    },
+    "related": {
+        "301-rosewood-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "301-rosewood-weapons",
+                "fullSlug": "item-shops\/301-rosewood-weapons",
+                "id": 301,
+                "name": "Rosewood Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 301,
+                    "name": "Rosewood Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

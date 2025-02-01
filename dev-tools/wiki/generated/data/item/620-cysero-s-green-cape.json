@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "620-cysero-s-green-cape",
+        "fullSlug": "items\/620-cysero-s-green-cape",
+        "id": 620,
+        "name": "Cysero's Green Cape",
+        "description": "This item requires a Dragon Amulet. This cape was cut from the same magical fabric as Cyseros green robes. The wearer is granted +1 INT as well as a bonus to hit."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 620,
+            "name": "Cysero's Green Cape",
+            "description": "This item requires a Dragon Amulet. This cape was cut from the same magical fabric as Cyseros green robes. The wearer is granted +1 INT as well as a bonus to hit.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 2,
+            "level": 5,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-green.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "32-pvp-scrapper": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "32-pvp-scrapper",
+                "fullSlug": "item-shops\/32-pvp-scrapper",
+                "id": 32,
+                "name": "PvP Scrapper",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 32,
+                    "name": "PvP Scrapper",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "11-capes-wings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "11-capes-wings",
+                "fullSlug": "merge-shops\/11-capes-wings",
+                "id": 11,
+                "name": "Capes & Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 11,
+                    "name": "Capes & Wings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 265,
+                    "mergeShopId": 11,
+                    "mergeId": 92
+                },
+                "merge": {
+                    "id": 92,
+                    "itemId1": 586,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 620,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

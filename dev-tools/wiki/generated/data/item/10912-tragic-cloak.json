@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10912-tragic-cloak",
+        "fullSlug": "items\/10912-tragic-cloak",
+        "id": 10912,
+        "name": "Tragic Cloak",
+        "description": "You're one baaaaad dude! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10912,
+            "name": "Tragic Cloak",
+            "description": "You're one baaaaad dude! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 180,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-evil.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,10,Ice,9,Darkness,8,Immobility,4,All,2"
+        }
+    },
+    "related": {
+        "382-tragedy-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "382-tragedy-dc",
+                "fullSlug": "item-shops\/382-tragedy-dc",
+                "id": 382,
+                "name": "Tragedy DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 382,
+                    "name": "Tragedy DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

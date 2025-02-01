@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20729-snow-s-repose-ii",
+        "fullSlug": "items\/20729-snow-s-repose-ii",
+        "id": 20729,
+        "name": "Snow's Repose II",
+        "description": "Uncovered under the thaw of a calamitous blizzard, this ancient weapon was seen as a savior. But over time, some have started to wonder if it was the cause of the blizzard in the first place. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20729,
+            "name": "Snow's Repose II",
+            "description": "Uncovered under the thaw of a calamitous blizzard, this ancient weapon was seen as a savior. But over time, some have started to wonder if it was the cause of the blizzard in the first place. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": -10,
+            "rarity": 5,
+            "level": 20,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-snowjoy.swf",
+            "icon": "scythe",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 0,
+            "charisma": -20,
+            "endurance": -20,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 40,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": -10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": ""
+        }
+    },
+    "related": {
+        "360-snow-s-repose-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "360-snow-s-repose-upgrades",
+                "fullSlug": "merge-shops\/360-snow-s-repose-upgrades",
+                "id": 360,
+                "name": "Snow's Repose Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 360,
+                    "name": "Snow's Repose Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3768,
+                    "mergeShopId": 360,
+                    "mergeId": 3860
+                },
+                "merge": {
+                    "id": 3860,
+                    "itemId1": 495,
+                    "amount1": 25,
+                    "itemId2": 20729,
+                    "amount2": 1,
+                    "itemId": 20730,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

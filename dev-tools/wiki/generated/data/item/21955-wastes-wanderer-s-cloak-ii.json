@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21955-wastes-wanderer-s-cloak-ii",
+        "fullSlug": "items\/21955-wastes-wanderer-s-cloak-ii",
+        "id": 21955,
+        "name": "Wastes Wanderer's Cloak II",
+        "description": "This thick yet oddly lightweight cloak offers silent protection from the elements. Proof of victory over Odessa, Wanderer of the Wastes."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21955,
+            "name": "Wastes Wanderer's Cloak II",
+            "description": "This thick yet oddly lightweight cloak offers silent protection from the elements. Proof of victory over Odessa, Wanderer of the Wastes.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 70,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-odessa.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 13,
+            "charisma": 5,
+            "endurance": 13,
+            "wisdom": 13,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 0,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,8"
+        }
+    },
+    "related": {
+        "419-wastes-wanderer": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "419-wastes-wanderer",
+                "fullSlug": "merge-shops\/419-wastes-wanderer",
+                "id": 419,
+                "name": "Wastes Wanderer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 419,
+                    "name": "Wastes Wanderer"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4332,
+                    "mergeShopId": 419,
+                    "mergeId": 4377
+                },
+                "merge": {
+                    "id": 4377,
+                    "itemId1": 21955,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21956,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20062-golden-dravir-helm-vii",
+        "fullSlug": "items\/20062-golden-dravir-helm-vii",
+        "id": 20062,
+        "name": "Golden Dravir Helm VII",
+        "description": "A golden helm inspired by the fiercest of dravir warriors! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20062,
+            "name": "Golden Dravir Helm VII",
+            "description": "A golden helm inspired by the fiercest of dravir warriors! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-goldendravir.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 11,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,10,Metal,10,Poison,10,Water,10,Immobility,5"
+        }
+    },
+    "related": {
+        "1052-haven-on-the-horizon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1052-haven-on-the-horizon",
+                "fullSlug": "quests\/1052-haven-on-the-horizon",
+                "id": 1052,
+                "name": "Haven on the Horizon",
+                "description": "After the daring rescue at the Border Prison, The Rose seems to have their sights on more of the magical denizens of the swamp and nearby forests. Is the Vind prepared for the oncoming onslaught? Will they be enough to defend those in need?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1052,
+                    "name": "Haven on the Horizon",
+                    "description": "After the daring rescue at the Border Prison, The Rose seems to have their sights on more of the magical denizens of the swamp and nearby forests. Is the Vind prepared for the oncoming onslaught? Will they be enough to defend those in need?",
+                    "complete": "The Clawkin are safe, for now....",
+                    "swf": "towns\/SulenEska\/quest7-freedom2020-r1.swf",
+                    "swfX": "towns\/SulenEska\/quest7-freedom2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

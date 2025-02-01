@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6563-glaive-of-the-orb",
+        "fullSlug": "items\/6563-glaive-of-the-orb",
+        "id": 6563,
+        "name": "Glaive of the Orb",
+        "description": "This glaive was crafted from shards of the Key Orb that True Mortal carried in honor of his birthday.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6563,
+            "name": "Glaive of the Orb",
+            "description": "This glaive was crafted from shards of the Key Orb that True Mortal carried in honor of his birthday.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 30000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 61,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-glaiveorb.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 84,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Energy,9,Fire,7,Wind,7,Immobility,2"
+        }
+    },
+    "related": {
+        "246-glaive-of-the-orb": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "246-glaive-of-the-orb",
+                "fullSlug": "item-shops\/246-glaive-of-the-orb",
+                "id": 246,
+                "name": "Glaive of the Orb",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 246,
+                    "name": "Glaive of the Orb",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

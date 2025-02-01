@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13178-chiffon-frostval-top-hat",
+        "fullSlug": "items\/13178-chiffon-frostval-top-hat",
+        "id": 13178,
+        "name": "Chiffon Frostval Top Hat",
+        "description": "This item requires a Dragon Amulet. You got this hat from a gift box given to you by the moglins of Frostvale. Once equiped, click on the hat for a wintery surprise!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13178,
+            "name": "Chiffon Frostval Top Hat",
+            "description": "This item requires a Dragon Amulet. You got this hat from a gift box given to you by the moglins of Frostvale. Once equiped, click on the hat for a wintery surprise!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 1,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-tophat.swf",
+            "icon": "helm",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Ice,12,Darkness,12,Immobility,6"
+        }
+    },
+    "related": {
+        "59-moglin-gift": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "59-moglin-gift",
+                "fullSlug": "item-shops\/59-moglin-gift",
+                "id": 59,
+                "name": "Moglin Gift",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 59,
+                    "name": "Moglin Gift",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

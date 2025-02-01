@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3064-boneshatter-spine-iii",
+        "fullSlug": "items\/3064-boneshatter-spine-iii",
+        "id": 3064,
+        "name": "Boneshatter Spine III",
+        "description": "This item requires a Dragon Amulet. This creepy staff was once used by a powerful necromancer to create an undead army, and to scare children off his lawn."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3064,
+            "name": "Boneshatter Spine III",
+            "description": "This item requires a Dragon Amulet. This creepy staff was once used by a powerful necromancer to create an undead army, and to scare children off his lawn.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 50,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-skeletal.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 78,
+            "defenseMelee": 4,
+            "defensePierce": 0,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Darkness,3,Immobility,1"
+        }
+    },
+    "related": {
+        "505-zorbak-s-legion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "505-zorbak-s-legion",
+                "fullSlug": "quests\/505-zorbak-s-legion",
+                "id": 505,
+                "name": "Zorbak's Legion",
+                "description": "Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 505,
+                    "name": "Zorbak's Legion",
+                    "description": "Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!",
+                    "complete": "With as cute as those baby dracolich are, how can you NOT make sure they stay safe?!",
+                    "swf": "quests\/ZorbaksArmy\/quest-zarmy1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cave",
+                    "monsterGroupSwf": "mset-zarmy1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

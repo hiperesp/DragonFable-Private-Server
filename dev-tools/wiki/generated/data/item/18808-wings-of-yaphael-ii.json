@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18808-wings-of-yaphael-ii",
+        "fullSlug": "items\/18808-wings-of-yaphael-ii",
+        "id": 18808,
+        "name": "Wings of Yaphael II",
+        "description": "The black-feathered wings of the Infernal Yaphael."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18808,
+            "name": "Wings of Yaphael II",
+            "description": "The black-feathered wings of the Infernal Yaphael.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 70,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-yaphael.swf?ver=1",
+            "icon": "wings",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "303-exalted-armory": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "303-exalted-armory",
+                "fullSlug": "merge-shops\/303-exalted-armory",
+                "id": 303,
+                "name": "Exalted Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 303,
+                    "name": "Exalted Armory"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3285,
+                    "mergeShopId": 303,
+                    "mergeId": 3381
+                },
+                "merge": {
+                    "id": 3381,
+                    "itemId1": 18808,
+                    "amount1": 1,
+                    "itemId2": 18819,
+                    "amount2": 5,
+                    "itemId": 18809,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

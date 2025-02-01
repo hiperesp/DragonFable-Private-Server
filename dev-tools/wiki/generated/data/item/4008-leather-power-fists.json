@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4008-leather-power-fists",
+        "fullSlug": "items\/4008-leather-power-fists",
+        "id": 4008,
+        "name": "Leather Power Fists",
+        "description": "These gloves have been imbued with crit-boosting magic. The best defense is a good offense! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4008,
+            "name": "Leather Power Fists",
+            "description": "These gloves have been imbued with crit-boosting magic. The best defense is a good offense! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 40,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "",
+            "icon": "trinket",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 936,
+                    "mergeShopId": 67,
+                    "mergeId": 1172
+                },
+                "merge": {
+                    "id": 1172,
+                    "itemId1": 4008,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 5,
+                    "itemId": 5973,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

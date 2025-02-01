@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6697-lucky-katana-ii",
+        "fullSlug": "items\/6697-lucky-katana-ii",
+        "id": 6697,
+        "name": "Lucky Katana II",
+        "description": "This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6697,
+            "name": "Lucky Katana II",
+            "description": "This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 50,
+            "level": 41,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-luckyzanbato.swf",
+            "icon": "axe",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 54,
+            "damageMax": 72,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5,Wind,5,Health,-1"
+        }
+    },
+    "related": {
+        "885-it-s-not-easy-being-gold": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "885-it-s-not-easy-being-gold",
+                "fullSlug": "quests\/885-it-s-not-easy-being-gold",
+                "id": 885,
+                "name": "It's Not Easy Being Gold",
+                "description": "It's time to confront whoever is inside the hovel!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 885,
+                    "name": "It's Not Easy Being Gold",
+                    "description": "It's time to confront whoever is inside the hovel!",
+                    "complete": "You... dont really feel that sorry for Zorbak.",
+                    "swf": "towns\/LuckyDay\/Lucky2012\/quest-goldzorbak.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zorbak",
+                    "monsterGroupSwf": "mset-goldzorbak.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

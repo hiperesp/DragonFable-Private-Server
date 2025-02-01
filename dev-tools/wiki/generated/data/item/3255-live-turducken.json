@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3255-live-turducken",
+        "fullSlug": "items\/3255-live-turducken",
+        "id": 3255,
+        "name": "Live Turducken",
+        "description": "It's alive!  Thanks to Zorbak's plotting and Voltabolt's tinkering, what was intended to be food for the Fall Festival feast is now a pet!  Don't eat it!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3255,
+            "name": "Live Turducken",
+            "description": "It's alive!  Thanks to Zorbak's plotting and Voltabolt's tinkering, what was intended to be food for the Fall Festival feast is now a pet!  Don't eat it!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 5,
+            "element": "Poison",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-turducken.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": -5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 7,
+            "damageMax": 11,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "61-turducken-pet": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "61-turducken-pet",
+                "fullSlug": "merge-shops\/61-turducken-pet",
+                "id": 61,
+                "name": "Turducken Pet",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 61,
+                    "name": "Turducken Pet"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 862,
+                    "mergeShopId": 61,
+                    "mergeId": 595
+                },
+                "merge": {
+                    "id": 595,
+                    "itemId1": 581,
+                    "amount1": 3,
+                    "itemId2": 495,
+                    "amount2": 2,
+                    "itemId": 3255,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

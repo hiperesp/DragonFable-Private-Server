@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10041-scarred-dravir-wings-v",
+        "fullSlug": "items\/10041-scarred-dravir-wings-v",
+        "id": 10041,
+        "name": "Scarred Dravir Wings V",
+        "description": "A pair of armored-scaled wings styled after the battle scarred ones of a Dravir commander. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10041,
+            "name": "Scarred Dravir Wings V",
+            "description": "A pair of armored-scaled wings styled after the battle scarred ones of a Dravir commander. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 55,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-dravir.swf",
+            "icon": "wings",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 9,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,9,Darkness,9,Immobility,4,Health,-2"
+        }
+    },
+    "related": {
+        "348-hoth-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "348-hoth-loot-for-dcs",
+                "fullSlug": "item-shops\/348-hoth-loot-for-dcs",
+                "id": 348,
+                "name": "HotH Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 348,
+                    "name": "HotH Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

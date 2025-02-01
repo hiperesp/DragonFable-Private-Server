@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16003-kickstarter-cape",
+        "fullSlug": "items\/16003-kickstarter-cape",
+        "id": 16003,
+        "name": "Kickstarter Cape",
+        "description": "Thank you for supporting the AQ3D Kickstarter campaign!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16003,
+            "name": "Kickstarter Cape",
+            "description": "Thank you for supporting the AQ3D Kickstarter campaign!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 1,
+            "level": 50,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-kickstarter.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "490-kickstarter-reward-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "490-kickstarter-reward-shop",
+                "fullSlug": "item-shops\/490-kickstarter-reward-shop",
+                "id": 490,
+                "name": "Kickstarter Reward Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 490,
+                    "name": "Kickstarter Reward Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

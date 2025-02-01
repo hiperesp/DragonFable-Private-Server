@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17517-ultimate-twin-blades-of-destiny",
+        "fullSlug": "items\/17517-ultimate-twin-blades-of-destiny",
+        "id": 17517,
+        "name": "Ultimate Twin Blades of Destiny",
+        "description": "These daggers will pierce the essence of evil beings. Most beings. Just be careful where you point them. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17517,
+            "name": "Ultimate Twin Blades of Destiny",
+            "description": "These daggers will pierce the essence of evil beings. Most beings. Just be careful where you point them. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 0,
+            "level": 85,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-destiny3.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 20,
+            "intelligence": 0,
+            "luck": 15,
+            "charisma": 10,
+            "endurance": 15,
+            "wisdom": 15,
+            "damageMin": 85,
+            "damageMax": 115,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 12,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "All,10,Health,-20"
+        }
+    },
+    "related": {
+        "277-destiny-reforging": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "277-destiny-reforging",
+                "fullSlug": "merge-shops\/277-destiny-reforging",
+                "id": 277,
+                "name": "Destiny Reforging",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 277,
+                    "name": "Destiny Reforging"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3074,
+                    "mergeShopId": 277,
+                    "mergeId": 3089
+                },
+                "merge": {
+                    "id": 3089,
+                    "itemId1": 17515,
+                    "amount1": 1,
+                    "itemId2": 17525,
+                    "amount2": 1,
+                    "itemId": 17517,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

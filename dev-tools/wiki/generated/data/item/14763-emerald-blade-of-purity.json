@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14763-emerald-blade-of-purity",
+        "fullSlug": "items\/14763-emerald-blade-of-purity",
+        "id": 14763,
+        "name": "Emerald Blade of Purity",
+        "description": "This blade was carved from a solid chunk of pure Emerald. It symbolizes your commitment to fight the darkness in whatever form it takes!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14763,
+            "name": "Emerald Blade of Purity",
+            "description": "This blade was carved from a solid chunk of pure Emerald. It symbolizes your commitment to fight the darkness in whatever form it takes!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 50,
+            "level": 20,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-emeraldCrystal.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 29,
+            "damageMax": 51,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,1,Fire,1,Health,-1,Mana,-1"
+        }
+    },
+    "related": {
+        "468-emerald-purity": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "468-emerald-purity",
+                "fullSlug": "item-shops\/468-emerald-purity",
+                "id": 468,
+                "name": "Emerald Purity",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 468,
+                    "name": "Emerald Purity",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2317-underworld-avenger",
+        "fullSlug": "items\/2317-underworld-avenger",
+        "id": 2317,
+        "name": "Underworld Avenger",
+        "description": "The oily black surface of this blade emanates a horrifying aura.  Any enemy you slash at ith this will die from fear, if not the wounds it inflicts on them. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2317,
+            "name": "Underworld Avenger",
+            "description": "The oily black surface of this blade emanates a horrifying aura.  Any enemy you slash at ith this will die from fear, if not the wounds it inflicts on them. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1150,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 15,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-bacon8.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 49,
+            "damageMax": 53,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Light,1"
+        }
+    },
+    "related": {
+        "372-no-horsing-around": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "372-no-horsing-around",
+                "fullSlug": "quests\/372-no-horsing-around",
+                "id": 372,
+                "name": "No Horsing Around",
+                "description": "Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 372,
+                    "name": "No Horsing Around",
+                    "description": "Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts.",
+                    "complete": "Death is but a door, time is but a window.  You'll be back.",
+                    "swf": "quests\/Zeuster\/quest-bacon8.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness monsters",
+                    "monsterGroupSwf": "mset-bacon8.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

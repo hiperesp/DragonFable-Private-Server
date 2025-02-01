@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15091-dark-ascended-wings",
+        "fullSlug": "items\/15091-dark-ascended-wings",
+        "id": 15091,
+        "name": "Dark Ascended Wings",
+        "description": "The smell of burnt bacon will waft over your enemies after this Black Friday, '15!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15091,
+            "name": "Dark Ascended Wings",
+            "description": "The smell of burnt bacon will waft over your enemies after this Black Friday, '15!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "type": "Melee",
+            "element": "Bacon",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-AscendWings-dark.swf",
+            "icon": "wings",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,5,Immobility,2"
+        }
+    },
+    "related": {
+        "477-black-friday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "477-black-friday",
+                "fullSlug": "item-shops\/477-black-friday",
+                "id": 477,
+                "name": "Black Friday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 477,
+                    "name": "Black Friday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

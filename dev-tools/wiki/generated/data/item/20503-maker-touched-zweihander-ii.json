@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20503-maker-touched-zweihander-ii",
+        "fullSlug": "items\/20503-maker-touched-zweihander-ii",
+        "id": 20503,
+        "name": "Maker-Touched Zweihander II",
+        "description": "Uaanta's trusty sword, empowered by the conviction of the Avatars. (Click the blade to change its elemental appearance)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20503,
+            "name": "Maker-Touched Zweihander II",
+            "description": "Uaanta's trusty sword, empowered by the conviction of the Avatars. (Click the blade to change its elemental appearance)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 13,
+            "rarity": 0,
+            "level": 70,
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-uaanta.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 83,
+            "damageMax": 83,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 13,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,4,Health,-12"
+        }
+    },
+    "related": {
+        "358-the-balance-we-make": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "358-the-balance-we-make",
+                "fullSlug": "merge-shops\/358-the-balance-we-make",
+                "id": 358,
+                "name": "The Balance We Make",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 358,
+                    "name": "The Balance We Make"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3739,
+                    "mergeShopId": 358,
+                    "mergeId": 3830
+                },
+                "merge": {
+                    "id": 3830,
+                    "itemId1": 20503,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20504,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

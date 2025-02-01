@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "500-the-13th-ring",
+        "fullSlug": "items\/500-the-13th-ring",
+        "id": 500,
+        "name": "The 13th Ring",
+        "description": "This magic ring was found during the undead invasion. It provides 5% resistance against darkness attacks and a 1% chance to crit."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 500,
+            "name": "The 13th Ring",
+            "description": "This magic ring was found during the undead invasion. It provides 5% resistance against darkness attacks and a 1% chance to crit.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 7,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "4-undead-slayer-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "4-undead-slayer-store",
+                "fullSlug": "item-shops\/4-undead-slayer-store",
+                "id": 4,
+                "name": "Undead Slayer Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Undead Slayer Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3814-dream-hedron-iii",
+        "fullSlug": "items\/3814-dream-hedron-iii",
+        "id": 3814,
+        "name": "Dream Hedron III",
+        "description": "It is said that the prism floating atop this staff contains the dreams... and nightmares... of its bearer. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3814,
+            "name": "Dream Hedron III",
+            "description": "It is said that the prism floating atop this staff contains the dreams... and nightmares... of its bearer. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 53,
+            "type": "Magic",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-madness_da.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": -4,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 67,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Darkness,5,Evil,5"
+        }
+    },
+    "related": {
+        "603-risen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "603-risen",
+                "fullSlug": "quests\/603-risen",
+                "id": 603,
+                "name": "Risen",
+                "description": "Kathool has risen!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 603,
+                    "name": "Risen",
+                    "description": "Kathool has risen!",
+                    "complete": "You defeated the Great One, Kathool Achoo, with the help of Aquella!",
+                    "swf": "towns\/TheLocker\/quest-KathoolTitan.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Elder god",
+                    "monsterGroupSwf": "mset-kathool.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

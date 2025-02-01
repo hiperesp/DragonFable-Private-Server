@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12711-paladin-axe",
+        "fullSlug": "items\/12711-paladin-axe",
+        "id": 12711,
+        "name": "Paladin Axe",
+        "description": "This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12711,
+            "name": "Paladin Axe",
+            "description": "This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 330,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 10,
+            "level": 76,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-PaladinAxe.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 10,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 80,
+            "damageMax": 96,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Light,9,Darkness,9,Health,-6"
+        }
+    },
+    "related": {
+        "416-paladin-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "416-paladin-items",
+                "fullSlug": "item-shops\/416-paladin-items",
+                "id": 416,
+                "name": "Paladin Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 416,
+                    "name": "Paladin Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

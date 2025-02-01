@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6522-purified-guard-s-staff-iv",
+        "fullSlug": "items\/6522-purified-guard-s-staff-iv",
+        "id": 6522,
+        "name": "Purified Guard's Staff IV",
+        "description": "An enchanted weapon forged by Anders, the blacksmith, and purified by the paladin, Dracelix. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6522,
+            "name": "Purified Guard's Staff IV",
+            "description": "An enchanted weapon forged by Anders, the blacksmith, and purified by the paladin, Dracelix. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-purified.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,9,Ice,5,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "103-purified-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "103-purified-weapons",
+                "fullSlug": "merge-shops\/103-purified-weapons",
+                "id": 103,
+                "name": "Purified Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 103,
+                    "name": "Purified Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1433,
+                    "mergeShopId": 103,
+                    "mergeId": 1329
+                },
+                "merge": {
+                    "id": 1329,
+                    "itemId1": 6241,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6522,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

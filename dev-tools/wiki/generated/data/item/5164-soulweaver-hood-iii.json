@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5164-soulweaver-hood-iii",
+        "fullSlug": "items\/5164-soulweaver-hood-iii",
+        "id": 5164,
+        "name": "SoulWeaver Hood III",
+        "description": "For only the most stylish of SoulWeavers!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5164,
+            "name": "SoulWeaver Hood III",
+            "description": "For only the most stylish of SoulWeavers!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 48,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-SWhood.swf?ver=1",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,7,Ice,7,Darkness,7"
+        }
+    },
+    "related": {
+        "84-murk-s-pellow-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "84-murk-s-pellow-merch",
+                "fullSlug": "merge-shops\/84-murk-s-pellow-merch",
+                "id": 84,
+                "name": "Murk's Pellow Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 84,
+                    "name": "Murk's Pellow Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1153,
+                    "mergeShopId": 84,
+                    "mergeId": 965
+                },
+                "merge": {
+                    "id": 965,
+                    "itemId1": 3727,
+                    "amount1": 9,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 5164,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "193-sepulchure",
+        "fullSlug": "quests\/193-sepulchure",
+        "id": 193,
+        "name": "Sepulchure",
+        "description": "You have been asked to investigate the disturbance high in the mountains of Sho Nuff Island."
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 193,
+            "name": "Sepulchure",
+            "description": "You have been asked to investigate the disturbance high in the mountains of Sho Nuff Island.",
+            "complete": "Who could have imagined Sepulchure and his dragon would hold such power? You narrowly escaped with your life, but at least now you have had a taste of the battles to come. How will you prepare for your next encounter?",
+            "swf": "quests\/quest-sepulchure1.swf ",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 0,
+            "maxGems": 0,
+            "maxExp": 0,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 0,
+            "monsterType": "TEST",
+            "monsterGroupSwf": "mset-fluffyandseppy.swf"
+        }
+    },
+    "related": {
+        "1370-dragonhead-helm": {
+            "page": {
+                "slugBase": "items",
+                "slug": "1370-dragonhead-helm",
+                "fullSlug": "items\/1370-dragonhead-helm",
+                "id": 1370,
+                "name": "Dragonhead Helm",
+                "description": "After regaining consciousness from your defeat at Sepulchure's hand, you noticed the horns of this helm sticking out from under a bush."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 1370,
+                    "name": "Dragonhead Helm",
+                    "description": "After regaining consciousness from your defeat at Sepulchure's hand, you noticed the horns of this helm sticking out from under a bush.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 1,
+                    "currency": 2,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 2,
+                    "rarity": 0,
+                    "level": 20,
+                    "type": "Melee",
+                    "element": "Darkness",
+                    "categoryId": "2",
+                    "equipSpot": "Head",
+                    "itemType": "Helm",
+                    "swf": "head\/helms\/helm-dragonhead.swf",
+                    "icon": "helm",
+                    "strength": 2,
+                    "dexterity": 0,
+                    "intelligence": 2,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 3,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 2,
+                    "critical": 4,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": "Light,3"
+                }
+            },
+            "related": []
+        }
+    }
+}

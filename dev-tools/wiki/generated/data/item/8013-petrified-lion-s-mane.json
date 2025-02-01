@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8013-petrified-lion-s-mane",
+        "fullSlug": "items\/8013-petrified-lion-s-mane",
+        "id": 8013,
+        "name": "Petrified Lion's Mane",
+        "description": "Who's scared of that mean ol' witch? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8013,
+            "name": "Petrified Lion's Mane",
+            "description": "Who's scared of that mean ol' witch? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-lionmane.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,12,Darkness,10,Stone,10,Bacon,8,Immobility,5"
+        }
+    },
+    "related": {
+        "290-red-brick-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "290-red-brick-drops",
+                "fullSlug": "item-shops\/290-red-brick-drops",
+                "id": 290,
+                "name": "Red Brick Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 290,
+                    "name": "Red Brick Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

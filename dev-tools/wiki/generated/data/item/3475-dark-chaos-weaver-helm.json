@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3475-dark-chaos-weaver-helm",
+        "fullSlug": "items\/3475-dark-chaos-weaver-helm",
+        "id": 3475,
+        "name": "Dark Chaos Weaver Helm",
+        "description": "These helms were crafted in imitation of the Chaos Weavers to strike fear into the hearts of your enemies!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3475,
+            "name": "Dark Chaos Weaver Helm",
+            "description": "These helms were crafted in imitation of the Chaos Weavers to strike fear into the hearts of your enemies!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 55,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-chaosweaver.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": -6,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,9,Ice,9"
+        }
+    },
+    "related": {
+        "558-weaving-emporium": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "558-weaving-emporium",
+                "fullSlug": "quests\/558-weaving-emporium",
+                "id": 558,
+                "name": "Weaving Emporium",
+                "description": "Tomix is hunting for the second key to the Equilibrium Gate in the Weaving Emporium.  But who is this?  Meet Riadne!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 558,
+                    "name": "Weaving Emporium",
+                    "description": "Tomix is hunting for the second key to the Equilibrium Gate in the Weaving Emporium.  But who is this?  Meet Riadne!",
+                    "complete": "Wait, isn't Greed inside the Gate already?!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix2-sec.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "spiders",
+                    "monsterGroupSwf": "mset-tomix2-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

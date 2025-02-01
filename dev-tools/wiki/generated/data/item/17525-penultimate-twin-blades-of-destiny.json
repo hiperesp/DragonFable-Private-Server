@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17525-penultimate-twin-blades-of-destiny",
+        "fullSlug": "items\/17525-penultimate-twin-blades-of-destiny",
+        "id": 17525,
+        "name": "Penultimate Twin Blades of Destiny",
+        "description": "Tempered with the power of the Ultimate blade shards and elemental flux, your Destiny weapon glows with radiant power! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17525,
+            "name": "Penultimate Twin Blades of Destiny",
+            "description": "Tempered with the power of the Ultimate blade shards and elemental flux, your Destiny weapon glows with radiant power! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 70,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-destiny3.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 15,
+            "intelligence": 0,
+            "luck": 15,
+            "charisma": 7,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 78,
+            "damageMax": 108,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "All,7,Health,-14"
+        }
+    },
+    "related": {
+        "277-destiny-reforging": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "277-destiny-reforging",
+                "fullSlug": "merge-shops\/277-destiny-reforging",
+                "id": 277,
+                "name": "Destiny Reforging",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 277,
+                    "name": "Destiny Reforging"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3074,
+                    "mergeShopId": 277,
+                    "mergeId": 3089
+                },
+                "merge": {
+                    "id": 3089,
+                    "itemId1": 17515,
+                    "amount1": 1,
+                    "itemId2": 17525,
+                    "amount2": 1,
+                    "itemId": 17517,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

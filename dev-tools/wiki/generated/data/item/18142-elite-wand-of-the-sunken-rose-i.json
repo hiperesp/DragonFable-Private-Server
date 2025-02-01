@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18142-elite-wand-of-the-sunken-rose-i",
+        "fullSlug": "items\/18142-elite-wand-of-the-sunken-rose-i",
+        "id": 18142,
+        "name": "Elite Wand of the Sunken Rose I",
+        "description": "Yllmar, the Maw of the Deep swallowed many ships and treasures. This wand belonged to an elite squad of Rose huntresses who must have met their demise in the whirlpool."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18142,
+            "name": "Elite Wand of the Sunken Rose I",
+            "description": "Yllmar, the Maw of the Deep swallowed many ships and treasures. This wand belonged to an elite squad of Rose huntresses who must have met their demise in the whirlpool.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 45,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-drownedrose.swf",
+            "icon": "wand",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 15,
+            "luck": 5,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 66,
+            "damageMax": 74,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,5,Health,-10"
+        }
+    },
+    "related": {
+        "1521-the-depth-s-maw": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1521-the-depth-s-maw",
+                "fullSlug": "quests\/1521-the-depth-s-maw",
+                "id": 1521,
+                "name": "The Depth's Maw",
+                "description": "Dropping anchor near the massive whirlpool only drew out its occupant: Yllmar, the Depth's Maw, peril to anything that wanders too near to its territory."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1521,
+                    "name": "The Depth's Maw",
+                    "description": "Dropping anchor near the massive whirlpool only drew out its occupant: Yllmar, the Depth's Maw, peril to anything that wanders too near to its territory.",
+                    "complete": "Yllmar is defeated, but the whirlpool remains. What could be behind it? Are there other sea serpents out there?",
+                    "swf": "towns\/3Ocean\/quest-seaserpent.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Sea Serpent",
+                    "monsterGroupSwf": "mset-seaserpent-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11994-obsidian-dragon-wings",
+        "fullSlug": "items\/11994-obsidian-dragon-wings",
+        "id": 11994,
+        "name": "Obsidian Dragon Wings",
+        "description": "A malevolent magic seeps from these bones... just one question, who's been harvesting them and why?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11994,
+            "name": "Obsidian Dragon Wings",
+            "description": "A malevolent magic seeps from these bones... just one question, who's been harvesting them and why?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 9000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-obsidiandragon.swf",
+            "icon": "wings",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Fire,3"
+        }
+    },
+    "related": {
+        "405-obsidian-dragon": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "405-obsidian-dragon",
+                "fullSlug": "item-shops\/405-obsidian-dragon",
+                "id": 405,
+                "name": "Obsidian Dragon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 405,
+                    "name": "Obsidian Dragon",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

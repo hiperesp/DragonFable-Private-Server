@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "688-strong-purebeam",
+        "fullSlug": "items\/688-strong-purebeam",
+        "id": 688,
+        "name": "Strong Purebeam",
+        "description": "This weapon required a Dragon Amulet. Using the purified shards of bloodgem, this holy blade of light was made specifically for you."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 688,
+            "name": "Strong Purebeam",
+            "description": "This weapon required a Dragon Amulet. Using the purified shards of bloodgem, this holy blade of light was made specifically for you.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 15,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-thursdayDA.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 33,
+            "damageMax": 43,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 98,
+                    "mergeShopId": 4,
+                    "mergeId": 126
+                },
+                "merge": {
+                    "id": 126,
+                    "itemId1": 684,
+                    "amount1": 20,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 688,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

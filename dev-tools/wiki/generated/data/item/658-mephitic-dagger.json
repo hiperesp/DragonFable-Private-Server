@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "658-mephitic-dagger",
+        "fullSlug": "items\/658-mephitic-dagger",
+        "id": 658,
+        "name": "Mephitic Dagger",
+        "description": "This weapon requires a Dragon Amulet. It was crafted from the claw of a highly toxic creature of unknown origin. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 658,
+            "name": "Mephitic Dagger",
+            "description": "This weapon requires a Dragon Amulet. It was crafted from the claw of a highly toxic creature of unknown origin. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 23,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-DC2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 38,
+            "damageMax": 58,
+            "defenseMelee": 0,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

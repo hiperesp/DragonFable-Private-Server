@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13474-hairy-chain",
+        "fullSlug": "items\/13474-hairy-chain",
+        "id": 13474,
+        "name": "Hairy Chain",
+        "description": "Hair is woven and tangled through all the links!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13474,
+            "name": "Hairy Chain",
+            "description": "Hair is woven and tangled through all the links!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 7,
+            "level": 63,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,8,Water,8,Wind,8,Immobility,3"
+        }
+    },
+    "related": {
+        "1232-hide-n-seek": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1232-hide-n-seek",
+                "fullSlug": "quests\/1232-hide-n-seek",
+                "id": 1232,
+                "name": "Hide n' Seek",
+                "description": "It's Twillys turn to hide! Can you find him before snack time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1232,
+                    "name": "Hide n' Seek",
+                    "description": "It's Twillys turn to hide! Can you find him before snack time?",
+                    "complete": "You found Twilly! Just in time too, your stomach is rumbling....",
+                    "swf": "random\/random-100room-hidenseek-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

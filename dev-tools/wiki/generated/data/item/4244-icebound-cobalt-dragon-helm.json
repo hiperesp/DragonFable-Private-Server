@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4244-icebound-cobalt-dragon-helm",
+        "fullSlug": "items\/4244-icebound-cobalt-dragon-helm",
+        "id": 4244,
+        "name": "Icebound Cobalt Dragon Helm",
+        "description": "This glowing helm seems more impressive then you could have imagined."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4244,
+            "name": "Icebound Cobalt Dragon Helm",
+            "description": "This glowing helm seems more impressive then you could have imagined.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 5,
+            "level": 53,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-cobaltdragon.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 6,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,7,Light,7,Immobility,4"
+        }
+    },
+    "related": {
+        "658-donovan": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "658-donovan",
+                "fullSlug": "quests\/658-donovan",
+                "id": 658,
+                "name": "Donovan",
+                "description": "Sheesh, Vilmor doesn't let Donovan get many shots in... even with imaginary monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 658,
+                    "name": "Donovan",
+                    "description": "Sheesh, Vilmor doesn't let Donovan get many shots in... even with imaginary monsters!",
+                    "complete": "Uh oh....",
+                    "swf": "random\/quest-dragonsgrasp6-random-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "random - low alpha",
+                    "monsterGroupSwf": "mset-dragonsgrasp6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

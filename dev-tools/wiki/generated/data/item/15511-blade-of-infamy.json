@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15511-blade-of-infamy",
+        "fullSlug": "items\/15511-blade-of-infamy",
+        "id": 15511,
+        "name": "Blade of Infamy",
+        "description": "For the hero who has been driven to evil. Once on a proud and righteous path, this blade has been modified to suit the needs of an infamous villain."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15511,
+            "name": "Blade of Infamy",
+            "description": "For the hero who has been driven to evil. Once on a proud and righteous path, this blade has been modified to suit the needs of an infamous villain.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 60,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/sword-kickstarter3.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 72,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,6,Light,-6,Immobility,2"
+        }
+    },
+    "related": {
+        "490-kickstarter-reward-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "490-kickstarter-reward-shop",
+                "fullSlug": "item-shops\/490-kickstarter-reward-shop",
+                "id": 490,
+                "name": "Kickstarter Reward Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 490,
+                    "name": "Kickstarter Reward Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

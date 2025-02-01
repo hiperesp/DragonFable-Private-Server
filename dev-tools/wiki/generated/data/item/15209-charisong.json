@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15209-charisong",
+        "fullSlug": "items\/15209-charisong",
+        "id": 15209,
+        "name": "Charisong",
+        "description": "The partner to Ghost's Blade of Spooky Hotness, Charisong holds the soul of a certain princess that Ghost is trying to free. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15209,
+            "name": "Charisong",
+            "description": "The partner to Ghost's Blade of Spooky Hotness, Charisong holds the soul of a certain princess that Ghost is trying to free. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 22000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-charisong.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 11,
+            "dodge": 11,
+            "block": 11,
+            "resists": "Fire,11,Light,6,Wind,9,Immobility,7"
+        }
+    },
+    "related": {
+        "480-10th-anniversary": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "480-10th-anniversary",
+                "fullSlug": "item-shops\/480-10th-anniversary",
+                "id": 480,
+                "name": "10th Anniversary",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 480,
+                    "name": "10th Anniversary",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

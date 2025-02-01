@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12234-ancient-defender-edge-ii",
+        "fullSlug": "items\/12234-ancient-defender-edge-ii",
+        "id": 12234,
+        "name": "Ancient Defender Edge II",
+        "description": "The ancient soldiers of the Void used these arms to defend the Core!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12234,
+            "name": "Ancient Defender Edge II",
+            "description": "The ancient soldiers of the Void used these arms to defend the Core!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ancientedge.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 48,
+            "damageMax": 70,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Energy,4,Fire,2"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 131,
+                    "mergeShopId": 4,
+                    "mergeId": 2331
+                },
+                "merge": {
+                    "id": 2331,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": 12234,
+                    "amount2": 1,
+                    "itemId": 12235,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

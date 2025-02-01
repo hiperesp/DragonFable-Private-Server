@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18240-omniblade",
+        "fullSlug": "items\/18240-omniblade",
+        "id": 18240,
+        "name": "OmniBlade",
+        "description": "You've managed to collect all 13 of the cursed artifacts from across the A.E. Multiverse! This powerful blade is your reward! Use it well OmniKnight! This can be updated at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18240,
+            "name": "OmniBlade",
+            "description": "You've managed to collect all 13 of the cursed artifacts from across the A.E. Multiverse! This powerful blade is your reward! Use it well OmniKnight! This can be updated at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 100,
+            "level": 90,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-omnibladeenergy.swf",
+            "icon": "scythe",
+            "strength": 18,
+            "dexterity": 18,
+            "intelligence": 18,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 10,
+            "wisdom": 12,
+            "damageMin": 84,
+            "damageMax": 102,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 15,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,10,Immobility,8,Health,-4"
+        }
+    },
+    "related": {
+        "211-omniblade-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "211-omniblade-upgrade",
+                "fullSlug": "merge-shops\/211-omniblade-upgrade",
+                "id": 211,
+                "name": "OmniBlade Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 211,
+                    "name": "OmniBlade Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2535,
+                    "mergeShopId": 211,
+                    "mergeId": 3268
+                },
+                "merge": {
+                    "id": 3268,
+                    "itemId1": 12671,
+                    "amount1": 1,
+                    "itemId2": 12792,
+                    "amount2": 1,
+                    "itemId": 18240,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17940-squirrel-tentacle-iii",
+        "fullSlug": "items\/17940-squirrel-tentacle-iii",
+        "id": 17940,
+        "name": "Squirrel Tentacle III",
+        "description": "Don't question it. Just don't. Proof of your victory over Sciuridaehotep and the Witness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17940,
+            "name": "Squirrel Tentacle III",
+            "description": "Don't question it. Just don't. Proof of your victory over Sciuridaehotep and the Witness.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 5,
+            "level": 65,
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "289-primordial": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "289-primordial",
+                "fullSlug": "merge-shops\/289-primordial",
+                "id": 289,
+                "name": "Primordial",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 289,
+                    "name": "Primordial"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3163,
+                    "mergeShopId": 289,
+                    "mergeId": 3169
+                },
+                "merge": {
+                    "id": 3169,
+                    "itemId1": 17938,
+                    "amount1": 1,
+                    "itemId2": 17937,
+                    "amount2": 1,
+                    "itemId": 17940,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

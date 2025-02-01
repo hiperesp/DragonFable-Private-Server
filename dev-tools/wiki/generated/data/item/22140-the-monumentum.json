@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22140-the-monumentum",
+        "fullSlug": "items\/22140-the-monumentum",
+        "id": 22140,
+        "name": "The Monumentum",
+        "description": "Intricate and sturdy dagger. Yes, a dagger. Most likely belonging to a giant. Who lost it. And is now looking for it. And you have it.\nRun. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22140,
+            "name": "The Monumentum",
+            "description": "Intricate and sturdy dagger. Yes, a dagger. Most likely belonging to a giant. Who lost it. And is now looking for it. And you have it.\nRun. (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-themonument.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "428-vampire-booth": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "428-vampire-booth",
+                "fullSlug": "merge-shops\/428-vampire-booth",
+                "id": 428,
+                "name": "Vampire Booth",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 428,
+                    "name": "Vampire Booth"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4415,
+                    "mergeShopId": 428,
+                    "mergeId": 4455
+                },
+                "merge": {
+                    "id": 4455,
+                    "itemId1": 22159,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 22140,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

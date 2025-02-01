@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14039-silver-arrows-mark",
+        "fullSlug": "items\/14039-silver-arrows-mark",
+        "id": 14039,
+        "name": "Silver Arrows Mark",
+        "description": "Runes are lightly etched along the lines and edges of this elegant weapon... a weapon sure to do damage to any creature that lurks in the darkness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14039,
+            "name": "Silver Arrows Mark",
+            "description": "Runes are lightly etched along the lines and edges of this elegant weapon... a weapon sure to do damage to any creature that lurks in the darkness.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 40,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-silverarrow.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,4,Water,4,Health,-1"
+        }
+    },
+    "related": {
+        "447-silver-arrow-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "447-silver-arrow-drops",
+                "fullSlug": "item-shops\/447-silver-arrow-drops",
+                "id": 447,
+                "name": "Silver Arrow Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 447,
+                    "name": "Silver Arrow Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10275-edge-of-rebellion",
+        "fullSlug": "items\/10275-edge-of-rebellion",
+        "id": 10275,
+        "name": "Edge of Rebellion",
+        "description": "All sales go towards they study of Mad Weaponsmithing."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10275,
+            "name": "Edge of Rebellion",
+            "description": "All sales go towards they study of Mad Weaponsmithing.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 330,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 76,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-greendagger.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 10,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 78,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Water,12,Energy,12,Fire,8,Immobility,5"
+        }
+    },
+    "related": {
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "361-rebel-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "361-rebel-shop",
+                "fullSlug": "item-shops\/361-rebel-shop",
+                "id": 361,
+                "name": "Rebel Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 361,
+                    "name": "Rebel Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6815-dragonknight-staff",
+        "fullSlug": "items\/6815-dragonknight-staff",
+        "id": 6815,
+        "name": "DragonKnight Staff",
+        "description": "Brought by a traveling merchant from an exotic land, these weapons increase your damage against dragons!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6815,
+            "name": "DragonKnight Staff",
+            "description": "Brought by a traveling merchant from an exotic land, these weapons increase your damage against dragons!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 375,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 70,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-dragonknight-r1.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 78,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "260-dragonknight-relics": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "260-dragonknight-relics",
+                "fullSlug": "item-shops\/260-dragonknight-relics",
+                "id": 260,
+                "name": "DragonKnight Relics",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 260,
+                    "name": "DragonKnight Relics",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "44-cysero-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "44-cysero-s-weapons",
+                "fullSlug": "item-shops\/44-cysero-s-weapons",
+                "id": 44,
+                "name": "Cysero's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Cysero's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

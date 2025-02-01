@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9100-golden-aces-cloak-iii",
+        "fullSlug": "items\/9100-golden-aces-cloak-iii",
+        "id": 9100,
+        "name": "Golden Aces Cloak III",
+        "description": "A gilded cape for a true card shark. Are you feeling lucky this Lucky 13?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9100,
+            "name": "Golden Aces Cloak III",
+            "description": "A gilded cape for a true card shark. Are you feeling lucky this Lucky 13?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 41,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-goldace_cape.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 6,
+            "charisma": 1,
+            "endurance": 5,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Immobility,2"
+        }
+    },
+    "related": {
+        "317-lucky-13-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "317-lucky-13-dc",
+                "fullSlug": "item-shops\/317-lucky-13-dc",
+                "id": 317,
+                "name": "Lucky 13 DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 317,
+                    "name": "Lucky 13 DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

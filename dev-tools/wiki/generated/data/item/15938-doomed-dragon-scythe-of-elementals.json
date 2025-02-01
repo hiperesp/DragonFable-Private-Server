@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15938-doomed-dragon-scythe-of-elementals",
+        "fullSlug": "items\/15938-doomed-dragon-scythe-of-elementals",
+        "id": 15938,
+        "name": "Doomed Dragon Scythe of Elementals",
+        "description": "Eight elemental orbs to celebrate DragonFable's anniversary! Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15938,
+            "name": "Doomed Dragon Scythe of Elementals",
+            "description": "Eight elemental orbs to celebrate DragonFable's anniversary! Visit the Black Market Moglin to upgrade this weapon.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-8elements.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Darkness,6,Ice,6,Immobility,1,Health,-2"
+        }
+    },
+    "related": {
+        "505-doomed-dragon-scythe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "505-doomed-dragon-scythe",
+                "fullSlug": "item-shops\/505-doomed-dragon-scythe",
+                "id": 505,
+                "name": "Doomed Dragon Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 505,
+                    "name": "Doomed Dragon Scythe",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "140-ultimate-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "140-ultimate-scythe",
+                "fullSlug": "merge-shops\/140-ultimate-scythe",
+                "id": 140,
+                "name": "Ultimate Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 140,
+                    "name": "Ultimate Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2017,
+                    "mergeShopId": 140,
+                    "mergeId": 2864
+                },
+                "merge": {
+                    "id": 2864,
+                    "itemId1": 15938,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15939,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

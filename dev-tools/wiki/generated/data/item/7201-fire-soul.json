@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7201-fire-soul",
+        "fullSlug": "items\/7201-fire-soul",
+        "id": 7201,
+        "name": "Fire Soul",
+        "description": "Your soul burns for revenge! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7201,
+            "name": "Fire Soul",
+            "description": "Your soul burns for revenge! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 12,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-FireInMySoul.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 34,
+            "damageMax": 40,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,2,Ice,2"
+        }
+    },
+    "related": {
+        "926-the-duel": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "926-the-duel",
+                "fullSlug": "quests\/926-the-duel",
+                "id": 926,
+                "name": "The Duel",
+                "description": "Warlic and Alex have each had enough! It's time to show who has the real power!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 926,
+                    "name": "The Duel",
+                    "description": "Warlic and Alex have each had enough! It's time to show who has the real power!",
+                    "complete": "How did this go so far?! It's the end of Alex... and the beginning of Xan!",
+                    "swf": "towns\/swordhavenalex\/quest-alex7-duel-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "warlic",
+                    "monsterGroupSwf": "mset-alex7-duel.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

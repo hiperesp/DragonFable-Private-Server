@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7739-twig-s-systerity-staff-ii",
+        "fullSlug": "items\/7739-twig-s-systerity-staff-ii",
+        "id": 7739,
+        "name": "Twig's Systerity Staff II",
+        "description": "Crafted by a master Atealean blacksmith, these weapons feel the tidal pull of Lore's moon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7739,
+            "name": "Twig's Systerity Staff II",
+            "description": "Crafted by a master Atealean blacksmith, these weapons feel the tidal pull of Lore's moon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 50,
+            "level": 42,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-systerity-twig.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 52,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Light,3"
+        }
+    },
+    "related": {
+        "284-twig-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "284-twig-s-shop",
+                "fullSlug": "item-shops\/284-twig-s-shop",
+                "id": 284,
+                "name": "Twig's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 284,
+                    "name": "Twig's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

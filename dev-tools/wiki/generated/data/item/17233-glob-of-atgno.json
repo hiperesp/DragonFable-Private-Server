@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17233-glob-of-atgno",
+        "fullSlug": "items\/17233-glob-of-atgno",
+        "id": 17233,
+        "name": "Glob of Atgno",
+        "description": "A colorless mass... or is it? You can... feel... that it is colored by some kind of sorrow from those departed: the gnawing and paralyzing pain of having died for or having let a cherished one perish."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17233,
+            "name": "Glob of Atgno",
+            "description": "A colorless mass... or is it? You can... feel... that it is colored by some kind of sorrow from those departed: the gnawing and paralyzing pain of having died for or having let a cherished one perish.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 20,
+            "bonus": 0,
+            "rarity": 99,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1429-hunt-for-atgno": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1429-hunt-for-atgno",
+                "fullSlug": "quests\/1429-hunt-for-atgno",
+                "id": 1429,
+                "name": "Hunt for Atgno",
+                "description": "These... are ruins from the Fire War, aren't they?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1429,
+                    "name": "Hunt for Atgno",
+                    "description": "These... are ruins from the Fire War, aren't they?",
+                    "complete": "This just doesn't make any sense. But someone needs help. And you're helping. Right?",
+                    "swf": "towns\/3swordhaven\/Board\/quest-atgno.swf ",
+                    "swfX": "towns\/3swordhaven\/Board\/quest-atgno-x.swf ",
+                    "maxSilver": 0,
+                    "maxGold": 20000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "bad emotions",
+                    "monsterGroupSwf": "mset-atgno2.swf"
+                }
+            },
+            "related": []
+        },
+        "290-atgasedd-doll": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "290-atgasedd-doll",
+                "fullSlug": "merge-shops\/290-atgasedd-doll",
+                "id": 290,
+                "name": "Atgasedd Doll",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 290,
+                    "name": "Atgasedd Doll"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3167,
+                    "mergeShopId": 290,
+                    "mergeId": 3191
+                },
+                "merge": {
+                    "id": 3191,
+                    "itemId1": 17101,
+                    "amount1": 1,
+                    "itemId2": 17233,
+                    "amount2": 1,
+                    "itemId": 17947,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

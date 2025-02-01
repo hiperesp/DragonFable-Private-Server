@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19384-swordhaven-badge-tgh",
+        "fullSlug": "items\/19384-swordhaven-badge-tgh",
+        "id": 19384,
+        "name": "Swordhaven Badge (TGH)",
+        "description": "A badge of valor bestowed upon you by Queen Victoria for your efforts in the defense of Swordhaven. It has a small engraving of a hand on it. One can be used in the future to earn a reward."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19384,
+            "name": "Swordhaven Badge (TGH)",
+            "description": "A badge of valor bestowed upon you by Queen Victoria for your efforts in the defense of Swordhaven. It has a small engraving of a hand on it. One can be used in the future to earn a reward.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "whitegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1682-daybreak-golden-hand": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1682-daybreak-golden-hand",
+                "fullSlug": "quests\/1682-daybreak-golden-hand",
+                "id": 1682,
+                "name": "Daybreak (Golden Hand)",
+                "description": "The Golden Hand approaches the rift..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1682,
+                    "name": "Daybreak (Golden Hand)",
+                    "description": "The Golden Hand approaches the rift...",
+                    "complete": "And the sun dawns upon Swordhaven, and the Greenguard Alliance is tested.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest2-daybreak-hand.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest2-daybreak-hand-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "325-golden-hand-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "325-golden-hand-helm",
+                "fullSlug": "merge-shops\/325-golden-hand-helm",
+                "id": 325,
+                "name": "Golden Hand Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 325,
+                    "name": "Golden Hand Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3458,
+                    "mergeShopId": 325,
+                    "mergeId": 3538
+                },
+                "merge": {
+                    "id": 3538,
+                    "itemId1": 19797,
+                    "amount1": 1,
+                    "itemId2": 19384,
+                    "amount2": 1,
+                    "itemId": 19798,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

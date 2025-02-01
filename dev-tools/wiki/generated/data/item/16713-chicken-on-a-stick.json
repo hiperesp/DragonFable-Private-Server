@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16713-chicken-on-a-stick",
+        "fullSlug": "items\/16713-chicken-on-a-stick",
+        "id": 16713,
+        "name": "Chicken On A Stick",
+        "description": "A piece of fried chicken speared onto a stick. It seems that some magic is keeping it piping hot and tasty! Don't eat too much of it, though."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16713,
+            "name": "Chicken On A Stick",
+            "description": "A piece of fried chicken speared onto a stick. It seems that some magic is keeping it piping hot and tasty! Don't eat too much of it, though.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 110,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 40,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-fried.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 55,
+            "damageMax": 63,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Bacon,5,Fire,-2"
+        }
+    },
+    "related": {
+        "1393-what-s-that-whistling-noise": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1393-what-s-that-whistling-noise",
+                "fullSlug": "quests\/1393-what-s-that-whistling-noise",
+                "id": 1393,
+                "name": "What's That Whistling Noise?",
+                "description": "Monsters are coming out of fruitcake bombs! What could be their source?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1393,
+                    "name": "What's That Whistling Noise?",
+                    "description": "Monsters are coming out of fruitcake bombs! What could be their source?",
+                    "complete": "That was a piece of cake! Time to take the fight to Joules!",
+                    "swf": "towns\/Thankstaking\/tt16\/quest2-noise.swf",
+                    "swfX": "towns\/Thankstaking\/tt16\/quest2-noise-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food!",
+                    "monsterGroupSwf": "mset-thanks16-2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

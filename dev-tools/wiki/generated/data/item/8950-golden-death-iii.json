@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8950-golden-death-iii",
+        "fullSlug": "items\/8950-golden-death-iii",
+        "id": 8950,
+        "name": "Golden Death III",
+        "description": "This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8950,
+            "name": "Golden Death III",
+            "description": "This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-goldenbacon8.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 42,
+            "damageMax": 60,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Energy,3,Health,-1"
+        }
+    },
+    "related": {
+        "316-lucky-13-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "316-lucky-13-gold",
+                "fullSlug": "item-shops\/316-lucky-13-gold",
+                "id": 316,
+                "name": "Lucky 13 Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 316,
+                    "name": "Lucky 13 Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "783-spume",
+        "fullSlug": "items\/783-spume",
+        "id": 783,
+        "name": "Spume",
+        "description": "This pet requires a Dragon Amulet. This frothy little critter is only found in  the deepest, dankest water caves near Oaklore."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 783,
+            "name": "Spume",
+            "description": "This pet requires a Dragon Amulet. This frothy little critter is only found in  the deepest, dankest water caves near Oaklore.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 5,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Flipper.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 2,
+            "damageMax": 7,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "119-the-hydra-s-lair": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "119-the-hydra-s-lair",
+                "fullSlug": "quests\/119-the-hydra-s-lair",
+                "id": 119,
+                "name": "The Hydra's Lair",
+                "description": "You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 119,
+                    "name": "The Hydra's Lair",
+                    "description": "You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!",
+                    "complete": "The Hydras numbers have been thinned and Oaklore forest is safe from the watery menace for a little while.",
+                    "swf": "random\/random-hydra.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-hydracave.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

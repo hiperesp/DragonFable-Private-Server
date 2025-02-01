@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8510-watcher-s-wings",
+        "fullSlug": "items\/8510-watcher-s-wings",
+        "id": 8510,
+        "name": "Watcher's Wings",
+        "description": "A staff created by the mysterious Rune."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8510,
+            "name": "Watcher's Wings",
+            "description": "A staff created by the mysterious Rune.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 26,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-watcherswings.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 39,
+            "damageMax": 53,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Health,-1"
+        }
+    },
+    "related": {
+        "301-rosewood-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "301-rosewood-weapons",
+                "fullSlug": "item-shops\/301-rosewood-weapons",
+                "id": 301,
+                "name": "Rosewood Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 301,
+                    "name": "Rosewood Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

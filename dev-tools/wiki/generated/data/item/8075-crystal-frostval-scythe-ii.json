@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8075-crystal-frostval-scythe-ii",
+        "fullSlug": "items\/8075-crystal-frostval-scythe-ii",
+        "id": 8075,
+        "name": "Crystal Frostval Scythe II",
+        "description": "The crystal of the blade itself sings as you swing it! Happy Frostval, 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8075,
+            "name": "Crystal Frostval Scythe II",
+            "description": "The crystal of the blade itself sings as you swing it! Happy Frostval, 2012!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 8,
+            "level": 10,
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-present-2012.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 21,
+            "damageMax": 35,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,2,Health,-1"
+        }
+    },
+    "related": {
+        "126-2012-presents": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "126-2012-presents",
+                "fullSlug": "merge-shops\/126-2012-presents",
+                "id": 126,
+                "name": "2012 Presents",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 126,
+                    "name": "2012 Presents"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1784,
+                    "mergeShopId": 126,
+                    "mergeId": 1657
+                },
+                "merge": {
+                    "id": 1657,
+                    "itemId1": 8075,
+                    "amount1": 1,
+                    "itemId2": 8032,
+                    "amount2": 1,
+                    "itemId": 8076,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

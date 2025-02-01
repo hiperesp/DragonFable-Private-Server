@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "329-marquis-sword",
+        "fullSlug": "items\/329-marquis-sword",
+        "id": 329,
+        "name": "Marquis Sword",
+        "description": "This elegant weapon is coveted by royalty."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 329,
+            "name": "Marquis Sword",
+            "description": "This elegant weapon is coveted by royalty.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 15,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-kingblade.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 32,
+            "damageMax": 40,
+            "defenseMelee": 0,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-forest-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "19-forest-cave",
+                "fullSlug": "quests\/19-forest-cave",
+                "id": 19,
+                "name": "Forest Cave",
+                "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 19,
+                    "name": "Forest Cave",
+                    "description": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "complete": "A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.",
+                    "swf": "random\/random-normalcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 8,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "Cave monsters",
+                    "monsterGroupSwf": "mset-normalcave.swf"
+                }
+            },
+            "related": []
+        },
+        "25-its-a-dirty-job": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "25-its-a-dirty-job",
+                "fullSlug": "quests\/25-its-a-dirty-job",
+                "id": 25,
+                "name": "Its A Dirty Job...",
+                "description": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 25,
+                    "name": "Its A Dirty Job...",
+                    "description": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "complete": "You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.",
+                    "swf": "random\/random-earthcave1.swf",
+                    "swfX": "none",
+                    "maxSilver": 11,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 14,
+                    "monsterMaxLevel": 20,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalearth2.swf"
+                }
+            },
+            "related": []
+        },
+        "27-the-deep-freeze": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "27-the-deep-freeze",
+                "fullSlug": "quests\/27-the-deep-freeze",
+                "id": 27,
+                "name": "The Deep Freeze",
+                "description": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 27,
+                    "name": "The Deep Freeze",
+                    "description": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.",
+                    "complete": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.",
+                    "swf": "random\/random-icecave.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 9,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Beast, Elemental",
+                    "monsterGroupSwf": "mset-arctic.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

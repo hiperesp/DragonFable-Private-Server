@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9986-poker-titfer-viii",
+        "fullSlug": "items\/9986-poker-titfer-viii",
+        "id": 9986,
+        "name": "Poker Titfer VIII",
+        "description": "A very classy hat to hold your cards! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9986,
+            "name": "Poker Titfer VIII",
+            "description": "A very classy hat to hold your cards! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 16000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-pokertitfer.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 10,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Energy,12,Wind,12,Silver,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "346-titfer": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "346-titfer",
+                "fullSlug": "item-shops\/346-titfer",
+                "id": 346,
+                "name": "Titfer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 346,
+                    "name": "Titfer",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

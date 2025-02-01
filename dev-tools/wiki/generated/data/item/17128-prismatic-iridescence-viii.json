@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17128-prismatic-iridescence-viii",
+        "fullSlug": "items\/17128-prismatic-iridescence-viii",
+        "id": 17128,
+        "name": "Prismatic Iridescence VIII",
+        "description": "This weapon was expertly crafted with a shard of a rainbow. How do you get a shard from a rainbow? A lot of running and a bit of luck."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17128,
+            "name": "Prismatic Iridescence VIII",
+            "description": "This weapon was expertly crafted with a shard of a rainbow. How do you get a shard from a rainbow? A lot of running and a bit of luck.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 550,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 0,
+            "level": 85,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-prismatic.swf",
+            "icon": "scythe",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 13,
+            "charisma": 0,
+            "endurance": -20,
+            "wisdom": -20,
+            "damageMin": 85,
+            "damageMax": 105,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 12,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Light,7,Fire,7,Poison,7"
+        }
+    },
+    "related": {
+        "548-prismatic-iridescence": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "548-prismatic-iridescence",
+                "fullSlug": "item-shops\/548-prismatic-iridescence",
+                "id": 548,
+                "name": "Prismatic Iridescence",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 548,
+                    "name": "Prismatic Iridescence",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "625-rainbow-s-edge": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "625-rainbow-s-edge",
+                "fullSlug": "item-shops\/625-rainbow-s-edge",
+                "id": 625,
+                "name": "Rainbow's Edge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 625,
+                    "name": "Rainbow's Edge",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21604-academic-s-ring-v",
+        "fullSlug": "items\/21604-academic-s-ring-v",
+        "id": 21604,
+        "name": "Academic's Ring V",
+        "description": "Found amidst the rubble of Hawkscry, this ancient simple metal ring still glimmers and shines in the dark. Whether this is due to its original enchantment, or the influence of the nearby Fissure, you do not know. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21604,
+            "name": "Academic's Ring V",
+            "description": "Found amidst the rubble of Hawkscry, this ancient simple metal ring still glimmers and shines in the dark. Whether this is due to its original enchantment, or the influence of the nearby Fissure, you do not know. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 90,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 15,
+            "wisdom": 15,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Fear,10,Good,5,Evil,5,Health,-5"
+        }
+    },
+    "related": {
+        "2056-hawk-in-the-sky": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2056-hawk-in-the-sky",
+                "fullSlug": "quests\/2056-hawk-in-the-sky",
+                "id": 2056,
+                "name": "Hawk in the Sky",
+                "description": "The time has come to put the plan into action."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2056,
+                    "name": "Hawk in the Sky",
+                    "description": "The time has come to put the plan into action.",
+                    "complete": "The shield falls...",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest9-hawk-r1.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest9-hawk-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Spellseeker and Rose",
+                    "monsterGroupSwf": "mset-spellseeker-r1.swf?ver=2"
+                }
+            },
+            "related": []
+        }
+    }
+}

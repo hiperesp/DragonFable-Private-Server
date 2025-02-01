@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11256-icy-battle-cloak-ii",
+        "fullSlug": "items\/11256-icy-battle-cloak-ii",
+        "id": 11256,
+        "name": "Icy Battle Cloak II",
+        "description": "Icy spiked cloak to help you stay cool in battle! Or is it warm? Hmm."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11256,
+            "name": "Icy Battle Cloak II",
+            "description": "Icy spiked cloak to help you stay cool in battle! Or is it warm? Hmm.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 30,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-IcyBattleCape.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Ice,3"
+        }
+    },
+    "related": {
+        "1127-chilly-and-the-candy-factory": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1127-chilly-and-the-candy-factory",
+                "fullSlug": "quests\/1127-chilly-and-the-candy-factory",
+                "id": 1127,
+                "name": "Chilly and the Candy Factory",
+                "description": "Why are pink moglinsters blue moglins? Did they eat too much bubble gum? More importantly, can you clear a path through the out of control candy factory?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1127,
+                    "name": "Chilly and the Candy Factory",
+                    "description": "Why are pink moglinsters blue moglins? Did they eat too much bubble gum? More importantly, can you clear a path through the out of control candy factory?",
+                    "complete": "Hurray! You did it!",
+                    "swf": "towns\/Frostvale\/F13\/quest-factory-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Moglinsters and Chilly!",
+                    "monsterGroupSwf": "mset-Chilly13.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

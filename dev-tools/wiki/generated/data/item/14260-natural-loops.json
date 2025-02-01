@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14260-natural-loops",
+        "fullSlug": "items\/14260-natural-loops",
+        "id": 14260,
+        "name": "Natural Loops",
+        "description": "These plain loops make a beautiful necklace."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14260,
+            "name": "Natural Loops",
+            "description": "These plain loops make a beautiful necklace.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 16,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Fire,2"
+        }
+    },
+    "related": {
+        "1279-the-great-petscape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1279-the-great-petscape",
+                "fullSlug": "quests\/1279-the-great-petscape",
+                "id": 1279,
+                "name": "The Great Petscape",
+                "description": "Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1279,
+                    "name": "The Great Petscape",
+                    "description": "Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!",
+                    "complete": "Those darn ninja monkeys! At least all the pets are accounted for, if a little bit grumpy.",
+                    "swf": "towns\/3OspreyCove\/quest-petscape.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pirate pets",
+                    "monsterGroupSwf": "mset-piratepets-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

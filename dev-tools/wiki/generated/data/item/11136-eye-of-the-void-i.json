@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11136-eye-of-the-void-i",
+        "fullSlug": "items\/11136-eye-of-the-void-i",
+        "id": 11136,
+        "name": "Eye of the Void I",
+        "description": "It's watching you..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11136,
+            "name": "Eye of the Void I",
+            "description": "It's watching you...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Pierce",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-eye of the void.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 47,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3"
+        }
+    },
+    "related": {
+        "1113-deepvoid": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1113-deepvoid",
+                "fullSlug": "quests\/1113-deepvoid",
+                "id": 1113,
+                "name": "DeepVoid",
+                "description": "Aspar has been busy..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1113,
+                    "name": "DeepVoid",
+                    "description": "Aspar has been busy...",
+                    "complete": "Aspar has reached the DeepVoid Core. What is his plan?",
+                    "swf": "towns\/3Ravenloss\/quest9-deepvoidcore-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1525-kathool-simulacrum",
+        "fullSlug": "quests\/1525-kathool-simulacrum",
+        "id": 1525,
+        "name": "Kathool Simulacrum",
+        "description": "Face the Simulacrum of Kathool. It... is a simulacrum, right?"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1525,
+            "name": "Kathool Simulacrum",
+            "description": "Face the Simulacrum of Kathool. It... is a simulacrum, right?",
+            "complete": "Kathool has fallen.",
+            "swf": "towns\/TimeArena\/quest-kathool.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "kathool & dryad & pet",
+            "monsterGroupSwf": "mset-arenanightmaredream-r1.swf?ver=5"
+        }
+    },
+    "related": {
+        "18311-tentacle-of-the-dominion-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "18311-tentacle-of-the-dominion-i",
+                "fullSlug": "items\/18311-tentacle-of-the-dominion-i",
+                "id": 18311,
+                "name": "Tentacle of the Dominion I",
+                "description": "A tiny tentacle torn from the defeated Simulacrum of Kathool, this ring slithers around your finger. I'm sure it'll be fine. Proof of your victory over the Simulacrum of Kathool."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 18311,
+                    "name": "Tentacle of the Dominion I",
+                    "description": "A tiny tentacle torn from the defeated Simulacrum of Kathool, this ring slithers around your finger. I'm sure it'll be fine. Proof of your victory over the Simulacrum of Kathool.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 2,
+                    "rarity": 0,
+                    "level": 30,
+                    "type": "Melee",
+                    "element": "???",
+                    "categoryId": "2",
+                    "equipSpot": "Finger",
+                    "itemType": "Ring",
+                    "swf": "",
+                    "icon": "ring",
+                    "strength": 2,
+                    "dexterity": 2,
+                    "intelligence": 2,
+                    "luck": -2,
+                    "charisma": -2,
+                    "endurance": 2,
+                    "wisdom": 2,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 1,
+                    "defensePierce": 1,
+                    "defenseMagic": 1,
+                    "critical": 2,
+                    "parry": 1,
+                    "dodge": 1,
+                    "block": 1,
+                    "resists": "All,2"
+                }
+            },
+            "related": []
+        }
+    }
+}

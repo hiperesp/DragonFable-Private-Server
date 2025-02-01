@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7109-gramma-s-magic-wand",
+        "fullSlug": "items\/7109-gramma-s-magic-wand",
+        "id": 7109,
+        "name": "Gramma's Magic Wand",
+        "description": "Gramma had a wand made from the axe that was used on the big bad wolf that turned her into a werewolf.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7109,
+            "name": "Gramma's Magic Wand",
+            "description": "Gramma had a wand made from the axe that was used on the big bad wolf that turned her into a werewolf.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 72,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-huntsman.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 10,
+            "endurance": 5,
+            "wisdom": 4,
+            "damageMin": 66,
+            "damageMax": 102,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Nature,10,Water,8,Darkness,8,Health,-4,Immobility,2"
+        }
+    },
+    "related": {
+        "918-red-riding-hood": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "918-red-riding-hood",
+                "fullSlug": "quests\/918-red-riding-hood",
+                "id": 918,
+                "name": "Red Riding Hood",
+                "description": "There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 918,
+                    "name": "Red Riding Hood",
+                    "description": "There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods.",
+                    "complete": "Wow, Red was mad. I mean really mad. Perhaps I should send a basket of goodies. It might be too early though. Perhaps I should wait a week or so.",
+                    "swf": "quests\/quest-redridinghood.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "woods",
+                    "monsterGroupSwf": "mset-redridinghood.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

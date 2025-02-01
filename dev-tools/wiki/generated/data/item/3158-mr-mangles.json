@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3158-mr-mangles",
+        "fullSlug": "items\/3158-mr-mangles",
+        "id": 3158,
+        "name": "Mr. Mangles",
+        "description": "This pet requires a dragon amulet. Hatched from a wiggling black gourd, this bizarre cat doesn't look quite right... there's something unsettling about his vacant stare..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3158,
+            "name": "Mr. Mangles",
+            "description": "This pet requires a dragon amulet. Hatched from a wiggling black gourd, this bizarre cat doesn't look quite right... there's something unsettling about his vacant stare...",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 99,
+            "level": 40,
+            "element": "Darkness",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-MrManglesr1.swf",
+            "icon": "pet",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 15,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "59-mogloween-pet": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "59-mogloween-pet",
+                "fullSlug": "merge-shops\/59-mogloween-pet",
+                "id": 59,
+                "name": "Mogloween Pet",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 59,
+                    "name": "Mogloween Pet"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 853,
+                    "mergeShopId": 59,
+                    "mergeId": 566
+                },
+                "merge": {
+                    "id": 566,
+                    "itemId1": 3013,
+                    "amount1": 1,
+                    "itemId2": 864,
+                    "amount2": 5,
+                    "itemId": 3158,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

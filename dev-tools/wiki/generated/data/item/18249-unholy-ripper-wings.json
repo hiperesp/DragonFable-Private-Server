@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18249-unholy-ripper-wings",
+        "fullSlug": "items\/18249-unholy-ripper-wings",
+        "id": 18249,
+        "name": "Unholy Ripper Wings",
+        "description": "A dark power swirls around these demonic wings."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18249,
+            "name": "Unholy Ripper Wings",
+            "description": "A dark power swirls around these demonic wings.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 90,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-ripper wings.swf",
+            "icon": "wings",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 15,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,12,Stone,12,Silver,8,Poison,6,Health,-6"
+        }
+    },
+    "related": {
+        "91-ripper-wings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "91-ripper-wings",
+                "fullSlug": "merge-shops\/91-ripper-wings",
+                "id": 91,
+                "name": "Ripper Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 91,
+                    "name": "Ripper Wings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1251,
+                    "mergeShopId": 91,
+                    "mergeId": 3277
+                },
+                "merge": {
+                    "id": 3277,
+                    "itemId1": 12083,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 18249,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

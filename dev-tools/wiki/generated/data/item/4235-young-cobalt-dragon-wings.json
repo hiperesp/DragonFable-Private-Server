@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4235-young-cobalt-dragon-wings",
+        "fullSlug": "items\/4235-young-cobalt-dragon-wings",
+        "id": 4235,
+        "name": "Young Cobalt Dragon Wings",
+        "description": "Icy blue wings to carry you through your most harrowing, imaginative adventures."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4235,
+            "name": "Young Cobalt Dragon Wings",
+            "description": "Icy blue wings to carry you through your most harrowing, imaginative adventures.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 2,
+            "level": 15,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-CobaltDragon.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3"
+        }
+    },
+    "related": {
+        "658-donovan": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "658-donovan",
+                "fullSlug": "quests\/658-donovan",
+                "id": 658,
+                "name": "Donovan",
+                "description": "Sheesh, Vilmor doesn't let Donovan get many shots in... even with imaginary monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 658,
+                    "name": "Donovan",
+                    "description": "Sheesh, Vilmor doesn't let Donovan get many shots in... even with imaginary monsters!",
+                    "complete": "Uh oh....",
+                    "swf": "random\/quest-dragonsgrasp6-random-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "random - low alpha",
+                    "monsterGroupSwf": "mset-dragonsgrasp6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3817-pandora-s-cube-ring",
+        "fullSlug": "items\/3817-pandora-s-cube-ring",
+        "id": 3817,
+        "name": "Pandora's Cube Ring",
+        "description": "Stylized versions of Pandora's Cube are etched into the silver band of this ring.  The carvings glow a faint green.  Do you really want this thing around your finger?  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3817,
+            "name": "Pandora's Cube Ring",
+            "description": "Stylized versions of Pandora's Cube are etched into the silver band of this ring.  The carvings glow a faint green.  Do you really want this thing around your finger?  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 43,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,7,Light,7,Ice,7,Fire,7"
+        }
+    },
+    "related": {
+        "604-mystlyk-museum": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "604-mystlyk-museum",
+                "fullSlug": "quests\/604-mystlyk-museum",
+                "id": 604,
+                "name": "Mystlyk Museum",
+                "description": "A strange, quiet building full of old relics from the time of the human Chaosweavers!  Be sure to gather up anything laying around, it might be useful later on in the quest!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 604,
+                    "name": "Mystlyk Museum",
+                    "description": "A strange, quiet building full of old relics from the time of the human Chaosweavers!  Be sure to gather up anything laying around, it might be useful later on in the quest!",
+                    "complete": "You've GOT to get Riadne back!  She's got the Key!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "chaosweavers",
+                    "monsterGroupSwf": "mset-tomix5.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

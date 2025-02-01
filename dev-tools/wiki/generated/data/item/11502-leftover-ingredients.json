@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11502-leftover-ingredients",
+        "fullSlug": "items\/11502-leftover-ingredients",
+        "id": 11502,
+        "name": "Leftover Ingredients",
+        "description": "Eewwwwww..... Maybe Big Daddy could use these...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11502,
+            "name": "Leftover Ingredients",
+            "description": "Eewwwwww..... Maybe Big Daddy could use these....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1134-love-ship": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1134-love-ship",
+                "fullSlug": "quests\/1134-love-ship",
+                "id": 1134,
+                "name": "Love Ship",
+                "description": "There isn't a lot of loving going on but Beleen has a plan, uhoh!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1134,
+                    "name": "Love Ship",
+                    "description": "There isn't a lot of loving going on but Beleen has a plan, uhoh!",
+                    "complete": "It's a good thing the Loooooove Doctor knew the magic words.",
+                    "swf": "towns\/HeroHeart\/HHD14\/quest-loveship.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "dark and bugs",
+                    "monsterGroupSwf": "mset-HHD14.swf"
+                }
+            },
+            "related": []
+        },
+        "199-hate-potion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "199-hate-potion",
+                "fullSlug": "merge-shops\/199-hate-potion",
+                "id": 199,
+                "name": "Hate Potion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 199,
+                    "name": "Hate Potion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2310,
+                    "mergeShopId": 199,
+                    "mergeId": 2182
+                },
+                "merge": {
+                    "id": 2182,
+                    "itemId1": 11502,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11541,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

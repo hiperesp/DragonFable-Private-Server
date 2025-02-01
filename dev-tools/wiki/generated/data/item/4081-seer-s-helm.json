@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4081-seer-s-helm",
+        "fullSlug": "items\/4081-seer-s-helm",
+        "id": 4081,
+        "name": "Seer's Helm",
+        "description": "A well-balanced helm for the adventurer. It is enchanted with sight-boosting magic! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4081,
+            "name": "Seer's Helm",
+            "description": "A well-balanced helm for the adventurer. It is enchanted with sight-boosting magic! ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 2,
+            "level": 28,
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-SeersHelm.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Energy,3"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 989,
+                    "mergeShopId": 67,
+                    "mergeId": 749
+                },
+                "merge": {
+                    "id": 749,
+                    "itemId1": 4003,
+                    "amount1": 1,
+                    "itemId2": 4074,
+                    "amount2": 5,
+                    "itemId": 4081,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

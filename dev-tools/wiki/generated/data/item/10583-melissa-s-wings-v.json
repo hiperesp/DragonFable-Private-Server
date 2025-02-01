@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10583-melissa-s-wings-v",
+        "fullSlug": "items\/10583-melissa-s-wings-v",
+        "id": 10583,
+        "name": "Melissa's Wings V",
+        "description": "A replica of Princess Melissa's wings, surprisingly found amongst The Hoarder's treasures. Whatever The Hoarder was doing with them, you cannot imagine. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10583,
+            "name": "Melissa's Wings V",
+            "description": "A replica of Princess Melissa's wings, surprisingly found amongst The Hoarder's treasures. Whatever The Hoarder was doing with them, you cannot imagine. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 55,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-melissa.swf",
+            "icon": "wings",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 9,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Wind,9,Stone,9,Immobility,4,Health,-2"
+        }
+    },
+    "related": {
+        "371-wings-dc-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "371-wings-dc-shop",
+                "fullSlug": "item-shops\/371-wings-dc-shop",
+                "id": 371,
+                "name": "Wings DC Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 371,
+                    "name": "Wings DC Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

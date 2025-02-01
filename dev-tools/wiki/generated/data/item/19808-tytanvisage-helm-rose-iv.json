@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19808-tytanvisage-helm-rose-iv",
+        "fullSlug": "items\/19808-tytanvisage-helm-rose-iv",
+        "id": 19808,
+        "name": "Tytanvisage Helm (Rose) IV",
+        "description": "A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of The Rose."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19808,
+            "name": "Tytanvisage Helm (Rose) IV",
+            "description": "A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of The Rose.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 60,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-tytanrose.swf",
+            "icon": "helm",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 9,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,4,Fire,4,All,4"
+        }
+    },
+    "related": {
+        "326-rose-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "326-rose-helm",
+                "fullSlug": "merge-shops\/326-rose-helm",
+                "id": 326,
+                "name": "Rose Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 326,
+                    "name": "Rose Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3463,
+                    "mergeShopId": 326,
+                    "mergeId": 3555
+                },
+                "merge": {
+                    "id": 3555,
+                    "itemId1": 19808,
+                    "amount1": 1,
+                    "itemId2": 19272,
+                    "amount2": 5,
+                    "itemId": 19809,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

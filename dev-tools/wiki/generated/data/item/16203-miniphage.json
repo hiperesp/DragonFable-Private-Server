@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16203-miniphage",
+        "fullSlug": "items\/16203-miniphage",
+        "id": 16203,
+        "name": "Miniphage",
+        "description": "This appears to be a miniature prototype Manaphage! It seems to have taken a liking to you. For now. Has a small chance to share some mana with you! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16203,
+            "name": "Miniphage",
+            "description": "This appears to be a miniature prototype Manaphage! It seems to have taken a liking to you. For now. Has a small chance to share some mana with you! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 1,
+            "level": 80,
+            "type": "Pierce",
+            "element": "Fear",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-miniphage.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 23,
+            "damageMax": 26,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1377-dark-devices": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1377-dark-devices",
+                "fullSlug": "quests\/1377-dark-devices",
+                "id": 1377,
+                "name": "Dark Devices",
+                "description": "The Thorn, an extremist group within the Rose, has awoken ancient technology that hunts and devours mana. You must find a way to stop these infernal contraptions!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1377,
+                    "name": "Dark Devices",
+                    "description": "The Thorn, an extremist group within the Rose, has awoken ancient technology that hunts and devours mana. You must find a way to stop these infernal contraptions!",
+                    "complete": "You have destroyed the remaining Manaphages... What other inhumane plans do the Thorn have for the people of Lore?",
+                    "swf": "towns\/3Falconreach\/Thorns\/quest1-darkdevices-r2.swf",
+                    "swfX": "towns\/3Falconreach\/Thorns\/quest1-darkdevices-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Manaphages, Thorn, and Icy",
+                    "monsterGroupSwf": "mset-darkdevices-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

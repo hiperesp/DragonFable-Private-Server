@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21793-altered-vine-iii",
+        "fullSlug": "items\/21793-altered-vine-iii",
+        "id": 21793,
+        "name": "Altered Vine III",
+        "description": "Fashioned from the hanging stem of an altered fruit from the mana tree, this belt radiates an energizing scent. You start feeling nauseous after a while, though..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21793,
+            "name": "Altered Vine III",
+            "description": "Fashioned from the hanging stem of an altered fruit from the mana tree, this belt radiates an energizing scent. You start feeling nauseous after a while, though...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 70,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 15,
+            "wisdom": 15,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,6,Immobility,-20"
+        }
+    },
+    "related": {
+        "2114-the-mana-tree": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2114-the-mana-tree",
+                "fullSlug": "quests\/2114-the-mana-tree",
+                "id": 2114,
+                "name": "The Mana Tree",
+                "description": "A massive tree looms over the Mana-entangled areas surrounding the Fissure. At its peak are fruit that may buy more time for the Magesterium."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2114,
+                    "name": "The Mana Tree",
+                    "description": "A massive tree looms over the Mana-entangled areas surrounding the Fissure. At its peak are fruit that may buy more time for the Magesterium.",
+                    "complete": "Definitely don't want to bring back the overripe fruit.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest-manatree.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest-manatree-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Outpost enemies",
+                    "monsterGroupSwf": "mset-manatree-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

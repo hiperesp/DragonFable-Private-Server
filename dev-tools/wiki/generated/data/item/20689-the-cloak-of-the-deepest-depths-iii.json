@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20689-the-cloak-of-the-deepest-depths-iii",
+        "fullSlug": "items\/20689-the-cloak-of-the-deepest-depths-iii",
+        "id": 20689,
+        "name": "The Cloak of the Deepest Depths III",
+        "description": "A cloak of ever falling water droplets, pulled from Tyndur's Depths, enshrouding you from harm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20689,
+            "name": "The Cloak of the Deepest Depths III",
+            "description": "A cloak of ever falling water droplets, pulled from Tyndur's Depths, enshrouding you from harm. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 90,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-waterfall.swf",
+            "icon": "cape",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 0,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "Water,10,Fire,10,Darkness,10"
+        }
+    },
+    "related": {
+        "1896-from-the-depths": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1896-from-the-depths",
+                "fullSlug": "quests\/1896-from-the-depths",
+                "id": 1896,
+                "name": "From the Depths",
+                "description": "An odd bubbling emerges from under the surface of the ocean... what would happen if you dropped anchor here and took a look?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1896,
+                    "name": "From the Depths",
+                    "description": "An odd bubbling emerges from under the surface of the ocean... what would happen if you dropped anchor here and took a look?",
+                    "complete": "Something drove that beast out from the very deepest parts of Tyndur's Depths... but what?",
+                    "swf": "towns\/3Oceantyndur\/quest-tyndurspawn.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "tyndur spawn",
+                    "monsterGroupSwf": "mset-tyndurspawn.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

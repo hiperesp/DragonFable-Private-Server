@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20340-glamorstone-necklace",
+        "fullSlug": "items\/20340-glamorstone-necklace",
+        "id": 20340,
+        "name": "Glamorstone Necklace",
+        "description": "A dazzling crystal hangs on this necklace that was left behind by the fairies. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20340,
+            "name": "Glamorstone Necklace",
+            "description": "A dazzling crystal hangs on this necklace that was left behind by the fairies. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 7,
+            "level": 87,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 5,
+            "charisma": 12,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Light,13,Water,13,Stone,13,Nature,10,Immobility,7,Health,-5"
+        }
+    },
+    "related": {
+        "1065-one-step-forward": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1065-one-step-forward",
+                "fullSlug": "quests\/1065-one-step-forward",
+                "id": 1065,
+                "name": "One Step Forward",
+                "description": "Things are looking up for the Vind..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1065,
+                    "name": "One Step Forward",
+                    "description": "Things are looking up for the Vind...",
+                    "complete": "It's been a while, Jaania.",
+                    "swf": "towns\/SulenEska\/quest8-onestep.swf",
+                    "swfX": "towns\/SulenEska\/quest8-onestep-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp and rose",
+                    "monsterGroupSwf": "mset-betrubung.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

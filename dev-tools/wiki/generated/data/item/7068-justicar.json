@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7068-justicar",
+        "fullSlug": "items\/7068-justicar",
+        "id": 7068,
+        "name": "Justicar",
+        "description": "A lithe blade crafted from silver to celebrate Eric Greydawn's birthday!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7068,
+            "name": "Justicar",
+            "description": "A lithe blade crafted from silver to celebrate Eric Greydawn's birthday!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-justicar.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 45,
+            "damageMax": 57,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,3,Darkness,1"
+        }
+    },
+    "related": {
+        "268-justicar-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "268-justicar-shop",
+                "fullSlug": "item-shops\/268-justicar-shop",
+                "id": 268,
+                "name": "Justicar Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 268,
+                    "name": "Justicar Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9374-sand-claw",
+        "fullSlug": "items\/9374-sand-claw",
+        "id": 9374,
+        "name": "Sand Claw",
+        "description": "The blade of this weapon is made from living sand!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9374,
+            "name": "Sand Claw",
+            "description": "The blade of this weapon is made from living sand!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 34000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 74,
+            "type": "Pierce",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-sandclaw.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Wind,9,Fire,7,Light,7,Immobility,3"
+        }
+    },
+    "related": {
+        "325-nailah-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "325-nailah-gold",
+                "fullSlug": "item-shops\/325-nailah-gold",
+                "id": 325,
+                "name": "Nailah Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 325,
+                    "name": "Nailah Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

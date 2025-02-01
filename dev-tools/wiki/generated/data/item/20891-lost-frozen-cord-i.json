@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20891-lost-frozen-cord-i",
+        "fullSlug": "items\/20891-lost-frozen-cord-i",
+        "id": 20891,
+        "name": "Lost Frozen Cord I",
+        "description": "A simple enchanted belt, long lost under the frozen city of Dragesvard, and found by you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20891,
+            "name": "Lost Frozen Cord I",
+            "description": "A simple enchanted belt, long lost under the frozen city of Dragesvard, and found by you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 130,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Ice,5,Darkness,5,Health,-5"
+        }
+    },
+    "related": {
+        "1942-through-the-tangle": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1942-through-the-tangle",
+                "fullSlug": "quests\/1942-through-the-tangle",
+                "id": 1942,
+                "name": "Through the Tangle",
+                "description": "All across Greenguard, it's time to take the next step forward."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1942,
+                    "name": "Through the Tangle",
+                    "description": "All across Greenguard, it's time to take the next step forward.",
+                    "complete": "As you get closer to the center of Dragesvard, what will you uncover?",
+                    "swf": "towns\/3Oceantyndur\/quest4-tangle.swf?ver=1",
+                    "swfX": "towns\/3Oceantyndur\/quest4-tangle-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Aged Hollow",
+                    "monsterGroupSwf": "mset-hollowaged-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9437-monster-master-cap-i",
+        "fullSlug": "items\/9437-monster-master-cap-i",
+        "id": 9437,
+        "name": "Monster Master Cap I",
+        "description": "If you wanna be the very best Monster Master, the best there ever was!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9437,
+            "name": "Monster Master Cap I",
+            "description": "If you wanna be the very best Monster Master, the best there ever was!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 10,
+            "level": 15,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-basebalcap.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,2,Water,2"
+        }
+    },
+    "related": {
+        "1041-zoo-breakout": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1041-zoo-breakout",
+                "fullSlug": "quests\/1041-zoo-breakout",
+                "id": 1041,
+                "name": "Zoo Breakout",
+                "description": "The elemental runes are failing in some of the zoo sections, can you stop the breakouts?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1041,
+                    "name": "Zoo Breakout",
+                    "description": "The elemental runes are failing in some of the zoo sections, can you stop the breakouts?",
+                    "complete": "You've gathered the monsters and Anoril has fixed that section... for now!",
+                    "swf": "towns\/zoo\/quest-breakout.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "lots o monsters",
+                    "monsterGroupSwf": "mset-breakout.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

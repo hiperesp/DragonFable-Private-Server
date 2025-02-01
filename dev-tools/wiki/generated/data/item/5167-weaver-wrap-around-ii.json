@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5167-weaver-wrap-around-ii",
+        "fullSlug": "items\/5167-weaver-wrap-around-ii",
+        "id": 5167,
+        "name": "Weaver Wrap-Around II",
+        "description": "A scarf for the most discerning of SoulWeavers!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5167,
+            "name": "Weaver Wrap-Around II",
+            "description": "A scarf for the most discerning of SoulWeavers!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 15,
+            "level": 35,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-SWscarf.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,5,Stone,5"
+        }
+    },
+    "related": {
+        "84-murk-s-pellow-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "84-murk-s-pellow-merch",
+                "fullSlug": "merge-shops\/84-murk-s-pellow-merch",
+                "id": 84,
+                "name": "Murk's Pellow Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 84,
+                    "name": "Murk's Pellow Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1155,
+                    "mergeShopId": 84,
+                    "mergeId": 968
+                },
+                "merge": {
+                    "id": 968,
+                    "itemId1": 3727,
+                    "amount1": 6,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 5167,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

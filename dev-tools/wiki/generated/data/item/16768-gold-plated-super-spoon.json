@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16768-gold-plated-super-spoon",
+        "fullSlug": "items\/16768-gold-plated-super-spoon",
+        "id": 16768,
+        "name": "Gold-Plated Super Spoon",
+        "description": "This gold-plated giant spoon commemorates the 2016 Thankstaking festivities! Amazing! Eating with this could prove to be difficult."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16768,
+            "name": "Gold-Plated Super Spoon",
+            "description": "This gold-plated giant spoon commemorates the 2016 Thankstaking festivities! Amazing! Eating with this could prove to be difficult.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 30,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-goldplated.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 39,
+            "damageMax": 61,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Energy,1"
+        }
+    },
+    "related": {
+        "1394-sibling-rivalry": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1394-sibling-rivalry",
+                "fullSlug": "quests\/1394-sibling-rivalry",
+                "id": 1394,
+                "name": "Sibling Rivalry",
+                "description": "Joules is at it again. Head to the Armory and deal with Joules so Thankstaking can be enjoyed."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1394,
+                    "name": "Sibling Rivalry",
+                    "description": "Joules is at it again. Head to the Armory and deal with Joules so Thankstaking can be enjoyed.",
+                    "complete": "Thanks to Eric and the Barrel Chested Men, Thankstaking is saved this year! Whatever Joules tries in the future, we'll be ready.\nHappy Thanksgiving!",
+                    "swf": "towns\/Thankstaking\/tt16\/quest3-sibling-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food!",
+                    "monsterGroupSwf": "mset-thanks16-2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

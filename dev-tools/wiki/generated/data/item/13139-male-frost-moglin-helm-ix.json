@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13139-male-frost-moglin-helm-ix",
+        "fullSlug": "items\/13139-male-frost-moglin-helm-ix",
+        "id": 13139,
+        "name": "Male Frost Moglin Helm IX",
+        "description": "This helm was designed by Blizzy and Chilly and perfectly compliments male frost moglin armor!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13139,
+            "name": "Male Frost Moglin Helm IX",
+            "description": "This helm was designed by Blizzy and Chilly and perfectly compliments male frost moglin armor!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 1,
+            "level": 80,
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-frostmogM.swf",
+            "icon": "helm",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 4,
+            "resists": "Ice,10,Darkness,6,Immobility,4"
+        }
+    },
+    "related": {
+        "51-frost-moglin-helms": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "51-frost-moglin-helms",
+                "fullSlug": "merge-shops\/51-frost-moglin-helms",
+                "id": 51,
+                "name": "Frost Moglin helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 51,
+                    "name": "Frost Moglin helms"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 747,
+                    "mergeShopId": 51,
+                    "mergeId": 2548
+                },
+                "merge": {
+                    "id": 2548,
+                    "itemId1": 13138,
+                    "amount1": 1,
+                    "itemId2": 2072,
+                    "amount2": 3,
+                    "itemId": 13139,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

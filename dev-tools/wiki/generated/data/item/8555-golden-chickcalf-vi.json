@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8555-golden-chickcalf-vi",
+        "fullSlug": "items\/8555-golden-chickcalf-vi",
+        "id": 8555,
+        "name": "Golden Chickcalf VI",
+        "description": "You have had this baby chickencow since it was just an egg. It is ready to defend you in its brand new armor,  but only because it thinks you are its mother. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8555,
+            "name": "Golden Chickcalf VI",
+            "description": "You have had this baby chickencow since it was just an egg. It is ready to defend you in its brand new armor,  but only because it thinks you are its mother. ",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 77,
+            "level": 60,
+            "element": "Bacon",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-goldenchickcalf.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 19,
+            "damageMax": 25,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "129-golden-chickcalf": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "129-golden-chickcalf",
+                "fullSlug": "merge-shops\/129-golden-chickcalf",
+                "id": 129,
+                "name": "Golden Chickcalf",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 129,
+                    "name": "Golden Chickcalf"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1869,
+                    "mergeShopId": 129,
+                    "mergeId": 1775
+                },
+                "merge": {
+                    "id": 1775,
+                    "itemId1": 8555,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 8556,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

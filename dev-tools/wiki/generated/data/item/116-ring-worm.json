@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "116-ring-worm",
+        "fullSlug": "items\/116-ring-worm",
+        "id": 116,
+        "name": "Ring Worm",
+        "description": "This ring is actually a coiled metallic looking worm. It provides amazing armor but as the worm feeds off of your energy you become more vulnerable to the elements."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 116,
+            "name": "Ring Worm",
+            "description": "This ring is actually a coiled metallic looking worm. It provides amazing armor but as the worm feeds off of your energy you become more vulnerable to the elements.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 10,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 10,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": -1,
+            "block": -2,
+            "resists": "Wind,-100,Fire,-100,Water,-100,Stone,-100"
+        }
+    },
+    "related": {
+        "387-marsh-madness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "387-marsh-madness",
+                "fullSlug": "quests\/387-marsh-madness",
+                "id": 387,
+                "name": "Marsh Madness",
+                "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 387,
+                    "name": "Marsh Madness",
+                    "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "complete": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "swf": "towns\/Ash\/random-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

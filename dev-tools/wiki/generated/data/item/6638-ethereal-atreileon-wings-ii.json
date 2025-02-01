@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6638-ethereal-atreileon-wings-ii",
+        "fullSlug": "items\/6638-ethereal-atreileon-wings-ii",
+        "id": 6638,
+        "name": "Ethereal Atreileon Wings II",
+        "description": "These architectural wings were sculpted from paraginium."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6638,
+            "name": "Ethereal Atreileon Wings II",
+            "description": "These architectural wings were sculpted from paraginium.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 20,
+            "level": 41,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-atreileon mk2.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Light,4,Silver,1"
+        }
+    },
+    "related": {
+        "105-paraginium-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "105-paraginium-items",
+                "fullSlug": "merge-shops\/105-paraginium-items",
+                "id": 105,
+                "name": "Paraginium Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 105,
+                    "name": "Paraginium Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1461,
+                    "mergeShopId": 105,
+                    "mergeId": 1346
+                },
+                "merge": {
+                    "id": 1346,
+                    "itemId1": 6655,
+                    "amount1": 5,
+                    "itemId2": 6638,
+                    "amount2": 1,
+                    "itemId": 6639,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

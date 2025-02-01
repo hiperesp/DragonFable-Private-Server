@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5759-silk-cravat",
+        "fullSlug": "items\/5759-silk-cravat",
+        "id": 5759,
+        "name": "Silk Cravat",
+        "description": "This silk cravat has the name B. Arnold stitched into the seam. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5759,
+            "name": "Silk Cravat",
+            "description": "This silk cravat has the name B. Arnold stitched into the seam. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 7000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 7,
+            "level": 65,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,10,Ice,10,Immobility,3,Health,-3"
+        }
+    },
+    "related": {
+        "799-the-dragon-drakath": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "799-the-dragon-drakath",
+                "fullSlug": "quests\/799-the-dragon-drakath",
+                "id": 799,
+                "name": "The Dragon Drakath",
+                "description": "Drakath has used the power of the Ultimate Orb to combine with Fluffy and is now the most powerful darkness dragon that Lore has ever seen!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 799,
+                    "name": "The Dragon Drakath",
+                    "description": "Drakath has used the power of the Ultimate Orb to combine with Fluffy and is now the most powerful darkness dragon that Lore has ever seen!",
+                    "complete": "The enemy of your enemy... is Sepulchure!",
+                    "swf": "towns\/Chap1Finale\/quest-finale9-dragondrakath.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "dragon drakath and shakes spear",
+                    "monsterGroupSwf": "mset-finale9-drakath.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

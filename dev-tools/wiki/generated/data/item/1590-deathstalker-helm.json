@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1590-deathstalker-helm",
+        "fullSlug": "items\/1590-deathstalker-helm",
+        "id": 1590,
+        "name": "DeathStalker Helm",
+        "description": "The signature helm of a small order of Death Knights known as Death Stalkers."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1590,
+            "name": "DeathStalker Helm",
+            "description": "The signature helm of a small order of Death Knights known as Death Stalkers.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 25,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-necro5.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3"
+        }
+    },
+    "related": {
+        "226-bombing-run": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "226-bombing-run",
+                "fullSlug": "quests\/226-bombing-run",
+                "id": 226,
+                "name": "Bombing Run",
+                "description": "You and your dragon have the ability to help defend Moonridge in a unique way! Take Artix's lightbombs and stop the undead!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 226,
+                    "name": "Bombing Run",
+                    "description": "You and your dragon have the ability to help defend Moonridge in a unique way! Take Artix's lightbombs and stop the undead!",
+                    "complete": "You have thinned out the ground waves of undead but they keep coming up through the ground of the town.",
+                    "swf": "quests\/quest-firesovermoonridge.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 1,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        }
+    }
+}

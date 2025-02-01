@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10128-dragon-oculus-iv",
+        "fullSlug": "items\/10128-dragon-oculus-iv",
+        "id": 10128,
+        "name": "Dragon Oculus IV",
+        "description": "It's said that a dragon can still see from a stolen eye...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10128,
+            "name": "Dragon Oculus IV",
+            "description": "It's said that a dragon can still see from a stolen eye....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3400,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 75,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-dragoneye.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Fire,9,Light,7,Water,7,Immobility,3"
+        }
+    },
+    "related": {
+        "352-dragon-challenge-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "352-dragon-challenge-shop",
+                "fullSlug": "item-shops\/352-dragon-challenge-shop",
+                "id": 352,
+                "name": "Dragon Challenge Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 352,
+                    "name": "Dragon Challenge Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

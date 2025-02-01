@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9474-eternal-hourglass-staff-vi",
+        "fullSlug": "items\/9474-eternal-hourglass-staff-vi",
+        "id": 9474,
+        "name": "Eternal Hourglass Staff VI",
+        "description": "The sands of eternity run through this weapon. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9474,
+            "name": "Eternal Hourglass Staff VI",
+            "description": "The sands of eternity run through this weapon. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3800,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 55,
+            "level": 80,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-eternal hourglass.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 9,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 11,
+            "parry": 1,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,11,Light,11,Wind,11,Stone,11,Immobility,3"
+        }
+    },
+    "related": {
+        "1042-sands-of-eternity": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1042-sands-of-eternity",
+                "fullSlug": "quests\/1042-sands-of-eternity",
+                "id": 1042,
+                "name": "Sands of Eternity",
+                "description": "Make your way to confront Sek Duat!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1042,
+                    "name": "Sands of Eternity",
+                    "description": "Make your way to confront Sek Duat!",
+                    "complete": "You've defeated the magic infused form of Sek Duat and restored new life to Zhoom!",
+                    "swf": "towns\/3Rosewood\/quest5-sandsea-eternity-re-r2.swf?ver=1",
+                    "swfX": "towns\/3Rosewood\/quest5-sandsea-eternity-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sek and mummies",
+                    "monsterGroupSwf": "mset-sekduattitan-r2.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3345-dragon-head-blade-vi",
+        "fullSlug": "items\/3345-dragon-head-blade-vi",
+        "id": 3345,
+        "name": "Dragon Head Blade VI",
+        "description": "This weapon was crafted for you by the moglins of Frostvale. It was infused with moglin healing magic, which gives it a small chance to heal 5% of your life upon a successful hit."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3345,
+            "name": "Dragon Head Blade VI",
+            "description": "This weapon was crafted for you by the moglins of Frostvale. It was infused with moglin healing magic, which gives it a small chance to heal 5% of your life upon a successful hit.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 51,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-frostdragon.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "62-frostval-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "62-frostval-shop",
+                "fullSlug": "merge-shops\/62-frostval-shop",
+                "id": 62,
+                "name": "Frostval Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 62,
+                    "name": "Frostval Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 869,
+                    "mergeShopId": 62,
+                    "mergeId": 605
+                },
+                "merge": {
+                    "id": 605,
+                    "itemId1": 3345,
+                    "amount1": 1,
+                    "itemId2": 575,
+                    "amount2": 1,
+                    "itemId": 3348,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

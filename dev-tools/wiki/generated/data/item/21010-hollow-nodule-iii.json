@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21010-hollow-nodule-iii",
+        "fullSlug": "items\/21010-hollow-nodule-iii",
+        "id": 21010,
+        "name": "Hollow Nodule III",
+        "description": "While Vseslava and Ostromir very heavily discourage its use, they begrudgingly admit there is little risk in using this detached Hollow Nodule as a backpiece. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21010,
+            "name": "Hollow Nodule III",
+            "description": "While Vseslava and Ostromir very heavily discourage its use, they begrudgingly admit there is little risk in using this detached Hollow Nodule as a backpiece. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 140,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 65,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-hollownodule.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Darkness,10,Nature,10,Ice,10,Health,-4"
+        }
+    },
+    "related": {
+        "1959-the-deep-dark": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1959-the-deep-dark",
+                "fullSlug": "quests\/1959-the-deep-dark",
+                "id": 1959,
+                "name": "The Deep Dark",
+                "description": "With your allies, you dive deeper into the Tytan, in search of something, anything to put and end to the Hollow scourge spreading across the Depths."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1959,
+                    "name": "The Deep Dark",
+                    "description": "With your allies, you dive deeper into the Tytan, in search of something, anything to put and end to the Hollow scourge spreading across the Depths.",
+                    "complete": "And so the depths are awakened.",
+                    "swf": "towns\/3Oceantyndur\/quest5-deepdark.swf",
+                    "swfX": "towns\/3Oceantyndur\/quest5-deepdark-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Aged Hollow",
+                    "monsterGroupSwf": "mset-hollowaged-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

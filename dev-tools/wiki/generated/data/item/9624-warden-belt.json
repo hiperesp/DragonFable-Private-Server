@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9624-warden-belt",
+        "fullSlug": "items\/9624-warden-belt",
+        "id": 9624,
+        "name": "Warden Belt",
+        "description": "A strong, plated belt made for prison guards and wardens.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9624,
+            "name": "Warden Belt",
+            "description": "A strong, plated belt made for prison guards and wardens.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 35,
+            "level": 65,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Metal,10,Bacon,5,Immobility,3"
+        }
+    },
+    "related": {
+        "1044-the-border-prison": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1044-the-border-prison",
+                "fullSlug": "quests\/1044-the-border-prison",
+                "id": 1044,
+                "name": "The Border Prison",
+                "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1044,
+                    "name": "The Border Prison",
+                    "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance.",
+                    "complete": "You found Elanee and some other prisoners, but many clawkin are still missing, and Kara hasn't come out yet. Time to go back in!",
+                    "swf": "towns\/SulenEska\/quest5-rescue2020.swf",
+                    "swfX": "towns\/SulenEska\/quest5-rescue2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

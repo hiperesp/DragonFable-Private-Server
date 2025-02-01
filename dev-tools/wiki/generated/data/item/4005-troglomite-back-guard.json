@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4005-troglomite-back-guard",
+        "fullSlug": "items\/4005-troglomite-back-guard",
+        "id": 4005,
+        "name": "Troglomite Back Guard",
+        "description": "A big, fur-covered leather guard to protect your behind, and to keep you toasty warm in your travels!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4005,
+            "name": "Troglomite Back Guard",
+            "description": "A big, fur-covered leather guard to protect your behind, and to keep you toasty warm in your travels!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 38,
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-TroglomiteBackGuard.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Wind,6"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 973,
+                    "mergeShopId": 67,
+                    "mergeId": 714
+                },
+                "merge": {
+                    "id": 714,
+                    "itemId1": 4001,
+                    "amount1": 6,
+                    "itemId2": 1202,
+                    "amount2": 5,
+                    "itemId": 4005,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

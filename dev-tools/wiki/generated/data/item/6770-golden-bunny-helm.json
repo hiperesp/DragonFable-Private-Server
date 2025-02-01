@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6770-golden-bunny-helm",
+        "fullSlug": "items\/6770-golden-bunny-helm",
+        "id": 6770,
+        "name": "Golden Bunny Helm",
+        "description": "A fiercely cuddly helm! Count to five before throwing anything...\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6770,
+            "name": "Golden Bunny Helm",
+            "description": "A fiercely cuddly helm! Count to five before throwing anything...\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/mask-grenwog-rabbit.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,8,Nature,7,Fire,3,Immobility,3"
+        }
+    },
+    "related": {
+        "106-egg-merge-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "106-egg-merge-shop",
+                "fullSlug": "merge-shops\/106-egg-merge-shop",
+                "id": 106,
+                "name": "Egg Merge Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 106,
+                    "name": "Egg Merge Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1471,
+                    "mergeShopId": 106,
+                    "mergeId": 1365
+                },
+                "merge": {
+                    "id": 1365,
+                    "itemId1": 6763,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6770,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6453-galaxy-cloak-ii",
+        "fullSlug": "items\/6453-galaxy-cloak-ii",
+        "id": 6453,
+        "name": "Galaxy Cloak II",
+        "description": "This cloak was pulled across dimensions. It carries the dust of the galaxies on it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6453,
+            "name": "Galaxy Cloak II",
+            "description": "This cloak was pulled across dimensions. It carries the dust of the galaxies on it.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-ateala-riftwar.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Darkness,3"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 133,
+                    "mergeShopId": 4,
+                    "mergeId": 1291
+                },
+                "merge": {
+                    "id": 1291,
+                    "itemId1": 495,
+                    "amount1": 50,
+                    "itemId2": 6453,
+                    "amount2": 1,
+                    "itemId": 6454,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

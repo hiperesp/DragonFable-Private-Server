@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5515-sash-of-the-bedouin",
+        "fullSlug": "items\/5515-sash-of-the-bedouin",
+        "id": 5515,
+        "name": "Sash of the Bedouin",
+        "description": "This dashing silk sash is worn by the princes of the desert. Both stylish and functional, it looks good and is an excellent place to put your weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5515,
+            "name": "Sash of the Bedouin",
+            "description": "This dashing silk sash is worn by the princes of the desert. Both stylish and functional, it looks good and is an excellent place to put your weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 950,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 26,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 4,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,3,Light,3,Nature,3"
+        }
+    },
+    "related": {
+        "775-sandsea-havoc": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "775-sandsea-havoc",
+                "fullSlug": "quests\/775-sandsea-havoc",
+                "id": 775,
+                "name": "Sandsea Havoc",
+                "description": "Monsters are attacking!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 775,
+                    "name": "Sandsea Havoc",
+                    "description": "Monsters are attacking!",
+                    "complete": "Who could be behind this?!",
+                    "swf": "towns\/Chap1Finale\/quest-havoc-sandsea.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "light",
+                    "monsterGroupSwf": "mset-havoc-sandsea.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16923-unlucky-dread-blade",
+        "fullSlug": "items\/16923-unlucky-dread-blade",
+        "id": 16923,
+        "name": "Unlucky Dread Blade",
+        "description": "This sword seems to be imbued with pure darkness energy. Although it's pulsing a menacing red glow, at least it isn't talking to you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16923,
+            "name": "Unlucky Dread Blade",
+            "description": "This sword seems to be imbued with pure darkness energy. Although it's pulsing a menacing red glow, at least it isn't talking to you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 60,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-f13-17.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": -6,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 66,
+            "damageMax": 84,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Light,-7,Darkness,5,Fire,3"
+        }
+    },
+    "related": {
+        "540-the-doomed-dragon-loot": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "540-the-doomed-dragon-loot",
+                "fullSlug": "item-shops\/540-the-doomed-dragon-loot",
+                "id": 540,
+                "name": "The Doomed Dragon Loot",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 540,
+                    "name": "The Doomed Dragon Loot",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

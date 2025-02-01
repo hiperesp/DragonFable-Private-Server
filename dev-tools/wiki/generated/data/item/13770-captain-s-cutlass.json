@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13770-captain-s-cutlass",
+        "fullSlug": "items\/13770-captain-s-cutlass",
+        "id": 13770,
+        "name": "Captain's Cutlass",
+        "description": "This blade is made only to be used by the captain! Let no one else touch it, especially not any ninja!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13770,
+            "name": "Captain's Cutlass",
+            "description": "This blade is made only to be used by the captain! Let no one else touch it, especially not any ninja!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 220,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 46,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-PirateCutlassShop.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 61,
+            "damageMax": 77,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Wind,5,Immobility,3"
+        }
+    },
+    "related": {
+        "435-pirate-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "435-pirate-items",
+                "fullSlug": "item-shops\/435-pirate-items",
+                "id": 435,
+                "name": "Pirate Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 435,
+                    "name": "Pirate Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

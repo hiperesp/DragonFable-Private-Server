@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12818-reaper-s-rod-viii",
+        "fullSlug": "items\/12818-reaper-s-rod-viii",
+        "id": 12818,
+        "name": "Reaper's Rod VIII",
+        "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12818,
+            "name": "Reaper's Rod VIII",
+            "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 10,
+            "level": 75,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-moglo08.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 74,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 9,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Ice,8,Darkness,8,Immobility,4,All,1"
+        }
+    },
+    "related": {
+        "219-reaper-lv-75": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "219-reaper-lv-75",
+                "fullSlug": "merge-shops\/219-reaper-lv-75",
+                "id": 219,
+                "name": "Reaper Lv 75",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 219,
+                    "name": "Reaper Lv 75"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2568,
+                    "mergeShopId": 219,
+                    "mergeId": 2481
+                },
+                "merge": {
+                    "id": 2481,
+                    "itemId1": 12817,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12818,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "220-reaper-lv-80": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "220-reaper-lv-80",
+                "fullSlug": "merge-shops\/220-reaper-lv-80",
+                "id": 220,
+                "name": "Reaper Lv 80",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 220,
+                    "name": "Reaper Lv 80"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2571,
+                    "mergeShopId": 220,
+                    "mergeId": 2482
+                },
+                "merge": {
+                    "id": 2482,
+                    "itemId1": 12818,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12819,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

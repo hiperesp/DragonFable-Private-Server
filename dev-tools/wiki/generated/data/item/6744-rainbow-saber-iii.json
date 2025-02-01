@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6744-rainbow-saber-iii",
+        "fullSlug": "items\/6744-rainbow-saber-iii",
+        "id": 6744,
+        "name": "Rainbow Saber III",
+        "description": "This beautiful energy weapon was crafted by Dracelix in honor of winning the Lucky War 2012 War Challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6744,
+            "name": "Rainbow Saber III",
+            "description": "This beautiful energy weapon was crafted by Dracelix in honor of winning the Lucky War 2012 War Challenge!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lightsaber.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 1,
+            "damageMin": 45,
+            "damageMax": 57,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3,Water,1,Light,1"
+        }
+    },
+    "related": {
+        "255-rainbow-saber": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "255-rainbow-saber",
+                "fullSlug": "item-shops\/255-rainbow-saber",
+                "id": 255,
+                "name": "Rainbow Saber",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 255,
+                    "name": "Rainbow Saber",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

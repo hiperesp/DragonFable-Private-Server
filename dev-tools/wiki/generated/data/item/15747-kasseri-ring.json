@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15747-kasseri-ring",
+        "fullSlug": "items\/15747-kasseri-ring",
+        "id": 15747,
+        "name": "Kasseri Ring",
+        "description": "A ring crafted from the finest of materials by San Robin in thanks for your help. It's big, kind of gaudy, and... smells a little weird. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15747,
+            "name": "Kasseri Ring",
+            "description": "A ring crafted from the finest of materials by San Robin in thanks for your help. It's big, kind of gaudy, and... smells a little weird. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 0,
+            "level": 66,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 7,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Light,8,Wind,8,Nature,6,Poison,6"
+        }
+    },
+    "related": {
+        "1355-temple-of-the-e-damed": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1355-temple-of-the-e-damed",
+                "fullSlug": "quests\/1355-temple-of-the-e-damed",
+                "id": 1355,
+                "name": "Temple of the E-Damed",
+                "description": "Help San Robin by finding the ancient power-source he needs!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1355,
+                    "name": "Temple of the E-Damed",
+                    "description": "Help San Robin by finding the ancient power-source he needs!",
+                    "complete": "So San Robin can't use magic. Why would he keep it a secret? And that Vurrman looked like he had something to do with cheese...",
+                    "swf": "towns\/1Falconreach\/1SanRobin\/quest-templedam.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 20000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cheesy artifact seekers",
+                    "monsterGroupSwf": "mset-templedam.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

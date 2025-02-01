@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11525-lovely-time-tome-iv",
+        "fullSlug": "items\/11525-lovely-time-tome-iv",
+        "id": 11525,
+        "name": "Lovely Time Tome IV",
+        "description": "A gift from the Love Doctor for your help on the Love Ship! Happy Hero's Heart Day, 2014!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11525,
+            "name": "Lovely Time Tome IV",
+            "description": "A gift from the Love Doctor for your help on the Love Ship! Happy Hero's Heart Day, 2014!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-HHD14.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 61,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Fire,4,Energy,3,Health,-2"
+        }
+    },
+    "related": {
+        "199-hate-potion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "199-hate-potion",
+                "fullSlug": "merge-shops\/199-hate-potion",
+                "id": 199,
+                "name": "Hate Potion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 199,
+                    "name": "Hate Potion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2326,
+                    "mergeShopId": 199,
+                    "mergeId": 2166
+                },
+                "merge": {
+                    "id": 2166,
+                    "itemId1": 11502,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11525,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

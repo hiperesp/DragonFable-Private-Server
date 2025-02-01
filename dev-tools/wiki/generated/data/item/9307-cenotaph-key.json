@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9307-cenotaph-key",
+        "fullSlug": "items\/9307-cenotaph-key",
+        "id": 9307,
+        "name": "Cenotaph Key",
+        "description": "This ornate key glitters whenever light touches it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9307,
+            "name": "Cenotaph Key",
+            "description": "This ornate key glitters whenever light touches it.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1900,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 66,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,5,Light,5,Metal,5,Immobility,3"
+        }
+    },
+    "related": {
+        "1034-face-of-death": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1034-face-of-death",
+                "fullSlug": "quests\/1034-face-of-death",
+                "id": 1034,
+                "name": "Face of Death",
+                "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1034,
+                    "name": "Face of Death",
+                    "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!",
+                    "complete": "You've released the magic contained in the sacrificial crystal! That's good... right?",
+                    "swf": "towns\/3Rosewood\/quest4-sandsea-death-re.swf?ver=1",
+                    "swfX": "towns\/3Rosewood\/quest4-sandsea-death-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "thugs, scarabs, mummies",
+                    "monsterGroupSwf": "mset-sandsea-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

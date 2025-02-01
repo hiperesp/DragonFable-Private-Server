@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16307-stormrider-s-dagger-vii",
+        "fullSlug": "items\/16307-stormrider-s-dagger-vii",
+        "id": 16307,
+        "name": "Stormrider's Dagger VII",
+        "description": "Clan Stormrider were once among the most feared corsairs on the northern seas, and these blades were carried by Ice Giants who sailed the stormy seas. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16307,
+            "name": "Stormrider's Dagger VII",
+            "description": "Clan Stormrider were once among the most feared corsairs on the northern seas, and these blades were carried by Ice Giants who sailed the stormy seas. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 170,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 70,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-coldtruth.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 10,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 76,
+            "damageMax": 82,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Ice,6,Nature,6,Stone,6"
+        }
+    },
+    "related": {
+        "1382-cold-truth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1382-cold-truth",
+                "fullSlug": "quests\/1382-cold-truth",
+                "id": 1382,
+                "name": "Cold Truth",
+                "description": "After enjoying the hospitality of Laguzoki, it's onward on the trail of the Ice Giants."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1382,
+                    "name": "Cold Truth",
+                    "description": "After enjoying the hospitality of Laguzoki, it's onward on the trail of the Ice Giants.",
+                    "complete": "Something awful happened to that Ice Giant village. What did Nivalis have to do with it?",
+                    "swf": "towns\/StoneheartFall\/quest11-coldtruth.swf",
+                    "swfX": "towns\/StoneheartFall\/quest11-coldtruth-x.swf?ver=1",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "towns\/StoneheartFall\/quest11-coldtruth-x.swf?ver=1",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "icy north, ice giant.",
+                    "monsterGroupSwf": "mset-coldtruth.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

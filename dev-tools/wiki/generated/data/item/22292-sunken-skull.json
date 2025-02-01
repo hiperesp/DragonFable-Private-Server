@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22292-sunken-skull",
+        "fullSlug": "items\/22292-sunken-skull",
+        "id": 22292,
+        "name": "Sunken Skull",
+        "description": "This haunting golden mask was worn by the sailors of a notorious pirate crew said to have been cursed by their greed..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22292,
+            "name": "Sunken Skull",
+            "description": "This haunting golden mask was worn by the sailors of a notorious pirate crew said to have been cursed by their greed...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/hairhelm-sunken.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2210-trawling-for-treasures": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2210-trawling-for-treasures",
+                "fullSlug": "quests\/2210-trawling-for-treasures",
+                "id": 2210,
+                "name": "Trawling for Treasures",
+                "description": "Under the storm-tossed waves off the coast of Osprey Cove, the remains and treasures of many a pirate awaits those brave enough to trawl the depths."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2210,
+                    "swf": "towns\/3OspreyCove\/random-seabed.swf",
+                    "swfX": "none",
+                    "extra": "",
+                    "name": "Trawling for Treasures",
+                    "description": "Under the storm-tossed waves off the coast of Osprey Cove, the remains and treasures of many a pirate awaits those brave enough to trawl the depths.",
+                    "complete": "Did you find the treasure you were hoping for?",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "underwater undead pirates",
+                    "monsterGroupSwf": "mset-ospreytreasure.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

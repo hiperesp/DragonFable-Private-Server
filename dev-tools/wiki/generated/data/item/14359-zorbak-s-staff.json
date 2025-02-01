@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14359-zorbak-s-staff",
+        "fullSlug": "items\/14359-zorbak-s-staff",
+        "id": 14359,
+        "name": "Zorbak's Staff",
+        "description": "This replica of the staff used by Zorbak was created by Ashendal. It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14359,
+            "name": "Zorbak's Staff",
+            "description": "This replica of the staff used by Zorbak was created by Ashendal. It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 22000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ebil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ZorbakStaff.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 11,
+            "dodge": 11,
+            "block": 11,
+            "resists": "Light,11,Water,6,Good,9,Mana,-7"
+        }
+    },
+    "related": {
+        "450-replica-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "450-replica-weapons",
+                "fullSlug": "item-shops\/450-replica-weapons",
+                "id": 450,
+                "name": "Replica Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 450,
+                    "name": "Replica Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

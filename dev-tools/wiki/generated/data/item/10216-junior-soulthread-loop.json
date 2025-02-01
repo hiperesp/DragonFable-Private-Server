@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10216-junior-soulthread-loop",
+        "fullSlug": "items\/10216-junior-soulthread-loop",
+        "id": 10216,
+        "name": "Junior Soulthread Loop",
+        "description": "One of the student belts that denotes rank in Edelia.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10216,
+            "name": "Junior Soulthread Loop",
+            "description": "One of the student belts that denotes rank in Edelia.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 35,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 35,
+            "level": 65,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,9,Wind,5,Immobility,3"
+        }
+    },
+    "related": {
+        "357-edelia-drop-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "357-edelia-drop-dc",
+                "fullSlug": "item-shops\/357-edelia-drop-dc",
+                "id": 357,
+                "name": "Edelia Drop DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 357,
+                    "name": "Edelia Drop DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

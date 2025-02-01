@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20165-creatioux-claw-i",
+        "fullSlug": "items\/20165-creatioux-claw-i",
+        "id": 20165,
+        "name": "Creatioux Claw I",
+        "description": "A weapon from another time and space. Fires a beam that increases enemy Health resistance. Proof of victory over Nythera, the Half Void Dragon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20165,
+            "name": "Creatioux Claw I",
+            "description": "A weapon from another time and space. Fires a beam that increases enemy Health resistance. Proof of victory over Nythera, the Half Void Dragon.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-arenanythera.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 68,
+            "damageMax": 72,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 12,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,3,Health,-8"
+        }
+    },
+    "related": {
+        "1809-nythera-the-half-void-dragon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1809-nythera-the-half-void-dragon",
+                "fullSlug": "quests\/1809-nythera-the-half-void-dragon",
+                "id": 1809,
+                "name": "Nythera, the Half Void Dragon",
+                "description": "Fury and control, two halves of a whole, united."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1809,
+                    "name": "Nythera, the Half Void Dragon",
+                    "description": "Fury and control, two halves of a whole, united.",
+                    "complete": "Seems Nythera must study harder.",
+                    "swf": "towns\/TimeArena\/quest-nythera.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Warlic and Nythera",
+                    "monsterGroupSwf": "mset-arenawarlicnythera.swf?ver=3"
+                }
+            },
+            "related": []
+        },
+        "342-teacher-and-student": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "342-teacher-and-student",
+                "fullSlug": "merge-shops\/342-teacher-and-student",
+                "id": 342,
+                "name": "Teacher and Student",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 342,
+                    "name": "Teacher and Student"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3585,
+                    "mergeShopId": 342,
+                    "mergeId": 3680
+                },
+                "merge": {
+                    "id": 3680,
+                    "itemId1": 20165,
+                    "amount1": 1,
+                    "itemId2": 20174,
+                    "amount2": 1,
+                    "itemId": 20167,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

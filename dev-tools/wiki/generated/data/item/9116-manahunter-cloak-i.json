@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9116-manahunter-cloak-i",
+        "fullSlug": "items\/9116-manahunter-cloak-i",
+        "id": 9116,
+        "name": "Manahunter Cloak I",
+        "description": "A manahunter's cloak! Surprisingly comfortable."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9116,
+            "name": "Manahunter Cloak I",
+            "description": "A manahunter's cloak! Surprisingly comfortable.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 7,
+            "level": 21,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-manahunter.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Bacon,4,All,1"
+        }
+    },
+    "related": {
+        "1028-a-song-on-the-wind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1028-a-song-on-the-wind",
+                "fullSlug": "quests\/1028-a-song-on-the-wind",
+                "id": 1028,
+                "name": "A Song On the Wind",
+                "description": "Laesa Forn wants you to gather materials for her to create windchimes in memory of her mentor."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1028,
+                    "name": "A Song On the Wind",
+                    "description": "Laesa Forn wants you to gather materials for her to create windchimes in memory of her mentor.",
+                    "complete": "A breeze blows through the streets of Falconreach, bringing a little magic to all who care to listen.",
+                    "swf": "towns\/SulenEska\/quest1-song2020.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Rose + enslaved",
+                    "monsterGroupSwf": "mset-forest-bk3-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

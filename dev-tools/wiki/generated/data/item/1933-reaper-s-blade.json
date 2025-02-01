@@ -1,0 +1,160 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1933-reaper-s-blade",
+        "fullSlug": "items\/1933-reaper-s-blade",
+        "id": 1933,
+        "name": "Reaper's Blade",
+        "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1933,
+            "name": "Reaper's Blade",
+            "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 5,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-moglo08.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 16,
+            "damageMax": 24,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "288-jack-o-dragon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "288-jack-o-dragon",
+                "fullSlug": "quests\/288-jack-o-dragon",
+                "id": 288,
+                "name": "Jack-O-Dragon",
+                "description": "It looks like Sally isn't quite ready to give up yet."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 288,
+                    "name": "Jack-O-Dragon",
+                    "description": "It looks like Sally isn't quite ready to give up yet.",
+                    "complete": "You defeated Sally's creation, Jack-O-Dragon, and once more you are the savior of Mogloween! You have written yourself into the legend of this spirited holiday. Happy Mogloween!",
+                    "swf": "zones\/mogloween\/quest-mog08-3r1.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Dragon-pumpkin-thing",
+                    "monsterGroupSwf": "mset-pumgon.swf"
+                }
+            },
+            "related": []
+        },
+        "501-share-and-share-alike": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "501-share-and-share-alike",
+                "fullSlug": "quests\/501-share-and-share-alike",
+                "id": 501,
+                "name": "Share and Share Alike",
+                "description": "Can you recover candies from each of the sisters?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 501,
+                    "name": "Share and Share Alike",
+                    "description": "Can you recover candies from each of the sisters?",
+                    "complete": "The Sisters are working together again! Now it's up to you to share their delicious candy with everyone!",
+                    "swf": "towns\/Mogloween\/quest-mogloween09-week4r3.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "greedlings,greed,moglinsters",
+                    "monsterGroupSwf": "mset-greed3.swf"
+                }
+            },
+            "related": []
+        },
+        "41-reaper-lv-15": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "41-reaper-lv-15",
+                "fullSlug": "merge-shops\/41-reaper-lv-15",
+                "id": 41,
+                "name": "Reaper Lv 15",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 41,
+                    "name": "Reaper Lv 15"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 692,
+                    "mergeShopId": 41,
+                    "mergeId": 437
+                },
+                "merge": {
+                    "id": 437,
+                    "itemId1": 1933,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 1936,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

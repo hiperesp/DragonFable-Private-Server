@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19485-shattered-summon-gem-ayauhnqui",
+        "fullSlug": "items\/19485-shattered-summon-gem-ayauhnqui",
+        "id": 19485,
+        "name": "Shattered Summon Gem - Ayauhnqui",
+        "description": "The powdery remains of what used to be a Summon Gem. Maybe it can be repaired somehow? Proof of victory over Ayauhnqui!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19485,
+            "name": "Shattered Summon Gem - Ayauhnqui",
+            "description": "The powdery remains of what used to be a Summon Gem. Maybe it can be repaired somehow? Proof of victory over Ayauhnqui!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1689-summon-gem-ayauhnqui": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1689-summon-gem-ayauhnqui",
+                "fullSlug": "quests\/1689-summon-gem-ayauhnqui",
+                "id": 1689,
+                "name": "Summon Gem: Ayauhnqui",
+                "description": "Ayauhnqui has awoken to challenge you."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1689,
+                    "name": "Summon Gem: Ayauhnqui",
+                    "description": "Ayauhnqui has awoken to challenge you.",
+                    "complete": "Back to sleep until called once more.",
+                    "swf": "towns\/TimeArena\/quest-aya.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Ayauhnqui & Reaver",
+                    "monsterGroupSwf": "mset-ArenaConduitAyaRea-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "318-the-conduit-life-death": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "318-the-conduit-life-death",
+                "fullSlug": "merge-shops\/318-the-conduit-life-death",
+                "id": 318,
+                "name": "The Conduit: Life & Death",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 318,
+                    "name": "The Conduit: Life & Death"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3393,
+                    "mergeShopId": 318,
+                    "mergeId": 3486
+                },
+                "merge": {
+                    "id": 3486,
+                    "itemId1": 19485,
+                    "amount1": 1,
+                    "itemId2": 19486,
+                    "amount2": 1,
+                    "itemId": 19483,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

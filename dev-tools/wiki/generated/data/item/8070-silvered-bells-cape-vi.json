@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8070-silvered-bells-cape-vi",
+        "fullSlug": "items\/8070-silvered-bells-cape-vi",
+        "id": 8070,
+        "name": "Silvered Bells Cape VI",
+        "description": "The golden bells send forth silvery peals of ringing as you rush off to save the day! Happy Frostval, 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8070,
+            "name": "Silvered Bells Cape VI",
+            "description": "The golden bells send forth silvery peals of ringing as you rush off to save the day! Happy Frostval, 2012!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 61,
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-present-2012.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Fire,4"
+        }
+    },
+    "related": {
+        "126-2012-presents": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "126-2012-presents",
+                "fullSlug": "merge-shops\/126-2012-presents",
+                "id": 126,
+                "name": "2012 Presents",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 126,
+                    "name": "2012 Presents"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1770,
+                    "mergeShopId": 126,
+                    "mergeId": 1652
+                },
+                "merge": {
+                    "id": 1652,
+                    "itemId1": 8070,
+                    "amount1": 1,
+                    "itemId2": 8032,
+                    "amount2": 1,
+                    "itemId": 8071,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

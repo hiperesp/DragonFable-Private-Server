@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6203-pristine-cobalt-half-dragon-wings",
+        "fullSlug": "items\/6203-pristine-cobalt-half-dragon-wings",
+        "id": 6203,
+        "name": "Pristine Cobalt Half-Dragon Wings",
+        "description": "Icy blue wings to carry you through your most harrowing, imaginative adventures. Lopsidedly...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6203,
+            "name": "Pristine Cobalt Half-Dragon Wings",
+            "description": "Icy blue wings to carry you through your most harrowing, imaginative adventures. Lopsidedly....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 20,
+            "level": 55,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-halfcobaltdragon.swf",
+            "icon": "wings",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Light,3"
+        }
+    },
+    "related": {
+        "240-half-off-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "240-half-off-shop",
+                "fullSlug": "item-shops\/240-half-off-shop",
+                "id": 240,
+                "name": "Half-Off Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 240,
+                    "name": "Half-Off Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14568-geo-s-malachite-staff",
+        "fullSlug": "items\/14568-geo-s-malachite-staff",
+        "id": 14568,
+        "name": "Geo's Malachite Staff",
+        "description": "A special weapon to commemorate Geo's Birthday! Forged by Dracelix, this impressive staff will empower your spells!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14568,
+            "name": "Geo's Malachite Staff",
+            "description": "A special weapon to commemorate Geo's Birthday! Forged by Dracelix, this impressive staff will empower your spells!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 50,
+            "level": 60,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Geo-2015.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 62,
+            "damageMax": 86,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "Wind,5,Water,5,Fire,4,Health,-2"
+        }
+    },
+    "related": {
+        "461-geo-s-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "461-geo-s-birthday",
+                "fullSlug": "item-shops\/461-geo-s-birthday",
+                "id": 461,
+                "name": "Geo's Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 461,
+                    "name": "Geo's Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

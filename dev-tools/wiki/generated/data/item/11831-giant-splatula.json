@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11831-giant-splatula",
+        "fullSlug": "items\/11831-giant-splatula",
+        "id": 11831,
+        "name": "Giant Splatula",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11831,
+            "name": "Giant Splatula"
+        }
+    },
+    "related": {
+        "202-bbq-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "202-bbq-items",
+                "fullSlug": "merge-shops\/202-bbq-items",
+                "id": 202,
+                "name": "BBQ Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 202,
+                    "name": "BBQ Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2421,
+                    "mergeShopId": 202,
+                    "mergeId": 2207
+                },
+                "merge": {
+                    "id": 2207,
+                    "itemId1": 11831,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11837,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

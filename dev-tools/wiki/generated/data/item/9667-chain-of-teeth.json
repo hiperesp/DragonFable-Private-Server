@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9667-chain-of-teeth",
+        "fullSlug": "items\/9667-chain-of-teeth",
+        "id": 9667,
+        "name": "Chain of Teeth",
+        "description": "Spiky and sharp. Be really careful with this."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9667,
+            "name": "Chain of Teeth",
+            "description": "Spiky and sharp. Be really careful with this.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 10,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,2,Nature,2,Bacon,2"
+        }
+    },
+    "related": {
+        "138-stevy-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "138-stevy-shop",
+                "fullSlug": "merge-shops\/138-stevy-shop",
+                "id": 138,
+                "name": "Stevy Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 138,
+                    "name": "Stevy Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1995,
+                    "mergeShopId": 138,
+                    "mergeId": 1881
+                },
+                "merge": {
+                    "id": 1881,
+                    "itemId1": 9666,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9667,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

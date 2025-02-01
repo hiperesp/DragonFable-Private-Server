@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6799-systerity-staff-i",
+        "fullSlug": "items\/6799-systerity-staff-i",
+        "id": 6799,
+        "name": "Systerity Staff I",
+        "description": "Crafted by a master Atealean blacksmith, these weapons feel the tidal pull of Lore's moon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6799,
+            "name": "Systerity Staff I",
+            "description": "Crafted by a master Atealean blacksmith, these weapons feel the tidal pull of Lore's moon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 50,
+            "level": 22,
+            "type": "Magic",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-systerity.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 32,
+            "damageMax": 54,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Light,3"
+        }
+    },
+    "related": {
+        "895-wargoth-approaches": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "895-wargoth-approaches",
+                "fullSlug": "quests\/895-wargoth-approaches",
+                "id": 895,
+                "name": "Wargoth Approaches",
+                "description": "The Rising Fire waves have been defeated... now the war boss approaches!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 895,
+                    "name": "Wargoth Approaches",
+                    "description": "The Rising Fire waves have been defeated... now the war boss approaches!",
+                    "complete": "Wargoth's hold over Fiamme is broken... but he's found a new toy to play with!",
+                    "swf": "wars\/F13-Fire\/quest-fireboss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Fire Avatar",
+                    "monsterGroupSwf": "mset-fiamme.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

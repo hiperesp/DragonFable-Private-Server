@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5170-chaos-edge",
+        "fullSlug": "items\/5170-chaos-edge",
+        "id": 5170,
+        "name": "Chaos Edge",
+        "description": "One of the many weapons in En and Tropy's arsenal. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5170,
+            "name": "Chaos Edge",
+            "description": "One of the many weapons in En and Tropy's arsenal. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 22,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-chaos.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 35,
+            "damageMax": 55,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1"
+        }
+    },
+    "related": {
+        "741-en-tropy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "741-en-tropy",
+                "fullSlug": "quests\/741-en-tropy",
+                "id": 741,
+                "name": "En Tropy",
+                "description": "Forces combine."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 741,
+                    "name": "En Tropy",
+                    "description": "Forces combine.",
+                    "complete": "Forces combine.",
+                    "swf": "towns\/willowshire\/quest-earth12-entropydragon-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 25,
+                    "monsterType": "Dragon",
+                    "monsterGroupSwf": "mset-greendragon.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

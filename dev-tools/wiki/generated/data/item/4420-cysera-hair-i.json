@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4420-cysera-hair-i",
+        "fullSlug": "items\/4420-cysera-hair-i",
+        "id": 4420,
+        "name": "Cysera Hair I",
+        "description": "Have you ever admired Cysero's stylishly unstyled hairstyle?  Well, now YOU too can present a tousled look to the world!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4420,
+            "name": "Cysera Hair I",
+            "description": "Have you ever admired Cysero's stylishly unstyled hairstyle?  Well, now YOU too can present a tousled look to the world!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 18,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-CyseroF.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Fire,1,Wind,1,Hamtons,1"
+        }
+    },
+    "related": {
+        "73-magic-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "73-magic-rewards",
+                "fullSlug": "merge-shops\/73-magic-rewards",
+                "id": 73,
+                "name": "Magic Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 73,
+                    "name": "Magic Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1081,
+                    "mergeShopId": 73,
+                    "mergeId": 778
+                },
+                "merge": {
+                    "id": 778,
+                    "itemId1": 4407,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4420,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

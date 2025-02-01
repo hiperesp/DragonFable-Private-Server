@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13875-bleached-bear-tooth-necklace",
+        "fullSlug": "items\/13875-bleached-bear-tooth-necklace",
+        "id": 13875,
+        "name": "Bleached Bear Tooth Necklace",
+        "description": "A rather large incisor from an angry bear."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13875,
+            "name": "Bleached Bear Tooth Necklace",
+            "description": "A rather large incisor from an angry bear.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 61,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": -1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,7,Nature,7,Water,6"
+        }
+    },
+    "related": {
+        "1270-yulgar-s-first-date": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1270-yulgar-s-first-date",
+                "fullSlug": "quests\/1270-yulgar-s-first-date",
+                "id": 1270,
+                "name": "Yulgar's First Date",
+                "description": "Yulgar's in town visiting the Pet Store!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1270,
+                    "name": "Yulgar's First Date",
+                    "description": "Yulgar's in town visiting the Pet Store!",
+                    "complete": "Thanks Cysero....",
+                    "swf": "towns\/3Falconreach\/quest-firstdate.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 5,
+                    "monsterType": "Nature",
+                    "monsterGroupSwf": "mset-woods.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

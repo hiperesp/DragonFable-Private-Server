@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "815-etesian-staff",
+        "fullSlug": "items\/815-etesian-staff",
+        "id": 815,
+        "name": "Etesian Staff",
+        "description": "The power of the north wind flows through this staff."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 815,
+            "name": "Etesian Staff",
+            "description": "The power of the north wind flows through this staff.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 26,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-windy4.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 47,
+            "damageMax": 53,
+            "defenseMelee": 3,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,2"
+        }
+    },
+    "related": {
+        "25-temple-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "25-temple-shop",
+                "fullSlug": "merge-shops\/25-temple-shop",
+                "id": 25,
+                "name": "Temple Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 25,
+                    "name": "Temple Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 352,
+                    "mergeShopId": 25,
+                    "mergeId": 199
+                },
+                "merge": {
+                    "id": 199,
+                    "itemId1": 817,
+                    "amount1": 20,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 815,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6234-jumbo-turducken-crest",
+        "fullSlug": "items\/6234-jumbo-turducken-crest",
+        "id": 6234,
+        "name": "Jumbo Turducken Crest",
+        "description": "You can now tickle your enemies into submission! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6234,
+            "name": "Jumbo Turducken Crest",
+            "description": "You can now tickle your enemies into submission! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 35,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-turkeyfeather.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 49,
+            "damageMax": 67,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Nature,5,Fire,5,Darkness,5,Immobility,2"
+        }
+    },
+    "related": {
+        "839-a-whole-lotta-turducken": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "839-a-whole-lotta-turducken",
+                "fullSlug": "quests\/839-a-whole-lotta-turducken",
+                "id": 839,
+                "name": "A Whole Lotta Turducken",
+                "description": "That is too much turkey... duck... and chicken...."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 839,
+                    "name": "A Whole Lotta Turducken",
+                    "description": "That is too much turkey... duck... and chicken....",
+                    "complete": "That is too much turkey... duck... and chicken....",
+                    "swf": "towns\/Thankstaking\/tt11\/quest-thanksgiving11-titan-r6.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 35,
+                    "monsterMaxLevel": 35,
+                    "monsterType": "turducken",
+                    "monsterGroupSwf": "mset-thanksgiving11-titan-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

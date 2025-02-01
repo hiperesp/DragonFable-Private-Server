@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19733-leechscale-binding-ii",
+        "fullSlug": "items\/19733-leechscale-binding-ii",
+        "id": 19733,
+        "name": "Leechscale Binding II",
+        "description": "Part of the remains of a Radiant Leech adorn this belt. It seems some of the power still resides in the fallen scales."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19733,
+            "name": "Leechscale Binding II",
+            "description": "Part of the remains of a Radiant Leech adorn this belt. It seems some of the power still resides in the fallen scales.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1100,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 40,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,4,Fire,4,Energy,4"
+        }
+    },
+    "related": {
+        "1730-sunfall-part-1": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1730-sunfall-part-1",
+                "fullSlug": "quests\/1730-sunfall-part-1",
+                "id": 1730,
+                "name": "Sunfall: Part 1",
+                "description": "The final push against the Tytan begins... But this plan doesn't seem safe at all..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1730,
+                    "name": "Sunfall: Part 1",
+                    "description": "The final push against the Tytan begins... But this plan doesn't seem safe at all...",
+                    "complete": "Take a leap into the light.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest6-sunfall1-r2.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest6-sunfall1-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Worms and Elementals",
+                    "monsterGroupSwf": "mset-sunfall-r4.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

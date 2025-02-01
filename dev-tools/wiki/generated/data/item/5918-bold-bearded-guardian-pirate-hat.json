@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5918-bold-bearded-guardian-pirate-hat",
+        "fullSlug": "items\/5918-bold-bearded-guardian-pirate-hat",
+        "id": 5918,
+        "name": "Bold Bearded Guardian Pirate Hat",
+        "description": "Ye'll be ready t' sail o'er t' seas o' Lore with this handsome hat. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5918,
+            "name": "Bold Bearded Guardian Pirate Hat",
+            "description": "Ye'll be ready t' sail o'er t' seas o' Lore with this handsome hat. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 2,
+            "level": 25,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helmet-MPirateHatBeard.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 5,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,5"
+        }
+    },
+    "related": {
+        "229-tlapd-old": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "229-tlapd-old",
+                "fullSlug": "item-shops\/229-tlapd-old",
+                "id": 229,
+                "name": "TLaPD Old",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 229,
+                    "name": "TLaPD Old",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "366-tlapd-bandanas": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "366-tlapd-bandanas",
+                "fullSlug": "item-shops\/366-tlapd-bandanas",
+                "id": 366,
+                "name": "TLaPD Bandanas",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 366,
+                    "name": "TLaPD Bandanas",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4301-ancient-commander-s-ring",
+        "fullSlug": "items\/4301-ancient-commander-s-ring",
+        "id": 4301,
+        "name": "Ancient Commander's Ring",
+        "description": "You're pretty sure that skeleton won't miss this...  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4301,
+            "name": "Ancient Commander's Ring",
+            "description": "You're pretty sure that skeleton won't miss this...  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 44,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,7,Wind,7,Stone,7,Fire,7,Immobility,4"
+        }
+    },
+    "related": {
+        "662-a-rock-and-a-dark-place": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "662-a-rock-and-a-dark-place",
+                "fullSlug": "quests\/662-a-rock-and-a-dark-place",
+                "id": 662,
+                "name": "A Rock and A Dark Place",
+                "description": "Will you find the mysterious thief?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 662,
+                    "name": "A Rock and A Dark Place",
+                    "description": "Will you find the mysterious thief?",
+                    "complete": "Who is this woman and how does she know your name?",
+                    "swf": "towns\/willowshire\/quest-earth4-darkplace-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Skellies, Darkness Ele",
+                    "monsterGroupSwf": "mset-earth4.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

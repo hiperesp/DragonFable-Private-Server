@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7085-wooden-shard",
+        "fullSlug": "items\/7085-wooden-shard",
+        "id": 7085,
+        "name": "Wooden Shard",
+        "description": "A splinter of wood hangs off the end of this chain. You feel magic humming within it. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7085,
+            "name": "Wooden Shard",
+            "description": "A splinter of wood hangs off the end of this chain. You feel magic humming within it. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 6,
+            "level": 72,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 2,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,5,Immobility,2"
+        }
+    },
+    "related": {
+        "917-nightmares": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "917-nightmares",
+                "fullSlug": "quests\/917-nightmares",
+                "id": 917,
+                "name": "Nightmares",
+                "description": "Wargoth is throwing all sorts of fire monsters at you to get you out of his head!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 917,
+                    "name": "Nightmares",
+                    "description": "Wargoth is throwing all sorts of fire monsters at you to get you out of his head!",
+                    "complete": "Just who is The Professor?!",
+                    "swf": "towns\/Atrea\/quest8-nightmares.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "science, mana, fire",
+                    "monsterGroupSwf": "mset-nightmares.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

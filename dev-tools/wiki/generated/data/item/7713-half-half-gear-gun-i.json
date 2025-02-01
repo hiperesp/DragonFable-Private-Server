@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7713-half-half-gear-gun-i",
+        "fullSlug": "items\/7713-half-half-gear-gun-i",
+        "id": 7713,
+        "name": "Half-Half Gear Gun I",
+        "description": "Crafted by gnomish refugees, this weapons has lots of delicate moving parts."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7713,
+            "name": "Half-Half Gear Gun I",
+            "description": "Crafted by gnomish refugees, this weapons has lots of delicate moving parts.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 8,
+            "level": 10,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-steampunk-half.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 27,
+            "damageMax": 39,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,1,Water,1,All,2"
+        }
+    },
+    "related": {
+        "286-half-off-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "286-half-off-shop",
+                "fullSlug": "item-shops\/286-half-off-shop",
+                "id": 286,
+                "name": "Half Off Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 286,
+                    "name": "Half Off Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

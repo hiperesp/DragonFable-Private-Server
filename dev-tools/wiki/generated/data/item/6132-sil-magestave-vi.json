@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6132-sil-magestave-vi",
+        "fullSlug": "items\/6132-sil-magestave-vi",
+        "id": 6132,
+        "name": "Sil Magestave VI",
+        "description": "A beautiful and light-weight stave that you reforged from items found in the ruins of Sil. Made from zephyrite, a very rare wind metal. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6132,
+            "name": "Sil Magestave VI",
+            "description": "A beautiful and light-weight stave that you reforged from items found in the ruins of Sil. Made from zephyrite, a very rare wind metal. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 5,
+            "level": 68,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-Sil Magestave.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 72,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Wind,8,Stone,8"
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 432,
+                    "mergeShopId": 32,
+                    "mergeId": 1206
+                },
+                "merge": {
+                    "id": 1206,
+                    "itemId1": 6103,
+                    "amount1": 1,
+                    "itemId2": 6104,
+                    "amount2": 1,
+                    "itemId": 6132,
+                    "string": 1,
+                    "index": 2,
+                    "value": 10,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

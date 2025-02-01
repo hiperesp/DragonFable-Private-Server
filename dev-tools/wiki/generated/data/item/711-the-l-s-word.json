@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "711-the-l-s-word",
+        "fullSlug": "items\/711-the-l-s-word",
+        "id": 711,
+        "name": "the L-(s)word",
+        "description": "All you need is Love. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 711,
+            "name": "the L-(s)word",
+            "description": "All you need is Love. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 4,
+            "level": 9,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-HH2.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 23,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "19-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "19-hero-s-heart",
+                "fullSlug": "merge-shops\/19-hero-s-heart",
+                "id": 19,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 19,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 313,
+                    "mergeShopId": 19,
+                    "mergeId": 142
+                },
+                "merge": {
+                    "id": 142,
+                    "itemId1": 707,
+                    "amount1": 15,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 711,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

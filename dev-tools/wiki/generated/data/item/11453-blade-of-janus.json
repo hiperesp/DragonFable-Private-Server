@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11453-blade-of-janus",
+        "fullSlug": "items\/11453-blade-of-janus",
+        "id": 11453,
+        "name": "Blade of Janus",
+        "description": "This blade once belonged to Janus. Be careful it doesn't turn on you like the previous owner turned on his comrades!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11453,
+            "name": "Blade of Janus",
+            "description": "This blade once belonged to Janus. Be careful it doesn't turn on you like the previous owner turned on his comrades!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "Bacon",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-bladeofjanus.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4,Darkness,3"
+        }
+    },
+    "related": {
+        "197-blade-of-janus": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "197-blade-of-janus",
+                "fullSlug": "merge-shops\/197-blade-of-janus",
+                "id": 197,
+                "name": "Blade of Janus",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 197,
+                    "name": "Blade of Janus"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2274,
+                    "mergeShopId": 197,
+                    "mergeId": 2114
+                },
+                "merge": {
+                    "id": 2114,
+                    "itemId1": 586,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 11453,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

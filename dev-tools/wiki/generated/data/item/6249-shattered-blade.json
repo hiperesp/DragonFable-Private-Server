@@ -1,0 +1,194 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6249-shattered-blade",
+        "fullSlug": "items\/6249-shattered-blade",
+        "id": 6249,
+        "name": "Shattered Blade",
+        "description": "This magical weapon is said to have been forged by the gods themselves. It almost guarantees a critical strike! Too bad it's broken."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6249,
+            "name": "Shattered Blade",
+            "description": "This magical weapon is said to have been forged by the gods themselves. It almost guarantees a critical strike! Too bad it's broken.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-brokendagger.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 4,
+            "damageMax": 4,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 60,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "842-swordhaven-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "842-swordhaven-forest",
+                "fullSlug": "quests\/842-swordhaven-forest",
+                "id": 842,
+                "name": "Swordhaven Forest",
+                "description": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 842,
+                    "name": "Swordhaven Forest",
+                    "description": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!",
+                    "complete": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!",
+                    "swf": "random\/random-sh-forest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        },
+        "843-swordhaven-marsh": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "843-swordhaven-marsh",
+                "fullSlug": "quests\/843-swordhaven-marsh",
+                "id": 843,
+                "name": "Swordhaven Marsh",
+                "description": "The area where the sewers drain is smelly, gross and full of monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 843,
+                    "name": "Swordhaven Marsh",
+                    "description": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "complete": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "swf": "random\/random-sh-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "boars, bugs, mushrooms",
+                    "monsterGroupSwf": "mset-shmarsh.swf"
+                }
+            },
+            "related": []
+        },
+        "844-mutant-caves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "844-mutant-caves",
+                "fullSlug": "quests\/844-mutant-caves",
+                "id": 844,
+                "name": "Mutant Caves",
+                "description": "The mutant caves at the bottom of the Swordhaven Sewers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 844,
+                    "name": "Mutant Caves",
+                    "description": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "complete": "The mutant caves at the bottom of the Swordhaven Sewers.",
+                    "swf": "random\/random-sh-mutant-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sewer monsters",
+                    "monsterGroupSwf": "mset-sewers.swf"
+                }
+            },
+            "related": []
+        },
+        "845-swordhaven-fields": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "845-swordhaven-fields",
+                "fullSlug": "quests\/845-swordhaven-fields",
+                "id": 845,
+                "name": "Swordhaven Fields",
+                "description": "The Swordhaven Fields are being dug up by boars and rodents."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 845,
+                    "name": "Swordhaven Fields",
+                    "description": "The Swordhaven Fields are being dug up by boars and rodents.",
+                    "complete": "The Swordhaven Fields are being dug up by boars and rodents.",
+                    "swf": "random\/random-sh-fields.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rats, plants, boars",
+                    "monsterGroupSwf": "mset-shfields-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

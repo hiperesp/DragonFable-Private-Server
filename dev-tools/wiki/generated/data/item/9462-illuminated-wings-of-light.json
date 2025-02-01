@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9462-illuminated-wings-of-light",
+        "fullSlug": "items\/9462-illuminated-wings-of-light",
+        "id": 9462,
+        "name": "Illuminated Wings of Light",
+        "description": "The light dragon wings of Emperor Sek Duat, Ruler of the Sandsea, Supreme Wielder of the Light, now turned to dust...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9462,
+            "name": "Illuminated Wings of Light",
+            "description": "The light dragon wings of Emperor Sek Duat, Ruler of the Sandsea, Supreme Wielder of the Light, now turned to dust....",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-sekduatwings.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 10,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,12,Darkness,8,All,3"
+        }
+    },
+    "related": {
+        "331-sek-duat-dc-loot": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "331-sek-duat-dc-loot",
+                "fullSlug": "item-shops\/331-sek-duat-dc-loot",
+                "id": 331,
+                "name": "Sek Duat DC Loot",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 331,
+                    "name": "Sek Duat DC Loot",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

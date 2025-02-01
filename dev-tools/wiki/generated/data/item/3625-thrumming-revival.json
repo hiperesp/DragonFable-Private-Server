@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3625-thrumming-revival",
+        "fullSlug": "items\/3625-thrumming-revival",
+        "id": 3625,
+        "name": "Thrumming Revival",
+        "description": "An artisan named Marth forged 234 of these weapons in the rejuvenating waters of an ice-cold brook. They retain the icy essence of that flowing elemental stream."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3625,
+            "name": "Thrumming Revival",
+            "description": "An artisan named Marth forged 234 of these weapons in the rejuvenating waters of an ice-cold brook. They retain the icy essence of that flowing elemental stream.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 53,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-player1.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 63,
+            "damageMax": 75,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,6,Wind,6"
+        }
+    },
+    "related": {
+        "135-player-suggestion-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "135-player-suggestion-shop",
+                "fullSlug": "item-shops\/135-player-suggestion-shop",
+                "id": 135,
+                "name": "Player Suggestion Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Player Suggestion Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

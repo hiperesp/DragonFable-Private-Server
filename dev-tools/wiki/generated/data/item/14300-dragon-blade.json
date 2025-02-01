@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14300-dragon-blade",
+        "fullSlug": "items\/14300-dragon-blade",
+        "id": 14300,
+        "name": "Dragon Blade",
+        "description": "This replica of the legendary Dragon Blade was crafted by Zee and enhanced by Ashendal! It will increase your BtH and Damage against Reptiles and Dragons! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14300,
+            "name": "Dragon Blade",
+            "description": "This replica of the legendary Dragon Blade was crafted by Zee and enhanced by Ashendal! It will increase your BtH and Damage against Reptiles and Dragons! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-GalBlade-r1.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 45,
+            "damageMax": 59,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,5,Darkness,2,Immobility,1"
+        }
+    },
+    "related": {
+        "450-replica-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "450-replica-weapons",
+                "fullSlug": "item-shops\/450-replica-weapons",
+                "id": 450,
+                "name": "Replica Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 450,
+                    "name": "Replica Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

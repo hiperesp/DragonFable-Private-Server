@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10571-chaos-sentry-cape-iv",
+        "fullSlug": "items\/10571-chaos-sentry-cape-iv",
+        "id": 10571,
+        "name": "Chaos Sentry Cape IV",
+        "description": "You feel like something is watching you.... You can upgrade this cape at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10571,
+            "name": "Chaos Sentry Cape IV",
+            "description": "You feel like something is watching you.... You can upgrade this cape at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chaoseye.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Evil,10,All,2"
+        }
+    },
+    "related": {
+        "148-chaos-sentry-cape": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "148-chaos-sentry-cape",
+                "fullSlug": "merge-shops\/148-chaos-sentry-cape",
+                "id": 148,
+                "name": "Chaos Sentry Cape",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 148,
+                    "name": "Chaos Sentry Cape"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2117,
+                    "mergeShopId": 148,
+                    "mergeId": 1964
+                },
+                "merge": {
+                    "id": 1964,
+                    "itemId1": 10571,
+                    "amount1": 1,
+                    "itemId2": 8417,
+                    "amount2": 1,
+                    "itemId": 10572,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

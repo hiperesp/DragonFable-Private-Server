@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6242-snapperdilla",
+        "fullSlug": "items\/6242-snapperdilla",
+        "id": 6242,
+        "name": "Snapperdilla",
+        "description": "Just don't flush it! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6242,
+            "name": "Snapperdilla",
+            "description": "Just don't flush it! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 100,
+            "level": 60,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-snapperdilla.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 18,
+            "damageMax": 24,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "241-sewer-pets": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "241-sewer-pets",
+                "fullSlug": "item-shops\/241-sewer-pets",
+                "id": 241,
+                "name": "Sewer Pets",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 241,
+                    "name": "Sewer Pets",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

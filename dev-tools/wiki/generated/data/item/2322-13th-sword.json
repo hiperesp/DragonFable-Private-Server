@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2322-13th-sword",
+        "fullSlug": "items\/2322-13th-sword",
+        "id": 2322,
+        "name": "13th Sword",
+        "description": "This sword once belonged to the great and terrible warrior Jaysun. It was said long ago that anyone who holds his power would be impossible to kill."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2322,
+            "name": "13th Sword",
+            "description": "This sword once belonged to the great and terrible warrior Jaysun. It was said long ago that anyone who holds his power would be impossible to kill.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 8000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 27,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-friday13.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 52,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5"
+        }
+    },
+    "related": {
+        "380-unlucky-waves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "380-unlucky-waves",
+                "fullSlug": "quests\/380-unlucky-waves",
+                "id": 380,
+                "name": "Unlucky Waves",
+                "description": "The undead have Falconreach surrounded!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 380,
+                    "name": "Unlucky Waves",
+                    "description": "The undead have Falconreach surrounded!",
+                    "complete": "One wave down!",
+                    "swf": "wars\/quest-Fri13Mar09wavesr3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "undead",
+                    "monsterGroupSwf": "mset-friday13mar09.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

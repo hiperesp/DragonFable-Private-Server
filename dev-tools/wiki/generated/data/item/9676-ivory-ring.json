@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9676-ivory-ring",
+        "fullSlug": "items\/9676-ivory-ring",
+        "id": 9676,
+        "name": "Ivory Ring",
+        "description": "Heavy carved, this ring is covered with crazy patterns."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9676,
+            "name": "Ivory Ring",
+            "description": "Heavy carved, this ring is covered with crazy patterns.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 24,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Nature,3,Light,3"
+        }
+    },
+    "related": {
+        "139-tooth-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "139-tooth-rings",
+                "fullSlug": "merge-shops\/139-tooth-rings",
+                "id": 139,
+                "name": "Tooth Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 139,
+                    "name": "Tooth Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2001,
+                    "mergeShopId": 139,
+                    "mergeId": 1890
+                },
+                "merge": {
+                    "id": 1890,
+                    "itemId1": 9666,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9676,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9702-soulsmith-staff-x",
+        "fullSlug": "items\/9702-soulsmith-staff-x",
+        "id": 9702,
+        "name": "SoulSmith Staff X",
+        "description": "Crafted by the SoulSmith, Lanrete. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9702,
+            "name": "SoulSmith Staff X",
+            "description": "Crafted by the SoulSmith, Lanrete. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 48000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 55,
+            "level": 78,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-soulsmith.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 11,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 73,
+            "damageMax": 101,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,8,Energy,8,Water,7,Poison,7,Health,-3"
+        }
+    },
+    "related": {
+        "339-soulsmith-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "339-soulsmith-shop",
+                "fullSlug": "item-shops\/339-soulsmith-shop",
+                "id": 339,
+                "name": "Soulsmith Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 339,
+                    "name": "Soulsmith Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

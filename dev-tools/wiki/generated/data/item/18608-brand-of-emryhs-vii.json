@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18608-brand-of-emryhs-vii",
+        "fullSlug": "items\/18608-brand-of-emryhs-vii",
+        "id": 18608,
+        "name": "Brand of Emryhs VII",
+        "description": "Left behind by the Phobeist. The materials of its construction are unrecognizable, and wielding it fills you with a conflicting sense of despair and hope. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18608,
+            "name": "Brand of Emryhs VII",
+            "description": "Left behind by the Phobeist. The materials of its construction are unrecognizable, and wielding it fills you with a conflicting sense of despair and hope. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2250,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 20,
+            "level": 80,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-emryhs.swf",
+            "icon": "sword",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": -12,
+            "wisdom": 0,
+            "damageMin": 86,
+            "damageMax": 90,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Good,-5,Evil,-5"
+        }
+    },
+    "related": {
+        "1607-fear": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1607-fear",
+                "fullSlug": "quests\/1607-fear",
+                "id": 1607,
+                "name": "Fear",
+                "description": "People are missing, strange creatures are running around... what is going on in Verteroche?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1607,
+                    "name": "Fear",
+                    "description": "People are missing, strange creatures are running around... what is going on in Verteroche?",
+                    "complete": "Turns out that the Phobeist was hired by Theano. Whatever he has planned, it seems he's one step closer to its completion.",
+                    "swf": "towns\/3Falconreach\/Thorns\/quest6-fear.swf?ver=1",
+                    "swfX": "towns\/3Falconreach\/Thorns\/quest6-fear-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Old Manaphages, Feargheist, Phobeist",
+                    "monsterGroupSwf": "mset-phobeist.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

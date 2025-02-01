@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18972-chibi-lust",
+        "fullSlug": "items\/18972-chibi-lust",
+        "id": 18972,
+        "name": "Chibi Lust",
+        "description": "This mini Lust will watch over your shoulder and be a forever faithful companion. Forever. Proof of victory over the Lust challenge fight."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18972,
+            "name": "Chibi Lust",
+            "description": "This mini Lust will watch over your shoulder and be a forever faithful companion. Forever. Proof of victory over the Lust challenge fight.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 30,
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chibilust.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "308-lust-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "308-lust-merges",
+                "fullSlug": "merge-shops\/308-lust-merges",
+                "id": 308,
+                "name": "Lust Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 308,
+                    "name": "Lust Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3325,
+                    "mergeShopId": 308,
+                    "mergeId": 3415
+                },
+                "merge": {
+                    "id": 3415,
+                    "itemId1": 18970,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18972,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

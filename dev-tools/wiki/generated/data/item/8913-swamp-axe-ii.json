@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8913-swamp-axe-ii",
+        "fullSlug": "items\/8913-swamp-axe-ii",
+        "id": 8913,
+        "name": "Swamp Axe II",
+        "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8913,
+            "name": "Swamp Axe II",
+            "description": "Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 7,
+            "level": 46,
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-swampaxe.swf",
+            "icon": "axe",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 57,
+            "damageMax": 71,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Health,-1"
+        }
+    },
+    "related": {
+        "131-rose-emblem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "131-rose-emblem",
+                "fullSlug": "merge-shops\/131-rose-emblem",
+                "id": 131,
+                "name": "Rose Emblem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 131,
+                    "name": "Rose Emblem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1886,
+                    "mergeShopId": 131,
+                    "mergeId": 1783
+                },
+                "merge": {
+                    "id": 1783,
+                    "itemId1": 8879,
+                    "amount1": 3,
+                    "itemId2": 8913,
+                    "amount2": 1,
+                    "itemId": 8914,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7530-avatar-s-winged-scythe",
+        "fullSlug": "items\/7530-avatar-s-winged-scythe",
+        "id": 7530,
+        "name": "Avatar's Winged Scythe",
+        "description": "This light, swift scythe was blessed by the Avatar's themselves! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7530,
+            "name": "Avatar's Winged Scythe",
+            "description": "This light, swift scythe was blessed by the Avatar's themselves! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-windven.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 73,
+            "damageMax": 101,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Darkness,6,Water,6,Stone,6"
+        }
+    },
+    "related": {
+        "279-10th-anniversary": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "279-10th-anniversary",
+                "fullSlug": "item-shops\/279-10th-anniversary",
+                "id": 279,
+                "name": "10th Anniversary",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 279,
+                    "name": "10th Anniversary",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

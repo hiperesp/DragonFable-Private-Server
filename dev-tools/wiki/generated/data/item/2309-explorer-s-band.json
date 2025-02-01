@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2309-explorer-s-band",
+        "fullSlug": "items\/2309-explorer-s-band",
+        "id": 2309,
+        "name": "Explorer's Band",
+        "description": "This ring is a must-have for the dedicated Adventurer.  A built-in compass will guide you in the densest of fogs or darkest of nights.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2309,
+            "name": "Explorer's Band",
+            "description": "This ring is a must-have for the dedicated Adventurer.  A built-in compass will guide you in the densest of fogs or darkest of nights.  ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 10,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "54-valencia-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "54-valencia-s-shop",
+                "fullSlug": "merge-shops\/54-valencia-s-shop",
+                "id": 54,
+                "name": "Valencia's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 54,
+                    "name": "Valencia's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 839,
+                    "mergeShopId": 54,
+                    "mergeId": 520
+                },
+                "merge": {
+                    "id": 520,
+                    "itemId1": 2305,
+                    "amount1": 1,
+                    "itemId2": 2306,
+                    "amount2": 1,
+                    "itemId": 2309,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

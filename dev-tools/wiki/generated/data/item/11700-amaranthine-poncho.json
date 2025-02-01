@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11700-amaranthine-poncho",
+        "fullSlug": "items\/11700-amaranthine-poncho",
+        "id": 11700,
+        "name": "Amaranthine Poncho",
+        "description": "Painted a pugnacious shade of purple this Lucky Day item is a plum punishment for your oppugners! Happy Lucky Day '14! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11700,
+            "name": "Amaranthine Poncho",
+            "description": "Painted a pugnacious shade of purple this Lucky Day item is a plum punishment for your oppugners! Happy Lucky Day '14! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-purplelucky.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Wind,10,Metal,10,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "400-lucky-purple": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "400-lucky-purple",
+                "fullSlug": "item-shops\/400-lucky-purple",
+                "id": 400,
+                "name": "Lucky Purple",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 400,
+                    "name": "Lucky Purple",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22130-the-oucher",
+        "fullSlug": "items\/22130-the-oucher",
+        "id": 22130,
+        "name": "The Oucher",
+        "description": "It comes with its owns sound effects when you swing it! Mainly yours! (Not really, but you can roleplay it!) (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22130,
+            "name": "The Oucher",
+            "description": "It comes with its owns sound effects when you swing it! Mainly yours! (Not really, but you can roleplay it!) (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-bramblesword.swf",
+            "icon": "scythe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "430-brittle-spears-booth": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "430-brittle-spears-booth",
+                "fullSlug": "merge-shops\/430-brittle-spears-booth",
+                "id": 430,
+                "name": "Brittle Spears Booth",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 430,
+                    "name": "Brittle Spears Booth"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4422,
+                    "mergeShopId": 430,
+                    "mergeId": 4445
+                },
+                "merge": {
+                    "id": 4445,
+                    "itemId1": 22159,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 22130,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

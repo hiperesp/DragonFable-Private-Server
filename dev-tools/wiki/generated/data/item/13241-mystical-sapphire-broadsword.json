@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13241-mystical-sapphire-broadsword",
+        "fullSlug": "items\/13241-mystical-sapphire-broadsword",
+        "id": 13241,
+        "name": "Mystical Sapphire Broadsword",
+        "description": "This weapon was crafted by Ashendal to celebrate the anniversary of his entrance into the multiverse all those years ago. It may look heavy but it has been enchanted to feel light and not impact your movement."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13241,
+            "name": "Mystical Sapphire Broadsword",
+            "description": "This weapon was crafted by Ashendal to celebrate the anniversary of his entrance into the multiverse all those years ago. It may look heavy but it has been enchanted to feel light and not impact your movement.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 50,
+            "level": 60,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-SapphireBroad.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 62,
+            "damageMax": 86,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,5,Water,5,Fire,4,Health,-2"
+        }
+    },
+    "related": {
+        "423-ash-s-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "423-ash-s-birthday",
+                "fullSlug": "item-shops\/423-ash-s-birthday",
+                "id": 423,
+                "name": "Ash's Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 423,
+                    "name": "Ash's Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

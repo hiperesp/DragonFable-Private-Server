@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11150-eye-of-the-void-helm-iii",
+        "fullSlug": "items\/11150-eye-of-the-void-helm-iii",
+        "id": 11150,
+        "name": "Eye of the Void Helm III",
+        "description": "It's watching you..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11150,
+            "name": "Eye of the Void Helm III",
+            "description": "It's watching you...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 125,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-eye of the void.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Ice,2,Evil,1,Poison,1"
+        }
+    },
+    "related": {
+        "388-deep-void-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "388-deep-void-dc",
+                "fullSlug": "item-shops\/388-deep-void-dc",
+                "id": 388,
+                "name": "Deep Void DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 388,
+                    "name": "Deep Void DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

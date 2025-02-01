@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16709-seitan-sausage-stabber",
+        "fullSlug": "items\/16709-seitan-sausage-stabber",
+        "id": 16709,
+        "name": "Seitan Sausage Stabber",
+        "description": "This vegan and gluten-free sausage is perfect for the vegetarian rogue. They might not be the sharpest weapons, but they're spicy! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16709,
+            "name": "Seitan Sausage Stabber",
+            "description": "This vegan and gluten-free sausage is perfect for the vegetarian rogue. They might not be the sharpest weapons, but they're spicy! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "type": "Pierce",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-sausage.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 14,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 81,
+            "damageMax": 89,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Bacon,10,Fire,-5"
+        }
+    },
+    "related": {
+        "1393-what-s-that-whistling-noise": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1393-what-s-that-whistling-noise",
+                "fullSlug": "quests\/1393-what-s-that-whistling-noise",
+                "id": 1393,
+                "name": "What's That Whistling Noise?",
+                "description": "Monsters are coming out of fruitcake bombs! What could be their source?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1393,
+                    "name": "What's That Whistling Noise?",
+                    "description": "Monsters are coming out of fruitcake bombs! What could be their source?",
+                    "complete": "That was a piece of cake! Time to take the fight to Joules!",
+                    "swf": "towns\/Thankstaking\/tt16\/quest2-noise.swf",
+                    "swfX": "towns\/Thankstaking\/tt16\/quest2-noise-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "food!",
+                    "monsterGroupSwf": "mset-thanks16-2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

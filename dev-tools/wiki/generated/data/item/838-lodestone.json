@@ -1,0 +1,195 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "838-lodestone",
+        "fullSlug": "items\/838-lodestone",
+        "id": 838,
+        "name": "Lodestone",
+        "description": "The lodestone in staff attracts magical energy. Bring this weapon and several Elemental Essences to Warlic to enchant in his elemental SHOP."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 838,
+            "name": "Lodestone",
+            "description": "The lodestone in staff attracts magical energy. Bring this weapon and several Elemental Essences to Warlic to enchant in his elemental SHOP.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 14,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-minemetal.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "125-miner-s-barracks": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "125-miner-s-barracks",
+                "fullSlug": "quests\/125-miner-s-barracks",
+                "id": 125,
+                "name": "Miner's Barracks",
+                "description": "Miner Thirtyniner has asked you to retrieve a very odd item that he believes might be drawing the elementals to the barracks."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 125,
+                    "name": "Miner's Barracks",
+                    "description": "Miner Thirtyniner has asked you to retrieve a very odd item that he believes might be drawing the elementals to the barracks.",
+                    "complete": "Hmmm. You found what you were looking for though it didn't seem to effect the elementals much... maybe they were looking for something else.",
+                    "swf": "quests\/quest-minershouse.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Earth, Wind, Fire Water and HEART!",
+                    "monsterGroupSwf": "mset-elementalALL.swf"
+                }
+            },
+            "related": []
+        },
+        "126-what-s-mine-is-mine": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "126-what-s-mine-is-mine",
+                "fullSlug": "quests\/126-what-s-mine-is-mine",
+                "id": 126,
+                "name": "What's Mine Is Mine",
+                "description": "Warlic hopes that clearing this mine shaft will help get the miners of Lymcrest lives back to normal."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 126,
+                    "name": "What's Mine Is Mine",
+                    "description": "Warlic hopes that clearing this mine shaft will help get the miners of Lymcrest lives back to normal.",
+                    "complete": "Well done, Hero! This mine shaft is now clear of elementals. Many more of the mines around here are still swarming with elementals but the miners can get back to work in this one!",
+                    "swf": "quests\/quest-mine1r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Earth, Wind, Fire Water and HEART!",
+                    "monsterGroupSwf": "mset-elementalALL.swf"
+                }
+            },
+            "related": []
+        },
+        "127-a-named-elemental": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "127-a-named-elemental",
+                "fullSlug": "quests\/127-a-named-elemental",
+                "id": 127,
+                "name": "A Named Elemental",
+                "description": "Warlic has sent you to the Lymcrest quarry to defeat a troublesome named elemental who is making it too dangerous to work here for the miners."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 127,
+                    "name": "A Named Elemental",
+                    "description": "Warlic has sent you to the Lymcrest quarry to defeat a troublesome named elemental who is making it too dangerous to work here for the miners.",
+                    "complete": "You defeated the oddly named elemental boss who was causing problems in this part of the quarry. Hopefully this will be the last you see of that particular elemental.",
+                    "swf": "quests\/quest-elementalboss-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Earth, Wind, Fire Water and HEART!",
+                    "monsterGroupSwf": "mset-elementalALL.swf"
+                }
+            },
+            "related": []
+        },
+        "26-warlic-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "26-warlic-s-shop",
+                "fullSlug": "merge-shops\/26-warlic-s-shop",
+                "id": 26,
+                "name": "Warlic's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 26,
+                    "name": "Warlic's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 375,
+                    "mergeShopId": 26,
+                    "mergeId": 231
+                },
+                "merge": {
+                    "id": 231,
+                    "itemId1": 838,
+                    "amount1": 1,
+                    "itemId2": 864,
+                    "amount2": 15,
+                    "itemId": 853,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

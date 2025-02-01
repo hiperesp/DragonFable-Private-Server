@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22249-chronocorruptor-s-khopesh-iii",
+        "fullSlug": "items\/22249-chronocorruptor-s-khopesh-iii",
+        "id": 22249,
+        "name": "Chronocorruptor's Khopesh III",
+        "description": "This weapon was forged in an unknown time from materials you've never seen before. It appears to have been twisted in some way. Proof of victory over the Test of Meanwhile challenge."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22249,
+            "name": "Chronocorruptor's Khopesh III",
+            "description": "This weapon was forged in an unknown time from materials you've never seen before. It appears to have been twisted in some way. Proof of victory over the Test of Meanwhile challenge.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 0,
+            "level": 90,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-arenachronocorrupter.swf",
+            "icon": "scythe",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 20,
+            "wisdom": 20,
+            "damageMin": 95,
+            "damageMax": 99,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 12,
+            "parry": 15,
+            "dodge": 15,
+            "block": 15,
+            "resists": "All,10,Health,-10"
+        }
+    },
+    "related": {
+        "433-meanwhile-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "433-meanwhile-rewards",
+                "fullSlug": "merge-shops\/433-meanwhile-rewards",
+                "id": 433,
+                "name": "Meanwhile Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 433,
+                    "name": "Meanwhile Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4441,
+                    "mergeShopId": 433,
+                    "mergeId": 4478
+                },
+                "merge": {
+                    "id": 4478,
+                    "itemId1": 22252,
+                    "amount1": 1,
+                    "itemId2": 22253,
+                    "amount2": 1,
+                    "itemId": 22249,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

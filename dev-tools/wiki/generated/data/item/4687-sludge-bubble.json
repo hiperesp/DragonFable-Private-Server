@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4687-sludge-bubble",
+        "fullSlug": "items\/4687-sludge-bubble",
+        "id": 4687,
+        "name": "Sludge Bubble",
+        "description": "To what nefarious purpose will Murk put these grotesque bubbles from the Ravenloss sewers? We may never know! Or YOU might, if you have enough courage to talk to him in his under-underground lair!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4687,
+            "name": "Sludge Bubble",
+            "description": "To what nefarious purpose will Murk put these grotesque bubbles from the Ravenloss sewers? We may never know! Or YOU might, if you have enough courage to talk to him in his under-underground lair!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 30,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 1,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "greenbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "702-the-sewers": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "702-the-sewers",
+                "fullSlug": "quests\/702-the-sewers",
+                "id": 702,
+                "name": "The Sewers",
+                "description": "The sewers UNDER the undercity! Can you manage to get through them in one piece while you hunt for the Aurora Key on your way to freedom?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 702,
+                    "name": "The Sewers",
+                    "description": "The sewers UNDER the undercity! Can you manage to get through them in one piece while you hunt for the Aurora Key on your way to freedom?",
+                    "complete": "You found the Key! I hope Tomix wasn't hurt TOO much by that rockfall!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix7.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness",
+                    "monsterGroupSwf": "mset-tomix7.swf"
+                }
+            },
+            "related": []
+        },
+        "79-murk-s-sewer-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "79-murk-s-sewer-merch",
+                "fullSlug": "merge-shops\/79-murk-s-sewer-merch",
+                "id": 79,
+                "name": "Murk's Sewer Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 79,
+                    "name": "Murk's Sewer Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1112,
+                    "mergeShopId": 79,
+                    "mergeId": 860
+                },
+                "merge": {
+                    "id": 860,
+                    "itemId1": 4687,
+                    "amount1": 3,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4689,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

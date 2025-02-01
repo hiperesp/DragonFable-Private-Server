@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10837-harrowing-sword",
+        "fullSlug": "items\/10837-harrowing-sword",
+        "id": 10837,
+        "name": "Harrowing Sword",
+        "description": "A harrowing, sickly green wind envelops the blade of this weapon! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10837,
+            "name": "Harrowing Sword",
+            "description": "A harrowing, sickly green wind envelops the blade of this weapon! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 15,
+            "level": 73,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-harrowing.swf",
+            "icon": "sword",
+            "strength": 11,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 66,
+            "damageMax": 102,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Stone,11,Darkness,11,Wind,3,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "189-harrowing-73": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "189-harrowing-73",
+                "fullSlug": "merge-shops\/189-harrowing-73",
+                "id": 189,
+                "name": "Harrowing 73",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 189,
+                    "name": "Harrowing 73"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2183,
+                    "mergeShopId": 189,
+                    "mergeId": 2018
+                },
+                "merge": {
+                    "id": 2018,
+                    "itemId1": 10836,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10837,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "190-harrowing-76": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "190-harrowing-76",
+                "fullSlug": "merge-shops\/190-harrowing-76",
+                "id": 190,
+                "name": "Harrowing 76",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 190,
+                    "name": "Harrowing 76"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2187,
+                    "mergeShopId": 190,
+                    "mergeId": 2019
+                },
+                "merge": {
+                    "id": 2019,
+                    "itemId1": 10837,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10838,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

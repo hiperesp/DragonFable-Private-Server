@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12582-umbral-essence",
+        "fullSlug": "items\/12582-umbral-essence",
+        "id": 12582,
+        "name": "Umbral Essence",
+        "description": "This seems to pull shadows into it, almost like it's devouring them. It can't actually be eating shadows though... can it?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12582,
+            "name": "Umbral Essence",
+            "description": "This seems to pull shadows into it, almost like it's devouring them. It can't actually be eating shadows though... can it?",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Evil",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "208-deathknight-resources": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "208-deathknight-resources",
+                "fullSlug": "merge-shops\/208-deathknight-resources",
+                "id": 208,
+                "name": "DeathKnight Resources",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 208,
+                    "name": "DeathKnight Resources"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2480,
+                    "mergeShopId": 208,
+                    "mergeId": 2392
+                },
+                "merge": {
+                    "id": 2392,
+                    "itemId1": 12581,
+                    "amount1": 1,
+                    "itemId2": 913,
+                    "amount2": 1,
+                    "itemId": 12582,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2492,
+                    "mergeShopId": 210,
+                    "mergeId": 2446
+                },
+                "merge": {
+                    "id": 2446,
+                    "itemId1": 12655,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12656,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

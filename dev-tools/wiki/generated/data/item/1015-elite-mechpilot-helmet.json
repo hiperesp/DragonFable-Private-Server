@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1015-elite-mechpilot-helmet",
+        "fullSlug": "items\/1015-elite-mechpilot-helmet",
+        "id": 1015,
+        "name": "Elite Mechpilot Helmet",
+        "description": "According to the writing in the magic window, this type of helm was worn by master and chief mech pilots. It also mentioned something about a halo, but no halo surrounds your head."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1015,
+            "name": "Elite Mechpilot Helmet",
+            "description": "According to the writing in the magic window, this type of helm was worn by master and chief mech pilots. It also mentioned something about a halo, but no halo surrounds your head.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 9,
+            "level": 7,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-mechpilot.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 2,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 9,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3,Fire,2,Ice,2"
+        }
+    },
+    "related": {
+        "41-vend-tron-3000": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "41-vend-tron-3000",
+                "fullSlug": "item-shops\/41-vend-tron-3000",
+                "id": 41,
+                "name": "Vend-tron 3000",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 41,
+                    "name": "Vend-tron 3000",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

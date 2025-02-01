@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4968-wild-helm",
+        "fullSlug": "items\/4968-wild-helm",
+        "id": 4968,
+        "name": "Wild Helm",
+        "description": "Your hearing seems greatly improved!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4968,
+            "name": "Wild Helm",
+            "description": "Your hearing seems greatly improved!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1250,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 32,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-AnimalearsFemale.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,3,Water,3"
+        }
+    },
+    "related": {
+        "727-reanimated": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "727-reanimated",
+                "fullSlug": "quests\/727-reanimated",
+                "id": 727,
+                "name": "Reanimated",
+                "description": "En and Tropy's power grow with each defeat... how will you get away from the reanimates?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 727,
+                    "name": "Reanimated",
+                    "description": "En and Tropy's power grow with each defeat... how will you get away from the reanimates?",
+                    "complete": "Fae's eyes widen in Awe....",
+                    "swf": "towns\/willowshire\/quest-earth11-entropyr3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "en and tropy pumped up",
+                    "monsterGroupSwf": "mset-earth11r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

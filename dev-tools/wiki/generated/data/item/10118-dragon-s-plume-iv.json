@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10118-dragon-s-plume-iv",
+        "fullSlug": "items\/10118-dragon-s-plume-iv",
+        "id": 10118,
+        "name": "Dragon's Plume IV",
+        "description": "Found in a cache of weapons left behind by The Rose after the Siege of Haven, this weapon seems to use have dragon scales in its construction."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10118,
+            "name": "Dragon's Plume IV",
+            "description": "Found in a cache of weapons left behind by The Rose after the Siege of Haven, this weapon seems to use have dragon scales in its construction.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 75,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-rosedrake.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Darkness,9,Fire,7,Water,7,Immobility,3"
+        }
+    },
+    "related": {
+        "351-adb-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "351-adb-loot-for-dcs",
+                "fullSlug": "item-shops\/351-adb-loot-for-dcs",
+                "id": 351,
+                "name": "ADB Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 351,
+                    "name": "ADB Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

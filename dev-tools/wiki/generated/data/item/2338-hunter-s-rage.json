@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2338-hunter-s-rage",
+        "fullSlug": "items\/2338-hunter-s-rage",
+        "id": 2338,
+        "name": "Hunter's Rage",
+        "description": "A burning olive branch makes an effective weapon against wildlife tearing up the town.\n "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2338,
+            "name": "Hunter's Rage",
+            "description": "A burning olive branch makes an effective weapon against wildlife tearing up the town.\n ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 32,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon9.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 43,
+            "damageMax": 62,
+            "defenseMelee": 3,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,2"
+        }
+    },
+    "related": {
+        "382-frenzy-at-the-forge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "382-frenzy-at-the-forge",
+                "fullSlug": "quests\/382-frenzy-at-the-forge",
+                "id": 382,
+                "name": "Frenzy at the Forge",
+                "description": "The smell of Yulgar's strawberry smoothies have attracted the local wildlife into town, including the ferocious boar Zeuster has sent you to hunt!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 382,
+                    "name": "Frenzy at the Forge",
+                    "description": "The smell of Yulgar's strawberry smoothies have attracted the local wildlife into town, including the ferocious boar Zeuster has sent you to hunt!",
+                    "complete": "It's hard to be bored when animals are going wild.  You might want to help Yulgar clean up his forge, too, since he DID make the smoothies for you.",
+                    "swf": "quests\/Zeuster\/quest-bacon9.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest",
+                    "monsterGroupSwf": "mset-bacon9.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

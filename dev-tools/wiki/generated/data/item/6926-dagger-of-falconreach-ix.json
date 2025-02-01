@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6926-dagger-of-falconreach-ix",
+        "fullSlug": "items\/6926-dagger-of-falconreach-ix",
+        "id": 6926,
+        "name": "Dagger of Falconreach IX",
+        "description": "You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6926,
+            "name": "Dagger of Falconreach IX",
+            "description": "You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 76,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-falconreach.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 11,
+            "intelligence": 0,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 10,
+            "wisdom": 0,
+            "damageMin": 74,
+            "damageMax": 98,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 11,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Wind,11,Stone,8,Water,8,Fire,5,Immobility,4"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1491,
+                    "mergeShopId": 108,
+                    "mergeId": 1389
+                },
+                "merge": {
+                    "id": 1389,
+                    "itemId1": 6925,
+                    "amount1": 1,
+                    "itemId2": 6908,
+                    "amount2": 1,
+                    "itemId": 6926,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6723-au-bacon-carver-ii",
+        "fullSlug": "items\/6723-au-bacon-carver-ii",
+        "id": 6723,
+        "name": "Au'Bacon Carver II",
+        "description": "Inspired by the Baron! This weapon will be especially distracting to your enemies! Happy Lucky Day 2012!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6723,
+            "name": "Au'Bacon Carver II",
+            "description": "Inspired by the Baron! This weapon will be especially distracting to your enemies! Happy Lucky Day 2012!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 50,
+            "level": 41,
+            "type": "Pierce",
+            "element": "Bacon",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-aubacon-r1.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 7,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 54,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5,Wind,5"
+        }
+    },
+    "related": {
+        "887-right-in-the-golden-kisser": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "887-right-in-the-golden-kisser",
+                "fullSlug": "quests\/887-right-in-the-golden-kisser",
+                "id": 887,
+                "name": "Right in the Golden Kisser",
+                "description": "Take down Baron Au'Mydas!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 887,
+                    "name": "Right in the Golden Kisser",
+                    "description": "Take down Baron Au'Mydas!",
+                    "complete": "You've ended the threat of the Golden Kiss!",
+                    "swf": "towns\/LuckyDay\/Lucky2012\/quest-goldenkisser.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "aumydas",
+                    "monsterGroupSwf": "mset-goldboss2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

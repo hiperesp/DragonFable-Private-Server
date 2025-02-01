@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20644-autumn-s-cull-ii",
+        "fullSlug": "items\/20644-autumn-s-cull-ii",
+        "id": 20644,
+        "name": "Autumn's Cull II",
+        "description": "A weapon embodying nature's passage. Click to shift between Nature and Ice damage. This weapon was forged by Dracelix!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20644,
+            "name": "Autumn's Cull II",
+            "description": "A weapon embodying nature's passage. Click to shift between Nature and Ice damage. This weapon was forged by Dracelix!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 20,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DCNovember2021.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 32,
+            "damageMax": 48,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,2,Light,2,Health,-2"
+        }
+    },
+    "related": {
+        "646-autumn-s-call": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "646-autumn-s-call",
+                "fullSlug": "item-shops\/646-autumn-s-call",
+                "id": 646,
+                "name": "Autumn's Call",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 646,
+                    "name": "Autumn's Call",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

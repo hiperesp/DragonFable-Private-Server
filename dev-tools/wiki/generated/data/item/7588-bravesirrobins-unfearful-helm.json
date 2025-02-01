@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7588-bravesirrobins-unfearful-helm",
+        "fullSlug": "items\/7588-bravesirrobins-unfearful-helm",
+        "id": 7588,
+        "name": "BraveSirRobins Unfearful Helm",
+        "description": "You will not run away!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7588,
+            "name": "BraveSirRobins Unfearful Helm",
+            "description": "You will not run away!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-bravesirrobin.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Nature,13,Energy,13,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "120-mop-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "120-mop-70",
+                "fullSlug": "merge-shops\/120-mop-70",
+                "id": 120,
+                "name": "MOP 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 120,
+                    "name": "MOP 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1674,
+                    "mergeShopId": 120,
+                    "mergeId": 1548
+                },
+                "merge": {
+                    "id": 1548,
+                    "itemId1": 7587,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7588,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "121-mop-80": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "121-mop-80",
+                "fullSlug": "merge-shops\/121-mop-80",
+                "id": 121,
+                "name": "MOP 80",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 121,
+                    "name": "MOP 80"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1678,
+                    "mergeShopId": 121,
+                    "mergeId": 1549
+                },
+                "merge": {
+                    "id": 1549,
+                    "itemId1": 7588,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7589,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6218-half-fractured-staff-iv",
+        "fullSlug": "items\/6218-half-fractured-staff-iv",
+        "id": 6218,
+        "name": "Half Fractured Staff IV",
+        "description": "Half-Crafted in honor of Jester857. The 856 Jesters before didn't have nearly as much talent! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6218,
+            "name": "Half Fractured Staff IV",
+            "description": "Half-Crafted in honor of Jester857. The 856 Jesters before didn't have nearly as much talent! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 7500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 58,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-halfFractured.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 2,
+            "wisdom": 6,
+            "damageMin": 71,
+            "damageMax": 79,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,7,Ice,7"
+        }
+    },
+    "related": {
+        "240-half-off-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "240-half-off-shop",
+                "fullSlug": "item-shops\/240-half-off-shop",
+                "id": 240,
+                "name": "Half-Off Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 240,
+                    "name": "Half-Off Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

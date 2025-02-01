@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19058-weaver-s-facade-vii",
+        "fullSlug": "items\/19058-weaver-s-facade-vii",
+        "id": 19058,
+        "name": "Weaver's Facade VII",
+        "description": "A relic of the early days of Soulweaving. Now that it's in your possession, what wonders will you weave? Can be upgraded at Secundus."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19058,
+            "name": "Weaver's Facade VII",
+            "description": "A relic of the early days of Soulweaving. Now that it's in your possession, what wonders will you weave? Can be upgraded at Secundus.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 60,
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-weaverfacade.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,7,Nature,7,Fire,2,Immobility,2"
+        }
+    },
+    "related": {
+        "311-chaosweaver-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "311-chaosweaver-upgrades",
+                "fullSlug": "merge-shops\/311-chaosweaver-upgrades",
+                "id": 311,
+                "name": "Chaosweaver Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 311,
+                    "name": "Chaosweaver Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3336,
+                    "mergeShopId": 311,
+                    "mergeId": 3427
+                },
+                "merge": {
+                    "id": 3427,
+                    "itemId1": 19058,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19059,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

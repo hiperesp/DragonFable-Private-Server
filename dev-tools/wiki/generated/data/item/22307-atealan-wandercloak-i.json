@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22307-atealan-wandercloak-i",
+        "fullSlug": "items\/22307-atealan-wandercloak-i",
+        "id": 22307,
+        "name": "Atealan Wandercloak I",
+        "description": "This light cloak was once used by D'iea in her younger adventuring days. Perfect for keeping you warm on cold nights."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22307,
+            "name": "Atealan Wandercloak I",
+            "description": "This light cloak was once used by D'iea in her younger adventuring days. Perfect for keeping you warm on cold nights.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-escelense2025.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,3,Water,3,Wind,3,Energy,3"
+        }
+    },
+    "related": {
+        "2214-finding-farmland": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2214-finding-farmland",
+                "fullSlug": "quests\/2214-finding-farmland",
+                "id": 2214,
+                "name": "Finding Farmland",
+                "description": "The Ateala need help securing a viable plot of land to grow crops!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2214,
+                    "swf": "towns\/Atrea\/quest-atreazoyo.swf",
+                    "swfX": "towns\/Atrea\/quest-atreazoyo-x.swf",
+                    "extra": "",
+                    "name": "Finding Farmland",
+                    "description": "The Ateala need help securing a viable plot of land to grow crops!",
+                    "complete": "This land is secure, for now. Hopefully this helps the Ateala grow some food.",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "wind and caves",
+                    "monsterGroupSwf": "mset-ovunguzoyo.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

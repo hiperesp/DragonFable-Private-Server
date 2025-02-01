@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4367-save-our-sneevils-sign-iv",
+        "fullSlug": "items\/4367-save-our-sneevils-sign-iv",
+        "id": 4367,
+        "name": "Save Our Sneevils Sign IV",
+        "description": "A sneevil is a terrible thing to waste! This protest sign was made by Highlord Sendai, who is currently hiding away. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4367,
+            "name": "Save Our Sneevils Sign IV",
+            "description": "A sneevil is a terrible thing to waste! This protest sign was made by Highlord Sendai, who is currently hiding away. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/RS-SaveOurSneevils-r2.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 72,
+            "damageMax": 78,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Nature,7,Disease,5"
+        }
+    },
+    "related": {
+        "669-resident-sneevil-genesis": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "669-resident-sneevil-genesis",
+                "fullSlug": "quests\/669-resident-sneevil-genesis",
+                "id": 669,
+                "name": "Resident Sneevil: Genesis",
+                "description": "*More* monsters?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 669,
+                    "name": "Resident Sneevil: Genesis",
+                    "description": "*More* monsters?!",
+                    "complete": "Really...? I mean, it is Doomwood... but no one wanted to check out the creepy abandoned mansion?",
+                    "swf": "towns\/Mogloween\/M10\/quest-m2-genesis.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zards, beez, trackers",
+                    "monsterGroupSwf": "mset-rs-genesis.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

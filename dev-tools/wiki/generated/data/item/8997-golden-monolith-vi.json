@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8997-golden-monolith-vi",
+        "fullSlug": "items\/8997-golden-monolith-vi",
+        "id": 8997,
+        "name": "Golden Monolith VI",
+        "description": "This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8997,
+            "name": "Golden Monolith VI",
+            "description": "This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 30000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-goldenmonolith.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 62,
+            "damageMax": 88,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Energy,5,Water,4,Health,-2"
+        }
+    },
+    "related": {
+        "316-lucky-13-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "316-lucky-13-gold",
+                "fullSlug": "item-shops\/316-lucky-13-gold",
+                "id": 316,
+                "name": "Lucky 13 Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 316,
+                    "name": "Lucky 13 Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

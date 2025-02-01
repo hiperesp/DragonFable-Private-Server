@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16013-dage-s-desolation",
+        "fullSlug": "items\/16013-dage-s-desolation",
+        "id": 16013,
+        "name": "Dage's Desolation",
+        "description": "A legendary shining blade from another time and place. It feels... evil."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16013,
+            "name": "Dage's Desolation",
+            "description": "A legendary shining blade from another time and place. It feels... evil.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DageDesolation.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 55,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3"
+        }
+    },
+    "related": {
+        "253-heromart-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "253-heromart-items",
+                "fullSlug": "merge-shops\/253-heromart-items",
+                "id": 253,
+                "name": "HeroMart Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 253,
+                    "name": "HeroMart Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2871,
+                    "mergeShopId": 253,
+                    "mergeId": 2885
+                },
+                "merge": {
+                    "id": 2885,
+                    "itemId1": 15986,
+                    "amount1": 2,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16013,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11820-chaorrupted-cloth",
+        "fullSlug": "items\/11820-chaorrupted-cloth",
+        "id": 11820,
+        "name": "Chaorrupted Cloth",
+        "description": "Upgrade your Escherion Set!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11820,
+            "name": "Chaorrupted Cloth",
+            "description": "Upgrade your Escherion Set!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 200,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "218-special-essences": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "218-special-essences",
+                "fullSlug": "item-shops\/218-special-essences",
+                "id": 218,
+                "name": "Special Essences",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 218,
+                    "name": "Special Essences",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "201-escherion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "201-escherion",
+                "fullSlug": "merge-shops\/201-escherion",
+                "id": 201,
+                "name": "Escherion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 201,
+                    "name": "Escherion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2350,
+                    "mergeShopId": 201,
+                    "mergeId": 3257
+                },
+                "merge": {
+                    "id": 3257,
+                    "itemId1": 11808,
+                    "amount1": 1,
+                    "itemId2": 11820,
+                    "amount2": 1,
+                    "itemId": 18229,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "203-drakath-wings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "203-drakath-wings",
+                "fullSlug": "merge-shops\/203-drakath-wings",
+                "id": 203,
+                "name": "Drakath Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 203,
+                    "name": "Drakath Wings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2423,
+                    "mergeShopId": 203,
+                    "mergeId": 3282
+                },
+                "merge": {
+                    "id": 3282,
+                    "itemId1": 11983,
+                    "amount1": 1,
+                    "itemId2": 11820,
+                    "amount2": 1,
+                    "itemId": 18254,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

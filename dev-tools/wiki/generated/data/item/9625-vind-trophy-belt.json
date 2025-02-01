@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9625-vind-trophy-belt",
+        "fullSlug": "items\/9625-vind-trophy-belt",
+        "id": 9625,
+        "name": "Vind Trophy Belt",
+        "description": "Tarnished, broken, rose-shaped buckles adorn this trophy belt. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9625,
+            "name": "Vind Trophy Belt",
+            "description": "Tarnished, broken, rose-shaped buckles adorn this trophy belt. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 6,
+            "level": 75,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,3,Immobility,2,Health,-6"
+        }
+    },
+    "related": {
+        "1044-the-border-prison": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1044-the-border-prison",
+                "fullSlug": "quests\/1044-the-border-prison",
+                "id": 1044,
+                "name": "The Border Prison",
+                "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1044,
+                    "name": "The Border Prison",
+                    "description": "It's time to save those clawkin! With your aid, The Rose can't stand a chance.",
+                    "complete": "You found Elanee and some other prisoners, but many clawkin are still missing, and Kara hasn't come out yet. Time to go back in!",
+                    "swf": "towns\/SulenEska\/quest5-rescue2020.swf",
+                    "swfX": "towns\/SulenEska\/quest5-rescue2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18418-stretchy-candy-cape-ix",
+        "fullSlug": "items\/18418-stretchy-candy-cape-ix",
+        "id": 18418,
+        "name": "Stretchy Candy Cape IX",
+        "description": "A multitude of flavors means this cape made of candy is not only delicious, but protective! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18418,
+            "name": "Stretchy Candy Cape IX",
+            "description": "A multitude of flavors means this cape made of candy is not only delicious, but protective! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 260,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 90,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-candycape2018.swf",
+            "icon": "cape",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 15,
+            "charisma": 15,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,10"
+        }
+    },
+    "related": {
+        "1553-catnapped": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1553-catnapped",
+                "fullSlug": "quests\/1553-catnapped",
+                "id": 1553,
+                "name": "Catnapped",
+                "description": "It's Mogtober! And you know what that meaaaans!!!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1553,
+                    "name": "Catnapped",
+                    "description": "It's Mogtober! And you know what that meaaaans!!!",
+                    "complete": "Uh oh, he looks like he can put a spell on you.",
+                    "swf": "towns\/Mogloween\/M18\/quest1-catnapped.swf?ver=1",
+                    "swfX": "towns\/Mogloween\/M18\/quest1-catnapped-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Sweet monsters",
+                    "monsterGroupSwf": "mset-treatsr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

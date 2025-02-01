@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6059-vendetta-mask",
+        "fullSlug": "items\/6059-vendetta-mask",
+        "id": 6059,
+        "name": "Vendetta Mask",
+        "description": "Remain anonymous in this mask! Happy Mogloween 2011!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6059,
+            "name": "Vendetta Mask",
+            "description": "Remain anonymous in this mask! Happy Mogloween 2011!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 450,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 50,
+            "level": 70,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/mask-M11-vendetta.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 8,
+            "charisma": 10,
+            "endurance": 5,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,6,All,6"
+        }
+    },
+    "related": {
+        "116-cysero-s-mask-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "116-cysero-s-mask-shop",
+                "fullSlug": "item-shops\/116-cysero-s-mask-shop",
+                "id": 116,
+                "name": "Cysero's Mask Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 116,
+                    "name": "Cysero's Mask Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

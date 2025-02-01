@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15676-tertiary-frost-devil",
+        "fullSlug": "items\/15676-tertiary-frost-devil",
+        "id": 15676,
+        "name": "Tertiary Frost Devil",
+        "description": "This item requires a Dragon Amulet. It was the third dagger carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15676,
+            "name": "Tertiary Frost Devil",
+            "description": "This item requires a Dragon Amulet. It was the third dagger carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 28,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-ice4.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 40,
+            "damageMax": 60,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4"
+        }
+    },
+    "related": {
+        "1346-ashes": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1346-ashes",
+                "fullSlug": "quests\/1346-ashes",
+                "id": 1346,
+                "name": "Ashes",
+                "description": "The Darkness is determined to find out the secret of the hero? the secret of why you have defeated the odds time and time again. The more that Caitiff learns? the more its wrath grows!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1346,
+                    "name": "Ashes",
+                    "description": "The Darkness is determined to find out the secret of the hero? the secret of why you have defeated the odds time and time again. The more that Caitiff learns? the more its wrath grows!",
+                    "complete": "The smoldering wrath of revenge!",
+                    "swf": "towns\/10AnnDF\/quest3-ashes.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "dark fire eles",
+                    "monsterGroupSwf": "mset-darklava.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

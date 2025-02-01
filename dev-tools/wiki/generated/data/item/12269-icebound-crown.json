@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12269-icebound-crown",
+        "fullSlug": "items\/12269-icebound-crown",
+        "id": 12269,
+        "name": "Icebound Crown",
+        "description": "Forged from a cursed metal found only in the far north. This crown shows that you are ruler over any undead that crosses your path."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12269,
+            "name": "Icebound Crown",
+            "description": "Forged from a cursed metal found only in the far north. This crown shows that you are ruler over any undead that crosses your path.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 275,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-FrostDeathCrown.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,8,Ice,8,Evil,5,Immobility,3"
+        }
+    },
+    "related": {
+        "43-helms-and-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "43-helms-and-capes",
+                "fullSlug": "item-shops\/43-helms-and-capes",
+                "id": 43,
+                "name": "Helms and Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Helms and Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

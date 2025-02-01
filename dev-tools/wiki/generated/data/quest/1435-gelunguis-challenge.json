@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1435-gelunguis-challenge",
+        "fullSlug": "quests\/1435-gelunguis-challenge",
+        "id": 1435,
+        "name": "Gelunguis Challenge",
+        "description": "The legendary ice dragon Gelunguis!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1435,
+            "name": "Gelunguis Challenge",
+            "description": "The legendary ice dragon Gelunguis!",
+            "complete": "Gelunguis has fallen!",
+            "swf": "towns\/TimeArena\/quest-gelunguis-r1.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 100,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "Dragon Challenge 1",
+            "monsterGroupSwf": "mset-dragonchallenge.swf"
+        }
+    },
+    "related": {
+        "17319-isandel-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "17319-isandel-i",
+                "fullSlug": "items\/17319-isandel-i",
+                "id": 17319,
+                "name": "Isandel I",
+                "description": "Rewarded for defeating the murky ice dragon Gelunguis. It had three previous owners, each of them dying under questionable circumstances. It craves glory, you can hear it sing to you."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 17319,
+                    "name": "Isandel I",
+                    "description": "Rewarded for defeating the murky ice dragon Gelunguis. It had three previous owners, each of them dying under questionable circumstances. It craves glory, you can hear it sing to you.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 4,
+                    "rarity": 100,
+                    "level": 50,
+                    "type": "Melee",
+                    "element": "Ice",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Scythe",
+                    "swf": "items\/scythes\/scythe-isandel.swf",
+                    "icon": "scythe",
+                    "strength": 7,
+                    "dexterity": 7,
+                    "intelligence": 7,
+                    "luck": 4,
+                    "charisma": 0,
+                    "endurance": 2,
+                    "wisdom": 2,
+                    "damageMin": 65,
+                    "damageMax": 73,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 4,
+                    "parry": 2,
+                    "dodge": 2,
+                    "block": 2,
+                    "resists": "All,3"
+                }
+            },
+            "related": []
+        }
+    }
+}

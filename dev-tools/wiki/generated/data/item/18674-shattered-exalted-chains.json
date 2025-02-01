@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18674-shattered-exalted-chains",
+        "fullSlug": "items\/18674-shattered-exalted-chains",
+        "id": 18674,
+        "name": "Shattered Exalted Chains",
+        "description": "A few lengths of links from the chains that bound Augahim, Voice of the Wastes. Proof of victory over Augahim. Used to forge the Quadstaff."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18674,
+            "name": "Shattered Exalted Chains",
+            "description": "A few lengths of links from the chains that bound Augahim, Voice of the Wastes. Proof of victory over Augahim. Used to forge the Quadstaff.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1609-augahim": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1609-augahim",
+                "fullSlug": "quests\/1609-augahim",
+                "id": 1609,
+                "name": "Augahim",
+                "description": "The forgotten beast Augahim, chained in servitude, and unleashed upon you!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1609,
+                    "name": "Augahim",
+                    "description": "The forgotten beast Augahim, chained in servitude, and unleashed upon you!",
+                    "complete": "Silenced.",
+                    "swf": "towns\/TimeArena\/quest-augahim.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Gananana and Augahim",
+                    "monsterGroupSwf": "mset-arenaganahim2.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "302-the-quadstaff": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "302-the-quadstaff",
+                "fullSlug": "merge-shops\/302-the-quadstaff",
+                "id": 302,
+                "name": "The Quadstaff",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 302,
+                    "name": "The Quadstaff"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3283,
+                    "mergeShopId": 302,
+                    "mergeId": 3368
+                },
+                "merge": {
+                    "id": 3368,
+                    "itemId1": 18674,
+                    "amount1": 1,
+                    "itemId2": 18675,
+                    "amount2": 1,
+                    "itemId": 18677,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

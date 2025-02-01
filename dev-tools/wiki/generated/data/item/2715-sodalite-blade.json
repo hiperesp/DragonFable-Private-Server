@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2715-sodalite-blade",
+        "fullSlug": "items\/2715-sodalite-blade",
+        "id": 2715,
+        "name": "Sodalite Blade",
+        "description": "You've proven yourself faster than Valencia in a race AND got a nifty souvenir of your trip! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2715,
+            "name": "Sodalite Blade",
+            "description": "You've proven yourself faster than Valencia in a race AND got a nifty souvenir of your trip! ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 26,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-race.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 35,
+            "damageMax": 57,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "54-valencia-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "54-valencia-s-shop",
+                "fullSlug": "merge-shops\/54-valencia-s-shop",
+                "id": 54,
+                "name": "Valencia's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 54,
+                    "name": "Valencia's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 837,
+                    "mergeShopId": 54,
+                    "mergeId": 547
+                },
+                "merge": {
+                    "id": 547,
+                    "itemId1": 2735,
+                    "amount1": 1,
+                    "itemId2": 2738,
+                    "amount2": 1,
+                    "itemId": 2715,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

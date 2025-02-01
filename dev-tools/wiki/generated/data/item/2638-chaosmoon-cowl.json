@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2638-chaosmoon-cowl",
+        "fullSlug": "items\/2638-chaosmoon-cowl",
+        "id": 2638,
+        "name": "ChaosMoon Cowl",
+        "description": "Created by a Ghostly DragonLord, the ChaosMoon Cowl is infused with the fire of the once mighty Akriloth.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2638,
+            "name": "ChaosMoon Cowl",
+            "description": "Created by a Ghostly DragonLord, the ChaosMoon Cowl is infused with the fire of the once mighty Akriloth.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 40,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-ChaosMoon.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 2,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6"
+        }
+    },
+    "related": {
+        "462-the-mighty-akriloth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "462-the-mighty-akriloth",
+                "fullSlug": "quests\/462-the-mighty-akriloth",
+                "id": 462,
+                "name": "The Mighty Akriloth",
+                "description": "Mutated by the power of the Fire Orb, Akriloth is more powerful then ever. Can you take him down, even with the power of the Frozen Claymore?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 462,
+                    "name": "The Mighty Akriloth",
+                    "description": "Mutated by the power of the Fire Orb, Akriloth is more powerful then ever. Can you take him down, even with the power of the Frozen Claymore?",
+                    "complete": "Akriloth is defeated, but Yulgar needs our help to the East! Battleon!",
+                    "swf": "towns\/FireWar\/quest-firewar1bossfightr10.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "dragon",
+                    "monsterGroupSwf": "mset-hotrodakrilothr2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

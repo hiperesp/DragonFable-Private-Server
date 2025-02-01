@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19876-staff-of-inversion-iii",
+        "fullSlug": "items\/19876-staff-of-inversion-iii",
+        "id": 19876,
+        "name": "Staff of Inversion III",
+        "description": "Escherion's Staff of Inversion! While the staff appears to be consumed by Chaos, it's only an illusion. The staff has been restored to its state as an ancient artifact of Light. Proof of victory over Escherion and his Chaos Beast."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19876,
+            "name": "Staff of Inversion III",
+            "description": "Escherion's Staff of Inversion! While the staff appears to be consumed by Chaos, it's only an illusion. The staff has been restored to its state as an ancient artifact of Light. Proof of victory over Escherion and his Chaos Beast.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 13,
+            "level": 30,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-inversion.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 54,
+            "damageMax": 58,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,4,Health,-9"
+        }
+    },
+    "related": {
+        "328-staff-of-inversion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "328-staff-of-inversion",
+                "fullSlug": "merge-shops\/328-staff-of-inversion",
+                "id": 328,
+                "name": "Staff of Inversion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 328,
+                    "name": "Staff of Inversion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3482,
+                    "mergeShopId": 328,
+                    "mergeId": 3566
+                },
+                "merge": {
+                    "id": 3566,
+                    "itemId1": 19873,
+                    "amount1": 1,
+                    "itemId2": 19874,
+                    "amount2": 1,
+                    "itemId": 19876,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20311-curious-togwool",
+        "fullSlug": "items\/20311-curious-togwool",
+        "id": 20311,
+        "name": "Curious Togwool",
+        "description": "A shifting mass of wool from a fluffy tog! It seems to be... breathing? Proof of victory over the Mega Fluffy Tog!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20311,
+            "name": "Curious Togwool",
+            "description": "A shifting mass of wool from a fluffy tog! It seems to be... breathing? Proof of victory over the Mega Fluffy Tog!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Ebil",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1831-mega-fluffy-tog": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1831-mega-fluffy-tog",
+                "fullSlug": "quests\/1831-mega-fluffy-tog",
+                "id": 1831,
+                "name": "Mega Fluffy Tog",
+                "description": "It's so fluffy!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1831,
+                    "name": "Mega Fluffy Tog",
+                    "description": "It's so fluffy!",
+                    "complete": "You're a true tog wrangler!",
+                    "swf": "towns\/TimeArena\/quest-fluffytog.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fluffy Tog and Fiend",
+                    "monsterGroupSwf": "mset-arenaacademy-r6.swf"
+                }
+            },
+            "related": []
+        },
+        "348-extra-fluffy-tog": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "348-extra-fluffy-tog",
+                "fullSlug": "merge-shops\/348-extra-fluffy-tog",
+                "id": 348,
+                "name": "Extra Fluffy Tog",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 348,
+                    "name": "Extra Fluffy Tog"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3629,
+                    "mergeShopId": 348,
+                    "mergeId": 3694
+                },
+                "merge": {
+                    "id": 3694,
+                    "itemId1": 20311,
+                    "amount1": 1,
+                    "itemId2": 20312,
+                    "amount2": 1,
+                    "itemId": 20306,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

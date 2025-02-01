@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11626-glowing-tree-scythe",
+        "fullSlug": "items\/11626-glowing-tree-scythe",
+        "id": 11626,
+        "name": "Glowing Tree Scythe",
+        "description": "A weapon crafted by Yashta from a Glow Tree sapling from Pellow Village. It seems he may have many talents!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11626,
+            "name": "Glowing Tree Scythe",
+            "description": "A weapon crafted by Yashta from a Glow Tree sapling from Pellow Village. It seems he may have many talents!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-glowingtree.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 47,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3"
+        }
+    },
+    "related": {
+        "399-glow-tree": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "399-glow-tree",
+                "fullSlug": "item-shops\/399-glow-tree",
+                "id": 399,
+                "name": "Glow Tree",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 399,
+                    "name": "Glow Tree",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

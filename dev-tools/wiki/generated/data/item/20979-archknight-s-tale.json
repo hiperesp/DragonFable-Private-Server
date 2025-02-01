@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20979-archknight-s-tale",
+        "fullSlug": "items\/20979-archknight-s-tale",
+        "id": 20979,
+        "name": "ArchKnight's Tale",
+        "description": "The story of a boy's dream to rescue a princess and become an ArchKnight. Used to upgrade the Blade of Destiny."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20979,
+            "name": "ArchKnight's Tale",
+            "description": "The story of a boy's dream to rescue a princess and become an ArchKnight. Used to upgrade the Blade of Destiny.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Light",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "368-gotta-start-somewhere": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "368-gotta-start-somewhere",
+                "fullSlug": "merge-shops\/368-gotta-start-somewhere",
+                "id": 368,
+                "name": "Gotta Start Somewhere",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 368,
+                    "name": "Gotta Start Somewhere"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3830,
+                    "mergeShopId": 368,
+                    "mergeId": 3959
+                },
+                "merge": {
+                    "id": 3959,
+                    "itemId1": 14118,
+                    "amount1": 1,
+                    "itemId2": 20979,
+                    "amount2": 1,
+                    "itemId": 20980,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

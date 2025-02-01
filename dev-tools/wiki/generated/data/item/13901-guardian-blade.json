@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13901-guardian-blade",
+        "fullSlug": "items\/13901-guardian-blade",
+        "id": 13901,
+        "name": "Guardian Blade",
+        "description": "This is the ancient weapon of the Guardians. Who knows what secrets this sword holds. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13901,
+            "name": "Guardian Blade",
+            "description": "This is the ancient weapon of the Guardians. Who knows what secrets this sword holds. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 1,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-guardian.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 1,
+            "damageMax": 169,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 11,
+            "dodge": 11,
+            "block": 11,
+            "resists": "All,4,Health,-5,Mana,-5"
+        }
+    },
+    "related": {
+        "6-tower-spirit-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "6-tower-spirit-shop",
+                "fullSlug": "item-shops\/6-tower-spirit-shop",
+                "id": 6,
+                "name": "Tower Spirit Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 6,
+                    "name": "Tower Spirit Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

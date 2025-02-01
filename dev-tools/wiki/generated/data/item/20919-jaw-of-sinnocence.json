@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20919-jaw-of-sinnocence",
+        "fullSlug": "items\/20919-jaw-of-sinnocence",
+        "id": 20919,
+        "name": "Jaw of Sinnocence",
+        "description": "The particularly doomed jaw of Sinnocence! Why this particular aspect of Sinnocence was reproduced in your dream may forever be a mystery. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20919,
+            "name": "Jaw of Sinnocence",
+            "description": "The particularly doomed jaw of Sinnocence! Why this particular aspect of Sinnocence was reproduced in your dream may forever be a mystery. (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 1,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/hairhelm-sinnocencejawclicky.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "366-dream-recreations": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "366-dream-recreations",
+                "fullSlug": "merge-shops\/366-dream-recreations",
+                "id": 366,
+                "name": "Dream Recreations",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 366,
+                    "name": "Dream Recreations"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3805,
+                    "mergeShopId": 366,
+                    "mergeId": 3911
+                },
+                "merge": {
+                    "id": 3911,
+                    "itemId1": 495,
+                    "amount1": 200,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20919,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

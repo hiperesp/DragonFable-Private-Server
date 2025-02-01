@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18363-soulforged-ring-green",
+        "fullSlug": "items\/18363-soulforged-ring-green",
+        "id": 18363,
+        "name": "Soulforged Ring (Green)",
+        "description": "This seemingly translucent ring glows brightly with fluorescent light. An Elemental Spirit of Focus bound to it is able to make the wearer perceive things beyond imagination. This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18363,
+            "name": "Soulforged Ring (Green)",
+            "description": "This seemingly translucent ring glows brightly with fluorescent light. An Elemental Spirit of Focus bound to it is able to make the wearer perceive things beyond imagination. This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 400000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 6,
+            "level": 90,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 7,
+            "dexterity": 24,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Nature,5,Wind,5"
+        }
+    },
+    "related": {
+        "604-soulforged-rings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "604-soulforged-rings",
+                "fullSlug": "item-shops\/604-soulforged-rings",
+                "id": 604,
+                "name": "Soulforged Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 604,
+                    "name": "Soulforged Rings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

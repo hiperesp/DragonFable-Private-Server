@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14456-grove-tender-twigs",
+        "fullSlug": "items\/14456-grove-tender-twigs",
+        "id": 14456,
+        "name": "Grove Tender Twigs",
+        "description": "Nature itself is sprouting from your back! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14456,
+            "name": "Grove Tender Twigs",
+            "description": "Nature itself is sprouting from your back! ",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 80,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-grovebreaker.swf",
+            "icon": "wings",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Nature,6,Fire,6,Health,-3"
+        }
+    },
+    "related": {
+        "239-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "239-grove-tender",
+                "fullSlug": "merge-shops\/239-grove-tender",
+                "id": 239,
+                "name": "Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 239,
+                    "name": "Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2640,
+                    "mergeShopId": 239,
+                    "mergeId": 3270
+                },
+                "merge": {
+                    "id": 3270,
+                    "itemId1": 14456,
+                    "amount1": 1,
+                    "itemId2": 14457,
+                    "amount2": 1,
+                    "itemId": 18242,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

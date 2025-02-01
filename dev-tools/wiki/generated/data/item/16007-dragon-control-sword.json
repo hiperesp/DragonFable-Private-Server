@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16007-dragon-control-sword",
+        "fullSlug": "items\/16007-dragon-control-sword",
+        "id": 16007,
+        "name": "Dragon Control Sword",
+        "description": "Does this sword control dragons? Or do dragons control it?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16007,
+            "name": "Dragon Control Sword",
+            "description": "Does this sword control dragons? Or do dragons control it?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 25,
+            "level": 10,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DragonControl-r1.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 28,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,3"
+        }
+    },
+    "related": {
+        "253-heromart-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "253-heromart-items",
+                "fullSlug": "merge-shops\/253-heromart-items",
+                "id": 253,
+                "name": "HeroMart Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 253,
+                    "name": "HeroMart Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2873,
+                    "mergeShopId": 253,
+                    "mergeId": 2879
+                },
+                "merge": {
+                    "id": 2879,
+                    "itemId1": 15986,
+                    "amount1": 2,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16007,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

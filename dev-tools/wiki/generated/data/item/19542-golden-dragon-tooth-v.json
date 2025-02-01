@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19542-golden-dragon-tooth-v",
+        "fullSlug": "items\/19542-golden-dragon-tooth-v",
+        "id": 19542,
+        "name": "Golden Dragon Tooth V",
+        "description": "You found this dragon tooth in the Braughlmurk Swamps. If it really came from a golden luck dragon, it can't hurt to hang it from your belt, right?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19542,
+            "name": "Golden Dragon Tooth V",
+            "description": "You found this dragon tooth in the Braughlmurk Swamps. If it really came from a golden luck dragon, it can't hurt to hang it from your belt, right?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 130,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 50,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 4,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Nature,5,Energy,5,Water,5"
+        }
+    },
+    "related": {
+        "1691-the-lucky-undead": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1691-the-lucky-undead",
+                "fullSlug": "quests\/1691-the-lucky-undead",
+                "id": 1691,
+                "name": "The Lucky Undead",
+                "description": "It's a beautiful Friday the 13th in Falconreach... until a certain blue moglin shows up. What does he want this time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1691,
+                    "name": "The Lucky Undead",
+                    "description": "It's a beautiful Friday the 13th in Falconreach... until a certain blue moglin shows up. What does he want this time?",
+                    "complete": "It's just one of those days, isn't it.",
+                    "swf": "wars\/F13-Maleurous-4\/quest1-luckyundead.swf",
+                    "swfX": "wars\/F13-Maleurous-4\/quest1-luckyundead-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Braughlmurk Swamp",
+                    "monsterGroupSwf": "mset-lucky2020p1.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

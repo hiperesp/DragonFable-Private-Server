@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14550-geo-s-johannite-claymore",
+        "fullSlug": "items\/14550-geo-s-johannite-claymore",
+        "id": 14550,
+        "name": "Geo's Johannite Claymore",
+        "description": "A special weapon to commemorate Geo's Birthday! Forged by Dracelix, this massive sword will smash through anything in your way!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14550,
+            "name": "Geo's Johannite Claymore",
+            "description": "A special weapon to commemorate Geo's Birthday! Forged by Dracelix, this massive sword will smash through anything in your way!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 50,
+            "level": 40,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/Sword-Geo-2015.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 50,
+            "damageMax": 70,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Wind,3,Water,3,Fire,2,Health,-1"
+        }
+    },
+    "related": {
+        "461-geo-s-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "461-geo-s-birthday",
+                "fullSlug": "item-shops\/461-geo-s-birthday",
+                "id": 461,
+                "name": "Geo's Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 461,
+                    "name": "Geo's Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

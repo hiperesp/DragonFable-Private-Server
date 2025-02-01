@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20052-drgn-c74w-i",
+        "fullSlug": "items\/20052-drgn-c74w-i",
+        "id": 20052,
+        "name": "DRGN-C74W I",
+        "description": "You managed to pick up this shifting piece of mechanism as you left Myalos. You're not sure if it's 'supposed' to be a weapon, but it definitely gets the job done."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20052,
+            "name": "DRGN-C74W I",
+            "description": "You managed to pick up this shifting piece of mechanism as you left Myalos. You're not sure if it's 'supposed' to be a weapon, but it definitely gets the job done.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 10,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-myalos.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 25,
+            "damageMax": 29,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Good,1,Evil,1"
+        }
+    },
+    "related": {
+        "685-myalos-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "685-myalos-loot-for-dcs",
+                "fullSlug": "item-shops\/685-myalos-loot-for-dcs",
+                "id": 685,
+                "name": "Myalos Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 685,
+                    "name": "Myalos Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

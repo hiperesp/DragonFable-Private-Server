@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2711-overclocked-rummage",
+        "fullSlug": "items\/2711-overclocked-rummage",
+        "id": 2711,
+        "name": "Overclocked Rummage",
+        "description": "A thank you gift from Doctor Voltabolt for your help in recoloring SureWould Forest!  This item requres a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2711,
+            "name": "Overclocked Rummage",
+            "description": "A thank you gift from Doctor Voltabolt for your help in recoloring SureWould Forest!  This item requres a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 40,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-rummage.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 16,
+            "damageMax": 20,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "103-rummage-pet": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "103-rummage-pet",
+                "fullSlug": "item-shops\/103-rummage-pet",
+                "id": 103,
+                "name": "Rummage Pet",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 103,
+                    "name": "Rummage Pet",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

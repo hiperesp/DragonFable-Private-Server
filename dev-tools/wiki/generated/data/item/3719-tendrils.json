@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3719-tendrils",
+        "fullSlug": "items\/3719-tendrils",
+        "id": 3719,
+        "name": "Tendrils",
+        "description": "Oh! Where did those come from... You're changing..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3719,
+            "name": "Tendrils",
+            "description": "Oh! Where did those come from... You're changing...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 13,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-tendrils.swf",
+            "icon": "wings",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4"
+        }
+    },
+    "related": {
+        "587-descent": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "587-descent",
+                "fullSlug": "quests\/587-descent",
+                "id": 587,
+                "name": "Descent",
+                "description": "Can you resist the call of Kathool?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 587,
+                    "name": "Descent",
+                    "description": "Can you resist the call of Kathool?",
+                    "complete": "Kathool A'choo waits.",
+                    "swf": "towns\/TheLocker\/quest-descent.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 0,
+                    "maxGems": 0,
+                    "maxExp": 0,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "none",
+                    "monsterGroupSwf": "none"
+                }
+            },
+            "related": []
+        }
+    }
+}

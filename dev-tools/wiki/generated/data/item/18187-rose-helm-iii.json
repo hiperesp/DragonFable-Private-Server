@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18187-rose-helm-iii",
+        "fullSlug": "items\/18187-rose-helm-iii",
+        "id": 18187,
+        "name": "Rose Helm III",
+        "description": "A standard Manahunter Helm."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18187,
+            "name": "Rose Helm III",
+            "description": "A standard Manahunter Helm.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 35,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-rosestandard.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Metal,3"
+        }
+    },
+    "related": {
+        "598-rose-helms-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "598-rose-helms-shop",
+                "fullSlug": "item-shops\/598-rose-helms-shop",
+                "id": 598,
+                "name": "Rose Helms Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 598,
+                    "name": "Rose Helms Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2357-pactogonal-blade",
+        "fullSlug": "items\/2357-pactogonal-blade",
+        "id": 2357,
+        "name": "Pactogonal Blade",
+        "description": "Forged by Yulgar in honor of Captain Rolith and the many brave deeds of his company of Knights, this blade pays homage to their heroic spirits!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2357,
+            "name": "Pactogonal Blade",
+            "description": "Forged by Yulgar in honor of Captain Rolith and the many brave deeds of his company of Knights, this blade pays homage to their heroic spirits!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 18500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 12,
+            "level": 39,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-pactogonal.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 56,
+            "damageMax": 66,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Ice,2,Fire,1"
+        }
+    },
+    "related": {
+        "1-yulgar-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "1-yulgar-s-shop",
+                "fullSlug": "item-shops\/1-yulgar-s-shop",
+                "id": 1,
+                "name": "Yulgar's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 1,
+                    "name": "Yulgar's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

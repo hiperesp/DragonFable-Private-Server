@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5690-found-skull-ripper-helm",
+        "fullSlug": "items\/5690-found-skull-ripper-helm",
+        "id": 5690,
+        "name": "Found Skull Ripper Helm",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5690,
+            "name": "Found Skull Ripper Helm"
+        }
+    },
+    "related": {
+        "90-skull-ripper-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "90-skull-ripper-helm",
+                "fullSlug": "merge-shops\/90-skull-ripper-helm",
+                "id": 90,
+                "name": "Skull Ripper Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 90,
+                    "name": "Skull Ripper Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1248,
+                    "mergeShopId": 90,
+                    "mergeId": 1054
+                },
+                "merge": {
+                    "id": 1054,
+                    "itemId1": 5690,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 5724,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19593-summon-gem-roktoru-ex",
+        "fullSlug": "items\/19593-summon-gem-roktoru-ex",
+        "id": 19593,
+        "name": "Summon Gem - Roktoru EX",
+        "description": "Your Summon Gem - Roktoru has been upgraded! It now has stats and will increase your Immobility resistance when used. Proof of victory over Roktoru and Ricterild!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19593,
+            "name": "Summon Gem - Roktoru EX",
+            "description": "Your Summon Gem - Roktoru has been upgraded! It now has stats and will increase your Immobility resistance when used. Proof of victory over Roktoru and Ricterild!",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 25,
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-SummonGem-RoktoruEX.swf",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 15,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": ""
+        }
+    },
+    "related": {
+        "320-the-conduit-crystal-stone": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "320-the-conduit-crystal-stone",
+                "fullSlug": "merge-shops\/320-the-conduit-crystal-stone",
+                "id": 320,
+                "name": "The Conduit: Crystal & Stone",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 320,
+                    "name": "The Conduit: Crystal & Stone"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3427,
+                    "mergeShopId": 320,
+                    "mergeId": 3521
+                },
+                "merge": {
+                    "id": 3521,
+                    "itemId1": 19597,
+                    "amount1": 1,
+                    "itemId2": 19599,
+                    "amount2": 1,
+                    "itemId": 19593,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

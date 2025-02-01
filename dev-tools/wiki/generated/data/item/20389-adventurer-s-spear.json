@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20389-adventurer-s-spear",
+        "fullSlug": "items\/20389-adventurer-s-spear",
+        "id": 20389,
+        "name": "Adventurer's Spear",
+        "description": "This spear is your trusty companion! Enhanced with the fang of a hydra, it has taken its first steps to glory alongside you! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20389,
+            "name": "Adventurer's Spear",
+            "description": "This spear is your trusty companion! Enhanced with the fang of a hydra, it has taken its first steps to glory alongside you! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 10,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-pointystickhydra.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 24,
+            "damageMax": 26,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,1,Health,-1"
+        }
+    },
+    "related": {
+        "405-spear-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "405-spear-upgrades",
+                "fullSlug": "merge-shops\/405-spear-upgrades",
+                "id": 405,
+                "name": "Spear Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 405,
+                    "name": "Spear Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4195,
+                    "mergeShopId": 405,
+                    "mergeId": 4237
+                },
+                "merge": {
+                    "id": 4237,
+                    "itemId1": 21706,
+                    "amount1": 1,
+                    "itemId2": 20389,
+                    "amount2": 1,
+                    "itemId": 21705,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

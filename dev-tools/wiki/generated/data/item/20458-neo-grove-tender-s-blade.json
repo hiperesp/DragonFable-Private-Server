@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20458-neo-grove-tender-s-blade",
+        "fullSlug": "items\/20458-neo-grove-tender-s-blade",
+        "id": 20458,
+        "name": "Neo Grove Tender's Blade",
+        "description": "This blade focuses the power of nature itself through it! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20458,
+            "name": "Neo Grove Tender's Blade",
+            "description": "This blade focuses the power of nature itself through it! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 30,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Grovetender.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 46,
+            "damageMax": 62,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Nature,3,Darkness,3,Health,-1,Mana,-1"
+        }
+    },
+    "related": {
+        "356-neo-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "356-neo-grove-tender",
+                "fullSlug": "merge-shops\/356-neo-grove-tender",
+                "id": 356,
+                "name": "Neo Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 356,
+                    "name": "Neo Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3702,
+                    "mergeShopId": 356,
+                    "mergeId": 3793
+                },
+                "merge": {
+                    "id": 3793,
+                    "itemId1": 20458,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20459,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

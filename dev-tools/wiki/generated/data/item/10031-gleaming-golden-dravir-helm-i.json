@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10031-gleaming-golden-dravir-helm-i",
+        "fullSlug": "items\/10031-gleaming-golden-dravir-helm-i",
+        "id": 10031,
+        "name": "Gleaming Golden Dravir Helm I",
+        "description": "A golden helm inspired by the fiercest of dravir warriors! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10031,
+            "name": "Gleaming Golden Dravir Helm I",
+            "description": "A golden helm inspired by the fiercest of dravir warriors! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 20,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 10,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-goldendravir.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Darkness,1,Immobility,1"
+        }
+    },
+    "related": {
+        "348-hoth-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "348-hoth-loot-for-dcs",
+                "fullSlug": "item-shops\/348-hoth-loot-for-dcs",
+                "id": 348,
+                "name": "HotH Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 348,
+                    "name": "HotH Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

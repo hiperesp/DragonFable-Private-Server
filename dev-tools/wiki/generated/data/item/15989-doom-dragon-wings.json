@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15989-doom-dragon-wings",
+        "fullSlug": "items\/15989-doom-dragon-wings",
+        "id": 15989,
+        "name": "Doom Dragon Wings",
+        "description": "The evil that emanates from these wings is almost palpable. Can you stop the source and save your dragon from Doom?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15989,
+            "name": "Doom Dragon Wings",
+            "description": "The evil that emanates from these wings is almost palpable. Can you stop the source and save your dragon from Doom?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": -1,
+            "rarity": 5,
+            "level": 31,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-doomwings.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,1"
+        }
+    },
+    "related": {
+        "1369-flight-from-sho-nuff": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1369-flight-from-sho-nuff",
+                "fullSlug": "quests\/1369-flight-from-sho-nuff",
+                "id": 1369,
+                "name": "Flight from Sho'Nuff",
+                "description": "You'll need to bring together old enemies to fight for your dragon!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1369,
+                    "name": "Flight from Sho'Nuff",
+                    "description": "You'll need to bring together old enemies to fight for your dragon!",
+                    "complete": "With Doom looming over Lore you'll need all the help you can get!",
+                    "swf": "towns\/10AnnDF\/quest9-shonuff.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darker Elementals",
+                    "monsterGroupSwf": "mset-verydarkelementals.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

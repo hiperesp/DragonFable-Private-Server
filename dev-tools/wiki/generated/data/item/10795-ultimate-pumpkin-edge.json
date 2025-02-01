@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10795-ultimate-pumpkin-edge",
+        "fullSlug": "items\/10795-ultimate-pumpkin-edge",
+        "id": 10795,
+        "name": "Ultimate Pumpkin Edge",
+        "description": "Crafted from a haunted pumpkin, with a blade forged from fallen heroes weapons, an eerie laughter escapes whenever you swing this weapon! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10795,
+            "name": "Ultimate Pumpkin Edge",
+            "description": "Crafted from a haunted pumpkin, with a blade forged from fallen heroes weapons, an eerie laughter escapes whenever you swing this weapon! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 20,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ultimate pumpkin edge.swf",
+            "icon": "scythe",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 49,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Ice,1"
+        }
+    },
+    "related": {
+        "161-pumpkinedge-20": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "161-pumpkinedge-20",
+                "fullSlug": "merge-shops\/161-pumpkinedge-20",
+                "id": 161,
+                "name": "PumpkinEdge 20",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 161,
+                    "name": "PumpkinEdge 20"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2133,
+                    "mergeShopId": 161,
+                    "mergeId": 1979
+                },
+                "merge": {
+                    "id": 1979,
+                    "itemId1": 10794,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10795,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "162-pumpkinedge-30": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "162-pumpkinedge-30",
+                "fullSlug": "merge-shops\/162-pumpkinedge-30",
+                "id": 162,
+                "name": "PumpkinEdge 30",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 162,
+                    "name": "PumpkinEdge 30"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2134,
+                    "mergeShopId": 162,
+                    "mergeId": 1980
+                },
+                "merge": {
+                    "id": 1980,
+                    "itemId1": 10795,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10796,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

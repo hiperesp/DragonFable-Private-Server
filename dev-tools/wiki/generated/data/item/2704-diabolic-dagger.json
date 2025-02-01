@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2704-diabolic-dagger",
+        "fullSlug": "items\/2704-diabolic-dagger",
+        "id": 2704,
+        "name": "Diabolic Dagger",
+        "description": "Bet you thought it was going to be called the DYE-abolic Dagger, huh? "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2704,
+            "name": "Diabolic Dagger",
+            "description": "Bet you thought it was going to be called the DYE-abolic Dagger, huh? ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 38,
+            "type": "Pierce",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-colorless2.swf",
+            "icon": "dagger",
+            "strength": 2,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 55,
+            "damageMax": 60,
+            "defenseMelee": 3,
+            "defensePierce": 1,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4"
+        }
+    },
+    "related": {
+        "469-live-and-let-dye": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "469-live-and-let-dye",
+                "fullSlug": "quests\/469-live-and-let-dye",
+                "id": 469,
+                "name": "Live and Let Dye",
+                "description": "Voltabolt's dye-abolical plan has turned into a do or dye situation!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 469,
+                    "name": "Live and Let Dye",
+                    "description": "Voltabolt's dye-abolical plan has turned into a do or dye situation!",
+                    "complete": "Phew! Everything is back to normal! AND you got a little Rummage monster as a pet!",
+                    "swf": "quests\/quest-colorless2r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "masheenz",
+                    "monsterGroupSwf": "mset-colorless2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

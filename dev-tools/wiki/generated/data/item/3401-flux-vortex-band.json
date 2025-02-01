@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3401-flux-vortex-band",
+        "fullSlug": "items\/3401-flux-vortex-band",
+        "id": 3401,
+        "name": "Flux Vortex Band",
+        "description": "This belt is made of stuff and things, and when you stare at it for too long, you imagine you're seeing into space and time.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3401,
+            "name": "Flux Vortex Band",
+            "description": "This belt is made of stuff and things, and when you stare at it for too long, you imagine you're seeing into space and time.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 50,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,9,Ice,9"
+        }
+    },
+    "related": {
+        "128-war-memorial-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "128-war-memorial-shop",
+                "fullSlug": "item-shops\/128-war-memorial-shop",
+                "id": 128,
+                "name": "War Memorial Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 128,
+                    "name": "War Memorial Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "45-war-memorial": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "45-war-memorial",
+                "fullSlug": "item-shops\/45-war-memorial",
+                "id": 45,
+                "name": "War Memorial",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 45,
+                    "name": "War Memorial",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

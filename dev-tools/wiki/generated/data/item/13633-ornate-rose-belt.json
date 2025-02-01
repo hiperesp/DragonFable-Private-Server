@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13633-ornate-rose-belt",
+        "fullSlug": "items\/13633-ornate-rose-belt",
+        "id": 13633,
+        "name": "Ornate Rose Belt",
+        "description": "Anti-magic runes are carved all over the inside of this belt. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13633,
+            "name": "Ornate Rose Belt",
+            "description": "Anti-magic runes are carved all over the inside of this belt. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 11500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 1,
+            "level": 67,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 9,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Wind,8,Water,8,Light,6,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "1250-an-uncertain-future": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1250-an-uncertain-future",
+                "fullSlug": "quests\/1250-an-uncertain-future",
+                "id": 1250,
+                "name": "An Uncertain Future",
+                "description": "Let's catch up to Leon!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1250,
+                    "name": "An Uncertain Future",
+                    "description": "Let's catch up to Leon!",
+                    "complete": "Kara has been retrieved, but will she still be the same? Where will the Vind go from here? And while all that's happening, what of Espina Rosa? Many questions, few answers.",
+                    "swf": "towns\/SulenEska\/quest20-uncertain.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

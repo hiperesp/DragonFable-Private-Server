@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12335-transcendence",
+        "fullSlug": "items\/12335-transcendence",
+        "id": 12335,
+        "name": "Transcendence",
+        "description": "Neither grim nor valorous, great villains and great heroes alike have wielded it so that it holds allegiance to neither. Only great power to be used by the Great."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12335,
+            "name": "Transcendence",
+            "description": "Neither grim nor valorous, great villains and great heroes alike have wielded it so that it holds allegiance to neither. Only great power to be used by the Great.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2700,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 66,
+            "level": 60,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-trancendance.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 62,
+            "damageMax": 88,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Good,8,Evil,8,Light,4,Darkness,4"
+        }
+    },
+    "related": {
+        "1172-murky-hall": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1172-murky-hall",
+                "fullSlug": "quests\/1172-murky-hall",
+                "id": 1172,
+                "name": "Murky Hall",
+                "description": "Vaal is exploring the dark corridors of the Temple of Oter, looking for a way out."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1172,
+                    "name": "Murky Hall",
+                    "description": "Vaal is exploring the dark corridors of the Temple of Oter, looking for a way out.",
+                    "complete": "Vaal is no more. My name is Roirr.",
+                    "swf": "towns\/3Ravenloss\/quest18-murk.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 60000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20468-astravian-wings-ii",
+        "fullSlug": "items\/20468-astravian-wings-ii",
+        "id": 20468,
+        "name": "Astravian Wings II",
+        "description": "During his pursuit of power, the king of a distant star had these wings made, in order to be closer to the Stars. You can upgrade these wings at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20468,
+            "name": "Astravian Wings II",
+            "description": "During his pursuit of power, the king of a distant star had these wings made, in order to be closer to the Stars. You can upgrade these wings at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-astravia.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Water,2,Fire,2"
+        }
+    },
+    "related": {
+        "357-astravian-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "357-astravian-gear",
+                "fullSlug": "merge-shops\/357-astravian-gear",
+                "id": 357,
+                "name": "Astravian Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 357,
+                    "name": "Astravian Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3727,
+                    "mergeShopId": 357,
+                    "mergeId": 3804
+                },
+                "merge": {
+                    "id": 3804,
+                    "itemId1": 20468,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20469,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

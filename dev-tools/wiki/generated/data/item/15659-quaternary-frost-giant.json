@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15659-quaternary-frost-giant",
+        "fullSlug": "items\/15659-quaternary-frost-giant",
+        "id": 15659,
+        "name": "Quaternary Frost Giant",
+        "description": "This item requires a Dragon Amulet. It was the fourth sword carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15659,
+            "name": "Quaternary Frost Giant",
+            "description": "This item requires a Dragon Amulet. It was the fourth sword carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 13,
+            "level": 38,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-massiveglass2.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 53,
+            "damageMax": 65,
+            "defenseMelee": 2,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5"
+        }
+    },
+    "related": {
+        "1346-ashes": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1346-ashes",
+                "fullSlug": "quests\/1346-ashes",
+                "id": 1346,
+                "name": "Ashes",
+                "description": "The Darkness is determined to find out the secret of the hero? the secret of why you have defeated the odds time and time again. The more that Caitiff learns? the more its wrath grows!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1346,
+                    "name": "Ashes",
+                    "description": "The Darkness is determined to find out the secret of the hero? the secret of why you have defeated the odds time and time again. The more that Caitiff learns? the more its wrath grows!",
+                    "complete": "The smoldering wrath of revenge!",
+                    "swf": "towns\/10AnnDF\/quest3-ashes.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "dark fire eles",
+                    "monsterGroupSwf": "mset-darklava.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

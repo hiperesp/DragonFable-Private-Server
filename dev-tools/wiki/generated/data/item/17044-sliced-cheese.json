@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17044-sliced-cheese",
+        "fullSlug": "items\/17044-sliced-cheese",
+        "id": 17044,
+        "name": "Sliced Cheese",
+        "description": "If you see this weapon, you feta run! It's some sharp cheddar, do NOT eat!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17044,
+            "name": "Sliced Cheese",
+            "description": "If you see this weapon, you feta run! It's some sharp cheddar, do NOT eat!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 35,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-cheeseygold.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 64,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,-2,Water,-2"
+        }
+    },
+    "related": {
+        "1416-the-legen-dairy-artifact": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1416-the-legen-dairy-artifact",
+                "fullSlug": "quests\/1416-the-legen-dairy-artifact",
+                "id": 1416,
+                "name": "The Legen-dairy Artifact",
+                "description": "A cheese that's so powerful it will show you what you want? \nThat sounds hard to brie-lieve."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1416,
+                    "name": "The Legen-dairy Artifact",
+                    "description": "A cheese that's so powerful it will show you what you want? \nThat sounds hard to brie-lieve.",
+                    "complete": "After all these years, San Robin knows where to look next!\nWhat did Bishop mean by ?help?, though?",
+                    "swf": "towns\/1Falconreach\/1SanRobin\/quest-camembert.swf",
+                    "swfX": "towns\/1Falconreach\/1SanRobin\/quest-camembert-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cheesy monsters",
+                    "monsterGroupSwf": "mset-legendairy.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

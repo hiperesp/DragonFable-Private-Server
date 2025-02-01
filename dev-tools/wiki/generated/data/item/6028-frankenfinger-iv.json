@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6028-frankenfinger-iv",
+        "fullSlug": "items\/6028-frankenfinger-iv",
+        "id": 6028,
+        "name": "FrankenFinger IV",
+        "description": "Ew, gross! Is that his FINGER you're using as a claw?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6028,
+            "name": "FrankenFinger IV",
+            "description": "Ew, gross! Is that his FINGER you're using as a claw?",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 60,
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-frankenclaw.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 7,
+            "wisdom": 3,
+            "damageMin": 66,
+            "damageMax": 84,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,-3,Stone,7,Immobility,4"
+        }
+    },
+    "related": {
+        "96-franken-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "96-franken-60",
+                "fullSlug": "merge-shops\/96-franken-60",
+                "id": 96,
+                "name": "Franken 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 96,
+                    "name": "Franken 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1348,
+                    "mergeShopId": 96,
+                    "mergeId": 1177
+                },
+                "merge": {
+                    "id": 1177,
+                    "itemId1": 3113,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6028,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "97-franken-70": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "97-franken-70",
+                "fullSlug": "merge-shops\/97-franken-70",
+                "id": 97,
+                "name": "Franken 70",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 97,
+                    "name": "Franken 70"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1351,
+                    "mergeShopId": 97,
+                    "mergeId": 1180
+                },
+                "merge": {
+                    "id": 1180,
+                    "itemId1": 6028,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6031,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2204-dust-of-temblor",
+        "fullSlug": "items\/2204-dust-of-temblor",
+        "id": 2204,
+        "name": "Dust of Temblor",
+        "description": "The pigment of the earth avatar, Temblor, colors this cloak."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2204,
+            "name": "Dust of Temblor",
+            "description": "The pigment of the earth avatar, Temblor, colors this cloak.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-earth.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,5"
+        }
+    },
+    "related": {
+        "88-elemental-war-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "88-elemental-war-shop",
+                "fullSlug": "item-shops\/88-elemental-war-shop",
+                "id": 88,
+                "name": "Elemental War Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 88,
+                    "name": "Elemental War Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

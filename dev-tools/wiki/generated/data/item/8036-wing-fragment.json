@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8036-wing-fragment",
+        "fullSlug": "items\/8036-wing-fragment",
+        "id": 8036,
+        "name": "Wing Fragment",
+        "description": "A small fragment of a wing from a Deadwood."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8036,
+            "name": "Wing Fragment",
+            "description": "A small fragment of a wing from a Deadwood.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "987-deadwood": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "987-deadwood",
+                "fullSlug": "quests\/987-deadwood",
+                "id": 987,
+                "name": "Deadwood",
+                "description": "Find and defeat one of Pallor's giant Deadwoods to gather a shard of darkness wing!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 987,
+                    "name": "Deadwood",
+                    "description": "Find and defeat one of Pallor's giant Deadwoods to gather a shard of darkness wing!",
+                    "complete": "You've defeated one of Pallor's Deadwood Destroyers!",
+                    "swf": "random\/random-wingedwar.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wings and dead",
+                    "monsterGroupSwf": "mset-f12-wingwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "125-nick-s-cap-and-cloak": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "125-nick-s-cap-and-cloak",
+                "fullSlug": "merge-shops\/125-nick-s-cap-and-cloak",
+                "id": 125,
+                "name": "Nick's Cap and Cloak",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 125,
+                    "name": "Nick's Cap and Cloak"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1750,
+                    "mergeShopId": 125,
+                    "mergeId": 1639
+                },
+                "merge": {
+                    "id": 1639,
+                    "itemId1": 8057,
+                    "amount1": 1,
+                    "itemId2": 8036,
+                    "amount2": 5,
+                    "itemId": 8058,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

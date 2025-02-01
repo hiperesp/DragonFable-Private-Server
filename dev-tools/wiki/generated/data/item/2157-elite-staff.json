@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2157-elite-staff",
+        "fullSlug": "items\/2157-elite-staff",
+        "id": 2157,
+        "name": "Elite Staff",
+        "description": "It became available to you after reaching the rank of Elite at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2157,
+            "name": "Elite Staff",
+            "description": "It became available to you after reaching the rank of Elite at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 20000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 43,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-pvpnew4.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 57,
+            "damageMax": 65,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Shrink,20,Fire,3"
+        }
+    },
+    "related": {
+        "85-pvp-elite": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "85-pvp-elite",
+                "fullSlug": "item-shops\/85-pvp-elite",
+                "id": 85,
+                "name": "PVP Elite",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 85,
+                    "name": "PVP Elite",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

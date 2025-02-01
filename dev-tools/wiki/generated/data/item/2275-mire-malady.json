@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2275-mire-malady",
+        "fullSlug": "items\/2275-mire-malady",
+        "id": 2275,
+        "name": "Mire Malady",
+        "description": "Slogging through that swampy marsh wasn't a very good idea, even if you needed to do it.  It seems you've gotten just a bit ill."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2275,
+            "name": "Mire Malady",
+            "description": "Slogging through that swampy marsh wasn't a very good idea, even if you needed to do it.  It seems you've gotten just a bit ill.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 850,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 20,
+            "level": 26,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bacon6.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": -1,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 51,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,2,Nature,2"
+        }
+    },
+    "related": {
+        "90-hydra-souvenirs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "90-hydra-souvenirs",
+                "fullSlug": "item-shops\/90-hydra-souvenirs",
+                "id": 90,
+                "name": "Hydra Souvenirs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 90,
+                    "name": "Hydra Souvenirs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

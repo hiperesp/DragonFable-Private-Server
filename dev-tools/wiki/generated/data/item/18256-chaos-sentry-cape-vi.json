@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18256-chaos-sentry-cape-vi",
+        "fullSlug": "items\/18256-chaos-sentry-cape-vi",
+        "id": 18256,
+        "name": "Chaos Sentry Cape VI",
+        "description": "You feel like something is watching you...."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18256,
+            "name": "Chaos Sentry Cape VI",
+            "description": "You feel like something is watching you....",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 90,
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chaoseye.swf",
+            "icon": "cape",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 12,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Evil,12,All,3"
+        }
+    },
+    "related": {
+        "148-chaos-sentry-cape": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "148-chaos-sentry-cape",
+                "fullSlug": "merge-shops\/148-chaos-sentry-cape",
+                "id": 148,
+                "name": "Chaos Sentry Cape",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 148,
+                    "name": "Chaos Sentry Cape"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2116,
+                    "mergeShopId": 148,
+                    "mergeId": 3284
+                },
+                "merge": {
+                    "id": 3284,
+                    "itemId1": 10572,
+                    "amount1": 1,
+                    "itemId2": 8417,
+                    "amount2": 1,
+                    "itemId": 18256,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

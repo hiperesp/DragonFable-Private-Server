@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6776-ewolyn-s-edge-ii",
+        "fullSlug": "items\/6776-ewolyn-s-edge-ii",
+        "id": 6776,
+        "name": "Ewolyn's Edge II",
+        "description": "Ewolyn was an Elf woman who spent her life communing with nature after the death of her husband."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6776,
+            "name": "Ewolyn's Edge II",
+            "description": "Ewolyn was an Elf woman who spent her life communing with nature after the death of her husband.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 50,
+            "level": 42,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-grenwog2012.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 54,
+            "damageMax": 74,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Nature,5,Water,5,Health,-1"
+        }
+    },
+    "related": {
+        "891-monster-pip": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "891-monster-pip",
+                "fullSlug": "quests\/891-monster-pip",
+                "id": 891,
+                "name": "Monster Pip",
+                "description": "What other terrible things has Cysero's Garden grown?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 891,
+                    "name": "Monster Pip",
+                    "description": "What other terrible things has Cysero's Garden grown?",
+                    "complete": "What other terrible things has Cysero's Garden grown?",
+                    "swf": "towns\/grenwog\/quest-monsterpip-r4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 35,
+                    "monsterMaxLevel": 35,
+                    "monsterType": "giant marshmellow",
+                    "monsterGroupSwf": "mset-piptitan-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

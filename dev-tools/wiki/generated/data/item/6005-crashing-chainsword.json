@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6005-crashing-chainsword",
+        "fullSlug": "items\/6005-crashing-chainsword",
+        "id": 6005,
+        "name": "Crashing Chainsword",
+        "description": "THIS SWORD IS AWESOME!\nClick to turn on!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6005,
+            "name": "Crashing Chainsword",
+            "description": "THIS SWORD IS AWESOME!\nClick to turn on!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 40,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-chainsword.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 51,
+            "damageMax": 71,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,10,Energy,5"
+        }
+    },
+    "related": {
+        "817-48-weeks-later": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "817-48-weeks-later",
+                "fullSlug": "quests\/817-48-weeks-later",
+                "id": 817,
+                "name": "48 Weeks Later",
+                "description": "M.O.P. is working hard to relocate and house all those who were displaced by the infection last year."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 817,
+                    "name": "48 Weeks Later",
+                    "description": "M.O.P. is working hard to relocate and house all those who were displaced by the infection last year.",
+                    "complete": "Hope that Andy doesn't bite....",
+                    "swf": "towns\/Mogloween\/M11\/quest2-48weeks.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Zardbies",
+                    "monsterGroupSwf": "mset-zardbie.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

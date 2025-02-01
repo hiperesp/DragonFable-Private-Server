@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6438-galaxy-edge-iii",
+        "fullSlug": "items\/6438-galaxy-edge-iii",
+        "id": 6438,
+        "name": "Galaxy Edge III",
+        "description": "You can see stars and galaxies swirling within the infinite depths of this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6438,
+            "name": "Galaxy Edge III",
+            "description": "You can see stars and galaxies swirling within the infinite depths of this weapon.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 30,
+            "level": 61,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-ateala-riftwar.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 88,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Darkness,8,Water,6"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 53,
+                    "mergeShopId": 4,
+                    "mergeId": 1304
+                },
+                "merge": {
+                    "id": 1304,
+                    "itemId1": 6460,
+                    "amount1": 5,
+                    "itemId2": 6438,
+                    "amount2": 1,
+                    "itemId": 6439,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

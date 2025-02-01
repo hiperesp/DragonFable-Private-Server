@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14389-shadowfire-axe",
+        "fullSlug": "items\/14389-shadowfire-axe",
+        "id": 14389,
+        "name": "Shadowfire Axe",
+        "description": "This replica of the axe used by the Shadowfire Knight was created by Ashendal. It is enchanted to occasionally deal fire damage over time! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14389,
+            "name": "Shadowfire Axe",
+            "description": "This replica of the axe used by the Shadowfire Knight was created by Ashendal. It is enchanted to occasionally deal fire damage over time! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 12000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-shadowfireAxe.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Water,8,Ice,5,Health,-3"
+        }
+    },
+    "related": {
+        "450-replica-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "450-replica-weapons",
+                "fullSlug": "item-shops\/450-replica-weapons",
+                "id": 450,
+                "name": "Replica Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 450,
+                    "name": "Replica Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

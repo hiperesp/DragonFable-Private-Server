@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6863-blinding-techangel-cowl",
+        "fullSlug": "items\/6863-blinding-techangel-cowl",
+        "id": 6863,
+        "name": "Blinding Techangel Cowl",
+        "description": "Gears whir in your ears as the cowl is softly illuminated from within."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6863,
+            "name": "Blinding Techangel Cowl",
+            "description": "Gears whir in your ears as the cowl is softly illuminated from within.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 43,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-techangel.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Light,3,Energy,3"
+        }
+    },
+    "related": {
+        "899-north": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "899-north",
+                "fullSlug": "quests\/899-north",
+                "id": 899,
+                "name": "North",
+                "description": "Is the Professor hiding somewhere in this desolate landscape?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 899,
+                    "name": "North",
+                    "description": "Is the Professor hiding somewhere in this desolate landscape?",
+                    "complete": "HIM?!",
+                    "swf": "towns\/Atrea\/quest5-north-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness, skeles, spider",
+                    "monsterGroupSwf": "mset-deadlands.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

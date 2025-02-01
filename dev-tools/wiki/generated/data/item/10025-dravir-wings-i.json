@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10025-dravir-wings-i",
+        "fullSlug": "items\/10025-dravir-wings-i",
+        "id": 10025,
+        "name": "Dravir Wings I",
+        "description": "A pair of armored-scaled wings styled after the battle scarred ones of a Dravir commander."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10025,
+            "name": "Dravir Wings I",
+            "description": "A pair of armored-scaled wings styled after the battle scarred ones of a Dravir commander.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 15,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-dravir.swf",
+            "icon": "wings",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Darkness,1"
+        }
+    },
+    "related": {
+        "1052-haven-on-the-horizon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1052-haven-on-the-horizon",
+                "fullSlug": "quests\/1052-haven-on-the-horizon",
+                "id": 1052,
+                "name": "Haven on the Horizon",
+                "description": "After the daring rescue at the Border Prison, The Rose seems to have their sights on more of the magical denizens of the swamp and nearby forests. Is the Vind prepared for the oncoming onslaught? Will they be enough to defend those in need?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1052,
+                    "name": "Haven on the Horizon",
+                    "description": "After the daring rescue at the Border Prison, The Rose seems to have their sights on more of the magical denizens of the swamp and nearby forests. Is the Vind prepared for the oncoming onslaught? Will they be enough to defend those in need?",
+                    "complete": "The Clawkin are safe, for now....",
+                    "swf": "towns\/SulenEska\/quest7-freedom2020-r1.swf",
+                    "swfX": "towns\/SulenEska\/quest7-freedom2020-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

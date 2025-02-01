@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "227-the-asp",
+        "fullSlug": "items\/227-the-asp",
+        "id": 227,
+        "name": "The Asp",
+        "description": "Deadly and accurate like its name-sake, this weapon is also a great programming language for webpages."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 227,
+            "name": "The Asp",
+            "description": "Deadly and accurate like its name-sake, this weapon is also a great programming language for webpages.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 700,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 4,
+            "type": "Pierce",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-snake.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 8,
+            "damageMax": 26,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 2,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "5-marsh-madness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "5-marsh-madness",
+                "fullSlug": "quests\/5-marsh-madness",
+                "id": 5,
+                "name": "Marsh Madness",
+                "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 5,
+                    "name": "Marsh Madness",
+                    "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "complete": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "swf": "random\/random-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 7,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

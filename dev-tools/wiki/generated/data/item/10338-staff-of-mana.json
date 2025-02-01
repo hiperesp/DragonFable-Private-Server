@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10338-staff-of-mana",
+        "fullSlug": "items\/10338-staff-of-mana",
+        "id": 10338,
+        "name": "Staff of Mana",
+        "description": "Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10338,
+            "name": "Staff of Mana",
+            "description": "Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 4500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 76,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-mana.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 12,
+            "luck": 5,
+            "charisma": 8,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 74,
+            "damageMax": 98,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Energy,11,Darkness,11,Light,6,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "1074-oculus-tower": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1074-oculus-tower",
+                "fullSlug": "quests\/1074-oculus-tower",
+                "id": 1074,
+                "name": "Oculus Tower",
+                "description": "Help Sir Leon in his quest to the tower."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1074,
+                    "name": "Oculus Tower",
+                    "description": "Help Sir Leon in his quest to the tower.",
+                    "complete": "You've help Sir Leon rescue Crest!",
+                    "swf": "towns\/Shears\/quest1-OculusTower.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 45000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, mana",
+                    "monsterGroupSwf": "mset-oculustower2-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

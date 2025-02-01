@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19618-lost-elf-s-belt",
+        "fullSlug": "items\/19618-lost-elf-s-belt",
+        "id": 19618,
+        "name": "Lost Elf's Belt",
+        "description": "This belt looks to be handmade, with indecipherable writing stitched all across it. This must have been a very personal item. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19618,
+            "name": "Lost Elf's Belt",
+            "description": "This belt looks to be handmade, with indecipherable writing stitched all across it. This must have been a very personal item. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 6,
+            "level": 90,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 8,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,5,Immobility,5"
+        }
+    },
+    "related": {
+        "1034-face-of-death": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1034-face-of-death",
+                "fullSlug": "quests\/1034-face-of-death",
+                "id": 1034,
+                "name": "Face of Death",
+                "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1034,
+                    "name": "Face of Death",
+                    "description": "Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!",
+                    "complete": "You've released the magic contained in the sacrificial crystal! That's good... right?",
+                    "swf": "towns\/3Rosewood\/quest4-sandsea-death-re.swf?ver=1",
+                    "swfX": "towns\/3Rosewood\/quest4-sandsea-death-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "thugs, scarabs, mummies",
+                    "monsterGroupSwf": "mset-sandsea-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

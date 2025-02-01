@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1509-claddagh-ring",
+        "fullSlug": "items\/1509-claddagh-ring",
+        "id": 1509,
+        "name": "Claddagh Ring",
+        "description": "The inscription inside this ring says \"To my fair -haired Slayer ~ Angel\"."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1509,
+            "name": "Claddagh Ring",
+            "description": "The inscription inside this ring says \"To my fair -haired Slayer ~ Angel\".",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 15,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 1,
+            "dexterity": 2,
+            "intelligence": 1,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "213-into-the-woods": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "213-into-the-woods",
+                "fullSlug": "quests\/213-into-the-woods",
+                "id": 213,
+                "name": "Into The Woods",
+                "description": "As you venture deeper into the woods you find more and more of those little green sneevilchauns... and more loot!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 213,
+                    "name": "Into The Woods",
+                    "description": "As you venture deeper into the woods you find more and more of those little green sneevilchauns... and more loot!",
+                    "complete": "You've recovered a bit more of the town's gold and taken out a few more of those thieving sneevilchauns.",
+                    "swf": "random\/random-sneevilchaunforest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "sneevilchauns",
+                    "monsterGroupSwf": "mset-sneevilchauns1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

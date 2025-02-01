@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15294-frank",
+        "fullSlug": "items\/15294-frank",
+        "id": 15294,
+        "name": "Frank",
+        "description": "What a thoughtful gift from Twig! Part fish, part sprinkle, all ice cweam! (Contains 5% cherry). "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15294,
+            "name": "Frank",
+            "description": "What a thoughtful gift from Twig! Part fish, part sprinkle, all ice cweam! (Contains 5% cherry). ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 1,
+            "level": 80,
+            "element": "Ice",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-icefishsprinkleguy.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 19,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "244-2015-present-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "244-2015-present-merges",
+                "fullSlug": "merge-shops\/244-2015-present-merges",
+                "id": 244,
+                "name": "2015 Present Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 244,
+                    "name": "2015 Present Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2739,
+                    "mergeShopId": 244,
+                    "mergeId": 2710
+                },
+                "merge": {
+                    "id": 2710,
+                    "itemId1": 15219,
+                    "amount1": 5,
+                    "itemId2": 15293,
+                    "amount2": 1,
+                    "itemId": 15294,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

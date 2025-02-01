@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17370-soulforged-wand",
+        "fullSlug": "items\/17370-soulforged-wand",
+        "id": 17370,
+        "name": "SoulForged Wand",
+        "description": "Your very own SoulForged wand! It shivers with swiftness and cleverness!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17370,
+            "name": "SoulForged Wand",
+            "description": "Your very own SoulForged wand! It shivers with swiftness and cleverness!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 7,
+            "level": 30,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-soulforged.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 50,
+            "damageMax": 50,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,3"
+        }
+    },
+    "related": {
+        "268-soulforged-wand": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "268-soulforged-wand",
+                "fullSlug": "merge-shops\/268-soulforged-wand",
+                "id": 268,
+                "name": "SoulForged Wand",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 268,
+                    "name": "SoulForged Wand"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3016,
+                    "mergeShopId": 268,
+                    "mergeId": 3026
+                },
+                "merge": {
+                    "id": 3026,
+                    "itemId1": 15721,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 17370,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "273-spirit-cast": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "273-spirit-cast",
+                "fullSlug": "merge-shops\/273-spirit-cast",
+                "id": 273,
+                "name": "Spirit Cast",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 273,
+                    "name": "Spirit Cast"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3045,
+                    "mergeShopId": 273,
+                    "mergeId": 3047
+                },
+                "merge": {
+                    "id": 3047,
+                    "itemId1": 17370,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 15721,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

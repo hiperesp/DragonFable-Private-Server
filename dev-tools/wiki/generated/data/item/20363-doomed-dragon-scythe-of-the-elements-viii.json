@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20363-doomed-dragon-scythe-of-the-elements-viii",
+        "fullSlug": "items\/20363-doomed-dragon-scythe-of-the-elements-viii",
+        "id": 20363,
+        "name": "Doomed Dragon Scythe of the Elements VIII",
+        "description": "A corrupted scythe once forged by the avatars that has found its way into your hands... Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20363,
+            "name": "Doomed Dragon Scythe of the Elements VIII",
+            "description": "A corrupted scythe once forged by the avatars that has found its way into your hands... Visit the Black Market Moglin to upgrade this weapon.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-8ElementsDoomed.swf",
+            "icon": "scythe",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 7,
+            "wisdom": 10,
+            "damageMin": 82,
+            "damageMax": 100,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 14,
+            "parry": 3,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Fire,13,Darkness,13,Ice,13,Poison,6,Silver,6,Immobility,8,Health,-3"
+        }
+    },
+    "related": {
+        "711-doomed-dragon-scythe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "711-doomed-dragon-scythe",
+                "fullSlug": "item-shops\/711-doomed-dragon-scythe",
+                "id": 711,
+                "name": "Doomed Dragon Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 711,
+                    "name": "Doomed Dragon Scythe",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "349-doomed-dragon-scythe-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "349-doomed-dragon-scythe-upgrade",
+                "fullSlug": "merge-shops\/349-doomed-dragon-scythe-upgrade",
+                "id": 349,
+                "name": "Doomed Dragon Scythe Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 349,
+                    "name": "Doomed Dragon Scythe Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3638,
+                    "mergeShopId": 349,
+                    "mergeId": 3725
+                },
+                "merge": {
+                    "id": 3725,
+                    "itemId1": 20363,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20364,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

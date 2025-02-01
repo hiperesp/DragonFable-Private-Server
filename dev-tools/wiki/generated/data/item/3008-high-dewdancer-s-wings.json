@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3008-high-dewdancer-s-wings",
+        "fullSlug": "items\/3008-high-dewdancer-s-wings",
+        "id": 3008,
+        "name": "High DewDancer's Wings",
+        "description": "These wings are similar to those of a fairy who flits through the soft light shining through the trees in the early morning.This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3008,
+            "name": "High DewDancer's Wings",
+            "description": "These wings are similar to those of a fairy who flits through the soft light shining through the trees in the early morning.This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 20,
+            "level": 50,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-naturefairy.swf",
+            "icon": "wings",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Water,5,Immobility,1"
+        }
+    },
+    "related": {
+        "110-trinki-s-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "110-trinki-s-wings",
+                "fullSlug": "item-shops\/110-trinki-s-wings",
+                "id": 110,
+                "name": "Trinki's Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 110,
+                    "name": "Trinki's Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

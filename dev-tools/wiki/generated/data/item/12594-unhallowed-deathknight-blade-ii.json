@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12594-unhallowed-deathknight-blade-ii",
+        "fullSlug": "items\/12594-unhallowed-deathknight-blade-ii",
+        "id": 12594,
+        "name": "Unhallowed DeathKnight Blade II",
+        "description": "You've enhanced your blade with the power of shadow. While more powerful than it was before, shadows seem to now cling to the blade as you use it. Click to switch between Darkness and Light. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12594,
+            "name": "Unhallowed DeathKnight Blade II",
+            "description": "You've enhanced your blade with the power of shadow. While more powerful than it was before, shadows seem to now cling to the blade as you use it. Click to switch between Darkness and Light. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 60,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-OrnateDeathknight.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 72,
+            "damageMax": 84,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,7,Darkness,7"
+        }
+    },
+    "related": {
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2498,
+                    "mergeShopId": 210,
+                    "mergeId": 2405
+                },
+                "merge": {
+                    "id": 2405,
+                    "itemId1": 12594,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12595,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

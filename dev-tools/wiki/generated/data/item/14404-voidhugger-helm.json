@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14404-voidhugger-helm",
+        "fullSlug": "items\/14404-voidhugger-helm",
+        "id": 14404,
+        "name": "Voidhugger Helm",
+        "description": "Mmmpffhh, mmpppff mmhhh pppffhhh hhmmmm. Tttttfffmmmm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14404,
+            "name": "Voidhugger Helm",
+            "description": "Mmmpffhh, mmpppff mmhhh pppffhhh hhmmmm. Tttttfffmmmm. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 40,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-facehugger.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Darkness,5,Light,5,Poison,1"
+        }
+    },
+    "related": {
+        "457-voidhugger-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "457-voidhugger-dc",
+                "fullSlug": "item-shops\/457-voidhugger-dc",
+                "id": 457,
+                "name": "Voidhugger DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 457,
+                    "name": "Voidhugger DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

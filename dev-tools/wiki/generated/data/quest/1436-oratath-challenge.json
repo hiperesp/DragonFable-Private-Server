@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1436-oratath-challenge",
+        "fullSlug": "quests\/1436-oratath-challenge",
+        "id": 1436,
+        "name": "Oratath Challenge",
+        "description": "The great holy dragon Oratath!"
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1436,
+            "name": "Oratath Challenge",
+            "description": "The great holy dragon Oratath!",
+            "complete": "Oratath has been defeated!",
+            "swf": "towns\/TimeArena\/quest-oratath-r1.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 100,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "Dragon Challenge 1",
+            "monsterGroupSwf": "mset-dragonchallenge.swf"
+        }
+    },
+    "related": {
+        "17314-the-great-grey-one-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "17314-the-great-grey-one-i",
+                "fullSlug": "items\/17314-the-great-grey-one-i",
+                "id": 17314,
+                "name": "The Great Grey One I",
+                "description": "Rewarded for defeating the pure dragon Oratath, a heavy scythe forged by vengeful Dragon Slayers that is said to allows the owner to turn insubstantia. It's merely a legend, though."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 17314,
+                    "name": "The Great Grey One I",
+                    "description": "Rewarded for defeating the pure dragon Oratath, a heavy scythe forged by vengeful Dragon Slayers that is said to allows the owner to turn insubstantia. It's merely a legend, though.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 4,
+                    "rarity": 100,
+                    "level": 50,
+                    "type": "Melee",
+                    "element": "Good",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Scythe",
+                    "swf": "items\/scythes\/scythe-greydragon.swf",
+                    "icon": "scythe",
+                    "strength": 7,
+                    "dexterity": 7,
+                    "intelligence": 7,
+                    "luck": 4,
+                    "charisma": 0,
+                    "endurance": 2,
+                    "wisdom": 2,
+                    "damageMin": 65,
+                    "damageMax": 73,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 4,
+                    "parry": 2,
+                    "dodge": 2,
+                    "block": 2,
+                    "resists": "All,3"
+                }
+            },
+            "related": []
+        }
+    }
+}

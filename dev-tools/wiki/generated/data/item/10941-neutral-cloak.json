@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10941-neutral-cloak",
+        "fullSlug": "items\/10941-neutral-cloak",
+        "id": 10941,
+        "name": "Neutral Cloak",
+        "description": "Inside your chest beats a heart full of neutrality."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10941,
+            "name": "Neutral Cloak",
+            "description": "Inside your chest beats a heart full of neutrality.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 140,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-neutral.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,8,Water,6,Nature,4"
+        }
+    },
+    "related": {
+        "383-neutral-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "383-neutral-dc",
+                "fullSlug": "item-shops\/383-neutral-dc",
+                "id": 383,
+                "name": "Neutral DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 383,
+                    "name": "Neutral DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

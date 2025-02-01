@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12588-deathknight-amulet",
+        "fullSlug": "items\/12588-deathknight-amulet",
+        "id": 12588,
+        "name": "DeathKnight Amulet",
+        "description": "Sir Malifact collected this necklace from a fallen DeathKnight and saved it. While he already has items bound to him, you might be able to make use of it."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12588,
+            "name": "DeathKnight Amulet",
+            "description": "Sir Malifact collected this necklace from a fallen DeathKnight and saved it. While he already has items bound to him, you might be able to make use of it.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 40,
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,2,Light,2,Immobility,1"
+        }
+    },
+    "related": {
+        "209-deathknight-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "209-deathknight-items",
+                "fullSlug": "merge-shops\/209-deathknight-items",
+                "id": 209,
+                "name": "DeathKnight Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 209,
+                    "name": "DeathKnight Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2486,
+                    "mergeShopId": 209,
+                    "mergeId": 2398
+                },
+                "merge": {
+                    "id": 2398,
+                    "itemId1": 1594,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12588,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "210-deathknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "210-deathknight-upgrades",
+                "fullSlug": "merge-shops\/210-deathknight-upgrades",
+                "id": 210,
+                "name": "DeathKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 210,
+                    "name": "DeathKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2505,
+                    "mergeShopId": 210,
+                    "mergeId": 2443
+                },
+                "merge": {
+                    "id": 2443,
+                    "itemId1": 12588,
+                    "amount1": 1,
+                    "itemId2": 12582,
+                    "amount2": 1,
+                    "itemId": 12653,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

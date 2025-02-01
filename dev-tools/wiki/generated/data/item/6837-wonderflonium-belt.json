@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6837-wonderflonium-belt",
+        "fullSlug": "items\/6837-wonderflonium-belt",
+        "id": 6837,
+        "name": "Wonderflonium Belt",
+        "description": "Put this on and work on your evil laugh. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6837,
+            "name": "Wonderflonium Belt",
+            "description": "Put this on and work on your evil laugh. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 72,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "All,4,Immobility,2"
+        }
+    },
+    "related": {
+        "897-the-hunt-begins": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "897-the-hunt-begins",
+                "fullSlug": "quests\/897-the-hunt-begins",
+                "id": 897,
+                "name": "The Hunt Begins",
+                "description": "You have to find The Professor! Where would a tech savvy guy go for shelter?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 897,
+                    "name": "The Hunt Begins",
+                    "description": "You have to find The Professor! Where would a tech savvy guy go for shelter?",
+                    "complete": "You don't remember anyone new in Falconreach... but lost people tend to be in the last place you look!",
+                    "swf": "towns\/Atrea\/quest3-huntbegins.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire monsters",
+                    "monsterGroupSwf": "mset-F13-risingfire-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

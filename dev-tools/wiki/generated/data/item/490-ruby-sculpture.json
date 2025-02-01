@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "490-ruby-sculpture",
+        "fullSlug": "items\/490-ruby-sculpture",
+        "id": 490,
+        "name": "Ruby Sculpture",
+        "description": "This sculpture should be worth quite a bit! It is in the shape of a dragon being ridden by a woman in armor and made completely of polished ruby!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 490,
+            "name": "Ruby Sculpture",
+            "description": "This sculpture should be worth quite a bit! It is in the shape of a dragon being ridden by a woman in armor and made completely of polished ruby!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 5,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "59-the-vurrmen-ruins": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "59-the-vurrmen-ruins",
+                "fullSlug": "quests\/59-the-vurrmen-ruins",
+                "id": 59,
+                "name": "The VurrMen Ruins",
+                "description": "These ruins once stood tall and proud, but all things change. Hundreds of years have passed and the ruins of the great city are now infested with VurrMen and Tuskmongers, drawn by the many mysterious objects that can still be found here."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 59,
+                    "name": "The VurrMen Ruins",
+                    "description": "These ruins once stood tall and proud, but all things change. Hundreds of years have passed and the ruins of the great city are now infested with VurrMen and Tuskmongers, drawn by the many mysterious objects that can still be found here.",
+                    "complete": "These ruins once stood tall and proud, but all things change. Hundreds of years have passed and the ruins of the great city are now infested with VurrMen and Tuskmongers, drawn by the many mysterious objects that can still be found here.",
+                    "swf": "random\/random-ruins-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "0",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Rats",
+                    "monsterGroupSwf": "mset-oaklore-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "40-scavenger-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "40-scavenger-hunt",
+                "fullSlug": "merge-shops\/40-scavenger-hunt",
+                "id": 40,
+                "name": "Scavenger Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Scavenger Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 683,
+                    "mergeShopId": 40,
+                    "mergeId": 433
+                },
+                "merge": {
+                    "id": 433,
+                    "itemId1": 1419,
+                    "amount1": 10,
+                    "itemId2": 490,
+                    "amount2": 2,
+                    "itemId": 1759,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

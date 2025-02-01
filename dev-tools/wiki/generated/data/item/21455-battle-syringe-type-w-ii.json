@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21455-battle-syringe-type-w-ii",
+        "fullSlug": "items\/21455-battle-syringe-type-w-ii",
+        "id": 21455,
+        "name": "Battle Syringe Type W II",
+        "description": "From the laboratory of Infinite Terror comes a prototype syringe that has been adapted for battle purposes! Please note: The liquid inside is not intended for hero consumption."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21455,
+            "name": "Battle Syringe Type W II",
+            "description": "From the laboratory of Infinite Terror comes a prototype syringe that has been adapted for battle purposes! Please note: The liquid inside is not intended for hero consumption.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 50,
+            "level": 20,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-syringe.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 80,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,2,Darkness,2"
+        }
+    },
+    "related": {
+        "771-ls-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "771-ls-loot-for-dcs",
+                "fullSlug": "item-shops\/771-ls-loot-for-dcs",
+                "id": 771,
+                "name": "LS Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 771,
+                    "name": "LS Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

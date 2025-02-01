@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2116-dread-bandit-s-sword",
+        "fullSlug": "items\/2116-dread-bandit-s-sword",
+        "id": 2116,
+        "name": "Dread Bandit's Sword",
+        "description": "This item requires a Dragon Amulet. You could always try dueling him left-handed. Or is that INCONCEIVABLE?!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2116,
+            "name": "Dread Bandit's Sword",
+            "description": "This item requires a Dragon Amulet. You could always try dueling him left-handed. Or is that INCONCEIVABLE?!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 32,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-cyrano4.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 66,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "87-bandit-loot": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "87-bandit-loot",
+                "fullSlug": "item-shops\/87-bandit-loot",
+                "id": 87,
+                "name": "Bandit Loot",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 87,
+                    "name": "Bandit Loot",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

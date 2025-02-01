@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22001-crown-of-the-core-i",
+        "fullSlug": "items\/22001-crown-of-the-core-i",
+        "id": 22001,
+        "name": "Crown of the Core I",
+        "description": "Imbued with the Mana Core's power, this crown glows with the might of the unknown. Click to change its appearance!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22001,
+            "name": "Crown of the Core I",
+            "description": "Imbued with the Mana Core's power, this crown glows with the might of the unknown. Click to change its appearance!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 50,
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/hairhelm-akanthusexalted.swf",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,4"
+        }
+    },
+    "related": {
+        "421-yeden-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "421-yeden-upgrades",
+                "fullSlug": "merge-shops\/421-yeden-upgrades",
+                "id": 421,
+                "name": "Yeden Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 421,
+                    "name": "Yeden Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4354,
+                    "mergeShopId": 421,
+                    "mergeId": 4383
+                },
+                "merge": {
+                    "id": 4383,
+                    "itemId1": 21867,
+                    "amount1": 1,
+                    "itemId2": 22012,
+                    "amount2": 1,
+                    "itemId": 22001,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

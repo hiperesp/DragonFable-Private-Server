@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18951-chibi-greed",
+        "fullSlug": "items\/18951-chibi-greed",
+        "id": 18951,
+        "name": "Chibi Greed",
+        "description": "This mini Greed will watch over your shoulder as you take what's yours! Hopefully it doesn't take its own share of the loot, though. Proof of victory over the Greed challenge fight."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18951,
+            "name": "Chibi Greed",
+            "description": "This mini Greed will watch over your shoulder as you take what's yours! Hopefully it doesn't take its own share of the loot, though. Proof of victory over the Greed challenge fight.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 30,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chibigreed.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "306-greed-merges": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "306-greed-merges",
+                "fullSlug": "merge-shops\/306-greed-merges",
+                "id": 306,
+                "name": "Greed Merges",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 306,
+                    "name": "Greed Merges"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3323,
+                    "mergeShopId": 306,
+                    "mergeId": 3407
+                },
+                "merge": {
+                    "id": 3407,
+                    "itemId1": 18949,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 18951,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

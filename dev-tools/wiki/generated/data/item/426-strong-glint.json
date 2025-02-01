@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "426-strong-glint",
+        "fullSlug": "items\/426-strong-glint",
+        "id": 426,
+        "name": "Strong Glint",
+        "description": "This ancient crystalline dagger was recharged by Warlic, after you brought him the crystal shard that he asked for."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 426,
+            "name": "Strong Glint",
+            "description": "This ancient crystalline dagger was recharged by Warlic, after you brought him the crystal shard that he asked for.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 14,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-shimmer.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 26,
+            "damageMax": 44,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "7-warlic-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "7-warlic-s-shop",
+                "fullSlug": "item-shops\/7-warlic-s-shop",
+                "id": 7,
+                "name": "Warlic's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 7,
+                    "name": "Warlic's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

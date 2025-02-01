@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7340-antipode-broadsword-i",
+        "fullSlug": "items\/7340-antipode-broadsword-i",
+        "id": 7340,
+        "name": "Antipode Broadsword I",
+        "description": "The powers of fire and ice are combined into this beautiful weapon to commemorate your victory over Wargoth! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7340,
+            "name": "Antipode Broadsword I",
+            "description": "The powers of fire and ice are combined into this beautiful weapon to commemorate your victory over Wargoth! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 15,
+            "level": 25,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-antipodebroadsword.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 40,
+            "damageMax": 54,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3,Fire,3"
+        }
+    },
+    "related": {
+        "932-the-merge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "932-the-merge",
+                "fullSlug": "quests\/932-the-merge",
+                "id": 932,
+                "name": "The Merge",
+                "description": "The only way to end Wargoth... is to merge him with the Professor!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 932,
+                    "name": "The Merge",
+                    "description": "The only way to end Wargoth... is to merge him with the Professor!",
+                    "complete": "Is the cost of magic too high?",
+                    "swf": "towns\/Atrea\/quest12-merge2-r4.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 0,
+                    "monsterType": "Big Infernal",
+                    "monsterGroupSwf": "mset-wargothtitan.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

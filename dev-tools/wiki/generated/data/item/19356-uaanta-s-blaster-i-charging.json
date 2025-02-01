@@ -1,0 +1,193 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19356-uaanta-s-blaster-i-charging",
+        "fullSlug": "items\/19356-uaanta-s-blaster-i-charging",
+        "id": 19356,
+        "name": "Uaanta's Blaster I (Charging)",
+        "description": "Uaanta gifted this emergency back-up wand to you. With the attachment of a Capacitor Gem, it's starting to charge, but it feels like there are some pieces missing still."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19356,
+            "name": "Uaanta's Blaster I (Charging)",
+            "description": "Uaanta gifted this emergency back-up wand to you. With the attachment of a Capacitor Gem, it's starting to charge, but it feels like there are some pieces missing still.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 15,
+            "level": 20,
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Light,3,Darkness,3"
+        }
+    },
+    "related": {
+        "315-uaanta-s-blaster": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "315-uaanta-s-blaster",
+                "fullSlug": "merge-shops\/315-uaanta-s-blaster",
+                "id": 315,
+                "name": "Uaanta's Blaster",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 315,
+                    "name": "Uaanta's Blaster"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3388,
+                    "mergeShopId": 315,
+                    "mergeId": 3471
+                },
+                "merge": {
+                    "id": 3471,
+                    "itemId1": 18318,
+                    "amount1": 1,
+                    "itemId2": 19360,
+                    "amount2": 1,
+                    "itemId": 19356,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "343-uaanta-s-blaster-amalgam": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "343-uaanta-s-blaster-amalgam",
+                "fullSlug": "merge-shops\/343-uaanta-s-blaster-amalgam",
+                "id": 343,
+                "name": "Uaanta's Blaster Amalgam",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 343,
+                    "name": "Uaanta's Blaster Amalgam"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3592,
+                    "mergeShopId": 343,
+                    "mergeId": 3683
+                },
+                "merge": {
+                    "id": 3683,
+                    "itemId1": 19356,
+                    "amount1": 1,
+                    "itemId2": 20228,
+                    "amount2": 1,
+                    "itemId": 20224,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "354-blaster-reconfiguration": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "354-blaster-reconfiguration",
+                "fullSlug": "merge-shops\/354-blaster-reconfiguration",
+                "id": 354,
+                "name": "Blaster Reconfiguration",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 354,
+                    "name": "Blaster Reconfiguration"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3684,
+                    "mergeShopId": 354,
+                    "mergeId": 3760
+                },
+                "merge": {
+                    "id": 3760,
+                    "itemId1": 20438,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19356,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "355-stability-core-adaptation": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "355-stability-core-adaptation",
+                "fullSlug": "merge-shops\/355-stability-core-adaptation",
+                "id": 355,
+                "name": "Stability Core Adaptation",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 355,
+                    "name": "Stability Core Adaptation"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3691,
+                    "mergeShopId": 355,
+                    "mergeId": 3774
+                },
+                "merge": {
+                    "id": 3774,
+                    "itemId1": 19356,
+                    "amount1": 1,
+                    "itemId2": 20433,
+                    "amount2": 1,
+                    "itemId": 20438,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

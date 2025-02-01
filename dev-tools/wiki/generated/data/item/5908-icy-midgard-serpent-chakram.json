@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5908-icy-midgard-serpent-chakram",
+        "fullSlug": "items\/5908-icy-midgard-serpent-chakram",
+        "id": 5908,
+        "name": "Icy Midgard Serpent Chakram",
+        "description": "When Gotterdammerung happens, the mighty Thor will be brought low by the Midgard Serpent.  Loki crafted this weapon in anticipation of that day. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5908,
+            "name": "Icy Midgard Serpent Chakram",
+            "description": "When Gotterdammerung happens, the mighty Thor will be brought low by the Midgard Serpent.  Loki crafted this weapon in anticipation of that day. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 5,
+            "level": 68,
+            "type": "Pierce",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-chakramTM.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 8,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 8,
+            "damageMin": 72,
+            "damageMax": 94,
+            "defenseMelee": 6,
+            "defensePierce": 0,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,10"
+        }
+    },
+    "related": {
+        "811-ice-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "811-ice-cave",
+                "fullSlug": "quests\/811-ice-cave",
+                "id": 811,
+                "name": "Ice Cave",
+                "description": "This cave is really creepy. What are those figures frozen in ice? What is their relationship to the Khy'Rhian? Most importantly, what does it all MEAN?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 811,
+                    "name": "Ice Cave",
+                    "description": "This cave is really creepy. What are those figures frozen in ice? What is their relationship to the Khy'Rhian? Most importantly, what does it all MEAN?",
+                    "complete": "The passage through the cave was pretty creepy. More disturbing still is what lays ahead. It's time to dig deep and see if the plans of this Nivalis can be discovered.",
+                    "swf": "towns\/StoneheartFall\/quest3-icecave.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice and khyrian",
+                    "monsterGroupSwf": "mset-TMsaga-newhorizon.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18123-luminous-sapphmerald-staff",
+        "fullSlug": "items\/18123-luminous-sapphmerald-staff",
+        "id": 18123,
+        "name": "Luminous Sapphmerald Staff",
+        "description": "You've found this staff in one of Captain Bluesnot's treasure chests. It gleams with brilliant light of the sapphmeralds, from which it's apparently forged. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18123,
+            "name": "Luminous Sapphmerald Staff",
+            "description": "You've found this staff in one of Captain Bluesnot's treasure chests. It gleams with brilliant light of the sapphmeralds, from which it's apparently forged. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 175,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-sapphmerald.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 14,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 8,
+            "damageMin": 79,
+            "damageMax": 97,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "Light,8"
+        }
+    },
+    "related": {
+        "1519-sunken-ship": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1519-sunken-ship",
+                "fullSlug": "quests\/1519-sunken-ship",
+                "id": 1519,
+                "name": "Sunken Ship",
+                "description": "A sunken galleon, full of forgotten treasures... hopefully!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1519,
+                    "name": "Sunken Ship",
+                    "description": "A sunken galleon, full of forgotten treasures... hopefully!",
+                    "complete": "You decide to leave all of these gold piles to future adventures. Let's call it an investment!",
+                    "swf": "towns\/3Ocean\/random-shipwreck-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "undead pirates and slime",
+                    "monsterGroupSwf": "mset-shipwreck.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2499-golden-staph",
+        "fullSlug": "items\/2499-golden-staph",
+        "id": 2499,
+        "name": "Golden Staph",
+        "description": "This disease targets mages.  Maybe higher mana makes them susceptible to it?  This item needs a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2499,
+            "name": "Golden Staph",
+            "description": "This disease targets mages.  Maybe higher mana makes them susceptible to it?  This item needs a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 41,
+            "type": "Magic",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-luke5.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 57,
+            "damageMax": 67,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Poison,-1,Stone,3"
+        }
+    },
+    "related": {
+        "427-ex-machina": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "427-ex-machina",
+                "fullSlug": "quests\/427-ex-machina",
+                "id": 427,
+                "name": "Ex Machina",
+                "description": "All life on Lore will eventually be terminated?!  That must not happen!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 427,
+                    "name": "Ex Machina",
+                    "description": "All life on Lore will eventually be terminated?!  That must not happen!",
+                    "complete": "New email from Rokubot_07: Dave? Hey Dave? Why haven't you been answering my emailz! Daaaaaave!",
+                    "swf": "towns\/Popsprocket\/quest-Yix7.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "undead and darkness",
+                    "monsterGroupSwf": "mset-popsprocket7.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

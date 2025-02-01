@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20317-lagohmcraft-protector-vind-iv",
+        "fullSlug": "items\/20317-lagohmcraft-protector-vind-iv",
+        "id": 20317,
+        "name": "Lagohmcraft Protector (Vind) IV",
+        "description": "With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Vind.This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20317,
+            "name": "Lagohmcraft Protector (Vind) IV",
+            "description": "With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Vind.This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 1,
+            "level": 70,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-Lagohmvind.swf",
+            "icon": "cape",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,5,Health,-7,Energy,7,Darkness,7"
+        }
+    },
+    "related": {
+        "345-vind-backpiece": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "345-vind-backpiece",
+                "fullSlug": "merge-shops\/345-vind-backpiece",
+                "id": 345,
+                "name": "Vind Backpiece",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 345,
+                    "name": "Vind Backpiece"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3598,
+                    "mergeShopId": 345,
+                    "mergeId": 3704
+                },
+                "merge": {
+                    "id": 3704,
+                    "itemId1": 20317,
+                    "amount1": 1,
+                    "itemId2": 19924,
+                    "amount2": 5,
+                    "itemId": 20318,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

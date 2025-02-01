@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14973-dusty-old-book",
+        "fullSlug": "items\/14973-dusty-old-book",
+        "id": 14973,
+        "name": "Dusty Old Book",
+        "description": "An old book titled \"Vegetable Farm\". It seems to be about vegetables taking over a farm and creating a perfect food society. As if that could ever happen!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14973,
+            "name": "Dusty Old Book",
+            "description": "An old book titled \"Vegetable Farm\". It seems to be about vegetables taking over a farm and creating a perfect food society. As if that could ever happen!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Junk",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1316-ration-runner": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1316-ration-runner",
+                "fullSlug": "quests\/1316-ration-runner",
+                "id": 1316,
+                "name": "Ration Runner",
+                "description": "Collect food so the Guardians can restock the larder!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1316,
+                    "name": "Ration Runner",
+                    "description": "Collect food so the Guardians can restock the larder!",
+                    "complete": "What a strange place to get food.",
+                    "swf": "random\/random-rationrun.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "small food",
+                    "monsterGroupSwf": "mset-rationrun.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

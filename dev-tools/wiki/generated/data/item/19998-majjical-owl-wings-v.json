@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19998-majjical-owl-wings-v",
+        "fullSlug": "items\/19998-majjical-owl-wings-v",
+        "id": 19998,
+        "name": "Majjical Owl Wings V",
+        "description": "Silent white wings of overbearing personality, these replica wings were given to you by Majji himself! He seemed to think them the highest honor to repay you. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19998,
+            "name": "Majjical Owl Wings V",
+            "description": "Silent white wings of overbearing personality, these replica wings were given to you by Majji himself! He seemed to think them the highest honor to repay you. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 1,
+            "level": 70,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-majji.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 11,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Nature,10,Silver,10,Water,10"
+        }
+    },
+    "related": {
+        "1758-growing-wiser": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1758-growing-wiser",
+                "fullSlug": "quests\/1758-growing-wiser",
+                "id": 1758,
+                "name": "Growing Wiser",
+                "description": "Time to face Majji!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1758,
+                    "name": "Growing Wiser",
+                    "description": "Time to face Majji!",
+                    "complete": "Look at you! Saving worlds with just ideas!",
+                    "swf": "towns\/Mogloween\/M20\/quest2-growingwiser.swf",
+                    "swfX": "towns\/Mogloween\/M20\/quest2-growingwiser-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "People Eaters & Majji",
+                    "monsterGroupSwf": "mset-majji-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

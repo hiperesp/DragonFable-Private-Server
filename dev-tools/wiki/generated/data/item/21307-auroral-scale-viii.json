@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21307-auroral-scale-viii",
+        "fullSlug": "items\/21307-auroral-scale-viii",
+        "id": 21307,
+        "name": "Auroral Scale VIII",
+        "description": "A shining dragon's scale. Its ethereal shimmer seems unnatural somehow. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21307,
+            "name": "Auroral Scale VIII",
+            "description": "A shining dragon's scale. Its ethereal shimmer seems unnatural somehow. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 5,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Ice,8,Water,8,Fire,8,Health,-5"
+        }
+    },
+    "related": {
+        "2018-snow-and-reign": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2018-snow-and-reign",
+                "fullSlug": "quests\/2018-snow-and-reign",
+                "id": 2018,
+                "name": "Snow and Reign",
+                "description": "This isn't quite the warm reception you were expecting..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2018,
+                    "name": "Snow and Reign",
+                    "description": "This isn't quite the warm reception you were expecting...",
+                    "complete": "Let's get those presents back and save Frostval!",
+                    "swf": "towns\/Frostvale\/F22\/quest1-frostval2022.swf?ver=1",
+                    "swfX": "towns\/Frostvale\/F22\/quest1-frostval2022-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Norhtlnds Creatures",
+                    "monsterGroupSwf": "mset-norhtlandsail.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

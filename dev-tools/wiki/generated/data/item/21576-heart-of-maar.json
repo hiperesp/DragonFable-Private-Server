@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21576-heart-of-maar",
+        "fullSlug": "items\/21576-heart-of-maar",
+        "id": 21576,
+        "name": "Heart of Maar",
+        "description": "A pulsing red crystal, warm to the touch, used to upgrade the Great Dragon's Claw. Proof of victory over Akriloth."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21576,
+            "name": "Heart of Maar",
+            "description": "A pulsing red crystal, warm to the touch, used to upgrade the Great Dragon's Claw. Proof of victory over Akriloth.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redgem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2052-akriloth-the-protector": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2052-akriloth-the-protector",
+                "fullSlug": "quests\/2052-akriloth-the-protector",
+                "id": 2052,
+                "name": "Akriloth, the Protector",
+                "description": "The legendary protector of the volcanic island of Maar, Akriloth! With him are his attendants, DragonLords of a time past..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2052,
+                    "name": "Akriloth, the Protector",
+                    "description": "The legendary protector of the volcanic island of Maar, Akriloth! With him are his attendants, DragonLords of a time past...",
+                    "complete": "And so Akriloth falls. But what of the future?",
+                    "swf": "towns\/TimeArena\/quest1-akriloth.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Akriloth and attendants",
+                    "monsterGroupSwf": "mset-arenaakriloth.swf"
+                }
+            },
+            "related": []
+        },
+        "394-great-dragon-s-claw": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "394-great-dragon-s-claw",
+                "fullSlug": "merge-shops\/394-great-dragon-s-claw",
+                "id": 394,
+                "name": "Great Dragon's Claw",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 394,
+                    "name": "Great Dragon's Claw"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4161,
+                    "mergeShopId": 394,
+                    "mergeId": 4204
+                },
+                "merge": {
+                    "id": 4204,
+                    "itemId1": 21573,
+                    "amount1": 1,
+                    "itemId2": 21576,
+                    "amount2": 1,
+                    "itemId": 21575,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

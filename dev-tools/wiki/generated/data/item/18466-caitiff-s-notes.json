@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18466-caitiff-s-notes",
+        "fullSlug": "items\/18466-caitiff-s-notes",
+        "id": 18466,
+        "name": "Caitiff's Notes",
+        "description": "A single sheet of worn paper with the words \"Falling apart\" scribbled onto it over and over and over. Proof of your victory over Caitiff, the Unsatiated."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18466,
+            "name": "Caitiff's Notes",
+            "description": "A single sheet of worn paper with the words \"Falling apart\" scribbled onto it over and over and over. Proof of your victory over Caitiff, the Unsatiated.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 1,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1558-caitiff": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1558-caitiff",
+                "fullSlug": "quests\/1558-caitiff",
+                "id": 1558,
+                "name": "Caitiff",
+                "description": "Caitiff, the scourge of Falconreach."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1558,
+                    "name": "Caitiff",
+                    "description": "Caitiff, the scourge of Falconreach.",
+                    "complete": "No more knowledge to be gained.",
+                    "swf": "towns\/TimeArena\/quest-caitiff.swf?ver=2",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Seppy and Caitiff",
+                    "monsterGroupSwf": "mset-arenasepcait-r12.swf"
+                }
+            },
+            "related": []
+        },
+        "297-distorted-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "297-distorted-doom",
+                "fullSlug": "merge-shops\/297-distorted-doom",
+                "id": 297,
+                "name": "Distorted Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 297,
+                    "name": "Distorted Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3207,
+                    "mergeShopId": 297,
+                    "mergeId": 3316
+                },
+                "merge": {
+                    "id": 3316,
+                    "itemId1": 18466,
+                    "amount1": 1,
+                    "itemId2": 18467,
+                    "amount2": 1,
+                    "itemId": 18464,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

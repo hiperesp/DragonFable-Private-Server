@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13401-rusted-dragonknight-guard-viii",
+        "fullSlug": "items\/13401-rusted-dragonknight-guard-viii",
+        "id": 13401,
+        "name": "Rusted DragonKnight Guard VIII",
+        "description": "This ancient helm still holds some of the dragon's power inside. It grows slightly warm as you place it on your head. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13401,
+            "name": "Rusted DragonKnight Guard VIII",
+            "description": "This ancient helm still holds some of the dragon's power inside. It grows slightly warm as you place it on your head. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-rusteddragonknight.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,11,Energy,11,Immobility,5,Health,-3"
+        }
+    },
+    "related": {
+        "422-2014-presents": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "422-2014-presents",
+                "fullSlug": "item-shops\/422-2014-presents",
+                "id": 422,
+                "name": "2014 Presents",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 422,
+                    "name": "2014 Presents",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

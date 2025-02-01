@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12784-fur-coat",
+        "fullSlug": "items\/12784-fur-coat",
+        "id": 12784,
+        "name": "Fur Coat",
+        "description": "Fur Coaty"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12784,
+            "name": "Fur Coat",
+            "description": "Fur Coaty",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 12,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-furcoat.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,6,Ice,6"
+        }
+    },
+    "related": {
+        "1198-blood-patrol-werewolves": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1198-blood-patrol-werewolves",
+                "fullSlug": "quests\/1198-blood-patrol-werewolves",
+                "id": 1198,
+                "name": "Blood Patrol: Werewolves",
+                "description": "Magus Neron needs blood and hair samples to study!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1198,
+                    "name": "Blood Patrol: Werewolves",
+                    "description": "Magus Neron needs blood and hair samples to study!",
+                    "complete": "Ugh... hopefully you have enough of those...",
+                    "swf": "towns\/3Amityvale\/quest3-bloodpatrol-were.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Vampires, werewolves, and bats, oh my",
+                    "monsterGroupSwf": "mset-bloodpatrol.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

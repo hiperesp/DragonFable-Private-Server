@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16936-purified-doom-dragon-scales",
+        "fullSlug": "items\/16936-purified-doom-dragon-scales",
+        "id": 16936,
+        "name": "Purified Doom Dragon Scales",
+        "description": "Brilliantly glowing with light, these scales of your dragon seem like something you should hold onto!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16936,
+            "name": "Purified Doom Dragon Scales",
+            "description": "Brilliantly glowing with light, these scales of your dragon seem like something you should hold onto!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 99,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1413-calamity": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1413-calamity",
+                "fullSlug": "quests\/1413-calamity",
+                "id": 1413,
+                "name": "Calamity",
+                "description": "The Doom Amulet has been destroyed, your dragon is still corrupted and you are falling from the sky. Can things get any worse!?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1413,
+                    "name": "Calamity",
+                    "description": "The Doom Amulet has been destroyed, your dragon is still corrupted and you are falling from the sky. Can things get any worse!?",
+                    "complete": "It's... finally over, isn't it?",
+                    "swf": "towns\/10AnnDF\/quest15-finale-r1.swf",
+                    "swfX": "towns\/10AnnDF\/quest15-finale-x-r1.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Caitiff",
+                    "monsterGroupSwf": "mset-finale-caitiff.swf"
+                }
+            },
+            "related": []
+        },
+        "264-weapons-of-hope": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "264-weapons-of-hope",
+                "fullSlug": "merge-shops\/264-weapons-of-hope",
+                "id": 264,
+                "name": "Weapons of Hope",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 264,
+                    "name": "Weapons of Hope"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2942,
+                    "mergeShopId": 264,
+                    "mergeId": 2969
+                },
+                "merge": {
+                    "id": 2969,
+                    "itemId1": 16936,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16961,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

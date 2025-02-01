@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4351-lumina-kria",
+        "fullSlug": "items\/4351-lumina-kria",
+        "id": 4351,
+        "name": "Lumina Kria",
+        "description": "This staff was forged in honor of the Light Lord through the toil and tears of Clyde, luminous weaponcrafter! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4351,
+            "name": "Lumina Kria",
+            "description": "This staff was forged in honor of the Light Lord through the toil and tears of Clyde, luminous weaponcrafter! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 55,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-TMlightstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 65,
+            "damageMax": 80,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Darkness,8,Light,8,Immobility,5"
+        }
+    },
+    "related": {
+        "135-player-suggestion-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "135-player-suggestion-shop",
+                "fullSlug": "item-shops\/135-player-suggestion-shop",
+                "id": 135,
+                "name": "Player Suggestion Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Player Suggestion Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

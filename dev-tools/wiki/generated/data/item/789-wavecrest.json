@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "789-wavecrest",
+        "fullSlug": "items\/789-wavecrest",
+        "id": 789,
+        "name": "Wavecrest",
+        "description": "This item requires a Dragon Amulet. This water weapon was forged from the scales dropped by Cave Hydra during molting. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 789,
+            "name": "Wavecrest",
+            "description": "This item requires a Dragon Amulet. This water weapon was forged from the scales dropped by Cave Hydra during molting. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 7,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-hydra.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 15,
+            "damageMax": 35,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "119-the-hydra-s-lair": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "119-the-hydra-s-lair",
+                "fullSlug": "quests\/119-the-hydra-s-lair",
+                "id": 119,
+                "name": "The Hydra's Lair",
+                "description": "You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 119,
+                    "name": "The Hydra's Lair",
+                    "description": "You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!",
+                    "complete": "The Hydras numbers have been thinned and Oaklore forest is safe from the watery menace for a little while.",
+                    "swf": "random\/random-hydra.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water",
+                    "monsterGroupSwf": "mset-hydracave.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

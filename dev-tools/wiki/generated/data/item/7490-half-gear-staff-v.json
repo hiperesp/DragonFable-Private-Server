@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7490-half-gear-staff-v",
+        "fullSlug": "items\/7490-half-gear-staff-v",
+        "id": 7490,
+        "name": "Half Gear Staff V",
+        "description": "Crafted by gnomish refugees, this weapons has lots of delicate moving parts."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7490,
+            "name": "Half Gear Staff V",
+            "description": "Crafted by gnomish refugees, this weapons has lots of delicate moving parts.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 450,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-steampunk-tori.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 14,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 8,
+            "wisdom": 6,
+            "damageMin": 80,
+            "damageMax": 102,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Fire,6,Water,6,All,6"
+        }
+    },
+    "related": {
+        "277-half-gear-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "277-half-gear-shop",
+                "fullSlug": "item-shops\/277-half-gear-shop",
+                "id": 277,
+                "name": "Half Gear Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 277,
+                    "name": "Half Gear Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

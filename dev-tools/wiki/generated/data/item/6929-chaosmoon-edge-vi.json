@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6929-chaosmoon-edge-vi",
+        "fullSlug": "items\/6929-chaosmoon-edge-vi",
+        "id": 6929,
+        "name": "ChaosMoon Edge VI",
+        "description": "Forged by a Ghostly DragonLord, the blade of the ChaosMoon  is infused with the fire of the once mighty Akriloth."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6929,
+            "name": "ChaosMoon Edge VI",
+            "description": "Forged by a Ghostly DragonLord, the blade of the ChaosMoon  is infused with the fire of the once mighty Akriloth.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 3,
+            "level": 68,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-ChaosMoon.swf",
+            "icon": "sword",
+            "strength": 6,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 3,
+            "damageMin": 70,
+            "damageMax": 88,
+            "defenseMelee": 6,
+            "defensePierce": 4,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,8,Water,3"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1489,
+                    "mergeShopId": 108,
+                    "mergeId": 1402
+                },
+                "merge": {
+                    "id": 1402,
+                    "itemId1": 6929,
+                    "amount1": 1,
+                    "itemId2": 6910,
+                    "amount2": 1,
+                    "itemId": 6930,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

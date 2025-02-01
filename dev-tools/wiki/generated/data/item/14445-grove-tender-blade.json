@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14445-grove-tender-blade",
+        "fullSlug": "items\/14445-grove-tender-blade",
+        "id": 14445,
+        "name": "Grove Tender Blade",
+        "description": "This blade focuses the power of nature itself through it! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14445,
+            "name": "Grove Tender Blade",
+            "description": "This blade focuses the power of nature itself through it! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 70,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Grovebreaker.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 92,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 12,
+            "dodge": 12,
+            "block": 12,
+            "resists": "Nature,6,Darkness,6,Health,-3,Mana,-3"
+        }
+    },
+    "related": {
+        "239-grove-tender": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "239-grove-tender",
+                "fullSlug": "merge-shops\/239-grove-tender",
+                "id": 239,
+                "name": "Grove Tender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 239,
+                    "name": "Grove Tender"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2644,
+                    "mergeShopId": 239,
+                    "mergeId": 2636
+                },
+                "merge": {
+                    "id": 2636,
+                    "itemId1": 14445,
+                    "amount1": 1,
+                    "itemId2": 14457,
+                    "amount2": 1,
+                    "itemId": 14446,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

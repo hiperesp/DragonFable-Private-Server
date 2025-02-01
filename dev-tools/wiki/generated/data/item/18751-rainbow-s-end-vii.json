@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18751-rainbow-s-end-vii",
+        "fullSlug": "items\/18751-rainbow-s-end-vii",
+        "id": 18751,
+        "name": "Rainbow's End VII",
+        "description": "The legendary spear Rainbow's End, found in the ancient forest of Rainbow's End. A fascinating treasure. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18751,
+            "name": "Rainbow's End VII",
+            "description": "The legendary spear Rainbow's End, found in the ancient forest of Rainbow's End. A fascinating treasure. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 15,
+            "level": 70,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-rainbowend.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 67,
+            "damageMax": 93,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 1,
+            "block": 0,
+            "resists": "All,7"
+        }
+    },
+    "related": {
+        "1616-rainbow-s-end": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1616-rainbow-s-end",
+                "fullSlug": "quests\/1616-rainbow-s-end",
+                "id": 1616,
+                "name": "Rainbow's End",
+                "description": "The legendary ancient forest of Rainbow's End! Can you reach the heart of the forest?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1616,
+                    "name": "Rainbow's End",
+                    "description": "The legendary ancient forest of Rainbow's End! Can you reach the heart of the forest?",
+                    "complete": "The treasure of Rainbow's End has been claimed!",
+                    "swf": "towns\/LuckyDay\/Lucky2019\/random-rainbowend.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "gold and colors",
+                    "monsterGroupSwf": "mset-rainbow.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

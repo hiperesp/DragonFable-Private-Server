@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21491-eulin-s-charm-i",
+        "fullSlug": "items\/21491-eulin-s-charm-i",
+        "id": 21491,
+        "name": "Eulin's Charm I",
+        "description": "A dark purple band, set with a small gleaming yellow gem. Oddly enough, you'd swear it emits the faintest scent of pineapple. Proof of victory over Eulin II!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21491,
+            "name": "Eulin's Charm I",
+            "description": "A dark purple band, set with a small gleaming yellow gem. Oddly enough, you'd swear it emits the faintest scent of pineapple. Proof of victory over Eulin II!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 70,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 15,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "390-lagohm-champion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "390-lagohm-champion",
+                "fullSlug": "merge-shops\/390-lagohm-champion",
+                "id": 390,
+                "name": "Lagohm Champion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 390,
+                    "name": "Lagohm Champion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4142,
+                    "mergeShopId": 390,
+                    "mergeId": 4178
+                },
+                "merge": {
+                    "id": 4178,
+                    "itemId1": 21494,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21491,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

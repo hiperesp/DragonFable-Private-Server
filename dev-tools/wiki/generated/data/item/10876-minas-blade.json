@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10876-minas-blade",
+        "fullSlug": "items\/10876-minas-blade",
+        "id": 10876,
+        "name": "Minas Blade",
+        "description": "It's gouda for you! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10876,
+            "name": "Minas Blade",
+            "description": "It's gouda for you! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 35000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-cheesyedge.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 4,
+            "charisma": 7,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Water,9,Darkness,5,Energy,3,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "377-cheese-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "377-cheese-shop",
+                "fullSlug": "item-shops\/377-cheese-shop",
+                "id": 377,
+                "name": "Cheese Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 377,
+                    "name": "Cheese Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

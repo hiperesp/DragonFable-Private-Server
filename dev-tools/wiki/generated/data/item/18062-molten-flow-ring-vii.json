@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18062-molten-flow-ring-vii",
+        "fullSlug": "items\/18062-molten-flow-ring-vii",
+        "id": 18062,
+        "name": "Molten Flow Ring VII",
+        "description": "A thin band of flowing molten magma that rotates slowly around your finger. Despite its appearance, it is cool to the touch. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18062,
+            "name": "Molten Flow Ring VII",
+            "description": "A thin band of flowing molten magma that rotates slowly around your finger. Despite its appearance, it is cool to the touch. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 180,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 0,
+            "level": 75,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 9,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1507-the-price": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1507-the-price",
+                "fullSlug": "quests\/1507-the-price",
+                "id": 1507,
+                "name": "The Price",
+                "description": "How much wood could a hero chuck if a hero could chuck wood?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1507,
+                    "name": "The Price",
+                    "description": "How much wood could a hero chuck if a hero could chuck wood?",
+                    "complete": "Is Timmy the price?",
+                    "swf": "towns\/Nest\/quest3-price.swf",
+                    "swfX": "towns\/Nest\/quest3-price-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Siofra & trees",
+                    "monsterGroupSwf": "mset-price.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

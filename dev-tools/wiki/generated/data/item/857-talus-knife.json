@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "857-talus-knife",
+        "fullSlug": "items\/857-talus-knife",
+        "id": 857,
+        "name": "Talus Knife",
+        "description": "Made of rock, these tough little daggers will tear wind elementals to shreds."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 857,
+            "name": "Talus Knife",
+            "description": "Made of rock, these tough little daggers will tear wind elementals to shreds.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 20,
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-mineearth.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 37,
+            "damageMax": 43,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,4"
+        }
+    },
+    "related": {
+        "26-warlic-s-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "26-warlic-s-shop",
+                "fullSlug": "merge-shops\/26-warlic-s-shop",
+                "id": 26,
+                "name": "Warlic's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 26,
+                    "name": "Warlic's Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 378,
+                    "mergeShopId": 26,
+                    "mergeId": 234
+                },
+                "merge": {
+                    "id": 234,
+                    "itemId1": 839,
+                    "amount1": 1,
+                    "itemId2": 864,
+                    "amount2": 15,
+                    "itemId": 857,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

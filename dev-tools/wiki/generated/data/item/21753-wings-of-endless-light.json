@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21753-wings-of-endless-light",
+        "fullSlug": "items\/21753-wings-of-endless-light",
+        "id": 21753,
+        "name": "Wings of Endless Light",
+        "description": "Shining bright through the dark depths."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21753,
+            "name": "Wings of Endless Light",
+            "description": "Shining bright through the dark depths.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 100,
+            "level": 5,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/cape-lightwingspre.swf",
+            "icon": "wings",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2106-crypt-of-the-lost-order": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2106-crypt-of-the-lost-order",
+                "fullSlug": "quests\/2106-crypt-of-the-lost-order",
+                "id": 2106,
+                "name": "Crypt of the Lost Order",
+                "description": "Delve into the depths of this ancient buried crypt that once secured the dead of a lost Paladin order. Does any trace of their Light remain?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2106,
+                    "name": "Crypt of the Lost Order",
+                    "description": "Delve into the depths of this ancient buried crypt that once secured the dead of a lost Paladin order. Does any trace of their Light remain?",
+                    "complete": "A light in the darkness.",
+                    "swf": "towns\/Braughlmurk\/random-pallycrypt3D.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 300000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Undead",
+                    "monsterGroupSwf": "mset-defiledtomb.swf?ver=1"
+                }
+            },
+            "related": []
+        },
+        "409-eternal-light": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "409-eternal-light",
+                "fullSlug": "merge-shops\/409-eternal-light",
+                "id": 409,
+                "name": "Eternal Light",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 409,
+                    "name": "Eternal Light"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4234,
+                    "mergeShopId": 409,
+                    "mergeId": 4273
+                },
+                "merge": {
+                    "id": 4273,
+                    "itemId1": 21753,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21755,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3494-zardslayer-blade",
+        "fullSlug": "items\/3494-zardslayer-blade",
+        "id": 3494,
+        "name": "Zardslayer Blade",
+        "description": "A sword specially enchanted to take down the rampaging zards!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3494,
+            "name": "Zardslayer Blade",
+            "description": "A sword specially enchanted to take down the rampaging zards!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 345,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 36,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-moonridge.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 49,
+            "damageMax": 71,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,5"
+        }
+    },
+    "related": {
+        "155-zardslayer-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "155-zardslayer-shop",
+                "fullSlug": "item-shops\/155-zardslayer-shop",
+                "id": 155,
+                "name": "ZardSlayer Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 155,
+                    "name": "ZardSlayer Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10100-dragon-s-plume-i",
+        "fullSlug": "items\/10100-dragon-s-plume-i",
+        "id": 10100,
+        "name": "Dragon's Plume I",
+        "description": "Found in a cache of weapons left behind by The Rose after the Siege of Haven, this weapon seems to use have dragon scales in its construction."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10100,
+            "name": "Dragon's Plume I",
+            "description": "Found in a cache of weapons left behind by The Rose after the Siege of Haven, this weapon seems to use have dragon scales in its construction.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1200,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 23,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-rosedrake.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 35,
+            "damageMax": 51,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2"
+        }
+    },
+    "related": {
+        "1055-a-decisive-blow": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1055-a-decisive-blow",
+                "fullSlug": "quests\/1055-a-decisive-blow",
+                "id": 1055,
+                "name": "A Decisive Blow",
+                "description": "With no sign of the siege ending, the Vind must take drastic action against The Rose."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1055,
+                    "name": "A Decisive Blow",
+                    "description": "With no sign of the siege ending, the Vind must take drastic action against The Rose.",
+                    "complete": "With the dravir and clawkin safe at last, what's the next step for the Vind?",
+                    "swf": "towns\/SulenEska\/HavenWar\/quest-drosewar2.swf",
+                    "swfX": "towns\/SulenEska\/HavenWar\/quest-drosewar2-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose and dragon",
+                    "monsterGroupSwf": "mset-rosewarboss-r3.swf?ver1"
+                }
+            },
+            "related": []
+        }
+    }
+}

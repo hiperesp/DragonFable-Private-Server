@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21729-chaotic-cloak",
+        "fullSlug": "items\/21729-chaotic-cloak",
+        "id": 21729,
+        "name": "Chaotic Cloak",
+        "description": "The Chaos Lord Mystic's now dormant cloak. (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21729,
+            "name": "Chaotic Cloak",
+            "description": "The Chaos Lord Mystic's now dormant cloak. (Cosmetic)",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-chaosmage.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "407-aargh-rewards-3": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "407-aargh-rewards-3",
+                "fullSlug": "merge-shops\/407-aargh-rewards-3",
+                "id": 407,
+                "name": "AARGH Rewards 3",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 407,
+                    "name": "AARGH Rewards 3"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4213,
+                    "mergeShopId": 407,
+                    "mergeId": 4253
+                },
+                "merge": {
+                    "id": 4253,
+                    "itemId1": 18514,
+                    "amount1": 25,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21729,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

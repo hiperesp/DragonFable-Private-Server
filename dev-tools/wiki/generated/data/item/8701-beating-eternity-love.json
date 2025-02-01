@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8701-beating-eternity-love",
+        "fullSlug": "items\/8701-beating-eternity-love",
+        "id": 8701,
+        "name": "Beating Eternity Love",
+        "description": "The heart in the center of this scythe beats eternally. Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8701,
+            "name": "Beating Eternity Love",
+            "description": "The heart in the center of this scythe beats eternally. Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 75,
+            "element": "Good",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-eternity love.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 9,
+            "damageMin": 80,
+            "damageMax": 96,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 12,
+            "parry": 3,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Fire,13,Darkness,13,Ice,13,Poison,3,Silver,3,Immobility,7,Health,-3"
+        }
+    },
+    "related": {
+        "130-eternity-love": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "130-eternity-love",
+                "fullSlug": "merge-shops\/130-eternity-love",
+                "id": 130,
+                "name": "Eternity Love",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 130,
+                    "name": "Eternity Love"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1876,
+                    "mergeShopId": 130,
+                    "mergeId": 1780
+                },
+                "merge": {
+                    "id": 1780,
+                    "itemId1": 8701,
+                    "amount1": 1,
+                    "itemId2": 8703,
+                    "amount2": 1,
+                    "itemId": 8702,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

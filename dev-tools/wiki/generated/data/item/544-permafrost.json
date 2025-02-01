@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "544-permafrost",
+        "fullSlug": "items\/544-permafrost",
+        "id": 544,
+        "name": "Permafrost",
+        "description": "The unbreakable ice blade of this mighty axe was carved from a sheet of super-frozen arctic ice."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 544,
+            "name": "Permafrost",
+            "description": "The unbreakable ice blade of this mighty axe was carved from a sheet of super-frozen arctic ice.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 18,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-frost2.swf",
+            "icon": "axe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 13,
+            "damageMax": 70,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,2"
+        }
+    },
+    "related": {
+        "70-well-well-well": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "70-well-well-well",
+                "fullSlug": "quests\/70-well-well-well",
+                "id": 70,
+                "name": "Well, Well, Well.",
+                "description": "Artix's faithful dog Daimyo has lead you to a hilltop well where you hear his masters voice coming from below. You must venture down the well to rescue Artix from a dreaded fate."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 70,
+                    "name": "Well, Well, Well.",
+                    "description": "Artix's faithful dog Daimyo has lead you to a hilltop well where you hear his masters voice coming from below. You must venture down the well to rescue Artix from a dreaded fate.",
+                    "complete": "Apparently, you have saved the captive Artix from becoming the necromancers next victim...sort of.",
+                    "swf": "quests\/quest-wellr2.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 16,
+                    "monsterMaxLevel": 22,
+                    "monsterType": "Darkness,Fire",
+                    "monsterGroupSwf": "mset-skeletons.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

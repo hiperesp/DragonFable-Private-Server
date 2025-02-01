@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10853-harrowing-dagger",
+        "fullSlug": "items\/10853-harrowing-dagger",
+        "id": 10853,
+        "name": "Harrowing Dagger",
+        "description": "A harrowing, sickly green wind envelops the blade of this weapon!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10853,
+            "name": "Harrowing Dagger",
+            "description": "A harrowing, sickly green wind envelops the blade of this weapon!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 25,
+            "level": 1,
+            "type": "Pierce",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-harrowing.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 1,
+            "damageMax": 9,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "376-moglo-13-base": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "376-moglo-13-base",
+                "fullSlug": "item-shops\/376-moglo-13-base",
+                "id": 376,
+                "name": "Moglo 13 Base",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 376,
+                    "name": "Moglo 13 Base",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "182-harrowing-10": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "182-harrowing-10",
+                "fullSlug": "merge-shops\/182-harrowing-10",
+                "id": 182,
+                "name": "Harrowing 10",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 182,
+                    "name": "Harrowing 10"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2157,
+                    "mergeShopId": 182,
+                    "mergeId": 2033
+                },
+                "merge": {
+                    "id": 2033,
+                    "itemId1": 10853,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10854,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

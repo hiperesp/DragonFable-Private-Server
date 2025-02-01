@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15441-lunar-coins",
+        "fullSlug": "items\/15441-lunar-coins",
+        "id": 15441,
+        "name": "Lunar Coins",
+        "description": "Start off the Year of the Monkey right with these lucky Lunar Coins!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15441,
+            "name": "Lunar Coins",
+            "description": "Start off the Year of the Monkey right with these lucky Lunar Coins!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 100,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-lunarcoins.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Darkness,3,Wind,1"
+        }
+    },
+    "related": {
+        "489-lunar-new-year": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "489-lunar-new-year",
+                "fullSlug": "item-shops\/489-lunar-new-year",
+                "id": 489,
+                "name": "Lunar New Year",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 489,
+                    "name": "Lunar New Year",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21853-petal-of-maar-i",
+        "fullSlug": "items\/21853-petal-of-maar-i",
+        "id": 21853,
+        "name": "Petal of Maar I",
+        "description": "A relic from Maar passed down through generations. Reforged by The Rose in pursuit of Lore's salvation."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21853,
+            "name": "Petal of Maar I",
+            "description": "A relic from Maar passed down through generations. Reforged by The Rose in pursuit of Lore's salvation.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ahimsatipu.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 65,
+            "damageMax": 71,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Bacon,5,Fire,5,Metal,5,Health,-5"
+        }
+    },
+    "related": {
+        "2122-at-fissure-s-edge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2122-at-fissure-s-edge",
+                "fullSlug": "quests\/2122-at-fissure-s-edge",
+                "id": 2122,
+                "name": "At Fissure's Edge",
+                "description": "With The Rose encampment breached, it's up to you to clear the way in pursuit of Jaania and Akanthus."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2122,
+                    "name": "At Fissure's Edge",
+                    "description": "With The Rose encampment breached, it's up to you to clear the way in pursuit of Jaania and Akanthus.",
+                    "complete": "The descent into the Fissure awaits.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest16-ahimsatipu.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/Convergence\/quest16-ahimsatipu-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Rose Encampment",
+                    "monsterGroupSwf": "mset-fissurerose.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

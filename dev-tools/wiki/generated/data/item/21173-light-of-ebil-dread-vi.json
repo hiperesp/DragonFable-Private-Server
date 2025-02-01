@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21173-light-of-ebil-dread-vi",
+        "fullSlug": "items\/21173-light-of-ebil-dread-vi",
+        "id": 21173,
+        "name": "Light of Ebil Dread VI",
+        "description": "The Book of Ebil Dread conjured up this replica of Artix's legendary axe! Left behind by Undead Artix, it's now yours to keep. Boosts the power of your non-critical hits by 5%!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21173,
+            "name": "Light of Ebil Dread VI",
+            "description": "The Book of Ebil Dread conjured up this replica of Artix's legendary axe! Left behind by Undead Artix, it's now yours to keep. Boosts the power of your non-critical hits by 5%!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 14,
+            "rarity": 0,
+            "level": 60,
+            "element": "Ebil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ebildread.swf",
+            "icon": "scythe",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": -14,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 70,
+            "damageMax": 80,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 0,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "All,5,Health,-1"
+        }
+    },
+    "related": {
+        "377-ebil-finale": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "377-ebil-finale",
+                "fullSlug": "merge-shops\/377-ebil-finale",
+                "id": 377,
+                "name": "Ebil Finale",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 377,
+                    "name": "Ebil Finale"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3942,
+                    "mergeShopId": 377,
+                    "mergeId": 4055
+                },
+                "merge": {
+                    "id": 4055,
+                    "itemId1": 21173,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 30,
+                    "itemId": 21174,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

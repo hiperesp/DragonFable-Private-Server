@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10887-roumy-cloak",
+        "fullSlug": "items\/10887-roumy-cloak",
+        "id": 10887,
+        "name": "Roumy Cloak",
+        "description": "It's gouda for you! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10887,
+            "name": "Roumy Cloak",
+            "description": "It's gouda for you! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 71,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-cheesy.swf",
+            "icon": "cape",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 7,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Energy,10,Wind,5,Water,5,All,2"
+        }
+    },
+    "related": {
+        "377-cheese-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "377-cheese-shop",
+                "fullSlug": "item-shops\/377-cheese-shop",
+                "id": 377,
+                "name": "Cheese Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 377,
+                    "name": "Cheese Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

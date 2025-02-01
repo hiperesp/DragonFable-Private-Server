@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5697-gabriel-s-honor",
+        "fullSlug": "items\/5697-gabriel-s-honor",
+        "id": 5697,
+        "name": "Gabriel's Honor",
+        "description": "A gift from the heavens, this sword is blessed and is intended to be used to stave off the darkness."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5697,
+            "name": "Gabriel's Honor",
+            "description": "A gift from the heavens, this sword is blessed and is intended to be used to stave off the darkness.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 35,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-GabrielsStrengthV2.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 46,
+            "damageMax": 66,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Fire,3,Evil,1,Immobility,1"
+        }
+    },
+    "related": {
+        "798-the-necrotic-generals": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "798-the-necrotic-generals",
+                "fullSlug": "quests\/798-the-necrotic-generals",
+                "id": 798,
+                "name": "The Necrotic Generals",
+                "description": "The four undead necromancers that been shaping Sepulchure's army have to be taken down!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 798,
+                    "name": "The Necrotic Generals",
+                    "description": "The four undead necromancers that been shaping Sepulchure's army have to be taken down!",
+                    "complete": "The necromancers are finally defeated. They won't be resurrecting more dead for the darkness any longer.",
+                    "swf": "towns\/Chap1Finale\/quest-thefinal13th-necroboss.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "undead",
+                    "monsterGroupSwf": "mset-fournecros.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

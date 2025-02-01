@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "821-spider-slayer-sword-ii",
+        "fullSlug": "items\/821-spider-slayer-sword-ii",
+        "id": 821,
+        "name": "Spider Slayer Sword II",
+        "description": "This magical blade is the bane of bugs everywhere. When it senses a bug as its target, it transforms into a bug crushing blade of destruction and deals extra damage. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 821,
+            "name": "Spider Slayer Sword II",
+            "description": "This magical blade is the bane of bugs everywhere. When it senses a bug as its target, it transforms into a bug crushing blade of destruction and deals extra damage. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 15,
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-spiderslayer-r1.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 38,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,10"
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 178,
+                    "mergeShopId": 4,
+                    "mergeId": 203
+                },
+                "merge": {
+                    "id": 203,
+                    "itemId1": 818,
+                    "amount1": 1,
+                    "itemId2": 830,
+                    "amount2": 5,
+                    "itemId": 821,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

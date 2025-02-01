@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7694-dark-justicar",
+        "fullSlug": "items\/7694-dark-justicar",
+        "id": 7694,
+        "name": "Dark Justicar",
+        "description": "A lithe blade crafted from silver to celebrate Black Friday!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7694,
+            "name": "Dark Justicar",
+            "description": "A lithe blade crafted from silver to celebrate Black Friday!\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 30000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-blackjusticar.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Poison,9,Darkness,5,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "283-black-friday-12": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "283-black-friday-12",
+                "fullSlug": "item-shops\/283-black-friday-12",
+                "id": 283,
+                "name": "Black Friday 12",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 283,
+                    "name": "Black Friday 12",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

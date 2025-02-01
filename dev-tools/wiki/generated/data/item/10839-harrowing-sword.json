@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10839-harrowing-sword",
+        "fullSlug": "items\/10839-harrowing-sword",
+        "id": 10839,
+        "name": "Harrowing Sword",
+        "description": "A harrowing, sickly green wind envelops the blade of this weapon! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10839,
+            "name": "Harrowing Sword",
+            "description": "A harrowing, sickly green wind envelops the blade of this weapon! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 55,
+            "level": 78,
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-harrowing.swf",
+            "icon": "sword",
+            "strength": 13,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 100,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Stone,11,Darkness,11,Wind,9,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "191-harrowing-78": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "191-harrowing-78",
+                "fullSlug": "merge-shops\/191-harrowing-78",
+                "id": 191,
+                "name": "Harrowing 78",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 191,
+                    "name": "Harrowing 78"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2191,
+                    "mergeShopId": 191,
+                    "mergeId": 2020
+                },
+                "merge": {
+                    "id": 2020,
+                    "itemId1": 10838,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10839,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "192-harrowing-80": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "192-harrowing-80",
+                "fullSlug": "merge-shops\/192-harrowing-80",
+                "id": 192,
+                "name": "Harrowing 80",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 192,
+                    "name": "Harrowing 80"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2195,
+                    "mergeShopId": 192,
+                    "mergeId": 2021
+                },
+                "merge": {
+                    "id": 2021,
+                    "itemId1": 10839,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 10840,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

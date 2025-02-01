@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7520-gnomish-glory-v",
+        "fullSlug": "items\/7520-gnomish-glory-v",
+        "id": 7520,
+        "name": "Gnomish Glory V",
+        "description": "A gorgeous example of gnomish science... or is it magic? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7520,
+            "name": "Gnomish Glory V",
+            "description": "A gorgeous example of gnomish science... or is it magic? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 12500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-suggestiveglory.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 8,
+            "damageMin": 75,
+            "damageMax": 99,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 8,
+            "parry": 2,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Energy,6,Water,6,Stone,6"
+        }
+    },
+    "related": {
+        "952-popsmashed": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "952-popsmashed",
+                "fullSlug": "quests\/952-popsmashed",
+                "id": 952,
+                "name": "Popsmashed",
+                "description": "Save Sweeny! Can you find out what happened to Yix?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 952,
+                    "name": "Popsmashed",
+                    "description": "Save Sweeny! Can you find out what happened to Yix?!",
+                    "complete": "You found Sweeny, but there is no sign of Yix in what remains of the city!",
+                    "swf": "towns\/3Popsprocket\/quest-popsmash-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "mech",
+                    "monsterGroupSwf": "mset-popsmash-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

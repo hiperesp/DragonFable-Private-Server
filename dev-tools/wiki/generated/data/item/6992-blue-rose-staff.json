@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6992-blue-rose-staff",
+        "fullSlug": "items\/6992-blue-rose-staff",
+        "id": 6992,
+        "name": "Blue Rose Staff",
+        "description": "The flowers on this staff are created from elemental essences."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6992,
+            "name": "Blue Rose Staff",
+            "description": "The flowers on this staff are created from elemental essences.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 49,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bluerose.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 56,
+            "damageMax": 78,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Energy,5"
+        }
+    },
+    "related": {
+        "110-ele-essences": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "110-ele-essences",
+                "fullSlug": "merge-shops\/110-ele-essences",
+                "id": 110,
+                "name": "Ele Essences",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 110,
+                    "name": "Ele Essences"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1551,
+                    "mergeShopId": 110,
+                    "mergeId": 1416
+                },
+                "merge": {
+                    "id": 1416,
+                    "itemId1": 864,
+                    "amount1": 15,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6992,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

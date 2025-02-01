@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9067-golden-phoenix-wings-v",
+        "fullSlug": "items\/9067-golden-phoenix-wings-v",
+        "id": 9067,
+        "name": "Golden Phoenix Wings V",
+        "description": "Turned into gold by the sneevilchauns during Lucky 13 these phoenix wings are still incredibly light."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9067,
+            "name": "Golden Phoenix Wings V",
+            "description": "Turned into gold by the sneevilchauns during Lucky 13 these phoenix wings are still incredibly light.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 71,
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-goldenphoenix2.swf",
+            "icon": "wings",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,6,Metal,5,Water,4,Immobility,1"
+        }
+    },
+    "related": {
+        "132-lucky-13-chest-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "132-lucky-13-chest-items",
+                "fullSlug": "merge-shops\/132-lucky-13-chest-items",
+                "id": 132,
+                "name": "Lucky 13 Chest Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 132,
+                    "name": "Lucky 13 Chest Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1904,
+                    "mergeShopId": 132,
+                    "mergeId": 1810
+                },
+                "merge": {
+                    "id": 1810,
+                    "itemId1": 9067,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9068,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

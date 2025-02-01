@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21633-shadecloak-of-the-emperor-vi",
+        "fullSlug": "items\/21633-shadecloak-of-the-emperor-vi",
+        "id": 21633,
+        "name": "Shadecloak of the Emperor VI",
+        "description": "Manifested as part of Sirius' fears, this cloak somehow remains even after its owner was defeated. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21633,
+            "name": "Shadecloak of the Emperor VI",
+            "description": "Manifested as part of Sirius' fears, this cloak somehow remains even after its owner was defeated. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 1,
+            "level": 80,
+            "type": "Melee",
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-fearemp.swf",
+            "icon": "cape",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 4,
+            "parry": 9,
+            "dodge": 9,
+            "block": 9,
+            "resists": "All,6,Evil,-5,Good,-5"
+        }
+    },
+    "related": {
+        "2066-across-the-fearscape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2066-across-the-fearscape",
+                "fullSlug": "quests\/2066-across-the-fearscape",
+                "id": 2066,
+                "name": "Across the Fearscape",
+                "description": "Sirius has discovered a light at the end of the tunnel... One final Fearscape remains."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2066,
+                    "name": "Across the Fearscape",
+                    "description": "Sirius has discovered a light at the end of the tunnel... One final Fearscape remains.",
+                    "complete": "The Aker'varus is here.",
+                    "swf": "towns\/3Falconreach\/Fear\/quest6-across.swf",
+                    "swfX": "towns\/3Falconreach\/Fear\/quest6-across-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fears and Kass",
+                    "monsterGroupSwf": "mset-fearengine.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

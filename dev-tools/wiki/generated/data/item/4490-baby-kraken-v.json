@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4490-baby-kraken-v",
+        "fullSlug": "items\/4490-baby-kraken-v",
+        "id": 4490,
+        "name": "Baby Kraken V",
+        "description": "You didn't know the Kraken in \"The Dragon's Secret\" was a mommy-kraken, DID YOU?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4490,
+            "name": "Baby Kraken V",
+            "description": "You didn't know the Kraken in \"The Dragon's Secret\" was a mommy-kraken, DID YOU?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 77,
+            "level": 50,
+            "element": "Water",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-BabyKraken.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 15,
+            "damageMax": 23,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "75-baby-kraken-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "75-baby-kraken-shop",
+                "fullSlug": "merge-shops\/75-baby-kraken-shop",
+                "id": 75,
+                "name": "Baby Kraken Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 75,
+                    "name": "Baby Kraken Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1101,
+                    "mergeShopId": 75,
+                    "mergeId": 817
+                },
+                "merge": {
+                    "id": 817,
+                    "itemId1": 4490,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4491,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

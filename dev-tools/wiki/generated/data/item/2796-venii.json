@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2796-venii",
+        "fullSlug": "items\/2796-venii",
+        "id": 2796,
+        "name": "Venii",
+        "description": "This dagger is covered in miniscule droplets of poison, a deadly trap for any enemy you decide to attack! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2796,
+            "name": "Venii",
+            "description": "This dagger is covered in miniscule droplets of poison, a deadly trap for any enemy you decide to attack! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-skywalker.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 58,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,water,3"
+        }
+    },
+    "related": {
+        "484-head-in-the-clouds": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "484-head-in-the-clouds",
+                "fullSlug": "quests\/484-head-in-the-clouds",
+                "id": 484,
+                "name": "Head In the Clouds",
+                "description": "Helping to train a gryphon shouldnt be THIS dangerous!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 484,
+                    "name": "Head In the Clouds",
+                    "description": "Helping to train a gryphon shouldnt be THIS dangerous!",
+                    "complete": "Helping to train a gryphon shouldnt get you this wet, either! Little Stewie Gryphon says: Victory is mine! Raaaaawck!",
+                    "swf": "quests\/quest-skywalker-fallentower.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "air and storm",
+                    "monsterGroupSwf": "mset-skywalker.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

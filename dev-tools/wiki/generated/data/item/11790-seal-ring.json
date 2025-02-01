@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11790-seal-ring",
+        "fullSlug": "items\/11790-seal-ring",
+        "id": 11790,
+        "name": "Seal Ring",
+        "description": "This ring has been used by mages to seal the letters they send, the ring absorbed some of their powers."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11790,
+            "name": "Seal Ring",
+            "description": "This ring has been used by mages to seal the letters they send, the ring absorbed some of their powers.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 17,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 2,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Fire,5,Light,3"
+        }
+    },
+    "related": {
+        "1148-the-spam-fighters": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1148-the-spam-fighters",
+                "fullSlug": "quests\/1148-the-spam-fighters",
+                "id": 1148,
+                "name": "The Spam Fighters",
+                "description": "Time to get your mail!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1148,
+                    "name": "The Spam Fighters",
+                    "description": "Time to get your mail!",
+                    "complete": "Letters to Ash, Aria, and Serenity, but none for you! Aww...",
+                    "swf": "towns\/Ash\/quest-spam.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Bugs",
+                    "monsterGroupSwf": "mset-spam-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

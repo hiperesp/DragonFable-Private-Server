@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19845-wargoth-s-forged-visage-iii",
+        "fullSlug": "items\/19845-wargoth-s-forged-visage-iii",
+        "id": 19845,
+        "name": "Wargoth's Forged Visage III",
+        "description": "The remains of Wargoth, but different. From another time or place, perhaps? Burns bright all the same. Proof of victory over Wargoth!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19845,
+            "name": "Wargoth's Forged Visage III",
+            "description": "The remains of Wargoth, but different. From another time or place, perhaps? Burns bright all the same. Proof of victory over Wargoth!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-arenawargoth.swf",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,4,Health,-8,Immobility,4"
+        }
+    },
+    "related": {
+        "327-fractured-self": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "327-fractured-self",
+                "fullSlug": "merge-shops\/327-fractured-self",
+                "id": 327,
+                "name": "Fractured Self",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 327,
+                    "name": "Fractured Self"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3473,
+                    "mergeShopId": 327,
+                    "mergeId": 3562
+                },
+                "merge": {
+                    "id": 3562,
+                    "itemId1": 19843,
+                    "amount1": 1,
+                    "itemId2": 19847,
+                    "amount2": 1,
+                    "itemId": 19845,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

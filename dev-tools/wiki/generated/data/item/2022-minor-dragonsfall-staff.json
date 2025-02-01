@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2022-minor-dragonsfall-staff",
+        "fullSlug": "items\/2022-minor-dragonsfall-staff",
+        "id": 2022,
+        "name": "Minor Dragonsfall Staff",
+        "description": "A staff carried by the lizardmen of Dragonsfall Woods."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2022,
+            "name": "Minor Dragonsfall Staff",
+            "description": "A staff carried by the lizardmen of Dragonsfall Woods.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 10,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-randorred.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 20,
+            "damageMax": 34,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,1"
+        }
+    },
+    "related": {
+        "308-dragonsfall": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "308-dragonsfall",
+                "fullSlug": "quests\/308-dragonsfall",
+                "id": 308,
+                "name": "Dragonsfall",
+                "description": "Ash has sent you to Dragonsfall Woods to defeat the lizard men and their pet drakes."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 308,
+                    "name": "Dragonsfall",
+                    "description": "Ash has sent you to Dragonsfall Woods to defeat the lizard men and their pet drakes.",
+                    "complete": "You've defeated the lizard men and thinned the population of drakes, keeping Surewood safe from flames.... for now.",
+                    "swf": "random\/random-dragonsfall-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "lizards and drakes",
+                    "monsterGroupSwf": "mset-dragonsfallr2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

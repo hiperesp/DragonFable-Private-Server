@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12735-paladin-staff",
+        "fullSlug": "items\/12735-paladin-staff",
+        "id": 12735,
+        "name": "Paladin Staff",
+        "description": "This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12735,
+            "name": "Paladin Staff",
+            "description": "This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 43,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-PaladinRevamp.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 54,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Darkness,3,Health,-1"
+        }
+    },
+    "related": {
+        "416-paladin-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "416-paladin-items",
+                "fullSlug": "item-shops\/416-paladin-items",
+                "id": 416,
+                "name": "Paladin Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 416,
+                    "name": "Paladin Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

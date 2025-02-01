@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10354-staff-of-mana",
+        "fullSlug": "items\/10354-staff-of-mana",
+        "id": 10354,
+        "name": "Staff of Mana",
+        "description": "Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10354,
+            "name": "Staff of Mana",
+            "description": "Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 35,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-mana.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 2,
+            "charisma": 6,
+            "endurance": 1,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Energy,9,Darkness,5,Immobility,3,Health,-2"
+        }
+    },
+    "related": {
+        "363-mana-weapons-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "363-mana-weapons-dc",
+                "fullSlug": "item-shops\/363-mana-weapons-dc",
+                "id": 363,
+                "name": "Mana Weapons DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 363,
+                    "name": "Mana Weapons DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

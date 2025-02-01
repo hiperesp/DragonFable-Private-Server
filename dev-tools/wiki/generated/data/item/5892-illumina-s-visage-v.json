@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5892-illumina-s-visage-v",
+        "fullSlug": "items\/5892-illumina-s-visage-v",
+        "id": 5892,
+        "name": "Illumina's Visage V",
+        "description": "Light gleams on the surface of this golden helm.\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5892,
+            "name": "Illumina's Visage V",
+            "description": "Light gleams on the surface of this golden helm.\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-IlluminasVisage.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 3,
+            "block": 0,
+            "resists": "Darkness,6"
+        }
+    },
+    "related": {
+        "810-new-horizon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "810-new-horizon",
+                "fullSlug": "quests\/810-new-horizon",
+                "id": 810,
+                "name": "New Horizon",
+                "description": "This pass through a ravine to the east leads somewhere important by the looks of things.  It's time to find out where it leads."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 810,
+                    "name": "New Horizon",
+                    "description": "This pass through a ravine to the east leads somewhere important by the looks of things.  It's time to find out where it leads.",
+                    "complete": "The passage is heavily guarded so it obviously leads somewhere important.  I wonder what's behind the door.",
+                    "swf": "towns\/StoneheartFall\/quest2-NewHorizon.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice and khyrian",
+                    "monsterGroupSwf": "mset-TMsaga-newhorizon.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

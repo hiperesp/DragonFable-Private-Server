@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3524-ebony-and-roses-ii",
+        "fullSlug": "items\/3524-ebony-and-roses-ii",
+        "id": 3524,
+        "name": "Ebony and Roses II",
+        "description": "Be sure to clean the monster blood off this scythe's blade, or it will rust!  Love is a battlefield!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3524,
+            "name": "Ebony and Roses II",
+            "description": "Be sure to clean the monster blood off this scythe's blade, or it will rust!  Love is a battlefield!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 15,
+            "level": 40,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-HHD10.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 3,
+            "damageMin": 50,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,7"
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 806,
+                    "mergeShopId": 53,
+                    "mergeId": 643
+                },
+                "merge": {
+                    "id": 643,
+                    "itemId1": 707,
+                    "amount1": 12,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 3524,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

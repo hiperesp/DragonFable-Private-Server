@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6515-purified-guard-s-blade-ii",
+        "fullSlug": "items\/6515-purified-guard-s-blade-ii",
+        "id": 6515,
+        "name": "Purified Guard's Blade II",
+        "description": "An enchanted weapon forged by Anders, the blacksmith, and purified by the paladin, Dracelix."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6515,
+            "name": "Purified Guard's Blade II",
+            "description": "An enchanted weapon forged by Anders, the blacksmith, and purified by the paladin, Dracelix.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 40,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-purified.swf",
+            "icon": "sword",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 0,
+            "wisdom": 3,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Ice,3"
+        }
+    },
+    "related": {
+        "103-purified-weapons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "103-purified-weapons",
+                "fullSlug": "merge-shops\/103-purified-weapons",
+                "id": 103,
+                "name": "Purified Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 103,
+                    "name": "Purified Weapons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1439,
+                    "mergeShopId": 103,
+                    "mergeId": 1322
+                },
+                "merge": {
+                    "id": 1322,
+                    "itemId1": 6241,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6515,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4425-lim-hair-i",
+        "fullSlug": "items\/4425-lim-hair-i",
+        "id": 4425,
+        "name": "Lim Hair I",
+        "description": "Lim has a MAGNIFICENT beard, and his hair color is pretty spiffy, too! Now YOU can share in that glorious follicle-fun!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4425,
+            "name": "Lim Hair I",
+            "description": "Lim has a MAGNIFICENT beard, and his hair color is pretty spiffy, too! Now YOU can share in that glorious follicle-fun!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 18,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-LimM.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,1,Ice,1,Stone,1,SCIENCE,1"
+        }
+    },
+    "related": {
+        "72-science-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "72-science-rewards",
+                "fullSlug": "merge-shops\/72-science-rewards",
+                "id": 72,
+                "name": "Science Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 72,
+                    "name": "Science Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1072,
+                    "mergeShopId": 72,
+                    "mergeId": 783
+                },
+                "merge": {
+                    "id": 783,
+                    "itemId1": 4406,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4425,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11924-kamillia",
+        "fullSlug": "items\/11924-kamillia",
+        "id": 11924,
+        "name": "Kamillia",
+        "description": "Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11924,
+            "name": "Kamillia",
+            "description": "Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-sofist.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 1,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,5,Darkness,3,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "403-runed-fortress": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "403-runed-fortress",
+                "fullSlug": "item-shops\/403-runed-fortress",
+                "id": 403,
+                "name": "Runed Fortress",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 403,
+                    "name": "Runed Fortress",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

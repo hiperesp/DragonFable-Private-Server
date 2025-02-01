@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4346-professional-boxing-ring",
+        "fullSlug": "items\/4346-professional-boxing-ring",
+        "id": 4346,
+        "name": "Professional Boxing Ring",
+        "description": "This ring was found in a Sneevil camp...and it still smells like it. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4346,
+            "name": "Professional Boxing Ring",
+            "description": "This ring was found in a Sneevil camp...and it still smells like it. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 1,
+            "level": 55,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Nature,5,Health,-3"
+        }
+    },
+    "related": {
+        "667-resident-sneevil-outbreak": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "667-resident-sneevil-outbreak",
+                "fullSlug": "quests\/667-resident-sneevil-outbreak",
+                "id": 667,
+                "name": "Resident Sneevil: Outbreak",
+                "description": "The Zardhunter and Aria need your help in capturing a live zard!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 667,
+                    "name": "Resident Sneevil: Outbreak",
+                    "description": "The Zardhunter and Aria need your help in capturing a live zard!",
+                    "complete": "This is definitely not good....",
+                    "swf": "towns\/Mogloween\/M10\/quest-m1-outbreak.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Zards!",
+                    "monsterGroupSwf": "mset-zardsr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

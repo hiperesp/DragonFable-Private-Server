@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12278-green-head",
+        "fullSlug": "items\/12278-green-head",
+        "id": 12278,
+        "name": "Green Head",
+        "description": "A mask in a shape of Green's head, one of Aspar's minions. He symbolized wisdom. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12278,
+            "name": "Green Head",
+            "description": "A mask in a shape of Green's head, one of Aspar's minions. He symbolized wisdom. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-green.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 2,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Ice,6,Water,3"
+        }
+    },
+    "related": {
+        "1167-through-the-door": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1167-through-the-door",
+                "fullSlug": "quests\/1167-through-the-door",
+                "id": 1167,
+                "name": "Through the Door",
+                "description": "The doors are open! One step closer to reaching Aspar!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1167,
+                    "name": "Through the Door",
+                    "description": "The doors are open! One step closer to reaching Aspar!",
+                    "complete": "To be continued!",
+                    "swf": "towns\/3Ravenloss\/VoidWar\/quest-door-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Red, Blue, and Green",
+                    "monsterGroupSwf": "mset-voidwarboss.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

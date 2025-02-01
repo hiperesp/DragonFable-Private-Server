@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17945-void-chitin-band-iv",
+        "fullSlug": "items\/17945-void-chitin-band-iv",
+        "id": 17945,
+        "name": "Void Chitin Band IV",
+        "description": "Carved from the chitinous armor of a primordial being, this ring wraps almost too tightly around your finger. Almost. Proof of your victory over the Simulacrum of Uthuluc."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17945,
+            "name": "Void Chitin Band IV",
+            "description": "Carved from the chitinous armor of a primordial being, this ring wraps almost too tightly around your finger. Almost. Proof of your victory over the Simulacrum of Uthuluc.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 6,
+            "level": 85,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": -7,
+            "wisdom": -7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 8,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "289-primordial": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "289-primordial",
+                "fullSlug": "merge-shops\/289-primordial",
+                "id": 289,
+                "name": "Primordial",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 289,
+                    "name": "Primordial"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3161,
+                    "mergeShopId": 289,
+                    "mergeId": 3173
+                },
+                "merge": {
+                    "id": 3173,
+                    "itemId1": 17942,
+                    "amount1": 1,
+                    "itemId2": 17937,
+                    "amount2": 1,
+                    "itemId": 17945,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

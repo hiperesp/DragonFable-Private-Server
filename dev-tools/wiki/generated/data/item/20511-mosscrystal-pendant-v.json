@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20511-mosscrystal-pendant-v",
+        "fullSlug": "items\/20511-mosscrystal-pendant-v",
+        "id": 20511,
+        "name": "Mosscrystal Pendant V",
+        "description": "A shard of living crystal that glows green with bioluminescent moss. Kara fashioned this for you to help light your way into the depths of The Great One's lair. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20511,
+            "name": "Mosscrystal Pendant V",
+            "description": "A shard of living crystal that glows green with bioluminescent moss. Kara fashioned this for you to help light your way into the depths of The Great One's lair. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 170,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 5,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,12,Nature,12"
+        }
+    },
+    "related": {
+        "1866-the-descent": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1866-the-descent",
+                "fullSlug": "quests\/1866-the-descent",
+                "id": 1866,
+                "name": "The Descent",
+                "description": "The DragonSlayer Galanoth would lead you into the depths of the mountain..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1866,
+                    "name": "The Descent",
+                    "description": "The DragonSlayer Galanoth would lead you into the depths of the mountain...",
+                    "complete": "Dragon and human, entering The Great One's Gauntlet.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest18-descent.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest18-descent-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "earthmonsters",
+                    "monsterGroupSwf": "mset-primalearth.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

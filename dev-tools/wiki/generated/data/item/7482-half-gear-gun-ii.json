@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7482-half-gear-gun-ii",
+        "fullSlug": "items\/7482-half-gear-gun-ii",
+        "id": 7482,
+        "name": "Half Gear Gun II",
+        "description": "Crafted by gnomish refugees, this weapons has lots of delicate moving parts."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7482,
+            "name": "Half Gear Gun II",
+            "description": "Crafted by gnomish refugees, this weapons has lots of delicate moving parts.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-steampunk-tori.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,2,Water,2,All,3"
+        }
+    },
+    "related": {
+        "277-half-gear-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "277-half-gear-shop",
+                "fullSlug": "item-shops\/277-half-gear-shop",
+                "id": 277,
+                "name": "Half Gear Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 277,
+                    "name": "Half Gear Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

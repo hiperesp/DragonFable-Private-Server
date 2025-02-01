@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7742-gold-half-torch-i",
+        "fullSlug": "items\/7742-gold-half-torch-i",
+        "id": 7742,
+        "name": "Gold Half Torch I",
+        "description": "Twig was playing with it... he really shouldn't have fire."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7742,
+            "name": "Gold Half Torch I",
+            "description": "Twig was playing with it... he really shouldn't have fire.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 75,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 8,
+            "level": 10,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-LoreGold-half.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 27,
+            "damageMax": 39,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,2"
+        }
+    },
+    "related": {
+        "286-half-off-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "286-half-off-shop",
+                "fullSlug": "item-shops\/286-half-off-shop",
+                "id": 286,
+                "name": "Half Off Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 286,
+                    "name": "Half Off Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

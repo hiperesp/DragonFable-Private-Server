@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13775-first-mate-s-cutlass",
+        "fullSlug": "items\/13775-first-mate-s-cutlass",
+        "id": 13775,
+        "name": "First Mate's Cutlass",
+        "description": "This blade is made only to be used by the first mate! Let no one else touch it, especially not any ninja! This weapon requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13775,
+            "name": "First Mate's Cutlass",
+            "description": "This blade is made only to be used by the first mate! Let no one else touch it, especially not any ninja! This weapon requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 70,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-PirateCutlassShop.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 77,
+            "damageMax": 86,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Water,7,Wind,7,Immobility,5"
+        }
+    },
+    "related": {
+        "435-pirate-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "435-pirate-items",
+                "fullSlug": "item-shops\/435-pirate-items",
+                "id": 435,
+                "name": "Pirate Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 435,
+                    "name": "Pirate Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

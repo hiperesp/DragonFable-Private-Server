@@ -1,0 +1,161 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1975-armor-scrap",
+        "fullSlug": "items\/1975-armor-scrap",
+        "id": 1975,
+        "name": "Armor Scrap",
+        "description": "This small shard of tattered, sundered armor can be traded in to G'joob of the Tuskers for a rare war weapon, available only during the Dragesvard War. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1975,
+            "name": "Armor Scrap",
+            "description": "This small shard of tattered, sundered armor can be traded in to G'joob of the Tuskers for a rare war weapon, available only during the Dragesvard War. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "303-defend-the-tuskers": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "303-defend-the-tuskers",
+                "fullSlug": "quests\/303-defend-the-tuskers",
+                "id": 303,
+                "name": "Defend the Tuskers",
+                "description": "Defend the Tusker nomad camp from Aisha's attacking army!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 303,
+                    "name": "Defend the Tuskers",
+                    "description": "Defend the Tusker nomad camp from Aisha's attacking army!",
+                    "complete": "Excellent work, hero. You and G'joob have defeated one wave of Aisha's army but there are many more where that came from. Return to G'joob with Armor Scraps for rare war weapons!",
+                    "swf": "wars\/quest-dragesvardwar-gjoob.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Ice",
+                    "monsterGroupSwf": "mset-dragesvardwar.swf"
+                }
+            },
+            "related": []
+        },
+        "49-g-joob-weapon": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "49-g-joob-weapon",
+                "fullSlug": "merge-shops\/49-g-joob-weapon",
+                "id": 49,
+                "name": "G'joob weapon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 49,
+                    "name": "G'joob weapon"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 734,
+                    "mergeShopId": 49,
+                    "mergeId": 487
+                },
+                "merge": {
+                    "id": 487,
+                    "itemId1": 1975,
+                    "amount1": 5,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 2016,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "50-g-joob-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "50-g-joob-upgrade",
+                "fullSlug": "merge-shops\/50-g-joob-upgrade",
+                "id": 50,
+                "name": "G'joob upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 50,
+                    "name": "G'joob upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 737,
+                    "mergeShopId": 50,
+                    "mergeId": 491
+                },
+                "merge": {
+                    "id": 491,
+                    "itemId1": 1975,
+                    "amount1": 5,
+                    "itemId2": 2019,
+                    "amount2": 1,
+                    "itemId": 2020,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

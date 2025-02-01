@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17960-meowphant-s-mettle-iv",
+        "fullSlug": "items\/17960-meowphant-s-mettle-iv",
+        "id": 17960,
+        "name": "Meowphant's Mettle IV",
+        "description": "A snazzy belt with a solid brass buckle in  the shape of a snarling Meowphant. Will this make you as unstoppable as a Mega Meowphant? Put it on and find out! Proof of your victory over the Mega Meowphant!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17960,
+            "name": "Meowphant's Mettle IV",
+            "description": "A snazzy belt with a solid brass buckle in  the shape of a snarling Meowphant. Will this make you as unstoppable as a Mega Meowphant? Put it on and find out! Proof of your victory over the Mega Meowphant!",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 5,
+            "level": 85,
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 12,
+            "charisma": 12,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Fear,5"
+        }
+    },
+    "related": {
+        "291-dreamspace-1": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "291-dreamspace-1",
+                "fullSlug": "merge-shops\/291-dreamspace-1",
+                "id": 291,
+                "name": "Dreamspace 1",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 291,
+                    "name": "Dreamspace 1"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3171,
+                    "mergeShopId": 291,
+                    "mergeId": 3197
+                },
+                "merge": {
+                    "id": 3197,
+                    "itemId1": 17957,
+                    "amount1": 1,
+                    "itemId2": 17961,
+                    "amount2": 1,
+                    "itemId": 17960,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

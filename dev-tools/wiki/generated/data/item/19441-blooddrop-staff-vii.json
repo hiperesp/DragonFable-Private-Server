@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19441-blooddrop-staff-vii",
+        "fullSlug": "items\/19441-blooddrop-staff-vii",
+        "id": 19441,
+        "name": "Blooddrop Staff VII",
+        "description": "A staff crafted by Big Daddy from a massive drop of sea monster blood. How did Big Daddy manage that trick? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19441,
+            "name": "Blooddrop Staff VII",
+            "description": "A staff crafted by Big Daddy from a massive drop of sea monster blood. How did Big Daddy manage that trick? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 9000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 50,
+            "level": 70,
+            "type": "Magic",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-monsterblood.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 74,
+            "damageMax": 86,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,6,Water,6,Wind,6,Health,-5"
+        }
+    },
+    "related": {
+        "1686-the-monster-and-the-tower": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1686-the-monster-and-the-tower",
+                "fullSlug": "quests\/1686-the-monster-and-the-tower",
+                "id": 1686,
+                "name": "The Monster and the Tower",
+                "description": "A monster is attacking the Falconreach Guardian Tower! What brought it here? What could it want? And what is Big Daddy gonna do about it?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1686,
+                    "name": "The Monster and the Tower",
+                    "description": "A monster is attacking the Falconreach Guardian Tower! What brought it here? What could it want? And what is Big Daddy gonna do about it?",
+                    "complete": "This won't become a problem in the future, right?",
+                    "swf": "towns\/HeroHeart\/HHD20\/quest-hhd2020.swf",
+                    "swfX": "towns\/HeroHeart\/HHD20\/quest-hhd2020-x.swf?ver=1",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "sea monster in love",
+                    "monsterGroupSwf": "mset-hhd2020.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

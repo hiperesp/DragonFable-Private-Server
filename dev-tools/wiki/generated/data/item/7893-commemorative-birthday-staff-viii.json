@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7893-commemorative-birthday-staff-viii",
+        "fullSlug": "items\/7893-commemorative-birthday-staff-viii",
+        "id": 7893,
+        "name": "Commemorative Birthday Staff VIII",
+        "description": "From the Priestess and all the people of Lore:  Happy Birthday, hero! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7893,
+            "name": "Commemorative Birthday Staff VIII",
+            "description": "From the Priestess and all the people of Lore:  Happy Birthday, hero! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 70,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-custom.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 8,
+            "wisdom": 5,
+            "damageMin": 75,
+            "damageMax": 91,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,8,Water,8,Wind,5,Immobility,2"
+        }
+    },
+    "related": {
+        "107-birthday-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "107-birthday-shop",
+                "fullSlug": "item-shops\/107-birthday-shop",
+                "id": 107,
+                "name": "Birthday Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 107,
+                    "name": "Birthday Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

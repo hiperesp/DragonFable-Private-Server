@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18313-tentacle-of-the-dominion-iii",
+        "fullSlug": "items\/18313-tentacle-of-the-dominion-iii",
+        "id": 18313,
+        "name": "Tentacle of the Dominion III",
+        "description": "A tiny tentacle torn from the defeated Simulacrum of Kathool, this ring slithers around your finger. I'm sure it'll be fine. Proof of your victory over the Simulacrum of Kathool."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18313,
+            "name": "Tentacle of the Dominion III",
+            "description": "A tiny tentacle torn from the defeated Simulacrum of Kathool, this ring slithers around your finger. I'm sure it'll be fine. Proof of your victory over the Simulacrum of Kathool.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 90,
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": -8,
+            "charisma": -8,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5"
+        }
+    },
+    "related": {
+        "294-dreamspace-2": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "294-dreamspace-2",
+                "fullSlug": "merge-shops\/294-dreamspace-2",
+                "id": 294,
+                "name": "Dreamspace 2",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 294,
+                    "name": "Dreamspace 2"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3198,
+                    "mergeShopId": 294,
+                    "mergeId": 3286
+                },
+                "merge": {
+                    "id": 3286,
+                    "itemId1": 18311,
+                    "amount1": 1,
+                    "itemId2": 18314,
+                    "amount2": 1,
+                    "itemId": 18313,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2066-lustrous-silver-staff",
+        "fullSlug": "items\/2066-lustrous-silver-staff",
+        "id": 2066,
+        "name": "Lustrous Silver Staff",
+        "description": "You need never fear being lost in the dark with this staff.  The small silver orb contained within the chamber mounted on top will give off enough light to show your path no matter how twisted and treacherous. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2066,
+            "name": "Lustrous Silver Staff",
+            "description": "You need never fear being lost in the dark with this staff.  The small silver orb contained within the chamber mounted on top will give off enough light to show your path no matter how twisted and treacherous. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 45,
+            "type": "Magic",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-tomixano.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 2,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 59,
+            "damageMax": 71,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,6,Wind,6"
+        }
+    },
+    "related": {
+        "315-there-s-no-place-like-oaklore": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "315-there-s-no-place-like-oaklore",
+                "fullSlug": "quests\/315-there-s-no-place-like-oaklore",
+                "id": 315,
+                "name": "There's No Place Like Oaklore",
+                "description": "Sir Ano is off to see the Wizard, and he's taking you, too!  Luckily there's a crumbled old road that will guide you to the ruined city where the Wizard lives."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 315,
+                    "name": "There's No Place Like Oaklore",
+                    "description": "Sir Ano is off to see the Wizard, and he's taking you, too!  Luckily there's a crumbled old road that will guide you to the ruined city where the Wizard lives.",
+                    "complete": "Boardrakes and Appletrees and yagas, oh my!",
+                    "swf": "quests\/quest-cyrano3-r1.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness",
+                    "monsterGroupSwf": "mset-cyrano3-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

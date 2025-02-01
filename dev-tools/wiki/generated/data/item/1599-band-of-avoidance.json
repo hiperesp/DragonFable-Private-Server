@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1599-band-of-avoidance",
+        "fullSlug": "items\/1599-band-of-avoidance",
+        "id": 1599,
+        "name": "Band of Avoidance",
+        "description": "This ring can help you slip out of even the stickiest of situations, adding 2 to your dodge rating!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1599,
+            "name": "Band of Avoidance",
+            "description": "This ring can help you slip out of even the stickiest of situations, adding 2 to your dodge rating!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 15,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 2,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 5,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "235-the-outcast": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "235-the-outcast",
+                "fullSlug": "quests\/235-the-outcast",
+                "id": 235,
+                "name": "The Outcast",
+                "description": "The Mayor has sent you deep into Doomwood to find a powerful necromancer who might have a key to get into the Necropolis."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 235,
+                    "name": "The Outcast",
+                    "description": "The Mayor has sent you deep into Doomwood to find a powerful necromancer who might have a key to get into the Necropolis.",
+                    "complete": "Now that you have Zorbak's student I.D. (even though it looks nothing like you, it's expired and he was expelled) you might be able to get into the Necropolis!",
+                    "swf": "towns\/DoomWood\/quest-Artix3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "shelleton",
+                    "monsterGroupSwf": "mset-sheleton.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

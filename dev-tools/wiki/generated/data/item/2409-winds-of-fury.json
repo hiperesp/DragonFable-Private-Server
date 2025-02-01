@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2409-winds-of-fury",
+        "fullSlug": "items\/2409-winds-of-fury",
+        "id": 2409,
+        "name": "Winds of Fury",
+        "description": "Jungle Fury mages, raging against attacks by intruders, wove the strength of the wind into this otherwise plainlooking sash.  It may not look great, but wove, does it let you move quickly.\n"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2409,
+            "name": "Winds of Fury",
+            "description": "Jungle Fury mages, raging against attacks by intruders, wove the strength of the wind into this otherwise plainlooking sash.  It may not look great, but wove, does it let you move quickly.\n",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 15,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Immobility,1,Wind,1"
+        }
+    },
+    "related": {
+        "403-queen-of-the-jungle": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "403-queen-of-the-jungle",
+                "fullSlug": "quests\/403-queen-of-the-jungle",
+                "id": 403,
+                "name": "Queen of the Jungle",
+                "description": "The Furies who live in the jungle are a peaceable species.  Really! Unless you are looking to trade with their Queen."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 403,
+                    "name": "Queen of the Jungle",
+                    "description": "The Furies who live in the jungle are a peaceable species.  Really! Unless you are looking to trade with their Queen.",
+                    "complete": "That was a really nice belt she had.  You should see about having a similar one made for you before handing this one over to Zeuster.",
+                    "swf": "quests\/Zeuster\/quest-bacon11.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Jungle",
+                    "monsterGroupSwf": "mset-bacon11.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

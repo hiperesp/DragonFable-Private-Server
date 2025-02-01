@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "603-battlespire-brawler-dagger",
+        "fullSlug": "items\/603-battlespire-brawler-dagger",
+        "id": 603,
+        "name": "Battlespire Brawler Dagger",
+        "description": "This requires a Dragon Amulet. It became available to you after reaching the rank of Brawler at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 603,
+            "name": "Battlespire Brawler Dagger",
+            "description": "This requires a Dragon Amulet. It became available to you after reaching the rank of Brawler at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 18000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 26,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-pvp2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 42,
+            "damageMax": 52,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2"
+        }
+    },
+    "related": {
+        "33-pvp-brawler": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "33-pvp-brawler",
+                "fullSlug": "item-shops\/33-pvp-brawler",
+                "id": 33,
+                "name": "PvP Brawler",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 33,
+                    "name": "PvP Brawler",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "9-brawler-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "9-brawler-shop",
+                "fullSlug": "merge-shops\/9-brawler-shop",
+                "id": 9,
+                "name": "Brawler Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 9,
+                    "name": "Brawler Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 247,
+                    "mergeShopId": 9,
+                    "mergeId": 75
+                },
+                "merge": {
+                    "id": 75,
+                    "itemId1": 586,
+                    "amount1": 21,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 603,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

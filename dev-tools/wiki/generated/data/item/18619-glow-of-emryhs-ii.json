@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18619-glow-of-emryhs-ii",
+        "fullSlug": "items\/18619-glow-of-emryhs-ii",
+        "id": 18619,
+        "name": "Glow of Emryhs II",
+        "description": "Left behind by the Phobeist. The materials of its construction are unrecognizable, and wielding it fills you with a conflicting sense of despair and hope."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18619,
+            "name": "Glow of Emryhs II",
+            "description": "Left behind by the Phobeist. The materials of its construction are unrecognizable, and wielding it fills you with a conflicting sense of despair and hope.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 20,
+            "level": 30,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-emryhs.swf",
+            "icon": "staff",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": -6,
+            "wisdom": 0,
+            "damageMin": 48,
+            "damageMax": 52,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Good,-2,Evil,-2"
+        }
+    },
+    "related": {
+        "1607-fear": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1607-fear",
+                "fullSlug": "quests\/1607-fear",
+                "id": 1607,
+                "name": "Fear",
+                "description": "People are missing, strange creatures are running around... what is going on in Verteroche?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1607,
+                    "name": "Fear",
+                    "description": "People are missing, strange creatures are running around... what is going on in Verteroche?",
+                    "complete": "Turns out that the Phobeist was hired by Theano. Whatever he has planned, it seems he's one step closer to its completion.",
+                    "swf": "towns\/3Falconreach\/Thorns\/quest6-fear.swf?ver=1",
+                    "swfX": "towns\/3Falconreach\/Thorns\/quest6-fear-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Old Manaphages, Feargheist, Phobeist",
+                    "monsterGroupSwf": "mset-phobeist.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

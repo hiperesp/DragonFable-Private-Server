@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11467-silvered-teeth",
+        "fullSlug": "items\/11467-silvered-teeth",
+        "id": 11467,
+        "name": "Silvered Teeth",
+        "description": "The teeth of some kind of animal... you think. They're dipped in silver."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11467,
+            "name": "Silvered Teeth",
+            "description": "The teeth of some kind of animal... you think. They're dipped in silver.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2250,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 7,
+            "level": 72,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 9,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 9,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,9,Ice,9,Poison,9,Immobility,4"
+        }
+    },
+    "related": {
+        "1132-the-human-element": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1132-the-human-element",
+                "fullSlug": "quests\/1132-the-human-element",
+                "id": 1132,
+                "name": "The Human Element",
+                "description": "Aspar is looking for something... special."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1132,
+                    "name": "The Human Element",
+                    "description": "Aspar is looking for something... special.",
+                    "complete": "A soulthread vial labeled \"Tomix\"?!",
+                    "swf": "towns\/3Ravenloss\/quest11-humanelement-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "humans",
+                    "monsterGroupSwf": "mset-humanelement.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

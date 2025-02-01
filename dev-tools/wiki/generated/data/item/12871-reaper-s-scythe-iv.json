@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12871-reaper-s-scythe-iv",
+        "fullSlug": "items\/12871-reaper-s-scythe-iv",
+        "id": 12871,
+        "name": "Reaper's Scythe IV",
+        "description": "In every home a candle burns to make the ghouls appear no more. On Mogloween only one can know, the tide of darkness that ever grows! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12871,
+            "name": "Reaper's Scythe IV",
+            "description": "In every home a candle burns to make the ghouls appear no more. On Mogloween only one can know, the tide of darkness that ever grows! ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Mogloween14.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 2,
+            "wisdom": 4,
+            "damageMin": 61,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Fire,5,Light,4,Health,-2"
+        }
+    },
+    "related": {
+        "230-reaper-s-scythe-50": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "230-reaper-s-scythe-50",
+                "fullSlug": "merge-shops\/230-reaper-s-scythe-50",
+                "id": 230,
+                "name": "Reaper's Scythe 50",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 230,
+                    "name": "Reaper's Scythe 50"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2593,
+                    "mergeShopId": 230,
+                    "mergeId": 2504
+                },
+                "merge": {
+                    "id": 2504,
+                    "itemId1": 12870,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12871,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "231-reaper-s-scythe-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "231-reaper-s-scythe-60",
+                "fullSlug": "merge-shops\/231-reaper-s-scythe-60",
+                "id": 231,
+                "name": "Reaper's Scythe 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 231,
+                    "name": "Reaper's Scythe 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2594,
+                    "mergeShopId": 231,
+                    "mergeId": 2505
+                },
+                "merge": {
+                    "id": 2505,
+                    "itemId1": 12871,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12872,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

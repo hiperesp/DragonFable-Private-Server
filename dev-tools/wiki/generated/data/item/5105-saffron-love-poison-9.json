@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5105-saffron-love-poison-9",
+        "fullSlug": "items\/5105-saffron-love-poison-9",
+        "id": 5105,
+        "name": "Saffron Love Poison #9",
+        "description": "So sweet, but very very deadly! Happy Hero's Heart Day 2011!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5105,
+            "name": "Saffron Love Poison #9",
+            "description": "So sweet, but very very deadly! Happy Hero's Heart Day 2011!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 32,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lovepoison9.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 41,
+            "damageMax": 63,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Fire,4,Ice,4"
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 805,
+                    "mergeShopId": 53,
+                    "mergeId": 2560
+                },
+                "merge": {
+                    "id": 2560,
+                    "itemId1": 5105,
+                    "amount1": 1,
+                    "itemId2": 707,
+                    "amount2": 10,
+                    "itemId": 5106,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

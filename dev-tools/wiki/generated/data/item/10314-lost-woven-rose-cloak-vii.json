@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10314-lost-woven-rose-cloak-vii",
+        "fullSlug": "items\/10314-lost-woven-rose-cloak-vii",
+        "id": 10314,
+        "name": "Lost Woven Rose Cloak VII",
+        "description": "A worn cloak, seemingly left to the elements for some time, but still serviceable. Seems to be an older style than the ones currently used by The Rose. A small 'S' is embroidered on the hem. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10314,
+            "name": "Lost Woven Rose Cloak VII",
+            "description": "A worn cloak, seemingly left to the elements for some time, but still serviceable. Seems to be an older style than the ones currently used by The Rose. A small 'S' is embroidered on the hem. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 45,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 75,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-saellah.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 9,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 8,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,7,Darkness,6,Immobility,3"
+        }
+    },
+    "related": {
+        "362-s-d-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "362-s-d-loot-for-dcs",
+                "fullSlug": "item-shops\/362-s-d-loot-for-dcs",
+                "id": 362,
+                "name": "S&D Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 362,
+                    "name": "S&D Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

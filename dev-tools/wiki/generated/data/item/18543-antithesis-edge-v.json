@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18543-antithesis-edge-v",
+        "fullSlug": "items\/18543-antithesis-edge-v",
+        "id": 18543,
+        "name": "Antithesis Edge V",
+        "description": "This weapon is a fruit of a friendship between a blacksmith and an enchantress. They set aside their differences and created this beautiful item that switches between Fire and Ice damage on each hit."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18543,
+            "name": "Antithesis Edge V",
+            "description": "This weapon is a fruit of a friendship between a blacksmith and an enchantress. They set aside their differences and created this beautiful item that switches between Fire and Ice damage on each hit.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 20,
+            "level": 50,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-hotncoldlove.swf",
+            "icon": "sword",
+            "strength": 18,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 72,
+            "damageMax": 72,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,6,Ice,6,Immobility,5"
+        }
+    },
+    "related": {
+        "612-antithesis-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "612-antithesis-shop",
+                "fullSlug": "item-shops\/612-antithesis-shop",
+                "id": 612,
+                "name": "Antithesis Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 612,
+                    "name": "Antithesis Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

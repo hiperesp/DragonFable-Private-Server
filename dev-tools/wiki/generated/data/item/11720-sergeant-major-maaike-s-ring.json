@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11720-sergeant-major-maaike-s-ring",
+        "fullSlug": "items\/11720-sergeant-major-maaike-s-ring",
+        "id": 11720,
+        "name": "Sergeant Major Maaike's Ring",
+        "description": "Engraved with the name Maaike, this ring is battered and worn from battle. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11720,
+            "name": "Sergeant Major Maaike's Ring",
+            "description": "Engraved with the name Maaike, this ring is battered and worn from battle. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 39,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 3,
+            "dexterity": 6,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Nature,2"
+        }
+    },
+    "related": {
+        "1142-inspeczion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1142-inspeczion",
+                "fullSlug": "quests\/1142-inspeczion",
+                "id": 1142,
+                "name": "InspecZion",
+                "description": "Make your way to Espina Rosa but don't get caught!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1142,
+                    "name": "InspecZion",
+                    "description": "Make your way to Espina Rosa but don't get caught!",
+                    "complete": "That was a close call with Zadd, but you made it.",
+                    "swf": "towns\/SulenEska\/quest13-InspecZionr1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-inspeczion.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

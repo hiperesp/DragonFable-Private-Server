@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11611-chronocorrupted-visage",
+        "fullSlug": "items\/11611-chronocorrupted-visage",
+        "id": 11611,
+        "name": "Chronocorrupted Visage",
+        "description": "Give yourself an edge in a time of chaos!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11611,
+            "name": "Chronocorrupted Visage",
+            "description": "Give yourself an edge in a time of chaos!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 180,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-corruptvisage.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 8,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 10,
+            "defensePierce": 10,
+            "defenseMagic": 10,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Darkness,12,Energy,12,Disease,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "43-helms-and-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "43-helms-and-capes",
+                "fullSlug": "item-shops\/43-helms-and-capes",
+                "id": 43,
+                "name": "Helms and Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Helms and Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

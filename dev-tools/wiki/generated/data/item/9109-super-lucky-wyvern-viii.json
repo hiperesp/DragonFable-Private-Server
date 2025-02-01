@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9109-super-lucky-wyvern-viii",
+        "fullSlug": "items\/9109-super-lucky-wyvern-viii",
+        "id": 9109,
+        "name": "Super Lucky Wyvern VIII",
+        "description": "This gilded wyvern was turned to gold by the sneevilchauns during Lucky 13! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9109,
+            "name": "Super Lucky Wyvern VIII",
+            "description": "This gilded wyvern was turned to gold by the sneevilchauns during Lucky 13! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 77,
+            "level": 76,
+            "element": "Light",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-goldwyvern.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 21,
+            "damageMax": 27,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "132-lucky-13-chest-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "132-lucky-13-chest-items",
+                "fullSlug": "merge-shops\/132-lucky-13-chest-items",
+                "id": 132,
+                "name": "Lucky 13 Chest Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 132,
+                    "name": "Lucky 13 Chest Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1902,
+                    "mergeShopId": 132,
+                    "mergeId": 1843
+                },
+                "merge": {
+                    "id": 1843,
+                    "itemId1": 9108,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9109,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

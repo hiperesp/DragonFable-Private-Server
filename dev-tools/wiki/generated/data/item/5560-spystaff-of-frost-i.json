@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5560-spystaff-of-frost-i",
+        "fullSlug": "items\/5560-spystaff-of-frost-i",
+        "id": 5560,
+        "name": "Spystaff of Frost I",
+        "description": "It would seem that Sepulchure is outfitting his spies with the corrupted power of the elements! What could this mean?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5560,
+            "name": "Spystaff of Frost I",
+            "description": "It would seem that Sepulchure is outfitting his spies with the corrupted power of the elements! What could this mean?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 20,
+            "type": "Magic",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-spy_ice.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 35,
+            "damageMax": 45,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,-1,Water,2,Wind,2,Darkness,2"
+        }
+    },
+    "related": {
+        "787-after-the-ice-orb": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "787-after-the-ice-orb",
+                "fullSlug": "quests\/787-after-the-ice-orb",
+                "id": 787,
+                "name": "After the Ice Orb",
+                "description": "You have to make sure the Ice Orb is safe!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 787,
+                    "name": "After the Ice Orb",
+                    "description": "You have to make sure the Ice Orb is safe!",
+                    "complete": "Sepulchure has stolen the Ice Orb!",
+                    "swf": "towns\/Chap1Finale\/quest-finale3-iceorb-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice and darkness",
+                    "monsterGroupSwf": "mset-finale3-iceorb-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

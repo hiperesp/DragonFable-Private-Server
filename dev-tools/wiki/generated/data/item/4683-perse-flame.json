@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4683-perse-flame",
+        "fullSlug": "items\/4683-perse-flame",
+        "id": 4683,
+        "name": "Perse Flame",
+        "description": "You picked this pretty blade up from Murk in the sewers under Ravenloss. Yes, UNDER the underground city!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4683,
+            "name": "Perse Flame",
+            "description": "You picked this pretty blade up from Murk in the sewers under Ravenloss. Yes, UNDER the underground city!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 45,
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-sewers.swf",
+            "icon": "staff",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 2,
+            "damageMin": 57,
+            "damageMax": 71,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Water,3"
+        }
+    },
+    "related": {
+        "79-murk-s-sewer-merch": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "79-murk-s-sewer-merch",
+                "fullSlug": "merge-shops\/79-murk-s-sewer-merch",
+                "id": 79,
+                "name": "Murk's Sewer Merch",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 79,
+                    "name": "Murk's Sewer Merch"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1118,
+                    "mergeShopId": 79,
+                    "mergeId": 851
+                },
+                "merge": {
+                    "id": 851,
+                    "itemId1": 4687,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4683,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

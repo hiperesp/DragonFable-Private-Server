@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6066-defender-s-dragon-ring-xxi",
+        "fullSlug": "items\/6066-defender-s-dragon-ring-xxi",
+        "id": 6066,
+        "name": "Defender's Dragon Ring XXI",
+        "description": "This item requires a Dragon Amulet. It was awarded to you by the town of Falconreach for defending it against a terrible threat. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6066,
+            "name": "Defender's Dragon Ring XXI",
+            "description": "This item requires a Dragon Amulet. It was awarded to you by the town of Falconreach for defending it against a terrible threat. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 0,
+            "level": 68,
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 12,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Fire,8,Water,8,Poison,8,Silver,8"
+        }
+    },
+    "related": {
+        "382-da-def-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "382-da-def-rings",
+                "fullSlug": "merge-shops\/382-da-def-rings",
+                "id": 382,
+                "name": "DA Def Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 382,
+                    "name": "DA Def Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4000,
+                    "mergeShopId": 382,
+                    "mergeId": 1320
+                },
+                "merge": {
+                    "id": 1320,
+                    "itemId1": 6066,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 6472,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

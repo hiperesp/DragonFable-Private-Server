@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9970-hopeful-gambler-wings",
+        "fullSlug": "items\/9970-hopeful-gambler-wings",
+        "id": 9970,
+        "name": "Hopeful Gambler Wings",
+        "description": "These lucky wings will make battles less of a gamble!  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9970,
+            "name": "Hopeful Gambler Wings",
+            "description": "These lucky wings will make battles less of a gamble!  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 72,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-gambler.swf",
+            "icon": "wings",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 7,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Wind,10,Darkness,5,Fire,5,All,2"
+        }
+    },
+    "related": {
+        "342-gambler-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "342-gambler-wings",
+                "fullSlug": "item-shops\/342-gambler-wings",
+                "id": 342,
+                "name": "Gambler Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 342,
+                    "name": "Gambler Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

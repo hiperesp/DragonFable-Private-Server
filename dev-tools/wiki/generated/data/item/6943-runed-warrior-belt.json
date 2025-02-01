@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6943-runed-warrior-belt",
+        "fullSlug": "items\/6943-runed-warrior-belt",
+        "id": 6943,
+        "name": "Runed Warrior Belt",
+        "description": "An ancient belt from one of the skeletons in the Professor's cave. Soldier's must have once used the cave as shelter.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6943,
+            "name": "Runed Warrior Belt",
+            "description": "An ancient belt from one of the skeletons in the Professor's cave. Soldier's must have once used the cave as shelter.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 35,
+            "level": 63,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Stone,10,Fire,10"
+        }
+    },
+    "related": {
+        "905-the-professor": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "905-the-professor",
+                "fullSlug": "quests\/905-the-professor",
+                "id": 905,
+                "name": "The Professor",
+                "description": "You've found the Professor and his... \"assistant\", but you've also led one of Wargoth's imps right to him!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 905,
+                    "name": "The Professor",
+                    "description": "You've found the Professor and his... \"assistant\", but you've also led one of Wargoth's imps right to him!",
+                    "complete": "You caught the imp, but you're going to have to be careful and try to keep the Professor safe!",
+                    "swf": "towns\/Atrea\/quest6-professor.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness, skeles, cave",
+                    "monsterGroupSwf": "mset-deadlands-cave.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

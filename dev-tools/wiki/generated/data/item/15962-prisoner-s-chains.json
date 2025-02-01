@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15962-prisoner-s-chains",
+        "fullSlug": "items\/15962-prisoner-s-chains",
+        "id": 15962,
+        "name": "Prisoner's Chains",
+        "description": "The shackles attached to these chains rattle as you run."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15962,
+            "name": "Prisoner's Chains",
+            "description": "The shackles attached to these chains rattle as you run.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 7230,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 66,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "Metal,5,Nature,5,Darkness,3,Stone,3"
+        }
+    },
+    "related": {
+        "1365-peril": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1365-peril",
+                "fullSlug": "quests\/1365-peril",
+                "id": 1365,
+                "name": "Peril",
+                "description": "Your dragon has gone south towards the Doomwood... are you prepared to follow?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1365,
+                    "name": "Peril",
+                    "description": "Your dragon has gone south towards the Doomwood... are you prepared to follow?",
+                    "complete": "Caitiff has captured your Dragon and it will take all your friends to get it back!",
+                    "swf": "towns\/10AnnDF\/quest7-peril.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cultists, skeles, dark ele",
+                    "monsterGroupSwf": "mset-artifact.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

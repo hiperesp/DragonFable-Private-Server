@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14433-sepulchure-s-doom",
+        "fullSlug": "items\/14433-sepulchure-s-doom",
+        "id": 14433,
+        "name": "Sepulchure's Doom",
+        "description": "Can't you just FEEL the Doom?\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14433,
+            "name": "Sepulchure's Doom",
+            "description": "Can't you just FEEL the Doom?\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 660,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 60,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-sepulchure2.swf",
+            "icon": "helm",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,7,Darkness,7,Immobility,3,Fire,7"
+        }
+    },
+    "related": {
+        "106-doom-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "106-doom-items",
+                "fullSlug": "item-shops\/106-doom-items",
+                "id": 106,
+                "name": "Doom Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 106,
+                    "name": "Doom Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

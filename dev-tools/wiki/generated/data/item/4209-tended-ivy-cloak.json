@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4209-tended-ivy-cloak",
+        "fullSlug": "items\/4209-tended-ivy-cloak",
+        "id": 4209,
+        "name": "Tended Ivy Cloak",
+        "description": "A spruced-up version of a classic floral cloak. Heh. \"Spruce.\" Get it? It's a tree joke. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4209,
+            "name": "Tended Ivy Cloak",
+            "description": "A spruced-up version of a classic floral cloak. Heh. \"Spruce.\" Get it? It's a tree joke. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-ivy.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,8"
+        }
+    },
+    "related": {
+        "154-moonridge-knights": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "154-moonridge-knights",
+                "fullSlug": "item-shops\/154-moonridge-knights",
+                "id": 154,
+                "name": "Moonridge Knights",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 154,
+                    "name": "Moonridge Knights",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

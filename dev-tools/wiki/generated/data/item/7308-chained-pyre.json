@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7308-chained-pyre",
+        "fullSlug": "items\/7308-chained-pyre",
+        "id": 7308,
+        "name": "Chained Pyre",
+        "description": "The fire within this weapon is trapped and strains to get free. Click to change between fire element and evil element!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7308,
+            "name": "Chained Pyre",
+            "description": "The fire within this weapon is trapped and strains to get free. Click to change between fire element and evil element!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 15,
+            "level": 63,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-wargoth-r1.swf",
+            "icon": "sword",
+            "strength": 7,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 65,
+            "damageMax": 87,
+            "defenseMelee": 5,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,7,Ice,7,Water,5,immobility,2"
+        }
+    },
+    "related": {
+        "923-wrath-of-wargoth": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "923-wrath-of-wargoth",
+                "fullSlug": "quests\/923-wrath-of-wargoth",
+                "id": 923,
+                "name": "Wrath of Wargoth",
+                "description": "You must keep The Professor safe!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 923,
+                    "name": "Wrath of Wargoth",
+                    "description": "You must keep The Professor safe!",
+                    "complete": "Even though Wargoth has won the battle, The Professor still lives. There has to be another way!",
+                    "swf": "wars\/F13-Wargoth\/quest-wargothboss-r1.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "wargoth",
+                    "monsterGroupSwf": "mset-wargoth.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

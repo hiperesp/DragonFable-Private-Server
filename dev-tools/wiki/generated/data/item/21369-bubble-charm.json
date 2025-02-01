@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21369-bubble-charm",
+        "fullSlug": "items\/21369-bubble-charm",
+        "id": 21369,
+        "name": "Bubble Charm",
+        "description": "This trinket causes bubbles to form around you wherever you go! Side effects of breathing in so much bubble vapor are currently unknown, but it's probably fine. Those bubbles sure are distracting, though... Proof of victory over \"In Wanderland\"."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21369,
+            "name": "Bubble Charm",
+            "description": "This trinket causes bubbles to form around you wherever you go! Side effects of breathing in so much bubble vapor are currently unknown, but it's probably fine. Those bubbles sure are distracting, though... Proof of victory over \"In Wanderland\".",
+            "dragonAmulet": 1,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 1,
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-arenabubbles.swf",
+            "icon": "trinket",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "381-in-wanderland": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "381-in-wanderland",
+                "fullSlug": "merge-shops\/381-in-wanderland",
+                "id": 381,
+                "name": "In Wanderland",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 381,
+                    "name": "In Wanderland"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3985,
+                    "mergeShopId": 381,
+                    "mergeId": 4097
+                },
+                "merge": {
+                    "id": 4097,
+                    "itemId1": 21368,
+                    "amount1": 1,
+                    "itemId2": 21367,
+                    "amount2": 1,
+                    "itemId": 21369,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15933-uncorrupted-dragon-tooth",
+        "fullSlug": "items\/15933-uncorrupted-dragon-tooth",
+        "id": 15933,
+        "name": "Uncorrupted Dragon Tooth",
+        "description": "Your dragon is gone and this is all that's left behind."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15933,
+            "name": "Uncorrupted Dragon Tooth",
+            "description": "Your dragon is gone and this is all that's left behind.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1000,
+            "bonus": 0,
+            "rarity": 99,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1364-doomed": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1364-doomed",
+                "fullSlug": "quests\/1364-doomed",
+                "id": 1364,
+                "name": "Doomed",
+                "description": "Caitiff has a Doom Amulet..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1364,
+                    "name": "Doomed",
+                    "description": "Caitiff has a Doom Amulet...",
+                    "complete": "Your dragon is willing to sacrifice itself so that Falconreach can stay in the light. Can it be brought back from True Darkness?",
+                    "swf": "towns\/10AnnDF\/quest6-doomed-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Caitiff v dragon",
+                    "monsterGroupSwf": "mset-caitiffdragon.swf"
+                }
+            },
+            "related": []
+        },
+        "263-doom-dragon-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "263-doom-dragon-scythe",
+                "fullSlug": "merge-shops\/263-doom-dragon-scythe",
+                "id": 263,
+                "name": "Doom Dragon Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 263,
+                    "name": "Doom Dragon Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2931,
+                    "mergeShopId": 263,
+                    "mergeId": 2945
+                },
+                "merge": {
+                    "id": 2945,
+                    "itemId1": 15933,
+                    "amount1": 1,
+                    "itemId2": 16934,
+                    "amount2": 1,
+                    "itemId": 16935,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

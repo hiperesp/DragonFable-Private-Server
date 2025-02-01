@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2029-major-dragonsfall-dagger",
+        "fullSlug": "items\/2029-major-dragonsfall-dagger",
+        "id": 2029,
+        "name": "Major Dragonsfall Dagger",
+        "description": "A wicked dagger carried by the lizardmen of Dragonsfall Wood."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2029,
+            "name": "Major Dragonsfall Dagger",
+            "description": "A wicked dagger carried by the lizardmen of Dragonsfall Wood.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 38,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-randorred.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 3,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 51,
+            "damageMax": 63,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3"
+        }
+    },
+    "related": {
+        "310-dragonsfall": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "310-dragonsfall",
+                "fullSlug": "quests\/310-dragonsfall",
+                "id": 310,
+                "name": "Dragonsfall",
+                "description": "Ash has sent you to Dragonsfall Woods to defeat the lizard men and their pet drakes."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 310,
+                    "name": "Dragonsfall",
+                    "description": "Ash has sent you to Dragonsfall Woods to defeat the lizard men and their pet drakes.",
+                    "complete": "Youve defeated the lizard men and thinned the population of drakes, keeping Surewood safe from flames.... for now.",
+                    "swf": "random\/random-dragonsfall3-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "lizards and drakes",
+                    "monsterGroupSwf": "mset-dragonsfallr2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

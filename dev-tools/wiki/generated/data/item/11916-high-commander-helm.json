@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11916-high-commander-helm",
+        "fullSlug": "items\/11916-high-commander-helm",
+        "id": 11916,
+        "name": "High Commander Helm",
+        "description": "In battle, the leading officers of the Rose sometimes wear helms distinguishing their ranks. This helm belongs to a senior officer."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11916,
+            "name": "High Commander Helm",
+            "description": "In battle, the leading officers of the Rose sometimes wear helms distinguishing their ranks. This helm belongs to a senior officer.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 20,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 28,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-sofist.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 3,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Metal,3"
+        }
+    },
+    "related": {
+        "403-runed-fortress": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "403-runed-fortress",
+                "fullSlug": "item-shops\/403-runed-fortress",
+                "id": 403,
+                "name": "Runed Fortress",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 403,
+                    "name": "Runed Fortress",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

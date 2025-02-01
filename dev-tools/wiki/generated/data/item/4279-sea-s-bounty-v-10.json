@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4279-sea-s-bounty-v-10",
+        "fullSlug": "items\/4279-sea-s-bounty-v-10",
+        "id": 4279,
+        "name": "Sea's Bounty V '10",
+        "description": "Yarrrr!  This be a memento from Talk Like a Pirate Day!  All good pirates be yarr'in' an' argh'in an' looting themselves some doubloons today! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4279,
+            "name": "Sea's Bounty V '10",
+            "description": "Yarrrr!  This be a memento from Talk Like a Pirate Day!  All good pirates be yarr'in' an' argh'in an' looting themselves some doubloons today! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 50,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-tlapd.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 62,
+            "damageMax": 75,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,7,Energy,7,Immobility,1"
+        }
+    },
+    "related": {
+        "126-tlapd-wep-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "126-tlapd-wep-shop",
+                "fullSlug": "item-shops\/126-tlapd-wep-shop",
+                "id": 126,
+                "name": "TLAPD Wep Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 126,
+                    "name": "TLAPD Wep Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12412-blade-of-the-crescent-moon-iv",
+        "fullSlug": "items\/12412-blade-of-the-crescent-moon-iv",
+        "id": 12412,
+        "name": "Blade of the Crescent Moon IV",
+        "description": "A weapon imbued with a power of the moon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12412,
+            "name": "Blade of the Crescent Moon IV",
+            "description": "A weapon imbued with a power of the moon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 8,
+            "level": 75,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-crescentmoon.swf",
+            "icon": "sword",
+            "strength": 11,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 9,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 75,
+            "damageMax": 89,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,5,Fire,5,Light,5"
+        }
+    },
+    "related": {
+        "1183-swamp-lake": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1183-swamp-lake",
+                "fullSlug": "quests\/1183-swamp-lake",
+                "id": 1183,
+                "name": "Swamp Lake",
+                "description": "You've come to the lake as a favor to Thursday, to see if you can find any evidence for happened to Lon and Cheney."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1183,
+                    "name": "Swamp Lake",
+                    "description": "You've come to the lake as a favor to Thursday, to see if you can find any evidence for happened to Lon and Cheney.",
+                    "complete": "Cheney's shack has been destroyed and the lake is overrun with werewolves.",
+                    "swf": "towns\/3Amityvale\/quest-bk3lake.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 75000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weremonsters",
+                    "monsterGroupSwf": "mset-weremonsters-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

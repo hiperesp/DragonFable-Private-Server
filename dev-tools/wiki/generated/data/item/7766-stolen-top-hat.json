@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7766-stolen-top-hat",
+        "fullSlug": "items\/7766-stolen-top-hat",
+        "id": 7766,
+        "name": "Stolen Top Hat",
+        "description": "Twig \"borrowed\" this hat and then covered it with black marker (really, he did)!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7766,
+            "name": "Stolen Top Hat",
+            "description": "Twig \"borrowed\" this hat and then covered it with black marker (really, he did)!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-StephenNix-twig.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 4,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Fire,15,Energy,15,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "284-twig-s-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "284-twig-s-shop",
+                "fullSlug": "item-shops\/284-twig-s-shop",
+                "id": 284,
+                "name": "Twig's Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 284,
+                    "name": "Twig's Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

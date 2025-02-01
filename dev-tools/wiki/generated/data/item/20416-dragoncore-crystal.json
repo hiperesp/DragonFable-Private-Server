@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20416-dragoncore-crystal",
+        "fullSlug": "items\/20416-dragoncore-crystal",
+        "id": 20416,
+        "name": "Dragoncore Crystal",
+        "description": "A rare and valuable mineral produced by ancient Great Dragons. Can be used to upgrade DragonLord's Patience or Rage!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20416,
+            "name": "Dragoncore Crystal",
+            "description": "A rare and valuable mineral produced by ancient Great Dragons. Can be used to upgrade DragonLord's Patience or Rage!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "712-dragonsgrasp-armory": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "712-dragonsgrasp-armory",
+                "fullSlug": "item-shops\/712-dragonsgrasp-armory",
+                "id": 712,
+                "name": "Dragonsgrasp Armory",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 712,
+                    "name": "Dragonsgrasp Armory",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "351-dragonlord-artifacts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "351-dragonlord-artifacts",
+                "fullSlug": "merge-shops\/351-dragonlord-artifacts",
+                "id": 351,
+                "name": "DragonLord Artifacts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 351,
+                    "name": "DragonLord Artifacts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3657,
+                    "mergeShopId": 351,
+                    "mergeId": 4431
+                },
+                "merge": {
+                    "id": 4431,
+                    "itemId1": 17259,
+                    "amount1": 1,
+                    "itemId2": 20416,
+                    "amount2": 1,
+                    "itemId": 20384,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

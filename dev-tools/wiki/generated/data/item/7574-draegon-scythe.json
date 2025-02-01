@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7574-draegon-scythe",
+        "fullSlug": "items\/7574-draegon-scythe",
+        "id": 7574,
+        "name": "DrAEgon Scythe",
+        "description": "Thank you for supporting us for 10 amazing years! You can upgrade this weapon at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7574,
+            "name": "DrAEgon Scythe",
+            "description": "Thank you for supporting us for 10 amazing years! You can upgrade this weapon at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 30,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-draegon.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 46,
+            "damageMax": 62,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,3,Ice,3"
+        }
+    },
+    "related": {
+        "117-draegon": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "117-draegon",
+                "fullSlug": "merge-shops\/117-draegon",
+                "id": 117,
+                "name": "DrAEgon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 117,
+                    "name": "DrAEgon"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1664,
+                    "mergeShopId": 117,
+                    "mergeId": 1543
+                },
+                "merge": {
+                    "id": 1543,
+                    "itemId1": 7574,
+                    "amount1": 1,
+                    "itemId2": 7578,
+                    "amount2": 1,
+                    "itemId": 7575,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18112-glossy-sapphmerald-sword",
+        "fullSlug": "items\/18112-glossy-sapphmerald-sword",
+        "id": 18112,
+        "name": "Glossy Sapphmerald Sword",
+        "description": "You've found this sword in one of Captain Bluesnot's treasure chests. It gleams with brilliant light of the sapphmeralds, from which it's apparently forged."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18112,
+            "name": "Glossy Sapphmerald Sword",
+            "description": "You've found this sword in one of Captain Bluesnot's treasure chests. It gleams with brilliant light of the sapphmeralds, from which it's apparently forged.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-sapphmerald.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 32,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1519-sunken-ship": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1519-sunken-ship",
+                "fullSlug": "quests\/1519-sunken-ship",
+                "id": 1519,
+                "name": "Sunken Ship",
+                "description": "A sunken galleon, full of forgotten treasures... hopefully!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1519,
+                    "name": "Sunken Ship",
+                    "description": "A sunken galleon, full of forgotten treasures... hopefully!",
+                    "complete": "You decide to leave all of these gold piles to future adventures. Let's call it an investment!",
+                    "swf": "towns\/3Ocean\/random-shipwreck-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "undead pirates and slime",
+                    "monsterGroupSwf": "mset-shipwreck.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

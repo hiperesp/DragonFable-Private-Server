@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15553-swordhaven-hero-trident",
+        "fullSlug": "items\/15553-swordhaven-hero-trident",
+        "id": 15553,
+        "name": "Swordhaven Hero Trident",
+        "description": "The staff of the ancient hero of Swordhaven."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15553,
+            "name": "Swordhaven Hero Trident",
+            "description": "The staff of the ancient hero of Swordhaven.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 20,
+            "level": 60,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-swordhavenhero.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 8,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 70,
+            "damageMax": 88,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,10,Energy,10,Wind,8,Nature,8,Immobility,-5"
+        }
+    },
+    "related": {
+        "492-hero-defender": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "492-hero-defender",
+                "fullSlug": "item-shops\/492-hero-defender",
+                "id": 492,
+                "name": "Hero Defender",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 492,
+                    "name": "Hero Defender",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

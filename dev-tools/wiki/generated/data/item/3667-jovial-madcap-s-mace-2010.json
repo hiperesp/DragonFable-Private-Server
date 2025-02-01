@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3667-jovial-madcap-s-mace-2010",
+        "fullSlug": "items\/3667-jovial-madcap-s-mace-2010",
+        "id": 3667,
+        "name": "Jovial Madcap's Mace 2010",
+        "description": "Hitting your enemies with this mace will make their ears ring! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3667,
+            "name": "Jovial Madcap's Mace 2010",
+            "description": "Hitting your enemies with this mace will make their ears ring! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 52,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-jester.swf",
+            "icon": "mace",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 76,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 2,
+            "block": 1,
+            "resists": "Darkness,7,Fire,7"
+        }
+    },
+    "related": {
+        "99-motley-2010-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "99-motley-2010-shop",
+                "fullSlug": "item-shops\/99-motley-2010-shop",
+                "id": 99,
+                "name": "Motley 2010 Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 99,
+                    "name": "Motley 2010 Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

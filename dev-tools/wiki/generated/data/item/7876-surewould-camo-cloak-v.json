@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7876-surewould-camo-cloak-v",
+        "fullSlug": "items\/7876-surewould-camo-cloak-v",
+        "id": 7876,
+        "name": "Surewould Camo Cloak V",
+        "description": "The dark green fabric of this cloak will help you blend into the trees!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7876,
+            "name": "Surewould Camo Cloak V",
+            "description": "The dark green fabric of this cloak will help you blend into the trees!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 61,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-surewould2.swf",
+            "icon": "cape",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 6,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,6,Wind,5,Water,5,Nature,5"
+        }
+    },
+    "related": {
+        "977-monster-mill": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "977-monster-mill",
+                "fullSlug": "quests\/977-monster-mill",
+                "id": 977,
+                "name": "Monster Mill",
+                "description": "Why are all these magical creatures gathered here?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 977,
+                    "name": "Monster Mill",
+                    "description": "Why are all these magical creatures gathered here?!",
+                    "complete": "The Rose is capturing monsters and making them work for their cause!",
+                    "swf": "towns\/Robina\/quest-monstermill.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 500,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Rose + enslaved",
+                    "monsterGroupSwf": "mset-forest-bk3-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

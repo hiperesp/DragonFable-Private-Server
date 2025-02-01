@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12044-azure-gemmed-necklace",
+        "fullSlug": "items\/12044-azure-gemmed-necklace",
+        "id": 12044,
+        "name": "Azure Gemmed Necklace",
+        "description": "At first glance, this necklace resembles your common cheapskate. Yet when you eye it closer, the necklace's gem possesses a strange, unusual depth to it. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12044,
+            "name": "Azure Gemmed Necklace",
+            "description": "At first glance, this necklace resembles your common cheapskate. Yet when you eye it closer, the necklace's gem possesses a strange, unusual depth to it. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 7,
+            "level": 76,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 8,
+            "charisma": 3,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 6,
+            "critical": 8,
+            "parry": 1,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Ice,11,Water,11,Stone,11,Immobility,5,Health,-3"
+        }
+    },
+    "related": {
+        "1161-the-elite-patrol": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1161-the-elite-patrol",
+                "fullSlug": "quests\/1161-the-elite-patrol",
+                "id": 1161,
+                "name": "The Elite Patrol",
+                "description": "Who is the Elite Patrol? How do you get in to the Third Level? Plenty of questions that need answers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1161,
+                    "name": "The Elite Patrol",
+                    "description": "Who is the Elite Patrol? How do you get in to the Third Level? Plenty of questions that need answers.",
+                    "complete": "Uh oh... Sofist is here. Not good!",
+                    "swf": "towns\/SulenEska\/quest16-patrol-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 35000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose patrol",
+                    "monsterGroupSwf": "mset-patrol-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

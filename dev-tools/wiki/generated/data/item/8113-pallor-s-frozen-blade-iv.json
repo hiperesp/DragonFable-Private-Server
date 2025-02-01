@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8113-pallor-s-frozen-blade-iv",
+        "fullSlug": "items\/8113-pallor-s-frozen-blade-iv",
+        "id": 8113,
+        "name": "Pallor's Frozen Blade IV",
+        "description": "Left behind when that wicked witch melted! Happy FrostVayle!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8113,
+            "name": "Pallor's Frozen Blade IV",
+            "description": "Left behind when that wicked witch melted! Happy FrostVayle!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 15,
+            "level": 70,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-pallor.swf",
+            "icon": "sword",
+            "strength": 9,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 7,
+            "damageMin": 72,
+            "damageMax": 90,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Ice,5,Fire,5,Darkness,5,Water,-1"
+        }
+    },
+    "related": {
+        "296-boss-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "296-boss-drops",
+                "fullSlug": "item-shops\/296-boss-drops",
+                "id": 296,
+                "name": "Boss Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 296,
+                    "name": "Boss Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

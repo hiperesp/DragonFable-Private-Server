@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3010-busted-genji-helm",
+        "fullSlug": "items\/3010-busted-genji-helm",
+        "id": 3010,
+        "name": "Busted Genji Helm",
+        "description": "Crafted in a far-off land, this helm has seen better days."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3010,
+            "name": "Busted Genji Helm",
+            "description": "Crafted in a far-off land, this helm has seen better days.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 10,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-genji.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5"
+        }
+    },
+    "related": {
+        "497-ice-princess": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "497-ice-princess",
+                "fullSlug": "quests\/497-ice-princess",
+                "id": 497,
+                "name": "Ice Princess",
+                "description": "Can Ash and his mystery friend save the Ice Princess from her fate?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 497,
+                    "name": "Ice Princess",
+                    "description": "Can Ash and his mystery friend save the Ice Princess from her fate?",
+                    "complete": "Melting the Ice Princess, curing fire breath and getting amnesia. It's all in a days work for an aspiring knight.",
+                    "swf": "towns\/Ash\/quest-iceprincessr1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "ice mobs",
+                    "monsterGroupSwf": "mset-ashiceprincess.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

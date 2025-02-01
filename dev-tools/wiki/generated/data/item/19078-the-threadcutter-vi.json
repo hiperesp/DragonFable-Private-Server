@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19078-the-threadcutter-vi",
+        "fullSlug": "items\/19078-the-threadcutter-vi",
+        "id": 19078,
+        "name": "The Threadcutter VI",
+        "description": "Secundus says this weapon is for your hands alone. Use it to carve out your place in Lore's history. This weapon has color custom features. Can be upgraded at Secundus."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19078,
+            "name": "The Threadcutter VI",
+            "description": "Secundus says this weapon is for your hands alone. Use it to carve out your place in Lore's history. This weapon has color custom features. Can be upgraded at Secundus.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 17,
+            "rarity": 0,
+            "level": 60,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-chaos2019.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 79,
+            "damageMax": 79,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 17,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "311-chaosweaver-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "311-chaosweaver-upgrades",
+                "fullSlug": "merge-shops\/311-chaosweaver-upgrades",
+                "id": 311,
+                "name": "Chaosweaver Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 311,
+                    "name": "Chaosweaver Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3338,
+                    "mergeShopId": 311,
+                    "mergeId": 3446
+                },
+                "merge": {
+                    "id": 3446,
+                    "itemId1": 19078,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19079,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18535-magi-sentinel-helm-ii",
+        "fullSlug": "items\/18535-magi-sentinel-helm-ii",
+        "id": 18535,
+        "name": "Magi Sentinel Helm II",
+        "description": "The solid helmet of the Magesterium Sentinel. You can barely see out of it, but it's very protective! This helm is proof of your victory over Mana-Infused Roirr."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18535,
+            "name": "Magi Sentinel Helm II",
+            "description": "The solid helmet of the Magesterium Sentinel. You can barely see out of it, but it's very protective! This helm is proof of your victory over Mana-Infused Roirr.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": -50,
+            "rarity": 0,
+            "level": 70,
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-protector.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 15,
+            "endurance": 20,
+            "wisdom": 20,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": -50,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,5,Health,10"
+        }
+    },
+    "related": {
+        "299-azaveyran-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "299-azaveyran-rewards",
+                "fullSlug": "merge-shops\/299-azaveyran-rewards",
+                "id": 299,
+                "name": "Azaveyran Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 299,
+                    "name": "Azaveyran Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3249,
+                    "mergeShopId": 299,
+                    "mergeId": 3337
+                },
+                "merge": {
+                    "id": 3337,
+                    "itemId1": 18534,
+                    "amount1": 1,
+                    "itemId2": 18538,
+                    "amount2": 1,
+                    "itemId": 18535,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

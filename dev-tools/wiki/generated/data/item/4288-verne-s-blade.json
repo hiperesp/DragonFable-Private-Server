@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4288-verne-s-blade",
+        "fullSlug": "items\/4288-verne-s-blade",
+        "id": 4288,
+        "name": "Verne's Blade",
+        "description": "A machinist named Jules cobbled this together.  It's powered by steam and awesome."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4288,
+            "name": "Verne's Blade",
+            "description": "A machinist named Jules cobbled this together.  It's powered by steam and awesome.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 20,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-steampunk.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 0,
+            "damageMin": 34,
+            "damageMax": 54,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "661-dark-tower-penitentiary": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "661-dark-tower-penitentiary",
+                "fullSlug": "quests\/661-dark-tower-penitentiary",
+                "id": 661,
+                "name": "Dark Tower Penitentiary",
+                "description": "Prisons are not the friendliest places at the BEST of times.  A prison in Ravenloss?  REALLY unfriendly! I hope you can find a way out!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 661,
+                    "name": "Dark Tower Penitentiary",
+                    "description": "Prisons are not the friendliest places at the BEST of times.  A prison in Ravenloss?  REALLY unfriendly! I hope you can find a way out!",
+                    "complete": "There's a way out!  Thank goodness.  It would have been horrible to be TRAPPED there! But... where's Riadne?!",
+                    "swf": "towns\/Ravenloss\/quest-Tomix6-sec.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "toxic spiders and shrooms",
+                    "monsterGroupSwf": "mset-tomix6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2113-tainted-bandit-s-axe",
+        "fullSlug": "items\/2113-tainted-bandit-s-axe",
+        "id": 2113,
+        "name": "Tainted Bandit's Axe",
+        "description": "And to think, all that time it was this axe that was poisoned."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2113,
+            "name": "Tainted Bandit's Axe",
+            "description": "And to think, all that time it was this axe that was poisoned.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 24,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-cyrano4a.swf",
+            "icon": "axe",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 35,
+            "damageMax": 54,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "87-bandit-loot": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "87-bandit-loot",
+                "fullSlug": "item-shops\/87-bandit-loot",
+                "id": 87,
+                "name": "Bandit Loot",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 87,
+                    "name": "Bandit Loot",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

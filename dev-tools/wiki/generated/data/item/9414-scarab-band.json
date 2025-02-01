@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9414-scarab-band",
+        "fullSlug": "items\/9414-scarab-band",
+        "id": 9414,
+        "name": "Scarab Band",
+        "description": "This workmanship of this decorative helm is incredibly intricate! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9414,
+            "name": "Scarab Band",
+            "description": "This workmanship of this decorative helm is incredibly intricate! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 35000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 75,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-scarabband.swf",
+            "icon": "helm",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Fire,10,Ice,10,Stone,8,Darkness,8,Water,8,Poison,6,Immobility,4"
+        }
+    },
+    "related": {
+        "323-masub-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "323-masub-helms",
+                "fullSlug": "item-shops\/323-masub-helms",
+                "id": 323,
+                "name": "Masub Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 323,
+                    "name": "Masub Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10687-pitchfork",
+        "fullSlug": "items\/10687-pitchfork",
+        "id": 10687,
+        "name": "Pitchfork",
+        "description": "Poke at anything you want with this fiery fork of flames! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10687,
+            "name": "Pitchfork",
+            "description": "Poke at anything you want with this fiery fork of flames! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 15000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 25,
+            "level": 30,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/staffs\/staff-pitchforkred.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 45,
+            "damageMax": 59,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Darkness,2,Immobility,1"
+        }
+    },
+    "related": {
+        "374-mogloween-2013-gold": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "374-mogloween-2013-gold",
+                "fullSlug": "item-shops\/374-mogloween-2013-gold",
+                "id": 374,
+                "name": "Mogloween 2013 Gold",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 374,
+                    "name": "Mogloween 2013 Gold",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20034-mechanical-ring-vi",
+        "fullSlug": "items\/20034-mechanical-ring-vi",
+        "id": 20034,
+        "name": "Mechanical Ring VI",
+        "description": "A dark band spins soundlessly around a red circle. Most likely some sort of construct part, but it looks very fashionable as a ring. Just ignore the occasional shivers down your spine. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20034,
+            "name": "Mechanical Ring VI",
+            "description": "A dark band spins soundlessly around a red circle. Most likely some sort of construct part, but it looks very fashionable as a ring. Just ignore the occasional shivers down your spine. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1750,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Darkness,10,Light,10,Fire,10"
+        }
+    },
+    "related": {
+        "1765-remnants-at-rest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1765-remnants-at-rest",
+                "fullSlug": "quests\/1765-remnants-at-rest",
+                "id": 1765,
+                "name": "Remnants at Rest",
+                "description": "Far from civilization, a relic of another time stirs."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1765,
+                    "name": "Remnants at Rest",
+                    "description": "Far from civilization, a relic of another time stirs.",
+                    "complete": "While Lock and Key hold off Remthalas, it's time to find out what Myalos wants.",
+                    "swf": "wars\/F13-Maleurous-6\/quest1-remnants.swf",
+                    "swfX": "wars\/F13-Maleurous-6\/quest1-remnants-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Mecha and Verdant Tog",
+                    "monsterGroupSwf": "mset-myalosone-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

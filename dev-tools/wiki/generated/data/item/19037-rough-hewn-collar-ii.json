@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19037-rough-hewn-collar-ii",
+        "fullSlug": "items\/19037-rough-hewn-collar-ii",
+        "id": 19037,
+        "name": "Rough-Hewn Collar II",
+        "description": "Cole found this among some old bits and pieces of wood lying around. Your dragon refuses to wear it, so it's yours now! Watch out for some nasty splinters, though."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19037,
+            "name": "Rough-Hewn Collar II",
+            "description": "Cole found this among some old bits and pieces of wood lying around. Your dragon refuses to wear it, so it's yours now! Watch out for some nasty splinters, though.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 40,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Water,4,Metal,4,Nature,4"
+        }
+    },
+    "related": {
+        "1650-be-prepared": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1650-be-prepared",
+                "fullSlug": "quests\/1650-be-prepared",
+                "id": 1650,
+                "name": "Be Prepared",
+                "description": "Siofra has made a serious threat, so it's best to be prepared!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1650,
+                    "name": "Be Prepared",
+                    "description": "Siofra has made a serious threat, so it's best to be prepared!",
+                    "complete": "Spare wood? Gathered. Giant spiders? Collected. The Nest? Prepared! Bring it on, Siofra!",
+                    "swf": "towns\/Nest\/quest5-prepared.swf",
+                    "swfX": "towns\/Nest\/quest5-prepared-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 60000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Trees, elems, spiders",
+                    "monsterGroupSwf": "mset-prepared.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

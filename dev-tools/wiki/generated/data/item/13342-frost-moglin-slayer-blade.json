@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13342-frost-moglin-slayer-blade",
+        "fullSlug": "items\/13342-frost-moglin-slayer-blade",
+        "id": 13342,
+        "name": "Frost Moglin Slayer Blade",
+        "description": "Slayer of the Frost Moglins! Your evil deeds and vicious attack have made everyone in Frostvale Village scared of your every move!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13342,
+            "name": "Frost Moglin Slayer Blade",
+            "description": "Slayer of the Frost Moglins! Your evil deeds and vicious attack have made everyone in Frostvale Village scared of your every move!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 350,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 20,
+            "level": 60,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/Sword-FrostMoglinSlayer.swf",
+            "icon": "sword",
+            "strength": 8,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 6,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 70,
+            "damageMax": 88,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Good,10,Light,10,Silver,8,Energy,8,Health,-5"
+        }
+    },
+    "related": {
+        "426-frost-moglin-slayer": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "426-frost-moglin-slayer",
+                "fullSlug": "item-shops\/426-frost-moglin-slayer",
+                "id": 426,
+                "name": "Frost Moglin Slayer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 426,
+                    "name": "Frost Moglin Slayer",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

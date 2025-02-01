@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11278-frostval-wish-cane-vi",
+        "fullSlug": "items\/11278-frostval-wish-cane-vi",
+        "id": 11278,
+        "name": "Frostval Wish Cane VI",
+        "description": "A wish upon a Frostval star to help with your Frostval slaying! Happy Frostval, 2013!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11278,
+            "name": "Frostval Wish Cane VI",
+            "description": "A wish upon a Frostval star to help with your Frostval slaying! Happy Frostval, 2013!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 50,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-christmas wish.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 61,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4,Fire,4,Poison,3,Health,-2"
+        }
+    },
+    "related": {
+        "195-2013-frostval-gifts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "195-2013-frostval-gifts",
+                "fullSlug": "merge-shops\/195-2013-frostval-gifts",
+                "id": 195,
+                "name": "2013 Frostval Gifts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 195,
+                    "name": "2013 Frostval Gifts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2229,
+                    "mergeShopId": 195,
+                    "mergeId": 2075
+                },
+                "merge": {
+                    "id": 2075,
+                    "itemId1": 11278,
+                    "amount1": 1,
+                    "itemId2": 11245,
+                    "amount2": 5,
+                    "itemId": 11279,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

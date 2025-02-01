@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4626-half-off-higher-staff-of-clubs",
+        "fullSlug": "items\/4626-half-off-higher-staff-of-clubs",
+        "id": 4626,
+        "name": "Half-off Higher Staff of Clubs",
+        "description": "This staff really suits you! But it's not shaped like a club at all... NOW HALF-OFF! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4626,
+            "name": "Half-off Higher Staff of Clubs",
+            "description": "This staff really suits you! But it's not shaped like a club at all... NOW HALF-OFF! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 60,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-clubshalf.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 71,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Stone,10,Wind,10,Fire,10"
+        }
+    },
+    "related": {
+        "164-half-off-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "164-half-off-shop",
+                "fullSlug": "item-shops\/164-half-off-shop",
+                "id": 164,
+                "name": "Half-Off Shop!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 164,
+                    "name": "Half-Off Shop!",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5692-found-lucky-wishbone",
+        "fullSlug": "items\/5692-found-lucky-wishbone",
+        "id": 5692,
+        "name": "Found \"Lucky\" Wishbone",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5692,
+            "name": "Found \"Lucky\" Wishbone"
+        }
+    },
+    "related": {
+        "92-wishbones": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "92-wishbones",
+                "fullSlug": "merge-shops\/92-wishbones",
+                "id": 92,
+                "name": "Wishbones",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 92,
+                    "name": "Wishbones"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1277,
+                    "mergeShopId": 92,
+                    "mergeId": 1078
+                },
+                "merge": {
+                    "id": 1078,
+                    "itemId1": 5692,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 5748,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

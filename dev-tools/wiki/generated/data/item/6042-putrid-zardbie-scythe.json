@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6042-putrid-zardbie-scythe",
+        "fullSlug": "items\/6042-putrid-zardbie-scythe",
+        "id": 6042,
+        "name": "Putrid Zardbie Scythe",
+        "description": "The Zardbie infection of Mogloween 2011 has even affected weapons! Visit the Black Market Moglin to upgrade this weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6042,
+            "name": "Putrid Zardbie Scythe",
+            "description": "The Zardbie infection of Mogloween 2011 has even affected weapons! Visit the Black Market Moglin to upgrade this weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 50,
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-ZardbieScythe.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 7,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Darkness,6,Nature,6,Disease,6,Immobility,1,All,2"
+        }
+    },
+    "related": {
+        "99-zardbie-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "99-zardbie-scythe",
+                "fullSlug": "merge-shops\/99-zardbie-scythe",
+                "id": 99,
+                "name": "Zardbie Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 99,
+                    "name": "Zardbie Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1355,
+                    "mergeShopId": 99,
+                    "mergeId": 1183
+                },
+                "merge": {
+                    "id": 1183,
+                    "itemId1": 6042,
+                    "amount1": 1,
+                    "itemId2": 5672,
+                    "amount2": 1,
+                    "itemId": 6043,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15392-valoroth-s-doomed-dagger",
+        "fullSlug": "items\/15392-valoroth-s-doomed-dagger",
+        "id": 15392,
+        "name": "Valoroth's Doomed Dagger",
+        "description": "A gift from the BioBeasts you saved. Hopefully, they're safe from Alydriah's clutches now!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15392,
+            "name": "Valoroth's Doomed Dagger",
+            "description": "A gift from the BioBeasts you saved. Hopefully, they're safe from Alydriah's clutches now!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 20,
+            "type": "Pierce",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-valorothDOOM.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 1,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 29,
+            "damageMax": 53,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Health,-1"
+        }
+    },
+    "related": {
+        "1338-biobeasts-escape": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1338-biobeasts-escape",
+                "fullSlug": "quests\/1338-biobeasts-escape",
+                "id": 1338,
+                "name": "BioBeasts Escape!",
+                "description": "BioBeasts are trying to escape Frysteland through inter-dimensional portals! Can you find and save them before Alydriah and her minions capture them and find new samples?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1338,
+                    "name": "BioBeasts Escape!",
+                    "description": "BioBeasts are trying to escape Frysteland through inter-dimensional portals! Can you find and save them before Alydriah and her minions capture them and find new samples?",
+                    "complete": "You defeated Alydriah and saved the BioBeasts that managed to make it through the portal! Hopefully, her guards didn't take anything else back to Frysteland!",
+                    "swf": "random\/random-50room-biobeasts-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bio. beasts. ",
+                    "monsterGroupSwf": "mset-biobeasts.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

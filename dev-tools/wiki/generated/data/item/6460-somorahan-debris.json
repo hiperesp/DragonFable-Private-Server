@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6460-somorahan-debris",
+        "fullSlug": "items\/6460-somorahan-debris",
+        "id": 6460,
+        "name": "Somorahan Debris",
+        "description": "A piece of inter-dimensional debris brought across by the alien refugees."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6460,
+            "name": "Somorahan Debris",
+            "description": "A piece of inter-dimensional debris brought across by the alien refugees.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "blackbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "861-refugee-rescue": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "861-refugee-rescue",
+                "fullSlug": "quests\/861-refugee-rescue",
+                "id": 861,
+                "name": "Refugee Rescue",
+                "description": "One of the Atealan refugees is trapped by the alien army!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 861,
+                    "name": "Refugee Rescue",
+                    "description": "One of the Atealan refugees is trapped by the alien army!",
+                    "complete": "You saved the refugee!",
+                    "swf": "random\/random-war-alien.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire infernal and goblins",
+                    "monsterGroupSwf": "mset-F13-alienwar.swf"
+                }
+            },
+            "related": []
+        },
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 54,
+                    "mergeShopId": 4,
+                    "mergeId": 1308
+                },
+                "merge": {
+                    "id": 1308,
+                    "itemId1": 6460,
+                    "amount1": 5,
+                    "itemId2": 6450,
+                    "amount2": 1,
+                    "itemId": 6451,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

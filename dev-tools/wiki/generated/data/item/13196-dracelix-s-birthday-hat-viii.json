@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13196-dracelix-s-birthday-hat-viii",
+        "fullSlug": "items\/13196-dracelix-s-birthday-hat-viii",
+        "id": 13196,
+        "name": "Dracelix's Birthday Hat VIII",
+        "description": "The birthday hat of the Paladin, Dracelix! May it grant you victory against all manner of undead! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13196,
+            "name": "Dracelix's Birthday Hat VIII",
+            "description": "The birthday hat of the Paladin, Dracelix! May it grant you victory against all manner of undead! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 16000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dracebirthday.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,12,Darkness,12,Evil,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "289-dracelix-birthday": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "289-dracelix-birthday",
+                "fullSlug": "item-shops\/289-dracelix-birthday",
+                "id": 289,
+                "name": "Dracelix Birthday",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 289,
+                    "name": "Dracelix Birthday",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

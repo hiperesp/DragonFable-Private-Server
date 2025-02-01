@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4408-vote-for-magiscience",
+        "fullSlug": "items\/4408-vote-for-magiscience",
+        "id": 4408,
+        "name": "Vote for Magiscience",
+        "description": "This is a vote for Magiscience! Technomancers RULE!  Use this to redeem your Clashening quest chain reward by going to the \"Your Vote\" shop!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4408,
+            "name": "Vote for Magiscience",
+            "description": "This is a vote for Magiscience! Technomancers RULE!  Use this to redeem your Clashening quest chain reward by going to the \"Your Vote\" shop!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Note",
+            "swf": "",
+            "icon": "note",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "158-clashening-vote": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "158-clashening-vote",
+                "fullSlug": "item-shops\/158-clashening-vote",
+                "id": 158,
+                "name": "Clashening Vote",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 158,
+                    "name": "Clashening Vote",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "74-magiscience-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "74-magiscience-rewards",
+                "fullSlug": "merge-shops\/74-magiscience-rewards",
+                "id": 74,
+                "name": "Magiscience Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 74,
+                    "name": "Magiscience Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1100,
+                    "mergeShopId": 74,
+                    "mergeId": 810
+                },
+                "merge": {
+                    "id": 810,
+                    "itemId1": 4408,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": -1,
+                    "itemId": 4457,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

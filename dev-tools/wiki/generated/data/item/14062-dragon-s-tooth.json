@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14062-dragon-s-tooth",
+        "fullSlug": "items\/14062-dragon-s-tooth",
+        "id": 14062,
+        "name": "Dragon's Tooth",
+        "description": "This item requires a Dragon Amulet. The tooth looks like one of the Valtrith's pulled it directly from a dragon's skull!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14062,
+            "name": "Dragon's Tooth",
+            "description": "This item requires a Dragon Amulet. The tooth looks like one of the Valtrith's pulled it directly from a dragon's skull!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 25,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 23,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3,Ice,3"
+        }
+    },
+    "related": {
+        "448-tomb-drops": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "448-tomb-drops",
+                "fullSlug": "item-shops\/448-tomb-drops",
+                "id": 448,
+                "name": "Tomb Drops",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 448,
+                    "name": "Tomb Drops",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

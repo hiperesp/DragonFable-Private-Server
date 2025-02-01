@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11796-ornamented-seal-ring-of-the-papermancers",
+        "fullSlug": "items\/11796-ornamented-seal-ring-of-the-papermancers",
+        "id": 11796,
+        "name": "Ornamented Seal Ring of the Papermancers",
+        "description": "Papermancers are using this ring to seal the most important letters in the history of Lore. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11796,
+            "name": "Ornamented Seal Ring of the Papermancers",
+            "description": "Papermancers are using this ring to seal the most important letters in the history of Lore. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2900,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 6,
+            "level": 77,
+            "type": "Melee",
+            "element": "Good",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 8,
+            "dexterity": 9,
+            "intelligence": 10,
+            "luck": 8,
+            "charisma": 5,
+            "endurance": 9,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 4,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 1,
+            "block": 2,
+            "resists": "Metal,10,Silver,10,Evil,10"
+        }
+    },
+    "related": {
+        "1148-the-spam-fighters": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1148-the-spam-fighters",
+                "fullSlug": "quests\/1148-the-spam-fighters",
+                "id": 1148,
+                "name": "The Spam Fighters",
+                "description": "Time to get your mail!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1148,
+                    "name": "The Spam Fighters",
+                    "description": "Time to get your mail!",
+                    "complete": "Letters to Ash, Aria, and Serenity, but none for you! Aww...",
+                    "swf": "towns\/Ash\/quest-spam.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Bugs",
+                    "monsterGroupSwf": "mset-spam-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

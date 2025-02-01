@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7179-escelense-defender-cape-i",
+        "fullSlug": "items\/7179-escelense-defender-cape-i",
+        "id": 7179,
+        "name": "Escelense Defender Cape I",
+        "description": "Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7179,
+            "name": "Escelense Defender Cape I",
+            "description": "Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 23,
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-escelense.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Energy,3,Fire,3"
+        }
+    },
+    "related": {
+        "115-escelense": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "115-escelense",
+                "fullSlug": "merge-shops\/115-escelense",
+                "id": 115,
+                "name": "Escelense",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 115,
+                    "name": "Escelense"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1647,
+                    "mergeShopId": 115,
+                    "mergeId": 1512
+                },
+                "merge": {
+                    "id": 1512,
+                    "itemId1": 7179,
+                    "amount1": 1,
+                    "itemId2": 7135,
+                    "amount2": 10,
+                    "itemId": 7180,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "418-escelense-swap": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "418-escelense-swap",
+                "fullSlug": "merge-shops\/418-escelense-swap",
+                "id": 418,
+                "name": "Escelense Swap",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 418,
+                    "name": "Escelense Swap"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4304,
+                    "mergeShopId": 418,
+                    "mergeId": 4357
+                },
+                "merge": {
+                    "id": 4357,
+                    "itemId1": 7179,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 7184,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

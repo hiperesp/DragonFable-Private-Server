@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15978-doomed-dragon-helm",
+        "fullSlug": "items\/15978-doomed-dragon-helm",
+        "id": 15978,
+        "name": "Doomed Dragon Helm",
+        "description": "As Darkness begins to spread, will you be able to save your best friend from the cold grasp of Doom? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15978,
+            "name": "Doomed Dragon Helm",
+            "description": "As Darkness begins to spread, will you be able to save your best friend from the cold grasp of Doom? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1800,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-doomdragon.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 11,
+            "dodge": 11,
+            "block": 11,
+            "resists": "Darkness,11,Light,11,Disease,5"
+        }
+    },
+    "related": {
+        "1367-old-friends": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1367-old-friends",
+                "fullSlug": "quests\/1367-old-friends",
+                "id": 1367,
+                "name": "Old Friends",
+                "description": "You must race through Lore to find and recruit help to save your Dragon from Doom!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1367,
+                    "name": "Old Friends",
+                    "description": "You must race through Lore to find and recruit help to save your Dragon from Doom!",
+                    "complete": "Rolith, Alina, and Cinquefoil have joined in your fight for your Dragon!",
+                    "swf": "towns\/10AnnDF\/quest8-random-oldfriends.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cultists, skeles, dark ele",
+                    "monsterGroupSwf": "mset-artifact.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4731-kuumba-cloak",
+        "fullSlug": "items\/4731-kuumba-cloak",
+        "id": 4731,
+        "name": "Kuumba Cloak",
+        "description": "A warm cloak made by the moglins to help celebrate the season!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4731,
+            "name": "Kuumba Cloak",
+            "description": "A warm cloak made by the moglins to help celebrate the season!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 15,
+            "level": 43,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-kwanzaa.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 3,
+            "endurance": 3,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5,Darkness,5,Immobility,1"
+        }
+    },
+    "related": {
+        "709-the-factory": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "709-the-factory",
+                "fullSlug": "quests\/709-the-factory",
+                "id": 709,
+                "name": "The Factory",
+                "description": "Plushies patrol the area outside!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 709,
+                    "name": "The Factory",
+                    "description": "Plushies patrol the area outside!",
+                    "complete": "Oh no! You're trapped inside Zadd's factory!",
+                    "swf": "towns\/frostvale\/f10\/quest-frostval2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "plushies",
+                    "monsterGroupSwf": "mset-frostval10-1-r6.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

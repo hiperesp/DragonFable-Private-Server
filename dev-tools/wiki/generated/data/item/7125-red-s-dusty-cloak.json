@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7125-red-s-dusty-cloak",
+        "fullSlug": "items\/7125-red-s-dusty-cloak",
+        "id": 7125,
+        "name": "Red's Dusty Cloak",
+        "description": "A much loved and well used cloak, it is dyed a blood red color. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7125,
+            "name": "Red's Dusty Cloak",
+            "description": "A much loved and well used cloak, it is dyed a blood red color. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 9,
+            "level": 60,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-redridinghood.swf",
+            "icon": "cape",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 6,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Nature,7,Darkness,7,Immobility,3,Health,-1"
+        }
+    },
+    "related": {
+        "918-red-riding-hood": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "918-red-riding-hood",
+                "fullSlug": "quests\/918-red-riding-hood",
+                "id": 918,
+                "name": "Red Riding Hood",
+                "description": "There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 918,
+                    "name": "Red Riding Hood",
+                    "description": "There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods.",
+                    "complete": "Wow, Red was mad. I mean really mad. Perhaps I should send a basket of goodies. It might be too early though. Perhaps I should wait a week or so.",
+                    "swf": "quests\/quest-redridinghood.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "woods",
+                    "monsterGroupSwf": "mset-redridinghood.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

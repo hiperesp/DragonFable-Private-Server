@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13634-faerie-lights",
+        "fullSlug": "items\/13634-faerie-lights",
+        "id": 13634,
+        "name": "Faerie Lights",
+        "description": "Small lights blink and shift over the surface of the belt. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13634,
+            "name": "Faerie Lights",
+            "description": "Small lights blink and shift over the surface of the belt. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 12300,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 6,
+            "level": 77,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 10,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,10,Wind,8,Water,8,Darkness,6,Fire,3,Energy,3,Stone,-2"
+        }
+    },
+    "related": {
+        "1250-an-uncertain-future": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1250-an-uncertain-future",
+                "fullSlug": "quests\/1250-an-uncertain-future",
+                "id": 1250,
+                "name": "An Uncertain Future",
+                "description": "Let's catch up to Leon!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1250,
+                    "name": "An Uncertain Future",
+                    "description": "Let's catch up to Leon!",
+                    "complete": "Kara has been retrieved, but will she still be the same? Where will the Vind go from here? And while all that's happening, what of Espina Rosa? Many questions, few answers.",
+                    "swf": "towns\/SulenEska\/quest20-uncertain.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 50000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "rose, shackled",
+                    "monsterGroupSwf": "mset-se-rescue-r2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

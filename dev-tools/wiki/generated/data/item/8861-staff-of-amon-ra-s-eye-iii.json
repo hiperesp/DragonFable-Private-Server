@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8861-staff-of-amon-ra-s-eye-iii",
+        "fullSlug": "items\/8861-staff-of-amon-ra-s-eye-iii",
+        "id": 8861,
+        "name": "Staff of Amon Ra's Eye III",
+        "description": "Created to help defend the Sandsea Gate... this weapon is now in your hands!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8861,
+            "name": "Staff of Amon Ra's Eye III",
+            "description": "Created to help defend the Sandsea Gate... this weapon is now in your hands!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 30000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 61,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-amonra.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 68,
+            "damageMax": 82,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,7,Fire,6,Nature,6,Immobility,2"
+        }
+    },
+    "related": {
+        "313-ahmet-ptah": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "313-ahmet-ptah",
+                "fullSlug": "item-shops\/313-ahmet-ptah",
+                "id": 313,
+                "name": "Ahmet Ptah",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 313,
+                    "name": "Ahmet Ptah",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

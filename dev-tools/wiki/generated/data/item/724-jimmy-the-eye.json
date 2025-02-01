@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "724-jimmy-the-eye",
+        "fullSlug": "items\/724-jimmy-the-eye",
+        "id": 724,
+        "name": "Jimmy The Eye",
+        "description": "This pet requires a Dragon Amulet! Jimmy The Eye is one of the very rare blue flying eyes which were originally discovered by Warlic. This species is a servant of Palladia and tend to be friendly, intelligent, and helpful. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 724,
+            "name": "Jimmy The Eye",
+            "description": "This pet requires a Dragon Amulet! Jimmy The Eye is one of the very rare blue flying eyes which were originally discovered by Warlic. This species is a servant of Palladia and tend to be friendly, intelligent, and helpful. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 8,
+            "element": "Wind",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-JimmyTheEye.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 6,
+            "damageMax": 11,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "4-def-rares": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "4-def-rares",
+                "fullSlug": "merge-shops\/4-def-rares",
+                "id": 4,
+                "name": "Def. Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 4,
+                    "name": "Def. Rares"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 102,
+                    "mergeShopId": 4,
+                    "mergeId": 155
+                },
+                "merge": {
+                    "id": 155,
+                    "itemId1": 495,
+                    "amount1": 75,
+                    "itemId2": 724,
+                    "amount2": 1,
+                    "itemId": 725,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

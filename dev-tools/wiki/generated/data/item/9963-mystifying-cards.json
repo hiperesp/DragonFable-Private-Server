@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9963-mystifying-cards",
+        "fullSlug": "items\/9963-mystifying-cards",
+        "id": 9963,
+        "name": "Mystifying Cards",
+        "description": "Which will suit you? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9963,
+            "name": "Mystifying Cards",
+            "description": "Which will suit you? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 10,
+            "level": 76,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-magic-cards.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 10,
+            "charisma": 7,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,12,Stone,6,Wind,6,All,2"
+        }
+    },
+    "related": {
+        "344-floating-cards": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "344-floating-cards",
+                "fullSlug": "item-shops\/344-floating-cards",
+                "id": 344,
+                "name": "Floating Cards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 344,
+                    "name": "Floating Cards",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

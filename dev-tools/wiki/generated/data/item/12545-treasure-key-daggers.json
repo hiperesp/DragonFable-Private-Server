@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12545-treasure-key-daggers",
+        "fullSlug": "items\/12545-treasure-key-daggers",
+        "id": 12545,
+        "name": "Treasure Key Daggers",
+        "description": "These keys must unlock some massive treasure chest. Too bad you don't know where it could be. It does make a nice weapon though."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12545,
+            "name": "Treasure Key Daggers",
+            "description": "These keys must unlock some massive treasure chest. Too bad you don't know where it could be. It does make a nice weapon though.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 415,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 20,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-PirateTreasureKeyDagger.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 13,
+            "intelligence": 0,
+            "luck": 15,
+            "charisma": 10,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 82,
+            "damageMax": 100,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 10,
+            "parry": 3,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Water,13,Wind,13,Immobility,8,Health,-3"
+        }
+    },
+    "related": {
+        "414-booty-challenge-rares": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "414-booty-challenge-rares",
+                "fullSlug": "item-shops\/414-booty-challenge-rares",
+                "id": 414,
+                "name": "Booty Challenge Rares",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 414,
+                    "name": "Booty Challenge Rares",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

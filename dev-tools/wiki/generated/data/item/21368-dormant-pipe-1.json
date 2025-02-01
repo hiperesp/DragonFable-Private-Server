@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21368-dormant-pipe-1",
+        "fullSlug": "items\/21368-dormant-pipe-1",
+        "id": 21368,
+        "name": "Dormant Pipe +1",
+        "description": "+1 to what? +1 to all things Dormant Pipe, of course.\nProof of victory over \"The Platinum Cabit\" and \"The Kittypillar\" challenges."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21368,
+            "name": "Dormant Pipe +1",
+            "description": "+1 to what? +1 to all things Dormant Pipe, of course.\nProof of victory over \"The Platinum Cabit\" and \"The Kittypillar\" challenges.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Silver",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "381-in-wanderland": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "381-in-wanderland",
+                "fullSlug": "merge-shops\/381-in-wanderland",
+                "id": 381,
+                "name": "In Wanderland",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 381,
+                    "name": "In Wanderland"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3985,
+                    "mergeShopId": 381,
+                    "mergeId": 4097
+                },
+                "merge": {
+                    "id": 4097,
+                    "itemId1": 21368,
+                    "amount1": 1,
+                    "itemId2": 21367,
+                    "amount2": 1,
+                    "itemId": 21369,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

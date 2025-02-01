@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1770-freezing-dragon-hat",
+        "fullSlug": "items\/1770-freezing-dragon-hat",
+        "id": 1770,
+        "name": "Freezing Dragon Hat",
+        "description": "This helm is for DragonLords only\nFound in a mysterious cave on Dragesvard's glacier, this helm really helps you keep your cool!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1770,
+            "name": "Freezing Dragon Hat",
+            "description": "This helm is for DragonLords only\nFound in a mysterious cave on Dragesvard's glacier, this helm really helps you keep your cool!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 10,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-icetown3.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,3,Ice,3"
+        }
+    },
+    "related": {
+        "68-suneater-s-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "68-suneater-s-helms",
+                "fullSlug": "item-shops\/68-suneater-s-helms",
+                "id": 68,
+                "name": "Suneater's Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 68,
+                    "name": "Suneater's Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16935-doom-dragon-scythe",
+        "fullSlug": "items\/16935-doom-dragon-scythe",
+        "id": 16935,
+        "name": "Doom Dragon Scythe",
+        "description": "Forged with the tooth of your dragon and the remains of the Doom Amulet, this scythe represents your victory over evil. It also serves as a reminder of how far your dragon can fall. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16935,
+            "name": "Doom Dragon Scythe",
+            "description": "Forged with the tooth of your dragon and the remains of the Doom Amulet, this scythe represents your victory over evil. It also serves as a reminder of how far your dragon can fall. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 0,
+            "level": 85,
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-doomdragonr1.swf",
+            "icon": "scythe",
+            "strength": 15,
+            "dexterity": 15,
+            "intelligence": 15,
+            "luck": 10,
+            "charisma": 10,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 82,
+            "damageMax": 102,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 10,
+            "dodge": 10,
+            "block": 10,
+            "resists": "Evil,5,Good,5,???,5,Fear,5"
+        }
+    },
+    "related": {
+        "263-doom-dragon-scythe": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "263-doom-dragon-scythe",
+                "fullSlug": "merge-shops\/263-doom-dragon-scythe",
+                "id": 263,
+                "name": "Doom Dragon Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 263,
+                    "name": "Doom Dragon Scythe"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2931,
+                    "mergeShopId": 263,
+                    "mergeId": 2945
+                },
+                "merge": {
+                    "id": 2945,
+                    "itemId1": 15933,
+                    "amount1": 1,
+                    "itemId2": 16934,
+                    "amount2": 1,
+                    "itemId": 16935,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

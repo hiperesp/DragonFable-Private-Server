@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3703-toxic-torafugu",
+        "fullSlug": "items\/3703-toxic-torafugu",
+        "id": 3703,
+        "name": "Toxic Torafugu",
+        "description": "This item requires a Dragon Amulet. Only the most highly trained elven smith can create this highly toxic weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3703,
+            "name": "Toxic Torafugu",
+            "description": "This item requires a Dragon Amulet. Only the most highly trained elven smith can create this highly toxic weapon.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1700,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 2,
+            "level": 48,
+            "type": "Magic",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-fugu.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,-3,Water,5,Stone,4"
+        }
+    },
+    "related": {
+        "584-nightmare": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "584-nightmare",
+                "fullSlug": "quests\/584-nightmare",
+                "id": 584,
+                "name": "Nightmare",
+                "description": "What is going on?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 584,
+                    "name": "Nightmare",
+                    "description": "What is going on?!",
+                    "complete": "Even though it was just a dream you're convinced that what you saw actually happened. You have to keep Aquella safe... and ignore that nagging voice in your head....",
+                    "swf": "towns\/TheLocker\/quest-nightmare-r2.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "water",
+                    "monsterGroupSwf": "mset-waterorb4-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

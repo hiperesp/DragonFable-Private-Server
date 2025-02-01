@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10260-stonefish",
+        "fullSlug": "items\/10260-stonefish",
+        "id": 10260,
+        "name": "StoneFish",
+        "description": "You have a giant stonefish on your back!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10260,
+            "name": "StoneFish",
+            "description": "You have a giant stonefish on your back!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 9,
+            "level": 60,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-stonefish.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 3,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Wind,5,Ice,4"
+        }
+    },
+    "related": {
+        "360-stonefish-cape": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "360-stonefish-cape",
+                "fullSlug": "item-shops\/360-stonefish-cape",
+                "id": 360,
+                "name": "Stonefish Cape",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 360,
+                    "name": "Stonefish Cape",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

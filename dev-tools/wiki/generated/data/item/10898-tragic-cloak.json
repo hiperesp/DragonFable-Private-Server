@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10898-tragic-cloak",
+        "fullSlug": "items\/10898-tragic-cloak",
+        "id": 10898,
+        "name": "Tragic Cloak",
+        "description": "You're one baaaaad dude!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10898,
+            "name": "Tragic Cloak",
+            "description": "You're one baaaaad dude!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 5,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-evil.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 4,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 2,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,2"
+        }
+    },
+    "related": {
+        "379-tragedy-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "379-tragedy-shop",
+                "fullSlug": "item-shops\/379-tragedy-shop",
+                "id": 379,
+                "name": "Tragedy Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 379,
+                    "name": "Tragedy Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

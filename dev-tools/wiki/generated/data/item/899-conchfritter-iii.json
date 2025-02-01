@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "899-conchfritter-iii",
+        "fullSlug": "items\/899-conchfritter-iii",
+        "id": 899,
+        "name": "ConchFritter III",
+        "description": "Fried conch on a stick? YUMMY!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 899,
+            "name": "ConchFritter III",
+            "description": "Fried conch on a stick? YUMMY!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 3,
+            "level": 20,
+            "type": "Magic",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-beachblade.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,1"
+        }
+    },
+    "related": {
+        "18-beach-vacation-invasion": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "18-beach-vacation-invasion",
+                "fullSlug": "quests\/18-beach-vacation-invasion",
+                "id": 18,
+                "name": "Beach Vacation Invasion!",
+                "description": "All you wanted to do was build some sand castles *sigh*. Fiery light monsters have overrun Falconreach beach and they are ruining everyone's good time. Enough is Enough!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 18,
+                    "name": "Beach Vacation Invasion!",
+                    "description": "All you wanted to do was build some sand castles *sigh*. Fiery light monsters have overrun Falconreach beach and they are ruining everyone's good time. Enough is Enough!",
+                    "complete": "You've cleared this small section of the beach but the temperature is rising and the beach monsters are giving everyone sunburns! Clear the rest of the beach so that people can enjoy their break!",
+                    "swf": "quests\/quest-bamboo.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "4000003",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Light",
+                    "monsterGroupSwf": "mset-beachwar2.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

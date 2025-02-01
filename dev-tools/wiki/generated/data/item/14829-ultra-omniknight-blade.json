@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14829-ultra-omniknight-blade",
+        "fullSlug": "items\/14829-ultra-omniknight-blade",
+        "id": 14829,
+        "name": "Ultra OmniKnight Blade",
+        "description": "After stopping the threat to the A.E. Multiverse, this is your reward! Happy 13th Anniversary!  This can be updated at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14829,
+            "name": "Ultra OmniKnight Blade",
+            "description": "After stopping the threat to the A.E. Multiverse, this is your reward! Happy 13th Anniversary!  This can be updated at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 100,
+            "level": 10,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-UltraOmniKnightblade.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 24,
+            "damageMax": 30,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,2,Immobility,1,Health,-1"
+        }
+    },
+    "related": {
+        "241-ultra-omniknight-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "241-ultra-omniknight-upgrades",
+                "fullSlug": "merge-shops\/241-ultra-omniknight-upgrades",
+                "id": 241,
+                "name": "Ultra OmniKnight Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 241,
+                    "name": "Ultra OmniKnight Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2677,
+                    "mergeShopId": 241,
+                    "mergeId": 2663
+                },
+                "merge": {
+                    "id": 2663,
+                    "itemId1": 14829,
+                    "amount1": 1,
+                    "itemId2": 12792,
+                    "amount2": 1,
+                    "itemId": 14830,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

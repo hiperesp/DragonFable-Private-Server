@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15211-shake-spear",
+        "fullSlug": "items\/15211-shake-spear",
+        "id": 15211,
+        "name": "Shake Spear",
+        "description": "That was a really good costume he wore.\nTurns out he's actually a skeleton.\nMaybe he'll write a play about your quests!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15211,
+            "name": "Shake Spear",
+            "description": "That was a really good costume he wore.\nTurns out he's actually a skeleton.\nMaybe he'll write a play about your quests!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 1,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Silver",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-shakespear.swf",
+            "icon": "pet",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 9,
+            "damageMax": 15,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1329-edamlet": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1329-edamlet",
+                "fullSlug": "quests\/1329-edamlet",
+                "id": 1329,
+                "name": "Edamlet",
+                "description": "Prevent the bandits from interrupting San Robin's one man show. You can do it!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1329,
+                    "name": "Edamlet",
+                    "description": "Prevent the bandits from interrupting San Robin's one man show. You can do it!",
+                    "complete": "Well, that was much ado about nothing.",
+                    "swf": "towns\/3Falconreach\/quest-edamlet.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "plain poetic bandits",
+                    "monsterGroupSwf": "mset-banditshake.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16020-mystical-katana",
+        "fullSlug": "items\/16020-mystical-katana",
+        "id": 16020,
+        "name": "Mystical Katana",
+        "description": "Razor sharp- and shockingly light! Cuts through most things like butter. Where could it have come from though?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16020,
+            "name": "Mystical Katana",
+            "description": "Razor sharp- and shockingly light! Cuts through most things like butter. Where could it have come from though?",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-MysticalKatana.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 82,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Darkness,9,Ice,5,Stone,5,Nature,2,Energy,2,Immobility,5"
+        }
+    },
+    "related": {
+        "253-heromart-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "253-heromart-items",
+                "fullSlug": "merge-shops\/253-heromart-items",
+                "id": 253,
+                "name": "HeroMart Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 253,
+                    "name": "HeroMart Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2865,
+                    "mergeShopId": 253,
+                    "mergeId": 2892
+                },
+                "merge": {
+                    "id": 2892,
+                    "itemId1": 15986,
+                    "amount1": 2,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16020,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

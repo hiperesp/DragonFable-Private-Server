@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6278-royal-301st-dagger",
+        "fullSlug": "items\/6278-royal-301st-dagger",
+        "id": 6278,
+        "name": "Royal 301st Dagger",
+        "description": "A weapon from the Swordhaven Armory. Who would abandon it out in the wilds though?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6278,
+            "name": "Royal 301st Dagger",
+            "description": "A weapon from the Swordhaven Armory. Who would abandon it out in the wilds though?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 56,
+            "type": "Pierce",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-301.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": -1,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 62,
+            "damageMax": 80,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,6,Stone,6"
+        }
+    },
+    "related": {
+        "842-swordhaven-forest": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "842-swordhaven-forest",
+                "fullSlug": "quests\/842-swordhaven-forest",
+                "id": 842,
+                "name": "Swordhaven Forest",
+                "description": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 842,
+                    "name": "Swordhaven Forest",
+                    "description": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!",
+                    "complete": "The woods surrounding Swordhaven are filled with bandits and dangerous monsters!",
+                    "swf": "random\/random-sh-forest.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and bears",
+                    "monsterGroupSwf": "mset-shforest.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

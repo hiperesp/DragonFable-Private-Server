@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "995-coquina-s-revenge",
+        "fullSlug": "items\/995-coquina-s-revenge",
+        "id": 995,
+        "name": "Coquina's Revenge",
+        "description": "This ring is made of tiny shell pieces... scratchy!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 995,
+            "name": "Coquina's Revenge",
+            "description": "This ring is made of tiny shell pieces... scratchy!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 900,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 8,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,2"
+        }
+    },
+    "related": {
+        "148-water-breathing-potions": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "148-water-breathing-potions",
+                "fullSlug": "quests\/148-water-breathing-potions",
+                "id": 148,
+                "name": "Water Breathing Potions",
+                "description": "Rhubarb in Osprey Cove has asked you to secure the hidden cargo of Water Breathing potions from the ninja invaders on the ship!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 148,
+                    "name": "Water Breathing Potions",
+                    "description": "Rhubarb in Osprey Cove has asked you to secure the hidden cargo of Water Breathing potions from the ninja invaders on the ship!",
+                    "complete": "You saved the ship from the ninjas, only to have the whole adventure literally blow up in your face. Rhubarb had decided to save you from Captain Blackberry this time... but now you owe him!",
+                    "swf": "towns\/ospreycove\/quest-pirate1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness,Metal",
+                    "monsterGroupSwf": "mset-ninja2-r1.swf"
+                }
+            },
+            "related": []
+        },
+        "633-ocean-reef": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "633-ocean-reef",
+                "fullSlug": "quests\/633-ocean-reef",
+                "id": 633,
+                "name": "Ocean Reef",
+                "description": "A colorful coral reef."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 633,
+                    "name": "Ocean Reef",
+                    "description": "A colorful coral reef.",
+                    "complete": "A colorful coral reef.",
+                    "swf": "random\/random-underwater-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "the whole damn ocean!",
+                    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

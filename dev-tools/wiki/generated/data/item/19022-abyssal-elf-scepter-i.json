@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19022-abyssal-elf-scepter-i",
+        "fullSlug": "items\/19022-abyssal-elf-scepter-i",
+        "id": 19022,
+        "name": "Abyssal Elf Scepter I",
+        "description": "You found this curious scepter under your bed after you woke up. It has \"Property of Remthalas\" scribbled on the handle. I'm sure it's perfectly safe to use. Definitely not a trap."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19022,
+            "name": "Abyssal Elf Scepter I",
+            "description": "You found this curious scepter under your bed after you woke up. It has \"Property of Remthalas\" scribbled on the handle. I'm sure it's perfectly safe to use. Definitely not a trap.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-abyssal.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 4,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Darkness,5,Light,5"
+        }
+    },
+    "related": {
+        "1649-ex-somniis-fabula": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1649-ex-somniis-fabula",
+                "fullSlug": "quests\/1649-ex-somniis-fabula",
+                "id": 1649,
+                "name": "Ex Somniis Fabula",
+                "description": "Before the Friday the 13th dawns, you and Uaanta sit down and share stories."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1649,
+                    "name": "Ex Somniis Fabula",
+                    "description": "Before the Friday the 13th dawns, you and Uaanta sit down and share stories.",
+                    "complete": "The Avatars should really learn some manners!",
+                    "swf": "wars\/F13-Maleurous-2\/quest-dream.swf",
+                    "swfX": "wars\/F13-Maleurous-2\/quest-dream-x-r1.swf?ver=1 ",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Uaanta",
+                    "monsterGroupSwf": "mset-uaanta.swf?ver=3"
+                }
+            },
+            "related": []
+        }
+    }
+}

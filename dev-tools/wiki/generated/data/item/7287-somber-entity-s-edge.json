@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7287-somber-entity-s-edge",
+        "fullSlug": "items\/7287-somber-entity-s-edge",
+        "id": 7287,
+        "name": "Somber Entity's Edge",
+        "description": "The sparking vortex contained within this weapons glowing eye energize you to battle on! You were awarded this weapon for winning the Wrath of Wargoth war challenge!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7287,
+            "name": "Somber Entity's Edge",
+            "description": "The sparking vortex contained within this weapons glowing eye energize you to battle on! You were awarded this weapon for winning the Wrath of Wargoth war challenge!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 32,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-darkenergy.swf",
+            "icon": "sword",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 46,
+            "damageMax": 58,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,4,Darkness,3,Light,2"
+        }
+    },
+    "related": {
+        "272-war-challenge": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "272-war-challenge",
+                "fullSlug": "item-shops\/272-war-challenge",
+                "id": 272,
+                "name": "War Challenge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 272,
+                    "name": "War Challenge",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

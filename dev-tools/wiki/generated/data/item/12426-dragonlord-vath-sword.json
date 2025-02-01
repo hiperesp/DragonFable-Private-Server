@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12426-dragonlord-vath-sword",
+        "fullSlug": "items\/12426-dragonlord-vath-sword",
+        "id": 12426,
+        "name": "DragonLord Vath Sword",
+        "description": "This sword was used by DragonLord Vath in his quest to unleash a chaotic beast. While the power it had to control dragons is gone, it is still a powerful weapon."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12426,
+            "name": "DragonLord Vath Sword",
+            "description": "This sword was used by DragonLord Vath in his quest to unleash a chaotic beast. While the power it had to control dragons is gone, it is still a powerful weapon.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 25,
+            "level": 30,
+            "element": "???",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-vath.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 53,
+            "damageMax": 57,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Evil,4,All,2"
+        }
+    },
+    "related": {
+        "206-vath": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "206-vath",
+                "fullSlug": "merge-shops\/206-vath",
+                "id": 206,
+                "name": "Vath",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 206,
+                    "name": "Vath"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2463,
+                    "mergeShopId": 206,
+                    "mergeId": 2364
+                },
+                "merge": {
+                    "id": 2364,
+                    "itemId1": 12426,
+                    "amount1": 1,
+                    "itemId2": 12456,
+                    "amount2": 1,
+                    "itemId": 12427,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

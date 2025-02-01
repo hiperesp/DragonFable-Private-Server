@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18191-rose-helm-vii",
+        "fullSlug": "items\/18191-rose-helm-vii",
+        "id": 18191,
+        "name": "Rose Helm VII",
+        "description": "A standard Manahunter Helm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18191,
+            "name": "Rose Helm VII",
+            "description": "A standard Manahunter Helm. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 18000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 75,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-rosestandard.swf",
+            "icon": "helm",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 12,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Metal,7"
+        }
+    },
+    "related": {
+        "598-rose-helms-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "598-rose-helms-shop",
+                "fullSlug": "item-shops\/598-rose-helms-shop",
+                "id": 598,
+                "name": "Rose Helms Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 598,
+                    "name": "Rose Helms Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

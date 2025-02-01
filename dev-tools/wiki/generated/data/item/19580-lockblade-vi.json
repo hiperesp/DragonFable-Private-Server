@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19580-lockblade-vi",
+        "fullSlug": "items\/19580-lockblade-vi",
+        "id": 19580,
+        "name": "Lockblade VI",
+        "description": "You found this peculiar weapon in your bag after a very, very long day. It seems to be carved from a single bone. Lucky!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19580,
+            "name": "Lockblade VI",
+            "description": "You found this peculiar weapon in your bag after a very, very long day. It seems to be carved from a single bone. Lucky!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lockblade.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 14,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 72,
+            "damageMax": 76,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 7,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Health,-6"
+        }
+    },
+    "related": {
+        "1698-the-final-lock": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1698-the-final-lock",
+                "fullSlug": "quests\/1698-the-final-lock",
+                "id": 1698,
+                "name": "The Final Lock",
+                "description": "Answers await. What lies behind the final lock?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1698,
+                    "name": "The Final Lock",
+                    "description": "Answers await. What lies behind the final lock?",
+                    "complete": "You got some answers, and more questions. Lucky Maleurous, dishwashing moglins, oh my!",
+                    "swf": "wars\/F13-Maleurous-4\/quest2-finallock.swf?ver=3",
+                    "swfX": "wars\/F13-Maleurous-4\/quest2-finallock-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "the root e,n,ex",
+                    "monsterGroupSwf": "mset-archivemazeboss-r1.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

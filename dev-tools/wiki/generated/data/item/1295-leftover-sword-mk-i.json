@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1295-leftover-sword-mk-i",
+        "fullSlug": "items\/1295-leftover-sword-mk-i",
+        "id": 1295,
+        "name": "Leftover Sword Mk. I",
+        "description": "This item requires a Dragon Amulet. This weapon was constructed from spare parts of the X-304 Pumpkin Pie Dispensing Dracobot, during Dr. Voltabolt's Thankstaking War!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1295,
+            "name": "Leftover Sword Mk. I",
+            "description": "This item requires a Dragon Amulet. This weapon was constructed from spare parts of the X-304 Pumpkin Pie Dispensing Dracobot, during Dr. Voltabolt's Thankstaking War!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 9,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-x304.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 19,
+            "damageMax": 39,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "177-thankstaking-leftovers": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "177-thankstaking-leftovers",
+                "fullSlug": "quests\/177-thankstaking-leftovers",
+                "id": 177,
+                "name": "Thankstaking Leftovers!",
+                "description": "You have defeated the mechanical army of Dr. Voltabolt and Major Tom Butterbomb... the only thing left is the X-304 and then doing the dishes!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 177,
+                    "name": "Thankstaking Leftovers!",
+                    "description": "You have defeated the mechanical army of Dr. Voltabolt and Major Tom Butterbomb... the only thing left is the X-304 and then doing the dishes!",
+                    "complete": "You did it! You have defeated the X-304 and stopped Dr. Voltabolt's insane plans to defeat magic with his giant Pie breathing Dracobot! Now... what are you going to do with all of this left-over pumpkin pie?",
+                    "swf": "towns\/Thankstaking\/tt07\/quest-Thanksgiving07-Boss.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Energy",
+                    "monsterGroupSwf": "mset-metaldragon.swf"
+                }
+            },
+            "related": []
+        },
+        "35-leftovers": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "35-leftovers",
+                "fullSlug": "merge-shops\/35-leftovers",
+                "id": 35,
+                "name": "Leftovers!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 35,
+                    "name": "Leftovers!"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 605,
+                    "mergeShopId": 35,
+                    "mergeId": 334
+                },
+                "merge": {
+                    "id": 334,
+                    "itemId1": 1295,
+                    "amount1": 1,
+                    "itemId2": 581,
+                    "amount2": 5,
+                    "itemId": 1298,
+                    "string": -1,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

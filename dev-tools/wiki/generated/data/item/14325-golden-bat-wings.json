@@ -1,0 +1,108 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14325-golden-bat-wings",
+        "fullSlug": "items\/14325-golden-bat-wings",
+        "id": 14325,
+        "name": "Golden Bat Wings",
+        "description": "Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14325,
+            "name": "Golden Bat Wings",
+            "description": "Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2300,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/batwings-gold.swf",
+            "icon": "wings",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 10,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 2,
+            "block": 4,
+            "resists": "Darkness,10,Silver,10,Immobility,4,Light,-1"
+        }
+    },
+    "related": {
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "1282-blood-feud": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1282-blood-feud",
+                "fullSlug": "quests\/1282-blood-feud",
+                "id": 1282,
+                "name": "Blood Feud",
+                "description": "Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1282,
+                    "name": "Blood Feud",
+                    "description": "Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!",
+                    "complete": "Frydae's been stopped....",
+                    "swf": "towns\/3Amityvale\/quest10-bloodfeud-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weres, bats, vamps",
+                    "monsterGroupSwf": "mset-darktowerFrydae3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

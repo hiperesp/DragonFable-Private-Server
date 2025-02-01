@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6020-rotten-viral-tusk-blade",
+        "fullSlug": "items\/6020-rotten-viral-tusk-blade",
+        "id": 6020,
+        "name": "Rotten Viral Tusk Blade",
+        "description": "Carved from the tusk of a Zardbified Gorillaphant!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6020,
+            "name": "Rotten Viral Tusk Blade",
+            "description": "Carved from the tusk of a Zardbified Gorillaphant!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3300,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 50,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-viraltusk.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 62,
+            "damageMax": 76,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Disease,7,Fire,6"
+        }
+    },
+    "related": {
+        "820-escape-to-croft": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "820-escape-to-croft",
+                "fullSlug": "quests\/820-escape-to-croft",
+                "id": 820,
+                "name": "Escape to Croft",
+                "description": "Can you find the Cauldron Sisters town before the Zardbies find you?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 820,
+                    "name": "Escape to Croft",
+                    "description": "Can you find the Cauldron Sisters town before the Zardbies find you?",
+                    "complete": "You've made it to Croft! Hopefully the Sisters can make the candy cure quickly!",
+                    "swf": "towns\/Mogloween\/M11\/quest3-escape.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "zardbified monsters",
+                    "monsterGroupSwf": "mset-escapetocroft.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

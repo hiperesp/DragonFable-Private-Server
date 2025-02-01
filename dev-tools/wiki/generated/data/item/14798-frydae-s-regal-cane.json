@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14798-frydae-s-regal-cane",
+        "fullSlug": "items\/14798-frydae-s-regal-cane",
+        "id": 14798,
+        "name": "Frydae's Regal Cane",
+        "description": "He probably won't miss this at all..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14798,
+            "name": "Frydae's Regal Cane",
+            "description": "He probably won't miss this at all...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 66,
+            "level": 50,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-FrydaeCane.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 61,
+            "damageMax": 75,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Water,4,Light,4,Fire,3,Health,-2"
+        }
+    },
+    "related": {
+        "1302-blood-and-roses": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1302-blood-and-roses",
+                "fullSlug": "quests\/1302-blood-and-roses",
+                "id": 1302,
+                "name": "Blood and Roses",
+                "description": "You do NOT challenge the Queen."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1302,
+                    "name": "Blood and Roses",
+                    "description": "You do NOT challenge the Queen.",
+                    "complete": "Thursday will recover in time but, for Raven, Neron, and Chaney, the danger of discovery before a cure can be found is huge.",
+                    "swf": "towns\/3Amityvale\/quest11-bloodroses.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "weres, bats, vamps",
+                    "monsterGroupSwf": "mset-darktowerFrydae3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

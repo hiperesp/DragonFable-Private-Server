@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21387-shard-of-the-abyss",
+        "fullSlug": "items\/21387-shard-of-the-abyss",
+        "id": 21387,
+        "name": "Shard of the Abyss",
+        "description": "A broken gem from the Abyssal temple. Aquella insisted that you keep it. Perhaps it may be used for something in the future..."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21387,
+            "name": "Shard of the Abyss",
+            "description": "A broken gem from the Abyssal temple. Aquella insisted that you keep it. Perhaps it may be used for something in the future...",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "2028-the-dreamers-abyss": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2028-the-dreamers-abyss",
+                "fullSlug": "quests\/2028-the-dreamers-abyss",
+                "id": 2028,
+                "name": "The Dreamers' Abyss",
+                "description": "After a long journey, you've finally reached the depths of the abyss..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2028,
+                    "name": "The Dreamers' Abyss",
+                    "description": "After a long journey, you've finally reached the depths of the abyss...",
+                    "complete": "No time to rest.",
+                    "swf": "wars\/F13-AncientAbyss\/quest2-finale.swf",
+                    "swfX": "wars\/F13-AncientAbyss\/quest2-finale-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Shade of Kathool",
+                    "monsterGroupSwf": "mset-abyssalshade.swf"
+                }
+            },
+            "related": []
+        },
+        "388-shattered-dream": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "388-shattered-dream",
+                "fullSlug": "merge-shops\/388-shattered-dream",
+                "id": 388,
+                "name": "Shattered Dream",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 388,
+                    "name": "Shattered Dream"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4114,
+                    "mergeShopId": 388,
+                    "mergeId": 4173
+                },
+                "merge": {
+                    "id": 4173,
+                    "itemId1": 21387,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 21413,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

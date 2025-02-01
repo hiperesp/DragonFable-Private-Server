@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3741-staff-of-the-gleaming-lantern",
+        "fullSlug": "items\/3741-staff-of-the-gleaming-lantern",
+        "id": 3741,
+        "name": "Staff of the Gleaming Lantern",
+        "description": "This holy staff will light your path, and your enemies!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3741,
+            "name": "Staff of the Gleaming Lantern",
+            "description": "This holy staff will light your path, and your enemies!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 36,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-lantern.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 51,
+            "damageMax": 62,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,5,Light,5,Immobility,3"
+        }
+    },
+    "related": {
+        "67-teral-s-gear": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "67-teral-s-gear",
+                "fullSlug": "merge-shops\/67-teral-s-gear",
+                "id": 67,
+                "name": "Teral's Gear",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 67,
+                    "name": "Teral's Gear"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 975,
+                    "mergeShopId": 67,
+                    "mergeId": 693
+                },
+                "merge": {
+                    "id": 693,
+                    "itemId1": 3735,
+                    "amount1": 4,
+                    "itemId2": 3736,
+                    "amount2": 4,
+                    "itemId": 3741,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

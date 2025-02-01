@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17387-royal-vault-sword-iv",
+        "fullSlug": "items\/17387-royal-vault-sword-iv",
+        "id": 17387,
+        "name": "Royal Vault Sword IV",
+        "description": "A treasured weapon from the Swordhaven Royal Vault, this sword isn't really that valuable or legendary. Yet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17387,
+            "name": "Royal Vault Sword IV",
+            "description": "A treasured weapon from the Swordhaven Royal Vault, this sword isn't really that valuable or legendary. Yet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 175,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-vault.swf",
+            "icon": "sword",
+            "strength": 14,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 80,
+            "damageMax": 90,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1441-are-rocks-evil": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1441-are-rocks-evil",
+                "fullSlug": "quests\/1441-are-rocks-evil",
+                "id": 1441,
+                "name": "Are Rocks Evil?",
+                "description": "The Gala was supposed to be peaceful, but then it changed when the Magesterium attacked."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1441,
+                    "name": "Are Rocks Evil?",
+                    "description": "The Gala was supposed to be peaceful, but then it changed when the Magesterium attacked.",
+                    "complete": "The King needs immediate help!",
+                    "swf": "towns\/SulenEska\/quest26-rocks-r1.swf",
+                    "swfX": "towns\/SulenEska\/quest26-rocks-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Magi Guards",
+                    "monsterGroupSwf": "mset-rocks.swf"
+                }
+            },
+            "related": []
+        },
+        "2039-words-and-deeds": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2039-words-and-deeds",
+                "fullSlug": "quests\/2039-words-and-deeds",
+                "id": 2039,
+                "name": "Words and Deeds",
+                "description": "The Magesterium attack has thrown the Gala into disarray. It's up to you to escort King Alteon to safety..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2039,
+                    "name": "Words and Deeds",
+                    "description": "The Magesterium attack has thrown the Gala into disarray. It's up to you to escort King Alteon to safety...",
+                    "complete": "And so you return to Sulen'Eska, with the wounded King Alteon in tow.",
+                    "swf": "towns\/SulenEska\/quest26-deeds.swf",
+                    "swfX": "towns\/SulenEska\/quest26-deeds-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Magi Guards",
+                    "monsterGroupSwf": "mset-rocks.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

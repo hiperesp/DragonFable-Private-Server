@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8301-simple-electroshock-iii",
+        "fullSlug": "items\/8301-simple-electroshock-iii",
+        "id": 8301,
+        "name": "Simple ElectroShock III",
+        "description": "Crafted from elemental essences, this weapon will serve you well! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8301,
+            "name": "Simple ElectroShock III",
+            "description": "Crafted from elemental essences, this weapon will serve you well! ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-ElectroShock simple.swf",
+            "icon": "mace",
+            "strength": 4,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,3,Light,3,Health,-1"
+        }
+    },
+    "related": {
+        "298-sielu-s-dc-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "298-sielu-s-dc-shop",
+                "fullSlug": "item-shops\/298-sielu-s-dc-shop",
+                "id": 298,
+                "name": "Sielu's DC Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 298,
+                    "name": "Sielu's DC Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

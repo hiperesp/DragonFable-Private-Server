@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19382-swordhaven-badge-the-vind",
+        "fullSlug": "items\/19382-swordhaven-badge-the-vind",
+        "id": 19382,
+        "name": "Swordhaven Badge (The Vind)",
+        "description": "A badge of valor bestowed upon you by Queen Victoria for your efforts in the defense of Swordhaven. It has a small engraving of a dragonfly on it. One can be used in the future to earn a reward."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19382,
+            "name": "Swordhaven Badge (The Vind)",
+            "description": "A badge of valor bestowed upon you by Queen Victoria for your efforts in the defense of Swordhaven. It has a small engraving of a dragonfly on it. One can be used in the future to earn a reward.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "whitegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1681-daybreak-vind": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1681-daybreak-vind",
+                "fullSlug": "quests\/1681-daybreak-vind",
+                "id": 1681,
+                "name": "Daybreak (Vind)",
+                "description": "Just fighting off another wave of enemies..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1681,
+                    "name": "Daybreak (Vind)",
+                    "description": "Just fighting off another wave of enemies...",
+                    "complete": "And the sun dawns upon Swordhaven, and the Greenguard Alliance is tested.",
+                    "swf": "towns\/3Swordhaven\/Proclamation\/quest2-daybreak-vind.swf",
+                    "swfX": "towns\/3Swordhaven\/Proclamation\/quest2-daybreak-vind-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Fire & Light, Desert from wastes",
+                    "monsterGroupSwf": "mset-riftswordhavenwar-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "324-vind-helm": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "324-vind-helm",
+                "fullSlug": "merge-shops\/324-vind-helm",
+                "id": 324,
+                "name": "Vind Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 324,
+                    "name": "Vind Helm"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3449,
+                    "mergeShopId": 324,
+                    "mergeId": 3537
+                },
+                "merge": {
+                    "id": 3537,
+                    "itemId1": 19797,
+                    "amount1": 1,
+                    "itemId2": 19382,
+                    "amount2": 1,
+                    "itemId": 19788,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

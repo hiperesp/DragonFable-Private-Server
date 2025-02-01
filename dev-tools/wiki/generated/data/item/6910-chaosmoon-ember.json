@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6910-chaosmoon-ember",
+        "fullSlug": "items\/6910-chaosmoon-ember",
+        "id": 6910,
+        "name": "ChaosMoon Ember",
+        "description": "An ember from the forge of a Ghostly DragonLord, you can use this to upgrade the highest levels of the ChaosMoon set that drops from The Mighty Akriloth in the Fire War."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6910,
+            "name": "ChaosMoon Ember",
+            "description": "An ember from the forge of a Ghostly DragonLord, you can use this to upgrade the highest levels of the ChaosMoon set that drops from The Mighty Akriloth in the Fire War.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 50,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "264-robins-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "264-robins-shop",
+                "fullSlug": "item-shops\/264-robins-shop",
+                "id": 264,
+                "name": "Robins Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 264,
+                    "name": "Robins Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1487,
+                    "mergeShopId": 108,
+                    "mergeId": 1408
+                },
+                "merge": {
+                    "id": 1408,
+                    "itemId1": 6932,
+                    "amount1": 1,
+                    "itemId2": 6910,
+                    "amount2": 1,
+                    "itemId": 6933,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5656-war-wolf-iii",
+        "fullSlug": "items\/5656-war-wolf-iii",
+        "id": 5656,
+        "name": "War Wolf III",
+        "description": "These wolves, members of the pack Thorn leads have volunteered to serve as allies in the fight to save Lore from Sepulchure."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5656,
+            "name": "War Wolf III",
+            "description": "These wolves, members of the pack Thorn leads have volunteered to serve as allies in the fight to save Lore from Sepulchure.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 5,
+            "level": 65,
+            "element": "Ice",
+            "categoryId": "3",
+            "equipSpot": "Pet",
+            "itemType": "Pet",
+            "swf": "pets\/pet-Wolf.swf",
+            "icon": "pet",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 0,
+            "damageMin": 20,
+            "damageMax": 22,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 8,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "86-war-wolf-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "86-war-wolf-shop",
+                "fullSlug": "merge-shops\/86-war-wolf-shop",
+                "id": 86,
+                "name": "War Wolf Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 86,
+                    "name": "War Wolf Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1176,
+                    "mergeShopId": 86,
+                    "mergeId": 1033
+                },
+                "merge": {
+                    "id": 1033,
+                    "itemId1": 495,
+                    "amount1": 75,
+                    "itemId2": 5655,
+                    "amount2": 1,
+                    "itemId": 5656,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

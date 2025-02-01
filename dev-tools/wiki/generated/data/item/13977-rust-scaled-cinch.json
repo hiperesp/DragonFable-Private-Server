@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13977-rust-scaled-cinch",
+        "fullSlug": "items\/13977-rust-scaled-cinch",
+        "id": 13977,
+        "name": "Rust Scaled Cinch",
+        "description": "The dark dragon scales are now coated in rust. Gross. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13977,
+            "name": "Rust Scaled Cinch",
+            "description": "The dark dragon scales are now coated in rust. Gross. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3100,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 5,
+            "level": 38,
+            "type": "Melee",
+            "element": "Water",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": -1,
+            "endurance": 3,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Darkness,4,Water,1"
+        }
+    },
+    "related": {
+        "443-drowned-dungeon": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "443-drowned-dungeon",
+                "fullSlug": "item-shops\/443-drowned-dungeon",
+                "id": 443,
+                "name": "Drowned Dungeon",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 443,
+                    "name": "Drowned Dungeon",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

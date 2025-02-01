@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18332-sea-chicken-s-conquest-i",
+        "fullSlug": "items\/18332-sea-chicken-s-conquest-i",
+        "id": 18332,
+        "name": "Sea Chicken's Conquest I",
+        "description": "The epic treasure of the Sea Chickens. Forged in the depths of the sea, this weapon was somehow used by the Sea Chickens in their underwater conquests. An amazing feat considering they don't even have hands."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18332,
+            "name": "Sea Chicken's Conquest I",
+            "description": "The epic treasure of the Sea Chickens. Forged in the depths of the sea, this weapon was somehow used by the Sea Chickens in their underwater conquests. An amazing feat considering they don't even have hands.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 0,
+            "level": 30,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-seachicken.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 54,
+            "damageMax": 60,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,2"
+        }
+    },
+    "related": {
+        "1538-the-emperor-of-the-sea-chickens": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1538-the-emperor-of-the-sea-chickens",
+                "fullSlug": "quests\/1538-the-emperor-of-the-sea-chickens",
+                "id": 1538,
+                "name": "The Emperor of the Sea Chickens",
+                "description": "The mighty Emperor of the Sea Chickens! I wonder if he's related to chickencows or dragons? Or maybe both?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1538,
+                    "name": "The Emperor of the Sea Chickens",
+                    "description": "The mighty Emperor of the Sea Chickens! I wonder if he's related to chickencows or dragons? Or maybe both?",
+                    "complete": "That's a whole lot of sea chicken.",
+                    "swf": "towns\/TimeArena\/quest-emperorseachicken.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Pasgur\/Azaveyr Challenges",
+                    "monsterGroupSwf": "mset-arenapasgur.swf?ver=3"
+                }
+            },
+            "related": []
+        }
+    }
+}

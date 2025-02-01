@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13665-corrupt-shadowreaper-of-doom",
+        "fullSlug": "items\/13665-corrupt-shadowreaper-of-doom",
+        "id": 13665,
+        "name": "Corrupt ShadowReaper of Doom",
+        "description": "The darkness from this weapon radiates with malevolence... This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13665,
+            "name": "Corrupt ShadowReaper of Doom",
+            "description": "The darkness from this weapon radiates with malevolence... This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 3,
+            "level": 66,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/dooms\/axe-doom4.swf",
+            "icon": "axe",
+            "strength": 12,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": -12,
+            "charisma": -5,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 76,
+            "damageMax": 108,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": ""
+        }
+    },
+    "related": {
+        "236-corrupted-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "236-corrupted-doom",
+                "fullSlug": "merge-shops\/236-corrupted-doom",
+                "id": 236,
+                "name": "Corrupted Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 236,
+                    "name": "Corrupted Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2624,
+                    "mergeShopId": 236,
+                    "mergeId": 2621
+                },
+                "merge": {
+                    "id": 2621,
+                    "itemId1": 13668,
+                    "amount1": 20,
+                    "itemId2": 10869,
+                    "amount2": 1,
+                    "itemId": 13665,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "350-unreal-doom": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "350-unreal-doom",
+                "fullSlug": "merge-shops\/350-unreal-doom",
+                "id": 350,
+                "name": "Unreal Doom",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 350,
+                    "name": "Unreal Doom"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3648,
+                    "mergeShopId": 350,
+                    "mergeId": 3737
+                },
+                "merge": {
+                    "id": 3737,
+                    "itemId1": 13665,
+                    "amount1": 1,
+                    "itemId2": 20378,
+                    "amount2": 1,
+                    "itemId": 20380,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

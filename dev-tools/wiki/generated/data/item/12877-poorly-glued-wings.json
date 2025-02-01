@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12877-poorly-glued-wings",
+        "fullSlug": "items\/12877-poorly-glued-wings",
+        "id": 12877,
+        "name": "Poorly Glued Wings",
+        "description": "You'd think if he was trying to impersonate you he'd try a little harder on the disguise."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12877,
+            "name": "Poorly Glued Wings",
+            "description": "You'd think if he was trying to impersonate you he'd try a little harder on the disguise.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 70,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-fakewings.swf",
+            "icon": "wings",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Wind,5"
+        }
+    },
+    "related": {
+        "1205-impersonator": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1205-impersonator",
+                "fullSlug": "quests\/1205-impersonator",
+                "id": 1205,
+                "name": "Impersonator",
+                "description": "Someone is defiling your good reputation! Find out who!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1205,
+                    "name": "Impersonator",
+                    "description": "Someone is defiling your good reputation! Find out who!",
+                    "complete": "How could people even believe that?!?",
+                    "swf": "quests\/quest-impersonator-r2.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 500000,
+                    "maxGems": 0,
+                    "maxExp": 500000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest, fake hero, fake dragon",
+                    "monsterGroupSwf": "mset-impersonator.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

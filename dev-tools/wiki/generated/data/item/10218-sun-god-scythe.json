@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10218-sun-god-scythe",
+        "fullSlug": "items\/10218-sun-god-scythe",
+        "id": 10218,
+        "name": "Sun God Scythe",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10218,
+            "name": "Sun God Scythe"
+        }
+    },
+    "related": {
+        "145-sun-god": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "145-sun-god",
+                "fullSlug": "merge-shops\/145-sun-god",
+                "id": 145,
+                "name": "Sun God",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 145,
+                    "name": "Sun God"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2096,
+                    "mergeShopId": 145,
+                    "mergeId": 1934
+                },
+                "merge": {
+                    "id": 1934,
+                    "itemId1": 10218,
+                    "amount1": 1,
+                    "itemId2": 10234,
+                    "amount2": 1,
+                    "itemId": 10219,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

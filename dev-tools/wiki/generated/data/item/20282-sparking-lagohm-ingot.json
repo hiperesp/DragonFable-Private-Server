@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20282-sparking-lagohm-ingot",
+        "fullSlug": "items\/20282-sparking-lagohm-ingot",
+        "id": 20282,
+        "name": "Sparking Lagohm Ingot",
+        "description": "Using the Quick-weld Wallpaste as a catalyst, the Tempered Lagohm Metal was melted down and reforged into this electrifying ingot! Lupin and Eulin seem oddly surprised at the success. Used to create a special reward!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20282,
+            "name": "Sparking Lagohm Ingot",
+            "description": "Using the Quick-weld Wallpaste as a catalyst, the Tempered Lagohm Metal was melted down and reforged into this electrifying ingot! Lupin and Eulin seem oddly surprised at the success. Used to create a special reward!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "element": "Energy",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "whitegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "345-vind-backpiece": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "345-vind-backpiece",
+                "fullSlug": "merge-shops\/345-vind-backpiece",
+                "id": 345,
+                "name": "Vind Backpiece",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 345,
+                    "name": "Vind Backpiece"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3605,
+                    "mergeShopId": 345,
+                    "mergeId": 3693
+                },
+                "merge": {
+                    "id": 3693,
+                    "itemId1": 20282,
+                    "amount1": 1,
+                    "itemId2": 20085,
+                    "amount2": 1,
+                    "itemId": 20283,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "346-golden-hand-backpiece": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "346-golden-hand-backpiece",
+                "fullSlug": "merge-shops\/346-golden-hand-backpiece",
+                "id": 346,
+                "name": "Golden Hand Backpiece",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 346,
+                    "name": "Golden Hand Backpiece"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3615,
+                    "mergeShopId": 346,
+                    "mergeId": 3693
+                },
+                "merge": {
+                    "id": 3693,
+                    "itemId1": 20282,
+                    "amount1": 1,
+                    "itemId2": 20085,
+                    "amount2": 1,
+                    "itemId": 20283,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "347-rose-backpiece": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "347-rose-backpiece",
+                "fullSlug": "merge-shops\/347-rose-backpiece",
+                "id": 347,
+                "name": "Rose Backpiece",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 347,
+                    "name": "Rose Backpiece"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3625,
+                    "mergeShopId": 347,
+                    "mergeId": 3693
+                },
+                "merge": {
+                    "id": 3693,
+                    "itemId1": 20282,
+                    "amount1": 1,
+                    "itemId2": 20085,
+                    "amount2": 1,
+                    "itemId": 20283,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

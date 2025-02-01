@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9578-blue-crystal-blade-iii",
+        "fullSlug": "items\/9578-blue-crystal-blade-iii",
+        "id": 9578,
+        "name": "Blue Crystal Blade III",
+        "description": "Magic sands used by the Clawkin melted into this wicked blade in the fires."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9578,
+            "name": "Blue Crystal Blade III",
+            "description": "Magic sands used by the Clawkin melted into this wicked blade in the fires.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 2800,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 25,
+            "level": 63,
+            "type": "Magic",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Wand",
+            "swf": "items\/wands\/wand-crystalblade.swf",
+            "icon": "wand",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 68,
+            "damageMax": 84,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Water,7,Fire,6,Light,6,Immobility,2"
+        }
+    },
+    "related": {
+        "1043-smoke-in-the-trees": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1043-smoke-in-the-trees",
+                "fullSlug": "quests\/1043-smoke-in-the-trees",
+                "id": 1043,
+                "name": "Smoke in the Trees",
+                "description": "It seems like The Rose is making their move against the Vind. How bad could they be?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1043,
+                    "name": "Smoke in the Trees",
+                    "description": "It seems like The Rose is making their move against the Vind. How bad could they be?",
+                    "complete": "Looks like not everyone in The Rose is happy about their methods. More importantly, the Vind now has a target. The Rose won't know what hit them!",
+                    "swf": "towns\/SulenEska\/quest4-smoke-re.swf",
+                    "swfX": "towns\/SulenEska\/quest4-smoke-re-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "swamp and rose",
+                    "monsterGroupSwf": "mset-swamp-bk3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

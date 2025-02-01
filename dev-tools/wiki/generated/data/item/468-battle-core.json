@@ -1,0 +1,161 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "468-battle-core",
+        "fullSlug": "items\/468-battle-core",
+        "id": 468,
+        "name": "Battle Core",
+        "description": "This unique item was used to power Dr. Voltabolt's mechanical creation. Its rarity makes it a very valuable item, even if he's the only one who knows how to use it. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 468,
+            "name": "Battle Core",
+            "description": "This unique item was used to power Dr. Voltabolt's mechanical creation. Its rarity makes it a very valuable item, even if he's the only one who knows how to use it. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 8,
+            "level": 1,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "redbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "52-voltabolt-s-challenge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "52-voltabolt-s-challenge",
+                "fullSlug": "quests\/52-voltabolt-s-challenge",
+                "id": 52,
+                "name": "Voltabolt's Challenge",
+                "description": "Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 52,
+                    "name": "Voltabolt's Challenge",
+                    "description": "Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation.",
+                    "complete": "That's one creation down... but why does it still sound like gnashing metal and electric sparking?",
+                    "swf": "quests\/quest-fullmetal-2019-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "0",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-elementalmetal2.swf"
+                }
+            },
+            "related": []
+        },
+        "2-voltabolt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "2-voltabolt",
+                "fullSlug": "merge-shops\/2-voltabolt",
+                "id": 2,
+                "name": "Voltabolt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 2,
+                    "name": "Voltabolt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 11,
+                    "mergeShopId": 2,
+                    "mergeId": 378
+                },
+                "merge": {
+                    "id": 378,
+                    "itemId1": 467,
+                    "amount1": 15,
+                    "itemId2": 468,
+                    "amount2": 1,
+                    "itemId": 1569,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "40-scavenger-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "40-scavenger-hunt",
+                "fullSlug": "merge-shops\/40-scavenger-hunt",
+                "id": 40,
+                "name": "Scavenger Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Scavenger Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 682,
+                    "mergeShopId": 40,
+                    "mergeId": 434
+                },
+                "merge": {
+                    "id": 434,
+                    "itemId1": 495,
+                    "amount1": 15,
+                    "itemId2": 468,
+                    "amount2": 1,
+                    "itemId": 1760,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

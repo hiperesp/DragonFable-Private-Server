@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12844-special-vampire-cape",
+        "fullSlug": "items\/12844-special-vampire-cape",
+        "id": 12844,
+        "name": "Special Vampire Cape",
+        "description": "This item requires a Dragon Amulet. This cape was found one sunny morning lying in a pile of dust. We can only assume that it belonged to a very stupid vampire. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12844,
+            "name": "Special Vampire Cape",
+            "description": "This item requires a Dragon Amulet. This cape was found one sunny morning lying in a pile of dust. We can only assume that it belonged to a very stupid vampire. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 12,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-vampire.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Darkness,3,Health,-2"
+        }
+    },
+    "related": {
+        "419-mogloween-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "419-mogloween-capes",
+                "fullSlug": "item-shops\/419-mogloween-capes",
+                "id": 419,
+                "name": "Mogloween Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 419,
+                    "name": "Mogloween Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20227-uaanta-s-blaster-iv-amalgam",
+        "fullSlug": "items\/20227-uaanta-s-blaster-iv-amalgam",
+        "id": 20227,
+        "name": "Uaanta's Blaster IV (Amalgam)",
+        "description": "Uaanta gifted this emergency back-up wand to you. With the addition of the Twisted Amalgam Core, the complete wand now does Fear damage and increases its target's Health resistance! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20227,
+            "name": "Uaanta's Blaster IV (Amalgam)",
+            "description": "Uaanta gifted this emergency back-up wand to you. With the addition of the Twisted Amalgam Core, the complete wand now does Fear damage and increases its target's Health resistance! This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 15,
+            "level": 90,
+            "element": "Fear",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "items\/trinkets\/trinket-uaantablaster.swf",
+            "icon": "trinket",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 15,
+            "charisma": 15,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 12,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Light,10,Darkness,10,Good,5,Evil,5"
+        }
+    },
+    "related": {
+        "343-uaanta-s-blaster-amalgam": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "343-uaanta-s-blaster-amalgam",
+                "fullSlug": "merge-shops\/343-uaanta-s-blaster-amalgam",
+                "id": 343,
+                "name": "Uaanta's Blaster Amalgam",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 343,
+                    "name": "Uaanta's Blaster Amalgam"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3589,
+                    "mergeShopId": 343,
+                    "mergeId": 3686
+                },
+                "merge": {
+                    "id": 3686,
+                    "itemId1": 19359,
+                    "amount1": 1,
+                    "itemId2": 20228,
+                    "amount2": 1,
+                    "itemId": 20227,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "354-blaster-reconfiguration": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "354-blaster-reconfiguration",
+                "fullSlug": "merge-shops\/354-blaster-reconfiguration",
+                "id": 354,
+                "name": "Blaster Reconfiguration",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 354,
+                    "name": "Blaster Reconfiguration"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3673,
+                    "mergeShopId": 354,
+                    "mergeId": 3767
+                },
+                "merge": {
+                    "id": 3767,
+                    "itemId1": 20227,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19359,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "367-forgotten-dream": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "367-forgotten-dream",
+                "fullSlug": "merge-shops\/367-forgotten-dream",
+                "id": 367,
+                "name": "Forgotten Dream",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 367,
+                    "name": "Forgotten Dream"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3819,
+                    "mergeShopId": 367,
+                    "mergeId": 3951
+                },
+                "merge": {
+                    "id": 3951,
+                    "itemId1": 20227,
+                    "amount1": 1,
+                    "itemId2": 20948,
+                    "amount2": 1,
+                    "itemId": 20943,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

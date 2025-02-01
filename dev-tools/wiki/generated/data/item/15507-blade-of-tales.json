@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15507-blade-of-tales",
+        "fullSlug": "items\/15507-blade-of-tales",
+        "id": 15507,
+        "name": "Blade of Tales",
+        "description": "For the hero who is becoming known around the land- an upgraded version of the Blade of Heroism!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15507,
+            "name": "Blade of Tales",
+            "description": "For the hero who is becoming known around the land- an upgraded version of the Blade of Heroism!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 10,
+            "level": 40,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/sword-kickstarter2.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 58,
+            "damageMax": 60,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Light,3"
+        }
+    },
+    "related": {
+        "490-kickstarter-reward-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "490-kickstarter-reward-shop",
+                "fullSlug": "item-shops\/490-kickstarter-reward-shop",
+                "id": 490,
+                "name": "Kickstarter Reward Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 490,
+                    "name": "Kickstarter Reward Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

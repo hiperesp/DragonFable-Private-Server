@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6268-nalmir-s-true-gift",
+        "fullSlug": "items\/6268-nalmir-s-true-gift",
+        "id": 6268,
+        "name": "Nalmir's True Gift",
+        "description": "This sword is said to be a gift given to a wizard who helped earn an enslaved demon it's freedom. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6268,
+            "name": "Nalmir's True Gift",
+            "description": "This sword is said to be a gift given to a wizard who helped earn an enslaved demon it's freedom. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 57,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-nalmir.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,7,Water,7,Ice,7"
+        }
+    },
+    "related": {
+        "843-swordhaven-marsh": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "843-swordhaven-marsh",
+                "fullSlug": "quests\/843-swordhaven-marsh",
+                "id": 843,
+                "name": "Swordhaven Marsh",
+                "description": "The area where the sewers drain is smelly, gross and full of monsters!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 843,
+                    "name": "Swordhaven Marsh",
+                    "description": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "complete": "The area where the sewers drain is smelly, gross and full of monsters!",
+                    "swf": "random\/random-sh-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "boars, bugs, mushrooms",
+                    "monsterGroupSwf": "mset-shmarsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

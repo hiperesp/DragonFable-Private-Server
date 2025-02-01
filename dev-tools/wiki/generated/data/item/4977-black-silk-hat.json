@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4977-black-silk-hat",
+        "fullSlug": "items\/4977-black-silk-hat",
+        "id": 4977,
+        "name": "Black Silk Hat",
+        "description": "This sleek hat will help with blending into the shadows!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4977,
+            "name": "Black Silk Hat",
+            "description": "This sleek hat will help with blending into the shadows!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 9000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 42,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-SilkHatBlack.swf",
+            "icon": "helm",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Light,5,Fire,5,Energy,5"
+        }
+    },
+    "related": {
+        "168-lauren-s-clothing-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "168-lauren-s-clothing-shop",
+                "fullSlug": "item-shops\/168-lauren-s-clothing-shop",
+                "id": 168,
+                "name": "Lauren's Clothing Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 168,
+                    "name": "Lauren's Clothing Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

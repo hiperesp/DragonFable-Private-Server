@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21575-great-dragon-s-claw-iii",
+        "fullSlug": "items\/21575-great-dragon-s-claw-iii",
+        "id": 21575,
+        "name": "Great Dragon's Claw III",
+        "description": "An ancient relic of Maar, said to have been forged from a claw of the Great Dragon Akriloth. Proof of victory over Akriloth, the Protector."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21575,
+            "name": "Great Dragon's Claw III",
+            "description": "An ancient relic of Maar, said to have been forged from a claw of the Great Dragon Akriloth. Proof of victory over Akriloth, the Protector.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 15,
+            "rarity": 0,
+            "level": 90,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-arenaakriloth.swf",
+            "icon": "scythe",
+            "strength": 20,
+            "dexterity": 20,
+            "intelligence": 20,
+            "luck": 15,
+            "charisma": 15,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 96,
+            "damageMax": 102,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 15,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "All,10,Health,-20"
+        }
+    },
+    "related": {
+        "394-great-dragon-s-claw": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "394-great-dragon-s-claw",
+                "fullSlug": "merge-shops\/394-great-dragon-s-claw",
+                "id": 394,
+                "name": "Great Dragon's Claw",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 394,
+                    "name": "Great Dragon's Claw"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4161,
+                    "mergeShopId": 394,
+                    "mergeId": 4204
+                },
+                "merge": {
+                    "id": 4204,
+                    "itemId1": 21573,
+                    "amount1": 1,
+                    "itemId2": 21576,
+                    "amount2": 1,
+                    "itemId": 21575,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

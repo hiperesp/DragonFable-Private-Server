@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "2041-duskbolt-the-tempest",
+        "fullSlug": "quests\/2041-duskbolt-the-tempest",
+        "id": 2041,
+        "name": "Duskbolt, the Tempest",
+        "description": "This marvel of technomancy and ninja arts seems to have arrived here from a time beyond your own..."
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 2041,
+            "name": "Duskbolt, the Tempest",
+            "description": "This marvel of technomancy and ninja arts seems to have arrived here from a time beyond your own...",
+            "complete": "Who could have created such a thing?",
+            "swf": "towns\/TimeArena\/quest2-ninja.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 5000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "Ghost Pirate, Techno Ninja",
+            "monsterGroupSwf": "mset-arenaninjapirate-r1.swf?ver=1"
+        }
+    },
+    "related": {
+        "21523-arcanotech-edge-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "21523-arcanotech-edge-i",
+                "fullSlug": "items\/21523-arcanotech-edge-i",
+                "id": 21523,
+                "name": "Arcanotech Edge I",
+                "description": "A precise blade forged from lightning and shadow, it hums with the ticks and whirs of its inner workings, delivering swift and deadly strikes. Proof of victory over Duskbolt, the Tempest."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 21523,
+                    "name": "Arcanotech Edge I",
+                    "description": "A precise blade forged from lightning and shadow, it hums with the ticks and whirs of its inner workings, delivering swift and deadly strikes. Proof of victory over Duskbolt, the Tempest.",
+                    "visible": 1,
+                    "destroyable": 0,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 6,
+                    "rarity": 13,
+                    "level": 50,
+                    "type": "Melee",
+                    "element": "Wind",
+                    "categoryId": "1",
+                    "equipSpot": "Weapon",
+                    "itemType": "Scythe",
+                    "swf": "items\/scythes\/scythe-techninja.swf",
+                    "icon": "scythe",
+                    "strength": 10,
+                    "dexterity": 10,
+                    "intelligence": 10,
+                    "luck": 3,
+                    "charisma": 0,
+                    "endurance": 3,
+                    "wisdom": 3,
+                    "damageMin": 62,
+                    "damageMax": 86,
+                    "defenseMelee": 2,
+                    "defensePierce": 2,
+                    "defenseMagic": 2,
+                    "critical": 6,
+                    "parry": 2,
+                    "dodge": 2,
+                    "block": 2,
+                    "resists": "All,6,Health,-11"
+                }
+            },
+            "related": []
+        }
+    }
+}

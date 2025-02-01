@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5689-maple-cloak",
+        "fullSlug": "items\/5689-maple-cloak",
+        "id": 5689,
+        "name": "Maple Cloak",
+        "description": "A cloak created from a beautiful red maple leaf! Happy Canada Day, 2011! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5689,
+            "name": "Maple Cloak",
+            "description": "A cloak created from a beautiful red maple leaf! Happy Canada Day, 2011! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2200,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 50,
+            "level": 66,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-MapleLeaf.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,10,Fire,10"
+        }
+    },
+    "related": {
+        "226-liberty-2011-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "226-liberty-2011-shop",
+                "fullSlug": "item-shops\/226-liberty-2011-shop",
+                "id": 226,
+                "name": "Liberty 2011 Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 226,
+                    "name": "Liberty 2011 Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

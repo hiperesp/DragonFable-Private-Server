@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7133-smoldering-magma-cowl",
+        "fullSlug": "items\/7133-smoldering-magma-cowl",
+        "id": 7133,
+        "name": "Smoldering Magma Cowl",
+        "description": "The threads of this cowl were pulled from the molten core of a volcano!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7133,
+            "name": "Smoldering Magma Cowl",
+            "description": "The threads of this cowl were pulled from the molten core of a volcano!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 0,
+            "level": 64,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-Magma Cowl.swf",
+            "icon": "helm",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Fire,6,Ice,4,Water,4,Immobility,1"
+        }
+    },
+    "related": {
+        "919-master-of-puppets": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "919-master-of-puppets",
+                "fullSlug": "quests\/919-master-of-puppets",
+                "id": 919,
+                "name": "Master of Puppets",
+                "description": "Wargoth has enslaved Xan himself! Will you be able to pull him out of his fortress for The Professor?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 919,
+                    "name": "Master of Puppets",
+                    "description": "Wargoth has enslaved Xan himself! Will you be able to pull him out of his fortress for The Professor?",
+                    "complete": "You've managed to capture Xan... but Wargoth won't be happy his prisoner is gone.",
+                    "swf": "towns\/Atrea\/quest9-puppetr5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire mix",
+                    "monsterGroupSwf": "mset-firepuppets.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

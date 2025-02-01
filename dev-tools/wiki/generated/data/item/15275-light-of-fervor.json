@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15275-light-of-fervor",
+        "fullSlug": "items\/15275-light-of-fervor",
+        "id": 15275,
+        "name": "Light of Fervor",
+        "description": "Something about this weapon makes you feel like you could do anything. Make your dreams come true. Fix everything wrong with Lore. And then...?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15275,
+            "name": "Light of Fervor",
+            "description": "Something about this weapon makes you feel like you could do anything. Make your dreams come true. Fix everything wrong with Lore. And then...?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 475,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 7,
+            "level": 70,
+            "type": "Melee",
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lightoffervor.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 87,
+            "damageMax": 87,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "Light,7,Darkness,7,Immobility,6,Good,7,Evil,7,???,7"
+        }
+    },
+    "related": {
+        "484-ancient-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "484-ancient-weapons",
+                "fullSlug": "item-shops\/484-ancient-weapons",
+                "id": 484,
+                "name": "Ancient Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 484,
+                    "name": "Ancient Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

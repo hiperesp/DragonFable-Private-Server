@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1837-dagger-of-the-amulet",
+        "fullSlug": "items\/1837-dagger-of-the-amulet",
+        "id": 1837,
+        "name": "Dagger of the Amulet",
+        "description": "This ancient weapon surges with power. The shrine it was encased in seems long abandoned though."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1837,
+            "name": "Dagger of the Amulet",
+            "description": "This ancient weapon surges with power. The shrine it was encased in seems long abandoned though.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 4,
+            "level": 10,
+            "type": "Pierce",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-nythera1.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 24,
+            "damageMax": 30,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "69-amulet-weapon-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "69-amulet-weapon-shop",
+                "fullSlug": "item-shops\/69-amulet-weapon-shop",
+                "id": 69,
+                "name": "Amulet Weapon Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 69,
+                    "name": "Amulet Weapon Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

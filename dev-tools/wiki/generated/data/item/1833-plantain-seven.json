@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1833-plantain-seven",
+        "fullSlug": "items\/1833-plantain-seven",
+        "id": 1833,
+        "name": "Plantain Seven",
+        "description": "After you fought in the war with the monkees (and apologizing for the pranks) you have been bestowed with one of the famed Musa weapons. (There may or may not be a bug in them to monitor your monkeying around.)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1833,
+            "name": "Plantain Seven",
+            "description": "After you fought in the war with the monkees (and apologizing for the pranks) you have been bestowed with one of the famed Musa weapons. (There may or may not be a bug in them to monitor your monkeying around.)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 600,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 12,
+            "level": 40,
+            "type": "Magic",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-naner.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 50,
+            "damageMax": 74,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "268-monkee-war-show-down": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "268-monkee-war-show-down",
+                "fullSlug": "quests\/268-monkee-war-show-down",
+                "id": 268,
+                "name": "Monkee War Show Down",
+                "description": "The pirate monkees have prevailed! Can you help take down their biggest enemy?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 268,
+                    "name": "Monkee War Show Down",
+                    "description": "The pirate monkees have prevailed! Can you help take down their biggest enemy?",
+                    "complete": "Mae Pi has been defeated and now the pirate monkee's are in charge of the Osprey Cove Inn. Pi Mae is also being closely watched by the ninja monkee's.... And after you apologized profusely, the monkee's have let you go.",
+                    "swf": "wars\/pnmw\/quest-pnwar-pirateboss.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "pirate boss",
+                    "monsterGroupSwf": "mset-pimae.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

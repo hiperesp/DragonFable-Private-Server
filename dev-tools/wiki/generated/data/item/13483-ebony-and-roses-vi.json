@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13483-ebony-and-roses-vi",
+        "fullSlug": "items\/13483-ebony-and-roses-vi",
+        "id": 13483,
+        "name": "Ebony and Roses VI",
+        "description": "Be sure to clean the monster blood off this scythe's blade, or it will rust!  Love is a battlefield!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13483,
+            "name": "Ebony and Roses VI",
+            "description": "Be sure to clean the monster blood off this scythe's blade, or it will rust!  Love is a battlefield!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 15,
+            "level": 80,
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-HHD10.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 14,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 74,
+            "damageMax": 102,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 9,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Ice,14,Water,14"
+        }
+    },
+    "related": {
+        "53-hero-s-heart": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "53-hero-s-heart",
+                "fullSlug": "merge-shops\/53-hero-s-heart",
+                "id": 53,
+                "name": "Hero's Heart",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 53,
+                    "name": "Hero's Heart"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 768,
+                    "mergeShopId": 53,
+                    "mergeId": 2556
+                },
+                "merge": {
+                    "id": 2556,
+                    "itemId1": 13482,
+                    "amount1": 1,
+                    "itemId2": 707,
+                    "amount2": 22,
+                    "itemId": 13483,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2290-pressureblade",
+        "fullSlug": "items\/2290-pressureblade",
+        "id": 2290,
+        "name": "Pressureblade",
+        "description": "This item requires a Dragon Amulet. Steam powered blades were all the rage in Popsprocket until they realized that you don't really need to power a sword."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2290,
+            "name": "Pressureblade",
+            "description": "This item requires a Dragon Amulet. Steam powered blades were all the rage in Popsprocket until they realized that you don't really need to power a sword.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 18000,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 9,
+            "level": 40,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-steam.swf",
+            "icon": "sword",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 54,
+            "damageMax": 68,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,4"
+        }
+    },
+    "related": {
+        "91-gnix-s-weapons": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "91-gnix-s-weapons",
+                "fullSlug": "item-shops\/91-gnix-s-weapons",
+                "id": 91,
+                "name": "Gnix's Weapons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 91,
+                    "name": "Gnix's Weapons",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

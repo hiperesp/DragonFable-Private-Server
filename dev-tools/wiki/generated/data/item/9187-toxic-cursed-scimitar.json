@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9187-toxic-cursed-scimitar",
+        "fullSlug": "items\/9187-toxic-cursed-scimitar",
+        "id": 9187,
+        "name": "Toxic Cursed Scimitar",
+        "description": "A dry, hot poison infuses this cursed blade."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9187,
+            "name": "Toxic Cursed Scimitar",
+            "description": "A dry, hot poison infuses this cursed blade.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 20,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 25,
+            "level": 12,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-cursedscimitar.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 23,
+            "damageMax": 37,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,2"
+        }
+    },
+    "related": {
+        "319-cursed-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "319-cursed-shop",
+                "fullSlug": "item-shops\/319-cursed-shop",
+                "id": 319,
+                "name": "Cursed Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Cursed Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

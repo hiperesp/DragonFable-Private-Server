@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15765-dream-hedron-iv",
+        "fullSlug": "items\/15765-dream-hedron-iv",
+        "id": 15765,
+        "name": "Dream Hedron IV",
+        "description": "It is said that the prism floating atop this staff contains the dreams... and nightmares... of its bearer."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15765,
+            "name": "Dream Hedron IV",
+            "description": "It is said that the prism floating atop this staff contains the dreams... and nightmares... of its bearer.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 8,
+            "level": 63,
+            "type": "Magic",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-madness_da.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": -4,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 76,
+            "damageMax": 81,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Water,6,Darkness,6,Evil,6"
+        }
+    },
+    "related": {
+        "502-madness-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "502-madness-shop",
+                "fullSlug": "item-shops\/502-madness-shop",
+                "id": 502,
+                "name": "Madness Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 502,
+                    "name": "Madness Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

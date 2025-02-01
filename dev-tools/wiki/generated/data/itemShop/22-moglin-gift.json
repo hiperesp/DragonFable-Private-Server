@@ -1,0 +1,126 @@
+{
+    "page": {
+        "slugBase": "item-shops",
+        "slug": "22-moglin-gift",
+        "fullSlug": "item-shops\/22-moglin-gift",
+        "id": 22,
+        "name": "Moglin Gift",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "itemShop",
+        "properties": {
+            "id": 22,
+            "name": "Moglin Gift",
+            "count": -100
+        }
+    },
+    "related": {
+        "641-frostvale-cloak": {
+            "page": {
+                "slugBase": "items",
+                "slug": "641-frostvale-cloak",
+                "fullSlug": "items\/641-frostvale-cloak",
+                "id": 641,
+                "name": "Frostvale Cloak",
+                "description": "This cloak was given to you by a moglin in Frostvale who you saved from a terrible fate.\n\n"
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 641,
+                    "name": "Frostvale Cloak",
+                    "description": "This cloak was given to you by a moglin in Frostvale who you saved from a terrible fate.\n\n",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 2,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 0,
+                    "rarity": 1,
+                    "level": 1,
+                    "type": "Melee",
+                    "element": "Ice",
+                    "categoryId": "2",
+                    "equipSpot": "Back",
+                    "itemType": "Cape",
+                    "swf": "items\/back\/cape-white.swf",
+                    "icon": "cape",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 0,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": "Ice,5"
+                }
+            },
+            "related": []
+        },
+        "640-frostvale-dragon-cloak": {
+            "page": {
+                "slugBase": "items",
+                "slug": "640-frostvale-dragon-cloak",
+                "fullSlug": "items\/640-frostvale-dragon-cloak",
+                "id": 640,
+                "name": "Frostvale Dragon Cloak",
+                "description": "This cloak was given to you by a moglin in Frostvale who you saved from a terrible fate. (Requires Dragon Amulet). "
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 640,
+                    "name": "Frostvale Dragon Cloak",
+                    "description": "This cloak was given to you by a moglin in Frostvale who you saved from a terrible fate. (Requires Dragon Amulet). ",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 1,
+                    "currency": 2,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": 0,
+                    "rarity": 1,
+                    "level": 1,
+                    "type": "Melee",
+                    "element": "Ice",
+                    "categoryId": "2",
+                    "equipSpot": "Back",
+                    "itemType": "Cape",
+                    "swf": "items\/back\/cape-white.swf",
+                    "icon": "cape",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 0,
+                    "charisma": 0,
+                    "endurance": 0,
+                    "wisdom": 0,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 0,
+                    "defensePierce": 0,
+                    "defenseMagic": 0,
+                    "critical": 1,
+                    "parry": 0,
+                    "dodge": 0,
+                    "block": 0,
+                    "resists": "Ice,5"
+                }
+            },
+            "related": []
+        }
+    }
+}

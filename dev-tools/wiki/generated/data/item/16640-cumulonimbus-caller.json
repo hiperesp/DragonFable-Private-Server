@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16640-cumulonimbus-caller",
+        "fullSlug": "items\/16640-cumulonimbus-caller",
+        "id": 16640,
+        "name": "Cumulonimbus Caller",
+        "description": "Channeling the power of massive storm clouds, this weapon will alternate between hitting with Darkness and Energy element attacks!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16640,
+            "name": "Cumulonimbus Caller",
+            "description": "Channeling the power of massive storm clouds, this weapon will alternate between hitting with Darkness and Energy element attacks!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 0,
+            "level": 30,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-thundercloud.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 43,
+            "damageMax": 57,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Nature,-1"
+        }
+    },
+    "related": {
+        "1391-can-we-yix-him": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1391-can-we-yix-him",
+                "fullSlug": "quests\/1391-can-we-yix-him",
+                "id": 1391,
+                "name": "Can We Yix Him?",
+                "description": "Your dragon is tirelessly flying all over the continent, engulfing it in darkness and despair. Meanwhile, you decide to seek help with the gnomes."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1391,
+                    "name": "Can We Yix Him?",
+                    "description": "Your dragon is tirelessly flying all over the continent, engulfing it in darkness and despair. Meanwhile, you decide to seek help with the gnomes.",
+                    "complete": "Portable Yix! You wonder how Kordana would react to this.",
+                    "swf": "\/towns\/10AnnDF\/quest11-yix.swf",
+                    "swfX": "\/towns\/10AnnDF\/quest11-yix-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "darkness elementals and cyklons",
+                    "monsterGroupSwf": "mset-yix.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

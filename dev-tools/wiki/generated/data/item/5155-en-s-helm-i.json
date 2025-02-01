@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5155-en-s-helm-i",
+        "fullSlug": "items\/5155-en-s-helm-i",
+        "id": 5155,
+        "name": " En's Helm I",
+        "description": "En's helm lets you feel like a jerk no matter where you go! Go you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5155,
+            "name": " En's Helm I",
+            "description": "En's helm lets you feel like a jerk no matter where you go! Go you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 10,
+            "level": 20,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-En.swf",
+            "icon": "helm",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": -2,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Nature,2,Light,2"
+        }
+    },
+    "related": {
+        "745-new-face-of-entropy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "745-new-face-of-entropy",
+                "fullSlug": "quests\/745-new-face-of-entropy",
+                "id": 745,
+                "name": "New Face of Entropy",
+                "description": "En and Tropy have merged with Gorgok!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 745,
+                    "name": "New Face of Entropy",
+                    "description": "En and Tropy have merged with Gorgok!",
+                    "complete": "En and Tropy have merged with Gorgok!",
+                    "swf": "towns\/willowshire\/quest-earth14-newentropyr3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "entropy and entogs",
+                    "monsterGroupSwf": "mset-earth14.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

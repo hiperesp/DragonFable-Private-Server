@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1214-prudence-point",
+        "fullSlug": "items\/1214-prudence-point",
+        "id": 1214,
+        "name": "Prudence Point",
+        "description": "This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 12 or higher to create. This well balanced dagger is dangerously sharp. It's maker needs the prudence to know when to use it and when not to. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1214,
+            "name": "Prudence Point",
+            "description": "This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 12 or higher to create. This well balanced dagger is dangerously sharp. It's maker needs the prudence to know when to use it and when not to. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 12,
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-forge1.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 26,
+            "damageMax": 36,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "32-forge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "32-forge",
+                "fullSlug": "merge-shops\/32-forge",
+                "id": 32,
+                "name": "Forge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 32,
+                    "name": "Forge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 454,
+                    "mergeShopId": 32,
+                    "mergeId": 269
+                },
+                "merge": {
+                    "id": 269,
+                    "itemId1": 1199,
+                    "amount1": 1,
+                    "itemId2": 1255,
+                    "amount2": 1,
+                    "itemId": 1214,
+                    "string": 1,
+                    "index": 2,
+                    "value": 12,
+                    "level": 7
+                }
+            }
+        }
+    }
+}

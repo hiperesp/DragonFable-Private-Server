@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12648-zeclem-s-band",
+        "fullSlug": "items\/12648-zeclem-s-band",
+        "id": 12648,
+        "name": "Zeclem's Band",
+        "description": "V. As Zeclem held the crown that belonged to his former king, a whisper crept into his thoughts. He turned and saw the mass of undead staring at him. The whisper told him that they were his to command."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12648,
+            "name": "Zeclem's Band",
+            "description": "V. As Zeclem held the crown that belonged to his former king, a whisper crept into his thoughts. He turned and saw the mass of undead staring at him. The whisper told him that they were his to command.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 8,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Evil,15,Good,15,Light,4,Darkness,4,Health,-6"
+        }
+    },
+    "related": {
+        "415-zeclem-s-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "415-zeclem-s-items",
+                "fullSlug": "item-shops\/415-zeclem-s-items",
+                "id": 415,
+                "name": "Zeclem's Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 415,
+                    "name": "Zeclem's Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "341-relics-of-zeclem": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "341-relics-of-zeclem",
+                "fullSlug": "merge-shops\/341-relics-of-zeclem",
+                "id": 341,
+                "name": "Relics of Zeclem",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 341,
+                    "name": "Relics of Zeclem"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3561,
+                    "mergeShopId": 341,
+                    "mergeId": 3645
+                },
+                "merge": {
+                    "id": 3645,
+                    "itemId1": 12648,
+                    "amount1": 1,
+                    "itemId2": 20120,
+                    "amount2": 5,
+                    "itemId": 20129,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

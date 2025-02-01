@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15432-mile-high-stallions",
+        "fullSlug": "items\/15432-mile-high-stallions",
+        "id": 15432,
+        "name": "Mile High Stallions",
+        "description": "Who are you cheering for in the Big Game? This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15432,
+            "name": "Mile High Stallions",
+            "description": "Who are you cheering for in the Big Game? This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3500,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-broncos.swf",
+            "icon": "helm",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 10,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 15,
+            "dodge": 15,
+            "block": 15,
+            "resists": "Metal,11,Health,-7,Immobility,5"
+        }
+    },
+    "related": {
+        "488-big-game-helms": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "488-big-game-helms",
+                "fullSlug": "item-shops\/488-big-game-helms",
+                "id": 488,
+                "name": "Big Game Helms",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 488,
+                    "name": "Big Game Helms",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14790-emerald-scythe-of-purity",
+        "fullSlug": "items\/14790-emerald-scythe-of-purity",
+        "id": 14790,
+        "name": "Emerald Scythe of Purity",
+        "description": "This scythe was carved from a solid chunk of pure Emerald. It symbolizes your commitment to fight the darkness in whatever form it takes!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14790,
+            "name": "Emerald Scythe of Purity",
+            "description": "This scythe was carved from a solid chunk of pure Emerald. It symbolizes your commitment to fight the darkness in whatever form it takes!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 275,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-emeraldCrystal.swf",
+            "icon": "scythe",
+            "strength": 7,
+            "dexterity": 7,
+            "intelligence": 7,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,4,Fire,4,Water,3,Health,-2"
+        }
+    },
+    "related": {
+        "469-emerald-purity-dc-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "469-emerald-purity-dc-shop",
+                "fullSlug": "item-shops\/469-emerald-purity-dc-shop",
+                "id": 469,
+                "name": "Emerald Purity DC Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 469,
+                    "name": "Emerald Purity DC Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

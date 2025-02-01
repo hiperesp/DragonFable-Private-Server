@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2286-labyrinthic",
+        "fullSlug": "items\/2286-labyrinthic",
+        "id": 2286,
+        "name": "Labyrinthic",
+        "description": "Chunks of stalagnatum, the metal in Taurus' shackles, the litter the floor of the Labyrinth.  The glow is rather pretty, but you might want to have it tested for toxicity. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2286,
+            "name": "Labyrinthic",
+            "description": "Chunks of stalagnatum, the metal in Taurus' shackles, the litter the floor of the Labyrinth.  The glow is rather pretty, but you might want to have it tested for toxicity. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1250,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 15,
+            "level": 31,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon7.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 43,
+            "damageMax": 62,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Metal,2,Stone,1"
+        }
+    },
+    "related": {
+        "369-mino-torture": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "369-mino-torture",
+                "fullSlug": "quests\/369-mino-torture",
+                "id": 369,
+                "name": "(Mino)torture",
+                "description": "Not even string can help you find your way out of THIS labyrinth. The minotaur who built it wanted to confound any and all intruders, and make it impossible for even the cleverest hero to get out without good deal of luck and persistance."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 369,
+                    "name": "(Mino)torture",
+                    "description": "Not even string can help you find your way out of THIS labyrinth. The minotaur who built it wanted to confound any and all intruders, and make it impossible for even the cleverest hero to get out without good deal of luck and persistance.",
+                    "complete": "I wonder if the metal in those shackles would make good weaponry?",
+                    "swf": "quests\/Zeuster\/quest-bacon7.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "beasts and buglies",
+                    "monsterGroupSwf": "mset-bacon7.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

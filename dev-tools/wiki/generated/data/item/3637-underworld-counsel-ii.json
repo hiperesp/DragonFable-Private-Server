@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3637-underworld-counsel-ii",
+        "fullSlug": "items\/3637-underworld-counsel-ii",
+        "id": 3637,
+        "name": "Underworld Counsel II",
+        "description": "This silver blade is tinted black, and is perfectly crafted for repelling supernatural creatures. The creator's name, \"Mephiles the Dark,\" is etched into the handle. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3637,
+            "name": "Underworld Counsel II",
+            "description": "This silver blade is tinted black, and is perfectly crafted for repelling supernatural creatures. The creator's name, \"Mephiles the Dark,\" is etched into the handle. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1250,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 15,
+            "level": 45,
+            "type": "Pierce",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-player2.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 59,
+            "damageMax": 71,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 2,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Darkness,4,Poison,4"
+        }
+    },
+    "related": {
+        "135-player-suggestion-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "135-player-suggestion-shop",
+                "fullSlug": "item-shops\/135-player-suggestion-shop",
+                "id": 135,
+                "name": "Player Suggestion Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 135,
+                    "name": "Player Suggestion Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

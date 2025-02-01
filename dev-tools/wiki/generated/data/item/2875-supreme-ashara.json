@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2875-supreme-ashara",
+        "fullSlug": "items\/2875-supreme-ashara",
+        "id": 2875,
+        "name": "Supreme Ashara",
+        "description": "A silk ribbon got caught up in a gust of wind.  An aeromancer saw the pretty shape it made and caused it to stay that way permanently.  This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2875,
+            "name": "Supreme Ashara",
+            "description": "A silk ribbon got caught up in a gust of wind.  An aeromancer saw the pretty shape it made and caused it to stay that way permanently.  This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1350,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 50,
+            "type": "Magic",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-aria3.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 0,
+            "damageMin": 65,
+            "damageMax": 71,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,1,Fire,4"
+        }
+    },
+    "related": {
+        "492-questions": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "492-questions",
+                "fullSlug": "quests\/492-questions",
+                "id": 492,
+                "name": "Questions",
+                "description": "Cheshire Twilly knows of someone who can help you rescue Aria. IF you can convince him to listen to you!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 492,
+                    "name": "Questions",
+                    "description": "Cheshire Twilly knows of someone who can help you rescue Aria. IF you can convince him to listen to you!",
+                    "complete": "Oooo R U?",
+                    "swf": "quests\/AriainWanderland\/quest-aria3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "random",
+                    "monsterGroupSwf": "mset-aria3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

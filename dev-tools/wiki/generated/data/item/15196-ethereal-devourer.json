@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15196-ethereal-devourer",
+        "fullSlug": "items\/15196-ethereal-devourer",
+        "id": 15196,
+        "name": "Ethereal Devourer",
+        "description": "Forged by True Mortal for DragonFable's 10th Anniversary. This fiery weapon will become more accurate, but less critical, as it glows. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15196,
+            "name": "Ethereal Devourer",
+            "description": "Forged by True Mortal for DragonFable's 10th Anniversary. This fiery weapon will become more accurate, but less critical, as it glows. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 60,
+            "level": 30,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/sword-EtherealDevourer2.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 6,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Ice,3,Darkness,3,Immobility,2,Mana,-2,Health,-2"
+        }
+    },
+    "related": {
+        "481-anniversary-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "481-anniversary-dc",
+                "fullSlug": "item-shops\/481-anniversary-dc",
+                "id": 481,
+                "name": "Anniversary DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 481,
+                    "name": "Anniversary DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

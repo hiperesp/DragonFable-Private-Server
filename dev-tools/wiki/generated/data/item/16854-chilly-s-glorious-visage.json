@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16854-chilly-s-glorious-visage",
+        "fullSlug": "items\/16854-chilly-s-glorious-visage",
+        "id": 16854,
+        "name": "Chilly's Glorious Visage",
+        "description": "Personification of utter perfection! *swoon*"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16854,
+            "name": "Chilly's Glorious Visage",
+            "description": "Personification of utter perfection! *swoon*",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 50,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 10,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-chillydin.swf",
+            "icon": "helm",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1399-snowfang-the-dragon": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1399-snowfang-the-dragon",
+                "fullSlug": "quests\/1399-snowfang-the-dragon",
+                "id": 1399,
+                "name": "Snowfang the Dragon",
+                "description": "Listen to Holly's side of the story."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1399,
+                    "name": "Snowfang the Dragon",
+                    "description": "Listen to Holly's side of the story.",
+                    "complete": "Knight Chilly... right. At least the song was cool!",
+                    "swf": "towns\/Frostvale\/F16\/quest2-pally.swf",
+                    "swfX": "towns\/Frostvale\/F16\/quest2-pally-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Snowy Frosty Things",
+                    "monsterGroupSwf": "mset-f16-2.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

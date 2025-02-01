@@ -1,0 +1,109 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5829-leanan-sidhe-iii",
+        "fullSlug": "items\/5829-leanan-sidhe-iii",
+        "id": 5829,
+        "name": "Leanan Sidhe III",
+        "description": "This beautiful female Sidhe is considered the muse, who offers inspiration to an artist in exchange for their love and devotion.  This unfortunately tends to result in madness or death for the artist. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5829,
+            "name": "Leanan Sidhe III",
+            "description": "This beautiful female Sidhe is considered the muse, who offers inspiration to an artist in exchange for their love and devotion.  This unfortunately tends to result in madness or death for the artist. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 15,
+            "level": 60,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Wings",
+            "swf": "items\/back\/wings-Leanan Sidhe.swf",
+            "icon": "wings",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 6,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Wind,6,Nature,3"
+        }
+    },
+    "related": {
+        "228-sidhe-wings": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "228-sidhe-wings",
+                "fullSlug": "item-shops\/228-sidhe-wings",
+                "id": 228,
+                "name": "Sidhe Wings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 228,
+                    "name": "Sidhe Wings",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "94-wing-merge": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "94-wing-merge",
+                "fullSlug": "merge-shops\/94-wing-merge",
+                "id": 94,
+                "name": "Wing Merge",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 94,
+                    "name": "Wing Merge"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1314,
+                    "mergeShopId": 94,
+                    "mergeId": 1122
+                },
+                "merge": {
+                    "id": 1122,
+                    "itemId1": 5829,
+                    "amount1": 1,
+                    "itemId2": 5760,
+                    "amount2": 15,
+                    "itemId": 5830,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

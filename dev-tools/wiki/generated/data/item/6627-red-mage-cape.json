@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6627-red-mage-cape",
+        "fullSlug": "items\/6627-red-mage-cape",
+        "id": 6627,
+        "name": "Red Mage Cape",
+        "description": "A fiery red cape fit for a true mage! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6627,
+            "name": "Red Mage Cape",
+            "description": "A fiery red cape fit for a true mage! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 2,
+            "level": 5,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-red.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "875-playing-with-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "875-playing-with-fire",
+                "fullSlug": "quests\/875-playing-with-fire",
+                "id": 875,
+                "name": "Playing With Fire",
+                "description": "Not using your magic is no fun...."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 875,
+                    "name": "Playing With Fire",
+                    "description": "Not using your magic is no fun....",
+                    "complete": "You made it through the Fire Cave!",
+                    "swf": "towns\/SwordhavenAlex\/quest-alex3-fire.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "fire monsters",
+                    "monsterGroupSwf": "mset-alex3-fire.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

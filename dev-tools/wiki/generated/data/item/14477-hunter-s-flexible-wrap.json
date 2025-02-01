@@ -1,0 +1,108 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14477-hunter-s-flexible-wrap",
+        "fullSlug": "items\/14477-hunter-s-flexible-wrap",
+        "id": 14477,
+        "name": "Hunter's Flexible Wrap",
+        "description": "Your reward for helping Gingkage! This makes a nice belt and it fits just right. Not too tight, not too loose. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14477,
+            "name": "Hunter's Flexible Wrap",
+            "description": "Your reward for helping Gingkage! This makes a nice belt and it fits just right. Not too tight, not too loose. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 7,
+            "parry": 12,
+            "dodge": 12,
+            "block": 12,
+            "resists": "Water,8,Nature,8,Stone,6"
+        }
+    },
+    "related": {
+        "482-herotown-store": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "482-herotown-store",
+                "fullSlug": "item-shops\/482-herotown-store",
+                "id": 482,
+                "name": "HeroTown Store",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 482,
+                    "name": "HeroTown Store",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "1288-potion-help": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1288-potion-help",
+                "fullSlug": "quests\/1288-potion-help",
+                "id": 1288,
+                "name": "Potion Help",
+                "description": "Gingkage needs you to gather reagents for her."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1288,
+                    "name": "Potion Help",
+                    "description": "Gingkage needs you to gather reagents for her.",
+                    "complete": "You got the reagents! Hopefully you can get past that giant wolf....",
+                    "swf": "quests\/quest-alchemyr5.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Random Foresty Mobs",
+                    "monsterGroupSwf": "mset-alchemy.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

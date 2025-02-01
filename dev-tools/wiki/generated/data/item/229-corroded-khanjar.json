@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "229-corroded-khanjar",
+        "fullSlug": "items\/229-corroded-khanjar",
+        "id": 229,
+        "name": "Corroded Khanjar",
+        "description": "This ancient, pitted blade belonged to a warlord named Khanjar who used it to slaughter countless sneevils."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 229,
+            "name": "Corroded Khanjar",
+            "description": "This ancient, pitted blade belonged to a warlord named Khanjar who used it to slaughter countless sneevils.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 725,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 5,
+            "type": "Pierce",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-rotten.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 16,
+            "damageMax": 18,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 3,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "5-marsh-madness": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "5-marsh-madness",
+                "fullSlug": "quests\/5-marsh-madness",
+                "id": 5,
+                "name": "Marsh Madness",
+                "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 5,
+                    "name": "Marsh Madness",
+                    "description": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "complete": "A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.",
+                    "swf": "random\/random-marsh.swf",
+                    "swfX": "none",
+                    "maxSilver": 7,
+                    "maxGold": 100,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 10,
+                    "monsterType": "swampish",
+                    "monsterGroupSwf": "mset-marsh.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

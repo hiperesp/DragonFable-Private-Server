@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10154-fossil-necklace",
+        "fullSlug": "items\/10154-fossil-necklace",
+        "id": 10154,
+        "name": "Fossil Necklace",
+        "description": "A fossil of some strange sea creature is hung on this necklace. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10154,
+            "name": "Fossil Necklace",
+            "description": "A fossil of some strange sea creature is hung on this necklace. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 20,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 1,
+            "level": 47,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 6,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Stone,10,Water,7"
+        }
+    },
+    "related": {
+        "354-after-war-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "354-after-war-dc",
+                "fullSlug": "item-shops\/354-after-war-dc",
+                "id": 354,
+                "name": "After War DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 354,
+                    "name": "After War DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

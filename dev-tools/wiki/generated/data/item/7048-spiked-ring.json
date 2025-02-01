@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7048-spiked-ring",
+        "fullSlug": "items\/7048-spiked-ring",
+        "id": 7048,
+        "name": "Spiked Ring",
+        "description": "Wicked spikes poke out form this ring! Be careful! This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7048,
+            "name": "Spiked Ring",
+            "description": "Wicked spikes poke out form this ring! Be careful! This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 6,
+            "level": 73,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 7,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": "Poison,8,Disease,8,Ice,5,Immobility,2"
+        }
+    },
+    "related": {
+        "915-mop-clearance": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "915-mop-clearance",
+                "fullSlug": "quests\/915-mop-clearance",
+                "id": 915,
+                "name": "MOP Clearance",
+                "description": "Help the MOP team clear out the roving pack of zards from the woods around Amityvale."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 915,
+                    "name": "MOP Clearance",
+                    "description": "Help the MOP team clear out the roving pack of zards from the woods around Amityvale.",
+                    "complete": "Help the MOP team clear out the roving pack of zards from the woods around Amityvale.",
+                    "swf": "random\/random-amityvale-mop.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 6000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Zards!",
+                    "monsterGroupSwf": "mset-zardsr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

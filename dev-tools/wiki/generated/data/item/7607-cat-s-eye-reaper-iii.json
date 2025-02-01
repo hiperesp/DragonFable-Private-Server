@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7607-cat-s-eye-reaper-iii",
+        "fullSlug": "items\/7607-cat-s-eye-reaper-iii",
+        "id": 7607,
+        "name": "Cat's Eye Reaper III",
+        "description": "Ebony, iron, amber, and obsidian come together to create this wickedly sharp scythe, guaranteed to reap your way through your enemies.  The blade bears a cat's eye, enchanted by the light of a full moon.  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7607,
+            "name": "Cat's Eye Reaper III",
+            "description": "Ebony, iron, amber, and obsidian come together to create this wickedly sharp scythe, guaranteed to reap your way through your enemies.  The blade bears a cat's eye, enchanted by the light of a full moon.  ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 52,
+            "type": "Melee",
+            "element": "Stone",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-mogloween12.swf",
+            "icon": "scythe",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 78,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,7,Water,6,Wind,5,Immobility,2"
+        }
+    },
+    "related": {
+        "962-catastrophic-candy": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "962-catastrophic-candy",
+                "fullSlug": "quests\/962-catastrophic-candy",
+                "id": 962,
+                "name": "Catastrophic Candy",
+                "description": "Can you defeat Furrkenstein?!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 962,
+                    "name": "Catastrophic Candy",
+                    "description": "Can you defeat Furrkenstein?!",
+                    "complete": "Furrkenstein is no more!",
+                    "swf": "towns\/Mogloween\/M12\/quest4-catastrophic.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 1000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "furrkenstein",
+                    "monsterGroupSwf": "mset-furrkenstein.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

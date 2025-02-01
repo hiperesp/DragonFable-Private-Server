@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "17104-cheesemonger-s-gratitude",
+        "fullSlug": "items\/17104-cheesemonger-s-gratitude",
+        "id": 17104,
+        "name": "Cheesemonger's Gratitude",
+        "description": "A small vial of extremely smelly cheese on a string. The smell is absolutely nauseating when you open it. Maybe there was some magic used in its creation?"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 17104,
+            "name": "Cheesemonger's Gratitude",
+            "description": "A small vial of extremely smelly cheese on a string. The smell is absolutely nauseating when you open it. Maybe there was some magic used in its creation?",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 5,
+            "level": 35,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 4,
+            "charisma": -4,
+            "endurance": -4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "Metal,5,Nature,5"
+        }
+    },
+    "related": {
+        "1418-the-cheese-seller": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1418-the-cheese-seller",
+                "fullSlug": "quests\/1418-the-cheese-seller",
+                "id": 1418,
+                "name": "The Cheese Seller",
+                "description": "A cheese seller is asking for an escort to Falconreach."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1418,
+                    "name": "The Cheese Seller",
+                    "description": "A cheese seller is asking for an escort to Falconreach.",
+                    "complete": "Who could order so much cheese, you wonder...",
+                    "swf": "towns\/3swordhaven\/Board\/quest-cheese.swf ",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Rats",
+                    "monsterGroupSwf": "mset-oaklore-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

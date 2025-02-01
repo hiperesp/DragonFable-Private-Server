@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20843-sanctuary-s-promise-vi",
+        "fullSlug": "items\/20843-sanctuary-s-promise-vi",
+        "id": 20843,
+        "name": "Sanctuary's Promise VI",
+        "description": "This carved wooden charm was given to you as you prepared to leave Sulen'Eska to fight the amassing Rose forces at the swamp border. May it help you weather the coming storm. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20843,
+            "name": "Sanctuary's Promise VI",
+            "description": "This carved wooden charm was given to you as you prepared to leave Sulen'Eska to fight the amassing Rose forces at the swamp border. May it help you weather the coming storm. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 55,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Trinket",
+            "itemType": "Trinket",
+            "swf": "",
+            "icon": "trinket",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 40,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1935-changing-winds": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1935-changing-winds",
+                "fullSlug": "quests\/1935-changing-winds",
+                "id": 1935,
+                "name": "Changing Winds",
+                "description": "With the imminent threat of a Rose invasion in retaliation for the failed peace parley, Kara is distraught over the next steps to take for Sulen'Eska and her people."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1935,
+                    "name": "Changing Winds",
+                    "description": "With the imminent threat of a Rose invasion in retaliation for the failed peace parley, Kara is distraught over the next steps to take for Sulen'Eska and her people.",
+                    "complete": "Now that you and your companions have found the Rose forward camp, it's time to hold out for as long as you can while Kara recovers and makes her decision.",
+                    "swf": "towns\/SulenEska\/quest15-changing.swf",
+                    "swfX": "towns\/SulenEska\/quest15-changing-x.swf?ver=1",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Swamps and Rose",
+                    "monsterGroupSwf": "mset-changingwinds.swf?ver=2"
+                }
+            },
+            "related": []
+        }
+    }
+}

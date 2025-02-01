@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5514-icy-dragonscale-belt",
+        "fullSlug": "items\/5514-icy-dragonscale-belt",
+        "id": 5514,
+        "name": "Icy Dragonscale Belt",
+        "description": "This belt was woven from Dragon Leather, and plated with chips from an ice dragon?s scales. Originally commissioned by Galanoth for some classy evening wear, but it didn?t go with the armor. This item requires a Dragon Amulet. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5514,
+            "name": "Icy Dragonscale Belt",
+            "description": "This belt was woven from Dragon Leather, and plated with chips from an ice dragon?s scales. Originally commissioned by Galanoth for some classy evening wear, but it didn?t go with the armor. This item requires a Dragon Amulet. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 650,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 19,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 2,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,5,Ice,3"
+        }
+    },
+    "related": {
+        "774-dragesvard-havoc": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "774-dragesvard-havoc",
+                "fullSlug": "quests\/774-dragesvard-havoc",
+                "id": 774,
+                "name": "Dragesvard Havoc",
+                "description": "Monsters are attacking!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 774,
+                    "name": "Dragesvard Havoc",
+                    "description": "Monsters are attacking!",
+                    "complete": "Who could be behind this attack?!",
+                    "swf": "towns\/Chap1Finale\/quest-havoc-dragesvard.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "icy",
+                    "monsterGroupSwf": "mset-havoc-dragesvard.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

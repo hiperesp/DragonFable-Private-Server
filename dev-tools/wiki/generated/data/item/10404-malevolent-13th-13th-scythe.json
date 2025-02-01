@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10404-malevolent-13th-13th-scythe",
+        "fullSlug": "items\/10404-malevolent-13th-13th-scythe",
+        "id": 10404,
+        "name": "Malevolent 13th 13th Scythe",
+        "description": "Souls or spirits... something is screaming to escape! "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10404,
+            "name": "Malevolent 13th 13th Scythe",
+            "description": "Souls or spirits... something is screaming to escape! ",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 25,
+            "level": 80,
+            "element": "Evil",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-Fr13.swf",
+            "icon": "scythe",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 0,
+            "charisma": 5,
+            "endurance": 7,
+            "wisdom": 10,
+            "damageMin": 82,
+            "damageMax": 100,
+            "defenseMelee": 9,
+            "defensePierce": 9,
+            "defenseMagic": 9,
+            "critical": 14,
+            "parry": 3,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,13,Fire,13,Ice,13,Darkness,6,Silver,6,Immobility,8,Health,-3"
+        }
+    },
+    "related": {
+        "147-13th-13th": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "147-13th-13th",
+                "fullSlug": "merge-shops\/147-13th-13th",
+                "id": 147,
+                "name": "13th 13th",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 147,
+                    "name": "13th 13th"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2110,
+                    "mergeShopId": 147,
+                    "mergeId": 3246
+                },
+                "merge": {
+                    "id": 3246,
+                    "itemId1": 10404,
+                    "amount1": 1,
+                    "itemId2": 10405,
+                    "amount2": 1,
+                    "itemId": 18215,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

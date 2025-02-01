@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6140-snow-elf-chain",
+        "fullSlug": "items\/6140-snow-elf-chain",
+        "id": 6140,
+        "name": "Snow Elf Chain",
+        "description": "A beautiful antique chain of enchanted ice."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6140,
+            "name": "Snow Elf Chain",
+            "description": "A beautiful antique chain of enchanted ice.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 7,
+            "level": 29,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5"
+        }
+    },
+    "related": {
+        "830-old-scrolls": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "830-old-scrolls",
+                "fullSlug": "quests\/830-old-scrolls",
+                "id": 830,
+                "name": "Old Scrolls",
+                "description": "The caravaneer seems to be having some... legal issues. Better help him and get him to where he needs to be in Swordhaven."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 830,
+                    "name": "Old Scrolls",
+                    "description": "The caravaneer seems to be having some... legal issues. Better help him and get him to where he needs to be in Swordhaven.",
+                    "complete": "That guy seems destined for greatness. Or more deliveries.",
+                    "swf": "towns\/verteroche\/quest-escort3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 4000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "bandits and red dragons",
+                    "monsterGroupSwf": "mset-escort3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

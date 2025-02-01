@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12662-omniblade",
+        "fullSlug": "items\/12662-omniblade",
+        "id": 12662,
+        "name": "OmniBlade",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12662,
+            "name": "OmniBlade"
+        }
+    },
+    "related": {
+        "211-omniblade-upgrade": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "211-omniblade-upgrade",
+                "fullSlug": "merge-shops\/211-omniblade-upgrade",
+                "id": 211,
+                "name": "OmniBlade Upgrade",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 211,
+                    "name": "OmniBlade Upgrade"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2544,
+                    "mergeShopId": 211,
+                    "mergeId": 2447
+                },
+                "merge": {
+                    "id": 2447,
+                    "itemId1": 12662,
+                    "amount1": 1,
+                    "itemId2": 12792,
+                    "amount2": 1,
+                    "itemId": 12663,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

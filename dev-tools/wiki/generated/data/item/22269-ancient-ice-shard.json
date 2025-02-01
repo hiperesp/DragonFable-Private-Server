@@ -1,0 +1,55 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22269-ancient-ice-shard",
+        "fullSlug": "items\/22269-ancient-ice-shard",
+        "id": 22269,
+        "name": "Ancient Ice Shard",
+        "description": "<no description available>"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22269,
+            "name": "Ancient Ice Shard"
+        }
+    },
+    "related": {
+        "435-thawed-heart-rewards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "435-thawed-heart-rewards",
+                "fullSlug": "merge-shops\/435-thawed-heart-rewards",
+                "id": 435,
+                "name": "Thawed Heart Rewards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 435,
+                    "name": "Thawed Heart Rewards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4456,
+                    "mergeShopId": 435,
+                    "mergeId": 4488
+                },
+                "merge": {
+                    "id": 4488,
+                    "itemId1": 22269,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 22268,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

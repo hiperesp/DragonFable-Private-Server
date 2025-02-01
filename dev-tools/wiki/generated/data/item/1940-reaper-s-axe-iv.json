@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1940-reaper-s-axe-iv",
+        "fullSlug": "items\/1940-reaper-s-axe-iv",
+        "id": 1940,
+        "name": "Reaper's Axe IV",
+        "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1940,
+            "name": "Reaper's Axe IV",
+            "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 35,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-moglo08.swf",
+            "icon": "axe",
+            "strength": 3,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 51,
+            "damageMax": 63,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3"
+        }
+    },
+    "related": {
+        "43-reaper-lv-35": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "43-reaper-lv-35",
+                "fullSlug": "merge-shops\/43-reaper-lv-35",
+                "id": 43,
+                "name": "Reaper Lv 35",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Reaper Lv 35"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 696,
+                    "mergeShopId": 43,
+                    "mergeId": 441
+                },
+                "merge": {
+                    "id": 441,
+                    "itemId1": 1937,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 1940,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "44-reaper-lv-45": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "44-reaper-lv-45",
+                "fullSlug": "merge-shops\/44-reaper-lv-45",
+                "id": 44,
+                "name": "Reaper Lv 45",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 44,
+                    "name": "Reaper Lv 45"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 699,
+                    "mergeShopId": 44,
+                    "mergeId": 444
+                },
+                "merge": {
+                    "id": 444,
+                    "itemId1": 1940,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 1943,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15583-spectral-night-vision",
+        "fullSlug": "items\/15583-spectral-night-vision",
+        "id": 15583,
+        "name": "Spectral Night Vision",
+        "description": "A staff that was once used by a school of magicians who drew their power from the night. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15583,
+            "name": "Spectral Night Vision",
+            "description": "A staff that was once used by a school of magicians who drew their power from the night. ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 4800,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 50,
+            "level": 30,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-shadowstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 42,
+            "damageMax": 58,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,2,Ice,2,Energy,1,Mana,-1"
+        }
+    },
+    "related": {
+        "1345-shattered": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1345-shattered",
+                "fullSlug": "quests\/1345-shattered",
+                "id": 1345,
+                "name": "Shattered",
+                "description": "The Darkness is pushing through... it needs to learn, to find out, how to finally bring the endless night back to this Universe."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1345,
+                    "name": "Shattered",
+                    "description": "The Darkness is pushing through... it needs to learn, to find out, how to finally bring the endless night back to this Universe.",
+                    "complete": "The shattered dust of the Ultimate Orb... and memories of those who would defeat the Darkness.",
+                    "swf": "towns\/10AnnDF\/quest2-shattered.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "skeles,darkness",
+                    "monsterGroupSwf": "mset-final13thr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

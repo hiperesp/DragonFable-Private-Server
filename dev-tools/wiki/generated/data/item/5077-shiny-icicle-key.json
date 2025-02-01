@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "5077-shiny-icicle-key",
+        "fullSlug": "items\/5077-shiny-icicle-key",
+        "id": 5077,
+        "name": "Shiny Icicle Key",
+        "description": "A key to the Equilibrium Gate, a key to victory against your opponents."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 5077,
+            "name": "Shiny Icicle Key",
+            "description": "A key to the Equilibrium Gate, a key to victory against your opponents.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1600,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 10,
+            "level": 45,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-key_icicle2.swf",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 4,
+            "damageMin": 60,
+            "damageMax": 72,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,7"
+        }
+    },
+    "related": {
+        "179-icicle-key": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "179-icicle-key",
+                "fullSlug": "item-shops\/179-icicle-key",
+                "id": 179,
+                "name": "Icicle Key",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 179,
+                    "name": "Icicle Key",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16015-dage-s-desolation",
+        "fullSlug": "items\/16015-dage-s-desolation",
+        "id": 16015,
+        "name": "Dage's Desolation",
+        "description": "A legendary shining blade from another time and place. It feels... evil."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16015,
+            "name": "Dage's Desolation",
+            "description": "A legendary shining blade from another time and place. It feels... evil.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 60,
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-DageDesolation.swf",
+            "icon": "scythe",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 76,
+            "damageMax": 82,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Light,9,Fire,5,Water,5,Nature,2,Energy,2,Immobility,5"
+        }
+    },
+    "related": {
+        "253-heromart-items": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "253-heromart-items",
+                "fullSlug": "merge-shops\/253-heromart-items",
+                "id": 253,
+                "name": "HeroMart Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 253,
+                    "name": "HeroMart Items"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2863,
+                    "mergeShopId": 253,
+                    "mergeId": 2887
+                },
+                "merge": {
+                    "id": 2887,
+                    "itemId1": 15986,
+                    "amount1": 2,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 16015,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

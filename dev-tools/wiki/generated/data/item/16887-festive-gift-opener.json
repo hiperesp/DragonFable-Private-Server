@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16887-festive-gift-opener",
+        "fullSlug": "items\/16887-festive-gift-opener",
+        "id": 16887,
+        "name": "Festive Gift Opener",
+        "description": "A very useful tool for opening gifts. Multiple gifts at a time. Your friends' gifts. Enemies. Just swing at something and it will open."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16887,
+            "name": "Festive Gift Opener",
+            "description": "A very useful tool for opening gifts. Multiple gifts at a time. Your friends' gifts. Enemies. Just swing at something and it will open.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 70,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-festivescythe.swf",
+            "icon": "scythe",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 32,
+            "damageMax": 48,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,3"
+        }
+    },
+    "related": {
+        "1400-what-really-happened": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1400-what-really-happened",
+                "fullSlug": "quests\/1400-what-really-happened",
+                "id": 1400,
+                "name": "What REALLY Happened",
+                "description": "Find out what REALLY happened that fateful Frostval night as Holly and Tinsel work together to find the true meaning of the holidays!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1400,
+                    "name": "What REALLY Happened",
+                    "description": "Find out what REALLY happened that fateful Frostval night as Holly and Tinsel work together to find the true meaning of the holidays!",
+                    "complete": "And that's what really happened! Have a very merry Frostval!",
+                    "swf": "towns\/Frostvale\/F16\/quest3-finale.swf",
+                    "swfX": "towns\/Frostvale\/F16\/quest3-finale-x.swf?ver=1",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Snowy monsters and NecroChilly\/Snowfang",
+                    "monsterGroupSwf": "mset-f16-1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

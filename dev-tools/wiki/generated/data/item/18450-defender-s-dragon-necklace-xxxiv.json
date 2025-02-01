@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18450-defender-s-dragon-necklace-xxxiv",
+        "fullSlug": "items\/18450-defender-s-dragon-necklace-xxxiv",
+        "id": 18450,
+        "name": "Defender's Dragon Necklace XXXIV",
+        "description": "This item requires a Dragon Amulet. This necklace was awarded to you by the town of Falconreach for your help defending it against an invading force. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18450,
+            "name": "Defender's Dragon Necklace XXXIV",
+            "description": "This item requires a Dragon Amulet. This necklace was awarded to you by the town of Falconreach for your help defending it against an invading force. ",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 7,
+            "level": 85,
+            "element": "None",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 14,
+            "dexterity": 14,
+            "intelligence": 14,
+            "luck": 12,
+            "charisma": 12,
+            "endurance": 12,
+            "wisdom": 12,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 10,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "All,10,Immobility,-10"
+        }
+    },
+    "related": {
+        "383-da-def-necklaces": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "383-da-def-necklaces",
+                "fullSlug": "merge-shops\/383-da-def-necklaces",
+                "id": 383,
+                "name": "DA Def Necklaces",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 383,
+                    "name": "DA Def Necklaces"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 4022,
+                    "mergeShopId": 383,
+                    "mergeId": 3304
+                },
+                "merge": {
+                    "id": 3304,
+                    "itemId1": 18450,
+                    "amount1": 1,
+                    "itemId2": 495,
+                    "amount2": 25,
+                    "itemId": 18456,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

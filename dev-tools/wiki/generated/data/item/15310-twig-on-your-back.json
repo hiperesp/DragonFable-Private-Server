@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15310-twig-on-your-back",
+        "fullSlug": "items\/15310-twig-on-your-back",
+        "id": 15310,
+        "name": "Twig On Your Back",
+        "description": "This soft plushie doll is slightly sticky and smells like fish... It's pretty awesome! Happy Twigsmas '15!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15310,
+            "name": "Twig On Your Back",
+            "description": "This soft plushie doll is slightly sticky and smells like fish... It's pretty awesome! Happy Twigsmas '15!",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 1,
+            "level": 50,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-twigdoll.swf",
+            "icon": "cape",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,4,Water,3"
+        }
+    },
+    "related": {
+        "243-fish-heads": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "243-fish-heads",
+                "fullSlug": "merge-shops\/243-fish-heads",
+                "id": 243,
+                "name": "Fish Heads",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 243,
+                    "name": "Fish Heads"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2702,
+                    "mergeShopId": 243,
+                    "mergeId": 2724
+                },
+                "merge": {
+                    "id": 2724,
+                    "itemId1": 15219,
+                    "amount1": 10,
+                    "itemId2": 15310,
+                    "amount2": 1,
+                    "itemId": 15311,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

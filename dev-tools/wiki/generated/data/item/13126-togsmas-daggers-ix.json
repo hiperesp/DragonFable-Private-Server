@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13126-togsmas-daggers-ix",
+        "fullSlug": "items\/13126-togsmas-daggers-ix",
+        "id": 13126,
+        "name": "Togsmas Daggers IX",
+        "description": "Merry Togsmas 2011! A special weapon made to honor your brave fight through Rolith's tog army to free Frostvale from his tyranny of silly hats!\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13126,
+            "name": "Togsmas Daggers IX",
+            "description": "Merry Togsmas 2011! A special weapon made to honor your brave fight through Rolith's tog army to free Frostvale from his tyranny of silly hats!\nThis item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-togsmas.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 12,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 8,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 75,
+            "damageMax": 95,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 9,
+            "parry": 1,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Nature,12,Ice,9,Poison,5,Immobility,5"
+        }
+    },
+    "related": {
+        "101-togsmas-gifts": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "101-togsmas-gifts",
+                "fullSlug": "merge-shops\/101-togsmas-gifts",
+                "id": 101,
+                "name": "Togsmas Gifts",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 101,
+                    "name": "Togsmas Gifts"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1358,
+                    "mergeShopId": 101,
+                    "mergeId": 2541
+                },
+                "merge": {
+                    "id": 2541,
+                    "itemId1": 6368,
+                    "amount1": 1,
+                    "itemId2": 6328,
+                    "amount2": 1,
+                    "itemId": 13126,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

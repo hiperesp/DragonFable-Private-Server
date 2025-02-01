@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18998-overgrown-signet-ii",
+        "fullSlug": "items\/18998-overgrown-signet-ii",
+        "id": 18998,
+        "name": "Overgrown Signet II",
+        "description": "You found this old ring in the woods around Amityvale. Moss and dirt clings to a plain band. Touching the ornate design of the signet gives you a small shock!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18998,
+            "name": "Overgrown Signet II",
+            "description": "You found this old ring in the woods around Amityvale. Moss and dirt clings to a plain band. Touching the ornate design of the signet gives you a small shock!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 0,
+            "level": 40,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 5,
+            "dexterity": 5,
+            "intelligence": 5,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Energy,6,Nature,6,All,-5,Health,5"
+        }
+    },
+    "related": {
+        "1647-out-of-control": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1647-out-of-control",
+                "fullSlug": "quests\/1647-out-of-control",
+                "id": 1647,
+                "name": "Out of Control",
+                "description": "Just as Robina begins to acclimate to her throne, dire news emerges from Doomwood."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1647,
+                    "name": "Out of Control",
+                    "description": "Just as Robina begins to acclimate to her throne, dire news emerges from Doomwood.",
+                    "complete": "You know the red flashing lights are bad when even the Magesterium starts panicking.",
+                    "swf": "towns\/SulenEska\/quest3-outofcontrol.swf",
+                    "swfX": "towns\/SulenEska\/quest3-outofcontrol-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "energy elementals and lagohm",
+                    "monsterGroupSwf": "mset-energyrift-r7.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

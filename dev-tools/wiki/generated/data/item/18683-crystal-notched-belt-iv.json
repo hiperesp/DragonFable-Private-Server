@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18683-crystal-notched-belt-iv",
+        "fullSlug": "items\/18683-crystal-notched-belt-iv",
+        "id": 18683,
+        "name": "Crystal Notched Belt IV",
+        "description": "This belt is decorated with some of Siofra's shards. Now, he IS the notch on your belt. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18683,
+            "name": "Crystal Notched Belt IV",
+            "description": "This belt is decorated with some of Siofra's shards. Now, he IS the notch on your belt. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 80,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 11,
+            "charisma": 0,
+            "endurance": 11,
+            "wisdom": 11,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 8,
+            "parry": 8,
+            "dodge": 8,
+            "block": 8,
+            "resists": "All,4"
+        }
+    },
+    "related": {
+        "1612-reinforcements": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1612-reinforcements",
+                "fullSlug": "quests\/1612-reinforcements",
+                "id": 1612,
+                "name": "Reinforcements",
+                "description": "Call in the reinforcements!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1612,
+                    "name": "Reinforcements",
+                    "description": "Call in the reinforcements!",
+                    "complete": "Uh oh...",
+                    "swf": "towns\/Nest\/quest4-reinforcements.swf",
+                    "swfX": "towns\/Nest\/quest4-reinforcements-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Siofra and elementals",
+                    "monsterGroupSwf": "mset-nest4.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20199-dravir-warhelm-vii",
+        "fullSlug": "items\/20199-dravir-warhelm-vii",
+        "id": 20199,
+        "name": "Dravir Warhelm VII",
+        "description": "Impressed with the bond you share with your dragon, the dravir smiths refitted this helm for you. It's a little uncomfortable, but very functional!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20199,
+            "name": "Dravir Warhelm VII",
+            "description": "Impressed with the bond you share with your dragon, the dravir smiths refitted this helm for you. It's a little uncomfortable, but very functional!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 100,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 5,
+            "level": 75,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dravir.swf",
+            "icon": "helm",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 3,
+            "charisma": 8,
+            "endurance": 8,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 5,
+            "dodge": 5,
+            "block": 5,
+            "resists": "Fire,10,Health,-3"
+        }
+    },
+    "related": {
+        "700-ciav-loot-for-dcs": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "700-ciav-loot-for-dcs",
+                "fullSlug": "item-shops\/700-ciav-loot-for-dcs",
+                "id": 700,
+                "name": "CiaV Loot for DCs",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 700,
+                    "name": "CiaV Loot for DCs",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

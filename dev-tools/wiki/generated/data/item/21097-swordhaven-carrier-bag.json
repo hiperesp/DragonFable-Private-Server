@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21097-swordhaven-carrier-bag",
+        "fullSlug": "items\/21097-swordhaven-carrier-bag",
+        "id": 21097,
+        "name": "Swordhaven Carrier Bag",
+        "description": "This rugged mailbag lets you deliver letters in style! Perfect for the errand-running hero! (Cosmetic)"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21097,
+            "name": "Swordhaven Carrier Bag",
+            "description": "This rugged mailbag lets you deliver letters in style! Perfect for the errand-running hero! (Cosmetic)",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 1,
+            "type": "Melee",
+            "element": "???",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/Cape-mailbag.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1978-long-lost-letters": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1978-long-lost-letters",
+                "fullSlug": "quests\/1978-long-lost-letters",
+                "id": 1978,
+                "name": "Long Lost Letters",
+                "description": "Kate needs those letters so she can remember her husband. Sounds like a job for a hero!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1978,
+                    "name": "Long Lost Letters",
+                    "description": "Kate needs those letters so she can remember her husband. Sounds like a job for a hero!",
+                    "complete": "A good deed is a good deed, even if it was a... misunderstanding.",
+                    "swf": "towns\/3Swordhaven\/Board\/quest-lostletters.swf",
+                    "swfX": "towns\/3Swordhaven\/Board\/quest-lostletters-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 100000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "ghosts and barrat",
+                    "monsterGroupSwf": "mset-lostletters.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

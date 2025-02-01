@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12020-full-moon-scythe",
+        "fullSlug": "items\/12020-full-moon-scythe",
+        "id": 12020,
+        "name": "Full Moon Scythe",
+        "description": "Howl at the moon after slicing through your foes with this light enchanted scythe!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12020,
+            "name": "Full Moon Scythe",
+            "description": "Howl at the moon after slicing through your foes with this light enchanted scythe!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 420,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-lon.swf",
+            "icon": "scythe",
+            "strength": 13,
+            "dexterity": 13,
+            "intelligence": 13,
+            "luck": 12,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 80,
+            "damageMax": 102,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 12,
+            "parry": 2,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Light,9,Darkness,9,Water,8,Fire,8,Health,-4"
+        }
+    },
+    "related": {
+        "406-full-moon-scythe": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "406-full-moon-scythe",
+                "fullSlug": "item-shops\/406-full-moon-scythe",
+                "id": 406,
+                "name": "Full Moon Scythe",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 406,
+                    "name": "Full Moon Scythe",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

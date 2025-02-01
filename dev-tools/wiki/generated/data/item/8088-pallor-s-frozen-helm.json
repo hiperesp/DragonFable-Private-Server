@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8088-pallor-s-frozen-helm",
+        "fullSlug": "items\/8088-pallor-s-frozen-helm",
+        "id": 8088,
+        "name": "Pallor's Frozen Helm",
+        "description": "Your head is FREEZING! Happy FrostVayle!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8088,
+            "name": "Pallor's Frozen Helm",
+            "description": "Your head is FREEZING! Happy FrostVayle!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 200,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/HELM-pallor.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 4,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,8,Darkness,8,Ice,8,Water,-4,Immobility,2"
+        }
+    },
+    "related": {
+        "295-pallor-s-helm": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "295-pallor-s-helm",
+                "fullSlug": "item-shops\/295-pallor-s-helm",
+                "id": 295,
+                "name": "Pallor's Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 295,
+                    "name": "Pallor's Helm",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

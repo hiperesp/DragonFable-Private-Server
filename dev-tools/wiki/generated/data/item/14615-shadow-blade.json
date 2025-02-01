@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14615-shadow-blade",
+        "fullSlug": "items\/14615-shadow-blade",
+        "id": 14615,
+        "name": "Shadow Blade",
+        "description": "This weapon has been infused with even more shadows and is now seemingly made of them! Your reward for beating the first of the Crawler Gauntlet Levels!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14615,
+            "name": "Shadow Blade",
+            "description": "This weapon has been infused with even more shadows and is now seemingly made of them! Your reward for beating the first of the Crawler Gauntlet Levels!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 50,
+            "level": 10,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-shade.swf",
+            "icon": "sword",
+            "strength": 1,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 1,
+            "wisdom": 1,
+            "damageMin": 21,
+            "damageMax": 33,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,1,Health,-1"
+        }
+    },
+    "related": {
+        "463-basic-crawler": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "463-basic-crawler",
+                "fullSlug": "item-shops\/463-basic-crawler",
+                "id": 463,
+                "name": "Basic Crawler",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 463,
+                    "name": "Basic Crawler",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

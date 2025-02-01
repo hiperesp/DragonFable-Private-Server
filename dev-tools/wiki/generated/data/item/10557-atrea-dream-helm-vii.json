@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10557-atrea-dream-helm-vii",
+        "fullSlug": "items\/10557-atrea-dream-helm-vii",
+        "id": 10557,
+        "name": "Atrea Dream Helm VII",
+        "description": "A special item from the unael, Yashta, he says it reflects the dreams of Atrea."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10557,
+            "name": "Atrea Dream Helm VII",
+            "description": "A special item from the unael, Yashta, he says it reflects the dreams of Atrea.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 250,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-atreadream.swf",
+            "icon": "helm",
+            "strength": 8,
+            "dexterity": 8,
+            "intelligence": 8,
+            "luck": 0,
+            "charisma": 7,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 3,
+            "block": 2,
+            "resists": "Light,8,Ice,8,Immobility,5,Poison,7,Health,-2"
+        }
+    },
+    "related": {
+        "370-atrea-dream-wing-and-helm": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "370-atrea-dream-wing-and-helm",
+                "fullSlug": "item-shops\/370-atrea-dream-wing-and-helm",
+                "id": 370,
+                "name": "Atrea Dream Wing and Helm",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 370,
+                    "name": "Atrea Dream Wing and Helm",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

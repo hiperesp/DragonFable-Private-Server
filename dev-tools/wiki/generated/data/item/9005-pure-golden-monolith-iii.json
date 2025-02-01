@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9005-pure-golden-monolith-iii",
+        "fullSlug": "items\/9005-pure-golden-monolith-iii",
+        "id": 9005,
+        "name": "Pure Golden Monolith III",
+        "description": "This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9005,
+            "name": "Pure Golden Monolith III",
+            "description": "This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 225,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Pierce",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-goldenmonolith.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 1,
+            "charisma": 1,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 48,
+            "damageMax": 64,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Energy,3,Health,-1"
+        }
+    },
+    "related": {
+        "317-lucky-13-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "317-lucky-13-dc",
+                "fullSlug": "item-shops\/317-lucky-13-dc",
+                "id": 317,
+                "name": "Lucky 13 DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 317,
+                    "name": "Lucky 13 DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

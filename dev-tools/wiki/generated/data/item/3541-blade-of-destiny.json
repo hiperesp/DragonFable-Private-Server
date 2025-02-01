@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3541-blade-of-destiny",
+        "fullSlug": "items\/3541-blade-of-destiny",
+        "id": 3541,
+        "name": "Blade of Destiny",
+        "description": "You have helped Ash complete his quest to become a Knight! The Blade of Destiny is yours."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3541,
+            "name": "Blade of Destiny",
+            "description": "You have helped Ash complete his quest to become a Knight! The Blade of Destiny is yours.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 75,
+            "level": 50,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-BladeofDestiny2.swf?ver=2",
+            "icon": "scythe",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 62,
+            "damageMax": 82,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,8,Immobility,5"
+        }
+    },
+    "related": {
+        "129-destiny-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "129-destiny-shop",
+                "fullSlug": "item-shops\/129-destiny-shop",
+                "id": 129,
+                "name": "Destiny Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 129,
+                    "name": "Destiny Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

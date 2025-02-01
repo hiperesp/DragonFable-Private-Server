@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14486-hunter-s-loop",
+        "fullSlug": "items\/14486-hunter-s-loop",
+        "id": 14486,
+        "name": "Hunter's Loop",
+        "description": "Some may consider it superstitious, but every good hunter knows having a lucky item is better than not having one at all."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14486,
+            "name": "Hunter's Loop",
+            "description": "Some may consider it superstitious, but every good hunter knows having a lucky item is better than not having one at all.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 12,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "Fire,2,Nature,2,Water,1"
+        }
+    },
+    "related": {
+        "1289-proof-of-innocence": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1289-proof-of-innocence",
+                "fullSlug": "quests\/1289-proof-of-innocence",
+                "id": 1289,
+                "name": "Proof of Innocence",
+                "description": "Blaze is not the one hunting the farmers and their livestock!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1289,
+                    "name": "Proof of Innocence",
+                    "description": "Blaze is not the one hunting the farmers and their livestock!",
+                    "complete": "What you have found proves Blaze could not have committed the attacks! What has white fur, horns, and loves carrots though?",
+                    "swf": "towns\/SHborder\/quest2-innocent-r3.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "forest, marsh and bugs",
+                    "monsterGroupSwf": "mset-sh-reagents.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

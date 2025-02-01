@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "11957-warmer-blade-of-the-primal-fire",
+        "fullSlug": "items\/11957-warmer-blade-of-the-primal-fire",
+        "id": 11957,
+        "name": "Warmer Blade of the Primal Fire",
+        "description": "You found this blade in the cavern with the Ember. It holds within it the same power that now blazes within your dragon. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 11957,
+            "name": "Warmer Blade of the Primal Fire",
+            "description": "You found this blade in the cavern with the Ember. It holds within it the same power that now blazes within your dragon. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 3500,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-fireprimal.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 4,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 2,
+            "damageMin": 41,
+            "damageMax": 61,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Stone,5,Water,5,Ice,5"
+        }
+    },
+    "related": {
+        "1154-fire-primal": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1154-fire-primal",
+                "fullSlug": "quests\/1154-fire-primal",
+                "id": 1154,
+                "name": "Fire Primal",
+                "description": "Quest for fire power!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1154,
+                    "name": "Fire Primal",
+                    "description": "Quest for fire power!",
+                    "complete": "Speak to Elysia to change the element of your Dragon and attune its primal power!",
+                    "swf": "towns\/3Sunbreeze\/quest-primalfire-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "firemonsters",
+                    "monsterGroupSwf": "mset-primalfire.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "2315-blighted-staff-of-thanatos",
+        "fullSlug": "items\/2315-blighted-staff-of-thanatos",
+        "id": 2315,
+        "name": "Blighted Staff of Thanatos",
+        "description": "The glowing gems on this staff contain the tiniest bit of Death's power.  Even that small bit, though, is enough to terrify the enemies you use this on. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 2315,
+            "name": "Blighted Staff of Thanatos",
+            "description": "The glowing gems on this staff contain the tiniest bit of Death's power.  Even that small bit, though, is enough to terrify the enemies you use this on. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1550,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 15,
+            "level": 45,
+            "type": "Magic",
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-bacon8.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 1,
+            "endurance": 3,
+            "wisdom": 0,
+            "damageMin": 61,
+            "damageMax": 70,
+            "defenseMelee": 2,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,3,Light,3"
+        }
+    },
+    "related": {
+        "372-no-horsing-around": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "372-no-horsing-around",
+                "fullSlug": "quests\/372-no-horsing-around",
+                "id": 372,
+                "name": "No Horsing Around",
+                "description": "Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 372,
+                    "name": "No Horsing Around",
+                    "description": "Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts.",
+                    "complete": "Death is but a door, time is but a window.  You'll be back.",
+                    "swf": "quests\/Zeuster\/quest-bacon8.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Darkness monsters",
+                    "monsterGroupSwf": "mset-bacon8.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

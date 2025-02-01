@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13707-ascended-claymore",
+        "fullSlug": "items\/13707-ascended-claymore",
+        "id": 13707,
+        "name": "Ascended Claymore",
+        "description": "This massive blade is used by those that have fully trained in the ways of the Ascended. The blade seems to be able to cut through almost anything!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13707,
+            "name": "Ascended Claymore",
+            "description": "This massive blade is used by those that have fully trained in the ways of the Ascended. The blade seems to be able to cut through almost anything!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 25,
+            "level": 50,
+            "type": "Melee",
+            "element": "Bacon",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-AscendClaymore.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 74,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Fire,5,Water,3,Immobility,2,Health,-1"
+        }
+    },
+    "related": {
+        "433-ascendant-cc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "433-ascendant-cc",
+                "fullSlug": "item-shops\/433-ascendant-cc",
+                "id": 433,
+                "name": "Ascendant CC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 433,
+                    "name": "Ascendant CC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

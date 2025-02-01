@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12089-frozen-claymore",
+        "fullSlug": "items\/12089-frozen-claymore",
+        "id": 12089,
+        "name": "Frozen Claymore",
+        "description": "This item requires a Dragon Amulet. The massive Claymore has had much of its power drained by the battle with Akriloth. Its powerful special will still help bring down your foes."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12089,
+            "name": "Frozen Claymore",
+            "description": "This item requires a Dragon Amulet. The massive Claymore has had much of its power drained by the battle with Akriloth. Its powerful special will still help bring down your foes.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 6,
+            "level": 70,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/swords\/sword-frozenclaymore-r1.swf",
+            "icon": "scythe",
+            "strength": 9,
+            "dexterity": 9,
+            "intelligence": 9,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 72,
+            "damageMax": 94,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,12"
+        }
+    },
+    "related": {
+        "108-roblos-shop": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "108-roblos-shop",
+                "fullSlug": "merge-shops\/108-roblos-shop",
+                "id": 108,
+                "name": "Roblos Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 108,
+                    "name": "Roblos Shop"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1484,
+                    "mergeShopId": 108,
+                    "mergeId": 2321
+                },
+                "merge": {
+                    "id": 2321,
+                    "itemId1": 12089,
+                    "amount1": 1,
+                    "itemId2": 12091,
+                    "amount2": 1,
+                    "itemId": 12090,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19019-sunken-plunderer-vii",
+        "fullSlug": "items\/19019-sunken-plunderer-vii",
+        "id": 19019,
+        "name": "Sunken Plunderer VII",
+        "description": "This ancient pirate weapon was forged from the bones of a wicked sea leviathan, and recovered by a gang of cursed treasure hunters. Once per battle, this weapon has a chance on hit to increase the amount of gold you plunder!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19019,
+            "name": "Sunken Plunderer VII",
+            "description": "This ancient pirate weapon was forged from the bones of a wicked sea leviathan, and recovered by a gang of cursed treasure hunters. Once per battle, this weapon has a chance on hit to increase the amount of gold you plunder!",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 500,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 15,
+            "level": 70,
+            "type": "Melee",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-2019sep.swf",
+            "icon": "scythe",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 9,
+            "charisma": 9,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 81,
+            "damageMax": 89,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 8,
+            "parry": 3,
+            "dodge": 3,
+            "block": 3,
+            "resists": "All,3,Health,-3"
+        }
+    },
+    "related": {
+        "638-sunken-plunderer": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "638-sunken-plunderer",
+                "fullSlug": "item-shops\/638-sunken-plunderer",
+                "id": 638,
+                "name": "Sunken Plunderer",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 638,
+                    "name": "Sunken Plunderer",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "467-scrap-metal",
+        "fullSlug": "items\/467-scrap-metal",
+        "id": 467,
+        "name": "Scrap metal",
+        "description": "This is a small piece of metal used in the creation of Dr. Whatever's metal monstrosity. Collect THIS item as well as a DRIVE UNIT to construct a robotic pet!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 467,
+            "name": "Scrap metal",
+            "description": "This is a small piece of metal used in the creation of Dr. Whatever's metal monstrosity. Collect THIS item as well as a DRIVE UNIT to construct a robotic pet!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 100,
+            "maxStackSize": 100,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 1,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "greenbag",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "52-voltabolt-s-challenge": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "52-voltabolt-s-challenge",
+                "fullSlug": "quests\/52-voltabolt-s-challenge",
+                "id": 52,
+                "name": "Voltabolt's Challenge",
+                "description": "Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 52,
+                    "name": "Voltabolt's Challenge",
+                    "description": "Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation.",
+                    "complete": "That's one creation down... but why does it still sound like gnashing metal and electric sparking?",
+                    "swf": "quests\/quest-fullmetal-2019-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 15000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "0",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "",
+                    "monsterGroupSwf": "mset-elementalmetal2.swf"
+                }
+            },
+            "related": []
+        },
+        "2-voltabolt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "2-voltabolt",
+                "fullSlug": "merge-shops\/2-voltabolt",
+                "id": 2,
+                "name": "Voltabolt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 2,
+                    "name": "Voltabolt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 12,
+                    "mergeShopId": 2,
+                    "mergeId": 379
+                },
+                "merge": {
+                    "id": 379,
+                    "itemId1": 467,
+                    "amount1": 15,
+                    "itemId2": 469,
+                    "amount2": 1,
+                    "itemId": 1570,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "40-scavenger-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "40-scavenger-hunt",
+                "fullSlug": "merge-shops\/40-scavenger-hunt",
+                "id": 40,
+                "name": "Scavenger Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Scavenger Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 687,
+                    "mergeShopId": 40,
+                    "mergeId": 430
+                },
+                "merge": {
+                    "id": 430,
+                    "itemId1": 489,
+                    "amount1": 15,
+                    "itemId2": 467,
+                    "amount2": 5,
+                    "itemId": 1756,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "310-scrap-metal": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "310-scrap-metal",
+                "fullSlug": "merge-shops\/310-scrap-metal",
+                "id": 310,
+                "name": "Scrap Metal",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 310,
+                    "name": "Scrap Metal"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3328,
+                    "mergeShopId": 310,
+                    "mergeId": 3419
+                },
+                "merge": {
+                    "id": 3419,
+                    "itemId1": 467,
+                    "amount1": 100,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19051,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

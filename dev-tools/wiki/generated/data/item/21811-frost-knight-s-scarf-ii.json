@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21811-frost-knight-s-scarf-ii",
+        "fullSlug": "items\/21811-frost-knight-s-scarf-ii",
+        "id": 21811,
+        "name": "Frost Knight's Scarf II",
+        "description": "Jacek gave you this scarf for Frostval! He's not sure where he got it, but it's yours now."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21811,
+            "name": "Frost Knight's Scarf II",
+            "description": "Jacek gave you this scarf for Frostval! He's not sure where he got it, but it's yours now.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 5000,
+            "maxStackSize": 1,
+            "bonus": 1,
+            "rarity": 1,
+            "level": 20,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-jacek.swf",
+            "icon": "cape",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Health,-2,Ice,2,Wind,2,Nature,2"
+        }
+    },
+    "related": {
+        "2116-the-knight-s-star": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2116-the-knight-s-star",
+                "fullSlug": "quests\/2116-the-knight-s-star",
+                "id": 2116,
+                "name": "The Knight's Star",
+                "description": "Frostval has come, and it's time for celebration! But where have the children run off to this time?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2116,
+                    "name": "The Knight's Star",
+                    "description": "Frostval has come, and it's time for celebration! But where have the children run off to this time?",
+                    "complete": "Happy Frostval!",
+                    "swf": "towns\/Frostvale\/F23\/quest-frostval2023.swf",
+                    "swfX": "towns\/Frostvale\/F23\/quest-frostval2023-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 200000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Frost Knight and Forest Snow",
+                    "monsterGroupSwf": "mset-frostval2023.swf?ver=1"
+                }
+            },
+            "related": []
+        }
+    }
+}

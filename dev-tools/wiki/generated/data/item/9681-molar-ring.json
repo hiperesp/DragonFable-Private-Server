@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "9681-molar-ring",
+        "fullSlug": "items\/9681-molar-ring",
+        "id": 9681,
+        "name": "Molar Ring",
+        "description": "This huge ring was carved from a gorillaphant molar. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 9681,
+            "name": "Molar Ring",
+            "description": "This huge ring was carved from a gorillaphant molar. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 6,
+            "level": 74,
+            "element": "Nature",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 10,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": "Darkness,5,Nature,5,All,2"
+        }
+    },
+    "related": {
+        "139-tooth-rings": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "139-tooth-rings",
+                "fullSlug": "merge-shops\/139-tooth-rings",
+                "id": 139,
+                "name": "Tooth Rings",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 139,
+                    "name": "Tooth Rings"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1996,
+                    "mergeShopId": 139,
+                    "mergeId": 1895
+                },
+                "merge": {
+                    "id": 1895,
+                    "itemId1": 9666,
+                    "amount1": 15,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 9681,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

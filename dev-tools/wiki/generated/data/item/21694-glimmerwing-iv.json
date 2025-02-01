@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "21694-glimmerwing-iv",
+        "fullSlug": "items\/21694-glimmerwing-iv",
+        "id": 21694,
+        "name": "Glimmerwing IV",
+        "description": "What was once a normal staff has now become entangled in the mysterious magic that suffuses the crystalline caves beneath Amityvale... It now has the ability to summon a Wing'd Tog to swoop upon your foe! This item requires a Dragon Amulet to use."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 21694,
+            "name": "Glimmerwing IV",
+            "description": "What was once a normal staff has now become entangled in the mysterious magic that suffuses the crystalline caves beneath Amityvale... It now has the ability to summon a Wing'd Tog to swoop upon your foe! This item requires a Dragon Amulet to use.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 10000,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 0,
+            "level": 70,
+            "type": "Melee",
+            "element": "Nature",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-mothtog.swf",
+            "icon": "scythe",
+            "strength": 12,
+            "dexterity": 12,
+            "intelligence": 12,
+            "luck": 8,
+            "charisma": 8,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 79,
+            "damageMax": 85,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 8,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Nature,8,Darkness,8,Health,-8"
+        }
+    },
+    "related": {
+        "2074-de-bugging": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2074-de-bugging",
+                "fullSlug": "quests\/2074-de-bugging",
+                "id": 2074,
+                "name": "De-Bugging",
+                "description": "After hearing your findings, Verlyrus and the Fish Lord know just where to send you next!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2074,
+                    "name": "De-Bugging",
+                    "description": "After hearing your findings, Verlyrus and the Fish Lord know just where to send you next!",
+                    "complete": "Wherever will this thread lead next?",
+                    "swf": "towns\/3Amityvale\/Verlyrus\/quest-verly10.swf",
+                    "swfX": "towns\/3Amityvale\/Verlyrus\/quest-verly10-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Moths",
+                    "monsterGroupSwf": "mset-debug.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

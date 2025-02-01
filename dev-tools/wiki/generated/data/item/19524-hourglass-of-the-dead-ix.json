@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "19524-hourglass-of-the-dead-ix",
+        "fullSlug": "items\/19524-hourglass-of-the-dead-ix",
+        "id": 19524,
+        "name": "Hourglass of the Dead IX",
+        "description": "While the true Eraglass is much smaller and less ostentatious, the Hourglass of the Dead is sure to strike the terror of mortality into the hearts of your foes. Can be upgraded at Cysero."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 19524,
+            "name": "Hourglass of the Dead IX",
+            "description": "While the true Eraglass is much smaller and less ostentatious, the Hourglass of the Dead is sure to strike the terror of mortality into the hearts of your foes. Can be upgraded at Cysero.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 0,
+            "level": 80,
+            "element": "Energy",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-uwecape1.swf",
+            "icon": "cape",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 8,
+            "wisdom": 8,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 9,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,9,Energy,9,All,4"
+        }
+    },
+    "related": {
+        "319-underworld-upgrades": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "319-underworld-upgrades",
+                "fullSlug": "merge-shops\/319-underworld-upgrades",
+                "id": 319,
+                "name": "Underworld Upgrades",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 319,
+                    "name": "Underworld Upgrades"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3396,
+                    "mergeShopId": 319,
+                    "mergeId": 3504
+                },
+                "merge": {
+                    "id": 3504,
+                    "itemId1": 19524,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 19525,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

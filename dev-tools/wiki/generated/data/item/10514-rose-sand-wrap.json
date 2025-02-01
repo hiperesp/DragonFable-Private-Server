@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "10514-rose-sand-wrap",
+        "fullSlug": "items\/10514-rose-sand-wrap",
+        "id": 10514,
+        "name": "Rose Sand Wrap",
+        "description": "A wrap used to protect soldiers from the sun, sand, and wind of the Sandsea. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 10514,
+            "name": "Rose Sand Wrap",
+            "description": "A wrap used to protect soldiers from the sun, sand, and wind of the Sandsea. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 60,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 80,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-rosehood.swf",
+            "icon": "helm",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 11,
+            "wisdom": 10,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 2,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Light,12,Wind,12,Stone,8,Immobility,6,Health,-3"
+        }
+    },
+    "related": {
+        "368-sand-wrap-drop-shop": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "368-sand-wrap-drop-shop",
+                "fullSlug": "item-shops\/368-sand-wrap-drop-shop",
+                "id": 368,
+                "name": "Sand Wrap Drop Shop",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 368,
+                    "name": "Sand Wrap Drop Shop",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3808-euclid-s-nightmare-iii",
+        "fullSlug": "items\/3808-euclid-s-nightmare-iii",
+        "id": 3808,
+        "name": "Euclid's Nightmare III",
+        "description": "The geometry of this blade just seems... wrong. It twists and contorts into strange shapes that seem to warp the longer you look at it. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3808,
+            "name": "Euclid's Nightmare III",
+            "description": "The geometry of this blade just seems... wrong. It twists and contorts into strange shapes that seem to warp the longer you look at it. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1500,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 8,
+            "level": 53,
+            "type": "Melee",
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-madness_da.swf",
+            "icon": "sword",
+            "strength": 5,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": -4,
+            "endurance": 3,
+            "wisdom": 5,
+            "damageMin": 67,
+            "damageMax": 75,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Water,5,Darkness,5,Evil,5"
+        }
+    },
+    "related": {
+        "603-risen": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "603-risen",
+                "fullSlug": "quests\/603-risen",
+                "id": 603,
+                "name": "Risen",
+                "description": "Kathool has risen!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 603,
+                    "name": "Risen",
+                    "description": "Kathool has risen!",
+                    "complete": "You defeated the Great One, Kathool Achoo, with the help of Aquella!",
+                    "swf": "towns\/TheLocker\/quest-KathoolTitan.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Elder god",
+                    "monsterGroupSwf": "mset-kathool.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

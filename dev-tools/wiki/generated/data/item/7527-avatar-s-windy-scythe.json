@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7527-avatar-s-windy-scythe",
+        "fullSlug": "items\/7527-avatar-s-windy-scythe",
+        "id": 7527,
+        "name": "Avatar's Windy Scythe",
+        "description": "This light, swift scythe was blessed by the Avatar's themselves!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7527,
+            "name": "Avatar's Windy Scythe",
+            "description": "This light, swift scythe was blessed by the Avatar's themselves!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 3,
+            "rarity": 8,
+            "level": 30,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-windven.swf",
+            "icon": "scythe",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 3,
+            "charisma": 3,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 38,
+            "damageMax": 62,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 2,
+            "parry": 1,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,2,Water,2,Stone,3"
+        }
+    },
+    "related": {
+        "279-10th-anniversary": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "279-10th-anniversary",
+                "fullSlug": "item-shops\/279-10th-anniversary",
+                "id": 279,
+                "name": "10th Anniversary",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 279,
+                    "name": "10th Anniversary",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

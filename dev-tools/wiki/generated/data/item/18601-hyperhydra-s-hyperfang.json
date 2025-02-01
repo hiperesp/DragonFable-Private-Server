@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18601-hyperhydra-s-hyperfang",
+        "fullSlug": "items\/18601-hyperhydra-s-hyperfang",
+        "id": 18601,
+        "name": "Hyperhydra's Hyperfang",
+        "description": "A glistening, sparkling fang from the Hyperhydra! It seems to drip a black liquid that swirls and vanishes before it can land on the ground. Proof of victory over the Hyperhydra. Used to merge into a reward."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18601,
+            "name": "Hyperhydra's Hyperfang",
+            "description": "A glistening, sparkling fang from the Hyperhydra! It seems to drip a black liquid that swirls and vanishes before it can land on the ground. Proof of victory over the Hyperhydra. Used to merge into a reward.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "bluegem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1606-the-hyperhydra": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1606-the-hyperhydra",
+                "fullSlug": "quests\/1606-the-hyperhydra",
+                "id": 1606,
+                "name": "The Hyperhydra",
+                "description": "The ancient and mysterious Hyperhydra, eater of very small stars! What doesn't kill it makes it stronger."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1606,
+                    "name": "The Hyperhydra",
+                    "description": "The ancient and mysterious Hyperhydra, eater of very small stars! What doesn't kill it makes it stronger.",
+                    "complete": "Shine on!",
+                    "swf": "towns\/TimeArena\/quest-hydra.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "frallmar and hydra challenge",
+                    "monsterGroupSwf": "mset-arenabeastsfrallhydra.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "301-krampy": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "301-krampy",
+                "fullSlug": "merge-shops\/301-krampy",
+                "id": 301,
+                "name": "Krampy!",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 301,
+                    "name": "Krampy!"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3280,
+                    "mergeShopId": 301,
+                    "mergeId": 3367
+                },
+                "merge": {
+                    "id": 3367,
+                    "itemId1": 18600,
+                    "amount1": 1,
+                    "itemId2": 18601,
+                    "amount2": 1,
+                    "itemId": 18599,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

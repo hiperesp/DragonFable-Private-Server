@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "quests",
+        "slug": "1592-magester-mislav",
+        "fullSlug": "quests\/1592-magester-mislav",
+        "id": 1592,
+        "name": "Magester Mislav",
+        "description": "Not the first, but among the first, ancient, powerful, and practiced."
+    },
+    "info": {
+        "type": "quest",
+        "properties": {
+            "id": 1592,
+            "name": "Magester Mislav",
+            "description": "Not the first, but among the first, ancient, powerful, and practiced.",
+            "complete": "Even the most well learned of magesters falls before you.",
+            "swf": "towns\/TimeArena\/quest-magester.swf",
+            "swfX": "none",
+            "maxSilver": 0,
+            "maxGold": 2000,
+            "maxGems": 0,
+            "maxExp": 50000,
+            "minTime": 0,
+            "counter": 0,
+            "extra": "",
+            "dailyIndex": 0,
+            "dailyReward": 0,
+            "monsterMinLevel": 0,
+            "monsterMaxLevel": 100,
+            "monsterType": "Magester and Roirr challenge",
+            "monsterGroupSwf": "mset-arenamagesterroirr.swf?ver=6"
+        }
+    },
+    "related": {
+        "18531-magi-guard-helm-i": {
+            "page": {
+                "slugBase": "items",
+                "slug": "18531-magi-guard-helm-i",
+                "fullSlug": "items\/18531-magi-guard-helm-i",
+                "id": 18531,
+                "name": "Magi Guard Helm I",
+                "description": "The solid helmet of the Magesterium Guard. You can barely see out of it, but it's very protective! This helm is proof of your victory over Magester Mislav."
+            },
+            "info": {
+                "type": "item",
+                "properties": {
+                    "id": 18531,
+                    "name": "Magi Guard Helm I",
+                    "description": "The solid helmet of the Magesterium Guard. You can barely see out of it, but it's very protective! This helm is proof of your victory over Magester Mislav.",
+                    "visible": 1,
+                    "destroyable": 1,
+                    "sellable": 1,
+                    "dragonAmulet": 0,
+                    "currency": 1,
+                    "cost": 0,
+                    "maxStackSize": 1,
+                    "bonus": -50,
+                    "rarity": 0,
+                    "level": 50,
+                    "type": "Melee",
+                    "element": "Fear",
+                    "categoryId": "2",
+                    "equipSpot": "Head",
+                    "itemType": "Helm",
+                    "swf": "head\/helms\/helm-magegolem.swf",
+                    "icon": "helm",
+                    "strength": 0,
+                    "dexterity": 0,
+                    "intelligence": 0,
+                    "luck": 5,
+                    "charisma": 8,
+                    "endurance": 15,
+                    "wisdom": 15,
+                    "damageMin": 0,
+                    "damageMax": 0,
+                    "defenseMelee": 2,
+                    "defensePierce": 2,
+                    "defenseMagic": 2,
+                    "critical": -50,
+                    "parry": 3,
+                    "dodge": 3,
+                    "block": 3,
+                    "resists": "All,5,Health,10"
+                }
+            },
+            "related": []
+        }
+    }
+}

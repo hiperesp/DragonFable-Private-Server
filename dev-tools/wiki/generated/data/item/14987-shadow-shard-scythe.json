@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14987-shadow-shard-scythe",
+        "fullSlug": "items\/14987-shadow-shard-scythe",
+        "id": 14987,
+        "name": "Shadow Shard Scythe",
+        "description": "Forged by Ash Dragonblade, this scythe has trapped  living shadow and pulses with Dark power. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14987,
+            "name": "Shadow Shard Scythe",
+            "description": "Forged by Ash Dragonblade, this scythe has trapped  living shadow and pulses with Dark power. This item requires a Dragon Amulet.",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 25,
+            "level": 50,
+            "element": "Darkness",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-shadowshard.swf",
+            "icon": "scythe",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 0,
+            "charisma": 3,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 60,
+            "damageMax": 76,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 6,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "Darkness,7,Light,4,Immobility,2"
+        }
+    },
+    "related": {
+        "242-shadow-shards": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "242-shadow-shards",
+                "fullSlug": "merge-shops\/242-shadow-shards",
+                "id": 242,
+                "name": "Shadow Shards",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 242,
+                    "name": "Shadow Shards"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2683,
+                    "mergeShopId": 242,
+                    "mergeId": 2681
+                },
+                "merge": {
+                    "id": 2681,
+                    "itemId1": 14975,
+                    "amount1": 25,
+                    "itemId2": 495,
+                    "amount2": 125,
+                    "itemId": 14987,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

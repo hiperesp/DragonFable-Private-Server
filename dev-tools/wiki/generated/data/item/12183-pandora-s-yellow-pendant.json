@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12183-pandora-s-yellow-pendant",
+        "fullSlug": "items\/12183-pandora-s-yellow-pendant",
+        "id": 12183,
+        "name": "Pandora's Yellow Pendant",
+        "description": "A necklace you've taken from Pandora's cabin. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12183,
+            "name": "Pandora's Yellow Pendant",
+            "description": "A necklace you've taken from Pandora's cabin. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 7,
+            "level": 24,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 3,
+            "dexterity": 3,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Stone,3,Energy,3"
+        }
+    },
+    "related": {
+        "1162-the-origins-of-aspar": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1162-the-origins-of-aspar",
+                "fullSlug": "quests\/1162-the-origins-of-aspar",
+                "id": 1162,
+                "name": "The Origins of Aspar",
+                "description": "Continue your journey deeper into the mysterious forest full of Pandora Worshippers."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1162,
+                    "name": "The Origins of Aspar",
+                    "description": "Continue your journey deeper into the mysterious forest full of Pandora Worshippers.",
+                    "complete": "Our heroes go back to the ship, carrying the wood, in silence....",
+                    "swf": "towns\/3Ravenloss\/quest15-origins-sec-r1.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 35000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "worshippers and yellow",
+                    "monsterGroupSwf": "mset-yellow.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

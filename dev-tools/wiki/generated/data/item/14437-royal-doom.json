@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "14437-royal-doom",
+        "fullSlug": "items\/14437-royal-doom",
+        "id": 14437,
+        "name": "Royal Doom",
+        "description": "Can't you just FEEL the Doom?\nThis item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 14437,
+            "name": "Royal Doom",
+            "description": "Can't you just FEEL the Doom?\nThis item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 0,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 1,
+            "cost": 670,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 25,
+            "level": 70,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-royaldoom.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 9,
+            "wisdom": 9,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 7,
+            "defensePierce": 7,
+            "defenseMagic": 7,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Light,8,Darkness,8,Immobility,4,Fire,8"
+        }
+    },
+    "related": {
+        "106-doom-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "106-doom-items",
+                "fullSlug": "item-shops\/106-doom-items",
+                "id": 106,
+                "name": "Doom Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 106,
+                    "name": "Doom Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

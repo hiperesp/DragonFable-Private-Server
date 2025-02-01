@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "8591-rose-eternal-legacy-staff-iv",
+        "fullSlug": "items\/8591-rose-eternal-legacy-staff-iv",
+        "id": 8591,
+        "name": "Rose Eternal Legacy Staff IV",
+        "description": "A lithe weapon, approved for use by the Rose."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 8591,
+            "name": "Rose Eternal Legacy Staff IV",
+            "description": "A lithe weapon, approved for use by the Rose.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 300,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 10,
+            "level": 50,
+            "type": "Magic",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-RoseLegacy.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 4,
+            "charisma": 4,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 65,
+            "damageMax": 79,
+            "defenseMelee": 3,
+            "defensePierce": 3,
+            "defenseMagic": 3,
+            "critical": 7,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Darkness,4,Nature,4,Water,3,Health,-2"
+        }
+    },
+    "related": {
+        "306-rosefort-dc": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "306-rosefort-dc",
+                "fullSlug": "item-shops\/306-rosefort-dc",
+                "id": 306,
+                "name": "RoseFort DC",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 306,
+                    "name": "RoseFort DC",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

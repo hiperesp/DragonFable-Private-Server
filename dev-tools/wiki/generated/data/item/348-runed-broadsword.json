@@ -1,0 +1,124 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "348-runed-broadsword",
+        "fullSlug": "items\/348-runed-broadsword",
+        "id": 348,
+        "name": "Runed Broadsword",
+        "description": "This sword has glowing runes on it. One can only guess what they mean."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 348,
+            "name": "Runed Broadsword",
+            "description": "This sword has glowing runes on it. One can only guess what they mean.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2000,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 19,
+            "type": "Melee",
+            "element": "Light",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Sword",
+            "swf": "items\/swords\/sword-glowrune.swf",
+            "icon": "sword",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 36,
+            "damageMax": 50,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 2,
+            "resists": ""
+        }
+    },
+    "related": {
+        "22-floating-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "22-floating-cave",
+                "fullSlug": "quests\/22-floating-cave",
+                "id": 22,
+                "name": "Floating Cave",
+                "description": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 22,
+                    "name": "Floating Cave",
+                    "description": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...",
+                    "complete": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...",
+                    "swf": "random\/random-windcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 17,
+                    "maxGold": 150,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 12,
+                    "monsterMaxLevel": 18,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalwind.swf"
+                }
+            },
+            "related": []
+        },
+        "27-the-deep-freeze": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "27-the-deep-freeze",
+                "fullSlug": "quests\/27-the-deep-freeze",
+                "id": 27,
+                "name": "The Deep Freeze",
+                "description": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 27,
+                    "name": "The Deep Freeze",
+                    "description": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.",
+                    "complete": "The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.",
+                    "swf": "random\/random-icecave.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 9,
+                    "monsterMaxLevel": 14,
+                    "monsterType": "Beast, Elemental",
+                    "monsterGroupSwf": "mset-arctic.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

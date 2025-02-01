@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "16507-candy-pail",
+        "fullSlug": "items\/16507-candy-pail",
+        "id": 16507,
+        "name": "Candy Pail",
+        "description": "It's a pail overflowing with candy! Perfect for long trips, short trips, sharing with friends, eating alone, throwing at enemies, and more!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 16507,
+            "name": "Candy Pail",
+            "description": "It's a pail overflowing with candy! Perfect for long trips, short trips, sharing with friends, eating alone, throwing at enemies, and more!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 90,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 10,
+            "level": 30,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-candypail.swf",
+            "icon": "cape",
+            "strength": 1,
+            "dexterity": 1,
+            "intelligence": 1,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 3,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,2"
+        }
+    },
+    "related": {
+        "1388-abracadabra": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1388-abracadabra",
+                "fullSlug": "quests\/1388-abracadabra",
+                "id": 1388,
+                "name": "AbracaDabra",
+                "description": "Time to cross the Vanilla River and Toffee Plains!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1388,
+                    "name": "AbracaDabra",
+                    "description": "Time to cross the Vanilla River and Toffee Plains!",
+                    "complete": "Croft is finally back! And there won't be any long term consequences from this, right?",
+                    "swf": "towns\/Mogloween\/M16\/quest5-abracadabrar1.swf",
+                    "swfX": "towns\/Mogloween\/M16\/quest5-abracadabra-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 10000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Sweet monsters",
+                    "monsterGroupSwf": "mset-treatsr1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12816-reaper-s-rod-vi",
+        "fullSlug": "items\/12816-reaper-s-rod-vi",
+        "id": 12816,
+        "name": "Reaper's Rod VI",
+        "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12816,
+            "name": "Reaper's Rod VI",
+            "description": "You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 10,
+            "level": 55,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-moglo08.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 7,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 63,
+            "damageMax": 83,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 6,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,6,Darkness,6,Immobility,1"
+        }
+    },
+    "related": {
+        "217-reaper-lv-55": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "217-reaper-lv-55",
+                "fullSlug": "merge-shops\/217-reaper-lv-55",
+                "id": 217,
+                "name": "Reaper Lv 55",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 217,
+                    "name": "Reaper Lv 55"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2562,
+                    "mergeShopId": 217,
+                    "mergeId": 2479
+                },
+                "merge": {
+                    "id": 2479,
+                    "itemId1": 1944,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12816,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "218-reaper-lv-65": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "218-reaper-lv-65",
+                "fullSlug": "merge-shops\/218-reaper-lv-65",
+                "id": 218,
+                "name": "Reaper Lv 65",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 218,
+                    "name": "Reaper Lv 65"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 2565,
+                    "mergeShopId": 218,
+                    "mergeId": 2480
+                },
+                "merge": {
+                    "id": 2480,
+                    "itemId1": 12816,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 12817,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

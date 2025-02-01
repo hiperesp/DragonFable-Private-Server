@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20253-frostscythe-i",
+        "fullSlug": "items\/20253-frostscythe-i",
+        "id": 20253,
+        "name": "Frostscythe I",
+        "description": "Frostscythe's scythe, empowered with ice! Proof of victory over Frostscythe and Glaisaurus."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20253,
+            "name": "Frostscythe I",
+            "description": "Frostscythe's scythe, empowered with ice! Proof of victory over Frostscythe and Glaisaurus.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 0,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 0,
+            "level": 30,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-frostscythearena.swf",
+            "icon": "scythe",
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "luck": 6,
+            "charisma": 4,
+            "endurance": 3,
+            "wisdom": 3,
+            "damageMin": 65,
+            "damageMax": 75,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 5,
+            "parry": 2,
+            "dodge": 2,
+            "block": 2,
+            "resists": "All,5,Health,-10"
+        }
+    },
+    "related": {
+        "1825-dragon-and-master": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1825-dragon-and-master",
+                "fullSlug": "quests\/1825-dragon-and-master",
+                "id": 1825,
+                "name": "Dragon and Master",
+                "description": "Dragonmaster Frostscythe and Glaisaurus bring forth a chilling frost."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1825,
+                    "name": "Dragon and Master",
+                    "description": "Dragonmaster Frostscythe and Glaisaurus bring forth a chilling frost.",
+                    "complete": "The master is no true lord.",
+                    "swf": "towns\/TimeArena\/quest-frostscythe.swf?ver=1",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Icy dragons and master and lord",
+                    "monsterGroupSwf": "mset-arenafrozenquad-r2.swf"
+                }
+            },
+            "related": []
+        },
+        "344-ice-and-dragons": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "344-ice-and-dragons",
+                "fullSlug": "merge-shops\/344-ice-and-dragons",
+                "id": 344,
+                "name": "Ice and Dragons",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 344,
+                    "name": "Ice and Dragons"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3594,
+                    "mergeShopId": 344,
+                    "mergeId": 3690
+                },
+                "merge": {
+                    "id": 3690,
+                    "itemId1": 20253,
+                    "amount1": 1,
+                    "itemId2": 20256,
+                    "amount2": 1,
+                    "itemId": 20255,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

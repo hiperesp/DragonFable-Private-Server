@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "4092-voidsplinter-tether-ii",
+        "fullSlug": "items\/4092-voidsplinter-tether-ii",
+        "id": 4092,
+        "name": "Voidsplinter Tether II",
+        "description": "Bearing crystallized bits of the Void itself (the same material the Heart of the Void is made of), this weapon courses with dark energy!  "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 4092,
+            "name": "Voidsplinter Tether II",
+            "description": "Bearing crystallized bits of the Void itself (the same material the Heart of the Void is made of), this weapon courses with dark energy!  ",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1000,
+            "maxStackSize": 1,
+            "bonus": 4,
+            "rarity": 8,
+            "level": 41,
+            "type": "Magic",
+            "element": "Energy",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-portal.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 53,
+            "damageMax": 67,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 2,
+            "block": 0,
+            "resists": "Light,4,Darkness,4"
+        }
+    },
+    "related": {
+        "630-face-your-destiny": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "630-face-your-destiny",
+                "fullSlug": "quests\/630-face-your-destiny",
+                "id": 630,
+                "name": "Face Your Destiny",
+                "description": "Nythera learns about her destiny and gains something she'd lost a long, long time ago!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 630,
+                    "name": "Face Your Destiny",
+                    "description": "Nythera learns about her destiny and gains something she'd lost a long, long time ago!",
+                    "complete": "The DragonMage begins to rise!",
+                    "swf": "quests\/quest-nythera2d-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Void",
+                    "monsterGroupSwf": "mset-void-r3.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

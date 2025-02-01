@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3370-ice-dragon-claw",
+        "fullSlug": "items\/3370-ice-dragon-claw",
+        "id": 3370,
+        "name": "Ice Dragon Claw",
+        "description": "Really, really, realllllllly cooooold!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3370,
+            "name": "Ice Dragon Claw",
+            "description": "Really, really, realllllllly cooooold!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 800,
+            "maxStackSize": 1,
+            "bonus": 2,
+            "rarity": 7,
+            "level": 29,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "2",
+            "equipSpot": "Neck",
+            "itemType": "Necklace",
+            "swf": "",
+            "icon": "necklace",
+            "strength": 2,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 3,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 1,
+            "defensePierce": 1,
+            "defenseMagic": 1,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Ice,5"
+        }
+    },
+    "related": {
+        "530-we-re-gonna-need-more-fire": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "530-we-re-gonna-need-more-fire",
+                "fullSlug": "quests\/530-we-re-gonna-need-more-fire",
+                "id": 530,
+                "name": "We're Gonna Need More Fire...",
+                "description": "It's big and it's mad!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 530,
+                    "name": "We're Gonna Need More Fire...",
+                    "description": "It's big and it's mad!",
+                    "complete": "You've taken down Zadd's creations and the frost moglins are finally safe! Time for some cocoaberry juice!",
+                    "swf": "towns\/Frostvale\/quest-frostval09-3r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 2000,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "icy",
+                    "monsterGroupSwf": "mset-frostgolemebil.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

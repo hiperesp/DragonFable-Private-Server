@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "666-shining-duo",
+        "fullSlug": "items\/666-shining-duo",
+        "id": 666,
+        "name": "Shining Duo",
+        "description": "One blade of this silver axe was forged in the day and the other, in the night. Part of its power comes from its unusual construction."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 666,
+            "name": "Shining Duo",
+            "description": "One blade of this silver axe was forged in the day and the other, in the night. Part of its power comes from its unusual construction.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 1790,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 4,
+            "level": 17,
+            "type": "Melee",
+            "element": "Silver",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Axe",
+            "swf": "items\/axes\/axe-silver1.swf",
+            "icon": "axe",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 30,
+            "damageMax": 46,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "85-crystal-clear-lake": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "85-crystal-clear-lake",
+                "fullSlug": "quests\/85-crystal-clear-lake",
+                "id": 85,
+                "name": "Crystal Clear Lake",
+                "description": "As a favor to Thursday, you have come to the badly named Crystal Clear lake to clear a path to her herb garden."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 85,
+                    "name": "Crystal Clear Lake",
+                    "description": "As a favor to Thursday, you have come to the badly named Crystal Clear lake to clear a path to her herb garden.",
+                    "complete": "You have defeated the werewolf Lon but the mystery of Thursday deepens.",
+                    "swf": "quests\/quest-lake2020.swf",
+                    "swfX": "none",
+                    "maxSilver": 99,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Water, Plant, Beast",
+                    "monsterGroupSwf": "mset-lake-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

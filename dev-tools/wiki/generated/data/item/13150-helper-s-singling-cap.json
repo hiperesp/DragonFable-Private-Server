@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "13150-helper-s-singling-cap",
+        "fullSlug": "items\/13150-helper-s-singling-cap",
+        "id": 13150,
+        "name": "Helper's Singling Cap",
+        "description": "This item requires a Dragon Amulet. This curious little cap will chime in when you least expect it!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 13150,
+            "name": "Helper's Singling Cap",
+            "description": "This item requires a Dragon Amulet. This curious little cap will chime in when you least expect it!",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 8,
+            "rarity": 1,
+            "level": 61,
+            "type": "Melee",
+            "element": "Fire",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-jinglecap.swf",
+            "icon": "helm",
+            "strength": 4,
+            "dexterity": 4,
+            "intelligence": 4,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 5,
+            "wisdom": 5,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,4,Ice,4,Immobility,2"
+        }
+    },
+    "related": {
+        "58-gift-boxes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "58-gift-boxes",
+                "fullSlug": "item-shops\/58-gift-boxes",
+                "id": 58,
+                "name": "Gift Boxes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 58,
+                    "name": "Gift Boxes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

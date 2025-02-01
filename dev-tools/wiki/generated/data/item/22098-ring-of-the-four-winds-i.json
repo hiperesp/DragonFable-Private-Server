@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "22098-ring-of-the-four-winds-i",
+        "fullSlug": "items\/22098-ring-of-the-four-winds-i",
+        "id": 22098,
+        "name": "Ring of the Four Winds I",
+        "description": "This simple golden band once belonged to a pirate captain whose ship was said to always have a favorable wind- until the day its wreckage was found, battered and torn apart by a storm."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 22098,
+            "name": "Ring of the Four Winds I",
+            "description": "This simple golden band once belonged to a pirate captain whose ship was said to always have a favorable wind- until the day its wreckage was found, battered and torn apart by a storm.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 750,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 20,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "2",
+            "equipSpot": "Finger",
+            "itemType": "Ring",
+            "swf": "",
+            "icon": "ring",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "All,4,Health,4"
+        }
+    },
+    "related": {
+        "2178-the-lighthouse": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "2178-the-lighthouse",
+                "fullSlug": "quests\/2178-the-lighthouse",
+                "id": 2178,
+                "name": "The Lighthouse",
+                "description": "A band of pirates has taken over the lighthouse and put out its light! It's up to you to take it back!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 2178,
+                    "name": "The Lighthouse",
+                    "description": "A band of pirates has taken over the lighthouse and put out its light! It's up to you to take it back!",
+                    "complete": "After a bit of work, the lighthouse is functioning once again... until the next group of pirates decides to stop by.",
+                    "swf": "towns\/3OspreyCove\/quest-lighthouse.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "Pirates",
+                    "monsterGroupSwf": "mset-pnwar-pirates-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

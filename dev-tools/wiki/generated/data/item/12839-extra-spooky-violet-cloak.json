@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "12839-extra-spooky-violet-cloak",
+        "fullSlug": "items\/12839-extra-spooky-violet-cloak",
+        "id": 12839,
+        "name": "Extra Spooky Violet Cloak",
+        "description": "This spooky purple cloak is sure to keep you safe on those dark mogloween nights."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 12839,
+            "name": "Extra Spooky Violet Cloak",
+            "description": "This spooky purple cloak is sure to keep you safe on those dark mogloween nights.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3000,
+            "maxStackSize": 1,
+            "bonus": 5,
+            "rarity": 20,
+            "level": 65,
+            "type": "Melee",
+            "element": "Darkness",
+            "categoryId": "2",
+            "equipSpot": "Back",
+            "itemType": "Cape",
+            "swf": "items\/back\/cape-spookyviolet.swf",
+            "icon": "cape",
+            "strength": 6,
+            "dexterity": 6,
+            "intelligence": 6,
+            "luck": 7,
+            "charisma": 7,
+            "endurance": 4,
+            "wisdom": 4,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 1,
+            "block": 1,
+            "resists": "Nature,8,Darkness,8,Immobility,2"
+        }
+    },
+    "related": {
+        "419-mogloween-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "419-mogloween-capes",
+                "fullSlug": "item-shops\/419-mogloween-capes",
+                "id": 419,
+                "name": "Mogloween Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 419,
+                    "name": "Mogloween Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

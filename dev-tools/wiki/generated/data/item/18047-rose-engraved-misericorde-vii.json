@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18047-rose-engraved-misericorde-vii",
+        "fullSlug": "items\/18047-rose-engraved-misericorde-vii",
+        "id": 18047,
+        "name": "Rose Engraved Misericorde VII",
+        "description": "This fine dagger has been forged by the dwarves of Lymcrest for the Rose. The engraved runes are said to glow near particularly magical sites. The runes don't seem to ever stop glowing. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18047,
+            "name": "Rose Engraved Misericorde VII",
+            "description": "This fine dagger has been forged by the dwarves of Lymcrest for the Rose. The engraved runes are said to glow near particularly magical sites. The runes don't seem to ever stop glowing. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 46000,
+            "maxStackSize": 1,
+            "bonus": 9,
+            "rarity": 25,
+            "level": 80,
+            "type": "Pierce",
+            "element": "Metal",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-Roseengraved.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 14,
+            "intelligence": 0,
+            "luck": 6,
+            "charisma": 6,
+            "endurance": 7,
+            "wisdom": 7,
+            "damageMin": 79,
+            "damageMax": 97,
+            "defenseMelee": 2,
+            "defensePierce": 2,
+            "defenseMagic": 2,
+            "critical": 11,
+            "parry": 7,
+            "dodge": 7,
+            "block": 7,
+            "resists": "Darkness,9,Nature,9,Water,8,Fire,8,Health,-4"
+        }
+    },
+    "related": {
+        "589-rose-engraved": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "589-rose-engraved",
+                "fullSlug": "item-shops\/589-rose-engraved",
+                "id": 589,
+                "name": "Rose Engraved",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 589,
+                    "name": "Rose Engraved",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

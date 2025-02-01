@@ -1,0 +1,159 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "366-mermaid-s-hunting-knife",
+        "fullSlug": "items\/366-mermaid-s-hunting-knife",
+        "id": 366,
+        "name": "Mermaid's Hunting Knife",
+        "description": "This knife is favored by mermaids everywhere."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 366,
+            "name": "Mermaid's Hunting Knife",
+            "description": "This knife is favored by mermaids everywhere.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 888,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 1,
+            "level": 12,
+            "type": "Pierce",
+            "element": "Water",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-bloo.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 26,
+            "damageMax": 38,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 1,
+            "parry": 0,
+            "dodge": 0,
+            "block": 1,
+            "resists": ""
+        }
+    },
+    "related": {
+        "22-floating-cave": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "22-floating-cave",
+                "fullSlug": "quests\/22-floating-cave",
+                "id": 22,
+                "name": "Floating Cave",
+                "description": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery..."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 22,
+                    "name": "Floating Cave",
+                    "description": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...",
+                    "complete": "This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...",
+                    "swf": "random\/random-windcave.swf",
+                    "swfX": "none",
+                    "maxSilver": 17,
+                    "maxGold": 150,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 12,
+                    "monsterMaxLevel": 18,
+                    "monsterType": "Elemental, Bug",
+                    "monsterGroupSwf": "mset-elementalwind.swf"
+                }
+            },
+            "related": []
+        },
+        "70-well-well-well": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "70-well-well-well",
+                "fullSlug": "quests\/70-well-well-well",
+                "id": 70,
+                "name": "Well, Well, Well.",
+                "description": "Artix's faithful dog Daimyo has lead you to a hilltop well where you hear his masters voice coming from below. You must venture down the well to rescue Artix from a dreaded fate."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 70,
+                    "name": "Well, Well, Well.",
+                    "description": "Artix's faithful dog Daimyo has lead you to a hilltop well where you hear his masters voice coming from below. You must venture down the well to rescue Artix from a dreaded fate.",
+                    "complete": "Apparently, you have saved the captive Artix from becoming the necromancers next victim...sort of.",
+                    "swf": "quests\/quest-wellr2.swf",
+                    "swfX": "none",
+                    "maxSilver": 18,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 16,
+                    "monsterMaxLevel": 22,
+                    "monsterType": "Darkness,Fire",
+                    "monsterGroupSwf": "mset-skeletons.swf"
+                }
+            },
+            "related": []
+        },
+        "633-ocean-reef": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "633-ocean-reef",
+                "fullSlug": "quests\/633-ocean-reef",
+                "id": 633,
+                "name": "Ocean Reef",
+                "description": "A colorful coral reef."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 633,
+                    "name": "Ocean Reef",
+                    "description": "A colorful coral reef.",
+                    "complete": "A colorful coral reef.",
+                    "swf": "random\/random-underwater-r1.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 1,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "the whole damn ocean!",
+                    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}

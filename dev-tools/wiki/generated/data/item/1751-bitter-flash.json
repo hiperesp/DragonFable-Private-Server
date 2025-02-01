@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "1751-bitter-flash",
+        "fullSlug": "items\/1751-bitter-flash",
+        "id": 1751,
+        "name": "Bitter Flash",
+        "description": "This ice weapon was recovered by galanoth from the frozen home of Delestroth, a great ice wyrm. "
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 1751,
+            "name": "Bitter Flash",
+            "description": "This ice weapon was recovered by galanoth from the frozen home of Delestroth, a great ice wyrm. ",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 9,
+            "level": 30,
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-scav2.swf",
+            "icon": "dagger",
+            "strength": 3,
+            "dexterity": 4,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 2,
+            "wisdom": 0,
+            "damageMin": 52,
+            "damageMax": 52,
+            "defenseMelee": 1,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 2,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,3"
+        }
+    },
+    "related": {
+        "40-scavenger-hunt": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "40-scavenger-hunt",
+                "fullSlug": "merge-shops\/40-scavenger-hunt",
+                "id": 40,
+                "name": "Scavenger Hunt",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 40,
+                    "name": "Scavenger Hunt"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 677,
+                    "mergeShopId": 40,
+                    "mergeId": 428
+                },
+                "merge": {
+                    "id": 428,
+                    "itemId1": 1751,
+                    "amount1": 1,
+                    "itemId2": 1594,
+                    "amount2": 5,
+                    "itemId": 1754,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

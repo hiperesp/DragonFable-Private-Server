@@ -1,0 +1,125 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18675-shards-of-the-quadforce",
+        "fullSlug": "items\/18675-shards-of-the-quadforce",
+        "id": 18675,
+        "name": "Shards of the Quadforce",
+        "description": "Shards of the legendary Quadforce, watched over by Gananana, the Wicked Seer. Proof of victory over Gananana. Used to forge the Quadstaff."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18675,
+            "name": "Shards of the Quadforce",
+            "description": "Shards of the legendary Quadforce, watched over by Gananana, the Wicked Seer. Proof of victory over Gananana. Used to forge the Quadstaff.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 0,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 0,
+            "level": 0,
+            "type": "Melee",
+            "element": "None",
+            "categoryId": "4",
+            "equipSpot": "Not Equipable",
+            "itemType": "Resource",
+            "swf": "",
+            "icon": "silvergem",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 0,
+            "luck": 0,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 0,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": ""
+        }
+    },
+    "related": {
+        "1610-gananana": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1610-gananana",
+                "fullSlug": "quests\/1610-gananana",
+                "id": 1610,
+                "name": "Gananana",
+                "description": "Gananana, seeker of the Quadforce, and see-er of all things! A beast, thought defeated, has returned to challenge you!"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1610,
+                    "name": "Gananana",
+                    "description": "Gananana, seeker of the Quadforce, and see-er of all things! A beast, thought defeated, has returned to challenge you!",
+                    "complete": "Gananana falls, and the Quadforce is safe once again.",
+                    "swf": "towns\/TimeArena\/quest-gananana.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 2000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Gananana and Augahim",
+                    "monsterGroupSwf": "mset-arenaganahim2.swf?ver=4"
+                }
+            },
+            "related": []
+        },
+        "302-the-quadstaff": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "302-the-quadstaff",
+                "fullSlug": "merge-shops\/302-the-quadstaff",
+                "id": 302,
+                "name": "The Quadstaff",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 302,
+                    "name": "The Quadstaff"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3283,
+                    "mergeShopId": 302,
+                    "mergeId": 3368
+                },
+                "merge": {
+                    "id": 3368,
+                    "itemId1": 18674,
+                    "amount1": 1,
+                    "itemId2": 18675,
+                    "amount2": 1,
+                    "itemId": 18677,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

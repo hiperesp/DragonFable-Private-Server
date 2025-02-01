@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "18884-frozen-breath-mace-vi",
+        "fullSlug": "items\/18884-frozen-breath-mace-vi",
+        "id": 18884,
+        "name": "Frozen Breath Mace VI",
+        "description": "A treasure of Duat, flash frozen by ice magic. While heavy and awkward to wield, it seems to shift and move on its own when swung. This item requires a Dragon Amulet."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 18884,
+            "name": "Frozen Breath Mace VI",
+            "description": "A treasure of Duat, flash frozen by ice magic. While heavy and awkward to wield, it seems to shift and move on its own when swung. This item requires a Dragon Amulet.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 1,
+            "currency": 2,
+            "cost": 2500,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 20,
+            "level": 90,
+            "type": "Melee",
+            "element": "Ice",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Mace",
+            "swf": "items\/maces\/mace-frozenbreath.swf",
+            "icon": "mace",
+            "strength": 20,
+            "dexterity": 17,
+            "intelligence": 0,
+            "luck": 17,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 83,
+            "damageMax": 103,
+            "defenseMelee": -10,
+            "defensePierce": -10,
+            "defenseMagic": -10,
+            "critical": 7,
+            "parry": -10,
+            "dodge": -10,
+            "block": -10,
+            "resists": "Ice,7,Light,7,Immobility,7"
+        }
+    },
+    "related": {
+        "1627-a-petal-falls": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1627-a-petal-falls",
+                "fullSlug": "quests\/1627-a-petal-falls",
+                "id": 1627,
+                "name": "A Petal Falls",
+                "description": "Welcome back to the Land of Dragons."
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1627,
+                    "name": "A Petal Falls",
+                    "description": "Welcome back to the Land of Dragons.",
+                    "complete": "Conflict stirs as the Magesterium's plan takes effect. But how is Atrea faring against the onslaught? Will you be able to arrive in time to help?",
+                    "swf": "towns\/SulenEska\/quest1-petal.swf",
+                    "swfX": "towns\/SulenEska\/quest1-petal-x.swf",
+                    "maxSilver": 0,
+                    "maxGold": 5000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 100,
+                    "monsterType": "Ice elementals",
+                    "monsterGroupSwf": "mset-icerift.swf?ver=2"
+                }
+            },
+            "related": []
+        }
+    }
+}

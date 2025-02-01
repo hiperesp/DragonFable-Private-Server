@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20776-phoenix-helion-blade-v",
+        "fullSlug": "items\/20776-phoenix-helion-blade-v",
+        "id": 20776,
+        "name": "Phoenix Helion Blade V",
+        "description": "Like a radiant meteor, the mythical phoenix once tore through the skies of Lore, only to vanish and never be seen again. This blade was commissioned to try to recapture that legendary spark. You can upgrade this helm at the Black Market Moglin."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20776,
+            "name": "Phoenix Helion Blade V",
+            "description": "Like a radiant meteor, the mythical phoenix once tore through the skies of Lore, only to vanish and never be seen again. This blade was commissioned to try to recapture that legendary spark. You can upgrade this helm at the Black Market Moglin.",
+            "dragonAmulet": 0,
+            "currency": 1,
+            "maxStackSize": 1,
+            "bonus": 12,
+            "rarity": 25,
+            "level": 80,
+            "element": "Fire",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Scythe",
+            "swf": "items\/scythes\/scythe-helion.swf",
+            "icon": "scythe",
+            "strength": 16,
+            "dexterity": 16,
+            "intelligence": 16,
+            "luck": 10,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 85,
+            "damageMax": 95,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 12,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Immobility,4,Health,-4"
+        }
+    },
+    "related": {
+        "362-phoenix-helion": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "362-phoenix-helion",
+                "fullSlug": "merge-shops\/362-phoenix-helion",
+                "id": 362,
+                "name": "Phoenix Helion",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 362,
+                    "name": "Phoenix Helion"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3777,
+                    "mergeShopId": 362,
+                    "mergeId": 3897
+                },
+                "merge": {
+                    "id": 3897,
+                    "itemId1": 20776,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 20777,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

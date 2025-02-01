@@ -1,0 +1,121 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "3112-frankeneyes-staff-iii",
+        "fullSlug": "items\/3112-frankeneyes-staff-iii",
+        "id": 3112,
+        "name": "FrankenEyes Staff III",
+        "description": "Those googly eyes are fresh from the monster to your staff!"
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 3112,
+            "name": "FrankenEyes Staff III",
+            "description": "Those googly eyes are fresh from the monster to your staff!",
+            "dragonAmulet": 1,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 5,
+            "level": 50,
+            "element": "Disease",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Staff",
+            "swf": "items\/staffs\/staff-frankenstaff.swf",
+            "icon": "staff",
+            "strength": 0,
+            "dexterity": 0,
+            "intelligence": 3,
+            "luck": 0,
+            "charisma": 2,
+            "endurance": 6,
+            "wisdom": 0,
+            "damageMin": 63,
+            "damageMax": 77,
+            "defenseMelee": 5,
+            "defensePierce": 5,
+            "defenseMagic": 5,
+            "critical": 4,
+            "parry": 0,
+            "dodge": 0,
+            "block": 0,
+            "resists": "Fire,-3,Stone,5,Immobility,3"
+        }
+    },
+    "related": {
+        "58-franken-50": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "58-franken-50",
+                "fullSlug": "merge-shops\/58-franken-50",
+                "id": 58,
+                "name": "Franken 50",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 58,
+                    "name": "Franken 50"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 851,
+                    "mergeShopId": 58,
+                    "mergeId": 561
+                },
+                "merge": {
+                    "id": 561,
+                    "itemId1": 3105,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 3112,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        },
+        "96-franken-60": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "96-franken-60",
+                "fullSlug": "merge-shops\/96-franken-60",
+                "id": 96,
+                "name": "Franken 60",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 96,
+                    "name": "Franken 60"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 1347,
+                    "mergeShopId": 96,
+                    "mergeId": 1176
+                },
+                "merge": {
+                    "id": 1176,
+                    "itemId1": 3112,
+                    "amount1": 1,
+                    "itemId2": -1,
+                    "amount2": 0,
+                    "itemId": 6027,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

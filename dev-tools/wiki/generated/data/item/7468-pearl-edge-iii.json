@@ -1,0 +1,73 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "7468-pearl-edge-iii",
+        "fullSlug": "items\/7468-pearl-edge-iii",
+        "id": 7468,
+        "name": "Pearl Edge III",
+        "description": "The salty, sea wind rushes around this weapon. Crafted for all pirates during TLaPD."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 7468,
+            "name": "Pearl Edge III",
+            "description": "The salty, sea wind rushes around this weapon. Crafted for all pirates during TLaPD.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 6000,
+            "maxStackSize": 1,
+            "bonus": 6,
+            "rarity": 10,
+            "level": 50,
+            "type": "Melee",
+            "element": "Wind",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-pearl.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 5,
+            "intelligence": 0,
+            "luck": 5,
+            "charisma": 5,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 57,
+            "damageMax": 75,
+            "defenseMelee": 4,
+            "defensePierce": 4,
+            "defenseMagic": 4,
+            "critical": 5,
+            "parry": 1,
+            "dodge": 1,
+            "block": 0,
+            "resists": "Stone,3,Poison,3,Silver,4"
+        }
+    },
+    "related": {
+        "275-tlapd-items": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "275-tlapd-items",
+                "fullSlug": "item-shops\/275-tlapd-items",
+                "id": 275,
+                "name": "TLaPD Items",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 275,
+                    "name": "TLaPD Items",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

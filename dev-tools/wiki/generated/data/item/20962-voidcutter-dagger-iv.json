@@ -1,0 +1,85 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "20962-voidcutter-dagger-iv",
+        "fullSlug": "items\/20962-voidcutter-dagger-iv",
+        "id": 20962,
+        "name": "Voidcutter Dagger IV",
+        "description": "Notha and Myalos brought their expertise of ancient technology upon the Abysscutter Dagger, forging a weapon to be feared by any would-be deities."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 20962,
+            "name": "Voidcutter Dagger IV",
+            "description": "Notha and Myalos brought their expertise of ancient technology upon the Abysscutter Dagger, forging a weapon to be feared by any would-be deities.",
+            "dragonAmulet": 0,
+            "currency": 2,
+            "maxStackSize": 1,
+            "bonus": 7,
+            "rarity": 50,
+            "level": 60,
+            "element": "Fear",
+            "categoryId": "1",
+            "equipSpot": "Weapon",
+            "itemType": "Dagger",
+            "swf": "items\/daggers\/dagger-remthalasupgraded.swf",
+            "icon": "dagger",
+            "strength": 0,
+            "dexterity": 16,
+            "intelligence": 0,
+            "luck": 8,
+            "charisma": 0,
+            "endurance": 0,
+            "wisdom": 0,
+            "damageMin": 74,
+            "damageMax": 74,
+            "defenseMelee": 6,
+            "defensePierce": 6,
+            "defenseMagic": 6,
+            "critical": 7,
+            "parry": 6,
+            "dodge": 6,
+            "block": 6,
+            "resists": "All,6,Health,-6"
+        }
+    },
+    "related": {
+        "370-voidcutter": {
+            "page": {
+                "slugBase": "merge-shops",
+                "slug": "370-voidcutter",
+                "fullSlug": "merge-shops\/370-voidcutter",
+                "id": 370,
+                "name": "Voidcutter",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "mergeShop",
+                "properties": {
+                    "id": 370,
+                    "name": "Voidcutter"
+                }
+            },
+            "related": {
+                "mergeShop_merge": {
+                    "id": 3870,
+                    "mergeShopId": 370,
+                    "mergeId": 3939
+                },
+                "merge": {
+                    "id": 3939,
+                    "itemId1": 20950,
+                    "amount1": 1,
+                    "itemId2": 20973,
+                    "amount2": 1,
+                    "itemId": 20962,
+                    "string": 0,
+                    "index": 0,
+                    "value": 0,
+                    "level": 0
+                }
+            }
+        }
+    }
+}

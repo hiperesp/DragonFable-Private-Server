@@ -1,0 +1,92 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "6826-dragonknight-helm",
+        "fullSlug": "items\/6826-dragonknight-helm",
+        "id": 6826,
+        "name": "DragonKnight Helm",
+        "description": "A relic from an exotic land. Combined with it's matching weapon and cape, the set increases your damage against dragons."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 6826,
+            "name": "DragonKnight Helm",
+            "description": "A relic from an exotic land. Combined with it's matching weapon and cape, the set increases your damage against dragons.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 1,
+            "cost": 400,
+            "maxStackSize": 1,
+            "bonus": 10,
+            "rarity": 25,
+            "level": 80,
+            "type": "Melee",
+            "element": "Metal",
+            "categoryId": "2",
+            "equipSpot": "Head",
+            "itemType": "Helm",
+            "swf": "head\/helms\/helm-dragonknight.swf",
+            "icon": "helm",
+            "strength": 11,
+            "dexterity": 11,
+            "intelligence": 11,
+            "luck": 0,
+            "charisma": 6,
+            "endurance": 6,
+            "wisdom": 6,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 8,
+            "defensePierce": 8,
+            "defenseMagic": 8,
+            "critical": 10,
+            "parry": 0,
+            "dodge": 5,
+            "block": 2,
+            "resists": "Light,15,Darkness,15,Immobility,4,Health,-3"
+        }
+    },
+    "related": {
+        "260-dragonknight-relics": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "260-dragonknight-relics",
+                "fullSlug": "item-shops\/260-dragonknight-relics",
+                "id": 260,
+                "name": "DragonKnight Relics",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 260,
+                    "name": "DragonKnight Relics",
+                    "count": -100
+                }
+            },
+            "related": []
+        },
+        "43-helms-and-capes": {
+            "page": {
+                "slugBase": "item-shops",
+                "slug": "43-helms-and-capes",
+                "fullSlug": "item-shops\/43-helms-and-capes",
+                "id": 43,
+                "name": "Helms and Capes",
+                "description": "<no description available>"
+            },
+            "info": {
+                "type": "itemShop",
+                "properties": {
+                    "id": 43,
+                    "name": "Helms and Capes",
+                    "count": -100
+                }
+            },
+            "related": []
+        }
+    }
+}

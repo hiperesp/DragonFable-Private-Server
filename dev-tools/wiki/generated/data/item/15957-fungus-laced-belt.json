@@ -1,0 +1,89 @@
+{
+    "page": {
+        "slugBase": "items",
+        "slug": "15957-fungus-laced-belt",
+        "fullSlug": "items\/15957-fungus-laced-belt",
+        "id": 15957,
+        "name": "Fungus Laced Belt",
+        "description": "The leather seems to be covered with the sprouts and mold of a poisonous fungus."
+    },
+    "info": {
+        "type": "item",
+        "properties": {
+            "id": 15957,
+            "name": "Fungus Laced Belt",
+            "description": "The leather seems to be covered with the sprouts and mold of a poisonous fungus.",
+            "visible": 1,
+            "destroyable": 1,
+            "sellable": 1,
+            "dragonAmulet": 0,
+            "currency": 2,
+            "cost": 3600,
+            "maxStackSize": 1,
+            "bonus": 0,
+            "rarity": 6,
+            "level": 42,
+            "type": "Melee",
+            "element": "Poison",
+            "categoryId": "2",
+            "equipSpot": "Waist",
+            "itemType": "Belt",
+            "swf": "",
+            "icon": "belt",
+            "strength": 2,
+            "dexterity": 2,
+            "intelligence": 2,
+            "luck": 2,
+            "charisma": 2,
+            "endurance": 2,
+            "wisdom": 2,
+            "damageMin": 0,
+            "damageMax": 0,
+            "defenseMelee": 0,
+            "defensePierce": 0,
+            "defenseMagic": 0,
+            "critical": 5,
+            "parry": 4,
+            "dodge": 4,
+            "block": 4,
+            "resists": "Silver,2,Poison,2,Fire,2,Stone,2"
+        }
+    },
+    "related": {
+        "1365-peril": {
+            "page": {
+                "slugBase": "quests",
+                "slug": "1365-peril",
+                "fullSlug": "quests\/1365-peril",
+                "id": 1365,
+                "name": "Peril",
+                "description": "Your dragon has gone south towards the Doomwood... are you prepared to follow?"
+            },
+            "info": {
+                "type": "quest",
+                "properties": {
+                    "id": 1365,
+                    "name": "Peril",
+                    "description": "Your dragon has gone south towards the Doomwood... are you prepared to follow?",
+                    "complete": "Caitiff has captured your Dragon and it will take all your friends to get it back!",
+                    "swf": "towns\/10AnnDF\/quest7-peril.swf",
+                    "swfX": "none",
+                    "maxSilver": 0,
+                    "maxGold": 3000,
+                    "maxGems": 0,
+                    "maxExp": 50000,
+                    "minTime": 0,
+                    "counter": 0,
+                    "extra": "",
+                    "dailyIndex": 0,
+                    "dailyReward": 0,
+                    "monsterMinLevel": 0,
+                    "monsterMaxLevel": 99,
+                    "monsterType": "cultists, skeles, dark ele",
+                    "monsterGroupSwf": "mset-artifact.swf"
+                }
+            },
+            "related": []
+        }
+    }
+}
