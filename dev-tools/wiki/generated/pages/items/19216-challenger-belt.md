@@ -2,6 +2,8 @@
 
 A belt that proves your victory over the Challenger Gauntlet! Can be upgraded into different aspects.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19216

@@ -2,6 +2,8 @@
 
 Icemaster Yeti suggested to use the oversized cocoaberries as ammo for the catapult, since they have rather... explosive properties, if handled well!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

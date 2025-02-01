@@ -3,6 +3,8 @@
 Jungle Fury mages, raging against attacks by intruders, wove the strength of the wind into this otherwise plainlooking sash.  It may not look great, but wove, does it let you move quickly.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2409

@@ -2,6 +2,8 @@
 
 A beautiful and light-weight katar that you reforged from items found in the ruins of Sil. Made from zephyrite, a very rare wind metal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6136

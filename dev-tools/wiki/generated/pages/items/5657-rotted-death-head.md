@@ -2,6 +2,8 @@
 
 Scavenged from Sepulchure's minions this Death Head is infused with darkness!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5657

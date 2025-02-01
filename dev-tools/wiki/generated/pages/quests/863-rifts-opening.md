@@ -2,6 +2,8 @@
 
 Mysterious rifts are opening up all over Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

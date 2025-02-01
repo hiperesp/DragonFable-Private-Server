@@ -2,6 +2,8 @@
 
 Slicing through dimensions: this scythe is like a paintbrush for the universe. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21895

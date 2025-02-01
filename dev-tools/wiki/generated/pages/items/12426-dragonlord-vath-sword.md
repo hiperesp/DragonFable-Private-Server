@@ -2,6 +2,8 @@
 
 This sword was used by DragonLord Vath in his quest to unleash a chaotic beast. While the power it had to control dragons is gone, it is still a powerful weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12426

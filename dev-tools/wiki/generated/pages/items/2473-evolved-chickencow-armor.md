@@ -2,6 +2,8 @@
 
 The next generation of Chickencow Lords... unleashed! This item uses the CCA bought with Dragon Coins.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2473

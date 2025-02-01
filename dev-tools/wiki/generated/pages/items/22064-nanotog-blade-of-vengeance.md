@@ -2,6 +2,8 @@
 
 This surprisingly elegant blade is supposedly formed of nanotogs and able to cut through any defenses. Whatever its origins, it's as dull as a tog now. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22064

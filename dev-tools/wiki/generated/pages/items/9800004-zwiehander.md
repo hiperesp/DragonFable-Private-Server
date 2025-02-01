@@ -2,6 +2,8 @@
 
 A two handed weapon of undead arse kicking...!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800004

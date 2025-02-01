@@ -2,6 +2,8 @@
 
 The sewers under Swordhaven.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

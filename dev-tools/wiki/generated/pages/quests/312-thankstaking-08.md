@@ -2,6 +2,8 @@
 
 Dr. Voltabolt has once again created a new threat to Falconreach in his never ending quest to show science's superiority over magic.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

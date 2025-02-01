@@ -2,6 +2,8 @@
 
 The Thorn, an extremist group within the Rose, has awoken ancient technology that hunts and devours mana. You must find a way to stop these infernal contraptions!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

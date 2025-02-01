@@ -2,6 +2,8 @@
 
 Grasping this dagger makes your hair stand on end, and increases your static cling by 5%.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 271

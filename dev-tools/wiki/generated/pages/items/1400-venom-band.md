@@ -2,6 +2,8 @@
 
 This ring glows with a sickly green light. It kinda makes your finger itch too.... Gives you +3 resist to Poison and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1400

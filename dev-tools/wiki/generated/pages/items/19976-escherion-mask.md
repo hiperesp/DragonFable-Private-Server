@@ -2,6 +2,8 @@
 
 This mask is quite different than the others...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19976

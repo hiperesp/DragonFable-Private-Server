@@ -2,6 +2,8 @@
 
 Yom-yom-yom! Make sure your eggs aren't replaced by ping-pong balls.  Then your recipe would be borken! Selling or deleting this item will reset your Cooking Rank.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2474

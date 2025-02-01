@@ -2,6 +2,8 @@
 
 Galanoth has asked you to investigate the most recently destroyed human settlement, and look for clues to its destruction.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

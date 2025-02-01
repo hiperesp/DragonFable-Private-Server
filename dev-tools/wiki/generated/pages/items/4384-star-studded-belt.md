@@ -2,6 +2,8 @@
 
 The light from shooting stars is captured in the mirrored plates on this belt.  Ooooh, so pretty! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4384

@@ -2,6 +2,8 @@
 
 Kara has a special mission for you... Are you ready?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

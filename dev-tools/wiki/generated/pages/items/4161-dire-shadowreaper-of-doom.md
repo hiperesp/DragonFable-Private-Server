@@ -2,6 +2,8 @@
 
 Upgrading requires a DA and Blacksmithing Skill of at least Rank 18. The darkness from this weapon seems to overflow..
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4161

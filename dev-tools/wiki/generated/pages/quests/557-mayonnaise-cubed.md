@@ -2,6 +2,8 @@
 
 Mayonnaise Mayonnaise Mayonnaise
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

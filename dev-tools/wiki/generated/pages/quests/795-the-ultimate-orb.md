@@ -2,6 +2,8 @@
 
 Can you make it to the top of the darkest tower in time to stop Sepulchure?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The cape of the legendary Legion of Necro Paragons! Your reward for clearing the Jack Crescent (and Gnarly Guitar of Doom) challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17692

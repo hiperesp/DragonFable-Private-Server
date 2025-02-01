@@ -2,6 +2,8 @@
 
 The name of this dagger is as simple as the design. A blade forged in the shape of a giant feather, used to tickle your enemies....TO DEATH!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1430

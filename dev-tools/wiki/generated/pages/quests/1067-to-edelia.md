@@ -2,6 +2,8 @@
 
 Journey with Tomix to the hidden school of Edelia.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

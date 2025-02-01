@@ -2,6 +2,8 @@
 
 Returned from the stars. Proof of victory over the Dance of the Stars Challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21298

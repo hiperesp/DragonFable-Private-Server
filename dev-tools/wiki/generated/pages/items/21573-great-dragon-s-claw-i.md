@@ -2,6 +2,8 @@
 
 An ancient relic of Maar, said to have been forged from a claw of the Great Dragon Akriloth. Proof of victory over the Fang and the Scales.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21573

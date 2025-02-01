@@ -2,6 +2,8 @@
 
 Thank you for supporting us for 10 amazing years!  You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7575

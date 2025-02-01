@@ -2,6 +2,8 @@
 
 Quest for testing PCC Content produced in the editor
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

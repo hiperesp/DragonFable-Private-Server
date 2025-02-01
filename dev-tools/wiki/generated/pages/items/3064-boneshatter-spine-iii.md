@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This creepy staff was once used by a powerful necromancer to create an undead army, and to scare children off his lawn.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3064

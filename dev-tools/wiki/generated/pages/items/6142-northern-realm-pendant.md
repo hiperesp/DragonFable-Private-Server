@@ -2,6 +2,8 @@
 
 This metallic chain is covered in runes and hums slightly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6142

@@ -2,6 +2,8 @@
 
 The crystallized fire that adorns this cape was harvested from the minions of Fiamme, avatar of Fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2202

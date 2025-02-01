@@ -2,6 +2,8 @@
 
 Ogorek gave this small carved wooden keepsake to hang from your belt for good luck. Despite your protests, he insisted it would help you find Elanee.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19926

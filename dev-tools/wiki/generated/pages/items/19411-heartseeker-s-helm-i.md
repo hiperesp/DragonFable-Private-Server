@@ -2,6 +2,8 @@
 
 This helm was blessed by Love in ancient times. Now it can be yours! But what exactly does it mean to be blessed by Love?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19411

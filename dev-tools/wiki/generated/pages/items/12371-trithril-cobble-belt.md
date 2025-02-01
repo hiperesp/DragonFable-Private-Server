@@ -2,6 +2,8 @@
 
 Cobbles of trithril hang off this belt... it's kinda heavy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12371

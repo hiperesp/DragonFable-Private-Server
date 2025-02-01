@@ -2,6 +2,8 @@
 
 The sight of these emerald daggers sets sneevish eyes a cryin'. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5195

@@ -2,6 +2,8 @@
 
 This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8950

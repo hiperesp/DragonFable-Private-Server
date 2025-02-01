@@ -3,6 +3,8 @@
 Wait you were knocked unconscious, how exactly did you loot this again?
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3686

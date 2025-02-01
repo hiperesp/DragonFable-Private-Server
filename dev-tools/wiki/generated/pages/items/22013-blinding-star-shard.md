@@ -2,6 +2,8 @@
 
 A glowing crystal shard, created in the heart of a star. Combine 10 with a Celestial Axe Haft to create the Blinding Starlight of Destiny!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22013

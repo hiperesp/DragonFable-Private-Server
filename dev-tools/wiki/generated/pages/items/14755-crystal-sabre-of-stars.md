@@ -2,6 +2,8 @@
 
 This blade is half of an ancient blade once guarded by the Vizalain. Its other half was lost to Darkness, but this weapon will help you to fight against evil!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14755

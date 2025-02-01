@@ -2,6 +2,8 @@
 
 This goldcleaver glows rainbows when sneevilchuans are near. Happy Lucky Day '14!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11716

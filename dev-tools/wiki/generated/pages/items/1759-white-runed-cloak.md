@@ -2,6 +2,8 @@
 
 The runes on this magical fabric twist and swirl slowly across the face of the cloak. Each of them is a different protection rune. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1759

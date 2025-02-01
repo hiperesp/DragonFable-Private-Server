@@ -2,6 +2,8 @@
 
 Created in honor of Cronix's birthday, this cape will shift through to time to change color!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10180

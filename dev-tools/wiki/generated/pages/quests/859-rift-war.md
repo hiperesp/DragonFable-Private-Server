@@ -2,6 +2,8 @@
 
 An alien army is pouring through dimensional rifts into Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

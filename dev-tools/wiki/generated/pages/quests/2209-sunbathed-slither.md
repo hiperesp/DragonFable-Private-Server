@@ -2,6 +2,8 @@
 
 Suntouched Vipers are said to infest vast stretches of deserts, soaking in the sun and devour unsuspecting adventurers. It's probably best to get rid of them, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

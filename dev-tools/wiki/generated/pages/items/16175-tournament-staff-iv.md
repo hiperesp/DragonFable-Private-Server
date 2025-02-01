@@ -2,6 +2,8 @@
 
 This staff commemorates victors in the Swordhaven Tournament. It's supposed to be ornamental, but you could polish it up.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16175

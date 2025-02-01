@@ -2,6 +2,8 @@
 
 Crafted by Lupus the Wolf, this foreboding darkness weapon carries an evil secret if you click above the handle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9345

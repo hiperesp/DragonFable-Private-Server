@@ -2,6 +2,8 @@
 
 A bored geomancers apprentice was playing around and managed to get the rocks he was studying to stick together.  Apprentices, bah! You cant ever leave them unsupervised!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2216

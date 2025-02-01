@@ -2,6 +2,8 @@
 
 Lim's shop orb would LOVE to get his hands on this!  Oh. Wait. He doesn't HAVE hands!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4409

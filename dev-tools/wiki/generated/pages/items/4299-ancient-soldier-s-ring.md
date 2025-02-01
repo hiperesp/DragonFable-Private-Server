@@ -2,6 +2,8 @@
 
 You're pretty sure that skeleton won't miss this...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4299

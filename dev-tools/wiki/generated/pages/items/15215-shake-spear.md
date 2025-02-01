@@ -6,6 +6,8 @@ Maybe he'll write a play about your quests!
 
 This pet requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15215

@@ -2,6 +2,8 @@
 
 These holy daggers will light your path, and your enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3742

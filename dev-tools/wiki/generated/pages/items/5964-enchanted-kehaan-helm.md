@@ -2,6 +2,8 @@
 
 This Kehaan helm has been enchanted with potent magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5964

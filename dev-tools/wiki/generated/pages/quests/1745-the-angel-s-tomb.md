@@ -2,6 +2,8 @@
 
 It's time to face Voyna, the Angel of Azaveyr.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

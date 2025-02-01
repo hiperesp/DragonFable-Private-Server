@@ -2,6 +2,8 @@
 
 A harrowing, sickly green wind envelops the blade of this weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10855

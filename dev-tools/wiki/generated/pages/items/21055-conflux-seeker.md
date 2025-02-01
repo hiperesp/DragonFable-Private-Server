@@ -2,6 +2,8 @@
 
 What seems like an ornate pickaxe can shift to defend its wielder- revealing its true form and reflecting its wielder's heart. Click to change shape! (Cosmetic)(CC: Base, Trim, Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21055

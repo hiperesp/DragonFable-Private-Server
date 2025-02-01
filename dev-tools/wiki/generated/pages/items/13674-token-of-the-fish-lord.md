@@ -2,6 +2,8 @@
 
 This vaguely fish-shaped piece of metal appears to be smiling and smells faintly of tuna. On the back is etched "Uqt Onsit". Curious.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13674

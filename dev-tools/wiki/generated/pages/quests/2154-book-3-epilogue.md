@@ -2,6 +2,8 @@
 
 Thanks to your efforts, Lore has been saved once again... for now.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

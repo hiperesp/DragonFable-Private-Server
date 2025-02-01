@@ -2,6 +2,8 @@
 
 This crown was created by Frost Moglins to commemorate an ancient victory. Well, not this one specifically. This is just a replica! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22267

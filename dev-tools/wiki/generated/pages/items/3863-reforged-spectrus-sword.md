@@ -2,6 +2,8 @@
 
 Reforged just for you by Jonath, DragonMage trainer of DragonsGrasp, to recall the memories of the Assault on the Necropolis!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3863

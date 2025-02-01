@@ -2,6 +2,8 @@
 
 Answers await. What lies behind the final lock?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

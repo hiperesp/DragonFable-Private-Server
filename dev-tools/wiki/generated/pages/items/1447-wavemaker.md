@@ -2,6 +2,8 @@
 
 If you are strong enough it is said that you can create waves by striking still water with this mace.  I do not know about you but I can make waves just by splashing my hand in a pool.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1447

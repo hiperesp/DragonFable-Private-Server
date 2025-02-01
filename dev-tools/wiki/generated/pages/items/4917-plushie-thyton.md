@@ -2,6 +2,8 @@
 
 This is the cutest ninja  EVER! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4917

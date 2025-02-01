@@ -2,6 +2,8 @@
 
 A spear once used by the lost Abyssal Elves. Be careful, lest it consume you as well. Click the bottom to change its appearance. Click the top to change the appearance of the Abyssal Warhelm/Shroud. (Cosmetic) (Catalyst for Kathool Adept)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21376

@@ -2,6 +2,8 @@
 
 See if you can find any loose pieces of Dragonbane in Dragesvard.  It is my hope that some of the townspeople have found some.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

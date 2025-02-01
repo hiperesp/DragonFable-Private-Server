@@ -2,6 +2,8 @@
 
 This light, swift scythe was blessed by the Avatar's themselves!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7527

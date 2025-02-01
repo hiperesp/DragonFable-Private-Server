@@ -2,6 +2,8 @@
 
 This is the adopted military headdress worn by Infantry. Wear this in celebration of Prince William and Kate's Royal Wedding!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5490

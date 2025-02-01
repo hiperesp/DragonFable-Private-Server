@@ -2,6 +2,8 @@
 
 The staff hums with animosity.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2167

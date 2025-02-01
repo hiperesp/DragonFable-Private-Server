@@ -2,6 +2,8 @@
 
 Small amounts of rare minerals gleam as light hits this shard from various angles. Slivers of petrified wood, quartz, pearl, and more seem woven, almost like muscle fibers into this shard. Perhaps someone will be willing to buy this for a good price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18948

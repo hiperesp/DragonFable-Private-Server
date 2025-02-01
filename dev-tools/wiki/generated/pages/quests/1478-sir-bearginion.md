@@ -2,6 +2,8 @@
 
 You face Sir Bearginion the 3rd, Most Honorable Duelist of the Western Deepwoods, also known as One Punch Bear, also known as your downfall.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

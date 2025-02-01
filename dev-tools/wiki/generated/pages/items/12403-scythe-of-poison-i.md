@@ -2,6 +2,8 @@
 
 Scythe filled with poison. Literally.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12403

@@ -2,6 +2,8 @@
 
 This Trithril relic was once safeguarded by an Atealan Ascendant. When they were lost to the stars, their successor took up the mantle of Providence. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22054

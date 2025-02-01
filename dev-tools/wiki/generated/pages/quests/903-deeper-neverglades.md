@@ -2,6 +2,8 @@
 
 This thick jungle seems never ending!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

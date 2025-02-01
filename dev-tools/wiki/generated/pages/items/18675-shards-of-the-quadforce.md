@@ -2,6 +2,8 @@
 
 Shards of the legendary Quadforce, watched over by Gananana, the Wicked Seer. Proof of victory over Gananana. Used to forge the Quadstaff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18675

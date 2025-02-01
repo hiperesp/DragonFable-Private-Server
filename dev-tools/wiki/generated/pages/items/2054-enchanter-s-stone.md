@@ -2,6 +2,8 @@
 
 One of Galanoth's mother's enchanting stones. Return this to him to learn a new Dragonslayer skill.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2054

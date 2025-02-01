@@ -2,6 +2,8 @@
 
 The healing powers of this helm help to stave off the Reaper.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1880

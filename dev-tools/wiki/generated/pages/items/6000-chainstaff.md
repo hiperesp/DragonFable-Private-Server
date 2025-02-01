@@ -3,6 +3,8 @@
 THIS STAFF IS AWESOME! 
 Click to turn it on!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6000

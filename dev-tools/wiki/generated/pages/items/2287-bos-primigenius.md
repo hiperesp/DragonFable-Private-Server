@@ -2,6 +2,8 @@
 
 If you're going to take the bull by the horns, you're not going to have a free hand to hold this axe.  Choose wisely.  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2287

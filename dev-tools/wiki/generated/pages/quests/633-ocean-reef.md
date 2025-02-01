@@ -2,6 +2,8 @@
 
 A colorful coral reef.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

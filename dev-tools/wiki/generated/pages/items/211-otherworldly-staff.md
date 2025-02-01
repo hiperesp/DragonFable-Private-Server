@@ -2,6 +2,8 @@
 
 This strange weapon is made of a strange material found in the heart of a comet that fell to earth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 211

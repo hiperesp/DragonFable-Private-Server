@@ -2,6 +2,8 @@
 
 When Lim needs a new weaponsmith assistant, he figures that the best way to find one is to hold a talent contest! With Serenity, Cysero, and George Lowe as the judges! YOU are a contestant. Good luck!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

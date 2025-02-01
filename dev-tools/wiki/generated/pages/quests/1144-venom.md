@@ -2,6 +2,8 @@
 
 Riadne needs spider venom to create her potions.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

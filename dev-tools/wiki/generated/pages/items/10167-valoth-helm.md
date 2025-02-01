@@ -2,6 +2,8 @@
 
 The visage of an ancient villain, from the days of MechQuest! You can upgrade this helm at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10167

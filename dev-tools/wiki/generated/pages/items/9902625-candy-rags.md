@@ -2,6 +2,8 @@
 
 Stinky infected Garb
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9902625

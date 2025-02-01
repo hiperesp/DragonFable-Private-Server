@@ -2,6 +2,8 @@
 
 These texts shimmer in the haze of battle, yet never burn. Try as you might to read them, you cannot make out any recognizable words. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22205

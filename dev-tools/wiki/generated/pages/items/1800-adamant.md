@@ -2,6 +2,8 @@
 
 Cysero traded one of his right socks for this stunning staff design.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1800

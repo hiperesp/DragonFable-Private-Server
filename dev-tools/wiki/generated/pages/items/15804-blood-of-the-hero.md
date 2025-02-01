@@ -2,6 +2,8 @@
 
 This cursed blade is infused with the corrupted blood of heroes harvested by Caitiff itself.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15804

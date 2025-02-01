@@ -2,6 +2,8 @@
 
 This dagger has tiny dragon wings for a hilt. That is reason enough to use it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1446

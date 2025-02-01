@@ -2,6 +2,8 @@
 
 The cuts and scrapes you got in the swamp before receiving this weapon seem to have gotten infected.  Does chicken soup work on swamp fever?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2274

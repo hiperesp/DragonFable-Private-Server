@@ -2,6 +2,8 @@
 
 A gift retrieved from the ReignDragon's hoard! Just how many presents were stolen...? Return these to Blizzy for rewards.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21318

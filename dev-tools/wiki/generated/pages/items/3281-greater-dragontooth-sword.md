@@ -2,6 +2,8 @@
 
 Can't you just hear the baby dragons singing: All I want for Frostval is my new front fang, my new front fang, my new front fang...  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3281

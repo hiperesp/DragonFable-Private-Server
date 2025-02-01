@@ -2,6 +2,8 @@
 
 Prince Eulin had these badges specially designed to commerate the new peace in Doomwood. It has a small engraving of a rose on it. One can be used to complete the Lagohmcraft Protector!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20333

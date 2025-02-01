@@ -2,6 +2,8 @@
 
 This staff was carved from the heart of an ancient Oak tree and enchanted with the strength of the primeval forest. It was set aside for the mage worthy of carrying it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6582

@@ -2,6 +2,8 @@
 
 Channeling the power of massive storm clouds, this weapon will alternate between hitting with Darkness and Energy element attacks! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16628

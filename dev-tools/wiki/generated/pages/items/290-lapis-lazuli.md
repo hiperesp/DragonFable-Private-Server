@@ -2,6 +2,8 @@
 
 Made by a mage named Lazuki, this staff is a powerful focus for mages.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 290

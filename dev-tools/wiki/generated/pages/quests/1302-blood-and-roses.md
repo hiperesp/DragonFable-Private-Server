@@ -2,6 +2,8 @@
 
 You do NOT challenge the Queen.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

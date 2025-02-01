@@ -2,6 +2,8 @@
 
 This item required a Dragon Amulet. The head of the staff is a pumpkin filled with fire which eternally burns using the Cauldron Sister's candy as fuel. It lights the darkest paths on Mogloween. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1163

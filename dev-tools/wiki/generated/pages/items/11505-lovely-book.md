@@ -2,6 +2,8 @@
 
 It's a real page turner!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11505

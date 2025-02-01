@@ -2,6 +2,8 @@
 
 Now you need to find a few claws. There should be plenty of them out here.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

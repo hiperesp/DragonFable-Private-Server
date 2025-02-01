@@ -2,6 +2,8 @@
 
 Neither grim nor valorous, great villains and great heroes alike have wielded it so that it holds allegiance to neither. Only great power to be used by the Great.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12336

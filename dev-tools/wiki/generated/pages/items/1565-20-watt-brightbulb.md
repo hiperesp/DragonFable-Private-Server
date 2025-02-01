@@ -2,6 +2,8 @@
 
 Built by Dr. Voltabolt, these little techno-things are sure to brighten your day!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1565

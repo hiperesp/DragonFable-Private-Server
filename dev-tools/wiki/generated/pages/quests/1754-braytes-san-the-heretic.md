@@ -2,6 +2,8 @@
 
 An unwavering faith born of oppression, an unshakable resolve born of a witness.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

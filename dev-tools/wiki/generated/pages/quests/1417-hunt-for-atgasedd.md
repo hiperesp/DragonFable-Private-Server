@@ -2,6 +2,8 @@
 
 The Enchanted Grove? But... something feels different.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

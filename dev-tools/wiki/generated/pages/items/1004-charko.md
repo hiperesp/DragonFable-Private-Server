@@ -2,6 +2,8 @@
 
 This is the common Red Shelled Charko found in the dangerous water surrounding Sho Nuff Island. It's said that this creature can smell a drop of blood in the water... or the air... from a thousand miles away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1004

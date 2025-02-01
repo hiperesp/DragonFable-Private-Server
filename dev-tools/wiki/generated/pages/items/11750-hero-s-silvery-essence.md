@@ -2,6 +2,8 @@
 
 The true essence of a hero woven with strands of light into the perfect blade to smite undead! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11750

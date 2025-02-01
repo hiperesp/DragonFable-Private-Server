@@ -2,6 +2,8 @@
 
 Wargoth is here to burn. Burn, and destroy.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

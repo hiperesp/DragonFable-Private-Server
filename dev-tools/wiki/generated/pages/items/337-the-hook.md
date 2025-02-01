@@ -2,6 +2,8 @@
 
 This sword will help you get them hook, line and sinker, every time!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 337

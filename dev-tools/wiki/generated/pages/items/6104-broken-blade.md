@@ -2,6 +2,8 @@
 
 While exploring Sil you discovered the broken blade of a sword. If you have the skills of a blacksmith you may be able to reforge it. Try Yulgar's Forge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6104

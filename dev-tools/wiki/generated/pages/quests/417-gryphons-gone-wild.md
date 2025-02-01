@@ -2,6 +2,8 @@
 
 Something is driving the mechagryphons crazy!  They broke out of the hatchery and are scattered around the outskirts of town.  Track them down and subdue them before they get out of control!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

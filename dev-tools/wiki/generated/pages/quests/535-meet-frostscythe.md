@@ -2,6 +2,8 @@
 
 This is the bad guy behind all the ice dragons invading?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

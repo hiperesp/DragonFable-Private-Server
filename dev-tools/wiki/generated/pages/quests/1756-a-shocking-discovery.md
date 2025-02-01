@@ -2,6 +2,8 @@
 
 The intrepid band of Greenguard Alliance explorers enters the ruins... but what will they find waiting within?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

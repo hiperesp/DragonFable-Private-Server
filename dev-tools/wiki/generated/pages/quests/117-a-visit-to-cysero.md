@@ -2,6 +2,8 @@
 
 Guardian Trainer Eckhard has instructed you to visit Cysero, the Mad Weaponsmith, to completely repair your armor. After several dizzying days chasing Cysero around the land you track him down in the tower that he and Warlic call home.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

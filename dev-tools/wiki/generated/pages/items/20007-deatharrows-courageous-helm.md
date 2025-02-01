@@ -2,6 +2,8 @@
 
 The perfect helm for slinking through the shadows. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20007

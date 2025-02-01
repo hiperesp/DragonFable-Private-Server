@@ -2,6 +2,8 @@
 
 Proof of your victory over the Super Sentog Justice Go! Be the hero of tog justice as the ignoble flee from your visage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17870

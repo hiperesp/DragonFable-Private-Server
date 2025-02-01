@@ -2,6 +2,8 @@
 
 The remnants of the Junipurr. While lifeless, this root is remarkably soft. Proof of victory over Junipurr!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20743

@@ -2,6 +2,8 @@
 
 This staff was brought back as proof that its creator came from the other side of the mirror.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 670

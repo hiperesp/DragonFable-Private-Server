@@ -2,6 +2,8 @@
 
 Protect those lighting up Falconreach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

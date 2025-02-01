@@ -2,6 +2,8 @@
 
 This dagger can slash, dice, cut and take a chuck out of your flesh!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 481

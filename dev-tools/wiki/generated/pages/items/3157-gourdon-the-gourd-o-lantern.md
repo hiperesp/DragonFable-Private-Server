@@ -2,6 +2,8 @@
 
 Grown from a tiny, twisted gourd, Gourdon is now determined to prove his pumpkiny worth fighting by your side!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3157

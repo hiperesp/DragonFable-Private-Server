@@ -2,6 +2,8 @@
 
 You can hear gears and lenses whirring in the machinery that focuses the light into blades.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6858

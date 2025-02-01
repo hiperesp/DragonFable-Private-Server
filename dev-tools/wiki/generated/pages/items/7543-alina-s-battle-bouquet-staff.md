@@ -2,6 +2,8 @@
 
 Don't be fooled by this floral weapon; defend the ones you love! Crafted by Ghost in honor of Alina's wedding to Rolith.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7543

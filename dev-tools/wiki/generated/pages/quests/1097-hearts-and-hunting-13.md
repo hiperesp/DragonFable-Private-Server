@@ -2,6 +2,8 @@
 
 Find the remains of Valtrith's minions!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -3,6 +3,8 @@
 From Lady Celestia and all the people of Lore:  Happy Birthday, hero!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2864

@@ -4,6 +4,8 @@ Plegios' attacks HURT.  You're not sure what you're being punished for, but you'
 
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2267

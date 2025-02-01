@@ -2,6 +2,8 @@
 
 This is a tall, fiery stick. It hurls fireballs and is quite powerful. Just don't make it mad...if so, there will be blazephemous results.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1143

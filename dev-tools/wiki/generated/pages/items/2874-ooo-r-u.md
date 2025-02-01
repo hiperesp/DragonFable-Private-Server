@@ -2,6 +2,8 @@
 
 Dodge questions and other attacks, both physical and intellectual with this trinket.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2874

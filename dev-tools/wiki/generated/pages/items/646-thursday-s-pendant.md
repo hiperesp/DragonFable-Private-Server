@@ -2,6 +2,8 @@
 
 This gold and ivory pendant was given to Thursday by her father and has been passed down her family line for generations. She will be very happy to see it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 646

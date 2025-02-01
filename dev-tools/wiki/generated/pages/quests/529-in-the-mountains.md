@@ -2,6 +2,8 @@
 
 Zadd continues to experiment on the Frostval moglins as you work your way through twisting mountain paths and snow!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A two handed long sword... of justice!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800500

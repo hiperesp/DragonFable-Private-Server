@@ -2,6 +2,8 @@
 
 This tough blade will split even the hardest of surfaces.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 846

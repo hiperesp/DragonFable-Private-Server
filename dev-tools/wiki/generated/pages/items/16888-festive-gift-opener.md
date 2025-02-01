@@ -2,6 +2,8 @@
 
 A very useful tool for opening gifts. Multiple gifts at a time. Your friends' gifts. Enemies. Just swing at something and it will open.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16888

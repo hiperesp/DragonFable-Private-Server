@@ -2,6 +2,8 @@
 
 One of the helms used by the Chaos Weaver workers to protect themselves during the construction process.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1459

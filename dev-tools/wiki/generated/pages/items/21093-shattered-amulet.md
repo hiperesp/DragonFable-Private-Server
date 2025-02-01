@@ -2,6 +2,8 @@
 
 An amulet that was once in the shape of a dragon, now shattered into pieces. Proof of victory over Alden Alteon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21093

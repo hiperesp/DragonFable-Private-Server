@@ -2,6 +2,8 @@
 
 This mask helps you brew candied potions! (Side effects may vary)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21267

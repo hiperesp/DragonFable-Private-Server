@@ -2,6 +2,8 @@
 
 Cultivate and grow, create and thrive.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

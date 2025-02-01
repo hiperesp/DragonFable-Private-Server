@@ -2,6 +2,8 @@
 
 The remains of a wind scroll... the ninjas of the Shadow of the Wind village would probably buy this back from you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12334

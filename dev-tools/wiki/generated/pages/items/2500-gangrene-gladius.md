@@ -2,6 +2,8 @@
 
 The greenest disease you hope to never catch!  This item needs a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2500

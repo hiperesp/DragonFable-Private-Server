@@ -2,6 +2,8 @@
 
 A sturdy helm made from tanned Rhoddhu hide. Very warm and cozy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3745

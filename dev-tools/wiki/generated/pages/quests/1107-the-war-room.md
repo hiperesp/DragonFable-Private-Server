@@ -2,6 +2,8 @@
 
 The Rose is attacking, you have to help defend!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

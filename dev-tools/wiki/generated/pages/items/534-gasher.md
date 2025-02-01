@@ -2,6 +2,8 @@
 
 Forced with an extra thick blade, this Dragon Amulet dagger is designed to leave a wound that is impossible to heal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 534

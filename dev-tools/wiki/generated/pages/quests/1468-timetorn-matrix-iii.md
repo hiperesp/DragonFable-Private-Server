@@ -2,6 +2,8 @@
 
 The largest Timetorn Matrix. What lost secrets can you find?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The legendary Pandora blade was darkened for those who wished to claim it on Black Friday 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12978

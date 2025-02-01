@@ -2,6 +2,8 @@
 
 This blade is light and sharp enough to cut through the clouds themselves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 800

@@ -2,6 +2,8 @@
 
 One of the ancient archives of the Exalted. The exalted protectors still wander the halls, watching for any intruders. Will you be able to fight your way through?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

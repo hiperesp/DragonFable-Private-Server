@@ -2,6 +2,8 @@
 
 Worn clean, this immaculate magic bat is a guaranteed hit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4196

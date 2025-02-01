@@ -2,6 +2,8 @@
 
 The other prisoners in the Dragonsgrasp fortress are revolting. Can you quell the riot and save some guards?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

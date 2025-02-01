@@ -2,6 +2,8 @@
 
 Moroz wants to sell the wood in Dragesvard, but it seems something else is going on...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

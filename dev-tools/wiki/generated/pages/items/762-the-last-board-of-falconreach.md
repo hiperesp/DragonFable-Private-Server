@@ -2,6 +2,8 @@
 
 This piece of wood is a symbol of hope for the townsfolk. It is the last remaining piece of our former town. When we are are done rebuilding, turn it in... for something special.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 762

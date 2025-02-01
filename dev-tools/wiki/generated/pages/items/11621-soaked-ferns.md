@@ -2,6 +2,8 @@
 
 A braided cord of ferns soaked in water! At least it won't catch fire...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11621

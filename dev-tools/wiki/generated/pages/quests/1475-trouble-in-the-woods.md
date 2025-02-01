@@ -2,6 +2,8 @@
 
 It's Frostval! All of the moglins are making preparations for this year's festivities! But there seems to be a slight problem...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

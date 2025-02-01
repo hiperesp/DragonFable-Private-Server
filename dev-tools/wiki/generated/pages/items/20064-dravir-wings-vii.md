@@ -2,6 +2,8 @@
 
 A pair of armored-scaled wings styled after the battle scarred ones of a Dravir commander. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20064

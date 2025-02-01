@@ -2,6 +2,8 @@
 
 Magus Neron has been studying infected blood samples but he needs your help to get a closer view!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

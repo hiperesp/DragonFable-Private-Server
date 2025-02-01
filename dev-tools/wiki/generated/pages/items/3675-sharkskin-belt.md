@@ -2,6 +2,8 @@
 
 With this belt you can pretend you're a shark, you're a shaaaaark, YOU'RE A SHAAAAAARRRK!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3675

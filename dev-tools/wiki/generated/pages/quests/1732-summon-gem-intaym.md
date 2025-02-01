@@ -2,6 +2,8 @@
 
 Intaym has broken his shackles to challenge you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

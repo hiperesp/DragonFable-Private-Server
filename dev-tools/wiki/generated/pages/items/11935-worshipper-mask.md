@@ -2,6 +2,8 @@
 
 A twisted "mask" worn by worshippers of Pandora. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11935

@@ -2,6 +2,8 @@
 
 The forces of light and darkness desperately need a bath. Toss them some nitroglicerin sponges!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

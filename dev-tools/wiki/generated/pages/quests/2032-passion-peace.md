@@ -2,6 +2,8 @@
 
 At the end of the universe, there's always time for a challenge.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

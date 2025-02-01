@@ -2,6 +2,8 @@
 
 An ugly, old piece of costume jewelry. Who would want to wear this? At least the metal is worth something...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1847

@@ -2,6 +2,8 @@
 
 No, it's not an entire eyeball. A small shard of crystal pulses with red energy, the remains of the legendary Carnax! Proof of victory over Carnax!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21536

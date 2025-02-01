@@ -2,6 +2,8 @@
 
 Can you find the Cauldron Sisters town before the Zardbies find you?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

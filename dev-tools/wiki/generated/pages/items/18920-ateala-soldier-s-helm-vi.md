@@ -2,6 +2,8 @@
 
 An Ateala soldier's helm of your very own! Since you don't have horns, Alz'ein has added artificial horns to the helmet for you. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18920

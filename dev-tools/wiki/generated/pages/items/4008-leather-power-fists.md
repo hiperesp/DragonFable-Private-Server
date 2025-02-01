@@ -2,6 +2,8 @@
 
 These gloves have been imbued with crit-boosting magic. The best defense is a good offense! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4008

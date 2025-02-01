@@ -2,6 +2,8 @@
 
 A legendary pirate hat, worn by a long gone pirate hero who is said to have guided the first expedition across the Pale Sea. This artifact will change the appearance of the Pirate class when equipped!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18388

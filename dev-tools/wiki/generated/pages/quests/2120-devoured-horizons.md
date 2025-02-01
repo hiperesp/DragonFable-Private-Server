@@ -2,6 +2,8 @@
 
 From beyond the reach of the stars, an unlikely pair of space-faring creatures is here to face you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

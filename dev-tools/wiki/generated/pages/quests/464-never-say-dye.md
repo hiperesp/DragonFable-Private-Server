@@ -2,6 +2,8 @@
 
 Something in Surewould Forest is leeching all the color from the plants!  Who- or what- could be doing this?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A mysterious weapon, presumably a relic from another age. Whether that is the past or future is impossible to say. (Cosmetic) (CC: Element, Trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21627

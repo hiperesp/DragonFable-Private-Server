@@ -2,6 +2,8 @@
 
 This mini Greed will watch over your shoulder as you take what's yours! Hopefully it doesn't take its own share of the loot, though. Proof of victory over the Greed challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18951

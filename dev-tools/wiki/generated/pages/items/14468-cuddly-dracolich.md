@@ -2,6 +2,8 @@
 
 This baby dracolich seems to like you. Or at least thinks you have more fish for it! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14468

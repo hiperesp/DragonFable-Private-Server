@@ -2,6 +2,8 @@
 
 While you were fighting Wargoth... the rest of Lore has fallen into disarray!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Blast your foes with icy wrath and increase their weakness to fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3011

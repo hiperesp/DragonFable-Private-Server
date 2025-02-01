@@ -2,6 +2,8 @@
 
 This necklace is a very thin chain. It?s surprisingly resilient and strong though, and the two connecting bits suggest other uses of a less than savory nature. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5507

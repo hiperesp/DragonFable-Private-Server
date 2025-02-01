@@ -2,6 +2,8 @@
 
 A band of pirates has taken over the lighthouse and put out its light! It's up to you to take it back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

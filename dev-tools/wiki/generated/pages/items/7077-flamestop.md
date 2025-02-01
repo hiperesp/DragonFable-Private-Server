@@ -2,6 +2,8 @@
 
 Get more power as you stop fire in its tracks! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7077

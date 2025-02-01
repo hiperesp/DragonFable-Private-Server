@@ -2,6 +2,8 @@
 
 It's time for San Robin to put the bandits to justice.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

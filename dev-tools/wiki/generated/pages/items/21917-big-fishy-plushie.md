@@ -2,6 +2,8 @@
 
 This massive fish plush doesn't smell or taste anything like fish. It probably can't even swim. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21917

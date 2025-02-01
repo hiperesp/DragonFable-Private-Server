@@ -2,6 +2,8 @@
 
 Volcanic gases swirl around the tip of this wand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2605

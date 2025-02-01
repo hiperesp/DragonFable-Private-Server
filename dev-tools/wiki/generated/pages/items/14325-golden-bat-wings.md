@@ -2,6 +2,8 @@
 
 Luxurious, solid gold wings! You might not be able to fly but you'll look like a true member of the Eternal Royalty! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14325

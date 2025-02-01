@@ -2,6 +2,8 @@
 
 Hair wafting in the breeze, you're ready to smite weaklings and harness the power of the fire orb!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3149

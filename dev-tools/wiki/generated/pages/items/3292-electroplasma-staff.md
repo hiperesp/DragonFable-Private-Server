@@ -2,6 +2,8 @@
 
 When you hold this staff, your hair stands on end.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3292

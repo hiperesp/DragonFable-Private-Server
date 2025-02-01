@@ -2,6 +2,8 @@
 
 A relic from Maar passed down through generations. Reforged by The Rose in pursuit of Lore's salvation. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21849

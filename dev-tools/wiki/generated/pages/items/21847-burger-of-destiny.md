@@ -2,6 +2,8 @@
 
 This axe, forged in the fires of culinary combat, is destined to grill the forces of Doom with its patty of pure light! (Keep away from Artix...) (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21847

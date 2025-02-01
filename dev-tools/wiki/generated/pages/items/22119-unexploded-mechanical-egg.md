@@ -2,6 +2,8 @@
 
 This mechanical egg is warm to the touch. Perhaps there is mechanical life stirring within... or maybe it's about to explode. Proof of victory over the Crane Master.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22119

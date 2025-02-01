@@ -2,6 +2,8 @@
 
 The colorful beads that the clawkin use to make wind chimes also make up this necklace.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10156

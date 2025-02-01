@@ -2,6 +2,8 @@
 
 Its finally time to learn the secret of element Bacon! Can you handle the truth?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

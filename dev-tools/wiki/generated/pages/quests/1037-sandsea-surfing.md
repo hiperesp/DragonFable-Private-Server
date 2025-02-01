@@ -2,6 +2,8 @@
 
 Hang ten on the dunes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

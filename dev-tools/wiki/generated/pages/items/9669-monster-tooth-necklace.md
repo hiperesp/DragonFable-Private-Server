@@ -2,6 +2,8 @@
 
 It smells kinda funny!  Enhances your critical hit chance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9669

@@ -2,6 +2,8 @@
 
 A small amulet left behind by the Symbiotic Darkness Elemental. Wherever it came from, it must have been precious to its owner. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21061

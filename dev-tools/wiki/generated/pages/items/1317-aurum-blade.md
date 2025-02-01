@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. A sword created from the finest aurum ore, it is guaranteed to slice and dice it's way through any random encounter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1317

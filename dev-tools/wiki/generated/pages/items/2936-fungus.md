@@ -2,6 +2,8 @@
 
 This funky dagger came about through Lim's extensive experimentation with plant life... or it's something that grew on top of his leftovers, either or.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2936

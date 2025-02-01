@@ -2,6 +2,8 @@
 
 A replica of a mask belonging to the Nova Phoenix, a myth from the southern lands. It is said that she could see through peoples hearts while wearing it. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20752

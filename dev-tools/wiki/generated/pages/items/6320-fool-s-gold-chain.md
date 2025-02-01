@@ -2,6 +2,8 @@
 
 An ugly, old piece of costume jewelry. That thing is going to turn your neck green...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6320

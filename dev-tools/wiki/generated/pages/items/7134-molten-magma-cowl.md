@@ -2,6 +2,8 @@
 
 The threads of this cowl were pulled from the molten core of a volcano! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7134

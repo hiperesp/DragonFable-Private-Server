@@ -2,6 +2,8 @@
 
 This simple looking staff houses great power, its head is made from a rare deep-earth metal and it's rod is made from the core of an ancient tree.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 407

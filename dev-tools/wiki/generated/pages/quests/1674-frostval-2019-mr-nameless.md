@@ -2,6 +2,8 @@
 
 Mr. Nameless
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

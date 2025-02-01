@@ -2,6 +2,8 @@
 
 This sword has an edge fine enough to shave seconds in half!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 84

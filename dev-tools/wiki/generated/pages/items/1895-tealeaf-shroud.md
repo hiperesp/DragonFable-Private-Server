@@ -2,6 +2,8 @@
 
 This cloak is decorated with special tealeaves. If you're ever adventuring and thirsty you could boil some up.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1895

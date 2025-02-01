@@ -2,6 +2,8 @@
 
 Wolfwing the werepyre is looking to bring others into his clan...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

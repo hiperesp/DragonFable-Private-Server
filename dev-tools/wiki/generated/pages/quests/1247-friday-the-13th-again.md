@@ -2,6 +2,8 @@
 
 War town for Feb F13 2015
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

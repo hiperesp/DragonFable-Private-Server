@@ -2,6 +2,8 @@
 
 This necklace has a large round bell on it.  It was made by the monsters who wanted to hear you coming.  Fortunately the bell is big enough to act as a shield.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7677

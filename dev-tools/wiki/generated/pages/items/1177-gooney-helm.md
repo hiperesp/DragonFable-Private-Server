@@ -3,6 +3,8 @@
 This item requires a Dragon Amulet. Mrrrglglglgl!
 Blub blub blorp blub bububub blorp blububble.*The Lagoon Goon's language cannot be translated into any known language*
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1177

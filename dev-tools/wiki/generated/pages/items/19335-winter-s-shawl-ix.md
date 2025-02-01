@@ -2,6 +2,8 @@
 
 A protective cloak worn by an ancient order of Ice knights, this rare piece was collected by Dracelix and refitted for use in modern combat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19335

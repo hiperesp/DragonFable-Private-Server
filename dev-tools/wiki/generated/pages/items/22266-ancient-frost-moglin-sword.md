@@ -2,6 +2,8 @@
 
 This sword was created by Frost Moglins to confront an ancient threat. Well, not this one specifically. This is just a replica! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22266

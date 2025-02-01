@@ -2,6 +2,8 @@
 
 Under Lupin and Eulin's...very enthusiastic guidance, you've managed to turn this piece of twisted Lagohm scrap into... a slightly less twisted piece of Lagohm scrap metal. Used to create a special reward!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20281

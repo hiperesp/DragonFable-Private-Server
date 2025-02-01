@@ -2,6 +2,8 @@
 
 Can you defeat the Ultra Magma Dragon, Akriloth?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 No one really knows where this came from or how San Robin ended up with it. The only thing that is known is that it is perfectly cooked and smells AMAZING!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13672

@@ -2,6 +2,8 @@
 
 Bite into deliciousness!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10593

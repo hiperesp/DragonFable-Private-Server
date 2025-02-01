@@ -2,6 +2,8 @@
 
 This scythe was wielded by the legendary Unhallowed Rider. The bright glow of this weapon was said to be the last thing many unwary travelers saw. But now it's yours... Has a chance to increase your Boost by 5 for 4 turns.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19089

@@ -2,6 +2,8 @@
 
 Ready... Aim... FIRE!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

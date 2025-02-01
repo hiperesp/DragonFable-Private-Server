@@ -2,6 +2,8 @@
 
 Find your way safely through the Doomwood!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

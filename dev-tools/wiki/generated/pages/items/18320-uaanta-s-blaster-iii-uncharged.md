@@ -2,6 +2,8 @@
 
 Uaanta gifted this emergency back-up wand to you. Unfortunately it's not charged. Maybe you'll be able to find some way to charge it up in the future! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18320

@@ -2,6 +2,8 @@
 
 First there were three hydras.  Then there were nine.  Now there are FORTY-TWO, and they seem to have been combined with a tog to form the ultimate in Togicidal challenge!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

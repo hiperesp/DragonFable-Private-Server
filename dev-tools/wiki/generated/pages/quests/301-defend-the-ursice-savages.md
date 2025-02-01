@@ -2,6 +2,8 @@
 
 Defend the Ursice Savage camp against Aisha's Army.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

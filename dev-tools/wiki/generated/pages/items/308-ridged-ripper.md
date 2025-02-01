@@ -2,6 +2,8 @@
 
 This dagger tears through the flesh in a flash!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 308

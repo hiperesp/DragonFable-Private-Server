@@ -2,6 +2,8 @@
 
 This helm is infused with draconic magic, allowing it to change based on equipped DragonLord trinket! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21572

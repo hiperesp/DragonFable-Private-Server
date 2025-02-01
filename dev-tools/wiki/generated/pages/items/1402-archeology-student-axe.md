@@ -2,6 +2,8 @@
 
 This pick axe is typically used by advanced archeology students. Slightly used, but sturdy. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1402

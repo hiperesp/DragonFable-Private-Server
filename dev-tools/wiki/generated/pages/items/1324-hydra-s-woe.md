@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. Woe be to any hydra that challenges the wielder of this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1324

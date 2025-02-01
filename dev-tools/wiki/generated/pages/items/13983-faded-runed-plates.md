@@ -2,6 +2,8 @@
 
 The inscribed runes on this plated belt are now home to tiny corals, rust, and salt crystals.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13983

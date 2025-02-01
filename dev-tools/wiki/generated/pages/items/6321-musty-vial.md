@@ -2,6 +2,8 @@
 
 A small vial filled with knowledge... well, as much knowledge as it can hold. It smells like old books though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6321

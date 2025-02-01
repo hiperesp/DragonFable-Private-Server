@@ -2,6 +2,8 @@
 
 The flame of liberty burns brightly with this tribute to freedom and national pride! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4050

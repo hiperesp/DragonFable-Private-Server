@@ -2,6 +2,8 @@
 
 Dance to the discordant tune of Discordia!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Finally, Vaal is revealed in all his megalomaniacal glory!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

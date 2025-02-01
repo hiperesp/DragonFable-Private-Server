@@ -2,6 +2,8 @@
 
 Head to Croft and see how the Cauldron Sisters are doing!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

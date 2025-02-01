@@ -2,6 +2,8 @@
 
 Yashta has asked you to to gather some trithril from caves under Atrea.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

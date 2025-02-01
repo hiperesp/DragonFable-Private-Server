@@ -2,6 +2,8 @@
 
 Won't you come, and wash away the pain?  Blackhole fun, won't you come, won't you come?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

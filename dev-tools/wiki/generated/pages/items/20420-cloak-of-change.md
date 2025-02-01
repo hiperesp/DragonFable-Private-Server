@@ -2,6 +2,8 @@
 
 A cloak once worn by unknown heroes long gone. Embedded with prismatic crystals of unknown source, it changes color based on its wearer.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20420

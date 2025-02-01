@@ -2,6 +2,8 @@
 
 The sigh of a wind elemental solidified into this dagger.  It's touch leaves enemies short of breath. NOW HALF-OFF!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4624

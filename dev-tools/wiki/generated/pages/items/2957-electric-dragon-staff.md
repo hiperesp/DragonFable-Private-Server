@@ -2,6 +2,8 @@
 
 A stylized staff, showing Lim's more artistic side. This staff pays homage to the Plasma Dragons. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2957

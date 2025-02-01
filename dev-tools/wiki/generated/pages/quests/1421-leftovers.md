@@ -2,6 +2,8 @@
 
 Your hero is off to have a completely normal day! Maybe they will run some errands? Or just hang around.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

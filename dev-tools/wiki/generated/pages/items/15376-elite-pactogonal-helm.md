@@ -2,6 +2,8 @@
 
 Sure to protect against attacks and ghosts and other stuff! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15376

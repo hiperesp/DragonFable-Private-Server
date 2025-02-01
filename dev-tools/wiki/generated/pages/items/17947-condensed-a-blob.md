@@ -2,6 +2,8 @@
 
 Atgno and Atgasedd, condensed into a singular, pulsing mass.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17947

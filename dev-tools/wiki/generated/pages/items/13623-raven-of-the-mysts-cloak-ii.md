@@ -2,6 +2,8 @@
 
 You may not accomplish all your goals in the light of day, but that's not a bad thing. Let this cloak help you hide and complete your missions.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13623

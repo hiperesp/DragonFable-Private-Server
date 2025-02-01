@@ -2,6 +2,8 @@
 
 Fight your way through Wargoth's elite possessed troops!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

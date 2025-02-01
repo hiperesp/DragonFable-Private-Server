@@ -2,6 +2,8 @@
 
 Mmmpffhh, mmpppff mmhhh pppffhhh hhmmmm. Tttttfffmmmm. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14405

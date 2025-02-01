@@ -2,6 +2,8 @@
 
 A piece of strange cloth found in the Spiral of Creation. Could probably be used to forge and upgrade Exalted gear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18820

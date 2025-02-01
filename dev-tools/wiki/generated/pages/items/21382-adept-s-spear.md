@@ -2,6 +2,8 @@
 
 At one point this was a beautiful weapon, used by the Abyssal Tribe in the defense of their homeland. Now, like its wielders, it serves The Ancient One. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21382

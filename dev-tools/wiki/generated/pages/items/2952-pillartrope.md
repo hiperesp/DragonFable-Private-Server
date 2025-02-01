@@ -2,6 +2,8 @@
 
 This staff makes your hair stand on end!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2952

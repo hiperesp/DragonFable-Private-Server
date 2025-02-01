@@ -2,6 +2,8 @@
 
 An old, cracked pendant, with names inscribed on the back. Perhaps it was once used to contain something. Proof of victory over the Never Apart challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20825

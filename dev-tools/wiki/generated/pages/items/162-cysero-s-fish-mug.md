@@ -2,6 +2,8 @@
 
 This ceramic mug was made in the shape of a fish...or possibly out of a fish. Scrawled across the bottom in black crayon is the name of the mad mystic weaponsmith Cysero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 162

@@ -2,6 +2,8 @@
 
 This spear's legend has grown with yours! Reforged with mysterious embers, it will go down in legend... as will you. Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21919

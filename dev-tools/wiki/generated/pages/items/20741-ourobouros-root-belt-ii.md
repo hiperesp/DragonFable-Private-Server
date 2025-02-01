@@ -2,6 +2,8 @@
 
 A belt woven of living roots, it glows with purple energy. Wherever the root ends or starts, you cannot tell. Proof of victory over Junipurr and The Adjudicator.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20741

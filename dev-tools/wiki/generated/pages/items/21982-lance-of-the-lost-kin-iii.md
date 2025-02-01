@@ -2,6 +2,8 @@
 
 This mighty weapon was forged through cooperation between Void dragons. Click to change appearance and swap its Bonus and Crit. Proof of victory over the Void Reunion challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21982

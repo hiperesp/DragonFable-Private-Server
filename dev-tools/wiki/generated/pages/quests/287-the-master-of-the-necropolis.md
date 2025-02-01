@@ -2,6 +2,8 @@
 
 The Cauldron Sisters have asked you to go to the Necropolis and find what has become of their shipment of stolen sweets!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 After defeating the ancient guardian's, securing the logs and scrolls, and making sure Valencia got the items she was supposed to guard, you deserve a nice banana.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13086

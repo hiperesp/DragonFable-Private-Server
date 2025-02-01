@@ -2,6 +2,8 @@
 
 The town of Ashenvale is under attack! Can you save all the townspeople before the fire rages out control?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

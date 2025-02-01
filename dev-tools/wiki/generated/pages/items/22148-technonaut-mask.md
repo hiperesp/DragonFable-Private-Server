@@ -2,6 +2,8 @@
 
 For everyone, into the Astral Planes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22148

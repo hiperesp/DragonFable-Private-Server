@@ -2,6 +2,8 @@
 
 A shard of the Ultimate Orb. Life can be found in the balance of all of them. The Orbs will never again be used to usurp that balance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5852

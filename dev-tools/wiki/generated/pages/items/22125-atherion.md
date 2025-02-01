@@ -2,6 +2,8 @@
 
 An ancient tool, once bound to a sacred anvil. Whatever history they may have forged together has been lost to time. Click to change its appearance! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22125

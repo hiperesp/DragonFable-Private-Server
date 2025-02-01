@@ -2,6 +2,8 @@
 
 This amulet was left behind after you defeated Carnax. Contained within is a fragment of Carnax, hopefully to slumber forevermore. Proof of victory over Carnax (Extreme)!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21537

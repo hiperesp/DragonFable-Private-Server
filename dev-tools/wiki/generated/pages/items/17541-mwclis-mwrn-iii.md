@@ -2,6 +2,8 @@
 
 The oval tied by fine black chains on this necklace seems like a rather opaque and unreliable mirror. It seems to make you braver and contain your fears, making you a bit more resilient. But the reflection in the mirror itself seems terrified.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17541

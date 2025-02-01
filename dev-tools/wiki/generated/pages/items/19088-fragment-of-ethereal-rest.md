@@ -2,6 +2,8 @@
 
 A small blob of greenish-brown essence, left behind by Sloth in the Arena at the Edge of Time. Sleepy! Used to create the Chibi Sloth cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19088

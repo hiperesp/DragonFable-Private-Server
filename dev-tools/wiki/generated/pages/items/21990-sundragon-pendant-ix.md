@@ -2,6 +2,8 @@
 
 An exquisite polished red gem, enveloped by delicate silver and gold dragon wings, hangs from this pendant.The gem itself is surprisingly cool to the touch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21990

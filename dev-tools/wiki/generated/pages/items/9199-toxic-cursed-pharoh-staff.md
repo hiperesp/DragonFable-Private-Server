@@ -2,6 +2,8 @@
 
 A dry, hot poison infuses this cursed blade.apon is now in your hands!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9199

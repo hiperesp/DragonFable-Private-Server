@@ -2,6 +2,8 @@
 
 Yix needs you to get on top of Sepulchure's Flyign Dracolich Castle and slip a magic eye onto one his flying eyes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

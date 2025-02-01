@@ -2,6 +2,8 @@
 
 A beast without its master, but a servant of Chaos nonetheless.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

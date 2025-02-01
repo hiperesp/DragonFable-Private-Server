@@ -2,6 +2,8 @@
 
 This helm exudes the chilly aura of death.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1878

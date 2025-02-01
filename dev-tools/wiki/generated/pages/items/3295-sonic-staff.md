@@ -2,6 +2,8 @@
 
 If only this staff could do everything you wanted it to. But hey, at least it's good for casting and thwacking! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3295

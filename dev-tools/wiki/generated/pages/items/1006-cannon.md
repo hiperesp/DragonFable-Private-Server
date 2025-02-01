@@ -2,6 +2,8 @@
 
 BOOM, BABY! We're not sure how this small cannon got into a pet shop but, hey... if you want to pay for it, no pirate is going to argue with you. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1006

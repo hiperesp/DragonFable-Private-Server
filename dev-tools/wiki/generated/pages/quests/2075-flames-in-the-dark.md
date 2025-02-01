@@ -2,6 +2,8 @@
 
 Another peaceful Falconreach night... broken by flames in the dark.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

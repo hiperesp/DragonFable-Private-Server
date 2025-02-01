@@ -2,6 +2,8 @@
 
 Awww, thank goodness Lim found a mage to change Mr. Poofles back to his normal self! And Lim even added a big blue bow! This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4853

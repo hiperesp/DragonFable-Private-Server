@@ -2,6 +2,8 @@
 
 Made with hardened leather, imbued with crit-boosting magic, and adorned with cruel spikes. FEEL MY WRATH! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5973

@@ -2,6 +2,8 @@
 
 Hercowles is the son of Zeuster and his consort Hena.  He accomplished many deeds and is considered a hero among chickencows. This wrap was presented to him by a young admirer.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2438

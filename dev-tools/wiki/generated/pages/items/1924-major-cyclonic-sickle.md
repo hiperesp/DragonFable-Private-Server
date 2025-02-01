@@ -2,6 +2,8 @@
 
 This blade's design was inspired by the gracefully curving path a funnel cloud took as it unleashed destruction on a once-bucolic plain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1924

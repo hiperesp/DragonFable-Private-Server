@@ -2,6 +2,8 @@
 
 Be the harlequin queen (or king) you've always wanted to be! With a customizable cape, you can pull off pranks in style! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3658

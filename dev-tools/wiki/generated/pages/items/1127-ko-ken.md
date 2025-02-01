@@ -2,6 +2,8 @@
 
 This curved blade was forged to do as much damage as possible after sliding underneath any defense or armor. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1127

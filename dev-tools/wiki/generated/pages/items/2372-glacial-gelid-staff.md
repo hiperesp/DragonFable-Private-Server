@@ -2,6 +2,8 @@
 
 This staff is so cold that when you place it near slithy toves, they grow too cold to gyre and gimble.  That's how you know it's really, really cold. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2372

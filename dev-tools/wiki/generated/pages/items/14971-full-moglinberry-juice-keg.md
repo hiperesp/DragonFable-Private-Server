@@ -2,6 +2,8 @@
 
 Wow! It's full of juice! Lucky you were able to get to it. It should sell for a decent price once it's cleaned off.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14971

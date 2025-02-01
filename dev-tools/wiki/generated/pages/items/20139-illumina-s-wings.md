@@ -2,6 +2,8 @@
 
 Stylish wings of light! (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20139

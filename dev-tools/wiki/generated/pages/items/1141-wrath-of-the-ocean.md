@@ -2,6 +2,8 @@
 
 It was told that Poseidon himself crafted this staff, but then the real one was found. This is probably just a cheap knock off. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1141

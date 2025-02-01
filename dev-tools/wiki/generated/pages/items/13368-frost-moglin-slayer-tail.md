@@ -2,6 +2,8 @@
 
 The Frost Moglins crafted this tail in the hope of appeasing you. It's a reminder that you are their greatest foe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13368

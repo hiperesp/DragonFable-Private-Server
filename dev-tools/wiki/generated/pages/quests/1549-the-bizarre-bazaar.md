@@ -2,6 +2,8 @@
 
 The pauper's bazaar is your next lead... What's with all the attacking rotten food though?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

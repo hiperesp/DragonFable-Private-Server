@@ -2,6 +2,8 @@
 
 The scepter of Emperor Kuron, an ancient ruler in the city of Sil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6108

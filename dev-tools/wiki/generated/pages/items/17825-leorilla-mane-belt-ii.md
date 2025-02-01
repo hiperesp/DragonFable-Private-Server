@@ -2,6 +2,8 @@
 
 This belt looks like a tiny Leorilla mane around your waist! It fills you with pride and ferocity! Proof of your conquering the Leorilla and Bearginion challenges. No Leorillas were harmed in the making of this belt. Really!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17825

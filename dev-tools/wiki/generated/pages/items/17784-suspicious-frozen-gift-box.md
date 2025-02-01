@@ -2,6 +2,8 @@
 
 Something is rattling around inside this box! What could it be?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17784

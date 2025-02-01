@@ -2,6 +2,8 @@
 
 You commissioned this cube mechanism based on the memories of your dream, but it ended up just being a solid lump of metal. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20812

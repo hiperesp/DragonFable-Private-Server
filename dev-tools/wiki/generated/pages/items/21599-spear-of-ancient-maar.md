@@ -2,6 +2,8 @@
 
 Bathed in the fiery blessing of Akriloth's previous incarnation, this sacred weapon ignites your spirit, channeling the untamed power of his flames. (Cosmetic) (CC: Dragon Eye)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21599

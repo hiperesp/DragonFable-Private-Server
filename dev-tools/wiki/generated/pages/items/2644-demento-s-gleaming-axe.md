@@ -2,6 +2,8 @@
 
 This silver Axe commemorates Demento, who gave his life to warn us of the coming evil of Drakonnan.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2644

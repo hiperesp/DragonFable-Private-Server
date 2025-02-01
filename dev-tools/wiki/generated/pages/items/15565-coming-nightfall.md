@@ -2,6 +2,8 @@
 
 A sword with an enchanted blade which was forged from the fabric of night itself.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15565

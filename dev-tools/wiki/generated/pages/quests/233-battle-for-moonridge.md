@@ -2,6 +2,8 @@
 
 The town of Moonridge, deep within Doomwood has fallen under attack from waves of the undead and sent to Falconreach for help!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

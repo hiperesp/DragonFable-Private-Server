@@ -2,6 +2,8 @@
 
 It's Krampy, the helpful healer from Frostval! Damage scales with player level, healing gets a bonus from CHA!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18599

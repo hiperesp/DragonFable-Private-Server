@@ -2,6 +2,8 @@
 
 You need never fear being lost in the dark with this staff.  The small silver orb contained within the chamber mounted on top will give off enough light to show your path no matter how twisted and treacherous.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2057

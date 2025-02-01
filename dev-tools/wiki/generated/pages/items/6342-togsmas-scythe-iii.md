@@ -2,6 +2,8 @@
 
 Merry Togsmas 2011! A special weapon made to honor your brave fight through Rolith's tog army to free Frostvale from his tyranny of silly hats!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6342

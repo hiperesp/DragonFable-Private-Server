@@ -2,6 +2,8 @@
 
 When you wear this mask, you go fast, live, learn, and feel like the world is yours, or it might be, tomorrow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19991

@@ -2,6 +2,8 @@
 
 A key to the Equilibrium Gate, a key to victory against your opponents. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4912

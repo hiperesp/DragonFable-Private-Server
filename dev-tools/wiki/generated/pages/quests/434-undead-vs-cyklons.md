@@ -3,6 +3,8 @@
 Play as an undead minion of Sepulchure and try to capture 
 Cyklons!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

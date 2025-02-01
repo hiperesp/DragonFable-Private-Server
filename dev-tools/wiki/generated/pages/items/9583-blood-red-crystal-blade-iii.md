@@ -2,6 +2,8 @@
 
 Magic sands used by the Clawkin melted into this wicked blade in the fires.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9583

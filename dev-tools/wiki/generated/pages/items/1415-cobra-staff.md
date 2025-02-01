@@ -2,6 +2,8 @@
 
 The carving on this staff is incredibly life-like... it is a carving, right? Right? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1415

@@ -2,6 +2,8 @@
 
 Relive the war!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

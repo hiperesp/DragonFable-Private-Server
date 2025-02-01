@@ -2,6 +2,8 @@
 
 The carefully honed blade of the bounty hunter, J6. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22042

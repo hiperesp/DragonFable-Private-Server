@@ -2,6 +2,8 @@
 
 The force of a cold north wind is trapped within this  blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 814

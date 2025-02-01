@@ -2,6 +2,8 @@
 
 Help out Ash in order to get him to his mom's house for Mother's Day!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

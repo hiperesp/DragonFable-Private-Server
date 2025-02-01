@@ -2,6 +2,8 @@
 
 Using the Quick-weld Wallpaste as a catalyst, the Tempered Lagohm Metal was melted down and reforged into this electrifying ingot! Lupin and Eulin seem oddly surprised at the success. Used to create a special reward!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20282

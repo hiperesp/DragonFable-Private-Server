@@ -2,6 +2,8 @@
 
 The glow is perfectly natural. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21144

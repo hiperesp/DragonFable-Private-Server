@@ -2,6 +2,8 @@
 
 This ring can help you slip out of even the stickiest of situations, adding 2 to your dodge rating!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1599

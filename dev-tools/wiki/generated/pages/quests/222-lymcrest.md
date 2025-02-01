@@ -2,6 +2,8 @@
 
 A friendly mining town populated by dwarven and human miners.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

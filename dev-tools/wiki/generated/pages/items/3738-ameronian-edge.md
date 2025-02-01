@@ -2,6 +2,8 @@
 
 A steel blade infused with a blistering cold.  Cold hard steel at it's finest! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3738

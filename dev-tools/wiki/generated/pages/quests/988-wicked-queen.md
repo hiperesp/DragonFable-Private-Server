@@ -2,6 +2,8 @@
 
 Defeat Queen Pallor and put an end to her horrible experiments!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

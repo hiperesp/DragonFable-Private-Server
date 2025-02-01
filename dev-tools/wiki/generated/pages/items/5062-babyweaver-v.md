@@ -2,6 +2,8 @@
 
 This baby ChaosWeaver took a liking to you when you saved it's life during the RavenLoss war. It would like to travel with you and help you on your journey.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5062

@@ -2,6 +2,8 @@
 
 The rarest dye of them all!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2713

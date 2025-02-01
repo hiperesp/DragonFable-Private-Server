@@ -3,6 +3,8 @@
 The blade on this weapon is colored with the glowing spores of Somorahan fungi.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6667

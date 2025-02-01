@@ -2,6 +2,8 @@
 
 You found this old ring in the woods around Amityvale. Moss and dirt clings to a plain band. Touching the ornate design of the signet gives you a small shock!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19009

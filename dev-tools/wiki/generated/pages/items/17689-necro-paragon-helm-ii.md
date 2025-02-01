@@ -2,6 +2,8 @@
 
 The official helm of the legendary legion of elite Necro Paragons. Your reward for clearing the Cauldron Groupies Nefarious Challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17689

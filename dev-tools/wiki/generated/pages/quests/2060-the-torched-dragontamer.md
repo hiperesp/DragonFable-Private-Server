@@ -2,6 +2,8 @@
 
 As you near the end of your Guardian training, Guardian Trainer Eckhard has asked you to pass the test of might by defeating Dragontamer Firehammer on his own turf.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

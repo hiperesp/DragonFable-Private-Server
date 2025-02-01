@@ -2,6 +2,8 @@
 
 The immortal Heart of Odium has been freed to feed off the world's hate and selfishness, and destroy every last scrap of Love on Lore unless you and your dragon can stop it.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

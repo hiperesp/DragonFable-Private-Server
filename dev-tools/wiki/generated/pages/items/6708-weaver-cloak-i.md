@@ -2,6 +2,8 @@
 
 A beautifully woven Soulweaver cloak.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6708

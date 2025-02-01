@@ -2,6 +2,8 @@
 
 According to the writing in the magic window, this odd little pet was designed as a combat and repair drone for the CorDemi, the strange race who build the CorDemi Codex. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1014

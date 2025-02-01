@@ -2,6 +2,8 @@
 
 This small purple sphere trembles with energy. It resonates with Dragon Amulets to increase the offensive power of DragonLords at the cost of defensive ability. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20386

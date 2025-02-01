@@ -2,6 +2,8 @@
 
 These daggers slide in your hands, leaving a trail of ooze wherever you go.This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17178

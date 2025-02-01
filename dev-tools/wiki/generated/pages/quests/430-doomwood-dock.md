@@ -2,6 +2,8 @@
 
 This spooky dock is for fishing!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

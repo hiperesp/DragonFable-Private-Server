@@ -2,6 +2,8 @@
 
 I double dog dare you to touch your tongue to it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1894

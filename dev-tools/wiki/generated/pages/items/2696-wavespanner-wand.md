@@ -2,6 +2,8 @@
 
  All the power of the ocean contained in one small wand!  Use it wisely.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2696

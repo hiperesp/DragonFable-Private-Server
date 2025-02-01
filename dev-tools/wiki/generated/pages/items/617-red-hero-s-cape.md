@@ -2,6 +2,8 @@
 
 This blood red cape shows the world that you are an arena fighter as well as a powerful hero to be respected.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 617

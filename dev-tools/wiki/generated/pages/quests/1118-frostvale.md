@@ -2,6 +2,8 @@
 
 Cultists are looking for an artifact in Frostvale.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

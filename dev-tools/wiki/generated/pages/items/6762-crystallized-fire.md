@@ -2,6 +2,8 @@
 
 A piece of elemental fire crystallized, it still burns and glows. Use one of these to upgrade your Fire Claw Scythe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6762

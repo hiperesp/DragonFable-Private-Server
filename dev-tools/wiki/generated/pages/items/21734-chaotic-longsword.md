@@ -2,6 +2,8 @@
 
 The now dormant longsword of the Chaos Lord Berserker. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21734

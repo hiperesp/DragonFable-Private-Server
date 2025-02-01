@@ -2,6 +2,8 @@
 
 The DragonSlayer Galanoth would lead you into the depths of the mountain...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

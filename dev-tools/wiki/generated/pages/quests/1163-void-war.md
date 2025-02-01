@@ -2,6 +2,8 @@
 
 Void creatures are pushing you back, but you keep destroying them.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

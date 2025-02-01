@@ -2,6 +2,8 @@
 
 The icy power of this staff will tear through your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1801

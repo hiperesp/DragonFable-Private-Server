@@ -2,6 +2,8 @@
 
 As Ravenloss expands more caverns and caves are being uncovered, which can lead out... and into, Ravenloss.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This mask won't fade away, that's for sure.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20622

@@ -2,6 +2,8 @@
 
 A small vial of buzzing energy, the sanctified power core of Suki's armor. Proof of victory over Suki.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21033

@@ -2,6 +2,8 @@
 
 You've got to stop Greed!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

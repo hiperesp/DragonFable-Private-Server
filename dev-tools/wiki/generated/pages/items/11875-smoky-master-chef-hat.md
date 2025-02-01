@@ -2,6 +2,8 @@
 
 Only for the most serious of chefs! You can upgrade this item at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11875

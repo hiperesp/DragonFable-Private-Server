@@ -2,6 +2,8 @@
 
 This...creature?... comes from parts unknown. Grams found a box of these things on her doorstep and after training them... found them too odd to deal wth so she gave them to Cysero. Blak5!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12933

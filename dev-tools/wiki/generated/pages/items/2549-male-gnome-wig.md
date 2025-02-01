@@ -2,6 +2,8 @@
 
 Love everything Gnomish but can't quite bring yourself to copy their outrageous hairstyles permanently?  Now, for the low, low price of free, you too can own a stylish Gnome-inspired wig! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2549

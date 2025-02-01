@@ -2,6 +2,8 @@
 
 The horde of delivery undead is running rampant! You need to stop them before their candy deliveries go very wrong!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

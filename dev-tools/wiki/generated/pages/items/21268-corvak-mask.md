@@ -2,6 +2,8 @@
 
 Wearing this mask will not make you overcome by Chaos. Even without sugar.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21268

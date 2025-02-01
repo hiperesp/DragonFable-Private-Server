@@ -2,6 +2,8 @@
 
 Everyone knows Bear Claws are delicious, but this one in particular is more damaging than others.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2942

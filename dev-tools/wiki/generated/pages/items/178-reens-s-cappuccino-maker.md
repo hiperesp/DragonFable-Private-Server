@@ -2,6 +2,8 @@
 
 This brass machine is said to be the source of Reens's power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 178

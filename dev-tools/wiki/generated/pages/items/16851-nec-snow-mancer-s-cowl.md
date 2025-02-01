@@ -2,6 +2,8 @@
 
 You snatched this hood off of the evil nec-snow-mancer Chilly... but wasn't it just a story? HOW DID YOU DO THAT!?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16851

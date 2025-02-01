@@ -2,6 +2,8 @@
 
 That is the cutest fire elemental EVER!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4722

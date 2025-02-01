@@ -2,6 +2,8 @@
 
 Now with 1300% more Darkness! Enjoy your Black Friday '15 weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15096

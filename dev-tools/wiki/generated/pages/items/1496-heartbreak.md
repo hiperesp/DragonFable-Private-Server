@@ -2,6 +2,8 @@
 
 This staff has been enchanted with the illusion of a pulsing heart on the top of the staff to gross out your enemies. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1496

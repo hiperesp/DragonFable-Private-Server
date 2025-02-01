@@ -2,6 +2,8 @@
 
 Passed down from a long line of warriors and explorers, this enchanted axe is the weapon of choice when facing creatures that dwell in maze-like structures. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4214

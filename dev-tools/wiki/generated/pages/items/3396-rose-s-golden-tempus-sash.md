@@ -2,6 +2,8 @@
 
 Time keeps on slipping into the future. Time is golden.  So by some transitive property of math, gold keeps on slipping into the future. Is there any way to make money off of that?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3396

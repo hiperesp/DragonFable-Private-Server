@@ -2,6 +2,8 @@
 
 A powerful golden dragon commissioned this staff made in her image, so that she could use it as a magic focus when in human form.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 281

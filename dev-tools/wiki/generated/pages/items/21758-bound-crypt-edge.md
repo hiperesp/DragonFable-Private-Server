@@ -2,6 +2,8 @@
 
 Carved from a single bone from a long extinct creature, this blade drips with ancient malice. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21758

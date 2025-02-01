@@ -2,6 +2,8 @@
 
 This sword has an average blade but an enchanted hilt! Don't see a lot of those floating around. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 935

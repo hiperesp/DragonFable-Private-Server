@@ -2,6 +2,8 @@
 
 This beautiful staff harnesses the power of Ice through SCIENCE! The warning label says not to lick it. Pft. What could really happen?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14137

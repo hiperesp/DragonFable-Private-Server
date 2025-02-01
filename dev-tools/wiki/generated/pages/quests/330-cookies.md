@@ -2,6 +2,8 @@
 
 Help Sally make cookies... and escape with you life!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

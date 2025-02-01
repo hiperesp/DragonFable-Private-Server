@@ -2,6 +2,8 @@
 
 The sands of eternity run through this weapon. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9480

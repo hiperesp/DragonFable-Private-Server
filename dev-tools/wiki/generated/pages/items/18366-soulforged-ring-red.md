@@ -2,6 +2,8 @@
 
 This golden ring with bright red ephemeral jewels warms your finger. The Elemental Spirit of Courage is bound to this item, making the wearer feel at ease and always up to the task. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18366

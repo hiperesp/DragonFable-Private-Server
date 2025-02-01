@@ -2,6 +2,8 @@
 
 Face the same challenge all Knights face before earning their Pactoginal Badges...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

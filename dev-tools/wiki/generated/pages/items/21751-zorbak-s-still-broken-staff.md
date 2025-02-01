@@ -2,6 +2,8 @@
 
 Despite your best attempts at mending it, this old staff still refuses to do anything more than look enticingly flammable. Proof of victory over Zorbak, Master of Ebil, and Artix, the Mighty Paladin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21751

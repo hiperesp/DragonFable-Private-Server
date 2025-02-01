@@ -2,6 +2,8 @@
 
 Rough links of gold ore create the chain of this necklace.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5181

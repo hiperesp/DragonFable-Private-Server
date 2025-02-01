@@ -2,6 +2,8 @@
 
 Long ago, when this sword was forged, the blue desert lotus was a common symbol used in weapon design. Today the people of The Sandsea like a more practical design, but the symbol is still highly respected.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1435

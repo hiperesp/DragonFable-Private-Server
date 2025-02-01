@@ -2,6 +2,8 @@
 
 When you put this mask on, you feel a sudden dislike for bananas.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21288

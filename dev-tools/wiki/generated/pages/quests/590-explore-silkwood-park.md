@@ -2,6 +2,8 @@
 
 With so many overgrown paths and trails in the Park, surely you couldn't have explored them all!  Head back into the tangled vines and dying bushes to see what else you can find!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

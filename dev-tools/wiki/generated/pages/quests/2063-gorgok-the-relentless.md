@@ -2,6 +2,8 @@
 
 Guess who's back? It's Gorgok, returned for another round, and another attempt at conquering Willowshire's Guardian Tower!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

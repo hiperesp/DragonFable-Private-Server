@@ -2,6 +2,8 @@
 
 A small strange orb that fits int he palm of your hand. Something about it feels familiar, yet so different. Proof of victory over the Fractured Self challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19847

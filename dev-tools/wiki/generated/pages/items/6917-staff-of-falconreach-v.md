@@ -2,6 +2,8 @@
 
 You got this weapon from the people of Falconreach in exchange for the Last Board of Falconreach, the only part of the town left after the attack of Xan!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6917

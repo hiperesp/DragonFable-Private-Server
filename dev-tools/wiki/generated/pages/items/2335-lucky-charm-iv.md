@@ -2,6 +2,8 @@
 
 This ring looks to be carved from a single emerald.  Sitting atop it is a tiny obsidian skull, which is menacingly beautiful.  I wouldn't look too hard into the skull's ruby eyes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2335

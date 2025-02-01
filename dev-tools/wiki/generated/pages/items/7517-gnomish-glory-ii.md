@@ -2,6 +2,8 @@
 
 A gorgeous example of gnomish science... or is it magic?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7517

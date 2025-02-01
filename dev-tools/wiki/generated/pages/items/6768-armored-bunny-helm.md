@@ -2,6 +2,8 @@
 
 A fiercely cuddly helm! Count to five before throwing anything...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6768

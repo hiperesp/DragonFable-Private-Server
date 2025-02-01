@@ -2,6 +2,8 @@
 
 This replica of the staff used by Zorbak was created by Ashendal. It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14352

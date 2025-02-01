@@ -2,6 +2,8 @@
 
 M.O.P. is working hard to relocate and house all those who were displaced by the infection last year.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

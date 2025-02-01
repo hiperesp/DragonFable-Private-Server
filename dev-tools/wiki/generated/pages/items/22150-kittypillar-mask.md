@@ -2,6 +2,8 @@
 
 Surprisingly bristly and not at all soft.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22150

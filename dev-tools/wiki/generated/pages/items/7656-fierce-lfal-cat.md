@@ -2,6 +2,8 @@
 
 Woof woof wooooooooof! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7656

@@ -2,6 +2,8 @@
 
 Caitiff has created and sent your fallen comrades to attack multiple locations. Will you fight them?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

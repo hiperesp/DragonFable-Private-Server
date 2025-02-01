@@ -2,6 +2,8 @@
 
 Can Ash and his mystery friend save the Ice Princess from her fate?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

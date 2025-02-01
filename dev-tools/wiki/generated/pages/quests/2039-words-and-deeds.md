@@ -2,6 +2,8 @@
 
 The Magesterium attack has thrown the Gala into disarray. It's up to you to escort King Alteon to safety...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

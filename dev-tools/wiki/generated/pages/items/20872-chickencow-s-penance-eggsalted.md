@@ -2,6 +2,8 @@
 
 If it weren't for the rest of your body, one might imagine you were the incarnation of a chickencow that surpassed the bounds of reality and unwound the fabric of existence. That would be silly, wouldn't it? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20872

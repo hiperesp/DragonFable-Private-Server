@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. A powerful geomancer used all the forces of the planet in the creation of this fantastic magic staff. It has its own gravity, and atmosphere.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 677

@@ -2,6 +2,8 @@
 
 The path east of Oaklore that leads to Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The TerraStag horns that crown this helm are powerful talismans of druidic magic used in Earth festivals. Wear yours proudly in celebration of Earth Day '13!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9435

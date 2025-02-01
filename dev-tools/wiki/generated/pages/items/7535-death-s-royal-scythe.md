@@ -2,6 +2,8 @@
 
 Touched by the hand of Death himself, this void scythe is bound with the strings of fate. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7535

@@ -2,6 +2,8 @@
 
 Defeat the boss illusions and show off your skills!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

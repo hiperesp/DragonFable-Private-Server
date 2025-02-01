@@ -2,6 +2,8 @@
 
 A beautifully made stave but not very magical... it is pretty heavy though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6293

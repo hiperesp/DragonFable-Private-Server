@@ -2,6 +2,8 @@
 
 The mysterious and gentle figure known as The Tulip was rarely seen, but with her partner, Blue Dahlia, no treasure was safe. This is her cloak, woven from flower petals in an ancient time.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19654

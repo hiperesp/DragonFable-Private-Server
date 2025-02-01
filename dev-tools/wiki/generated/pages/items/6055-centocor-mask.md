@@ -2,6 +2,8 @@
 
 You can almost hear the icy winds of the north when you wear this Mogloween 2011 mask!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6055

@@ -2,6 +2,8 @@
 
 A glistening, sparkling fang from the Hyperhydra! It seems to drip a black liquid that swirls and vanishes before it can land on the ground. Proof of victory over the Hyperhydra. Used to merge into a reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18601

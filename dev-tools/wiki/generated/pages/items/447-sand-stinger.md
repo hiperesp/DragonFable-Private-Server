@@ -2,6 +2,8 @@
 
 This little creature looks like an insect but is actually a very low level earth elemental.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 447

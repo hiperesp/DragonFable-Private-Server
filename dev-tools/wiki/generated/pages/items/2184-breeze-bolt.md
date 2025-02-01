@@ -2,6 +2,8 @@
 
 The energy emanating from this staff has the power to control the winds which rage around Mount Beeflympu.   Since Zeuster hasn't said anything about you taking it yet, you're probably alright.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2184

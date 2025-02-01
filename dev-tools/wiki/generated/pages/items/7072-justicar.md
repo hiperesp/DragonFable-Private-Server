@@ -3,6 +3,8 @@
 A lithe blade crafted from silver to celebrate Eric Greydawn's birthday!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7072

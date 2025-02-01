@@ -2,6 +2,8 @@
 
 This arcane staff has had its elemental orb seperated into three seperate orbs which dilutes its elemental power but increases its damage output.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 536

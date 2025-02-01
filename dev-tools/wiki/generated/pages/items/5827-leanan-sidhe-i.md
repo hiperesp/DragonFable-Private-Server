@@ -2,6 +2,8 @@
 
 This beautiful female Sidhe is considered the muse, who offers inspiration to an artist in exchange for their love and devotion.  This unfortunately tends to result in madness or death for the artist. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5827

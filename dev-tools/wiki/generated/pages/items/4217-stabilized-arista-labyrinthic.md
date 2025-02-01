@@ -2,6 +2,8 @@
 
 After all this time, the hardened stone within this staff still features a lustrous finish. It's pretty. Probably toxic, but very pretty. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4217

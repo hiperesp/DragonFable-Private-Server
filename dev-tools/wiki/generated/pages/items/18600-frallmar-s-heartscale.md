@@ -2,6 +2,8 @@
 
 A singular perfect scale plucked from the young Frallmar. Proof of victory over Frallmar, Scourge of Frostval! Used to merge into a reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18600

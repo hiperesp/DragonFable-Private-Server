@@ -2,6 +2,8 @@
 
 A vial of fairy dust. You hoped whatever fairy made it... parted with it willingly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8514

@@ -2,6 +2,8 @@
 
 This oddly shaped instrument is presumably a pipe. However, inscribed on its underside are the words "This is Not a Pipe". At least you can wear it as a necklace, since it doesn't say "This is Not a Necklace"! Proof of victory over "In Wanderland".
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21363

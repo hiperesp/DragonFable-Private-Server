@@ -2,6 +2,8 @@
 
 An opulent fur cape denoting Sofist's rank as a senior member amongst the Rose. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11914

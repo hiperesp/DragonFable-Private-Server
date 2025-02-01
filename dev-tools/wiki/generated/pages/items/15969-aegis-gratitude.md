@@ -2,6 +2,8 @@
 
 Aegis was so grateful, his emotions manifested into this palpable necklace for you to wear. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15969

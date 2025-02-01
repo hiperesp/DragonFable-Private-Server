@@ -2,6 +2,8 @@
 
 All that remains of the Drop Bear. Makes a good hat, but holds on a little too tightly when you try to take it off. Gsviv ziv nliv nlmhgvih gszm R ivnvnyvi xivzgrmt. Xlmxvimrmt. Sldvevi, gsvb hvvn gl yv zyov gl xilhh hkvxrvh xlnnfmrxzgv...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19237

@@ -2,6 +2,8 @@
 
 R gsrmp gsv zigruzxg rh szermt hlnv vuuvxg lm nb nrmw. Nb gslftsgh, ml, nb uvzih ziv hgilmtvi. R hslfow olxp rg zdzb, yfg R xzm'g.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20264

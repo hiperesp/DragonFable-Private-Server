@@ -3,6 +3,8 @@
 A lithe blade crafted from silver to celebrate Black Friday!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7698

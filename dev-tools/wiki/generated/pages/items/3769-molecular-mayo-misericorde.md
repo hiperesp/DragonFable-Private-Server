@@ -2,6 +2,8 @@
 
 Ice + Mayonnaise = Smashing your tastebuds with awesome! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3769

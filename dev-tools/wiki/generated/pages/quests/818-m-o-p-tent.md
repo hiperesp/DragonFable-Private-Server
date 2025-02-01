@@ -2,6 +2,8 @@
 
 M.O.P. is at the mansion in Moonridge...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

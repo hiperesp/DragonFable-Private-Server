@@ -2,6 +2,8 @@
 
 Lupin and Eulin took the gearcircuit and sparking ingot to the side, and after some time, emerged with this almost incomprehensible piece of machinery. Used to create a special reward!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20283

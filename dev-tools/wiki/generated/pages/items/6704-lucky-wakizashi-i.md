@@ -2,6 +2,8 @@
 
 This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6704

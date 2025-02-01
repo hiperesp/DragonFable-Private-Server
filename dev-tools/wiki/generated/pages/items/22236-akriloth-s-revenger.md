@@ -2,6 +2,8 @@
 
 Those who remained alive after Pelekoa's gruesome fate swore revenge on Akriloth, forging weapons such as this one. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22236

@@ -3,6 +3,8 @@
 Stolen from a different universe, this ancient weapon was able to cut planets in half!
 Unfortunately this is a lie. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22136

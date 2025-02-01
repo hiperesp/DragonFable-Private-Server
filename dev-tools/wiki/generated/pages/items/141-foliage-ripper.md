@@ -2,6 +2,8 @@
 
 Lean and green, this axe will make you a mean machine in battle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 141

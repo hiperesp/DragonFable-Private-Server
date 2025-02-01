@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create. The design of this blade is said to take it right to the heart of your enemy. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1223

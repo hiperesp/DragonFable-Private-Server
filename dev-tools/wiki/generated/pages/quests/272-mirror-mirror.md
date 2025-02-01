@@ -2,6 +2,8 @@
 
 The magic mirror has taken you to a curious cave. Clear the room to escape.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

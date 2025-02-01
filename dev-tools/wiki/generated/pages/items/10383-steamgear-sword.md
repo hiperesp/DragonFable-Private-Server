@@ -2,6 +2,8 @@
 
 MG crafted these for you with items left in Popsprocket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10383

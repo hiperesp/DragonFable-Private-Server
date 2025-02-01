@@ -3,6 +3,8 @@
 The weapon will definitely keep your enemies ashore. 
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 984

@@ -2,6 +2,8 @@
 
 The battle ensues...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

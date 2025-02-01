@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 20 or higher to create. A very sturdy staff design for the mage who has run out of mana. In that situation, just start whacking your enemy with it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1225

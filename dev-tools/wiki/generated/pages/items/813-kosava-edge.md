@@ -2,6 +2,8 @@
 
 This slight dagger draws power from the cold southeasterly wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 813

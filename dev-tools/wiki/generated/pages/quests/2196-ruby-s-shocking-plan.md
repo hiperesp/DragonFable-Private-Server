@@ -2,6 +2,8 @@
 
 Dr. Voltabolt needs help this Thankstaking... and Ruby the AdventureChef has a plan! It just needs a little help from you, of course.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

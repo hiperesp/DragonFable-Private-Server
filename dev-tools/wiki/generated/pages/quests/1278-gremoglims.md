@@ -2,6 +2,8 @@
 
 Lim's basement is infested with gremoglins? They're GREMOGLIMS!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

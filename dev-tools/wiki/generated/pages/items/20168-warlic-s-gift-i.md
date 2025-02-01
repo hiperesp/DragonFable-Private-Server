@@ -2,6 +2,8 @@
 
 This staff seems to have grown around the orb at its focus. Has a 5% chance on hit to recover some MP. Proof of victory over Warlic, the Blue Mage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20168

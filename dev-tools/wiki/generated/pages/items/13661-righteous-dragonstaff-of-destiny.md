@@ -2,6 +2,8 @@
 
 When you stand against the darkness holding this staff you never feel alone. This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13661

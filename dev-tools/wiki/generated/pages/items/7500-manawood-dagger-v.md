@@ -2,6 +2,8 @@
 
 Created by the master weaponsmiths, in the Manawood section of Dreamwood. Click on the gem to switch from water to nature.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7500

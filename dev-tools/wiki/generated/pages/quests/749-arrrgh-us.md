@@ -2,6 +2,8 @@
 
 It's time to meet the thief who absconded with the Princess and her friends. Meet him... somewhere over the DOOMbow!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

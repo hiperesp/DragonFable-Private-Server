@@ -2,6 +2,8 @@
 
 This huggable plush doll was made in the image of the ranger Zhoom. It's as deadly as it is warm and snuggly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 164

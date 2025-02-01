@@ -2,6 +2,8 @@
 
 The bones that make up these wings appear to have come from a dragon. The Doom, however, seems to have been added later. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21937

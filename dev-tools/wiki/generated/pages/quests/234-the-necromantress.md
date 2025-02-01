@@ -2,6 +2,8 @@
 
 You find yourself face to face with the necromantress behind the Moonridge Invasion.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

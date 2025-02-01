@@ -2,6 +2,8 @@
 
 He probably won't miss this at all...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14797

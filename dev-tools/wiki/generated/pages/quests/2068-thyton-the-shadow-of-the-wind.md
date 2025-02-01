@@ -2,6 +2,8 @@
 
 Thyton, the leader of the Shadow of the Wind ninja clan, has taken a break from leading to test his might...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -3,6 +3,8 @@
 Forged by a Ghostly DragonLord, the blade of the ChaosMoon is infused with the fire of the once mighty Akriloth.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6936

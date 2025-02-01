@@ -2,6 +2,8 @@
 
 It's a Book of Lore! Just like the one you have, except bigger, heavier, and non-functional as a book in all respects. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20941

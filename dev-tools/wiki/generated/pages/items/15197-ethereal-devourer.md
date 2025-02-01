@@ -2,6 +2,8 @@
 
 Forged by True Mortal for DragonFable's 10th Anniversary. This fiery weapon will become more accurate, but less critical, as it glows. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15197

@@ -2,6 +2,8 @@
 
 He's so adorable, and yet all your enemies will flee from him in terror!   This item requres a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3045

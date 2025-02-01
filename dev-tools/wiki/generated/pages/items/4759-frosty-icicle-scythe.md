@@ -2,6 +2,8 @@
 
 Brrrr! Chilliest scythe ever! Merge bits of fluff at the Defender's Rares shop in the Mayor's office.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4759

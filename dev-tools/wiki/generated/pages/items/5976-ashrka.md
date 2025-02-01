@@ -2,6 +2,8 @@
 
 Ashrka was a noble warrior who travelled north beyond Dragesvard with his brothers to attempt to map more of the wilderness.  No one knows what ever happened to them. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5976

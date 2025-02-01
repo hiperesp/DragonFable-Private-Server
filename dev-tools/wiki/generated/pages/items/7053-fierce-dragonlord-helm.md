@@ -2,6 +2,8 @@
 
 This helm was forged from the same materials used in making the DragonLord armor. It has been magically forged to display your chosen colors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7053

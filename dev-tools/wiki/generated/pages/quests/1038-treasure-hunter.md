@@ -2,6 +2,8 @@
 
 Snakes. Why did it have to be snakes?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

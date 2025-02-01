@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 12 or higher to create. It is an elegant weapon for a more civilized age.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1212

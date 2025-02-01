@@ -2,6 +2,8 @@
 
 This pet requires the power of a Dragon Amulet.  This mischievous imp is your reward for utterly destroying the second official war challenge for the 2012 Friday the 13th: Rift War!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6569

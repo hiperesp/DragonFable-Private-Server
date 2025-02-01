@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen the *HONK*
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

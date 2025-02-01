@@ -2,6 +2,8 @@
 
 These dark wings were once used solely by Sek-Duat's enforcers. Forged anew for this 2013's Black Friday warriors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11011

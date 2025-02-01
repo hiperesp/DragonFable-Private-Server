@@ -2,6 +2,8 @@
 
 Maybe a good jog in a windy environment will bring results?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

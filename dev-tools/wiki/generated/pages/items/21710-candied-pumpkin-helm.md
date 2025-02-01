@@ -2,6 +2,8 @@
 
 This jack-o-lantern was coated in a thick layer of hardened sugar. But none of that explains why its expression changes so often... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21710

@@ -2,6 +2,8 @@
 
 From this long abandoned graveyard come the sounds of battle against the undead...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

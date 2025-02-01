@@ -2,6 +2,8 @@
 
 This ring is made of tiny shell pieces... scratchy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 995

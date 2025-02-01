@@ -2,6 +2,8 @@
 
 The southerly wind powers this massive blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 811

@@ -2,6 +2,8 @@
 
 These fireflies from the Creatioux Grove have taken a liking to you.  It looks like you've found some new pets, and their presence can buff you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4179

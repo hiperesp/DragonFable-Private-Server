@@ -2,6 +2,8 @@
 
 A weapon made of magically compressed pumpkin and vines, it seems to wrap itself around your hand when you wield it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16404

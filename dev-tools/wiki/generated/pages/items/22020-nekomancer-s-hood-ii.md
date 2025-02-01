@@ -2,6 +2,8 @@
 
 The hood of the fur-some Nekomancer, recreated by Riadne based on her observations of your adventure with Myshka. (CC: Base, Trim, Hair)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22020

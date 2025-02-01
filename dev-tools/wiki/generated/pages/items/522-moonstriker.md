@@ -2,6 +2,8 @@
 
 This sword is has been empowered with Light element by Amityvales weaponsmith Lugosi, after combining his sword Striker and the rare element called Moonglow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 522

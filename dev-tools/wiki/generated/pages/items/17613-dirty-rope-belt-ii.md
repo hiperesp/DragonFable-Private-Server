@@ -2,6 +2,8 @@
 
 For some reason, this belt is REALLY good at holding your clothes on. Is it magical, or is it just a really good belt? Smells weird.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17613

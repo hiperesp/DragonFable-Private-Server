@@ -2,6 +2,8 @@
 
 The moon has risen, which means it's time to make the journey to the Sandsea, and the floating city of Atrea.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

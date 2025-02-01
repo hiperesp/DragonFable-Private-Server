@@ -2,6 +2,8 @@
 
 A belt woven of fairy flowers, gifted to you by Melissa after your duel. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20660

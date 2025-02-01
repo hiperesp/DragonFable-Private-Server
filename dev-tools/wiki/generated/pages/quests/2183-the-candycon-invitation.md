@@ -2,6 +2,8 @@
 
 Zorbak has approached you... again. What could he want this time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

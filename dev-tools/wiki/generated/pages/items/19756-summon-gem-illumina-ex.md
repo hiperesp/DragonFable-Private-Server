@@ -2,6 +2,8 @@
 
 Your Summon Gem - Illumina has been upgraded! It now has stats and will deal more damage and reduce foe's bonus even more! Proof of victory over Illumina and Intaym!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19756

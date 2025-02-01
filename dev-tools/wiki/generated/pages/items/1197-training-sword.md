@@ -2,6 +2,8 @@
 
 This is a well weighted sword for a warrior who is just starting out. This item requires a Blacksmithing skill of Rank 10.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1197

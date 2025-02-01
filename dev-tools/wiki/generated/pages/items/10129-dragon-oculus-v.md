@@ -2,6 +2,8 @@
 
 It's said that a dragon can still see from a stolen eye.... This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10129

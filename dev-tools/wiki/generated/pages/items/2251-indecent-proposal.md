@@ -2,6 +2,8 @@
 
 "So... What do you say?" This trinket stuns your enemy for 2 rounds!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2251

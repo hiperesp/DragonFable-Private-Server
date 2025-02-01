@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This enchanged chocolate bunny head affords remarkable protection for a gooey mass of melting candy. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2418

@@ -2,6 +2,8 @@
 
 A short spear once used by the Abyssal Elves in defense of their tribe and homeland. Click the bottom to change its appearance. It has potential yet to be unlocked... but what else? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21373

@@ -2,6 +2,8 @@
 
 Leon created this weapon as thanks, for saving Crest from the Oculus. Crest enchanted it with her magic. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10357

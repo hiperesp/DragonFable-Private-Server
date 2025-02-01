@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It has been said about this powerful sword that nature itself wields it when it takes human form.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 675

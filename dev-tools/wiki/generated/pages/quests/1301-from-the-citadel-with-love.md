@@ -2,6 +2,8 @@
 
 Roirr has reached the Capitol of the Shapeless Empire. Meanwhile, Danyel and Baltael are trying to catch him, before something terrible happens.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

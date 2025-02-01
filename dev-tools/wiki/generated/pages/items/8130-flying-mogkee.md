@@ -2,6 +2,8 @@
 
 Guaranteed to find shoes and little dogs too! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8130

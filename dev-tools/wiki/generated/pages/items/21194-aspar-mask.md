@@ -2,6 +2,8 @@
 
 All of the candy shall be yours!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21194

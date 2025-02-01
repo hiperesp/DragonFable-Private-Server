@@ -2,6 +2,8 @@
 
 It is Friday the 13th again and the Unlucky Undead have returned to town and they are wearing... uh... hockey masks? But this time they've come with friends!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

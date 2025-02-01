@@ -2,6 +2,8 @@
 
 This mechanical wonder was made for you by Dr. Voltabolt from the spare parts of one of his monsters.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 470

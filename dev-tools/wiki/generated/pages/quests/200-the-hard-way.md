@@ -2,6 +2,8 @@
 
 Kasuf is hiding in these ruins somewhere. You HAVE to make contact with him without letting Zhoom catch you or you might never get to the Orb of Light before Sepulchure. This may be your only chance!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

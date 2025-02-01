@@ -2,6 +2,8 @@
 
 A special gift from the newly returned Kosong, this dagger of folded paper is oddly sturdy. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20582

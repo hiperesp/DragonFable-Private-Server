@@ -2,6 +2,8 @@
 
 Cutting cunning curs cross countless continents!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 971

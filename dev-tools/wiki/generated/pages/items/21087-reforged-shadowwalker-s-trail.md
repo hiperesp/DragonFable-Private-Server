@@ -2,6 +2,8 @@
 
 Leave nothing but shadow in your wake. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21087

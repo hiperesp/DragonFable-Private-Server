@@ -2,6 +2,8 @@
 
 This rare creature is found only in the purest natural spring water on Lore. If raised properly it could turn out to be your best friend. If raised poorly it might eat your horse if you say the wrong thing to it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1047

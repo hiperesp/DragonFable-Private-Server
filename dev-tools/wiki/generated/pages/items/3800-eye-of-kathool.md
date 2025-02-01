@@ -2,6 +2,8 @@
 
 This amulet was found gripped in Captain Davey's tentacles. It exudes an aura of power... and of confusion, darkness. It makes your skin crawl, but you can't quite make yourself throw it into the ocean. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3800

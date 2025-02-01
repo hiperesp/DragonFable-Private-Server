@@ -2,6 +2,8 @@
 
 You picked this up from the Monster Zoo Gift shop.  The helm is VERY furry, VERY heavy, and VERY hot, but it will be great for observing gorillaphants in the wild!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3835

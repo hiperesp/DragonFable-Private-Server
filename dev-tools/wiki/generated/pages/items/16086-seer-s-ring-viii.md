@@ -2,6 +2,8 @@
 
 There is a glittering blue stone on this ring. Staring into it doesn't show you your future, but it does make you feel a little better. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16086

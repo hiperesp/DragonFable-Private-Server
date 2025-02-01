@@ -2,6 +2,8 @@
 
 A ripped page from an ancient tome. The words seem to shift and move... as though attempting to avoid comprehension. Can be used to forge and upgrade Exalted gear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19012

@@ -2,6 +2,8 @@
 
 Maybe you should keep this for safe keeping... or sell it to someone who isn't Cysero!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3402

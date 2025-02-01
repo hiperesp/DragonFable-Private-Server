@@ -2,6 +2,8 @@
 
 Discovered in the depths of a frozen cave, the Frostcythe has been reforged in darkness for Black Friday, 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11034

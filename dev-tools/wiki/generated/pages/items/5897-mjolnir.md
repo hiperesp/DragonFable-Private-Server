@@ -2,6 +2,8 @@
 
 This hammer is the favorite of the Thunder God, Thor.  It occasionally will let loose with a blast of thunder, calling out the praise of the original wielder.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5897

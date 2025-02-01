@@ -2,6 +2,8 @@
 
 A darkness swirls around this small scrap of black cloth... it almost seems to pull in the shadows around you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12661

@@ -2,6 +2,8 @@
 
 This simple staff is infused with the power of flame focused into its single elemental orb.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 535

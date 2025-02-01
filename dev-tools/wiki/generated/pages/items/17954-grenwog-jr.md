@@ -2,6 +2,8 @@
 
 Aww! It's so... hairy! This faithful little companion does damage (scaling off of your level) and blinds enemies (scaling with your CHA) with eggs! Requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17954

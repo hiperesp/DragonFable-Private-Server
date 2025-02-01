@@ -2,6 +2,8 @@
 
 Used by wind elves to communicate across vast distances.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13632

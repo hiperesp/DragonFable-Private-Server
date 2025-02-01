@@ -2,6 +2,8 @@
 
 This furball brings DOOM the likes of which you've not seen before on Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Excellent work helping Rhubarb collect more booty! This be yer reward, a set of daggers from Rhubarb's secret stash o' loot!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12772

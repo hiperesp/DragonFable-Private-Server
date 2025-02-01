@@ -2,6 +2,8 @@
 
 Orbs of light float around this dagger in a pattern designed to stun the mana-force of your enemies.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2689

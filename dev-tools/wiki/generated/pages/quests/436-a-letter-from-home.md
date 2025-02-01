@@ -2,6 +2,8 @@
 
 Konnan's family has written asking for help fighting a dangerous fire dragon!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

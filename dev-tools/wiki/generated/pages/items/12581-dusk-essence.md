@@ -2,6 +2,8 @@
 
 This seems to be made of what can only be described as shadows made tangible.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12581

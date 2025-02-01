@@ -2,6 +2,8 @@
 
 This belt was made from the leather of a Boardrake; one of the monsters produced in the necropolis. It smells faintly of bacon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1622

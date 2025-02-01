@@ -2,6 +2,8 @@
 
 Pwetty Pwincess Fwakes: This sweet, sweet dragon food likes long walks on the beach, shiny armor and DCs. This dragon food Gives two training points.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 880

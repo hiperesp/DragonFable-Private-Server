@@ -2,6 +2,8 @@
 
 Call forth the cold northerly wind to use in battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 812

@@ -2,6 +2,8 @@
 
 A small patch of Sir Bearginion's fur, proof of his defeat, and used to upgrade the Leorilla Mane Belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17828

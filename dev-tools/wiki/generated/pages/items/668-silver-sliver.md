@@ -2,6 +2,8 @@
 
 This blade was forged from the remains of a shattered silver sword of great power. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 668

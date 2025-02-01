@@ -2,6 +2,8 @@
 
 This magic ring was found in the treasure horde of the dragon Gorgok. It provides the wearer with 9% resistance against fire based attacks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 387

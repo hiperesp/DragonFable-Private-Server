@@ -2,6 +2,8 @@
 
 Knights have mighty appetites to fuel their training. You too can participate with this commemorative Knight's Fork! Perfect for eating gigantic broccoli and potatoes. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17481

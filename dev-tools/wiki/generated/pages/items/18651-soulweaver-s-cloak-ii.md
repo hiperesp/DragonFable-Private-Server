@@ -2,6 +2,8 @@
 
 This Soulwoven cloak is usually presented to those at the top of their class in Soulweaving. Or maybe that's just a story to get you to pay more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18651

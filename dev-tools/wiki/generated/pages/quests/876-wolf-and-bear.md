@@ -2,6 +2,8 @@
 
 Can you complete the challenge set forth by Wolf and Bear?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

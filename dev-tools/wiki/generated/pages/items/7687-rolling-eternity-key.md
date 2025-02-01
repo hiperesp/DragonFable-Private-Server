@@ -2,6 +2,8 @@
 
 Unlock the Lorian Cosmos with this ever-changing key.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7687

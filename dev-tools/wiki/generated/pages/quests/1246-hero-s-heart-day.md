@@ -2,6 +2,8 @@
 
 Town to farm for stuff for HHD15
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

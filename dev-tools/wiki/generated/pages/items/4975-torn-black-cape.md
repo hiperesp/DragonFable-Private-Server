@@ -2,6 +2,8 @@
 
 Masterfully crafted by Lauren in Verteroche this cape will bring out the fighter in you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4975

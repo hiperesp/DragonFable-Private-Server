@@ -2,6 +2,8 @@
 
 This stick will make anyone tell the truth!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800452

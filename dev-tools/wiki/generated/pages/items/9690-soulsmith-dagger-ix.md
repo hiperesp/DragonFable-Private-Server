@@ -2,6 +2,8 @@
 
 Crafted by the SoulSmith, Lanrete. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9690

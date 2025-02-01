@@ -2,6 +2,8 @@
 
 A lone guard is hiding somewhere in the prison. Can you find him before the inmates do?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

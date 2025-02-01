@@ -2,6 +2,8 @@
 
 This staff has been anointed in sun oil that keeps it glowing with the warmth of a summer's day even in the darkest coldest night. The bad part is that you need to cover it with a blanket or something in order get to sleep. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1077

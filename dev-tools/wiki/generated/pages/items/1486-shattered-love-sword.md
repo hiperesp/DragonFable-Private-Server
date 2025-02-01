@@ -2,6 +2,8 @@
 
 This sword was crafted by a talented enchanter for his lady-love. Its crystal blade shattered the very moment she broke his heart.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1486

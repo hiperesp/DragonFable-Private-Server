@@ -2,6 +2,8 @@
 
 A large tooth whittled down to be a nice ring. This one seems very smooth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14479

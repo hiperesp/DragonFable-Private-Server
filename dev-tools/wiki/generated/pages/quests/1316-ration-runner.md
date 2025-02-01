@@ -2,6 +2,8 @@
 
 Collect food so the Guardians can restock the larder!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

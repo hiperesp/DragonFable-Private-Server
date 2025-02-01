@@ -3,6 +3,8 @@
 A sliver of yellow crystal imbued with Light magic. Proof of victory over Ash Dragonblade.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20977

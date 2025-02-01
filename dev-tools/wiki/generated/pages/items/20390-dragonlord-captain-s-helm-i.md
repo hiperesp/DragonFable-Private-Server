@@ -2,6 +2,8 @@
 
 A real DragonLord Captain's helm! It looks kind of familiar... This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20390

@@ -2,6 +2,8 @@
 
 Are you sure you are up for it? REALLY up for it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

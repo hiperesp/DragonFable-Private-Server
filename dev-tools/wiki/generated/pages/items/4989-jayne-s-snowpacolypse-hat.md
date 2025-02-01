@@ -2,6 +2,8 @@
 
 It takes a brave adventurer to wear a hat like this...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4989

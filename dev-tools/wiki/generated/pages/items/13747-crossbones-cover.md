@@ -2,6 +2,8 @@
 
 Captain Crossbones was once the most dangerous pirate who ever lived! He apparently had an odd weakness to drowning though. Who knew?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13747

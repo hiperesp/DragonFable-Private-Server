@@ -2,6 +2,8 @@
 
 This Trinket gives you the ancient power of the mirror eye, it will use the foes power against it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12333

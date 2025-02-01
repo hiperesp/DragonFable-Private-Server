@@ -2,6 +2,8 @@
 
 En and Tropy's power grow with each defeat... how will you get away from the reanimates?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

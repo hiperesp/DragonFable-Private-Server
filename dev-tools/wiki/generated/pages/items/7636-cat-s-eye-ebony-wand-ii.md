@@ -2,6 +2,8 @@
 
 This wand, carved from the heart of an ebony tree, is decorated with obsidian and amber and the cat's eye was enchanted by the light of a full moon to act as a channel for magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7636

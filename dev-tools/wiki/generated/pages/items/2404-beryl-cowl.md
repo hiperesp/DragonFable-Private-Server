@@ -2,6 +2,8 @@
 
 In the deep forest, men praise the Leader of the Hunt, a creature named Greywolf.  To garner his approval, they wear beryls on their clothing, which are said to resemble the wolf's eyes.  This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2404

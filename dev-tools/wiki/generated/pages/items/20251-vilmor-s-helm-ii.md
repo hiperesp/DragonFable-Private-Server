@@ -2,6 +2,8 @@
 
 Vilmor's helm, worn into many a battle. Proof of victory over Vilmor and Cryozen.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20251

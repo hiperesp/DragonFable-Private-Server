@@ -3,6 +3,8 @@
 These daggers will have your enemies saying "Hit me!" 
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 982

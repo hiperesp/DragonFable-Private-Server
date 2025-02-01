@@ -2,6 +2,8 @@
 
 A random battle between you and a Blood Moon Boss!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

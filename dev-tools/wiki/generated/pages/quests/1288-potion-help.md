@@ -2,6 +2,8 @@
 
 Gingkage needs you to gather reagents for her.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

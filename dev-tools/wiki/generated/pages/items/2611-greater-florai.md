@@ -2,6 +2,8 @@
 
 When the spirit of nature is awakened in this staff, a flurry of leaves will blow forth and attack your enemy.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2611

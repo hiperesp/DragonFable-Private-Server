@@ -2,6 +2,8 @@
 
 Everyone knows that carrots improve your eyesight. THIS carrot allows you to see your enemies weakest point and pierce it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1629

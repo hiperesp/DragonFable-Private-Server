@@ -2,6 +2,8 @@
 
 It's Greg! You know Greg, right? Well, even if you don't, too bad! You're going to fight him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

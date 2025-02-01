@@ -4,6 +4,8 @@ This shimmering cape appears to be the pelt of a wolf, but closer examination re
 crafted metal fur made through a secret process.
 This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5812

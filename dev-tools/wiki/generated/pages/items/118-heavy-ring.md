@@ -2,6 +2,8 @@
 
 No idea what this ring is made of but it weighs as much as a brick.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 118

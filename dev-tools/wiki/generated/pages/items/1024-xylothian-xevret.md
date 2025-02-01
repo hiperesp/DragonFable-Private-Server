@@ -2,6 +2,8 @@
 
 You're not sure what a Xevret is, but this looks like it would make a pretty nice dagger. You can occasionally hear a whirring noise from the base of the blade though...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1024

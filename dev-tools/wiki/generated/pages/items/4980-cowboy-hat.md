@@ -2,6 +2,8 @@
 
 The inside band just has the letters R.D. carved into it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4980

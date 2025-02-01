@@ -2,6 +2,8 @@
 
 You aren't exactly sure if this is a carrot animated and enchanted to look like a dragon or a VERY orange dragon. Visit Falconreach Pet Shop to upgrade this pet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12343

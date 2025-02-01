@@ -2,6 +2,8 @@
 
 Using some wire, a paperclip, and a bagel, Lim managed to craft this sword. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2918

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Though friend's and allies may have fallen, they will never be forgotten. May the bones of this enemy rest.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5605

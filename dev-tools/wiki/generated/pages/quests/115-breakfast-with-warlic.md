@@ -2,6 +2,8 @@
 
 Warlic has invited you into his tower to try and help you to identify which egg is the true Dragon Egg.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

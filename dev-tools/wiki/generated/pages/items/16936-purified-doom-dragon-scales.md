@@ -2,6 +2,8 @@
 
 Brilliantly glowing with light, these scales of your dragon seem like something you should hold onto!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16936

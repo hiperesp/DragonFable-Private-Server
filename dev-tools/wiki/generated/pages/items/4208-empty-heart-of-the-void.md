@@ -2,6 +2,8 @@
 
 Lim managed to craft this wand using the power of SCIENCE and a leftover node of Void energy. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4208

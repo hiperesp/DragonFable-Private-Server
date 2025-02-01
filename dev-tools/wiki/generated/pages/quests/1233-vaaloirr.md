@@ -2,6 +2,8 @@
 
 Roirr has escaped through his portal and found himself... where exactly?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

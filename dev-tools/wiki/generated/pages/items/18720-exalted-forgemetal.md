@@ -2,6 +2,8 @@
 
 A rectangular prism of solid metal. Could probably be used to forge and upgrade Exalted weaponry!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18720

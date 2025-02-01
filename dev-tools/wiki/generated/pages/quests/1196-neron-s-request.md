@@ -2,6 +2,8 @@
 
 Magus Neron has requested your presence!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

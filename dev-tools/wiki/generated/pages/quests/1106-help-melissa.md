@@ -2,6 +2,8 @@
 
 Help Melissa defend the Fairy Court!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

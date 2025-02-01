@@ -2,6 +2,8 @@
 
 A revered cloak, once woven in celestial magic, its threads imbued with the grace of their kindred in times long forgotten. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22143

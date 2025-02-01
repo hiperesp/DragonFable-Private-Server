@@ -2,6 +2,8 @@
 
 This painted portrait of Safiria was signed by the vampire queen herself. It appears that she used some form of red ink.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 165

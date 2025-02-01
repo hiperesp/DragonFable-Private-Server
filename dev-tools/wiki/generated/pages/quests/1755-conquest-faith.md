@@ -2,6 +2,8 @@
 
 The justifications for actions are many, but in the end who is right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

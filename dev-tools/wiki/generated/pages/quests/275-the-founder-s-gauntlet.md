@@ -2,6 +2,8 @@
 
 Xan has shown up in Falconreach.... and he's asking for your help?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

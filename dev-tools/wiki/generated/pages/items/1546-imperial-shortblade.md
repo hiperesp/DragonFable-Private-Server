@@ -2,6 +2,8 @@
 
 This is the type of sword used by Sek-Duat's imperial guards. It is light enough to be used at a moment's notice but also makes a nice gold-plated spatula. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1546

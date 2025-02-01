@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Jack Crescent (and his Gnarly Guitar of Doom) to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

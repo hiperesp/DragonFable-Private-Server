@@ -2,6 +2,8 @@
 
 This durable shard of Jaania's ice magic still retains its chilling power. Used to further upgrade the Forgotten Spear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21922

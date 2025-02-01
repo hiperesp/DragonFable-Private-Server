@@ -2,6 +2,8 @@
 
 Time to take down the leader of the fightin Sneevish, the incredible Snulk!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

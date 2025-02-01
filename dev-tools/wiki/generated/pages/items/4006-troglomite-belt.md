@@ -3,6 +3,8 @@
 A simple belt made from tanned troglomite hide.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4006

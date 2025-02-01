@@ -2,6 +2,8 @@
 
 Life and death, giving and taking, push and pull.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

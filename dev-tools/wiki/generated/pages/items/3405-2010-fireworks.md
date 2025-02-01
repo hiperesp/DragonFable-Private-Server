@@ -2,6 +2,8 @@
 
 Cool! A whole cache of fireworks! Happy New Year! These should be worth something to someone in town.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3405

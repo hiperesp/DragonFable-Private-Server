@@ -2,6 +2,8 @@
 
 You've found all the candy and saved the day! The sisters have cooked up this ghoulish weapon for you in thanks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12812

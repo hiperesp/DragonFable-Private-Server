@@ -2,6 +2,8 @@
 
 After the daring rescue at the Border Prison, The Rose seems to have their sights on more of the magical denizens of the swamp and nearby forests. Is the Vind prepared for the oncoming onslaught? Will they be enough to defend those in need?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

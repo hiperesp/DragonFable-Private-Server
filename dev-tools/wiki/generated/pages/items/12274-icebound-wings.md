@@ -2,6 +2,8 @@
 
 These wings are formed from cursed ice. They won't shatter no matter how hard they are struck.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12274

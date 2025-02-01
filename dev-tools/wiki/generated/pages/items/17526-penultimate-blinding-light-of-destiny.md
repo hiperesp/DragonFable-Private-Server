@@ -2,6 +2,8 @@
 
 Tempered with the power of the Ultimate blade shards and elemental flux, your Destiny weapon glows with radiant power! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17526

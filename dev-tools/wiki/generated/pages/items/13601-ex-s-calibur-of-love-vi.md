@@ -2,6 +2,8 @@
 
 This scythe was left behind after a nasty break-up. All the love was gone by the time this weapon got left behind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13601

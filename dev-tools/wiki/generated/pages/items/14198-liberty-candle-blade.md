@@ -2,6 +2,8 @@
 
 The flame of liberty burns brightly with this tribute to freedom and national pride! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14198

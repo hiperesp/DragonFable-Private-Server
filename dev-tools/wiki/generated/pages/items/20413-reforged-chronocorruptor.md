@@ -2,6 +2,8 @@
 
 The twisted form of one who has messed with time one too many times... Although reforged by unknown means, this version of Chronocorruptor Armor is just as effective as when it was first... corrupted.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20413

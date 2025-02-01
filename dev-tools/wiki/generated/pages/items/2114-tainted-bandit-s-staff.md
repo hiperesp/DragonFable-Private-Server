@@ -2,6 +2,8 @@
 
 And to think, all that time it was this staff that was poisoned.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2114

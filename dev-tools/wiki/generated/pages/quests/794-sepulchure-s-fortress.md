@@ -2,6 +2,8 @@
 
 Can you make it to the top of the tower in time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

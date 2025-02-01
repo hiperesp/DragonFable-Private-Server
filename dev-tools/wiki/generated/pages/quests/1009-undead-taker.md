@@ -2,6 +2,8 @@
 
 Caaaaaan you take down the Grim Ghoul, the Nasty Necro, theeeeee Undead Taker!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

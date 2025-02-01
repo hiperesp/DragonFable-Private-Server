@@ -2,6 +2,8 @@
 
 This massive snake is said to rest under the sun for years, accumulating elemental energy... It's said if you can catch one sleeping, you'll get good luck! Too bad this one is awake. And very angry.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

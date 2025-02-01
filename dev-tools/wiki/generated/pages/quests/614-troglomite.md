@@ -2,6 +2,8 @@
 
 The cave of the elusive troglomite!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

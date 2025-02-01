@@ -2,6 +2,8 @@
 
 This catalyst is an ash-grey, rough hewn oval stone. The more you hold it, the more it starts to glow orange from within, as if threatening to burst into flame. This hot Customization Catalyst unlocks the Helion customization option for Pyromancer.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20795

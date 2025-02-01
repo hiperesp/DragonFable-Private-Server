@@ -2,6 +2,8 @@
 
 Time to cross the Vanilla River and Toffee Plains!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

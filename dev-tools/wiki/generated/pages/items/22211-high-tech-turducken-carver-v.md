@@ -2,6 +2,8 @@
 
 Joules and Dr. Voltabolt worked together to create this tool as thanks for Ruby's help. Can reduce enemy All resist on hit, but increases their Boost. Higher chance with Energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22211

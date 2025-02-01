@@ -2,6 +2,8 @@
 
 Use your ninja senses and find the perfect areas to plant the bananas.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

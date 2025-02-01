@@ -2,6 +2,8 @@
 
 It either fell off a ghost or it is dangerously radioactive. Both options raise too many questions. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12851

@@ -2,6 +2,8 @@
 
 This replica of the staff used by Twilly was created by Ashendal. It is enchanted to occasionally gift you with Moglin Healing Magic, healing you over time! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14350

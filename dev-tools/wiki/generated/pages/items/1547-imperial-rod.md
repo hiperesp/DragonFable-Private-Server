@@ -2,6 +2,8 @@
 
 This staff is the same kind commonly used by the emperor's magical advisors both as a focus for their magic and an oar on canoeing trips.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1547

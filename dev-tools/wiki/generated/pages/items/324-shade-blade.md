@@ -2,6 +2,8 @@
 
 A mage crafted this blade from shadows tempered into steel.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 324

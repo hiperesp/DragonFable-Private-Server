@@ -2,6 +2,8 @@
 
 The essence of the water elementals slain in this quest were forged into the shaft of this wand. It's force drives the spinning blades being used as a mage-focus. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2248

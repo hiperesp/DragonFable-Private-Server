@@ -2,6 +2,8 @@
 
 This scarlet scimitar cuts clean to the bone in the blink of an eye.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 325

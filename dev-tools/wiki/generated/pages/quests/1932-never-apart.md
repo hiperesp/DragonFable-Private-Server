@@ -2,6 +2,8 @@
 
 DoomKnight and Spirit, entwined as one. Never to be separated again.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Gives you an irrational fear of cats, but also makes you an expert on exotic cheeses!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3126

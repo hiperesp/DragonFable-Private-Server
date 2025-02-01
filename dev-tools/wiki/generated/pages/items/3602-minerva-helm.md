@@ -2,6 +2,8 @@
 
 The glowing gem set in the forehead of this helm projects an aura of wisdom on the wearer.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3602

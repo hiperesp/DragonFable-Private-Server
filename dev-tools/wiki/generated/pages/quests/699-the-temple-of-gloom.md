@@ -2,6 +2,8 @@
 
 Can you survive?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

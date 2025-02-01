@@ -2,6 +2,8 @@
 
 This dagger was forged by an unknown race that is rumored to make its home beneath the surface of the world.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 400

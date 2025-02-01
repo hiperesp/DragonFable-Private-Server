@@ -2,6 +2,8 @@
 
 Which side will you help to secure ancient secrets?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

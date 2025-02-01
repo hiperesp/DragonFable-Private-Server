@@ -2,6 +2,8 @@
 
 This cane must have been unearthed from the vaults of a very fancy vampire indeed! Hopefully they don't want it back... (Cosmetic) (CC: Base, Trim, Dragon Eye, Dragon Horn, Dragon Wing)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21708

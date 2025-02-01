@@ -2,6 +2,8 @@
 
 Fashionably late, as expected.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

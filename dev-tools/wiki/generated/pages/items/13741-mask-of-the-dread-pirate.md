@@ -2,6 +2,8 @@
 
 This mask was first made popular by the legendary pirate Robert. No one quite knows how he was though as he kept changing how he looked and sounded. I wonder why that was?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13741

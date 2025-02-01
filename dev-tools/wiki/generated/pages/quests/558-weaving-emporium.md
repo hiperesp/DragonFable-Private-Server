@@ -2,6 +2,8 @@
 
 Tomix is hunting for the second key to the Equilibrium Gate in the Weaving Emporium.  But who is this?  Meet Riadne!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

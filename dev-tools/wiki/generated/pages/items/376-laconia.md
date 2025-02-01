@@ -2,6 +2,8 @@
 
 This is the sword for the warrior of few words. It doesn't look fancy but its power speaks for itself.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 376

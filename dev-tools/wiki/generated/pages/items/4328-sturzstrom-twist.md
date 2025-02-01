@@ -2,6 +2,8 @@
 
 The rocks that make up this necklace were displaced a great distance from their origin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4328

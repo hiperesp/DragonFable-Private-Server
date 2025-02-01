@@ -2,6 +2,8 @@
 
 A handful of frost-encrusted mechanisms. Proof of victory over the MechaYeti.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21788

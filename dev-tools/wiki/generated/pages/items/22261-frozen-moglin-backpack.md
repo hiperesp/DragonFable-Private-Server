@@ -2,6 +2,8 @@
 
 This Frost Moglin has been frozen! Might as well carry it around on your back until the ice thaws, right? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22261

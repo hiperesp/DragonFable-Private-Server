@@ -2,6 +2,8 @@
 
 These ruins once stood tall and proud, but all things change. Hundreds of years have passed and the ruins of the great city are now infested with VurrMen and Tuskmongers, drawn by the many mysterious objects that can still be found here.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

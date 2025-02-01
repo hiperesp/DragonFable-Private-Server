@@ -2,6 +2,8 @@
 
 You picked this pretty blade up from Murk in the sewers under Ravenloss. Yes, UNDER the underground city!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4683

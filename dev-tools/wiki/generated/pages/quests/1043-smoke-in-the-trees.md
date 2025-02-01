@@ -2,6 +2,8 @@
 
 It seems like The Rose is making their move against the Vind. How bad could they be?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

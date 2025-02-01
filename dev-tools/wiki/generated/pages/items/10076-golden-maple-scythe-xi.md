@@ -2,6 +2,8 @@
 
 A scythe worthy of the noble North, eh? Happy Canada Day!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10076

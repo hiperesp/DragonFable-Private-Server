@@ -2,6 +2,8 @@
 
 The Parasol Mansion.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

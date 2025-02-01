@@ -2,6 +2,8 @@
 
 Someone has to come up with a crazy plan to stop the Mysterious Stranger... It's only a matter of When!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

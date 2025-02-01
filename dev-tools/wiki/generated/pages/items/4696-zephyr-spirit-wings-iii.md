@@ -2,6 +2,8 @@
 
 The spirit of the winds watches over you as you swiftly dart circles around your enemies in this ethereal cape! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4696

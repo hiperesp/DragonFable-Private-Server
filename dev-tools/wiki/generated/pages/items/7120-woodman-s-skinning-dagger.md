@@ -2,6 +2,8 @@
 
 The axe isn't the only weapon a Huntsman must carry in the woods. A dagger has all kinds of uses on a campground... or a big bad wolf.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7120

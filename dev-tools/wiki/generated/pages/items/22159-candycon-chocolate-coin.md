@@ -2,6 +2,8 @@
 
 A fancy chocolate coin rewarded to you for braving Bubble's Hedge Maze of Horror! Can be used to exchange for cosmetic items at CandyCon, or sold for gold, but never eaten.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22159

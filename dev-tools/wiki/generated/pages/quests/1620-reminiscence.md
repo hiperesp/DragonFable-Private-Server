@@ -2,6 +2,8 @@
 
 Time to learn about Faust and Sophie's past.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

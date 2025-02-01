@@ -2,6 +2,8 @@
 
 Using this sword may cause your teeth and hair to fall out and eventual death.  No refunds.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2909

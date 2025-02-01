@@ -2,6 +2,8 @@
 
 Galanoth has asked you to get back his mother's stolen enchanting stones.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

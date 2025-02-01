@@ -2,6 +2,8 @@
 
 A decaying dragon scale, fetid with the fraying pull of entropy. Proof of victory over the Decadere Ancient.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21984

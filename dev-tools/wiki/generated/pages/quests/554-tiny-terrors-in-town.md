@@ -2,6 +2,8 @@
 
 Zorbak is taking his babies and taking over the town hall meeting!  Can you pacify the villagers before they hurt the babies?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

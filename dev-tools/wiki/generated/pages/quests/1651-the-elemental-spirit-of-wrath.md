@@ -2,6 +2,8 @@
 
 Before you stands Wrath, an artificial Elemental Spirit born of Pandora's anger.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

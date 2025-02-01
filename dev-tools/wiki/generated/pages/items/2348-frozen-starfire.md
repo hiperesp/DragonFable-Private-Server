@@ -2,6 +2,8 @@
 
 Ancient magic whispers as the runes on this staff glow briefly and then fade.  If you listen closely, you can almost make out the secrets of the ages.  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2348

@@ -2,6 +2,8 @@
 
 There's a monster on the loose in the valley of Greenguard!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

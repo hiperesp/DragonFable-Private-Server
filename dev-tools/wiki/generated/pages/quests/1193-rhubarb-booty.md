@@ -2,6 +2,8 @@
 
 Help Cap'n Rhubarb in his quest fer booty!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

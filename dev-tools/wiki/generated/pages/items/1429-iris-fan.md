@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This kind of metal fan was used to cool the great leaders of the desert until the huge metal fan blade was dropped on a queen, then the design of metal fans were banned.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1429

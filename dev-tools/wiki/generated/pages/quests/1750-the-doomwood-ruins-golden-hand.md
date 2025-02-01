@@ -2,6 +2,8 @@
 
 As energy elementals and creatures flood out of the rift, it's up to you to secure the area and delve into the ruins to seek out the rift focus.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

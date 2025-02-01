@@ -2,6 +2,8 @@
 
 A prototype Rose mace stolen and modified by some desert thugs. Now it's in your hands.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21242

@@ -2,6 +2,8 @@
 
 What is Circe's game now?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

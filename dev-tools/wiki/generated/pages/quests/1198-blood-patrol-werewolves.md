@@ -2,6 +2,8 @@
 
 Magus Neron needs blood and hair samples to study!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

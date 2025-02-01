@@ -2,6 +2,8 @@
 
 These wings made it easier for the Gean Canach to attract the women that they would speak with. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5836

@@ -2,6 +2,8 @@
 
 Voodoo!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1947

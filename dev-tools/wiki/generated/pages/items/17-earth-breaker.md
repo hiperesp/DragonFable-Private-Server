@@ -2,6 +2,8 @@
 
 A powerful sword. The sight of it will make your enemies quake with fear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17

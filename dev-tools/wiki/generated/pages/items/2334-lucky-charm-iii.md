@@ -2,6 +2,8 @@
 
 A brilliant gleam shines off the emerald inlay on this ring.  It gives off an aura of good fortune and health.  Its magically felicitous!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2334

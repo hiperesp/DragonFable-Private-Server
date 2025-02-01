@@ -2,6 +2,8 @@
 
 The Gala was supposed to be peaceful, but then it changed when the Magesterium attacked.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

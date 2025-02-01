@@ -2,6 +2,8 @@
 
 This knife is favored by mermaids everywhere.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4120

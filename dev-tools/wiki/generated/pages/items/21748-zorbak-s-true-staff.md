@@ -2,6 +2,8 @@
 
 It's Zorbak's magic staff! Channel Zorbak's power to shield yourself and strengthen your next attack. Proof of victory over the Doomwood Duo! (Cosmetic) (Special: On-Demand)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21748

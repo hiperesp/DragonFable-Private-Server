@@ -2,6 +2,8 @@
 
 An odd bubbling emerges from under the surface of the ocean... what would happen if you dropped anchor here and took a look?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Zhoom as given you the location to this tomb hidden in the sands and lost in time.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

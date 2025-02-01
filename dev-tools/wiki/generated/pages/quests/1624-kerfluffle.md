@@ -2,6 +2,8 @@
 
 It's so fluffy! And somewhat ominous. But fluffy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You defeated all challengers in the HHD '13 Undead Wrestling Extravaganza challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8846

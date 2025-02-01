@@ -2,6 +2,8 @@
 
 A sword for the hero who likes to keep their eyes open.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20

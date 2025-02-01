@@ -2,6 +2,8 @@
 
 A huge Entropic Elemental is after Valencia and the Blades of Aww!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

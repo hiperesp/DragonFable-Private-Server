@@ -2,6 +2,8 @@
 
 Made of hand-stitched leather hide, this ring is very comfortable but not flashy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 113

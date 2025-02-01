@@ -3,6 +3,8 @@
 A bearded dragonslayer's mask!
 Happy Mogloween 2016!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16573

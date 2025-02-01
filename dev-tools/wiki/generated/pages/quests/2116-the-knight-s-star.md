@@ -2,6 +2,8 @@
 
 Frostval has come, and it's time for celebration! But where have the children run off to this time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

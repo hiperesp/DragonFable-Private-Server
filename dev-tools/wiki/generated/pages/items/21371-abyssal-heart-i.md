@@ -2,6 +2,8 @@
 
 This unassuming scepter, once wielded by the Abyssal Elves, still hums with energy. It has potential yet to be unlocked... but what else? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21371

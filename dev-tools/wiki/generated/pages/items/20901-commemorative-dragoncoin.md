@@ -2,6 +2,8 @@
 
 A big DragonCoin for you to smack your foes with! Cysero told you that this is just a huge piece of chocolate wrapped in a gold foil, but try as you might, you cannot unwrap it. Curious. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20901

@@ -2,6 +2,8 @@
 
 A replica of a weapon belonging to the Nova Phoenix, a myth from the southern lands. With this weapon in hand, she delivered swift justice, while riding of her fiery steed. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20750

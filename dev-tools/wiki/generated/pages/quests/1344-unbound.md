@@ -2,6 +2,8 @@
 
 There has to be more information on the Rose somewhere in Swordhaven...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

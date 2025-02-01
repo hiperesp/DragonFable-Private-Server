@@ -3,6 +3,8 @@
 THIS SWORD IS AWESOME!
 Click to turn on!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6002

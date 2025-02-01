@@ -2,6 +2,8 @@
 
 This sword's mirror-bright blade is sure to delight Frostval celebrants old and young. Another reason to celebrate:  It has a chance to heal  5% of your life on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2085

@@ -2,6 +2,8 @@
 
 The doors are open! One step closer to reaching Aspar!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

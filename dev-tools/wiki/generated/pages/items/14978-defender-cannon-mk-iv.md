@@ -2,6 +2,8 @@
 
 So you've got a bunch of Defender Medals all saved up and nothing to use them on? Why not load them into a cannon and shoot them at your foes! PEW PEW PEW PEW PEW!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14978

@@ -2,6 +2,8 @@
 
 Hey! It's none of your Beez Mask! *snicker* Happy Mogloween 2010!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4473

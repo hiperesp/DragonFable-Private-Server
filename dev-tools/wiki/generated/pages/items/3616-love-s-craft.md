@@ -2,6 +2,8 @@
 
 Though beautiful wrought, this necklace sends shiver's down your spine
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3616

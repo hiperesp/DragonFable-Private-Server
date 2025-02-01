@@ -2,6 +2,8 @@
 
 Uaanta gifted this emergency back-up wand to you. With the addition of the Twisted Amalgam Core, the complete wand now does Fear damage and increases its target's Health resistance! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20226

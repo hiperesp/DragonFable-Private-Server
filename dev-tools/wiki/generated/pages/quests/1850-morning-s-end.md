@@ -2,6 +2,8 @@
 
 You may have left the Runed Fortress and everyone in it behind... but what you've done in your time there yet remains and marked the soldiers there.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

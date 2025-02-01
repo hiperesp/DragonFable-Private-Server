@@ -2,6 +2,8 @@
 
 The ancient soldiers of the Void used these arms to defend the Core!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12233

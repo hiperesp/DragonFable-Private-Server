@@ -2,6 +2,8 @@
 
 Sugar rush? This hefty fruit packs a sugar "smash"!(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21846

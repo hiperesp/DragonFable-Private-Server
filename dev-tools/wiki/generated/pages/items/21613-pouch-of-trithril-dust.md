@@ -2,6 +2,8 @@
 
 Taken from the remnants of Jaania's airship, this pouch of trithril dust could be useful in the future. Just try not to breathe it in. It's probably not healthy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21613

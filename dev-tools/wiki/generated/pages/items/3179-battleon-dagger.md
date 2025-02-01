@@ -2,6 +2,8 @@
 
 These daggers Wow, Yulgar's weapon shop in BattleOn is turning out some pretty nice work!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3179

@@ -2,6 +2,8 @@
 
 This staff was made from a piece of bamboo from a beautiful bamboo grove. It has a single chime in it that rings with a pure tone.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 283

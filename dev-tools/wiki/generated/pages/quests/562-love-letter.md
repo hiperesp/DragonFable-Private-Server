@@ -2,6 +2,8 @@
 
 Step one in Big Daddy's plan?  Plant this letter in Ash's mailbag.  What could he be plotting?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

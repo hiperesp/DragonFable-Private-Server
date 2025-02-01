@@ -2,6 +2,8 @@
 
 Embrace the night!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13421

@@ -2,6 +2,8 @@
 
 The placement of the spy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

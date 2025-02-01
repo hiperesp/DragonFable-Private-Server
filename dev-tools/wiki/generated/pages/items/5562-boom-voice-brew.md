@@ -2,6 +2,8 @@
 
 Knock out your enemies with the power of your voice! This trinket gives 140% dmg and a 1% chance to stun! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5562

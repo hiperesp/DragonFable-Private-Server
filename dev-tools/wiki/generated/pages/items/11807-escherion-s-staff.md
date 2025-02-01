@@ -2,6 +2,8 @@
 
 Known by many names, this Staff of Inversion seems to have a mind of its own! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11807

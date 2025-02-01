@@ -2,6 +2,8 @@
 
 You've got more gold than you know what to do with! Why not use it to make statues?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

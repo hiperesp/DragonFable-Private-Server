@@ -2,6 +2,8 @@
 
 This sword was crafted in honor of True Mortal's friend Bear many years ago. It has been held in trust for the hero deserving of it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6579

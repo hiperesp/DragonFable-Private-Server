@@ -2,6 +2,8 @@
 
 This is the camp of the famed naturalist Ser Vey.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 With Belle's training under Warlic complete, she is ready to meet up with the Hero in an attempt to stop the Thorns for good!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

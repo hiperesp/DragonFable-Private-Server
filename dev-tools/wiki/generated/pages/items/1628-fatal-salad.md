@@ -2,6 +2,8 @@
 
 Mmmm. You can't beat the earthy combo of turnips and mushrooms! But you can beat your enemies with it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1628

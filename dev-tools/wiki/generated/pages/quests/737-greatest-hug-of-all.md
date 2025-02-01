@@ -2,6 +2,8 @@
 
 SOMEone is behind all these pink undead trying to hug you to death! And that someone is probably EEEEEBIL! Or EVIL. One of the two.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

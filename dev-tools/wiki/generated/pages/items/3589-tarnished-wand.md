@@ -2,6 +2,8 @@
 
 Make sure to save this wand and merge it with any gold nuggets you find to create a shiny GOLD version!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3589

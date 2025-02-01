@@ -2,6 +2,8 @@
 
 Shine with aura of brilliance! Allows you to empower yourself for 5 turns, at the cost of your Avoidance. (Aura is color custom to trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20539

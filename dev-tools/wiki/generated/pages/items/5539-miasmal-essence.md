@@ -2,6 +2,8 @@
 
 A wisp of miasmal essence. Use this to increase the power of your Miasmal Weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5539

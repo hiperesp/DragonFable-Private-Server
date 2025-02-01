@@ -2,6 +2,8 @@
 
 A heart scale from the merged Akriloth, taken by Ashendal after the beast was defeated. It continues to radiate a small amount of warmth and will grant you some of the elemental protection of Akriloth himself!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13789

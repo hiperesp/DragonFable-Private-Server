@@ -2,6 +2,8 @@
 
 I beat Togicide 2 and all I got was this lousy cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1930

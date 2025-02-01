@@ -2,6 +2,8 @@
 
 Leon with his knights are readying themselves to storm the place where Kara is being held captive.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

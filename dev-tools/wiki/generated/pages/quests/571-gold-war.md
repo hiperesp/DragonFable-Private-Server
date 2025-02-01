@@ -2,6 +2,8 @@
 
 All that glitters IS now gold!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

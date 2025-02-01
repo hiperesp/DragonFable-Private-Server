@@ -2,6 +2,8 @@
 
 One of the magical lightstones that the frost moglins use to decorate their town. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6327

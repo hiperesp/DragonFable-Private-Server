@@ -2,6 +2,8 @@
 
 Sulen'Eska is running out of room and supplies. There's only one place to turn...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

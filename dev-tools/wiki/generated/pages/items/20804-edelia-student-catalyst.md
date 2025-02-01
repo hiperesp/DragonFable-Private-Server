@@ -2,6 +2,8 @@
 
 This catalyst is an old, worn textbook. Flipping through it reveals it to be completely blank. This mysterious Customization Catalyst unlocks the Edelia customization options for the Aspenvale Academy Uniform (Student).
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20804

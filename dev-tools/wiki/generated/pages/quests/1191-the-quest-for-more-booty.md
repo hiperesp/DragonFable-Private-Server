@@ -2,6 +2,8 @@
 
 Argh, matey! Time to be celebratin' Talk Like a Pirate Day! Fancy a drink?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

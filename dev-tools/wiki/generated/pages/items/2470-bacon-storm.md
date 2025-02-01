@@ -2,6 +2,8 @@
 
 Bacon raining down from the sky?  Someone up there must like you! The smell of the bacon rain distracts the monsters, making them miss more! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2470

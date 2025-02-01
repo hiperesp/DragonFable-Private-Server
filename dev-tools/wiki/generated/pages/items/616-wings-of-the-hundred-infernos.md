@@ -2,6 +2,8 @@
 
 This Item  requires a Dragon Amulet. 100 rooms of doooooom!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 616

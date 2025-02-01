@@ -2,6 +2,8 @@
 
 The sewer mutants are collecting these for some reason.... This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6154

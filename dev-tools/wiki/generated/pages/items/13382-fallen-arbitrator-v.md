@@ -2,6 +2,8 @@
 
 Good? Evil? Those no longer hold any meaning to you. You will only judge based on what you see. You are the law!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13382

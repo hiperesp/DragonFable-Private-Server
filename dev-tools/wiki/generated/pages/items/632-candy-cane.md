@@ -2,6 +2,8 @@
 
 This "cane" is full of yummy Frostval goodness. It looks just like a candy cane, but is in fact, much more deadly than it seems. It is infused with moglin healing magic. It has a small chance to heal you for 5% life upon a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 632

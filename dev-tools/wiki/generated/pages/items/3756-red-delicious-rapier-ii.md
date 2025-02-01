@@ -2,6 +2,8 @@
 
 The sword so tasty you'd take a bite out of it if it weren't guaranteed to slice your mouth up!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3756

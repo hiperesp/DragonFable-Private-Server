@@ -2,6 +2,8 @@
 
 Putting this on will make you feel stronger!  And the strange light pulsing from the gem increases your resistances!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2999

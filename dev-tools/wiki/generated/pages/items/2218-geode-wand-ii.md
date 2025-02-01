@@ -2,6 +2,8 @@
 
 A crystalmage was given a stone taken from inside a geode and set it in gold.  She then enchanted it to float and used it as a focus in this wand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2218

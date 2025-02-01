@@ -3,6 +3,8 @@
 A ferocious and relentless mask!
 Happy Mogloween 2016!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16565

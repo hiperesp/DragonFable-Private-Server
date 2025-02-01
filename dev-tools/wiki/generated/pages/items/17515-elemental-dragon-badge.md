@@ -2,6 +2,8 @@
 
 A dragon badge infused with the great power of the Ultimate Orb! Created by infusing a Badge of the Vanquisher with an Elemental Vanquisher Badge. 1 is required to reforge a fully upgraded destiny weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17515

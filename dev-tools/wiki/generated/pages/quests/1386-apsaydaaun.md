@@ -2,6 +2,8 @@
 
 You found yourself in an upside-down land...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

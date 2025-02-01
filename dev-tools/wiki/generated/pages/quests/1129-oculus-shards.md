@@ -2,6 +2,8 @@
 
 Help Leon and Crest find Oculus Shards!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

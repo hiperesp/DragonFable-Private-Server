@@ -2,6 +2,8 @@
 
 Your baby dragon needs some combat and flying practice!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

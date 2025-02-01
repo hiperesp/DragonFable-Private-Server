@@ -2,6 +2,8 @@
 
 Can you find your way through this INSANELY HUGE fire dungeon to obtain the ultra rare prize at the end?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

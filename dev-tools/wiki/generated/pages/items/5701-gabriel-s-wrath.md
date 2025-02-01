@@ -2,6 +2,8 @@
 
 A gift from the heavens, this sword is blessed and is intended to be used to stave off the darkness. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5701

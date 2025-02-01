@@ -2,6 +2,8 @@
 
 Will you find the mysterious thief?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

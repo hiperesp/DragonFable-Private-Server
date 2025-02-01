@@ -2,6 +2,8 @@
 
 Another dreamscape, another memory.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

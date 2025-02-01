@@ -2,6 +2,8 @@
 
 Could this be the real thing?! Reforged from the past, this certainly looks like the Blade of Awe from legend. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21615

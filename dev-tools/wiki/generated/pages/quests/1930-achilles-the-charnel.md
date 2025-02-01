@@ -2,6 +2,8 @@
 
 Lion-hearted Achilles, torn by rage and grief. Found the power he sought in a pact with a god.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

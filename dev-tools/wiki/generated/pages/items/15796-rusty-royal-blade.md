@@ -2,6 +2,8 @@
 
 This ancient blade from an ancient kingdom was once a majestic and powerful weapon. It still is. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15796

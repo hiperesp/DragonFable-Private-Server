@@ -2,6 +2,8 @@
 
 Hmm, VERY interesting!  It appears that this ChaosWeaver carapace retains some features of their human ancestry on the inside.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3732

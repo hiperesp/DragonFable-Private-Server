@@ -2,6 +2,8 @@
 
 Standard issue to all Kilguin hunters.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1891

@@ -2,6 +2,8 @@
 
 This ice dagger was carved entirely from the tooth of an icetiger from the frozen wastes of the north. Brrrrr.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1075

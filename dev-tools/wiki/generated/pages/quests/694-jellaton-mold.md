@@ -2,6 +2,8 @@
 
 Be bold because it's time to fight Oishii's most dangerous culinary creation: the JellaTON Mold!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This blade once belonged to Janus. Be careful it doesn't turn on you like the previous owner turned on his comrades! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11460

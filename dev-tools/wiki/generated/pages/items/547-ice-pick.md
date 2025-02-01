@@ -2,6 +2,8 @@
 
 This magical dagger, carved from a blessed sheet of glacial ice, phases in and out of this world to puncture any armor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 547

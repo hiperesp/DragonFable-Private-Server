@@ -2,6 +2,8 @@
 
 The crazy power of fire runs through this staff. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6294

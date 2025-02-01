@@ -2,6 +2,8 @@
 
 Time to manipulate, well, TIME! Although reforged by unknown means, this version of Chronomancer Armor is just as effective as when it was first made.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20414

@@ -2,6 +2,8 @@
 
 This helm was forged from the same materials used in making the DragonLord armor. It was designed to strike the same fear and awe into the Dragonlord's foes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1664

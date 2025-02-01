@@ -2,6 +2,8 @@
 
 The giant gem that hangs from this necklace seems to absorb light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3618

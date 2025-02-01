@@ -2,6 +2,8 @@
 
 This staff is a-MAIZE-ing! Happy Thankstaking 2011! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6185

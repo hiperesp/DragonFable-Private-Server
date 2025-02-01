@@ -2,6 +2,8 @@
 
 A massive space serpent that once fed off the power of stars and planets... until it was brought low by an ancient Atealan Unael.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

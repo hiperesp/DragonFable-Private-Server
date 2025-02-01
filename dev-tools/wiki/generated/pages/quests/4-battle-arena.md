@@ -2,6 +2,8 @@
 
 Defeat the newest monsters in DragonFable!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

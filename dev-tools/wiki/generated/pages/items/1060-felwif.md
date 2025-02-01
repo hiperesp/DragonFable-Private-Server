@@ -2,6 +2,8 @@
 
 This wand is named for the ancient word for Wind magic. It's the type of wand used by the aeromancers of Swordhaven, but it's been magically altered to cause stronger blows.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1060

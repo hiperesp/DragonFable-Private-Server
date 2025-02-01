@@ -2,6 +2,8 @@
 
 It's gouda for you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10888

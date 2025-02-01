@@ -2,6 +2,8 @@
 
 Stolen from the treasure hoarded by the Braken titan, the serpentine curves of this blade will allow you to slash and skewer your opponents before they can see you coming.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1343

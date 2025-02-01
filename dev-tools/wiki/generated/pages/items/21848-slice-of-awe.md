@@ -2,6 +2,8 @@
 
 Dough worry, with this battle-ready pizza, you can defeat monsters AND have a slice of victory at the same time! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21848

@@ -2,6 +2,8 @@
 
 More felt than seen or perceived. This uncanny mass gathered from the remains of the creatures you fought seems to have something to do with the Rose members stalking in the Enchanted Grove. Can be used to infuse basic Rose weaponry.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17101

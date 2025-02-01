@@ -2,6 +2,8 @@
 
 Lollipines grow to the east of Lataraji, Time for a trek.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

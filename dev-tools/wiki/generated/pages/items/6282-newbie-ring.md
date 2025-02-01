@@ -2,6 +2,8 @@
 
 It feels as cheap as it looks. It is exactly what you expect for the level 1 apprentice wanting to make a name for himself.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6282

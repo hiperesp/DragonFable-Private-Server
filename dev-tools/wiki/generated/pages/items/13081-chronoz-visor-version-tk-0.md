@@ -2,6 +2,8 @@
 
 This visor will help you see as you patrol the vast digital timescape! It'll also help you track down your target. No one evades the TK.0!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13081

@@ -2,6 +2,8 @@
 
 This Bronze Blade was forged centuries ago by a noble swordsman, bent on destroying evil. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 474

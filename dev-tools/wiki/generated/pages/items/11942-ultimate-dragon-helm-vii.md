@@ -2,6 +2,8 @@
 
 The ultimate dragon helm crafted by Cronix for DragonFable's 8th birthday! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11942

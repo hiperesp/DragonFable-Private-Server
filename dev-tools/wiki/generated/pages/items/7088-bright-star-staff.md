@@ -2,6 +2,8 @@
 
 Turn your enemies red, white and blue with this weapon! Celebrating Independence Day!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7088

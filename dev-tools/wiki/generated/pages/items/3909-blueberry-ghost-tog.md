@@ -2,6 +2,8 @@
 
 Boo! You used the blueberry power pellet to beat the Ghost-Tog and tame its little sibling.  Now Blueberry will serve you faithfully!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3909

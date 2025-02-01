@@ -2,6 +2,8 @@
 
 The Doom Amulet has been destroyed, your dragon is still corrupted and you are falling from the sky. Can things get any worse!?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

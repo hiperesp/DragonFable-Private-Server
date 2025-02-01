@@ -2,6 +2,8 @@
 
 The Crane Master appears with a flourish to pluck evil from the sea of stars!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

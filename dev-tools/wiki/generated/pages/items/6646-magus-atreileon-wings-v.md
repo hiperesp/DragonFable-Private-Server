@@ -2,6 +2,8 @@
 
 These architectural wings were sculpted from paraginium.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6646

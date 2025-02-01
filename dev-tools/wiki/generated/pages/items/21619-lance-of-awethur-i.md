@@ -2,6 +2,8 @@
 
 The legendary lance of the Guardian Awethur! Said to always strike true. Gains Bonus based on your used element. Proof of victory over the Willowshire Burns challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21619

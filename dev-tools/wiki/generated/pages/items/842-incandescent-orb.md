@@ -2,6 +2,8 @@
 
 The glow of the orb attracts fire energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 842

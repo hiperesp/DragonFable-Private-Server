@@ -2,6 +2,8 @@
 
 Three elemental mages, one of water, one of earth and one of fire, worked together to create this awesome weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 277

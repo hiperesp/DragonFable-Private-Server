@@ -2,6 +2,8 @@
 
 A splinter of wood hangs off the end of this chain. You feel magic humming within it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7085

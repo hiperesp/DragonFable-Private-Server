@@ -2,6 +2,8 @@
 
 Blessed by a great drake and tempered by her breath, this massive weapon is pefect for a warrior.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 322

@@ -2,6 +2,8 @@
 
 Some times, you have to make your own luCK... but seriously, this thing is swag-i-luckious.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15642

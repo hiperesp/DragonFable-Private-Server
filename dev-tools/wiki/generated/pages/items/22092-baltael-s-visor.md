@@ -2,6 +2,8 @@
 
 This modified visor lets you show your hair while maintaining a ferocious facade! Proof of victory over Danyel. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22092

@@ -2,6 +2,8 @@
 
 Jacek gave you this warm scarf for Frostval! He's not sure where he got it, but it's yours now. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21818

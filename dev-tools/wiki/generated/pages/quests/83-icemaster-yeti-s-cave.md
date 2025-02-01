@@ -2,6 +2,8 @@
 
 You have followed Icemaster Yeti's ice raiders to this cave high in the mountains to the east of Frostvale to rescue the missing moglins.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

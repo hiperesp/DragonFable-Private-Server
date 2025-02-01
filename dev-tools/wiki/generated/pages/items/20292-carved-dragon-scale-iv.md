@@ -2,6 +2,8 @@
 
 Messimy carved this discarded scale with a blessing of luck and gave it to you as a parting gift.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20292

@@ -2,6 +2,8 @@
 
 A chunk of Tytan strapped to your back! Even now, it seems to glow and sprinkle sand behind your steps. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19691

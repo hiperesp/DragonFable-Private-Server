@@ -2,6 +2,8 @@
 
 This discarded staff was found hidden in some bushes. It's just like the ones used by the Valtrith cultists... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21991

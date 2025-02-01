@@ -2,6 +2,8 @@
 
 You have volunteered to visit Gaelan's village in order to acquire a special ingredient!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

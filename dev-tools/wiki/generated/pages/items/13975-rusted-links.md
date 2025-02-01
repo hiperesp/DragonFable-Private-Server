@@ -2,6 +2,8 @@
 
 this was forged from a shiny, black metal that has since rusted in the waters of the Bay.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13975

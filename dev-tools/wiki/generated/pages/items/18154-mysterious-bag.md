@@ -2,6 +2,8 @@
 
 A mysterious translucent bag made of some strange flexible material. Such an odd find! Better take it with you to sell. Don't litter!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18154

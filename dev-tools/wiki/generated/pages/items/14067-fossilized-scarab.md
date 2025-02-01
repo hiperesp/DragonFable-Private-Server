@@ -2,6 +2,8 @@
 
 The name Sek is inscribed along the carapace. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14067

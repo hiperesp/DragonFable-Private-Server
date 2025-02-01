@@ -2,6 +2,8 @@
 
 This axe looks great with some polishing and a coat of gold, don't you think?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3580

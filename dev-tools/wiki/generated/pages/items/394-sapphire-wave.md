@@ -2,6 +2,8 @@
 
 This magnificent blade was carved from one massive chunk of raw sapphire, drawn out of the earth by magic. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 394

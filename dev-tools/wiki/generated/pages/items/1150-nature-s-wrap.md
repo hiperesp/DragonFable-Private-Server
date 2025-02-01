@@ -2,6 +2,8 @@
 
 This was a scrap of magical cloth that Gorgok was using as a bed. It's origin is a mystery.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1150

@@ -2,6 +2,8 @@
 
 Welcome to the Vind Camps
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

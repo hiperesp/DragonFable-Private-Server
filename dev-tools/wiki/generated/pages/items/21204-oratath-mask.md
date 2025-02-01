@@ -2,6 +2,8 @@
 
 Oratatatatath!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21204

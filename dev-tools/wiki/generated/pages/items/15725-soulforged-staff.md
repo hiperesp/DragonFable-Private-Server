@@ -3,6 +3,8 @@
 Your very own SoulForged staff! It emanates an aura of wisdom and determination!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15725

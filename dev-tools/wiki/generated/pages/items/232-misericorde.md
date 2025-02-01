@@ -2,6 +2,8 @@
 
 Elegant and blackened, this blade will put your enemies out of their misery.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 232

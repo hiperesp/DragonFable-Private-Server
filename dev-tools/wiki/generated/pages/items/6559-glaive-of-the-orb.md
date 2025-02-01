@@ -2,6 +2,8 @@
 
 This glaive was crafted from shards of the Key Orb that True Mortal carried in honor of his birthday.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6559

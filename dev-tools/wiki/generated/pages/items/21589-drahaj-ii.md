@@ -2,6 +2,8 @@
 
 A plush dragon, made for you by your dragon, with the help of the people of Falconreach! Perfect for hugging, squishing, and destroying your foes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21589

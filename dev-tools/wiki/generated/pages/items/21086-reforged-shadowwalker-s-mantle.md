@@ -2,6 +2,8 @@
 
 Let the shadows wash over you. (Cosmetic)(Shows hair)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21086

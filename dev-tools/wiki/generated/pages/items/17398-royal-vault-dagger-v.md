@@ -2,6 +2,8 @@
 
 A treasured weapon from the Swordhaven Royal Vault, this dagger isn't really that valuable or legendary. Yet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17398

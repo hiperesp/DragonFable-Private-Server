@@ -2,6 +2,8 @@
 
 An evil countess forged this blade to rip and tear her enemies, causing them to bleed as much as possible.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 222

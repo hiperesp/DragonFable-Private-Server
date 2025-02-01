@@ -2,6 +2,8 @@
 
 This old looking knot of wood feels as though it's faintly beating. You can use this to upgrade the Grove Tender Set at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14457

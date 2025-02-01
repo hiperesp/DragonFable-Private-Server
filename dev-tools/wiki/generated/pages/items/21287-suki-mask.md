@@ -2,6 +2,8 @@
 
 A mask awarded to the winner of the best abs contest.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21287

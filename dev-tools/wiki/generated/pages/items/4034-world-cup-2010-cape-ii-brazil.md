@@ -2,6 +2,8 @@
 
 Goooooo team!   Congratulations on making it to the Tournament!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4034

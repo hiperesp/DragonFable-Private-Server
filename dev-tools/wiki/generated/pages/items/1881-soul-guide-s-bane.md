@@ -2,6 +2,8 @@
 
 The dark mending magics contained in this hat make it possible to ward off death, if you're resourceful enough.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1881

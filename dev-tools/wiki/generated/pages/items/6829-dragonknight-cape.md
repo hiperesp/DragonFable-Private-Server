@@ -2,6 +2,8 @@
 
 A relic from an exotic land. Combined with it's matching weapon and helm, the set increases your damage against dragons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6829

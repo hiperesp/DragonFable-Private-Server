@@ -2,6 +2,8 @@
 
 A deadly spear used by the Fire Riders of the Sandsea. Roaming the harsh dunes, they live by their own rules. This item requires a DA.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5957

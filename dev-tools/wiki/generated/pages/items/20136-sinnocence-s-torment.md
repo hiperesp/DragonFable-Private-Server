@@ -2,6 +2,8 @@
 
 Now, you too can be tormented by the clamoring spirits of numerous infused weapons stuck in your back! (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20136

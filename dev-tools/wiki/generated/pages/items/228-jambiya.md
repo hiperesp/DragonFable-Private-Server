@@ -2,6 +2,8 @@
 
 Short and thick, this dagger slides into your enemy fast, but has a surprise ending on the way out.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 228

@@ -2,6 +2,8 @@
 
 This enchanted helm belonged to Icemaster Yeti. It can resize itself to fit upon any who wear it and is quite stylish! (Requires Dragon Amulet)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 637

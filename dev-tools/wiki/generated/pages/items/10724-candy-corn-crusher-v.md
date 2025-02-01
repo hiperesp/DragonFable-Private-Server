@@ -2,6 +2,8 @@
 
 Crafted from years old candy, use it to crush your enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10724

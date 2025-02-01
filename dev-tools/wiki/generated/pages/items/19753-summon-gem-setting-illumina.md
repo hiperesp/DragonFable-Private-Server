@@ -2,6 +2,8 @@
 
 An intricate setting that looks like it may be able to fit the Summon Gem - Illumina. Proof of victory over Illumina!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19753

@@ -2,6 +2,8 @@
 
 The dark metal of this helm is cold to the touch. Forged for the warriors who braved Black Friday, 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11000

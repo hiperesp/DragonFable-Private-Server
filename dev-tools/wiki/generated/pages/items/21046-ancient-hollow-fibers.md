@@ -2,6 +2,8 @@
 
 Otherworldly fungal fibers, pulsing with Darkness energy. Maybe it can be twisted and formed into something... unique.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21046

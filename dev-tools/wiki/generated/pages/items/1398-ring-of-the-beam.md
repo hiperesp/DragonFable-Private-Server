@@ -2,6 +2,8 @@
 
 It's said this ring will guide you back to the path of your destiny. Gives you +3 resist to Light and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1398

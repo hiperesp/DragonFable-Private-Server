@@ -2,6 +2,8 @@
 
 This remarkable weapon is used mostly by those who practice the Bladedance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 181

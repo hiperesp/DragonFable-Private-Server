@@ -2,6 +2,8 @@
 
 This blade was forged in honor of the Light Lord through the toil and tears of Clyde, luminous weaponcrafter!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4355

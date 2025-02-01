@@ -2,6 +2,8 @@
 
 Keep your enemy on target with this illuminated spear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7226

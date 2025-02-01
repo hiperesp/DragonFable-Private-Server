@@ -2,6 +2,8 @@
 
 Sir Malifact collected this necklace from a fallen DeathKnight and saved it. While he already has items bound to him, you might be able to make use of it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12588

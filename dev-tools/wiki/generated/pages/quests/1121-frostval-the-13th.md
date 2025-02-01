@@ -2,6 +2,8 @@
 
 Cultists are attacking Frostvale AND Croft!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

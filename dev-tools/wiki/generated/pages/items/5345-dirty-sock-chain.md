@@ -2,6 +2,8 @@
 
 There is no Pactoganol Knight to do laundry, so all Rolith socks are dirty. Someone needs to come up with a Sir name related to cleaning.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5345

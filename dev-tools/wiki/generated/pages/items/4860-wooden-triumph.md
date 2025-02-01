@@ -2,6 +2,8 @@
 
 This woody ring was taken off a plushie.  Oh, the stories that toy could tell!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4860

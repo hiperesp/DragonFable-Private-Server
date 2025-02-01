@@ -2,6 +2,8 @@
 
 In honor of winning the Frostval '13 war challenge he is your own personal Frosty the Snowghoul! He looks like a Frank but he's Frosty!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11234

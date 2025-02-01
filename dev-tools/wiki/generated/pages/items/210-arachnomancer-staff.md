@@ -2,6 +2,8 @@
 
 A giant spider sits atop this staff. Long ago, it was used to control the giant spiders in the area, but it lost most of its power long ago.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 210

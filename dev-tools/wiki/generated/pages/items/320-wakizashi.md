@@ -2,6 +2,8 @@
 
 Favored by ninjas, this slender blade is incredibly strong.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 320

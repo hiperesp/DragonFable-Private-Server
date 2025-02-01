@@ -2,6 +2,8 @@
 
 Alight with the fury of the Maleurous, this mask and hood were created in your dreams! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20918

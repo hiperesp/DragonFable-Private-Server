@@ -2,6 +2,8 @@
 
 Brrrrawwwck!  Freedom for all!   This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4068

@@ -2,6 +2,8 @@
 
 These... are ruins from the Fire War, aren't they?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

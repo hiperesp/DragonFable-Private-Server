@@ -2,6 +2,8 @@
 
 Liberty is recognized all over world as the weapon symbolizing the power of free will for all people. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14159

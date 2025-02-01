@@ -2,6 +2,8 @@
 
 You've found some treasure! Right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

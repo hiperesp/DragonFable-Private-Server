@@ -2,6 +2,8 @@
 
 This Item Requires a Dragon Amulet. These daggers hit your foes with the power of a tital wave! Especially if they happen to be caught in a tidal wave when they hit your foes. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 942

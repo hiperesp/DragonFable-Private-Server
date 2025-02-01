@@ -2,6 +2,8 @@
 
 Just like Captain Crossbones, you are a fearless captain! Just be careful to avoid sharks, and ninja, and deep water. This item requires a Dragon Amulet. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13752

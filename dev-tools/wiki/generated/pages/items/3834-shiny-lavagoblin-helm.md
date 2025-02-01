@@ -2,6 +2,8 @@
 
 Thankfully you received a full complement of a hero's good lucks, but if you put on this helm, you'll get a good look at how the less fortunate feel!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3834

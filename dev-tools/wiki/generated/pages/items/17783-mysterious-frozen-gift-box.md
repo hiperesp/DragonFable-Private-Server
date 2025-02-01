@@ -2,6 +2,8 @@
 
 You have no idea what could be inside this box! Although, it smells a bit like moglins... 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17783

@@ -2,6 +2,8 @@
 
 This cloak is made of entropic dragon scale found in the wake of earth elementals digging through the earth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5413

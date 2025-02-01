@@ -2,6 +2,8 @@
 
 Fire gems were hidden in this cave by DragonMaster Frostscythe. Collect the fire gems and return them to the Defender Shop in town for a powerful fire weapons.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

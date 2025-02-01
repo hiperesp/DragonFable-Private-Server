@@ -3,6 +3,8 @@
 A replica of Sek-Duat's staff.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20536

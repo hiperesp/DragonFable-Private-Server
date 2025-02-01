@@ -2,6 +2,8 @@
 
 This cape was pulled from a crate in Magus Z's office. Strands of enchanted silver thread run through this cape, enhancing its wearer. Just ignore the musty smell.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9660

@@ -2,6 +2,8 @@
 
 The last present of Frostval... and the perfect lure to use to hunt down the Coalepti! Must be shown or equipped in order to participate in The Great Giftnapping war!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20088

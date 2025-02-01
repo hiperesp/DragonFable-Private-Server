@@ -2,6 +2,8 @@
 
 You received a letter from a mysterious sender. Could it be a trap?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

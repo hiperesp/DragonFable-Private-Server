@@ -2,6 +2,8 @@
 
 Search throughout Lore to find the Rainbow Shards and complete the Rainbow Bridge!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

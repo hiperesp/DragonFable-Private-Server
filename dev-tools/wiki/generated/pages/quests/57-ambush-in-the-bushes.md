@@ -2,6 +2,8 @@
 
 In a dark and secluded part of Oaklore forest, several Darkwolf Bandits tried to take your gold. BIG mistake.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

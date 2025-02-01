@@ -2,6 +2,8 @@
 
 The dragons are attacking to reclaim their dravir!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

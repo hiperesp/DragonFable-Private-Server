@@ -2,6 +2,8 @@
 
 Can you finally put an stop to the Night of the Ebil Dread?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

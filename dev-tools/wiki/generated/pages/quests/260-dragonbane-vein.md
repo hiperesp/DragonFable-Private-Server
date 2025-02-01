@@ -2,6 +2,8 @@
 
 Fight your way to the small vein of Dragonbane ore and secure it for Galanoth.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

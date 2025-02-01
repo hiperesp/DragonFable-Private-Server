@@ -2,6 +2,8 @@
 
 Robina's Zone
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

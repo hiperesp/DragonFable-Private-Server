@@ -2,6 +2,8 @@
 
 The words "In case of emergency, break glass." can be read on the handle. Now you just need to find some glass...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1018

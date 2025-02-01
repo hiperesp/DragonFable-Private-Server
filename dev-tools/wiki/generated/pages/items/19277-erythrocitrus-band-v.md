@@ -2,6 +2,8 @@
 
 Carefully fashioned from the roots of the Erythrocitrus plant, this intricate ring smells amazing. Almost... intoxicating.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19277

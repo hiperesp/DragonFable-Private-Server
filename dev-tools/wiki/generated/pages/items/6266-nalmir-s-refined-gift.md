@@ -2,6 +2,8 @@
 
 This sword is said to be a gift given to a wizard who helped earn an enslaved demon it's freedom. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6266

@@ -2,6 +2,8 @@
 
 Slogging through that swampy marsh wasn't a very good idea, even if you needed to do it.  It seems you've gotten just a bit ill.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2275

@@ -2,6 +2,8 @@
 
 This ring was imbued with the power of an ancient oak grove. Gives you +3 resist to Nature and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1391

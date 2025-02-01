@@ -2,6 +2,8 @@
 
 Someone blended fire and ice into this one small ring.  So pretty!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3001

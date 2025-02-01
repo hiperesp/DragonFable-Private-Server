@@ -2,6 +2,8 @@
 
 The darkness of the cosmos will hold no secrets that you can't unlock! Pulled through the emptiness for Black Friday 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13023

@@ -2,6 +2,8 @@
 
 Having returned from your trip to Falconreach, Kara has a new task for you- to find Melissa and Niki, who have yet to return from their own excursion.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

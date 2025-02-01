@@ -2,6 +2,8 @@
 
 If you see this weapon, you feta run! It's some sharp cheddar, do NOT eat! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17049

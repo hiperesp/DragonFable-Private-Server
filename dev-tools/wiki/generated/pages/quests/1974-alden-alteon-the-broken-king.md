@@ -2,6 +2,8 @@
 
 A fallen king of a fallen kingdom.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

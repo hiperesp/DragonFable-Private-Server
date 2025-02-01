@@ -2,6 +2,8 @@
 
 Take down another wave!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

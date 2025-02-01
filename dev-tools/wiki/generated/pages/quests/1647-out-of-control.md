@@ -2,6 +2,8 @@
 
 Just as Robina begins to acclimate to her throne, dire news emerges from Doomwood.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

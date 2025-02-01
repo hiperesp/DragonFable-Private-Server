@@ -2,6 +2,8 @@
 
 This gilded wyvern was turned to gold by the sneevilchauns during Lucky 13!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9054

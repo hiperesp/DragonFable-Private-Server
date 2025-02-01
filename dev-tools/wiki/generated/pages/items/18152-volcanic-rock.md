@@ -2,6 +2,8 @@
 
 A huge chunk of lightweight volcanic rock. Good for scrubbing in the bath! Floats on water! Will the wonders never cease? Sellable for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18152

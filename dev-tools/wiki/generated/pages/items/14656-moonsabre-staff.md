@@ -2,6 +2,8 @@
 
 Instead of being infused with the power of the sun, this staff was bathed in pure moonlight and grew ice cold! Your reward for beating the second of the Crawler Gauntlet Levels!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14656

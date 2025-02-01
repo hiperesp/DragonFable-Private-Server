@@ -2,6 +2,8 @@
 
 For your birthday, your mother paid to have your very first wooden dagger dipped in bronze so that you'd have it forever.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1911

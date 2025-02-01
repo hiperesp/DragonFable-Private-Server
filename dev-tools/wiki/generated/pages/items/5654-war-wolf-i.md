@@ -2,6 +2,8 @@
 
 These wolves, members of the pack Thorn leads have volunteered to serve as allies in the fight to save Lore from Sepulchure.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5654

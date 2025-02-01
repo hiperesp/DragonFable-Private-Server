@@ -2,6 +2,8 @@
 
 The danger with this sword is not the razor-sharp edge, but the poison that coats it.  Remember to never hold your weapons by the blade or your serpents by the tail.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2345

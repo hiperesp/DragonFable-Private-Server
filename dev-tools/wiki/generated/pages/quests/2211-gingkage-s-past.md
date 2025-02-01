@@ -2,6 +2,8 @@
 
 Gingkage talks about her past and just how she came to know Karina and Teral.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

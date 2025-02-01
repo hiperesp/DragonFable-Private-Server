@@ -2,6 +2,8 @@
 
 Maz has given you one of the rings off her fingers for your help against the ninjas!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10495

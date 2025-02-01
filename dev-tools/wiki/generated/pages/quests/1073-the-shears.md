@@ -2,6 +2,8 @@
 
 A beautiful mountain Inn, with a mysterious tower in view on the horizon.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

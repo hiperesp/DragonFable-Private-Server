@@ -2,6 +2,8 @@
 
 The legendary Blade of Aww! Valencia forged this decoy weapon after you helped to hide the powerful Blade of Awe from Sepulchure's entropic minions! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5503

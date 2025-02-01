@@ -2,6 +2,8 @@
 
 If you need gas, gas-e is the gas for you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11864

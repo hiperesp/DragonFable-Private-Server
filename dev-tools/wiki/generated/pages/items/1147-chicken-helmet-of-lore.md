@@ -2,6 +2,8 @@
 
 This hat is awesome, so awesome it keeps your head warm and keeps those pesky spells from melting off your face too much, Plus you look like a huge chicken!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1147

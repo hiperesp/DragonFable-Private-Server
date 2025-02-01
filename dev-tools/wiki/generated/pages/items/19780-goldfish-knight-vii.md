@@ -3,6 +3,8 @@
 You found this other completely different fish in a bowl in the mayor's house! The Fish Lord says it's his loyal knight, but the Knight just says "blub".
 Can recover your mana based on item's level and your CHA! Requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19780

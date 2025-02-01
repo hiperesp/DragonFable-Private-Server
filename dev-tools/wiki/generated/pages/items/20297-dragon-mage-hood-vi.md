@@ -2,6 +2,8 @@
 
 Crafted from a dragon's molted skin, this hood is highly resisted to magic and fire! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20297

@@ -2,6 +2,8 @@
 
 A beautiful day in Falconreach! But Thankstaking is just around the corner... What could go wrong?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

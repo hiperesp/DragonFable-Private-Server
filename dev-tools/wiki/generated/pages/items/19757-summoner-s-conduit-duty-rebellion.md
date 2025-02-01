@@ -2,6 +2,8 @@
 
 This sticky residue glows fiercely when held. Perhaps it will interact with certain Summon Gems. Proof of victory over Illumina and Intaym!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19757

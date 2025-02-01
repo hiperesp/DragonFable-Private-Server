@@ -2,6 +2,8 @@
 
 This enchanted blade covers itself in a fine sheen of ice.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 267

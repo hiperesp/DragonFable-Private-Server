@@ -2,6 +2,8 @@
 
 PoeLala is a very helpful moglin! She will use her magic to increase either your Crit, Bonus, Block, Parry, or Dodge. The higher level PoeLala you have, the more her magic will help you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13949

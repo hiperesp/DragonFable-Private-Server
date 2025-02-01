@@ -2,6 +2,8 @@
 
 This is the head of the fearsome and evil ice dragon, Glaisaurus. You defeated it and its master, Dragonmaster Frostscythe. This is proof of your bravery in the face of a most powerful evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 575

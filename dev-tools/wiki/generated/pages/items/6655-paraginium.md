@@ -2,6 +2,8 @@
 
 A rock brought across the dimensions when Atrea was brought to Lore.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6655

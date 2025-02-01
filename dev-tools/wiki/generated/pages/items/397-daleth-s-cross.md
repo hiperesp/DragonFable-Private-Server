@@ -2,6 +2,8 @@
 
 This blade is designed for the defensive warrior who likes to play it safe. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 397

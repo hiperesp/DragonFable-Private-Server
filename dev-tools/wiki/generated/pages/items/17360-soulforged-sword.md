@@ -3,6 +3,8 @@
 Your very own SoulForged sword! It pulses with might and resolve!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17360

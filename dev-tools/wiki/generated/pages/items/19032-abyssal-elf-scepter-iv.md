@@ -2,6 +2,8 @@
 
 You found this curious scepter under your bed after you woke up. It has "Property of Remthalas" scribbled on the handle. I'm sure it's perfectly safe to use. Definitely not a trap.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19032

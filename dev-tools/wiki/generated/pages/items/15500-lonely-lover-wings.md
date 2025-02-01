@@ -2,6 +2,8 @@
 
 There once was a lonely old sorcerer who went to Big Daddy for help. Big Daddy transformed the sorcerer into a messenger of love, and presented him with these wings! This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15500

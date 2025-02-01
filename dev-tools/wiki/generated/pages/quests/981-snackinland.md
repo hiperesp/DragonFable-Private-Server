@@ -2,6 +2,8 @@
 
 Wha.... what did Sally do to the Necropolis?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The shape-shifting Kitsune threatens to deliver the world to the yokai.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

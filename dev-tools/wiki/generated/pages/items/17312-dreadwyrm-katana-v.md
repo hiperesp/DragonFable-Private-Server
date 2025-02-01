@@ -2,6 +2,8 @@
 
 Rewarded for defeating the mighty three headed dragon Trigoras, this katana was once used to slay the legendary Dreadwyrm, scourge of the far southern plains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17312

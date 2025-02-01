@@ -2,6 +2,8 @@
 
 This gold-edged card has magical powers! It's a wonder the Card Masters are willing to sell you any of them!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3971

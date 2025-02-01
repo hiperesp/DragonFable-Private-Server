@@ -2,6 +2,8 @@
 
 This powerful helm has been coated in enchanted obsidian dust. A rare remnant of the obsidian watchtower, such pieces are a rare find! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22234

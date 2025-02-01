@@ -2,6 +2,8 @@
 
 Defend the walls of Swordhaven!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

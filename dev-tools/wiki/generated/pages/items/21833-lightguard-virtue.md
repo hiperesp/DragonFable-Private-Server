@@ -2,6 +2,8 @@
 
 Worn by the Justicars of Luminary Accord, said to roam the Plane of Light. How these vestments made it to Lore remains a mystery. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21833

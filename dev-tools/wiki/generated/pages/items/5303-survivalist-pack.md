@@ -2,6 +2,8 @@
 
 Contains everything you could ever want for camping out in the wilds of Lore!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5303

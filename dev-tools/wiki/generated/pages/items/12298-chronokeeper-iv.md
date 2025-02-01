@@ -2,6 +2,8 @@
 
 Crafted by the mysterious Cronix to celebrate the day of his birth!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12298

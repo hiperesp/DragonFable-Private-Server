@@ -2,6 +2,8 @@
 
 This necklace has a little pixie contained in a bottle which hangs off the golden chain.  If you break the bottle and free the pixie, it will grant you a wish, stories claim!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4659

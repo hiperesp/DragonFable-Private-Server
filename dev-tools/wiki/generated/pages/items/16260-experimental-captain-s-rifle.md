@@ -2,6 +2,8 @@
 
 A pirate captain commissioned this rifle from a famous inventor. Pleased with the prototype, the captain threw the inventor overboard... and ran out of its custom made bullets in a week. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16260

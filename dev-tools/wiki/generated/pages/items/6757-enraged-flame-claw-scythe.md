@@ -2,6 +2,8 @@
 
 Infused with the fury of Xan himself, this weapon burns brightly with hateful fire. Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6757

@@ -2,6 +2,8 @@
 
 Made from the shed skin of the Zoo's reptiles! Ew....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9425

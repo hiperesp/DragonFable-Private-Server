@@ -2,6 +2,8 @@
 
 Made of rock, these tough little daggers will tear wind elementals to shreds.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 857

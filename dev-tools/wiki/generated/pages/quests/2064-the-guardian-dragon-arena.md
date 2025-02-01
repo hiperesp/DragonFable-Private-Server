@@ -2,6 +2,8 @@
 
 The Guardian Dragon has been summoned... but by whom? And why does he look so mad...?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

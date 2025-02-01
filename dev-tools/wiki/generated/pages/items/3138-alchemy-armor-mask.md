@@ -2,6 +2,8 @@
 
 To gain this helm, something of equal value must be lost.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3138

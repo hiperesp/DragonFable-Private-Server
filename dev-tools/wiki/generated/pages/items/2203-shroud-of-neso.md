@@ -2,6 +2,8 @@
 
 This cape has droplets of the minions of Neso, the avatar of Water, interwoven in the threads.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2203

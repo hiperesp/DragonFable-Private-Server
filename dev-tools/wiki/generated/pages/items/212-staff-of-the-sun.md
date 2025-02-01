@@ -2,6 +2,8 @@
 
 This lovely staff is made of highly polished gold. It would have been melted down long ago but a powerful ancient magic protects the staff and those who wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 212

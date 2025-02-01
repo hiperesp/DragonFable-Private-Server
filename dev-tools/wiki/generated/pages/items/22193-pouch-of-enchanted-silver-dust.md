@@ -2,6 +2,8 @@
 
 Also known as "PocketSilver" among certain ShadowHunters, this pouch of magical dust is a key tool in any monster hunter's kit. Proof of victory over ShadowSlayer E.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22193

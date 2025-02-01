@@ -2,6 +2,8 @@
 
 That's it! No more poring through books and maps! You're an action hero... it's time for action!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

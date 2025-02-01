@@ -2,6 +2,8 @@
 
 The Sandsea holds many secrets... and Sek-Duat holds the Sandsea.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

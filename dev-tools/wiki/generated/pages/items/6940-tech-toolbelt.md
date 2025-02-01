@@ -2,6 +2,8 @@
 
 Stocked with any tool you might need to work on machine turrets, experimental portal devices, mechanical limbs and more!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6940

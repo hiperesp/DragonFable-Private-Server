@@ -2,6 +2,8 @@
 
 Bearing crystallized bits of the Void itself (the same material the Heart of the Void is made of), this weapon courses with dark energy! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4088

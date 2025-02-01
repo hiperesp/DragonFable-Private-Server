@@ -2,6 +2,8 @@
 
 Creatures from the frozen north seem to be assembling in encampments. What the cause of this could be no one knows, but it?s probably a good idea to go thin those numbers a bit.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Spend it all! Spend it all! Everyone needs something nice now and then, right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16807

@@ -2,6 +2,8 @@
 
 The Battlespire is a collection of floating PvP arenas. Duelists compete here with the dream of fame and glory.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This magical tunic provides protection from stun attacks. It pulsates lightly with a golden glow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5974

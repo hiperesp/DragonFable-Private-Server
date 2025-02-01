@@ -2,6 +2,8 @@
 
 You are now the master of time! Although reforged by unknown means, this version of the Avatar of Time is just as effective as when it was first made.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20675

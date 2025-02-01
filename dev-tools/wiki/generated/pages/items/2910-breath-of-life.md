@@ -2,6 +2,8 @@
 
 This sword breathes new life into you! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2910

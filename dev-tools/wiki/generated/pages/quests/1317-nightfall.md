@@ -2,6 +2,8 @@
 
 Fog and darkness have shrouded woods by the Bay and Falconreach and Oaklore are under siege!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

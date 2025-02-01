@@ -3,6 +3,8 @@
 This dagger is made of a lightweight, flexible material, but it's not very sharp.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 273

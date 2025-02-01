@@ -2,6 +2,8 @@
 
 This pair of mogbots have decided to follow you around! Click to change their color! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22056

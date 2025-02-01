@@ -2,6 +2,8 @@
 
 Puppy Snax: These adorable little bite-sized morsels give your dragon one training point.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 879

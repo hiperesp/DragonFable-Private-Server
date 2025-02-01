@@ -2,6 +2,8 @@
 
 Princess Slushroom has been kidnapped!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

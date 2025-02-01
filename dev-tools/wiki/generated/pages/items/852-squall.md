@@ -2,6 +2,8 @@
 
 The force of sudden storm is trapped within the orb atop this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 852

@@ -2,6 +2,8 @@
 
 A massive boulder left behind by Gorgok after being driven away from Willowshire yet again. Will it fit in your backpack? Only one way to find out! Proof of victory over Gorgok, the Relentless.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21622

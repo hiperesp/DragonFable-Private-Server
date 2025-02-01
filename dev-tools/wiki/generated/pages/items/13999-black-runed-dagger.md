@@ -2,6 +2,8 @@
 
 A strange weapon you chanced upon in the endless corridors of the Third Floor. Although it resembles  every bit the uncanny rock of the place, something about it makes it seem more like it was once another weapon entirely...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13999

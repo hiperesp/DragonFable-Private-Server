@@ -2,6 +2,8 @@
 
 This bronze-colored ingot seems to shift between molten, solid, and dust before your eyes. Proof of victory over the Chronomancer and the Chronocorruptor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22253

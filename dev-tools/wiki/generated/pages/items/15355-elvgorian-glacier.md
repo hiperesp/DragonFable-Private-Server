@@ -2,6 +2,8 @@
 
 Legendary keepers of time, the ancient Elvgorians would chant to ring in each new year as they carved magic blades from the glacier on which they lived. True Mortal modeled this scythe after their weapons to help ring in the New Year! Happy 2016!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15355

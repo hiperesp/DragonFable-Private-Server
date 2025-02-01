@@ -2,6 +2,8 @@
 
 So bright! So many light-crystals!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

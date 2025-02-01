@@ -2,6 +2,8 @@
 
 This staff was crafted by a talented enchanter for this lady-love. Its crystal shaft shattered the very moment she broke his heart.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1487

@@ -2,6 +2,8 @@
 
 This elegant weapon is coveted by royalty.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 329

@@ -2,6 +2,8 @@
 
 Legends tell of a paladin who vanished while exploring some mountainous caves. Many years later, he re-emerged, changed, bearing strange relics of unknown origin. This backback was one of those. Click to change form! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22080

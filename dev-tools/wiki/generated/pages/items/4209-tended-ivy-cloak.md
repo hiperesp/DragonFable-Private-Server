@@ -2,6 +2,8 @@
 
 A spruced-up version of a classic floral cloak. Heh. "Spruce." Get it? It's a tree joke. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4209

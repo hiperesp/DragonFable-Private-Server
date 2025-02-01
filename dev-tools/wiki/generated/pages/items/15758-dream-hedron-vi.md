@@ -2,6 +2,8 @@
 
 It is said that the prism floating atop this staff contains the dreams... and nightmares... of its bearer. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15758

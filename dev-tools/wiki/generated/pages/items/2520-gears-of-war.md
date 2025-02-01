@@ -2,6 +2,8 @@
 
 Once Yix has the secret attack ready, return these gears of war to the Defender Shop with a few Defender Medals to exchange for a rare metal pet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2520

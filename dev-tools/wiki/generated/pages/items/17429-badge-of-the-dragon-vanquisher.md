@@ -2,6 +2,8 @@
 
 Proof of your victory over the Triple Trouble Dragon Challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17429

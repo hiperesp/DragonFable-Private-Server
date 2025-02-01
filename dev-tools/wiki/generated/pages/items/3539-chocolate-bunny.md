@@ -2,6 +2,8 @@
 
 This pet is small, cute, and completely CHOCOLATE!  Make sure you don't let any of your other pets lick it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3539

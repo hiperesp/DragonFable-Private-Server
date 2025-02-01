@@ -2,6 +2,8 @@
 
 At the peak of Falconreach, right outside the Guardian Tower, a massive undead has emerged!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Rewarded for defeating the pure dragon Oratath, a heavy scythe forged by vengeful Dragon Slayers that is said to allows the owner to turn insubstantia. It's merely a legend, though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17317

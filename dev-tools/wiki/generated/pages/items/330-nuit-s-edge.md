@@ -2,6 +2,8 @@
 
 This elegant blade belonged to a powerful woman who led many armies to victory.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 330

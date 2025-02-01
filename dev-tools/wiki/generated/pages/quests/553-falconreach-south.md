@@ -2,6 +2,8 @@
 
 Falconreach part 2
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

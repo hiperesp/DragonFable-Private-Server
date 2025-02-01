@@ -2,6 +2,8 @@
 
 A small, intricate initial made out of fine gold wire, it's twisted almost beyond recognition now. You think it was originally a D. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14057

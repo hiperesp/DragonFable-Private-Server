@@ -2,6 +2,8 @@
 
 Ding dong merrily on high, in Lore the lights are gleaming! Ding dong verily the sky, is filled with moglin singing!  Moglin magic gives this blade a chance to heal you 5% on a successful hit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3360

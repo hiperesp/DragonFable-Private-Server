@@ -2,6 +2,8 @@
 
 Imaru has a treasure he hasn't told Serenity about? He better hope he can calm her down. Otherwise he's not going to want to escape the ninja.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

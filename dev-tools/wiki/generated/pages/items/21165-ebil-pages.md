@@ -2,6 +2,8 @@
 
 From the scattered pages left behind in Artix's wake, Toil wove this flowing cape! Just make sure not to inspect the pages... too closely. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21165

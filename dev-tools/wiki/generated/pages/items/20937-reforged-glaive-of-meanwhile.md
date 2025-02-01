@@ -2,6 +2,8 @@
 
 A recreation of a weapon once used by an Avatar of Time. Where, how, and when this weapon came to be are unknown. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20937

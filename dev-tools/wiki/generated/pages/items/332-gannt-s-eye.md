@@ -2,6 +2,8 @@
 
 This sword was made by a wizard for his best friend that was a warrior. A magical eyeball is set into the blade that helps the wielder hit vulnerable spots on monsters.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 332

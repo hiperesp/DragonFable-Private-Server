@@ -2,6 +2,8 @@
 
 At least you got some of the Sister's candy back... even if it's broken and covered in moglin fur and drool....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11245

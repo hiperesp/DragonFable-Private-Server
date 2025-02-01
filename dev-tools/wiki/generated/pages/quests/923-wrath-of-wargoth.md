@@ -2,6 +2,8 @@
 
 You must keep The Professor safe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A cute set of ears that are magically enhanced.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3746

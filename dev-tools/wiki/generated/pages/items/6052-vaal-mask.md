@@ -2,6 +2,8 @@
 
 Get in touch with your inner greatness! Happy Mogloween 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6052

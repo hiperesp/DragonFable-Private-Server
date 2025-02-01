@@ -2,6 +2,8 @@
 
 Crackling with static energy, this blade delivers a slightly shocking attack!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 31

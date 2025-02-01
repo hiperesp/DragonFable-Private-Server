@@ -2,6 +2,8 @@
 
 This is a replica of a ring worn by someone of great power and influence.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 117

@@ -2,6 +2,8 @@
 
 This weapon is the type of sword used by pirates in all seven out of the eight known seas, but Cysero is still a slacker.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800064

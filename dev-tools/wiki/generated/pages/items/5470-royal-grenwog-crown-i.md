@@ -2,6 +2,8 @@
 
 A beautiful crown sit atop a delicate Grenwog egg-shell. How many different eggs did you get?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5470

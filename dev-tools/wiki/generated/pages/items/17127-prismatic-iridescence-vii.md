@@ -2,6 +2,8 @@
 
 This weapon was expertly crafted with a shard of a rainbow. How do you get a shard from a rainbow? A lot of running and a bit of luck.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17127

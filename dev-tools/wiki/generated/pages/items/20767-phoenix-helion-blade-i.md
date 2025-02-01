@@ -2,6 +2,8 @@
 
 Like a radiant meteor, the mythical phoenix once tore through the skies of Lore, only to vanish and never be seen again. This blade was commissioned to try to recapture that legendary spark. You can upgrade this helm at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20767

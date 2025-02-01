@@ -2,6 +2,8 @@
 
 Aius' bane, now broken. But perhaps it could be reforged... Proof of victory over the Accursed Hunt challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21790

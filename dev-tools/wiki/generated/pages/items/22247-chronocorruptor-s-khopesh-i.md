@@ -2,6 +2,8 @@
 
 This weapon was forged in an unknown time from materials you've never seen before. It appears to have been twisted in some way. Proof of victory over the Test of Meanwhile challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22247

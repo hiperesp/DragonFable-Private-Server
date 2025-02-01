@@ -2,6 +2,8 @@
 
 This weapon was created by the Monks of Corruption to spread the fear and pain of diseases. You'll want to wash your hands after using it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1607

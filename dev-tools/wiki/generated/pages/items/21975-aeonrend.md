@@ -2,6 +2,8 @@
 
 As you wield this you feel the hums and pulses of an unknown resonant energy, as if it hails from another time or place entirely. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21975

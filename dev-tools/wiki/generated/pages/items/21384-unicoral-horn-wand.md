@@ -2,6 +2,8 @@
 
 While normally an Ancient Unicoral's horn allows it to absorb Energy, this decorative weapon made from the shed horn of an ancient Unicoral seems to have no such property. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21384

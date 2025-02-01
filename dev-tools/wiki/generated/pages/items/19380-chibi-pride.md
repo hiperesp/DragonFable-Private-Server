@@ -2,6 +2,8 @@
 
 This mini Pride will come along for the ride on your adventures. Prefers to be referred to as "smol Superbia". Sweet! Proof of victory over the Pride challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19380

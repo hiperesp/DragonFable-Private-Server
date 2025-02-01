@@ -2,6 +2,8 @@
 
 Channel the power of wrath with this despotic hood!  It will give you extra health and it's magic will let you match it to the rest of your outfit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3692

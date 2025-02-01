@@ -2,6 +2,8 @@
 
 It's time to confront Mr. Nameless and put an end to his evil machinations! This is for Frostval!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

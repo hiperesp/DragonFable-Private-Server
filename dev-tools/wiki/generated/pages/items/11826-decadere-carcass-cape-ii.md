@@ -2,6 +2,8 @@
 
 This... is kinda gross.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11826

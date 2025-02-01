@@ -2,6 +2,8 @@
 
 By disrupting the energy flow of subterranian ley lines, this dagger is able to double as an electric turkey carver. Buzz buzzzzz!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1542

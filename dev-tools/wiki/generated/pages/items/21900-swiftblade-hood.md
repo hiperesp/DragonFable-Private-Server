@@ -2,6 +2,8 @@
 
 Once favored by a long-forgotten order of rangers in Greenguard, this hood is a blend of comfort and stealth. (Cosmetic)(CC:Base/Trim/Hair)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21900

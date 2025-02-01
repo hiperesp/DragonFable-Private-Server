@@ -2,6 +2,8 @@
 
 Carved of jade, this dagger pair has been magically enhanced to withstand anything.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 318

@@ -2,6 +2,8 @@
 
 It's a Sea Chicken! Despite your best efforts to use it as a pet, it refuses to fight and just sits there. You've heard it probably tastes like tuna, but you couldn't eat it, could you? Maybe someone will buy it and give it a good home.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18151

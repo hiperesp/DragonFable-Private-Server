@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 14 or higher to create. This staff design was taught to Yulgar by a man who claimed to have returned to the past, from a distant future.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1216

@@ -2,6 +2,8 @@
 
 A proud and sturdy blade, made in the style preferred by nobles and kings.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16

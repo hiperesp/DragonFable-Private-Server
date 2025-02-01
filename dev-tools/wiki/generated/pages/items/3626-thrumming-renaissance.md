@@ -2,6 +2,8 @@
 
 An artisan named Marth forged 234 of these weapons in the rejuvenating waters of an ice-cold brook. They retain the icy essence of that flowing elemental stream.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3626

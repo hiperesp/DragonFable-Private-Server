@@ -2,6 +2,8 @@
 
 However Noxus came to power has been lost to time, but this grimoire must have had something to do with it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20403

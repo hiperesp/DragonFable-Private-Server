@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This weapon is nearly as dangerous to your foes as it is to you. Don't get your clothes caught in the gears or else...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2296

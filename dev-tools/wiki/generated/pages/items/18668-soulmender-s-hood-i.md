@@ -2,6 +2,8 @@
 
 A Soulwoven hood used by Soulmenders. You're not sure what a Soulmender is, but you've been assured that this hood helps when casting spells.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18668

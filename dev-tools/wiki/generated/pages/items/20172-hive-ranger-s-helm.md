@@ -2,6 +2,8 @@
 
 Although mostly enclosed, this helm provides its wearer with fresh air. While remnants of the Hive Rangers are exceedingly rare, intact items are even more so. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20172

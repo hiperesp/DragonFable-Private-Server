@@ -2,6 +2,8 @@
 
 This belt was awarded to you by the town of Falconreach for defending it against a terrible threat. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12063

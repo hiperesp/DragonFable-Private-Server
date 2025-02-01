@@ -2,6 +2,8 @@
 
 This helm was found atop the treasure trove of a giant wind dragon. Apparently, the helm of this fallen White Scalehunter was his greatest prize. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1757

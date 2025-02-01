@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Envy, the Aritifical Spirit, to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You have to get to the center to stop the instability!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

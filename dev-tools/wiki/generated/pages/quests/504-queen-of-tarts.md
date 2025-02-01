@@ -2,6 +2,8 @@
 
 Can you convince the Queen of Tarts to let Aria go?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

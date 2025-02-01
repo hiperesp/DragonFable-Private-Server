@@ -2,6 +2,8 @@
 
 A bright glowing mushroom found on the path to Lynn's house. Probably not safe for eating, but at least it looks pretty! Smells like purple!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17840

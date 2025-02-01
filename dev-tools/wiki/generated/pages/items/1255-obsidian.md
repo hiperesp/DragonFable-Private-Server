@@ -2,6 +2,8 @@
 
 Black glass imported from the deserts to the south.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1255

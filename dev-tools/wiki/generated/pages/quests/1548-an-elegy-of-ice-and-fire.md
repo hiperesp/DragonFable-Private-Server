@@ -2,6 +2,8 @@
 
 No rest for a hero... nor for those in Swordhaven.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

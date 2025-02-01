@@ -2,6 +2,8 @@
 
 Nivalis and his army are coming. It's time to gather allies to stop him.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This egg hatched out of another slightly larger egg... and it is ready for BATTLE!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2417

@@ -2,6 +2,8 @@
 
 Mwrn and Bradychwyd, condensed into a singular, shifting mass.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17948

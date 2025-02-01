@@ -2,6 +2,8 @@
 
 Only the LUCKIEST rogues are initiated during Midsummer! Lucky Week 2011 reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5212

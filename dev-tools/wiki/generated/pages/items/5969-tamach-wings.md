@@ -2,6 +2,8 @@
 
 These are fashioned to look like the wings of the mighty Tamach, a giant energy dragon said to rule a distant land.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5969

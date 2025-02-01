@@ -2,6 +2,8 @@
 
 Nothing brings more Dread than the maniacal laughter of this joker coming from the shadows!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

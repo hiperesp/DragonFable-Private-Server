@@ -2,6 +2,8 @@
 
 Just another day in the life of Artix!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

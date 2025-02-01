@@ -2,6 +2,8 @@
 
 Burn baby, burn! The mad pyromancer's frightening visage is now yours!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3143

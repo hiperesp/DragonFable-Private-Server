@@ -2,6 +2,8 @@
 
 Snailmails are famous for both their speed and their ballistic cannon attack!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

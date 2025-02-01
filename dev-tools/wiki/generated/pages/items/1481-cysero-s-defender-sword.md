@@ -2,6 +2,8 @@
 
 This style of weapon was crafted by Cysero in honor of all his friends, who are ready to jump to his defense at any moment. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1481

@@ -2,6 +2,8 @@
 
 Welcome to Outpost Yeden.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

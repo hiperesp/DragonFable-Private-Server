@@ -2,6 +2,8 @@
 
 A red cloth armband, emblazoned with a black and gold dragon emblem. The symbol of a hero. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16937

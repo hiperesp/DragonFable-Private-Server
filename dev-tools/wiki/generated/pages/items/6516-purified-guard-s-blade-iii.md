@@ -2,6 +2,8 @@
 
 An enchanted weapon forged by Anders, the blacksmith, and purified by the paladin, Dracelix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6516

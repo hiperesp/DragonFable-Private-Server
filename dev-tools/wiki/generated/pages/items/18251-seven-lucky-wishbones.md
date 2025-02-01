@@ -2,6 +2,8 @@
 
 Wishbones are supposed to be lucky... right? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18251

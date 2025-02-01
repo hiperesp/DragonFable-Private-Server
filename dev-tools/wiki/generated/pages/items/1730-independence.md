@@ -2,6 +2,8 @@
 
 Independence is recognized far and wide as the weapon representing freedom from unjust rule.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1730

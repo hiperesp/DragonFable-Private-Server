@@ -2,6 +2,8 @@
 
 A portrait of wonder, seen through our eyes.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

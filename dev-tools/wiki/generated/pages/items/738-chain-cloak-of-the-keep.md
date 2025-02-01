@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This cape made of fine chain links provides super protection in battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 738

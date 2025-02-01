@@ -2,6 +2,8 @@
 
 Crafted by water nymphs to defeat sharks, this double-bladed axe proves effective against many other opponents, too.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 146

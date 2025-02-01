@@ -2,6 +2,8 @@
 
 Shards collected from around the desert.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14510

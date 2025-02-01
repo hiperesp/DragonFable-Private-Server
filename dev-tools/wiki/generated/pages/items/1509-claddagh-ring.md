@@ -2,6 +2,8 @@
 
 The inscription inside this ring says "To my fair -haired Slayer ~ Angel".
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1509

@@ -2,6 +2,8 @@
 
 If you don't cut them with one side, cut them with the other!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2939

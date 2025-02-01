@@ -2,6 +2,8 @@
 
 Rumor has it this belt was the height of fashion when water elves populated the sea... you don't understand why.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3674

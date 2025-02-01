@@ -2,6 +2,8 @@
 
 This... is super creepy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10405

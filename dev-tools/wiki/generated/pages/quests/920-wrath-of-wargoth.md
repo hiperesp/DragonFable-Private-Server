@@ -2,6 +2,8 @@
 
 Wargoth has brought all his forces to overtake Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

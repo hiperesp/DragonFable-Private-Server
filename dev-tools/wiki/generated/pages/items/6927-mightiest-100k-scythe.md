@@ -2,6 +2,8 @@
 
 This is purely a status symbol.  If you have this in your backpack, other players who haven't been able to get 100K gold will look at you in awe (and maybe wonder a little about your sanity.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6927

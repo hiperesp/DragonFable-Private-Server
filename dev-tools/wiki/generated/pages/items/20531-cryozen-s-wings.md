@@ -3,6 +3,8 @@
 A replica of Cryozen's wings! Unfortunately they won't let you fly.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20531

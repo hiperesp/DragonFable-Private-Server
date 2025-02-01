@@ -2,6 +2,8 @@
 
 While there are many pockets and areas of the Wastes that are hospitable to life, much of the Wastes is a fluctuating mess that only the most prepared and skilled adventurers may wander.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

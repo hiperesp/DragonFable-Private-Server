@@ -2,6 +2,8 @@
 
 Carved in the shape of a Rose... including it's thorns! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11724

@@ -2,6 +2,8 @@
 
 This belt is full of pockets filled with coarsely crushed  trithril.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12365

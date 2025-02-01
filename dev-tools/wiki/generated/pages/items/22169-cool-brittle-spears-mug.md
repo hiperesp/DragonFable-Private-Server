@@ -2,6 +2,8 @@
 
 This mug is objectively very cool. It'll keep your coffee lukewarm, and your moglinberry juice lukewarm as well. If anything, it's more of a lukewarm mug. But it's got a Brittle Spears graphic on it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22169

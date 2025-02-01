@@ -2,6 +2,8 @@
 
 This mighty staff was crafted for you as a reward by the townsfolk of Amityvale for defending their town against the forces of invading necromancers. The rare, prize-winning pumpkin is the source of its power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1151

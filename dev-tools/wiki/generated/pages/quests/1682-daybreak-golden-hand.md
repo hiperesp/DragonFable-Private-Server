@@ -2,6 +2,8 @@
 
 The Golden Hand approaches the rift...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A special doll made for you by Chilly! It's so fluffy! Happy Frostval '15!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15320

@@ -2,6 +2,8 @@
 
 The avatar of the Wind Lord has this made to remind people just how cutting the edge of a cold wind can be. NOW HALF-OFF!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4621

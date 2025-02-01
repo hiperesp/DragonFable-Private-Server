@@ -2,6 +2,8 @@
 
 Forged from the earth, to defend Lore from the evil that devours it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4015

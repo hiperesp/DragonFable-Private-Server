@@ -2,6 +2,8 @@
 
 It's time to petition the DragonLords for aid in reclaiming Dragesvard and controlling the rift!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

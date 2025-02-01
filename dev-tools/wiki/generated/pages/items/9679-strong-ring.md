@@ -2,6 +2,8 @@
 
 The tooth this ring is carved from was exceptionally strong.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9679

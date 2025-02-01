@@ -2,6 +2,8 @@
 
 Save Lord Valorus!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

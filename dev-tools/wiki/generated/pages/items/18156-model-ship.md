@@ -2,6 +2,8 @@
 
 Intricately designed, and somehow in pristine condition, it's almost as if it were an actual ship! It has tiny cannons, working sails, and a little ship's wheel that turns! Well, finders keepers! Sellable for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18156

@@ -2,6 +2,8 @@
 
 Into the Fissure you descend...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

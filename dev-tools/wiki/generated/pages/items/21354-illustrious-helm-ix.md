@@ -2,6 +2,8 @@
 
 A mighty helm for a mighty tournament competitor! Made in Swordhaven! Organic! Gluten free! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21354

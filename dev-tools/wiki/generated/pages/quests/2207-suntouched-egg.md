@@ -2,6 +2,8 @@
 
 It's a clutch of Suntouched Eggs! Surely they can't be that dangerous, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

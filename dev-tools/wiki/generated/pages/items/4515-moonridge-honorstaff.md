@@ -2,6 +2,8 @@
 
 This weapon was crafted to commemorate your bravery in the battle against the Z-Virus. The red cloth on the hilt symbolizes freedom. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4515

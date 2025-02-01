@@ -2,6 +2,8 @@
 
 This is the sneevils base of operations for the surrounding area. It seems to be built almost entirely out of the remnants of broken containers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The Ateala need help securing a viable plot of land to grow crops!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

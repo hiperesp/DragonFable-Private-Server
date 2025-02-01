@@ -2,6 +2,8 @@
 
 A bar of weapon-grade steel, ready for smelting.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1201

@@ -2,6 +2,8 @@
 
 This staff will grow on you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6681

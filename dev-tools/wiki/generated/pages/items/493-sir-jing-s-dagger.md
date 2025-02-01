@@ -2,6 +2,8 @@
 
 Energy dances along the edge of the magical dagger. The weapon increases your chance to score a critical hit by 1%.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 493

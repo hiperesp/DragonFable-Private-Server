@@ -2,6 +2,8 @@
 
 These mechanical wings are buffed to a high shine and reflect back to you their inner glows of purple and black. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4553

@@ -2,6 +2,8 @@
 
 Though Magesters of the present have refined their craft so far as to no longer require staves or other foci outside of the most powerful spells, many have been known to commission works of art, allegedly for display purposes. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21568

@@ -2,6 +2,8 @@
 
 A small blob of green essence, left behind by Envy in the Arena at the Edge of Time. Squishy! Used to create the Chibi Envy cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18950

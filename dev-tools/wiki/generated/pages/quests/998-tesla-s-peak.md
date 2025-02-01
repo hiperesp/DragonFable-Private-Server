@@ -2,6 +2,8 @@
 
 Explore the mountainous points of Tesla's Peak for Ironmog!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

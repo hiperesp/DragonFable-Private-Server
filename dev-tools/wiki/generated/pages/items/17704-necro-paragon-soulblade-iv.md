@@ -2,6 +2,8 @@
 
 The legendary sword of the Necro Paragon legions. Reforged from shattered Timetorn shards. The ultimate reward from the Timetorn Matrix. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17704

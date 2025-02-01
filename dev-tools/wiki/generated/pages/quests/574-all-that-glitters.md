@@ -2,6 +2,8 @@
 
 Is still gold! Get a move on and degild those monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

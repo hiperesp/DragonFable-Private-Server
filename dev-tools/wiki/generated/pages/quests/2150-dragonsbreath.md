@@ -2,6 +2,8 @@
 
 With Elysia taking care of the Grove, you and your dragon have been tasked to find some very specific flowers for Lady Celestia.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

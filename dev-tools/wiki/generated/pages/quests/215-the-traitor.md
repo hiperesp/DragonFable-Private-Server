@@ -2,6 +2,8 @@
 
 Sek-Duat XV has sent you to meet with a member of the rebellion who has decided to turn traitor. You have to stop the turncoat if you can!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

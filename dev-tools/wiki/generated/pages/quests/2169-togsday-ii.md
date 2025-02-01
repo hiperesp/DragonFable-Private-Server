@@ -2,6 +2,8 @@
 
 It's been a thousand years...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

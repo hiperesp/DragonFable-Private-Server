@@ -2,6 +2,8 @@
 
 This cozy festive hat will keep you warm in the storm! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22263

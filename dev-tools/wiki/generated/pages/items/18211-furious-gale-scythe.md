@@ -2,6 +2,8 @@
 
 This weapon has been handed down by an ancient civilization that worshiped the Furies as gods.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18211

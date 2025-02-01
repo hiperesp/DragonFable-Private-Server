@@ -2,6 +2,8 @@
 
 This style of belt seems to be preferred by people who want to look tough.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 157

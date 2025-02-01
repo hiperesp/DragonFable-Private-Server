@@ -2,6 +2,8 @@
 
 Worn by the ancient warriors that served the Drakath clan, this sigil was looted in battle and hoarded in Valtrith's tomb.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14051

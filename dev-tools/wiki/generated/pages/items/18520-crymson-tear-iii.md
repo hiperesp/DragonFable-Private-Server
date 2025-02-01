@@ -4,6 +4,8 @@ Shimmering with splendor.
 Coagulated life.
 Eternal crescendo.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18520

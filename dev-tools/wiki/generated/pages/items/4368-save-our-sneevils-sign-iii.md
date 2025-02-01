@@ -2,6 +2,8 @@
 
 A sneevil is a terrible thing to waste! This protest sign was made by Highlord Sendai, who is currently hiding away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4368

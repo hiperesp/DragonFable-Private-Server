@@ -2,6 +2,8 @@
 
 This cloak will help you blend into the desert. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14610

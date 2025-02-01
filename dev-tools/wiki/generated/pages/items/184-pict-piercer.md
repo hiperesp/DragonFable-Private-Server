@@ -4,6 +4,8 @@ Artix: "Quick, make something up!"
 Cysero: "Uh...ok...um...it was a dragon's toothpick!"
 Safiria: *groans*
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 184

@@ -2,6 +2,8 @@
 
 As a ninja you need to strike a balance between being able to see clearly and hiding who you are from your target. This mask does both perfectly! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13450

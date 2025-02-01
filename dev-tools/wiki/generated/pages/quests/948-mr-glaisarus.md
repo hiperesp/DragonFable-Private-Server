@@ -2,6 +2,8 @@
 
 Find the frozen fiend and end his freezing filching!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This necklace is made of bands of ivy, moss, and oak bark. It seems to radiate the power of nature. Someone had to have made this, but who? This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14265

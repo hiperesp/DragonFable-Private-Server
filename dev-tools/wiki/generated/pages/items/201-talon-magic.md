@@ -2,6 +2,8 @@
 
 This staff has been marked by a powerful dragon, in an attempt to blend dragon magic with more common arcane spells. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 201

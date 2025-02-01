@@ -2,6 +2,8 @@
 
 It's funny! Aside from being a fearsome weapon and a part of a balanced diet, you can also power a clock with it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1626

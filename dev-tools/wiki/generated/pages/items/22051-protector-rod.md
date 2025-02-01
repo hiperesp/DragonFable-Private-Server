@@ -2,6 +2,8 @@
 
 This strange-looking weapon is actually an alien creature from the world of Protus! Click it to change it into something else. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22051

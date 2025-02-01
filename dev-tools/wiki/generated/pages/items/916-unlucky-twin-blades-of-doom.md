@@ -2,6 +2,8 @@
 
 So much DOOM, it hurts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 916

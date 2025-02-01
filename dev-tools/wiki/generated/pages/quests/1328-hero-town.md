@@ -2,6 +2,8 @@
 
 Thank you for checking out DragonFable!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

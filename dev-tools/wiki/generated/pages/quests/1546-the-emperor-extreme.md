@@ -2,6 +2,8 @@
 
 The ultimate in Sea Chicken Emperor-ness.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

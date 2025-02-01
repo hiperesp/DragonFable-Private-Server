@@ -2,6 +2,8 @@
 
 The perfect weapon for underwater fishing.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2929

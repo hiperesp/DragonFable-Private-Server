@@ -2,6 +2,8 @@
 
 A light-weight belt made of linked stones, it seemed to have once been owned by a page named Kevin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8503

@@ -2,6 +2,8 @@
 
 This slender blade is made for precision strikes. In skilled hands, it is deadly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 218

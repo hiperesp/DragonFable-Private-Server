@@ -2,6 +2,8 @@
 
 Leorilla has swallowed its pride, and Sir Bearginion is being dishonorable! What is this weirdness?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

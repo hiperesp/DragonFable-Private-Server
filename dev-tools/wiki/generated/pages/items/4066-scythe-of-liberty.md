@@ -2,6 +2,8 @@
 
 Infused with a burning spirit of liberty, this scythe was designed to rise beyond limitations, withstand injustices, and is ultimately the weapon for freedom.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4066

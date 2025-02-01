@@ -2,6 +2,8 @@
 
 This scythe goes great with the cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3737

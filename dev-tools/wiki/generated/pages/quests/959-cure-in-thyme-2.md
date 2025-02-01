@@ -2,6 +2,8 @@
 
 You need to find all six cat items and have them in your temporary inventory!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

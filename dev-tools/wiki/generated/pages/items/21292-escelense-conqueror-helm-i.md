@@ -2,6 +2,8 @@
 
 A legendary Atealan battle helm, a relic of their adventures through the stars. Proof of victory over Alz'ein and Etaos.  Customization Catalyst for Atealan base classes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21292

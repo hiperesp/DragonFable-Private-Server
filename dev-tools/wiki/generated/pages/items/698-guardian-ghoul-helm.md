@@ -2,6 +2,8 @@
 
 This helmet was fashioned after the Guardian armour worn by Lord Frydae XIII's Guardian Ghouls. It was given to you for saving Amityvale from the evil vampire lord's schemes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 698

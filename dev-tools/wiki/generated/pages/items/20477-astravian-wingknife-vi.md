@@ -2,6 +2,8 @@
 
 Forged to protect a distant star, this weapon has found new purpose in your hands. Highly effective against foes of a fiery nature.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20477

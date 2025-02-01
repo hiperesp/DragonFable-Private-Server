@@ -2,6 +2,8 @@
 
 Someone set free all of the pets from Pikhan?s pet shop, get them back and find the culprit!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

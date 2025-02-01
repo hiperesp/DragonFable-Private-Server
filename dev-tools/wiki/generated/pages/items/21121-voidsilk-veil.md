@@ -2,6 +2,8 @@
 
 One of the earliest explorers of the Void, the weaver Demy sought treasure and riches in the unknown. She was successful too, until one day, she never returned. (Cosmetic)(Catalyst: Pirate)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21121

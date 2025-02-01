@@ -2,6 +2,8 @@
 
 These are the wings of those Sidhe who are not accepted in any otherworld. These are the evil sidhe who are cast aside.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5842

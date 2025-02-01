@@ -2,6 +2,8 @@
 
 Lim has made SCIENCE!  And this weapon is a VERY good example of why mad scientists should be allowed to play with blackholes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3434

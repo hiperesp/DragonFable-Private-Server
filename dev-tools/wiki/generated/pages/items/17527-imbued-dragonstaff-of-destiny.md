@@ -2,6 +2,8 @@
 
 Reforged with the power of a long-forgotten staff, the DragonStaff of Destiny is staff-ier than ever! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17527

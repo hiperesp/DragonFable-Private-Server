@@ -2,6 +2,8 @@
 
 Find your way through the labyrinth of hedges to earn a Chocolate Coin!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This tear-shaped rock was found in the gargoyle's cavern.  It doesn't appear to have any special properties, but it IS pretty shiny.  Try selling it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2030

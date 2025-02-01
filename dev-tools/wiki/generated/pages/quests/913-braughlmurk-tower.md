@@ -2,6 +2,8 @@
 
 Ruins of one of Braughlmurk Capes towers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

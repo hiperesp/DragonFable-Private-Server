@@ -2,6 +2,8 @@
 
 Your dragon brought some of this sticky, stinky, purple paste with it back from the Manufactory. How... considerate. Eulin seems to think it might be useful in the future though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20144

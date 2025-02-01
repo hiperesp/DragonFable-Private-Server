@@ -2,6 +2,8 @@
 
 The haft of this dagger is wrapped in skin of tosswalla lizards. This dagger is said to once have been the property of the Lizard King. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1411

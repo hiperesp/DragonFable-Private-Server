@@ -2,6 +2,8 @@
 
 This belt seems to have been extended a bit. Whoever owned it probably should have hit the G.E.A.R.S. gym a bit more often. This requires a Sta...erm...Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14414

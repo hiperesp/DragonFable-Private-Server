@@ -2,6 +2,8 @@
 
 In the cut-throat world of spies against spies, make sure your allegiance is clear! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3850

@@ -2,6 +2,8 @@
 
 A truly titanic orange. If you didn't have your magical bag, you'd probably have to roll this around. One side is stamped with the letter "p". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18774

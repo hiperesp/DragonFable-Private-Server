@@ -2,6 +2,8 @@
 
 Light in a bottle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10234

@@ -2,6 +2,8 @@
 
 Let's be honest. You just strapped the Super Sentog Time Core to the Mysterious Egg and hoped something would happen. Lucky for you, it seems like the Egg is reacting to it, shifting and blinking in space. I'm sure it's fine.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17878

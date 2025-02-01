@@ -2,6 +2,8 @@
 
 A small crystal said to be the solidified soul of a scarab beetle. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19632

@@ -2,6 +2,8 @@
 
 Ruby calls this a Turducken mask, but it smells funny and is suspiciously realistic. Must be very high quality!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18498

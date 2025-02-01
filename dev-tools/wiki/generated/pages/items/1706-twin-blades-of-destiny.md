@@ -2,6 +2,8 @@
 
 So much DESTINY, it hurts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1706

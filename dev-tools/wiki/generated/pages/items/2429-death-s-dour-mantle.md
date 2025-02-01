@@ -2,6 +2,8 @@
 
 Not only did you beat Death when he was even angrier and more powerful than the last time you faced him, but you decided to steal his mantle?  You ARE a brave hero! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2429

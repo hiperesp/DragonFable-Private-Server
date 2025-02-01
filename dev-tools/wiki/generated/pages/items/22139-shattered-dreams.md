@@ -2,6 +2,8 @@
 
 Even in this state, one can still see a guiding light. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22139

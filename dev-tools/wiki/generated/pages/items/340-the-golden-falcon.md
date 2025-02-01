@@ -2,6 +2,8 @@
 
 A falcon's strength and accuracy has been imbued in this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 340

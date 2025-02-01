@@ -2,6 +2,8 @@
 
 A deadly fusion of conductor's baton and gunblade, carrying swift symphonies of destruction. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21892

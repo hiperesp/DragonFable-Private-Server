@@ -2,6 +2,8 @@
 
 This magical rod allows its wielder to command the weather! Unfortunately, its power is limited to making deadly hailstorms.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1107

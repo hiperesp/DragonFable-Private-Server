@@ -2,6 +2,8 @@
 
 This magical blade is the bane of bugs everywhere. When it senses a bug as its target, it transforms into a bug crushing blade of destruction and deals extra damage. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 822

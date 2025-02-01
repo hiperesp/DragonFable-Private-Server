@@ -2,6 +2,8 @@
 
 Supervillains have taken over!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

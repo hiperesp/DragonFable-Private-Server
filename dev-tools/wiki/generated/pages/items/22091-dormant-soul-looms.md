@@ -2,6 +2,8 @@
 
 This pair of soul looms seems to be repaired, but inactive. Proof of victory over Baltael and Danyel.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22091

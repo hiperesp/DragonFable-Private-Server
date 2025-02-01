@@ -2,6 +2,8 @@
 
 The power of light flows from the intricate celtic knot adorning this scythe. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5378

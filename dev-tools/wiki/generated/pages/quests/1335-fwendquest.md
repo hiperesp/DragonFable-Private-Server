@@ -2,6 +2,8 @@
 
 Can you find a new fwend for Twig?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

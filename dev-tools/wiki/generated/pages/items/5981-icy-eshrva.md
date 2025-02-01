@@ -2,6 +2,8 @@
 
 Eshrva was a brilliant Rogue and was highly skilled with the daggers.  Together with his brothers, he went missing while exploring in the frozen mountains north of Dragesvard.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5981

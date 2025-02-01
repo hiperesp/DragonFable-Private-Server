@@ -2,6 +2,8 @@
 
 Fit for a pharaoh, this sort of dagger was often kept by his children.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 309

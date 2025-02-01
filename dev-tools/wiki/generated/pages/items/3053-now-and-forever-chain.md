@@ -2,6 +2,8 @@
 
 This clockwork belt is overloaded on gadgets! With all the pincers, alarms, bells and whistles, you'll always be alert to thieves around you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3053

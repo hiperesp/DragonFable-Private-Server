@@ -2,6 +2,8 @@
 
 Some say that this little guy's birth is linked somehow to the death of Medewwsa.  But that can't be right. Something this cute couldn't come from something that creepy, right?!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2439

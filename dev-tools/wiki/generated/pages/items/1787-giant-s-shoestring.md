@@ -2,6 +2,8 @@
 
 This magical belt was once the shoestring of a very well dressed and very large giant. It seems to give you a bit of the giant's strength and stupidity. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1787

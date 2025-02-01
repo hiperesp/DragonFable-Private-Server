@@ -2,6 +2,8 @@
 
 This Soulwoven cloak is usually passed on from generation to generation of Soulsmiths. Or maybe that's just a story to get you to pay more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18654

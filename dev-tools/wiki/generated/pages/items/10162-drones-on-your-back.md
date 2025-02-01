@@ -2,6 +2,8 @@
 
 Is something following you...?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10162

@@ -2,6 +2,8 @@
 
 While at first the Abyssal Sentries seem less corrupted than their compatriots, that is most certainly not the case. Perhaps the somewhat less monstrous form is intended to lure others to their demise... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21381

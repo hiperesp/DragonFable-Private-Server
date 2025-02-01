@@ -2,6 +2,8 @@
 
 Something about these shed scales fills you with impending dread... Just think about what effect it will have on your foes! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21504

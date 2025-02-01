@@ -2,6 +2,8 @@
 
 In distant lands, there are tales of a dark-winged demon who would soar through the skies searching for prey... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22076

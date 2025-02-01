@@ -2,6 +2,8 @@
 
 This helm was grown from the same type of plant that forms the PumpkinLord armors! A midnight curse has fallen upon it, blinding you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14861

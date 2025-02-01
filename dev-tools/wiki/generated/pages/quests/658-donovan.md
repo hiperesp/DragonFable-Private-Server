@@ -2,6 +2,8 @@
 
 Sheesh, Vilmor doesn't let Donovan get many shots in... even with imaginary monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

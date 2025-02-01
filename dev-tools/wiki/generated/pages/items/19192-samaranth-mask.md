@@ -2,6 +2,8 @@
 
 More hands = more candy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19192

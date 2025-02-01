@@ -2,6 +2,8 @@
 
 This dagger once belonged to a hero named Lucky, who fell into a well filled with deadly water snakes while running from a rabid gorillaphant... Poor ol' Lucky.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1521

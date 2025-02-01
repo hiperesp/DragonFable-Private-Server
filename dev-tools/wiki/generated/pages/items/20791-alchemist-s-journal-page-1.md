@@ -2,6 +2,8 @@
 
 This worn piece of paper is tattered and faded with age. Still, you can make out some few words. "---for my love, I will find----, even if---to the ends of---"
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20791

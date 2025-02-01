@@ -2,6 +2,8 @@
 
 A dazzling crystal hangs on this necklace that was left behind by the fairies. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20341

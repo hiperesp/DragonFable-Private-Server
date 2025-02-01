@@ -2,6 +2,8 @@
 
 This lightweight sword was made by a master blacksmith. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1529

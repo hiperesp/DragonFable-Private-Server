@@ -2,6 +2,8 @@
 
 This shard is so bright you can't look directly at it. You feel a calming effect when you hold it, almost as though it's trying to reassure you that the dawn will come.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13669

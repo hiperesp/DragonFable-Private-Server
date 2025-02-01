@@ -2,6 +2,8 @@
 
 The legendary and proud Leorilla. Its shining mane of fur and rippling muscles are the envy of itself when it looks at its reflection.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

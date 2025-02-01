@@ -2,6 +2,8 @@
 
 A blade forged from Timetorn Teleshards. Combine with a Timetorn Bladehilt to create a powerful weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17698

@@ -2,6 +2,8 @@
 
 The Mad Haberdasher looks as cute as a bug in a rug with these on, and now you can, too!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2973

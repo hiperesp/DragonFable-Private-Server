@@ -2,6 +2,8 @@
 
 Under no circumstances, culinary or otherwise, should these be considered wings. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21918

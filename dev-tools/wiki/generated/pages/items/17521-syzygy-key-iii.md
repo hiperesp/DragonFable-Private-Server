@@ -2,6 +2,8 @@
 
 With this key, you can view the Lorian eclipse whenever you like!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17521

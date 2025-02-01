@@ -2,6 +2,8 @@
 
 the head of the magical staff is crafted from the shards of a frost giant's sword. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 543

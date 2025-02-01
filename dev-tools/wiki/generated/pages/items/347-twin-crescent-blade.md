@@ -2,6 +2,8 @@
 
 Imbued with energy, this blade sizzles as it swings through the air.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 347

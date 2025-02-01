@@ -2,6 +2,8 @@
 
 Riadne needs this for... things.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11731

@@ -2,6 +2,8 @@
 
 This brightly colored dagger was magically transformed from a colorful flower into a deadly weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 363

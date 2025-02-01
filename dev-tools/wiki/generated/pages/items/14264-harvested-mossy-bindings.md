@@ -2,6 +2,8 @@
 
 This strange necklace shaped item seems to be made from moss that has grown together and hardened. A very odd growth for it to have happened without outside interference.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14264

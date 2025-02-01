@@ -2,6 +2,8 @@
 
 You're a STAR!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

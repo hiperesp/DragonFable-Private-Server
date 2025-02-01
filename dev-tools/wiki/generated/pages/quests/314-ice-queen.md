@@ -2,6 +2,8 @@
 
 Go with Galanoth to the lost city of the ice elves and finish the fight with Aisha.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

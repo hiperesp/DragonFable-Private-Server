@@ -2,6 +2,8 @@
 
 A lithe weapon, approved for use by the Rose. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8607

@@ -2,6 +2,8 @@
 
 This old collar still has a bright, fancy bow attached to it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13186

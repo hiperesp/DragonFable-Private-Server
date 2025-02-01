@@ -2,6 +2,8 @@
 
 A mysterious helm from a war lost to time. Somehow, it's still intact and sturdy. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20307

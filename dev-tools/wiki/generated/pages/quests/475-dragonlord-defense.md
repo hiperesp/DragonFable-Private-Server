@@ -2,6 +2,8 @@
 
 It is time to unleash your dragon in defense of BattleOn!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Carved from the chitinous armor of a primordial being, this ring wraps almost too tightly around your finger. Almost. Proof of your victory over the Simulacrum of Uthuluc.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17943

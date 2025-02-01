@@ -2,6 +2,8 @@
 
 You received this weapon for battling valiantly through the Falconreach Guardian Tower Arena! Battle On!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4697

@@ -2,6 +2,8 @@
 
 Though most relics of Maar were lost to fire and wave, some few were kept secret and made their way to traders and collectors alike. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22225

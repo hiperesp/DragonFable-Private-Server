@@ -2,6 +2,8 @@
 
 Ugh, gross and chewy but your stomach is starting to feel better
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13850

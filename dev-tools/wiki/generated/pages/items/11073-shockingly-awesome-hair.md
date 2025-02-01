@@ -2,6 +2,8 @@
 
 You're going to look gooooood at Thankstaking this year! Happy Thankstaking, 2013! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11073

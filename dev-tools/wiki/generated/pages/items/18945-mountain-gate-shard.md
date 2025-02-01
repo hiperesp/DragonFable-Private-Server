@@ -2,6 +2,8 @@
 
 Veins of quartz and sapphire glitter from the dark depths of this cracked stone. Where could such a mystical stone have come from? Perhaps someone will be willing to buy this for a good price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18945

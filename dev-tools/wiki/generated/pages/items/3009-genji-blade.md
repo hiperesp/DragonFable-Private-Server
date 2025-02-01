@@ -2,6 +2,8 @@
 
 Crafted in a far-off land, this sword offers strong protection against magic attacks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3009

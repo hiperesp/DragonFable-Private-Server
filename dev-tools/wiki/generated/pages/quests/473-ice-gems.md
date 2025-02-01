@@ -2,6 +2,8 @@
 
 Find as many Ice Gems as you can! Click on the to collect them.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

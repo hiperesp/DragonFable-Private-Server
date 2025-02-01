@@ -2,6 +2,8 @@
 
 A forest that has been overtaken by the vile undead.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Forged by Dracelix for Cyber Monday 2019, these blades seem to guide themselves toward your target. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19308

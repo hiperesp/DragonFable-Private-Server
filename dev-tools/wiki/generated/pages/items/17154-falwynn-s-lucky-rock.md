@@ -2,6 +2,8 @@
 
 Falwynn gave you this bracelet as a sign of friendship. It has a polished green stone embedded in its leather strapping. Falwynn assures you that it'll bring good luck!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17154

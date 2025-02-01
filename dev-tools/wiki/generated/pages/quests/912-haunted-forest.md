@@ -2,6 +2,8 @@
 
 The woods around Braughlmurk Cape.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

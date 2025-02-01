@@ -2,6 +2,8 @@
 
 With the upgraded shrinking ray your tiny penguin pal rises in the ranks of nobility, dealing more damage and gaining a 3% chance to SHRINK your opponent!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 549

@@ -2,6 +2,8 @@
 
 Made from the finest of materials, this helm will help you fit in with any of the many nomadic tribes of walrii. (Note: no walrii were harmed in the making of this helm.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1959

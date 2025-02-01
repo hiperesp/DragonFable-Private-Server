@@ -2,6 +2,8 @@
 
 Search through the Wastelands to find the rare Blue Lotus, the symbol of the resistance! Look for stacks of stones to find the path.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

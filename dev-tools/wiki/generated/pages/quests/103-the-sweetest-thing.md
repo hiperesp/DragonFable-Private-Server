@@ -2,6 +2,8 @@
 
 Sir Junn in Oaklore Keep has asked you to head to the hive of the Oaklore Buzzers and recover a small jar of Royal Honey, the sweetest substance in the realm.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

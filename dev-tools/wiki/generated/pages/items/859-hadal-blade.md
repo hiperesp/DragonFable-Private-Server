@@ -2,6 +2,8 @@
 
 Recovered from the belly of a great killer sharkophant, it is rumored that this weapon makes excellent sushi.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 859

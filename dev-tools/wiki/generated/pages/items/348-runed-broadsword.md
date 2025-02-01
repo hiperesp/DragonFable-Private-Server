@@ -2,6 +2,8 @@
 
 This sword has glowing runes on it. One can only guess what they mean.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 348

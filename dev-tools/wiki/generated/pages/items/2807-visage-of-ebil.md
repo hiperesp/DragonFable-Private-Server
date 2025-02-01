@@ -2,6 +2,8 @@
 
 Strike fear into goody two-shoes everywhere with this terrifying helm!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2807

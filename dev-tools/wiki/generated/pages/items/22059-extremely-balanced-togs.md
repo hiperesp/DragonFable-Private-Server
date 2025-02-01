@@ -2,6 +2,8 @@
 
 This talented stack of infinite togs has decided to join you on your adventure. No matter what happens, they will stay firmly perched on your head and each other! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22059

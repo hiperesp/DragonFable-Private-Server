@@ -2,6 +2,8 @@
 
 As shocking as the man himself, this weapon will electrify your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 24

@@ -2,6 +2,8 @@
 
 The cinders of Xan's fallen fire army fuel this malevolent staff. It's also great for roasting marshmallows.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 969

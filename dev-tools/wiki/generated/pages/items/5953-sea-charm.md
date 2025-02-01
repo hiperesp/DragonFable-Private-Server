@@ -2,6 +2,8 @@
 
 A precious resource that can be used to make other resources.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5953

@@ -2,6 +2,8 @@
 
 Ward off the denizens of the night with this awesome staff! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4377

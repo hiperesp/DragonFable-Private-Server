@@ -2,6 +2,8 @@
 
 The heroism of you and your allies has stirred The Great One to action. But with the Hollow Tytan's seemingly unlimited source of energy, more decisive action may be required.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

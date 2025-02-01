@@ -2,6 +2,8 @@
 
 Razor sharp, this sword made of interstellar metal has formed into a fearsome weapon. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4215

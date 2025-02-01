@@ -2,6 +2,8 @@
 
 Imbued with the power of an ice dragon,this staff will make your enemies beg for mercy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1106

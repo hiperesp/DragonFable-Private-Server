@@ -2,6 +2,8 @@
 
 Time to storm the castle!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

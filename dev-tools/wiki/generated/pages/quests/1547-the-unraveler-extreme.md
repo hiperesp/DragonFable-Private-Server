@@ -2,6 +2,8 @@
 
 The Unraveler, unrivaled.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

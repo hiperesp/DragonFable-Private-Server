@@ -2,6 +2,8 @@
 
 Hopefully the MOP cats can get back to Croft before it's too late and get the Cauldron Sisters to restore them.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

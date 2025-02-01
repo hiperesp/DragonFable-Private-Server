@@ -2,6 +2,8 @@
 
 The force of this blade will blow your opponents away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 851

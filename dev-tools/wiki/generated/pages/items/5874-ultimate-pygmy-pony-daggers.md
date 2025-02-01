@@ -2,6 +2,8 @@
 
 As the Godfather of weaponsmIths was out acquiring the parts for his special weapoNs he was aTtackEd by a gRoup of pygmy ponies.  He realized they would be perfect for his Needs.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5874

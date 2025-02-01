@@ -2,6 +2,8 @@
 
 This blade focuses the power of nature itself through it! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20461

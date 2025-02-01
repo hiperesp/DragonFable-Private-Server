@@ -2,6 +2,8 @@
 
 This ring gives off a malevolent glow. It has a tiny carved skull set in it... at least you think it's carved... better not to think about it actually.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 997

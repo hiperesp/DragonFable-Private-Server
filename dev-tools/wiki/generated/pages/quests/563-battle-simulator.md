@@ -2,6 +2,8 @@
 
 New in amazing DragonFable NINE POINT OH!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

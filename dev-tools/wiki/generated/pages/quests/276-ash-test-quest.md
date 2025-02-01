@@ -2,6 +2,8 @@
 
 I've stolen the old test quest so I can find it quickly.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

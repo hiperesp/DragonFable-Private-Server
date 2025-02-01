@@ -2,6 +2,8 @@
 
 Carved from the walls of Akaz's lab, this enchanted staff is not only powerful, but tastes good too! Just make sure not to nibble too much at once. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19123

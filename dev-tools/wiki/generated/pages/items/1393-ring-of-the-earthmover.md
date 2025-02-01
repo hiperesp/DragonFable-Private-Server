@@ -2,6 +2,8 @@
 
 This ring was originally crafted by a master golemicist to hold power over her minions. Gives you +3 resist to Stone and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1393

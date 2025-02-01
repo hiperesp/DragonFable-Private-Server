@@ -2,6 +2,8 @@
 
 A well worn cape crafted by Lauren in Verteroche, this cape will protect you from the elements.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4974

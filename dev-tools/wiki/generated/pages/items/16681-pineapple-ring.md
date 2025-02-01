@@ -2,6 +2,8 @@
 
 This thin ring is crafted from crystallized pineapple. It's slightly red and smells a bit like... ham for some reason.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16681

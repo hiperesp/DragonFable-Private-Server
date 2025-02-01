@@ -2,6 +2,8 @@
 
 This giant metal weapon is made of a material that you can't identify. You suspect that alchemy was used in its creation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 170

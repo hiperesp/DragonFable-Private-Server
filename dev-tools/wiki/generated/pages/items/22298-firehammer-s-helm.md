@@ -2,6 +2,8 @@
 
 This helm was forged for a rookie adventurer who loved stories about dragons. It's rather large, though. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22298

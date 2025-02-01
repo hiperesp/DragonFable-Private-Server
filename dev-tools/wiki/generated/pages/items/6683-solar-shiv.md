@@ -2,6 +2,8 @@
 
 The light reflecting off this blade almost hurts your eyes!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6683

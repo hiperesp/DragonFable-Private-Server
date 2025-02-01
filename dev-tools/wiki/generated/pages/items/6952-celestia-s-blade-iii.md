@@ -2,6 +2,8 @@
 
 Crafted in memory of the Priestess Celestia, defend it well.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6952

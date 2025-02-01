@@ -2,6 +2,8 @@
 
 This fortune promises infinite wealth... with terms and conditions. The fine print is way too small to read, so it's probably best to play it safe and use it for something else. Proof of victory over the Covetous Fortune challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21862

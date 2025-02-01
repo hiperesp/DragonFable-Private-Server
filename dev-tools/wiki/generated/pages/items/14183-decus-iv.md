@@ -2,6 +2,8 @@
 
 Heroes all over Lore celebrate courage each time they pick up this staff and gather their inner fire needed to overcome adversity. For honor and Lore, chaaaarge! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14183

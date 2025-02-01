@@ -2,6 +2,8 @@
 
 Deep in the forest of Doomwood, a tomb has been uncovered. A mysterious magic symbol glows in the inky black of the forest. Something is sealed inside....
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

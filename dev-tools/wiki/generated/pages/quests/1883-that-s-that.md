@@ -2,6 +2,8 @@
 
 A monster has been terrifying the villagers! Find it and stop it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

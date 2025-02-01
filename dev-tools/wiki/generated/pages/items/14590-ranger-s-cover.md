@@ -2,6 +2,8 @@
 
 This hood keeps the desert sun out of your eyes so you can focus on your target.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14590

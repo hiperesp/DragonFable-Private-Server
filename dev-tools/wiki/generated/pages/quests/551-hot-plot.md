@@ -2,6 +2,8 @@
 
 Xan and the Necromantress are making plans.  Plans you'd better interrupt!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Two undead nemeses from different worlds, united against you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

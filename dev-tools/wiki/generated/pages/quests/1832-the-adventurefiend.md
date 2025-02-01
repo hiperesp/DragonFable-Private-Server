@@ -2,6 +2,8 @@
 
 And so the fateful encounter is had. A horrifying doom most foul has found you, and it is terrible and mighty, uncontained by the seals which once kept it bound! The AdventureFiend seeks your soul, and the souls of all others!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

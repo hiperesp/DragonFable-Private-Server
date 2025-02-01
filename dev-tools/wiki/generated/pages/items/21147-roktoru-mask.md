@@ -2,6 +2,8 @@
 
 Whoever made this mask was incredibly skilled. The inhuman visage of Roktoru is yours to wear! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21147

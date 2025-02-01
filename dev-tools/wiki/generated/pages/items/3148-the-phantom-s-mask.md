@@ -2,6 +2,8 @@
 
 Dashing and daring is the name of the game when you wear this mask.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3148

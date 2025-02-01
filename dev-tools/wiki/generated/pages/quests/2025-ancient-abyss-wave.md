@@ -2,6 +2,8 @@
 
 The Abyssal Tribe spanned far across the depths of the seas. Their corrupted remnants don't take kindly to intruders.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

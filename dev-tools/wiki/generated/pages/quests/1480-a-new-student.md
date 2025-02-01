@@ -2,6 +2,8 @@
 
 You are taking Belle to Warlic in order to see how she was able to survive those Manaphages. If anyone has the answers, it's him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

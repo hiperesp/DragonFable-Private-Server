@@ -2,6 +2,8 @@
 
 You wandered into a camp of desert thugs! Time to clear it out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

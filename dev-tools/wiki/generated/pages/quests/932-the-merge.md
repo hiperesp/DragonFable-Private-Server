@@ -2,6 +2,8 @@
 
 The only way to end Wargoth... is to merge him with the Professor!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

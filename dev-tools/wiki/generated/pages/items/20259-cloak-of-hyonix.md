@@ -2,6 +2,8 @@
 
 This prismatic cloak appears to have been soulwoven. But even in the histories of Edelia, no weaver seems to have ever gone by the name of Hyonix. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20259

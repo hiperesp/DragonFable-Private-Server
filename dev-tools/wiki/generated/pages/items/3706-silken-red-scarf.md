@@ -2,6 +2,8 @@
 
 Murk found this silken red scarf tangled in some of the overgrown bushes in Silkwood Park.  Could it have belonged to a Chaosweaver at some point in the past?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3706

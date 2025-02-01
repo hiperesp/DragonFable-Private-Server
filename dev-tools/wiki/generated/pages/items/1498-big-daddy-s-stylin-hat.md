@@ -2,6 +2,8 @@
 
 Bow Chicka WOW WOW!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1498

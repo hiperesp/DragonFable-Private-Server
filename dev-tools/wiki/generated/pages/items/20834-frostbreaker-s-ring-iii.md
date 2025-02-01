@@ -2,6 +2,8 @@
 
 Pulled from the remains of a Hollow Behemoth, this ring bearing an intricate carving of pine trees and mountains. Whatever stories its previous owner had to share are lost with them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20834

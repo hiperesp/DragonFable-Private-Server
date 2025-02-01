@@ -2,6 +2,8 @@
 
 Crafted from flawless rubies, this massive flamberge is imbued with the power of fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 333

@@ -2,6 +2,8 @@
 
 They're everywhere!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

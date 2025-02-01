@@ -2,6 +2,8 @@
 
 A small tag inside this helm reads "In case of loss please return to Alfred."
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1588

@@ -2,6 +2,8 @@
 
 This sturdy weapon is made from the solid leg bone of some giant creature. Some whisper that it's a dragon bone, others say it was something much more dangerous.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 177

@@ -2,6 +2,8 @@
 
 Save Falconreach from being over-run by undead. PINK undead!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

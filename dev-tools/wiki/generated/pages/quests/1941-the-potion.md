@@ -2,6 +2,8 @@
 
 Test the potions on the spore creatures.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

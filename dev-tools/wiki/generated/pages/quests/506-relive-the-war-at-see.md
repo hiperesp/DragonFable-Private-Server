@@ -2,6 +2,8 @@
 
 Go back in time with the aid of this book and relive the time when the eye monsters attacked Falconreach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

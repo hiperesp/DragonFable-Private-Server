@@ -2,6 +2,8 @@
 
 You feel as though time itself slows around the edge of your weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4821

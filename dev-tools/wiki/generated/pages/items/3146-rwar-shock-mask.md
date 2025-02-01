@@ -2,6 +2,8 @@
 
 RWAR! /shock
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3146

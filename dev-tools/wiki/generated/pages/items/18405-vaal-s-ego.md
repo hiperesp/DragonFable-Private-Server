@@ -2,6 +2,8 @@
 
 Call upon Vaal's Ego in battle. Proof of your victory over the Egomaniacs challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18405

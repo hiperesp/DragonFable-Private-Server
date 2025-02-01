@@ -2,6 +2,8 @@
 
 Can you catch up to Trey in time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

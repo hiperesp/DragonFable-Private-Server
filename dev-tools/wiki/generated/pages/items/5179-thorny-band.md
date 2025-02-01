@@ -2,6 +2,8 @@
 
 Thorny vines twist around your neck.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5179

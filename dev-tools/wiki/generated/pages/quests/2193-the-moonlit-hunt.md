@@ -2,6 +2,8 @@
 
 Monsters beware, for the silver moon shines tonight.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

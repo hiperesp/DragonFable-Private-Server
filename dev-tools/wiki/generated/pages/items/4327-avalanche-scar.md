@@ -2,6 +2,8 @@
 
 The stones of this necklace are scarred and pitted from their violent flow down a mountain side.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4327

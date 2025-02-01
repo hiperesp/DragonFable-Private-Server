@@ -2,6 +2,8 @@
 
 Used by the smartest of Pirates, this dagger was supposed to be used for scraping barnacles off ships,but will also cut any enemy in half! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 980

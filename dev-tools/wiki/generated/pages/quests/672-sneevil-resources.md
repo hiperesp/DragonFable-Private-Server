@@ -2,6 +2,8 @@
 
 The huma... sneevil resources department for The Beehive.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

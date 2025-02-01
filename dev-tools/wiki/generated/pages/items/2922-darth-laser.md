@@ -2,6 +2,8 @@
 
 While Lim is NOT your father (we don't think), he IS the smith who engineered this shiny shiny laser blade.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2922

@@ -2,6 +2,8 @@
 
 This armet will protect you from any number of attacks. There is nothing worse than getting an arrow to the face.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13932

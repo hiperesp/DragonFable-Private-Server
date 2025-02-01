@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  No swimming for 30 minutes after using this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1504

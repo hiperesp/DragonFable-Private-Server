@@ -2,6 +2,8 @@
 
 Warlic has asked you to investigate what has happened to the river flowing past the mining town of Lymcrest.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 When a Soul Harvester falls from grace, their outward image changes to reflect the fall. When TM made the Soul Harvester Wings at Serenity Okami?s request, the Doom Harvesters, tainted half the wings in his workshop. This item requires a DA.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6040

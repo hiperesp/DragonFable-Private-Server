@@ -2,6 +2,8 @@
 
 Created by Celestials in a time long past, these magnificent wings still radiate power and presence. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22223

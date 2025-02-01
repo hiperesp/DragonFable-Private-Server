@@ -2,6 +2,8 @@
 
 Imbued with the peace and tranquility of the Creatioux clearing, this belt adds to your endurance and wisdom!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4018

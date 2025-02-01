@@ -2,6 +2,8 @@
 
 This is Artix town!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

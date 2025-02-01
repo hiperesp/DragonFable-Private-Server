@@ -2,6 +2,8 @@
 
 It's always good to call a spade a spade, except when it's a dagger.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2607

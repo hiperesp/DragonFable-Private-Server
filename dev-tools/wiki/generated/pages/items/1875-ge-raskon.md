@@ -2,6 +2,8 @@
 
 Trapped within this sword is Ge'Raskon, the Vindictive One.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1875

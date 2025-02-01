@@ -2,6 +2,8 @@
 
 For when you just can't bear to see what monsters are charging at you. Happy April Fool's Day 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5346

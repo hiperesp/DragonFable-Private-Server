@@ -2,6 +2,8 @@
 
 With no sign of the siege ending, the Vind must take drastic action against The Rose.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This staff seems to have taken on the properties of the water it has rested in. Who knows what foul powers it could have now!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13963

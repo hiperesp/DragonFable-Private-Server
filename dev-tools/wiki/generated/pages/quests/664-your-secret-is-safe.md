@@ -2,6 +2,8 @@
 
 Can you distract the monsters long enough for Valencia to escape without getting caught yourself?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

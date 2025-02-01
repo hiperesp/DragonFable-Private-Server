@@ -2,6 +2,8 @@
 
 The geometry of this blade just seems... wrong. It twists and contorts into strange shapes that seem to warp the longer you look at it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15750

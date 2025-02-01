@@ -2,6 +2,8 @@
 
 This sword was an experiment by a mad weaponsmith. It was grown rather than forged and needs to be watered daily.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 83

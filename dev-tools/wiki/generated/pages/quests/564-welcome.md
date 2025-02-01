@@ -2,6 +2,8 @@
 
 Tonight We are going to party like it is Version 8.9.9!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

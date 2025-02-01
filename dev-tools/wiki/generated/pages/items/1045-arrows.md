@@ -2,6 +2,8 @@
 
 Chicks dig scars! Show what a truly invincible hero you are by sporting these stylish arrows. You're too busy being heroic to pull them out of your back. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1045

@@ -2,6 +2,8 @@
 
 A worn, carved scrap of Exalted ruins. Ironically, it is used in Lhe'Shyiac as a symbol of the Makers' favor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20973

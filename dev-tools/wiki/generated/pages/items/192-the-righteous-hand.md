@@ -2,6 +2,8 @@
 
 This type of staff is used mostly by simple fighting monks, to help focus their fighting magics. A very defensive staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 192

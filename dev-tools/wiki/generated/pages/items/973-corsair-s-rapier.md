@@ -2,6 +2,8 @@
 
 Slim, fast, and deadly- what more could a gentlemanly pirate want?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 973

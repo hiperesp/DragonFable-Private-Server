@@ -2,6 +2,8 @@
 
 As the sun is blocked out, Falconreach plunges into darkness...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

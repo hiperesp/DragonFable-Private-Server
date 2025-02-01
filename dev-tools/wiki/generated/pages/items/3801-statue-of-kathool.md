@@ -2,6 +2,8 @@
 
 This is a statue of Kathool like the one that Davey found... and that started his descent into madness. You really, really, really don't want to keep this. (Really.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3801

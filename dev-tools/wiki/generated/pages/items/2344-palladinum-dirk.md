@@ -2,6 +2,8 @@
 
 This dagger was made from an element found to be effective at assisting paladins.  It gives an added resistance against darkness creatures and increases luck!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2344

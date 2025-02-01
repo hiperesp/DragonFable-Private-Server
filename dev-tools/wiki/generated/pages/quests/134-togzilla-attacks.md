@@ -2,6 +2,8 @@
 
 A prehistoric mutant Tog has emerged from Yokyto Bay, with its army of Kaiju. You and your dragon must stop them from destroying the village! It will also be pretty good practice.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

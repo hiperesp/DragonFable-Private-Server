@@ -2,6 +2,8 @@
 
 A fancy dragon's wings and tail! It's color customizable and the tail can be hidden if clicked. (Cosmetic) (CC: Base, Trim, Dragon Eye, Dragon Horn, Dragon Wing)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21134

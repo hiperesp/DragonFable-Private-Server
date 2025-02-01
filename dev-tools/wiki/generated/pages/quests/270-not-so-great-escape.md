@@ -2,6 +2,8 @@
 
 Break into the Ice Elf city and rescue Galanoth before he catches cold!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

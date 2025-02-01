@@ -2,6 +2,8 @@
 
 Just touching this pulls a little of you into the Void.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8417

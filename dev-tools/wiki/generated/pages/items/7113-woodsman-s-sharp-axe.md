@@ -2,6 +2,8 @@
 
 The Huntsman carries this axe with him for felling handy trees and the occasional errant big bad wolf.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7113

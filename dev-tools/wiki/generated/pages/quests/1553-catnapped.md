@@ -2,6 +2,8 @@
 
 It's Mogtober! And you know what that meaaaans!!!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The metal rod at the center of this staff conducts electricity REALLY well!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3035

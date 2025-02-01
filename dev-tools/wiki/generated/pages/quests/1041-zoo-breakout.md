@@ -2,6 +2,8 @@
 
 The elemental runes are failing in some of the zoo sections, can you stop the breakouts?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

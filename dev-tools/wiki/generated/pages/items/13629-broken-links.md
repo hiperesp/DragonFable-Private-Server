@@ -2,6 +2,8 @@
 
 The links of this belt are heavy but have started to crack and brake.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13629

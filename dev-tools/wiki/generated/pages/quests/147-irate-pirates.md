@@ -2,6 +2,8 @@
 
 Rhubarb the pirate has asked you to stop the Ninjas trained monkeys from stealing the chest of maps from one of the ships in Osprey Cove.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

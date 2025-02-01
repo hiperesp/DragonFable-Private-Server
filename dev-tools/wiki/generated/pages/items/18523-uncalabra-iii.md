@@ -2,6 +2,8 @@
 
 Forged during an equinox and passed from hands to hands, this spear has taken many lives. Its handle is so cold to the touch, wielding it in bare hands wouldn?t be advisable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18523

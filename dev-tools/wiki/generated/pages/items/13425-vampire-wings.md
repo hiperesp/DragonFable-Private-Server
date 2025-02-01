@@ -2,6 +2,8 @@
 
 Embrace the night! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13425

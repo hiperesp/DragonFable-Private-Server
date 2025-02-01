@@ -2,6 +2,8 @@
 
 This helm is only worn by those who have dedicated themselves to Arester's training. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13717

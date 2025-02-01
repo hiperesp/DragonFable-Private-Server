@@ -2,6 +2,8 @@
 
 You've come across an island inhabited by... wild, tribal moglins?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

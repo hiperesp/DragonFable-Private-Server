@@ -2,6 +2,8 @@
 
 Don't let its name fool you! This yellowy knife, while capable of slicing through butter effortlessly, can do that to your enemies, too.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 367

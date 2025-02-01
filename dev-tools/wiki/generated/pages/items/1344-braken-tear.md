@@ -2,6 +2,8 @@
 
 A memento of your battle with the Braken titan, this power of this water staff will flood your opponents with a feeling of helplessness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1344

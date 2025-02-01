@@ -2,6 +2,8 @@
 
 Smelly and hard, this slab of fish is used to whap your opponent upside the head.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9

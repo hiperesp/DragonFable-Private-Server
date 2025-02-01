@@ -2,6 +2,8 @@
 
 People's tastes were stolen! Time to find out who did it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  This staff can slay a monster sized hunger... as well as the monster. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1505

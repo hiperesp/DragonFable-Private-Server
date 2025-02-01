@@ -2,6 +2,8 @@
 
 The powdered scales of Decadere and Creatioux. Proof of victory over the Creatioux and Decadere Ancients.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21986

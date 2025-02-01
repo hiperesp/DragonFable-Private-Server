@@ -2,6 +2,8 @@
 
 A spare Magester's mask. Hopefully you won't get in trouble for wearing it. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21570

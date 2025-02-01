@@ -2,6 +2,8 @@
 
 This is a small but perfect replica of the town that you are currently in. It appears that something has crawled it's way out of one of the graves the cemetary. The name on the grave reads Beetlej...the rest is worn off.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 418

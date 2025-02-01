@@ -2,6 +2,8 @@
 
 The shiny armor of Adventurers everywhere!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800005

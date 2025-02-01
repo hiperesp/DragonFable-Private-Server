@@ -2,6 +2,8 @@
 
 Shining with the reflections from a million stars, this Sparkle Boy descends to, presumably, protect the weak!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

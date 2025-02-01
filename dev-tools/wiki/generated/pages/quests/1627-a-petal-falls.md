@@ -2,6 +2,8 @@
 
 Welcome back to the Land of Dragons.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You will not run away!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7258

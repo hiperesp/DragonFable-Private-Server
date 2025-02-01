@@ -2,6 +2,8 @@
 
 Jaania knows the truth, whether she likes it or not. How will she and Akanthus dance around the broken trust?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

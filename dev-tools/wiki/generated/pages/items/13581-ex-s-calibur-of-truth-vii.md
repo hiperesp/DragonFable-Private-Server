@@ -2,6 +2,8 @@
 
 This sword was left behind after a nasty break-up. The truth finally came out of what actually happened. Better not to ask. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13581

@@ -2,6 +2,8 @@
 
 The preferred weapon of the Frost Moglin Knights! It's been magically enlarged so you can wield it properly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17804

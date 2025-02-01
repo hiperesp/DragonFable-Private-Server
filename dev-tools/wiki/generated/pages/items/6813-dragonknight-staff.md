@@ -2,6 +2,8 @@
 
 Brought by a traveling merchant from an exotic land, these weapons increase your damage against dragons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6813

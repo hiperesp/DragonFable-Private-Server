@@ -2,6 +2,8 @@
 
 Valtrith castle sits like a malevolent toad in the Doomwood. His minions still haunt its halls and it's up to you to clear them out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

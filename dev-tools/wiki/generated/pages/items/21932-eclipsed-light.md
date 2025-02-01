@@ -2,6 +2,8 @@
 
 This blade was formed from a single piece of glowing crystal. While its edge may appear dull, its innate magic gives it a deceiving edge. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21932

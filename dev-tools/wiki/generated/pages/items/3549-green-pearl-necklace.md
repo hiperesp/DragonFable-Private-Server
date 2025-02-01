@@ -2,6 +2,8 @@
 
 A poisonous oyster living deep in the trenches secretes these pearls every 100 years.  They are very rare, but give excellent protection from poison if you wear one.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3549

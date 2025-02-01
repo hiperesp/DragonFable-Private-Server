@@ -2,6 +2,8 @@
 
 You've somehow found your way into what appears to be a twisted and distorted bodybuilding competition. Will you come out on top?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

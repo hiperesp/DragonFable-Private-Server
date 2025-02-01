@@ -2,6 +2,8 @@
 
 You managed to pick up this shifting piece of mechanism as you left Myalos. You're not sure if it's 'supposed' to be a weapon, but it definitely gets the job done.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20054

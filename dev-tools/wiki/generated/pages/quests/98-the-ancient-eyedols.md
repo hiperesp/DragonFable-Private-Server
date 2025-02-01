@@ -2,6 +2,8 @@
 
 Warlic contacted you with information. Texts tell of an ancient temple that is home to The Irismancer and his "army of a million eyes" as well as the ancient idols that are the source of his power. Your job is to destroy an ancient idol and escape the temple.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Imbuing the Hollow Weave with the power of the Shard of The Great One has resulted in a solid unyielding and very magical material. Maybe it will react to some sort of magical catalyst in the future...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21103

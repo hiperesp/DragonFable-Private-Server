@@ -2,6 +2,8 @@
 
 Don't get lost in the woods!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

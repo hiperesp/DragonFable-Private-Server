@@ -2,6 +2,8 @@
 
 It's Cysero's Orb, and its CRANKY!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2165

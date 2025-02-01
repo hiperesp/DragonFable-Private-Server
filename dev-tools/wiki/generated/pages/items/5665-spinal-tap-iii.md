@@ -2,6 +2,8 @@
 
 This ricassoed greatsword was fused with a demonic skeleton and magically reinforced.  It's a blade worthy of any Lich King. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5665

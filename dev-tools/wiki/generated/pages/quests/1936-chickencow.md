@@ -2,6 +2,8 @@
 
 The fury of the Eggsalted, in deliciously destructive form!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

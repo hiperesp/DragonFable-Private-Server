@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This helm was carved from a very tough type of stone so don't get offended when someone calls you a "rockhead".
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1176

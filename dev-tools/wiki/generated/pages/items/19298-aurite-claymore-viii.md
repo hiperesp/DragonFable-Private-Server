@@ -2,6 +2,8 @@
 
 Forged by Dracelix for Cyber Monday 2019, this large sword is surprisingly light, and very, very sharp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19298

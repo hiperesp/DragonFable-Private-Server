@@ -2,6 +2,8 @@
 
 Remnants of Zadd's final experiments, still imbued with mana. Could be useful in the future!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21690

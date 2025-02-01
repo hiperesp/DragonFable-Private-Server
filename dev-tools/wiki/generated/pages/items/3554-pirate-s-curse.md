@@ -2,6 +2,8 @@
 
 This was a VERY lucky pirate.  All the way up until his ship sank.  But don't let that discourage you from using his curse against your enemies!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3554

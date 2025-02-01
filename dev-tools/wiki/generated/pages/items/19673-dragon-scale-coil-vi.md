@@ -2,6 +2,8 @@
 
 A fine ring, painstakingly crafted by Cole from Messimy's fallen dragon scales. As Cole says, it's "Somethin' to remember her and the kids by."  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19673

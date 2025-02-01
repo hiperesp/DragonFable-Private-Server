@@ -2,6 +2,8 @@
 
 Your thoughts slowly become overshadowed with darkness the longer you hold it... This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13667

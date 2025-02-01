@@ -2,6 +2,8 @@
 
 DuBellmount says these attacks are just the beginning. That Valtrith is sending his weakest minions out to scout for him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

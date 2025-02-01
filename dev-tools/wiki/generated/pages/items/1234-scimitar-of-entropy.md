@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 26 or higher to create. This strange looking but strong sword design was made to honor the spirits of entropy and chaos. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1234

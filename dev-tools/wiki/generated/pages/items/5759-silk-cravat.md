@@ -2,6 +2,8 @@
 
 This silk cravat has the name B. Arnold stitched into the seam. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5759

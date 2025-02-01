@@ -3,6 +3,8 @@
 A lone ribbon left behind by the Goose Dragon. Can be worn in your hair, and maybe somehow, used to merge into... something in the future!
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20642

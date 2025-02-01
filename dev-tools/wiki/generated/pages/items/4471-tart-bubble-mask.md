@@ -2,6 +2,8 @@
 
 Be both cute AND adorable with just a single mask! Happy Mogloween 2010!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4471

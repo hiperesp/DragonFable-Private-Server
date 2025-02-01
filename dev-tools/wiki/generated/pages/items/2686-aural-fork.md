@@ -2,6 +2,8 @@
 
 This dagger uses echolocation to locate the center of your opponent in order to do maximum damage!  Never say sound isn't powerful!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2686

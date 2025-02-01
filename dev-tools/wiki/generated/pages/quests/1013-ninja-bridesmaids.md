@@ -2,6 +2,8 @@
 
 Megs and Megz! The bridesmaids that blend into the blackness, with their deadly bouquets of begonias!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

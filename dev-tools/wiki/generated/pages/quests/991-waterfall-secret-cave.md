@@ -2,6 +2,8 @@
 
 Behind this waterfall lies a secret cave protected by Dragon Magic!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

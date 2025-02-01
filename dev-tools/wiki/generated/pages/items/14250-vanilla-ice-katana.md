@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This delicate katana was crafted by Yulgar using the remaining shards of the Ice Scythe and the Ice Gems from the north. It smells faintly of vanilla....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14250

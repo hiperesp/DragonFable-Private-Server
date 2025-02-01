@@ -2,6 +2,8 @@
 
 This little dagger is infused with fire to make it hot!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 371

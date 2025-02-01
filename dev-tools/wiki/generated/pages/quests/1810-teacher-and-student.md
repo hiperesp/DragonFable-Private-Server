@@ -2,6 +2,8 @@
 
 Teaching each other, learning from each other. Nothing can stand in their path.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

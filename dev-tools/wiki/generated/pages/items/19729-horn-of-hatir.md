@@ -2,6 +2,8 @@
 
 The horn of Drahr'Hatir. Can be used to create a reward. Proof of victory over Drahr'Hatir.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19729

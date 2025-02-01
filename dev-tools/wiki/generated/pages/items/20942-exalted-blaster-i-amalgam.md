@@ -2,6 +2,8 @@
 
 Notha and Myalos worked together to attach some ancient tech to Uaanta's Blaster! This wand does Fear damage and increases its target's Health resistance! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20942

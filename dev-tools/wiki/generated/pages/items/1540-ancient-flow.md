@@ -2,6 +2,8 @@
 
 Only a Geomancer could comprehend the incomprehensible ancient energy flow powering the blade. Not to be confused with  'Ancient Flo' who was a waitress now haunting Alice's restaurant.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1540

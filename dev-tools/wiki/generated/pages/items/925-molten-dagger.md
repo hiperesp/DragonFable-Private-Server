@@ -2,6 +2,8 @@
 
 These blades where enchanted during their forging, to retain all of the heat used in their creation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 925

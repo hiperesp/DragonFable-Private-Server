@@ -2,6 +2,8 @@
 
 Cultists forced Croft out and summoned it near Frostvale.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

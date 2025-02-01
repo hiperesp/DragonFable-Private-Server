@@ -2,6 +2,8 @@
 
 The thin leathery (and yet sturdy) skin from the insides of an underwater leviathan was used to weave this cloak, adorned with currency. Each step makes the coins jingle, their sound growing louder in close proximity to gold. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22086

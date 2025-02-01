@@ -2,6 +2,8 @@
 
 This tusk came loose after you beat that Gorillaphant. Maybe it was bothering it? Should be sellable for a fair price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17120

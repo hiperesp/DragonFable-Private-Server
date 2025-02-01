@@ -2,6 +2,8 @@
 
 The smallest Timetorn Matrix. Can you find your way?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Nature magics cause this gem to glow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12042

@@ -2,6 +2,8 @@
 
 Take care of the candy delivery undead... with candy! Fight candy with candy and all that!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

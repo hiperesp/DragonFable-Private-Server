@@ -2,6 +2,8 @@
 
 The next generation of Chickencow Lords... Ascends! This is best used if you are over level 40! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13671

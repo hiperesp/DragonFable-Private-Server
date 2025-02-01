@@ -2,6 +2,8 @@
 
 Voltabolt's dye-abolical plan has turned into a do or dye situation!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

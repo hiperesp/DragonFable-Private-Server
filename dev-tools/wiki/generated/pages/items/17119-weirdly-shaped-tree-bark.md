@@ -2,6 +2,8 @@
 
 This odd piece of tree bark looks almost exactly like a portrait of the one and only King Alteon! This would fetch a good price for a collector.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17119

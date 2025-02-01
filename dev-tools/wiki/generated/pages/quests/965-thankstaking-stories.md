@@ -2,6 +2,8 @@
 
 Fill up your plate and get ready to dish out some Thankstaking justice!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

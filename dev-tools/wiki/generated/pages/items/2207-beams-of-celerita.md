@@ -2,6 +2,8 @@
 
 The very beams of light making up the light mioions of Celerita, avatar of Light, create this cloak.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2207

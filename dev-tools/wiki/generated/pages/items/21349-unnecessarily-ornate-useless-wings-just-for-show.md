@@ -2,6 +2,8 @@
 
 These obscenely shiny wings are completely useless as a back item, but at least they look very, very pretty! Forged by Darkon. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21349

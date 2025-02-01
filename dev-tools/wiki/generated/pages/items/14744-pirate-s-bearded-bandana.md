@@ -2,6 +2,8 @@
 
 This bandana keeps your hair out of your face while you swab the deck! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14744

@@ -2,6 +2,8 @@
 
 Shards of Vaal's sword, Transcendence. Proof of your victory over Vaal. Used to forge the Vaal's Ego Trinket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18408

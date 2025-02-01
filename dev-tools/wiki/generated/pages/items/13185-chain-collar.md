@@ -2,6 +2,8 @@
 
 A collar of thick but pliant chain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13185

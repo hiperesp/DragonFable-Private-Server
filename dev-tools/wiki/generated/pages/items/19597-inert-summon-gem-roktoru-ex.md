@@ -2,6 +2,8 @@
 
 A Summon Gem Roktoru, placed into its setting. It doesn't seem to be able to activate, though. Maybe it's missing something? Proof of victory over Roktoru!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19597

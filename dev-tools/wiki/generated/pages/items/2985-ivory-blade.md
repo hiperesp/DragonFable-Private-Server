@@ -2,6 +2,8 @@
 
 Made from the finest imitation Gorillaphant Ivory!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2985

@@ -2,6 +2,8 @@
 
 Fury and control, two halves of a whole, united.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

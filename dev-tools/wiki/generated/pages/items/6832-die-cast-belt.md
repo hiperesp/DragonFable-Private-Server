@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This must have fallen from Popsprocket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6832

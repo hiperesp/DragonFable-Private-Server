@@ -2,6 +2,8 @@
 
 This dagger pulses with dark energy. At least it doesn't talk to you, right? Do you hear whispering? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16909

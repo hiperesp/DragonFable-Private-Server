@@ -2,6 +2,8 @@
 
 All life on Lore will eventually be terminated?!  That must not happen!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

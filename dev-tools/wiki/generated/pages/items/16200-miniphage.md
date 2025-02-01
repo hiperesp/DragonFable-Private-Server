@@ -2,6 +2,8 @@
 
 This appears to be a miniature prototype Manaphage! It seems to have taken a liking to you. For now. Has a small chance to share some mana with you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16200

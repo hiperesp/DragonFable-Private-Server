@@ -2,6 +2,8 @@
 
 The area where the sewers drain is smelly, gross and full of monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

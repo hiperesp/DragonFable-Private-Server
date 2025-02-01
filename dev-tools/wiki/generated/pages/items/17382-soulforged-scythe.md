@@ -3,6 +3,8 @@
 Your very own SoulForged scythe! It radiates with versatility!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17382

@@ -2,6 +2,8 @@
 
 This magic rope is said to make your enemies tell only the truth... but do you really want to hear that bandit's darkest secrets?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13631

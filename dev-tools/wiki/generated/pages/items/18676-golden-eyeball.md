@@ -2,6 +2,8 @@
 
 A shimmering, solid, golden eyeball. It rolls around in your hand, as though trying to view its surroundings. Proof of victory over the Ancient Beasts duo. Used to upgrade the Quadstaff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18676

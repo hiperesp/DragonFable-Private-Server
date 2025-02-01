@@ -2,6 +2,8 @@
 
 The aura surrounding this hood is so intimidating not even your own mother would hug you while you wear it!  Especially not if you click on the pulsing blue gem! *shudder*  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2427

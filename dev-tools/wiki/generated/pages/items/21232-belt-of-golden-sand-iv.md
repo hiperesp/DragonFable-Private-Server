@@ -2,6 +2,8 @@
 
 In a secure chest in some ruins, you came across this belt. The chest is unwilling to relinquish it unless you pay a sum of gold, however, presumably to regenerate a new belt for the next lucky adventurer to find.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21232

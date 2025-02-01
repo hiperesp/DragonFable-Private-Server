@@ -2,6 +2,8 @@
 
 The elemental plane of Ice is calling out. The Great Frost Dragon is dying.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

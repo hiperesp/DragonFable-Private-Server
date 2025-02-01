@@ -2,6 +2,8 @@
 
 A classic Mogloween look. WARNING: Will dissolve in water! Keep away from all liquid!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3130

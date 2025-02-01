@@ -2,6 +2,8 @@
 
 This curiously shaped firearm is powerful in the right hands. Not yours, though. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22043

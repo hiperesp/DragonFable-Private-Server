@@ -2,6 +2,8 @@
 
 This was the staff carried by Voyna, the Angel of Azaveyr.  Near one of the ends, etched in small letters is the name "Yarek". This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19855

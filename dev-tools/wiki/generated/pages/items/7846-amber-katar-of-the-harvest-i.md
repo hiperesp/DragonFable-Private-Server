@@ -2,6 +2,8 @@
 
 This katar, graced with glowing amber, was crafted by True Mortal in honor of the valiant heroes who fought against vast hordes of Turducken and emerged victorious.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7846

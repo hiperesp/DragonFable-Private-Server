@@ -2,6 +2,8 @@
 
 A giant sugar skull helm that looks just like the HangMan from Rolith's Bachelor Party!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8706

@@ -2,6 +2,8 @@
 
 One of those little blobs managed to survive! Doesn't seem too responsive though... Proof of victory over the Devoured Horizons challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21837

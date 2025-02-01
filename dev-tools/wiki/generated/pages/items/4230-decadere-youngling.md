@@ -2,6 +2,8 @@
 
 Just HOW did Cysero manage to get his hands on this baby Void dragon?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4230

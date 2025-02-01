@@ -2,6 +2,8 @@
 
 An itchy rope collar with a small name tag attached: "Sugarcube". Huh. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17636

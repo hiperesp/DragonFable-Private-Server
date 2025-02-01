@@ -2,6 +2,8 @@
 
 Don this visage and be empowered by nature itself!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14451

@@ -2,6 +2,8 @@
 
 You'd think if he was trying to impersonate you he'd try a little harder on the disguise.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12877

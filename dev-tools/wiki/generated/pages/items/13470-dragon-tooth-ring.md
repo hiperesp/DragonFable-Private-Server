@@ -2,6 +2,8 @@
 
 A dragon tooth is set in this ring... or a dragon lost a tooth biting it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13470

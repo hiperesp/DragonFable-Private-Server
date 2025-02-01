@@ -2,6 +2,8 @@
 
 This dagger was used by a purple mage named Kizei. How it ended up here, you can only guess.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 314

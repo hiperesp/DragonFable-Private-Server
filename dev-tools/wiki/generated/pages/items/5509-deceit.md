@@ -2,6 +2,8 @@
 
 This ring appears to be platinum, but it?s actually white gold. The ring is carved with graceful lines, but somehow still appears disturbing. For some reason when you wear it you feel the urge to alter the truth ? a little.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5509

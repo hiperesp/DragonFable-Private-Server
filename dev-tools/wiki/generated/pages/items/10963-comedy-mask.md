@@ -2,6 +2,8 @@
 
 You're a good and true hero! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10963

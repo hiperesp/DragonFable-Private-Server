@@ -2,6 +2,8 @@
 
 Big Daddy wants you to find out who or what is causing all of his valuable customers to run away from the Forest of Infinite Terror in terror.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

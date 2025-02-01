@@ -2,6 +2,8 @@
 
 Said to be crafted by a dying Chaosweaver, the blade of scythe is coated in a deadly poison.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10705

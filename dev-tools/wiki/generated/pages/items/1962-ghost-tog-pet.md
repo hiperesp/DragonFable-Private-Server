@@ -2,6 +2,8 @@
 
 BOO! It's a scary, scary ghost! Not a tog at all.  Really! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1962

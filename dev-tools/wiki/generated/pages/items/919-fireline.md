@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. These daggers are the matching blades to the Firebrand, Once owned by an elemental mage who called herself the FireMistress.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 919

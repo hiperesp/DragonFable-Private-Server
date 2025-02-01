@@ -2,6 +2,8 @@
 
 A prized relic of the Magesterium, this helm is an attempt to purify and refine a weaving apparatus to extreme potentials. Very few of these are yielded from the intense Soulforging process. (Cosmetic)(CC: Element)(Catalyst: Master Soulweaver)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21646

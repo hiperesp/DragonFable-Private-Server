@@ -2,6 +2,8 @@
 
 This blade looks like it would be wielded by a warrior of light, but it's appearance is misleading.  It exudes a poisonous, dark energy that calls undead to it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2987

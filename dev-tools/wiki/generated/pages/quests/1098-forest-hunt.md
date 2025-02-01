@@ -2,6 +2,8 @@
 
 Make your way to higher ground to find Lord Valtrith's castle.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

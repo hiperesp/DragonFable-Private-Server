@@ -2,6 +2,8 @@
 
 Asandar's holy glaive. This item was entrusted to you by Asandar for your bravery. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5768

@@ -2,6 +2,8 @@
 
 GPS for short. This personal vehicle armor comes fully stocked with full ordinance, fully pressurized steam tanks and Even a full tank of gas. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2791

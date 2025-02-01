@@ -2,6 +2,8 @@
 
 An old crown, once revered, and now feared. Once fused to its former owner, it is now unwearable. Proof of victory over the Fallen Kingdom challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21095

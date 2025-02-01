@@ -2,6 +2,8 @@
 
 The icy glare of Nivalis is caputured in this mask! Happy Mogloween 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6048

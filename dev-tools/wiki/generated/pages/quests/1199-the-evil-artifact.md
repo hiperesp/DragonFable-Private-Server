@@ -2,6 +2,8 @@
 
 You've received word of a evil artifact lost in the wastelands!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

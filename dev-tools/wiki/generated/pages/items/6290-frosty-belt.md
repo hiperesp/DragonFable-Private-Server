@@ -2,6 +2,8 @@
 
 Ice dragon scales are woven into the fabric.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6290

@@ -2,6 +2,8 @@
 
 A deactivated X-Boost! Reactivate it to earn 10% Exp and gold from battles!  Permanent Boost! Stacks up to 10!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17544

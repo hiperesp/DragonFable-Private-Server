@@ -2,6 +2,8 @@
 
 The Beastmaster has caught you sneaking into the Rose Tower!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

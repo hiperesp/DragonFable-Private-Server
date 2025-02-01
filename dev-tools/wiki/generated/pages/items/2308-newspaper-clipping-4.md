@@ -5,6 +5,8 @@ Portal sales back down.  (Game companies and teleportationists weep.)
 This item can be used at Valencia's merge shop.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2308

@@ -2,6 +2,8 @@
 
 "An old tome filled with magical incantations from the Light realm." Maya in Oaklore would probably be interested in this Tome for her Book Return.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4970

@@ -2,6 +2,8 @@
 
 Yarrrr!  This be a memento from Talk Like a Pirate Day!  All good pirates be yarr'in' an' argh'in an' looting themselves some doubloons today!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7430

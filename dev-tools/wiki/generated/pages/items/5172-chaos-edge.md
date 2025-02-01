@@ -2,6 +2,8 @@
 
 One of the many weapons in En and Tropy's arsenal. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5172

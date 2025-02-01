@@ -2,6 +2,8 @@
 
 You found this old present catapult out in the storm! Time to deliver some destruction!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

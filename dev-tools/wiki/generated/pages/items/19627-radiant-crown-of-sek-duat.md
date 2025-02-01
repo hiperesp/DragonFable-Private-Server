@@ -2,6 +2,8 @@
 
 The radiant crown of Emperor Sek Duat, Ruler of the Sandsea, Supreme Wielder of the Light, now turned to dust....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19627

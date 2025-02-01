@@ -2,6 +2,8 @@
 
 Seven elemental choices for seven years of DragonFable! Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9938

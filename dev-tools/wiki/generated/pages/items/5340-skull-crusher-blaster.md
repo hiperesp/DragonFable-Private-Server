@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Salvaged from Kordana's wreckage this mechanical skull shoots lasers! Shark not included.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5340

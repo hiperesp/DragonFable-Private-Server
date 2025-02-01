@@ -2,6 +2,8 @@
 
 Worms that spin silk to music?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

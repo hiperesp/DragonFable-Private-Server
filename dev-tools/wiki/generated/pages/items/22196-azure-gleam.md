@@ -2,6 +2,8 @@
 
 Wrought with immaculate gold accents, this crystalline gemblade channels the raw power of Neso, Avatar of Water. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22196

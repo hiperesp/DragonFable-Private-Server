@@ -2,6 +2,8 @@
 
 Rice pickers used to wear this hat in the ole' days. Now it just looks cool and is featured in many asian flicks. Usually awesome fighting type people wear it. You are probably not worthy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1148

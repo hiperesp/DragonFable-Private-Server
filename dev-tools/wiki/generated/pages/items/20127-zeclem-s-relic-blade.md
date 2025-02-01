@@ -2,6 +2,8 @@
 
 I. Zeclem was one of the strongest defenders of Veneldra, looked up to by all of the other defenders. He alone turned the tide of battles that no one else could have. One being knew that if Zeclem were corrupted the city would fall.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20127

@@ -2,6 +2,8 @@
 
 This blade focuses the power of nature itself through it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14446

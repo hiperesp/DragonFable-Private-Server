@@ -2,6 +2,8 @@
 
 You've found the hilt from a sword in the depths of Sil. If you have skills as a blacksmith you may be able to reforge it. Try Yulgar's Forge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6103

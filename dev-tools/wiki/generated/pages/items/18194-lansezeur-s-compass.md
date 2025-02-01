@@ -2,6 +2,8 @@
 
 A curious instrument found on the streets of Branden. By all appearances, it looks to be a rather standard brass compass, but someone has taken care to polish it and carefully etched and ornamented it with Rose insignias on the surface.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18194

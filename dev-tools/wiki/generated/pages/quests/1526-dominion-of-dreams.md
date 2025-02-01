@@ -2,6 +2,8 @@
 
 Control and chaos. Don't get swept away.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Printed on the inside of this oddly warm cape are the words: "Property of the S.O.U.L. Corporation". (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21781

@@ -2,6 +2,8 @@
 
 Those poor moglins!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4199

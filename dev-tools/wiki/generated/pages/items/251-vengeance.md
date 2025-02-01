@@ -2,6 +2,8 @@
 
 A blade simply designed for payback. If you need to get even, this is the weapon for you. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 251

@@ -2,6 +2,8 @@
 
 This paddle-blade looks old and rickety, but it is imbued with the ancient and awe-inspiring power of the river Nyx! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4142

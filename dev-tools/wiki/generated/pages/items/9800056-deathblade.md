@@ -2,6 +2,8 @@
 
 This weapon is forged from a special iron which was mined by undead slaves in a cursed mountain north of Doomwood. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800056

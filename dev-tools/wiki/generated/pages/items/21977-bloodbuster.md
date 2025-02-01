@@ -2,6 +2,8 @@
 
 An ancient vampire warrior once stored her victories away in this blade to savor in times of scarcity... And when those times came, the blade was nowhere to be found. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21977

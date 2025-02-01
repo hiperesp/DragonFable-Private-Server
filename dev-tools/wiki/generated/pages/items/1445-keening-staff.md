@@ -2,6 +2,8 @@
 
 Made of unbreakable ultracarbonilatastic obsidiosum, this staff is much easier to wield than it is to talk about.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1445

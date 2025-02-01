@@ -2,6 +2,8 @@
 
 At last, a peaceful Mogloween! In Falconreach no less!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

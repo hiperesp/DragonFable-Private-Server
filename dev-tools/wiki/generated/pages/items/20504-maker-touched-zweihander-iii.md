@@ -2,6 +2,8 @@
 
 Uaanta's trusty sword, empowered by the conviction of the Avatars. (Click the blade to change its elemental appearance)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20504

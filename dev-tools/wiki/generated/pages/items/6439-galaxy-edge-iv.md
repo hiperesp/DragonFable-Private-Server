@@ -2,6 +2,8 @@
 
 You can see stars and galaxies swirling within the infinite depths of this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6439

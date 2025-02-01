@@ -2,6 +2,8 @@
 
 You wandered through the Market District before, but haven't seen nearly all of its twists and turns!  Take a longer look and see what you can find (and battle)!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

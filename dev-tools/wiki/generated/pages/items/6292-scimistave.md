@@ -2,6 +2,8 @@
 
 Sharp and deadly!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6292

@@ -2,6 +2,8 @@
 
 This vaguely fish-shaped piece of metal appears to be smiling and smells faintly of salmon. Curious. Maybe someone will buy it from you?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13681

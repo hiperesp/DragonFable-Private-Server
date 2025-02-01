@@ -2,6 +2,8 @@
 
 The origins of this odd staff are a mystery but its power is undeniable. The moglin Twig is mysteriously drawn to this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4117

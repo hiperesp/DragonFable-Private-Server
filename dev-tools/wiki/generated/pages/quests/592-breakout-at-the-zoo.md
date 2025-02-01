@@ -2,6 +2,8 @@
 
 Somehow some of the monsters in the Monster Zoo have broken free!  The townspeople can't enjoy gazing at the ferocious beasts until you take care of them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

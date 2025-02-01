@@ -2,6 +2,8 @@
 
 You found a safe spot, finally!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

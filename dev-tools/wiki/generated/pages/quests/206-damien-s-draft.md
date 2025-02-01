@@ -2,6 +2,8 @@
 
 After investigating the draft under the bookcase in the Town Hall, you discover the Chaos Weavers attempting to build under Falconreach again.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

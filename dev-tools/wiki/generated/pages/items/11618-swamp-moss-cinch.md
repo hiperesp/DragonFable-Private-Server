@@ -2,6 +2,8 @@
 
 A cinch infused with swampy moss and natural ingredients!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11618

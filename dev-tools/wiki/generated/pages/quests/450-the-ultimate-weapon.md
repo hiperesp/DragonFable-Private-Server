@@ -2,6 +2,8 @@
 
 Can Yulgar forge something from the shards of the Scythe?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

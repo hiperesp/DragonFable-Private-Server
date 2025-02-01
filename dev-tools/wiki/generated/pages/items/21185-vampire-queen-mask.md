@@ -2,6 +2,8 @@
 
 No relation to Safiria.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21185

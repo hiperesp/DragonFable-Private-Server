@@ -2,6 +2,8 @@
 
 If you equip this ring, you will be recognized and respected as a monster hunter. Take pride in wearing it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4011

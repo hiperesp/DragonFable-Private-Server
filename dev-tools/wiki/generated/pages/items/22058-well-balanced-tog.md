@@ -2,6 +2,8 @@
 
 This very friendly tog is very well balanced! No matter what happens, it will stay firmly perched on your head. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22058

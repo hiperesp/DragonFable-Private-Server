@@ -2,6 +2,8 @@
 
 A headpiece made from Decadere carcass.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11799

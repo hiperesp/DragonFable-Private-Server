@@ -2,6 +2,8 @@
 
 The Black Market Moglin is willing to change your Shadow Class Armor... for a price.  Purchase one of these Shadow Tokens and then use it in his merge shop to change your Shadow Class Armor!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3540

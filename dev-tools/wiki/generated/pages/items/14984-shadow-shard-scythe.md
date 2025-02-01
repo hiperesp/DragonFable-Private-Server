@@ -2,6 +2,8 @@
 
 Forged by Ash Dragonblade, this scythe has trapped  living shadow and pulses with Dark power. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14984

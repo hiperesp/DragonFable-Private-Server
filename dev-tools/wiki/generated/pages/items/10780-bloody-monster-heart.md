@@ -2,6 +2,8 @@
 
 Ewwwww.... You'll need this to prove to DuBellmount that you can be a ShadowHunter too... maybe fifteen will do?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10780

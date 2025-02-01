@@ -2,6 +2,8 @@
 
 This belt appears to be made of solidified shadow! It's a great belt because black goes with everything.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1595

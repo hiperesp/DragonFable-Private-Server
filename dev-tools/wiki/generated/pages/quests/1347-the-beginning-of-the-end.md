@@ -2,6 +2,8 @@
 
 Danyel has caught up to Roirr, an epic showdown is at hand.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

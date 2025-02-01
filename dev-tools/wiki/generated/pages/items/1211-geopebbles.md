@@ -2,6 +2,8 @@
 
 A handful of granite pebbles from the scree slopes at the Lymcrest quarry.These are rumored to be geopetal droppings. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1211

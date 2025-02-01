@@ -3,6 +3,8 @@
 This helm is for DragonLords only.
 Found in a mysterious cave on Dragesvard's glacier, this helm really helps you keep your cool!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1769

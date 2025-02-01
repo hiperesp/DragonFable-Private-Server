@@ -2,6 +2,8 @@
 
 The secret village hidden amongst the ninjas.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

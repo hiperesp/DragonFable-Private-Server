@@ -2,6 +2,8 @@
 
 In time, the Grove Tenders of old dropped their terrifying facade, choosing instead to don a friendlier uniform. However, the same ancient magic remains. You can upgrade this helm at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20449

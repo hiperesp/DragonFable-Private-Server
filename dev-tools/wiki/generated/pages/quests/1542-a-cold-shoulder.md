@@ -2,6 +2,8 @@
 
 Go talk to Aisha and try to convince her to pull her dragons out of service to Nivalis. Hopefully she doesn't try to eat you this time.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

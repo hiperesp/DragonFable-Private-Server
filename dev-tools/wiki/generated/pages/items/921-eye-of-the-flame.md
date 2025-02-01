@@ -2,6 +2,8 @@
 
 The heat coming off of this staff makes it seem untouchable, but in reality this staff is quite cool to the touch. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 921

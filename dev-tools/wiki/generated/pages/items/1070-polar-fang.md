@@ -2,6 +2,8 @@
 
 This sword was forged in the center of a mighty glacier, taking its power from the ancient ice under which it was made. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1070

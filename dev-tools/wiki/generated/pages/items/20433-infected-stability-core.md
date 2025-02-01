@@ -2,6 +2,8 @@
 
 An ominously pulsing shard of crystal, plucked from the shattered remains of Myalos' Dragonoid shell. Seems like it could be adapted to work with Uaanta's Blaster!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20433

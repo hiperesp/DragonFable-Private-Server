@@ -2,6 +2,8 @@
 
 The inevitable confrontation awaits.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

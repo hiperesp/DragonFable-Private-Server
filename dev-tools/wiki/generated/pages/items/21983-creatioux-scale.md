@@ -2,6 +2,8 @@
 
 A shining dragon scale, shimmering with the iridescence of creation. Proof of victory over the Creatioux Ancient.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21983

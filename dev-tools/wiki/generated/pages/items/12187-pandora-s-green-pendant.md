@@ -2,6 +2,8 @@
 
 A necklace you've taken from Pandora's cabin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12187

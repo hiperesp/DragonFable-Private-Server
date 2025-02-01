@@ -2,6 +2,8 @@
 
 A strong magic protects this forest cave, but the strength of the Dragon Amulet has granted you access to the cave's secrets.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

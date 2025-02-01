@@ -2,6 +2,8 @@
 
 This prismatic cloak appears to have been soulwoven. But even in the histories of Edelia, no weaver seems to have ever gone by the name of Hyonix.  By some mystical power, it seems to draw from your dragon's color as well. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20260

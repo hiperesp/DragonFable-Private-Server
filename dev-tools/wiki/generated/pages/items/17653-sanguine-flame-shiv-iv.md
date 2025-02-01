@@ -2,6 +2,8 @@
 
 Forged from a combination of star metal and vampire victims' blood, this dagger burns with a fraction of the power of the stars. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17653

@@ -2,6 +2,8 @@
 
 This ancient and tattered tome is sealed tightly. Try as you might, it will not relinquish its secrets to you.  At least it comes with a nifty belt and book-holster! Proof of victory over Noxus and Sek-Duat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20399

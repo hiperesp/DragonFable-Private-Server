@@ -2,6 +2,8 @@
 
 Sir Vey has sent you into Oaklore forest to see what has caused the Forest Furies to stop eating their normal diet of Mollo fruit.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

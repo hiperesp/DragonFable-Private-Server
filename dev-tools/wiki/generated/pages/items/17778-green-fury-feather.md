@@ -2,6 +2,8 @@
 
 A rare green fury feather. Pretty, and might be worth a good price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17778

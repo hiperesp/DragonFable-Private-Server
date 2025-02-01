@@ -2,6 +2,8 @@
 
 Left behind by the Phobeist. The materials of its construction are unrecognizable, and wielding it fills you with a conflicting sense of despair and hope.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18606

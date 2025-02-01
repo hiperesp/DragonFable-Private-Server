@@ -2,6 +2,8 @@
 
 A replica of Princess Melissa's wings, surprisingly found amongst The Hoarder's treasures. Whatever The Hoarder was doing with them, you cannot imagine. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10584

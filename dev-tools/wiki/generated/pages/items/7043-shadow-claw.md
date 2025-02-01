@@ -2,6 +2,8 @@
 
 Carved from the claw of a rampaging zard!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7043

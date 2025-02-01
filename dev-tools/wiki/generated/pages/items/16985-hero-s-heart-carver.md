@@ -2,6 +2,8 @@
 
 An ornately carved dagger of stone, enchanted with the energy of love! Surely it'll zap some energy into your life too! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16985

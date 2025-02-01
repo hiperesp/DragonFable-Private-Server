@@ -2,6 +2,8 @@
 
 To our hero:  We want to thank you for everything you've done to help us meet, fall in love, and finally get married! Without you and the game we all love to play, we would never have found each other. Thank you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7556

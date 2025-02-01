@@ -2,6 +2,8 @@
 
 The frenzy of emotions the water elementals slain in this quest felt give off an energy of their own.  It is the essence of that fear that drives the spinning blades in the dagger's hilt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2243

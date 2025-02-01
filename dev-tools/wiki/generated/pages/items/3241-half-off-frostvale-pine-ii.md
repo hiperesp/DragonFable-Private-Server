@@ -2,6 +2,8 @@
 
 Sold by Cole the Shopping Moglin, this half-off Frostval item is only on sale for the week of Black Friday!  Get yours now!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3241

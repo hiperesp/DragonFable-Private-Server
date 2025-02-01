@@ -2,6 +2,8 @@
 
 The sneevils have stolen all the town's gold! It's up to you to take down these super-powered sneevils!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

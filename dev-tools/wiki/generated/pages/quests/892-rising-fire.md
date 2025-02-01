@@ -2,6 +2,8 @@
 
 The portals bearing Wargoths army to Lore have become active again.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

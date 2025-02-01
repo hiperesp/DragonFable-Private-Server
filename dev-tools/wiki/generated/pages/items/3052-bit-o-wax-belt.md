@@ -2,6 +2,8 @@
 
 This stylish, and sticky, belt will ensure no one will pry any of your Bit's O' Wax away from you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3052

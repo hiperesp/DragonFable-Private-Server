@@ -2,6 +2,8 @@
 
 This helmet was found inside the charred stomach of a great fire dragon. Apparently a batallion of Red Scalehunters was his last meal. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1756

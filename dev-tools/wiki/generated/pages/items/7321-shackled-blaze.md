@@ -2,6 +2,8 @@
 
 The fire within this weapon is trapped and strains to get free. Click to change between fire element and evil element! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7321

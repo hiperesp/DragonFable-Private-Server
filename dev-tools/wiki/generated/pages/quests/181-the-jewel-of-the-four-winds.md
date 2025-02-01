@@ -2,6 +2,8 @@
 
 Thyton has asked you to face Okuchi No Okami and to get the Jewel of the Four Winds from Drakath, while he gets the frightened villagers to safety.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

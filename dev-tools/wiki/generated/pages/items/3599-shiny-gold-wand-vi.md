@@ -2,6 +2,8 @@
 
 This wand looks great with some polishing and a coat of gold, don't you think? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3599

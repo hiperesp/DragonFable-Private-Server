@@ -2,6 +2,8 @@
 
 A vial of cooling salve hangs on this chain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7083

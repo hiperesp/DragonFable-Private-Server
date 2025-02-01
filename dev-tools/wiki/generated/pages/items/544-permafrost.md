@@ -2,6 +2,8 @@
 
 The unbreakable ice blade of this mighty axe was carved from a sheet of super-frozen arctic ice.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 544

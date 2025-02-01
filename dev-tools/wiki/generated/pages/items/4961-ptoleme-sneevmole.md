@@ -2,6 +2,8 @@
 
 Maybe Ptoleme can tell you what happened to Riadne while she was the ChaosWeaver's captive!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4961

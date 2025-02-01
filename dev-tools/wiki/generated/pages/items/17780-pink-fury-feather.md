@@ -2,6 +2,8 @@
 
 A sparkling pink fury feather. Maybe a little too pink for some peoples' tastes, there's probably someone who will buy it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17780

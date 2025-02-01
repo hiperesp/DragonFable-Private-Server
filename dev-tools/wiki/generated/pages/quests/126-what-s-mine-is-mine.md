@@ -2,6 +2,8 @@
 
 Warlic hopes that clearing this mine shaft will help get the miners of Lymcrest lives back to normal.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

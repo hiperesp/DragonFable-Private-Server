@@ -2,6 +2,8 @@
 
 The magic orbs of this staff will focus on the energy surrounding your enemies until you finally defeat them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 967

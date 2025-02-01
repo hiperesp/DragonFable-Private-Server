@@ -2,6 +2,8 @@
 
 The ever-changing Siofra is here!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

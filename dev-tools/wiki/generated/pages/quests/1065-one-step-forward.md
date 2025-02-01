@@ -2,6 +2,8 @@
 
 Things are looking up for the Vind...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

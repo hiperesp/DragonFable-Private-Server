@@ -2,6 +2,8 @@
 
 This is an area for testing new monsters.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

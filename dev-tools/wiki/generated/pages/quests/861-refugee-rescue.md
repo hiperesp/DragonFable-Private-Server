@@ -2,6 +2,8 @@
 
 One of the Atealan refugees is trapped by the alien army!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

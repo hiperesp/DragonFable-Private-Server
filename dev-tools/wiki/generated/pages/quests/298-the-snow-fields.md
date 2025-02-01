@@ -2,6 +2,8 @@
 
 You and Galanoth must travel to the Snow Fields and meet the Ice Dragons to try and see if the will turn their backs on Aisha.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

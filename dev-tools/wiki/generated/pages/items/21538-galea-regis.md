@@ -2,6 +2,8 @@
 
 This crown has passed through the hands of many great rulers and heroes, each adding their own unique embellishments to its design. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21538

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. *sing along* Little bunny PWNS U, hoppin through the forest, tracking down the sneevils and boppin' em on the head!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1178

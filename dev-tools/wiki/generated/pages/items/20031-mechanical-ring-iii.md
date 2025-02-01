@@ -2,6 +2,8 @@
 
 A dark band spins soundlessly around a red circle. Most likely some sort of construct part, but it looks very fashionable as a ring. Just ignore the occasional shivers down your spine.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20031

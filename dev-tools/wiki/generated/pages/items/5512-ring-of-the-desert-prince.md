@@ -2,6 +2,8 @@
 
 A filigreed gold band with intricate carvings and a large pearl inset. The inscription on the band reads E. Flynn.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5512

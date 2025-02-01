@@ -2,6 +2,8 @@
 
 The oddly familiar (and dormant) weapon of the Chaos DragonLord. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21737

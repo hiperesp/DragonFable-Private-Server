@@ -2,6 +2,8 @@
 
 This helm bears the visage of a young Suntouched Viper. Will it bring you luck? Proof of victory over The Sunbathed Slither challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22275

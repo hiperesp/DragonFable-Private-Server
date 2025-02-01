@@ -2,6 +2,8 @@
 
 Rose-approved... or is it? This common Rose dagger seems be enchanted by an unusual magic. The ire of the shackled for its captor dwells within and will lash out when the weapon strikes. Who could have made this... and why?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17091

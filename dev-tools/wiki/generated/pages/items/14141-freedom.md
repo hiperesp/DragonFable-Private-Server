@@ -2,6 +2,8 @@
 
 Freedom is recognized all over this region of Lore as a weapon symbolizing the equality of all people. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14141

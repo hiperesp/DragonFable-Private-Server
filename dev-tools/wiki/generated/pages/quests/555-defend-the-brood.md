@@ -2,6 +2,8 @@
 
 Zorbak wasnt content with the baby dracoliches he had.  He went to steal another egg, but this time the babies werent playing along!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

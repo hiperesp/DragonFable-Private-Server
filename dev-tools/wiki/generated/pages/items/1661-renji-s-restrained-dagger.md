@@ -2,6 +2,8 @@
 
 This powerful blade was used by ghost hunter Renji, who competed with ghost hunter Itchi in his earlier days. Now the two work together at the "Itchi Goes" delivery service in Swordhaven.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1661

@@ -2,6 +2,8 @@
 
 A chunk of granite, reminiscent of the structure it was once housed within, intricate carvings flow across its mineral surface when the light shines at just the right angle. Perhaps someone will be willing to buy this for a good price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18946

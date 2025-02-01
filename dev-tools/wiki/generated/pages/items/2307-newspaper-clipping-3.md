@@ -5,6 +5,8 @@ Warlic, the Blue Mage fixes the leaky portal! Unexpected resurrection foils fire
 This item can be used at Valencia's merge shop.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2307

@@ -2,6 +2,8 @@
 
 Contains everything to make sure you're always ready for battle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5305

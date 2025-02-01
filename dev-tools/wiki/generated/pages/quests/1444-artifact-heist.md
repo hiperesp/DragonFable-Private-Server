@@ -2,6 +2,8 @@
 
 The Thorn are attacking Willowshire's Guardian Tower! Stop them before they succeed in their plan!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

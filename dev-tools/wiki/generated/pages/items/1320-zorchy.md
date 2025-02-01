@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. The crystal of this blade has been magically charged with energy. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1320

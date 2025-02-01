@@ -2,6 +2,8 @@
 
 This sword's blade has been inlaid with some of the most rare and beautiful gems found in The Sandsea. It would be a good idea to cover such a precious blade, but it's unique design makes it impossible to sheath. Good luck. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1426

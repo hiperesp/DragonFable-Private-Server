@@ -2,6 +2,8 @@
 
 That is one BIG chickencow!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

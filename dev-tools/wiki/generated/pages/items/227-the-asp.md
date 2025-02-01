@@ -2,6 +2,8 @@
 
 Deadly and accurate like its name-sake, this weapon is also a great programming language for webpages.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 227

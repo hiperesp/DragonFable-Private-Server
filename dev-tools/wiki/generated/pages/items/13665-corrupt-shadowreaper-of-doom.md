@@ -2,6 +2,8 @@
 
 The darkness from this weapon radiates with malevolence... This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13665

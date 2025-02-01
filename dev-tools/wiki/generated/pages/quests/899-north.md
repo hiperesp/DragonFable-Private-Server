@@ -2,6 +2,8 @@
 
 Is the Professor hiding somewhere in this desolate landscape?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

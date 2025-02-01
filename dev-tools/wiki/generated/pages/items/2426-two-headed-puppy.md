@@ -2,6 +2,8 @@
 
 When all four of those big red eyes look up at you, you can't help but want to pet it and pet it!  As it gets older, a third head will emerge until it looks like its father.  Freaky! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2426

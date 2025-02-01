@@ -2,6 +2,8 @@
 
 An ancient weapon created by a joint effort between the Ice Giants and the Storm Giants. It hums and glows with the power of the tempestuous north. Switches between Energy and Ice elements with every hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18021

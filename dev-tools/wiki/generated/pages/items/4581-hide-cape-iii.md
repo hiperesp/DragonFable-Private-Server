@@ -2,6 +2,8 @@
 
 This tough leather cape is made from the hides of monsters you've defeated in battle. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4581

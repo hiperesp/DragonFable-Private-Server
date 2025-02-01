@@ -2,6 +2,8 @@
 
 Only the toughest dragon would venture into the Rose hatchery!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Take on the frightening visage of an Abyssal Adept! Surprisingly, and perhaps thankfully, this terrifying recreation does not whisper to you. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21379

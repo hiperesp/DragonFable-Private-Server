@@ -2,6 +2,8 @@
 
 Once, in a village so small that it did not even have a name, there was a young Pyromancer... he might recognize this Knife.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 234

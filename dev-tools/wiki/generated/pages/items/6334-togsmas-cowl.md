@@ -2,6 +2,8 @@
 
 It's a square box. You can't hear anything when you shake it. You'll want to merge this into a level-appropriate cowl!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6334

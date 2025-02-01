@@ -2,6 +2,8 @@
 
 Doctor When's famous(?) Psionic Ratchet! You don't know what a ratchet is, or what makes it psionic but it's certainly an effective weapon! Proof of victory over Doctor When, En & Tropy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19642

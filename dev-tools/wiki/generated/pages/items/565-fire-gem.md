@@ -2,6 +2,8 @@
 
 This precious gem is actually fossilized magical fire. Return these gems to the Defender Shop with a few Defender Medals to exchange for a rare holiday fire weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 565

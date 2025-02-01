@@ -2,6 +2,8 @@
 
 Can you find the elusive Barrat?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

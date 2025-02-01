@@ -2,6 +2,8 @@
 
 This cold white band appears to be of elfin make, exquisitely carven, and engraved with runes dedicated to the frozen north. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5511

@@ -2,6 +2,8 @@
 
 Ash's mystery girl has lost her memory...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

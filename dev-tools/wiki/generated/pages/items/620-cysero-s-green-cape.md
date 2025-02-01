@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This cape was cut from the same magical fabric as Cyseros green robes. The wearer is granted +1 INT as well as a bonus to hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 620

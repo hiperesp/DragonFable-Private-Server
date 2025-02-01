@@ -2,6 +2,8 @@
 
 Forged from a combination of star metal and vampire victims' blood, this staff burns with a fraction of the power of the stars.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17672

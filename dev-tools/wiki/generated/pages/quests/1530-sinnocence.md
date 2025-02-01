@@ -2,6 +2,8 @@
 
 Something is looming on the horizon.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

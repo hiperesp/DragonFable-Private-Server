@@ -2,6 +2,8 @@
 
 Return this book and other books to Loremaster Maya in Oaklore Keep. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 735

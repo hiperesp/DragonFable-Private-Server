@@ -2,6 +2,8 @@
 
 Stamped on the inside of this helm is "Doomwood Champs '13". You imagine eleven of these staring back you... then decide you don't want to think about it anymore.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1688

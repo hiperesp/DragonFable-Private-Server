@@ -2,6 +2,8 @@
 
 A dry, hot poison infuses this cursed claw.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9213

@@ -2,6 +2,8 @@
 
 With Wormwood defeated, this axe shouldn't be a threat any more... right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17191

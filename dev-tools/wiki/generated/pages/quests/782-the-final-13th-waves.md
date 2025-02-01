@@ -2,6 +2,8 @@
 
 Sepulchure is attacking!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

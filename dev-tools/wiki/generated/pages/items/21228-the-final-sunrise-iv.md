@@ -2,6 +2,8 @@
 
 The sole treasure of an ancient long-forgotten dragon. With it in your hands, dawn shall break upon all of Lore. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21228

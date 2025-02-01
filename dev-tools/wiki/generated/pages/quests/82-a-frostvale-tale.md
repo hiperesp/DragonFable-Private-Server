@@ -2,6 +2,8 @@
 
 Icemaster Yeti has invaded the moglin town of Frostvale and kidnapped all the moglins. Who knows what his plans are for the towns residents but you have to rescue the moglins before it's too late!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

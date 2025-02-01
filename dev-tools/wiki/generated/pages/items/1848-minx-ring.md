@@ -2,6 +2,8 @@
 
 This ring is incredibly tiny, it won't even fit on your finger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1848

@@ -2,6 +2,8 @@
 
 Wargoths legions of enslaved elementals and Atealeans are attacking Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

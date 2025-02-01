@@ -2,6 +2,8 @@
 
 Cocoaberry juice, a cozy fire, fuzzy moglins... What more could a Frostval want?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

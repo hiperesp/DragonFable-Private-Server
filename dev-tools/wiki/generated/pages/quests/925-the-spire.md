@@ -2,6 +2,8 @@
 
 The center of Atealan learning and governance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

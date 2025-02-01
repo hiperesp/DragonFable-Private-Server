@@ -2,6 +2,8 @@
 
 There's something behind you! Is it friendly? Or is it just waiting for the perfect opportunity to strike?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17252

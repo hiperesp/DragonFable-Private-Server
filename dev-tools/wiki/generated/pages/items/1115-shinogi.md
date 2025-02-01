@@ -2,6 +2,8 @@
 
 This is a dangerously sharp blade, with it's steel folded several hundred times. The ninja using this blade will loose their edge before the blade itself will.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1115

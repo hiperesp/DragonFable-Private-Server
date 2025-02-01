@@ -2,6 +2,8 @@
 
 Dark and rich in color, this staff is carved from a rare wood.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 292

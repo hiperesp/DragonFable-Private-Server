@@ -2,6 +2,8 @@
 
 A worn and twisted scrap of ancient Atealan armor. Proof of victory over Alz'ein.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21296

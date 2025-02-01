@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Created from links forged from pure platinum.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6625

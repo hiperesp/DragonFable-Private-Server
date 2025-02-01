@@ -2,6 +2,8 @@
 
 Other than hugs, this is the best local source of holiday cheer!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2072

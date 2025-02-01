@@ -2,6 +2,8 @@
 
 This necklace was handmade by Thursday. It provides defense against darkness and a +1 to Luck.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 651

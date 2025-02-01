@@ -2,6 +2,8 @@
 
 Wherever reality has gone, it is not here.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

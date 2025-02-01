@@ -2,6 +2,8 @@
 
 A legendary blade crafted by the greatest Yokai swordsman, Hanzamune. Stolen by Kitsune, it's now in your possession... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20206

@@ -2,6 +2,8 @@
 
 The legendary ancient forest of Rainbow's End! Can you reach the heart of the forest?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

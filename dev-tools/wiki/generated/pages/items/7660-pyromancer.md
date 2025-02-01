@@ -2,6 +2,8 @@
 
 The powers of the fire realm are at your command! Best for Players level 40+
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7660

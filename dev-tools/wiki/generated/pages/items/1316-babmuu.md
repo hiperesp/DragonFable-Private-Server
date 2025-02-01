@@ -2,6 +2,8 @@
 
 This strange creature seems to be made of living stone. It has a thick rocky hide that protects it from all but the most extreme conditions and fires streams of compressed dirt from its eyes as an attack!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1316

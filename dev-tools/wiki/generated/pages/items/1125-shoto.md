@@ -2,6 +2,8 @@
 
 This wicked blade is is paper-thin but enchanted to have the same durability and strength as a blade of average thickness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1125

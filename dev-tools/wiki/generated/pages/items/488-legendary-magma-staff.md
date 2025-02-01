@@ -2,6 +2,8 @@
 
 An ancient staff forged in the pits of a volcano, that has been destroyed and forgotten. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 488

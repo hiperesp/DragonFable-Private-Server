@@ -2,6 +2,8 @@
 
 There is no end to ambition, no end to the mysteries.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

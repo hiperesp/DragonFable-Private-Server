@@ -2,6 +2,8 @@
 
 Happy April Fools! Somehow this rare holiday weapon found it's way to Falconreach. There is a chance that its SPECIAL ATTACK will go off and deal and extra powerful energy attack.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1576

@@ -2,6 +2,8 @@
 
 The pirates of Osprey Cove have sent a Treasure Golem, made of all their most valuable pirate booty, to finish the war with the ninjas of the Shadow of the Wind Village, but they made a mistake. You have to make sure this mistake doesn't become a disaster!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

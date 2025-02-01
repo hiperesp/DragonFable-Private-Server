@@ -2,6 +2,8 @@
 
 You're starting to wonder...who is Togslayer X?!?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2109

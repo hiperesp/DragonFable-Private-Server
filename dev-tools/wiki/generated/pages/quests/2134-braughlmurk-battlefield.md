@@ -2,6 +2,8 @@
 
 An ancient battlefield, filled with the ruined weapons of its combatants... and their lingering spirits and bones.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

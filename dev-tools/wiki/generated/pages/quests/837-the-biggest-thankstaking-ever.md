@@ -2,6 +2,8 @@
 
 That Turducken is huuuuuuuuuge!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

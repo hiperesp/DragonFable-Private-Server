@@ -2,6 +2,8 @@
 
 From stories of the past and future come legends across the sky and the sea, here to face you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Some jobs only need one blade drawn. The other rests in its sheath on your back. Proof of victory over Thyton and Greg. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21653

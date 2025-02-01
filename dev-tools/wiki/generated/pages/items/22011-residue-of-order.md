@@ -2,6 +2,8 @@
 
 A silvery leftover remnant from the Aspect. It shines brightly, shifting constantly between eight colors... Used to further upgrade Hawkscry's Legacy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22011

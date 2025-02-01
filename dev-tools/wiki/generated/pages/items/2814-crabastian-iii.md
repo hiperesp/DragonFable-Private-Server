@@ -2,6 +2,8 @@
 
 Principal Musician in Crabastian and the AquaForce!  Their newest single is "Through the Water and Bubbles"! In stores now! (Not really.)  Dragon Amulet needed.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2814

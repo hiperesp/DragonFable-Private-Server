@@ -2,6 +2,8 @@
 
 This dagger burns with an eldritch light for a lost love.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 960

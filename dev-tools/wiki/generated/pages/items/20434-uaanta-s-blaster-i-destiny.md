@@ -2,6 +2,8 @@
 
 Uaanta gifted this emergency back-up wand to you. With the addition of the Firmament Stability Core, the complete wand now does Good damage and decreases its target's bonus!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20434

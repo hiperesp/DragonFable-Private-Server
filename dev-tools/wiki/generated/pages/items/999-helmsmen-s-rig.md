@@ -2,6 +2,8 @@
 
 This study belt was made from a ship's rigging.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 999

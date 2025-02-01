@@ -2,6 +2,8 @@
 
 They have taken your catapult! Can you reach it now that you are on the receiving end of some boulders for one?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

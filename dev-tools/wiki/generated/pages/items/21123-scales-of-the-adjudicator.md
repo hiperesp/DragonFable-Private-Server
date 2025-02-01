@@ -2,6 +2,8 @@
 
 Hard to balance, but don't they look great? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21123

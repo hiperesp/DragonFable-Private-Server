@@ -2,6 +2,8 @@
 
 This is the hardest foam around, and it'll make a PERFECT war reward from the Frostval 2010 Plushie war!  Merry Frostval and Happy New Year's Eve!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4782

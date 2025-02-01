@@ -2,6 +2,8 @@
 
 Though ancient, this key hums with power beyond anything you could imagine... or harness. Whoever this weapon was made for, it was not you. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22243

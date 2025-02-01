@@ -2,6 +2,8 @@
 
 Sally has certainly made some... festive changes for the holidays!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7927

@@ -2,6 +2,8 @@
 
 Swordhaven.... in the past!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

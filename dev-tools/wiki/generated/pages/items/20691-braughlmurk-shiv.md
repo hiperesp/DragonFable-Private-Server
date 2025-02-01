@@ -3,6 +3,8 @@
 Old knives, tarnished by age and magic. Once wielded by the armies of Braughlmurk, then the undead, and now, by you.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20691

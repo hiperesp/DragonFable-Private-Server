@@ -2,6 +2,8 @@
 
 Recovered from the Temple of Gloom, this cursed dagger gleams. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4643

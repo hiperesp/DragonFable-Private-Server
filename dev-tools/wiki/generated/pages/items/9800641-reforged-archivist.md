@@ -2,6 +2,8 @@
 
 Studying the history of the world of Lore lets you tap into powerful abilities and effects
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800641

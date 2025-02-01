@@ -2,6 +2,8 @@
 
 This must have been made by a yaga with a taste for shiny things!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3264

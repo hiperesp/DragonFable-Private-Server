@@ -2,6 +2,8 @@
 
 This stone holds a single drop of an ancient vampire's blood. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12968

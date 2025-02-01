@@ -2,6 +2,8 @@
 
 This sculpture should be worth quite a bit! It is in the shape of a dragon being ridden by a woman in armor and made completely of polished ruby!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 490

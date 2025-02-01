@@ -2,6 +2,8 @@
 
 The undead have Falconreach surrounded!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

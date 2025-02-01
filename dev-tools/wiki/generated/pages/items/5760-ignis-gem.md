@@ -2,6 +2,8 @@
 
 This sapphire is infused with spirit fire, making it appear to be burning.  This rare stone is, however, actually incredibly cold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5760

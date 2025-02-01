@@ -2,6 +2,8 @@
 
 This worn fragment of rubble contains no distinguishable words, but weighs heavy in your hands nonetheless. Proof of victory over the "The Balance We Make" challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20502

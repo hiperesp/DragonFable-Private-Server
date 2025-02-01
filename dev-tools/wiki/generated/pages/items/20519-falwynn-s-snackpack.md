@@ -2,6 +2,8 @@
 
 Full of snacks and a lovingly-crafted meal to boost your endurance. Look, it's JUST as important as your regular bag, okay?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20519

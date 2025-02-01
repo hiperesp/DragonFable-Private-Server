@@ -2,6 +2,8 @@
 
 The time has come to put an end to Frallmar! It's time to save Frostval once more!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

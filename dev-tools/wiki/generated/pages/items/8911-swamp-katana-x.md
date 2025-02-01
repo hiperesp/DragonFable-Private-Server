@@ -2,6 +2,8 @@
 
 With a blade crafted from the metal of Rose Emblems, the edge of this weapon is coated in a deadly swamp poison!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8911

@@ -2,6 +2,8 @@
 
 Prince Lupin eagerly shared some of his designs for a new marvel of Lagohm engineering! It's a total mess, but some parts may be salvageable... Used to create a special reward!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20280

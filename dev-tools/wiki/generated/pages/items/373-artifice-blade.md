@@ -2,6 +2,8 @@
 
 This sword was designed to look like a magical weapon but holds no magical power
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 373

@@ -2,6 +2,8 @@
 
 This one time... at Bandit Camp! Raid the Graywolf Renegades fort. Their ranks include some of the most wanted outlaws in the world!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

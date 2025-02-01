@@ -2,6 +2,8 @@
 
 You've arrived at the massive beast that emerged from the rift. It's time to take this thing down.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

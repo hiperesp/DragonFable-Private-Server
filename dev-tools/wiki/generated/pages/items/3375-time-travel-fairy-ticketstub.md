@@ -2,6 +2,8 @@
 
 A wrinkle in time let you travel back to historical DragonFable wars.  Once you return to your time, you find yourself clutching a battered gold ticketstub which reads "Time Travel Fairy Tours, Assistant Agent Rose thanks you for your time!"
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3375

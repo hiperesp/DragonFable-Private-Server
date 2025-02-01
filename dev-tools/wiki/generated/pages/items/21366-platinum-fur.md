@@ -3,6 +3,8 @@
 Some scraps of Platinum Cabit fur! Could maybe be used to create some thread.
 Proof of victory over The Platinum Cabit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21366

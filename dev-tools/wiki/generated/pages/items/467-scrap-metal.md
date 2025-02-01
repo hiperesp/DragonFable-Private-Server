@@ -2,6 +2,8 @@
 
 This is a small piece of metal used in the creation of Dr. Whatever's metal monstrosity. Collect THIS item as well as a DRIVE UNIT to construct a robotic pet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 467

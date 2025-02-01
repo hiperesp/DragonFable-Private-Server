@@ -2,6 +2,8 @@
 
 Warlic has told you that he needs a sample of the special water, found only in the spring beyond this mountain pass, but the pass must be cleared first.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This ring is actually a coiled metallic looking worm. It provides amazing armor but as the worm feeds off of your energy you become more vulnerable to the elements.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 116

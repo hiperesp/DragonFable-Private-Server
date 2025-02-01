@@ -2,6 +2,8 @@
 
 Fight with Mritha against the Rose front!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

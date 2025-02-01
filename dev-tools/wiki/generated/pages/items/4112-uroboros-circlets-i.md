@@ -2,6 +2,8 @@
 
 Lost artifacts from an ancient race, these stone rings were designed to accompany their wielder into the afterlife.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4112

@@ -2,6 +2,8 @@
 
 A large tooth whittled down to be a nice ring. This one feels a little rough.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14482

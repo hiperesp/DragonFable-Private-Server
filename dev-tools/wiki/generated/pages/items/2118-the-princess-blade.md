@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. With this blade, you and your opponent can try to kill each other like civilized people.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2118

@@ -2,6 +2,8 @@
 
 A creature of darkness and doom has pushed through into Lore! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9329

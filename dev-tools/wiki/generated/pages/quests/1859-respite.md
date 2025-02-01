@@ -2,6 +2,8 @@
 
 A pause in the unending onslaught...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

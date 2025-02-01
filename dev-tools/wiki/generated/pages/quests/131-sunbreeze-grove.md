@@ -2,6 +2,8 @@
 
 This is the home of the priestess, Lady Celestia.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

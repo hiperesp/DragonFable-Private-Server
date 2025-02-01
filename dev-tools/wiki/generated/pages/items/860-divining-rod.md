@@ -2,6 +2,8 @@
 
 Good for finding water, great for beating up fire elementals.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 860

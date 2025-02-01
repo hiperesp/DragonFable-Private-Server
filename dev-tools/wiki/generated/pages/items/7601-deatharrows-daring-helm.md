@@ -2,6 +2,8 @@
 
 The perfect helm for slinking through the shadows!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7601

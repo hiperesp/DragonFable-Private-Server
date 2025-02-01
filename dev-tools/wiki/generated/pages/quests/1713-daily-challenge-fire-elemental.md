@@ -2,6 +2,8 @@
 
 What awaits you in this mysterious cave? There's only one way to find out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

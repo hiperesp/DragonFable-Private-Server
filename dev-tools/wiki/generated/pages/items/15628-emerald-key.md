@@ -2,6 +2,8 @@
 
 A key carved out of solid emerald! This is surely a lucky one! You'll need three to unlock the Lucky Chest!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15628

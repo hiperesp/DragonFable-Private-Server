@@ -2,6 +2,8 @@
 
 Xan is unlike any villian we have ever fought before...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

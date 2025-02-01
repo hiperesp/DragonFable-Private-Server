@@ -2,6 +2,8 @@
 
 Gathering ingredients AND getting rid of some monsters? Bonus!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

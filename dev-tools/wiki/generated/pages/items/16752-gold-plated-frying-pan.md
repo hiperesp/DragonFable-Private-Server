@@ -2,6 +2,8 @@
 
 A gold-plated frying pan to commemorate 2016's Thankstaking celebrations! Fantastic! Probably best not to use it for cooking though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16752

@@ -2,6 +2,8 @@
 
 This is a vote FOR SCIENCE!  Use this to redeem your Clashening quest chain reward by going to the "Your Vote" shop!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4406

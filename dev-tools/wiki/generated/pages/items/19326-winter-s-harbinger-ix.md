@@ -2,6 +2,8 @@
 
 This ancient helm was once worn by an order of Ice knights: Winter's Harbingers. While not much remains of their order, a few artifacts have been uncovered and repaired by Dracelix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19326

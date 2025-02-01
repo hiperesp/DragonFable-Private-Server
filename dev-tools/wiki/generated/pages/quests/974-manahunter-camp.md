@@ -2,6 +2,8 @@
 
 This labyrinth fort was once the homebase for bandits... it has been taken over by The Rose now!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

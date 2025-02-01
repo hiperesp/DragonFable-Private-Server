@@ -2,6 +2,8 @@
 
 This weapon doesn't look like much, but in the face of danger, (also known in some circles as "in battle"), it springs to life! Said to bring good fortune to those that are lucky, but wouldn't you already be lucky if that were the case? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20818

@@ -2,6 +2,8 @@
 
 Baron Au'Mydas wants nothing more than to get his kiss back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Every adventurer needs a bit of charm to get out of those tight spots in strange cities.  Wearing this, you'll feel your confidence increase!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2312

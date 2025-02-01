@@ -2,6 +2,8 @@
 
 Rolith's brief assessment is that the tog inside this pod is somehow still alive. It's fine, right? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22062

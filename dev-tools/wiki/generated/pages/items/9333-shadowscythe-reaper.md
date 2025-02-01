@@ -2,6 +2,8 @@
 
 This wicked reaper is used by the armies of the Shadowscythe! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9333

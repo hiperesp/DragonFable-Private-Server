@@ -2,6 +2,8 @@
 
 The magical metal used to create this weapon has, over time, cooled and hardened. But it is not any less potent!  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4216

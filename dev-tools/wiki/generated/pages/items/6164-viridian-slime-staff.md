@@ -2,6 +2,8 @@
 
 Wow! The nobles in Swordhaven throw slime covered stuff away in treasure chests. Fancy! Also... gross. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6164

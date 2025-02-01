@@ -2,6 +2,8 @@
 
 The last city of Somorah, Atrea, awaits.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

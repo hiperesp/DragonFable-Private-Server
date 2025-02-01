@@ -2,6 +2,8 @@
 
 You managed to take this away as a souvenir at least... 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2498

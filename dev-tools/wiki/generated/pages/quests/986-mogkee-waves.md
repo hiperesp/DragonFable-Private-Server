@@ -2,6 +2,8 @@
 
 Defeat the Mogkees to cure them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

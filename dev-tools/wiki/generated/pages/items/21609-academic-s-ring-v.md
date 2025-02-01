@@ -2,6 +2,8 @@
 
 Found amidst the rubble of Hawkscry, this ancient simple metal ring still glimmers and shines in the dark. Whether this is due to its original enchantment, or the influence of the nearby Fissure, you do not know.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21609

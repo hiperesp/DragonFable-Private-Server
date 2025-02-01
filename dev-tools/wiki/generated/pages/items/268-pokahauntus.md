@@ -2,6 +2,8 @@
 
 This dagger has three thin blades for poking triple the amount of holes in your foe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 268

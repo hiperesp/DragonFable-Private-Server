@@ -2,6 +2,8 @@
 
 Now you too can looks like... whatever Augahim is. (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20141

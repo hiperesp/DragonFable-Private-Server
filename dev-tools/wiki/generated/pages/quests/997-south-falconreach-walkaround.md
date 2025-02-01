@@ -2,6 +2,8 @@
 
 The walkaround between Falconreach and the border of Swordhaven
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

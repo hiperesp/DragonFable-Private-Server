@@ -2,6 +2,8 @@
 
 Help Leon recover the Runestone from the ruins of the Archtemple.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You have defeated the mechanical army of Dr. Voltabolt and Major Tom Butterbomb... the only thing left is the X-304 and then doing the dishes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

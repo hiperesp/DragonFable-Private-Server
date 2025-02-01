@@ -2,6 +2,8 @@
 
 Crafted by Lupus the Wolf, this unassuming nature weapon carries a secret charge if you click above the handle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8886

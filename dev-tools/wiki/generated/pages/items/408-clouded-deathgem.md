@@ -2,6 +2,8 @@
 
 This powerful staff is topped with a cloudy gem being grasped tightly by two skeletal hands. It is said that ancient mages once gazed through the gem to the time of their own demise.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 408

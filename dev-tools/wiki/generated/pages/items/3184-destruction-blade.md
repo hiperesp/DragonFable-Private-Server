@@ -2,6 +2,8 @@
 
 You... you really did it.  You destroyed it!  How COULD you?!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3184

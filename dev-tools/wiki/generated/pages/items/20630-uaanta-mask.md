@@ -2,6 +2,8 @@
 
 When you put this mask on, you can see the world in a new light!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20630

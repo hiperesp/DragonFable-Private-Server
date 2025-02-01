@@ -2,6 +2,8 @@
 
 When Gotterdammerung happens, the mighty Thor will be brought low by the Midgard Serpent.  Loki crafted this weapon in anticipation of that day. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5908

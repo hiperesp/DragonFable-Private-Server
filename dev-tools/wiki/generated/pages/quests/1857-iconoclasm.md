@@ -2,6 +2,8 @@
 
 Everyone has a story.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You were unable to defeat Akriloth.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

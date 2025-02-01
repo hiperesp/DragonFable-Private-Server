@@ -2,6 +2,8 @@
 
 This Feargeist appears to be obedient, although rather small. Has a chance (increasing with CHA) to to a 3 hit critical attack! Damage scales with your level.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20279

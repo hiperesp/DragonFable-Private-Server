@@ -2,6 +2,8 @@
 
 Caitiff may have discovered the knowledge it needs for Darkness to finally succeed.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

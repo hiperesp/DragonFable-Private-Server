@@ -2,6 +2,8 @@
 
 A perfect sword for the hero-to-be.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15504

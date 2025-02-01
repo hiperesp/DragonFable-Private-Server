@@ -2,6 +2,8 @@
 
 A weapon from the Swordhaven Armory. Who would abandon it out in the wilds though?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6275

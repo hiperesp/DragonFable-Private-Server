@@ -2,6 +2,8 @@
 
 The Godfather of Weaponsmiths went to the pony fields to Ask for their help iN making some weapons.  He asked the ponys for help.  They said no, so he made them an offer they couldn't refuse.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5873

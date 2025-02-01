@@ -2,6 +2,8 @@
 
 This is a simple design for a simple sword.  It might cut a melon if you swing hard enough. This item requires a Blacksmithing skill of Rank 9.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1194

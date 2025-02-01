@@ -2,6 +2,8 @@
 
 It's time for the final test.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

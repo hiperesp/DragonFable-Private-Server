@@ -2,6 +2,8 @@
 
 This cape is made of ice! It's very heavy, inflexible, and doesn't keep you warm. It's not a very good cape. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22260

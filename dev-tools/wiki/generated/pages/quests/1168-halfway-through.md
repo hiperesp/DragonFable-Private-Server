@@ -2,6 +2,8 @@
 
 You are halfway through, keep going!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A champion must bear her Makers' burdens, whether she wants to or not.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

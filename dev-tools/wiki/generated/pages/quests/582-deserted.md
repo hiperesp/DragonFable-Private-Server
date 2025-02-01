@@ -2,6 +2,8 @@
 
 The city of Tethys lies in ruins. Look for anything that can tell you who really did this.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

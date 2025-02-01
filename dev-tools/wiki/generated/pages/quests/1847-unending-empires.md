@@ -2,6 +2,8 @@
 
 Two lichs, one of Light, one of Darkness, seeking immortality. But you're here to put a stop to all that.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

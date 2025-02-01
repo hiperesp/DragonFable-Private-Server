@@ -2,6 +2,8 @@
 
 This belt was woven from Dragon Leather, and plated with shards from an dark dragon?s scales. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15954

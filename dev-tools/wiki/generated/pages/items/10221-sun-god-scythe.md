@@ -2,6 +2,8 @@
 
 The power of the sun flows through this weapon to do extra damage to elementals! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10221

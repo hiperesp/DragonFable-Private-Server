@@ -2,6 +2,8 @@
 
 This wicked weapon formed from bones appears to have absorbed a considerable amount of Darkness magic. No whispers from it... yet. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21936

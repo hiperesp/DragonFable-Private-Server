@@ -2,6 +2,8 @@
 
 This dagger is every ranger's friend.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 233

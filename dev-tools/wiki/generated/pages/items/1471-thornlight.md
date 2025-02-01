@@ -2,6 +2,8 @@
 
 This style of dagger is enchanted with the glowing orbs used by the elven people to light their homes in the deep forests of Lore. Stab it into your bed-side table for a nice nightlight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1471

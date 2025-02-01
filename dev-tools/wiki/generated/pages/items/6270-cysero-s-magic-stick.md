@@ -2,6 +2,8 @@
 
 This gnarled stick is topped by a magical orb. Go ahead and look in there. I dare you. Go on. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6270

@@ -2,6 +2,8 @@
 
 This bottle only has a couple drops of blessed adhesive remaining... Proof of victory over Artix, the Mighty Paladin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21750

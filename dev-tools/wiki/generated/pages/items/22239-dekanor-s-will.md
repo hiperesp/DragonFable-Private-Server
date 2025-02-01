@@ -2,6 +2,8 @@
 
 In ancient times, those who used to worship the Great Dragon of Darkness would wield weapons such as this. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22239

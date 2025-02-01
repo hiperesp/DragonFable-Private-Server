@@ -2,6 +2,8 @@
 
 It's time to meet the Magesterium.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

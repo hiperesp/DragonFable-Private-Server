@@ -2,6 +2,8 @@
 
 With Melissa's return to Sulen'Eska, she and Kara have a lot to figure out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

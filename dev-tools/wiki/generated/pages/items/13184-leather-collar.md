@@ -2,6 +2,8 @@
 
 A strip of rugged leather makes up this rough collar.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13184

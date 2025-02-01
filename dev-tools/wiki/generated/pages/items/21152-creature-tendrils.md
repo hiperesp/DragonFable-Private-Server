@@ -2,6 +2,8 @@
 
 Darkon planted these tentacles on your back, and life has gotten easier. They grab food, objects, and people for you - as if they have a mind of their own. You can't help but worry that they'll take over yours one day. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21152

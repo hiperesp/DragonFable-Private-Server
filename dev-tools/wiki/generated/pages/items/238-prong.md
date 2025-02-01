@@ -2,6 +2,8 @@
 
 Simply made, this blade excels at stabbing.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 238

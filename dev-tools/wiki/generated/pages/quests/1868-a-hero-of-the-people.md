@@ -2,6 +2,8 @@
 
 A hero's job is never done.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

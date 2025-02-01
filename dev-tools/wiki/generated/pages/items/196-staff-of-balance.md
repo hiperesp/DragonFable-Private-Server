@@ -2,6 +2,8 @@
 
 This staff is flawless in its construction. It is said that it was made to represent the balance between all things light and dark.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 196

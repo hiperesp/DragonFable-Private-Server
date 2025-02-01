@@ -2,6 +2,8 @@
 
 Where did my weapon go? It's not where it should be... Hmm...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800360

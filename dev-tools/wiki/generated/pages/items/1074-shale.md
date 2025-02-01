@@ -2,6 +2,8 @@
 
 This magical dagger is made of everlasting shale, so that its blade can be flaked back to sharpness without ever running out of stone. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1074

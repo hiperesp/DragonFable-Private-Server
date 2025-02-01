@@ -2,6 +2,8 @@
 
 A closed door bars your entry further into the maze. Can you make it through?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

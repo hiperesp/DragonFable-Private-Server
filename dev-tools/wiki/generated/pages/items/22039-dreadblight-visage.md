@@ -2,6 +2,8 @@
 
 The battlemask of the infamous elven knight, Dreadblight Aius. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22039

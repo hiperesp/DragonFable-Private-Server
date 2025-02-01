@@ -2,6 +2,8 @@
 
 Bottomless rage and fury.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

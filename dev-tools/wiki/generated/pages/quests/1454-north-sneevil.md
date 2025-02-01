@@ -2,6 +2,8 @@
 
 Be on the look-out for Rose Soldiers. Grandiflora says a number of them could be trapped in these small alleys.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

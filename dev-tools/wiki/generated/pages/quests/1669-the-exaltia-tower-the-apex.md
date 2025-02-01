@@ -2,6 +2,8 @@
 
 You're nearly at the summit of the Exaltia Tower. What awaits you at The Apex?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

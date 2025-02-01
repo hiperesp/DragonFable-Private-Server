@@ -2,6 +2,8 @@
 
 "No, Grandma, I promise I'll wear it. No really, I think it's very... well made? Yeah, that's it." 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13143

@@ -2,6 +2,8 @@
 
 A rather large incisor from an angry bear. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13877

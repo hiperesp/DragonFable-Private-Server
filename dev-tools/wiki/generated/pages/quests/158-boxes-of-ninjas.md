@@ -2,6 +2,8 @@
 
 Rhubarb has sent you to speak to the cleverly disguised Agent 58. Inside this sneevil ninja training facility is information about Drakath. You must get it at all costs!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

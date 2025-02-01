@@ -2,6 +2,8 @@
 
 Nature spirits must have protected Margus20000 as he carved these weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4319

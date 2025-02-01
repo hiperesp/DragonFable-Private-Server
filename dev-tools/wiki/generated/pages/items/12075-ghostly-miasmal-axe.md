@@ -2,6 +2,8 @@
 
 Made entirely from the residue of evil spirits, this weapon is one of the most unlucky artifacts in all of Lore. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12075

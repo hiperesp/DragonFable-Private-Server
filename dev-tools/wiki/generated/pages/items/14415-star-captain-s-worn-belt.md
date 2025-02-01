@@ -2,6 +2,8 @@
 
 This belt was worn quite a bit. Whoever owned it before really needed to rotate through their collection more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14415

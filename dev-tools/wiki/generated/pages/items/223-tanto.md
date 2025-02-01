@@ -2,6 +2,8 @@
 
 This is the preferred dagger of ninjas.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 223

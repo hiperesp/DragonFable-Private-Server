@@ -2,6 +2,8 @@
 
 Dr. Voltabolt has challanged you to defeat his remote controlled robot army, headed up by Major Tom Turkey. Defeat all the waves of robots to fight the doc's new creation... the X-304 Pumpkin Pie Dispensing Dracobot!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

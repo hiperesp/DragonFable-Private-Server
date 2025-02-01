@@ -2,6 +2,8 @@
 
 Your reward for helping Gingkage! This makes a nice belt and it fits just right. Not too tight, not too loose. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14473

@@ -2,6 +2,8 @@
 
 This jaunty belt looks like part of a uniform set.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1289

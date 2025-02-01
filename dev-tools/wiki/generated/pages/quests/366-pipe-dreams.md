@@ -2,6 +2,8 @@
 
 Make your way through the delivery tunnels and unlock the gates!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

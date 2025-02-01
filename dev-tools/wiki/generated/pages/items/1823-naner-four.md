@@ -2,6 +2,8 @@
 
 After you fought in the war with the monkees (and apologizing for the pranks) you have been bestowed with one of the famed Musa weapons. (There may or may not be a bug in them to monitor your monkeying around.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1823

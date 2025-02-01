@@ -2,6 +2,8 @@
 
 And you thought falling into poison ivy was bad! You REALLY don't want to fall into a patch of THIS ivy.  But it sure makes great weapons! Suggested by Zhukai, forest wanderer and naturalist extraordinaire! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4796

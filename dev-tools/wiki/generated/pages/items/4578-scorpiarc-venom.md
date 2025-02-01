@@ -2,6 +2,8 @@
 
 Ugh, you definitely don't want to get any of this on you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4578

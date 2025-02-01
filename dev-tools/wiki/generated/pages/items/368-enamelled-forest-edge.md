@@ -2,6 +2,8 @@
 
 This broad dagger is imbued with the essence of nature.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 368

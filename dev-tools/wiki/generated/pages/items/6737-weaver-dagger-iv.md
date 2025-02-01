@@ -2,6 +2,8 @@
 
 A weapon crafted by a special sect of Soulweavers. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6737

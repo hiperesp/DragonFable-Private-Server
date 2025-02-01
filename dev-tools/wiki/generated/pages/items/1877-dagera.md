@@ -2,6 +2,8 @@
 
 This blade pulses malevolently as the soul of Dagera, the Forsaken, tries to escape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1877

@@ -2,6 +2,8 @@
 
 When the mage that served the Godfather of weaPonsmiths was finished with his seRvice, he wAs preseNted with this hobby horse staff as a means of thanKing him for his work.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5875

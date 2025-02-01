@@ -2,6 +2,8 @@
 
 This dagger was carved in curves, making it not only look unique but able to injure foes just as effectively.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 482

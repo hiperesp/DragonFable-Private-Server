@@ -2,6 +2,8 @@
 
 Once upon a time, a great crusader of the Light donned this mantle; its brilliant glowing wings blinded his enemies with the power of truth and justice!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5616

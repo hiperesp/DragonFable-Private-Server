@@ -2,6 +2,8 @@
 
 Roirr is still weak after traveling through the Plane of Elemental Spirits. The village of Ull is on his agenda... but why?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

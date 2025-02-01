@@ -2,6 +2,8 @@
 
 A wandering gnome-magician-inventor gifted you with one of his latest hybrid inventions.  He said it will serve you well at mealtimes and in battle.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2356

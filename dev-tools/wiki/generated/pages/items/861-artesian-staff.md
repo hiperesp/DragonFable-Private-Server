@@ -2,6 +2,8 @@
 
 This staff draws a magical supply of water from deep underground. It's basically a well made medieval pressure washer.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 861

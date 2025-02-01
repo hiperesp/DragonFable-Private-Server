@@ -2,6 +2,8 @@
 
 Grinders are very dangerous animals, but once you have made a friend of one you have a friend for life.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Forged from the scales of an ancient ice dragon, these wings shield you from heat!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9180

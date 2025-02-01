@@ -2,6 +2,8 @@
 
 The shiny armor of Warriors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800009

@@ -2,6 +2,8 @@
 
 Would aliens need water-breathing potions to breathe underwater?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

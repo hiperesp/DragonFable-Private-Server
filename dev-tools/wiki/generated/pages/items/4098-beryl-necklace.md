@@ -2,6 +2,8 @@
 
 This necklace features a large heavy stone of enigmatic beauty.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4098

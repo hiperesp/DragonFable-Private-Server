@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This strand of dragon scales must have been lost when the growing dragon lost it's seasonal skin. See? There's more than one way to skin a  dragon?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1786

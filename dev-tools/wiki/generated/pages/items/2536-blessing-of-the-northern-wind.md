@@ -2,6 +2,8 @@
 
 This ancient cape was part of Izotz's horde of ill-gotten treasure.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2536

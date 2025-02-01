@@ -2,6 +2,8 @@
 
 The once fine mesh of this belt is now torn and shattered with shells caught in the remaining mesh. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13987

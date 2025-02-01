@@ -2,6 +2,8 @@
 
 This backpiece was left behind in the upturned earth when Myalos left. It's a little heavy, but still functional!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20244

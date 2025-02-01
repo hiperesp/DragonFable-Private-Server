@@ -2,6 +2,8 @@
 
 The Kittypillar's bubbles have floated away! Use them to distract monsters.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2873

@@ -2,6 +2,8 @@
 
 This is the ultimate PvP weapon! However when you attack fire monsters it smells oddly like bacon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 444

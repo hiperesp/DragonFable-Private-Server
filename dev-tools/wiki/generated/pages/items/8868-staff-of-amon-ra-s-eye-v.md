@@ -3,6 +3,8 @@
 Created to help defend the Sandsea Gate... this weapon is now in your hands!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8868

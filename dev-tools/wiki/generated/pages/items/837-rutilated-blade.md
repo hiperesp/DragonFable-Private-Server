@@ -2,6 +2,8 @@
 
 This blade is strengthened by mineral shards. Bring this weapon and several Elemental Essences to Warlic to enchant in his elemental SHOP.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 837

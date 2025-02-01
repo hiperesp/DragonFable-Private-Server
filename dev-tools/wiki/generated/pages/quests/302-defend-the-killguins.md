@@ -2,6 +2,8 @@
 
 Defend the Killguin Arena with King Linus!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You've enhanced your blade with the power of shadow. While more powerful than it was before, shadows seem to now cling to the blade as you use it. Click to switch between Darkness and Light. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12591

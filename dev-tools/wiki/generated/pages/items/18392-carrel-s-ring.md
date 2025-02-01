@@ -2,6 +2,8 @@
 
 A ring that's woven of a natural fabric, like the stringy bark of a tree, with a green stone embedded in the middle. None of the materials are rare or precious in nature. Its value must be sentimental.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18392

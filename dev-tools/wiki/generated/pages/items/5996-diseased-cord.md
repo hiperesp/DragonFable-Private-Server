@@ -2,6 +2,8 @@
 
 Ewwww. Gross.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5996

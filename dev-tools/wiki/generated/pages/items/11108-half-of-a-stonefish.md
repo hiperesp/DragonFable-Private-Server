@@ -2,6 +2,8 @@
 
 You have half a giant stonefish on your back!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11108

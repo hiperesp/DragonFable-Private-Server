@@ -2,6 +2,8 @@
 
 Golden Hand Camping
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

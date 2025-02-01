@@ -2,6 +2,8 @@
 
 A strip of cloth ripped from a shirt or robe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13182

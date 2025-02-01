@@ -2,6 +2,8 @@
 
 It is said that this sword was pulled out from an ordinary book of fairy tales and the child who wielded it became a legendary hero. However, no one can remember their name.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18516

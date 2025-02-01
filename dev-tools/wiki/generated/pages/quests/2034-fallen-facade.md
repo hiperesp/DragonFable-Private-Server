@@ -2,6 +2,8 @@
 
 Circe and Eirn have infiltrated the Rose airship, but can they find a way to sabotage it before it's too late?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

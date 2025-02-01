@@ -2,6 +2,8 @@
 
 A different perspective can change almost anything.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19189

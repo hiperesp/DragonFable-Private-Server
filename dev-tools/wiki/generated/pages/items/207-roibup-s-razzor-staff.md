@@ -2,6 +2,8 @@
 
 This mage staff was made for Roibup, the "Magician of Doom", in honor of being one of the first 2 mages to acquire the SkullStaff of Doom!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 207

@@ -2,6 +2,8 @@
 
 A weapon from another time and place, it glows and hums with mysterious, otherworldly, power. How it found its way here, you do not know. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21617

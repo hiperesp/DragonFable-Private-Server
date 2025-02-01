@@ -2,6 +2,8 @@
 
 This is a plain but sturdy dagger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 305

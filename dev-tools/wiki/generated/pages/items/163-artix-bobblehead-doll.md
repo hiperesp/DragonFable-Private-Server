@@ -2,6 +2,8 @@
 
 This bobblehead was made in the image of the paladin Artix. It's ready to mount on the front of any wagon, just flick his head and watch it go!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 163

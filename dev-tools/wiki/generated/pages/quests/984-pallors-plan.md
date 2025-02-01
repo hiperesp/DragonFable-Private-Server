@@ -2,6 +2,8 @@
 
 You've found Vayle... but at what cost?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

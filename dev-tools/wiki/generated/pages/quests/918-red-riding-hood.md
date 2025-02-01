@@ -2,6 +2,8 @@
 
 There certainly are a lot of wolves around here. I wonder who lives in this stretch of woods.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

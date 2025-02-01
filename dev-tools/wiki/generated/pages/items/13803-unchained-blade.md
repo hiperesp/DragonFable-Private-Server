@@ -2,6 +2,8 @@
 
 Energy should never be chained. It moves, almost like a living thing, breaking through what tries to stop it. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13803

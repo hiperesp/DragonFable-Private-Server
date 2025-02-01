@@ -2,6 +2,8 @@
 
 The archeology team needs the temple site cleared of the Lizardmen and their minions.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

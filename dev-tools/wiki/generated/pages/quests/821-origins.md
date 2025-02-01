@@ -2,6 +2,8 @@
 
 The Fire elementals seem to be thawing those Khy'Rhian from the pillars. These things are made, then? hatched. It's high time you find out who or what this Nivalis is.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

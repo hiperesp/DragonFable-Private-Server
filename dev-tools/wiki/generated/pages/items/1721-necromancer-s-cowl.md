@@ -2,6 +2,8 @@
 
 This mysterious cowl with hide your features from the burning day-star and protect your sinuses from excessive bone dust.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1721

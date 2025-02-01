@@ -2,6 +2,8 @@
 
 A staff magically crafted from a collection of Fire-infused Pyrope. On special, does a large hit that cannot crit. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21673

@@ -2,6 +2,8 @@
 
 This Frostval Tree was blown over by the storm and carried far, far away. Might as well put it to good use! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22262

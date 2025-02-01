@@ -2,6 +2,8 @@
 
 The earth dragon Gorgok and his army are destroying the town of Willowshire and tower at its center! What does this terrifying new foe want from this small town?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

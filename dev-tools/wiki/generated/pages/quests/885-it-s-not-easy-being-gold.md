@@ -2,6 +2,8 @@
 
 It's time to confront whoever is inside the hovel!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

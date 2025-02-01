@@ -2,6 +2,8 @@
 
 Yeah... you're gonna have a headache when you wake up. Take two of these and then sell whatever is leftover when your head stops ringing.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15564

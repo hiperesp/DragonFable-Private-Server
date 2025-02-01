@@ -2,6 +2,8 @@
 
 This belt is woven from silk and is incredibly strong. But it?s not really a belt at all. It?s a rope with a small grappling hook as a belt buckle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5517

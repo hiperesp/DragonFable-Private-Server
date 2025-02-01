@@ -2,6 +2,8 @@
 
 Insider intelligence has located a hideaway where future plans may be set in motion.  Find out what Akanthus has planned next to thwart him.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

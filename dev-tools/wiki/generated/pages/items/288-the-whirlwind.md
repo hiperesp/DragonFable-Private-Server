@@ -2,6 +2,8 @@
 
 Gust your enemies out of your way with this tempestuous staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 288

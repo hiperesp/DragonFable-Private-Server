@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This helmet is made from a hollow pumpkin picked from the darkest pumpkin patch in Doomwood. The inside smells like it might be getting a little moldy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1175

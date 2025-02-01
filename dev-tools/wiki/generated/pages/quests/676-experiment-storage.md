@@ -2,6 +2,8 @@
 
 The area where all the Z-Virus infected were contained.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The rescued rebellion members have told Zhoom the tales of The Dunelord which were whispered by Sek-Duat's army. This ancient and powerful monster can only be stopped by a DragonLord!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A terrifying parasitic cheese entity that appeared on San Robin's birthday. Hopefully it doesn't want revenge for its fallen brethren. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20837

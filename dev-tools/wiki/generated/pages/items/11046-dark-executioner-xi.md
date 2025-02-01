@@ -2,6 +2,8 @@
 
 A weapon stolen from the Rose and reforged in darkness for Black Friday, 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11046

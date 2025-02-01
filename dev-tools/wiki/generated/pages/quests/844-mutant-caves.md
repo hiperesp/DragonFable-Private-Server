@@ -2,6 +2,8 @@
 
 The mutant caves at the bottom of the Swordhaven Sewers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

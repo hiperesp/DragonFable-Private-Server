@@ -2,6 +2,8 @@
 
 Walk through the shadows of time with this reforged version of the ShadowWalker of Time!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21085

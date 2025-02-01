@@ -2,6 +2,8 @@
 
 Tactical Assault Reconnaissance Team approved, helmet hair is included! The orb on the cheek is an action button!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4504

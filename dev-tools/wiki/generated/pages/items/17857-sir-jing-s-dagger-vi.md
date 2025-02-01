@@ -2,6 +2,8 @@
 
 Energy dances along the edge of the magical dagger. Forged by the legendary Sir Jing!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17857

@@ -2,6 +2,8 @@
 
 The enshadowed wings of the Infernal Mahanaem.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18804

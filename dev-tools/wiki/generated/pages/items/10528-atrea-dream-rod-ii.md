@@ -2,6 +2,8 @@
 
 A special item from the unael, Yashta, he says it reflects the dreams of Atrea.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10528

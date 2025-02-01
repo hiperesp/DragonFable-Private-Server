@@ -2,6 +2,8 @@
 
 No man in black will be able to evade you now.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8147

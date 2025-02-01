@@ -2,6 +2,8 @@
 
 The flowers on this staff are created from elemental essences.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7003

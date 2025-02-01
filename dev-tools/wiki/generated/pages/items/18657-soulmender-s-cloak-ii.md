@@ -2,6 +2,8 @@
 
 This Soulwoven cloak is said to belong to the Soulmenders, a form of soul magicks under close scrutiny by the Magesterium. You've never heard of this school of weaving. Curious. Maybe that's just a story to get you to pay more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18657

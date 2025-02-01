@@ -2,6 +2,8 @@
 
 This staff channels the darkness within you, pulsing with power that makes your hair stand on end. But hey, at least it's quiet about it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16910

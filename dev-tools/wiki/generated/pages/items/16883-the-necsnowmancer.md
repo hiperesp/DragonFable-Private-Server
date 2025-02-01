@@ -2,6 +2,8 @@
 
 It's the dreaded Necsnowmancer! Watch out, he'll make your snowmen un-snow-dead!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16883

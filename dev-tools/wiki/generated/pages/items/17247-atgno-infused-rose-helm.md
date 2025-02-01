@@ -2,6 +2,8 @@
 
 A discarded Rose soldier's helm, seething with the enduring energy of regret and guilt. It should be okay to use, right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17247

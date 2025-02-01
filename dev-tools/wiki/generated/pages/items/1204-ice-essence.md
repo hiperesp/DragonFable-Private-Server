@@ -2,6 +2,8 @@
 
 A chunk of the coldest ice kept in a magically frozen vial.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1204

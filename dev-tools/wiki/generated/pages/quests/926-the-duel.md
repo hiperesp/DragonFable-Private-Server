@@ -2,6 +2,8 @@
 
 Warlic and Alex have each had enough! It's time to show who has the real power!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

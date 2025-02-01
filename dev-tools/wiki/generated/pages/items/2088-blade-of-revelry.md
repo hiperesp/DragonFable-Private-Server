@@ -2,6 +2,8 @@
 
 Noxus turned your friends to coal. Then you triumphed, made them whole. Let the celebrations begin.  It's always better when the good guys win. Falalalala lalalala.  Moglin magic gives this sword a chance to heal you 5% on a successful hit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2088

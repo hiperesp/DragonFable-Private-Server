@@ -2,6 +2,8 @@
 
 Forgiveness is a trait every hero should have no matter how dark the day is. Sometimes those that do the most wrong were themselves wronged the most. Never forget that. It has a chance to heal 5% of your life on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13121

@@ -2,6 +2,8 @@
 
 A souvenir of your battle with Okuchi no Okami, his claw can now be used in the protection of all that is good.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1333

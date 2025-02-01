@@ -2,6 +2,8 @@
 
 Command the fortified power of the ancient Roktoru (on loan from the Ravenloss Museum). 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4692

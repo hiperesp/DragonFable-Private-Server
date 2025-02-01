@@ -2,6 +2,8 @@
 
 A demonic energy reverberates through the skull. Visit the Black Market Moglin to upgrade this item.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5725

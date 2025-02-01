@@ -2,6 +2,8 @@
 
 The strange ninja warrior Guyshimitsu lost this helm during this third mission, only to replace it with an even more bizzare and terrifying helmet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1056

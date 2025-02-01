@@ -2,6 +2,8 @@
 
 A golden needle carved from the antler of The Adjudicator, and empowered with the growth magic of Junipurr. Proof of victory over The Weight of Life challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20745

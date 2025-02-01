@@ -2,6 +2,8 @@
 
 A weave of steely tree roots to protect your midsection.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11620

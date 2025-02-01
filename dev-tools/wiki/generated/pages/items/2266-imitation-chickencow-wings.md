@@ -2,6 +2,8 @@
 
 No chickencows were harmed in the making of these novelty wings.  They're almost as good as the real thing!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2266

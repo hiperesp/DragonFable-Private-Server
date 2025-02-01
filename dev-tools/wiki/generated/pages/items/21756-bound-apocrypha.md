@@ -2,6 +2,8 @@
 
 A macabre helm created in the image of a nightmarish creature, this cursed relic is said to augment a necromancer's dominion over the undead. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21756

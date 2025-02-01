@@ -2,6 +2,8 @@
 
 This enchanted Stave cuts like the arctic wind. And Ooh its sparkley.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1108

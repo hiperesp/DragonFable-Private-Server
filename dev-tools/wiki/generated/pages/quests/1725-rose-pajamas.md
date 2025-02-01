@@ -2,6 +2,8 @@
 
 While you may not be at Espina Rosa anymore, your Rose buddies still are! Wonder if anything's changed about the daily routine...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

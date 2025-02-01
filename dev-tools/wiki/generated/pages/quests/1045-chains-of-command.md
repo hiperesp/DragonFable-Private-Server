@@ -2,6 +2,8 @@
 
 It's time to find Kara and rescue the Clawkin!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

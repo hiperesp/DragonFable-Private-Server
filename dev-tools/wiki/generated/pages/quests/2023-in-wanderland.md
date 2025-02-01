@@ -2,6 +2,8 @@
 
 Wherever these creatures come from, it's not anywhere you've heard of.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

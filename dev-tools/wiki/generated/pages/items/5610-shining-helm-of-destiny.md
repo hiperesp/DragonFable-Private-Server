@@ -2,6 +2,8 @@
 
 Once belonging to a famous paladin, it is said that a single gaze from this helm will obliterate shadow itself; no darkness is safe from its vigilance! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5610

@@ -2,6 +2,8 @@
 
 Look sassy with this classy mask! Happy Mogloween 2010!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4467

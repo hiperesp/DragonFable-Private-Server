@@ -2,6 +2,8 @@
 
 The ultimate weapon for reaping what you sow! Click on the Jack-o-Lantern to change elements from Fire to Nature! Happy Mogloween 2011! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6032

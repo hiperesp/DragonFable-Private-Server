@@ -2,6 +2,8 @@
 
 Wrought from pure silver, this scythe is a treasure to behold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7219

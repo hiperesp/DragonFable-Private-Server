@@ -2,6 +2,8 @@
 
 Help Svera defend Sulen'Eska against the invading Rose force!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

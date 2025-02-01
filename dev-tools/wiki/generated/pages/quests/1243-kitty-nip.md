@@ -2,6 +2,8 @@
 
 Someone said they saw a cat in here and Cysero bringing in a bag of something... Maybe it was Kitty Nip?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

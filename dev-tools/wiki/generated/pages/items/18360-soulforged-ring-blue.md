@@ -2,6 +2,8 @@
 
 This black ring with swirling blue wells engraved into it rests tightly on your finger. The Elemental Spirit of Insight is bound within it, allowing the wearer to make clever and intelligent decisions on the fly. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18360

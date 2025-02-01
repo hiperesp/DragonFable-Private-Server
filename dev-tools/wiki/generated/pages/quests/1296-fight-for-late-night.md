@@ -2,6 +2,8 @@
 
 Sir Stephan of Coldbear is changing up his format, but his new competition has something to say about it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

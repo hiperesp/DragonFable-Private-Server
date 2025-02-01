@@ -2,6 +2,8 @@
 
 Zapp has asked you deliver a letter to his pen pal in the jungle.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

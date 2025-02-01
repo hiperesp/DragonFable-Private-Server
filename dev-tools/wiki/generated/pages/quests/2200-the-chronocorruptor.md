@@ -2,6 +2,8 @@
 
 The second lesson.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

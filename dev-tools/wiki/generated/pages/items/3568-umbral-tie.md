@@ -2,6 +2,8 @@
 
 The darkness is pervasive in Ravenloss.  The Chaosweavers sold this belt to celebrate it.  It is a jet black tie which wraps around your waist.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3568

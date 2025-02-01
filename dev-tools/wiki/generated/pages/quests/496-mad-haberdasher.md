@@ -2,6 +2,8 @@
 
 Go ahead, you know you want to try the teacake!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

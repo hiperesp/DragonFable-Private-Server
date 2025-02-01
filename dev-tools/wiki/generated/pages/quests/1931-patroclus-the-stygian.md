@@ -2,6 +2,8 @@
 
 Gentle Patroclus, whisperer of encouragement, shrouded in mystery.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

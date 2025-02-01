@@ -2,6 +2,8 @@
 
 Take out the chef quickly before you get burned!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

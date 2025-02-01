@@ -2,6 +2,8 @@
 
 Touched by the hand of Death himself, this void scythe is bound with the strings of fate.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7531

@@ -2,6 +2,8 @@
 
 A teams of Rose Trackers has entered the Freedom Camp searching for clawkin!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

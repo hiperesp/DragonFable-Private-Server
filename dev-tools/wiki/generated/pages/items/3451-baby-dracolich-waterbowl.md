@@ -2,6 +2,8 @@
 
 This battered metal bowl must have come from Zorbak's Hideout.  The water looks kind of... green?!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3451

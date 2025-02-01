@@ -2,6 +2,8 @@
 
 After Xan sank into the lava during your last encounter, his insane fury and magical instability caused him to bind with the lava inside his fortress. He has become the mindless terror called the Lava Titan Xan! Only a DragonLord's power can stop him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

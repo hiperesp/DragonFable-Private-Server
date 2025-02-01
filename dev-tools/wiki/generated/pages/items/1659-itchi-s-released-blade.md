@@ -2,6 +2,8 @@
 
 This is the released form of ghost hunter Itchi's soul blade, which he once used to battle angry spirits and send them to the next world. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1659

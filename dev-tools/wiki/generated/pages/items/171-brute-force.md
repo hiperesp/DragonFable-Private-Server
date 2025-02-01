@@ -2,6 +2,8 @@
 
 This weapon is nothing but a massive chunk of granite with a handle stuck into it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 171

@@ -2,6 +2,8 @@
 
 A mysterious creation, relentless and cruel. Its origins are unknown, but it must be stopped. And if there are any others... that source must be destroyed.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

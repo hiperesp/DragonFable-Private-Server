@@ -2,6 +2,8 @@
 
 You've got to stop the Zardbified Bubble!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

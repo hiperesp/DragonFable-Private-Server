@@ -4,6 +4,8 @@ It's unknown from where or when this mysterious magical weapon originated, but i
 Special: DoT on Hit
 (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19666

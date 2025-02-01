@@ -2,6 +2,8 @@
 
 The Bloodfarers were among the first sects of vampires to leave Safiria's watchful gaze. Rumors that they glittered in the moonlight are unfounded, but their ferocity and fashion sense were legendary. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19929

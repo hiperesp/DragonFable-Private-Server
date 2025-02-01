@@ -2,6 +2,8 @@
 
 They called the Sausagemancer crazy- they said it would be impossible to channel magical energies through a mere sausage! This staff is proof that they were wrong. It's also a quick snack.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16728

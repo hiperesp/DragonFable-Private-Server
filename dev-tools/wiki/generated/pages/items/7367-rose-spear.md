@@ -2,6 +2,8 @@
 
 Rose-Approved: Absolutely, positively not elemental at all. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7367

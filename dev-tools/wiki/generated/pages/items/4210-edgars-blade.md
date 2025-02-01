@@ -2,6 +2,8 @@
 
 The blade of the Necromantress Vayle's undead brother, passed down by only the braves slayers of undead. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4210

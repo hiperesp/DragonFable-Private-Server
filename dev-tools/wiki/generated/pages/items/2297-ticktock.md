@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This magitech staff was once used to measure the speed of gears turning in Popsprocket but desperate times call for geared weapons. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2297

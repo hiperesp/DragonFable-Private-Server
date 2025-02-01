@@ -2,6 +2,8 @@
 
 Working with Cysero, Sirius had this replica forged of the magic blade conjured by his greatest fears as a reminder of his looming responsibility. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22083

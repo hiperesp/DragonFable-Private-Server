@@ -2,6 +2,8 @@
 
 This dirk is imbued with the essence of darkness, making it deadly against your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 362

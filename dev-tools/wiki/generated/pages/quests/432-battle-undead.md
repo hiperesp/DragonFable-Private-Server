@@ -2,6 +2,8 @@
 
 Sepulchure is determined to get to that Energy Orb before you do AND take out the Cyklons!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This magical weapon is said to have been forged by the gods themselves. It almost guarantees a critical strike! Too bad it's broken.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6296

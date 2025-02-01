@@ -2,6 +2,8 @@
 
 In order to turn the river of fire back into water, Warlic needs a sample of the magical fire that is filling the river. It flows from its source deep inside a cave protected by fire.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

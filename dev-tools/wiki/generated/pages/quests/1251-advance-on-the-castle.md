@@ -2,6 +2,8 @@
 
 You need to get to the castle!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

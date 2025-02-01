@@ -2,6 +2,8 @@
 
 Take a break from searching for Artix and nuke some undead!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

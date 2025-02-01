@@ -2,6 +2,8 @@
 
 The fire from the pumpkin heats the blades of your new staff!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10773

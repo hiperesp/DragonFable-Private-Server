@@ -2,6 +2,8 @@
 
 <no description available>
 
+[Back to mergeShop](../merge-shops.md)
+
 ## Properties
 
 ```json

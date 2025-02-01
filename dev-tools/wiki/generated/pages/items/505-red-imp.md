@@ -2,6 +2,8 @@
 
 This rare imp pet was captured on the Friday the 13th invasion of the undead. It has a bad temper and will only obey one who controls the power of a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 505

@@ -2,6 +2,8 @@
 
 This belt is made up of heavy interlocking links of metal and apparently came from the Ruins of Kordana. It?s a bit greasy though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5516

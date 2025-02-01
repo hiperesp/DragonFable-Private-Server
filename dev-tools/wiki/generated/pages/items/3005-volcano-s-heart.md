@@ -2,6 +2,8 @@
 
 The stone in this ring was pulled from the depths of a volcano then frozen by a master cryomancer.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3005

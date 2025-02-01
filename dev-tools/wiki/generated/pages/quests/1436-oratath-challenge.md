@@ -2,6 +2,8 @@
 
 The great holy dragon Oratath!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

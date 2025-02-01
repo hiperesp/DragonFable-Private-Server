@@ -2,6 +2,8 @@
 
 Hello... again... Happy Mogloween 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6049

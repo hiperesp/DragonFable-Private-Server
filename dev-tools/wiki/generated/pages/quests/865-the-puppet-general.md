@@ -2,6 +2,8 @@
 
 Defeat the general of the invading army!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

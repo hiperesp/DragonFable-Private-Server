@@ -2,6 +2,8 @@
 
 It's a pail overflowing with candy! Perfect for long trips, short trips, sharing with friends, eating alone, throwing at enemies, and more! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16512

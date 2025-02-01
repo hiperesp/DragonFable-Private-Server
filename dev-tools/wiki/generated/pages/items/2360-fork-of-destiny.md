@@ -3,6 +3,8 @@
 With this fork, you can take down even the toughest demon!  Might not want to try playing any instruments with it, though.  
 This weapon requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2360

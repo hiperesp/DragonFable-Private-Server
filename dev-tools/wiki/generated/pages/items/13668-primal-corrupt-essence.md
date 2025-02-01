@@ -2,6 +2,8 @@
 
 This appears to be some sort of dark crystal. The darkness inside seems to move when you look at it though, almost as if it knows you're able to see it...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13668

@@ -2,6 +2,8 @@
 
 Once a shadowy and mysterious dagger of great power, its blade was almost impossible to see in low light. Recovered by Yulgar, this blade was purified by Artix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1640

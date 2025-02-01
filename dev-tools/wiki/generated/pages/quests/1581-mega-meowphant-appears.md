@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen the Mega Meowphant to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

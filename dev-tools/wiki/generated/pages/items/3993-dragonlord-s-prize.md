@@ -2,6 +2,8 @@
 
 This dagger is said to be a cherished prize of a powerful Dragonlord. It was taken from the hand of an assassin sent by a dragon to stop the Lord's rampage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3993

@@ -2,6 +2,8 @@
 
 A masterfully forged magical ring to ward off evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4076

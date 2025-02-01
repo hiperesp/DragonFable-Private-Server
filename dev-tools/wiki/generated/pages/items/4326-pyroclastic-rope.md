@@ -2,6 +2,8 @@
 
 The glassy slivers of this necklace came from a powerful volcanic explosion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4326

@@ -2,6 +2,8 @@
 
 You grabbed this on your way out of the Yaga cave.  It's a bit slimy, but you can feel the power it holds!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3260

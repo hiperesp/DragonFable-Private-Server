@@ -2,6 +2,8 @@
 
 A ShadowScythe bomb has been dropped! Defuse it before it explodes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

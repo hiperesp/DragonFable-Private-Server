@@ -2,6 +2,8 @@
 
 This weapon is hot, delicious and extremely dangerous.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3237

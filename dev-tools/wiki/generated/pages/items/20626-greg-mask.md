@@ -2,6 +2,8 @@
 
 When you put this mask on, you feel rage building up inside of you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20626

@@ -2,6 +2,8 @@
 
 Never fear. With these blades, it doesn't matter WHAT your enemies may be morphing into; you'll be able to overcome them handily.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1342

@@ -2,6 +2,8 @@
 
 This staff is topped by a huge golden fan. It's really quite remarkable that you can lift at at all, much less hold it in the middle with one hand. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1428

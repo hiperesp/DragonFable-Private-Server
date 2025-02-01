@@ -2,6 +2,8 @@
 
 A small idol carved from golden stone. The eyes and mouths of the four faces of the Shapeless glow faintly with a blue light. Said to bring good luck to the law-abiding.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18478

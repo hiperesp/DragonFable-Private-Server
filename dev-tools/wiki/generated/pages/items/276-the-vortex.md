@@ -2,6 +2,8 @@
 
 Swirling with an immense intensity coming from a dimension known only as the Vortex, this staff radiates a mysterious power. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 276

@@ -2,6 +2,8 @@
 
 The DragonLord Stronghold
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

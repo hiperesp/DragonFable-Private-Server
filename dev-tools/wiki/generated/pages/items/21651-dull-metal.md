@@ -2,6 +2,8 @@
 
 The remnants of Greg's mysterious blade, dull and worn. Proof of victory over Greg, the cricket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21651

@@ -2,6 +2,8 @@
 
 Crafted from elemental essences, this weapon will serve you well! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8370

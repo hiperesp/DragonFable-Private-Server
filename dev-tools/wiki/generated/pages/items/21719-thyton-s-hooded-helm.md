@@ -2,6 +2,8 @@
 
 It's Thyton's famous golden helm, complete with secretive hood! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21719

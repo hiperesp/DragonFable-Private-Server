@@ -2,6 +2,8 @@
 
 This staff was originally made for a tribal shaman. It is said to have the ability to protect its wielder from harmful magics.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 193

@@ -2,6 +2,8 @@
 
 This dagger was made from a collection of broken blades, magic gem shards and  left-over minerals. The final product seems to posess unforeseen magical properties.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 262

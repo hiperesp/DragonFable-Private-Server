@@ -2,6 +2,8 @@
 
 This is the counterpart to the Mighty 100k, the most expensive gold weapon in DragonFable!  Cysero used his connections to get a copy of it.  If you can't see yourself farming 100,000 gold for a weapon, this is a great alternative!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3688

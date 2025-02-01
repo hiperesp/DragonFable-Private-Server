@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You feel as if the darkness is crawling right into your veins!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4162

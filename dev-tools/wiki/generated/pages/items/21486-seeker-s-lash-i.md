@@ -2,6 +2,8 @@
 
 Unlike the Manahunters, the Spellseekers use lengths of enchanted rope to bind their targets. Woven and enchanted to be magically resistant, such rope can also function as a belt, if you really wanted.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21486

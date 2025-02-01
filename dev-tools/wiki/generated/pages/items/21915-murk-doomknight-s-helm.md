@@ -2,6 +2,8 @@
 
 Imbued with the power of Doom, this helm that once belonged to a paladin, now radiates darkness. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21915

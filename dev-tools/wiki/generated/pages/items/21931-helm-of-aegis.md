@@ -2,6 +2,8 @@
 
 Formed from a small blue crystal shard, leftover from your battle against Jaania, imbued with the aligned determination of weaver and ally. Proof of victory over Jaania (Extreme). Unlocks the Full Synch customization for DragonLord.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21931

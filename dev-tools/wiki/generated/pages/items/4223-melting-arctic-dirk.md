@@ -2,6 +2,8 @@
 
 Although these icy daggers are melting a little, they are still rigid enough to strike down any adversary! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4223

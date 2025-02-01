@@ -2,6 +2,8 @@
 
 Reaver has arrived, but not summoned by you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

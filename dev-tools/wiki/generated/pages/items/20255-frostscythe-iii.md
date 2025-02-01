@@ -2,6 +2,8 @@
 
 Frostscythe's scythe, empowered with ice! Proof of victory over Frostscythe and Glaisaurus.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20255

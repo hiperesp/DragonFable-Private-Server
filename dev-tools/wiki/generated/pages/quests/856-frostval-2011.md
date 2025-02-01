@@ -2,6 +2,8 @@
 
 Have a very happy holiday!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

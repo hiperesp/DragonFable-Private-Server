@@ -2,6 +2,8 @@
 
 Can you resist the call of Kathool?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The clasp and several links look like they've been chewed on. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13475

@@ -2,6 +2,8 @@
 
 This catalyst is a red, intricately carved gem that shines with inner starlight. Staring into its depths takes your mind soaring into a lost and distant land. This fiery Customization Catalyst unlocks the Astravian customization option for Paladin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20498

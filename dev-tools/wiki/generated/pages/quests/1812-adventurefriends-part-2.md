@@ -2,6 +2,8 @@
 
 Welcome to Aspenvale Academy, Falconreach's premiere school for adventurers. The QuestVenture is rapidly approaching, but will you be able to find a partner? There's only one way to find out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The blade on this claw was crafted in imitation of a dragon's wing.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3287

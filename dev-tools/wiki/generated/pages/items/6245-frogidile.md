@@ -2,6 +2,8 @@
 
 Just don't flush it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6245

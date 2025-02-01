@@ -2,6 +2,8 @@
 
 This ring is a must-have for the dedicated Adventurer.  A built-in compass will guide you in the densest of fogs or darkest of nights.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2310

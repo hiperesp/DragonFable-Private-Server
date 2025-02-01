@@ -2,6 +2,8 @@
 
 Hunt out the invading were-creatures in the wood!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

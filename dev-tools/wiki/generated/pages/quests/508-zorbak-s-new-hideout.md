@@ -2,6 +2,8 @@
 
 Zorbak wants a new Hideout to show off his status.  But he wants Thursday's mansion, and he wants you and the babies to take it over for him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

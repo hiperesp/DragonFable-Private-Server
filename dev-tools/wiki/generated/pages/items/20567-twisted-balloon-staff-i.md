@@ -2,6 +2,8 @@
 
 A special gift from the newly returned Kosong, this staff of twisted balloons is oddly sturdy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20567

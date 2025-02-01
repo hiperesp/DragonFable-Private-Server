@@ -2,6 +2,8 @@
 
 I will accompany you as you perform many deeds, great and small. Whatever you decide, your choices will be mine as well. Can be upgraded at Secundus,  but will lose all resale value. Also available from the Chaosweaver DC package.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19083

@@ -2,6 +2,8 @@
 
 While Vseslava and Ostromir very heavily discourage its use, they begrudgingly admit there is little risk in using this detached Hollow Nodule as a backpiece. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21009

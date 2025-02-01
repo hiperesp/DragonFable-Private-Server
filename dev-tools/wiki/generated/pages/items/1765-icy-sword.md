@@ -2,6 +2,8 @@
 
 Hewn from the depths of the glacier upon which Dragesvard perches, this sword contains the power of Ice.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1765

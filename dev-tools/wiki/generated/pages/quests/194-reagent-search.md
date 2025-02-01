@@ -2,6 +2,8 @@
 
 Reens has sent you out into the woods to find reagents to transmute. Watch out for ambushes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Bet you thought it was going to be called the DYE-re Dagger, huh?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2707

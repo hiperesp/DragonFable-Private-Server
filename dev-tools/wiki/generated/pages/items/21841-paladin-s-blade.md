@@ -2,6 +2,8 @@
 
 A trusty Paladin's weapon, imbued with Light! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21841

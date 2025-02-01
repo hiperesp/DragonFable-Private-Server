@@ -2,6 +2,8 @@
 
 Under a sudden eclipse, in a surprise to nobody, an undead army is invading Falconreach! And there's something... Doom-y about them...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A simple dagger normally used for everyday chores, this version has been made with more expensive, sturdier materials by the Resistance. Zhoom has quite the collection of them. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1407

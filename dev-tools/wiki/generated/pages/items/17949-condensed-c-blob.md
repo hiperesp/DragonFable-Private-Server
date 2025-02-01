@@ -2,6 +2,8 @@
 
 A fading, growing, writhing mass of combined emotions. Needs a unifying force.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17949

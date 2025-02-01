@@ -2,6 +2,8 @@
 
 This necklace is a cat?s eye agate set in a golden pendant dedicated to the cat goddess. Platinum and gold with agate, it?s a prize worthy of a Pharaoh.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5506

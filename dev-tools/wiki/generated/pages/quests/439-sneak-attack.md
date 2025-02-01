@@ -2,6 +2,8 @@
 
 Togriding Sneevils?  They'll never see THAT coming! Oh, until they start charging down the hill.  Then they'll see!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

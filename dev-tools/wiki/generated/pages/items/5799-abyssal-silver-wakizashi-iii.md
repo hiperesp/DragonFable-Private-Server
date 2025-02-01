@@ -3,6 +3,8 @@
 These short swords, forged by True Mortal during the uprising on Sho'Nuff are perfectly balanced for
 dual wielding. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5799

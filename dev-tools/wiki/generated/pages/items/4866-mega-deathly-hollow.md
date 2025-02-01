@@ -2,6 +2,8 @@
 
 Your finger goes through the hollow part of this metal band. It MAY, some stories say, help you defeat MegaDeath down in the Underworld.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4866

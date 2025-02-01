@@ -2,6 +2,8 @@
 
 Siofra has made a serious threat, so it's best to be prepared!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

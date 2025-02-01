@@ -2,6 +2,8 @@
 
 A good effort, but the staff is bowed in the middle. Keep practicing! This item requires a Blacksmithing skill of Rank 7.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1192

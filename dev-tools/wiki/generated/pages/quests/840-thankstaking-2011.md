@@ -2,6 +2,8 @@
 
 The table is all set, it's time to EAT!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

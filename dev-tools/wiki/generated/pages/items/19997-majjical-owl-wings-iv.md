@@ -2,6 +2,8 @@
 
 Silent white wings of overbearing personality, these replica wings were given to you by Majji himself! He seemed to think them the highest honor to repay you. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19997

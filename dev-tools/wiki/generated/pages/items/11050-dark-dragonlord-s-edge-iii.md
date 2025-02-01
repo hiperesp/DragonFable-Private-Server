@@ -2,6 +2,8 @@
 
 The weapon of a DragonLord who has embraced darkness! A weapon for a dark warrior on Black Friday, 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11050

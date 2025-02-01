@@ -2,6 +2,8 @@
 
 A gold-plated steak knife to commemorate the 2016 Thankstaking celebration! Super cool! Using it to actually cut steak would probably be a bad idea.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16783

@@ -2,6 +2,8 @@
 
 Wreathed in embers, the heat along this blade's edge burns with an unnatural hunger. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22197

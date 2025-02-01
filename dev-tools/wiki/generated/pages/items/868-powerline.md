@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. This sparkly energy staff draws its power from the planets natural lay lines. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 868

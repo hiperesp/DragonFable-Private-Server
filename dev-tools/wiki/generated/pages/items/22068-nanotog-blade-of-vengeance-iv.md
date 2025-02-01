@@ -2,6 +2,8 @@
 
 This surprisingly elegant blade is supposedly formed of nanotogs and able to cut through any defenses. Believe in the nanotogs, believe in yourself!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22068

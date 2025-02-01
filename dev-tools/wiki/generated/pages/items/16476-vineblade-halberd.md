@@ -2,6 +2,8 @@
 
 The grand nature of this weapon seems to pull your attention toward it occasionally. It's not distracting you from anything important...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16476

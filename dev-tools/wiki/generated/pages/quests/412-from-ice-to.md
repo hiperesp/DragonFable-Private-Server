@@ -2,6 +2,8 @@
 
 Warlic has prepared the spells to unfreeze the girl.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

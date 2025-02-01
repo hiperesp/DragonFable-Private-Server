@@ -2,6 +2,8 @@
 
 Erm...should you really be wearing this since they...you know... Well, maybe since they aren't actually touching you it's ok?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13611

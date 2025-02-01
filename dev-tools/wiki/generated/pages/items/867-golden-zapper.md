@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. Pulsating with energy and power, this staff can easily zap your foes like gnats.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 867

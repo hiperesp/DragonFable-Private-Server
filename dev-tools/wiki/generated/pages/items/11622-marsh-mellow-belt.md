@@ -2,6 +2,8 @@
 
 This does not taste good. At all.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11622

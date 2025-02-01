@@ -2,6 +2,8 @@
 
 There was a description about Chompers here, but Chompers ate it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3560

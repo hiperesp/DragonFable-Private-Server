@@ -2,6 +2,8 @@
 
 This cave was a breeze. You have fought your way through the Wind Elementals, but the secret of the floating cave is still a mystery...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

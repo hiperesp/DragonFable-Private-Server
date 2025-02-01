@@ -2,6 +2,8 @@
 
 This tiny Wrath will help smash your foes into submission! Over and over and over again! Proof of victory over the Wrath challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19085

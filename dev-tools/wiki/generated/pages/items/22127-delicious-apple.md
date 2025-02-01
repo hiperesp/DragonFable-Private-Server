@@ -2,6 +2,8 @@
 
 This apple is presumably very delicious, however, it's also harder than a moglin's noggin. While thus inedible, perhaps you can repurpose it for other uses. Like hitting your foes. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22127

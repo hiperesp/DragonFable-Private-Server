@@ -2,6 +2,8 @@
 
 This sword is merely a piece of warped wood from a shipwreck, found along the shore.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10

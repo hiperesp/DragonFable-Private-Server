@@ -2,6 +2,8 @@
 
 A small sachet of powder fallen from Doomwood's eternal moon. Not for use in scientific or culinary endeavors. Proof of victory over Amaris.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21052

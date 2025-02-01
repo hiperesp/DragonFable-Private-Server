@@ -2,6 +2,8 @@
 
 A legendary weapon embodying the frugal spirit in all of us!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6194

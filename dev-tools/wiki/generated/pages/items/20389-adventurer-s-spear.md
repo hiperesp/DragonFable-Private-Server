@@ -2,6 +2,8 @@
 
 This spear is your trusty companion! Enhanced with the fang of a hydra, it has taken its first steps to glory alongside you! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20389

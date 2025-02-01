@@ -2,6 +2,8 @@
 
 Careful to not get frost burn!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6682

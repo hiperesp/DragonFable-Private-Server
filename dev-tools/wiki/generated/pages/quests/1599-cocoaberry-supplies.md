@@ -2,6 +2,8 @@
 
 Papa Moglin has asked you to gather some cocoaberries that grow nearby the Frostvale village, in order to boost morale!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

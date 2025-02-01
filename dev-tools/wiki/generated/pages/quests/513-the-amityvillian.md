@@ -2,6 +2,8 @@
 
 Zorbak's Friday the Thirteenth army comes face to face with his new army of baby dracoliches!  Can you save the babies from Zorbak's original army?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

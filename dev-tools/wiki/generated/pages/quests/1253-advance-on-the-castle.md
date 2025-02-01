@@ -2,6 +2,8 @@
 
 These are some powerful foes. Strike them down!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

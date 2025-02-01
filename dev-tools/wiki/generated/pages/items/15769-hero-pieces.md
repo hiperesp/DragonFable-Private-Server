@@ -2,6 +2,8 @@
 
 Gross... You probably don't want a lot of these.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15769

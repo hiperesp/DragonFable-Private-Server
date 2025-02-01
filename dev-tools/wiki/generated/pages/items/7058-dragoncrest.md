@@ -2,6 +2,8 @@
 
 The DragonCrest scythe magically transforms its shape as it's wielder desires. Click on the blue gem!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7058

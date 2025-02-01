@@ -2,6 +2,8 @@
 
 On an island deep in the middle of the sea, frozen purple rain sometimes falls.  The island's mage managed to solidify one of the droplets and set it into this ring.  It gives a huge boost to your mana!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3553

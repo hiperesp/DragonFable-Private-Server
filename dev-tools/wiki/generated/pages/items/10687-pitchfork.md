@@ -2,6 +2,8 @@
 
 Poke at anything you want with this fiery fork of flames! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10687

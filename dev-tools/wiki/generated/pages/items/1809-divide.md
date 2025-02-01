@@ -2,6 +2,8 @@
 
 The icy edge of this dagger will tear through your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1809

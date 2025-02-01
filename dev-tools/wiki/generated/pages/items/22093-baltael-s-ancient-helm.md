@@ -2,6 +2,8 @@
 
 This old worn helm no longer retains its ability to change color. But some people like that sort of thing, you know? Proof of victory over Baltael. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22093

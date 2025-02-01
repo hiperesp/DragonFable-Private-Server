@@ -2,6 +2,8 @@
 
 This unique item was used to power Dr. Voltabolt's mechanical creation. Its rarity makes it a very valuable item, even if he's the only one who knows how to use it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 468

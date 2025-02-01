@@ -2,6 +2,8 @@
 
 Save the creatures of Pellow Village from life as minions of Greed!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

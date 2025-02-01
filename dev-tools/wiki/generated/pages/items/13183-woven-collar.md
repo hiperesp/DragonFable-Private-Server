@@ -2,6 +2,8 @@
 
 Several strips of cloth have been woven together to create this thick collar.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13183

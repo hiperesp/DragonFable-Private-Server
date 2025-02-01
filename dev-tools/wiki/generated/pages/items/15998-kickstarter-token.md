@@ -2,6 +2,8 @@
 
 Thank you for helping support the AQ3D Kickstarter! The Kickstarter weapon shop is located in the Weapon Shop in Book 3 Swordhaven! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15998

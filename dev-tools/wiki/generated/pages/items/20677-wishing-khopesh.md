@@ -2,6 +2,8 @@
 
 Rub the blade of this weapon and maybe you'll get a free wish! And a cut on your hand. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20677

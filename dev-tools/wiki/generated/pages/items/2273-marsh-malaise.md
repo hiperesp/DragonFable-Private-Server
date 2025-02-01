@@ -2,6 +2,8 @@
 
 Dank, dark marshes are REALLY depressing.  Better head for higher, sunnier ground and maybe the malaise you're suffering will go away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2273

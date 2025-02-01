@@ -2,6 +2,8 @@
 
 This shining gold cowbell smells faintly of fresh bacon. If you wanted, you could wear it around your neck. But... why? An Artifact for the Evolved ChickenCow armor. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19563

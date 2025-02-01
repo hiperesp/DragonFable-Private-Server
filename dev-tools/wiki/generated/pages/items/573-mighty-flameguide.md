@@ -2,6 +2,8 @@
 
 This staff was forged by combining Defenders Medals and Fire Gems from the cave of Glaisaurus, the Ice Dragon. You must possess a Dragon Amulet to wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 573

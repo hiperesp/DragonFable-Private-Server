@@ -2,6 +2,8 @@
 
 A small pair of woven bracelets, decorated with silver charms shaped like moon phases and bats. Proof of an eternal friendship, as well as victory over the Everlasting Night Challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21054

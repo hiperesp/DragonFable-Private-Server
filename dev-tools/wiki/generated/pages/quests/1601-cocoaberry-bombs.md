@@ -2,6 +2,8 @@
 
 Let's teach these snow slimes a lesson!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

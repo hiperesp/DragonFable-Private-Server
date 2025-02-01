@@ -2,6 +2,8 @@
 
 Cobbled together from the bones of evil necromancers, this spiny blade radiates dark energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3060

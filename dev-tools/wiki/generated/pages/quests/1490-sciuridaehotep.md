@@ -2,6 +2,8 @@
 
 The Witness is here to observe its Master.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

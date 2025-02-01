@@ -2,6 +2,8 @@
 
 Another curious dagger surrounded in rumours. It's said that this dagger was made to honor the "Sun in the center of the world".
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 402

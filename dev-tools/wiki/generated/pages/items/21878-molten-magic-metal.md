@@ -2,6 +2,8 @@
 
 This vial of mixed metals is somehow both liquid and cool to the touch, ready to be worked.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21878

@@ -2,6 +2,8 @@
 
 A gift from the BioBeasts you saved. Hopefully, they're safe from Alydriah's clutches now!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15397

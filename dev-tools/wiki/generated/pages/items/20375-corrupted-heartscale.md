@@ -2,6 +2,8 @@
 
 A shard of what may have been. Used to upgrade Doom weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20375

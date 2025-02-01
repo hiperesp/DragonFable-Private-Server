@@ -2,6 +2,8 @@
 
 Tarnished, broken, rose-shaped buckles adorn this trophy belt. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9625

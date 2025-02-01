@@ -2,6 +2,8 @@
 
 A mask of the just leader of the Vind!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20625

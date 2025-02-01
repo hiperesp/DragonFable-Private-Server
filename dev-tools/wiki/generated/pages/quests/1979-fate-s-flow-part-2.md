@@ -2,6 +2,8 @@
 
 There has to be some way back out of the Tytan, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

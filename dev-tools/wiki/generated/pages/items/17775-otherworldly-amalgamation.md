@@ -2,6 +2,8 @@
 
 The amalgamated essence of other dimesnions, it pulses with dark energy. Used with a Timetorn Sigil to create the Necro Paragon armor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17775

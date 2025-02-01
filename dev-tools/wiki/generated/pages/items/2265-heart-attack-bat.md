@@ -2,6 +2,8 @@
 
 A rare species of vampiric bat, this deadly hunter gets to the heart of the matter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2265

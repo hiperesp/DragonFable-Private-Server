@@ -2,6 +2,8 @@
 
 This worn piece of paper was burned and singed, yet you can make out a few words. "----in the heat----answer is not----noxious and ugly----"
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20793

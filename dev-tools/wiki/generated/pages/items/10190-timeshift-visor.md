@@ -2,6 +2,8 @@
 
 Created in honor of Cronix's birthday, this helm shifts through time to change colors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10190

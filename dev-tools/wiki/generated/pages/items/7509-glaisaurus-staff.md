@@ -2,6 +2,8 @@
 
 This frosty staff is freezing cold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7509

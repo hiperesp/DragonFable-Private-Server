@@ -2,6 +2,8 @@
 
 With the Tytan awoken, time is short. You and your companions must find a way to stop it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

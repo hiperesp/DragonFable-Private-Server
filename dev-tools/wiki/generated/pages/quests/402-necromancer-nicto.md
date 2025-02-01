@@ -2,6 +2,8 @@
 
 Venture into Nicto's Crypt and defeat the Liche!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

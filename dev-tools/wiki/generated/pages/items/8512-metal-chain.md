@@ -2,6 +2,8 @@
 
 Decidedly un-magical.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8512

@@ -2,6 +2,8 @@
 
 Defying gravity, this cape harnesses latent earth energy to surround you with floating rocks.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5450

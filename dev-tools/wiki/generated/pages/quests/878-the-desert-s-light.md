@@ -2,6 +2,8 @@
 
 The light monsters of the Sandsea have been drawn to Atrea.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

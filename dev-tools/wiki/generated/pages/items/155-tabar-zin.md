@@ -2,6 +2,8 @@
 
 Meant to be used while riding a mount, this swirled axe arcs through the air swiftly to bring down your enemy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 155

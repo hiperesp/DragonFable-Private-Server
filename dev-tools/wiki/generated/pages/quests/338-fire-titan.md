@@ -2,6 +2,8 @@
 
 Time to put out the fire.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

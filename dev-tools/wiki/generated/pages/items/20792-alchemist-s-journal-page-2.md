@@ -2,6 +2,8 @@
 
 This worn piece of paper was preserved in the snow, and uncovered by the fungal growth. "I see the beauty of life that can survive even in the harshest of colds. But it does not flourish. It is small, and twisted. It is not beautiful."
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20792

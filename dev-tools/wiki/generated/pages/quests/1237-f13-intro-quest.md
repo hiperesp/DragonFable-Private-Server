@@ -2,6 +2,8 @@
 
 Serenity will never know what hit her! Hahaha. This will be the intro quest
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You're craving peanut butter and bananas for some reason....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1951

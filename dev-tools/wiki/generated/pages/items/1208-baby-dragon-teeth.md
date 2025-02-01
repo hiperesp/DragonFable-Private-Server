@@ -2,6 +2,8 @@
 
 All proceeds will go directly under the pillow of said baby dragon... or else!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1208

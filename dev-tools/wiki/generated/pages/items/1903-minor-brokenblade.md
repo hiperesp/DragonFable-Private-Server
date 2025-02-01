@@ -2,6 +2,8 @@
 
 Made when a bitter aeromancer sent hurricane-force winds to blast apart the walls of a town which refused to hire him, resourceful villagers collected the shards and glued them together to form this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1903

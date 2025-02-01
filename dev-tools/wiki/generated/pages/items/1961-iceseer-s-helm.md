@@ -2,6 +2,8 @@
 
 Using special magic that helps focus targeting ability, the IceSeer's use these helms to seek out icebergs that could damage the coastal communities.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1961

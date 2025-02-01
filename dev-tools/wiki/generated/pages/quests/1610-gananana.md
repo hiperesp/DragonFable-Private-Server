@@ -2,6 +2,8 @@
 
 Gananana, seeker of the Quadforce, and see-er of all things! A beast, thought defeated, has returned to challenge you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

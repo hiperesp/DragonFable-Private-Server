@@ -2,6 +2,8 @@
 
 This weapon resembles the original Truthsayer, but it was clearly created as a pervision of the original weapon. A wicked reflection of the original hero's weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1606

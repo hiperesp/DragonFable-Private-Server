@@ -2,6 +2,8 @@
 
 Secundus says this weapon is for your hands alone. Use it to carve out your place in Lore's history. This weapon has color custom features. Can be upgraded at Secundus.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19073

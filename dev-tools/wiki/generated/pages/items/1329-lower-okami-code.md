@@ -2,6 +2,8 @@
 
 Whether you swing this staff to the left, right, up or down, the magic is contains will guard you well.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1329

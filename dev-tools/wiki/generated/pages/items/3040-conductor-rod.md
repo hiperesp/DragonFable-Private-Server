@@ -2,6 +2,8 @@
 
 The metal rod at the center of this staff conducts electricity REALLY well!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3040

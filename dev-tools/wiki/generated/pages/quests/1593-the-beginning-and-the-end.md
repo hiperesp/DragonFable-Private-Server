@@ -2,6 +2,8 @@
 
 The start of the Magesterium, and its demise, both against you at once.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

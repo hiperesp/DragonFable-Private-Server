@@ -2,6 +2,8 @@
 
 A single sheet of worn paper with the words "Falling apart" scribbled onto it over and over and over. Proof of your victory over Caitiff, the Unsatiated.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18466

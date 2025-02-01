@@ -2,6 +2,8 @@
 
 A piece of inter-dimensional debris brought across by the alien refugees.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6460

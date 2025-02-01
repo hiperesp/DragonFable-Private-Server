@@ -2,6 +2,8 @@
 
 Ebony, iron, amber, and obsidian come together to create this wickedly sharp scythe, guaranteed to reap your way through your enemies.  The blade bears a cat's eye, enchanted by the light of a full moon.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7609

@@ -2,6 +2,8 @@
 
 The metal of this dagger is pitted with holes. Lets hope it doesn't fall apart when you try to use it!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2503

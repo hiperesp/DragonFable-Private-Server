@@ -2,6 +2,8 @@
 
 This togrider decided it would stay with you once the assault on Popsprocket ends.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2521

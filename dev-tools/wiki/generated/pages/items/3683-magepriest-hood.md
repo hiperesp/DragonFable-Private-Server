@@ -2,6 +2,8 @@
 
 Combining the power of Magic with the power of the gods of Lore makes for a VERY strong sect of magepriests!  This is a typical style of headgear they'd wear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3683

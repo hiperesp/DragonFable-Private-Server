@@ -2,6 +2,8 @@
 
 Deep under the mountains of Volkenraand are tunnels littered with the forgotten arms and armaments of what was once a burgeoning society of Chaosweavers. This helm is one such relic. (Cosmetic)(CC: Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22296

@@ -2,6 +2,8 @@
 
 This remarkable clockwork staff simulates the movement of the moon around the world, through mechanics and magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 404

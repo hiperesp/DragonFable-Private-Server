@@ -2,6 +2,8 @@
 
 Ash has a good idea who iss behind this....
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

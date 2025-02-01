@@ -2,6 +2,8 @@
 
 Corner that Zard!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

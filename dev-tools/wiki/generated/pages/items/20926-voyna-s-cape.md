@@ -2,6 +2,8 @@
 
 Uaanta helped you recreate this copy of Voyna's cape in your dreams! Can be clicked to change directions. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20926

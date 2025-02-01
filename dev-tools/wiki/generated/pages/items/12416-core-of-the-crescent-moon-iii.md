@@ -2,6 +2,8 @@
 
 A weapon imbued with a power of the moon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12416

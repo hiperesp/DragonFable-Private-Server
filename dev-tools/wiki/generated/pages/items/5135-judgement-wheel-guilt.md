@@ -2,6 +2,8 @@
 
 Together with the Innocence half of the Judgement Wheel, the Guilt half judges your wish and passes sentence on you. However, since this is only a copy made by Cysero, the only wish you'll be granted is that you spent your Dragon Coins wisely!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5135

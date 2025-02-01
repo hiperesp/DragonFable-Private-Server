@@ -2,6 +2,8 @@
 
 This crown was recreated using current materials based off of a sketch found in long lost scrolls. Whatever its original functionality may have been, it is only decorative now. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20935

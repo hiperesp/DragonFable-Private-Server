@@ -2,6 +2,8 @@
 
 ||_-\|-//\||---__\_\|/_-   /\||---__\|-//|_-\|-
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

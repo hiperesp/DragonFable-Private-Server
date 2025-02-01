@@ -2,6 +2,8 @@
 
 The spiral crystal is magically solidified water. The key word is magically.  If it was naturally solidified this would be an ice weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1448

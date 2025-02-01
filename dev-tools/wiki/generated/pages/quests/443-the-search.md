@@ -2,6 +2,8 @@
 
 You head North with Demento.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

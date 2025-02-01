@@ -2,6 +2,8 @@
 
 This is the dragon who has been pulling apart Willowshire, brick by brick. What could he want? Why would he destroy the Tower in the center of town?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

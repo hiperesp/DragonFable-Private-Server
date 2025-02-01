@@ -2,6 +2,8 @@
 
 The black-feathered wings of the Infernal Yaphael.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18807

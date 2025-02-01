@@ -2,6 +2,8 @@
 
 You can see your image reflected many times, if you gaze past the glassy surface of this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 62

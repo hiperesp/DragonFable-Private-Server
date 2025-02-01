@@ -2,6 +2,8 @@
 
 Take down any evil bears in your path with this red hot scythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6617

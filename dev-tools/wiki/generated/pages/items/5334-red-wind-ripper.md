@@ -2,6 +2,8 @@
 
 A short, lithe blade with the power of a red wind running through it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5334

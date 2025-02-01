@@ -2,6 +2,8 @@
 
 A warped and twisted looking axe that appears to be consumed by chaos! However, it's only an illusion. The axe actually emanates a powerful aura of Darkness. Proof of victory over the Chaos Twins.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20072

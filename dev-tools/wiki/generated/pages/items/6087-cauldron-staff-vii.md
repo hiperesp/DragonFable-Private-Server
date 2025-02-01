@@ -2,6 +2,8 @@
 
 Your reward from the Cauldron Sisters for finding Bubble and Bubble during Mogloween, 2011! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6087

@@ -2,6 +2,8 @@
 
 Shoot down the Darkness projectiles and keep Falconreach safe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

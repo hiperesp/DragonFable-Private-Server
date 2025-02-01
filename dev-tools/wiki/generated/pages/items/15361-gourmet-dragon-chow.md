@@ -2,6 +2,8 @@
 
 Fresc-O's: This artfully arranged dragon food is part of a classy and refined breakfast. This dragon food gives twenty training points.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15361

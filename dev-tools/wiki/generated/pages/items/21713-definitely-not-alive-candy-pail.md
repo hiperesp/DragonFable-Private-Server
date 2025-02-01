@@ -2,6 +2,8 @@
 
 Hang on to your candy with this pumpkin-shaped pail! Just make sure not to spill any when you're beating up your foes! Guaranteed to not be alive. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21713

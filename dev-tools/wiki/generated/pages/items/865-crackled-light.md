@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. This weapon crackles with energy, you can feel it radiating in your fingertips.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 865

@@ -2,6 +2,8 @@
 
 Your enemies won't be mizzen anything when they take a look at this powerful staff!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 976

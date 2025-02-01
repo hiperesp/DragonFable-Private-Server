@@ -2,6 +2,8 @@
 
 Crafted in honor of those who fought with Kara Su'Lema. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11766

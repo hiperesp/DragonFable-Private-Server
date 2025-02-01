@@ -2,6 +2,8 @@
 
 A giant fang dropped by the Guardian Dragon after your victory. Such a precious treasure surely has some use... Proof of victory over The Guardian Dragon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21623

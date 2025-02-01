@@ -2,6 +2,8 @@
 
 Valencia has asked you to find out more about the rare bacon element. Can you find anyone who knows more than the rumors you've heard?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The village lies in ruins, taken over by ice monsters and feral packs of dogs.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

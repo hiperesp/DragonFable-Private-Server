@@ -2,6 +2,8 @@
 
 A simple silver band, embedded with a tiny clear orange jewel. Given to you by one of the rebel DragonLords. "I can never go back. Better to leave those memories behind." This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21024

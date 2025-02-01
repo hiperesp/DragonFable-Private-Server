@@ -2,6 +2,8 @@
 
 This ring has a pocket on it!  I wonder what the Chaosweavers would have used it for?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3818

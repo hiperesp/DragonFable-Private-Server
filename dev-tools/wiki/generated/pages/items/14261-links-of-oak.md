@@ -2,6 +2,8 @@
 
 Several pieces of oak bark are looped together into a chain. Why would anyone do that?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14261

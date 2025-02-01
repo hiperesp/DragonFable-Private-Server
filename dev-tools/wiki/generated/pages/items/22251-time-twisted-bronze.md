@@ -2,6 +2,8 @@
 
 This mysterious piece of metal is nearly twisted beyond reality. Proof of victory over the Chronocorruptor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22251

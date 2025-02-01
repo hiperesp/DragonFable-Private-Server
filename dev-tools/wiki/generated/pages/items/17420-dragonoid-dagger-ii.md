@@ -2,6 +2,8 @@
 
 Rewarded for defeating the mighty Dragonoid. Constructed from the Dragonoid's mechanical carapace, this dagger hums with energy and glory.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17420

@@ -2,6 +2,8 @@
 
 You know what they say, don't run with scissors! But the saying is about a small pair of scissors, not these bad boys. You can run with these all you want. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21045

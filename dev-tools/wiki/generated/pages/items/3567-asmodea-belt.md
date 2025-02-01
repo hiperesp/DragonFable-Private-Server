@@ -2,6 +2,8 @@
 
 The darkness rises from the aether trapped in Ravenloss.  This belt soaks it in!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3567

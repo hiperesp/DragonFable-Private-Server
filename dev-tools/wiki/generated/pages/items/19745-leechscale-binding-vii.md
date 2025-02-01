@@ -2,6 +2,8 @@
 
 Part of the remains of a Radiant Leech adorn this belt. It seems some of the power still resides in the fallen scales.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19745

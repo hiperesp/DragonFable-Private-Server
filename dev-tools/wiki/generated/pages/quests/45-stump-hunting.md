@@ -2,6 +2,8 @@
 
 Stumpy is a close relative to the Doomwood monster, but friendly and uncorrupted by darkness. 
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This ceremonial dagger was found in the treasure horde of the dragon Gorgok. It is suitable for rogues and mages.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 386

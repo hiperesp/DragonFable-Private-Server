@@ -2,6 +2,8 @@
 
 A true ascended knows how to look stylish. I guess it'll protect your head too.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13696

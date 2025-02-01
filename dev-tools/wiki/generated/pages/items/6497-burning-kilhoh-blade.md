@@ -2,6 +2,8 @@
 
 You took this from a cache of weapons that belonged to the fiery invading army of the 2012 Rift War!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6497

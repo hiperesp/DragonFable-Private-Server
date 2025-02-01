@@ -2,6 +2,8 @@
 
 Will you help Maz or Rhubarb?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

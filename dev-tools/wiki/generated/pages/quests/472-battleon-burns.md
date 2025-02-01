@@ -2,6 +2,8 @@
 
 Defeat the waves!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

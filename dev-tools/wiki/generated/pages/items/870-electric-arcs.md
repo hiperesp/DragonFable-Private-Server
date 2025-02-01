@@ -2,6 +2,8 @@
 
 These weapons require a Dragon Amulet. Just as its name for tells, these weapons zap those who stand against you with arcs of energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 870

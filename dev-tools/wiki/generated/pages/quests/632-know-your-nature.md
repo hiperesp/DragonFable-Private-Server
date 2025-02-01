@@ -2,6 +2,8 @@
 
 After gaining her Dragon magic back, Elucidas sends Nythera to talk to the DragonLords to gain insight on how normal humans view dragonkind.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

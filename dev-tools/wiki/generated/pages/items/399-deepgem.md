@@ -2,6 +2,8 @@
 
 This magnificent dagger was carved from one large chunk of raw sapphire, drawn out of the earth by magic. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 399

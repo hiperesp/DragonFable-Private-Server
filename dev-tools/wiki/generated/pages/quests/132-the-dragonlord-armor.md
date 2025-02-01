@@ -2,6 +2,8 @@
 
 After days of exhausting research on its location, Lady Celestia has sent you to this strange mountain to acquire the armor of the DragonLord!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

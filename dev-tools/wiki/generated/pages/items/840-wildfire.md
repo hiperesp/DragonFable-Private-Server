@@ -2,6 +2,8 @@
 
 The fury of this fiery blade is barely controlled.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 840

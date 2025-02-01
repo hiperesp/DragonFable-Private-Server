@@ -2,6 +2,8 @@
 
 The tusk of a great boar, inlaid with silver.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11462

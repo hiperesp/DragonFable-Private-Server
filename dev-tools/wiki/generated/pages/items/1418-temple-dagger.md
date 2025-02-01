@@ -2,6 +2,8 @@
 
 These golden daggers are used in temple rituals in order to honor the desert elementals. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1418

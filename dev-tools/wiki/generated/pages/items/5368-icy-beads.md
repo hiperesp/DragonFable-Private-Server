@@ -2,6 +2,8 @@
 
 The stones of this necklace are as cold as ice... in fact... I think they are ice!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5368

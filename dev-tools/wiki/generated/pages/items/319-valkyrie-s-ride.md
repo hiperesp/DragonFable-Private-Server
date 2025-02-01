@@ -2,6 +2,8 @@
 
 This short, powerful blade is favored by warrior women everywhere, as well as men.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 319

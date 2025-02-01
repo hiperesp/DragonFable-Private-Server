@@ -2,6 +2,8 @@
 
 Find and destroy the ice dragon hatchling
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

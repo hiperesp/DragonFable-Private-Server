@@ -2,6 +2,8 @@
 
 Bet you thought it was going to be called the DYE-mond-edged Dagger, huh?  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2701

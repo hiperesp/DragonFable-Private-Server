@@ -2,6 +2,8 @@
 
 This lovely lithe blade once belonged to a mortal woman who became a powerful Goddess.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 36

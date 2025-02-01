@@ -2,6 +2,8 @@
 
 With all these dragons fighting, there's a lot of draconic resources lying around. Someone whittled fallen dragon teeth into these weapons to pass the time. This tooth must have been very large...you don't want to know who it's from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13411

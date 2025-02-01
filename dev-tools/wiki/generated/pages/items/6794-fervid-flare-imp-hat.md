@@ -2,6 +2,8 @@
 
 You took this from a cache that belonged to the fiery invading army of the Rising Fire War of 2012! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6794

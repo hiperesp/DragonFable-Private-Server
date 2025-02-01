@@ -2,6 +2,8 @@
 
 This obscenely shiny sword is completely useless in battle, but at least it looks very, very pretty! Forged by Dove. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21347

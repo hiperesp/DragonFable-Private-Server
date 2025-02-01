@@ -2,6 +2,8 @@
 
 These daggers were fashioned from the horns of a great beast. They make a fetching set of weapons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 316

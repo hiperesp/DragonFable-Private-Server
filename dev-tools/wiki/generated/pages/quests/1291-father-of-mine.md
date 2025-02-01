@@ -2,6 +2,8 @@
 
 Tanislav's Last Will ritual has not gone unnoticed.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

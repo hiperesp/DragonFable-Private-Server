@@ -2,6 +2,8 @@
 
 Use this magical amulet in battle to unleash holy protection magic! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4009

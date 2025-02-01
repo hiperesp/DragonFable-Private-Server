@@ -2,6 +2,8 @@
 
 This weapon is a fruit of a friendship between a blacksmith and an enchantress. They set aside their differences and created this beautiful item that switches between Fire and Ice damage on each hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18555

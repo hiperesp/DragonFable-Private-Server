@@ -2,6 +2,8 @@
 
 Yulgar combined both the mineral and high grade metal to forge this lethal blade. The depth of its color is proof of the blade's quality.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1337

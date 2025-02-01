@@ -2,6 +2,8 @@
 
 Delve into the depths of this ancient buried crypt that once secured the dead of a lost Paladin order. Does any trace of their Light remain?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

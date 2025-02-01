@@ -2,6 +2,8 @@
 
 A sword with an enchanted blade which was forged from the fabric of night itself. Recovered by Yulgar, this blade was purified by Artix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1635

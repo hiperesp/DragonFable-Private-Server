@@ -2,6 +2,8 @@
 
 The delicate workmanship of this belt looks elvish. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8505

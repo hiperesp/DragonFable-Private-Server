@@ -2,6 +2,8 @@
 
 A specially made helm, crafted to withstand the forces that create interdimensional rifts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6576

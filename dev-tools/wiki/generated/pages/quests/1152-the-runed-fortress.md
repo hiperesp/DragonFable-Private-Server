@@ -2,6 +2,8 @@
 
 You're in. Good. Now find the Third Level and get in!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

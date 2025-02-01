@@ -2,6 +2,8 @@
 
 A three headed Hydra blocks the path to Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

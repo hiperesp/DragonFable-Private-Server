@@ -2,6 +2,8 @@
 
 The gems set in the blade of this sword burn with an angry heat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 961

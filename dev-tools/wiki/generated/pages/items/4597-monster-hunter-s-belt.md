@@ -2,6 +2,8 @@
 
 Wear this belt to show the world you are a serious monster hunter.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4597

@@ -2,6 +2,8 @@
 
 You enter the caves in search of the corrupted ice guardian, Izotz, and his cache of weapons. Will he hold the key to defeating Akriloth?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

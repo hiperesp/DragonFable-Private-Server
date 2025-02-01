@@ -2,6 +2,8 @@
 
 An ever present reminder of time's flow. Can be activated in combat to heal a small amount of health. Proof of victory over Iadoa. Color Custom to armor trim.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20907

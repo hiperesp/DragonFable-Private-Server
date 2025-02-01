@@ -2,6 +2,8 @@
 
 This metal ring has been polished to a bright, mirror finish and feels cold to the touch no matter how long you hold or wear it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 131

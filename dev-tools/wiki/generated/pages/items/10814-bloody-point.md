@@ -2,6 +2,8 @@
 
 The essences of all the monster hearts you collected illuminate the blade! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10814

@@ -2,6 +2,8 @@
 
 The origins of this mask are mysterious.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19182

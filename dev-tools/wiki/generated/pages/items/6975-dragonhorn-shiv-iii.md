@@ -2,6 +2,8 @@
 
 Crafted from bone and metal, darkness swirls around this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6975

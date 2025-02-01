@@ -2,6 +2,8 @@
 
 Lim's opus! A perfect merger of bacon and SCIENCE, brimming with breakfast-flavored energies (and just a pinch of DOOM)!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5846

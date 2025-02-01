@@ -2,6 +2,8 @@
 
 Your dragon is gone and this is all that's left behind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15933

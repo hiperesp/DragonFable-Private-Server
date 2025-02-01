@@ -2,6 +2,8 @@
 
 The four undead necromancers that been shaping Sepulchure's army have to be taken down!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

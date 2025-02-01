@@ -2,6 +2,8 @@
 
 Forged with the tooth of your dragon and the remains of the Doom Amulet, this scythe represents your victory over evil. It also serves as a reminder of how far your dragon can fall.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16929

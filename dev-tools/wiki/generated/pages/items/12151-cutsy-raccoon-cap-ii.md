@@ -2,6 +2,8 @@
 
 Show your wilderness side with this furry cap! Happy 4th of July!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12151

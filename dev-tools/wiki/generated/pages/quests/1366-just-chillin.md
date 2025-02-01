@@ -2,6 +2,8 @@
 
 Aegis has invited you to his house, better see what it's all about!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

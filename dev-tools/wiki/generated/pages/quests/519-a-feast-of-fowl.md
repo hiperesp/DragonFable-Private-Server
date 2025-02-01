@@ -2,6 +2,8 @@
 
 Zorbak and Voltabolts plan to... fix... the bakery's oven works perfectly!  The only problem is that now YOU have to deal with what comes out of it.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Wow, this rubber chewtoy doesn't even have any teeth marks in it yet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3454

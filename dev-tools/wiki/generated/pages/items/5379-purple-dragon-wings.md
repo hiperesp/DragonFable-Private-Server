@@ -2,6 +2,8 @@
 
 The wings of Bargok.... they smell funny....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5379

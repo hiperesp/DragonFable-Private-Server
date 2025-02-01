@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This weapon was constructed from spare parts of the X-304 Pumpkin Pie Dispensing Dracobot, during Dr. Voltabolt's Thankstaking War!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12938

@@ -2,6 +2,8 @@
 
 A sturdy backpack for the Edelian student! Comes with lots of pockets and even a cool pin. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20816

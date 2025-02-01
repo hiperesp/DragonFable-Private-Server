@@ -2,6 +2,8 @@
 
 Our children returned to us, with new stars in their eyes
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

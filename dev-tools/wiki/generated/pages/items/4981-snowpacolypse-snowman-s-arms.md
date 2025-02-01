@@ -2,6 +2,8 @@
 
 These sticks were supposedly stolen from a little girl's snowman during the fateful Snowpacolypse of 2011. Ah well, they make good daggers anyway.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4981

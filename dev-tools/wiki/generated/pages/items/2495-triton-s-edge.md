@@ -2,6 +2,8 @@
 
 This is what the King of the Sea uses when his trident and sword are in for repair.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2495

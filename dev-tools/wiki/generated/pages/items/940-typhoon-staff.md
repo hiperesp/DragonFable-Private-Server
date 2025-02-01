@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. CAUTION: this staff may cause dizziness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 940

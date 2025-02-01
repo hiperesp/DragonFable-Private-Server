@@ -2,6 +2,8 @@
 
 Even with your triumph over the dragons... the Rose still triumphed over the clawkin.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A shining dragon's scale. Its ethereal shimmer seems unnatural somehow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21316

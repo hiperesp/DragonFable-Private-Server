@@ -2,6 +2,8 @@
 
 MG crafted these for you with items left in Popsprocket. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10368

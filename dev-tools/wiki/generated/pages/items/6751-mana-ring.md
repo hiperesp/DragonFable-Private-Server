@@ -2,6 +2,8 @@
 
 A jolt of electricity runs through your hand when you put the ring on.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6751

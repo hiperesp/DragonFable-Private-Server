@@ -2,6 +2,8 @@
 
 You have decided it'd be best to check up on your friends in Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

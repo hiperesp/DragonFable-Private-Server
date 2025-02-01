@@ -2,6 +2,8 @@
 
 Oji the Codemonkey (that's his name!) says: Collect these to turn in to Captain Rolith in the future for...something :)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4812

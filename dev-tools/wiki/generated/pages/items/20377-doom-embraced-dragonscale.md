@@ -3,6 +3,8 @@
 A dragon scale that has been fully corrupted by Doom. You should probably keep this separate from the dragon snacks in your bag.
 Used to upgrade Doom weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20377

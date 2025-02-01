@@ -2,6 +2,8 @@
 
 How are these antlers attached? They appear to be carved from wood... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21143

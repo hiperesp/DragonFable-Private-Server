@@ -2,6 +2,8 @@
 
 In time, the Grove Tenders of old dropped their terrifying facade, choosing instead to don a friendlier uniform. However, the same ancient magic remains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20452

@@ -2,6 +2,8 @@
 
 The Forest of Infinite Terror just isn't the same without Big Daddy... And, like usual, it looks like you're the only one who can help.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

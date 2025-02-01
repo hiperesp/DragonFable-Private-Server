@@ -2,6 +2,8 @@
 
 A small golden trinket that hums with power. Obtained by defeating the Extreme Emperor of the Sea Chickens. Used for merging.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18378

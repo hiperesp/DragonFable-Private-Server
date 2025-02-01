@@ -2,6 +2,8 @@
 
 Before you stands Envy, an artificial Elemental Spirit born of Pandora's jealousy.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

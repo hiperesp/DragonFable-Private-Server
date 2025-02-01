@@ -2,6 +2,8 @@
 
 Make your way to Maeve's Court to help defend the fairies!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

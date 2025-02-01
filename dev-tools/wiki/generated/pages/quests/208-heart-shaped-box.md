@@ -2,6 +2,8 @@
 
 Big Daddy has sent you deep into the Forest of Infinite Terror to the home of the Snugvils to retrieve his Heart-Shaped Box.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

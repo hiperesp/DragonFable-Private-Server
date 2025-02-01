@@ -2,6 +2,8 @@
 
 Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7189

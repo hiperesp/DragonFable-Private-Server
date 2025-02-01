@@ -2,6 +2,8 @@
 
 The gem in the center of this necklace pulses a malevolent, glowing green. If it weren't so hypnotic, I'd tell you to throw it away RIGHT NOW!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4657

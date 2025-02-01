@@ -2,6 +2,8 @@
 
 A lei of beautiful flowers makes up this necklace.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10155

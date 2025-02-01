@@ -2,6 +2,8 @@
 
 You've collected the trail of Volt-a-bolts, there must be someone interested in buying them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12969

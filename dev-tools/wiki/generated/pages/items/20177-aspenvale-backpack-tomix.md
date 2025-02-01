@@ -2,6 +2,8 @@
 
 A standard issue backpack for Aspenvale Academy students! It has a spiritloom-shaped charm attached to it that you found after your QuestVenture with Tomix!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20177

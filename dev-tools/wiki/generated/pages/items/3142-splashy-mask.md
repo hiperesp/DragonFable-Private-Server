@@ -2,6 +2,8 @@
 
 A perfectly balanced helm that just happens to look a tad goofy. Smells a little fishy to me!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3142

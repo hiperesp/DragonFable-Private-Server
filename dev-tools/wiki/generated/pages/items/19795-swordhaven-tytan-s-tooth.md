@@ -2,6 +2,8 @@
 
 A shard from one of the Swordhaven Tytan's teeth. Used to create a Tytanvisage helm!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19795

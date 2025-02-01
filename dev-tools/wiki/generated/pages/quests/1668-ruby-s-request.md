@@ -2,6 +2,8 @@
 
 Ruby is cooking for this year's Thankstaking feast and needs a very special ingredient! Of course, the job of obtaining that falls upon you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

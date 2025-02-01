@@ -2,6 +2,8 @@
 
 Independence is more delicious when it comes in syrup form.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14227

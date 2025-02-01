@@ -2,6 +2,8 @@
 
 Hero hats are infinitely more stylish than hard hats, but hard hats will likely protect your head better. (This WOULD give +1 to awesome, but we don't have an awesome stat.) This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2682

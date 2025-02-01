@@ -2,6 +2,8 @@
 
 The essence of the water elementals slain in this quest were forged into the blade of this dagger. It's force drives the spinning blades in the hilt.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2242

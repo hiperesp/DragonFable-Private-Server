@@ -2,6 +2,8 @@
 
 Young love is so often fickle.  Can Ophelia's and Ash's awkward flirtation survive her being kidnapped?  And how will Lazuli feel about things?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

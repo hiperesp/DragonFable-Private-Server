@@ -3,6 +3,8 @@
  Lyssa is a sweet gal (for a female hydra), but her poison is quite bitter and will leave you writhing in pain if you should be unlucky enough to be bitten.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2272

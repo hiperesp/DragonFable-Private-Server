@@ -2,6 +2,8 @@
 
 Wearing this mask in the land of Lhe'Shyiac would probably not be a good idea.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19973

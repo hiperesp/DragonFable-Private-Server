@@ -2,6 +2,8 @@
 
 The runes on this necklace detect light magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12043

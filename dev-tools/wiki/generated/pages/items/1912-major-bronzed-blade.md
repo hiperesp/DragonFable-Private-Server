@@ -2,6 +2,8 @@
 
 The bronze coating of this sword makes it almost bright enough for the crafty adventurer to angle it so that the sun shines directly into the eyes of their enemy.  Once it has been cleaned and polished, of course.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1912

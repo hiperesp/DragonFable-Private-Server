@@ -2,6 +2,8 @@
 
 It's said this hammer was bathed in the flames of a thousand dragons to achieve its incredible strength and might. Mostly only said by one person, though.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22299

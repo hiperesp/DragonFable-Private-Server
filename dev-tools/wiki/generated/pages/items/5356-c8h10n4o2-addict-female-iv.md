@@ -2,6 +2,8 @@
 
 Feel the coffee as it enters your bloodstream, invading your body. Making your eyes bug out! Hope they don't STAY that way! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5356

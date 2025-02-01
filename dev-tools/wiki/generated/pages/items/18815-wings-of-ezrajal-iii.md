@@ -2,6 +2,8 @@
 
 The gilded wings of the Celestial Ezrajal. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18815

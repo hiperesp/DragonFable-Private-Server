@@ -2,6 +2,8 @@
 
 What other terrible things has Cysero's Garden grown?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

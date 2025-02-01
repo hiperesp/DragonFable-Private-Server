@@ -2,6 +2,8 @@
 
 A symbol of victory and sportsmanship in an Aeris Battlespire Dragon PvP tournament. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 906

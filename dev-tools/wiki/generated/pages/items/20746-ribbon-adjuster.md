@@ -2,6 +2,8 @@
 
 A magical feather dropped by The Goose (Chaos or Extreme). Can be used to resize The Ribbon for use by extremely fluffy togs.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20746

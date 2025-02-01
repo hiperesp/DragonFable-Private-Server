@@ -2,6 +2,8 @@
 
 You resolve to save more gold in 2015! After buying this sweet staff, this is....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13280

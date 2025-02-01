@@ -2,6 +2,8 @@
 
 This wand is named for the ancient word for Light magic. It's the type of wand used by the solaramancers of Swordhaven, but it's been magically altered to outshine other wands.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1063

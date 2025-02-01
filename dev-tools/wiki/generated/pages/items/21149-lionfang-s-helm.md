@@ -2,6 +2,8 @@
 
 They don't call him Lionfang for nothing! Don't poke your eyes out. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21149

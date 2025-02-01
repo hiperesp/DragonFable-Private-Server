@@ -2,6 +2,8 @@
 
 Illumina returns once again to face the world.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

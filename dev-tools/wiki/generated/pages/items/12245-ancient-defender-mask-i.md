@@ -2,6 +2,8 @@
 
 Ancient soldiers used these masks for protection against the beasts and monsters that dwelled with the Void Core.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12245

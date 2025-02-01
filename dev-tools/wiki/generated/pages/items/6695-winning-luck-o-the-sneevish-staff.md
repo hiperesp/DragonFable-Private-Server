@@ -2,6 +2,8 @@
 
 The blade of this weapon is one huuuuuge emerald! Luck O' the Sneevish indeed! Happy Lucky Day 2012!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6695

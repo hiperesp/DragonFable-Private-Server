@@ -2,6 +2,8 @@
 
 It's short and sharp. It clangs when you shake it. You'll want to merge this into a level-appropriate dagger!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6331

@@ -2,6 +2,8 @@
 
 What happened in the inn?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

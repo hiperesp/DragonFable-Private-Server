@@ -2,6 +2,8 @@
 
 This staff is constructed from Fireglass, which is a magic material that is made by combining fire and glass together. The material holds certain properties from both materials, and a few new properties that neither glass nor fire have. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1467

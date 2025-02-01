@@ -2,6 +2,8 @@
 
 Imbued with the powers of a winter storm, this dagger can freeze your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 356

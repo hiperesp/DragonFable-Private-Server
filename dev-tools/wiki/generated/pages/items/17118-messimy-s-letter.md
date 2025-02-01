@@ -2,6 +2,8 @@
 
 The letter Messimy sent to you. Not really worth much. Smells nice though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17118

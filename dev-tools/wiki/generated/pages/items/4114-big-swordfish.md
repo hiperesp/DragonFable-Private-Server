@@ -2,6 +2,8 @@
 
 Something about this blade smells fishy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4114

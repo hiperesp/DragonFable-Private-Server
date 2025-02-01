@@ -2,6 +2,8 @@
 
 Can you find all the Grenwog eggs?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

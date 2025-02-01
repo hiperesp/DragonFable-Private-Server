@@ -2,6 +2,8 @@
 
 It is quite obvious what this staff can do! I am sure you can get the point.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 287

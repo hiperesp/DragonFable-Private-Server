@@ -2,6 +2,8 @@
 
 See what the Magic-eye can see!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

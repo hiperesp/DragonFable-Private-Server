@@ -2,6 +2,8 @@
 
 You've heard about this swamp from your fellow crew members. Time to explore these dank depths.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

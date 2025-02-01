@@ -2,6 +2,8 @@
 
 Use this weapon and you'll reap your rewards in spades! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9862

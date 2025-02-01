@@ -2,6 +2,8 @@
 
 For weapons and such!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

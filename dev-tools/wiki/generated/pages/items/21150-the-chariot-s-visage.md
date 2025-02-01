@@ -2,6 +2,8 @@
 
 Let the mask take over, and become a vessel for The Chariot. Power surges through your veins and you become an unstoppable force, until your flesh disintegrates to ash. Customization Catalyst for Entropy and Kathool Adept. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21150

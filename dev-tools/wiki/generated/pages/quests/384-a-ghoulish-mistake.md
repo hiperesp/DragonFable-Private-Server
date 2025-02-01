@@ -2,6 +2,8 @@
 
 The Vampire Queen has come to get retribution for the deaths of her ghoul minions.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

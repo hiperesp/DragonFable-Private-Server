@@ -2,6 +2,8 @@
 
 Roirr is in the capitol, but Danyel and Baltael are on his trail!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

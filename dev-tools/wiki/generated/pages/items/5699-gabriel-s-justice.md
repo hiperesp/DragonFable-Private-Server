@@ -2,6 +2,8 @@
 
 A gift from the heavens, this sword is blessed and is intended to be used to stave off the darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5699

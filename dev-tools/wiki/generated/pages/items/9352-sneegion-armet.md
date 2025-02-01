@@ -2,6 +2,8 @@
 
 Exceptionally evil... but very roomy in the ears.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9352

@@ -2,6 +2,8 @@
 
 The thorn to exterminate all your enemies
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 45

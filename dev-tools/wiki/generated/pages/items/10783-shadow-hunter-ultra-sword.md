@@ -2,6 +2,8 @@
 
 This massive blade was once forged for new Shadow Hunters to carry on their quests! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10783

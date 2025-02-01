@@ -2,6 +2,8 @@
 
 What a smug mask. Click to change expressions!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19978

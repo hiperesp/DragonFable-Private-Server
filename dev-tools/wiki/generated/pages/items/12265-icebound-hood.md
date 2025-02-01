@@ -2,6 +2,8 @@
 
 The far north is a harsh wasteland. This will help to protect you from the ice storms that never seem to end.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12265

@@ -2,6 +2,8 @@
 
 Ash has rescued his friend... but can he take down the Necromancer?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

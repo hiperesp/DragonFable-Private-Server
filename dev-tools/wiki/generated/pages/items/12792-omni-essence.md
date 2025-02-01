@@ -2,6 +2,8 @@
 
 This mysterious essence was found in the space between spaces. It seems to glow brighter when you bring it close to either of the OmniBlade's. Perhaps it can increase their power?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12792

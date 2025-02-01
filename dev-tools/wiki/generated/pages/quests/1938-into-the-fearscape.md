@@ -2,6 +2,8 @@
 
 Find a way out of Sirius' Fearscape and save Kassandra!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

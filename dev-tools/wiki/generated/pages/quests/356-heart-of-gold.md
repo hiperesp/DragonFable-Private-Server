@@ -2,6 +2,8 @@
 
 Now here's a quest you can really get behind.  It's always good to help out Aria.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

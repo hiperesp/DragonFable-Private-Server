@@ -2,6 +2,8 @@
 
 We are going to get ourselves some bandits.  The knights will corner them, you take them out.  We get information.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

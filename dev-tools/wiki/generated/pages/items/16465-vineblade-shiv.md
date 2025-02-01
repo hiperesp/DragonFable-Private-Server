@@ -2,6 +2,8 @@
 
 The soft glow of this dagger is unsettling. The constant movement of the vines in your grasp even more so.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16465

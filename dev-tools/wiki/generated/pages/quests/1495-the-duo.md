@@ -2,6 +2,8 @@
 
 Puzzles and no eggs?! What is this?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

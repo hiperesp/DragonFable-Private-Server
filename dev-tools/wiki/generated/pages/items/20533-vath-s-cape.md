@@ -3,6 +3,8 @@
 A replica of Vath's cape. Spooky!
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20533

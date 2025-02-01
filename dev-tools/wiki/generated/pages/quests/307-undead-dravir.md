@@ -2,6 +2,8 @@
 
 You're helping Zorbak, but he can't be worse then what's in this cave... can he?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

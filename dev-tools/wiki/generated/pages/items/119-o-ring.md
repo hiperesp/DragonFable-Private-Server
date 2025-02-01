@@ -2,6 +2,8 @@
 
 This ring is made of a flexible black material. You can replace it but it will cost you an arm and a leg.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 119

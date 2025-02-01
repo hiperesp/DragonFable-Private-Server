@@ -2,6 +2,8 @@
 
 The Professor has arrived. How curious.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

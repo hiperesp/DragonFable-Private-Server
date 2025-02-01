@@ -2,6 +2,8 @@
 
 Is this thing covered in newt tails?! Gross. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3261

@@ -2,6 +2,8 @@
 
 Perfect for shredding souls and sundering spirits, this dagger will serve you well as you battle your way through enemies above ground or below. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2316

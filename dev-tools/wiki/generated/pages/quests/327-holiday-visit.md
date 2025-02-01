@@ -2,6 +2,8 @@
 
 You scratch his back and he will scratch yours.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

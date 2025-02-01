@@ -2,6 +2,8 @@
 
 This belt is commonly worn by all manner of rogues and ninjas.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 159

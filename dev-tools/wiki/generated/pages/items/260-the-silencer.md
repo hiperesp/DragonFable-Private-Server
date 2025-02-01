@@ -2,6 +2,8 @@
 
 A magical dagger designed for those who have foes to silence. This weapon guarantees that they will speak no more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 260

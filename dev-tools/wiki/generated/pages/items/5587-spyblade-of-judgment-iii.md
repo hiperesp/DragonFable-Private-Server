@@ -2,6 +2,8 @@
 
 Even the power of Light is not safe from Sepulchure's corruption. This weapon represents Light at its most callous and cruel. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5587

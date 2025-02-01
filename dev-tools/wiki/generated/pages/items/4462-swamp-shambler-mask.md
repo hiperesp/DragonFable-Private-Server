@@ -2,6 +2,8 @@
 
 Be a creature from a dark lagoon... or at least look like one! Happy Mogloween 2010!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4462

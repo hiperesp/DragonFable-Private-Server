@@ -2,6 +2,8 @@
 
 The glowing gems on this staff contain the tiniest bit of Death's power.  Even that small bit, though, is enough to terrify the enemies you use this on. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2315

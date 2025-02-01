@@ -2,6 +2,8 @@
 
 Gears whir in your ears as the cowl is softly illuminated from within.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6863

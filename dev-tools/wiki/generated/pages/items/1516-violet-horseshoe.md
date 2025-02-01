@@ -2,6 +2,8 @@
 
 This blade is adorned with a lucky charm, well, lucky for you since you're the one that found it, not so lucky for the guy that lost it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1516

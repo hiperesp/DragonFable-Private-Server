@@ -2,6 +2,8 @@
 
 Celestia has sent you on a walk with your dragon to pick up a special package from a friend.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

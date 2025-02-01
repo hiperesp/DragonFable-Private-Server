@@ -2,6 +2,8 @@
 
 Cabits are fairly common creatures in the mountains to the north-east, and normally have dark fur.  But if they live above a certain age, they become very adept at using magic and their fur changes into a beautiful golden color.  At this point, they become very dangerous so don't be fooled by its cute exterior.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

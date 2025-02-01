@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. These daggers speak to their owner of the many secrets lost deep beneath the waves. Either that or you're just nuts.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 943

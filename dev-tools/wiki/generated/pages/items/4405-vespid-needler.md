@@ -2,6 +2,8 @@
 
 The stingers from the Z-Virus infected Bees come together to form a wicked weapon. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4405

@@ -2,6 +2,8 @@
 
 This powerful fire weapon was rediscovered after many centuries by Galanoth after he defeated the great fire wyrm, Citredelakon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1753

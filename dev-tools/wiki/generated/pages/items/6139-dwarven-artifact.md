@@ -2,6 +2,8 @@
 
 An ancient dwarven artifact gifted to you by Alteon in thanks for helping to deliver his Ancient Scrolls.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6139

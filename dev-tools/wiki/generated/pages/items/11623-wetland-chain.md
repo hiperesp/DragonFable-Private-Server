@@ -2,6 +2,8 @@
 
 Strong but a little rusted.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11623

@@ -2,6 +2,8 @@
 
 A bar of high grade metal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1253

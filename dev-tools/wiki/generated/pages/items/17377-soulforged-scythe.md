@@ -2,6 +2,8 @@
 
 Your very own SoulForged scythe! It radiates with versatility!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17377

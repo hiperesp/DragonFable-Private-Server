@@ -2,6 +2,8 @@
 
 The cloak of a high ranking Guardian. Wear it well as it shows how dedicated you are in protecting the innocent.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13945

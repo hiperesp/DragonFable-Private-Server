@@ -2,6 +2,8 @@
 
 You have a giant stonefish on your back! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10263

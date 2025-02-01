@@ -139,6 +139,10 @@ foreach($categories as $categoryKey => $categoryInfo) {
     if(ONLY_PAGES) {
         $allFiles = \scandir("../wiki/generated/data/{$categoryKey}");
 
+        \usort($allFiles, function($a, $b) {
+            return \strnatcmp($a, $b);
+        });
+
         foreach($allFiles as $key => $file) {
             if($file==="." || $file==="..") {
                 continue;
@@ -286,6 +290,8 @@ function outputPage(array $data): string {
     $output = "# {$data["page"]["name"]}\n\n";
     $output .= "{$data["page"]["description"]}\n\n";
 
+    $output .= "[Back to {$data["info"]["type"]}](../{$data["page"]["slugBase"]}.md)\n\n";
+
     $output .= "## Properties\n\n";
     $output .= "```json\n";
     $output .= \json_encode($data["info"]["properties"], JSON_PRETTY_PRINT);
@@ -312,13 +318,15 @@ function outputIndex(string $category, string $dataDir): string {
     #scan dir to create links
     $files = \scandir($dataDir);
 
+    $output.= "[Back to Home](home.md)\n\n";
+
     $output .= "## Items\n\n";
     foreach($files as $file) {
         if($file==="." || $file==="..") {
             continue;
         }
         $data = \json_decode(\file_get_contents("{$dataDir}/{$file}"), true);
-        $output .= "- [{$data["page"]["name"]}]({$data["page"]["fullSlug"]})\n";
+        $output .= "- [{$data["page"]["name"]}]({$data["page"]["fullSlug"]}.md)\n";
     }
 
     return $output;
@@ -361,6 +369,8 @@ function customOutputItem(array $data): string {
 
     $output = "# {$data["page"]["name"]}\n\n";
     $output .= "{$data["page"]["description"]}\n\n";
+
+    $output .= "[Back to Items](../items.md)\n\n";
 
     $groups = [
         "Basic Information" => [

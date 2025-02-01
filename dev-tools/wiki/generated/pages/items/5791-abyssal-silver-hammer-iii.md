@@ -2,6 +2,8 @@
 
 This hammer was forged and wielded by True Mortal several years ago when an uprising of Yokai occurred on Sho'Nuff. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5791

@@ -2,6 +2,8 @@
 
 This dagger is has been empowered with Light element by Amityvales weaponsmith Lugosi, after combining his dagger Bleeder and the rare element called Moonglow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 525

@@ -2,6 +2,8 @@
 
 Woven by the wind elves these belts are renowned for their strength and lightness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13628

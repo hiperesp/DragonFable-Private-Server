@@ -2,6 +2,8 @@
 
 The crypts under the Braughlmurk Chapel.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

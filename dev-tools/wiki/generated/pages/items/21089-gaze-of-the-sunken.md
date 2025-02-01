@@ -2,6 +2,8 @@
 
 A pirate was once lost at sea, tossed into the waves during a storm. Years later, he emerged from the depths, wearing this terrifying helm. When he inevitably met his end, the helm was removed, revealing nothing beneath. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21089

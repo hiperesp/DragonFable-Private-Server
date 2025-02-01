@@ -2,6 +2,8 @@
 
 Curved and sharp, this axe will lop the heads cleanly off of the seed spitters, or any other foe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 143

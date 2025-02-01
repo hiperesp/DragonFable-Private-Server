@@ -2,6 +2,8 @@
 
 Arester has entrusted you with one of his spears, his favored weapon. It is a fearsome and deadly implement.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13688

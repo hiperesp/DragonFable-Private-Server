@@ -2,6 +2,8 @@
 
 Neriads use this in secret underwater ceremonies. The coral decorating the staff is grown in special gardens just for this purpose. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2494

@@ -2,6 +2,8 @@
 
 Ye'll be ready t' sail o'er t' seas o' Lore with this handsome hat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14708

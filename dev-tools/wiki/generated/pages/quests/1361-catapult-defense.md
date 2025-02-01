@@ -2,6 +2,8 @@
 
 Push back those attackers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

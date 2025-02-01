@@ -2,6 +2,8 @@
 
 A spear once used by the Abyssal Elves. It glows with power, ever seeking. Almost a hunger. Click the bottom to change its appearance. It has potential yet to be unlocked... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21375

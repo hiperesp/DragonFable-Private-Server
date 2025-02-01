@@ -2,6 +2,8 @@
 
 This sleek hat will help with blending into the shadows!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4977

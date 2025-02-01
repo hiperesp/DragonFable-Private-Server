@@ -2,6 +2,8 @@
 
 With all these dragons fighting, there's a lot of draconic resources lying around. Someone whittled fallen dragon teeth into these weapons to pass the time. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13420

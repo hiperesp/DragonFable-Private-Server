@@ -2,6 +2,8 @@
 
 This is a very unique monster from the dunes of the Sandsea. They are never seen during the day, preferring the cool desert nights to hunt. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1456

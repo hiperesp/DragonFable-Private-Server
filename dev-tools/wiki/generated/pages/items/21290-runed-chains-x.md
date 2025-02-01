@@ -2,6 +2,8 @@
 
 Giant steam powered anti-magic chains. That is so super metal. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21290

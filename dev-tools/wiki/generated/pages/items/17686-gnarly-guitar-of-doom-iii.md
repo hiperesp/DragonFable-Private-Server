@@ -2,6 +2,8 @@
 
 The one, the only, Gnarly Guitar of Doom! An artifact for the DoomKnight class. Much like Jack Crescent, looks pretty, but doesn't do much else. At least it comes with a jacket!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17686

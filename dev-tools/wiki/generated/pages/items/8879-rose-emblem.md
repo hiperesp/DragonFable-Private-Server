@@ -2,6 +2,8 @@
 
 Collected from Rose members in Betrubung Swamp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8879

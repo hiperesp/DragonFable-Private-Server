@@ -2,6 +2,8 @@
 
 Crafted by Thyton himself, this scythe blends science and wind magic! What started as a sketch now helps you breeze through enemies! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9115

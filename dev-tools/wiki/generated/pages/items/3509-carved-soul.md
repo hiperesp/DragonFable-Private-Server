@@ -2,6 +2,8 @@
 
 Pulled from Death's Realm this wicked blade will serve you well.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3509

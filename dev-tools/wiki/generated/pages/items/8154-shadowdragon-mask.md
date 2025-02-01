@@ -2,6 +2,8 @@
 
 Claw your way through any legion of enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8154

@@ -2,6 +2,8 @@
 
 Can you make it through to their supplies?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You and the other heroes drove the eye monsters from town and followed their retreating trail to the Temple of the Irismancer. No doubt, it is waiting for you at the top.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

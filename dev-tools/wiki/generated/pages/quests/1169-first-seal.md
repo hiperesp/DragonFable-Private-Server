@@ -2,6 +2,8 @@
 
 Yashta's team has reached the first seal.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

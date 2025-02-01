@@ -2,6 +2,8 @@
 
 The animated remains of the long dead block your path!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

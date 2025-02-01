@@ -2,6 +2,8 @@
 
 This dark and heavy mace was elongated into a staff by an evil cleric.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 296

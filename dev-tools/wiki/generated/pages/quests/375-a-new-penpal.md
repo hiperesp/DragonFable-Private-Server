@@ -2,6 +2,8 @@
 
 Deliver the package to Zapp's new Penpal.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

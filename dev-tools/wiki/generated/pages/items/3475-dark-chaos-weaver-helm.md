@@ -2,6 +2,8 @@
 
 These helms were crafted in imitation of the Chaos Weavers to strike fear into the hearts of your enemies!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3475

@@ -2,6 +2,8 @@
 
 A scarf for the most discerning of SoulWeavers!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5166

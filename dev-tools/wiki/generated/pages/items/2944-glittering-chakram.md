@@ -2,6 +2,8 @@
 
 Originally thought to only be used by ice elves, Lim brings the razor-sharp edges of the chakram to you! Catch!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2944

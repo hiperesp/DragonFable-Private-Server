@@ -2,6 +2,8 @@
 
 It some kind of strange box, covered with tiny colored stickers. It looks like someone moved the stickers around on the sides though... maybe someone in town would want this.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3410

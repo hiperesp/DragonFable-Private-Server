@@ -2,6 +2,8 @@
 
 This skeletal warrior had red-hot metal spikes attached to his skull in order to intimidate his opponents.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3210

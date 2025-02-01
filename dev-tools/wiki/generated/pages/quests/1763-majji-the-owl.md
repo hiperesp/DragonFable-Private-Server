@@ -2,6 +2,8 @@
 
 Face off against the resolute Majji!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

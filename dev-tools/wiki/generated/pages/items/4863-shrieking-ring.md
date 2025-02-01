@@ -2,6 +2,8 @@
 
 This ring belonged to an ogre king, who then gave it to his bride!  It is green and covered in slime, but it is still pretty effective at helping you in battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4863

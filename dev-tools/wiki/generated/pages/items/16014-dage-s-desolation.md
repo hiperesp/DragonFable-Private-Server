@@ -2,6 +2,8 @@
 
 A legendary shining blade from another time and place. It feels... evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16014

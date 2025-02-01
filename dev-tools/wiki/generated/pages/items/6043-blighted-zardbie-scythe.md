@@ -2,6 +2,8 @@
 
 The Zardbie infection of Mogloween 2011 has even affected weapons! Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6043

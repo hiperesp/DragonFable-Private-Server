@@ -2,6 +2,8 @@
 
 Bon... Jovi! No... Ban... Zai!  Wait... Hmm.  BanKAI! That's it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3132

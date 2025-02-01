@@ -2,6 +2,8 @@
 
 Hard and heavy, this staff packs a wallop.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 278

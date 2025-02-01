@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. You could always try dueling him left-handed. Or is that INCONCEIVABLE?!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2116

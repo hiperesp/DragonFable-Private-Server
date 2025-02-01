@@ -2,6 +2,8 @@
 
 Recovered from Drakonnan's defeated General, Varax, the orbs on this weapon almost look like tiny fire orbs...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2774

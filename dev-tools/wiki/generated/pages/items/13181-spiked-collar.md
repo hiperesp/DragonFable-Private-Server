@@ -2,6 +2,8 @@
 
 This tight necklace is studded with small teeth. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13181

@@ -2,6 +2,8 @@
 
 Despite your best efforts, Verlyrus has yet another mission for you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

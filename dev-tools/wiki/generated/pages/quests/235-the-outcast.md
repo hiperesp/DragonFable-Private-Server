@@ -2,6 +2,8 @@
 
 The Mayor has sent you deep into Doomwood to find a powerful necromancer who might have a key to get into the Necropolis.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 An elegant broadsword of elven make. Oddly, it seems more decorative than functional. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20681

@@ -2,6 +2,8 @@
 
 This rare ore can only be found in this jungle. Yulgar says that he can use it to forge you a new weapon out of an old one. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 460

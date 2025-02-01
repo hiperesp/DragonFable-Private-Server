@@ -2,6 +2,8 @@
 
 The sewers under the town of Braughlmurk Cape.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

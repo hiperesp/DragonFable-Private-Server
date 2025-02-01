@@ -2,6 +2,8 @@
 
 These papers state clearly that (insert name here) is an experienced sailor who served in the Royal Navy of (insert kingdom here) for many many years! Rhubarb will need to see these to give you the Pirate Armor!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1010

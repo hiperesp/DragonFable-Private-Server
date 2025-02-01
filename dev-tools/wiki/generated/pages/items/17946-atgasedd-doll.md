@@ -2,6 +2,8 @@
 
 Are you feeling it? Buffs you and debuffs enemies, scaling a small amount off of your CHA stat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17946

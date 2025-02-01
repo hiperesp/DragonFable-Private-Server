@@ -2,6 +2,8 @@
 
 Powdered red dragon scales! Can probably be used to repair or reinforce a weapon. Proof of victory over the Red Dragon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21221

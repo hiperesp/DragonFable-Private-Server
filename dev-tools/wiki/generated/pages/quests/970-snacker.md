@@ -2,6 +2,8 @@
 
 Snack Attack! Stop the fighting foods and the dancing turducken!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

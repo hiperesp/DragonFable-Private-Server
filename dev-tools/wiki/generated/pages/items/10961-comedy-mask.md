@@ -2,6 +2,8 @@
 
 You're a good and true hero! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10961

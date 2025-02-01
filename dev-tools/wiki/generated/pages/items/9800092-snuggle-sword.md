@@ -2,6 +2,8 @@
 
 It lets you cuddle with it after you bleed
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800092

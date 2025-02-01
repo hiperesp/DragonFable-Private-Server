@@ -2,6 +2,8 @@
 
 This battered copy of the game Greed used to test Greedling's memory isn't much good anymore, unless you want to test YOUR memory! But you're pretty familiar with the objects in the game, right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4439

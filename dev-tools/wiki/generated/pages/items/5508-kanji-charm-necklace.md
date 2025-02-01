@@ -2,6 +2,8 @@
 
 Eight Kanji charms grace this gold chain, each charm corresponding with one of the eight elemental orbs. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5508

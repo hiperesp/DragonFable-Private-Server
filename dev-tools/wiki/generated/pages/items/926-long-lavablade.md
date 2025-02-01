@@ -2,6 +2,8 @@
 
 Cysero claims that the material used in this sword's construction was given to him by the lava people who live in the center of the world, but everyone knows that he's lying. Probably. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 926

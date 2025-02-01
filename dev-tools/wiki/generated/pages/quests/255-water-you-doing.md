@@ -2,6 +2,8 @@
 
 Sneak into the Ninja Inn and open the bottle upstairs.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

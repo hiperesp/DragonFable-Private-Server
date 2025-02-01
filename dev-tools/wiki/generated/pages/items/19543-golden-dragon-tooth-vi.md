@@ -2,6 +2,8 @@
 
 You found this dragon tooth in the Braughlmurk Swamps. If it really came from a golden luck dragon, it can't hurt to hang it from your belt, right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19543

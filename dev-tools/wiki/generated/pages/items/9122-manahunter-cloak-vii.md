@@ -2,6 +2,8 @@
 
 A manahunter's cloak! Surprisingly comfortable. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9122

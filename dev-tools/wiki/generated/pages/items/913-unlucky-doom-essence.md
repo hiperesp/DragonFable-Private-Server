@@ -2,6 +2,8 @@
 
 It gives off an eerie feeling. Used to upgrade Doom weapons. This item requires a Dragon Amulet to use. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 913

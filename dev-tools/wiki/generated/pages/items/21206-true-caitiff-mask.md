@@ -2,6 +2,8 @@
 
 The face (deface, eh... EH!?) of the true evil!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21206

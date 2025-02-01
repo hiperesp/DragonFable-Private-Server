@@ -2,6 +2,8 @@
 
 This oddly shaped egg seems to change color when you look at it. Proof of your victory over the Weird Duo. It's probably not a good idea to eat it. Maybe it will hatch in the future?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17829

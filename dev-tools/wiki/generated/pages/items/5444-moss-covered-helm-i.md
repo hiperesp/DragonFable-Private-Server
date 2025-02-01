@@ -2,6 +2,8 @@
 
 Formed from the very earth of Lore, this helm still thrums with the remnants of the power of the Earth Orb!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5444

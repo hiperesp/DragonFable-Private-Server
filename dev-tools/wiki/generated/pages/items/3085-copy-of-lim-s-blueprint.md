@@ -2,6 +2,8 @@
 
 Lim ran up to you as you finished the quest, shoved this in your face, and shouted "SCIENCE!"  The line of text on the bottom reads, Lim's Super Awesome Secret Project to Prove How Awesome I Am.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3085

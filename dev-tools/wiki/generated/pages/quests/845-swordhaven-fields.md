@@ -2,6 +2,8 @@
 
 The Swordhaven Fields are being dug up by boars and rodents.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

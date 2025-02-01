@@ -2,6 +2,8 @@
 
 This pet was given to you by a moglin in Frostvale who you saved from a terrible fate. (Requires Dragon Amulet). 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 639

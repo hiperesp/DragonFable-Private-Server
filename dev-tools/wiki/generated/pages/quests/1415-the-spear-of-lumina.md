@@ -2,6 +2,8 @@
 
 Romp through one of the many ruins of Braughlmurk, and somewhere you should find a rare book of the Paladin Order.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

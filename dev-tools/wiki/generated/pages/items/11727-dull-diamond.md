@@ -2,6 +2,8 @@
 
 A diamond, but it's full of inclusions.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11727

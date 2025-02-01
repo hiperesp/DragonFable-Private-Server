@@ -2,6 +2,8 @@
 
 Spider spider spider SPLAT!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

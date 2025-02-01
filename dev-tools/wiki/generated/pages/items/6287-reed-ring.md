@@ -2,6 +2,8 @@
 
 Does anything really used Wood to attack?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6287

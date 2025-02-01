@@ -2,6 +2,8 @@
 
 It's time for the Harvest celebration in Nieboheim! One final distraction before you can head back home... right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

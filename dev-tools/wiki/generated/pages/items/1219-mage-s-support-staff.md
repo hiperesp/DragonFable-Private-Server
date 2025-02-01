@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 16 or higher to create. This staff's design makes it sturdy and reliable for even the most taxing magical task.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1219

@@ -2,6 +2,8 @@
 
 You found these daggers in the cavern with the Shard. Use their power well as your dragon now uses the strength of the earth. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11972

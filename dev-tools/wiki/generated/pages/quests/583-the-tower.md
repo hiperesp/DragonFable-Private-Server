@@ -2,6 +2,8 @@
 
 The tower is intact, but the room where Aquella said the orb is kept is locked. Explore the tower and find the switches to open the door.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

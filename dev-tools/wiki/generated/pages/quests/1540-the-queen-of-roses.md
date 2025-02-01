@@ -2,6 +2,8 @@
 
 Queen Victoria is burdened by the reign.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

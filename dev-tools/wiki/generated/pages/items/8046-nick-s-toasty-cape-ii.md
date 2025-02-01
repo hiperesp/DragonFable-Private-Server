@@ -2,6 +2,8 @@
 
 A warm, red cape to keep you safe from darkness... and ice... and wind... well, everything.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8046

@@ -2,6 +2,8 @@
 
 Bubble has a short list of items that she needs to restore her form and Bubble's voice.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

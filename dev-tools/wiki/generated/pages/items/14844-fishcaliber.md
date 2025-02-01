@@ -2,6 +2,8 @@
 
 Listen, strange weapons flung out of pools is no basis for choosing of a hero. Being a hero is derived from a mandate from inside oneself, not from some farcical aquatic ceremony. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14844

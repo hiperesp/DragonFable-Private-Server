@@ -2,6 +2,8 @@
 
 This little fellow followed you out of Verlyrus' boxscape. You weren't just imagining things!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17558

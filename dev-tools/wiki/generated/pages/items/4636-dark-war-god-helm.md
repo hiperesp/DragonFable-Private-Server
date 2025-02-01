@@ -2,6 +2,8 @@
 
 Even Gods of War take advantage of sales! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4636

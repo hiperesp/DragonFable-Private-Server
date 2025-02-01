@@ -2,6 +2,8 @@
 
 All you wanted to do was build some sand castles *sigh*. Fiery light monsters have overrun Falconreach beach and they are ruining everyone's good time. Enough is Enough!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

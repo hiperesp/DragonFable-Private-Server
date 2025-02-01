@@ -2,6 +2,8 @@
 
 Worn by low rank soldiers in the Rose battalions.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11718

@@ -2,6 +2,8 @@
 
 You have broken your chains. See with sight unbroken by lies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13827

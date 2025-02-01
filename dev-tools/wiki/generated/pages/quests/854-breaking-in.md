@@ -2,6 +2,8 @@
 
 Rolith has gone overboard trying to protect Frostvale this year! You need to break in and make sure he doesn't keep out all the holiday cheer too!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

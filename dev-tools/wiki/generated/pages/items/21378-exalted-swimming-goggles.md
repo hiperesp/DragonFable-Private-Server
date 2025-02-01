@@ -2,6 +2,8 @@
 
 A pair of goggles designed by Notha. Unfortunately, they never got too far past the design phase. The lenses are rather opaque. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21378

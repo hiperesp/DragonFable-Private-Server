@@ -2,6 +2,8 @@
 
 Flushed soulthreads and tangled creatures.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

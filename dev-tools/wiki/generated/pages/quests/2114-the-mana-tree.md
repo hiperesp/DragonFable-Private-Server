@@ -2,6 +2,8 @@
 
 A massive tree looms over the Mana-entangled areas surrounding the Fissure. At its peak are fruit that may buy more time for the Magesterium.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

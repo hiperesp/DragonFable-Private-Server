@@ -2,6 +2,8 @@
 
 Defeat the waves of Rose dragons!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A fancy witch's hat! It's color customizable, and shows your hair underneath as well!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20546

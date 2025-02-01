@@ -2,6 +2,8 @@
 
 Magical wings of the majestic Turducken. Ruby says these are "realistic" but they don't look like any turducken wings you know.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18479

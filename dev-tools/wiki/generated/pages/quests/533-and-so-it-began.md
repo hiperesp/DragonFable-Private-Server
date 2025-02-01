@@ -2,6 +2,8 @@
 
 Sepulchure has many plans!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

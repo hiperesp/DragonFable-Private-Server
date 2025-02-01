@@ -2,6 +2,8 @@
 
 With this magical mask, you too can be everyone's favorite Pala-puppy! Fool your friends and the undead! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16227

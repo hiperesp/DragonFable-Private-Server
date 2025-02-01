@@ -2,6 +2,8 @@
 
 The powdery remains of what used to be a Summon Gem. Maybe it can be repaired somehow? Proof of victory over Ayauhnqui!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19485

@@ -2,6 +2,8 @@
 
 Awww, it's in the shape of a puppy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4086

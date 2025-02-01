@@ -2,6 +2,8 @@
 
 A wide weapon base, forged and lost in an ancient era. Used with certain Gemstones to create a sword.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21662

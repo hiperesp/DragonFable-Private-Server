@@ -2,6 +2,8 @@
 
 Were-creatures are attacking Amityvale!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

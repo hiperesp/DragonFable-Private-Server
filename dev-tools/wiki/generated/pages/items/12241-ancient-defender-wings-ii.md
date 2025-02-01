@@ -2,6 +2,8 @@
 
 It is said that ancient soldiers used these wings to sail on the wild winds of the Void Core.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12241

@@ -2,6 +2,8 @@
 
 Forged to celebrate Darkon's birthday. This key could unlock many secrets... if it actually worked. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21829

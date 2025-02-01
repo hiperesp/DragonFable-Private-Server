@@ -2,6 +2,8 @@
 
 Now you have something to throw into someone's works. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2294

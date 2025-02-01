@@ -2,6 +2,8 @@
 
 This helm is the type worn by DragonMasters. While not as powerful as a full DragonLord, DragonMasters are still known the world over for their fierceness and strength. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1401

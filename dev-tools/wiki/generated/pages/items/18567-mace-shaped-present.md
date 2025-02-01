@@ -2,6 +2,8 @@
 
 This present is shaped like a mace. What could be inside? Maybe it's a mace-shaped plant, or a scarf!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18567

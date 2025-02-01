@@ -2,6 +2,8 @@
 
 The finely wrought links of this belt have been charred and scorched by dragon's breath.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15960

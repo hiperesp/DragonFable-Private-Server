@@ -2,6 +2,8 @@
 
 With an adamantine edge, this dagger is sure to pierce the toughest hide or the hardest armor. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1336

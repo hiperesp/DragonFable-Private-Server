@@ -2,6 +2,8 @@
 
 A mysterious magical weapon, said to have come from the plane of light itself. Crafted in honor of Dracelix's birthday!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11444

@@ -2,6 +2,8 @@
 
 This Doom Blade replica was forged by Zee and enchanted by Ashendal. There is no Darkness Spirit inside of it to make it a true Doom Weapon, but the enchantment Ashendal used will cause it to occasionally lower your foes damage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14276

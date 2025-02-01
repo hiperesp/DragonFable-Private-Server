@@ -2,6 +2,8 @@
 
 Channeling the chaos of the Void for entropy and destruction, the Decadere are considered irredeemable by many.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

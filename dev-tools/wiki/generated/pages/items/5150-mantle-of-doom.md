@@ -2,6 +2,8 @@
 
 This gruesome mantle of skulls should help you make your point!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5150

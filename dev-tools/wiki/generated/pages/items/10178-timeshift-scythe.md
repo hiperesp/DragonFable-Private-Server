@@ -2,6 +2,8 @@
 
 Crafted in honor of Cronix's birthday, this scythe almost seems to cut through time itself! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10178

@@ -2,6 +2,8 @@
 
 Thursday has been taken to the Darkness Tower! Fight your way past Frydae's minions to save her!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Find out what made Theano the man he is today.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

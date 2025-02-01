@@ -2,6 +2,8 @@
 
 What a neat whip! Unfortunately, it's a nonfunctional replica. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21138

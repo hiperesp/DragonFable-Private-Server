@@ -3,6 +3,8 @@
 Crafted in memory of the Priestess Celestia, defend it well.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6961

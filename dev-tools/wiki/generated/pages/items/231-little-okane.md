@@ -2,6 +2,8 @@
 
 Deceptively small, this knife bites as it goes in and tears on the way out.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 231

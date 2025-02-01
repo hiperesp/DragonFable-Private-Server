@@ -2,6 +2,8 @@
 
 The town of Amityvale is located in the southern border of warm, sunny DoomWood. It is constantly under attack but the people have pretty much gotten use to it.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

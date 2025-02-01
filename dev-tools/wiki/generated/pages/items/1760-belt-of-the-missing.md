@@ -2,6 +2,8 @@
 
 This magical belt was discovered in the nest of a great stone wyrm. It was meant to be the hatchling's first piece of treasure.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1760

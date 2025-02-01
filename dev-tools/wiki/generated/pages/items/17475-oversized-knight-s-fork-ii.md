@@ -2,6 +2,8 @@
 
 Knights have mighty appetites to fuel their training. You too can participate with this commemorative Knight's Knife! Perfect for cutting huge steaks and veggies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17475

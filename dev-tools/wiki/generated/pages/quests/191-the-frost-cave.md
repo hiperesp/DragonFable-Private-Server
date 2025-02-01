@@ -2,6 +2,8 @@
 
 You've made your way to Dragonmaster Frostscythe's frigid cave searching for clues to why the frost monsters are attacking Frostvale!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

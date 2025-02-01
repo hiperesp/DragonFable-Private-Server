@@ -2,6 +2,8 @@
 
 From gently shaken minx fairies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1206

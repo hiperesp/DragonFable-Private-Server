@@ -2,6 +2,8 @@
 
 Retrieve the egg Orion lost before Zeuster finds out it is missing!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

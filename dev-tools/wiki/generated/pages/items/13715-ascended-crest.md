@@ -2,6 +2,8 @@
 
 This helm is only worn by those who have dedicated themselves to Arester's training. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13715

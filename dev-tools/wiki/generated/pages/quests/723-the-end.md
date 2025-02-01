@@ -2,6 +2,8 @@
 
 Greed is here! And he's about to get the Judgement Wheel! Nooooooo!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

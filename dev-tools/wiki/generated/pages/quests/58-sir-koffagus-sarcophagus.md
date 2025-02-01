@@ -2,6 +2,8 @@
 
 The undead knight Sir Koffagus has fallen to you in battle. As a reward he has let you take a weapon from his horde.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

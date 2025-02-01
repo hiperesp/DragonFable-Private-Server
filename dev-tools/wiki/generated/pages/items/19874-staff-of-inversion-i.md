@@ -2,6 +2,8 @@
 
 Escherion's Staff of Inversion! While the staff appears to be consumed by Chaos, it's only an illusion. The staff has been restored to its state as an ancient artifact of Light. Proof of victory over Escherion and his Chaos Beast.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19874

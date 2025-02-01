@@ -2,6 +2,8 @@
 
 A hazy image, blurred by the depths. Many points of yellow lights, a welcoming glow, shine through the darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20948

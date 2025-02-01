@@ -2,6 +2,8 @@
 
 It's the biggest, it's the baddest and it's allll yours. This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1716

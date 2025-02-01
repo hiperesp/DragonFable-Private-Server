@@ -2,6 +2,8 @@
 
 IV. His thoughts become clouded with darkness, unable to stop himself he turned around and cut a path through the defenders. He didn't stop until he had destroyed all of Veneldra's defenses.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12633

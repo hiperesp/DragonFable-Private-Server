@@ -2,6 +2,8 @@
 
 Soundwaves twine up the rounded crystalline edges of this weapon, gathering force and then emitting in a BLAST of sound that will knock your opponents down!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2684

@@ -2,6 +2,8 @@
 
 If you wanna be the very best Monster Master, the best there ever was! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9442

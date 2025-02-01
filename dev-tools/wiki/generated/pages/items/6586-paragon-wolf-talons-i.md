@@ -2,6 +2,8 @@
 
 These daggers were forged by True Mortal ages ago and held in trust for a hero who would one day claim them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6586

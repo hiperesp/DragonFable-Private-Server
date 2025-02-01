@@ -2,6 +2,8 @@
 
 Crafted with the scales of the Great Energy Dragon Volgritian, this weapon surges with shades of his power!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9647

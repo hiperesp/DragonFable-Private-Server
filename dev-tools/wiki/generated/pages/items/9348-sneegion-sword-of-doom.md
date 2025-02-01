@@ -2,6 +2,8 @@
 
 The official sword of Dage the Sneevil's minions!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9348

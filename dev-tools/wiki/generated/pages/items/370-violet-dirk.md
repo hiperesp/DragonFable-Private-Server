@@ -2,6 +2,8 @@
 
 This brightly colored dagger can deal deadly damage, with a twist.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 370

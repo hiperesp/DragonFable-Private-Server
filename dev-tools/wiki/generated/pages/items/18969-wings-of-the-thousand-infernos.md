@@ -2,6 +2,8 @@
 
 100 rooms of doooooom! Now with extra Doom! (Dragon Coin version of the Wings of The Thousand Flames)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18969

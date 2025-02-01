@@ -2,6 +2,8 @@
 
 This mask smells of moss and bed inspection.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20641

@@ -2,6 +2,8 @@
 
 A forgotten cape of a soldier of Swordhaven. Perhaps you can put it to better use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9152

@@ -2,6 +2,8 @@
 
 A skin tanned and ready to use for padding or making hilt pieces.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1202

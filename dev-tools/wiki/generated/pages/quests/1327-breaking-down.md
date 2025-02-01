@@ -2,6 +2,8 @@
 
 Valtrith's catapult was loaded with some kind of darkness disease! Hunt down items to help heal the sick!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

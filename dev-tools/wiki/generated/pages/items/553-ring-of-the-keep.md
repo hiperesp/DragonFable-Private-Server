@@ -2,6 +2,8 @@
 
 This ring was given to you by Sir Valence for your help with some pesky Sneevil troubles. The enchantment on the ring adds +1 END and a bonus to hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 553

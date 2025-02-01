@@ -2,6 +2,8 @@
 
 This darkened crown was found buried in a pile of old weapons and armor during an annual cleaning of the Falconreach Guardian Tower. None could remember its origins. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22074

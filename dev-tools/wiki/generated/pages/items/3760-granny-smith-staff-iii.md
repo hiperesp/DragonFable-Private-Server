@@ -2,6 +2,8 @@
 
 An apple a day keeps Twilly away! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3760

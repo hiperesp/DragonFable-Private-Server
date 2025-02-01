@@ -2,6 +2,8 @@
 
 A leather cord created from the strongest of sinews.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2442

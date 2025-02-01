@@ -2,6 +2,8 @@
 
 This regal beast is a rare creature, indeed! Within his species he is seen as a king!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 450

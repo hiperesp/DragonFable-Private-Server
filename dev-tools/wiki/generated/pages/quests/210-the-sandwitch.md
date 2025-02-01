@@ -2,6 +2,8 @@
 
 Sek-Duat XV has commanded you to go into the desert and remove the threat of the Sandwitch!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

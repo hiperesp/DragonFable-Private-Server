@@ -2,6 +2,8 @@
 
 Elucidas wants to make sure you can handle your newfound powers in battle.  Run a friendly gauntlet of the Creatioux to demonstrate that you can be powerful AND merciful!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

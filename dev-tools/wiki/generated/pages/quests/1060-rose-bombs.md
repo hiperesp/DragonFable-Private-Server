@@ -2,6 +2,8 @@
 
 Take to the sky on your dragon to take out the Rose waves!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

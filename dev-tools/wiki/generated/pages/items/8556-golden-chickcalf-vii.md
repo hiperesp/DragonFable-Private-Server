@@ -2,6 +2,8 @@
 
 You have had this baby chickencow since it was just an egg. It is ready to defend you in its brand new armor,  but only because it thinks you are its mother. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8556

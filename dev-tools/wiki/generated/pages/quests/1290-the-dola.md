@@ -2,6 +2,8 @@
 
 A Dola stalks the woods at the edge of Betrubung!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

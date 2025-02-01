@@ -2,6 +2,8 @@
 
 The icy blade of this axe will tear through your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1793

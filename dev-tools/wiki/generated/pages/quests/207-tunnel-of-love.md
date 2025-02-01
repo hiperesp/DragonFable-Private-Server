@@ -2,6 +2,8 @@
 
 Big Daddy has asked you to investigate the Tunnel of Love. It seems like there is something here that he doesn't want the Snugvils finding.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

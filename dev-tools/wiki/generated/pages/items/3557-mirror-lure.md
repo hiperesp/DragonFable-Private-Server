@@ -2,6 +2,8 @@
 
 Edy found this shiny, shiny mirror lure inside a bait and tackle box.  When he held it up to the light, it sparkled and gleamed!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3557

@@ -2,6 +2,8 @@
 
 This powerful weapon from another time and space is artificially mint flavored. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21742

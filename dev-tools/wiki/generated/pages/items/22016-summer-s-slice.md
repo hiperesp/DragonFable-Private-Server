@@ -2,6 +2,8 @@
 
 The third sword to complete the look... and the technique! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22016

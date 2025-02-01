@@ -2,6 +2,8 @@
 
 This colorful strip of cloth has frayed edges and a knot tied into one end. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13180

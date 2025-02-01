@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen The Platinum Cabit to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

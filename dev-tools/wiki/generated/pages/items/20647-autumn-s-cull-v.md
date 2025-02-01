@@ -2,6 +2,8 @@
 
 A weapon embodying nature's passage. Click to shift between Nature and Ice damage. This weapon was forged by Dracelix!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20647

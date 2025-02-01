@@ -2,6 +2,8 @@
 
 An icy chill pervades the air.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

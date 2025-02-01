@@ -2,6 +2,8 @@
 
 The dragons have sent their minions into the Freedom Camp to track down the escaped dravir!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 It would seem that these Elementals are attracted to something lurking in here. I will investigate it with Aegis!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

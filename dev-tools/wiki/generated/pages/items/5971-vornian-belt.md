@@ -2,6 +2,8 @@
 
 A Vornian tribal belt. Very few people have ever heard of them, but Teral has learned their ways in his travels.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5971

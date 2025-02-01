@@ -2,6 +2,8 @@
 
 Cysero decided to forgive your debt in exchange for you taking some of his extra socks and TogCoins with you on your adventure. Ignore the whispering. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21096

@@ -2,6 +2,8 @@
 
 This staff really suits you! But it's not shaped like a heart at all... This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4869

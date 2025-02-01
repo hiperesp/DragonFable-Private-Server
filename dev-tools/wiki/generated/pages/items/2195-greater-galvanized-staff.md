@@ -2,6 +2,8 @@
 
 Lightning struck a cache of abandoned weapons in the woodlands, charging them with great power.  Your hair stands on end when you hold this staff, though.  It kind of tickles.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2195

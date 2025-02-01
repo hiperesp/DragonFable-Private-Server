@@ -2,6 +2,8 @@
 
 This staff is topped with a broad leafed spear head and enhanced with the bones and skull of an imp, magically hardened and enchanted as a focus for magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5669

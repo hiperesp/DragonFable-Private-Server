@@ -2,6 +2,8 @@
 
 The Thorn have created a new form of elemental and are attacking the residents of Clearwater. Find the source of the strange disease and put a stop to it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

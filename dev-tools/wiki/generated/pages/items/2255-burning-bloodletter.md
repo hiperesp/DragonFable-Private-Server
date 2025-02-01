@@ -2,6 +2,8 @@
 
 With its twin blades, this staff is perfect for magic-work or melee-oriented battling, just right for the mage who wants to get their hands dirty!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2255

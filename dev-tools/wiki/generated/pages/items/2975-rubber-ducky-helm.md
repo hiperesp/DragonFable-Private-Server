@@ -2,6 +2,8 @@
 
 Only the Mad Haberdasher would wear something like this!  Dragon Amulet required.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2975

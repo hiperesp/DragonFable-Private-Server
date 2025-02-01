@@ -2,6 +2,8 @@
 
 A bandit lime! Contains more Vitamin C than the average lime, and may also steal your coinpurse! One side is stamped with the letter "e". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18765

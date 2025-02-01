@@ -2,6 +2,8 @@
 
 Despite heavy denting and scratches covering the plates, this belt has held together well! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13476

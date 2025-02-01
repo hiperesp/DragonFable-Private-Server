@@ -2,6 +2,8 @@
 
 This stunning weapon is the product of an Archivist's intense study and hard work. Now sold separately! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20940

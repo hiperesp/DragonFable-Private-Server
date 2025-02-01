@@ -2,6 +2,8 @@
 
 A long, thin thread that seems to shift from a pale white to a pure black and back as you stare at it, sometimes fading from view entirely. Proof of your victory over the Extreme Unraveler. Used for merging.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18377

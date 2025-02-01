@@ -2,6 +2,8 @@
 
 The Inn in town has been flooded with the spirits of the dead!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

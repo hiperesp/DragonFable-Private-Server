@@ -2,6 +2,8 @@
 
 The powers of fire and ice are combined into this beautiful weapon to commemorate your victory over Wargoth! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7358

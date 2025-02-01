@@ -2,6 +2,8 @@
 
 Bandits are gathering to attack and loot Atrea!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

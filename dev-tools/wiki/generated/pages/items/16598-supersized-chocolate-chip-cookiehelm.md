@@ -2,6 +2,8 @@
 
 Is... Is this how the denizens of Apsaydaaun see you? Disturbing. But those chocolate chips do look so delicious... and enormous! Wow! What kind of oven baked this?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16598

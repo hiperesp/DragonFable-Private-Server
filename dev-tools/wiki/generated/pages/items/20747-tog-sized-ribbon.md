@@ -2,6 +2,8 @@
 
 Unfortunately, this ribbon is not the size of a tog, but rather more appropriately sized for general tog use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20747

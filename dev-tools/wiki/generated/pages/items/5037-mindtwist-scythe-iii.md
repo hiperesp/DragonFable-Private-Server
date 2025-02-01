@@ -2,6 +2,8 @@
 
 The secret of true power resides in the mind. This scythe can help you unlock that power, but at a terrible price. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5037

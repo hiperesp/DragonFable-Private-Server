@@ -2,6 +2,8 @@
 
 In a distant land, carrying this torch is a great honor. In your hands, it's just a fancy weapon. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22057

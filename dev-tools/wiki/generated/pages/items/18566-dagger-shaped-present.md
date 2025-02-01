@@ -2,6 +2,8 @@
 
 This present is shaped like a dagger. What could be inside? Maybe a dagger-shaped book, or some candy?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18566

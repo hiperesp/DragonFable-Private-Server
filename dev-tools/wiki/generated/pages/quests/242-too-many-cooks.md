@@ -2,6 +2,8 @@
 
 You have to sneak Artix's Holy Wasabi into all of the evil broth cauldrons to ruin the mixture!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

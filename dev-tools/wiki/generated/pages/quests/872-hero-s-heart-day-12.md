@@ -2,6 +2,8 @@
 
 Sir Stephan wants you to help him seek out the the biggest threat to Hero's Heart Day!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A soulforged glaive, recreated by Lanrete in the image of Jaania's emanation. It carries the hope of preventing the suffering and strife of all who reside on Lore. On hit, has a 20% chance to reduce target's Ice and Metal resistance. Requires a DA.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21926

@@ -2,6 +2,8 @@
 
 Your friends are REALLY famous!  Some of that rubs off on you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

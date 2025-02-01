@@ -2,6 +2,8 @@
 
 Those googly eyes are fresh from the monster to your staff!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6030

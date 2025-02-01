@@ -2,6 +2,8 @@
 
 Grocery list: Pick up Boveox Milk, Sneevil Snax, Ember Key. See if the new Heroes Weekly is out yet!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

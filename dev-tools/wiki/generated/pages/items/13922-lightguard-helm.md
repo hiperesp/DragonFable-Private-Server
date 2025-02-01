@@ -2,6 +2,8 @@
 
 There are all sorts of fearsome beings of darkness. Don this helm and show that you will stand against them! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13922

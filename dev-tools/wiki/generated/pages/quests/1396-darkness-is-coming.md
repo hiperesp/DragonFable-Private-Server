@@ -2,6 +2,8 @@
 
 Touch base with everyone that you have recruited so far.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

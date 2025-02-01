@@ -2,6 +2,8 @@
 
 Plucked from the cloud's of Lore's stratosphere, this breezy neck keeps you moving.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1967

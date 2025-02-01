@@ -2,6 +2,8 @@
 
 One of the villagers must have put this on their new pet.  I wonder how the baby dracolich got loose?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3450

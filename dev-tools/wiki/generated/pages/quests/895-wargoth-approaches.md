@@ -2,6 +2,8 @@
 
 The Rising Fire waves have been defeated... now the war boss approaches!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

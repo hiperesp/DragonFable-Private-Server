@@ -2,6 +2,8 @@
 
 Zhoom has sent you to Hudson's Cavern in search of one desert hawk egg that has not yet been eaten by the Venomkings.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

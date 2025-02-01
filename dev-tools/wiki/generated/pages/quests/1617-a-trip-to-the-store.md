@@ -2,6 +2,8 @@
 
 This... is not a normal grocery store, is it? I mean, when Verlyrus said it was down a back alley that should have been a hint, but well, here we are.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

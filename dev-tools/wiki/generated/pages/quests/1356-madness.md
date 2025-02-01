@@ -2,6 +2,8 @@
 
 Caitiff faces off against Kathool Achoo... can you find all four flashbacks in the madness of Kathool's darkness?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

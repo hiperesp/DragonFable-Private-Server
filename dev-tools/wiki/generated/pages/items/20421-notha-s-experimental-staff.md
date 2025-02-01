@@ -3,6 +3,8 @@
 A staff forged from a fusion of ancient mechanical and ancient Exalted technology, Notha seems to have left this for you to use.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20421

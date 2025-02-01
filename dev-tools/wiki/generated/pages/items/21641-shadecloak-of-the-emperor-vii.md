@@ -2,6 +2,8 @@
 
 Manifested as part of Sirius' fears, this cloak somehow remains even after its owner was defeated.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21641

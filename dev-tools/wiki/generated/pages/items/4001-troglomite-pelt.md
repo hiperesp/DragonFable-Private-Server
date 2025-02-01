@@ -2,6 +2,8 @@
 
 The furry pelt of the elusive Troglomite!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4001

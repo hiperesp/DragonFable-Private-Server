@@ -2,6 +2,8 @@
 
 The blood soaked links of this chain were once proudly worn.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14059

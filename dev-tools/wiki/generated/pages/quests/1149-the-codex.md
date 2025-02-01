@@ -2,6 +2,8 @@
 
 Play as Aspar and find a way to manipulate the Ynnungaap Core.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

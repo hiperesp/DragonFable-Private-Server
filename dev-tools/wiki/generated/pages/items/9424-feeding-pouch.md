@@ -2,6 +2,8 @@
 
 A nice little bag of treats!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9424

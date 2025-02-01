@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 16 or higher to create. This subtle dagger is a great design for keeping hidden in the folds of your robes or beneath your armor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1220

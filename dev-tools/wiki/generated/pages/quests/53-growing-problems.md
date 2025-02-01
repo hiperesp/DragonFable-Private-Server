@@ -2,6 +2,8 @@
 
 Sir Loin has asked you to defend his garden against the raiding Tuskmongers. Protect those carrots, soldier!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

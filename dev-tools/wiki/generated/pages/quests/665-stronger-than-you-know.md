@@ -2,6 +2,8 @@
 
 While Tomix continues decoding the runes on the Equilibrium Gate, the Chaosweavers and Greed are not just sitting still!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 As thanks for your help Orion has given you one of his many belts.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13733

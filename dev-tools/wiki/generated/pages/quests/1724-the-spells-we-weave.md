@@ -2,6 +2,8 @@
 
 As the Tytan's siege continues, plans are put into motion...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 After being handed a note by Thursday, you make your way to the ancient stone circle which the Five Yaga Sisters call home to stop them from summoning the Strange Outworlder to destroy Lore.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

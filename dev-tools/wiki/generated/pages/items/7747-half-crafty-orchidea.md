@@ -3,6 +3,8 @@
 This gorgeous scythe was woven by the SoulWeaver, Tomix, in celebration of knowledge and learning. Twig then cut it in half.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7747

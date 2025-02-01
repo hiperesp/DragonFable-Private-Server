@@ -2,6 +2,8 @@
 
 Its a Gi, for monkeys
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800121

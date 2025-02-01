@@ -2,6 +2,8 @@
 
 Long lost under the ocean waves, this helm is almost rusted through.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3600

@@ -2,6 +2,8 @@
 
 The preferred weapon of the Frost Moglin Knights! It's been magically enlarged so you can wield it properly. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17811

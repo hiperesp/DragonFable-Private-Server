@@ -2,6 +2,8 @@
 
 The maddening laughter of the Green Gnome echoes through this helm. Once a great engineer, he descended into madness trying to find a cure for the gnomish race and now spends his days squishing spiders.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1587

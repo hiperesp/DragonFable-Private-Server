@@ -2,6 +2,8 @@
 
 Bubble has finished the candy and it is time to start fixing the mistakes of the past.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

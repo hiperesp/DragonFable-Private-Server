@@ -2,6 +2,8 @@
 
 Whether you're chopping through vegetation or mowing down the undead and other enemies, with this blade you'll look stunning while doing it. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2263

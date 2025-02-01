@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. This lithe blade is worth its weight in gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1319

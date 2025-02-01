@@ -2,6 +2,8 @@
 
 Who is the Elite Patrol? How do you get in to the Third Level? Plenty of questions that need answers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

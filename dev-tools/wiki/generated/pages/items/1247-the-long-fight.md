@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 34 or higher to create. This staff is designed to go the distance in any fight, no matter how long.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1247

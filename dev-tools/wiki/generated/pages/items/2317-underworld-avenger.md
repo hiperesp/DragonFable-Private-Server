@@ -2,6 +2,8 @@
 
 The oily black surface of this blade emanates a horrifying aura.  Any enemy you slash at ith this will die from fear, if not the wounds it inflicts on them. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2317

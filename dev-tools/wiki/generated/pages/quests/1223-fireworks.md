@@ -2,6 +2,8 @@
 
 You've gathered some of what Lime needs!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

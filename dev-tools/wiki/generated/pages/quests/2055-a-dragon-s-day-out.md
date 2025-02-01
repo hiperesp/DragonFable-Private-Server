@@ -2,6 +2,8 @@
 
 What exactly does your dragon get up to when you're not around...?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You asked for the chance to make Grams' Doom pets your very own, so we're giving them to you!  Now you'll be able to take Cuddles home and retrain him to HELP you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3852

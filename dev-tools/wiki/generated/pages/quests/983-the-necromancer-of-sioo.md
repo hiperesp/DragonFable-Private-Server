@@ -2,6 +2,8 @@
 
 Will the Necromancer help you find Vayle?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

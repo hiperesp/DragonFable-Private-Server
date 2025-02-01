@@ -2,6 +2,8 @@
 
 An old and dusty pocket mirror that looks like it was once well loved and used. Proof of victory over The Chaos Twins. Used to upgrade the Forced Reflection scythe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20075

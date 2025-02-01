@@ -2,6 +2,8 @@
 
 Dropping anchor near the massive whirlpool only drew out its occupant: Yllmar, the Depth's Maw, peril to anything that wanders too near to its territory.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This weapon will peel the skin off an apple without bruising the fruit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 346

@@ -2,6 +2,8 @@
 
 Kind cheap, but pretty.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6288

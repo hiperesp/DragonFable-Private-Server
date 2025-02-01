@@ -2,6 +2,8 @@
 
 Over ten years you and your dragon have had some crazy adventures and they're not over yet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15126

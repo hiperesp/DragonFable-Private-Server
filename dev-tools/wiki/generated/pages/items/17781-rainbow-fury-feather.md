@@ -2,6 +2,8 @@
 
 A legendary rainbow fury feather. The ultimate collector's item, these feathers are extremely difficult to come by, and prized greatly by furies and others alike.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17781

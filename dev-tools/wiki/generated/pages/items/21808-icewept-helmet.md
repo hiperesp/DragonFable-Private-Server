@@ -2,6 +2,8 @@
 
 The inside of this ice-encrusted helm is surprisingly warm! Was this made for elementals... or from them? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21808

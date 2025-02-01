@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 14 or higher to create. This dagger design is favored by the nomadic tribes of the deserts to the far south of Falconreach. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1217

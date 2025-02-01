@@ -2,6 +2,8 @@
 
 An Archivist's Cap with long hair. Record your heroic journey in style!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17837

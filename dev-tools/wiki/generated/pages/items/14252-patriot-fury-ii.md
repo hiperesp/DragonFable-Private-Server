@@ -2,6 +2,8 @@
 
 The fury inside will always be there to help preserve your feelings!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14252

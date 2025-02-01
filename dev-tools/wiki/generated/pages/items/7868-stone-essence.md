@@ -2,6 +2,8 @@
 
 This really just looks like a rock....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7868

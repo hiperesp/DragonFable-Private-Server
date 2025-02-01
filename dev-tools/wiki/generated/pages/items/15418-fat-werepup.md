@@ -2,6 +2,8 @@
 
 Poor guy ate too much paczki on Fat Thursday!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15418

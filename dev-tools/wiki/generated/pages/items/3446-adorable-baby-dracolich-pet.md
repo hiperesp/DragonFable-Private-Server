@@ -2,6 +2,8 @@
 
 You fought long and hard to protect Zorbak's legion of baby dracoliches, and now you can have one of them as a pet! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3446

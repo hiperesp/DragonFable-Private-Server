@@ -2,6 +2,8 @@
 
 Collect the ingredients so Leanie can make this ?delicious? course!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

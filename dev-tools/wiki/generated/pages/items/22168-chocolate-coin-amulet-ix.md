@@ -2,6 +2,8 @@
 
 Bubble put this chocolate coin on a string for you! You still can't eat it, but Bubble has enchanted with a bit of her magic. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22168

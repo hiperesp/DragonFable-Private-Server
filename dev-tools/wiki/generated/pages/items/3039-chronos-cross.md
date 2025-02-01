@@ -2,6 +2,8 @@
 
 This metal dagger will keep time and take names!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3039

@@ -2,6 +2,8 @@
 
 A tale of fury and conquest, born of loss.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

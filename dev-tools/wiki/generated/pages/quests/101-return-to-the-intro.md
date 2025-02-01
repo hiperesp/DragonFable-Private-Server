@@ -2,6 +2,8 @@
 
 We are not sure why you want to go back to that cliff. I guess the view is pretty nice.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

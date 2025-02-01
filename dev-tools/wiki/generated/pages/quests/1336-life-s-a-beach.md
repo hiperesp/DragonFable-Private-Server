@@ -2,6 +2,8 @@
 
 A vicious crab is terrorizing the beach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

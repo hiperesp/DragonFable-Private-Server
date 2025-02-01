@@ -2,6 +2,8 @@
 
 Wargoth is throwing all sorts of fire monsters at you to get you out of his head!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

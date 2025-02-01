@@ -2,6 +2,8 @@
 
 This mysterious piece of metal holds power you cannot fathom how to unlock. Proof of victory over the Chronomancer.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22250

@@ -2,6 +2,8 @@
 
 These are the last ones. Everything should be good after that, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

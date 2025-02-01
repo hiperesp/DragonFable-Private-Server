@@ -2,6 +2,8 @@
 
 The salty, sea wind rushes around this weapon. Crafted for all pirates during TLaPD.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7452

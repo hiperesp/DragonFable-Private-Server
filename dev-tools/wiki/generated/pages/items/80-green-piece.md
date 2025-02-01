@@ -2,6 +2,8 @@
 
 Its said that the trees themselves will fight to defend their forest home. Could this blade be one of their weapons?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 80

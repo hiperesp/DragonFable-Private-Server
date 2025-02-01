@@ -2,6 +2,8 @@
 
 Joules is at it again. Head to the Armory and deal with Joules so Thankstaking can be enjoyed.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

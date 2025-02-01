@@ -2,6 +2,8 @@
 
 The crystal of the blade itself sings as you swing it! Happy Frostval, 2012! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8083

@@ -2,6 +2,8 @@
 
 Soon you will be able to use these to create the Escelense Set!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7135

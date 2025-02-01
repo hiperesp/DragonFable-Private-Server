@@ -2,6 +2,8 @@
 
 This obscenely shiny helm is completely useless as a face cover, but at least it looks very, very pretty! Forged by Dracelix. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21348

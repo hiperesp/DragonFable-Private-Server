@@ -2,6 +2,8 @@
 
 You think one of the Taster Zards dropped this... it's covered with drool!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7046

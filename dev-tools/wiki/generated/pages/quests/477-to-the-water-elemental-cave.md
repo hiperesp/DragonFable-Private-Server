@@ -2,6 +2,8 @@
 
 It's a good thing those water-breathing potions were spilled!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

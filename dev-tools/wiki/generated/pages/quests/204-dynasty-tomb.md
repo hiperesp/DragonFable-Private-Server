@@ -2,6 +2,8 @@
 
 The rebel Sha'Rae has told you that Sek-Duat XV might invite you to his palace if you rid the Sek0Duat dynasty tomb of the mummified dragon that Sha'Rae has awakened.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

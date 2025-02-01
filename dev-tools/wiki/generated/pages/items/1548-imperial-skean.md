@@ -2,6 +2,8 @@
 
 This tiny gold plated dagger is the same kind given to all of Sek-Duat's palace staff to defend themselves against possible invaders. This one apparently didn't do its job.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1548

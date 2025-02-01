@@ -2,6 +2,8 @@
 
 An axe that has existed for uncounted generations. Its name pops up in ancient legends from time to time.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 133

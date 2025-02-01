@@ -2,6 +2,8 @@
 
 This well-worn cloak was once worn by a legendary hero of the Abyssal Tribe. Mighty and proud, by the time she realized, it was too late. Can transform when used with the fully upgraded Abyssal Heart. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21386

@@ -2,6 +2,8 @@
 
 The legendary pair: DragonLord Vilmor and Cryozen.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

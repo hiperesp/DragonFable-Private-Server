@@ -2,6 +2,8 @@
 
 Give the big, bad monsters big boo-boos!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4197

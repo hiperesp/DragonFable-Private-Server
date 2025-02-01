@@ -2,6 +2,8 @@
 
 This gold-plated giant spoon commemorates the 2016 Thankstaking festivities! Amazing! Eating with this could prove to be difficult.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16768

@@ -2,6 +2,8 @@
 
 Something about this weapon makes you feel like you could do anything. Make your dreams come true. Fix everything wrong with Lore. And then...?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15273

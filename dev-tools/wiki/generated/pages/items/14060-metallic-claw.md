@@ -2,6 +2,8 @@
 
 The tip of a metallic claw, broken from some weapon, now decorates this chain as a deadly charm. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14060

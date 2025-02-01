@@ -2,6 +2,8 @@
 
 He is named Sir Lights-a-lot! The brightest Pwny in the herd! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5114

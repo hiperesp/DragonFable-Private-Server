@@ -2,6 +2,8 @@
 
 Do you hear that horrible chanting?  It fills your blood with fear!  And what's that you see tied up there?  It's- it's-
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

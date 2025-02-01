@@ -2,6 +2,8 @@
 
 Its gems are imbued with a rare geomancy, allowing you to harness the solid power of stone.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1338

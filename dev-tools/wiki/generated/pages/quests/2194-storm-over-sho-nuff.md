@@ -2,6 +2,8 @@
 
 With the perpetual storm looming, the paths between Osprey Cove and the Shadow of the Wind Village are more dangerous than ever.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

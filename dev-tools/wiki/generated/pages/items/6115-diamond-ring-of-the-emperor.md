@@ -2,6 +2,8 @@
 
 The ring of the Emperor Kuron, an ancient ruler in the city of Sil. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6115

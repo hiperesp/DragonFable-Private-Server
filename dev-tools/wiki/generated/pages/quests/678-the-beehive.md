@@ -2,6 +2,8 @@
 
 The secret underground laboratory!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

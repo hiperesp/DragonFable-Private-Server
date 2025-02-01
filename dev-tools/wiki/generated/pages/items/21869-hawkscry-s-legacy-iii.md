@@ -2,6 +2,8 @@
 
 Reforged with Magesterium technology, this crown is the product of a people many generations apart. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21869

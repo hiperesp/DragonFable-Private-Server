@@ -2,6 +2,8 @@
 
 Kara and the Wind Elves have lent you their unique smithing talents. They will help you upgrade your Blades of The Great One to a functional weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21118

@@ -2,6 +2,8 @@
 
 Face off against the nimble Al'nold!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

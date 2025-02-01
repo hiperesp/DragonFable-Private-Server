@@ -2,6 +2,8 @@
 
 Symone, the Shadow Hunter.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

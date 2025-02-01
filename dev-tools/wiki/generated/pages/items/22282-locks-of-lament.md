@@ -2,6 +2,8 @@
 
 This timeless hairstyle won't disappear on you. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22282

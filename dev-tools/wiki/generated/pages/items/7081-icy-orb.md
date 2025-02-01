@@ -2,6 +2,8 @@
 
 I single, small orb is hung from this chain. It is freezing cold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7081

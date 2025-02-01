@@ -2,6 +2,8 @@
 
 A mask to bring ruin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20637

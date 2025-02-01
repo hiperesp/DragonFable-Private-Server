@@ -2,6 +2,8 @@
 
 This dagger was made by someone old. Really old. And the blade is hot. Really hot. So don't touch it too much or it will probably burn off your hand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1146

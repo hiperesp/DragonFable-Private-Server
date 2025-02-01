@@ -2,6 +2,8 @@
 
 Some collected venom from a massive space snake! Proof of victory over the Star-Eating Serpent.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21835

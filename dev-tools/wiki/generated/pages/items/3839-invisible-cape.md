@@ -2,6 +2,8 @@
 
 All of the stats, none of the art.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3839

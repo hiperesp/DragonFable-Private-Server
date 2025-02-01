@@ -2,6 +2,8 @@
 
 This spear's legend has grown with yours! Reforged with a soulwoven crystal shard, it has become an instrument of Lore's salvation! Weapon special (On-Hit): If you have a Dragon Amulet, once per battle, hitting a foe will earn you +10% Exp!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21920

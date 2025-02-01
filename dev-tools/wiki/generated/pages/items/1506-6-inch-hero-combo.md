@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  Stacked high with salami, cheese, lettuce and a WHOLE POUND OF PAIN!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1506

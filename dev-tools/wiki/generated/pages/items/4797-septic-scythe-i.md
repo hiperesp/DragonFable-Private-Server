@@ -2,6 +2,8 @@
 
 When a monster bites you, its bite can often turn septic, and no one wants that! So just be careful when you're playing with the blade of this scythe.  Inspired by Eric Ravenwing, Elite Warmonger!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4797

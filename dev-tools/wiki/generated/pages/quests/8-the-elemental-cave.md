@@ -2,6 +2,8 @@
 
 This is a cave full of elementals. Duh.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

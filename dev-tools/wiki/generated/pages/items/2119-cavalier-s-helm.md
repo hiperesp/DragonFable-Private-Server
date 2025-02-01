@@ -2,6 +2,8 @@
 
 The only appropriate thing to say after putting this on is Engarde!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2119

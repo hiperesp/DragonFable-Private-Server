@@ -2,6 +2,8 @@
 
 Now YOU can look as cool as Notha! (Click on the magic circle to change its appearance)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20505

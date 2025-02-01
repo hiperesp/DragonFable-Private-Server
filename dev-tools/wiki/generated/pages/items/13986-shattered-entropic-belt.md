@@ -2,6 +2,8 @@
 
 Once worn by Sepulchure's minions, it former owner was likely lost in the fall of the Fortress. It's now soaked with the waters of the Bay.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13986

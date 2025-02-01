@@ -2,6 +2,8 @@
 
 This dagger was designed to remove your foe's heart with surgical precision.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 712

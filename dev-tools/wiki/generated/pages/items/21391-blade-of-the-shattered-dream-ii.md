@@ -2,6 +2,8 @@
 
 Discovered in the temple of the ancient abyss, this weapon is adorned with the visage of a long forgotten Abyssal hero. Despite everything, this weapon somehow maintains its form, refusing to fall to corruption. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21391

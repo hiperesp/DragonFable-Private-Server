@@ -2,6 +2,8 @@
 
 This disease targets mages.  Maybe higher mana makes them susceptible to it?  This item needs a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2499

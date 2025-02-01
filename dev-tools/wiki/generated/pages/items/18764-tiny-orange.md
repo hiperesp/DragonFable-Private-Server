@@ -2,6 +2,8 @@
 
 This orange is so small and cute! One side is stamped with the letter "s". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18764

@@ -2,6 +2,8 @@
 
 Metatron heard the words of his Master and lent his grace to these weapons, bestowing them on those who would wield them in service to the light. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5706

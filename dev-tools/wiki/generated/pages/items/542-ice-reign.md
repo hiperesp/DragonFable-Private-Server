@@ -2,6 +2,8 @@
 
 This staff will blast your foes with icy death.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 542

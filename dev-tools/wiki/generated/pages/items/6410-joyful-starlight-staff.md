@@ -2,6 +2,8 @@
 
 Ethereally light, it seems to be crafted from the silver trails of falling stars and starlight. A truly beautiful weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6410

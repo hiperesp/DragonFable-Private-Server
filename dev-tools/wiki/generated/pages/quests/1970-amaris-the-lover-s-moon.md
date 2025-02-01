@@ -2,6 +2,8 @@
 
 Above the land of Darkness she watches, always, nevermore to descend... until now.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

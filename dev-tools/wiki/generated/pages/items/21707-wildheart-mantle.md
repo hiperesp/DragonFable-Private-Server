@@ -2,6 +2,8 @@
 
 A worn cloak, decorated with trophies of past hunts of the shadowed wilds. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21707

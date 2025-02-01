@@ -2,6 +2,8 @@
 
 As you gaze into the glowing blades of this weapon, your mind begins to drift into a haze. Better not stare too long!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15762

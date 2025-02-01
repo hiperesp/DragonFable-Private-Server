@@ -2,6 +2,8 @@
 
 This named blade was forged using magic and heat from the heart of the world, and is made from rare metals only found deep underground.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 395

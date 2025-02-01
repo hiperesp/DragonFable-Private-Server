@@ -2,6 +2,8 @@
 
 The shattered remains of a soulclaw. Could maybe be used to weave and repair a piece of broken gear... Proof of victory over Tomix, Weaver on a Mission.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20802

@@ -2,6 +2,8 @@
 
 The mastermind behind this sudden violent uprising of togs could only be the one and only...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

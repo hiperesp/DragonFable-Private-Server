@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is a powerful blade passed down for generations used in defense of Dragesvard. Now you have earned the right to wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2068

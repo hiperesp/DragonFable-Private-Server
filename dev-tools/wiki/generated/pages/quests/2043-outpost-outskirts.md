@@ -2,6 +2,8 @@
 
 Out of the Void, and into the tall grass! Outpost Yeden has to be around here somewhere, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

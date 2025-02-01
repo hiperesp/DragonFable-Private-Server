@@ -2,6 +2,8 @@
 
 This shiny medal certifies its wearer as a Star Defender, protector of the weak against any invaders. Proof of victory over the Star Defenders challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22120

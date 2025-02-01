@@ -2,6 +2,8 @@
 
 Found in the gargoyle cavern, when you wipe off the crystal dangling at the end of the chain, it begins to shine brightly, aiding your vision.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1963

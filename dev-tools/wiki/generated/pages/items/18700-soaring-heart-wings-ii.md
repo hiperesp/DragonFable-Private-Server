@@ -2,6 +2,8 @@
 
 Maybe once upon a time these wings might have been used to fly, but now they're purely decorative. At least they're pretty! For some reason, Big Daddy keeps assuring you that they're perfectly safe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18700

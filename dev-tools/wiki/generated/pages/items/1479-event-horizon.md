@@ -2,6 +2,8 @@
 
 This weapon is powered by a magically contained mini black-hole. Don't feed it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1479

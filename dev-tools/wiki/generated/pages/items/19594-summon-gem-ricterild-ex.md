@@ -2,6 +2,8 @@
 
 Your Summon Gem - Ricterild has been upgraded! It now has stats and will reduce your foe's Light resistance by even more. Proof of victory over Roktoru and Ricterild!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19594

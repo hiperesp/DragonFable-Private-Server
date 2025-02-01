@@ -2,6 +2,8 @@
 
 Dust and webs cover the ruins...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

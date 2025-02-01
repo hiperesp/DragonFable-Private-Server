@@ -2,6 +2,8 @@
 
 What clues will be unearthed in your investigation of the maze of Bask's broken tower?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

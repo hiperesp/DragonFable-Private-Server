@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Level 15 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1257

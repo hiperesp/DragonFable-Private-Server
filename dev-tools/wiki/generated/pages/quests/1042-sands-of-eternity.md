@@ -2,6 +2,8 @@
 
 Make your way to confront Sek Duat!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

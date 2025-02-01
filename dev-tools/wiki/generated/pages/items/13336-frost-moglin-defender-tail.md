@@ -2,6 +2,8 @@
 
 Your Frost Moglin friends crafted this tail as a thank you for everything you've done for them. It's a reminder that you are a hero to them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13336

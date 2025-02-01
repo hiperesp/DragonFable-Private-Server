@@ -2,6 +2,8 @@
 
 The edges of this blade have been sheared into razor-sharpness solely through the power of the wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1328

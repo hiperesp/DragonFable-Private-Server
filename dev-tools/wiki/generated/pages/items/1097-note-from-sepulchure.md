@@ -2,6 +2,8 @@
 
 It reads: "Drakath, well done obtaining the wind orb. Pirates blockade surrounding Sho Nuff. You have to find your own way off the island,"... SO he must still be on the island, but WHERE?! (you may sell this note)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1097

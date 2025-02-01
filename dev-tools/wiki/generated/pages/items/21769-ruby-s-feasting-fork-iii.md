@@ -2,6 +2,8 @@
 
 This large but lightweight fork is but one of Ruby's many tools of cookery. Perfect for use in eating, fighting, and both at the same time.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21769

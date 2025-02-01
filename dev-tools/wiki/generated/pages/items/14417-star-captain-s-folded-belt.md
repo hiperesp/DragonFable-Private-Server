@@ -2,6 +2,8 @@
 
 This belt was found folded at the bottom of the trunk. Obviously it was cared for very well if the person who put it in there took the time to fold a belt. This requires a Sta...erm...Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14417

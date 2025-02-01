@@ -2,6 +2,8 @@
 
 Owls have blessed this staff to help you defeat your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 485

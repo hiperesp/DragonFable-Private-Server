@@ -2,6 +2,8 @@
 
 Lhe'Shyiac's Holy Throne of the Makers! Or well, part of it, anyway. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21745

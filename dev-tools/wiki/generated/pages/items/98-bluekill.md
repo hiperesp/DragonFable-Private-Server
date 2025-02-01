@@ -2,6 +2,8 @@
 
 Blue, broad and bulky, this blade batters with bulk.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 98

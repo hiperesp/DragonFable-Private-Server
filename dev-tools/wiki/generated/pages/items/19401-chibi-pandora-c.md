@@ -2,6 +2,8 @@
 
 This mini Pandora will come along for the ride on your adventures. This is the corrupted version! Pretty cool! Proof of victory over Pandora's Gauntlet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19401

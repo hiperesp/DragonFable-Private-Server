@@ -2,6 +2,8 @@
 
 This replica of the axe used by the Shadowfire Knight was created by Ashendal. It is enchanted to occasionally deal fire damage over time! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14391

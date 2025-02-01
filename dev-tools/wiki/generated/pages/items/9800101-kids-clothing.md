@@ -2,6 +2,8 @@
 
 Stuff a normal kid would wear
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800101

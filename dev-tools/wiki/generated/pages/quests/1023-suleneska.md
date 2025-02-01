@@ -2,6 +2,8 @@
 
 A ragtag camp of wind elves and magic users... there more than meets the eye here.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

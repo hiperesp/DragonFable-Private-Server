@@ -2,6 +2,8 @@
 
 A cape of darkness, woven through with icy metal for protection. Forged for this 2013's Black Friday warriors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11023

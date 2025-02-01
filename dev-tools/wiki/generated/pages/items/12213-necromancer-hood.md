@@ -2,6 +2,8 @@
 
 This hood hides your face from prying eyes. It's also great at keeping dust out. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12213

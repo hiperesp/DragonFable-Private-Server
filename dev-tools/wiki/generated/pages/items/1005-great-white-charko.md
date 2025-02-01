@@ -2,6 +2,8 @@
 
 This is the most dangerous Charko found in the seas near Sho Nuff Island. Many pirates owe their wooden legs, hands, faces, and spleens to this eternally hungry little guy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1005

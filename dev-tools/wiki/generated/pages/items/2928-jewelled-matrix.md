@@ -2,6 +2,8 @@
 
 Lim has arranged the jewels in the hilt of this blade to take optimal advantage of the dark energy matrix which overlays Lore. Anywhere you go, this blade can tap into it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2928

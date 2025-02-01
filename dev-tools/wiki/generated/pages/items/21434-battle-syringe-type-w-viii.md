@@ -2,6 +2,8 @@
 
 From the laboratory of Infinite Terror comes a prototype syringe that has been adapted for battle purposes! Please note: The liquid inside is not intended for hero consumption. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21434

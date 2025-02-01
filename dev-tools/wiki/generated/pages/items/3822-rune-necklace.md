@@ -2,6 +2,8 @@
 
 A carved replica of an ancient Chaosweaver rune dangles off this necklace.  You're not sure what it means, but it pulses with a dark power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3822

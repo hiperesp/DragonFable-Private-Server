@@ -2,6 +2,8 @@
 
 This beautiful vase will sell for a tidy profit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14511

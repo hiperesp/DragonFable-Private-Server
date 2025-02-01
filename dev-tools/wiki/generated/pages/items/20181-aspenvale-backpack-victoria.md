@@ -2,6 +2,8 @@
 
 A standard issue backpack for Aspenvale Academy students! It has a crown-shaped charm attached to it that Victoria gave to you after your QuestVenture!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20181

@@ -2,6 +2,8 @@
 
 Someone copied the plans of the Judgment Wheel and made a charm shaped like it.  Even the shape is powerful, and this charm will add to your endurance! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3821

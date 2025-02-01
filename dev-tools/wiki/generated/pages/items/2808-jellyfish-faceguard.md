@@ -2,6 +2,8 @@
 
 No enemies will want to punch you in the mouth with THIS on!  Dragon Amulet required.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2808

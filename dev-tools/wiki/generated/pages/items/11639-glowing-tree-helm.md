@@ -2,6 +2,8 @@
 
 A helm crafted by Yashta from a Glow Tree sapling from Pellow Village. It seems he may have many talents! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11639

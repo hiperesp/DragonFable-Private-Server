@@ -2,6 +2,8 @@
 
 This ancient relic of the ice elves was said to have been worn by a legendary hero of the past... who succumbed to darkness and sparked the downfall of their once proud empire. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21783

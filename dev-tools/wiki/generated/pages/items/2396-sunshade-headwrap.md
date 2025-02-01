@@ -2,6 +2,8 @@
 
 It is HOT in the Sandsea.  If you wet this then wrap it around your head, not only will it cool you off, but you can wring it out to provide a drink of water.  So efficient!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2396

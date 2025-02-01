@@ -2,6 +2,8 @@
 
 Big Daddy found the devious devil behind the spam! It's time to take them down!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Proof of accomplishment in the Swordhaven front of the Proclamation War. Used to create rewards.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19272

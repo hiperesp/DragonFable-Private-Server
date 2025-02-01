@@ -2,6 +2,8 @@
 
 A golden axe of ancient design, harnessing the power of the elements. Visit the Black Market Moglin to upgrade this weapon. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20994

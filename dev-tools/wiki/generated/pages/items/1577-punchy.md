@@ -2,6 +2,8 @@
 
 Meet Punchy. Punchy may take a lot of hits but he doesn't take them lying down. This rare holiday pet has a chance of STUNNING his target for 1 round!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1577

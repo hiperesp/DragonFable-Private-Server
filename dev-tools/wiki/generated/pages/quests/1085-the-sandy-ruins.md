@@ -2,6 +2,8 @@
 
 Dust and sand collect in the halls.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

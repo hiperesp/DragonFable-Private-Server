@@ -2,6 +2,8 @@
 
 This sleepy Sloth will come along for the ride on your adventures. Comfy! Proof of victory over the Sloth challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19086

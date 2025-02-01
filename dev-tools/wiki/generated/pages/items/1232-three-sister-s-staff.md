@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 24 or higher to create. This staff design was made to honor the three sisters of the past, present and future.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1232

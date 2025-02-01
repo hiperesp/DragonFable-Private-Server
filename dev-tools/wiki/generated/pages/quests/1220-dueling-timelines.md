@@ -2,6 +2,8 @@
 
 Versions of Akriloth from across the timelines have merged! Can you take him out before he escapes the earth that entombed his bones here?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

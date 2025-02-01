@@ -2,6 +2,8 @@
 
 Who would be evil enough to help Baron Au'Mydas escape?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

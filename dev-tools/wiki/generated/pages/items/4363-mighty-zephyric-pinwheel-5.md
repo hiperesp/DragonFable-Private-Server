@@ -2,6 +2,8 @@
 
 The breath of the Wind Avatar courses through the blades of this mighty weapon! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4363

@@ -2,6 +2,8 @@
 
 The Sisters have gone their separate ways! Can you figure out what's causing this rift and help them make up?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

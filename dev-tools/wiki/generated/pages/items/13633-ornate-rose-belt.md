@@ -2,6 +2,8 @@
 
 Anti-magic runes are carved all over the inside of this belt. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13633

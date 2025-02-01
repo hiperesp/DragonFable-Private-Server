@@ -2,6 +2,8 @@
 
 Despite the name, the mask is actually rather quiet. Could be useful for sneaking up on unsuspecting teenagers...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3141

@@ -2,6 +2,8 @@
 
 This blade was made by the Kilguins to reward you for heroism in the war.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2011

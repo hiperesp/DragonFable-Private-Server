@@ -2,6 +2,8 @@
 
 Forged with ice and water, this blade is favored by pirates.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 342

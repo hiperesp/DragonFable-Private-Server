@@ -2,6 +2,8 @@
 
 Who would build a scale model of Lore?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

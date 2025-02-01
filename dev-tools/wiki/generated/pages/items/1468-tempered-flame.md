@@ -2,6 +2,8 @@
 
 This dagger is built from a special material of combined fire and glass. Originally this material was used to make glasses that keep your tea warm, but people kept burning themselves. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1468

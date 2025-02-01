@@ -2,6 +2,8 @@
 
 Those who wear the Ashened Veil are said to be possessed by the burning fires of elementals. Surely that's just a legend, though? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22204

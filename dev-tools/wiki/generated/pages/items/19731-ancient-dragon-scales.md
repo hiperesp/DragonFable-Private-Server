@@ -2,6 +2,8 @@
 
 A small collection of dragon scales. Can be used to upgrade the Ancient and Replica Dragonlord helms. Proof of victory over the Inevitable Equilibrium challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19731

@@ -2,6 +2,8 @@
 
 A standard issue backpack for Aspenvale Academy students! It has a Pawprint-shaped charm attached to it that Aria made for you after your QuestVenture!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20179

@@ -2,6 +2,8 @@
 
 A dagger magically crafted from a collection of Wind-infused Morganite. On special, increases your Avd and Defenses. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21681

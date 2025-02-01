@@ -2,6 +2,8 @@
 
 A band of pirates devout to Nature armed themselves with these blessed weapons before embarking on their final voyage about their ship, The Earthvessel. They're gone now, but their weapons remain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19909

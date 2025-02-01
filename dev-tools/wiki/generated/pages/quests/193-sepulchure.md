@@ -2,6 +2,8 @@
 
 You have been asked to investigate the disturbance high in the mountains of Sho Nuff Island.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 What is worse than an angry hydra? A rabid hydra, frothing at the mouth and ready to attack at the slightest provocation!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2277

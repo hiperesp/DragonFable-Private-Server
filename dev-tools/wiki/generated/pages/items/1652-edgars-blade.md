@@ -2,6 +2,8 @@
 
 The blade of the Necromantress Vayle's undead brother, this powerful weapon is now in your hands.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1652

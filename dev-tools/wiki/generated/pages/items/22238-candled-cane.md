@@ -2,6 +2,8 @@
 
 Why carry a simple torch, when you can light up your way with style! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22238

@@ -2,6 +2,8 @@
 
 It's time for a farewell tea party! Yay...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

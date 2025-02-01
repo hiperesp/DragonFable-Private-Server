@@ -2,6 +2,8 @@
 
 Once used by the Braughlmurk Paladin Order, this paladin's helm was reforged by Ennwen for you! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21914

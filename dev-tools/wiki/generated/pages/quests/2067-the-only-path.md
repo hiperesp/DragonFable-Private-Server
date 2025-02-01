@@ -2,6 +2,8 @@
 
 After your successful assault on the airship, rest, recuperate, and plan your next steps with your allies...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This blade once belonged to Janus. Be careful it doesn't turn on you like the previous owner turned on his comrades!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11454

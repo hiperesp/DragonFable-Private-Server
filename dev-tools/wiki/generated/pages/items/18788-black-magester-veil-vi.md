@@ -2,6 +2,8 @@
 
 A formal piece of headgear used by male members of the Magesterium. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18788

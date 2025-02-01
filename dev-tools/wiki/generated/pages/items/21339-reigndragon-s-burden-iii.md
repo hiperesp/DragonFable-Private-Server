@@ -2,6 +2,8 @@
 
 This cape of flowing lights and bells even comes with a handy bag for gifts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21339

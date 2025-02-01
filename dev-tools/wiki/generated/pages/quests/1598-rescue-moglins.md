@@ -2,6 +2,8 @@
 
 Some of the frost moglins that were gathering wood for the purpose of fortifying Frostvale have been stranded and surrounded!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

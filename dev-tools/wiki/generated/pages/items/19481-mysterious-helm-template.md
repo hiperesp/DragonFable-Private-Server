@@ -2,6 +2,8 @@
 
 This design for an intricate looking helm was found among the smoldering remains of an invading elemental from the Swordhaven Rift. One can be used in the future to create a special reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19481

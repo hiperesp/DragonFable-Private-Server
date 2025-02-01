@@ -2,6 +2,8 @@
 
 See how the fates of Theano and Belle play out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This blunt instrument is made from the skull of one of the less dangerous but more sturdy animals of the plains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 172

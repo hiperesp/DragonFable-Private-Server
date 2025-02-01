@@ -2,6 +2,8 @@
 
 At first glance, this staff resembles the lost Glorystaff but upon closer inspection it's clear that this staff's creator intended it as a mockery of the original. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1605

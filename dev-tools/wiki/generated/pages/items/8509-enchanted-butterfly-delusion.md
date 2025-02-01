@@ -2,6 +2,8 @@
 
 A dagger forged by the infamous Rogue of Light!. Imbued with even more wind essence!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8509

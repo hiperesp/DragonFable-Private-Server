@@ -2,6 +2,8 @@
 
 The Cauldron Sisters are back and they each have their own ideas for what makes the best candy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

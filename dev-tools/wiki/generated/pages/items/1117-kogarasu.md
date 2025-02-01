@@ -2,6 +2,8 @@
 
 This blade was designed with an odd curve. The unexpected shape of the blade tends to confuse other traditionally trained sword-fighters giving you a deadly edge. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1117

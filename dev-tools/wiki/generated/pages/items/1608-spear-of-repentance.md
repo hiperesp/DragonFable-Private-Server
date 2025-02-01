@@ -2,6 +2,8 @@
 
 This staff was once used to slay Murskoch, the Plague Carrier. The monster's plague has permanently soiled the spear, but given the spear the ability to focus magic energies... so it's not all bad, I guess.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1608

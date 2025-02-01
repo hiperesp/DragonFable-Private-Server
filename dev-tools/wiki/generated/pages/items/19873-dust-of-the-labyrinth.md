@@ -2,6 +2,8 @@
 
 A mysterious dust that seems to drift as a clump in ever-shifting directions. Proof of victory over Escherion and the Chaos Hydra! Used to upgrade the Staff of Inversion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19873

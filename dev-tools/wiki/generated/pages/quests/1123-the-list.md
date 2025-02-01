@@ -2,6 +2,8 @@
 
 With Frostvale and Croft next to one another it's time to bring the magic of the Sisters' candy to the cheer of Frostval!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

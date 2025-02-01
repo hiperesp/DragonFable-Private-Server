@@ -2,6 +2,8 @@
 
 This replica of the staff used by the Irismancer was created by Ashendal. It is enchanted to occasionally increase your BtH! Eye see you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14379

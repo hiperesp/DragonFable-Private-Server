@@ -2,6 +2,8 @@
 
 The heart in the center of this scythe beats eternally. Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8699

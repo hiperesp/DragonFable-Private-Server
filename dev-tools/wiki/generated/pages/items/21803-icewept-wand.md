@@ -2,6 +2,8 @@
 
 Forged from the remains of ice elementals and imbued with the magic of the elusive frost fairies, this wand is as beautiful and deadly as the coldest winter night. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21803

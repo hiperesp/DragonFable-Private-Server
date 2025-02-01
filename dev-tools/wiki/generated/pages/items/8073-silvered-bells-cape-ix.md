@@ -2,6 +2,8 @@
 
 The golden bells send forth silvery peals of ringing as you rush off to save the day! Happy Frostval, 2012! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8073

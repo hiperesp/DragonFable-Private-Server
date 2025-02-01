@@ -2,6 +2,8 @@
 
 Guaranteed to keep your ears warm! Happy Frostval, 2012!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8061

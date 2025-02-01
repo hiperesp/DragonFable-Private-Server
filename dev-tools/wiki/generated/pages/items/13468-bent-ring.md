@@ -2,6 +2,8 @@
 
 Though the loop was once huge, sharp dragon teeth have bent it enough to make it fit your finger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13468

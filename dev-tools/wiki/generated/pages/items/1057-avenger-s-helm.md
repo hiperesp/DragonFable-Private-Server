@@ -2,6 +2,8 @@
 
 Long ago there was an order of evil knights who swore to defend the worlds most powerful elemental dark items from all danger. These knights attempted to keep light balanced with darkness, but these knights became lost to the dark. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1057

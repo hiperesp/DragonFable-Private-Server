@@ -2,6 +2,8 @@
 
 This cape was handmade by Thursday. It provides defense against darkness and a +1 to hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 653

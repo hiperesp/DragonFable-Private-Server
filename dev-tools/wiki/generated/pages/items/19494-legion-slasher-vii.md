@@ -2,6 +2,8 @@
 
 An otherworldly weapon that brings with it a sense of awe and dread! Beware the Legion!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19494

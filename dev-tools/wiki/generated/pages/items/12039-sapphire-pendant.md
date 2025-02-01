@@ -2,6 +2,8 @@
 
 The blue stone pulses when magic is near.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12039

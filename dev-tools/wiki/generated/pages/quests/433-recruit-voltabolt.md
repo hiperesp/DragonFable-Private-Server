@@ -2,6 +2,8 @@
 
 Theres got to be some way to get some more help.  Can Dr. Voltabolt possibly offer any?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

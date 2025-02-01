@@ -2,6 +2,8 @@
 
 Asandar's holy glaive. This item was entrusted to you by Asandar for your bravery. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5770

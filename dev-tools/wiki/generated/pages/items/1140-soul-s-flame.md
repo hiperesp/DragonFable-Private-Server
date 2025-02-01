@@ -2,6 +2,8 @@
 
 You can only use this axe if you have a soul, as it feeds from its spark. You shouldn't have sold your soul to that horned fellow, whoops!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1140

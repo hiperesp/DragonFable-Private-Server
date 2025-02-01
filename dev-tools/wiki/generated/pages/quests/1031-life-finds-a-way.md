@@ -2,6 +2,8 @@
 
 Dive into the desert and try to find Sek Duat!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

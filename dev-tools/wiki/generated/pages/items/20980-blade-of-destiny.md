@@ -2,6 +2,8 @@
 
 You have helped Ash complete his quest to become a Knight! The Blade of Destiny is yours. Has a chance on hit to reduce your damage taken by 5% for 2 turns.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20980

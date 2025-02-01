@@ -2,6 +2,8 @@
 
 A sturdy satchel, it has loops and pouches for all the tools a blacksmith might need. It's empty though...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6942

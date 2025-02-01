@@ -2,6 +2,8 @@
 
 An aeromancer took a short length of ribbon and gave it to a small wind elemental to play with.  When she saw what a pretty shape it made, she kept it that way.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2877

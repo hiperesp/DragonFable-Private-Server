@@ -2,6 +2,8 @@
 
 While the Magesterium purports to give each Magester equal standing in the eyes of the Shapeless, exemplary Magesters are still awarded with certain trinkets of status, such as this decorative cane. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21831

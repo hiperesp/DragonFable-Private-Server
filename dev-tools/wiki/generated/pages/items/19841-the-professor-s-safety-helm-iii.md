@@ -2,6 +2,8 @@
 
 This helm appears to be the result of combined magic and technological engineering. It certainly makes you feel very safe, beside the occasional buzzing noise. Proof of victory over the Professor!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19841

@@ -2,6 +2,8 @@
 
 The inscription reads -- property of the royal Linus family. Please take to Grams petshop if found. This item seems VERY interesting.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 551

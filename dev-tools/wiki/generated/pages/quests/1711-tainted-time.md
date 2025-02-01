@@ -2,6 +2,8 @@
 
 Doctor When and En & Tropy have one thing in common...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

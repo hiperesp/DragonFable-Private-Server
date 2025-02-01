@@ -2,6 +2,8 @@
 
 The blades of these daggers are honed from volcanic rock.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2594

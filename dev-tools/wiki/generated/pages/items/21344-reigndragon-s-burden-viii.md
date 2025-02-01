@@ -2,6 +2,8 @@
 
 This cape of flowing lights and bells even comes with a handy bag for gifts! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21344

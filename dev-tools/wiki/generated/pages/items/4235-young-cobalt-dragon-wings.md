@@ -2,6 +2,8 @@
 
 Icy blue wings to carry you through your most harrowing, imaginative adventures.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4235

@@ -2,6 +2,8 @@
 
 A mysterious sigil crafted from Timeworn Teleshards. Proves mastery of the Timeworn Matrix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17700

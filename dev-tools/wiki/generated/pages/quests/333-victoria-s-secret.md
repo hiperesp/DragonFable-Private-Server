@@ -2,6 +2,8 @@
 
 You wouldn't think a military fort would be a place of secrets, but Sir Ano sure has managed to keep your assistance quiet long enough.   Who is to say that others don't have secrets of their own?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

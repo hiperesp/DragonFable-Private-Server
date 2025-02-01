@@ -2,6 +2,8 @@
 
 Upgrade your Escherion Set!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11820

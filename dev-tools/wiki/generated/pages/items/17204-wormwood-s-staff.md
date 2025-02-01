@@ -2,6 +2,8 @@
 
 This staff still contains a portion of Wormwood's power. Perhaps you could summon more Disease Elementals with it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17204

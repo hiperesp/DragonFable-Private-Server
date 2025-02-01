@@ -2,6 +2,8 @@
 
 Only a Dragon Amulet can lift the curse on this dagger. +2 to hit is added to all damage done with the Burning Curse.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 274

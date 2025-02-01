@@ -2,6 +2,8 @@
 
 It's smelly and dirty and... do you really want this?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5994

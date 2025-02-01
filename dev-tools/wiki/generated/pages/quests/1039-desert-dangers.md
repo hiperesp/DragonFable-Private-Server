@@ -2,6 +2,8 @@
 
 Clear out the surrounding desert!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

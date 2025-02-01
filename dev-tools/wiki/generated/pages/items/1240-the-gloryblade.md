@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 30 or higher to create. This blade will supposedly bring glory to any who wield it, but do you believe everything that you read?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1240

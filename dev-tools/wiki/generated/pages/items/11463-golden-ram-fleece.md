@@ -2,6 +2,8 @@
 
 Embroidered with the initials J.A. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11463

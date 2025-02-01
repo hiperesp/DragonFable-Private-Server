@@ -2,6 +2,8 @@
 
 This is the type of staff carried by those who practice natural magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 188

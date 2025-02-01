@@ -2,6 +2,8 @@
 
 You're not quite sure what this is a mask of.... Happy Mogloween 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6056

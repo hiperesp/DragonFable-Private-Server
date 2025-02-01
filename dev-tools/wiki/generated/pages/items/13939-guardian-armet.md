@@ -2,6 +2,8 @@
 
 This armet is the signature cover of a Guardian. Wear it with pride as all others will know your dedication to protecting all those in need!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13939

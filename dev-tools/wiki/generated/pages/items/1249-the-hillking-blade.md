@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 35 or higher to create. This sword's design came from a clan of dwarves who chose to live under hills instead of mountains. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1249

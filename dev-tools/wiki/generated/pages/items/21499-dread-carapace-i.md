@@ -2,6 +2,8 @@
 
 X wpkt qtvjc rgtpixcv iwt ctl bdchitgh! Bn gthtpgrw wph ats bt id rgtpit gpgt, ctktg-qtudgt-httc rgtpijgth! Etgwpeh iwt pchltgh axt xc iwtxg vtctixr bpztje!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21499

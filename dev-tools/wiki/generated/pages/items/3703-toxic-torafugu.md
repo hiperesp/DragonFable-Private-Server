@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Only the most highly trained elven smith can create this highly toxic weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3703

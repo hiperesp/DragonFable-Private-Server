@@ -2,6 +2,8 @@
 
 Nothing to be afraid of, it's just a mask. Just a mask...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21275

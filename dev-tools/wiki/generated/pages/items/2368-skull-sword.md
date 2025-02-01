@@ -2,6 +2,8 @@
 
 Who would stick a perfectly good sword in a stone like that?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2368

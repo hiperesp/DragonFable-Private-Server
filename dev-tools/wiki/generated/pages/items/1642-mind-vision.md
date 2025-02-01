@@ -2,6 +2,8 @@
 
 A staff that was once used by a school of magicians who drew their power from the night. Recovered by Yulgar, this staff was purified by Artix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1642

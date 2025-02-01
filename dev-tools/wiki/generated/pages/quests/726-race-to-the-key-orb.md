@@ -2,6 +2,8 @@
 
 The Nature half of the Earth Orb is in peril. Will you be able to find Fae and Nature Orb in time? Or will you be struck down by assassins?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

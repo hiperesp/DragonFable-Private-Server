@@ -2,6 +2,8 @@
 
 Who knew the Ateala had this sitting around? Fire the Thrithril!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This sword seems gloomy, so gloomy that you swear those are red eyes on the cross piece.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 476

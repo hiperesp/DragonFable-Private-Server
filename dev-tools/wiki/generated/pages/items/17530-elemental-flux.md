@@ -2,6 +2,8 @@
 
 A mysterious ever-changing glob taken from the defeated Sioftra!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17530

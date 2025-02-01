@@ -2,6 +2,8 @@
 
 This magical bladed staff is normally used by the rare breed of wizards known as Romance-mancers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 722

@@ -2,6 +2,8 @@
 
 Learn the story of Hero's Heart Day and help Big Daddy spread the love, baby!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A cloak clasp formed from natural wood, gifted to you by Niki. It seems this style was first created by her, and is now widely worn by Clawkin around Greenguard. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20701

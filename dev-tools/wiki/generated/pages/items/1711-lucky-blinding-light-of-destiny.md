@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The holy Axe of Artix has been purified!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1711

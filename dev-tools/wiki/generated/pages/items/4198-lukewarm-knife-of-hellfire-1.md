@@ -2,6 +2,8 @@
 
 This might burn if you hold it for too long.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4198

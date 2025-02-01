@@ -2,6 +2,8 @@
 
 You collected all of the items you needed to. Is Bubble ready with her items?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

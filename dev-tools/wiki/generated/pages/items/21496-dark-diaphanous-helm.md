@@ -2,6 +2,8 @@
 
 A dark celebration of an ancient underworld entity, in time, perhaps you will feel the veil stretch thinner the more you are bound to these relics. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21496

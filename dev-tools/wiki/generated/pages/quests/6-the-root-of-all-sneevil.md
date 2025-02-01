@@ -2,6 +2,8 @@
 
 Find the lair of the box stealing thieves and recover the lost treasure!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 That is one cold shoulder...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

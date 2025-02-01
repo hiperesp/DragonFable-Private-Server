@@ -2,6 +2,8 @@
 
 A legendary weapon embodying the complete and unending power of the earth. It contains both the pure energy of Nature and the molten rage of Stone! Click on it to change elements! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5480

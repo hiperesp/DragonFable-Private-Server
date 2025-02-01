@@ -2,6 +2,8 @@
 
 This replica of the staff favored by Warlic was created by Ashendal. It is enchanted to occasionally heal your mana, just like how Warlic creates mana instead of using it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14273

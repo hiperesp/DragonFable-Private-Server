@@ -2,6 +2,8 @@
 
 This is probably better than broken candy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11246

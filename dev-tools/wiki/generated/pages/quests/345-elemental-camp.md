@@ -2,6 +2,8 @@
 
 See if you can sneak in and hit them where it hurts!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

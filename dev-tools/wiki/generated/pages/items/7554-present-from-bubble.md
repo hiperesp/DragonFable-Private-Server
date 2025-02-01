@@ -2,6 +2,8 @@
 
 It looks like a tootsie roll... but it's covered with sand. You... you don't want to touch it. Gross.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7554

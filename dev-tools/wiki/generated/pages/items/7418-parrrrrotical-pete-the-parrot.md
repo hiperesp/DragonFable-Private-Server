@@ -2,6 +2,8 @@
 
 Squawk!  This is the perfect pet for land-lubbers or sea-dogs alike!  Watch as a flurry of foliage is flung at your opponents as Parrrrrotical Pete the Parrot pet defends you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7418

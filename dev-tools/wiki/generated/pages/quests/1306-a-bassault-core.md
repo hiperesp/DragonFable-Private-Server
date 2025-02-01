@@ -2,6 +2,8 @@
 
 There was Bassault here a while ago, right? Maybe there is another one?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

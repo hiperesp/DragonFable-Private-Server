@@ -2,6 +2,8 @@
 
 This is a plea for help from one of the many many pirates stranded on one of the many many islands around Osprey Cove. Collect the whole set or sell them to collectors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 985

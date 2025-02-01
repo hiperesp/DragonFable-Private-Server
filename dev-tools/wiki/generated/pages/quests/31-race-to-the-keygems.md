@@ -2,6 +2,8 @@
 
 You find yourself in the hidden catacombs beneath the Willowshire Guardian Tower, racing against the minions of the dragon Gorgok to one of four magical keygems.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

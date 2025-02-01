@@ -2,6 +2,8 @@
 
 The heart of the Kingdom tried to keep the Chaos within at bay... but it emerged nonetheless. And now he remains.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

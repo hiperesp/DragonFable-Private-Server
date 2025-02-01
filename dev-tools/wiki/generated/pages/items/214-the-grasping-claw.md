@@ -2,6 +2,8 @@
 
 This wooden staff is topped by a horrible shrunken monster's claw. It's been so deformed by age and magic that you can no longer tell what kind of monster it was.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 214

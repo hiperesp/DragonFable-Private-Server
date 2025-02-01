@@ -2,6 +2,8 @@
 
 Bwwaaaak, Wyvern wants a cracker.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12569

@@ -2,6 +2,8 @@
 
 A ring of intertwined metal and stone, these rings are used as foci for the most powerful of the Rose Magi. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11723

@@ -2,6 +2,8 @@
 
 You have broken the army of the ice dragon. Finally, you stand face to face with Glaisaurus and his rider, the powerful Dragonlord Frostscythe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

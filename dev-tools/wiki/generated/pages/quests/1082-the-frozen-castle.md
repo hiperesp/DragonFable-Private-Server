@@ -2,6 +2,8 @@
 
 Frost covers the walls.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

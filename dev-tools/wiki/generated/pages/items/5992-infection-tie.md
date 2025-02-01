@@ -2,6 +2,8 @@
 
 You really shouldn't wear this....  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5992

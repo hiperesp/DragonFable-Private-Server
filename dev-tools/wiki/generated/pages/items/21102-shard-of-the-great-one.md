@@ -2,6 +2,8 @@
 
 This sphere shines brightly with blue-green light. You feel as though you could stare into its clouded brown core forever...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21102

@@ -2,6 +2,8 @@
 
 This red and black polished sphere of gnarled flesh and bone seems to warm within your grasp. This otherworldly Customization Catalyst unlocks the Consumed customization option for Kathool Adept Armor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20247

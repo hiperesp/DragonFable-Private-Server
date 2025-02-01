@@ -2,6 +2,8 @@
 
 Found in a mysterious cave on Dragesvard's glacier, this Ice Hat really helps you keep your cool!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1768

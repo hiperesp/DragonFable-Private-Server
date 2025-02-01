@@ -2,6 +2,8 @@
 
 A small stone, carved with many claws of different sizes. Proof of victory over the Void Reunion challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21985

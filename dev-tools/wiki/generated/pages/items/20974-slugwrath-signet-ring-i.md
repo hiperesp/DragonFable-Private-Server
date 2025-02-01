@@ -2,6 +2,8 @@
 
 It's hard to tell what emblem this signet ring once bore. From the worn engraving, you can make out eight stars surrounding a face with indistinguishable features. Proof of your victory over Drakath Slugwrath.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20974

@@ -2,6 +2,8 @@
 
 Suggested by Reis!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7386

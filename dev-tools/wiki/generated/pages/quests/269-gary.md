@@ -2,6 +2,8 @@
 
 Unravel the secrets of the Ice Elf ruins... and why we named the quest Gary.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Mourn the passing of the Blue Mage while time allows.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

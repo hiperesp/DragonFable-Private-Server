@@ -2,6 +2,8 @@
 
 Compete against fellow players in this tournament to earn a highly prized Aeris PvP Trophy.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

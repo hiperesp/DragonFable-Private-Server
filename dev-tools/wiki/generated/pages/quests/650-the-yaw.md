@@ -2,6 +2,8 @@
 
 A super-strong snake! Will you be able to get out of this tight squeeze?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

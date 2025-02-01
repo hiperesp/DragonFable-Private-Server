@@ -2,6 +2,8 @@
 
 This helmet was left behind in the upturned earth when Myalos left. While ancient, it still seems to be functional. Neat! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20214

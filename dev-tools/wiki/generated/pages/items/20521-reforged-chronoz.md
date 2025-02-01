@@ -2,6 +2,8 @@
 
 Harness the power of time data! Although reforged by unknown means, this version of ChronoZ is just as effective as when it was first made.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20521

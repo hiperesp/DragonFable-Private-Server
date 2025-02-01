@@ -2,6 +2,8 @@
 
 This dagger once belonged to Mykel Myarz, squire to the great and terrible warrior Jaysun. It was said long ago that anyone who holds his power would be impossible to kill.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 498

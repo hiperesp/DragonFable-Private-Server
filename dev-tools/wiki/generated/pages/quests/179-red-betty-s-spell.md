@@ -2,6 +2,8 @@
 
 The Wind Pearl has carried Darkath to the Red Betty in Osprey Cove harbor, and won't allow him to leave? What could it all mean?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

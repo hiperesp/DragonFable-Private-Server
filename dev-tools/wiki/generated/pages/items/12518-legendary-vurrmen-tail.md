@@ -2,6 +2,8 @@
 
 Whoa! This is it! The most pristine specimen of a Vurrmen tail you've ever laid eyes on! It moves in just the right way for a cat to play with! It even has a faint aroma of tuna.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12518

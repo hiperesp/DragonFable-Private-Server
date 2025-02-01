@@ -3,6 +3,8 @@
 A fang wrested from a massive hydra! Maybe you can find some way to use it...
 (Used to improve the Forgotten Spear!)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21704

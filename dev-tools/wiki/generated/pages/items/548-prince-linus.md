@@ -2,6 +2,8 @@
 
 Armed with the royal shrinking ray, your tiny penguin pal has a 2% chance to SHRINK your opponent!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 548

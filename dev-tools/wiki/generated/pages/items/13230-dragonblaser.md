@@ -2,6 +2,8 @@
 
 This weapon seems to be made from a Dragonslayer's polearm as well as an energy blade? Maybe it's a future Dragonslayer weapon? Whatever it is it'll do more damage to Dragons and Reptiles of all kinds!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13230

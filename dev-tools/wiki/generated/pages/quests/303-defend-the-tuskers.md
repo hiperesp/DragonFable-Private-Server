@@ -2,6 +2,8 @@
 
 Defend the Tusker nomad camp from Aisha's attacking army!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

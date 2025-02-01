@@ -2,6 +2,8 @@
 
 Eye for an eye. The evil must be purged.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

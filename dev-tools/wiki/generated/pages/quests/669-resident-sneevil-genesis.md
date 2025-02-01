@@ -2,6 +2,8 @@
 
 *More* monsters?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

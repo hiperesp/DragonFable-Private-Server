@@ -2,6 +2,8 @@
 
 This cosmetic weapon will let your weapon take on the appearance of Braytes San's Globus Lux!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19948

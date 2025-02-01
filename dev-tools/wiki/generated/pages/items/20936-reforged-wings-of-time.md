@@ -2,6 +2,8 @@
 
 These wings were recreated using current materials based off of a sketch found in long lost scrolls. Whatever their original functionality may have been, they're only decorative now. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20936

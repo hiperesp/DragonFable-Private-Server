@@ -2,6 +2,8 @@
 
 These are tiny versions of Dragonscale boots, bronzed by proud parents. Etched into the heel of one you read: Galanoth, Age 1
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 166

@@ -3,6 +3,8 @@
 A beautiful weapon and instrument said to be attuned to its wielder's wishes. Although it is silent for you now, perhaps one day, you'll hear its song as it slices your foes. Proof of victory over Discordia.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20417

@@ -2,6 +2,8 @@
 
 Only a few of these types of helms have been recovered from the endless Sandsea. Forged for the warriors who braved Black Friday, 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11002

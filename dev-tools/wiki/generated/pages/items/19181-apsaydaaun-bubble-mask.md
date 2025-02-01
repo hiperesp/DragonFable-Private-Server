@@ -2,6 +2,8 @@
 
 Don't hold a grudge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19181

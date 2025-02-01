@@ -2,6 +2,8 @@
 
 This workmanship of this decorative helm is incredibly intricate!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9411

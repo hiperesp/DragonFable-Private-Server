@@ -2,6 +2,8 @@
 
 This weapon has absorbed some of the energy emanating from the Equilibrium Gate!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4997

@@ -2,6 +2,8 @@
 
 The Cryptics need your help protecting the Lens from invading desert monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

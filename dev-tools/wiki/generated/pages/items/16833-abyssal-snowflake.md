@@ -2,6 +2,8 @@
 
 This black snowflake seems to absorb any light that hits it. You could barely pick it out of a pile of dark snowflakes, but this one seems special. Who knows, maybe it could fetch a nice price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16833

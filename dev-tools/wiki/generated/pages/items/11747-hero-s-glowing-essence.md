@@ -2,6 +2,8 @@
 
 The true essence of a hero woven with strands of light into the perfect blade to smite undead!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11747

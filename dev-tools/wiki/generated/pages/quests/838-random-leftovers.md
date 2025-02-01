@@ -2,6 +2,8 @@
 
 Mmmmm, leftover turducken!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

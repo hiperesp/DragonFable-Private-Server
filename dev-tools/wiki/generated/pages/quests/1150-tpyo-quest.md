@@ -2,6 +2,8 @@
 
 wat si hapenin?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

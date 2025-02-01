@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. It was crafted from the claw of a highly toxic creature of unknown origin. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 658

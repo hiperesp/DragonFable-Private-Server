@@ -3,6 +3,8 @@
 Dont underestimate the power of sticking a red-hot blade into an opponents face.  Yulgar knew this, and thats why he made this dagger the way he did.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2341

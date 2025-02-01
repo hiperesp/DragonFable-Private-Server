@@ -2,6 +2,8 @@
 
 You didn't know the Kraken in "The Dragon's Secret" was a mommy-kraken, DID YOU?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4488

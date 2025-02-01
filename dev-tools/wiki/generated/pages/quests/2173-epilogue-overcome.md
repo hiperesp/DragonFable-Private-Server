@@ -2,6 +2,8 @@
 
 ...But where is Kass?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

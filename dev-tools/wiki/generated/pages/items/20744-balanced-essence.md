@@ -2,6 +2,8 @@
 
 While supposedly balanced, this small purple glob of... something, is both hot and cold, moving, and not. Proof of victory over The Adjudicator
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20744

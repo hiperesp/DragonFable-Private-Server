@@ -2,6 +2,8 @@
 
 This blade was infused with trithril, making it feel incredibly light in your hands. Its combat durability, however...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22303

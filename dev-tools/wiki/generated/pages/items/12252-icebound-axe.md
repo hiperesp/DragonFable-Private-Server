@@ -2,6 +2,8 @@
 
 This massive axe was found in a cave in the far north. The cursed metal it's forged from seems to draw cold to it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12252

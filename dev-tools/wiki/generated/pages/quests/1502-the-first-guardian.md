@@ -2,6 +2,8 @@
 
 Midway up a mountain, the Ice Gate, and its Guardian, are waiting for you. It's now time to attune yourself to the gate, so you can help recapture of Isathaara and deal with Nivalis once and for all.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

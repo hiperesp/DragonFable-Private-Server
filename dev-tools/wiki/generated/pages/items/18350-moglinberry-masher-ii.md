@@ -2,6 +2,8 @@
 
 This amazing hammer can smash your foes and enemies, and dispense refreshing Moglinberry Juice on demand! This weapon was forged by Dracelix to celebrate Elryn's birthday.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18350

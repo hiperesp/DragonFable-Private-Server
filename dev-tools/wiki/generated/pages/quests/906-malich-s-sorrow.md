@@ -2,6 +2,8 @@
 
 A rare necromantic formula is hidden in Glenham Keep.  Gris has a use for it. Find it, and perhaps other secrets are hidden in the tower.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

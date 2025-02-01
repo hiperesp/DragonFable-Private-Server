@@ -2,6 +2,8 @@
 
 So, you've had pretty much every other element. Time to rock and roll!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

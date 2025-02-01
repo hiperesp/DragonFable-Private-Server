@@ -2,6 +2,8 @@
 
 Riadne has sent you a letter!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

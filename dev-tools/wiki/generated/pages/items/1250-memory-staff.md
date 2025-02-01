@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 35 or higher to create. This staff design is said to focus the part of the mind where your memories are stored. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1250

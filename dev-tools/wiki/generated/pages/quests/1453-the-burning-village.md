@@ -2,6 +2,8 @@
 
 Investigate the strange activity in the town of Entwhistle.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

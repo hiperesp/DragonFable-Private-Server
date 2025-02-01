@@ -2,6 +2,8 @@
 
 This prototype of this scythe, forged by Tokijin, rests in the Hall of Eternal Light. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4357

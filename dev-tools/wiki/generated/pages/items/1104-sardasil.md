@@ -2,6 +2,8 @@
 
 In the ancient language of icedragons, this means "eversharp" ... or did it mean "supper-salt"? Try it with your tongue, if you dare!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1104

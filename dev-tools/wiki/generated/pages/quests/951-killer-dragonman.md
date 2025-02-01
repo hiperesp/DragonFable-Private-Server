@@ -2,6 +2,8 @@
 
 Once an upstanding political figure in town, his defeat in the mayoral race lead to him taking up a life of crime!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

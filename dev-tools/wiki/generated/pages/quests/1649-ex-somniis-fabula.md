@@ -2,6 +2,8 @@
 
 Before the Friday the 13th dawns, you and Uaanta sit down and share stories.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

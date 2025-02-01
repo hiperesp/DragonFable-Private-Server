@@ -2,6 +2,8 @@
 
 Is this really a job for a hero...?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

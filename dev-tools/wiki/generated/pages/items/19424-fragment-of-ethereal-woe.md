@@ -2,6 +2,8 @@
 
 A small blob of white-gold essence, left behind by Pandora in the Arena at the Edge of Time. Proud! Used to create the Elpis cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19424

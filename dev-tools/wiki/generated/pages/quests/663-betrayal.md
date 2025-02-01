@@ -2,6 +2,8 @@
 
 Will you be able to stop Frostscythe now that he's broken Cryozen and absorbed his power?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

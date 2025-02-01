@@ -2,6 +2,8 @@
 
 This corrupted blade seems to be similar to the Unlucky Swords that were found during the first Friday the 13th war. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13535

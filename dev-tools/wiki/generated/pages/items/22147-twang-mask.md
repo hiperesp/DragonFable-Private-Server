@@ -2,6 +2,8 @@
 
 The true face of many a novice's terror.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22147

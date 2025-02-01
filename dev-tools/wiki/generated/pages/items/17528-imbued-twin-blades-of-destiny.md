@@ -2,6 +2,8 @@
 
 Reforged with the power of long-forgotten daggers, the Twin Blades of Destiny are pointier than ever! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17528

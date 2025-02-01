@@ -2,6 +2,8 @@
 
 This sickening blade seems to be holding onto your hand, rather than the other way around. It's nice to be wanted.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1603

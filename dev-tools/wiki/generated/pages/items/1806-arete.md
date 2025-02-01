@@ -2,6 +2,8 @@
 
 Hewn from the Lymcrest valley this heavy dagger can only be wielded by one of great strength and dexterity.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1806

@@ -2,6 +2,8 @@
 
 Styled after the hero of a local legend this helm will make you merry!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4978

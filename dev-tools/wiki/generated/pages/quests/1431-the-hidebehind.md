@@ -2,6 +2,8 @@
 
 A rare, mysterious creature is terrorizing magical creatures around Falconreach. A bounty has been placed on its head. Hunt it down, if you can!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

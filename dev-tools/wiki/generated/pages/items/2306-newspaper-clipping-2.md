@@ -3,6 +3,8 @@
 Ghoulish groupies turn underworld upside-down in hunt for re-animated rockers.
 This items can be used at Valencia's merge shop.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2306

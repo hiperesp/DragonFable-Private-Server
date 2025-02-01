@@ -2,6 +2,8 @@
 
 This surprisingly rigid length of red licorice is good for both smacking foes and snacking! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21711

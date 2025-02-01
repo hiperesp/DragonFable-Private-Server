@@ -2,6 +2,8 @@
 
 Sepulchure. An old foe.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

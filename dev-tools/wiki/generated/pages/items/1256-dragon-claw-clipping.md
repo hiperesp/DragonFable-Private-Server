@@ -2,6 +2,8 @@
 
 Dragon toenail clippings? Ew.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1256

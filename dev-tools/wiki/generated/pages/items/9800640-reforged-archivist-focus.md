@@ -2,6 +2,8 @@
 
 This magic artifact channels your knowledge into tangible attacks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800640

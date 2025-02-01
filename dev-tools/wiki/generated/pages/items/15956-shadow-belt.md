@@ -2,6 +2,8 @@
 
 The belt seems to be made of woven shadows... as you touch it, it seems to pull all the heat out of your hand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15956

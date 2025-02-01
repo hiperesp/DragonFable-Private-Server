@@ -2,6 +2,8 @@
 
 A small self-contained power unit from one of J6's weapons. Proof of victory over J6.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21416

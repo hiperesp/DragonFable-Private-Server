@@ -2,6 +2,8 @@
 
 A simple pack containing just the essentials.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5302

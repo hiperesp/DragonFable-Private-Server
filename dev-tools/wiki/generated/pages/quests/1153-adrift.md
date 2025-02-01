@@ -2,6 +2,8 @@
 
 The Void Ship is partially destroyed, people are injured, food supply is gone... things are not looking well.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

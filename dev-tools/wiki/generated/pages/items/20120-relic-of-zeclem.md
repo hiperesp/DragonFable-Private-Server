@@ -2,6 +2,8 @@
 
 This small scrap of black metal is a remnant of Zeclem's armory. 10 can be used to upgrade DeathKnight and Zeclem's items!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20120

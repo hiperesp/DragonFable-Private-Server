@@ -2,6 +2,8 @@
 
 Far from civilization, a relic of another time stirs.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

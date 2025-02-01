@@ -2,6 +2,8 @@
 
 You want to bite everything while wearing this mask!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20635

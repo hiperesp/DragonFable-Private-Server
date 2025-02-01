@@ -2,6 +2,8 @@
 
 Also known as Pat. The shady remnants of a Doom spirit, following you around on your back! Just try to ignore the whispers.  (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20822

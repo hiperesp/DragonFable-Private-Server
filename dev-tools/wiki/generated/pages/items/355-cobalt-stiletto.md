@@ -2,6 +2,8 @@
 
 This short, thin blade is able to pierce through any armor at a vital point.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 355

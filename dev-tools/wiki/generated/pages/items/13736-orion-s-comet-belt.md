@@ -2,6 +2,8 @@
 
 As thanks for your help Orion has given you one of his many belts. This one seems to be able to hold hundreds of tiny eggs. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13736

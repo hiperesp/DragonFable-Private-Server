@@ -2,6 +2,8 @@
 
 This mask is oddly stretchy...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21178

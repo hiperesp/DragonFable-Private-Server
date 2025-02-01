@@ -2,6 +2,8 @@
 
 Wac wacwac waaaaaaaaac?!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7507

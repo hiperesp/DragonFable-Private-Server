@@ -2,6 +2,8 @@
 
 With the addition of trithril dust, this vial of molten metal glows with a subdued purple hue.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21879

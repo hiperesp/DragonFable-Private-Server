@@ -2,6 +2,8 @@
 
 The only way you're getting this off is by cutting it..
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1000

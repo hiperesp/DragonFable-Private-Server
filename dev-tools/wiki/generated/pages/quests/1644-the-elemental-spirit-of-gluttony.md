@@ -2,6 +2,8 @@
 
 Before you stands Gluttony, an artificial Elemental Spirit born of Pandora's overindulgence.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

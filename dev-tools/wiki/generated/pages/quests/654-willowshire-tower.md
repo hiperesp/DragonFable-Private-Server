@@ -2,6 +2,8 @@
 
 The town of Willowshire is under attack!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The siege around Falconreach has been broken and your dragon has spotted the captured soldiers! Gear up and head into the fog shrouded woods to try and rescue your friends!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

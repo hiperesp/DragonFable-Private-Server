@@ -2,6 +2,8 @@
 
 Crafted in a far-off land, this helm has seen better days.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3010

@@ -2,6 +2,8 @@
 
 CRUSH YOUR ENEMIES WITHOUT AN APPOINTMENT!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6838

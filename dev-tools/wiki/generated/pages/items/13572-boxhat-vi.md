@@ -2,6 +2,8 @@
 
 The birthday hat of the Boxcat, Verlyrus! Your very own box to hide in! Come to think of it, eye holes would have probably been a good idea.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13572

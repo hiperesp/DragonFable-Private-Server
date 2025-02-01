@@ -2,6 +2,8 @@
 
 Hewn from the Stone around the ChaosWeaver temple altar, this staff will slice through the strongest of enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4886

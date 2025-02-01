@@ -2,6 +2,8 @@
 
 In the lair of the MechaYeti, Aius and Gary confront their most dangerous foe yet. But is it too late...?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

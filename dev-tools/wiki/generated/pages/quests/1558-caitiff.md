@@ -2,6 +2,8 @@
 
 Caitiff, the scourge of Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

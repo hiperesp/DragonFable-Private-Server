@@ -2,6 +2,8 @@
 
 Kara is back on her feet, but where to next?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

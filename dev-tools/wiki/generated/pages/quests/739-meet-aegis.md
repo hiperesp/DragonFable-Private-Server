@@ -2,6 +2,8 @@
 
 So pretty, so talented but... will he consider being your Soul-Ally?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This staff was left behind after a nasty break-up. I'm pretty sure they weren't all that honest through that mess.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13594

@@ -2,6 +2,8 @@
 
 This catalyst is a copper and brass contraption, whirring and ticking in your hand with faint glows of blue energy running through it. This Customization Catalyst unlocks the Tempest Catalyst for Ninja and Technomancer.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21532

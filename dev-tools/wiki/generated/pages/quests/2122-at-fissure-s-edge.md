@@ -2,6 +2,8 @@
 
 With The Rose encampment breached, it's up to you to clear the way in pursuit of Jaania and Akanthus.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

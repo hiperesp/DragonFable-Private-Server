@@ -2,6 +2,8 @@
 
 This long amulet swirls freely on your neck. An Elemental Spirit of Mediating is bound to it, allowing the wearer to get out of any situation. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18372

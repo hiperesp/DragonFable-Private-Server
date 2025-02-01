@@ -2,6 +2,8 @@
 
 An item template made by Lanrete, easily molded to fit your desires. Extra Spirit Casts will be consumed by the SoulForge when forging an item.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15721

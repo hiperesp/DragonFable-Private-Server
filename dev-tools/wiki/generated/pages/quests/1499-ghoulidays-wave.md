@@ -2,6 +2,8 @@
 
 An undead beach invasion party! D(r)ive them back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

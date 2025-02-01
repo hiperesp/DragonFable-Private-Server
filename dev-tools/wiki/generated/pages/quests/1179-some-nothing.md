@@ -2,6 +2,8 @@
 
 Shaina has no more nothing to sell to the customers. Venture to a place marked by her on your map and gather some nothing!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

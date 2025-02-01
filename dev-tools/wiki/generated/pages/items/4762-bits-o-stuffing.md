@@ -3,6 +3,8 @@
 All that's left behind is little pieces of fluff and stuffing! :o
 Use this to merge into Ice weapons at the Mayor's Defender's Rares shop!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4762

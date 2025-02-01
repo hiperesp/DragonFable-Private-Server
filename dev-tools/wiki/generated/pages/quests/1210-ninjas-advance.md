@@ -2,6 +2,8 @@
 
 The Ninjas are advancing towards the cave! Stop them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

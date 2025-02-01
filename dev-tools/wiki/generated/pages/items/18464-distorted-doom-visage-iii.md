@@ -2,6 +2,8 @@
 
 The merged embodiment of Doom on Lore, this helm whispers incoherently to you when you wear it. Will you be its next champion? This helm is proof of your victory over Sepulchure and Caitiff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18464

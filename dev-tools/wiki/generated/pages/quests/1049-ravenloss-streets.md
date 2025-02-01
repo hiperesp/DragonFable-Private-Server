@@ -2,6 +2,8 @@
 
 With a large influx of magical creatures... the streets of Ravenloss need some cleaning up.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

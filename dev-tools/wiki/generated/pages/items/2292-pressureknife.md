@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. 2 uses. Great battle dagger and you can check the pressure in your tires.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2292

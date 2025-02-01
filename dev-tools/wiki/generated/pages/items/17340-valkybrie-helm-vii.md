@@ -2,6 +2,8 @@
 
 A helmet said to once be owned by angels who would choose cheese lovers to take to Fetahalla, where the fondue freely flows and the Swiss never runs out. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17340

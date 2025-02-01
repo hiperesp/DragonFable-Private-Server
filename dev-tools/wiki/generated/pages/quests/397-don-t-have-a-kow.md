@@ -2,6 +2,8 @@
 
 Zeuster and Archimoodes have asked that you take the young apprentice magepriests on a field trip to meet their relatives, the cattle of Jeryon.  Be careful, apprentices are known for mischief.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

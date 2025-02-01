@@ -2,6 +2,8 @@
 
 You'll need plenty of reagents in order to successfully cast your transmutation circles and train your mana alchemy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

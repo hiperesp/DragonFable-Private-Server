@@ -2,6 +2,8 @@
 
 This pass through a ravine to the east leads somewhere important by the looks of things.  It's time to find out where it leads.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

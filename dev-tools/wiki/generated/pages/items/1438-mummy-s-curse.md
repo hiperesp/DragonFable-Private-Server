@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The head of this magic staff is a cursed mummy's hand. It shows all your enemies that you hold power over life and death. It also makes an awesome back scratcher. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1438

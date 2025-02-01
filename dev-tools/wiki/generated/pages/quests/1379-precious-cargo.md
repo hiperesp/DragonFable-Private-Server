@@ -2,6 +2,8 @@
 
 Admiral Mazurek wants you to help her with delivering something.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

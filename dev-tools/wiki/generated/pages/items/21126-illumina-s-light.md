@@ -2,6 +2,8 @@
 
 The burning light of Illumina, flaring bright. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21126

@@ -2,6 +2,8 @@
 
 Somewhere over the Rainbow Bridge, the minx fairy children have disappeared, and then the bridge shattered, leaving no way for them to get back! Find the pieces of the bridge to bring them back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

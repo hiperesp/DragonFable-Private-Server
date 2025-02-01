@@ -2,6 +2,8 @@
 
 This experimental weapon has combined several remarkable deep-earth metals and minerals to forge a blade as tough as steel but twice as light!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 398

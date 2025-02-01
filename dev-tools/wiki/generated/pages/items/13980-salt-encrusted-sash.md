@@ -2,6 +2,8 @@
 
 Pulled from the waters of the Bay, this belt is soaked through with salt from the waters. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13980

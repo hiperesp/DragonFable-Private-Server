@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Give a new meaning to "Leet Gear".
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2298

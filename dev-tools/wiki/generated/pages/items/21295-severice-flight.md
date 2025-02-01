@@ -2,6 +2,8 @@
 
 Through fear and awe, those who caught sight of the great iced beasts would seek to echo its image. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21295

@@ -2,6 +2,8 @@
 
 These plain loops make a beautiful necklace.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14260

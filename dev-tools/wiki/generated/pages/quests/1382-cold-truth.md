@@ -2,6 +2,8 @@
 
 After enjoying the hospitality of Laguzoki, it's onward on the trail of the Ice Giants.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

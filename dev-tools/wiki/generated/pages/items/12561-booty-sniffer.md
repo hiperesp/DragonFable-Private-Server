@@ -2,6 +2,8 @@
 
 Summon the LSS Booty Sniffer to wash away your foes and leave behind bonus gold! Arr! This trinket be wind damage 'n honor o' th' Autumn Wind!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12561

@@ -2,6 +2,8 @@
 
 Jingle bell, jingle bell, spell those mobs down fast! Oh what fun it is to wield a wand and magic cast! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3670

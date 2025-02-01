@@ -2,6 +2,8 @@
 
 This cloak woven with magical leaves helps you connect with nature! And you unlike branches, you don't have to worry about poking anyone's eyes out. You can upgrade this cape at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20455

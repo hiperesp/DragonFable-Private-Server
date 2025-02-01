@@ -2,6 +2,8 @@
 
 Magesterium Guards have boarded your ship! Drive them back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 After exploring the Void, can you REALLY hope to master the forces that control it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

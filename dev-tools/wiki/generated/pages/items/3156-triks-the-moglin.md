@@ -2,6 +2,8 @@
 
 This pet requires a Dragon Amulet. Triks loves to go trick-or-treating every day, and he has a mask for every occasion!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3156

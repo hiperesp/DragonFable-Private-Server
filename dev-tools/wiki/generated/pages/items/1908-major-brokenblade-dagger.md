@@ -2,6 +2,8 @@
 
 This blade was made when a rogue aeromancer summoned cyclonic winds so fierce that the rocks littering the Sandsea were shattered.  A patient armorer pieced the shards together to form this dagger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1908

@@ -2,6 +2,8 @@
 
 You are both a warrior and an assassin. You don't dance though. Happy Mogloween 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12905

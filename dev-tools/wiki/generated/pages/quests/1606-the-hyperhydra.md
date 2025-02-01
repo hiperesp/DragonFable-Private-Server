@@ -2,6 +2,8 @@
 
 The ancient and mysterious Hyperhydra, eater of very small stars! What doesn't kill it makes it stronger.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

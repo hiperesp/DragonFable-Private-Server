@@ -2,6 +2,8 @@
 
 It's time to get those Orbs back in place.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

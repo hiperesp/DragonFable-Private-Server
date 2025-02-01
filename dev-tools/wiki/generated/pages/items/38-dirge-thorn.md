@@ -2,6 +2,8 @@
 
 There must have been one huge rose bush to produce this nasty blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 38

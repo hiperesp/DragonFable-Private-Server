@@ -3,6 +3,8 @@
 It is said that an elven mage spelled the flame into this dagger with the instruction that it always light the way of a pure-hearted hero.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2353

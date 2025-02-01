@@ -2,6 +2,8 @@
 
 This dagger is a bit too ornamental to use for mundane tasks like chopping food or whittling, but it will serve you well in battle when the malevolent pulsing of the blade intimidates your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2256

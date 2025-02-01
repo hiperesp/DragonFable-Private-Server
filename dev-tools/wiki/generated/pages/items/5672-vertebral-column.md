@@ -2,6 +2,8 @@
 
 A segment of bone. Use this to increase the power of your Spineripper!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5672

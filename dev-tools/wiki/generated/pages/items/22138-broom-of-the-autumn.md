@@ -2,6 +2,8 @@
 
 In the name of the pumpkin, you will be punished! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22138

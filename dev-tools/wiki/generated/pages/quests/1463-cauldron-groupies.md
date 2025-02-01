@@ -2,6 +2,8 @@
 
 The Cauldron Groupies of Jack Crescent!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

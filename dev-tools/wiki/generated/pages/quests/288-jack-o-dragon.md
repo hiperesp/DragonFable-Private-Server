@@ -2,6 +2,8 @@
 
 It looks like Sally isn't quite ready to give up yet.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

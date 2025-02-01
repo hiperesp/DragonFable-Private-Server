@@ -2,6 +2,8 @@
 
 This dusty cloak was used by a Swordhaven Knight who perhaps met an unfortunate end. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9135

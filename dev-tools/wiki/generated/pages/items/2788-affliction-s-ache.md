@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Corrupted by Drakonnan's madness, this once hero's dagger is now engulfed in evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2788

@@ -2,6 +2,8 @@
 
 After stopping the threat to the A.E. Multiverse, this is your reward! Happy 13th Anniversary!  This can be updated at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14831

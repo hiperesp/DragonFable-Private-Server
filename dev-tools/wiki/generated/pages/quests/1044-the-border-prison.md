@@ -2,6 +2,8 @@
 
 It's time to save those clawkin! With your aid, The Rose can't stand a chance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

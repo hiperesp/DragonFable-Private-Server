@@ -2,6 +2,8 @@
 
 This type of oddly bladed sword is favored by several tribes of barbarians.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 180

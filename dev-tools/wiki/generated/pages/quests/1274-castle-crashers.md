@@ -2,6 +2,8 @@
 
 Queen Safiria has summoned you back to her castle at Thursday's request... you don't want to keep them waiting.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

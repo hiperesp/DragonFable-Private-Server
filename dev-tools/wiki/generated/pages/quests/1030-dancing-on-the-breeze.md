@@ -2,6 +2,8 @@
 
 Laesa's final request is for you to find scraps in Falconreach that can be used to make a magical windmill. But where did these togs come from?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

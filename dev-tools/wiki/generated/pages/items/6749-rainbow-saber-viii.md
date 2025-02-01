@@ -3,6 +3,8 @@
 This beautiful energy weapon was crafted by Dracelix in honor of winning the Lucky War 2012 War Challenge!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6749

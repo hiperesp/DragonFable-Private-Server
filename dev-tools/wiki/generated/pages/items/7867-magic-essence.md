@@ -2,6 +2,8 @@
 
 The very essence of magic... extracted from magical items!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7867

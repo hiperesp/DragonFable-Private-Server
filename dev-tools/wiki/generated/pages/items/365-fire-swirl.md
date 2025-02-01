@@ -2,6 +2,8 @@
 
 This fiery blade is made from flames that have been magically shaped to be an elegant dagger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 365

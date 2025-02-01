@@ -2,6 +2,8 @@
 
 Mutated by the power of the Fire Orb, Akriloth is more powerful then ever. Can you take him down, even with the power of the Frozen Claymore?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This sword was crafted for you by Yulgar, after several loooooong hours of back-breaking farming to get the necessary materials.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 461

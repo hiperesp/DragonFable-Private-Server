@@ -2,6 +2,8 @@
 
 This sword really suits you! But it's not shaped like a club at all... This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4870

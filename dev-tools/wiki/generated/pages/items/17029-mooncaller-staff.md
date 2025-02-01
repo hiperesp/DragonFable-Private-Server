@@ -2,6 +2,8 @@
 
 Valorous Mooncalled charged into battle against an onslaught of undead creatures that fell on a small, remote village. This staff is a replica made to the effigy of the Staff she wielded in the heat of battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17029

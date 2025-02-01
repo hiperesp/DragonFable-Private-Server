@@ -2,6 +2,8 @@
 
 When Gotterdammerung happens, the mighty Thor will be brought low by the Midgard Serpent.  Loki crafted this weapon in anticipation of that day.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5902

@@ -2,6 +2,8 @@
 
 A helm that once bathed in the sun's brilliance, its wearer was bound by sworn vows to seek and defy encroaching shadows. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21960

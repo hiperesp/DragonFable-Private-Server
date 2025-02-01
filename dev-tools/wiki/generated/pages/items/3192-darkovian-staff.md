@@ -2,6 +2,8 @@
 
 Made of the finest Darkovian steel! Wait, do you even know where Darkovia IS?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3192

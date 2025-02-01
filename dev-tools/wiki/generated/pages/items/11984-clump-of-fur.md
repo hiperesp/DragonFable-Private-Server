@@ -2,6 +2,8 @@
 
 A blood-matted, tangled clump of were-fur. Turn this in at the Defender's Rare Shop in Falconreach!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11984

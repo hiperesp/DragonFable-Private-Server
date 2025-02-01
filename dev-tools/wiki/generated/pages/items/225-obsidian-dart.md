@@ -2,6 +2,8 @@
 
 This blade is made from sharp volcanic glass that has been magically strengthened to make it lightweight and fast, an ideal rogue weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 225

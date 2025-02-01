@@ -2,6 +2,8 @@
 
 Hewn from the Lymcrest valley this heavy sword can only be wielded by one of great strength.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1790

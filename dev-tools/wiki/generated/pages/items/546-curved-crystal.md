@@ -2,6 +2,8 @@
 
 This wicked dagger will cut your foe like the chilling, winter wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 546

@@ -2,6 +2,8 @@
 
 The Chairman is taking over!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

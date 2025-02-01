@@ -2,6 +2,8 @@
 
 These weapons were forged by True Mortal, and inspired and enhanced by his Spirit Companion, Thorn, to aid the defenders of Falconreach in their time of need.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5619

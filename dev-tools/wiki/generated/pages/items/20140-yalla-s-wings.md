@@ -2,6 +2,8 @@
 
 The worn and battered wings of a wind elf with nothing to lose. (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20140

@@ -2,6 +2,8 @@
 
 Click on this helm to activate the SnuggleBear armor! This is the helm and armor worn by warriors of love everywhere. Happy Hero's Heart Day!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 723

@@ -2,6 +2,8 @@
 
 A prismatic helm forged in an ancient time. By some mystical power, it seems to draw from your dragon's color as well. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20258

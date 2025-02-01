@@ -2,6 +2,8 @@
 
 You've infused this ring with shadow energy. As you move your hand it seems to blur, almost as though it was leaving shadows of itself behind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12637

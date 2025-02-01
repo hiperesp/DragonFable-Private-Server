@@ -2,6 +2,8 @@
 
 This sturdy belt is the same kind worn by the Knights of the Pactogonal Table.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 703

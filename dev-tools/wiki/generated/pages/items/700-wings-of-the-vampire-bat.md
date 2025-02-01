@@ -2,6 +2,8 @@
 
 These leather wings were hand made for you as a reward for protecting the town of Amityvale from Lord Frydae XIII.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 700

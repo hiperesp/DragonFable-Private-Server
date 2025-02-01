@@ -2,6 +2,8 @@
 
 After a long journey, you've finally reached the depths of the abyss...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

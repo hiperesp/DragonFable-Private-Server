@@ -2,6 +2,8 @@
 
 The VurrMen are invading other parts of Oaklore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

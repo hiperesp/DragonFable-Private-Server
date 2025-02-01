@@ -2,6 +2,8 @@
 
 The light of the sun flows through this helm! You can upgrade this helm at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10232

@@ -2,6 +2,8 @@
 
 A Soulwoven hood used by Soulsmiths. Its design helps you channel your energy into stronger blows. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18667

@@ -2,6 +2,8 @@
 
 A tiny bags hangs from this necklace. You do not want to look inside of it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7080

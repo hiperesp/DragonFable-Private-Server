@@ -2,6 +2,8 @@
 
 A trusty blade used by a Ranger to get out of any situation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14572

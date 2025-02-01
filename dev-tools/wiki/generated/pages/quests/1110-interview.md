@@ -2,6 +2,8 @@
 
 Sir Stephen of Coldbear interviews famous guests!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

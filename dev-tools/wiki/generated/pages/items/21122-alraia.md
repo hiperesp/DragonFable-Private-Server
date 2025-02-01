@@ -2,6 +2,8 @@
 
 A simulation of the SoulAlly Alraia. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21122

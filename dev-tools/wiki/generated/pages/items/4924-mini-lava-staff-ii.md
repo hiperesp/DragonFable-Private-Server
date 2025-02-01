@@ -2,6 +2,8 @@
 
 This staff is exceptionally tiny.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4924

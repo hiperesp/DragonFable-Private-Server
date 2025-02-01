@@ -2,6 +2,8 @@
 
 The glass of this mirror is cracked, but the frame is gilded with real gold.  Salvage it and sell it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3802

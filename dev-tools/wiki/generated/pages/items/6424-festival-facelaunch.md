@@ -2,6 +2,8 @@
 
 2011 silly hat contest runner up, submitted by Varen6398! It's stylishness is only surpassed by the smell.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6424

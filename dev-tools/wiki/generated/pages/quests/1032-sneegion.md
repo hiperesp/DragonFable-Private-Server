@@ -2,6 +2,8 @@
 
 The box fortress of Dage the Sneevil!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

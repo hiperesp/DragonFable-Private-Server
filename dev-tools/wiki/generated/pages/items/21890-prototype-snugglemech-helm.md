@@ -2,6 +2,8 @@
 
 Big Daddy sold this spare prototype helmet to help fund his "other projects". Surely this won't end up in the wrong hands...? (Cosmetic)(Catalyst: Student)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21890

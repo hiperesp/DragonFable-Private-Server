@@ -2,6 +2,8 @@
 
 Can you break Kathool's spell? Can you resist the call?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

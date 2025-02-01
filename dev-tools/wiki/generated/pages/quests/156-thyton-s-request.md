@@ -2,6 +2,8 @@
 
 Thyton received some disturbing news. Another group of pirates from a neighboring island has sent chests of weapons along with support pirates! He has asked you to cut off the aid before it reached the Osprey Cove, and burn the crates.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

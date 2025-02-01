@@ -2,6 +2,8 @@
 
 Some may consider it superstitious, but every good hunter knows having a lucky item is better than not having one at all. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14493

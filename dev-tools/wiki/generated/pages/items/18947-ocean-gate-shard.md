@@ -2,6 +2,8 @@
 
 This piece of coral, while perhaps once colorful, is now a stark white. Small pearls inlaid throughout the structure give it only the faintest sheen of past life. Perhaps someone will be willing to buy this for a good price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18947

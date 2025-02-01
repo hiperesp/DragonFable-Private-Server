@@ -2,6 +2,8 @@
 
 Forged on an icy mountain top, this blade is imbued with the bitter cold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 235

@@ -2,6 +2,8 @@
 
 Litter is just sand right? So I should find a pile of sand?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

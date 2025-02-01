@@ -2,6 +2,8 @@
 
 Rolith has one of these hanging on the doorknob in the Oaklore Keep. He wears it while tackling knotty problems.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5343

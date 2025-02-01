@@ -2,6 +2,8 @@
 
 The power of the sun flows through this weapon to do extra damage to elementals! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18220

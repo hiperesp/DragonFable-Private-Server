@@ -2,6 +2,8 @@
 
 Fight your way through the Zardbies to protect Croft!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

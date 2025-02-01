@@ -2,6 +2,8 @@
 
 This blade's hooked edge will come in handy if you need to snag your opponent's armor.  Just be sure he doesn't get stuck there!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1340

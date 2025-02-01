@@ -2,6 +2,8 @@
 
 A shard of a brilliant glowing emerald. You can use this to upgrade the Sundering Emerald scythe at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12508

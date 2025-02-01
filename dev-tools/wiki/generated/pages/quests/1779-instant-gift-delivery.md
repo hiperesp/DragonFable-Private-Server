@@ -2,6 +2,8 @@
 
 You have devised an ingenious way to deliver gifts!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

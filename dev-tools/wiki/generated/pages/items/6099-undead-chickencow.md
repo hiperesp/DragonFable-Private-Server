@@ -2,6 +2,8 @@
 
 For winning the 100% Croft war challenge of Mogloween 2011! The players decimated 3 million infected Undead Chickencow in a week!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6099

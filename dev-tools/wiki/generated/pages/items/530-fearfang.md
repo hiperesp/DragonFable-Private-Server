@@ -2,6 +2,8 @@
 
 The blade of this axe is serrated to terrify your enemy as well as to bite into them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 530

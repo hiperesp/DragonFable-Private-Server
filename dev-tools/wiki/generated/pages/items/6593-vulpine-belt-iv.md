@@ -2,6 +2,8 @@
 
 This belt of silver fox fur is said to bestow speed upon it's wearer. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6593

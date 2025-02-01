@@ -2,6 +2,8 @@
 
 It seems a hero's work is never done. At least it's something to do while you wait for word from Swordhaven and The Rose.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

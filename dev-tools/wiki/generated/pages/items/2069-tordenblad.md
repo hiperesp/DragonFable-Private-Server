@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is rumored that this dagger was once used to shatter the heart of a frost giant who was attacking Dragesvard. It is the blade of a true hero!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2069

@@ -2,6 +2,8 @@
 
 After absorbing the essence of the baby Decadere, it's VERY important that you talk to Elucidas!  He's sure to have some vital information for you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

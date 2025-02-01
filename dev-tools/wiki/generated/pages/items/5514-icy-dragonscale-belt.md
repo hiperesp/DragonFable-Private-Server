@@ -2,6 +2,8 @@
 
 This belt was woven from Dragon Leather, and plated with chips from an ice dragon?s scales. Originally commissioned by Galanoth for some classy evening wear, but it didn?t go with the armor. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5514

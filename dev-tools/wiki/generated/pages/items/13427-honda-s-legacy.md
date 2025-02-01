@@ -2,6 +2,8 @@
 
 An ancient technique developed by the legendary Honda. Summon four kunai to fly at your foe and poison them! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13427

@@ -2,6 +2,8 @@
 
 Hail to the king, baby. Uh-huh.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3128

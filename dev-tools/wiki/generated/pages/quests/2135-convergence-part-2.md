@@ -2,6 +2,8 @@
 
 For the fate of Lore, the hero must be victorious.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

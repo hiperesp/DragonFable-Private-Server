@@ -2,6 +2,8 @@
 
 The Frostval season should be a reminder to everyone to be kind to everyone, even those that may not necessarily always deserve it. It has a chance to heal 5% of your life on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13117

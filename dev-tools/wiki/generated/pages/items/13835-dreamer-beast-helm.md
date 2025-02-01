@@ -2,6 +2,8 @@
 
 The Ancient Dreams guild once uncovered a dungeon depicting creatures never seen in Battleonia. They created this helm based off one of the figurines, to raise awareness of little-known species. Happy Earth Day '15!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13835

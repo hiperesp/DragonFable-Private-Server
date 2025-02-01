@@ -2,6 +2,8 @@
 
 Revenge is best served cold... the perfect ring for an up and coming cryomancer.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6750

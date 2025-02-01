@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 25 or higher to create. The name says it all, this dagger adds 10 to your ability to make a critical strike against your enemy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1252

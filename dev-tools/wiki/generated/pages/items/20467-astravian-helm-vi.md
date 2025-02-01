@@ -2,6 +2,8 @@
 
 Based on the descriptions of an ancient deity from a distant star, this helmet was forged in its image.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20467

@@ -2,6 +2,8 @@
 
 Drakath has called in a favor with the Pyromancer Xan. His firey armies are taking positions all around Falconreach, but a huge lava creature named Bassault is not waiting.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This skeletal warrior had red-hot metal spikes attached to his skull in order to intimidate his opponents.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3209

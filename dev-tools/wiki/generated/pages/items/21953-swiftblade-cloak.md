@@ -2,6 +2,8 @@
 
 Despite its age and apparent wear, this cloak is still thick and warm. Perfect for cover from the outdoor elements. (Cosmetic)(CC:Base/Trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21953

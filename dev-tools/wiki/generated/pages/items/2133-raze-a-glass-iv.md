@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. They are 2 glasses from one of Lore's most famous crystal shapers, but none of the monsters seem to want to toast with you. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2133

@@ -2,6 +2,8 @@
 
 Everyone just needs to calm down.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Only the maddest of haberdashers can pull off this tophat!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2982

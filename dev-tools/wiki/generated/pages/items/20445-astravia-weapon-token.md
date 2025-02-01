@@ -2,6 +2,8 @@
 
 A shard of crystal of a material you've never seen before, shining bright red. Can be redeemed for an Astravian weapon of your choice at the Black Market Moglin! Choose carefully!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20445

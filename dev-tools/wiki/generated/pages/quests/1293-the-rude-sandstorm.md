@@ -2,6 +2,8 @@
 
 Convince King Dududududu to share some of his treasure with you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

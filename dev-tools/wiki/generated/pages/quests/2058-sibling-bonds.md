@@ -2,6 +2,8 @@
 
 While searching for a way out of another Fearscape, hear Kassandra's reasons for creating the Fear Engine in the first place.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

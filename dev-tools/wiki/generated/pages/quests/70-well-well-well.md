@@ -2,6 +2,8 @@
 
 Artix's faithful dog Daimyo has lead you to a hilltop well where you hear his masters voice coming from below. You must venture down the well to rescue Artix from a dreaded fate.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

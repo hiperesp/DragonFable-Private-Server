@@ -2,6 +2,8 @@
 
 The monster in charge of the attack on Battleon! Can you take down Drakonnans General?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

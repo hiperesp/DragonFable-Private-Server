@@ -2,6 +2,8 @@
 
 Will you find the hiding spot for the Blade of Awe?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

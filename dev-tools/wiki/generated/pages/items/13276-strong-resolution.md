@@ -2,6 +2,8 @@
 
 You resolve to exercise more in 2015! By punching monsters in the face with weights! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13276

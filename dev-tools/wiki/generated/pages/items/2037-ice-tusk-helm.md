@@ -2,6 +2,8 @@
 
 Crafted by the best of the frozen north's smiths, this is a symbol of your valor in battle against Aisha's legions.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2037

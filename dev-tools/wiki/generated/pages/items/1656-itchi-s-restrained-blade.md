@@ -2,6 +2,8 @@
 
 Ghost hunter Itchi once used his soulblade to send the tormented souls of the undead into the afterlife. Now he runs a delivery business in Swordhaven called "Itchi Goes!" so he no longer needs the weapon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1656

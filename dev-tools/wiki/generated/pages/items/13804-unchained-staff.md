@@ -2,6 +2,8 @@
 
 Power is such that those who take it can shed any chain, any bond, that attempts to seize them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13804

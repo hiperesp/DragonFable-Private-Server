@@ -2,6 +2,8 @@
 
 This ring has been used by mages to seal the letters they send, the ring absorbed some of their powers. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11795

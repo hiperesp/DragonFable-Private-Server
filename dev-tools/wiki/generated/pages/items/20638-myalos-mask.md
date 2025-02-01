@@ -2,6 +2,8 @@
 
 The mask of a hero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20638

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 32 or higher to create. "With a long enough lever, someone can move the world." This staff isn't long enough.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1244

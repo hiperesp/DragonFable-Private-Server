@@ -2,6 +2,8 @@
 
 Stop the rogue ninja clan and their creature before the Tamamo has finished charging!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

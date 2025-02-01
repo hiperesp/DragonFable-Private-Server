@@ -2,6 +2,8 @@
 
 Shiny AND temporal!  This belt has it all!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3395

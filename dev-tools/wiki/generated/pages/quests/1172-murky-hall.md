@@ -2,6 +2,8 @@
 
 Vaal is exploring the dark corridors of the Temple of Oter, looking for a way out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

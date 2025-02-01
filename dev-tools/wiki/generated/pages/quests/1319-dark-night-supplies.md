@@ -2,6 +2,8 @@
 
 Can you make it through the darkness to recover stolen supplies?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

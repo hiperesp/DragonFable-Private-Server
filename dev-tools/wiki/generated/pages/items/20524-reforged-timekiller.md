@@ -2,6 +2,8 @@
 
 You can kill time and pretty much anything else in this armor! Although reforged by unknown means, this version of TimeKiller is just as effective as when it was first made.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20524

@@ -2,6 +2,8 @@
 
 It's squishy and kind of smells... but the leather might dry out. Someday. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13978

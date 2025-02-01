@@ -2,6 +2,8 @@
 
 This sword was designed for the legendary Kolo, first Guardian to earn the right to wield the ShadowReaper of Doom! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 161

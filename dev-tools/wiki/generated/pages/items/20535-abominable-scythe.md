@@ -3,6 +3,8 @@
 A replica of the Abomination's scythe.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20535

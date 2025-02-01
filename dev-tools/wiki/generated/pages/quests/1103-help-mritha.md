@@ -2,6 +2,8 @@
 
 Help Mritha defend the Refugee Camp!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

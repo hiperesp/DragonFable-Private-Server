@@ -2,6 +2,8 @@
 
 Make your way through the Forest of Infinite Terror and deliver the Snuggle-Gram to a broken hearted villager.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

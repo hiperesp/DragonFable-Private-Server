@@ -2,6 +2,8 @@
 
 Rhubarb has sent you to the ruins in the center of Sho Nuff Island, to try and recover the item that pirates and ninjas have been warring over for centuries... The Wind Pearl
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

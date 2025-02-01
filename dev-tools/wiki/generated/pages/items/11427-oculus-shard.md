@@ -2,6 +2,8 @@
 
 Maybe if you collect more they could be useful.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11427

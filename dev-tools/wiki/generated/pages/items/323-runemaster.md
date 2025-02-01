@@ -2,6 +2,8 @@
 
 Runes are carved into the blade of this sword, imbuing them with strength.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 323

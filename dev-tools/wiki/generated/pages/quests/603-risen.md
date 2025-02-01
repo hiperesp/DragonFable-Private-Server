@@ -2,6 +2,8 @@
 
 Kathool has risen!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

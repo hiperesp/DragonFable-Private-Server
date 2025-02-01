@@ -2,6 +2,8 @@
 
 Lim uses the energy from a dark star to power this staff.  Don't look directly at it or the invisible radiation will burn your eyes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2949

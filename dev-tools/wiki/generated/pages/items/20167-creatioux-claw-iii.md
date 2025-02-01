@@ -2,6 +2,8 @@
 
 A weapon from another time and space. Fires a beam that increases enemy Health resistance. Proof of victory over Nythera, the Half Void Dragon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20167

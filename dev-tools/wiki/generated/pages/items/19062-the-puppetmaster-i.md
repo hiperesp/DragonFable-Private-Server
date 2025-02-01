@@ -2,6 +2,8 @@
 
 I will accompany you as you perform many deeds, great and small. Whatever you decide, your choices will be mine as well. Can be upgraded at Secundus.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19062

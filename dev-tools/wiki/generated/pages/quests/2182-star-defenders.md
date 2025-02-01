@@ -2,6 +2,8 @@
 
 Seems like you've drawn the attention of the Star Defenders!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Crafted from leftover shards of the Ice Scythe, this mace will show it's true power in the coming Fire War.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2582

@@ -2,6 +2,8 @@
 
 Lightning Caller. The Spark of Brilliance. Alone in the storm, he held the line against a horde of invading elementals and came out unscathed. He is... Eulin II.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

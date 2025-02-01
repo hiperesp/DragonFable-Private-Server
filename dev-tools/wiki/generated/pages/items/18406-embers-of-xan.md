@@ -2,6 +2,8 @@
 
 Some leftover ash and dust from your victory over Xan. It still burns with a ferocious heat, and threatens to catch fire to anything it comes into contact with. Used to create the Vaal's Ego Trinket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18406

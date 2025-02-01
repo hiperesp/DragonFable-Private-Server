@@ -2,6 +2,8 @@
 
 This gift was infused with tainted love oh oh oh, tainted love, say it ain't so! This was available for Black Friday 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13041

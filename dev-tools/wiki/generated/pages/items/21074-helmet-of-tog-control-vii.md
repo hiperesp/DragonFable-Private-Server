@@ -2,6 +2,8 @@
 
 Unfortunately, wearing this helmet does not allow you to control togs. Fortunately, you're not a tog, so is should be relatively safe to wear! "Property of the Mayor" is etched on the back. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21074

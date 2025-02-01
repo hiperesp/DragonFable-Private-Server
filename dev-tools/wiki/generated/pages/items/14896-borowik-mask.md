@@ -2,6 +2,8 @@
 
 Wear a tasty mushroom on your face. You look like a fungi.  Happy Mogloween 2015!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14896

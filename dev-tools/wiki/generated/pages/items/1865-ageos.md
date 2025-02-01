@@ -2,6 +2,8 @@
 
 Forged on the highest mountain in Lore, this blade is blessed by the Wind Lord.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1865

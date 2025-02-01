@@ -2,6 +2,8 @@
 
 This style of sword is enchanted with the glowing orbs used by the elven people to light their homes in the deep forests of Lore. Comes in 50, 75, 100 and 125 watt varieties.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1469

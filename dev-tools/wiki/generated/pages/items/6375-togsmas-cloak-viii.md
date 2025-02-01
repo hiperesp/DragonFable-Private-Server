@@ -3,6 +3,8 @@
 Merry Togsmas 2011! A special cape made to honor your brave fight through Rolith's tog army to free Frostvale from his tyranny of silly hats!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6375

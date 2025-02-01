@@ -2,6 +2,8 @@
 
 This pet requires the power of a Dragon Amulet.  3 Star General Butterbomb the battle turkey was trained by Dr. Voltabolt to be the worlds most deadly turkey and pilot. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4572

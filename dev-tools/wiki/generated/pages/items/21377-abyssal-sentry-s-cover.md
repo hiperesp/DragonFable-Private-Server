@@ -2,6 +2,8 @@
 
 While durable, the material of this cloak has become tattered and worn with age and corruption. Ornaments of the Abyssal Tribe adorn it, their meaning lost like so much else. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21377

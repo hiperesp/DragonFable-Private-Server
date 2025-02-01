@@ -2,6 +2,8 @@
 
 There once lived three tribes, in harmony. Then, one day, the head of the most resourceful tribe cut off the heads of the other tribe leaders with this sword. But... didn't it play out differently?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18529

@@ -2,6 +2,8 @@
 
 Sirens lure sailors to their deaths.  A remorseful one managed to fill a pool with her tears.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2492

@@ -2,6 +2,8 @@
 
 This massive snowflake is said to be a blessing from the Avatar of Ice, Kyanos. Whatever power it might hold, it certainly keeps your neck nice and cool.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20084

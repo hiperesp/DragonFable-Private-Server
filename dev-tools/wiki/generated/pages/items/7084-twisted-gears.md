@@ -2,6 +2,8 @@
 
 Twisted and broken gears form a chain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7084

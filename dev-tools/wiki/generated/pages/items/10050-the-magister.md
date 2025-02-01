@@ -3,6 +3,8 @@
 In an ancient language, magister means master.  This sword is a master work from the long lived weaponsmith, Letalis. 
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10050

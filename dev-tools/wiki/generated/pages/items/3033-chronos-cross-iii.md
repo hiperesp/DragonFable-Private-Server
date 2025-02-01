@@ -2,6 +2,8 @@
 
 This metal dagger will keep time and take names! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3033

@@ -2,6 +2,8 @@
 
 Recently crafted by Cysero for a great Dragonlord to celebrate a victory, this sword vanished mysteriously on the way to its destination. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3988

@@ -2,6 +2,8 @@
 
 A surprisingly strong mesh infused with swamp yaga magic. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11624

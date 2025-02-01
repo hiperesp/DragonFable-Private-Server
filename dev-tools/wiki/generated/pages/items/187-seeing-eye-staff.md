@@ -2,6 +2,8 @@
 
 This staff is rumored to give its wielder an umatched clarity of sight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 187

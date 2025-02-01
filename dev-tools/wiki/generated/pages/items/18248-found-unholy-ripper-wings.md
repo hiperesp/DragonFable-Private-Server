@@ -2,6 +2,8 @@
 
 A dark power swirls around these demonic wings.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18248

@@ -2,6 +2,8 @@
 
 Iiiin thiiiiis corner, we have the Zombie Aggresor, the Ghoul with the Gear, the Decomposing Dynamite.... the UndeadMaker!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

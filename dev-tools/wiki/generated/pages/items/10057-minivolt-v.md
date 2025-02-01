@@ -2,6 +2,8 @@
 
 Pew pewpewpew pew! Visit Falconreach Pet Shop to upgrade this pet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10057

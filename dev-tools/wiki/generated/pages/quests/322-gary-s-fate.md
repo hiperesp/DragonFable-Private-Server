@@ -2,6 +2,8 @@
 
 Now you get to see who leads Aisha's Dragon Army!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

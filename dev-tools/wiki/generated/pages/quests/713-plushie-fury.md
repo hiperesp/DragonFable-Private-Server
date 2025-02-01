@@ -2,6 +2,8 @@
 
 A.K.A. Why you shouldn't give Twig sentient toys.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

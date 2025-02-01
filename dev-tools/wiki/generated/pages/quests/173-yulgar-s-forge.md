@@ -2,6 +2,8 @@
 
 Yulgar has given you free use of his forge, if you complete a few simple blacksmithing tasks for the inhabitants of Falconreach. After training your skill up, you will be able to make your own weapons!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

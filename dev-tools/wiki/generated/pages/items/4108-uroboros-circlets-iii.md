@@ -2,6 +2,8 @@
 
 Lost artifacts from an ancient race, these stone rings were designed to accompany their wielder into the afterlife. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4108

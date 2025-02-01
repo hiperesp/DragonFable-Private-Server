@@ -2,6 +2,8 @@
 
 The dark green fabric of this cloak will help you blend into the trees!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7871

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. A little piece of the juicing machine. Better to keep this safe and out of evil hands!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3372

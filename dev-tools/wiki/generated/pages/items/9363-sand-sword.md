@@ -2,6 +2,8 @@
 
 The blade of this weapon is made from living sand! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9363

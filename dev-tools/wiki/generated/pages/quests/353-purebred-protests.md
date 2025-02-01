@@ -2,6 +2,8 @@
 
 The birds in Lore are bitter and they're drowning out the songs of Zeuster's supplicants with cries of their own. Zeuster has asked you to silence them by any means necessary.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

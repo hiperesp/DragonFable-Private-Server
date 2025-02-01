@@ -2,6 +2,8 @@
 
 Face off against the ninja training arena to earn gold and experience!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Whoever this tooth came from, didn't take good care of them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9678

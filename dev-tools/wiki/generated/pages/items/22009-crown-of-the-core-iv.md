@@ -2,6 +2,8 @@
 
 Imbued with the Mana Core's power, this crown glows with the might of the unknown. Click to change its appearance!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22009

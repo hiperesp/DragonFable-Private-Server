@@ -2,6 +2,8 @@
 
 A legendary blade from a far-off time. The handle seems to fit your hand perfectly somehow. Has a color custom glow!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18853

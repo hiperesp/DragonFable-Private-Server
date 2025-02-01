@@ -2,6 +2,8 @@
 
 The best place to find a Captain? Osprey Cove!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

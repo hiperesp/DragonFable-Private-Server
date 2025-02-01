@@ -2,6 +2,8 @@
 
 Rose Emblems have been shaped into a deadly weapon to use against any who seek to end magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8918

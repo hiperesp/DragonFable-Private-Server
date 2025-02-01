@@ -2,6 +2,8 @@
 
 This ragged strap of leather must have come from Zorbak's Hideout.  It doesn't look like it's worth much.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3449

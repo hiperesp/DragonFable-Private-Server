@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is a ring which is perfect for the all-out, front assault type of person. It adds to Crit, Bonus  to hit, and endurance as well as slightly boosting the wearer's strength and intelligence!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1600

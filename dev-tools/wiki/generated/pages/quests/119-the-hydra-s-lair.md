@@ -2,6 +2,8 @@
 
 You have come down to the cliffs outside Oaklore forest and into the caves that the Hydras call home. These monsters seem to be spawning faster and faster, and soon they will overrun the river unless you stop them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

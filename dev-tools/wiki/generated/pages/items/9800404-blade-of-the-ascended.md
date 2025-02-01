@@ -2,6 +2,8 @@
 
 This weapon will serve you well as you show how powerful you are!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800404

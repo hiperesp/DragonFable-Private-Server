@@ -3,6 +3,8 @@
 As with the cape, this appears to be covered in the fur of a wolf, but closer inspection reveals it to be a clever creation of fur from metal, forged by True Mortal, Master Smith.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5820

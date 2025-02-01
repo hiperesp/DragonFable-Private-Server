@@ -2,6 +2,8 @@
 
 In a deep cave, far from prying eyes, waits a slumbering dragon, slowly gathering energy over the years. Until you woke it up. Good job, hero.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

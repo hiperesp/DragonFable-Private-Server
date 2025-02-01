@@ -2,6 +2,8 @@
 
 This tie is an awful plaid color...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6753

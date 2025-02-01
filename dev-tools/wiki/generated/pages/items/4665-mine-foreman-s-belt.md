@@ -2,6 +2,8 @@
 
 A sturdy belt, covered with loops and various tools and lenses to find, test and study the ore in the mine.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4665

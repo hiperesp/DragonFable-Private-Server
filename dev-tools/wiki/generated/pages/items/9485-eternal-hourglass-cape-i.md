@@ -2,6 +2,8 @@
 
 The sands of eternity run through this item.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9485

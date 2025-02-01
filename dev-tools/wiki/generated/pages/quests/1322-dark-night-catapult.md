@@ -2,6 +2,8 @@
 
 Be careful where you aim that thing... and don't use any catapults that appear in puffs of dark fog.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

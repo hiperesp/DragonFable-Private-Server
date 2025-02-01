@@ -2,6 +2,8 @@
 
 The partner to Ghost's Blade of Spooky Hotness, Charisong holds the soul of a certain princess that Ghost is trying to free. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15208

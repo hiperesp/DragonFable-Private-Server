@@ -2,6 +2,8 @@
 
 A brilliant ruby sits on top of this glorious staff, ready to aid you in battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 484

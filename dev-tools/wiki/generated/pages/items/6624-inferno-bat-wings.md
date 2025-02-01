@@ -2,6 +2,8 @@
 
 This Item  requires a Dragon Amulet. Careful you don't set your hair on fire!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6624

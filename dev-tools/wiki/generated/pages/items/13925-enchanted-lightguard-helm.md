@@ -2,6 +2,8 @@
 
 This helm has been enchanted with powerful light magic. It will be a beacon to all who fight with you against darkness in any form!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13925

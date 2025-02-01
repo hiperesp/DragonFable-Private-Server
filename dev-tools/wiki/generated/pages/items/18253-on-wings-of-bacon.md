@@ -2,6 +2,8 @@
 
 You look awesome, smell amazing and will never go hungry again!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18253

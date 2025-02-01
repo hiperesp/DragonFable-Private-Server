@@ -2,6 +2,8 @@
 
 Under the storm-tossed waves off the coast of Osprey Cove, the remains and treasures of many a pirate awaits those brave enough to trawl the depths.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

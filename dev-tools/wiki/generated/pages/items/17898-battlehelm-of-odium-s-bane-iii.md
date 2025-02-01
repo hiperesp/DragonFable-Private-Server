@@ -2,6 +2,8 @@
 
 Granted to Valentidus by Love themselves after his battle with Odium. Use this shining helm in defense of all that is love and good!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17898

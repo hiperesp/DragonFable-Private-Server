@@ -2,6 +2,8 @@
 
 This hood feels as though it almost isn't there when worn. Putting it on makes you feel... sad, somehow. Lonely.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19664

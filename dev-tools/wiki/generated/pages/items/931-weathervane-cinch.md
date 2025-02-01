@@ -2,6 +2,8 @@
 
 This light fabric cinch will rotate around the wearer's waist to indicate the direction of the blowing wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 931

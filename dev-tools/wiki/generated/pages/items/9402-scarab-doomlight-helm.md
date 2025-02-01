@@ -2,6 +2,8 @@
 
 A helm created for the greatest warriors of Light!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9402

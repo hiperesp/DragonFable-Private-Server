@@ -2,6 +2,8 @@
 
 A wisp of magic on a chain... it's like someone is trying to tell you... something....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7065

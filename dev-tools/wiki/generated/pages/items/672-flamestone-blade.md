@@ -2,6 +2,8 @@
 
 The searing hot blade of this sword can burn its way through nearly any substance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 672

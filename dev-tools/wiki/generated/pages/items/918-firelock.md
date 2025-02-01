@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The source of its power is the fire gem set into the molten gold within the staff's head. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 918

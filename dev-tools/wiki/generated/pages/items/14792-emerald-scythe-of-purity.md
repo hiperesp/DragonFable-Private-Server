@@ -2,6 +2,8 @@
 
 This scythe was carved from a solid chunk of pure Emerald. It symbolizes your commitment to fight the darkness in whatever form it takes!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14792

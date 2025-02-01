@@ -2,6 +2,8 @@
 
 A blobby sphere of natural and processed Exalted materials, created from Warbeast Residue and Exalted Forgemetal. Could probably be used to forge and upgrade Exalted gear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18819

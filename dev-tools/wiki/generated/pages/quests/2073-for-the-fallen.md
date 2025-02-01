@@ -2,6 +2,8 @@
 
 It appears a certain golemancer is poking around the Hawkscry ruins...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

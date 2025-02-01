@@ -2,6 +2,8 @@
 
 The long lost Summon Gem - Intaym! Its special ability will boost your Crit by 50 when used. Proof of victory over Illumina and Intaym!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19755

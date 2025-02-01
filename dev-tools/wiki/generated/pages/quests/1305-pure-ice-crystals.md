@@ -2,6 +2,8 @@
 
 There were a few large ice crystals near Dragesvard. Those looked pretty pure.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

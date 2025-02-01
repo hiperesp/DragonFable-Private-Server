@@ -2,6 +2,8 @@
 
 Sun, sand, and  palm trees abound!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

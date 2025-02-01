@@ -2,6 +2,8 @@
 
 This present is extremely dagger shaped! You probably shouldn't use it in battle... Can be unwrapped at the end of Frostval or exchanged for a Defender Medal. A reward from Great Giftnapping Waves. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20090

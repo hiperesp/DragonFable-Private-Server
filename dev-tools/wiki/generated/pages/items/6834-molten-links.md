@@ -2,6 +2,8 @@
 
 The links of this belt look melted... some fire monster must have stepped on it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6834

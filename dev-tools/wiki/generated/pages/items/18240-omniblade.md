@@ -2,6 +2,8 @@
 
 You've managed to collect all 13 of the cursed artifacts from across the A.E. Multiverse! This powerful blade is your reward! Use it well OmniKnight! This can be updated at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18240

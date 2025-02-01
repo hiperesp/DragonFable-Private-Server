@@ -2,6 +2,8 @@
 
 A red plush cap made for Zadd workers to help keep their heads warm while they work.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4729

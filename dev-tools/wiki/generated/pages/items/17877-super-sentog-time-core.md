@@ -2,6 +2,8 @@
 
 The legendary Super Sentog Time Core, that allows them to travel through time in season 4 and fight giant mecha. It wasn't the best season. Used to upgrade Sentog Helm and Groundhog Wings.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17877

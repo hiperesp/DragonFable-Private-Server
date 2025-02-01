@@ -2,6 +2,8 @@
 
 This ancient staff is topped by the horn of an animal that has not been seen in many decades. It hums and crackles with energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 205

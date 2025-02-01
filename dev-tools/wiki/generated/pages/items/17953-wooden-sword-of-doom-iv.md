@@ -2,6 +2,8 @@
 
 The legendary Wooden Sword of Doom, used to slay imaginary foes and conquer imaginary worlds. Gravelynn gifted this to you after your visit. Now it can take down real enemies- and conquer real worlds? This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17953

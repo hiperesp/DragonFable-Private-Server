@@ -2,6 +2,8 @@
 
 Ewwwwwww... it's covered with drool!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13471

@@ -2,6 +2,8 @@
 
 Crafted with the softest silks, you were lucky to get a hat of this quality from Lauren's shop.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4976

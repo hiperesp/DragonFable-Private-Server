@@ -2,6 +2,8 @@
 
 The bracer of the Legion, brought to the Arena of Time, and recovered by the Hero!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17777

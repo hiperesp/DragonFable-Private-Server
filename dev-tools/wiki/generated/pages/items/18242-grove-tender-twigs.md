@@ -2,6 +2,8 @@
 
 Nature itself is sprouting from your back! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18242

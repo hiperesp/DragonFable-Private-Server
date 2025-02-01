@@ -2,6 +2,8 @@
 
 This energy weapon was carved from a single large piece of jade. It was recovered by Galanoth from the treasure trove of a great Earth Dragon
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1747

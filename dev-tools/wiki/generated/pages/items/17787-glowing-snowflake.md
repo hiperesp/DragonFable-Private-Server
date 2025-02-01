@@ -2,6 +2,8 @@
 
 A glittering snowflake infused with moglin magic! One can be used to upgrade a single 2017 gift when they open! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17787

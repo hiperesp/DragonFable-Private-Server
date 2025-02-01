@@ -2,6 +2,8 @@
 
 These daggers are overcharged! You can feel your hair stand on end as they gets close to you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12487

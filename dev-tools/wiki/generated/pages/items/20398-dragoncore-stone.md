@@ -2,6 +2,8 @@
 
 A rare and valuable mineral produced by ancient Great Dragons. Can be used to upgrade DragonLord's Patience or Rage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20398

@@ -2,6 +2,8 @@
 
 You and Artix have to get to the purple robed necromantress before she notices you... but just between you and me... I think she might already know.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

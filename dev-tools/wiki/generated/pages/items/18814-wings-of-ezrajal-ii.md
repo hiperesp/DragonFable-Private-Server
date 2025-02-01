@@ -2,6 +2,8 @@
 
 The gilded wings of the Celestial Ezrajal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18814

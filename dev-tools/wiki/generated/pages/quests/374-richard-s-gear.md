@@ -2,6 +2,8 @@
 
 Yix has asked you to travel into the caverns below Popsprocket to stop Richard's Gear... the gear that powers most of the city.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

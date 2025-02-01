@@ -2,6 +2,8 @@
 
 Your dragon is tirelessly flying all over the continent, engulfing it in darkness and despair. Meanwhile, you decide to seek help with the gnomes.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

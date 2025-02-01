@@ -2,6 +2,8 @@
 
 This magical amulet contains the power to absorb poison.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4593

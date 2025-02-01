@@ -2,6 +2,8 @@
 
 This tog is somehow extremely soft and fluffy! A tog that only few could ever dream of. Enrages when you're under 50% HP, and when enraged, has a chance (CHA/8) to do double damage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20309

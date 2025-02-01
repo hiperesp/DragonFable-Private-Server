@@ -2,6 +2,8 @@
 
 Your dad uses this to skewer sausages (and monsters).  Be good or he might try to use it on YOU!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3931

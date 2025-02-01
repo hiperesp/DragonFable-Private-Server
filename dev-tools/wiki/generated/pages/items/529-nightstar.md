@@ -2,6 +2,8 @@
 
 This axe is powered by a fallen star that has been artfully worked into the blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 529

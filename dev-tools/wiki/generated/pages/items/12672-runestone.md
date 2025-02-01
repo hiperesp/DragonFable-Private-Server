@@ -2,6 +2,8 @@
 
 A powerful item found within the ruins of the Alterian Order, It contains vast amounts of mysterious magic which few know how to harness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12672

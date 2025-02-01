@@ -2,6 +2,8 @@
 
 This stylish cape is the color and style favored by the Knights of the Pactogonal Table.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 704

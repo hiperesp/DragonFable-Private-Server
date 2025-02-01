@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 20 or higher to create. The design of this dagger is so complex in nature that half the blacksmiths who attempt to create it, go mad. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1226

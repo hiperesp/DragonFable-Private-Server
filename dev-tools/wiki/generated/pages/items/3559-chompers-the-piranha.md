@@ -2,6 +2,8 @@
 
 There was a description about Chompers here, but Chompers ate it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3559

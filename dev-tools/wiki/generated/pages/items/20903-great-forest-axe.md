@@ -2,6 +2,8 @@
 
 An axe wielded by Ballyhoo. Used to cut prices in half. Sadly, this version is (Cosmetic), so...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20903

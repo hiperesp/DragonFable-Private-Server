@@ -2,6 +2,8 @@
 
 A special scythe made for those who wear their amulet proudly! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10298

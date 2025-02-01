@@ -2,6 +2,8 @@
 
 The priests at the Temple of the Four Winds were charged with protecting these seals which hold very strong elemental magics, even when shattered.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 817

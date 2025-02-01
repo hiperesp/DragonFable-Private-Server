@@ -2,6 +2,8 @@
 
 You must race through Lore to find and recruit help to save your Dragon from Doom!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

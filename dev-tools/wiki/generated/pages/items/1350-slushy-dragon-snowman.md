@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This magical pet was made from animated slush that gathers on the side of the paths in Falconreach.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1350

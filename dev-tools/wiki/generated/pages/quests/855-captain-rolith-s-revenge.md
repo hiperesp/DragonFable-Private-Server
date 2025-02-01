@@ -2,6 +2,8 @@
 
 You've done it now! No one insults silly hats around Rolith!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

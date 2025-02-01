@@ -2,6 +2,8 @@
 
 That dragon-shaped ancient ruin had wings, right? Might be hard to remember exactly how they looked, but these are a cool enough approximation! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20929

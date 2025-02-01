@@ -2,6 +2,8 @@
 
 This staff commemorates victors in the Swordhaven Tournament. It's supposed to be ornamental, but you could polish it up. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16153

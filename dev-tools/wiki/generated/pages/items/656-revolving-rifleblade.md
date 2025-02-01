@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. This special brass sabre/gun is self-loading and never backfires. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 656

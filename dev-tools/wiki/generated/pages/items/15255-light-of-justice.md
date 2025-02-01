@@ -2,6 +2,8 @@
 
 There are two sides to every story. This magical weapon brings justice to both.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15255

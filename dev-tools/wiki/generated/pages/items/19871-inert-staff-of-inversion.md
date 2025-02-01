@@ -2,6 +2,8 @@
 
 Escherion's Staff of Inversion, power long gone. Proof of victory over Escherion. Used to create the Staff of Inversion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19871

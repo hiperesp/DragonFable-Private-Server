@@ -2,6 +2,8 @@
 
 Once worn by the bounty hunter J6, this tattered cape has seen more than most can even imagine. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22040

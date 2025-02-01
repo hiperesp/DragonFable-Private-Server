@@ -2,6 +2,8 @@
 
 When you wish upon a rainbow rock, you never know what will happen!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2666

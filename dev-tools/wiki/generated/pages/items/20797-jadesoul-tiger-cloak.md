@@ -2,6 +2,8 @@
 
 The Jadesoul order once ruled over a city on a faraway continent. However, over time, strife and arguments befell their oligarchy, and each of its 12 members left the city to pursue their own interests... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20797

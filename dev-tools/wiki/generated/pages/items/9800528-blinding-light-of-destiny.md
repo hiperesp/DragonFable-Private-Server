@@ -2,6 +2,8 @@
 
 Shiny and undead slaying!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800528

@@ -2,6 +2,8 @@
 
 Long lost under the ocean waves, this helm is almost rusted through. It will still withstand a blow or two though. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3601

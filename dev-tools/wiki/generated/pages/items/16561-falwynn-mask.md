@@ -3,6 +3,8 @@
 An earnest and eager mask!
 Happy Mogloween 2016!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16561

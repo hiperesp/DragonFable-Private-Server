@@ -2,6 +2,8 @@
 
 I scream, you scream, my hat screams, my hat's hat screams! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17712

@@ -2,6 +2,8 @@
 
 This piece of eggshell still glows faintly. Proof of victory over the Suntouched Eggs.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22271

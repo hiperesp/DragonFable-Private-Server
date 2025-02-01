@@ -3,6 +3,8 @@
 Your enemies can't even begin to fathom this staff's power....
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 979

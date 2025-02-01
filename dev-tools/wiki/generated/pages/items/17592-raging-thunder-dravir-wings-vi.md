@@ -2,6 +2,8 @@
 
 The cloak of the Heart Inquisitor order! Dashing, daring, and stylish, it's perfect for defending or capturing hearts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17592

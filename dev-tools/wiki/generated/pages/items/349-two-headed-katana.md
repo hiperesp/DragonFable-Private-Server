@@ -2,6 +2,8 @@
 
 This blade is deadly from either side!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 349

@@ -2,6 +2,8 @@
 
 This flashy full helm was forged by a legendary armorsmith. For who, or what purpose is unknown. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22258

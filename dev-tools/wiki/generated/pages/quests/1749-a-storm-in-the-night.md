@@ -2,6 +2,8 @@
 
 With Swordhaven secured, the Greenguard Alliance has its sights set on the rift over Doomwood.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Can you prove to Sofist that you are worthy of being on the Patrol?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

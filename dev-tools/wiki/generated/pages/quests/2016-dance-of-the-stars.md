@@ -4,6 +4,8 @@ Hearken to us, our Ateala
 Children of your one Empress
 Look to the stars, our guidance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

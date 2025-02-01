@@ -2,6 +2,8 @@
 
 The Baleful Brothers are supplying the people of Apsaydaaun with humans! It's time to put a stop to this!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This helm was discovered underneath a the body of a massive dragon inside his own cave. They must have both persihed in their final battle. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1758

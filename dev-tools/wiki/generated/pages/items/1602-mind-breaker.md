@@ -2,6 +2,8 @@
 
 This weapons seems to be whispering horrible things to you... things that you can't quite understand. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1602

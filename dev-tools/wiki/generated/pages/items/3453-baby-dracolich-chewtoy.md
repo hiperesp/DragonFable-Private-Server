@@ -2,6 +2,8 @@
 
 EW! This old sock is gross! But... well-loved, I suppose.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3453

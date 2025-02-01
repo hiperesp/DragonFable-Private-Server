@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This cape was found one sunny morning lying in a pile of dust. We can only assume that it belonged to a very stupid vampire. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12846

@@ -2,6 +2,8 @@
 
 A strange, quiet building full of old relics from the time of the human Chaosweavers!  Be sure to gather up anything laying around, it might be useful later on in the quest!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This obviously-not-a-villain person who fell from the moon seems... suspicious! You decide to check him out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

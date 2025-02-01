@@ -2,6 +2,8 @@
 
 It's said most Astravian Stargazers went blind looking to the stars in search of prophecy. Perhaps this helm was intended to help slow the inevitable? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22084

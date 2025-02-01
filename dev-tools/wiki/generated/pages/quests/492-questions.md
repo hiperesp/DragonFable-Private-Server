@@ -2,6 +2,8 @@
 
 Cheshire Twilly knows of someone who can help you rescue Aria. IF you can convince him to listen to you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

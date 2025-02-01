@@ -2,6 +2,8 @@
 
 A piece of the Gnarly Guitar of Doom! Collect 10 pieces to trade in for a Gnarly Guitar of your own.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17683

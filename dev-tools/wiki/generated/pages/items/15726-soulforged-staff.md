@@ -2,6 +2,8 @@
 
 Your very own SoulForged staff! It emanates an aura of wisdom and determination!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15726

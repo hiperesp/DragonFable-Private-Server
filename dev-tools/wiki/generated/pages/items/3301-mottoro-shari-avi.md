@@ -2,6 +2,8 @@
 
 The Water Lord gifted this sapphire to the weaponsmith who crafted this dagger.  Use it wisely!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3301

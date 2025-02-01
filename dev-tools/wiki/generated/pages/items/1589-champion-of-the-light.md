@@ -2,6 +2,8 @@
 
 An austere light seems to emanate from this helmet, a basic helm of the Paladin Order.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1589

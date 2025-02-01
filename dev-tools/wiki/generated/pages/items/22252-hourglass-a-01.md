@@ -2,6 +2,8 @@
 
 This small hourglass holds no sand. Proof of victory over the Test of Meanwhile challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22252

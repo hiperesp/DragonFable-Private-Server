@@ -2,6 +2,8 @@
 
 The tooth of a death-god was used to make this cursed blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 106

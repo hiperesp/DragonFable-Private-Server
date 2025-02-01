@@ -2,6 +2,8 @@
 
 A small clockwork device that makes intermittent ticking noises, apparently of Lagohm design.  One can be used in the future to create a special reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20085

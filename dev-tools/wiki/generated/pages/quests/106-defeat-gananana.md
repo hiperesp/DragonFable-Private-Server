@@ -2,6 +2,8 @@
 
 You have assembled all four pieces of the mighty Quad-Force and now you must battle the wicked Gananana to ensure that it is never stolen again.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

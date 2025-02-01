@@ -2,6 +2,8 @@
 
 A member of a symbiotic race from beyond the stars, this Protus Symbiote has arrived to begin the conquest of this planet!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

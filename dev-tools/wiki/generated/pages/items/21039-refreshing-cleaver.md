@@ -2,6 +2,8 @@
 
 This huge block of artificial frozen juicy goodness is the only thing that stands before you, and the enemies who would gate keep what an "ice pop" is. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21039

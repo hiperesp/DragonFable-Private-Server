@@ -2,6 +2,8 @@
 
 Keep the hungry darkness at bay with this shiny gold belt!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3564

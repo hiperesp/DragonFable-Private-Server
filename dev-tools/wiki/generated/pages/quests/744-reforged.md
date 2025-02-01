@@ -2,6 +2,8 @@
 
 The halves of the earth orb combined!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

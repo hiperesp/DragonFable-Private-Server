@@ -2,6 +2,8 @@
 
 The plushies are running amok throughout Lore.  Can you take care of the plushie invasion in the wild?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

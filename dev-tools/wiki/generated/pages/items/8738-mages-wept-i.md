@@ -2,6 +2,8 @@
 
 Inspired by the all-powerful Reki, these daggers will cause your enemies to weep blood.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8738

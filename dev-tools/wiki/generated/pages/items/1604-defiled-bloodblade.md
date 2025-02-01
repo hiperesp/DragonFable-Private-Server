@@ -2,6 +2,8 @@
 
 This sword appears to be a replica of the famous Bloodblade, but subtle changes to the design have been made mocking the honorable nature of the original weapon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1604

@@ -2,6 +2,8 @@
 
 Frostfyre, greatest of the Ice Giants, forged this staff from pure ice from the northern reaches of Lore. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16042

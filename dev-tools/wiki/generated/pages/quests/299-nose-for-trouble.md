@@ -2,6 +2,8 @@
 
 You've agreed to help Sir Ano as he aspires to become one of the most heroic of the Pactogonal Knights.  First stop: tackling rampaging monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

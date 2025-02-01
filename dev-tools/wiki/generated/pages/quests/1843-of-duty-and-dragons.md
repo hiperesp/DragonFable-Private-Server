@@ -2,6 +2,8 @@
 
 An uncertain future, partings, and revelations.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

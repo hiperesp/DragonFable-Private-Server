@@ -2,6 +2,8 @@
 
 This exotic ring is made of highly polished Gorillaphant Ivory.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 127

@@ -2,6 +2,8 @@
 
 A long, thin thread that seems to shift from a pale white to a pure black and back as you stare at it. Proof of your victory over the Unraveler. Used to purchase rewards, and for merging.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18373

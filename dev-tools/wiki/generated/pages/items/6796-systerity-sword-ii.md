@@ -2,6 +2,8 @@
 
 Crafted by a master Atealean blacksmith, these weapons feel the tidal pull of Lore's moon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6796

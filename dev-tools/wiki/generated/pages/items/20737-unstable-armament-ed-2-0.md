@@ -2,6 +2,8 @@
 
 This mysterious weapon feels like it both exists and yet does not. Your eyes and mind simply cannot process what it looks like! Using it makes you feel like you're wielding nothing at all. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20737

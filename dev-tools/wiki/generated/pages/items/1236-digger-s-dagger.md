@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 26 or higher to create. This dagger design was taken from a dagger found in the bottom of an ancient mine, and what's mine is yours. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1236

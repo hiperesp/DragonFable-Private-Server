@@ -2,6 +2,8 @@
 
 The once pristine black scales of this belt are now covered with slime and lichen.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13984

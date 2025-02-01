@@ -2,6 +2,8 @@
 
 A dark purple band, set with a small gleaming yellow gem. Oddly enough, you'd swear it emits the faintest scent of pineapple. Proof of victory over Eulin II!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21493

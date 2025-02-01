@@ -2,6 +2,8 @@
 
 The path west of Oaklore that leads to the boat to Sunbreeze Grove.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

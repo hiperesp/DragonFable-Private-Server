@@ -2,6 +2,8 @@
 
 This blade will slice a monster in two!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 341

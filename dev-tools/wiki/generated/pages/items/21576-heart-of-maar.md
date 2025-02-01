@@ -2,6 +2,8 @@
 
 A pulsing red crystal, warm to the touch, used to upgrade the Great Dragon's Claw. Proof of victory over Akriloth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21576

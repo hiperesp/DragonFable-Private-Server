@@ -2,6 +2,8 @@
 
 This dagger was forged in honor of Amdusias Furfur, the third person to obtain the Twin Blades of Doom! Hypnotic colors spin and twist sickeningly within its blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 248

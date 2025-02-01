@@ -2,6 +2,8 @@
 
 This lovely lithe blade once belonged to a lovely lady whose powers were rumored to be those of a goddess...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 35

@@ -2,6 +2,8 @@
 
 This one appears to have gotten itself into a knot somehow. Or is it two? Best not to think about it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12514

@@ -2,6 +2,8 @@
 
 This staff was created using metamorphic ores mined from deep within the Lymcrest Mines.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1870

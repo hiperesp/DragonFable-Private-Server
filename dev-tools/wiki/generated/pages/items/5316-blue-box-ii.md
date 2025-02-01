@@ -2,6 +2,8 @@
 
 It's a Timey Blimey Thingy Wingy! No one is really sure what it means or what it does. Can YOU figure it out? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5316

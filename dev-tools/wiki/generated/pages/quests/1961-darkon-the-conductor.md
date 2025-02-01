@@ -2,6 +2,8 @@
 
 A requiem, 22 years in the making.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

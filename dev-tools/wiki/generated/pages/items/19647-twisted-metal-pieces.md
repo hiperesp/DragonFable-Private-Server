@@ -2,6 +2,8 @@
 
 An assortment of melted, twisted, oxidized, and otherwise destroyed scraps of metal. For some reason, you feel like it belongs to... somewhere, some time else. Used to upgrade the Psionic Ratchet. Proof of victory over the Tainted Time challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19647

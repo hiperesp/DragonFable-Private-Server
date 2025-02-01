@@ -2,6 +2,8 @@
 
 Uriel looked down on the rogues and saw them fighting on behalf of all that is good in the world, and chose to bestow his daggers upon them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5710

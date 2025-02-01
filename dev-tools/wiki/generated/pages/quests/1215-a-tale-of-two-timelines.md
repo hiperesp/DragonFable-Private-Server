@@ -2,6 +2,8 @@
 
 It's that time of year! You've planned for every contingency to have a safe Frostval, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

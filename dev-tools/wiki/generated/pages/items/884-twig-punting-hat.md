@@ -2,6 +2,8 @@
 
 This hat was awarded to you for defeating the Artix Entertainment Mini-Game MOGLIN PUNTER!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 884

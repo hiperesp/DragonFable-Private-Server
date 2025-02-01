@@ -3,6 +3,8 @@
 A lithe weapon, orbs play along the edge of the blades of the Night Annex.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6675

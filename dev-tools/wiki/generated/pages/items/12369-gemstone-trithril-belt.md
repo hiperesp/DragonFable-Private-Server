@@ -2,6 +2,8 @@
 
 Gemstone quality trithril has been set into the stone faces of this handsome belt!!This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12369

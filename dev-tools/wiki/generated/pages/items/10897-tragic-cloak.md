@@ -2,6 +2,8 @@
 
 You're one baaaaad dude!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10897

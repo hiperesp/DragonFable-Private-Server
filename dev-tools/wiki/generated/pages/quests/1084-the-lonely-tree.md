@@ -2,6 +2,8 @@
 
 The shadow of the huge tree blocks the sun.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

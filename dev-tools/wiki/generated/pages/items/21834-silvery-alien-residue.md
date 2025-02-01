@@ -2,6 +2,8 @@
 
 The somewhat gloopy remains of an invading alien. Proof of victory over the Protus Symbiote.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21834

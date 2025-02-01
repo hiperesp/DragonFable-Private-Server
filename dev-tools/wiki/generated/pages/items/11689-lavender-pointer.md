@@ -2,6 +2,8 @@
 
 Painted a pugnacious shade of purple this Lucky Day item is a plum punishment for your oppugners! Happy Lucky Day '14!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11689

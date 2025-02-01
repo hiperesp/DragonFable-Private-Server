@@ -2,6 +2,8 @@
 
 Summon a simulacrum of the Destiny Dragon when it was young!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14047

@@ -2,6 +2,8 @@
 
 Wait. I didn't think these existed! Go figure.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2472

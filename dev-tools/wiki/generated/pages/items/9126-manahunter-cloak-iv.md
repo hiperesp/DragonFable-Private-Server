@@ -2,6 +2,8 @@
 
 A manahunter's cloak! Surprisingly comfortable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9126

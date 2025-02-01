@@ -2,6 +2,8 @@
 
 After hearing your findings, Verlyrus and the Fish Lord know just where to send you next!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

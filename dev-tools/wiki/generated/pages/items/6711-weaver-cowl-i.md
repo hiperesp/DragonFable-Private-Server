@@ -2,6 +2,8 @@
 
 A cowl made from beautifully woven cloth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6711

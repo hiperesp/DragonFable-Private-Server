@@ -2,6 +2,8 @@
 
 Trithril links forged by Yasta himself. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12374

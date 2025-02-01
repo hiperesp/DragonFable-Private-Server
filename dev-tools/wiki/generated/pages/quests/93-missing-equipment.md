@@ -2,6 +2,8 @@
 
 Upon returning to the camp with a sample of the rotten Mollo fruit, Sir Vey has asked you to head to the river and find the testing equipment that he left on the bank of the river.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

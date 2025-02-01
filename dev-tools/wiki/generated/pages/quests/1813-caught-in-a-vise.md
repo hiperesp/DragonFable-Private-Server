@@ -2,6 +2,8 @@
 
 Tensions are high in the Haven. There has to be something you can do to help!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

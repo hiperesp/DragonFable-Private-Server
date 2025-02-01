@@ -2,6 +2,8 @@
 
 The Ashen Knights are the heralds of this General!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

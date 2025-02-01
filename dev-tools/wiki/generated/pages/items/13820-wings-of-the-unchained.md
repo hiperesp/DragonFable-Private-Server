@@ -2,6 +2,8 @@
 
 Power. Power enough to make your dreams come true...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13820

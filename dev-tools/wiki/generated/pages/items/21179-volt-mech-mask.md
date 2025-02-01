@@ -2,6 +2,8 @@
 
 A marvel of unknown technology! Oh wait, it's just made out of cardboard.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21179

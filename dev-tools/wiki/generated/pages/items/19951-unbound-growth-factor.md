@@ -2,6 +2,8 @@
 
 This small box of dust appears to be some sort of otherwordly fertilizer. Not recommended for use in home gardens. Used to upgrade the Jade Cleaver. Proof of victory over Yalla and Braytes San.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19951

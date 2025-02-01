@@ -2,6 +2,8 @@
 
 Proof of your success over the Arbitrary Arena Random Goal Heuristic system. Used to purchase exclusive Arena rewards!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18514

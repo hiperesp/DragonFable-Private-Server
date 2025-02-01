@@ -2,6 +2,8 @@
 
 Aspar is looking for something... special.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

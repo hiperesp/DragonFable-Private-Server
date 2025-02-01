@@ -2,6 +2,8 @@
 
 These fireflies from the Creatioux Grove have taken a liking to you.  It looks like you've found some new pets, and their presence can buff you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4180

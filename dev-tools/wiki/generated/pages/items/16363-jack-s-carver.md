@@ -2,6 +2,8 @@
 
 As a being of pumpkins and vines, Jack was able to wield many weapons at once. Those that survived its onslaught would recount that it used many of these smaller blades in a thrashing fury. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16363

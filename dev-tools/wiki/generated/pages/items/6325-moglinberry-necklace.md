@@ -2,6 +2,8 @@
 
 A strand of moglinberries. The smell is amazing... if you had some fire you could brew up a cup of moglinberry juice! This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6325

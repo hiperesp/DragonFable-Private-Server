@@ -2,6 +2,8 @@
 
 Thought to be lost in time, this staff's magical design was rediscovered after years of research. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 255

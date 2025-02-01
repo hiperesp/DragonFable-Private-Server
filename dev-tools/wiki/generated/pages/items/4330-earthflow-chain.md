@@ -2,6 +2,8 @@
 
 This thin, delicate chain carries the power of an earth elemental in it's links.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4330

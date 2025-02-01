@@ -2,6 +2,8 @@
 
 For some reason you feel like there should be undead on this path wearing hockey masks...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

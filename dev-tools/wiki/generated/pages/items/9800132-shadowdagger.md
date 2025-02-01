@@ -2,6 +2,8 @@
 
 A pair of sharp and deadly blades.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800132

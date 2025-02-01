@@ -2,6 +2,8 @@
 
 Made by a master weaponsmith, this dagger is imbued with the energy of the sun.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1862

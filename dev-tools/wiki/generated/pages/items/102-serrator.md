@@ -2,6 +2,8 @@
 
 You can saw your way to the top with this sword.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 102

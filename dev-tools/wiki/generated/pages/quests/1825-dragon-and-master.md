@@ -2,6 +2,8 @@
 
 Dragonmaster Frostscythe and Glaisaurus bring forth a chilling frost.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

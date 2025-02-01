@@ -2,6 +2,8 @@
 
 A warped, twisted ball of light and dark energy. With the right... catalyst, maybe this could be manipulated. One way or the other.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18335

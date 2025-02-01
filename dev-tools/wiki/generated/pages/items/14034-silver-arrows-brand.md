@@ -2,6 +2,8 @@
 
 Runes are lightly etched along the lines and edges of this elegant weapon... a weapon sure to do damage to any creature that lurks in the darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14034

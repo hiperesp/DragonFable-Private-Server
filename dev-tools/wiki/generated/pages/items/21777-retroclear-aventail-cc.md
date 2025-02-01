@@ -2,6 +2,8 @@
 
 Under the visor of this helm glow strange glyphs the likes of which you've never seen before. (Cosmetic)(CC: Dragon Eye)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21777

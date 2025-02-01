@@ -2,6 +2,8 @@
 
 Hewn from the Lymcrest valley this heavy staff can only be wielded by one of great intelligence.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1798

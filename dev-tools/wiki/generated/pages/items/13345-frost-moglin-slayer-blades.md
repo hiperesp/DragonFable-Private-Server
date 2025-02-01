@@ -2,6 +2,8 @@
 
 Slayer of the Frost Moglins! Your evil deeds and vicious attack have made everyone in Frostvale Village scared of your every move!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13345

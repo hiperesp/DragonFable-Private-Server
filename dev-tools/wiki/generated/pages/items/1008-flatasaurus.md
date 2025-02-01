@@ -2,6 +2,8 @@
 
 This flat little lizard is found on the sun-warmed rocks of Sho Nuff and surrounding islands. It may move slowly, but it has a great tan!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1008

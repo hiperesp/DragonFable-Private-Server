@@ -2,6 +2,8 @@
 
 Keen as the most keen of enemies. Made for the rogue who likes their weapon as sharp as their wit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 380

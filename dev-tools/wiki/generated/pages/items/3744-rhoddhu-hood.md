@@ -2,6 +2,8 @@
 
 A simple fur hood made from Rhoddhu pelt. Very warm and cozy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3744

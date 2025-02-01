@@ -2,6 +2,8 @@
 
 This ring was found at the bottom of a hole dug five feet into the ground.  It smells faintly of peaches.  Is it cursed, or is it good luck?  You decide!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4864

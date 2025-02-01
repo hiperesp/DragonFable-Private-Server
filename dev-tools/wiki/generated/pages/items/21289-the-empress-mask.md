@@ -2,6 +2,8 @@
 
 Everyone else perceives this mask differently!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21289

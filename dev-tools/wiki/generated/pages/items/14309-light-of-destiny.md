@@ -2,6 +2,8 @@
 
 This replica of the legendary axe used by Artix was crafted by Zee and enhanced by Ashendal! It will increase your BtH and Crit against Undead! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14309

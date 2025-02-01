@@ -2,6 +2,8 @@
 
 This belt is made of coins of Unicornal Horn that shimmer as you move! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9427

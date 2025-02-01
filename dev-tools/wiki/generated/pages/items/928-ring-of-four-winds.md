@@ -2,6 +2,8 @@
 
 This ring was supposed to bring favorable winds  and smooth sailing to any captain who wore it, according to the last journal entry on the sunken ship where it was found. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 928

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 24 or higher to create. The smith's idea was to make a talking weapon, but instead of talking... it shouts.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1231

@@ -2,6 +2,8 @@
 
 A twisted and foul spherical gem known as a "lich core". Some theorize these are formed from the remains of a defeated lich's soul... only to consume the next unfortunate soul who dares to draw upon its power. Or maybe lichs just like how they look.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20404

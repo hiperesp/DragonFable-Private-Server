@@ -2,6 +2,8 @@
 
 You've infused your helm with shadow energy. The power that it held has been increased, but you now seem to see odd shapes at the edge of your vision.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12604

@@ -2,6 +2,8 @@
 
 You have to find Lady Celestia before the Darkwolf bandits do, otherwise the Black Dragon Box will be lost!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

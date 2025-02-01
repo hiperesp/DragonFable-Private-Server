@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  Put together from disparate parts, this sword fits together like a well crafted poem.  Unfortunately, the maker seems to have liked limericks...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1552

@@ -2,6 +2,8 @@
 
 A greatsword magically crafted from a collection of Darkness-infused Onyx. On special, increases your Crit. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21668

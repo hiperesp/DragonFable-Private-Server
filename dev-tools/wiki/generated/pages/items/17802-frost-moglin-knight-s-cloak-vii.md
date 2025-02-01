@@ -2,6 +2,8 @@
 
 The warm and magically infused cloak of the Frost Moglin Knights! Equip this item with the Frost Moglin Knight's Helm to upgrade the Frost Moglin Armor! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17802

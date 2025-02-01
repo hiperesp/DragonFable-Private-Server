@@ -2,6 +2,8 @@
 
 Rolith says since I didn't give him pie, I had to make him a belt out of this tog-hide.  Enjoy it! - Alac
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3084

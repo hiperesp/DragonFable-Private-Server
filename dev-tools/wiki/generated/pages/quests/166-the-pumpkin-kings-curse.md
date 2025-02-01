@@ -2,6 +2,8 @@
 
 The Cauldron Sisters have employed you as their part-time candy consultant which means that you need to help them in all aspects of their candy making. Including defeating Jack Strife and breaking the pumpkin curse on Myx.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

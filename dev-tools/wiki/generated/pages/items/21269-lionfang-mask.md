@@ -2,6 +2,8 @@
 
 I clashed against Evil chocolates in the South! Tore through their unholy packaging!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21269

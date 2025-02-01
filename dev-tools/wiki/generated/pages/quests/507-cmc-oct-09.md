@@ -2,6 +2,8 @@
 
 Its the Code Monkey Challenge for October 09.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This powerful dagger is best used early in the morning. The damage is GRRRRRRRRREAT!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 240

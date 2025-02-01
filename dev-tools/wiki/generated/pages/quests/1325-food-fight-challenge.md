@@ -2,6 +2,8 @@
 
 Joules has crashed the party and super charged some of your old Thankstaking enemies!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

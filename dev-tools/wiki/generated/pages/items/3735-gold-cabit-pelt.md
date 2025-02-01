@@ -2,6 +2,8 @@
 
 The pelt of the magicial Golden Cabit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3735

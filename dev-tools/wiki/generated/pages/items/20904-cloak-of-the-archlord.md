@@ -2,6 +2,8 @@
 
 A once noble cloak of some distant yet familiar kingdom, it has been stained with Chaos born from fury. Proof of victory over Lionfang, the Zealot. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20904

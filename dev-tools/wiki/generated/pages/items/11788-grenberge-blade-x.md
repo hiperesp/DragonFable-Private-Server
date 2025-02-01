@@ -2,6 +2,8 @@
 
 An expensive blade with a very intricately decorated Grenberge Egg featured in its hilt. Happy Grenwog '14! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11788

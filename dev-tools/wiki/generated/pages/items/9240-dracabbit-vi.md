@@ -2,6 +2,8 @@
 
 Your very own cuddly dracabbit to help celebrate Grenwog '13! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9240

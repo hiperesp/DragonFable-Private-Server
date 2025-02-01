@@ -2,6 +2,8 @@
 
 Which do YOU choose: Science, Magic, or Magiscience?  Your rewards for The Clashening depend on your choice!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

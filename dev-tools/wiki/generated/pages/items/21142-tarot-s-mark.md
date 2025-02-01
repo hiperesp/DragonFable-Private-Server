@@ -2,6 +2,8 @@
 
 A mark of sacrifice. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21142

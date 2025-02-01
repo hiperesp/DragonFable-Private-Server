@@ -2,6 +2,8 @@
 
 Arrrr!  This ratty old neck scarf sure didn't bring it's wearer luck or beauty.  But stories say that he felt smarter, stronger, and faster while wearing it!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3552

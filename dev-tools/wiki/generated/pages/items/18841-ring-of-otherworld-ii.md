@@ -2,6 +2,8 @@
 
 This ring was woven from the fur of the Doomkitten and the hair of Guffer! It's very soft and comfortable. Proof of your victory over the Kerfluffle challenge. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18841

@@ -2,6 +2,8 @@
 
 An ancient Azaveyran relic once locked away in the Magesterium's vaults, this blade glows with mysterious power... (Cosmetic) (CC: Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21689

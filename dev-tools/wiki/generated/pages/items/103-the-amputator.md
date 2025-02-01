@@ -2,6 +2,8 @@
 
 A wicked blade designed for do-it-yourself surgery on the battlefield.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 103

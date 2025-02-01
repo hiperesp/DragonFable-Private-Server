@@ -2,6 +2,8 @@
 
 The secret of true power resides in the mind. This scythe can help you unlock that power, but at a terrible price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5385

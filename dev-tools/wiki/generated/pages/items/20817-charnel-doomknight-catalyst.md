@@ -2,6 +2,8 @@
 
 This catalyst is a blood-red, intricately carved jewel. When you hold it you swear you can hear the sound of rushing water. At least, you hope that's water. This hot Customization Catalyst unlocks the Charnel customization option for DoomKnight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20817

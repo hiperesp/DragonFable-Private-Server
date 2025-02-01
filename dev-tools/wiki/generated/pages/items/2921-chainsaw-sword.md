@@ -2,6 +2,8 @@
 
 Lim's not really sure if a chainsaw will work as a sword, but he's willing to watch while you try it out!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2921

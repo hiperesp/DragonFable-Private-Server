@@ -2,6 +2,8 @@
 
 This rare imp pet was captured during Xan's attack on Falconreach. It has a bad temper and will only obey one who controls the power of a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 761

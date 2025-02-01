@@ -2,6 +2,8 @@
 
 Zhoom has gone to the dunes to investigate some reports of resistance activity, this is your chance to go to meet your contact here in the Inn.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

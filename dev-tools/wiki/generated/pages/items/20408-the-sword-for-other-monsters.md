@@ -2,6 +2,8 @@
 
 One of many Rivalt's swords that he chose to part with for your sake! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20408

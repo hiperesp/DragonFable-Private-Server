@@ -2,6 +2,8 @@
 
 Thyton has you hot on the trail of Drakath!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

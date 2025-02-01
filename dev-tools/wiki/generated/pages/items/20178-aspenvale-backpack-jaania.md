@@ -2,6 +2,8 @@
 
 A standard issue backpack for Aspenvale Academy students! It has a Rose-shaped charm attached to it that Jaania gave you after your QuestVenture!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20178

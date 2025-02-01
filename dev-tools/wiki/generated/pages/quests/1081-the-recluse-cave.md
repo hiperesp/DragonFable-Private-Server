@@ -2,6 +2,8 @@
 
 Heat rises in the empty halls.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This cloak of everlasting leaves was crafted by an ancient order of druids to enhance their seasonal abilities. The druids may be gone, but the cloak remains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19229

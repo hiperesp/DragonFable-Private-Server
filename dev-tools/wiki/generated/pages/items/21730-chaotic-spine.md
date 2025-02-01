@@ -2,6 +2,8 @@
 
 The oddly familiar (and dormant) dragon bones worn by the Chaos DragonLord. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21730

@@ -2,6 +2,8 @@
 
 Fine links of trithril make up this strong belt. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12375

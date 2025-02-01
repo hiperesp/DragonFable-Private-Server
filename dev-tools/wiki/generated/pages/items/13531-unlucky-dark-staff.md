@@ -2,6 +2,8 @@
 
 The dark one lives again. Do you dare take up this cursed weapon, knowing who it once belonged to?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13531

@@ -2,6 +2,8 @@
 
 The helmet doesn't look like it's properly fitted...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21190

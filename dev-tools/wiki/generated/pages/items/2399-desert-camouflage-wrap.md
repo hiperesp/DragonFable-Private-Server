@@ -2,6 +2,8 @@
 
 Like the quick little lizards who change colors to hide themselves from predators, this wrap will help conceal you if you choose the right colors, even out in the open. This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2399

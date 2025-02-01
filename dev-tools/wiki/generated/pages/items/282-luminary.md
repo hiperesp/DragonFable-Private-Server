@@ -2,6 +2,8 @@
 
 Legend has it this gem fell from the sky long ago. Where it came from is unknown, but it shines with a bright light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 282

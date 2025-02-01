@@ -2,6 +2,8 @@
 
 Created by oishii in celebration of 10 years of DragonFable!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15135

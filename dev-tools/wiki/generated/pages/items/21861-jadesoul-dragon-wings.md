@@ -2,6 +2,8 @@
 
 The Jadesoul order once ruled over a city on a faraway continent. After its public and dramatic dissolution, none of its members were ever seen again. (Cosmetic) (CC: Base, Trim, Dragon Eye)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21861

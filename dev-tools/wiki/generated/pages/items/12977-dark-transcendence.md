@@ -2,6 +2,8 @@
 
 Transcendence was drained of its color for all those worthy of using it for Black Friday 2014! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12977

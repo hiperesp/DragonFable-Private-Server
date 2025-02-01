@@ -3,6 +3,8 @@
 It's just a normal, average, everyday, Vurrmen tail.
 Whatever that means.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12515

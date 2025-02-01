@@ -2,6 +2,8 @@
 
 This mask seems to depict a humanoid creature the likes of which you've never seen before.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21177

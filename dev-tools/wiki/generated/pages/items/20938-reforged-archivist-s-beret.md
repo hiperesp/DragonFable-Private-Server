@@ -2,6 +2,8 @@
 
 While calling a newly woven outfit "reforged" may be hyperbole, nonetheless, this beret is arguably more fashionable than competing alternatives. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20938

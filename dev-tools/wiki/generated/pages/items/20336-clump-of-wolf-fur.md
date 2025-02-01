@@ -2,6 +2,8 @@
 
 A large wolf means large amounts of shedding. This is just some of the fur stuck to you. Maybe someone will buy it off you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20336

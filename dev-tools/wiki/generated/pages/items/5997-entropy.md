@@ -2,6 +2,8 @@
 
 Break down your enemies with this wicked armor! Nothing can stand against the force of enTropy!  Best for Players level 40+
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5997

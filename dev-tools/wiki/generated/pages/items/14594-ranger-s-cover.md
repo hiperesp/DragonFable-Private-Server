@@ -2,6 +2,8 @@
 
 This hood keeps the desert sun out of your eyes so you can focus on your target. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14594

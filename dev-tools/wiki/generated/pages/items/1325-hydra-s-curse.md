@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. This dagger had a curse laid upon it by a Mage whose child was injured by a rampaging hydra.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1325

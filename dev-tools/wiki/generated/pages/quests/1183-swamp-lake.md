@@ -2,6 +2,8 @@
 
 You've come to the lake as a favor to Thursday, to see if you can find any evidence for happened to Lon and Cheney.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

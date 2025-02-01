@@ -2,6 +2,8 @@
 
 One of a set of powerful daggers, forged from stone cut from the heart of Lore itself. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2435

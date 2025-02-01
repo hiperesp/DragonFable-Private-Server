@@ -2,6 +2,8 @@
 
 A large tooth whittled down to be a nice ring. This looks to be carved in such a way that it could be used as part of a necklace as well. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14484

@@ -2,6 +2,8 @@
 
 A bug is trapped within the amber the ring is carved from! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7047

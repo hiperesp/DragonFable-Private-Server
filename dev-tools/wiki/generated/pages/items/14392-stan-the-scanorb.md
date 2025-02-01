@@ -2,6 +2,8 @@
 
 The one and only, Stan the ScanOrb! Accept no substitutes! Made in Lore.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14392

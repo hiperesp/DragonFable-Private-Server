@@ -2,6 +2,8 @@
 
 This belt is made of stuff and things, and when you stare at it for too long, you imagine you're seeing into space and time.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3401

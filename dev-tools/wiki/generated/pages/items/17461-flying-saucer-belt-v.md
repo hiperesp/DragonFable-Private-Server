@@ -2,6 +2,8 @@
 
 This flimsy-looking belt buckle protects against "space and the unknown". At least that's what the box it came in said.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17461

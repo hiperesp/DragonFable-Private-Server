@@ -2,6 +2,8 @@
 
 Lady Celestia wishes to celebrate your birthday!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 After the Orb Saga.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

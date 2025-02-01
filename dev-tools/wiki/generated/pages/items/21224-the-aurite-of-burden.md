@@ -2,6 +2,8 @@
 
 This device shapes and forms as your responsibility grows, what you have to do remains to be seen. (Cosmetic) (Click to Change)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21224

@@ -2,6 +2,8 @@
 
 Sir Ano is off to see the Wizard, and he's taking you, too!  Luckily there's a crumbled old road that will guide you to the ruined city where the Wizard lives.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

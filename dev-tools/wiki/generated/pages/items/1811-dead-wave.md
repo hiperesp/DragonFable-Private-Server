@@ -2,6 +2,8 @@
 
 This strange blade was forged in the far north near Dragesvard, in the slowing waters of the sea. The strange properties make it deadly accurate.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1811

@@ -2,6 +2,8 @@
 
 Only the most astute of sleuths are fit to wear this old-fashioned cap! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4073

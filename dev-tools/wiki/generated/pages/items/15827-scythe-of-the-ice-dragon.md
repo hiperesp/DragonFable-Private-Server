@@ -2,6 +2,8 @@
 
 Crafted to celebrate ten years of heroics on Lore, this scythe has a minor Orb of Ice to give it power!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15827

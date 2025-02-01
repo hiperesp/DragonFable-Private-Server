@@ -2,6 +2,8 @@
 
 Your hearing seems greatly improved!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4969

@@ -2,6 +2,8 @@
 
 Once won by the hunter who brought down the biggest scorpiac ever seen.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11466

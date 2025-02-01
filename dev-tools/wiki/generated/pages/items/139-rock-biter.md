@@ -2,6 +2,8 @@
 
 Primitive stone, combined with sturdy wood makes this primordial axe lethal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 139

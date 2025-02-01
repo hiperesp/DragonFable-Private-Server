@@ -2,6 +2,8 @@
 
 Some of the symbols on this belt seem to match some of the things inside the ship hidden at the center of the castle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14413

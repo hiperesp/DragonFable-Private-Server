@@ -2,6 +2,8 @@
 
 One of the mushroom lieutenants dropped this as he fell in battle in the deep woods near Oaklore Keep.  It's a bit musty but seems to have made you a bit quicker and more able to dodge enemies when you wear it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2043

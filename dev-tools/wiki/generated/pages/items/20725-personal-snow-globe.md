@@ -2,6 +2,8 @@
 
 It's your very own snow globe! You can't quite carry it in your arms, but you can certainly wear it on your head! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20725

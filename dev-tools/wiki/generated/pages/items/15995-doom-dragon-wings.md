@@ -2,6 +2,8 @@
 
 The evil that emanates from these wings is almost palpable. Can you stop the source and save your dragon from Doom? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15995

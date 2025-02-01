@@ -2,6 +2,8 @@
 
 The rough-hewn obsidian this blade is made from will slice through the straps holding on your opponent's armor.  Be careful, though.  It's probably best not to taunt your bandit enemy if he's wearing a pink undershirt.  Just to be safe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1699

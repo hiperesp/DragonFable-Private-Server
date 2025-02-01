@@ -2,6 +2,8 @@
 
 This dagger really suits you!  But it's not shaped like a spade at all...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3951

@@ -2,6 +2,8 @@
 
 Time can be a very cold thing, its very nature to ignore anything that doesn't go along with its path. Use that power against your foes and show them how cold time can be!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13287

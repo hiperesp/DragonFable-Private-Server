@@ -2,6 +2,8 @@
 
 Who has enough power and knowledge to guide you through the Void?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

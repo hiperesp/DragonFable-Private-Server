@@ -2,6 +2,8 @@
 
 The Rose must be pushed back. Sulen'Eska and the refugees must be saved. But at what cost?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

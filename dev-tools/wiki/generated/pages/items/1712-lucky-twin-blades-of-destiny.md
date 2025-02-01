@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. So much DESTINY, it hurts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1712

@@ -2,6 +2,8 @@
 
 You're collecting booty for Mazurek!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

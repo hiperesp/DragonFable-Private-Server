@@ -2,6 +2,8 @@
 
 While Vseslava and Ostromir very heavily discourage its use, they begrudgingly admit there is little risk in using this detached Hollow Nodule as a backpiece. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21012

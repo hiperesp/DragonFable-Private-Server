@@ -2,6 +2,8 @@
 
 Ew, gross! Is that his FINGER you're using as a claw?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3106

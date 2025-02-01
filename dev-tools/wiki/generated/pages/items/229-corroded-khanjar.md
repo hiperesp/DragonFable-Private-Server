@@ -2,6 +2,8 @@
 
 This ancient, pitted blade belonged to a warlord named Khanjar who used it to slaughter countless sneevils.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 229

@@ -2,6 +2,8 @@
 
 This dark snowflake glows brightly, standing out against its peers. Who knows, maybe it could fetch a nice price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16832

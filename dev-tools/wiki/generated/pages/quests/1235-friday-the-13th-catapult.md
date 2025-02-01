@@ -2,6 +2,8 @@
 
 Bomb them with sponges!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

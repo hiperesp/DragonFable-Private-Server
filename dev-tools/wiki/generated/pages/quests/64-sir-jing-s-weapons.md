@@ -2,6 +2,8 @@
 
 You find yourself at the base of a mountain surrounded by storm elementals. They have gathered to use the power of Sir Jing's weapons to create a never-ending storm!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

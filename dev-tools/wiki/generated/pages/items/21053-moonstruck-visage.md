@@ -2,6 +2,8 @@
 
 Strike awe in any who behold you with the glowing and flowing hair (and rabbit ears) of Amaris! Proof of victory over the Everlasting Night challenge. (Cosmetic)(CC: Hair)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21053

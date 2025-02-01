@@ -2,6 +2,8 @@
 
 This is the best snowflake. There is no other snowflake like it. Definitely not that one over there. Or that one. This one is UNIQUE! Who knows, maybe it could fetch a nice price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16835

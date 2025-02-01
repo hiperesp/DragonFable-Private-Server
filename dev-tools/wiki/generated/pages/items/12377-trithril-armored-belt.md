@@ -2,6 +2,8 @@
 
 Plates of trithril forged over void fire by Yasta! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12377

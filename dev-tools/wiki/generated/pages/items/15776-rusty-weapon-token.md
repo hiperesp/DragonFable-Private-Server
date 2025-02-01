@@ -2,6 +2,8 @@
 
 One of these tokens can be traded in for a Rusty Royal Weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15776

@@ -2,6 +2,8 @@
 
 A pair of armored-scaled wings styled after the battle scarred ones of a Dravir commander.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10026

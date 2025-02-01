@@ -2,6 +2,8 @@
 
 These were crafted by Ashendal to celebrate the anniversary of his entrance into the multiverse all those years ago. These blades seem to strike a fraction of a second faster than you move them...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13248

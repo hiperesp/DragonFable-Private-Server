@@ -2,6 +2,8 @@
 
 A common red fury feather. Hot to the touch, but quite common.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17779

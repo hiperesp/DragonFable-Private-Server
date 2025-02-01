@@ -2,6 +2,8 @@
 
 Like a string of pearls, but alive. And edible. If you really have to. A reminder of your time at Mooga Booga Islet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18158

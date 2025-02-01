@@ -2,6 +2,8 @@
 
 You can feel the chill permeating off of this staff, imbued with the magic of an unforgiving frost. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4221

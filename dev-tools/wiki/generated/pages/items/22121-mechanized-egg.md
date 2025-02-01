@@ -2,6 +2,8 @@
 
 Something is definitely trying to hatch from this mechanical egg! But what could it be? Proof of victory over Sparkle Boy and the Crane Master.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22121

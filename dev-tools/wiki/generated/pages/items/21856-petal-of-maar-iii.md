@@ -2,6 +2,8 @@
 
 A relic from Maar passed down through generations. Reforged by The Rose in pursuit of Lore's salvation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21856

@@ -2,6 +2,8 @@
 
 One fish, two fish, red fish.... crazy crystal ball rolling aqua damage fish. (It almost rhymes)
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

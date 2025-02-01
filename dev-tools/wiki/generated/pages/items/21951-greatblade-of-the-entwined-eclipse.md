@@ -2,6 +2,8 @@
 
 This mysterious blade fell from the sky at the totality of the eclipse... and was promptly picked up for sale by a certain green mage. Can be clicked to change its appearance. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21951

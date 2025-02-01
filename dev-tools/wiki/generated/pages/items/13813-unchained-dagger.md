@@ -2,6 +2,8 @@
 
 The strength from within can break any bond, sever any chain, free you from anything that tries to hold you back.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13813

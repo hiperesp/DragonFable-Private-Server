@@ -2,6 +2,8 @@
 
 The mystery of the Nature Orb.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

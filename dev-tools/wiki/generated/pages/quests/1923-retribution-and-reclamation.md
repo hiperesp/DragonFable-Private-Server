@@ -2,6 +2,8 @@
 
 The all-consuming purpose of destruction.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

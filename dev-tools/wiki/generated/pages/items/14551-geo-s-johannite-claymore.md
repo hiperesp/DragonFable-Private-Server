@@ -2,6 +2,8 @@
 
 A special weapon to commemorate Geo's Birthday! Forged by Dracelix, this massive sword will smash through anything in your way!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14551

@@ -2,6 +2,8 @@
 
 Just hefting this axe in your hands staggers you with the weight of the responsibility of a hero. But you can handle it, right? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17518

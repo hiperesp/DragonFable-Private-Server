@@ -2,6 +2,8 @@
 
 This hood is stored in a boxed made out of sapphires.  When the box was placed under the moon, the light filtering through the stones soaked into the hood and imbued it with with magic. This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2403

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 22 or higher to create. This dagger's design was found scrawled on a napkin in the World's End Inn. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1230

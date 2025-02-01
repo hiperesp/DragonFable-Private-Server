@@ -2,6 +2,8 @@
 
 A lattice of leaves and vines woven together from bounties of the forest floor in autumn. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4601

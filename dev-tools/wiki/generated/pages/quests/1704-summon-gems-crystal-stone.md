@@ -2,6 +2,8 @@
 
 Slow growth, steady growth, Crystal and stone, pressure and time.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

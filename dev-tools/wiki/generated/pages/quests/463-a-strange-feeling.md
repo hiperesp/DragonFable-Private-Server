@@ -2,6 +2,8 @@
 
 Can the occupants of this house in the middle of Wanderland tell you anything about how to free Aria?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

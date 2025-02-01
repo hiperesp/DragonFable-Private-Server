@@ -2,6 +2,8 @@
 
 The orb is  illuminated with energy of a fire elemental.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 843

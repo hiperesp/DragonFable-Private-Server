@@ -2,6 +2,8 @@
 
 Help Niki defend the Clawkin village from the attacking Rose soldiers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

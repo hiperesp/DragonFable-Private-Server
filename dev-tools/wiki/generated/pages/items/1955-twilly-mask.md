@@ -2,6 +2,8 @@
 
 Watch out for random puntings!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1955

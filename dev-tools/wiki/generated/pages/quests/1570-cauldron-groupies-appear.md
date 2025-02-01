@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen the Cauldron Groupies to be your foes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

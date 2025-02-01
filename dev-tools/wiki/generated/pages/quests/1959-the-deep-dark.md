@@ -2,6 +2,8 @@
 
 With your allies, you dive deeper into the Tytan, in search of something, anything to put and end to the Hollow scourge spreading across the Depths.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

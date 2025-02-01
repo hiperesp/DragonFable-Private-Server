@@ -2,6 +2,8 @@
 
 This replica of the legendary Dragon Blade was crafted by Zee and enhanced by Ashendal! It will increase your BtH and Damage against Reptiles and Dragons! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14301

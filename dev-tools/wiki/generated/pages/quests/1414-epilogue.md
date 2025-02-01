@@ -2,6 +2,8 @@
 
 Jaania has appeared in destroyed Falconreach with her entourage.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

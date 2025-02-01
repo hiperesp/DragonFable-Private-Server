@@ -3,6 +3,8 @@
 A protective cowl brought across dimensions by the strange alien refugees.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6459

@@ -2,6 +2,8 @@
 
 The woulds seem strangely quiet.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

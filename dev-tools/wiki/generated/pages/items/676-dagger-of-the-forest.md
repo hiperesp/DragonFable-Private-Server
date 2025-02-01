@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Long ago a brave human stood alone against a group of loggers to save a forest that he loved. to say Thank You, the forest gave him this mighty blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 676

@@ -2,6 +2,8 @@
 
 Empowered with the magic of The Great One, this weapon can swap between blades of Nature and Stone. The smiths of the Vind have lent their expertise to reinforce the blades.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21112

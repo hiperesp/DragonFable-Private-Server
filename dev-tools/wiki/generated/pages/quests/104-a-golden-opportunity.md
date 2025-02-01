@@ -2,6 +2,8 @@
 
 Robina has agreed to give you the Black Dragon Box in exchange for a few favors, the first of which is recovering a chest of gold stolen by the Darkwolf Bandits.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

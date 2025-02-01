@@ -2,6 +2,8 @@
 
 The one and only Jack Crescent! (and Gnarly Guitar of Doom)
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You turned yourself into a potato! Funniest spud you've ever seen.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22154

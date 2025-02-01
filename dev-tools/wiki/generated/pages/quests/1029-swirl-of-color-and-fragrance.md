@@ -2,6 +2,8 @@
 
 Laesa Forn wants you to find Vindeflauers for her friend in her stead. But do they even still grow in this wasteland?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

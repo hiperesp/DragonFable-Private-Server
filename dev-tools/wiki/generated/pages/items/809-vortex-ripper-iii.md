@@ -2,6 +2,8 @@
 
 This staff rips through the air around your foe creating a REALLY STRONG vortex of wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 809

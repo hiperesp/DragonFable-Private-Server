@@ -2,6 +2,8 @@
 
 Sentient globs of ice cream and candy are attacking the town?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

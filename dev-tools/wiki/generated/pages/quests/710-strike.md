@@ -2,6 +2,8 @@
 
 We're not gonna take it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

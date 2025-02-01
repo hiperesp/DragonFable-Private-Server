@@ -2,6 +2,8 @@
 
 This dagger was clearly once a straight razor. A wicked point has been ground into its blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 272

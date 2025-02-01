@@ -2,6 +2,8 @@
 
 Zorbak convinced the sneevilchauns to steal him a pot o gold so that he could pay for his most recent invasion efforts.  He didnt count on how canny the undead are!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The enchanted wood of the hilt of this dagger can focus mental energy into a magical force blade. It all depends on how sharp your wits are.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1129

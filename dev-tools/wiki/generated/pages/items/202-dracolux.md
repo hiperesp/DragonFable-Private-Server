@@ -2,6 +2,8 @@
 
 This powerful offensive staff is the result of a successful blending of dragonfire with arcane light spells.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 202

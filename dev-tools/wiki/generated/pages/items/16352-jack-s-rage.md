@@ -2,6 +2,8 @@
 
 This sword was used by a pumpkin golem given life by ancient magic. It fought for good, and defended the innocent, until it finally fell in battle, and was bound to its weapons by an evil sorcerer.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16352

@@ -2,6 +2,8 @@
 
 A book written by a dwarf? I know just the one!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

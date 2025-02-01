@@ -2,6 +2,8 @@
 
 The Obsidian Tog awaits!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

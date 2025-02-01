@@ -2,6 +2,8 @@
 
 The teeth of some kind of animal... you think. They're dipped in silver.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11467

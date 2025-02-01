@@ -2,6 +2,8 @@
 
 Rumors from the citizens of Dragesvard say that this cave was once home to one of the Great Dragons. Galanoth needs you to investigate the area and see what you can come up with.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 With all the delicious items you've gathered the Sisters can really work their magical confectionery skills!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

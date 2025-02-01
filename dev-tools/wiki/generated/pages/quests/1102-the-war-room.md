@@ -2,6 +2,8 @@
 
 The Rose is attacking at strategic locations throughout Betrubung Swamp and its surrounding lands!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

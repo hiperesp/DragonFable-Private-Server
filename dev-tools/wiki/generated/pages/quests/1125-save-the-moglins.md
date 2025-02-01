@@ -2,6 +2,8 @@
 
 You've got to save the Frostval moglins once again!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

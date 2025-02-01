@@ -2,6 +2,8 @@
 
 Clan Stormrider were once among the most feared corsairs on the northern seas, and these blades were carried by Ice Giants who sailed the stormy seas.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16330

@@ -2,6 +2,8 @@
 
 Down in the depths of the Fissure, the fate of Lore rests on you and your dragon.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

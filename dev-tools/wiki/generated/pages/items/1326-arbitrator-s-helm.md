@@ -2,6 +2,8 @@
 
 According to the writing in the magic window, this type of helm was worn by alien warlords. It also mentioned something about a halo, but no halo surrounds your head.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1326

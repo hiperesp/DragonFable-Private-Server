@@ -2,6 +2,8 @@
 
 This wand is named for the ancient word for Nature magic. It's the type of wand used by the naturamancers of Swordhaven, but it's been magically altered to overpower other weapons, naturally.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1066

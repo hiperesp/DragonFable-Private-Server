@@ -2,6 +2,8 @@
 
 Inspired by the Jinx Fairies, the Cauldron Sisters created this replica of their wings for you! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21159

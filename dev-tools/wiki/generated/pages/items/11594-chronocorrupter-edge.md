@@ -2,6 +2,8 @@
 
 Give yourself an edge in a time of chaos!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11594

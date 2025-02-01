@@ -3,6 +3,8 @@
 This is the blade of Sir Pent, who guards the bridge where you once fought the hydra.
 This weapon requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2364

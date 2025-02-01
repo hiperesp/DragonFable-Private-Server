@@ -2,6 +2,8 @@
 
 The essence of a flying eyeball monster has been imbued in this gilded blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 338

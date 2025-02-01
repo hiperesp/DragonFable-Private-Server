@@ -2,6 +2,8 @@
 
 One  link from the ship's anchor chain works pretty well as a ring for you!  They must have magicked the chain to make the ship go faster, because it's enhanced your battle abilities, too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3556

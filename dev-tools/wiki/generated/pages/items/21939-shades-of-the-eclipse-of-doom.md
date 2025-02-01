@@ -2,6 +2,8 @@
 
 This pair of light, stylish, oddly rectangular glasses lets you safely observe the eclipse (of DOOM)! Glasses are not rated for non-Doom related eclipses. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21939

@@ -2,6 +2,8 @@
 
 Find out who did this to those poor creatures!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

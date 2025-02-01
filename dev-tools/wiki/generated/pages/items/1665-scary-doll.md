@@ -2,6 +2,8 @@
 
 The latest toy craze to hit shelves is abyssofmillinium's Scary Doll! Get one for your little ghoul today!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1665

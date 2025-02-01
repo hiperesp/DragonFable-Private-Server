@@ -2,6 +2,8 @@
 
 Lim wants to make a map of the universe out of string, and he needs YOUR help searching the night sky for anything unusual!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

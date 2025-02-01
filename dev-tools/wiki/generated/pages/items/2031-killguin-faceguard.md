@@ -2,6 +2,8 @@
 
 This golden helm is reserved for the most elite of Kilguin warriors. In addition to it's uses for battle, it is also a key piece of equipment for a tribal competition known as HOC-EE.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2031

@@ -2,6 +2,8 @@
 
 It's a sock. Presumably never used. Proof of victory over Cysero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21897

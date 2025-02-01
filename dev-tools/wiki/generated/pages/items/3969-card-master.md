@@ -2,6 +2,8 @@
 
 The Card Masters have offered you the chance to look just like they do!  Will you accept?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3969

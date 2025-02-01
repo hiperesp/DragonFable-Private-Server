@@ -2,6 +2,8 @@
 
 What is that lightning? Fight with other heroes to discover the source! (Guests will have the same class training as you.)
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

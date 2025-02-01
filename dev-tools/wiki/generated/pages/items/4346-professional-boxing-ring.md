@@ -2,6 +2,8 @@
 
 This ring was found in a Sneevil camp...and it still smells like it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4346

@@ -2,6 +2,8 @@
 
 Its got to be somewhere! And I bet Balthar is with it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

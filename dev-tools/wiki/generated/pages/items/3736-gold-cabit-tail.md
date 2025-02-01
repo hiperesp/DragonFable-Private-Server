@@ -2,6 +2,8 @@
 
 The tail of a magical Golden Cabit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3736

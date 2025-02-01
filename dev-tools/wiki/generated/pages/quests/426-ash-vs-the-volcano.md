@@ -2,6 +2,8 @@
 
 There is a princess lost in the jungle, can you find her in time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

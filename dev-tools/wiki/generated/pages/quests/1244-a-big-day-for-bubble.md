@@ -2,6 +2,8 @@
 
 Well you finally have everything on the list. Time to head back to Bubble and Verlyrus.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

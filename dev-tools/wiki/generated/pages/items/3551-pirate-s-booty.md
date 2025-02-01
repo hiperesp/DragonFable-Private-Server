@@ -2,6 +2,8 @@
 
 It's a treasure shaped like a... boot?  But not just any boot!  Footwear encrusted with powerful magic gems to help you in your battles!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3551

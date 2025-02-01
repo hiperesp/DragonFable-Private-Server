@@ -2,6 +2,8 @@
 
 Gifted to Valentidus by Love herself to use against the spiteful Odium, this weapon of love now finds its way into your grasp. Many have tried, but none have forged its match in craftsmanship!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17883

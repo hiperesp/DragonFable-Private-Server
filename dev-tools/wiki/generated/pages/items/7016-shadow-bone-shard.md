@@ -2,6 +2,8 @@
 
 A shard of dark bone left behind from the battle between the Braughlmurk Paladins and the Shadow Necromancers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7016

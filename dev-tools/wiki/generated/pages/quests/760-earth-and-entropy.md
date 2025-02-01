@@ -2,6 +2,8 @@
 
 Will you recover the Orb and the Blade of Awe from Trey?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

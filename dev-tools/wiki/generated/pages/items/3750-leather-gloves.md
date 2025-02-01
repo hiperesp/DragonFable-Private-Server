@@ -2,6 +2,8 @@
 
 Tough leather gloves that will withstand the wear and tear of the lifestyle of a monster hunter. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3750

@@ -2,6 +2,8 @@
 
 A belt made entirely of water! So, basically, your waist is just a little wetter?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3676

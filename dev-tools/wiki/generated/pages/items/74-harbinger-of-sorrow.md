@@ -2,6 +2,8 @@
 
 This sword sings a sorrowful song of your enemies' demise.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 74

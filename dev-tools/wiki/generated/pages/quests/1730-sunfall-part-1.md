@@ -2,6 +2,8 @@
 
 The final push against the Tytan begins... But this plan doesn't seem safe at all...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

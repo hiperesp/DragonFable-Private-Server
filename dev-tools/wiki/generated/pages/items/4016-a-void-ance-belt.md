@@ -2,6 +2,8 @@
 
 This belt is studded with small pieces of the Void.  You can feel it emanating strangeness and a sense of foreboding. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4016

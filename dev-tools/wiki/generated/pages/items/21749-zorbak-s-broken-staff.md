@@ -2,6 +2,8 @@
 
 This old, battered staff has seen better days. Maybe you could fix it up. Proof of victory over Zorbak, Master of Ebil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21749

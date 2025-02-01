@@ -2,6 +2,8 @@
 
 Forged in a secret workshop this steel has the bite of winter in its edge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 147

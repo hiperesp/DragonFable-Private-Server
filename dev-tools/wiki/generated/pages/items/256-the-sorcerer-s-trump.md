@@ -2,6 +2,8 @@
 
 This magic staff is for the mage who likes to keep an ace hidden up his sleeve. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 256

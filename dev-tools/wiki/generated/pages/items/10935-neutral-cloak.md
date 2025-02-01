@@ -2,6 +2,8 @@
 
 Inside your chest beats a heart full of neutrality. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10935

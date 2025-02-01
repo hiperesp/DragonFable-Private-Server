@@ -2,6 +2,8 @@
 
 This trio of friendly Cor-Demi are here to assist! Or maybe just observe. You can't understand what they're saying, either way. Proof of victory over Carnax!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21542

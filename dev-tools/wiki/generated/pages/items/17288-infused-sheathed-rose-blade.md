@@ -2,6 +2,8 @@
 
 Although it's sheathed, this weapon seems to make you feel safe and secure. Mostly. You can't help but be a little bit suspicious of everyone else, right? Only a little.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17288

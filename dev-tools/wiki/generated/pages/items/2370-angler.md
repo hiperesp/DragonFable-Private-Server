@@ -2,6 +2,8 @@
 
 It's a Fisherperson's outfit. Selling or Deleting this item will reset your Fishing rank.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2370

@@ -2,6 +2,8 @@
 
 As Haven prepares for war, Mritha has something she would like to talk to you about.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

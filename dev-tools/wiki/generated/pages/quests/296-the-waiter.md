@@ -2,6 +2,8 @@
 
 This snooty waiter needs to be taken down a peg.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

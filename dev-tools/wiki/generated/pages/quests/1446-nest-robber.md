@@ -2,6 +2,8 @@
 
 The Nest is an interesting place, but it can use some help.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

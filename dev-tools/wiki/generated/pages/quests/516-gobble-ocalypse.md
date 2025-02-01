@@ -2,6 +2,8 @@
 
 Zorbak is taking over Thankstaking!  You'd better find Voltabolt before Zorbak does!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

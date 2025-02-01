@@ -2,6 +2,8 @@
 
 The fangs of a werewolf are woven into the links of this belt. This requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15964

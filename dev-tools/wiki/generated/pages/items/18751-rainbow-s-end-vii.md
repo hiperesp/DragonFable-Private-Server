@@ -2,6 +2,8 @@
 
 The legendary spear Rainbow's End, found in the ancient forest of Rainbow's End. A fascinating treasure. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18751

@@ -2,6 +2,8 @@
 
 This dagger is fabled to have been used by an ancient queen. Its wavy blade and blue gems hint at royalty.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4121

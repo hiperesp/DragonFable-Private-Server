@@ -2,6 +2,8 @@
 
 Defeat the undead swarming into Falconreach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

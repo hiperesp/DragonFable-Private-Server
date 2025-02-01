@@ -2,6 +2,8 @@
 
 Artix's trademark red cape! Warm and comfy, and stylish too. Great for any undead slayer's ensemble.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16215

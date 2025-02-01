@@ -2,6 +2,8 @@
 
 Only the quickest draw in Lore can rock this hat! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4979

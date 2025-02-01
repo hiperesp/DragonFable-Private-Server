@@ -2,6 +2,8 @@
 
 Ever turning, ever marching, toward fate's end. (Cosmetic) (CC: Element, Trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21644

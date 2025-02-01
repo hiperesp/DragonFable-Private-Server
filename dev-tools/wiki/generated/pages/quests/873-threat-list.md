@@ -2,6 +2,8 @@
 
 What's the number one threat to Hero's Heart Day?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

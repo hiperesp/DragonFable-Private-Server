@@ -2,6 +2,8 @@
 
 Maybe a log? Do cats even scratch at logs?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Ward off the denizens of the night with this awesome blade!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4376

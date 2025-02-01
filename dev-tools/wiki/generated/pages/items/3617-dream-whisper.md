@@ -2,6 +2,8 @@
 
 This protective amulet is said to ward off nightmares.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3617

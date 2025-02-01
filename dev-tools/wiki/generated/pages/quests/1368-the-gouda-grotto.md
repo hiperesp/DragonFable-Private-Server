@@ -2,6 +2,8 @@
 
 Help San Robin take care of the group of Vurrmen.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The time has come to put the plan into action.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

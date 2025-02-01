@@ -2,6 +2,8 @@
 
 A Mogloween treat flash frozen for Frostval! Crafted in honor of your help in the Frostval '13 war!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11204

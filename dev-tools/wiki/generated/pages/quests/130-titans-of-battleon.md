@@ -2,6 +2,8 @@
 
 Strange things are afoot at the Circle Kave! Celestia told you to come to this spot, and visitors from the future have appeared to ask for your help.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

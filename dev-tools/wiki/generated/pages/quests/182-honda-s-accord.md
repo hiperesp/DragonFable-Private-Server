@@ -2,6 +2,8 @@
 
 Thyton, jonin of the Shadow of the Wind ninja clan has asked you to save his village! Honda, the Iron-Fisted Giant has been turned from the town's guardian into the town's destroyer!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

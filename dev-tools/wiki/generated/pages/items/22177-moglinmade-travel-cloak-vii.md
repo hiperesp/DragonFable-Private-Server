@@ -2,6 +2,8 @@
 
 Many years ago, Falconreach received a massive shipment of these comfortable yet light cloaks. According to Spruce, there's a little bit of moglin magic woven into each one, like a small hug. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22177

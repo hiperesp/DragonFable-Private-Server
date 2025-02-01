@@ -2,6 +2,8 @@
 
 A shortaxe used only by Rose Elite rogues.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15536

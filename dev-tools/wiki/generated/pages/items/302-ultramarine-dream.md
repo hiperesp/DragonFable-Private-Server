@@ -2,6 +2,8 @@
 
 This jewel-encrusted staff was made by a mage who dreamed it up one night, and found her dreams made real.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 302

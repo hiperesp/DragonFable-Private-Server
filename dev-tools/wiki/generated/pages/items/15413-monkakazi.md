@@ -2,6 +2,8 @@
 
 One of the BioBeasts, MonkaKazi is willing to work for you... but not for bananas!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15413

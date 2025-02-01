@@ -2,6 +2,8 @@
 
 A finely sharpened blade made for daily wear and tear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 266

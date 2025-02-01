@@ -2,6 +2,8 @@
 
 You have found Elryn, the Vinds ally imprisoned in Espina Rosa, but can you escape with him from the Fortress unnoticed?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

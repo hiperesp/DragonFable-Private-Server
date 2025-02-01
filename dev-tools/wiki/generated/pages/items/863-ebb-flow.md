@@ -2,6 +2,8 @@
 
 Thoughts arrive like butterflies. Oh, he don't know, so he washes them away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 863

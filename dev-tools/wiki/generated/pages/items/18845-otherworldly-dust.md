@@ -2,6 +2,8 @@
 
 A small pile of dust gathered from the Otherworld. It doesn't seem particularly magical. Or maybe you just can't tell. Proof of your victory over the Kerfluffle. Used to upgrade the Ring of Otherworld.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18845

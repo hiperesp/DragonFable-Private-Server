@@ -2,6 +2,8 @@
 
 One day you're going to show everyone who doubted you that you are the strongest ninja ever. BELIEVE IT!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13442

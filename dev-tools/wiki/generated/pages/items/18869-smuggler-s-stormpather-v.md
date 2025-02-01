@@ -2,6 +2,8 @@
 
 Khvorost tells you that this is an essential part of a smuggler's uniform. But why would smugglers have a uniform? Surely that would make them easier to identify? At least it looks cool!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18869

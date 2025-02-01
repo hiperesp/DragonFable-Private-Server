@@ -2,6 +2,8 @@
 
 This COLOR CUSTOMIZABLE helm requires a Dragon Amulet. It was once Icemaster Yeti's before Xanta Claus drove him from his cave. It magically fits any who wear it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1388

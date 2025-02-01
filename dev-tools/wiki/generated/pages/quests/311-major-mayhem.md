@@ -2,6 +2,8 @@
 
 Little Jenny disappeared while hunting mushrooms for the Keep's pantry. Hopefully she's just lost, and nothing has mistaken her for its dinner instead!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

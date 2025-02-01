@@ -2,6 +2,8 @@
 
 All around you, you hear the sounds of buzzing wings and chittering mouth parts. Good thing you brought your stomping boots.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

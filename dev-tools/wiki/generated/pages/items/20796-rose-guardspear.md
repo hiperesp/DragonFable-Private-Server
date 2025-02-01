@@ -2,6 +2,8 @@
 
 An abandoned spear, left in haste by a Rose soldier fleeing the peace negotiations. Well, it's yours now, hero. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20796

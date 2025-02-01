@@ -2,6 +2,8 @@
 
 A very realistic foam copy of Rolith's Hammer made in honor of Rolith's Bachelor Party!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11080

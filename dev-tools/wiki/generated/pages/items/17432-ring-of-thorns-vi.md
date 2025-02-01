@@ -2,6 +2,8 @@
 
 An intricate design of recessed thorns encircle this ring. It appears to have been forged from scrap manaphage pieces.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17432

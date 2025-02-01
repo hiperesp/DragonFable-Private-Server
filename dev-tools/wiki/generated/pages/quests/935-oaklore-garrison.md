@@ -2,6 +2,8 @@
 
 This Keep was built around the base of a great oak tree. The loyal Knights of the Pactoganal table call this majestic fortress  home.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

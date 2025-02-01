@@ -2,6 +2,8 @@
 
 Putting on this mask, you swear you can hear a sinister voice whispering something about... fish and ice cream? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22047

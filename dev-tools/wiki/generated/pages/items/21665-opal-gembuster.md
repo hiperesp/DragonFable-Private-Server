@@ -2,6 +2,8 @@
 
 A greatsword magically crafted from a collection of Light-infused Opal. On special, reduces foe's Bonus. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21665

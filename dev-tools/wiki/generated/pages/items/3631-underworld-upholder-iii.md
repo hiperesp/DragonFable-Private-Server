@@ -2,6 +2,8 @@
 
 This silver blade is tinted black, and is perfectly crafted for repelling supernatural creatures. The creator's name, "Mephiles the Dark," is etched into the handle. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3631

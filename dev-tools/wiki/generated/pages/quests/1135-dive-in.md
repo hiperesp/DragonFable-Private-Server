@@ -2,6 +2,8 @@
 
 Dive into the water and seek out the Ocean Gate. The mysteries here at the sea floor are deep and unfathomable.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

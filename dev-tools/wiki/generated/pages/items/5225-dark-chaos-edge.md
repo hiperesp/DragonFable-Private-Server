@@ -2,6 +2,8 @@
 
 It looks like one of the many weapons in En and Tropy's arsenal. You're not sure why it's hidden... but you leave some gold behind just in case.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5225

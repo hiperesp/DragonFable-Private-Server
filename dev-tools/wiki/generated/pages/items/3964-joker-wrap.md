@@ -2,6 +2,8 @@
 
 You won't look like a joke in THIS cape!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3964

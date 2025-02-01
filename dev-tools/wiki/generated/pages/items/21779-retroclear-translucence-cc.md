@@ -2,6 +2,8 @@
 
 This mysterious blade hums with unknown energy, as though being held back. Whoever this weapon was made for, it was not you. (Cosmetic)(CC: Dragon Eye)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21779

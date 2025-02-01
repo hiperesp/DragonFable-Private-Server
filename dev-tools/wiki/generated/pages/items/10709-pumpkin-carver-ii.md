@@ -2,6 +2,8 @@
 
 Use a blade of light to carve through your pumpkins and your enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10709

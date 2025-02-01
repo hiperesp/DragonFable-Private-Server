@@ -2,6 +2,8 @@
 
 It looks like the Coalepti have hoarded a stack of presents in some obscure Falconreach alleyway (You could swear you've never seen an alley in Falconreach before...) Time to get them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Gingkage needs to help her friends. Maybe you can help?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

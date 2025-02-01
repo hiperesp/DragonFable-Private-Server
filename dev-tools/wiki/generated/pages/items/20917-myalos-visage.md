@@ -2,6 +2,8 @@
 
 The mechanical visage of Myalos, dreamed into being by you! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20917

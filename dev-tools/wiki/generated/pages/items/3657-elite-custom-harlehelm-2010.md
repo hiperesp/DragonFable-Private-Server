@@ -2,6 +2,8 @@
 
 Hahaha! Your hat changes colors! Shiiiiiiny hat!  And now you can be the harlequin queen (or king) you've always wanted to be. Take THAT, Punch and Judy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3657

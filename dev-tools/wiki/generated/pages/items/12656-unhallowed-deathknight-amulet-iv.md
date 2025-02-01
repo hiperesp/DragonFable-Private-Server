@@ -2,6 +2,8 @@
 
 You've enhanced your amulet with shadows. Wearing it allows you to make out odd shapes that seem to just barely come into view. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12656

@@ -2,6 +2,8 @@
 
 A silk ribbon got caught up in a gust of wind.  An aeromancer saw the pretty shape it made and caused it to stay that way permanently.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2875

@@ -2,6 +2,8 @@
 
 The precious eggs of the Ostara are few and far between, coveted by those who may find them. Protect it well, and it may bring you good fortune! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21530

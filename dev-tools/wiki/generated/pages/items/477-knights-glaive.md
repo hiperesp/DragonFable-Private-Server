@@ -2,6 +2,8 @@
 
 Whenever you swing this glaive, its song tells the tales of those knights of ancient times.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 477

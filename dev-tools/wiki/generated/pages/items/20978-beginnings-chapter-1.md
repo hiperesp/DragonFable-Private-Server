@@ -2,6 +2,8 @@
 
 A short collection of stories about the beginning of Ash Dragonblade's and Drakath Slugwrath's journeys. Used to upgrade the Slugwrath Signet Ring and Blade of Destiny.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20978

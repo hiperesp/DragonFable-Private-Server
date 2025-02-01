@@ -2,6 +2,8 @@
 
 Does it get any stranger than this? And togs are really bad at math.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

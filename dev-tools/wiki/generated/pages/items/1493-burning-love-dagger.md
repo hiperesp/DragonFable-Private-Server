@@ -2,6 +2,8 @@
 
 This dagger was created, not in the heat of of a blacksmith's forge, but in the heat of two blacksmith's forges. You thought I was going to say something about love, didn't you?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1493

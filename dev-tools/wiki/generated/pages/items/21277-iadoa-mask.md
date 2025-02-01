@@ -2,6 +2,8 @@
 
 While wearing this mask, you can see through time! (Not really)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21277

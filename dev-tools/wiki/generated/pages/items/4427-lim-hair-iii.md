@@ -2,6 +2,8 @@
 
 Lim has a MAGNIFICENT beard, and his hair color is pretty spiffy, too! Now YOU can share in that glorious follicle-fun!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4427

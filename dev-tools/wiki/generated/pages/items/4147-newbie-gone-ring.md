@@ -2,6 +2,8 @@
 
 Sure to impress that max level trainer, this ring shows you're a newbie no more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4147

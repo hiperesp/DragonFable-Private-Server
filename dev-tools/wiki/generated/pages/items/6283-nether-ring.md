@@ -2,6 +2,8 @@
 
 This ring is cold to the touch and glassy. It provides additional protection against Darkness attacks. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6283

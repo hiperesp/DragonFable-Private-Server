@@ -2,6 +2,8 @@
 
 This impressive ring is missing it's stone. It looks like the setting was bit off?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13469

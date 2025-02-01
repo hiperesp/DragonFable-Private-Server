@@ -2,6 +2,8 @@
 
 The Rose is building up a huge presence in Surewould...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

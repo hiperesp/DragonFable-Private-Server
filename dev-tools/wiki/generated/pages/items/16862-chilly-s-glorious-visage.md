@@ -2,6 +2,8 @@
 
 Personification of utter perfection! *swoon*
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16862

@@ -3,6 +3,8 @@
 A brilliant crown strewn with glistening threads.
 Proof of victory over the Azaveyran Extreme challenges. Used for merging.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18537

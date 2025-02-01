@@ -2,6 +2,8 @@
 
 The circuits embedded into this metal weapon help it do... science! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3034

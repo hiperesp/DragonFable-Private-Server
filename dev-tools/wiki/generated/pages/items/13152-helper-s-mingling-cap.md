@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This curious little cap will chime in when you least expect it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13152

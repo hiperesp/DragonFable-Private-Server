@@ -2,6 +2,8 @@
 
 A famous prankster named Quinn was well known for wearing these colors. She was hilarious, and was a favorite entertainer at King Alteon's court. Maybe one day you'll be as famous!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3660

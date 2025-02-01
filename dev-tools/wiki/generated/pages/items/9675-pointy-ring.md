@@ -2,6 +2,8 @@
 
 A hole is bored right through the center of this tooth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9675

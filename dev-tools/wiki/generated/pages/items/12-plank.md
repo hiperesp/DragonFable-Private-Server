@@ -2,6 +2,8 @@
 
 Some weird kid drew a face on to this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12

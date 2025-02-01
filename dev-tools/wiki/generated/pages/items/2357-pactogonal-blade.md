@@ -2,6 +2,8 @@
 
 Forged by Yulgar in honor of Captain Rolith and the many brave deeds of his company of Knights, this blade pays homage to their heroic spirits!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2357

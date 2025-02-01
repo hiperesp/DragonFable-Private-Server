@@ -2,6 +2,8 @@
 
 Ghost hunter Itchi once used this dagger to capture and purify the tormented spirits of the dead. Now he runs a delivery business in Swordhaven called "Itchi Goes!" so he no longer needs the weapon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1658

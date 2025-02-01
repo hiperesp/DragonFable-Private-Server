@@ -2,6 +2,8 @@
 
 This shining, jewel-encrusted golden waterbowl must belong to one of the villager's new pets!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3452

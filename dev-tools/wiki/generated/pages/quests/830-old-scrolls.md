@@ -2,6 +2,8 @@
 
 The caravaneer seems to be having some... legal issues. Better help him and get him to where he needs to be in Swordhaven.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

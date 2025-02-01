@@ -2,6 +2,8 @@
 
 An explosion. A fire. And missing friends. Time to move.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

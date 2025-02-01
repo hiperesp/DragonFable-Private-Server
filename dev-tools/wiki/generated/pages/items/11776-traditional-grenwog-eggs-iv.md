@@ -2,6 +2,8 @@
 
 Magic Grenwog eggs colored for the season! Happy Grenwog '14!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11776

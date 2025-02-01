@@ -3,6 +3,8 @@
 Created by combining Shards of Transcendence and  Embers of Xan, this blob of molten metal seems to twist and coalesce horribly when you stare at it.
 Used to forge the Vaal's Ego Trinket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18409

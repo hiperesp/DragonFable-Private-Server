@@ -2,6 +2,8 @@
 
 The destruction of the leagues of undead has made Noxus angry. It's time to take down the Dean!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

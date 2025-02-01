@@ -2,6 +2,8 @@
 
 The royal gala is getting closer, but a hero always finds a time for themselves!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

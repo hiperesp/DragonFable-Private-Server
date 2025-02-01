@@ -2,6 +2,8 @@
 
 A sword forged by the master craftsman, FlameXero. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8516

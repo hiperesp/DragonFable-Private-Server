@@ -2,6 +2,8 @@
 
 Boo! You used the cherry power pellet to beat the Ghost-Tog and tame its little sibling.  Now Cherry will serve you faithfully!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3908

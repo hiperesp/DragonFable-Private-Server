@@ -2,6 +2,8 @@
 
 These hands crave being held, and their nails yearn to rake against skin. They'll dig into yours if you have no one else. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21153

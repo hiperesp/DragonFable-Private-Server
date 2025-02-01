@@ -2,6 +2,8 @@
 
 The Cauldron Sisters have an idea that will revolutionize trick-or-treating! There's just one tiny problem...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

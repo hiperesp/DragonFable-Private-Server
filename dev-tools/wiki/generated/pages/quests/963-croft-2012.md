@@ -2,6 +2,8 @@
 
 The Cauldron Sisters town!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

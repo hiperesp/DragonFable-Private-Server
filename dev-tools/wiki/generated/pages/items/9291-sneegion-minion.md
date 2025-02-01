@@ -2,6 +2,8 @@
 
 One of Dage the Sneevil's minions! You hired them to fight with you on the 1st of April, 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9291

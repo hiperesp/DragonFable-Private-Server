@@ -2,6 +2,8 @@
 
 The wind moans through the decaying tombstones.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

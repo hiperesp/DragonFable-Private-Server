@@ -2,6 +2,8 @@
 
 This scythe burns brightly!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7212

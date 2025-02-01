@@ -2,6 +2,8 @@
 
 The Inn of Moonridge.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This helm is the type worn by the elite Guardians of legend. The style is a little outdated but its power is undeniable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1662

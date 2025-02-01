@@ -2,6 +2,8 @@
 
 This curious blade was forged specially by Bubble out of... Hm, actually, better not to think about it. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21164

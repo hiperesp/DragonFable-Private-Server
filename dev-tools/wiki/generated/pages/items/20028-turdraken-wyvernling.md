@@ -2,6 +2,8 @@
 
 This diminutive part-fowl, part-dragon seems to have traveled here from regions unknown in search of food! Luckily it found you to take care of it! Applies a DoT effect and scales with your level.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20028

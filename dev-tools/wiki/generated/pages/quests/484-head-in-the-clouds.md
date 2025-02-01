@@ -2,6 +2,8 @@
 
 Helping to train a gryphon shouldnt be THIS dangerous!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

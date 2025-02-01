@@ -3,6 +3,8 @@
 Created from a piece of the most powerful, wrathful darkness dragon that Lore has ever seen... so far!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5764

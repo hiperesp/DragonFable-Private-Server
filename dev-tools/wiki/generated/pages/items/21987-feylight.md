@@ -2,6 +2,8 @@
 
 This mysterious key was said to unlock the hidden gates to the realm of Fairies... But such gates have yet to reveal themselves. (Cosmetic)(CC: Base, Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21987

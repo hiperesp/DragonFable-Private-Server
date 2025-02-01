@@ -2,6 +2,8 @@
 
 A few lengths of links from the chains that bound Augahim, Voice of the Wastes. Proof of victory over Augahim. Used to forge the Quadstaff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18674

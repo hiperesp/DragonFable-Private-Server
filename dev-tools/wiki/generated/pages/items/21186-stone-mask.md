@@ -2,6 +2,8 @@
 
 A brilliantly carved mask of stone.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21186

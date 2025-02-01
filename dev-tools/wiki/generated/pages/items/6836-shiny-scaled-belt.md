@@ -2,6 +2,8 @@
 
 From afar it looks to be made of lizard scales, but they're really polished metal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6836

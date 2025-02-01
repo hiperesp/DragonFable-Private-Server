@@ -2,6 +2,8 @@
 
 The glowing runes on this chain detect fire magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12041

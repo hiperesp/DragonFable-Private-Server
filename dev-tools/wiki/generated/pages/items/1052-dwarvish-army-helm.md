@@ -2,6 +2,8 @@
 
 This sturdy helmet is the type that the dwarven nations often outfit their soldiers in. If your neck is strong enough to support it, then you have earned the right to wear it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1052

@@ -2,6 +2,8 @@
 
 While something or someone is playing with your companions' thoughts, the Doom Dragon arrives!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

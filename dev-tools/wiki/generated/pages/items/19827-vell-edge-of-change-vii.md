@@ -2,6 +2,8 @@
 
 Much like the prismatic shards which formed such a weapon, its appearance takes on a hue unique to the wielder. Heroes of old have seen it take a new color during their lifetime, left to ponder what that reflects in themselves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19827

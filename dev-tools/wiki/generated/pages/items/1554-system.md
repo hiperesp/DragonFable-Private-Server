@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  A dagger that was crafted to represent the totality of the SekDuat regime...but it seems to be out of fashion now.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1554

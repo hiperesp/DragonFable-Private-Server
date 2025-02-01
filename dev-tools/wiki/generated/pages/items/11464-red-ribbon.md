@@ -2,6 +2,8 @@
 
 Second place in some kind of Ravenous Games. It's stained with berry juice.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11464

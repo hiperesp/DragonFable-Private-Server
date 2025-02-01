@@ -2,6 +2,8 @@
 
 This scale model of the town is proof that you've visited it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2738

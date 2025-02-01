@@ -2,6 +2,8 @@
 
 It's been told that if you fall on this axe, all the water within its workings comes pouring down on you in revenge. Tread carefully young one.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1138

@@ -2,6 +2,8 @@
 
 The scar's on the wrong side!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21273

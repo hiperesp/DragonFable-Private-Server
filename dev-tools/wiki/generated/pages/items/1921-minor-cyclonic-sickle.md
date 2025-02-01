@@ -2,6 +2,8 @@
 
 With this curved blade you can cut a swath through a field of enemies or a field of wheat, depending on what type of farming you have on your to-do list that day.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1921

@@ -2,6 +2,8 @@
 
 Crafted in honor of Cronix's birthday, this scythe almost seems to cut through time itself!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10171

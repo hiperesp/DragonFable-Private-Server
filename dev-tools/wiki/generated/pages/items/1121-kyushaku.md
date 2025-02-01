@@ -2,6 +2,8 @@
 
 An old, well used bo staff. Very well used. The shurikens embedded in it give it... character! Yeah, character.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1121

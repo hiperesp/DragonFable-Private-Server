@@ -2,6 +2,8 @@
 
 This belt is cold to the touch and made of a ghostly white material. It provides additional protection against Darkness attacks. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 414

@@ -2,6 +2,8 @@
 
 Though clearly a relic of Doom, this ferocious helm was forged in an unknown land. Now, it has found its way to you... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22094

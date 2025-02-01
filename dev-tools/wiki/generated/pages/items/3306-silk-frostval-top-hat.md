@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. You got this hat from a gift box given to you by the moglins of Frostvale. Once equiped, click on the hat for a wintery surprise!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3306

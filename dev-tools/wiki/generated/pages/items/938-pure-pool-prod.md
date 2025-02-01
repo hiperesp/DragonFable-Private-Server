@@ -2,6 +2,8 @@
 
 The wielder of this staff is said to have the power to control the tides of very small ponds. It's not a GREAT power but it's better than nothing. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 938

@@ -2,6 +2,8 @@
 
 An old lost tomb on the edge of Braughlmurk, threatened to be washed away by the pounding surf.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

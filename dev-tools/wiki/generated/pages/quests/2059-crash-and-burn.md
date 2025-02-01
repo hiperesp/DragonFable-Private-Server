@@ -2,6 +2,8 @@
 
 Jaania's airship has fallen. But does anything remain?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Lim prefers mechanical rabbits over those cute, cuddly REAL ones.  He thinks these are a MILLION times better! They keep going and going (and going)!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4387

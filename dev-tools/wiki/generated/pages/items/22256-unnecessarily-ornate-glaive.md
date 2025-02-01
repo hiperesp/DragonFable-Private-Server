@@ -2,6 +2,8 @@
 
 This flashy weapon was forged by a legendary weaponsmith. It has never seen battle. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22256

@@ -3,6 +3,8 @@
 This Protean that you revitalized seems to mean you no harm! In fact, it's offering to help be a helm!
 Proof of victory over the Devoured Horizons challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21840

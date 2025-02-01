@@ -2,6 +2,8 @@
 
 This weapon was turned into gold by the sneevilchaun's during Lucky 13! How lucky for you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9002

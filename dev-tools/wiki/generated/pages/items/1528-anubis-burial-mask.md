@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This helm was taken from the cursed temple of the Anubis Knight. It's a little hard to breathe under the mask but then again it was meant to go on a dead guy. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1528

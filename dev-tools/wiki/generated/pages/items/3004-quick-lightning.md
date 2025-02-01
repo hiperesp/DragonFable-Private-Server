@@ -2,6 +2,8 @@
 
 You'll strike fast and hot when you wear this necklace!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3004

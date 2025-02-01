@@ -2,6 +2,8 @@
 
 Hey look...it's an armors! Nobody can see this in game. Teehee
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800361

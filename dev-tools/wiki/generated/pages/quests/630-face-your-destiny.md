@@ -2,6 +2,8 @@
 
 Nythera learns about her destiny and gains something she'd lost a long, long time ago!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

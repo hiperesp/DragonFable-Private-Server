@@ -2,6 +2,8 @@
 
 Only for the most serious of chefs! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11888

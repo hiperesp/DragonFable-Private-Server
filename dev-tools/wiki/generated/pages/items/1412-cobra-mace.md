@@ -2,6 +2,8 @@
 
 This ancient mace comes from a lost civilization in the far southern reaches of Lore. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1412

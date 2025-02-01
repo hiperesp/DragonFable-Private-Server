@@ -2,6 +2,8 @@
 
 Does this sword control dragons? Or do dragons control it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16010

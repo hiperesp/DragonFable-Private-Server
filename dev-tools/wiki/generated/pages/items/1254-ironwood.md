@@ -2,6 +2,8 @@
 
 A stick of the hardest wood found in the area around Falconreach.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1254

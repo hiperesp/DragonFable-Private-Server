@@ -2,6 +2,8 @@
 
 Grim and gruff, this staff can help you carry out the most difficult of tasks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 289

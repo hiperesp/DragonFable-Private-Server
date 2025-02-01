@@ -2,6 +2,8 @@
 
 What a strange snowflake. It seems to be glowing faintly. Who knows, maybe it could fetch a nice price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16831

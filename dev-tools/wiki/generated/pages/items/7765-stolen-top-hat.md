@@ -2,6 +2,8 @@
 
 Twig "borrowed" this hat and then covered it with black marker (really, he did)!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7765

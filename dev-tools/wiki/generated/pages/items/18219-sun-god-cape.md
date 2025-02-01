@@ -2,6 +2,8 @@
 
 The power of the sun radiates from this cape!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18219

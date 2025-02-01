@@ -2,6 +2,8 @@
 
 This staff is so powerful, it gives a "heart" ache to any foe it battles. Beware, this staff can also give you a heartache, if you use it unwisely. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 710

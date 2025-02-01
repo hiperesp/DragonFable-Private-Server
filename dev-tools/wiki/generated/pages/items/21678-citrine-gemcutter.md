@@ -2,6 +2,8 @@
 
 A dagger magically crafted from a collection of Energy-infused Citrine. On special, does a weaker attack with high Crit. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21678

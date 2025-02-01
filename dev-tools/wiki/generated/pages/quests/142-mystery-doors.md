@@ -2,6 +2,8 @@
 
 There are three doors but two of them lead back in time to the room that you are standing in now. Choose your path through the guarded doors carefully.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

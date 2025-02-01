@@ -2,6 +2,8 @@
 
 You have ventured into this network of caves to stop the VurrMen from poisoning several local wells with their magic plague.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

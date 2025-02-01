@@ -2,6 +2,8 @@
 
 Char found these hidden in a box in the Market District.  What a find!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3842

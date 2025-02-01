@@ -2,6 +2,8 @@
 
 You're pretty sure Dr. Voltabolt was... trying... to help during Thankstaking 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6177

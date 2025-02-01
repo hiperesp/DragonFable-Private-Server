@@ -2,6 +2,8 @@
 
 Your Summon Gem - Reaver has been upgraded! It now has stats and will heal you for a percentage of its damage dealt. Proof of victory over Ayauhnqui and Reaver!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19482

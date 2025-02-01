@@ -2,6 +2,8 @@
 
 Forged from the scales of an ancient ice dragon, this weapon does increased damage against humans! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9167

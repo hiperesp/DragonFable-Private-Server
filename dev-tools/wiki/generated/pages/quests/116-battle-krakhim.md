@@ -2,6 +2,8 @@
 
 Guardian Trainer Eckhard has asked that you pass his test of valor by defeating Krakhim, the strange monster brought to Surewould Forest by Drakath.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

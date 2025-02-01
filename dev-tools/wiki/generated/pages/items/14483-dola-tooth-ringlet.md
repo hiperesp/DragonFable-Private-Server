@@ -2,6 +2,8 @@
 
 A large tooth whittled down to be a nice ring. The smaller size indicates a bit too much was carved off by accident.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14483

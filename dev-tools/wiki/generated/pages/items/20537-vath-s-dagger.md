@@ -3,6 +3,8 @@
 A replica of Vath's dagger. Click to change its orientation.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20537

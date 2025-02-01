@@ -3,6 +3,8 @@
 X-Boost gives you +10% Exp and Gold for every battle you win!  Permanent Boost! Stacks up to 10!
 If you have the duplicate stack bug, deactivate all X-Boosts, then reactivate them all.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3613

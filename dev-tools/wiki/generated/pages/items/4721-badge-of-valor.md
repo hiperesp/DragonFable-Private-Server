@@ -2,6 +2,8 @@
 
 Only heroes able to battle their way through the Arena are able to earn these!  Redeem them with Guardian Myra right outside the Arena door.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4721

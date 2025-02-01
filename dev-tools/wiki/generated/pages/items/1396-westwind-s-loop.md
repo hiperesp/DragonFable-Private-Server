@@ -2,6 +2,8 @@
 
 The origins of this ring are shrouded in mystery, but it is whispered in certain circles that it was once a bauble of an all-powerful being. Gives you +3 resist to Wind and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1396

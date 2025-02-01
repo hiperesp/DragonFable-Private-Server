@@ -2,6 +2,8 @@
 
 This ring has a magical effect on the wearer, increasing their strength and resistance to fire and ice, but decreasing their endurance!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1598

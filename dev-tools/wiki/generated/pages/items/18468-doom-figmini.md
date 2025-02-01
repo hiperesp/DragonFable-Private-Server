@@ -3,6 +3,8 @@
 A tiny Doom Figment. Adorably evil! Heals your mana and does damage based on your CHA stat.
 Proof of your victory over the Unfortunate Souls challenges.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18468

@@ -2,6 +2,8 @@
 
 Help a citizen get up. Truly a quest fit for a hero such as you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

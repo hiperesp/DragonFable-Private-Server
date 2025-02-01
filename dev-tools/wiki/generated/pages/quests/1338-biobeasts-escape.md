@@ -2,6 +2,8 @@
 
 BioBeasts are trying to escape Frysteland through inter-dimensional portals! Can you find and save them before Alydriah and her minions capture them and find new samples?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

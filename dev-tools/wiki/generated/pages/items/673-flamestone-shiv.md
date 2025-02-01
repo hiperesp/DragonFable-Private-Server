@@ -2,6 +2,8 @@
 
 This dagger has been enchanted to keep the blade floating away from the rest of the dagger, otherwise the blade would make it too hot to touch. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 673

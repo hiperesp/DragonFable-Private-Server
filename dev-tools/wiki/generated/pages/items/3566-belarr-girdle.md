@@ -2,6 +2,8 @@
 
 Darkness emanates from this dingy belt; you can feel the power of the aether which resides at the bottom of Ravenloss as it rises off the fabric.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3566

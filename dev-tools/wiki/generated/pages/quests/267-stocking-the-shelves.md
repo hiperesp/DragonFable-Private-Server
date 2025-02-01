@@ -2,6 +2,8 @@
 
 Find as many of the reagents that Nythera needs to replace as you can.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

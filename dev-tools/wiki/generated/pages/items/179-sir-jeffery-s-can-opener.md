@@ -2,6 +2,8 @@
 
 Decades ago Sir Jeffery had this sword specially made to help get through his opponents armor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 179

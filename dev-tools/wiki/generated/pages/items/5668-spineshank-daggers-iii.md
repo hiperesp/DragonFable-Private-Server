@@ -2,6 +2,8 @@
 
 These broad bladed daggers are reinforced with the enchanted spine of an imp, magically hardened. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5668

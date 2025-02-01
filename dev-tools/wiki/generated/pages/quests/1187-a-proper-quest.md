@@ -2,6 +2,8 @@
 
 Ten Vurrmen tails, no problem!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

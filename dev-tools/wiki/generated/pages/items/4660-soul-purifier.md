@@ -2,6 +2,8 @@
 
 Is something casting a shadow over YOUR soul?  The Soul Purifier will help with that!  This trinket will raise your defenses for three turns while healing some of your health! This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4660

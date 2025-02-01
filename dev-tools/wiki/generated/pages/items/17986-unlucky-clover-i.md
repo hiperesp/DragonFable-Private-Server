@@ -2,6 +2,8 @@
 
 This mystical weapon was grown from your multidimensional 13-leaf clover! It pulses with chaotic energy. There's nothing to be afraid of.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17986

@@ -2,6 +2,8 @@
 
 Brimming with static electricity, Sepulchure twists the powers of the stolen orbs to his whim. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5584

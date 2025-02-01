@@ -2,6 +2,8 @@
 
 A spectacular recreation of a shocking Lagohm-tech antique! Although Lagohm society puts progress on a pedestal, the likes of the Champion's own creations has never since been seen. Proof of victory over Eulin II! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21494

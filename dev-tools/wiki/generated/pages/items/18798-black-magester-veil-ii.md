@@ -2,6 +2,8 @@
 
 A formal piece of headgear used by male members of the Magesterium.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18798

@@ -2,6 +2,8 @@
 
 This rapier was carved from the bones of a long dead sea monster, trawled up from the depths of the ocean. It seems to glow with dormant power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17581

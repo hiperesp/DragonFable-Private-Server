@@ -2,6 +2,8 @@
 
 This tooth is huge, it must be lucky! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9670

@@ -2,6 +2,8 @@
 
 Adventurers brave enough to face down the hydra should remember to dip their weapons in hydra blood or bile to make use of the deadly poisons. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2276

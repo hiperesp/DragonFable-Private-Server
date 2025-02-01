@@ -2,6 +2,8 @@
 
 Forged in a distant land and style, this distinctive staff has been pulled through countless adventures and quests to finally land in your hands. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20912

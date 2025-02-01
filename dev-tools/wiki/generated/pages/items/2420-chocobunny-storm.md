@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Using the power of this trinket, you can summon a small army of chocolate bunnies to attack your foe for 125% of you weapon's base damage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2420

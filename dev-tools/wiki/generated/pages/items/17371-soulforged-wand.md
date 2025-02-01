@@ -2,6 +2,8 @@
 
 Your very own SoulForged wand! It shivers with swiftness and cleverness!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17371

@@ -2,6 +2,8 @@
 
 A cluster of Sea Chickens has boarded your ship!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

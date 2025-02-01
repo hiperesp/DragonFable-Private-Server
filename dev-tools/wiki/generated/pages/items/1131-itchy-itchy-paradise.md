@@ -2,6 +2,8 @@
 
 This sure doesn't LOOK like a book of tactics... but Thyton won't teach you any ninja skills until you give him a copy of this book.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1131

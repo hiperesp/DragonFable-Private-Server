@@ -2,6 +2,8 @@
 
 Heavy carved, this ring is covered with crazy patterns.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9676

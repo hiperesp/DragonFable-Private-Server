@@ -2,6 +2,8 @@
 
 Do you have the courage of Moocluckles?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

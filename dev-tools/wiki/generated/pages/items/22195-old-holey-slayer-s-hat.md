@@ -2,6 +2,8 @@
 
 Left behind by ShadowSlayer E and V-Hunter EX13, this old hat bears a faint trace of magic. Unfortunately, it also has a massive hole through its top, making it unwearable. Proof of victory over The Moonlit Hunt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22195

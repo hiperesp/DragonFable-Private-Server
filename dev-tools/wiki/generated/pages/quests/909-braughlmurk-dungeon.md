@@ -2,6 +2,8 @@
 
 The dungeons under the ruins of Braughlmurk Cape.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

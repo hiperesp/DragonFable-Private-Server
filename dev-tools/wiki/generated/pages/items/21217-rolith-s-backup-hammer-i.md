@@ -2,6 +2,8 @@
 
 Rolith's backup hammer! Every 9 hits, your next hit will channel the power of togs and will be critical!  Proof of victory over the First Encounters challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21217

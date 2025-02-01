@@ -2,6 +2,8 @@
 
 Good things come in 2s, and there are a lot of 2's on this belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1597

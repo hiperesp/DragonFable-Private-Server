@@ -2,6 +2,8 @@
 
 Reforged with found materials this dagger was created in honor of Earth Day 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5427

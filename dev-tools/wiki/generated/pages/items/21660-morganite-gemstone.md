@@ -2,6 +2,8 @@
 
 A glittering gemstone, imbued with the power of Wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21660

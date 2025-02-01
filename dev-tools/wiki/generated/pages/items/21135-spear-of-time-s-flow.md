@@ -2,6 +2,8 @@
 
 This magical spear staff feels as though it's from an entirely other age. Whether that's past or future, you can't quite decide. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21135

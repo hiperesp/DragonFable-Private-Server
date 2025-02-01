@@ -2,6 +2,8 @@
 
 A small abstract statue of pulsing living fog. It's kind weird.... You should probably just sell this. You could probably get like... 30 gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14991

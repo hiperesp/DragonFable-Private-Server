@@ -2,6 +2,8 @@
 
 A young wanderer named Scott found this and sold it to Cysero, who discovered that it has magical properties.  He hasn't yet discovered what they are beyond emitting a pretty smell and a chime like bells.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4859

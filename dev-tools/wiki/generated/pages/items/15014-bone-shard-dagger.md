@@ -2,6 +2,8 @@
 
 Made from unlucky remains of Baron Jaysun Valtrith's army!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15014

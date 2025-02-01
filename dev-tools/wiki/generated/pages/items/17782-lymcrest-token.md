@@ -2,6 +2,8 @@
 
 A token to be sold, commemorating your traversal of the Lynmcrest Labyrinth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17782

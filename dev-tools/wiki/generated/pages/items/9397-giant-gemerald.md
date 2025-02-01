@@ -2,6 +2,8 @@
 
 You've never heard of a gemerald, but the shopkeeper assures you it's just very rare.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9397

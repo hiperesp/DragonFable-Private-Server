@@ -2,6 +2,8 @@
 
 Said to have once been worn by an Unael of old, this helm once rallied many Ateala to battle. But no longer. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21626

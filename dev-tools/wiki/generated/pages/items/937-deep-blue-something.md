@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This sword once belonged to a mighty warrior who woke up one morning with his memory gone, but eventually found his way... Home.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 937

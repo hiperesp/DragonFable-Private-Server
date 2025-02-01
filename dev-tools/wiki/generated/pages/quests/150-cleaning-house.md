@@ -2,6 +2,8 @@
 
 Rhubarb has asked you to clear the ninjas from one of the ships in Osprey Cove's harbor. Make your way forward and clean out the entire ship.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

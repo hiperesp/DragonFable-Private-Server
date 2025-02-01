@@ -2,6 +2,8 @@
 
 Followed his master into the depths... and back out, changed alongside him.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

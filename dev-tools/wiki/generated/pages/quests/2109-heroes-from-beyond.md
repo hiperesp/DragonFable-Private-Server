@@ -2,6 +2,8 @@
 
 As you follow the path to the Sandsea, you come across more fire monsters... And some Ateala who are fighting back.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

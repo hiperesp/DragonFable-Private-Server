@@ -2,6 +2,8 @@
 
 Clear out Pellow Village!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

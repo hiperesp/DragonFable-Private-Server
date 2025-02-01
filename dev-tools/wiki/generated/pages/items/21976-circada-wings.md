@@ -2,6 +2,8 @@
 
 This massive set of wings is designed after those of the Giant Circada, said to emerge from underground once every 3000 years to deafen all with their incessant cries. Click to change the wings' position! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21976

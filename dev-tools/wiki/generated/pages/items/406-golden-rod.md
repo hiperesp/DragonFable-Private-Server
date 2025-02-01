@@ -2,6 +2,8 @@
 
 This staff is constructed of the purest gold to be found, coming from deep within the world. Its magical construction makes it impossible to melt down. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 406

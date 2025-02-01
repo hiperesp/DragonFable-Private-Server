@@ -2,6 +2,8 @@
 
 Do your best to defend this location!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 He's mad. Absolutely mad. And magical!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

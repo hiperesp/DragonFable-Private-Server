@@ -2,6 +2,8 @@
 
 A rather large incisor from an angry bear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13871

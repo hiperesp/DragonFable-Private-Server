@@ -2,6 +2,8 @@
 
 A pulsing orb of something dark and twisted. Holding it close, you feel like you could do anything. Proof of victory over Notha, Bane of Destiny.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20500

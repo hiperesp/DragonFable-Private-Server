@@ -2,6 +2,8 @@
 
 Crafted from reforged oculus shards this weapon will freeze your enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11472

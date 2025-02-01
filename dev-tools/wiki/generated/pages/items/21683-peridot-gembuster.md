@@ -2,6 +2,8 @@
 
 A greatsword magically crafted from a collection of Nature-infused Peridot. On special, reduces foe's Avd and Defenses. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21683

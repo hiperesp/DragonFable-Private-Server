@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Nythera, the Half Void Dragon to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

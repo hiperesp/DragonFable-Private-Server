@@ -2,6 +2,8 @@
 
 The shadows surround you! You may not be able to see them but they're there, trust me!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13460

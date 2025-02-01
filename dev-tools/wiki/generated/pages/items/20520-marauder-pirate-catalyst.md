@@ -2,6 +2,8 @@
 
 This catalyst is a deep blue, roughly hewn gem that draws your gaze into its depths. Holding it close brings to mind images of plunder... and what lies below the waves. This Customization Catalyst unlocks the Marauder customization option for Pirate.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20520

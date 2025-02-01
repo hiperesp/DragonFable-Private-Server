@@ -2,6 +2,8 @@
 
 This sword was forged by the legendary Frostfyre, greatest of the Ice Giants.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16027

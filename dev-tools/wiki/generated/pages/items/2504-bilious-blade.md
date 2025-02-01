@@ -2,6 +2,8 @@
 
 It's best not to talk about where this blade has been.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2504

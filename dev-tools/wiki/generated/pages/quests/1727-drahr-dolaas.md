@@ -2,6 +2,8 @@
 
 Sweep and wipe clean the slate, destroy and revitalize.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

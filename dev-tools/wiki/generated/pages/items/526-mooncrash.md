@@ -2,6 +2,8 @@
 
 This staff is has been empowered with Light element by Amityvale's weaponsmith Lugosi, after combining his staff, Crash, and the rare element called Moonglow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 526

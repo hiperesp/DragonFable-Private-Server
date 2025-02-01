@@ -2,6 +2,8 @@
 
 The power of light flows from the intricate celtic knot adorning this scythe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5376

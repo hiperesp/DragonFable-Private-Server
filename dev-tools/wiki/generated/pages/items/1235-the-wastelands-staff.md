@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 26 or higher to create. "There are other worlds than these"...and this staff design was found in one of 'em.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1235

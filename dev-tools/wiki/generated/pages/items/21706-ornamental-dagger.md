@@ -2,6 +2,8 @@
 
 A refugee fleeing from the fire monsters wordlessly handed this to you after you saved him. It appears to be made from a strange glittering green mineral... (Used to improve the Adventurer's Spear!)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21706

@@ -2,6 +2,8 @@
 
 Your very own SoulForged sword! It pulses with might and resolve!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15723

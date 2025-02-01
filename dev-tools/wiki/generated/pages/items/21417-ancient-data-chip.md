@@ -2,6 +2,8 @@
 
 An ancient and worn piece of unknown material. Something about it seems familiar. Proof of victory over J6 and Master Twang.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21417

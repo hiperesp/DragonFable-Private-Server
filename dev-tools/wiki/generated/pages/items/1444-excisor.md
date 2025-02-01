@@ -2,6 +2,8 @@
 
 The design of this blade gives it greater cutting power than other blades of its size while reducing its weight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1444

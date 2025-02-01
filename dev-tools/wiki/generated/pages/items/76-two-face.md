@@ -2,6 +2,8 @@
 
 No matter how you slice it, it will end up hurting your opponent.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 76

@@ -2,6 +2,8 @@
 
 Your enemies can no longer hide from their end.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1114

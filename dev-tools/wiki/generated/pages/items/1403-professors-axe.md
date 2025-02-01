@@ -2,6 +2,8 @@
 
 This pick axe is ready for a hard day in the field digging up artifacts, moving rocks, and bug smashing! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1403

@@ -2,6 +2,8 @@
 
 A crystallized fragment of wind!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8157

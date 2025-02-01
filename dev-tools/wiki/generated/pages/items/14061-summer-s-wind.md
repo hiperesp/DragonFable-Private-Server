@@ -2,6 +2,8 @@
 
 An ancient crystal, it was cracked during battle and the wind inside escaped hundreds of years ago.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14061

@@ -2,6 +2,8 @@
 
 A shining dragon's scale. Its ethereal shimmer seems unnatural somehow. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21308

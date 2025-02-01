@@ -2,6 +2,8 @@
 
 This wind blade glows in an inner-fury. It draws it's power from the skills of the ninja warrior using the blade and focuses that power through the flame-like runes on the blade. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1126

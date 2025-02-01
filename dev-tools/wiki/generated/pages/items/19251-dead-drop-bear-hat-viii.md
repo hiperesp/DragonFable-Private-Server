@@ -2,6 +2,8 @@
 
 You found this on the forest floor as you were leaving. Is it a warning? A reward? Regardless, it makes a good hat. You should try it on. Go on. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19251

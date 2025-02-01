@@ -2,6 +2,8 @@
 
 Togsday II
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

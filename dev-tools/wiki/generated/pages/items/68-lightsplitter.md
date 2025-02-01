@@ -2,6 +2,8 @@
 
 A short blade made of an unknown glassy material. It is sharp enough to split beams of light!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 68

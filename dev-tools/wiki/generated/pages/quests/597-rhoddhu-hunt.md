@@ -2,6 +2,8 @@
 
 The Rhoddhu is indigenous to the snow fields of Ameron, north of Dragesvard where the terrain is quite dangerous. These furry monsters have been terrorizing the different tribes for years, but their fur pelts make for excellent material for fashioning clothes and supplies.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

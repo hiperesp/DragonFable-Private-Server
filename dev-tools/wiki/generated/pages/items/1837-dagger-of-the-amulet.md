@@ -2,6 +2,8 @@
 
 This ancient weapon surges with power. The shrine it was encased in seems long abandoned though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1837

@@ -2,6 +2,8 @@
 
 It is Friday the 13th again, and the Necromantress has revealed her part in the invasion. All that remains of the war is to defeat the boss... but wait, TWO bosses??!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

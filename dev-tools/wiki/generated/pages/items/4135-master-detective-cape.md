@@ -2,6 +2,8 @@
 
 A stylish cape that is sure to keep you warm as you muck about for clues.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4135

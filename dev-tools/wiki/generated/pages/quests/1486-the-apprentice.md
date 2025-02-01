@@ -2,6 +2,8 @@
 
 Time to start teaching Falwynn how to be a Hero! Are you sure you're up it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

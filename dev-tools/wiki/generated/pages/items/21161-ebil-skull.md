@@ -2,6 +2,8 @@
 
 The visage of pure undead Ebil! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21161

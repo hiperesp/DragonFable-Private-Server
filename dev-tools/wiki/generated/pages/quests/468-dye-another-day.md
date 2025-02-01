@@ -2,6 +2,8 @@
 
 Sneegol and Robina seem to think you'll be able to find some dye in the Sneevil dumpsite.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

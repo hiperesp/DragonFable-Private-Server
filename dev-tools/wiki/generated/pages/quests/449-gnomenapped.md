@@ -2,6 +2,8 @@
 
 Zapp is missing! Can you find him and whoever took him prisoner in the steam tunnels?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

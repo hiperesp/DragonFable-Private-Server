@@ -2,6 +2,8 @@
 
 A wicked edge, honed from magic, self-healing ice!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7269

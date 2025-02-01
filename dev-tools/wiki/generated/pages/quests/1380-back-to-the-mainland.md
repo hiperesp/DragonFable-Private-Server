@@ -2,6 +2,8 @@
 
 Time to go back to Osprey Cove!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

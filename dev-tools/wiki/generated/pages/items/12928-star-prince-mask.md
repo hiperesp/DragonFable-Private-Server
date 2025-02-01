@@ -2,6 +2,8 @@
 
 You've got a plan. Well, part of a plan. More like 10% of a plan but it's a plan! Happy Mogloween 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12928

@@ -2,6 +2,8 @@
 
 Despite its name, this weapon has been carved out of crystalized blood of a phoenix. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22241

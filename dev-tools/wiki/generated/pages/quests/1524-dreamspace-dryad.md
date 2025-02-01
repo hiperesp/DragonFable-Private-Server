@@ -2,6 +2,8 @@
 
 The Archdryad and her faithful guard hold you in their grasp.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

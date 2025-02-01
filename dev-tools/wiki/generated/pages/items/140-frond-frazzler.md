@@ -2,6 +2,8 @@
 
 This leafy blade is as hard as stone and able to cut through the thickest foliage. It should have no trouble slicing your opponent.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 140

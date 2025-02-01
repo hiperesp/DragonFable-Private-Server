@@ -2,6 +2,8 @@
 
 In Book 3, Dragon hatches you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

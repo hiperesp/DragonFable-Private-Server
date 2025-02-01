@@ -3,6 +3,8 @@
 This kris looks so serpentine you almost expect it to hiss when you hit things with it!
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2347

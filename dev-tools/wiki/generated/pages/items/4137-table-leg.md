@@ -2,6 +2,8 @@
 
 You are kinda tied up at the moment.... at least this one isn't broken.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4137

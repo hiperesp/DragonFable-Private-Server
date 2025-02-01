@@ -2,6 +2,8 @@
 
 This is a well balanced staff for a beginner mage. This item requires a Blacksmithing skill of Rank 10.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1198

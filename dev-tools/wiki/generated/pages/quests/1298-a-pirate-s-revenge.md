@@ -2,6 +2,8 @@
 
 The stolen equipment has been recovered and Mazurek can now plan her revenge!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

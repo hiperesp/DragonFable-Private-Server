@@ -2,6 +2,8 @@
 
 This is the cutest lord of doom EVER!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4802

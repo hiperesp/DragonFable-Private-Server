@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen The Fang and the Scales to be your foes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

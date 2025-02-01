@@ -2,6 +2,8 @@
 
 That is too much turkey... duck... and chicken....
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Ruby fashioned this from the preserved remains of the defeated mushrooms. It's very fashionable and quite adorable as long as you don't think about it too hard.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21565

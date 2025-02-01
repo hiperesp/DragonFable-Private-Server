@@ -2,6 +2,8 @@
 
 The hood on this intricate helm helps protect you from the elements! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9419

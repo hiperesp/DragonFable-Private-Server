@@ -2,6 +2,8 @@
 
 This helm was grown from the same type of plant that forms the PumpkinLord armors! It glows with a spooky inner light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14850

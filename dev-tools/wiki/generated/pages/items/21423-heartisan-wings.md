@@ -2,6 +2,8 @@
 
 Love's purest works of art required the softest of touches, and the highest of reach. These wings empowered both in the hearts of Love's crafters. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21423

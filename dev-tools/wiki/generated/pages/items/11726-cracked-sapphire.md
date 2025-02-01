@@ -2,6 +2,8 @@
 
 You'd think a dragon would take better care of his treasure...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11726

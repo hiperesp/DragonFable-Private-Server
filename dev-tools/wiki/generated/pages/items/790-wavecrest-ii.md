@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This water weapon was forged from the scales dropped by Cave Hydra during molting. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 790

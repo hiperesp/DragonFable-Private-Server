@@ -2,6 +2,8 @@
 
 It's alive!  Thanks to Zorbak's plotting and Voltabolt's tinkering, what was intended to be food for the Fall Festival feast is now a pet!  Don't eat it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3259

@@ -2,6 +2,8 @@
 
 A pinnacle of Exalted engineering, this ornate relic has never seen battle. Upgraded from the Exalted Penultima. Click it to switch between Good and Evil. Proof of your victory over the Exaltia Tower!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19336

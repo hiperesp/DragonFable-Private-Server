@@ -2,6 +2,8 @@
 
 A version of the Chaos Amulet from a different timeline. Though devoid of most of its power, shimmering visions of alternate timelines cycle through the amulet's eye. Proof of victory over the 13th Lord of Chaos!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21610

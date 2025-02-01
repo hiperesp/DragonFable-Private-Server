@@ -2,6 +2,8 @@
 
 You found this staff in the cavern with the Tear. It will always remind you that water can heal as well as harm. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11969

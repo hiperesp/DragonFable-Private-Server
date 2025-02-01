@@ -2,6 +2,8 @@
 
 A shining beacon of an egg, truly a jewel of Ostara's collection. Tossed into the ocean by the Grenwog, and retrieved by you! Can be used to exchange for Ostara items, or sold for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18832

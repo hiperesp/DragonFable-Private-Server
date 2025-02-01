@@ -2,6 +2,8 @@
 
 This weapon required a Dragon Amulet. Using the purified shards of bloodgem, this holy blade of light was made specifically for you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 688

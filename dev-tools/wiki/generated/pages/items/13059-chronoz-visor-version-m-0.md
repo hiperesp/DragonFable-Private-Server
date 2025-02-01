@@ -2,6 +2,8 @@
 
 This visor will help you see as you patrol the vast digital timescape!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13059

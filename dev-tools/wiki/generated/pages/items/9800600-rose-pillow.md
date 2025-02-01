@@ -2,6 +2,8 @@
 
 A standard-issue Rose body pillow. Extra comfy without any magic!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800600

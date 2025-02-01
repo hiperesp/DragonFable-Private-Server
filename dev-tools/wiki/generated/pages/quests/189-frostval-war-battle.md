@@ -2,6 +2,8 @@
 
 Defeat the wave of frost monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

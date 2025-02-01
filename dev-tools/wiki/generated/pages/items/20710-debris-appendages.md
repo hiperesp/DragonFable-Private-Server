@@ -2,6 +2,8 @@
 
 Brought forth from the ash and blood of the dead, this wing and tail set brings with it an aura of foreboding. Usually exacerbated when you tell people it's made from the ash and blood of the dead. Forged by Darkon. (Cosmetic)(CC: Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20710

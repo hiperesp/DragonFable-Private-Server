@@ -2,6 +2,8 @@
 
 This Item Requires a Dragon Amulet. This blade was forged under amazing pressure at the bottom of the deepest sea... by a fish. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 936

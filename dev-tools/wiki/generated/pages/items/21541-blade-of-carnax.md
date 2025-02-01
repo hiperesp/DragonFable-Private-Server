@@ -2,6 +2,8 @@
 
 An embodiment of Carnax's power! Luckily for you, and the world, it's dormant. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21541

@@ -2,6 +2,8 @@
 
 The moment you step into the Third Floor an uncanny sense of eerieness pervades you. It is as though you are being watched by unseen eyes. Find your target and get out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

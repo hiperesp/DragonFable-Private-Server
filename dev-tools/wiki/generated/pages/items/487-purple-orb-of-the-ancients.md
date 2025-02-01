@@ -2,6 +2,8 @@
 
 A clawed hand grasps the purple glowing orb set into this staff. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 487

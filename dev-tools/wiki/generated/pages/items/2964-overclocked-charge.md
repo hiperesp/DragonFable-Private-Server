@@ -2,6 +2,8 @@
 
 Lim loves science. And energy. And making energy more science-y.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2964

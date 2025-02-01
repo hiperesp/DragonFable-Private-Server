@@ -2,6 +2,8 @@
 
 The tough hide of the poisonous Scorpiarc!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4577

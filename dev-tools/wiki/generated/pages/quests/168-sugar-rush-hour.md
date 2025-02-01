@@ -2,6 +2,8 @@
 
 It's candy eating time!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

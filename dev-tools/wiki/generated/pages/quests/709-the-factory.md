@@ -2,6 +2,8 @@
 
 Plushies patrol the area outside!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

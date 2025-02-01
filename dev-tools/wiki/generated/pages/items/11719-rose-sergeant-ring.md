@@ -2,6 +2,8 @@
 
 Anti-magic runes have been crudely carved into this simple metal band.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11719

@@ -2,6 +2,8 @@
 
 Cracked and scratched by dragon scales, it'll still fetch a good price from some vendor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11725

@@ -2,6 +2,8 @@
 
 The smell of burnt bacon will waft over your enemies after this Black Friday, '15!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15092

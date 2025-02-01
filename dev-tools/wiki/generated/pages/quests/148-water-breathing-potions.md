@@ -2,6 +2,8 @@
 
 Rhubarb in Osprey Cove has asked you to secure the hidden cargo of Water Breathing potions from the ninja invaders on the ship!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

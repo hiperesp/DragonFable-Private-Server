@@ -2,6 +2,8 @@
 
 The ChaosWeavers are scattering after the death of their Queen, and they want to run right over YOU!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

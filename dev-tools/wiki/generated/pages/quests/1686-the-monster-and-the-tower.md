@@ -2,6 +2,8 @@
 
 A monster is attacking the Falconreach Guardian Tower! What brought it here? What could it want? And what is Big Daddy gonna do about it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

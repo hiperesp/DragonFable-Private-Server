@@ -2,6 +2,8 @@
 
 A wandering healer found a young boy lying in the road, wounded.  Two snakes guarded him from attack by wild predators.  This staff was carved in honor of that myth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2346

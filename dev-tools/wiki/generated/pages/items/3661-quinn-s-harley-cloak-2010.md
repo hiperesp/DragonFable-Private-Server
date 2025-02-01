@@ -2,6 +2,8 @@
 
 A famous prankster named Quinn was well known for wearing these colors. She was hilarious, and was a favorite entertainer at court. She was best known for calling the King "Pudding."  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3661

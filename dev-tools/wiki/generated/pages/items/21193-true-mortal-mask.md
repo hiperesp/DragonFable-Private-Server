@@ -2,6 +2,8 @@
 
 Mysterious and shrouded.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21193

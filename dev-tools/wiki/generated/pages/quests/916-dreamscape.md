@@ -2,6 +2,8 @@
 
 Help protect The Professor inside the clashing dreamscapes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

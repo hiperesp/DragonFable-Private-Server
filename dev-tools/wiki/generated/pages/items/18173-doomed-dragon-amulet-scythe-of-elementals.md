@@ -2,6 +2,8 @@
 
 Eight elemental orbs to celebrate DragonFable's anniversary! Visit the Black Market Moglin to upgrade this weapon. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18173

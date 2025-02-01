@@ -2,6 +2,8 @@
 
 This dagger is the preferred weapon of swashbuckler's everywhere.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 315

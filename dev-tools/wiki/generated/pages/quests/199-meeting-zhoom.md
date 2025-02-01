@@ -2,6 +2,8 @@
 
 The Sandsea seems to have more sub-plots than grains of sand!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Azaveyran students are taught that any organized group of Chaosweavers is doomed to fail, not by conquest, but by the consequences of their sins. This long-abandoned weapon proves neither. (Cosmetic)(CC: Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22297

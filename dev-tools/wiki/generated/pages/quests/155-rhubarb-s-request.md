@@ -2,6 +2,8 @@
 
 Rhubarb received some disturbing news. Another clan of ninja from a neighboring island has sent chests of weapons along with support ninjas! He has asked you to cut off the aid before it reached the Shadow of the Wind Village, and burn the crates.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

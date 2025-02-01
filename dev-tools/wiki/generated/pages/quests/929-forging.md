@@ -2,6 +2,8 @@
 
 Konnan has forged his dreamscape armor to help fight!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

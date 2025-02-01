@@ -2,6 +2,8 @@
 
 As you take up this weapon you feel as though a multitude stand with you, ready to fight against the darkness. This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13659

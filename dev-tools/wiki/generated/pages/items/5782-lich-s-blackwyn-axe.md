@@ -2,6 +2,8 @@
 
 One of the weapons from the Blackwyn Lich's arsenal, this axe has wickedly sharp blades. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5782

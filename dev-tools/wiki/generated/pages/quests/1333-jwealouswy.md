@@ -2,6 +2,8 @@
 
 Twig is gonna make da biggest, bestest, furriest, ice creamest, fishiest fwend EVER!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

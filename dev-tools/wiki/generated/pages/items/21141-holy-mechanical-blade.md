@@ -2,6 +2,8 @@
 
 An energized blade from another time and place, radiating with blessed power. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21141

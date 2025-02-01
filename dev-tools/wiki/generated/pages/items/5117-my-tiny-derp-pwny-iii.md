@@ -2,6 +2,8 @@
 
 Herpaderp, I'm a Pwny! I love to prance and dance and sing! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5117

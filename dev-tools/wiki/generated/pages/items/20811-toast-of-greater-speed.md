@@ -2,6 +2,8 @@
 
 A legendary piece of toast, said to increase movement speed when held in the mouth. But it doesn't. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20811

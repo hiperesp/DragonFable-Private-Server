@@ -2,6 +2,8 @@
 
 The Rose are after the clawkin villagers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

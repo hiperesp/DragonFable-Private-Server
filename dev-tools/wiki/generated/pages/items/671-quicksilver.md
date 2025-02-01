@@ -2,6 +2,8 @@
 
 This magical staff is topped with an orb which contains a large amount of liquid silver. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 671

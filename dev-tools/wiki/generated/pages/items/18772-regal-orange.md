@@ -2,6 +2,8 @@
 
 This orange is the size of a large cat. The greenery where the stem was looks like a crown. One side is stamped with the letter "n". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18772

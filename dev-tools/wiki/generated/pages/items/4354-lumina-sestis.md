@@ -2,6 +2,8 @@
 
 This blade was forged in honor of the Light Lord through the toil and tears of Clyde, luminous weaponcrafter! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4354

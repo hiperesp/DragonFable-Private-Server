@@ -2,6 +2,8 @@
 
 Verlyrus meowed you to save little Timmy from the well!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

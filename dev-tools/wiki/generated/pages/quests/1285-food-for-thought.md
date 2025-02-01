@@ -2,6 +2,8 @@
 
 A cave seems like a weird place to meet for dinner.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

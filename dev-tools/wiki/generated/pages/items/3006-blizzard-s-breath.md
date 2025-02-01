@@ -2,6 +2,8 @@
 
 Wearing this necklace will make you COLD!  But it will also increase your ability to dodge and defend.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3006

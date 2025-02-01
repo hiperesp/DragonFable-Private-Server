@@ -2,6 +2,8 @@
 
 Can you defeat all the challengers?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

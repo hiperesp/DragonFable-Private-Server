@@ -2,6 +2,8 @@
 
 This mask is very cute and definitely not evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19988

@@ -2,6 +2,8 @@
 
 "Give us back the Pony weapons Ash!" "We want a max level pony weapon Ash!" "Why can't we have higher levels of the pony weapon's Ash?" Fine, but you'll have to work for them. :3
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2988

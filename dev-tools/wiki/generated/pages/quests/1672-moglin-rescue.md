@@ -2,6 +2,8 @@
 
 Rescue frost moglins that were moglinapped by Mr. Nameless' toys!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

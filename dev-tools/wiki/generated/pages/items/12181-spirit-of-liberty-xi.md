@@ -2,6 +2,8 @@
 
 The spirit of liberty flows through this fiery staff! Show off your patriotism!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12181

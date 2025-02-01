@@ -2,6 +2,8 @@
 
 Light undrownable, eternal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21754

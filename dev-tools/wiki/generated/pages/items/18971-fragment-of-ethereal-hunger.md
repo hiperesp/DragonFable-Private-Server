@@ -2,6 +2,8 @@
 
 A small blob of purple essence, left behind by Gluttony in the Arena at the Edge of Time. Squishy! Used to create the Chibi Gluttony cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18971

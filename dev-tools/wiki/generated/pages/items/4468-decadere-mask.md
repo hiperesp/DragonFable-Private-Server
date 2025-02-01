@@ -2,6 +2,8 @@
 
 RWAR!! With this mask, you'll surely have the scariest costume on the block! Happy Mogloween 2010!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4468

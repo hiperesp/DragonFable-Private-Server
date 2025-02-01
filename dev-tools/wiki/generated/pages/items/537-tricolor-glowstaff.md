@@ -2,6 +2,8 @@
 
 This Dragon Amulet staff has had its elemental orb separated into three separate orbs of different spectrums which dilutes its elemental power but greatly increases its damage output.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 537

@@ -2,6 +2,8 @@
 
 Wargoth has renewed his fiery assault on Lore.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

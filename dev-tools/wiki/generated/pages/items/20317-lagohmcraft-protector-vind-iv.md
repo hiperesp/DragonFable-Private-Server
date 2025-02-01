@@ -2,6 +2,8 @@
 
 With Prince Eulin's help, you were able to complete this amazing piece of Lagohm technology! It has been adorned in the style of the Vind.This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20317

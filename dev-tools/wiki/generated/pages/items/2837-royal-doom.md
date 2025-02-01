@@ -3,6 +3,8 @@
 Can't you just FEEL the Doom?
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2837

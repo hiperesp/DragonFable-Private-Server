@@ -2,6 +2,8 @@
 
 Yix wants you to make your way to the Popsprocket experimental tool storage facility for 2 very special tools!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

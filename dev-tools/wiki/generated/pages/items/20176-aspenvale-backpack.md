@@ -2,6 +2,8 @@
 
 A standard issue backpack for Aspenvale Academy students!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20176

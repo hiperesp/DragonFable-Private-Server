@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This poisonous sword was a gift from the Shadow of the Wind ninja clan for saving their village from Honda, the Iron-Fisted Giant.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1356

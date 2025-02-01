@@ -2,6 +2,8 @@
 
 You've climbed from the depths of the Valtrith tomb into the ruins of their ancestral castle... and you're not alone!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

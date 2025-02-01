@@ -2,6 +2,8 @@
 
 The cape of Deidro, the fabled warrior who slew a Fire Hydra.  Passed down as a family heirloom, this is a precious item.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6433

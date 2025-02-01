@@ -2,6 +2,8 @@
 
 Wearing this mask fills you with a sense of pride and accomplishment.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19186

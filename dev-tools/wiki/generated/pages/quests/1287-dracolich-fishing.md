@@ -2,6 +2,8 @@
 
 Book 3 Dracolich Fishing
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

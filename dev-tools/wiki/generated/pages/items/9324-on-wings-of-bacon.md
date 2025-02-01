@@ -2,6 +2,8 @@
 
 You look awesome, smell amazing and will never go hungry again! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9324

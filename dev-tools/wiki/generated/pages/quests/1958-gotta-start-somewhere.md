@@ -2,6 +2,8 @@
 
 The start of a story has its ups and downs.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

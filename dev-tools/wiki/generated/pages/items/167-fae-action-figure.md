@@ -2,6 +2,8 @@
 
 Now with Kung-Fu Action Grip!!!!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 167

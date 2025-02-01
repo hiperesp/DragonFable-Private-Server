@@ -2,6 +2,8 @@
 
 This ring is made of a smooth green metal, and glows faintly green with internal power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 112

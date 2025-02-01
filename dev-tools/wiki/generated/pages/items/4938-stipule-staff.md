@@ -2,6 +2,8 @@
 
 A magical staff made from the leaves of the forest.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4938

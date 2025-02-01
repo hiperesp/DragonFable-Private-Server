@@ -3,6 +3,8 @@
 This surprisingly comfortable hat is the perfect choice for hunting monsters in the shadows.
 Proof of victory over The Moonlit Hunt challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22191

@@ -2,6 +2,8 @@
 
 A piece of fried chicken speared onto a stick. It seems that some magic is keeping it piping hot and tasty! Don't eat too much of it, though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16736

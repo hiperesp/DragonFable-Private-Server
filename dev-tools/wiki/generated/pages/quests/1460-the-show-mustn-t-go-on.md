@@ -2,6 +2,8 @@
 
 You've dealt with ALL of Jack's Sons of Disorder, time to help the Sisters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

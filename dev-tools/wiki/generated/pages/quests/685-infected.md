@@ -2,6 +2,8 @@
 
 You've been infected with the Z-Virus! Visit the Sisters for the cure... or spread the infection to other adventurers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This style of staff is enchanted with the glowing orbs used by the elven people to light their homes in the deep forests of Lore. The bulb is impact-resistant for better monster thwacking. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1470

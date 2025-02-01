@@ -2,6 +2,8 @@
 
 Helping random strangers from foreign lands! That's the spirit!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

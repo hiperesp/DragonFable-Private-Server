@@ -2,6 +2,8 @@
 
 A piece of cloth to help soak up water.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1965

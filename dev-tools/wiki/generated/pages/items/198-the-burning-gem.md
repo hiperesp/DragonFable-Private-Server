@@ -2,6 +2,8 @@
 
 This staff is strangely warm to the touch. It's topped by a magical gem that is larger than your fist.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 198

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The hilt of this sword was forged into the shape of the rare blue desert lotus..which is the only flower in the world that makes you look tougher when you pick it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1436

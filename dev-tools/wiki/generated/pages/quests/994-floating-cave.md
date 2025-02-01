@@ -2,6 +2,8 @@
 
 The cave is full of wind creatures!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

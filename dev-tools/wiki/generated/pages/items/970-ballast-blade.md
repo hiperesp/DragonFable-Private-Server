@@ -2,6 +2,8 @@
 
 The hilt of this heavy blade was forged from the ballast of Captain Jack Finch's ancient ship.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 970

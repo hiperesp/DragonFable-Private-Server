@@ -2,6 +2,8 @@
 
 Neglected by their father, Char and his little brother run the streets of Ravenloss trying to gather enough material to sell so that they can buy food. Will you help protect them?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

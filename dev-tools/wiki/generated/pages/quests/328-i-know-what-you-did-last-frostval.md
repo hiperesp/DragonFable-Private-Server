@@ -2,6 +2,8 @@
 
 Yep, still full of slushrooms!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

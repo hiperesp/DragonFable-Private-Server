@@ -2,6 +2,8 @@
 
 Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions.  This item requires a Dragon Amulet. Weapon does 30% more damage to elementals.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7322

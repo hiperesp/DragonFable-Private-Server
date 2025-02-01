@@ -2,6 +2,8 @@
 
 This bandana keeps your hair out of your face while you swab the deck!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14718

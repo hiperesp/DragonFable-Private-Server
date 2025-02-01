@@ -2,6 +2,8 @@
 
 They're fighting like they've never fought before.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

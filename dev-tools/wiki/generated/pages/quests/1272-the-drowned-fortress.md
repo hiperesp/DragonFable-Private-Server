@@ -2,6 +2,8 @@
 
 Explore the depths of Sepulchure's Drowned Fortress! Be warned... your only escape to go back the way you came!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

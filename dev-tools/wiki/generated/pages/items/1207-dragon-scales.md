@@ -2,6 +2,8 @@
 
 Green-black scales shed from adult dragons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1207

@@ -2,6 +2,8 @@
 
 With these on, you'll be able to strike fear into the hearts of your opponents while staying stylish to the max! Twig took one wing away though!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7729

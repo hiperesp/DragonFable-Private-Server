@@ -2,6 +2,8 @@
 
 Can you keep the moglins safe this year?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

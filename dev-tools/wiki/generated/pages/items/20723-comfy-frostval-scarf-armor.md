@@ -2,6 +2,8 @@
 
 A comfy striped scarf, warm and cozy. Changes color to match your color choices. (Cosmetic)(CC: Base/Trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20723

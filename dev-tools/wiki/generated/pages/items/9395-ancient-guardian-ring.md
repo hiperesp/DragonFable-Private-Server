@@ -2,6 +2,8 @@
 
 A golden scarab adorns this ring.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9395

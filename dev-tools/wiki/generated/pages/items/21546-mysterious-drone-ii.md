@@ -2,6 +2,8 @@
 
 One of Hollow's drones followed you home after your victory over Carnax. Be sure to take good care of it! (What does it even eat?)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21546

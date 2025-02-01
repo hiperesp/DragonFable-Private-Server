@@ -2,6 +2,8 @@
 
 A Soulwoven hood used by Chaosweavers in the distant past. Such garments are exceedingly difficult to find, and their exact use and effects are a mystery to many.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18672

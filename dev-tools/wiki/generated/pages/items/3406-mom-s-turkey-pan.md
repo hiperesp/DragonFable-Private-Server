@@ -2,6 +2,8 @@
 
 It doesn't look like Mom cleaned it after the turkey was in it.... ewwwww.... get rid of this. Fast!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3406

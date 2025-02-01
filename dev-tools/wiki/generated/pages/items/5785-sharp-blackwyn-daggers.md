@@ -2,6 +2,8 @@
 
 One of the weapons from the Blackwyn Lich's arsenal, these daggers have wickedly sharp blades. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5785

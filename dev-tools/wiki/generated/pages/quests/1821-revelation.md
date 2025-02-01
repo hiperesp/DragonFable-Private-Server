@@ -2,6 +2,8 @@
 
 You've pushed back the Maleurous forces from Myalos... but what awaits you outside?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

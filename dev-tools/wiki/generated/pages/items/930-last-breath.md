@@ -2,6 +2,8 @@
 
 This amazing magical necklace holds a small bottle around the wearer's neck. It's said that you can breathe into the bottle and it will hold your last breath, allowing you to return from the dead (with 1 hp, at the start of the quest).
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 930

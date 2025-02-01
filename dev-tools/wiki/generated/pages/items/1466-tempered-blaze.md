@@ -2,6 +2,8 @@
 
 This sword was constructed of a special hybrid material which is half glass, half fire. This Fireglass has been sharpened to a razor edge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1466

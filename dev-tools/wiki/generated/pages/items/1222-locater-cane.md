@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create. This staff is often the type used by magi searching for something that they lost. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1222

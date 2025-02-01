@@ -2,6 +2,8 @@
 
 This belt goes GREAT with time travel.  It makes you look slimming in a timely manner.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3392

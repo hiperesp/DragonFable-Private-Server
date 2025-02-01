@@ -2,6 +2,8 @@
 
 This style of helm was worn many centuries ago by the pages and servants of Guardians. The style was later adopted by other heroes and now can be worn by anyone, but it still has strong ties to its Guardian heritage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1663

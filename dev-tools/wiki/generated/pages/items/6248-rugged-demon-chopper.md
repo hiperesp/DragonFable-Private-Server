@@ -2,6 +2,8 @@
 
 This otherworldly dagger is imbued with the essence of a creature from another dimension.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6248

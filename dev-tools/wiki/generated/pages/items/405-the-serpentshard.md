@@ -2,6 +2,8 @@
 
 This magical staff is topped by two dragons protecting a raw, uncut gem which resonates with magical energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 405

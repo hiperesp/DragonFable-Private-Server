@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is a dangerously sharp dagger, magically grown for you by the Cauldron Sisters to thank you for helping save the first Mogloween.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20009

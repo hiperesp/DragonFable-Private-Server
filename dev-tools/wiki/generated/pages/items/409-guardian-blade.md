@@ -2,6 +2,8 @@
 
 This is the ancient weapon of the Guardians. Who knows what secrets this sword holds. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 409

@@ -2,6 +2,8 @@
 
 This double headed axe's searing blades can slice through nearly any substance, but the magic heating the blades has made the metal dangerously soft. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 923

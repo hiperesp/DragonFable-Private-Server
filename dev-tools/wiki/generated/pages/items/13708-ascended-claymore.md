@@ -2,6 +2,8 @@
 
 This massive blade is used by those that have fully trained in the ways of the Ascended. The blade seems to be able to cut through almost anything!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13708

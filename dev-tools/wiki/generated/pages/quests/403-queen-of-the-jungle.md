@@ -2,6 +2,8 @@
 
 The Furies who live in the jungle are a peaceable species.  Really! Unless you are looking to trade with their Queen.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

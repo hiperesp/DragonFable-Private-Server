@@ -2,6 +2,8 @@
 
 The enduring helmet of an ancient DoomKnight. You can click it to change its appearance! This helm is proof of your victory over Achilles and Patrocles.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20820

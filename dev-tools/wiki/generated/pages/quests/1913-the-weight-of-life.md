@@ -2,6 +2,8 @@
 
 Time to be judged.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

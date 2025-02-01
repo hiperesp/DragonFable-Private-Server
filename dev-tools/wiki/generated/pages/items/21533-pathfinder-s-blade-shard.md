@@ -2,6 +2,8 @@
 
 This piece of a Magi Pathfinder's mana-infused crystalline blade is a souvenir of your first journey into the lands affected by the Fissure. Maybe it will have some use in the future...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21533

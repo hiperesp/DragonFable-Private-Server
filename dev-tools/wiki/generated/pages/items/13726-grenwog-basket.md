@@ -2,6 +2,8 @@
 
 What? How did you think he carried around all those eggs to hide? 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13726

@@ -2,6 +2,8 @@
 
 Can you make it to the Oasis?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

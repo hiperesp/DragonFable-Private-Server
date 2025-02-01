@@ -2,6 +2,8 @@
 
 A special item from the unael, Yashta, he says it reflects the dreams of Atrea. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10543

@@ -2,6 +2,8 @@
 
 This is the traditional staff given to those Ice Giants who are called as Bone Casters. It is said to aid the Bone Caster in reading the runes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16336

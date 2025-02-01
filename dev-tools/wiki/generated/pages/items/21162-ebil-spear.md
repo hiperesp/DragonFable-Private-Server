@@ -2,6 +2,8 @@
 
 Just like the ones the skeletons use! But 50% less Ebil, and certainly not as deadly. Un-deadly.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21162

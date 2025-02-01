@@ -2,6 +2,8 @@
 
 Who knew metal from the heart of an asteroid would be able to magically restrain a minotaur?  If it's that powerful, it couldn't hurt to try making a weapon out of it, right?  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2283

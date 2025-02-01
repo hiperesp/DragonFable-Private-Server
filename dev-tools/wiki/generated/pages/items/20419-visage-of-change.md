@@ -2,6 +2,8 @@
 
 A helm once worn by unknown heroes long gone. Crafted from a prismatic crystal of unknown source, it changes color based on its wearer.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20419

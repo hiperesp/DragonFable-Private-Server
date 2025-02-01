@@ -2,6 +2,8 @@
 
 A crystal of perfect ice, it seems to absorb heat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6319

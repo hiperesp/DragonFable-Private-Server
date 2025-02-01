@@ -2,6 +2,8 @@
 
 Didst thou bring thine candy, tarnished?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21286

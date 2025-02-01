@@ -2,6 +2,8 @@
 
 Crafted from leftover shards of the Ice Scythe, this dagger will show its true power in the upcoming Fire War.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2584

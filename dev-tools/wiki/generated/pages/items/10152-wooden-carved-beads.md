@@ -2,6 +2,8 @@
 
 Intricately carved pieces of oak that look like seeds and animals.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10152

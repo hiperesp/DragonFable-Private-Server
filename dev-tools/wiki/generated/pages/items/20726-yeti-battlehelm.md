@@ -2,6 +2,8 @@
 
 A yeti battlehelm, reshaped to fit your decidedly non-yeti head! Unfortunately, it doesn't quite resonate with you, since you're not a yeti, but at least you look good! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20726

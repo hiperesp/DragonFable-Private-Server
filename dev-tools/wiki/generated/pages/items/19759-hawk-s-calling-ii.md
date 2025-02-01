@@ -2,6 +2,8 @@
 
 Despite its ominous appearance, it doesn't make you feel any more menacing when you put it on. If anything... it makes you feel like you're being watched...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19759

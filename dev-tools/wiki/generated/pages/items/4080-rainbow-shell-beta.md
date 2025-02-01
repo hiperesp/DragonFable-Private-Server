@@ -2,6 +2,8 @@
 
 Strap this beautiful Nautiloid shell to your back to boost your wisdom and magical defense!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4080

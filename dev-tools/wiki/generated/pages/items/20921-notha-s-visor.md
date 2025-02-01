@@ -2,6 +2,8 @@
 
 Although non-functional, this dreamed up recreation of Notha's visor can be clicked to change position on your head! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20921

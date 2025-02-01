@@ -2,6 +2,8 @@
 
 A dark power swirls around these demonic wings. Visit the Black Market Moglin to upgrade this item.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5747

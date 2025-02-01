@@ -2,6 +2,8 @@
 
 A shard of living crystal that glows green with bioluminescent moss. Kara fashioned this for you to help light your way into the depths of The Great One's lair.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20509

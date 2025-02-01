@@ -2,6 +2,8 @@
 
 You'll blend into the shadows perfectly wearing this mask!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7506

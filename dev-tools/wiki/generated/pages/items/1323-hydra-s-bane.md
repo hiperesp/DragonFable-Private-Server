@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. This fiery blade spells doom to hydra.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1323

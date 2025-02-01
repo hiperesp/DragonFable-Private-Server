@@ -2,6 +2,8 @@
 
 Squash those spiders!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 How many of these fins am I supposed to get?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

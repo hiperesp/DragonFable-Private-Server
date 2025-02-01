@@ -2,6 +2,8 @@
 
 This ice weapon was recovered by galanoth from the frozen home of Delestroth, a great ice wyrm. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1750

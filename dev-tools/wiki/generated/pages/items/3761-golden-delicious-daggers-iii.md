@@ -3,6 +3,8 @@
 Take a slice out of your enemies with these delicious daggers!  This item requires a Dragon Amulet.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3761

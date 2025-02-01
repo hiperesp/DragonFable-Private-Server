@@ -2,6 +2,8 @@
 
 Forged by Dracelix for Cyber Monday 2019, this staff is supposed to pulse with power in the presence of foes, but it seems like that functionality isn't quite working properly. Or is it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19311

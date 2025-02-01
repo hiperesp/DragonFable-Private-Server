@@ -2,6 +2,8 @@
 
 An ornately carved sword of stone, enchanted with the energy of love! It will shock things in your path with its power. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16977

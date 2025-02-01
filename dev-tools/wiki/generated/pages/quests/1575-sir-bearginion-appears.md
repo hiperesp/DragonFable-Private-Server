@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Sir Bearginion the 3rd, Most Honorable Duelist of the Western Deepwoods, also known as One Punch Bear, to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

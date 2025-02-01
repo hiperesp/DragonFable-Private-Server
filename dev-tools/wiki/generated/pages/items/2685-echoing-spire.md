@@ -2,6 +2,8 @@
 
 The graceful curves which make up this staff will draw in your opponents eyes and trap them in a maze of rounded edges and muted colors.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2685

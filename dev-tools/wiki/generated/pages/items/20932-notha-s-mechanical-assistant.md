@@ -2,6 +2,8 @@
 
 You're not entirely sure how the vision of this construct entered your dream, but it definitely seems like something Notha would come up with. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20932

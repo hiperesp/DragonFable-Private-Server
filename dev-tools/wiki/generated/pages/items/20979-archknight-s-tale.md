@@ -2,6 +2,8 @@
 
 The story of a boy's dream to rescue a princess and become an ArchKnight. Used to upgrade the Blade of Destiny.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20979

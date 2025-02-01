@@ -2,6 +2,8 @@
 
 Can you defeat one of Sneegions minions?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

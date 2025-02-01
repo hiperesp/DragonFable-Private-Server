@@ -2,6 +2,8 @@
 
 The DragonLord General himself has descended to deal with your dragon.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 It's a beautiful Friday the 13th in Falconreach... until a certain blue moglin shows up. What does he want this time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

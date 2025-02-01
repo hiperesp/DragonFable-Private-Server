@@ -2,6 +2,8 @@
 
 The woods are damp and dark!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

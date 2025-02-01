@@ -2,6 +2,8 @@
 
 This ring is seriously gritty... in a not good way. It'll harden your hand up though!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9396

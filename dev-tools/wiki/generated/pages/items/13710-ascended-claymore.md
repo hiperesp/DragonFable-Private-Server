@@ -2,6 +2,8 @@
 
 This massive blade is used by those that have fully trained in the ways of the Ascended. The blade seems to be able to cut through almost anything! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13710

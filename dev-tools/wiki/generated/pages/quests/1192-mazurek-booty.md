@@ -2,6 +2,8 @@
 
 Help Cap'n Maz in her quest fer booty!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

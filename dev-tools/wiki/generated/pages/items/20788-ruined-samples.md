@@ -2,6 +2,8 @@
 
 Well, not all the mushroom samples made it. Maybe this colorful mess can be sold for some money.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20788

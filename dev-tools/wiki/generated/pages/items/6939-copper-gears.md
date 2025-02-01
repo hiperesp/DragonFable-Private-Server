@@ -2,6 +2,8 @@
 
 Linked copper gears, this looks like a cast-off from one of the Professor's projects.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6939

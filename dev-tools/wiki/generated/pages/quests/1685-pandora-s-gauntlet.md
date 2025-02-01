@@ -2,6 +2,8 @@
 
 Before you stands Pandora herself, in her most sinful incarnation.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

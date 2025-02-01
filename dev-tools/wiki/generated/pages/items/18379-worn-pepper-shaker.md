@@ -2,6 +2,8 @@
 
 An old pepper shaker with a curious design of a swirling mass devouring some creature or person etched on the side. Not much use to you, but can probably be sold for a good price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18379

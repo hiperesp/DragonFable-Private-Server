@@ -2,6 +2,8 @@
 
 What miserable little secrets does this mechanical monster hunter have?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

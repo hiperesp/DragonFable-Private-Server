@@ -2,6 +2,8 @@
 
 You've hunted down the Boss Bear, can you stop the mastermind behind the Hero's Heart Day Threat?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

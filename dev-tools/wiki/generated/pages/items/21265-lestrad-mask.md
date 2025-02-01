@@ -2,6 +2,8 @@
 
 It's Inspector Lestrad of the 'Vard.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21265

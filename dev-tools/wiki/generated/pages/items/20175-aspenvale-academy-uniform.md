@@ -2,6 +2,8 @@
 
 After a half-coherent explanation of your dream, Spruce made this uniform for you based off of your description! Equips the Student class, which has some customization options and basic skills.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20175

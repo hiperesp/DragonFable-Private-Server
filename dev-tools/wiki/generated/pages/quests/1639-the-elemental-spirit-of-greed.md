@@ -2,6 +2,8 @@
 
 Before you stands Greed, an artificial Elemental Spirit born of Pandora's avarice.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

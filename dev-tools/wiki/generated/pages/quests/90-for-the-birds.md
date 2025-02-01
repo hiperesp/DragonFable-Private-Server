@@ -2,6 +2,8 @@
 
 You find yourself in Oaklore forest searching for a large sack of seeds stolen from the camp of Sir Vey.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

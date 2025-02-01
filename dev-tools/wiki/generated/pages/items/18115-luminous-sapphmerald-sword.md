@@ -2,6 +2,8 @@
 
 You've found this sword in one of Captain Bluesnot's treasure chests. It gleams with brilliant light of the sapphmeralds, from which it's apparently forged. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18115

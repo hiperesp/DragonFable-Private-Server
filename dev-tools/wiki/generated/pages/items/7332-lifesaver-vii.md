@@ -2,6 +2,8 @@
 
 A well worn cloak, this was given to you by a grateful being rescued from the fighting elements! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7332

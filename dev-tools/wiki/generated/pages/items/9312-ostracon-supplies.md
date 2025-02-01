@@ -2,6 +2,8 @@
 
 This leather belt has many pouches and slots of writing implements. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9312

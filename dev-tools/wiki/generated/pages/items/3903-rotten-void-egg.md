@@ -2,6 +2,8 @@
 
 This Void egg will hatch... something.  Or would have, if it wasn't withered and rotten!  Guess you'll have to sell it to collectors for gold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3903

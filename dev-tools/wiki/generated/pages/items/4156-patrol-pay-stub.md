@@ -2,6 +2,8 @@
 
 The undead at the edges of Doomwood don't seem to carry much loot, but hey, at least Viamat pays his patrollers... a little.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4156

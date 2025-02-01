@@ -2,6 +2,8 @@
 
 You found this on the forest floor as you were leaving. Is it a warning? A reward? Regardless, it makes a good hat. You should try it on. Go on.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19264

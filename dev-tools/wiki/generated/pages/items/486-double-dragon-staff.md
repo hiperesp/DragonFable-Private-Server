@@ -2,6 +2,8 @@
 
 Two dragon heads don this staff, their eyes glowing an evil emerald gaze.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 486

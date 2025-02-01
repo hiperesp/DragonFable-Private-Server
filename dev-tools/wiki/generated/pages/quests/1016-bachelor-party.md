@@ -2,6 +2,8 @@
 
 Artix is throwing Rolith an undead wrestling extravaganza for his bachelor party!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

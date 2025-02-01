@@ -2,6 +2,8 @@
 
 Yllmar, the Maw of the Deep swallowed many ships and treasures. This wand belonged to an elite squad of Rose huntresses who must have met their demise in the whirlpool.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18142

@@ -2,6 +2,8 @@
 
 The trailing roots of Yalla, a fusion of Wind and Nature magic that draws mana from the breeze. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21125

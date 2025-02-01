@@ -2,6 +2,8 @@
 
 With Magesterium rifts threatening all of the Kingdom of Greenguard, what can you do?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

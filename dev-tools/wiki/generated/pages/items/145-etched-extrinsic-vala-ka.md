@@ -2,6 +2,8 @@
 
 Long considered a work of art, this weapon is also deadly on the battlefield. It sings as it swings through the air!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 145

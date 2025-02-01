@@ -2,6 +2,8 @@
 
 Orbert needs to be kept in a CONSTANT state of shininess! Otherwise, he might appear to be a junk item and sold for a hefty amount of gold. And THEN what would Cysero do?!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4412

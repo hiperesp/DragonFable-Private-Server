@@ -2,6 +2,8 @@
 
 This trident is extra shiny and looks much better than all the other Galeocerda tridents! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22294

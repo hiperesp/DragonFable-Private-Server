@@ -2,6 +2,8 @@
 
 Grateful to you for fighting for his hometown, he gave you this family heirloom to honor your bravery. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5479

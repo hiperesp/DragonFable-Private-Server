@@ -2,6 +2,8 @@
 
 Will Alex be able to compete with Warlic gathering reagents?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 These small kama are crafted from obsidian, iron, and amber and are decorated with a cat's eye and enchanted by the light of a full moon to remain sharp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7628

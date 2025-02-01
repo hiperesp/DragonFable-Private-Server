@@ -2,6 +2,8 @@
 
 A broken Clan Valtrith mask recovered from his siege during the Dark Night war! Wear it with honor and know that Jaysun fumes over your victory!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15053

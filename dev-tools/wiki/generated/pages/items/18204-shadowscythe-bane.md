@@ -2,6 +2,8 @@
 
 A creature of darkness and doom has pushed through into Lore!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18204

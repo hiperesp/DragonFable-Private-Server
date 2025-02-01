@@ -2,6 +2,8 @@
 
 The lava tubes twist and turn through the far side of Mt Shining Star.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

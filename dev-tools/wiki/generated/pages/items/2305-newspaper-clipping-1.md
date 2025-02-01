@@ -3,6 +3,8 @@
 Grateful Undead are nowhere to be found!
 This item can can used at Valencia's merge shop.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2305

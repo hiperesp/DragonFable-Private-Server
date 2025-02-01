@@ -2,6 +2,8 @@
 
 The Chaos Lord Thief's now dormant shroud. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21728

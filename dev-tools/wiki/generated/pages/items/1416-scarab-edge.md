@@ -2,6 +2,8 @@
 
 This sword was constructed from a giant scarab arm. This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1416

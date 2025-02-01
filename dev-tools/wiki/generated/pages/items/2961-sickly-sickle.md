@@ -2,6 +2,8 @@
 
 Any crops cut with this sickle will wither and die. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2961

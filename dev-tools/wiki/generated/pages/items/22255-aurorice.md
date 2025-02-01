@@ -2,6 +2,8 @@
 
 A versatile staff from the frozen Northlands, shaped for both magic and blade. It carries the legacy of those who braved the ice and its countless perils.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22255

@@ -2,6 +2,8 @@
 
 This black dagger can quickly help you win your game.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 306

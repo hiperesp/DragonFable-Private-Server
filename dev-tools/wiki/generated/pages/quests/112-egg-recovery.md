@@ -2,6 +2,8 @@
 
 At the last second, the Dragon Egg was stolen by a large vicious bird called a Vultragon who makes its home in the Sneevil Dump Site. You must track down the egg thief and get your egg back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

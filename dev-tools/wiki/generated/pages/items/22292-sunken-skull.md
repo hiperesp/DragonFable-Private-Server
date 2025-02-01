@@ -2,6 +2,8 @@
 
 This haunting golden mask was worn by the sailors of a notorious pirate crew said to have been cursed by their greed...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22292

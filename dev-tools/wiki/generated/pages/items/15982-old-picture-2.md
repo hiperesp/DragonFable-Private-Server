@@ -2,6 +2,8 @@
 
 An old picture of a young boy who?s practicing with a bo-staff. His face is filled with determination.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15982

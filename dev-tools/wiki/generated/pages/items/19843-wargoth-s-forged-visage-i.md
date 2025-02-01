@@ -2,6 +2,8 @@
 
 The remains of Wargoth, but different. From another time or place, perhaps? Burns bright all the same. Proof of victory over Wargoth!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19843

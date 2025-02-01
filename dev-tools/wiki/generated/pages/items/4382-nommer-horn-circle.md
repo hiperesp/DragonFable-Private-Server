@@ -2,6 +2,8 @@
 
 It was a one-eyed, two-horned soaring puce person nommer, one-eyed, two-horned soaring puce person nommer... sure looked great to me!  And this ring is made from its horn!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4382

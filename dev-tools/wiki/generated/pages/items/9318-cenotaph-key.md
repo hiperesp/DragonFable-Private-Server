@@ -2,6 +2,8 @@
 
 This ornate key glitters whenever light touches it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9318

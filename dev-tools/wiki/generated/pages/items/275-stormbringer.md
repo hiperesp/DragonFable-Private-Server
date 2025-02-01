@@ -2,6 +2,8 @@
 
 From the celestial heavens, this staff is imbued with the powers of a massive storm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 275

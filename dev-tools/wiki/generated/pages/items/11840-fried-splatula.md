@@ -2,6 +2,8 @@
 
 A magic splatula filled with all your BBQ hopes and dreams and cravings! You can upgrade this item at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11840

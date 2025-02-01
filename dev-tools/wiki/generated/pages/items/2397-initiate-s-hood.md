@@ -2,6 +2,8 @@
 
 The Emperors of Sek-Duat's line are served by a line of sycophants who have turned their service into a form of worship.  This hood was taken from one of those initiates.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2397

@@ -2,6 +2,8 @@
 
 Time to find out what kind of miserable little pile of secrets you are.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

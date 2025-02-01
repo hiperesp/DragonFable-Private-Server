@@ -2,6 +2,8 @@
 
 It seems like after leaving the watchtower fortress, something... or someone... has tagged along.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22235

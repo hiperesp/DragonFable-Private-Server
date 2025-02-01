@@ -2,6 +2,8 @@
 
 An ornately carved dagger of gold, only love's crafters might have sculpted something so eloquent! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21425

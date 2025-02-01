@@ -2,6 +2,8 @@
 
 Gears and gnomes and grease, oh my!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

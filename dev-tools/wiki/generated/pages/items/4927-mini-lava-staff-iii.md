@@ -2,6 +2,8 @@
 
 This staff is small but deadly!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4927

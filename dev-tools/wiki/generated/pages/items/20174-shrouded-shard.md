@@ -2,6 +2,8 @@
 
 This shard of Warlic's Orb seems to shift when you turn it, showing glimpses into the Void. Used to upgrade the Creatioux Claw and Warlic's Gift.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20174

@@ -2,6 +2,8 @@
 
 This suit was reconfigured by The Reset from a greatly modified Shadowscythe mecha! (Size scaled battles will cause animations to look weird) Best for Players level 40+
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14441

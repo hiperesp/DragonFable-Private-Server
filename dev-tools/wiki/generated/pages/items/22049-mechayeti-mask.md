@@ -2,6 +2,8 @@
 
 This heavy mask lets you look like the MechaYeti! From the neck up, at least. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22049

@@ -2,6 +2,8 @@
 
 Chunks of stalagnatum, the metal in Taurus' shackles, the litter the floor of the Labyrinth.  The glow is rather pretty, but you might want to have it tested for toxicity. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2286

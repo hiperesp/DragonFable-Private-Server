@@ -2,6 +2,8 @@
 
 This dagger's blade has been forged in the shape of a scorpion's stinger, and has been poisoned with the same deadly toxin for realism. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1439

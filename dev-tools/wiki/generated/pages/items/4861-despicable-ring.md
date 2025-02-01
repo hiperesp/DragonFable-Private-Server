@@ -2,6 +2,8 @@
 
 Not quite as good as a freeze ray, and the ring isn't at all fluffy, but it IS pretty good at helping you attack!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4861

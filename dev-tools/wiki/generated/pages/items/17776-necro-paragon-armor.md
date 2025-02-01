@@ -2,6 +2,8 @@
 
 The exclusive Necro Paragon Armor, Armor of the Legion, reward for completing the Nefarious Challenges!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17776

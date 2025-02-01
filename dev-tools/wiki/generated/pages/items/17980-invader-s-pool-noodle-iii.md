@@ -2,6 +2,8 @@
 
 An undead beachgoer's pool noodle! Perfect for floating around lazily at the beach. Or for smacking enemies. Also at the beach. Purchased from the Ghouliday's Invasion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17980

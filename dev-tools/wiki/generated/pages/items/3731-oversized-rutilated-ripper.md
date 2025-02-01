@@ -2,6 +2,8 @@
 
 You asked for it! This Rutilated Ripper is GIGANTIC!  Only a REAL hero can wield a weapon of THIS magnitude!  And the gem will coordinate with your outfit!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3731

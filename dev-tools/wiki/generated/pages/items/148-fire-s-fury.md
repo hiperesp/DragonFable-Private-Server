@@ -2,6 +2,8 @@
 
 This axe ignites the fiery hearts of hot blooded warriors in the heat of battle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 148

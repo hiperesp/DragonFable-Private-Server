@@ -2,6 +2,8 @@
 
 Grown specially by ancient yagas, the pumpkin slice dagger is all natural and organic!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10746

@@ -2,6 +2,8 @@
 
 A small, magical, drop of water.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7851

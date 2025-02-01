@@ -2,6 +2,8 @@
 
 It's very, very heavy and hard to balance. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21145

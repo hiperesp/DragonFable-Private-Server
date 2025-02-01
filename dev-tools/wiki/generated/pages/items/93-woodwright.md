@@ -2,6 +2,8 @@
 
 Wright weapon for the job!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 93

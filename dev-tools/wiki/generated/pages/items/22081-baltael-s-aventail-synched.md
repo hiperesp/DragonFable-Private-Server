@@ -2,6 +2,8 @@
 
 This helm once belonged to Baltael, the first SoulWeaver. The power it bestows shows you how to fully Synchronize with Aegis. Proof of victory over the Unwavering Determination challenge. Requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22081

@@ -2,6 +2,8 @@
 
 Empowered by magical incantations from the Light Realm!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4973

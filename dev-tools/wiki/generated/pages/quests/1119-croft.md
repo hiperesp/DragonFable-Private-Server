@@ -2,6 +2,8 @@
 
 ScaredCrow is in a very deep sleep.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

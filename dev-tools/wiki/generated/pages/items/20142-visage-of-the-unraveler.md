@@ -2,6 +2,8 @@
 
 The mothy stuff of nightmares. (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20142

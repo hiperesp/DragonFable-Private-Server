@@ -2,6 +2,8 @@
 
 The perfect accessory for causing chaos! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11982

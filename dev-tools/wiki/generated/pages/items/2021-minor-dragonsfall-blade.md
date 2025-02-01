@@ -2,6 +2,8 @@
 
 A sword carried by the lizardmen in the Dragonsfall Woods.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2021

@@ -2,6 +2,8 @@
 
 Visit the four elemental tribes in the area.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

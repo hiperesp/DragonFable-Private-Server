@@ -2,6 +2,8 @@
 
 This ring was carved from a floe of sea ice in the far north. Gives you +3 resist to Ice and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1395

@@ -2,6 +2,8 @@
 
 This is literally just a single DragonCoin. It was worth one DragonCoin, but as of right now, after inflation, it is priceless. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20902

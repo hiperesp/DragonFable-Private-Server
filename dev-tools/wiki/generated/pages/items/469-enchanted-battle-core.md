@@ -2,6 +2,8 @@
 
 This item came from an attempt to combine Dr. Voltabolt's rare Battle Core with arcane magics to improve its performance. It has special properties that the original Battle Core does not. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 469

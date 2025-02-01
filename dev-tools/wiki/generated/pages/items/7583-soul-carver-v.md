@@ -2,6 +2,8 @@
 
 This weapon has an obsidian blade with a magical sheen to the edge.  It's said to be so sharp that it can cut the soul away from a body without breaking the skin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7583

@@ -2,6 +2,8 @@
 
 Ancient ruins where a battle between light and darkness was once fought.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

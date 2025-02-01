@@ -2,6 +2,8 @@
 
 Looking far too stylish to be called a fool, you'll have the crowds in an uproar as you regale them with antics in this zany outfit!  Plus, your hat has bells! Everyone loves bells!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3662

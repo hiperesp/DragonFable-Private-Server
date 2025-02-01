@@ -2,6 +2,8 @@
 
 Wow! This jungle is massive! What secrets does it hold?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

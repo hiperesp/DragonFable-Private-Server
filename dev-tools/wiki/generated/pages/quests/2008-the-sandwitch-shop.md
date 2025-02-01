@@ -2,6 +2,8 @@
 
 In a surprisingly well-kept tomb, the scent of fresh bread, deli meats, and cheese wafts through the air.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

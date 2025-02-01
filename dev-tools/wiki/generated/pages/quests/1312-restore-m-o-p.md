@@ -2,6 +2,8 @@
 
 You need to find the M.O.P....where could they be though?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

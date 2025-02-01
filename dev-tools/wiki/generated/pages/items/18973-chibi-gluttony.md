@@ -2,6 +2,8 @@
 
 This small Gluttony is eyeing your bag hungrily... But surely it will behave itself. Right? Proof of victory over the Gluttony challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18973

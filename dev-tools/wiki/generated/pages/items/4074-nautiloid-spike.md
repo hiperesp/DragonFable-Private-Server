@@ -2,6 +2,8 @@
 
 The spike of the dangerous Nautiloid!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4074

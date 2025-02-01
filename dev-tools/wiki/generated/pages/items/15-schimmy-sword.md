@@ -2,6 +2,8 @@
 
 A curved blade from a far off land. This sword has done some traveling.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15

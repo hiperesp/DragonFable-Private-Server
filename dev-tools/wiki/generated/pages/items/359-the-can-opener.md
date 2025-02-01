@@ -2,6 +2,8 @@
 
 This dagger can open any can, err, suit of metal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 359

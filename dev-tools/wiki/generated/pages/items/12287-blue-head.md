@@ -2,6 +2,8 @@
 
 A mask in a shape of Blue's  head, one of Aspar's minions. He symbolized dedication. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12287

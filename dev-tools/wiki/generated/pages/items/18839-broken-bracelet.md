@@ -2,6 +2,8 @@
 
 A once pretty string of shells and other sundries, this bracelet has been crushed and worn down by the waves of the Pasgur Ocean.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18839

@@ -2,6 +2,8 @@
 
 You'll need to bring together old enemies to fight for your dragon!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

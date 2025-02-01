@@ -2,6 +2,8 @@
 
 With this staff, you can cast spells which will wither and rot away your enemies' lifeforce.  You might begin to feel pity for them, the poor things!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2502

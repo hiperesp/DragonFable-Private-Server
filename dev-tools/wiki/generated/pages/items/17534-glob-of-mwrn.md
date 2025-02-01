@@ -2,6 +2,8 @@
 
 A solid crystal yet still ethereal. This mass can be felt as frozen stiff, just as when the mind is paralyzed and crippled by one beholden to a terror.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17534

@@ -2,6 +2,8 @@
 
 This gilded wyvern was turned to gold by the sneevilchauns during Lucky 13! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9106

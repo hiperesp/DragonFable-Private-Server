@@ -2,6 +2,8 @@
 
 Saved from the misfit Plushies!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Take on the visage of the legendary Bloodfarer vampire sect. While mostly known for their ferocity, it is rumored that the Bloodfarers placed great pride on personal appearance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19937

@@ -2,6 +2,8 @@
 
 The flamestone at the base of this staff heats the arcane elements throughout the staff for a more focused fire attack.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 674

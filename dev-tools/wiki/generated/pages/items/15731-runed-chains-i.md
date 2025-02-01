@@ -2,6 +2,8 @@
 
 Giant steam powered anti-magic chains. That is so super metal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15731

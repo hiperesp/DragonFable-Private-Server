@@ -2,6 +2,8 @@
 
 This wizard staff was blessed by the druids and infused with the power of nature's might.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 381

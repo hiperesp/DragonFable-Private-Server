@@ -2,6 +2,8 @@
 
 This staff harnesses a portion of the power of the Quadforce! Wield it to banish evil and save Lore! Or something like that. It's not that picky. 5% chance on hit to recover MP = 3/4 of your level.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18677

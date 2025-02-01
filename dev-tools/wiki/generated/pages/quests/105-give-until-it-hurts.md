@@ -2,6 +2,8 @@
 
 Robina the Hood has asked you to take the gold stolen from the Darkwolf Bandits and place it on several monsters of the forest.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The dark path to the Blackwyn Tomb.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

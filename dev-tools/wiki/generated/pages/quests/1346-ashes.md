@@ -2,6 +2,8 @@
 
 The Darkness is determined to find out the secret of the hero? the secret of why you have defeated the odds time and time again. The more that Caitiff learns? the more its wrath grows!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

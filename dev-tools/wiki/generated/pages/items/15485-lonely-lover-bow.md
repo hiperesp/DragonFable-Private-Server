@@ -2,6 +2,8 @@
 
 They say this bow can shoot arrows of pure love that can make whoever is hit fall in love with the next thing they see. Unfortunately, no known arrows fit the bow, because love doesn't acutally work like that. But you can still use it to hit people!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15485

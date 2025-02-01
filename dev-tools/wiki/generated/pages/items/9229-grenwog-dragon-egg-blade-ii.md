@@ -2,6 +2,8 @@
 
 Crafted by the elvish weaponsmith Dracelix in honor of Grenwog '13, this weapon displays a very special egg!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9229

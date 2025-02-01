@@ -2,6 +2,8 @@
 
 magic-y
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9906252

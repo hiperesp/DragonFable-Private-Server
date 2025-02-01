@@ -2,6 +2,8 @@
 
 A chain of charged cogs. Well, surely you were wondering what Yix was planning to do with all those charged cogs, weren?t you? Admit it. Of course you were.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5504

@@ -2,6 +2,8 @@
 
 Guardian Trainer Eckhard has instructed you to visit Cysero, the Mad Weaponsmith, to completely repair your armor. Luckily, he's settled down in Falconreach with his new Superstore of Savings!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The door to the library is locked... maybe you can find a key or crank or something to open it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -3,6 +3,8 @@
 A mask full of darkness, hatred, and ambition!
 Happy Mogloween 2016!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16554

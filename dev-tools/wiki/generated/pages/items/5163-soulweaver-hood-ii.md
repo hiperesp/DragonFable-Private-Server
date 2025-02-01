@@ -2,6 +2,8 @@
 
 For only the most stylish of SoulWeavers!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5163

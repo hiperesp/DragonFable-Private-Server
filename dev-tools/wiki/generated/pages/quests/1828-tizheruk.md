@@ -2,6 +2,8 @@
 
 Another strange request takes you deep into the swamps. What will find you here?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

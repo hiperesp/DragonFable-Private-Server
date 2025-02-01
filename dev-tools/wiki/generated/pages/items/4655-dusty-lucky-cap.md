@@ -2,6 +2,8 @@
 
 This well worn cap looks like it's been through some crazy adventures! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4655

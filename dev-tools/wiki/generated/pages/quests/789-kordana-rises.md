@@ -2,6 +2,8 @@
 
 Sho'Nuff is in turmoil as drones from Kordana seek to eliminate everything in sight.... pirate or ninja!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

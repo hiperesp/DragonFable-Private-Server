@@ -2,6 +2,8 @@
 
 These scales are warm, still radiating the heat of the sun. Proof of victory over the Sunbathed Slither.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22273

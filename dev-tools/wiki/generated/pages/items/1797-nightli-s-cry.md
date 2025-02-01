@@ -2,6 +2,8 @@
 
 You can hear the siren's cry as the wind flows around this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1797

@@ -2,6 +2,8 @@
 
 A wyvern's wing has been magically hardened and placed upon this axe to make it a wily weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 152

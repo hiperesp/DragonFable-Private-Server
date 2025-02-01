@@ -2,6 +2,8 @@
 
 A machinist named Jules cobbled this together.  It's powered by steam and awesome. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4289

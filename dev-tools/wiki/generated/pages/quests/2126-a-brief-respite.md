@@ -2,6 +2,8 @@
 
 With the war finished and sun high, it's time to rest and listen to the story of the Ateala.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

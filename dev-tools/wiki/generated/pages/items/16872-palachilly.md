@@ -2,6 +2,8 @@
 
 A dashing moglin paladin knight! Here to save the day, anyone who needs saving, and their toys too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16872

@@ -2,6 +2,8 @@
 
 Using a dragon's fang, a massive boulder has been worn down and shaped into a crescent. Still massive, though. Proof of victory over Gorgok, the Relentless and The Guardian Dragon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21625

@@ -2,6 +2,8 @@
 
 Com-bO's: This nutrient rich dragon food will power up your dragon. This dragon food gives TEN training points.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15360

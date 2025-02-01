@@ -2,6 +2,8 @@
 
 Spoils from some ancient battle, this ruby has lain in the darkness for 600 years. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14058

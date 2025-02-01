@@ -2,6 +2,8 @@
 
 Turn in your ingredients!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

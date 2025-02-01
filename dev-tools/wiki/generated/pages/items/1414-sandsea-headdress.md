@@ -2,6 +2,8 @@
 
 This intricately tied scarf is used by the natives to protect themselves from the harsh winds and blowing sands of the arid desert. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1414

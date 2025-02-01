@@ -2,6 +2,8 @@
 
 Notha and Myalos brought their expertise of ancient technology upon the Abysscutter Dagger, forging a weapon to be feared by any would-be deities. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20964

@@ -2,6 +2,8 @@
 
 This dropped off of Rolith when you defeated him during Togmas, 2011. He must have been out clearing out dangerous monsters before you even arrived!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6383

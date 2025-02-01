@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Mana-Infused Roirr to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

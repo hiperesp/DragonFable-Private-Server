@@ -2,6 +2,8 @@
 
 This be th' perfect weapon to be fightin' off ninja's with! This weapon be requirin' a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10474

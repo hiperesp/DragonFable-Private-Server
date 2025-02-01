@@ -3,6 +3,8 @@
 This small bottle of Doom essence seems to contain a reddish black tangled ball of... something... that seems to flit and flutter in and out of its space.
 Used to upgrade Doom weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20378

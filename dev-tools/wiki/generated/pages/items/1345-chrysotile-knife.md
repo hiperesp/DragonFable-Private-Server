@@ -2,6 +2,8 @@
 
 A token of your victory over the Braken titan, this dagger will let you strike with all the force wielded by the waves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1345

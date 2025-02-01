@@ -2,6 +2,8 @@
 
 As with the helm, True Mortal sent the early prototype of this cape to a friend for testing. When it was returned, it had been corrupted by darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5813

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is a worn but sturdy helm worn by warriors, mages and rogues alike.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 739

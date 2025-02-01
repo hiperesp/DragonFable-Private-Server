@@ -2,6 +2,8 @@
 
 This elegant sword is preferred by princes all across the land.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 343

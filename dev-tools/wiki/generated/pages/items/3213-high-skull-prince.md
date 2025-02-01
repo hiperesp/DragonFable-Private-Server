@@ -2,6 +2,8 @@
 
 The Skull Prince hides in the shadows, waiting for his chance to dethrone the Skull King.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3213

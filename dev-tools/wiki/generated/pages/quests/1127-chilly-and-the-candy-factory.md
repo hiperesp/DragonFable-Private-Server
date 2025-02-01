@@ -2,6 +2,8 @@
 
 Why are pink moglinsters blue moglins? Did they eat too much bubble gum? More importantly, can you clear a path through the out of control candy factory?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

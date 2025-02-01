@@ -2,6 +2,8 @@
 
 These artifacts are the remains of a magnificent civilization swallowed up by a The Sandsea. In the future, you will be able to exchange these with Zhoom to learn Ranger skills.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1419

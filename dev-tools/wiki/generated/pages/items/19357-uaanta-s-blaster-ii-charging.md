@@ -2,6 +2,8 @@
 
 Uaanta gifted this emergency back-up wand to you. With the attachment of a Capacitor Gem, it's starting to charge, but it feels like there are some pieces missing still. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19357

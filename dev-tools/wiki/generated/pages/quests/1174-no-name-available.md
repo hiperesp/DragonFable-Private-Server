@@ -2,6 +2,8 @@
 
 <no description available>
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

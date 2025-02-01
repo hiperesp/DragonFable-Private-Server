@@ -2,6 +2,8 @@
 
 Aquella is just as confused as you are. Perhaps an unlucky fish got caught up in a corruption accident? Or an even unluckier elf met a far worse fate? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21383

@@ -2,6 +2,8 @@
 
 Despite this mask's cute appearance, everyone seems to be terrified of it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19993

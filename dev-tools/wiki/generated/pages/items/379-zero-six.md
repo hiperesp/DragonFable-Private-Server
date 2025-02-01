@@ -2,6 +2,8 @@
 
 The origins of this knife are unknown, but it is part of a set of ten daggers of high quality and deadly power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 379

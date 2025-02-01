@@ -2,6 +2,8 @@
 
 The Ateala rarely sing of an ever shifting constellation lost to space and time, but there are always those adventurous souls who seek the legend...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

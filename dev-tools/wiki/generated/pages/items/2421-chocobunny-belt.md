@@ -2,6 +2,8 @@
 
 This chocolate belt goes straight to your hips. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2421

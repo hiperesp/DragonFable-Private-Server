@@ -2,6 +2,8 @@
 
 As Warlic and Amadeus try to warn Queen Victoria of the impending danger, Jaania takes the next step in her journey to save Lore...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

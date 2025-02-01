@@ -2,6 +2,8 @@
 
 This sword was crafted in honor of your harvest-time victory against the forces of the Doomwood necromancers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 513

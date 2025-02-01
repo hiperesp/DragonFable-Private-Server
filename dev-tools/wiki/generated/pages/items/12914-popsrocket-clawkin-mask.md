@@ -2,6 +2,8 @@
 
 No one calls you Vermin or Rodent and gets away with it! Happy Mogloween 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12914

@@ -2,6 +2,8 @@
 
 A short, lithe blade with the power of a red wind running through it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5333

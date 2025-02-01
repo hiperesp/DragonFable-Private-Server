@@ -2,6 +2,8 @@
 
 The shed shell of a baby mimic. Looks like an adorable tiny chest. Nothing's inside, but someone may be willing to buy it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18150

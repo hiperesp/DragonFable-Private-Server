@@ -2,6 +2,8 @@
 
 This is what Poseidon uses when his trident is being cleaned! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2493

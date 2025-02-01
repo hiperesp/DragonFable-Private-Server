@@ -2,6 +2,8 @@
 
 You managed to beat Death.  Now almost nothing is certain! Although his scythe is cursed, it has a small chance to damage your enemies. Not a very effective theft deterrent on Death's part.   This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2301

@@ -2,6 +2,8 @@
 
 The next generation of Chickencow Lords... Ascends! This is best used if you are over level 40! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13670

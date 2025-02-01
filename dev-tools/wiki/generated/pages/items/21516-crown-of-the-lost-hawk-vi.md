@@ -2,6 +2,8 @@
 
 This relic has been in the treasury of Swordhaven for centuries. Said to have been brought to Greenguard from beyond Kaer Sierra, Queen Victoria has entrusted it to you on your journey to its land of origin. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21516

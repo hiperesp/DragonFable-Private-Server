@@ -2,6 +2,8 @@
 
 With the support of The Great One secured, will the DragonLords honor their promise for aid?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

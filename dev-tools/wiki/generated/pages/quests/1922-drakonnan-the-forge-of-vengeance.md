@@ -2,6 +2,8 @@
 
 Failure and retribution.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

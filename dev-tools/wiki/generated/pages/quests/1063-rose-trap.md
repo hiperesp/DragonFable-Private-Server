@@ -2,6 +2,8 @@
 
 Stop the Manahunter from reaching the huts in the Freedom Camp!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Jolly Roger won't be half as jolly when he finds out you have this...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 972

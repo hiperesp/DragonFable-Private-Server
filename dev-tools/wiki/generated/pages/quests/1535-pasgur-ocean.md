@@ -2,6 +2,8 @@
 
 The Pasgur Ocean
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

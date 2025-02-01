@@ -2,6 +2,8 @@
 
 Can you find all five lost pets for Grams?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Seems like someone's out to get you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This weapon is made of solid water. Hold it up to your ear and you can hear the ocean.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 173

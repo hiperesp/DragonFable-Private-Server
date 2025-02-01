@@ -2,6 +2,8 @@
 
 You found this blade in the cavern with the Ember. It holds within it the same power that now blazes within your dragon. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11959

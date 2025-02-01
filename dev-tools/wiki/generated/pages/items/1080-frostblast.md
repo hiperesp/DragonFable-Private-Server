@@ -2,6 +2,8 @@
 
 This icy rod has a core of magical ice, wrapped in a sheath of magical ice covered by a hard external shell of magical ice. Guess what type of magical damage it does....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1080

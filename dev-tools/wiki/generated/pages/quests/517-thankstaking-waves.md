@@ -2,6 +2,8 @@
 
 What is Zorbak up to now?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

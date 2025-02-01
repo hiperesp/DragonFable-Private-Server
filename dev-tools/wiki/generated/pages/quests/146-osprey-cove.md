@@ -2,6 +2,8 @@
 
 A pirates home away from home.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

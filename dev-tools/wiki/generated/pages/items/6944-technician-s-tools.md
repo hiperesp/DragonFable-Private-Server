@@ -2,6 +2,8 @@
 
 Full of delicate tools used for intricate machine work. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6944

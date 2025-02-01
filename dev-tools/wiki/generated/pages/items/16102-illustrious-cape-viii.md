@@ -2,6 +2,8 @@
 
 A distinguished cape for a victor in the arena. It would stand out more, but every other vendor is selling a souvenir replica.This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16102

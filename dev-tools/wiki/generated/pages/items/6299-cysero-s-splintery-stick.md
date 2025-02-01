@@ -2,6 +2,8 @@
 
 This gnarled staff is topped by a magical orb. Go ahead and look in there. I dare you. Go on.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6299

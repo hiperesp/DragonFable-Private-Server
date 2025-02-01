@@ -2,6 +2,8 @@
 
 Ride your dragon into battle and bomb the elemental front.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

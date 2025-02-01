@@ -2,6 +2,8 @@
 
 The Cauldron Sisters have sent you to find their missing candy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

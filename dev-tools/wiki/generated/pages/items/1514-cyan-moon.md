@@ -2,6 +2,8 @@
 
 For some reason the blue glow of this moon makes you hungry. It's magically suspicious!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1514

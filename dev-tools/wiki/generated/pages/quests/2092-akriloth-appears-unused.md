@@ -2,6 +2,8 @@
 
 The legendary protector of the volcanic island of Maar, Akriloth! With him are his attendants, DragonLords of a time past...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

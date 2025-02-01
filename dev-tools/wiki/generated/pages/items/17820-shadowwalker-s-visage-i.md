@@ -2,6 +2,8 @@
 
 The wild and entrancing visage of the ShadowWalker!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17820

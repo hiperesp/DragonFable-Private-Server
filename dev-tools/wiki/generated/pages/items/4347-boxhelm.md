@@ -2,6 +2,8 @@
 
 The latest in Sneevil head protection technology (it no work so gud)!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4347

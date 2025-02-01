@@ -2,6 +2,8 @@
 
 The fallout of fungal growth spreading from the Northlands rift has displaced many creatures and peoples, and unfortunately, they will fight for every scrap they can find.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

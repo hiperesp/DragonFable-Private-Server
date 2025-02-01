@@ -2,6 +2,8 @@
 
 Keep your gold and other valuables safe with Lock-o-way!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3050

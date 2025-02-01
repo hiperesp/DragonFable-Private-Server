@@ -2,6 +2,8 @@
 
 It's a quick job. In and out. Get the fish bowl and leave. But what are all these people doing here?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

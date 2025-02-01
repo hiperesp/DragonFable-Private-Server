@@ -2,6 +2,8 @@
 
 Inspired by the Baron! This weapon will be especially distracting to your enemies! Happy Lucky Day 2012!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6714

@@ -2,6 +2,8 @@
 
 If you need gas, gas-e is the gas for you! You can upgrade this item at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11868

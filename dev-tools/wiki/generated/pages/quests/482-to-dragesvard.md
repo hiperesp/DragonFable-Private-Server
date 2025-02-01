@@ -2,6 +2,8 @@
 
 Brrr! Snow where to go but into the cold!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Wipe clean, create, and wipe clean again.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

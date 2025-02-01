@@ -2,6 +2,8 @@
 
 A legendary blade from a far-off time. The handle squirms and shifts in your grasp. Has a color custom glow!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18861

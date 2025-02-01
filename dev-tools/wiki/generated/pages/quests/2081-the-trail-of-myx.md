@@ -2,6 +2,8 @@
 
 You managed to fight though the undead horde and catch up with Myx!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

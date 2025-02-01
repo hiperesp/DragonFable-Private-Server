@@ -2,6 +2,8 @@
 
 A demonic energy reverberates through the skull.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18246

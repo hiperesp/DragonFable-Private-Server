@@ -2,6 +2,8 @@
 
 This is, somehow, a piece of living shadow.... It pulses and writhes as you hold it, trying to get back Jaysun's bank of fog. Maybe if you gather enough of these, Ash will be able to forge... something.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14975

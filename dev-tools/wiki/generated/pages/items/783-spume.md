@@ -2,6 +2,8 @@
 
 This pet requires a Dragon Amulet. This frothy little critter is only found in  the deepest, dankest water caves near Oaklore.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 783

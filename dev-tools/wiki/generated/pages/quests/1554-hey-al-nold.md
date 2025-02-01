@@ -2,6 +2,8 @@
 
 While Bubble interrogates Akaz and M, someone else is messing with Verlyrus.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

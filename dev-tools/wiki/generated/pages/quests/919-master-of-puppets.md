@@ -2,6 +2,8 @@
 
 Wargoth has enslaved Xan himself! Will you be able to pull him out of his fortress for The Professor?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

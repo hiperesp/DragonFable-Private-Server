@@ -2,6 +2,8 @@
 
 A bag of... magical mud!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7869

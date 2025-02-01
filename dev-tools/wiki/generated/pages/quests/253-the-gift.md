@@ -2,6 +2,8 @@
 
 Mae Pi wants you to leave a gift in the Ninja Inn.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

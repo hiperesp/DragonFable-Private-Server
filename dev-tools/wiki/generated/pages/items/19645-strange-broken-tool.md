@@ -2,6 +2,8 @@
 
 This strange broken tool was left behind by Doctor When. Maybe there's some way to repair it. Proof of victory over Doctor When.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19645

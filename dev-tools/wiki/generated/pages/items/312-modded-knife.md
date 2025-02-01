@@ -2,6 +2,8 @@
 
 This knife has been repaired many times over, and has been made stronger each time.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 312

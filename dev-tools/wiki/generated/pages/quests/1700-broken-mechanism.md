@@ -2,6 +2,8 @@
 
 The mechanism needs to be fixed in order to proceed!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

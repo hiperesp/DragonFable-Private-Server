@@ -2,6 +2,8 @@
 
 You and Sirius are on your way to the Phobeist's vessel, with one clear goal: rescue Kassandra, Sirius' sister.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

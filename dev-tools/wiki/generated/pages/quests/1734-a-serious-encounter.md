@@ -2,6 +2,8 @@
 
 Help this person in need take on these waves of Feargeists to find out why they are after him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

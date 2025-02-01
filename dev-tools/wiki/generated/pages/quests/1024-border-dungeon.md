@@ -2,6 +2,8 @@
 
 Make your way through the depths of one of the border prisons to try to take out some of the Rose and rescue some wind elves.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

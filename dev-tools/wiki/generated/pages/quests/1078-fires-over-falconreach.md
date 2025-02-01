@@ -2,6 +2,8 @@
 
 Undead are attacking! Grab your dragon and defend Falconreach from the sky!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

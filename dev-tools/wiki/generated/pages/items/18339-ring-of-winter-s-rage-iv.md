@@ -2,6 +2,8 @@
 
 This cold, blue ring has a pattern of snowflakes engraved around the band. A gift from Aisha, the queen of ice dragons, wearing this ring fills you with her wrath. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18339

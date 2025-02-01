@@ -2,6 +2,8 @@
 
 Dragons and Ice! Very Nice!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

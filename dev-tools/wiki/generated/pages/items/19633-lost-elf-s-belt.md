@@ -2,6 +2,8 @@
 
 This belt looks to be handmade, with indecipherable writing stitched all across it. This must have been a very personal item. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19633

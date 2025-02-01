@@ -2,6 +2,8 @@
 
 A Summon Gem Illumina, placed into its setting. It doesn't seem to be able to activate, though. Maybe it's missing something? Proof of victory over Illumina!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19754

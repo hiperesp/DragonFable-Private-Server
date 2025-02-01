@@ -2,6 +2,8 @@
 
 Wargoth has begun his final attack and he is after The Professor and the world!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Delicately engraved with runes and symbols to the wild, it tells of a ritual; To summon the Ostara upon Ostveld, and bring spring upon the ever-looming darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20861

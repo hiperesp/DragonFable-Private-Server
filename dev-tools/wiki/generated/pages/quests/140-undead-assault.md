@@ -2,6 +2,8 @@
 
 Artix has sent you to patrol a local graveyard. Something is causing the undead to overflow onto the road and attack travelers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

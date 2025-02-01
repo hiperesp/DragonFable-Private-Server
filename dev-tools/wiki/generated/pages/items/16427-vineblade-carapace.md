@@ -2,6 +2,8 @@
 
 The magic of Apsaydaaun has mutated this pumpkin plant into a mass of twisted vine and compressed pumpkin. It's lighter than it looks, and... wait, did it just move? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16427

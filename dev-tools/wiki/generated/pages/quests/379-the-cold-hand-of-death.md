@@ -2,6 +2,8 @@
 
 Fighting Death one on one wasn't enough for you? Well then, prepare yourself for another round of Reaper vs. Hero!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

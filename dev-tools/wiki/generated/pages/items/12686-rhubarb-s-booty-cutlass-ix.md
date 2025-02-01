@@ -2,6 +2,8 @@
 
 Excellent work helping Rhubarb collect more booty! This be yer reward, a cutlass from Rhubarb's secret stash o' loot! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12686

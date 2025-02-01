@@ -2,6 +2,8 @@
 
 You have a prescription to bring pain to your foes in battle! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6980

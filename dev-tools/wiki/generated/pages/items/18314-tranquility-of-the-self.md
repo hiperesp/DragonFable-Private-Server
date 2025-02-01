@@ -2,6 +2,8 @@
 
 A small transparent orb, swirling with light and color. Proof of victory over the Dream Dominion Challenge. Used to upgrade the Tentacle of Dominion and the Leaf of Flux.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18314

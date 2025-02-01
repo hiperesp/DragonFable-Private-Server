@@ -2,6 +2,8 @@
 
 There aren't any bees around, right?  Right?! Toil's Bits O' Wax from Mogloween 2009!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3016

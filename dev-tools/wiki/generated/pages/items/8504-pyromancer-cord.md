@@ -2,6 +2,8 @@
 
 A belt of woven cloth of flame... it burns in your hand.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8504

@@ -2,6 +2,8 @@
 
 This sword is the standard issue weapon for an officer of the Elven Army.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11

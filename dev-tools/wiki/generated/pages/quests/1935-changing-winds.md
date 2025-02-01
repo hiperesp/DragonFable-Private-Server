@@ -2,6 +2,8 @@
 
 With the imminent threat of a Rose invasion in retaliation for the failed peace parley, Kara is distraught over the next steps to take for Sulen'Eska and her people.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

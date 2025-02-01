@@ -2,6 +2,8 @@
 
 These daggers were left behind after a nasty break-up. I don't think the couple forgave each other.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13584

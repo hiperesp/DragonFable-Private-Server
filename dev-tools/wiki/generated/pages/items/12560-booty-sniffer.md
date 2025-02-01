@@ -2,6 +2,8 @@
 
 Summon the LSS Booty Sniffer to wash away your foes and leave behind bonus gold! Arr! This trinket be water damage 'n honor o' th' Red Betty!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12560

@@ -2,6 +2,8 @@
 
 This axe's engraved runes are said to glow near particularly magical sites. The runes don't seem to ever stop glowing. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22199

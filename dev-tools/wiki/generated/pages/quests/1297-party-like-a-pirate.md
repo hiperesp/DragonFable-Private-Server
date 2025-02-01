@@ -2,6 +2,8 @@
 
 Mazurek and her crew are going back aboard the Autumn Wind after their leisure time... but something feels off.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

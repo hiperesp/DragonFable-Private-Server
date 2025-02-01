@@ -2,6 +2,8 @@
 
 Oh, by the Avatars... the smell is terrible! They'll keep you warm at least... but ugh!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6326

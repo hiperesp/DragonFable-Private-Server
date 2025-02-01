@@ -2,6 +2,8 @@
 
 The shattered dust of the Doom Amulet that Caitiff used to bind your dragon. Even destroyed, it radiates pure evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16934

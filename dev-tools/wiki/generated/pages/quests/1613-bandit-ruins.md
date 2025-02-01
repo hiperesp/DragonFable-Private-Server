@@ -2,6 +2,8 @@
 
 Search the ruins of the labyrinth for bandit leader bounties!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A braided length of supple tree bark, the necklace brings you comfort in the darkness of the thickest wood.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6629

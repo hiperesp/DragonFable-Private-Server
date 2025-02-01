@@ -2,6 +2,8 @@
 
 Holly and Tinsel are looking around in Snowpeak Woods... What for?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

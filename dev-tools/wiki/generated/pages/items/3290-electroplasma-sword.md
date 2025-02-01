@@ -2,6 +2,8 @@
 
 When you hold this blade, your hair stands on end.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3290

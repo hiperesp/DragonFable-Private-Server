@@ -2,6 +2,8 @@
 
 A gorgeous weapon to celebrate the defeat of EbilCorp! Good will always defeat Ebil!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7561

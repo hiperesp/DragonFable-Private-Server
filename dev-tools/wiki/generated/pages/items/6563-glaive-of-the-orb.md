@@ -3,6 +3,8 @@
 This glaive was crafted from shards of the Key Orb that True Mortal carried in honor of his birthday.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6563

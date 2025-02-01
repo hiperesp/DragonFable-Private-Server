@@ -2,6 +2,8 @@
 
 It's time to find Myalos... and get some answers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

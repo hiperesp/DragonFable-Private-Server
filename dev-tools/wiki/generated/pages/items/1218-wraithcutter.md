@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 16 or higher to create. This sword design is said to be the perfect blade for fighting ghosts and spirits. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1218

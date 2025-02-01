@@ -2,6 +2,8 @@
 
 This glittering gearbox shines with the power of justice, or at least, a close approximation of justice. Proof of victory over Sparkle Boy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22118

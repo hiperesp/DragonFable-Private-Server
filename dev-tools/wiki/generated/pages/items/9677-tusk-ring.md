@@ -2,6 +2,8 @@
 
 It looks like a miniature tusk!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9677

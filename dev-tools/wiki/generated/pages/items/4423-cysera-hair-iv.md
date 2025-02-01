@@ -2,6 +2,8 @@
 
 Have you ever admired Cysero's stylishly unstyled hairstyle?  Well, now YOU too can present a tousled look to the world!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4423

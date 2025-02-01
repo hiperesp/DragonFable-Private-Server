@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Ripped from a giant scorpion, this weapon has venom potent enough to put down any adversary!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3069

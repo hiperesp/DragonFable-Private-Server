@@ -2,6 +2,8 @@
 
 This staff is as deadly as it is refreshing on a hot summer day. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1633

@@ -2,6 +2,8 @@
 
 These daggers will wound your enemies with blades sharp as the edges of the uncut gemstones they resemble.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1339

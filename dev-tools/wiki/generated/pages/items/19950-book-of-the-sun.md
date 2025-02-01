@@ -2,6 +2,8 @@
 
 This lengthy and highly edited Book of the Dhark is largely uninteresting fables and commentary by Braytes. Proof of victory over Braytes San.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19950

@@ -2,6 +2,8 @@
 
 A dark weapon. It makes you feel odd just holding it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800468

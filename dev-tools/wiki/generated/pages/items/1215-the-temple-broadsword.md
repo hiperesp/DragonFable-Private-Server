@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 14 or higher to create.This sword design was originally taught to Yulgar by monks from the Temple of the Four Winds. It's design inspires fear and focuses strength.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1215

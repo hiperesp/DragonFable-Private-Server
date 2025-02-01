@@ -2,6 +2,8 @@
 
 This claw looks GREAT with some polishing and a coat of gold. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3595

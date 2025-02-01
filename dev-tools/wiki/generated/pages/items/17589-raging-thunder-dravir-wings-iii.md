@@ -2,6 +2,8 @@
 
 The wings of the Raging Thunder dravir sky pirates! They won't let you fly or raid the skies, but they look quite spiffy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17589

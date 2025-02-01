@@ -2,6 +2,8 @@
 
 By the Avatars! It's the guitar that belongs to Brittle Spears lead guitarist Pike Shins! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22132

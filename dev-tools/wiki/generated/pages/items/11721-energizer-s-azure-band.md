@@ -2,6 +2,8 @@
 
 Carved from a pure blue stone, this is a focus for an Energizer's magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11721

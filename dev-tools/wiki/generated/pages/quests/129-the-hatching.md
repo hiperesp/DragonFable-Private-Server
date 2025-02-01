@@ -2,6 +2,8 @@
 
 Twilly has told you that the time has come for your dragon egg to hatch!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Tomix is a SoulWeaver with a mission.  He needs to find Greed and destroy him.  Can you search the town of Ravenloss with him and help him right the wrong he committed long ago?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

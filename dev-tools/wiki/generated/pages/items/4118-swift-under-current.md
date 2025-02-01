@@ -2,6 +2,8 @@
 
 You can take your enemies down with this blade, without them even realizing it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4118

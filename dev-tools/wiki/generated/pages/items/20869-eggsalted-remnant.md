@@ -2,6 +2,8 @@
 
 A shard of power from a (hopefully forever) lost reality. Focusing your will into it summons... well, you'll see.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20869

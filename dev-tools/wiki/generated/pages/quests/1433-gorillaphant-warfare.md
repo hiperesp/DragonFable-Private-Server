@@ -2,6 +2,8 @@
 
 Determined foes pull out all the tricks! Watch out for the Rose Agent and his Gorillaphant tactics!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This blade is so cold it is covered in white frost, which is much more painful that white-hot metal under the right conditions.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2374

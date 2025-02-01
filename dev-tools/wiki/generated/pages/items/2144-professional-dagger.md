@@ -2,6 +2,8 @@
 
 It became available to you after reaching the rank of Professional at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2144

@@ -2,6 +2,8 @@
 
 A busted hammer once used by the Pactogonal knight, Rolith! Proof of victory over Rolith.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21220

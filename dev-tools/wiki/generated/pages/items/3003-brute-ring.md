@@ -2,6 +2,8 @@
 
 This ring will PUMP you UP!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3003

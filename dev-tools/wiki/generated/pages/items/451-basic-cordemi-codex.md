@@ -3,6 +3,8 @@
 CLICK ON THIS strange CorDemi item while holding it to change its shape to best suit you.
 This is the most basic version of the otherworldly weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 451

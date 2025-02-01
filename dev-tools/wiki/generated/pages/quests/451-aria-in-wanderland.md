@@ -2,6 +2,8 @@
 
 Head down the tog tunnel to find Aria!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

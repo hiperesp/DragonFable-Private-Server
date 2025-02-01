@@ -2,6 +2,8 @@
 
 This hammer follows the basic styling of the Abyssal Silver hammer but instead is forged from meteor iron, and imbued with the powers of darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5806

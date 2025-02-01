@@ -2,6 +2,8 @@
 
 This axe's blade has been designed to make different whistling tones and pitches as it whirls through the air, creating a singing effect.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 135

@@ -2,6 +2,8 @@
 
 A large tooth whittled down to be a nice ring. You can still feel the knife marks pressed into it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14480

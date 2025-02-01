@@ -2,6 +2,8 @@
 
 Use the Crystoidator v.4 to analyze void monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

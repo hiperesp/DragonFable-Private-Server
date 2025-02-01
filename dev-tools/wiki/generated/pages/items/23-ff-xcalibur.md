@@ -2,6 +2,8 @@
 
 This weapon wields like a dream come to life.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 23

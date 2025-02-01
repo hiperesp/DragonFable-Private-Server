@@ -2,6 +2,8 @@
 
 One blade of this silver axe was forged in the day and the other, in the night. Part of its power comes from its unusual construction.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 666

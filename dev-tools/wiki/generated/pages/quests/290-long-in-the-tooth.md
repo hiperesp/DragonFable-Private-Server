@@ -2,6 +2,8 @@
 
 Galanoth has asked you to meet his Tusker contact near the bottom of the Dragesvard iceberg.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

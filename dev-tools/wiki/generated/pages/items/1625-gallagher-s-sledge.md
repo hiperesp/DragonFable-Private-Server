@@ -2,6 +2,8 @@
 
 Nothing like finishing the show by crushing your foes with a giant watermelon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1625

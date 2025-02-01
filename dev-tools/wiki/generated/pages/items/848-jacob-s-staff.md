@@ -2,6 +2,8 @@
 
 Survey your route through enemy camps using this stone staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 848

@@ -2,6 +2,8 @@
 
 Wherever do these chains lead? Well, wherever they go, it's probably fine. (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20135

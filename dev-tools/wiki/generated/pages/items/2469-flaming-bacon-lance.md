@@ -2,6 +2,8 @@
 
 Not only can you skewer opponents with this weapon, but you can roast your breakfast at the same time! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2469

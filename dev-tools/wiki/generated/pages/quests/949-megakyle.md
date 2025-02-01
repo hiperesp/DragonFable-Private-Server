@@ -2,6 +2,8 @@
 
 The megalomaniac Megakyle is a bane upon Falconreach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

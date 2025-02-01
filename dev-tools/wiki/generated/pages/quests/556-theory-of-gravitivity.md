@@ -2,6 +2,8 @@
 
 What goes up...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

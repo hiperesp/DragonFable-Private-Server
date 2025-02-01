@@ -2,6 +2,8 @@
 
 Deep within the swamp lies an almost depleted mine of Fadestone, a mysterious dark material. Weapons crafted from Fadestone are light and sharp, but fragile.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18128

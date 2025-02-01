@@ -2,6 +2,8 @@
 
 Proof of victory over the Challenger Gauntlet! Attaining this victory was your destiny... wasn't it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19205

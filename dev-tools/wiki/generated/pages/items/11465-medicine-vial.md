@@ -2,6 +2,8 @@
 
 Filled with a secret hunter remedy, it's both fiery and icy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11465

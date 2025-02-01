@@ -2,6 +2,8 @@
 
 A tiny trap hides behind the row of teeth on this necklace. Watch your fingers!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9672

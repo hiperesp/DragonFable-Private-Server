@@ -2,6 +2,8 @@
 
 A delicious swordfish! Slap your enemies in the face with fish! Happy Frostval, 2015! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15302

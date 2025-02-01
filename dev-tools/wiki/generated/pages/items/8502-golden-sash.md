@@ -2,6 +2,8 @@
 
 A sash of golden cloth, it looks like it was torn from a banner.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8502

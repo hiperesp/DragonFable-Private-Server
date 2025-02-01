@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. A never-ending fountain of sparkling grape juice forms the handle to this enchanted staff... Now, how do you drink it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2127

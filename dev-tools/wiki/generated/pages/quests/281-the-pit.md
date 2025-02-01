@@ -2,6 +2,8 @@
 
 Can you make it to the end? ... Is there an end?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

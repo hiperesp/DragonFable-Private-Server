@@ -2,6 +2,8 @@
 
 The ultimate villain has been summoned!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

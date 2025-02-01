@@ -2,6 +2,8 @@
 
 The storm approaches as plans unfold...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

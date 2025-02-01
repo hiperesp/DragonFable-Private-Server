@@ -2,6 +2,8 @@
 
 The heat from these daggers will set your opponent ablaze.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 845

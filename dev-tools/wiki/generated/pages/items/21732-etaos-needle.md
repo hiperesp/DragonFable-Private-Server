@@ -2,6 +2,8 @@
 
 Formed and shaped by mental power, these precise blades somehow hold their shape. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21732

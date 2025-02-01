@@ -2,6 +2,8 @@
 
 You and Zhoom are on your way to stop Sek-Duat XV from his evil plans.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

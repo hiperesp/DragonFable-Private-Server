@@ -2,6 +2,8 @@
 
 This sticky residue glows warmly when held. Perhaps it will interact with certain Summon Gems. Proof of victory over Roktoru and Ricterild!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19599

@@ -2,6 +2,8 @@
 
 This ancient scythe was restored by the Frost Moglins and gifted to you as thanks for saving their village once again. This weapon was originally forged by Dracelix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19361

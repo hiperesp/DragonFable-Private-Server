@@ -2,6 +2,8 @@
 
 This mage staff was made for Cyanda, in honor of being one of the first 2 mages to acquire the SkullStaff of Doom! It glows faintly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 208

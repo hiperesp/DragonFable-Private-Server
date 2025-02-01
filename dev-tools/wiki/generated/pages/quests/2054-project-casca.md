@@ -2,6 +2,8 @@
 
 It seems the Magesters have come to a decision.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

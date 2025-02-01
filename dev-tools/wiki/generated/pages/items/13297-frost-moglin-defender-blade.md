@@ -2,6 +2,8 @@
 
 Defender of the Frost Moglins! Your good deeds and kind heart have made everyone in Frostvale Village proud to call you friend!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13297

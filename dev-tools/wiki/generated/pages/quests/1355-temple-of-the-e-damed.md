@@ -2,6 +2,8 @@
 
 Help San Robin by finding the ancient power-source he needs!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

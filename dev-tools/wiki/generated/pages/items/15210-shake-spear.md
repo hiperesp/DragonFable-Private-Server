@@ -4,6 +4,8 @@ That was a really good costume he wore.
 Turns out he's actually a skeleton.
 Maybe he'll write a play about your quests!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15210

@@ -2,6 +2,8 @@
 
 This catalyst is an emerald gem cast in gold. It feels wet to the touch and exudes a ghastly aura. This Customization Catalyst unlocks the Sunken customization for Pirate.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21531

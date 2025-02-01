@@ -2,6 +2,8 @@
 
 The staff of the ancient hero of Swordhaven.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15552

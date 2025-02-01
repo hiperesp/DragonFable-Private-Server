@@ -2,6 +2,8 @@
 
 Take a slice out of your opponents wearing this Mogloween 2011 mask.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6045

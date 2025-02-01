@@ -2,6 +2,8 @@
 
 Aquella mentions that there are stories of rare Abyssal Tribe warriors who could transform their bodies to fit different situations. Perhaps Kathool's corruption unlocked some long forgotten trait of these lost souls. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21380

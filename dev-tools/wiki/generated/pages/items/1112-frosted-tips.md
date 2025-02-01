@@ -2,6 +2,8 @@
 
 No, this has nothing to do with your hair...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1112

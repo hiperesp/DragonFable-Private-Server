@@ -2,6 +2,8 @@
 
 Turned into gold by the sneevilchauns during Lucky 13 these phoenix wings are still incredibly light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8946

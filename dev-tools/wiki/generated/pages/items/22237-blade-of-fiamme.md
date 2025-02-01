@@ -2,6 +2,8 @@
 
 May your strikes be guided by the Avatar of Fire! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22237

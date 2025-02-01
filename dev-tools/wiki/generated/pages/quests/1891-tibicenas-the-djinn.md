@@ -2,6 +2,8 @@
 
 Rage and fury, obedience and betrayal.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

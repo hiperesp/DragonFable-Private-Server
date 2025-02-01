@@ -2,6 +2,8 @@
 
 This dynamic duo of dragons is turning Willowshire into even more of a ruin! It's up to you to stop them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

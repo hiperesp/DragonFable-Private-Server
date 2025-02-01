@@ -2,6 +2,8 @@
 
 The belt from a supposed rogue restoration shaman... 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2441

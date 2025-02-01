@@ -2,6 +2,8 @@
 
 This rugged mailbag lets you deliver letters in style! Perfect for the errand-running hero! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21097

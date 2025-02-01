@@ -2,6 +2,8 @@
 
 Proof of your conquering of the A.A.R.G.H. system! For bragging purposes! The number of Timewarped Trophies you have is displayed in your badges.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20121

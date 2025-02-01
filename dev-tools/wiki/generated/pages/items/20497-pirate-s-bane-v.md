@@ -2,6 +2,8 @@
 
 An ancient staff wielded by a pirate king of old, the weapon's shape grew more twisted and warped the more treasure he hoarded, 'til the day it all vanished along with him... If you have sufficient wealth, clicking on it will change its form!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20497

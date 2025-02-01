@@ -2,6 +2,8 @@
 
 Show your wilderness side with this furry cap! Happy Canada Day!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12169

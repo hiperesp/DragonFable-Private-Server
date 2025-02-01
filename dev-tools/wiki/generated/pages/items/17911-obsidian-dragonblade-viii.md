@@ -2,6 +2,8 @@
 
 A DragonBlade forged from blackest diamond from another world. Does bonus damage against dragons and reptilians.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17911

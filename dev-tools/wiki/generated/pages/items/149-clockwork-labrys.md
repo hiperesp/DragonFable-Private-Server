@@ -2,6 +2,8 @@
 
 Some say a muse inspired a clockmaker to craft this axe, others say, it was a madman. Either way, this is a winsome weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 149

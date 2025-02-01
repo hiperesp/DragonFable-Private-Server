@@ -2,6 +2,8 @@
 
 This belt was created by innumerable tiny red folded pieces of paper. Somehow, it manages to not fall apart even in extreme conditions. Proof of victory over the Covetous Fortune challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21864

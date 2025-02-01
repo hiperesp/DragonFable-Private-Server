@@ -2,6 +2,8 @@
 
 This staff's tip is made of molten fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 301

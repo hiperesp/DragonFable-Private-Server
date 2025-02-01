@@ -2,6 +2,8 @@
 
 An ancient blade with a pension for slaying the even more ancient undead! Ironically, it was also formerly used for the great undead picket line. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1537

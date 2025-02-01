@@ -2,6 +2,8 @@
 
 Made up of links painted the color of the deadly yet hypnotic V'rapsik serpent, this band lends the wearer charm and endurance!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4658

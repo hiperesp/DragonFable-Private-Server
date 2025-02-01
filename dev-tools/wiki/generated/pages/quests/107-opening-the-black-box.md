@@ -2,6 +2,8 @@
 
 You have done everything that Robina the Hood has asked and now it is time to receive your reward... THE BLACK DRAGON BOX!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

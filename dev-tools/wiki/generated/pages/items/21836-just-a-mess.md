@@ -2,6 +2,8 @@
 
 Sure, just mix random alien remains together, what's the worst that could happen? Proof of victory over the Star-Eating Serpent and the Protus Symbiote.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21836

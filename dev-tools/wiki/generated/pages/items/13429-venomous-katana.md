@@ -2,6 +2,8 @@
 
 This blade may appear delicate but it has been forged by a master sword smith. It will hold its edge even after 10,000 strikes. A thin layer of deadly Scorpiarc venom makes sure it finishes any foe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13429

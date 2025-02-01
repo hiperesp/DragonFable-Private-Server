@@ -2,6 +2,8 @@
 
 A necklace made of tiny glass orbs... they look very familiar....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7062

@@ -2,6 +2,8 @@
 
 An elegant living weapon summoned through ritual. Be sure to tend to it well, or it may turn on you! This weapon was forged by Dracelix! This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18827

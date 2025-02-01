@@ -2,6 +2,8 @@
 
 An ancient, broken lance once wielded by a long forgotten hero. Perhaps it could be repaired with the right resources. Proof of victory over the Willowshire Burns challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21624

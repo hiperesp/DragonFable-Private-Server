@@ -2,6 +2,8 @@
 
 Left behind when that wicked witch melted! Happy FrostVayle! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8096

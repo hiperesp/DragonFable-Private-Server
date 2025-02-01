@@ -2,6 +2,8 @@
 
 This blade is made only to be used by a pirate! Let no one else touch it, especially not any ninja!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13777

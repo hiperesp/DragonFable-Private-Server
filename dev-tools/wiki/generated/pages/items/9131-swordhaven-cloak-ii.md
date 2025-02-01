@@ -2,6 +2,8 @@
 
 This dusty cloak was used by a Swordhaven Knight who  perhaps met an unfortunate end.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9131

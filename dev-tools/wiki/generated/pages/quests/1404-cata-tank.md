@@ -2,6 +2,8 @@
 
 Push the invading forces with a new addition, a GG-13 tank, made by gnomes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A bandit orange. Be careful not to turn your back to it. One side is stamped with the letter "y". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18766

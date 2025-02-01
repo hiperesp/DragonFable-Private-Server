@@ -2,6 +2,8 @@
 
 Not much is known about who made the plans for this weapon. What is known is that you'd better not get into arguments with anyone over those little jets on the side. There's all sorts of ideas on why they're there, but Lim has no clue.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13852

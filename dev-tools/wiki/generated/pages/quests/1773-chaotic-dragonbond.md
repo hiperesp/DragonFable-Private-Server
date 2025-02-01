@@ -2,6 +2,8 @@
 
 Dragon and lord, united in Chaos.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

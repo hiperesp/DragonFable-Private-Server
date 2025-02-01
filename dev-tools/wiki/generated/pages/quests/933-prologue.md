@@ -2,6 +2,8 @@
 
 You can choose to start with the Chapter 1 & 2 prologue or the Chapter 3 prologue here. You will still be able to access the other prologue in your Book of Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

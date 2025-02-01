@@ -2,6 +2,8 @@
 
 This tog is somehow extremely soft and fluffy! It also has a very fancy ribbon! A tog that only few could ever dream of. Enrages when you're under 90% HP, and when enraged, has a chance (CHA/4) to do double damage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20739

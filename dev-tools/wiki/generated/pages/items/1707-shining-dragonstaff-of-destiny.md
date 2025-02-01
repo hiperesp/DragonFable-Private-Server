@@ -3,6 +3,8 @@
 The greatest destiny is in your hands! And it is a little heavy. Solid gold dragon heads aren't light.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1707

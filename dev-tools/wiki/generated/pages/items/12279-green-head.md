@@ -2,6 +2,8 @@
 
 A mask in a shape of Green's head, one of Aspar's minions. He symbolized wisdom. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12279

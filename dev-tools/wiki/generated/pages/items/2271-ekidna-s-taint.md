@@ -2,6 +2,8 @@
 
 Her smile is so sweet (even if her lips are thin).  But if you let Ekidna get to close, she'll bite!  And you'll feel the lingering effects of that for weeks afterward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2271

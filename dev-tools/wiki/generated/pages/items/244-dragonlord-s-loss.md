@@ -2,6 +2,8 @@
 
 Recently crafted by Cysero for a great Dragonlord to celebrate a victory, this sword vanished mysteriously on the way to its destination.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 244

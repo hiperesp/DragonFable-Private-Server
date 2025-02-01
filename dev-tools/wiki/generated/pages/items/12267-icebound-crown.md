@@ -2,6 +2,8 @@
 
 Forged from a cursed metal found only in the far north. This crown shows that you are ruler over any undead that crosses your path.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12267

@@ -2,6 +2,8 @@
 
 Last place in the Duck Hunt competition.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11461

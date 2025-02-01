@@ -2,6 +2,8 @@
 
 Once used in ceremonies and rituals lost to ruins, this antique weapon was secured from the ruins of Hawkscry... and is now available for your personal collection! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20909

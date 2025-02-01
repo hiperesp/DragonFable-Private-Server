@@ -2,6 +2,8 @@
 
 Having been built strong and enchanted for durability, you can count on this blade to never let you down. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 375

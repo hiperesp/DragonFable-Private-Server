@@ -2,6 +2,8 @@
 
 Clear your way through these pirate monkees for Pi Mae.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

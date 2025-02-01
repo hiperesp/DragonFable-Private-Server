@@ -2,6 +2,8 @@
 
 It's the Meowphant! But Mega! Can you withstand its unrelenting charge?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

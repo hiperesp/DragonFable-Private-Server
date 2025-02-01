@@ -2,6 +2,8 @@
 
 This weapon was forged to celebrate you and your dragon saving Lore from being swallowed by darkness forever! A shard of the Ultimate Orb is lodged deep within the blade of this golden weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5860

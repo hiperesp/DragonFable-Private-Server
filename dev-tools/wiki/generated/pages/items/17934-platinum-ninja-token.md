@@ -2,6 +2,8 @@
 
 An extremely rare platinum token earned from the Ninja Training Arena. Can be sold for a LOT of gold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17934

@@ -2,6 +2,8 @@
 
 The biting chill of an evil wind flows through this weapon, imbued by Sepulchure's corruption of the Wind Orb.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5604

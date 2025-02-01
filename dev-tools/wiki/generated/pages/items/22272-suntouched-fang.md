@@ -2,6 +2,8 @@
 
 This fang drips with a burning, electrical venom. Proof of victory over the Suntouched Viper.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22272

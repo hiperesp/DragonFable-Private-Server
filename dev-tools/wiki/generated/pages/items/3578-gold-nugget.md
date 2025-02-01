@@ -2,6 +2,8 @@
 
 This nugget dropped from one of Baron Au'Mydas' gold monsters.  If you save enough of them, Lukkhi the Sneevilchaun can use them to turn your weapon gold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3578

@@ -2,6 +2,8 @@
 
 In honor of Artix and Trini's wedding in 2013, fight ebil with the power of love!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11165

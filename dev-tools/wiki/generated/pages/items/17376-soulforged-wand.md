@@ -3,6 +3,8 @@
 Your very own SoulForged wand! It shivers with swiftness and cleverness!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17376

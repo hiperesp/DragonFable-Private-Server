@@ -2,6 +2,8 @@
 
 These definitely aren't the same wings Icemaster Yeti used. Definitely not. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21346

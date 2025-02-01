@@ -2,6 +2,8 @@
 
 It's time to find Big Daddy! Thankfully, he had enough presence of mind to leave a trail for you to find him.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

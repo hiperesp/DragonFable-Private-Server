@@ -2,6 +2,8 @@
 
 This mini Lust will watch over your shoulder and be a forever faithful companion. Forever. Proof of victory over the Lust challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18972

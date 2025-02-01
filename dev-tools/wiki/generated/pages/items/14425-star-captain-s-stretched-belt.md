@@ -2,6 +2,8 @@
 
 This belt seems really stretched out. Maybe whoever owned it finally hit the gym...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14425

@@ -2,6 +2,8 @@
 
 Hungry, hungry darkness! Favorite game of Chaosweaver children everywhere!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3565

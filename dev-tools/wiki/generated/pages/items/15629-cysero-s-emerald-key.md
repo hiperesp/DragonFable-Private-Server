@@ -2,6 +2,8 @@
 
 A key carved out of solid emerald! This is surely a lucky one! Especially if it's from Cysero! You'll only need one to unlock the LuCky Chest (that contains the same thing as that other Lucky Chest).
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15629

@@ -2,6 +2,8 @@
 
 The sword so tasty you'd take a bite out of it if it weren't guaranteed to slice your mouth up! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3759

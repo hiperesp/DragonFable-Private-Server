@@ -2,6 +2,8 @@
 
 The soft glow emanating from this rapier will light your way through dark territory, but be careful, as it will act as a beacon to your enemies on the battlefield.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2061

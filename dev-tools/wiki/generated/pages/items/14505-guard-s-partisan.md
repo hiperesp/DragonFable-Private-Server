@@ -2,6 +2,8 @@
 
 The traditional weapon of the guards that protect those in the Sandsea. The obsidian used to make them is used as a base along with sandstone and other materials.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14505

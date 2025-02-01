@@ -2,6 +2,8 @@
 
 This necklace dropped off of the nature dragon Gorgok after you defeated it. Why was it already on a chain? You could go back and ask Gorgok if you REALLY want to...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1149

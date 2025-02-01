@@ -2,6 +2,8 @@
 
 You have broken your chains. See with sight unbroken by lies. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13830

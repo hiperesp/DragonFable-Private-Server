@@ -2,6 +2,8 @@
 
 Manifested as part of Sirius' fears, this cloak somehow remains even after its owner was defeated. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21633

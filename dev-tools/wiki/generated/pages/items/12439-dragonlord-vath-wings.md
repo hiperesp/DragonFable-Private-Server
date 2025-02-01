@@ -2,6 +2,8 @@
 
 The pride of DragonLord Vath. These wings showed how powerful of a DragonLord he really was. Sadly, he lost the ability to use them when he became chaorrupted.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12439

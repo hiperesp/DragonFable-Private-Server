@@ -2,6 +2,8 @@
 
 These daggers were carved from a solid chunk of pure Emerald. They symbolize your commitment to fight the darkness in whatever form it takes! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14773

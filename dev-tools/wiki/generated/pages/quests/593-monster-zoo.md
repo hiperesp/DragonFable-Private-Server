@@ -2,6 +2,8 @@
 
 Come and see monsters from all over Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

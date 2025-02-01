@@ -2,6 +2,8 @@
 
 Wielding this axe, you feel unstoppable. Every moment, every action, rewrites the future. Requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20380

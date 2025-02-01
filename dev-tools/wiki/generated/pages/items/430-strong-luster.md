@@ -2,6 +2,8 @@
 
 This ancient crystalline staff was recharged by Warlic, after you brought him the crystal shard that he asked for.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 430

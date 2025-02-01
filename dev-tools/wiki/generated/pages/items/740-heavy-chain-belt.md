@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is constructed of a heavy iron and boasts excellent defense for a starting hero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 740

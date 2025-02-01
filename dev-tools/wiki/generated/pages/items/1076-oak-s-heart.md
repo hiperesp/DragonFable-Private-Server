@@ -2,6 +2,8 @@
 
 This dagger was magically coaxed from the heart of an ancient oak tree over the course of three lunar cycles, using druidic nature magic. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1076

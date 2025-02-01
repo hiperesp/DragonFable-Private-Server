@@ -2,6 +2,8 @@
 
 An ancient vampire lord's warhelm. The more you thirst for blood, the more menacing it becomes... Proof of victory over Safiria!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21049

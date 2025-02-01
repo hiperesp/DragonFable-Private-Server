@@ -2,6 +2,8 @@
 
 Go forth and find some fungus samples for Bart!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

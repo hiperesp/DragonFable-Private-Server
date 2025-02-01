@@ -2,6 +2,8 @@
 
 Using the power of elemental water, this staff draws all the moisture out of anything that comes in contact with it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 384

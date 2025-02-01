@@ -2,6 +2,8 @@
 
 Help the MOP team clear out the roving pack of zards from the woods around Amityvale.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

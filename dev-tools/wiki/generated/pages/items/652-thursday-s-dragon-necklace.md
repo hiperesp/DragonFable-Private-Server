@@ -2,6 +2,8 @@
 
 This necklace requires a Dragon Amulet. It was handmade by Thursday. It provides defense against darkness,  a +1 to Luck, and a +1 to Dodge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 652

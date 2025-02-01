@@ -2,6 +2,8 @@
 
 While SoulWeavers are forbidden from using their artisan techniques for fighting purposes, Edelia's Headmasters HAVE to be able to protect their students.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

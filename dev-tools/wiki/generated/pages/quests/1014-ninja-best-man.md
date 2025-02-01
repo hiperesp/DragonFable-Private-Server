@@ -2,6 +2,8 @@
 
 Aaaaartix, the Pure Paladin, the Axe-Man with the Plan, the Gaaaaaameeee Maaaaster!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

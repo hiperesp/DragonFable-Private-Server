@@ -2,6 +2,8 @@
 
 Defeat all enemies to push forward into the Snowpeak Woods!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

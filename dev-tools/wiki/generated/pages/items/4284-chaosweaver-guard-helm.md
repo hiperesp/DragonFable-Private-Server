@@ -2,6 +2,8 @@
 
 You took this helm from a ChaosWeaver Guard in the Dark Tower Penitentiary.  It smells like despair and mold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4284

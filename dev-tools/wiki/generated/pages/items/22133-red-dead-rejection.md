@@ -2,6 +2,8 @@
 
 Perfect tool for the evil residents! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22133

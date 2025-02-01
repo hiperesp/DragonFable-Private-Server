@@ -2,6 +2,8 @@
 
 The light shining off this sword will entrance your enemies, causing them to freeze in order to watch the play of light on the blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2687

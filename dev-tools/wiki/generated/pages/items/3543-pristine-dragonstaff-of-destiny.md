@@ -3,6 +3,8 @@
 The light shining from this staff is so bright it hurts! Just think what it will do to undead!
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3543

@@ -2,6 +2,8 @@
 
 Elucidas gives this to young friends of the Creatioux.  It symbolizes trust, faith, and goodwill.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4019

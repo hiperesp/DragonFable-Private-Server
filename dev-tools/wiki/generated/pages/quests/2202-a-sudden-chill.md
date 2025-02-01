@@ -2,6 +2,8 @@
 
 Preparations for Frostval are underway in Falconreach! As Ash and Aria help you bundle up gifts to bring up north, a sudden visitor appears!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

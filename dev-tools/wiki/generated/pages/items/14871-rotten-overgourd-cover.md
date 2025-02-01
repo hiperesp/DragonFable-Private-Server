@@ -2,6 +2,8 @@
 
 This helm was grown from the same type of plant that forms the PumpkinLord armors! This one has become rotten to its very core. Beware using it or you too may feel a tad...evil...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14871

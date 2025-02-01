@@ -2,6 +2,8 @@
 
 Keep your head protected during these pesky sun waves! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22017

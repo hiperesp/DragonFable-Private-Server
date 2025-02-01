@@ -2,6 +2,8 @@
 
 The sight of these emerald daggers sets sneevish eyes a cryin'.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1518

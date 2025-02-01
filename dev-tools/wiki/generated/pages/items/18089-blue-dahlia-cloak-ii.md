@@ -2,6 +2,8 @@
 
 Woven from the petals of the blue dahlia flower, this cloak was worn by an ancient thief and mother: the Blue Dahlia.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18089

@@ -2,6 +2,8 @@
 
 Croft has appeared, time to visit the Cauldron Sisters and see what's new!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

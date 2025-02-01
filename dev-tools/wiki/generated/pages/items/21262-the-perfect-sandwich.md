@@ -2,6 +2,8 @@
 
 It's... beautiful. And mouthwatering. It's too perfect to eat! ...But not too perfect to sell. Let someone else deal with that existential crisis.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21262

@@ -2,6 +2,8 @@
 
 A legendary weapon embodying the frugal spirit in all of us! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6192

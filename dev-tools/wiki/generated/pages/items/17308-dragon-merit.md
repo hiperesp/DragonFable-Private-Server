@@ -2,6 +2,8 @@
 
 Proof of your victory over the Random Dragon Challenge! Can be spent to upgrade Dragon challenge weapons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17308

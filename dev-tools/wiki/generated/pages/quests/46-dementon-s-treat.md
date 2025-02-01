@@ -2,6 +2,8 @@
 
 The Dementon is an insane and extremely hyper pet, but a fierce fighter when protecting its owner...or its candy.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

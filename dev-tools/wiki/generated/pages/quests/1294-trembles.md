@@ -2,6 +2,8 @@
 
 Clear out the earworm breeding ground!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

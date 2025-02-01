@@ -2,6 +2,8 @@
 
 This misshapen spheroid glows with bio-luminescent blue light. Maybe it can serve as a focus or power source for a weapon...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20548

@@ -2,6 +2,8 @@
 
 This tribal mask will scare away evil voodoo spirits, and probably lots of other things too.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3129

@@ -2,6 +2,8 @@
 
 A pair of long forgotten ancient beasts are here to face you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

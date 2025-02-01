@@ -2,6 +2,8 @@
 
 Nature itself is sprouting from your back! You can upgrade this cape at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14455

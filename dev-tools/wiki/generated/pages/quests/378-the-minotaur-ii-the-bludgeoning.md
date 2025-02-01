@@ -2,6 +2,8 @@
 
 So you've found your way back to the Minotaur's Labyrinth, and you're ready to take him on again?!  You must be brave!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

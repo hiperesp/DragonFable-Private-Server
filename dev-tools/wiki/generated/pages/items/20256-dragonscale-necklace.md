@@ -2,6 +2,8 @@
 
 An old trinket, probably a precious gift at one point in time. Proof of victory over the Ice and Dragons challenge. Used to upgrade Vilmor's Helm and Frostscythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20256

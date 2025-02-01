@@ -2,6 +2,8 @@
 
 A lithe weapon, orbs play along the edge of the blades of the Night Annex.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6677

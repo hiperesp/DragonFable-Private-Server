@@ -2,6 +2,8 @@
 
 Goooooo team! Teams that make the finals will be able to upgrade their capes to level 60! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3891

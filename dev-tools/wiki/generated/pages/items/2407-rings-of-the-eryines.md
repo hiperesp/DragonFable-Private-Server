@@ -2,6 +2,8 @@
 
 This belt is made of colored rings sewn to a silk band and signifies that its wearer holds the throne of the united Jungle Fury tribes.  It is said to lend magical aid to its owner.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2407

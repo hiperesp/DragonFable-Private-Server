@@ -2,6 +2,8 @@
 
 A basic Celestial blade, crafted from Exalted Forgemetal. Can be upgraded with additional Exalted Forgemetal.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18741

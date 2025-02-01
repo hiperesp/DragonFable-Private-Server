@@ -2,6 +2,8 @@
 
 A Soulwoven hood used by Soulweavers. Its design helps focus your reflexes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18662

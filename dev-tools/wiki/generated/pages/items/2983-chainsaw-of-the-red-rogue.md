@@ -2,6 +2,8 @@
 
 Lim loves it when rogues dual-wield. It's even better with chainsaws!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2983

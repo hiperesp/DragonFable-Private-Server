@@ -2,6 +2,8 @@
 
 This forceful staff was created for a fire mage to help focus his pyromancy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 186

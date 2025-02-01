@@ -2,6 +2,8 @@
 
 This is most definitely not a trap.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

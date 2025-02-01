@@ -2,6 +2,8 @@
 
 This is a sturdy fold-out ruler for meausring. It measures in both human and gnomish. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2295

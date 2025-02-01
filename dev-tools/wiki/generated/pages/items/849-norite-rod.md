@@ -2,6 +2,8 @@
 
 This coarse mineral rod focuses the power of the earth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 849

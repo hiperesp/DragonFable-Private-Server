@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is a belt constructed of enchanted plates of cooled lava. It's heavy but stylish.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 871

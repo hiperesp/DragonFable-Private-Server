@@ -2,6 +2,8 @@
 
 A clouded orb of unknown origin, its light still lingers. What could sustain such power after so long? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21959

@@ -2,6 +2,8 @@
 
 Uaanta gifted this emergency back-up wand to you. With the addition of the Infected Stability Core, the complete wand now does Evil damage and decreases its target's Avoidance!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20440

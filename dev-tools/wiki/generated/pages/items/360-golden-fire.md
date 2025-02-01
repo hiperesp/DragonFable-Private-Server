@@ -2,6 +2,8 @@
 
 This fierce dagger is imbued with the element of fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 360

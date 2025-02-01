@@ -2,6 +2,8 @@
 
 The pouches in this belt contain maps, a hunting knife, a toy plane and some weird piece of paper with numbers on it. Everything you'd need to entertain yourself if you got lost. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3678

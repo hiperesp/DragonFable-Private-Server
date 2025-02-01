@@ -2,6 +2,8 @@
 
 Our striped blade of yule rings with virtue and tastes delicious! It is infused with moglin healing magic. It has a small chance to heal you for 5% life upon a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 624

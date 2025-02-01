@@ -2,6 +2,8 @@
 
 Notha and Myalos brought their expertise of ancient technology upon the Abysscutter Dagger, forging a weapon to be feared by any would-be deities.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20961

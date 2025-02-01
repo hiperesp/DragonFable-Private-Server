@@ -2,6 +2,8 @@
 
 Constructed from the Debris that lay dormant inside the Astravian Suki Rivale. The universe itself decreed that Suki and Darkon were to part forever. The former Prince, in a small way, defied this fate and clung to Suki to the very end. (CC: Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21035

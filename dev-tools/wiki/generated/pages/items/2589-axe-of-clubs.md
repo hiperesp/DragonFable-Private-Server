@@ -2,6 +2,8 @@
 
 I suppose you COULD club someone over the head with an axe, but it'd be easy just to chop them down with the blades.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2589

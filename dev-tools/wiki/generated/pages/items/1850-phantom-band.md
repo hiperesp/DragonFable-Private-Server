@@ -2,6 +2,8 @@
 
 This ring is made of a thin, brittle metal. If you're not careful it will shatter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1850

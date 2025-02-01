@@ -2,6 +2,8 @@
 
 This dagger is small but deadly!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4926

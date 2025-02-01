@@ -2,6 +2,8 @@
 
 All sales go towards they study of Mad Weaponsmithing.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10269

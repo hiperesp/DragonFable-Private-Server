@@ -2,6 +2,8 @@
 
 Smithed by Sielu, this helm will protect you with elvish craftsmanship!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8893

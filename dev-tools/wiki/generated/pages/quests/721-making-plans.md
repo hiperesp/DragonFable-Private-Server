@@ -2,6 +2,8 @@
 
 Greed and the Greedling have a plan, you and Tomix have a plan, and you can bet that Aspar has MANY plans!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

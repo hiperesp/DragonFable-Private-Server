@@ -2,6 +2,8 @@
 
 The traditional weapons of the ice elves, this one was left behind by a fungal simulacrum... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20680

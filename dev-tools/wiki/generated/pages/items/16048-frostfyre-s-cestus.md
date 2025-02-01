@@ -2,6 +2,8 @@
 
 The legendary Ice Giant Frostfyre forged this cestus from the core of a fallen comet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16048

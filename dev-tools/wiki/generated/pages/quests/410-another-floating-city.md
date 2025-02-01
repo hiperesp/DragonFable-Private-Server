@@ -2,6 +2,8 @@
 
 Fight your way to Keelia to deliver the package!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

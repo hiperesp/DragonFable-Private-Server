@@ -2,6 +2,8 @@
 
 This belt is decorated with some of Siofra's shards. Now, he IS the notch on your belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18687

@@ -2,6 +2,8 @@
 
 This staff is a techno-mystical wonder! It is a perfect blending of technology and magic. You can feel the powerful vibrations of an engine coming from the metal orb on top.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 213

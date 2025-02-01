@@ -2,6 +2,8 @@
 
 There are two figures in the picture. A tall, regal looking man and a woman who looks remarkably like Thursday. Her parents, possibly, but the portrait looks at least fifty years old.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 665

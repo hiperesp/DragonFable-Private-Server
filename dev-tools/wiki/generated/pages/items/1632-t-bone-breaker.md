@@ -2,6 +2,8 @@
 
 The magical steak that tops this staff once graced the freezer of Jonis Flatware, the world famous chef / mage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1632

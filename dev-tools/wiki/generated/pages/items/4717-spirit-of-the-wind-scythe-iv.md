@@ -2,6 +2,8 @@
 
 Let the spirit of the wind move you to battle on!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4717

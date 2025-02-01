@@ -2,6 +2,8 @@
 
 This ring is made of bright clear glass but it's stronger than it appears.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 121

@@ -2,6 +2,8 @@
 
 Necromancers use the power in this ring to control their undead servants.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 129

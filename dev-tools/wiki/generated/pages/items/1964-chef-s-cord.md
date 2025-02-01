@@ -2,6 +2,8 @@
 
 A fire resist neck dropped by the famous dragon chef, Char.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1964

@@ -2,6 +2,8 @@
 
 The pirates of Sho Nuff Island are attacking the Shadow of the Wind Village. Thyton has asked you to defend the town against the invaders while a large party of ninjas attack the pirate town.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

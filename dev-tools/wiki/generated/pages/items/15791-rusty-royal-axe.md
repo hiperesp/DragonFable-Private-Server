@@ -2,6 +2,8 @@
 
 This ancient axe from an ancient kingdom was once a majestic and powerful weapon. It still is. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15791

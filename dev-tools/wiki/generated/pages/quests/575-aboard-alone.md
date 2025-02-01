@@ -2,6 +2,8 @@
 
 That tricky blue ears be tryin' to escape!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

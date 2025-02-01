@@ -2,6 +2,8 @@
 
 This surprisingly comfortable helm smells like lavender on the inside. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22048

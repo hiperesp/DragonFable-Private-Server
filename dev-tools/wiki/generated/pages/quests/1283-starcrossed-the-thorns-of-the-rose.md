@@ -2,6 +2,8 @@
 
 Time is running out! You have to escape the Runed Fortress before the Rose arrives!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You have crawled into the ancient tomb and find yourself in a hot, dry and dusty corridor. This has got to be the worst vacation ever.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

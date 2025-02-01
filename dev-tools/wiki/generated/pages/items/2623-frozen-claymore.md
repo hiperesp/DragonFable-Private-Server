@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The massive Claymore has had much of its power drained by the battle with Akriloth. Its powerful special will still help bring down your foes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2623

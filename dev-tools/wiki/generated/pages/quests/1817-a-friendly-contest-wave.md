@@ -2,6 +2,8 @@
 
 Another wave of elementals and creatures approaches!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 It's Twillys turn to hide! Can you find him before snack time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

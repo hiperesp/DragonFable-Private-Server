@@ -2,6 +2,8 @@
 
 You feel so cool while wielding this sword. But just you. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22142

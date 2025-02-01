@@ -2,6 +2,8 @@
 
 A greatsword magically crafted from a collection of Water-infused Sapphirine. On special, recovers some HP and MP. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21686

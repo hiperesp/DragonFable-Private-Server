@@ -2,6 +2,8 @@
 
 An ancient blade once wielded by the founder of the Loremaster order. Kept safe all these years, it now falls into your hands. What stories will it tell with you? Reward for subscribing to the DragonFable Newsletter! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21614

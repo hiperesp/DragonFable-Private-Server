@@ -2,6 +2,8 @@
 
 A medium abstract statue of pulsing living fog. It looks kind of like a chickencow if you tilt your head to the side.... You should probably just sell this. You could probably get like... 150 gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14992

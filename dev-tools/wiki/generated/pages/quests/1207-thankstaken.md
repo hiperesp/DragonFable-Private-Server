@@ -2,6 +2,8 @@
 
 Now that the preparations are done, it is time to get Voltabolt.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

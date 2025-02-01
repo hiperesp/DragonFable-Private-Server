@@ -2,6 +2,8 @@
 
 This sword appears to be made entirely of pure sapphire!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 67

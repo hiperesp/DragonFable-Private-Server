@@ -2,6 +2,8 @@
 
 Fur from a ferocious Rhoddhu.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3733

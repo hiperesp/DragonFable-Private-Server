@@ -2,6 +2,8 @@
 
 Your reward for vanquishing the dread Brakenberry, this staff is imbued with the power of the waves from which the braken was born.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1341

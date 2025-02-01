@@ -2,6 +2,8 @@
 
 A place for wishes and secrets, for madness and dreams.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

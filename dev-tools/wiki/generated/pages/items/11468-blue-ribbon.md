@@ -2,6 +2,8 @@
 
 Tattered and torn, the owner was very proud of this award. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11468

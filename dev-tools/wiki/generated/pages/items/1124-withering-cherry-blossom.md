@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It has been carefully carved to more accurately focus magical energies and alter them into a magical poison type damage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1124

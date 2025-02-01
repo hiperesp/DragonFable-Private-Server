@@ -2,6 +2,8 @@
 
 While the magic that once allowed the Hive Rangers to fly using these wings has long faded, they still look fantastic! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20173

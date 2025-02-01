@@ -2,6 +2,8 @@
 
 Your very own copy of The Book of Ebil Dread! You didn't even have to eat a box of cereal to find it! Just make sure you don't read it out loud... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21166

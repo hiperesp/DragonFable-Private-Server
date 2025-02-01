@@ -2,6 +2,8 @@
 
 Gramma had a wand made from the axe that was used on the big bad wolf that turned her into a werewolf.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7109

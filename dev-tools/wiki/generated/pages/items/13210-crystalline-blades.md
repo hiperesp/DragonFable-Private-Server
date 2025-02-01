@@ -2,6 +2,8 @@
 
 These beautiful daggers seem to shiver in your hands, almost as if they don't belong in this reality. That couldn't be though...could it? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13210

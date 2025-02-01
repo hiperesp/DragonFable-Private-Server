@@ -2,6 +2,8 @@
 
 Tomix has gone to Mortem to visit his childhood home.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

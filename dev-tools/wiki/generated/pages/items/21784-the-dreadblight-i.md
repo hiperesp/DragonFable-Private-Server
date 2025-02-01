@@ -2,6 +2,8 @@
 
 This cursed blade was once kept safe by the Ice Elves... until it was stolen by a knight who would stop at nothing to save his people.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21784

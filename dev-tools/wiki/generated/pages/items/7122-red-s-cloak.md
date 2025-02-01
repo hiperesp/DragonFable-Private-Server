@@ -2,6 +2,8 @@
 
 A much loved and well used cloak, it is dyed a blood red color. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7122

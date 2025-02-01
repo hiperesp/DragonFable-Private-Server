@@ -2,6 +2,8 @@
 
 A sneevil's 'Box Scouts' badge with 'Box' scratched off and 'Dage' written on in crayon. Used to create an Otherworldly Amalgamation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17773

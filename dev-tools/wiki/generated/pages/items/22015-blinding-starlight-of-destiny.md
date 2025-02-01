@@ -2,6 +2,8 @@
 
 This magnificent axe was once wielded by a legendary Ateala warrior. Although its origins are shrouded in mystery, it shines with the light of the stars. Click to change its appearance! (Special: On-hit, distracts foe every 13th hit, 7 if Light)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22015

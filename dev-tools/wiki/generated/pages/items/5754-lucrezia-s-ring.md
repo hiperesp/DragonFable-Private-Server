@@ -2,6 +2,8 @@
 
 This small ring has a hidden compartment for storing poison.  Great for betrayal on the sly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5754

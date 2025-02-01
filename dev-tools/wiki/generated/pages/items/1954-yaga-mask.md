@@ -2,6 +2,8 @@
 
 Be very careful... she could turn you into a gecko!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1954

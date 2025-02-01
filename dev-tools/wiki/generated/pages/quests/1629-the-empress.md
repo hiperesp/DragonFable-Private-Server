@@ -2,6 +2,8 @@
 
 Have you arrived in time to help the Ateala? You've arrived before the Vind forces, but what now?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

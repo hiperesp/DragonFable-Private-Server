@@ -2,6 +2,8 @@
 
 The signet ring of long lost cult of dark faeries, this was found while gathering herbs in the Enchanted Grove. Gives you +3 resist to Darkness and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1399

@@ -2,6 +2,8 @@
 
 The dreaded Legion Crawler! Where did it come from? Who does it serve?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Face Theano empowered by the Ultimate Orb Shard!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

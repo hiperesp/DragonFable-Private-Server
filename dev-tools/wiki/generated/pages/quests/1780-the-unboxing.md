@@ -2,6 +2,8 @@
 
 The presents has been liberated, it's time to start the celebrations! Unless...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

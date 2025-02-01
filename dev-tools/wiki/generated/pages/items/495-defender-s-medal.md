@@ -2,6 +2,8 @@
 
 Proof of heroic accomplishments in wars. Used to purchase many different items.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 495

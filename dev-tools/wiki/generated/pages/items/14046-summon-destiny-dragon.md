@@ -2,6 +2,8 @@
 
 Summon a simulacrum of the Destiny Dragon! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14046

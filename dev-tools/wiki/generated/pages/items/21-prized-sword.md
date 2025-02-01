@@ -2,6 +2,8 @@
 
 This weapon is covered with gaudy glass gems. You are fairly certain that this was a prize you saw at a traveling fair.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21

@@ -2,6 +2,8 @@
 
 This weapon required a Dragon Amulet. It its topped with the claw of a rare monster whose outter shell is pure gold. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 660

@@ -2,6 +2,8 @@
 
 The weapon preferred by defensive ShadowWalkers, this weapon is only crafted- and reforged- over long periods of time in the depths of pure shadow. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21088

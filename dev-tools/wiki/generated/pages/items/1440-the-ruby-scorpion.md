@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The blade of this dagger was once the tail of a giant scorpion statue carved from a huge ruby. It  was so realistic that the artist filled the stinger with deadly poison.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1440

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. You think your exposure to this much evil might be affecting you...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10867

@@ -2,6 +2,8 @@
 
 Contained within this weapon is a strange power, threatening to escape and envelop all with its tendrils... Thankfully it's dormant. For now. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21618

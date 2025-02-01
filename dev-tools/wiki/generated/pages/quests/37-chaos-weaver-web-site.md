@@ -2,6 +2,8 @@
 
 The town library says that the Chaos Weavers set up sites that all connect to their main site like a web. Head into the Chaos Weaver's web site and find out what you can.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

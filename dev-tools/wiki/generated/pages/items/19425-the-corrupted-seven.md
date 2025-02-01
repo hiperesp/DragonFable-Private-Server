@@ -2,6 +2,8 @@
 
 Summon the Seven Corrupted elemental spirits to attack your foe! Increases your Boost by 5 on use as well. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19425

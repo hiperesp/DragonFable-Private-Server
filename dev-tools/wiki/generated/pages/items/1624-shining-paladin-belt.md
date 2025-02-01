@@ -2,6 +2,8 @@
 
 This belt is forged from tough steel and pure gold. If the old saying is true..."You can judge a hero by the belt that they are wearing"... this belt will let everyone know that you stand strong in the face of evil. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1624

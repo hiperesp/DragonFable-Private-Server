@@ -2,6 +2,8 @@
 
 While catching up with the Cauldron Sisters, a mysterious portal opens. It looks like something is happening in Apsaydaaun... again!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

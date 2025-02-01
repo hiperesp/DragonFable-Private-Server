@@ -2,6 +2,8 @@
 
 Hold back the tides of minions!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

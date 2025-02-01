@@ -2,6 +2,8 @@
 
 Made from the finest cardboard, this helm is favored by the best and brightest Sneevil soldiers. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4342

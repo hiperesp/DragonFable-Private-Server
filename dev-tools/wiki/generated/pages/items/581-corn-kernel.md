@@ -2,6 +2,8 @@
 
 This is the special food Dr. Voltabolt feeds his hand trained battle turkey, ButterBomb. Give a Turkey Tail Feather and Corn Kernels to Dr. Voltabolt for a Holiday Rare Weapon or pet ButterBomb of your own. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 581

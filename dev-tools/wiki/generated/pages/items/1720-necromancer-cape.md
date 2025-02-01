@@ -2,6 +2,8 @@
 
 This dusky cape is the official wear for Necromancers everywhere.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1720

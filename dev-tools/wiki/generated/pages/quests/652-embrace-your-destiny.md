@@ -2,6 +2,8 @@
 
 It's time to take on Decair, the Decadere Eldest!  Can you reunite the Decadere with the Creatioux?  Or will you have to destroy the entire twisted race?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

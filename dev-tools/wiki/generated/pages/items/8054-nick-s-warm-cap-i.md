@@ -2,6 +2,8 @@
 
 A warm, red cap to keep you safe from darkness... and ice... and wind... well, everything. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8054

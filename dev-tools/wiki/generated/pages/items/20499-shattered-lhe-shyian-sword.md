@@ -2,6 +2,8 @@
 
 A shattered sword of Lhe'Shyian make, once imbued with the power of the Makers. Proof of victory over Uaanta, Avatar of the Makers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20499

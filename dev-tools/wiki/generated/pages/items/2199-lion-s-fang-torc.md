@@ -2,6 +2,8 @@
 
 A jeweler has embedded one of the Somean lion's fangs in a polished metal collar for you.  He engraved copies of the lion's tattoos there, as well, but made you pay extra for it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2199

@@ -2,6 +2,8 @@
 
 Oh, she did have a helmet after all. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18959

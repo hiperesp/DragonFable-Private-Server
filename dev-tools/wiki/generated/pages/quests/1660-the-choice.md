@@ -2,6 +2,8 @@
 
 Choose a faction!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

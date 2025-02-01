@@ -2,6 +2,8 @@
 
 Twig was playing with it... he really shouldn't have fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7746

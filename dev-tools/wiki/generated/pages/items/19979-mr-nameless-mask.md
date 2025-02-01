@@ -2,6 +2,8 @@
 
 Such a huggable mask! Click to change expressions!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19979

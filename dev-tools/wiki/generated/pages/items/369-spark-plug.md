@@ -2,6 +2,8 @@
 
 This oddly-shaped dagger is electrifying!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 369

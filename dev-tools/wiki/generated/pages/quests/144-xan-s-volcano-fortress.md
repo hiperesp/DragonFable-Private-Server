@@ -2,6 +2,8 @@
 
 You and Warlic have set out to capture the Pyronomicon and right from under Xan's flaming nose... but not everything runs according to plan.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This staff was wielded by Ishra, a mage; one of three brothers who went on an expedition together to the north of Dragesvard.  Their bodies were never recovered.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5983

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. A trophy from Mogloween 2009! Wearing it makes you feel slightly stingy...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3089

@@ -2,6 +2,8 @@
 
 Crafted by the SoulSmith, Lanrete.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9684

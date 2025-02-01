@@ -2,6 +2,8 @@
 
 A special weapon to commemorate Geo's Birthday! Forged by Dracelix, this impressive staff will empower your spells!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14564

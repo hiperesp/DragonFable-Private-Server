@@ -2,6 +2,8 @@
 
 Left behind when that wicked witch melted! Happy FrostVayle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8094

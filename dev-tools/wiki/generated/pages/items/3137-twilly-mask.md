@@ -2,6 +2,8 @@
 
 Gives you +10 to cute and cuddly too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3137

@@ -2,6 +2,8 @@
 
 A fiery sword that will add the finishing touch to any battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 55

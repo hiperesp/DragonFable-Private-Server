@@ -2,6 +2,8 @@
 
 Dr. Voltabolts monster is out of control! Defeat it for him and he might give you a hand made creation.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

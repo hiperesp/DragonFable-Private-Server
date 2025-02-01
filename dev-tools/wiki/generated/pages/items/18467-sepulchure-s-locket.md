@@ -3,6 +3,8 @@
 An old locket. Inside, the writing is mostly worn away. The remaining letters spell out "LYN".
 Proof of your victory over Sepulchure, the Doomed.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18467

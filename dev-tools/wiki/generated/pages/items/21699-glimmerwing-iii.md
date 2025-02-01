@@ -2,6 +2,8 @@
 
 What was once a normal staff has now become entangled in the mysterious magic that suffuses the crystalline caves beneath Amityvale... It now has the ability to summon a Wing'd Tog to swoop upon your foe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21699

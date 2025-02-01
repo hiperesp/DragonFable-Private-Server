@@ -2,6 +2,8 @@
 
 A Soulwoven hood used by Soulsmiths. Its design helps you channel your energy into stronger blows.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18665

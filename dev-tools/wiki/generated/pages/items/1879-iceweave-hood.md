@@ -2,6 +2,8 @@
 
 The cloth of this hood is made from a special blend known only to the Ice Elves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1879

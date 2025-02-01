@@ -2,6 +2,8 @@
 
 This Zanbato was forged by True Mortal to be used during the Yokai uprising on Sho'Nuff. The blade may look oversized, but the balance is superb. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5803

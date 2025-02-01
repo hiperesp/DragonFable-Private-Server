@@ -2,6 +2,8 @@
 
 Something soft shifts around inside this box. Could it be alive? Nah...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17785

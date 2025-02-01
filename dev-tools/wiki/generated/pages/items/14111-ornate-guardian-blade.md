@@ -2,6 +2,8 @@
 
 This ornate version of the signature Guardian weapon was a closely guarded secret for many years. Forged by Zee, it is an example of how beauty and power can be combined into one.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14111

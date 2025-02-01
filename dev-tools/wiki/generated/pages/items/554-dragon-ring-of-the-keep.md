@@ -2,6 +2,8 @@
 
 THIS RING can only be worn by one who owns a DRAGON AMULET. It was given to you by Sir Valence for your help with some pesky Sneevil troubles. The enchantment on the ring adds +1 END and a bonus to hit, and a +1 to CRIT.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 554

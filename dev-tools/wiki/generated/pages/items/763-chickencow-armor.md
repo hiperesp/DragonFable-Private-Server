@@ -2,6 +2,8 @@
 
 Amazing power of cow combined with super chicken!!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 763

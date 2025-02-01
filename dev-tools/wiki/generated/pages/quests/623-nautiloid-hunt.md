@@ -2,6 +2,8 @@
 
 Can you find the elusive nautiloid and keep the water safe for the merchant ships?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

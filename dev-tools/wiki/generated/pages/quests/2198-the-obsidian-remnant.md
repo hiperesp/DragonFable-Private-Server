@@ -2,6 +2,8 @@
 
 On an island not far from Maar, there is a watchtower fortress, meant to act as a beacon and means of warning for the late occupants of Pelekoa...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

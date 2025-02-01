@@ -2,6 +2,8 @@
 
 This moglin likes long walks through graveyards, necromancy by candlelight, and re-animating undead.  Seeking a queen of the Night who shares his dark interests.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

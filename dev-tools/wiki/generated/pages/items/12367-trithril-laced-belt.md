@@ -2,6 +2,8 @@
 
 Pieces of crushed trithril are interwoven in the magic fabric of this belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12367

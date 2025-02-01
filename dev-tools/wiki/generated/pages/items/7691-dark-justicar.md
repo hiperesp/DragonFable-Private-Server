@@ -3,6 +3,8 @@
 A lithe blade crafted from silver to celebrate Black Friday!
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7691

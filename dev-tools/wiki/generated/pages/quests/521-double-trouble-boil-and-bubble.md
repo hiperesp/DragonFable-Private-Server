@@ -2,6 +2,8 @@
 
 Zorbak is going to try to recruit the Yagas of Amityvale to join his army!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

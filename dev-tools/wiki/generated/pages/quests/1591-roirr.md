@@ -2,6 +2,8 @@
 
 Roirr infused with a piece of the mana core. Unstable.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

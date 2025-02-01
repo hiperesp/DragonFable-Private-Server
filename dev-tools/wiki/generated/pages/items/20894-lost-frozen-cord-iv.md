@@ -2,6 +2,8 @@
 
 A simple enchanted belt, long lost under the frozen city of Dragesvard, and found by you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20894

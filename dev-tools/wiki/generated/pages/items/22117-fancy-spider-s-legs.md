@@ -2,6 +2,8 @@
 
 Whether these were made from, for, or by a fancy spider is unknown, but what is known is that this set of spider's legs is very fashionable. (Cosmetic)(CC: Base, Trim, Dragon Eye)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22117

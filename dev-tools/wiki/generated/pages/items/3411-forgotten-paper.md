@@ -2,6 +2,8 @@
 
 A large pile of brightly colored paper and ribbon. It looks like it was ripped apart in a hurry. The scraps are still very pretty though, maybe someone would like them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3411

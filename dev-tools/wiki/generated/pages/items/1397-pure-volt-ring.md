@@ -2,6 +2,8 @@
 
 The circlet of this ring crackles with contained energy. Gives you +3 resist to Energy and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1397

@@ -2,6 +2,8 @@
 
 A soft, pulsing glow is emitted by this ring. It warms your heart to look into it. Best used in deep, dark forests to keep the bandits away! This ring requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5144

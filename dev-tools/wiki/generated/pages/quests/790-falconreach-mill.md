@@ -2,6 +2,8 @@
 
 Find the leader of the attacking monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

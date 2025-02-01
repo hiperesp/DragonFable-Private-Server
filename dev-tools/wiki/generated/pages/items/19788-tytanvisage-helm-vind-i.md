@@ -2,6 +2,8 @@
 
 A special helm crafted by the Greenguard Alliance to commemorate your role in controlling the Swordhaven Rift. It has been adorned in the style of the Vind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19788

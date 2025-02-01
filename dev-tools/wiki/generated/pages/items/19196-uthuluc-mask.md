@@ -2,6 +2,8 @@
 
 A'thu kra pthagna.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19196

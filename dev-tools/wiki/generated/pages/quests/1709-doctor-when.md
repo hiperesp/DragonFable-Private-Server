@@ -2,6 +2,8 @@
 
 The question should be What, not When...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

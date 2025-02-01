@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. One of the Ice elves in the ruins dropped this weapon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1853

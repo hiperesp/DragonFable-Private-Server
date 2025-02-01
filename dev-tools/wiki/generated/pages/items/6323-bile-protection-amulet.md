@@ -2,6 +2,8 @@
 
 This magical amulet will protect you if you're in a situation where you're covered in poisonous Togtog bile... or just poison. You'd be lucky to have it on you at least.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6323

@@ -2,6 +2,8 @@
 
 An almost immaterial blade. Handle with care lest its innate instability shatter it. Used to earn a reward from "The Balance We Make" challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20501

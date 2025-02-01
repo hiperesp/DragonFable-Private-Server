@@ -2,6 +2,8 @@
 
 You didn't find anyone in the first foray into the Branden Quarter. Maybe you'll have better luck the second time?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

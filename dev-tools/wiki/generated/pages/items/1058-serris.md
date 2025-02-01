@@ -2,6 +2,8 @@
 
 This wand is named for the ancient word for Fire magic. It's the type of wand used by the pyromancers of Swordhaven, but it's been magically altered for more fire power. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1058

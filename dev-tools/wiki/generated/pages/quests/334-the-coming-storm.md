@@ -2,6 +2,8 @@
 
 What is going on at the tower?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You can only make out a few of the letters on the name tag. "...r..a...". Mysterious!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14972

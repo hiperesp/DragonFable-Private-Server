@@ -2,6 +2,8 @@
 
 The ninjas of Sho Nuff Island are attacking Osprey Cove! Rhubarb has asked you to defend the town against the invaders while a large party of pirates attack the ninja town.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

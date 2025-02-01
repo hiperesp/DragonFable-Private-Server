@@ -2,6 +2,8 @@
 
 The weapon of princes, this dagger is preferred by royalty.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 221

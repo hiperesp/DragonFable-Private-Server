@@ -2,6 +2,8 @@
 
 The teeth are sparkling white. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9674

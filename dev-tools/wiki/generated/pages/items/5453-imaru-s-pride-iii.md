@@ -2,6 +2,8 @@
 
 The runes on this wicked gunblade glow with the heat from the barrel.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5453

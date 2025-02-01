@@ -2,6 +2,8 @@
 
 The energy staff is an anomaly to Geomancers and English Majors alike. I mean... how can it be ancient AND current at the same time? 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1541

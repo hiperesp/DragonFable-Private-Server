@@ -2,6 +2,8 @@
 
 With its Master slain, the Greedling pet is lost and lonely.  It wants a friend. Can you forgive it? Can you be that friend?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4958

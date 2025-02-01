@@ -2,6 +2,8 @@
 
 A black tie to help you blend into the shadows!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6754

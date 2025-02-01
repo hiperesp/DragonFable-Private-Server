@@ -2,6 +2,8 @@
 
 This surprisingly ordinary axe was specially crafted for the legendary paladin Artix! He keeps forgetting where he leaves it though, so there were quite a few made. Click to change its appearance! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22050

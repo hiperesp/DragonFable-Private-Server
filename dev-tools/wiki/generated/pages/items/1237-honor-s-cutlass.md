@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 28 or higher to create. This sword design was created by a honorable warrior who had retired.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1237

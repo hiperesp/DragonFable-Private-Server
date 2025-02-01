@@ -2,6 +2,8 @@
 
 With the Maleurous and the Avatars dealt with, it's time for our "heroes" to take some well earned rest! Maybe explore other hobbies... like fishing!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

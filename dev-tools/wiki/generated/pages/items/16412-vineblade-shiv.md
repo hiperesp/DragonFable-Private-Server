@@ -2,6 +2,8 @@
 
 The soft glow of this dagger is unsettling. The constant movement of the vines in your grasp even more so. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16412

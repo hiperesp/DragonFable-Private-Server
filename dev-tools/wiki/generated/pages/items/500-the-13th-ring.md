@@ -2,6 +2,8 @@
 
 This magic ring was found during the undead invasion. It provides 5% resistance against darkness attacks and a 1% chance to crit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 500

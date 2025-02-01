@@ -2,6 +2,8 @@
 
 This necklace is a gold chain with a white gold setting and is mounted with a rare Dragons Eye gem. He found it in the back yard by the pool after your battle with Aisha.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5505

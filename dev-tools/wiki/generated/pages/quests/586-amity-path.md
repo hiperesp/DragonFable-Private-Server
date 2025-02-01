@@ -2,6 +2,8 @@
 
 Path from Falconreach to Amityvale and Doomwood.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

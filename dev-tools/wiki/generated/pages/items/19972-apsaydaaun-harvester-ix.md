@@ -2,6 +2,8 @@
 
 The denizens of Apsaydaaun have never been known for their plant-tending. This prototype garden tool seems to be more practical for culling foes than weeds.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19972

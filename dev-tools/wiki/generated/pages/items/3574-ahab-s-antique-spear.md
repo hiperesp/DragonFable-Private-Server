@@ -2,6 +2,8 @@
 
 This spear was once owned by a sea captain so obsessed with finding the Great White Braken, that he spent his whole life trying to find it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3574

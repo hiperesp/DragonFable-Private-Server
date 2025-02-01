@@ -2,6 +2,8 @@
 
 Known across the land, the hero who wields this blade will be a legend. It glows with the righteous power of its wielder!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15508

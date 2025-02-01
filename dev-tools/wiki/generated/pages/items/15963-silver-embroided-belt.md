@@ -2,6 +2,8 @@
 
 Crafted specifically to help in the fight against the creatures of the Doomwood. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15963

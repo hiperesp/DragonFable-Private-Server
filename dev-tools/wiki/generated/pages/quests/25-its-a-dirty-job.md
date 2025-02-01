@@ -2,6 +2,8 @@
 
 You have fought your way through the countless underground perils of the Earth Elemental cave and stand victorious in the bright sunlight... but you really could use a bath.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

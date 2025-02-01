@@ -2,6 +2,8 @@
 
 A compressed cube of 10 Scrap Metal, perfect for stacking and selling. Note: Please do not use Cubes of Scrap Metal for construction purposes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19050

@@ -2,6 +2,8 @@
 
 Nature spirits wear these necklaces to show allegiance to their clan. This item requires a Dragon Amulet 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3002

@@ -2,6 +2,8 @@
 
 The wings of the legendary dravir sky pirate captain Volgritian- terror of the skies, hoarder of treasures!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17606

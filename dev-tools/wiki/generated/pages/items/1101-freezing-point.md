@@ -2,6 +2,8 @@
 
 Balanced on the line between freezing and melting, this blade is sharpened to a deadly point. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1101

@@ -3,6 +3,8 @@
 The light shining from these daggers is so bright it hurts! Just think what it will do to undead!
 This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3544

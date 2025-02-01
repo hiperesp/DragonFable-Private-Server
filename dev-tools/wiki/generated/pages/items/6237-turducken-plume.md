@@ -2,6 +2,8 @@
 
 You can now tickle your enemies into submission! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6237

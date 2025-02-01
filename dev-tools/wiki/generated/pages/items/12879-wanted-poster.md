@@ -2,6 +2,8 @@
 
 This poster has your name on it! Luckily you've managed to clear your name. You can keep it as a souvenir or you can sell it to collectors.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12879

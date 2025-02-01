@@ -3,6 +3,8 @@
 Intricate and sturdy dagger. Yes, a dagger. Most likely belonging to a giant. Who lost it. And is now looking for it. And you have it.
 Run. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22140

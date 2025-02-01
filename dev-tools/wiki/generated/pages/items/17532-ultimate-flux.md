@@ -2,6 +2,8 @@
 
 Used to refine imbued Destiny weapons, this flux is made from Elemental Flux and Ultimate Blade shards.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17532

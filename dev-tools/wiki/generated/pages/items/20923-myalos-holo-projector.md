@@ -2,6 +2,8 @@
 
 Myalos' face can turn on and off! Even this dream version! Slightly morbid though. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20923

@@ -2,6 +2,8 @@
 
 A relic of the early days of Soulweaving. Now that it's in your possession, what wonders will you weave? Can be upgraded at Secundus.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19053

@@ -2,6 +2,8 @@
 
 This mask grants your every wish, as long as your only wish is for more candy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21276

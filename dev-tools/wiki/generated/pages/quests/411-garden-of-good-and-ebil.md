@@ -2,6 +2,8 @@
 
 Someone has chicalf-napped chickencow eggs, and Zeuster wants you to bring them back!  If you're lucky, you won't need an atlas to find your way to the eggs.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

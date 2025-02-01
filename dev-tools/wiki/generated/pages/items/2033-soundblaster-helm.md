@@ -2,6 +2,8 @@
 
 The latest in mage sound tech, this helm uses subliminal messages to increase your intelligence while you listen your favorite music. *message brought to you by Zorbak brand helms, give all your gold to Zorbak*
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2033

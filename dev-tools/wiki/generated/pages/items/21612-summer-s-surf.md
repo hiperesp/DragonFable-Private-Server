@@ -2,6 +2,8 @@
 
 Surf's up! Head out to the ocean and save the day with this battle surfboard! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21612

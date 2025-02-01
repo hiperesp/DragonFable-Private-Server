@@ -2,6 +2,8 @@
 
 The Doomwood rift draws ever closer to the grasp of the Greenguard Alliance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

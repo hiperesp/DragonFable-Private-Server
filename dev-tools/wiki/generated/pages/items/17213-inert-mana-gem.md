@@ -2,6 +2,8 @@
 
 A mana gem that has had most, if not all, of its mana drained from it. It doesn't have much going for it, but it helps channel your mana a bit better. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17213

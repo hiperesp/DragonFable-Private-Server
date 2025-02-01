@@ -2,6 +2,8 @@
 
 This pretty blade is made from amber that has magically been honed to hold an edge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 310

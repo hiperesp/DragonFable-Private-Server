@@ -2,6 +2,8 @@
 
 Collect these and turn them in to Big Daddy for rewards!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15480

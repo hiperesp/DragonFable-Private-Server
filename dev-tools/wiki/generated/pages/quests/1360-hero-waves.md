@@ -2,6 +2,8 @@
 
 Fight back against the Heroes! (Note: This does not count as a war wave.)
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

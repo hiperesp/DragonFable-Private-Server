@@ -2,6 +2,8 @@
 
 This weapon was made and enchanted by the moglins of Frostvale. It was a thank you gift for saving the frost moglins from Xanta Claus!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13176

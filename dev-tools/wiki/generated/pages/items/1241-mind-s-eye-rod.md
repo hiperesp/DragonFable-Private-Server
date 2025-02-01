@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 30 or higher to create. This staff design is said to focus the mind's eye and sharpen it's sight to crystal clarity. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1241

@@ -2,6 +2,8 @@
 
 The horn of Drahr'Dolaas. Can be used to create a reward. Proof of victory over Drahr'Dolaas.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19730

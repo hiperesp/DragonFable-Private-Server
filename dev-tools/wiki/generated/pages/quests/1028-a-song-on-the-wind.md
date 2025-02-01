@@ -2,6 +2,8 @@
 
 Laesa Forn wants you to gather materials for her to create windchimes in memory of her mentor.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

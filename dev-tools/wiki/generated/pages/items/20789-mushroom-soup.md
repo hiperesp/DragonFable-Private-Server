@@ -2,6 +2,8 @@
 
 The mushroom samples you had got all soggy, so you put them in a bowl. Now you have a mushroom soup! Or a tea! Same difference!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20789

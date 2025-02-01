@@ -2,6 +2,8 @@
 
 Although this icy blade is melting a little, it is still rigid enough to strike down any adversary! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4222

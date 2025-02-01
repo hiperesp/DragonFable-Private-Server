@@ -2,6 +2,8 @@
 
 This Item Requires a Dragon Amulet. The rumour surrounding this staff is that it will give a normal person the magical might of eight magical dolphins!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 939

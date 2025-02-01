@@ -2,6 +2,8 @@
 
 Light and lithe, the sting of this blade slithers up on your enemy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 59

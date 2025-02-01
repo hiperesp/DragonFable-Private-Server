@@ -2,6 +2,8 @@
 
 This sword has so many blades, you can hit your enemies no matter which way you turn!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 345

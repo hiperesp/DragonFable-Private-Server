@@ -2,6 +2,8 @@
 
 This belt is intricately engraved with a map to the Land of the Dead.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9311

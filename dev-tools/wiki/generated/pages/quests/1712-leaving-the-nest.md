@@ -2,6 +2,8 @@
 
 The final stand-off against Siofra!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

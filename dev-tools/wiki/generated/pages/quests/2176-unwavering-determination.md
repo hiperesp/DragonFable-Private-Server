@@ -2,6 +2,8 @@
 
 The Headmaster and his Soulally look forward to this final lesson.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

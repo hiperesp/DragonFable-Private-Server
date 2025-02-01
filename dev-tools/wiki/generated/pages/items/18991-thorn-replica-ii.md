@@ -2,6 +2,8 @@
 
 A replica of Theano's blade. With the original destroyed, this replica was crafted by Warlic to match the appearance of the Thorn. Ultimate Orb Shard not included. Increases your critical hit damage multiplier by 5%!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18991

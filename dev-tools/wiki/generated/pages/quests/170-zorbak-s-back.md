@@ -2,6 +2,8 @@
 
 You nearly had all the Cauldron Sister's candy gathered when Zorbak showed up and began to cause his usual mischief. Will Mogloween end before it has begun?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

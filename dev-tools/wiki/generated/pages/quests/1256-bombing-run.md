@@ -2,6 +2,8 @@
 
 Take to the skies Dragonlord and bomb them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

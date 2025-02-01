@@ -2,6 +2,8 @@
 
 This is very tiny sword. You must possess a Dragon Amulet to wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4919

@@ -2,6 +2,8 @@
 
 This mace is topped by a spiked ball constructed of solid steel and polished to a glossy finish.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 175

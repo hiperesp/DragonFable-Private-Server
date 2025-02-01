@@ -2,6 +2,8 @@
 
 In your hands, the weight of this weapon just feels right. Proof of victory over J6 and Twang. (CC: Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21421

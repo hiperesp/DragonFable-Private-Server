@@ -2,6 +2,8 @@
 
 Thing are running amok in the servants hallways of Edelia and Danyel wants you to clear them out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

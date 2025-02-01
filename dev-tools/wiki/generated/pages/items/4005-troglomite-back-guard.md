@@ -2,6 +2,8 @@
 
 A big, fur-covered leather guard to protect your behind, and to keep you toasty warm in your travels!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4005

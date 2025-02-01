@@ -2,6 +2,8 @@
 
 An old locket containing a portrait of two smiling ice elves. Proof of victory over Dreadblight Aius.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21787

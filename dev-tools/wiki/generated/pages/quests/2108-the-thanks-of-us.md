@@ -2,6 +2,8 @@
 
 It's not Thankstaking without the Turducken.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

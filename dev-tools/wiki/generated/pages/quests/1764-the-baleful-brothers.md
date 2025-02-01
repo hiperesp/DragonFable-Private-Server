@@ -2,6 +2,8 @@
 
 Is this their full potential?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

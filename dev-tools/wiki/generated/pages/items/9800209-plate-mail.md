@@ -2,6 +2,8 @@
 
 The shiny armor of DragonWarriors!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800209

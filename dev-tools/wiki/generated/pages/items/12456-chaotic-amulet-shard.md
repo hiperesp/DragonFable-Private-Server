@@ -2,6 +2,8 @@
 
 A shard of what appears to be a chaorrupted Dragon Amulet. You can use this to increase the power of the Sword, Helm, and Wings of Dragonlord Vath.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12456

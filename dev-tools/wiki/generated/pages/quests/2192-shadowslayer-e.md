@@ -2,6 +2,8 @@
 
 The ShadowSlayer's eternal hunt has brought him here...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

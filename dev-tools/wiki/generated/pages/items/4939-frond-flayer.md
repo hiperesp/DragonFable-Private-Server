@@ -2,6 +2,8 @@
 
 A magical blade made from the leaves of the forest.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4939

@@ -2,6 +2,8 @@
 
 The most evil of smells... burnt bacon... follows you with the Black Friday '15 spear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15074

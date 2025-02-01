@@ -2,6 +2,8 @@
 
 This item has a palpable aura of power around it. The Custodian of the Libraseum in South Falconreach would be very interested in it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12355

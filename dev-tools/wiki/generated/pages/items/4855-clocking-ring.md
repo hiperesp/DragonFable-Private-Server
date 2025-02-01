@@ -2,6 +2,8 @@
 
 The teensy clock set into this ring will keep you on track and on time as you battle your way through opponents!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4855

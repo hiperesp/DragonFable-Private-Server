@@ -2,6 +2,8 @@
 
 The general of the invasion has arrived...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

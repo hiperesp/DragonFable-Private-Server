@@ -2,6 +2,8 @@
 
 Captain Blackberry has brought you to a cave where Drakath is hiding with the Wind Pearl. The passage is dangerous but with the Wind Pearl within reach you must risk it.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

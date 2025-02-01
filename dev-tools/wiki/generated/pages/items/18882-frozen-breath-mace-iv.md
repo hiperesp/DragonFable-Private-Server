@@ -2,6 +2,8 @@
 
 A treasure of Duat, flash frozen by ice magic. While heavy and awkward to wield, it seems to shift and move on its own when swung. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18882

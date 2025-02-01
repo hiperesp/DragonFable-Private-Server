@@ -2,6 +2,8 @@
 
 Darkened in honor of those who fought with Kara Su'Lema for Black Friday 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12986

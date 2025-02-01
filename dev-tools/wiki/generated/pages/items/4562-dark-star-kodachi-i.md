@@ -2,6 +2,8 @@
 
 You're a STAR!  You might not have won a place as Lim's assistant in Falconreach Idle, but you definitely proved that you've got talent!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4562

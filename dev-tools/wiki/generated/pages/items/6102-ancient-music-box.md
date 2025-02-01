@@ -2,6 +2,8 @@
 
 You have discovered an ornate music box. It appears very old and plays a beautiful melody when opened. Perhaps you can find someone who would like to take it off your hands.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6102

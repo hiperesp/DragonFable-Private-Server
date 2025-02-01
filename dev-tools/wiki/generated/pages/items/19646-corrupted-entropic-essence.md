@@ -2,6 +2,8 @@
 
 You found this sticky black residue in your bag after defeating En & Tropy. Creepy! Wonder what it could be used for... Proof of victory over En & Tropy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19646

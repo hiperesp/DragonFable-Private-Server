@@ -2,6 +2,8 @@
 
 You've come to Thursday's haunted house to try and find her missing pendant and return it to her... If you make it out alive!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

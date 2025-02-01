@@ -2,6 +2,8 @@
 
 This staff was forged in the heat of a dragon's breath. It vibrates in your hand with hidden energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 199

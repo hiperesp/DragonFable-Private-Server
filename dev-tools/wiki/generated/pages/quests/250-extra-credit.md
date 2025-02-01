@@ -2,6 +2,8 @@
 
 Noxus has sent the extra credit project of Necro U's finest to destroy Moonridge!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

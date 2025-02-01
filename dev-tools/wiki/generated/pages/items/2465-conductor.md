@@ -2,6 +2,8 @@
 
 The ball at the end of this dagger stores electricity.  Happily, it's never discharged while the hilt was pointing back at YOU.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2465

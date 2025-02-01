@@ -2,6 +2,8 @@
 
 Clear the undead out from the woods surrounding Moonridge.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

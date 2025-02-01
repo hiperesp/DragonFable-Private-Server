@@ -2,6 +2,8 @@
 
 Storm of Stars
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

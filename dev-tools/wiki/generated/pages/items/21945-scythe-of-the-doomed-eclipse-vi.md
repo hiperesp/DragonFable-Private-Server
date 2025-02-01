@@ -2,6 +2,8 @@
 
 As Doom gathered onto this massive bone, it formed a wicked blade, reminiscent of the eclipse above. Increases Bonus by Level/5 when using Light or Darkness. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21945

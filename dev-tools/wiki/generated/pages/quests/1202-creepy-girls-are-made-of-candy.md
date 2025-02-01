@@ -2,6 +2,8 @@
 
 Everything is going perfectly this year, right?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

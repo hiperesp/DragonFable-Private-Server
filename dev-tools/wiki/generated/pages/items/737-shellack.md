@@ -2,6 +2,8 @@
 
 This pet requires a Dragon Amulet. This hard-shelled pet is amazingly loyal and is found only in the forest of Oaklore, making it the perfect pet for the Knights of the Pactogonal Table.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 737

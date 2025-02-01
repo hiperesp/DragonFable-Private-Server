@@ -2,6 +2,8 @@
 
 A platinum token carried by bandit leaders. Can be sold for gold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18719

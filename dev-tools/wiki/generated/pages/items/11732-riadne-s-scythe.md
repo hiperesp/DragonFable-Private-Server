@@ -2,6 +2,8 @@
 
 A scythe once wielded by Riadne, made from her manaweb.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11732

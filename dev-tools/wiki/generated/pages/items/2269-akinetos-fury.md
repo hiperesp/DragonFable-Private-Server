@@ -3,6 +3,8 @@
 You would be raging too if you were stuck with 8 other individuals without being able to take a 
 break! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2269

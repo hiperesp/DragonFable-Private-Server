@@ -2,6 +2,8 @@
 
 Seven elemental choices for seven years of DragonFable! Thank you for helping support DF during our birthday month in 2013!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18225

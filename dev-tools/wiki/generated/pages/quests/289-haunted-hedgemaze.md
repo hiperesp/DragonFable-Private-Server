@@ -2,6 +2,8 @@
 
 The townspeople report seeing strange lights and hearing noises coming from inside the paths.  Is a pack of undead togs roaming the maze,  or is this a joke?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

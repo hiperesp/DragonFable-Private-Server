@@ -2,6 +2,8 @@
 
 The vampire queen herself now has a nest of vampires in the Doomwood! Could Thursday be there?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

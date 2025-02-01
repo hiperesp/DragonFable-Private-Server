@@ -2,6 +2,8 @@
 
 A staff created by the mysterious Rune. Imbued with even more light essence!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8511

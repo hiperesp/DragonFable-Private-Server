@@ -2,6 +2,8 @@
 
 After a healing slumber, Gorgok, the green nature dragon has awoken and plans to finish off the rest of what it began! It plans to destroy all of Willowshire and every human left defending it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

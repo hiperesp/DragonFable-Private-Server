@@ -2,6 +2,8 @@
 
 Dropped by the mastermind of the dragon catering ring, this neck seems to absorb darkness. The crystal is almost perfect except for a tiny missing shard.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1968

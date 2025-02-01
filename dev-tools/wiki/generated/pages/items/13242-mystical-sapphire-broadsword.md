@@ -2,6 +2,8 @@
 
 This weapon was crafted by Ashendal to celebrate the anniversary of his entrance into the multiverse all those years ago. It may look heavy but it has been enchanted to feel light and not impact your movement.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13242

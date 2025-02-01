@@ -2,6 +2,8 @@
 
 The time was nigh / The Hero sighs / To do what must be done / For all the glory / Averred not misery / Of missing friendly company
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

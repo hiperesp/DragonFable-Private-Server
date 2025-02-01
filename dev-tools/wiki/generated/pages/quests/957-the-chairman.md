@@ -2,6 +2,8 @@
 
 The Chairman found a dragon of his very own!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

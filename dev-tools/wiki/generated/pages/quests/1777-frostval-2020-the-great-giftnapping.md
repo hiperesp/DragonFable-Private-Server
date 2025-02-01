@@ -2,6 +2,8 @@
 
 Frostval 2020
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

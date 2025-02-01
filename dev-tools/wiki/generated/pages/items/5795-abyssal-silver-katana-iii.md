@@ -2,6 +2,8 @@
 
 When True Mortal forged the silver hammer he also forged this katana for a friend to use in battle against the Yokai. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5795

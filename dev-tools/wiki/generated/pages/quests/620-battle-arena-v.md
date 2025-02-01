@@ -2,6 +2,8 @@
 
 Can you take on these monsters?  Brought into the Guardian Tower arena specially for you to hone your battle skills!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

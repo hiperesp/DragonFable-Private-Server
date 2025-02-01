@@ -2,6 +2,8 @@
 
 Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7223

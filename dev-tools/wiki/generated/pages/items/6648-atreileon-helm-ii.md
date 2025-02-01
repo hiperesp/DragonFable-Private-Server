@@ -2,6 +2,8 @@
 
 Crafted from paraginium, this helm is sleek and battle ready.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6648

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 34 or higher to create. This dagger is said to bring good fortune to the entire bloodline of the one who crafts it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1248

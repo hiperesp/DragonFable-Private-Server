@@ -2,6 +2,8 @@
 
 Sir Vey has asked you to go to the lair of the Vurr'men hidden within the ancient ruins and recover the stolen Mollo fruit to try and restore the natural balance of the forest.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Show the world you are a monster hunter!  Enhances your critical hit chance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3749

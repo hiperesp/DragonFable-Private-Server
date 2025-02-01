@@ -2,6 +2,8 @@
 
 Noxus has sent the Necromantress after you and it looks like she has a few more tricks up her purple robed sleeve.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

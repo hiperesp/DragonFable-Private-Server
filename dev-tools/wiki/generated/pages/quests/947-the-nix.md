@@ -2,6 +2,8 @@
 
 Find the slippery, slimey scoundrel and his gang of fishmen!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

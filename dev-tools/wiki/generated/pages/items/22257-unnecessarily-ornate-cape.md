@@ -2,6 +2,8 @@
 
 This flashy cloak was crafted by a legendary weaver. It doesn't seem to keep you warm, though.  (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22257

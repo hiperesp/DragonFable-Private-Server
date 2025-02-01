@@ -2,6 +2,8 @@
 
 Shoot down incoming ice crystals and debris to help protect the barrier!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

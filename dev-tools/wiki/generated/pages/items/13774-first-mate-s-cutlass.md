@@ -2,6 +2,8 @@
 
 This blade is made only to be used by the first mate! Let no one else touch it, especially not any ninja! This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13774

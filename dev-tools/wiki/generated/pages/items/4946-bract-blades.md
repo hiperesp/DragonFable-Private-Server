@@ -2,6 +2,8 @@
 
 A magical axe made from the leaves of the forest.  This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4946

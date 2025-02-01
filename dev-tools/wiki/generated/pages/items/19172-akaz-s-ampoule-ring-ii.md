@@ -2,6 +2,8 @@
 
 A tiny glass globe filled with some sort of potion, given to you from Akaz. Akaz says it's completely sealed. Hopefully he's right.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19172

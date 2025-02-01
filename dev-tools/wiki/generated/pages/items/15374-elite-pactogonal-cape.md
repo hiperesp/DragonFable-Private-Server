@@ -2,6 +2,8 @@
 
 The official cape of the Pactogonal Knights! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15374

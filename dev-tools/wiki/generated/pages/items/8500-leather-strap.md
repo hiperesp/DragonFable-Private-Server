@@ -2,6 +2,8 @@
 
 A sturdy piece of leather, entirely unmagical!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8500

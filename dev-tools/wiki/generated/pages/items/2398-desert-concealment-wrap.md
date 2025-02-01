@@ -2,6 +2,8 @@
 
 The desert concealment wrap: For when you don't want any of your fellow rebel-heroes to be able to tell who you are! This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2398

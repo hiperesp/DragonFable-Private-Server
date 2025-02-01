@@ -2,6 +2,8 @@
 
 Only slightly corrupted from battles with countless ancient undead foes... this weapon has seen it all. Thus the ancient inscription on the side... Lich-Bane there... done that!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1538

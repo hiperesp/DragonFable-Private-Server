@@ -2,6 +2,8 @@
 
 Take down the Plushie Army!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

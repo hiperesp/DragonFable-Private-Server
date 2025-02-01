@@ -2,6 +2,8 @@
 
 It would seem that Sepulchure is outfitting his spies with the corrupted power of the elements! What could this mean?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5556

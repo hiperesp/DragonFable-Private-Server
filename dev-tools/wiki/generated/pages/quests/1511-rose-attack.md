@@ -2,6 +2,8 @@
 
 The Rose have sent a ship to intercept you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

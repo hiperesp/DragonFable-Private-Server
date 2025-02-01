@@ -2,6 +2,8 @@
 
 This shop was fully stocked during the Ravenloss War of 2011. The war rares have been removed from game. Next week, these shops will be inaccessible, as well. Then this note will be rare, too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5186

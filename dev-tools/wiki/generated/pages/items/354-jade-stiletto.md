@@ -2,6 +2,8 @@
 
 These daggers appear to have been crafted of jade. Their points are razor sharp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 354

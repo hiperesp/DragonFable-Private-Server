@@ -2,6 +2,8 @@
 
 Find and defeat one of Pallor's giant Deadwoods to gather a shard of darkness wing!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

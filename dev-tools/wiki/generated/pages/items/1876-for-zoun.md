@@ -2,6 +2,8 @@
 
 The power of For'Zoun, the Unfaithful, pulses through this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1876

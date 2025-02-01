@@ -2,6 +2,8 @@
 
 Deep in the heart of a faraway desert lives a clan of sun-worshippers.  This blade incorporates one of their holy symbols to demonstrate the devotion and trust they place in their gods. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1915

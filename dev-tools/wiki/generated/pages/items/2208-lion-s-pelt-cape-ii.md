@@ -2,6 +2,8 @@
 
 You collected enough scraps of hide after battling the Somean lion to put together this flattering cloak.    It was sewn in a pattern intended to display the shocking tattoos.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2208

@@ -2,6 +2,8 @@
 
 You have braved the heat and come out the other side of the mountain only slightly toasted! Is that burning hair that you smell?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

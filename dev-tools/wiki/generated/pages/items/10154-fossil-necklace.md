@@ -2,6 +2,8 @@
 
 A fossil of some strange sea creature is hung on this necklace. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10154

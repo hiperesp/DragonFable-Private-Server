@@ -2,6 +2,8 @@
 
 In the distance a lone Paladin battles endlessly against a graveyard overflowing with undead. You should go meet him. He looks friendly.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

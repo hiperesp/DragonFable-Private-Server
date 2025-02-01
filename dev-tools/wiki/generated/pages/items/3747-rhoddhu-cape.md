@@ -2,6 +2,8 @@
 
 A simple fur cape made from Rhoddhu pelt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3747

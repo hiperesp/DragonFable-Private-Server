@@ -2,6 +2,8 @@
 
 Looks like a member of the Rose left their weapon behind. It even comes with a cool holder! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13607

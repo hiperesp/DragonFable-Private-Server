@@ -2,6 +2,8 @@
 
 The dark runes that were once inscribed on this cloth have all but faded away from being soaked in the waters of the Bay.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13979

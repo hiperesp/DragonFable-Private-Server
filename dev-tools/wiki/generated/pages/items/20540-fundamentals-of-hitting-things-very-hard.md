@@ -2,6 +2,8 @@
 
 Fluffy tog wanted to eat your homework, but good luck trying to explain that to professor Kara! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20540

@@ -2,6 +2,8 @@
 
 From the depths of Doomwood emerge two- well, one champion, and one moglin.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

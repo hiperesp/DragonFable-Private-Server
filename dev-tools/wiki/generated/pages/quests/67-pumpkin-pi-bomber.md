@@ -2,6 +2,8 @@
 
 Finally the waves of monsters have finished attacking town, now you can finally see who is causing all the terror in Amityvale... and why.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

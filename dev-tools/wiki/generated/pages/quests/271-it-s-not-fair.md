@@ -2,6 +2,8 @@
 
 Nythera is telling you why her dragon magic is bound!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

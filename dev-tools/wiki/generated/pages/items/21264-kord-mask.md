@@ -2,6 +2,8 @@
 
 Spear sold (and broken) separately.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21264

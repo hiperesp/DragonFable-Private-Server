@@ -2,6 +2,8 @@
 
 A blue and red shirt.... with eight arms?! This will never fit you. Someone might want it though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3409

@@ -2,6 +2,8 @@
 
 The spear used by the sentries in the Exaltia Tower. Its elegant design is the result of unknown creation. (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20134

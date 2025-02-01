@@ -2,6 +2,8 @@
 
 Mimi gifted you this state-of-the-art tactical sweeper! While you can't fly around on it, you can still use it to sweep away your foes! Click to change your grip. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21717

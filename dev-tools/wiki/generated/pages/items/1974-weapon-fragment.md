@@ -2,6 +2,8 @@
 
 This small shard of shattered weapon can be traded in to Grrol of the Ursice Savages for a rare war weapon, available only during the Dragesvard War. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1974

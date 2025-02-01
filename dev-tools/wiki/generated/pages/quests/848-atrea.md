@@ -2,6 +2,8 @@
 
 The mysterious floating city of Atrea.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

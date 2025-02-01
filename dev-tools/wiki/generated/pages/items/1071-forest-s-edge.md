@@ -2,6 +2,8 @@
 
 Forest's Edge is a sword unlike any other. Its blade was cut from a normal ash tree but finished with enchanted oils which flow through the wood like sap, giving it continued life. This sword must be trimmed once every two weeks. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1071

@@ -2,6 +2,8 @@
 
 Wow! I want to get some Paladin Ultrasoft Toilet Paper of my own!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

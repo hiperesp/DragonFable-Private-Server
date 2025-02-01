@@ -2,6 +2,8 @@
 
 Can you defeat Furrkenstein?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

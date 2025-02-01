@@ -2,6 +2,8 @@
 
 Queen Pallor has grown impatient, she is sending waves of winged monsters to attack!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

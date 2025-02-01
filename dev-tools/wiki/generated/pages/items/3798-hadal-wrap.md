@@ -2,6 +2,8 @@
 
 It's almost as though no light or warmth reaches this belt at all. It's freezing to the touch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3798

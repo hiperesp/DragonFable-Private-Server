@@ -2,6 +2,8 @@
 
 In every home a candle burns to make the ghouls appear no more. On Mogloween only one can know, the tide of darkness that ever grows! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20002

@@ -2,6 +2,8 @@
 
 "Rotazoru" is a battlecry designed to strike fear into the hearts of your puny, puny opponents!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4934

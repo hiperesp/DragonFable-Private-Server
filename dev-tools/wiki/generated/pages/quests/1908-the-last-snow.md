@@ -2,6 +2,8 @@
 
 One last snowman stands between you and a peaceful Frostval... And it's a big one.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

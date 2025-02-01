@@ -2,6 +2,8 @@
 
 This is the cutest paladin EVER! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4914

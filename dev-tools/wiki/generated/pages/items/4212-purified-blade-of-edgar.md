@@ -2,6 +2,8 @@
 
 The blade of the Necromantress Vayle's undead brother, purified by a brave paladin. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4212

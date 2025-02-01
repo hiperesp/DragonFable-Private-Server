@@ -2,6 +2,8 @@
 
 Be sure to clean the monster blood off this scythe's blade, or it will rust!  Love is a battlefield!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3535

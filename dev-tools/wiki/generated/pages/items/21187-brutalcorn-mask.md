@@ -2,6 +2,8 @@
 
 Watch out, that horn is pointy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21187

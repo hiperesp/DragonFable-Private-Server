@@ -2,6 +2,8 @@
 
 A broken gem from the Abyssal temple. Aquella insisted that you keep it. Perhaps it may be used for something in the future...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21387

@@ -3,6 +3,8 @@
 A replica of Warlic's crystal ball. Legally distinct from Elemental Orbs. Changes color based on equipped weapon element. Click to change its position in your hand!
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20538

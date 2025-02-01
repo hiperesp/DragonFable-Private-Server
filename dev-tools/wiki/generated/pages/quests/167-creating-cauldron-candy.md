@@ -2,6 +2,8 @@
 
 It's CANDY MAKING TIME!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A scrap of Chaos infused armor left by Maximillian Lionfang. whatever Chaos was once within, it appears inert now. Proof of victory over Lionfang, the Zealot.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20906

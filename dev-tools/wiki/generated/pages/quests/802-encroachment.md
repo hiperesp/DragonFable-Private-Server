@@ -2,6 +2,8 @@
 
 Something is stirring up the monsters out in the wilds and driving them out of their natural habitat and into the village.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

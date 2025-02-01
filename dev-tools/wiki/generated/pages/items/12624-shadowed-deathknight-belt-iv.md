@@ -2,6 +2,8 @@
 
 You've enhanced your belt with shadow energy. It feels as though you aren't clasping anything around your waist as you put it on.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12624

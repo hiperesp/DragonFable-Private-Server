@@ -2,6 +2,8 @@
 
 A deadly blade embodying powerful wind magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5960

@@ -2,6 +2,8 @@
 
 The calm before the firestorm is ending.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

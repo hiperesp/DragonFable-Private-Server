@@ -2,6 +2,8 @@
 
 Good thing you know a good volcano!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

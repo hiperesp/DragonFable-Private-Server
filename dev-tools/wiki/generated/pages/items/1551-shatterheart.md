@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  Created by a mad Geomancer, this dagger holds the power of stone at its heart.  Too bad he used sandstone.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1551

@@ -2,6 +2,8 @@
 
 Heed the call of the Dravalkyrie! Use its wisdom and power for your own! Dun duh duh DUH DUH. DUN DUH DUH DUH DUH! DUN DUH DUH DUH DUH DUH DUH DUH DUHHHHHH!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13391

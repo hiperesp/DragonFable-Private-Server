@@ -2,6 +2,8 @@
 
 This weapon seems to have been down here for a while and has absorbed the essence of water. Is that good or bad for you?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13956

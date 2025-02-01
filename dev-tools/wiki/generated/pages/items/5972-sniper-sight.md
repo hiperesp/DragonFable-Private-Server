@@ -2,6 +2,8 @@
 
 This magical eyepiece will enhance your ability to perform critical hits and boost your damage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5972

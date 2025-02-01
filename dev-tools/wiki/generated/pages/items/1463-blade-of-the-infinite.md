@@ -2,6 +2,8 @@
 
 This swords blade is made from special metal panned from the cold waters of the Time Stream. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1463

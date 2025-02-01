@@ -2,6 +2,8 @@
 
 These beautiful daggers harness the power of Ice through SCIENCE! How do they not freeze onto the monster when you jab them? Because reasons, that's why. Stop asking!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14131

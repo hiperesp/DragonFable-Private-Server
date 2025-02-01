@@ -2,6 +2,8 @@
 
 Looking at this fills you with even more dread.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7512

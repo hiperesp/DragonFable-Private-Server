@@ -2,6 +2,8 @@
 
 This delicate cloak is woven from roses from Celestia's garden.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6946

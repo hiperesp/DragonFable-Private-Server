@@ -2,6 +2,8 @@
 
 This beautiful energy weapon was crafted by Dracelix in honor of winning the Lucky War 2012 War Challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6743

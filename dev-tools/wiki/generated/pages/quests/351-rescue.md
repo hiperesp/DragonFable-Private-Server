@@ -2,6 +2,8 @@
 
 Can you get to the tower in time to save Lady Celestia?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

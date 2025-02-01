@@ -2,6 +2,8 @@
 
 Someone has been messing with Oishii's cooking!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

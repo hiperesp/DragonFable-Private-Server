@@ -2,6 +2,8 @@
 
 While Akanthus is plotting, you follow Lynn to her cabin in the woods for a farewell party! Meanwhile, Jaania is on her way to discover what the Fissure really is.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

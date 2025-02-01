@@ -2,6 +2,8 @@
 
 Power pulses through the shaft of this staff, barely contained. Make certain that you are in control of it, and not the other way around. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17516

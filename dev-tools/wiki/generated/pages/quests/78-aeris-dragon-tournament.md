@@ -2,6 +2,8 @@
 
 Compete against fellow DragonLords in this tournament to earn a highly prized Dragon PvP Trophy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

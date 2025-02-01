@@ -2,6 +2,8 @@
 
 A forgotten cape of a soldier of Swordhaven. Perhaps you can put it to better use. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9149

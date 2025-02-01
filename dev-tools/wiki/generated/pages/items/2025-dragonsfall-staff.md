@@ -2,6 +2,8 @@
 
 A weighted staff carried by the lizardmen of Dragonsfall Wood.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2025

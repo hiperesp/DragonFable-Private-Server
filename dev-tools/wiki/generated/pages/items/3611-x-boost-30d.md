@@ -2,6 +2,8 @@
 
 DOES NOT ADD WITH OTHER X-BOOSTS! X-Boost gives you +10% Exp and Gold for every battle you win!  Lasts 30 days.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3611

@@ -2,6 +2,8 @@
 
 One of the helms used by the Chaos Weaver when supervising the workers during the construction process.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1460

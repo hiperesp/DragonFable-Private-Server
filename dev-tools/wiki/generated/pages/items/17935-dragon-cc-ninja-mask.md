@@ -2,6 +2,8 @@
 
 This mask requires a Dragon Amulet. This ninja mask is color customizable! How fashionable!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17935

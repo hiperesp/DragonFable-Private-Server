@@ -2,6 +2,8 @@
 
 Sticking your head into this bubble of experimental magic slime is probably not a great idea, but you do you, hero. If you focus hard enough, you can even block out the urge to set arbitrary timers. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22095

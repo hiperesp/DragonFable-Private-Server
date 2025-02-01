@@ -2,6 +2,8 @@
 
 This is a standard issue ninja mask for Shadow of the Wind Clan ninjas. It is available in several eye-shattering colors. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1132

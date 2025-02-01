@@ -2,6 +2,8 @@
 
 This Pet requires a Dragon Amulet. This rare fresh water turtle has, through some magical accident been transformed into an elderly fighting machine, with a bad attitude. He's old enough to know a snap kick from a snapping turtle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1184

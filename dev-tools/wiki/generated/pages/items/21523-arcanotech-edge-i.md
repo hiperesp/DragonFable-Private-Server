@@ -2,6 +2,8 @@
 
 A precise blade forged from lightning and shadow, it hums with the ticks and whirs of its inner workings, delivering swift and deadly strikes. Proof of victory over Duskbolt, the Tempest.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21523

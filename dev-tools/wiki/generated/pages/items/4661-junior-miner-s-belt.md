@@ -2,6 +2,8 @@
 
 This belt seems really small... then you think about how tiny some of the tunnels in the mine are... you don't want to think about that actually.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4661

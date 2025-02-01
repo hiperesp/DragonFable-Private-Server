@@ -2,6 +2,8 @@
 
 Atrea is under siege! Can you get past the Rose line and into the city?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

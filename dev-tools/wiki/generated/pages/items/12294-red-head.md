@@ -2,6 +2,8 @@
 
 A mask in a shape of Red's  head, one of Aspar's minions. He symbolized caring. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12294

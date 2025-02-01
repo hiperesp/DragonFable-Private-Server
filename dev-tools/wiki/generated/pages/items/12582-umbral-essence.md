@@ -2,6 +2,8 @@
 
 This seems to pull shadows into it, almost like it's devouring them. It can't actually be eating shadows though... can it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12582

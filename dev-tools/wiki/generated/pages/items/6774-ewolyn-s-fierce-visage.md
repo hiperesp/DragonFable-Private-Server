@@ -3,6 +3,8 @@
 Ewolyn was entranced by wolves and crafted this snarling wolf helm to reflect the fury of the canine guarding its home. 
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6774

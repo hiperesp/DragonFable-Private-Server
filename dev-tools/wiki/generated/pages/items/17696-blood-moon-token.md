@@ -2,6 +2,8 @@
 
 A token earned by completing the Random Blood Moon Challenge. Used for upgrading Necro Paragon Helms and Capes!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17696

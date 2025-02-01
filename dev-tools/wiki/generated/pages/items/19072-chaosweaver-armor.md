@@ -2,6 +2,8 @@
 
 The armor given to you by Secundus to channel your Soulweaving potential in a more... ambitious manner.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19072

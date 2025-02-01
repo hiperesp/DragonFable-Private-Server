@@ -2,6 +2,8 @@
 
 Notha and Myalos worked together to attach some ancient tech to Uaanta's Blaster! This wand does Evil damage and decreases its target's Avoidance! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20947

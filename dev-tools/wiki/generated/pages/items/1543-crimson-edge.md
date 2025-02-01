@@ -2,6 +2,8 @@
 
 Red blade... blue blade.... undead blade.... SLASHHH! It does not rhyme. But with a weapon this powerful does it really need to?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1543

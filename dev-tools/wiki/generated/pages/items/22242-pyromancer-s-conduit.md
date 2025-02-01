@@ -2,6 +2,8 @@
 
 A staff that allows you to channel your Pyromancy through your entire body. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22242

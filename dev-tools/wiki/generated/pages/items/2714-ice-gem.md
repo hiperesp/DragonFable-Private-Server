@@ -2,6 +2,8 @@
 
 Cysero popped back in and did something to this Ice Gem...said you might find it useful
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2714

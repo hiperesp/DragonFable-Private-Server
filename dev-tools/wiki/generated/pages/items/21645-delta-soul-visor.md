@@ -2,6 +2,8 @@
 
 A versatile Soulforged creation, capable of unprecedented prowess in weaving- along with combat, exploration, and other Magesterium restricted uses. (Cosmetic)(CC: Element)(Catalyst: SoulWeaver, Master SoulWeaver)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21645

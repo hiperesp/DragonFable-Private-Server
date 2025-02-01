@@ -2,6 +2,8 @@
 
 This staff seems to want to pull itself out of your hands on occasion. It's like it's trying to get home...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13214

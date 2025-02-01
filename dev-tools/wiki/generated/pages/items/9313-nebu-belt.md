@@ -2,6 +2,8 @@
 
 The gold coins that line this belt glimmer in the sunlight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9313

@@ -2,6 +2,8 @@
 
 With the advent of Soulforging, practical techniques of the past were passed down through practicality and artistry. From the hunter's knife to atop the Magesters' mantelpiece, tradition was kept alive. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21567

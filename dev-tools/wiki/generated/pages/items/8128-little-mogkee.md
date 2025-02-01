@@ -2,6 +2,8 @@
 
 Guaranteed to find shoes and little dogs too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8128

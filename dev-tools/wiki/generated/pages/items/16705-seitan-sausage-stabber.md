@@ -2,6 +2,8 @@
 
 This vegan and gluten-free sausage is perfect for the vegetarian rogue. They might not be the sharpest weapons, but they're spicy!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16705

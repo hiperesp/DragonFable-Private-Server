@@ -2,6 +2,8 @@
 
 This was the favored weapon of a Dragon Lord long ago that had defeated a golden dragon and trapped its power in the orb.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 280

@@ -2,6 +2,8 @@
 
 You've made it out of Nieboheim! Now, it's time to head home...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

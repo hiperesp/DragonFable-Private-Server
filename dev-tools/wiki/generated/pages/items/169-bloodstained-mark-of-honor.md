@@ -2,6 +2,8 @@
 
 This certificate seems to have been awarded to an adventurer who never once used a healing potion. The name cannot be read due to the huge red stains, burn marks, and slashes in the parchment.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 169

@@ -2,6 +2,8 @@
 
 This chickencow hat is oddly adorable! No chickencows were hurt in the making of this hat. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20870

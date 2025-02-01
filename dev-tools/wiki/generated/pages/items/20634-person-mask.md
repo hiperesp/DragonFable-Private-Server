@@ -2,6 +2,8 @@
 
 A mask of a totally normal and generic person.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20634

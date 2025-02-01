@@ -2,6 +2,8 @@
 
 The magic gem at the head of the staff glows with a malevolent energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6680

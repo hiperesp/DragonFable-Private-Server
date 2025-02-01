@@ -2,6 +2,8 @@
 
 A long lost scrap of armor, infused with Doom and the lingering will to fight. Proof of victory over the Doom spirit Patroclus!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20824

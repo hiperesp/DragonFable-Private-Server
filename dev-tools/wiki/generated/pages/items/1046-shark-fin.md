@@ -2,6 +2,8 @@
 
 This back piece shows that you're a true predator and that you can smell one drop of blood in one thousand gallons of water (smell power not included)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1046

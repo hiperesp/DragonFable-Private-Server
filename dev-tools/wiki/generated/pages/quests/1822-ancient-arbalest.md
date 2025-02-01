@@ -2,6 +2,8 @@
 
 Lock and Key wheeled out this very old arbalest for you to try out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

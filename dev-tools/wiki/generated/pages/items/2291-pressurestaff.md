@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This powerful staff may be the key to defeating your toughest foes but all that clanking makes it hard to sneak up on them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2291

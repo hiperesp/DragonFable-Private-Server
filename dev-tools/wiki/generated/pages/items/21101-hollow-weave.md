@@ -2,6 +2,8 @@
 
 Fungal fibers from the Hollow Tytan, woven into a magical material, overlaying old growth and new to provide sturdiness and flexibility.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21101

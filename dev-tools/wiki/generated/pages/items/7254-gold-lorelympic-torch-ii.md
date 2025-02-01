@@ -2,6 +2,8 @@
 
 Celebrate the 2012 Lorelympics with this fiery gold torch! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7254

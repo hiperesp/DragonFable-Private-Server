@@ -2,6 +2,8 @@
 
 Cooking is so fun, cooking is so fun!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

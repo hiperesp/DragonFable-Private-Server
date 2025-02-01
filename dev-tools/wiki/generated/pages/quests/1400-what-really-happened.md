@@ -2,6 +2,8 @@
 
 Find out what REALLY happened that fateful Frostval night as Holly and Tinsel work together to find the true meaning of the holidays!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

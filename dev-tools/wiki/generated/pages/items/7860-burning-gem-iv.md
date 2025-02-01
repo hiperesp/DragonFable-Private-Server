@@ -2,6 +2,8 @@
 
 This staff has a magical flaming ruby. Are The Rose confiscating magical weapons now?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7860

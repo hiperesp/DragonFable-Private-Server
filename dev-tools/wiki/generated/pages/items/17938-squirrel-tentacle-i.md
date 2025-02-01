@@ -2,6 +2,8 @@
 
 Don't question it. Just don't. Proof of your victory over Sciuridaehotep and the Witness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17938

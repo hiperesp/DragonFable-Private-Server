@@ -2,6 +2,8 @@
 
 A magic splatula filled with all your BBQ hopes and dreams and cravings! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11856

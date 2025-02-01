@@ -2,6 +2,8 @@
 
 A brightly colored swath of cloth, it's still warm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6941

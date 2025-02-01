@@ -2,6 +2,8 @@
 
 The fury of this fiery blade will engulf your opponents.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 841

@@ -2,6 +2,8 @@
 
 The stone for this ring was chipped out of the sea floor.  A bluefin's scale was carved into it to imbue it with the legendary racing fish's speed.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3548

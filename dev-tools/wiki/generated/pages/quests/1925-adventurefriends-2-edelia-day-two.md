@@ -2,6 +2,8 @@
 
 Welcome to the Edelia School of Weaving!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

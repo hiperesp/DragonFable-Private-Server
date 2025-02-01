@@ -2,6 +2,8 @@
 
 An ancient crypt has been overrun with undead!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

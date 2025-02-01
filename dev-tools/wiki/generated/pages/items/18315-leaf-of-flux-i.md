@@ -2,6 +2,8 @@
 
 An everchanging leaf attached to a thin chain. Proof of your victory over the Archdryad.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18315

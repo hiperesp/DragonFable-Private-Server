@@ -2,6 +2,8 @@
 
 Mr. Nameless's toys are attacking Frostvale! The moglins must be protected!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This condensed jewel of fire magic sits warmly in your pack, waiting for its moment to shine. Used to further upgrade the Forgotten Spear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21921

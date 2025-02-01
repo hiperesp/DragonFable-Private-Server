@@ -2,6 +2,8 @@
 
 Cysero, Lim, and Yix all worked together to make this weapon for you in celebration of the spirit of magiscience and togetherness!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4445

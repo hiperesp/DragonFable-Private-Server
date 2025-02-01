@@ -2,6 +2,8 @@
 
 A mysterious key that emanates pure magic power. Could it have come from the Mana Core itself? Not to be confused with a corgi.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16811

@@ -2,6 +2,8 @@
 
 The head of this staff was once plunged into the magical fires in the elemental mountains. Ever since that time it has contained a portion of that magical fire energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 924

@@ -2,6 +2,8 @@
 
 This weapon once belonged to princess Linea. Time may have forgotten her country's name, but never her staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4122

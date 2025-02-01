@@ -2,6 +2,8 @@
 
 You... you did it.  You really did it.  How  COULD you?! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3189

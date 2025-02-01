@@ -2,6 +2,8 @@
 
 You have a giant goldfish on your back!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10245

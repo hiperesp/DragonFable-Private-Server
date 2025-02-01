@@ -2,6 +2,8 @@
 
 This wicked reaper is used by the armies of the Shadowscythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18205

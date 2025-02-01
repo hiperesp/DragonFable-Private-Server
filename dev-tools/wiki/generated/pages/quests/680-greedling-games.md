@@ -2,6 +2,8 @@
 
 It's up to YOU, as the Greedling, to convince Greed that you are smart enough to help him in his plot against Tomix and the Chaosweavers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

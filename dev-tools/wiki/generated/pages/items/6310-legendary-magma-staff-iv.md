@@ -2,6 +2,8 @@
 
 An ancient staff forged in the pits of a volcano, that has been destroyed and forgotten.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6310

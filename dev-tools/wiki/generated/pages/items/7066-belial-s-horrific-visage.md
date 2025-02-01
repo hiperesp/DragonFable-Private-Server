@@ -2,6 +2,8 @@
 
 This helm was discovered in the nether regions of the abyss.  It was said to give the power of Belial to those willing to wear this evil helm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7066

@@ -2,6 +2,8 @@
 
 You found the greedling before, but that wasn't all of Dusk Alley!  Take some more time to explore it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

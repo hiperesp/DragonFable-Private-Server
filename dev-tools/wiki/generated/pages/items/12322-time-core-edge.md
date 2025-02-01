@@ -2,6 +2,8 @@
 
 Crafted by Cronix from materials scattered through time... the Time Core Edge can switch elements as you attune it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12322

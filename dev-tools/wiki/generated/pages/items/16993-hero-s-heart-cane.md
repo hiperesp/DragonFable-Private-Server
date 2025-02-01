@@ -2,6 +2,8 @@
 
 An ornately carved staff of stone, enchanted with the energy of love! It's shockingly beautiful! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16993

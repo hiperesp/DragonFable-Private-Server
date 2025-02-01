@@ -2,6 +2,8 @@
 
 With the addition of Proclamation Medals, the Rift Helmet was able to be forged! Now it just needs some personalization...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19797

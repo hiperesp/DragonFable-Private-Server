@@ -2,6 +2,8 @@
 
 This time, the bacon fights back.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2175

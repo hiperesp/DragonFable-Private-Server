@@ -2,6 +2,8 @@
 
 Heroes all over Lore celebrate courage each time they pick up this dagger and sneak into range to attack their enemies. For courage and Lore, chaaaarge! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14179

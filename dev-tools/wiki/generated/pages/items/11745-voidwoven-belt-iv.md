@@ -2,6 +2,8 @@
 
 Tomix has made a belt for you from voidling remains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11745

@@ -2,6 +2,8 @@
 
 It's time to go on the offensive!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

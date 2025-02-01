@@ -2,6 +2,8 @@
 
 A plain, almost unadorned band this ring only has the insignia of a soldier's unit engraved into it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11717

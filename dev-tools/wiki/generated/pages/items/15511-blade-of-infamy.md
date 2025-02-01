@@ -2,6 +2,8 @@
 
 For the hero who has been driven to evil. Once on a proud and righteous path, this blade has been modified to suit the needs of an infamous villain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15511

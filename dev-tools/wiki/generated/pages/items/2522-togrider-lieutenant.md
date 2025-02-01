@@ -2,6 +2,8 @@
 
 This togrider commanded a platoon under General Sneevord.  He was decorated for bravery and thinks that by staying with you, he'll have more chances to fight. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2522

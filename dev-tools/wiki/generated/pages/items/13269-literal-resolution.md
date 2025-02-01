@@ -2,6 +2,8 @@
 
 You resolve to read more in 2015! Even if it's pop-up books.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13269

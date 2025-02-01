@@ -2,6 +2,8 @@
 
 This is fire... hothothothooooooot!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8343

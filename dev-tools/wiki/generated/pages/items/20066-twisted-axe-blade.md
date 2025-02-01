@@ -2,6 +2,8 @@
 
 An axe blade, warped and twisted by some unknown cause. Proof of victory over Xang. Used to create the Forced Reflection scythe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20066

@@ -2,6 +2,8 @@
 
 If you let a little old lady beat you, we will disavow any knowledge of that victory. Good luck.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

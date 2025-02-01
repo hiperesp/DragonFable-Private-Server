@@ -2,6 +2,8 @@
 
 Elysia is going to help you train your Primal Dragon to give it new skills.  This mysterious DragonLord cave will help you relive some of your most harrowing battles!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

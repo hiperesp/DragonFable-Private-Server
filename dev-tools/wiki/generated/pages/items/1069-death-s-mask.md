@@ -2,6 +2,8 @@
 
 This weapon's magic blade was cut from an ancient statue of death, and it seems to have taken on some strange properties.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1069

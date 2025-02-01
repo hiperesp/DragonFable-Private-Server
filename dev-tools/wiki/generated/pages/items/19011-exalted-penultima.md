@@ -2,6 +2,8 @@
 
 An ancient blade of Exalted design, used in a long forgotten war. Upgraded from the Exalted Unity. Click it to switch between Good and Evil. Can be upgraded.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19011

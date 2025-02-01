@@ -2,6 +2,8 @@
 
 Maybe after you've handled this weapon for a while, you'll be able to tell whether it's positively or negatively charged.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3297

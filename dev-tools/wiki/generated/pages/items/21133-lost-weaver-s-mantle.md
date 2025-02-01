@@ -2,6 +2,8 @@
 
 The soulwoven cape of a Weaver. Whatever happened to them, their cape is here now. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21133

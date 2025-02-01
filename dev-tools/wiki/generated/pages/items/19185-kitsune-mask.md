@@ -2,6 +2,8 @@
 
 There's some writing on the inside of this mask but it doesn't say anything you can understand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19185

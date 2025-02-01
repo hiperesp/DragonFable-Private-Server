@@ -2,6 +2,8 @@
 
 The town of Amityvale has been a place of horror and dark mysteries for as long as anyone can remember. It is rumored that the towns founders were evil Vampires, Shapeshifters and Yagas.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

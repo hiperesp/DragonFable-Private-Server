@@ -2,6 +2,8 @@
 
 The Elemental Spirit of Purpose, the founder of SoulWeaving, expects great things from you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

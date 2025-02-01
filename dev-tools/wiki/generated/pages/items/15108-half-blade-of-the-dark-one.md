@@ -2,6 +2,8 @@
 
 I mean... it's a sword made of energy, even half a blade is still going to hurt things! Plus it's half off this Black Friday '15!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15108

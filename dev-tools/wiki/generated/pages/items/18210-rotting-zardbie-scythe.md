@@ -2,6 +2,8 @@
 
 The Zardbie infection of Mogloween 2011 has even affected weapons! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18210

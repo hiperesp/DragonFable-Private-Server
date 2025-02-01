@@ -2,6 +2,8 @@
 
 Your dad uses this to skewer sausages (and monsters).  Be good or he might try to use it on YOU! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17278

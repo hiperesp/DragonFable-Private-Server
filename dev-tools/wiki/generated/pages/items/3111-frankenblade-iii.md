@@ -2,6 +2,8 @@
 
 This sword has me in stitches!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3111

@@ -2,6 +2,8 @@
 
 For 600 years the tomb of the warrior Valtrith Clan has been lost! If you can get inside the tomb, what secrets can you uncover?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A bright red feather collected from a Fury. Use this to upgrade the Furious Scythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6623

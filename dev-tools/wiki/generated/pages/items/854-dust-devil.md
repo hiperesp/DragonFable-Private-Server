@@ -2,6 +2,8 @@
 
 A powerful whirlwind encompasses these blades allowing you to sweep away enemies. Great for cleaning up large and small messes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 854

@@ -2,6 +2,8 @@
 
 Dusty, musty, tattered and torn. Perfect for an up and coming, all-powerful, necromancer!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2804

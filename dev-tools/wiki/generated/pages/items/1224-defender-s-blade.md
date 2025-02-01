@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 20 or higher to create. This is a very defensive blade. It could easily double as a shield or surfboard. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1224

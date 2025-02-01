@@ -2,6 +2,8 @@
 
 These portable containment units draw upon their wearer's mana to produce a protective bubble. While hastily prepared with limited resources, Ostromir and Vseslava assure you it is perfectly serviceable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20764

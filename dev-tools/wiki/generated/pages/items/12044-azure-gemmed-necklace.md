@@ -2,6 +2,8 @@
 
 At first glance, this necklace resembles your common cheapskate. Yet when you eye it closer, the necklace's gem possesses a strange, unusual depth to it. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12044

@@ -2,6 +2,8 @@
 
 It looks like this came from the Museum Gift Shop, but it looks REALLY old and used.  It seems to help you a little, though!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3823

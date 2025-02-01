@@ -2,6 +2,8 @@
 
 A grate way to slice up dinner... or your opponents!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17073

@@ -2,6 +2,8 @@
 
 It would be REALLY hard to eat fava beans with this mask on!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3147

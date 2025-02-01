@@ -2,6 +2,8 @@
 
 Polished pieces of crushed trithril have been strung together to create this defensive belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12368

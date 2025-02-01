@@ -2,6 +2,8 @@
 
 The Forest Gate is hidden somewhere between Oaklore and Falconreach. That narrows it down a bit. Hopefully it won't take TOO long to find the Gate.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

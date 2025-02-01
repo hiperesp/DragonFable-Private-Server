@@ -2,6 +2,8 @@
 
 This is a replica of the helm of the legendary DragonLord, Vilmor, who was framed by the infamous DragonMaster Frostscythe! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4336

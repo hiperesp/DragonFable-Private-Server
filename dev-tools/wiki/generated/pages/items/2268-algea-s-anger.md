@@ -4,6 +4,8 @@ Algea looks so sweet(for a hydra), but watch when she's in a bad mood, she gets 
 
 This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2268

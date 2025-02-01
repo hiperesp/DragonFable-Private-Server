@@ -2,6 +2,8 @@
 
 This dagger was forged from the tip of a great spear that had its shaft shattered in battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 361

@@ -2,6 +2,8 @@
 
 The ice elves hunt the Northlands for ever diminishing resources... but it seems something else has joined the hunt.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

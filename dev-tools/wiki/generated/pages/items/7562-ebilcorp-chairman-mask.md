@@ -2,6 +2,8 @@
 
 Attempt to fool EbilCorp minions with the devilishly handsome mask! Happy 10th Anniversary!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7562

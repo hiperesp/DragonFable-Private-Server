@@ -2,6 +2,8 @@
 
 It's one of Thyton's famous scarves! Despite the many battles it has faced, it's still spotless. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21725

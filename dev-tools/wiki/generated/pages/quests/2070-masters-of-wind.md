@@ -2,6 +2,8 @@
 
 Masters of the element of Wind, here to sweep you away!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This massive gold-plated blade was carved from the wood of a blessed tree. The gold plating is to avoid splinters.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1128

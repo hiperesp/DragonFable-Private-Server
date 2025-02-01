@@ -2,6 +2,8 @@
 
 Razor sharp- and shockingly light! Cuts through most things like butter. Where could it have come from though?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16021

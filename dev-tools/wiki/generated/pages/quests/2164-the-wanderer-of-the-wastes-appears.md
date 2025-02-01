@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen the Wanderer of the Wastes to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

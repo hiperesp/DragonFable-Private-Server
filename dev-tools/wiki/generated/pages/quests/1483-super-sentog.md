@@ -2,6 +2,8 @@
 
 Togs of justice? What is this?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

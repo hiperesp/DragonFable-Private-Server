@@ -2,6 +2,8 @@
 
 The enigmatic- the undying- Sinnocence!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

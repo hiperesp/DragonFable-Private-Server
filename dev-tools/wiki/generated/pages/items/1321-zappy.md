@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. The energy crystal that sits atop this insulated staff will both attract and zap pesky monsters (and mosquitoes).
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1321

@@ -2,6 +2,8 @@
 
 Prisons are not the friendliest places at the BEST of times.  A prison in Ravenloss?  REALLY unfriendly! I hope you can find a way out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

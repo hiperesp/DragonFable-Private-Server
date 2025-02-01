@@ -2,6 +2,8 @@
 
 It happened in an instant. One moment, she was there, and the next, their champion was gone, subsumed by the power she sought to control. Can transform when used with the fully upgraded Abyssal Heart. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21385

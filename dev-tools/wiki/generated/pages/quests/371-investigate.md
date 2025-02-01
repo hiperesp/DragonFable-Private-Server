@@ -2,6 +2,8 @@
 
 What exactly does Snou collect?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Sir Loin seemed to have missplaced his knives...how will he eat in the mess hall now?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 479

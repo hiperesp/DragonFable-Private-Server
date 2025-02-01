@@ -2,6 +2,8 @@
 
 Forged from the scales of an ancient ice dragon, this weapon does increased damage against humans!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18203

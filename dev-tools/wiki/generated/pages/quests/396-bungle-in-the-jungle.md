@@ -2,6 +2,8 @@
 
 This steamy jungle is the only place in the world where large deposits of Ahzite ore can be found.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

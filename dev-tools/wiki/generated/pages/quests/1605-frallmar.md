@@ -2,6 +2,8 @@
 
 The legendary young frost wyrm, Frallmar, Scourge of Frostval!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

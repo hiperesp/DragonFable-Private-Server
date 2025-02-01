@@ -3,6 +3,8 @@
 Sally has certainly made some... festive changes for the holidays!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7920

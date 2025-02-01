@@ -3,6 +3,8 @@
 It blows bubbles no more.
 Proof of victory over The Kittypillar.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21365

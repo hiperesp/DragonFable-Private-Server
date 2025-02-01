@@ -2,6 +2,8 @@
 
 An ancient belt from one of the skeletons in the Professor's cave. Soldier's must have once used the cave as shelter.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6943

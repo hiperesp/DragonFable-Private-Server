@@ -2,6 +2,8 @@
 
 Feathery wings of steel make up the blade of this massive axe. It brings holy justice on your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 138

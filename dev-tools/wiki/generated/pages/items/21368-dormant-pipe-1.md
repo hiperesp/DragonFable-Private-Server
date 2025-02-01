@@ -3,6 +3,8 @@
 +1 to what? +1 to all things Dormant Pipe, of course.
 Proof of victory over "The Platinum Cabit" and "The Kittypillar" challenges.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21368

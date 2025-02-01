@@ -2,6 +2,8 @@
 
 This shield shaped necklace is a symbol of heroism and bravery. It is worn exclusively by those who protect this world. It increases your resistance to darkness damage (+5).
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 508

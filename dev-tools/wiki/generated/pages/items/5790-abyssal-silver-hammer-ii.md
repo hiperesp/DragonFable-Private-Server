@@ -2,6 +2,8 @@
 
 This hammer was forged and wielded by True Mortal several years ago when an uprising of Yokai occurred on Sho'Nuff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5790

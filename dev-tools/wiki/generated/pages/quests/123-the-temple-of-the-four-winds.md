@@ -2,6 +2,8 @@
 
 To find out more about Sepulchure's plans, you head to the Temple of the Four Winds, the last place that Sepulchure and his Dracolich Fortress attacked.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

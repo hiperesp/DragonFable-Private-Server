@@ -2,6 +2,8 @@
 
 Just another patrol through the city...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

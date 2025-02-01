@@ -2,6 +2,8 @@
 
 Falconreach may have been destroyed, but hope lives on in the form of this weapon. It reminds you of fresh baked bread and warm beds. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16961

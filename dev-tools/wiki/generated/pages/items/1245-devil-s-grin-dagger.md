@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 32 or higher to create. This weapon was designed to move so silently that the only thing that your enemy will see is your smile before they fall. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1245

@@ -2,6 +2,8 @@
 
 War town for 13Mar15
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 These daggers will pierce the essence of evil beings. Most beings. Just be careful where you point them. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17517

@@ -2,6 +2,8 @@
 
 The cold is bitter but the heat of battle will keep you warm enough to escape with your life. Next time, try to remember your scarf.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

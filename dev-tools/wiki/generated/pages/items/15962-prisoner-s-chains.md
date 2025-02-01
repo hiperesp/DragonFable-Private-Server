@@ -2,6 +2,8 @@
 
 The shackles attached to these chains rattle as you run.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15962

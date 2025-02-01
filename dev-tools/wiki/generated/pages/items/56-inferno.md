@@ -2,6 +2,8 @@
 
 The flames dance and flicker on this hot sword.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 56

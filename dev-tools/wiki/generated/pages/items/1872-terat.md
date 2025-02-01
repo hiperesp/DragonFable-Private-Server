@@ -2,6 +2,8 @@
 
 This sword is rumored to make monsters of it's wielders.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1872

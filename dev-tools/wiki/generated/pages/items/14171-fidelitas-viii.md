@@ -2,6 +2,8 @@
 
 Heroes all over Lore celebrate loyalty each time they pick up this sword and battle in wars and quests with each other. For loyalty and Lore, chaaaarge! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14171

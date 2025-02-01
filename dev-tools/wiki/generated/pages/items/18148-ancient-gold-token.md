@@ -2,6 +2,8 @@
 
 An ancient gold coin, still shiny. Engraved on it is the worn image of a... vortex? A storm? Some sort of portal? It's hard to tell. Sellable for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18148

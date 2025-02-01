@@ -2,6 +2,8 @@
 
 This weapon was blessed by the spirits of nature. Gifted with all the powers of spring and summer growth, this weapon represents life in all of its forms.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1310

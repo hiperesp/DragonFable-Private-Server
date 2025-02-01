@@ -2,6 +2,8 @@
 
 This faintly glowing dust carries the power of existence.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21880

@@ -2,6 +2,8 @@
 
 A beautiful, clear crystal hangs on this necklace. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10150

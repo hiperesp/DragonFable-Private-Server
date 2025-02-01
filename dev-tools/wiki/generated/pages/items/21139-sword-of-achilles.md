@@ -2,6 +2,8 @@
 
 A sword of Darkness and Doom... and something else. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21139

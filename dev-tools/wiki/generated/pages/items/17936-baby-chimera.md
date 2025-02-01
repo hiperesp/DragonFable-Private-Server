@@ -2,6 +2,8 @@
 
 This tiny, adorable, legendary beast hatched from your mysterious egg! It deals damage that scales with your level, and provides a shield that scales with your level! Proof of your victory over the Otherworldly Creatures Challenge board.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17936

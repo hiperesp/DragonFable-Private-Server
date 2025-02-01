@@ -2,6 +2,8 @@
 
 This dirk gives your enemies a jolt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 237

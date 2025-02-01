@@ -2,6 +2,8 @@
 
 A small blob of blue essence, left behind by Wrath in the Arena at the Edge of Time. Pointy! Used to create the Chibi Wrath cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19087

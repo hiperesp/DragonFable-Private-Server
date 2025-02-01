@@ -2,6 +2,8 @@
 
 This sword has been the fiery demise of many a moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 54

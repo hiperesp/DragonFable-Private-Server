@@ -2,6 +2,8 @@
 
 In response to reports of stolen clothing and items, the faculty at Edelia commissioned these gym bags from the famous Tkach Smithy. While they do prevent theft, they're also rather inflexible.  (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20815

@@ -2,6 +2,8 @@
 
 The wing of the nocturnal Barrat!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5952

@@ -2,6 +2,8 @@
 
 Nothing can fill the void left behind by this glaive! Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8415

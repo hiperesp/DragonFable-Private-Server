@@ -3,6 +3,8 @@
 The forces of the horrid undead are both powerful and dangerous, but in the end, they will be no match for you. 
 Well....you are PRETTY sure they wont.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This staff has a red stain on it made from the bodies of ground up beetles.  Ew!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2673

@@ -2,6 +2,8 @@
 
 Make your way to Espina Rosa but don't get caught!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This hood has hematite beads sewn into the lining.  It is said they will protect you from spilling your blood in battle and strengthen your endurance! This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2402

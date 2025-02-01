@@ -2,6 +2,8 @@
 
 The Pathstalker is a moody natural-born-hunter, but once you have earned its trust, it is a very loyal pet.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

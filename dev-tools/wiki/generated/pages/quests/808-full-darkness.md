@@ -2,6 +2,8 @@
 
 Fight the Super Mega Ultra Darkness Dracolich on dragonback!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

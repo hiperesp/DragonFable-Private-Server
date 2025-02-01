@@ -2,6 +2,8 @@
 
 This powerful weapon was forged to bring your foes to their knees! Use its power well! Your reward for beating the third of the Crawler Gauntlet Levels!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14681

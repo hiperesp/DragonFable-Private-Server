@@ -2,6 +2,8 @@
 
 The now dormant staff of the Chaos Lord Mystic. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21736

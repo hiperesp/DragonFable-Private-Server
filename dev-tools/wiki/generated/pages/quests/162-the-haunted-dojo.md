@@ -2,6 +2,8 @@
 
 Thyton has asked you to clear the darkenss spirits, called kageijin, from one of the Shadow of the Win Clan's training dojos.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

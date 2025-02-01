@@ -2,6 +2,8 @@
 
 Explore the countryside north of Falconreach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

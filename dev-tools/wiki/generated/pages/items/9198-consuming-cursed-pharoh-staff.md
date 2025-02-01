@@ -3,6 +3,8 @@
 A dry, hot poison infuses this cursed staff.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9198

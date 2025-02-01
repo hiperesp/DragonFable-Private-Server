@@ -2,6 +2,8 @@
 
 The Book of Ebil Dread conjured up this replica of Artix's legendary axe! Left behind by Undead Artix, it's now yours to keep. Boosts the power of your non-critical hits by 5%!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21169

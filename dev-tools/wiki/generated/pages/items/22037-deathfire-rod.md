@@ -2,6 +2,8 @@
 
 Once stolen from the Flamegrave Keeper, this eerie staff channels the essence of necromantic flames. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22037

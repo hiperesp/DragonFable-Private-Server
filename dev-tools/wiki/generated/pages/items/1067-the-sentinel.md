@@ -2,6 +2,8 @@
 
 This weapon has been magically enchanted to defend you against all enemies, even while you sleep. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1067

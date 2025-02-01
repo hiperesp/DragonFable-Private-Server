@@ -2,6 +2,8 @@
 
 A ill wind keens along the edge of this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 850

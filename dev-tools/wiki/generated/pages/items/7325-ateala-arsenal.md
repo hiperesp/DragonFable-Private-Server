@@ -2,6 +2,8 @@
 
 A big pile of leftover Ateala weapons! Should fetch a nice price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7325

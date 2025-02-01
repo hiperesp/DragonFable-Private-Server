@@ -2,6 +2,8 @@
 
 After emerging from the blizzard, you found these glittering lights attached to you! They're probably safe, right? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22259

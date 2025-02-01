@@ -2,6 +2,8 @@
 
 Said to be forged by a master blacksmith of another planet, this nodachi has been inlaid with magically treated gold to be able to stand up to even the thickest of blades. Created by Mordred.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5609

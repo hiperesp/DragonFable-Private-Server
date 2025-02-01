@@ -2,6 +2,8 @@
 
 This special katana was imbued with the power of shadows when it was forged.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 334

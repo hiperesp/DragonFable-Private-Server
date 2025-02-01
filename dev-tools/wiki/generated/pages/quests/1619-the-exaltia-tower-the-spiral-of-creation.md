@@ -2,6 +2,8 @@
 
 Ascend this mysterious displaced tower, filled with unbound elementals, celestials, infernals, and warbeasts. What awaits you at the top?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

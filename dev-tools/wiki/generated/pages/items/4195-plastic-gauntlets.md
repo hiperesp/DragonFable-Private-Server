@@ -2,6 +2,8 @@
 
 For when hitting a monster with your own gauntlet just won't do!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4195

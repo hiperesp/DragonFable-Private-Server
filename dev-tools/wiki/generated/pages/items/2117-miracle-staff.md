@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. With this staff, your intellect becomes truly dizzying.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2117

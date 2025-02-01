@@ -2,6 +2,8 @@
 
 This blade is forged from melting down the silver currency of foreign pirates who have "donated" to the cause.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 974

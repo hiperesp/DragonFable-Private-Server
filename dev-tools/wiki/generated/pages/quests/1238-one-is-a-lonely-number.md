@@ -2,6 +2,8 @@
 
 Bubble is in Amityvale? This cannot be good.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

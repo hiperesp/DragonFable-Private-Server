@@ -2,6 +2,8 @@
 
 You found this in the armory in the back of Mount Beeflympus.  Since Zeuster hasn't said anything about you taking it yet, you're probably alright.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2179

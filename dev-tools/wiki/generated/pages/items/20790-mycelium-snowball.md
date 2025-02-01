@@ -2,6 +2,8 @@
 
 This ball of... something... probably shouldn't have been removed from fungus infested ice floes. But it was too cute not to leave behind! It's harmless enough, right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20790

@@ -2,6 +2,8 @@
 
 Your foes won't be able to withstand the refreshing blows from this oversized lollipop! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21712

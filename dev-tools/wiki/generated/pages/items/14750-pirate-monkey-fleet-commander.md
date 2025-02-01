@@ -2,6 +2,8 @@
 
 Arrrrrr! It be a pet that won't soil your shoulder, but it might fling something unpleasant. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14750

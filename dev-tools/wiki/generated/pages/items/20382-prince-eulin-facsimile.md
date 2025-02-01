@@ -2,6 +2,8 @@
 
 A startlingly accurate facsimile of the Lagohm prince: Eulin Verriton IV, one of many commissioned by Raven. Just like the actual prince, however, this magical recreation doesn't do much in combat besides looking cute.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20382

@@ -2,6 +2,8 @@
 
 While the King is recovering, Kara sends you off to Azaveyr to gather information. But before you can go, something stops you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

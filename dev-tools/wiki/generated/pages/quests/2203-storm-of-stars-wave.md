@@ -2,6 +2,8 @@
 
 Fight your way to the storm's heart!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

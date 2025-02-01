@@ -3,6 +3,8 @@
 You can hear gears and lenses whirring in the machinery that focuses the light into blades.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6857

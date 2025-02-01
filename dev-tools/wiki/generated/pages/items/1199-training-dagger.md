@@ -2,6 +2,8 @@
 
 This is a well weighted dagger. It's not elegant but it gets the job done. This item requires a Blacksmithing skill of Rank 10.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1199

@@ -2,6 +2,8 @@
 
 Cysero copied the design used by zardbies stricken with the dreaded Z-virus!  He took special precautions so that you wouldn't catch the virus, too! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4480

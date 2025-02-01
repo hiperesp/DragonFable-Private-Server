@@ -2,6 +2,8 @@
 
 You have to get as much of the Cauldron Sister's candy as you can and return to the sisters or eat some to heal.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

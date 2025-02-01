@@ -2,6 +2,8 @@
 
 Wings made in the form of a hero who was said to take the form of a dragon in times of strife. Surely such myths are clouded with embellishment. (Cosmetic)(CC: Dragon Wings/Horns)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21979

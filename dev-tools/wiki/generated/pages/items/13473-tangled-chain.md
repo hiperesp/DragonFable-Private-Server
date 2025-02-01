@@ -2,6 +2,8 @@
 
 This fine chain is tangled in knots!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13473

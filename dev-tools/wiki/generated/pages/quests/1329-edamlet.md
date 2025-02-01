@@ -2,6 +2,8 @@
 
 Prevent the bandits from interrupting San Robin's one man show. You can do it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

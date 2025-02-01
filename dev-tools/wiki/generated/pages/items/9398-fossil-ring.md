@@ -2,6 +2,8 @@
 
 A tiny fossil is the centerpiece of this ring.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9398

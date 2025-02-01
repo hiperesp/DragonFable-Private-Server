@@ -2,6 +2,8 @@
 
 You feel like you're being watched...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

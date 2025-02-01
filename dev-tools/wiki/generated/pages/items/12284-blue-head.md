@@ -2,6 +2,8 @@
 
 A mask in a shape of Blue's  head, one of Aspar's minions. He symbolized dedication.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12284

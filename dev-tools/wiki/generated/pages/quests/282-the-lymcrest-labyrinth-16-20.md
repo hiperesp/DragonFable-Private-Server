@@ -2,6 +2,8 @@
 
 The Lymcrest Labyrinth 16-20
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

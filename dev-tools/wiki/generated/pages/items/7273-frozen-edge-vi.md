@@ -2,6 +2,8 @@
 
 A wicked edge, honed from magic, self-healing ice! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7273

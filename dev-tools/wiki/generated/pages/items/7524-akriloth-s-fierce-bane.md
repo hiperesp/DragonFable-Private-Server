@@ -2,6 +2,8 @@
 
 The blades of this scythe were forged from the teeth of the great fire dragon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7524

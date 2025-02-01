@@ -2,6 +2,8 @@
 
 The sharp edge of this rainbow blade will lead you right to gold! How lucky were you during Lucky 13?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9081

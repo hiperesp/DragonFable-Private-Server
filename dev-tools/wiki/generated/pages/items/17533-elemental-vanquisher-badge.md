@@ -2,6 +2,8 @@
 
 This ultimate badge proves your conquest over dragons and elements in the Arena at the Edge of Time! Used to upgrade Destiny weapons to level 85 Ultimate Destiny weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17533

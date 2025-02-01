@@ -2,6 +2,8 @@
 
 There might be a princess to rescue.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

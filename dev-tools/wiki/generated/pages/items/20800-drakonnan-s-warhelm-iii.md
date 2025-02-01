@@ -2,6 +2,8 @@
 
 A helm forged in the flames of retribution. You can click it to superheat its appearance! Proof of victory over the Retribution and Reclamation challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20800

@@ -2,6 +2,8 @@
 
 This finely crafted visor holds your jaw in place and blurs your vision, but at least it looks cool! Click to adjust! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22060

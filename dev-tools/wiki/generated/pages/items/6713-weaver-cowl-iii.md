@@ -3,6 +3,8 @@
 A cowl made from beautifully woven cloth.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6713

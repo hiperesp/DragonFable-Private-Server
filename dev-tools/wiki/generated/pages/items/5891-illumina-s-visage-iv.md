@@ -2,6 +2,8 @@
 
 Light gleams on the surface of this golden helm. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5891

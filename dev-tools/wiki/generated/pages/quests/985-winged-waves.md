@@ -2,6 +2,8 @@
 
 Defeat the waves of Pallor's failed experiments!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

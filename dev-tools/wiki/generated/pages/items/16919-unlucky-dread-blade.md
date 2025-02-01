@@ -2,6 +2,8 @@
 
 This sword seems to be imbued with pure darkness energy. Although it's pulsing a menacing red glow, at least it isn't talking to you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16919

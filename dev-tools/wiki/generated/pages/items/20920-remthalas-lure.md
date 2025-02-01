@@ -2,6 +2,8 @@
 
 Thanks to the power of dreams, you too can be a mysteriously hypocritical deep-sea fish, luring heroes to their Doom! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20920

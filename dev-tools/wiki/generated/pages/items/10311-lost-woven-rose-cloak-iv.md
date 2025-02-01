@@ -2,6 +2,8 @@
 
 A worn cloak, seemingly left to the elements for some time, but still serviceable. Seems to be an older style than the ones currently used by The Rose. A small 'S' is embroidered on the hem.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10311

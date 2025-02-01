@@ -2,6 +2,8 @@
 
 This black belt must have been left behind by one of the ninja spies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 998

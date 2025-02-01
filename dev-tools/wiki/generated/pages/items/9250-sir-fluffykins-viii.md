@@ -2,6 +2,8 @@
 
 Yes. Quite the proper pet for Grenwog '13. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9250

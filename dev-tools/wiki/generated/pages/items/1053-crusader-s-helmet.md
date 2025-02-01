@@ -2,6 +2,8 @@
 
 Long ago there was an order of paladins who swore an oath to recover the strongest elemental light artifacts on Lore and return them to their keep. in many cases, only their helms returned from this dangerous journey.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1053

@@ -2,6 +2,8 @@
 
 Looks like you and Grandiflora aren't having much luck finding his men on the north side of the Branden. Will the south be any different?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 As Darkness begins to spread, will you be able to save your best friend from the cold grasp of Doom? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15973

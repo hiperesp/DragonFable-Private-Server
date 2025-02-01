@@ -2,6 +2,8 @@
 
 Is that a fairy stuck in my cotton candy hair?! Bubble's Fantastic Faerie Floss, from Mogloween 2009!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3027

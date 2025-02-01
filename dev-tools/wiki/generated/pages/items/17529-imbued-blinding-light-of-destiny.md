@@ -2,6 +2,8 @@
 
 Reforged with the power of a long-forgotten blade, the Blinding Light of Destiny is sharper than ever! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17529

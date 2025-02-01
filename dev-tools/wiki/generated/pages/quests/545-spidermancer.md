@@ -2,6 +2,8 @@
 
 It's time to face the architect of this arachnatrocity!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

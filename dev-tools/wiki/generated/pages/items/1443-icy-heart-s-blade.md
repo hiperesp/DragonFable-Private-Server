@@ -2,6 +2,8 @@
 
 The rare red ice of this blade is from a glacier infused with deadly red fog.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1443

@@ -2,6 +2,8 @@
 
 Some Cultists have made it into the town and set fires all around! At least the black snow is melting...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

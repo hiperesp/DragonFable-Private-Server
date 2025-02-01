@@ -2,6 +2,8 @@
 
 A symbol of authority once used by the assistant TO the regional manager at the Munder Difflin parchment company.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1113

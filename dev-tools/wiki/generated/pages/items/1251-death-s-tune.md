@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 35 or higher to create. As the story goes, this dagger design was created while Death played the designer a tune to inspire him. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1251

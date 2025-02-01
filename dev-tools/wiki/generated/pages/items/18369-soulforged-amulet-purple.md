@@ -2,6 +2,8 @@
 
 Coated in vivid dark mist, this amulet looks almost like a choker. An Elemental Spirit of Impatience is wriggling within, making the wearer aware of their surroundings. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18369

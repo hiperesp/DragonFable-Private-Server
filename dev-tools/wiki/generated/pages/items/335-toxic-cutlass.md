@@ -2,6 +2,8 @@
 
 Made of a sickly looking green glass, this blade glows with an unhealthy light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 335

@@ -2,6 +2,8 @@
 
 You might not remember much about Mr. Nameless, but those cute ears are certainly worth dreaming up! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20922

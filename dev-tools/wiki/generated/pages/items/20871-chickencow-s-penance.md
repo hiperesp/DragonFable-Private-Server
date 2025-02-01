@@ -2,6 +2,8 @@
 
 Become what you must. Become the chickencow. Chickencows were most certainly injured, if not physically, then mentally, in the making of this offense to the Avatars. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20871

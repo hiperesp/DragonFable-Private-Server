@@ -2,6 +2,8 @@
 
 An entirely decorative golden spear once used by the Abyssal Tribe for ceremonial purposes. Despite its age, it has resisted corruption, keeping a shining gleam. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21388

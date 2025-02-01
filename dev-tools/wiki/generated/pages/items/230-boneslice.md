@@ -2,6 +2,8 @@
 
 This knife cuts clean to the bone!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 230

@@ -2,6 +2,8 @@
 
 Wearing this mask makes you want to punch something.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21195

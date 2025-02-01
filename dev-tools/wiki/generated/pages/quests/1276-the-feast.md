@@ -2,6 +2,8 @@
 
 Roirr has reached the village of Ull.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

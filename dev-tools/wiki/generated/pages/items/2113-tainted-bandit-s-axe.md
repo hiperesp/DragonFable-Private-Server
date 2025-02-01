@@ -2,6 +2,8 @@
 
 And to think, all that time it was this axe that was poisoned.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2113

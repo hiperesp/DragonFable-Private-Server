@@ -2,6 +2,8 @@
 
 You feel smarter already!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6286

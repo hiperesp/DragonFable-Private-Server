@@ -2,6 +2,8 @@
 
 This staff looks old and rickety, but it is imbued with the ancient and awe-inspiring power of the river Nyx!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4138

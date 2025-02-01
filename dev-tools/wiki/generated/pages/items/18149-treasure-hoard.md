@@ -2,6 +2,8 @@
 
 A large treasure chest filled with, well, treasure! Mostly coins and mundane gems, but still sellable for a very nice price! Lucky!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18149

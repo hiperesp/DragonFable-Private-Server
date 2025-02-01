@@ -2,6 +2,8 @@
 
 This old broom can be carried around for whenever you might need it! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21718

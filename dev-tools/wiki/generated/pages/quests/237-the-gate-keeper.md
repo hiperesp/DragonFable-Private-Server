@@ -2,6 +2,8 @@
 
 Using Zorbak's student I.D. you and Artix have infiltrated the Necropolis! What secrets will you uncover?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

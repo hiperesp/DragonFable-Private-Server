@@ -2,6 +2,8 @@
 
 Did you remember to call ahead?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

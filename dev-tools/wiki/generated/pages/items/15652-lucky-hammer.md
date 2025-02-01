@@ -2,6 +2,8 @@
 
 Crafted by the legendary weaponsmith, the Paladin Dracelix, this hammer is sure to be a smashing breakthrough in your heroic feats! This lucky weapon does additional crit damage!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15652

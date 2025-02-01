@@ -2,6 +2,8 @@
 
 A ceremonial staff used by the ice elves, said to hold the power to summon the aurora. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20683

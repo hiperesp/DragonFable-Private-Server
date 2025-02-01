@@ -2,6 +2,8 @@
 
 This ornate staff glows with an eerie inner light. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12202

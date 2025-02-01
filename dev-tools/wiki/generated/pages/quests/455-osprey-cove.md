@@ -2,6 +2,8 @@
 
 Fire monsters are attacking random towns. Can you stop them before they overrun everything?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

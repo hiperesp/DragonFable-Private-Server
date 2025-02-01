@@ -2,6 +2,8 @@
 
 Vorstorm and seven years ago...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1454

@@ -2,6 +2,8 @@
 
 Valencia is hunting for a nine-leaf clover, which she has heard is rarer than any other little green plant around.  If you help her, she'll see what she can do about improving your luck.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

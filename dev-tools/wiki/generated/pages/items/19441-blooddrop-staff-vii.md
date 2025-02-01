@@ -2,6 +2,8 @@
 
 A staff crafted by Big Daddy from a massive drop of sea monster blood. How did Big Daddy manage that trick? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19441

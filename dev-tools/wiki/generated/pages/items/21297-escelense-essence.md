@@ -2,6 +2,8 @@
 
 A mysterious essence harnessed by the Ateala. Proof of victory over Etaos.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21297

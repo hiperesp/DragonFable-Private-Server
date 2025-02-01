@@ -2,6 +2,8 @@
 
 This item required a Dragon Amulet. It is a magical wintery cloak that trails snow behind you, in any temperature. Happy Frostval!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1355

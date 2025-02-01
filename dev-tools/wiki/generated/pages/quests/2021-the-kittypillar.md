@@ -2,6 +2,8 @@
 
 Wandering here, wandering there... Don't be late!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The ChickenCows are restless!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

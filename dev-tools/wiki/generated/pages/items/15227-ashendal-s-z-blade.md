@@ -2,6 +2,8 @@
 
 Crafted by Ashendal in a... different time, this blade hums with kinetic energy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15227

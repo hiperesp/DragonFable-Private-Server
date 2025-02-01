@@ -2,6 +2,8 @@
 
 This blade seems to shift in and out of view slightly just like the dimensional shard. Are they connected somehow?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14817

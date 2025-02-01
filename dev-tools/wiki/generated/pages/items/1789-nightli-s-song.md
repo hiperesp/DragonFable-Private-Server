@@ -2,6 +2,8 @@
 
 A siren's song plays along the lithe blade of this sword.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1789

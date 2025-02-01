@@ -3,6 +3,8 @@
 A replica of the AdventureFiend's face of nightmares.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20534

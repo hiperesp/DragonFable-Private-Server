@@ -2,6 +2,8 @@
 
 Dragon from the future... past!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21203

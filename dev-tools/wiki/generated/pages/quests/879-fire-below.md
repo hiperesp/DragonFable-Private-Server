@@ -2,6 +2,8 @@
 
 Wargoth's minions have stowed away in the caverns under the city.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

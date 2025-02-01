@@ -2,6 +2,8 @@
 
 In the cut-throat world of spies against spies, make sure your allegiance is clear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3846

@@ -2,6 +2,8 @@
 
 A blade forged in the depths of Xan's volcanic fortress.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 962

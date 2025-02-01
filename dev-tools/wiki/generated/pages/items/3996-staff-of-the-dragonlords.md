@@ -3,6 +3,8 @@
 This staff is usually used by very powerful mages who attempt to control dragon magic, and sometimes to control the dragons themselves.  This item requires a Dragon Amulet.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3996

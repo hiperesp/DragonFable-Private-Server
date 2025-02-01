@@ -2,6 +2,8 @@
 
 With the help of Big Daddy, a lonely sorcerer converted his old weapon into this in exchange for Snuggle-Grams. Now the scythe is pink and purple, and filled with love!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15493

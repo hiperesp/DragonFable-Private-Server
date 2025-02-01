@@ -2,6 +2,8 @@
 
 Created from pieces of the Beast of War this helm is guaranteed to mess with your opponents head! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5573

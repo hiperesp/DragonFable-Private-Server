@@ -2,6 +2,8 @@
 
 At the very center of tidal waves, a little sea sprite sometimes can be found dancing with glee.  The stone on this necklace was carved to resemble it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3550

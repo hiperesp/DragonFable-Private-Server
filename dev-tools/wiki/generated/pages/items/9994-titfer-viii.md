@@ -2,6 +2,8 @@
 
 A very classy hat to hold your cards! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9994

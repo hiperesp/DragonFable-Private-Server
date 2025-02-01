@@ -2,6 +2,8 @@
 
 Your pursuit of Akanthus takes you to the very heart of Lore...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

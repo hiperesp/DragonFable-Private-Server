@@ -2,6 +2,8 @@
 
 Can the Knights of Oaklore find time to help the Gnomes of Popsprocket?  Lets hope so!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

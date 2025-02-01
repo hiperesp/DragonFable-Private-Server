@@ -2,6 +2,8 @@
 
 This Vurrmen tail doesn't seem to have been shaved recently. Do Vurrmen even shave their tails? Probably best not to find out.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12517

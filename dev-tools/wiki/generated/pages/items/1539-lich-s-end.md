@@ -2,6 +2,8 @@
 
 If your intention is to transmute a Lich to Swiss Cheese... then this is the weapon you have been dreaming of! Just be careful 'Lich End' you pick it up from!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1539

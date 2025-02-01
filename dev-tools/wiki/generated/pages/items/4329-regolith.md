@@ -2,6 +2,8 @@
 
 This necklace is created from very deep, ancient rocks that have weathered out of the earth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4329

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is the matching sword to the daggers known as Fireline. This weapon was once in the armory of the elemental mage called the FireMistress.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 920

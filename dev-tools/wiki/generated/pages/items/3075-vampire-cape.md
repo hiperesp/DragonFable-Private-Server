@@ -2,6 +2,8 @@
 
 This stylish cape is the latest in vampire fashion. Sparkles cost extra though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3075

@@ -2,6 +2,8 @@
 
 A very sturdy belt made from tanned troglomite hide and enchanted with helpful magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4007

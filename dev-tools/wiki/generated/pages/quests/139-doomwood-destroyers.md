@@ -2,6 +2,8 @@
 
 You must battle your way through this cursed forest to destroy the evil tree monster responsible for these corrupt trees.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

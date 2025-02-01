@@ -2,6 +2,8 @@
 
 This teacher's assistant has mistaken you for a student and asked you to help him test his new and improved Doomcrawler!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

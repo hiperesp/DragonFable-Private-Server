@@ -2,6 +2,8 @@
 
 The legendary spear Rainbow's End, found in the ancient forest of Rainbow's End. A fascinating treasure.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18745

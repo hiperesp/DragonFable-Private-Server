@@ -2,6 +2,8 @@
 
 This glaive was crafted from shards of the Dark Key Orb.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7829

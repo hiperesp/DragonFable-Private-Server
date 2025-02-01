@@ -2,6 +2,8 @@
 
 As you face The Great One's Gauntlet, you and your dragon can't help but wonder what awaits within...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

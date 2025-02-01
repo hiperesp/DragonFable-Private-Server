@@ -2,6 +2,8 @@
 
 Brimming with static electricity, Sepulchure twists the powers of the stolen orbs to his whim.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5583

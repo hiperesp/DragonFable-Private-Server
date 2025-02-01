@@ -2,6 +2,8 @@
 
 Thursday has gone missing! Head to the Darkness Guardian Tower to confront Frydae!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

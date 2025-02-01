@@ -2,6 +2,8 @@
 
 On the edge of the Northland,fungal growths and creatures seem to be making their spread.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

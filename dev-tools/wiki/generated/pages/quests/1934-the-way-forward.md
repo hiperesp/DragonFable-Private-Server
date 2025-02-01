@@ -2,6 +2,8 @@
 
 All across Greenguard, it's time to take the next step forward.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

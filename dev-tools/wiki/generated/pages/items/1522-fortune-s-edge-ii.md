@@ -2,6 +2,8 @@
 
 This axe once belonged to a hero named Lucky, who fell off a cliff onto a pile of poisoned arrows... Poor ol' Lucky.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1522

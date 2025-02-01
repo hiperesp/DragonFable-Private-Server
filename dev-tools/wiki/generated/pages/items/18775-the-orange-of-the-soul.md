@@ -2,6 +2,8 @@
 
 This is a normal orange. One side is stamped with the letter "o". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18775

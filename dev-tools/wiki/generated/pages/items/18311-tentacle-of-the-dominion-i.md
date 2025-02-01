@@ -2,6 +2,8 @@
 
 A tiny tentacle torn from the defeated Simulacrum of Kathool, this ring slithers around your finger. I'm sure it'll be fine. Proof of your victory over the Simulacrum of Kathool.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18311

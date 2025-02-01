@@ -2,6 +2,8 @@
 
 Slender, yet deadly, this blade will strike true.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 307

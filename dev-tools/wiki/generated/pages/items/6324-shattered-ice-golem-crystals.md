@@ -3,6 +3,8 @@
 The crystals vibrate, like they still have a little life in them yet.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6324

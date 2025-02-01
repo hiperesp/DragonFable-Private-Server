@@ -2,6 +2,8 @@
 
 Forged from the scales of an ancient ice dragon, these wings shield you from heat! You can upgrade this weapon at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9177

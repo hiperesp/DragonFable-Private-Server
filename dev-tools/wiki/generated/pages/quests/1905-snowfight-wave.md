@@ -2,6 +2,8 @@
 
 Snow creatures appear out of the snow! They must be stopped!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

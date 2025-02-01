@@ -2,6 +2,8 @@
 
 Roktoru emerges to face you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

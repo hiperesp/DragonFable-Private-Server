@@ -2,6 +2,8 @@
 
 This weapon seems to glow with a magical radiance.  It was forged by melting down and creating an alloy out of nautiloid shells.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4085

@@ -2,6 +2,8 @@
 
 Deep in the swamp near Amityvale, Chaney struggles to find a cure for his brother's lycanthropy. He can also use these research materials to make Destiny Weapons more powerful.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1719

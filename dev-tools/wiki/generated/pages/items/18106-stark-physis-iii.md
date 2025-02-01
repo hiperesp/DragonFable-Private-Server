@@ -2,6 +2,8 @@
 
 An ancient relic of the Ostveld coast. Found deep within a magic influenced coastal forest, it seems to be connected deeply to that area. Its craftsmanship is indecipherable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18106

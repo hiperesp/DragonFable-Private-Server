@@ -2,6 +2,8 @@
 
 Only the most astute of sleuths are fit to wear this old-fashioned cap!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4071

@@ -2,6 +2,8 @@
 
 Poke your foes with that sweet sweet beta-carotene precision! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21845

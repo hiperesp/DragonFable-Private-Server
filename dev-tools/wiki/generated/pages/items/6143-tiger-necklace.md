@@ -2,6 +2,8 @@
 
 The stone at the end of this necklace is carved into a beautiful rendition of a tiger-like woman.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6143

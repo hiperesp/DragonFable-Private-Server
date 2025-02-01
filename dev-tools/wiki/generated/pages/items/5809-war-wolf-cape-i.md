@@ -3,6 +3,8 @@
 This shimmering cape appears to be the pelt of a wolf, but closer examination reveals it to be finely
 crafted metal fur made through a secret process.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5809

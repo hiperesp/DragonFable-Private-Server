@@ -2,6 +2,8 @@
 
 Deep in the swamp near Amityvale, Chaney struggles to find a cure for his brother's lycanthropy. He can also use these research materials to make Doom Weapons more dangerous.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 661

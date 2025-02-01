@@ -2,6 +2,8 @@
 
 Half-Crafted in honor of Jester857. The 856 Jesters before didn't have nearly as much talent!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6216

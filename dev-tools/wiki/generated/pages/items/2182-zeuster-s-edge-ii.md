@@ -2,6 +2,8 @@
 
 You found on top of a bench in garden on Mount Beeflympus.  Since Zeuster hasn't said anything about you taking it yet, you're probably alright.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2182

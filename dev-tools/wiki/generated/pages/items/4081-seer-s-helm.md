@@ -2,6 +2,8 @@
 
 A well-balanced helm for the adventurer. It is enchanted with sight-boosting magic! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4081

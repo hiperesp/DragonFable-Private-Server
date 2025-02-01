@@ -2,6 +2,8 @@
 
 The power of the north wind flows through this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 815

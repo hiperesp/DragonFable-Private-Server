@@ -2,6 +2,8 @@
 
 You aren't a dummy when you're wearing this mask.  It makes your defenses awesome!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3133

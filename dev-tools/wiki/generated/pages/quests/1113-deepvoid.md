@@ -2,6 +2,8 @@
 
 Aspar has been busy...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

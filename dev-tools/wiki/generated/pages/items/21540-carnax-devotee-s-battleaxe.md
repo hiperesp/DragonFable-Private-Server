@@ -2,6 +2,8 @@
 
 This weapon was pulled out of a portal following your encounter with Carnax. With its striking resemblance to Carnax's physiology, where could it have come from? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21540

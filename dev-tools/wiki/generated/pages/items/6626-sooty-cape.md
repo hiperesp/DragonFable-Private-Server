@@ -2,6 +2,8 @@
 
 Covered with soot this cloak provides fire protection. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6626

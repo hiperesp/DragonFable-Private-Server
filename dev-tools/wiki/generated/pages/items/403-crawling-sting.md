@@ -2,6 +2,8 @@
 
 This curious yet morbid dagger was made to resemble an upturned dead scorpion, with it's stinging tail as the blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 403

@@ -2,6 +2,8 @@
 
 The claw from a ferocious Rhoddhu.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3734

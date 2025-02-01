@@ -2,6 +2,8 @@
 
 Falwynn has a LOT to learn...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

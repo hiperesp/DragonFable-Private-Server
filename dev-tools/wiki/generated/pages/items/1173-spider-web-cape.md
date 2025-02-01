@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This billowy cape has been magically crafted from the finest spider's web. It's kind of sticky but it's breathable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1173

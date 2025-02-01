@@ -2,6 +2,8 @@
 
 Following the great Undead Assault, the holy Axe of the Paladin Artix was cursed and infused with pure darkness to create this terrible weapon of unstoppable dark power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 136

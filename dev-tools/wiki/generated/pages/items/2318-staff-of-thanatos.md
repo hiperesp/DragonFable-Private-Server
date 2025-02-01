@@ -3,6 +3,8 @@
 The glowing gems on this staff contain the tiniest bit of Death's power.  Even that small bit, though, is enough to terrify the enemies you use this on.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2318

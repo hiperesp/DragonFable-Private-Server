@@ -2,6 +2,8 @@
 
 You gave Twig some fish heads and he's feeling a little better! You can sell these bones though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15326

@@ -2,6 +2,8 @@
 
 The remains of Sepulchure's tower groan and shift... you better find one of his helms and get out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

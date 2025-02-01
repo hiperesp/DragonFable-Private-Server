@@ -2,6 +2,8 @@
 
 This dashing silk sash is worn by the princes of the desert. Both stylish and functional, it looks good and is an excellent place to put your weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5515

@@ -2,6 +2,8 @@
 
 Can you recover candies from each of the sisters?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You'd be aggressive and resentful too if you had to have your hats specially ordered to fit your horns.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2288

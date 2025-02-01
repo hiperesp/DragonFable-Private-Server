@@ -2,6 +2,8 @@
 
 Forged from minerals found deep within the earth, this blade is light enough for fast action but heavy enough to do real damage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1334

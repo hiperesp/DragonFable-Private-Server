@@ -2,6 +2,8 @@
 
 Chilly has somehow turned evil and is raising an army of snow monsters to take over Frostvale! Find out why your friend has gone down this path and put an end to his reign as the Nec-snow-mancer!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

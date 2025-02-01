@@ -2,6 +2,8 @@
 
 Deep in the reaches of this unnaturally frozen cave, you stumbled upon an ancient frost dragon... who is none to happy to see you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 You've broken the attackers weapons! Collect five to turn into Kara.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10865

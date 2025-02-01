@@ -2,6 +2,8 @@
 
 These blade were created from sharp pieces of rock. Perfect to slip through your enemies armor.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 856

@@ -2,6 +2,8 @@
 
 Get ready to hunt.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

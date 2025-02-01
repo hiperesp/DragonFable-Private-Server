@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 13 or higher to create.  This is a very simple wand design for beginner wandsmiths.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1227

@@ -2,6 +2,8 @@
 
 Though at first glance this hood appears to be of gnomish make, the technology behind it is more akin to that of the Magesterium... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22079

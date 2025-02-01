@@ -2,6 +2,8 @@
 
 One of the student belts that denotes rank in Edelia.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10209

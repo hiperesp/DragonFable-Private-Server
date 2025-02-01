@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and Blacksmithing Level 18 or higher to create. So much DESTINY, it hurts!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1718

@@ -2,6 +2,8 @@
 
 Sepulchure begins his final attack!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

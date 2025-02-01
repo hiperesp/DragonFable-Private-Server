@@ -2,6 +2,8 @@
 
 You have an urge to challenge everyone while wearing this mask!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21284

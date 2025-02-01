@@ -2,6 +2,8 @@
 
 Rooooolith and Aliiiina! The Paladin Programmer and the Alchemist Aggressor! Can you defeat the Happy Couple?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

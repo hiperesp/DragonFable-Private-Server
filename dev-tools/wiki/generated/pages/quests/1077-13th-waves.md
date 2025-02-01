@@ -2,6 +2,8 @@
 
 Monsters are attacking Falconreach!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

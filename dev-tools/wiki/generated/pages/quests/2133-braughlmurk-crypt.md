@@ -2,6 +2,8 @@
 
 Once a paladin order's crypt, these dusty halls were used by the invading necromancers to summon undead.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

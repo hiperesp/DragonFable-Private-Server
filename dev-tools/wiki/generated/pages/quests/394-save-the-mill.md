@@ -2,6 +2,8 @@
 
 SEED SPITTERIFIC!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

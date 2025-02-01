@@ -2,6 +2,8 @@
 
 You have finally arrived in Azaveyr! Time for exploring will be later, right now you need to find a way to the Magesterium.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

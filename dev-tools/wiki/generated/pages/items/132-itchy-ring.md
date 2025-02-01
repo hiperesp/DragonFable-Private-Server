@@ -2,6 +2,8 @@
 
 This tarnished ring is an unhealthy yellow-green color, and when you hold it the ring seems to cause your hand to itch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 132

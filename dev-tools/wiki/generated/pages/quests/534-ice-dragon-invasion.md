@@ -2,6 +2,8 @@
 
 Return to an earlier time... a colder time.  A time with... Ice Dragons!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

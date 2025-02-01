@@ -2,6 +2,8 @@
 
 This sword is imbued with the power of fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 353

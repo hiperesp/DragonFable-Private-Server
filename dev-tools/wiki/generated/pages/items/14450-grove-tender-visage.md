@@ -2,6 +2,8 @@
 
 Don this visage and be empowered by nature itself! You can upgrade this helm at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14450

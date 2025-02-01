@@ -2,6 +2,8 @@
 
 Can you defeat Varax?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

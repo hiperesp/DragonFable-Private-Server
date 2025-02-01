@@ -2,6 +2,8 @@
 
 The official mask of the Zirkonnin Empire's Deadly Assassins. Now with 25% more Zirkkonium.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1883

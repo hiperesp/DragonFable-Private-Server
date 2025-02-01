@@ -2,6 +2,8 @@
 
 The hero arrives in Croft, where an unusual phenomenon is occuring.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

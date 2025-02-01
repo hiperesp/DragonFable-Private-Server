@@ -2,6 +2,8 @@
 
 This belt is made of the sleek scales from an Aqueevil hide. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15959

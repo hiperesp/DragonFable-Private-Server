@@ -2,6 +2,8 @@
 
 Lim has crafted this blade to prove that there is nothing science can't do!  It can even contain the power of fire and the power of water in ONE blade!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3166

@@ -2,6 +2,8 @@
 
 This weapon was originally made from a pair of tonfa but became fused together into this unusual wooden weapon during a magical battle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1122

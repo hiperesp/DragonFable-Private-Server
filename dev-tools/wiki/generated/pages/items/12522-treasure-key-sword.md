@@ -2,6 +2,8 @@
 
 This giant key must unlock some massive treasure chest. Too bad you don't know where it could be. It does make a nice weapon though.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12522

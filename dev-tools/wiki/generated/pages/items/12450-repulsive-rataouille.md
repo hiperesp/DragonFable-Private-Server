@@ -2,6 +2,8 @@
 
 You can scarce conceive what twisted mind created this much less how it was fitted into a necklace. Strangely, simply knowing you can endure the horrible stench and sight makes you feel stronger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12450

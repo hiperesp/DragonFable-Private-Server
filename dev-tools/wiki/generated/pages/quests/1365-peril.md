@@ -2,6 +2,8 @@
 
 Your dragon has gone south towards the Doomwood... are you prepared to follow?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

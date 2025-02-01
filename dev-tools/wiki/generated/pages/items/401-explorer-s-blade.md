@@ -2,6 +2,8 @@
 
 This knife isn't much to look at but its solid construction and reliable edge make it a good blade to have in any situation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 401

@@ -2,6 +2,8 @@
 
 This necklace is pretty rigid, but the teeth line up beautifully.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9673

@@ -2,6 +2,8 @@
 
 This ring is crafted from the claw of an unknown feline and plated in silver. Its wicked curvature make it a perfect band. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6597

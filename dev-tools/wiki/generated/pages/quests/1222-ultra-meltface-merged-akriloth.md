@@ -2,6 +2,8 @@
 
 You asked for it. The Mega Ultra Meltface Magma Akriloth is not someone to mess with.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

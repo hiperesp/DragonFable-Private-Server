@@ -2,6 +2,8 @@
 
 Frostfyre, greatest of the Ice Giants, forged this staff from pure ice from the northern reaches of Lore.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16066

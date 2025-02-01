@@ -2,6 +2,8 @@
 
 Warlic won't help you... Elysia sacrificed herself for you so she CAN'T help you anymore... The only people left to go to are Nythera's parents.  I hope they don't say I told you so!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

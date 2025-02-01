@@ -2,6 +2,8 @@
 
 An ornate Celestial blade, upgraded from Thaumaturgus Omega. Can be upgraded.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18816

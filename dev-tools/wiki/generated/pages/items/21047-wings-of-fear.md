@@ -2,6 +2,8 @@
 
 On wings of crimson they swooped down from the trees, swarming their helpless prey. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21047

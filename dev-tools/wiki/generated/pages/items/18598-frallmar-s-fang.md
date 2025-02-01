@@ -2,6 +2,8 @@
 
 This large fang of the legendary frost wyrm Frallmar can be used to upgrade Ancient Frost Moglin weapons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18598

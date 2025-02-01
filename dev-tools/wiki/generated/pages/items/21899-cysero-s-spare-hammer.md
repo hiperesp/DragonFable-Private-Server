@@ -2,6 +2,8 @@
 
 You've somehow gotten your hands on one of Cysero's spare hammers! It hums with hidden... potential. Proof of victory over The Clashening challenge. (Cosmetic)(On hit/On demand Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21899

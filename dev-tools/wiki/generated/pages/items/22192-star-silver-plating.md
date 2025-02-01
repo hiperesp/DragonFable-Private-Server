@@ -2,6 +2,8 @@
 
 This sheet of mysterious silver metal is strong, light, and pliable. Proof of victory over V-Hunter EX13.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22192

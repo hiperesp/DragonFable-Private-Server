@@ -2,6 +2,8 @@
 
 Based on the descriptions of an ancient deity from a distant star, this helmet was forged in its image. You can upgrade this helm at the Black Market Moglin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20466

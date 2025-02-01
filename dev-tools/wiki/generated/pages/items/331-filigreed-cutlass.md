@@ -2,6 +2,8 @@
 
 Intricately detailed, this blade took many long weeks to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 331

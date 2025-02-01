@@ -2,6 +2,8 @@
 
 There isn't a lot of loving going on but Beleen has a plan, uhoh!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

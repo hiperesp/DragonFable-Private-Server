@@ -2,6 +2,8 @@
 
 Trisklyos, also called "Grrrberus," wants his puppy back.  You shouldn't take what doesn't belong to you. Now it's time to face an angry father or three.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This guard seems to soak up light and convert it into a protective field.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1687

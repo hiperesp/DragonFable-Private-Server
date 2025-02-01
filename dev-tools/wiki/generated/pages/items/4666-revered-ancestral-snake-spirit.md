@@ -2,6 +2,8 @@
 
 This spiritual serpent has been granted to members of the Shadow of the Wind Clan. It represents the ability to free yourself from any situation, as a snake escapes it's own skin.  Day of the Ninja rare pet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4666

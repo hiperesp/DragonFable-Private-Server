@@ -2,6 +2,8 @@
 
 A sunken galleon, full of forgotten treasures... hopefully!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

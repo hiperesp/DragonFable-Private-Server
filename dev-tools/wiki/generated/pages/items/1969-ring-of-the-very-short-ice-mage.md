@@ -2,6 +2,8 @@
 
 This ring is warm to the touch, and provides excellent protection against ice. It was crafted by a very talented, very, very short elemental ice mage. I mean... REALLY short. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1969

@@ -2,6 +2,8 @@
 
 I mean, of course it's an Avatar of Time.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

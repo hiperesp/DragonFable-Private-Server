@@ -2,6 +2,8 @@
 
 This hollowed out 'phage head oddly seems to fit you quite comfortably. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20427

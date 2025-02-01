@@ -2,6 +2,8 @@
 
 The spear of the mysterious Reaver. Its rugged tip never needs to be sharpened. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21136

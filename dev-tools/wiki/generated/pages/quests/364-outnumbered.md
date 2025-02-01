@@ -2,6 +2,8 @@
 
 The cattle in Jeron's herd have been attacked.  Zeuster sends you to help. In this win- win situation, the cattle gain a protector, Zeuster gains a gold statue, and you grow closer to learning the truth about element bacon.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

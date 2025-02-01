@@ -2,6 +2,8 @@
 
 This staff once belonged to a hero named Lucky, who tripped over an angry dragon into a pit of larger, angrier dragons... Poor ol' Lucky.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1523

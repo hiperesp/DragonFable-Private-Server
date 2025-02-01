@@ -2,6 +2,8 @@
 
 Darkon's axe, broken and shattered. Proof of victory over Darkon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21032

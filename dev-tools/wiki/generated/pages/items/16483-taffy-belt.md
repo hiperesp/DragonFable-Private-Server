@@ -2,6 +2,8 @@
 
 You have harvested some of the taffies growing out of the blueberry grass, stretched them out and made a belt for yourself as a souvenir... crafty! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16483

@@ -2,6 +2,8 @@
 
 Arrr, me mateys! Celebrate TLaPD in true pirate style!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10431

@@ -2,6 +2,8 @@
 
 This sword really suits you! But it's not shaped like a diamond at all...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3943

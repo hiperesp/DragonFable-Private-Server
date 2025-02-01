@@ -2,6 +2,8 @@
 
 The Ostara's Dracobunny is a rare and legendary creature that is as cute as it is deadly! This pet's damage scales with your level. Raised by Dracelix! This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18830

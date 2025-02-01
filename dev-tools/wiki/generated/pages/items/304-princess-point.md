@@ -2,6 +2,8 @@
 
 This pretty dagger is covered in ruby hearts.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 304

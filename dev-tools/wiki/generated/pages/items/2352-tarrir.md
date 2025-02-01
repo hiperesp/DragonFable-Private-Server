@@ -3,6 +3,8 @@
 The flame contained in this blade once blazed in a torch held by a page attending an Elf Queen as she toured a bardic hall.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2352

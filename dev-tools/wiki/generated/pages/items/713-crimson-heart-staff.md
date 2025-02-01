@@ -2,6 +2,8 @@
 
 Crimson red and donning a little heart, this staff is best used toward those with no heart and defeats those who think that its best to have a heart of evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 713

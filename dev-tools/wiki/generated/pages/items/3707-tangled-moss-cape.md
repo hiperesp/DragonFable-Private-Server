@@ -2,6 +2,8 @@
 
 Murk made this by twining together strips of the moss found in Silkwood Park.  It's very stylish.  For being made of moss, that is. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3707

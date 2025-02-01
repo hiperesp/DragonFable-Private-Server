@@ -2,6 +2,8 @@
 
 Forged by the Avatars in ages long past. Now available for DragonFable's anniversary! Allows element selection. Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18164

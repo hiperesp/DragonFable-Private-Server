@@ -2,6 +2,8 @@
 
 This staff strikes with the power of the desert!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 291

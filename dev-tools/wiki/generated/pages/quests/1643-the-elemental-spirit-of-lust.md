@@ -2,6 +2,8 @@
 
 Before you stands Lust, an artificial Elemental Spirit born of Pandora's longing.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Fashioned in the style of the dragon guards, this helm was made to represent draconic superiority, and worn by dragons in human form during battle. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1054

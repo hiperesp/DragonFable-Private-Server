@@ -2,6 +2,8 @@
 
 Festivities are in full swing all over Frostvale as the towns inhabitants celebrate your victory over Noxus and enjoy freedom from a carbon-bound existence.  Moglin magic has imbued this sword with healing magic- a 5% chance to heal you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2087

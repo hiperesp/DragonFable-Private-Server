@@ -2,6 +2,8 @@
 
 I bet Lim would like to get his hands on this!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3408

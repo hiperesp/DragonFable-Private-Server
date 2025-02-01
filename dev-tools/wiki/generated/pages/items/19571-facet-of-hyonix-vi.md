@@ -4,6 +4,8 @@ An ancient aspect of great craftsmanship.
 A prismatic exhibit of skill.
 An ornament of unseen potential.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19571

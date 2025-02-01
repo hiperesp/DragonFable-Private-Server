@@ -2,6 +2,8 @@
 
 You and Bubble have taken care of almost all of the threats. Only one large one remains!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

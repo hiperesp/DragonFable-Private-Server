@@ -2,6 +2,8 @@
 
 There is a School of Sages which believes that sight hinders the magical ability.  They use these hoods to focus their magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4846

@@ -2,6 +2,8 @@
 
 This Pet requires a Dragon Amulet. Sneevil Ninja Buddy... Sneevil Ninja Buddy! Sneevil Ninja Buddy and me!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1181

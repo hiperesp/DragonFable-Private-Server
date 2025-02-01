@@ -2,6 +2,8 @@
 
 Nothing can fill the void left behind by this glaive! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8416

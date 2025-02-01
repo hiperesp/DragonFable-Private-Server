@@ -2,6 +2,8 @@
 
 Aegis has made an entire dungeon for you to practice your skills!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

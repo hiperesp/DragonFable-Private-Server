@@ -2,6 +2,8 @@
 
 By now, you should know the tale. This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 15 or higher to create.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1713

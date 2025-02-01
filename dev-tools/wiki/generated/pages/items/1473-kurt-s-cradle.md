@@ -2,6 +2,8 @@
 
 This staff is carved from a magically crafted material called Ice-Ten, which is an alternate type of water that can remain solid at room temperature. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1473

@@ -2,6 +2,8 @@
 
 Ewolyn was entranced by wolves and crafted this snarling wolf helm to reflect the fury of the canine guarding its home. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6772

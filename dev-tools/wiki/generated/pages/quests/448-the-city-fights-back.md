@@ -2,6 +2,8 @@
 
 Popsprockets self-defense mechanism was engaged at the end of the assault by the Cyklons and Sepulchure.  Whats a city to do when its magically attacked? Why, fight back, of course!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

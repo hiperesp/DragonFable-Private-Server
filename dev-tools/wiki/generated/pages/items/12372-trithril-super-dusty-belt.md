@@ -2,6 +2,8 @@
 
 The cloth of this belt is covered with tons of trithril dust! Hope you're not allergic... This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12372

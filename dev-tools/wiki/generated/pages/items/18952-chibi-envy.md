@@ -2,6 +2,8 @@
 
 A tiny Envy to keep you company in battle. Don't mind the suspicious way it's eyeing your gear... Proof of victory over the Envy challenge fight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18952

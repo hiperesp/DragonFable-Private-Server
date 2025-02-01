@@ -2,6 +2,8 @@
 
 With Jaania's departure from Swordhaven Castle, Queen Victoria's left to pick up the pieces.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

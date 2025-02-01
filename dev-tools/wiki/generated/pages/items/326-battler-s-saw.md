@@ -2,6 +2,8 @@
 
 This saw is for battle, not for trees!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 326

@@ -2,6 +2,8 @@
 
 Your very first sword! Maybe later you could learn to bronze it (or maybe not...)!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1188

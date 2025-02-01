@@ -2,6 +2,8 @@
 
 Derp, derp, de derp! Dragon Amulet required!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5374

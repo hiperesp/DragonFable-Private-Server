@@ -2,6 +2,8 @@
 
 These very rare blossoms are said to have potent healing properties only when combined with certain metals.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1210

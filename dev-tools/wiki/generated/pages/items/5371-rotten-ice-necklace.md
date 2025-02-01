@@ -2,6 +2,8 @@
 
 While the beads of this necklace were once fully frozen, they're ow losing their shape as they melt. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5371

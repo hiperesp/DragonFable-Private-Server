@@ -2,6 +2,8 @@
 
 This incredibly heavy and thick book is filled from cover to cover with undecipherable diagrams and formulae. Proof of victory over Lim.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21896

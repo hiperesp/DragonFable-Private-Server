@@ -2,6 +2,8 @@
 
 This was crafted by Ashendal to celebrate the anniversary of his entrance into the multiverse all those years ago. The jade orb at the top glows with a strange energy that almost seems draconic in origin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13256

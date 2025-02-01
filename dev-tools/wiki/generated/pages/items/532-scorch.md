@@ -2,6 +2,8 @@
 
 This blade was magically crafted, and during it's red-hot stage, the heated metal was frozen in time to remain heated forever.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 532

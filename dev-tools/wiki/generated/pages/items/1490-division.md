@@ -2,6 +2,8 @@
 
 This staff was crafted by a broken-hearted emo blacksmith to represent his desperate and incurable heartache. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1490

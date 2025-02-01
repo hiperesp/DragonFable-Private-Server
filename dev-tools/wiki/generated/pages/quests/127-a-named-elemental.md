@@ -2,6 +2,8 @@
 
 Warlic has sent you to the Lymcrest quarry to defeat a troublesome named elemental who is making it too dangerous to work here for the miners.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

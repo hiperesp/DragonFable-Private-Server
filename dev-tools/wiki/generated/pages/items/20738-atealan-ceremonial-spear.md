@@ -2,6 +2,8 @@
 
 Spears of this type were once used by the Ateala in their year's end combat rituals. However, much like their ceremonial dances of today, this spear is only a recreation. (Cosmetic)(CC: Element, Base, Trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20738

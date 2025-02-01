@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. Strike down your foes with this electric blade of pure energy focused through an obsidian blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 866

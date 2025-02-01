@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The tooth looks like one of the Valtrith's pulled it directly from a dragon's skull!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14062

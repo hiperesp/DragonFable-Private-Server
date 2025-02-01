@@ -2,6 +2,8 @@
 
 General Sneevord the Third was put in charge by his King to command the entire army of Togriders.  He is not ready to let his glory days fade away, so has decided to stay with you. This pet requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2523

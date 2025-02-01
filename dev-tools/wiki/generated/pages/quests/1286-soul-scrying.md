@@ -2,6 +2,8 @@
 
 What have the Cultists and Caitiff been up to?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

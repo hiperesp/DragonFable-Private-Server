@@ -2,6 +2,8 @@
 
 It is a CMC
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

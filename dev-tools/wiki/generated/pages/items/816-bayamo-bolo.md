@@ -2,6 +2,8 @@
 
 This jeweled dagger holds the power of a violent wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 816

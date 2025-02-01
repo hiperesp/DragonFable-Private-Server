@@ -2,6 +2,8 @@
 
 An ornate Infernal blade, upgraded from Apostate Alpha. Can be upgraded.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18744

@@ -2,6 +2,8 @@
 
 Can you find Klaatu before he unleashes another skeletal horror into Lore?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

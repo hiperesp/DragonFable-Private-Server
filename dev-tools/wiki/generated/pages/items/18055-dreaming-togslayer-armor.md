@@ -2,6 +2,8 @@
 
 Found buried deep within the endless invasion of togs, this armor signifies your endurance and strength in the face of an infinite wave of togs. Also a lack of empathy for togs. The reward for achieving level 1000 in the Endless Invasion challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18055

@@ -2,6 +2,8 @@
 
 A compressed cube of 10 Cubes of Scrap Metal, or 100 Scrap Metal. It's tied up with a pretty ribbon. It's probably best not to untie it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19051

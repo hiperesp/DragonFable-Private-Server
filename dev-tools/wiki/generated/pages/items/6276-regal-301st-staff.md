@@ -2,6 +2,8 @@
 
 A weapon from the Swordhaven Armory. Who would abandon it out in the wilds though? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6276

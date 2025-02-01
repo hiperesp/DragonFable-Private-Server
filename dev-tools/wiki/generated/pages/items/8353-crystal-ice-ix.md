@@ -2,6 +2,8 @@
 
 Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8353

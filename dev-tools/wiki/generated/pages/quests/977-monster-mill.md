@@ -2,6 +2,8 @@
 
 Why are all these magical creatures gathered here?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

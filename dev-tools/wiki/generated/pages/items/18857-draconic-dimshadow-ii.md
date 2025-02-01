@@ -2,6 +2,8 @@
 
 A legendary blade from a far-off time. Has a color custom glow!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18857

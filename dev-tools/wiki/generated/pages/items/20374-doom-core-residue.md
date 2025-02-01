@@ -2,6 +2,8 @@
 
 A miserable pile of Doom essence, wrenched from the fading mass of the Super Ultra Darkness Dracolich. Used to upgrade Doom weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20374

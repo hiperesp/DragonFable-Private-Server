@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 34 or higher to create. This weapon design was won by Yulgar in a card game.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1246

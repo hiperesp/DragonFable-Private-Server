@@ -2,6 +2,8 @@
 
 This small metal ball produced by Lagohm technology makes your hair stand on end. Eulin says it's meant to be a good luck charm, so might as well tie it to your belt, right? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20157

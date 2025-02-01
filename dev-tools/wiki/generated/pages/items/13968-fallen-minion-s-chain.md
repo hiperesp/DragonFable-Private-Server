@@ -2,6 +2,8 @@
 
 Whatever dark magic forged this belt is now the only thing tenuously keeping it together.... This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13968

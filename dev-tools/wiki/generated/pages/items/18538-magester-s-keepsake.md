@@ -2,6 +2,8 @@
 
 A small ornament carved to resemble the Shapeless. Seems to spin on its own if held in your hand. Proof of victory over the Beginning and the End challenge. Used for merging.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18538

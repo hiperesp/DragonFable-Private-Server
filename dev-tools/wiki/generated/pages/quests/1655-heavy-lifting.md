@@ -2,6 +2,8 @@
 
 Learn what happened to Verlyrus, then make haste and find him.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

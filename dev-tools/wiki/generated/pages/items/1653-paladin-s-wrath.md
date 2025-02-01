@@ -2,6 +2,8 @@
 
 Even through improvisation, paladins can make the most mundane items weapons of their holy wrath.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1653

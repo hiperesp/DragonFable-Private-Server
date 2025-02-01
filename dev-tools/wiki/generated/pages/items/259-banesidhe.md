@@ -2,6 +2,8 @@
 
 Rip through your foes with the screaming wind power of this dagger, now made with 10% more spectre!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 259

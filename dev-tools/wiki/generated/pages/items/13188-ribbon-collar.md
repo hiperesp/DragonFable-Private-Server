@@ -2,6 +2,8 @@
 
 The dark ribbon of this collar is old but well cared for. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13188

@@ -2,6 +2,8 @@
 
 This dagger was once used to save a seaside village plagued by a ...well, a plague brought there by a mysterious pirate captain. The disease was forever contained within the blade of this dagger. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1609

@@ -2,6 +2,8 @@
 
 The mighty Emperor of the Sea Chickens! I wonder if he's related to chickencows or dragons? Or maybe both?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

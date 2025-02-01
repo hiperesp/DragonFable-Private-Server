@@ -2,6 +2,8 @@
 
 Don the helm of the mighty DragonLord Vath. The lingering Chaos magic will transform your visage to resemble his. Use your power wisely and don't give in to the Chaos as Vath did.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18236

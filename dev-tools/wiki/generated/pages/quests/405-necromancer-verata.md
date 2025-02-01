@@ -2,6 +2,8 @@
 
 Venture into the spooky woods and try to find Verata!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

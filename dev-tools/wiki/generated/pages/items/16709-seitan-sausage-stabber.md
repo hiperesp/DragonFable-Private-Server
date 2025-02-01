@@ -2,6 +2,8 @@
 
 This vegan and gluten-free sausage is perfect for the vegetarian rogue. They might not be the sharpest weapons, but they're spicy! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16709

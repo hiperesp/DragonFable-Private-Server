@@ -2,6 +2,8 @@
 
 This short, curvey blade can do a lot of damage no matter how it is wielded.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 358

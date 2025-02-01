@@ -2,6 +2,8 @@
 
 A ring carved from an iridescent scarab shell! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9399

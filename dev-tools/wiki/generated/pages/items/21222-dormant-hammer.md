@@ -2,6 +2,8 @@
 
 While repaired, Rolith's hammer seems to still be missing some sort of... togly essence. Proof of victory over the Red Dragon and Rolith.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21222

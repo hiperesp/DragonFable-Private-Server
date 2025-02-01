@@ -2,6 +2,8 @@
 
 A basic, unbladed bashing weapon, this is standard issue for many town guards.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 174

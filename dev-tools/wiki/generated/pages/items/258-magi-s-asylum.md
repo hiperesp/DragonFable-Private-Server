@@ -2,6 +2,8 @@
 
 A very defensive staff for those prone to accidents. The best offense is a good defense!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 258

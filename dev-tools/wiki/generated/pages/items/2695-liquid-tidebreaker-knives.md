@@ -2,6 +2,8 @@
 
 You can't see them, but minute particles of poisonous seaweed in the blade will take out your opponents even if the weapon's edge itself doesn't.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2695

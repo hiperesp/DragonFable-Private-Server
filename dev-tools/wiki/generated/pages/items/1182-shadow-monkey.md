@@ -2,6 +2,8 @@
 
 This is one of the ninja monkies trained by the Shadow of the Wind ninja to cause trouble for the Osprey Cove pirates. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1182

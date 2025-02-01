@@ -2,6 +2,8 @@
 
 The heart in the center of this scythe beats eternally.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8702

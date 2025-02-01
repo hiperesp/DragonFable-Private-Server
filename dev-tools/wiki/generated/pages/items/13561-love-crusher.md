@@ -2,6 +2,8 @@
 
 Love may be a battlefield but with this weapon you'll carve your way through it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13561

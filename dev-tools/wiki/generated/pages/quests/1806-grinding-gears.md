@@ -2,6 +2,8 @@
 
 Meanwhile, in the Manufactory...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

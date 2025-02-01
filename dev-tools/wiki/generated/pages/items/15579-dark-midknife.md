@@ -2,6 +2,8 @@
 
 A shadowy and mysterious dagger of great power, its blade is almost impossible to see in low light. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15579

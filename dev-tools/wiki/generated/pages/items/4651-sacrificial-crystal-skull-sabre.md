@@ -2,6 +2,8 @@
 
 Recovered from the Temple of Gloom, this cursed sabre gleams. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4651

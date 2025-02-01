@@ -2,6 +2,8 @@
 
 Fighting in the Darkness.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

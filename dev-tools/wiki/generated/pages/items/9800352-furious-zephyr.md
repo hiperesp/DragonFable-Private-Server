@@ -2,6 +2,8 @@
 
 The first magic that Kara mastered, this weapon has been her most faithful method of dealing justice.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800352

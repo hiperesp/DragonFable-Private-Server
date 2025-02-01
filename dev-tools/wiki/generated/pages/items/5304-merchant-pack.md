@@ -2,6 +2,8 @@
 
 No way you're gonna take two trips.... You can totally lift this!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5304

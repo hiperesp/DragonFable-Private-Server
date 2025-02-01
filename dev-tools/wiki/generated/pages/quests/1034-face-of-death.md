@@ -2,6 +2,8 @@
 
 Sek Duat has sent you on a quest to destroy powerful relics before the Rose can get them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

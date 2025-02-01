@@ -2,6 +2,8 @@
 
 A orb of stratospheric power concentrates wind power in this elemental staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 853

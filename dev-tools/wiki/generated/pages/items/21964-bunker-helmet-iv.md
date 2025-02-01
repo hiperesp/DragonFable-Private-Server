@@ -2,6 +2,8 @@
 
 This helmet was crafted by gnomes as a special order for Rudy. Guaranteed to protect moglin ears from giant mutated bugs!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21964

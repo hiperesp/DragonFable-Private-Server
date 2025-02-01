@@ -2,6 +2,8 @@
 
 The only thing scarier than running into a bear in the woods is running into a laser-bear in the woods. Or a laser-hero, as the case may be. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22206

@@ -2,6 +2,8 @@
 
 The fire from the pumpkin heats the blade of your new dagger!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10766

@@ -2,6 +2,8 @@
 
 A scythe crafted from the remains of the dread PumpkinLord Jack, it still pulses with power- attracting all sorts of creepy things!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17681

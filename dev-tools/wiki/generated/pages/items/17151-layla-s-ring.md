@@ -2,6 +2,8 @@
 
 It used to work as a charm for a girl named Layla. Then she lost it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17151

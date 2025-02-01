@@ -2,6 +2,8 @@
 
 A malevolent magic seeps from these bones... just one question, who's been harvesting them and why?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12033

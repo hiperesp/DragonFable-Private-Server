@@ -2,6 +2,8 @@
 
 Uaanta gave this to you as a "Frostval Present". It's dull and rough, warm. It seems like a part of something.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19360

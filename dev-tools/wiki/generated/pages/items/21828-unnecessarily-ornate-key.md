@@ -2,6 +2,8 @@
 
 Forged to celebrate Dove's birthday, this massive key is way too heavy to practically use as a weapon, and way too impractical to use as an actual key. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21828

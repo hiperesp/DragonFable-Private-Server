@@ -2,6 +2,8 @@
 
 Pierce the very heavens! No, seriously, point it at the sky and you can gently poke the barrier between material plane and the afterlife. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22137

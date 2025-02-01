@@ -2,6 +2,8 @@
 
 These blades are forged from shards of crystal. If you listen closely you can almost hear them weeping as they slice through the air.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 966

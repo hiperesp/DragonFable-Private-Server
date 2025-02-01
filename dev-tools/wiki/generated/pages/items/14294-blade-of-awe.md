@@ -2,6 +2,8 @@
 
 This replica of the legendary Blade of Awe was crafted by Zee and enhanced by Ashendal! It will occasionally heal your Health and Mana! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14294

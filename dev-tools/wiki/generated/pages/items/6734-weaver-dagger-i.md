@@ -2,6 +2,8 @@
 
 A weapon crafted by a special sect of Soulweavers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6734

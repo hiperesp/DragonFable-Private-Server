@@ -2,6 +2,8 @@
 
 Thyton in the Shadow of the Wind Village has asked that you recover a box of stolen shuriken from Okuchi No Okami and his Sneenja army from this bamboo forest.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

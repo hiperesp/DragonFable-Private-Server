@@ -2,6 +2,8 @@
 
 A helm to make the dark warrior, Sepulchure, proud. Forged in honor of the warriors who braved Black Friday, 2013.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10990

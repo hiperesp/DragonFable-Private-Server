@@ -2,6 +2,8 @@
 
 This glowing helm seems more impressive then you could have imagined.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4241

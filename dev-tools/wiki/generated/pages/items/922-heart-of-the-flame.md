@@ -2,6 +2,8 @@
 
 The inscription on the dagger is a poem: This magical dagger Hot. And if your enemy is caught, with no blade in hand, then they can not stand, the power and might that you've got.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 922

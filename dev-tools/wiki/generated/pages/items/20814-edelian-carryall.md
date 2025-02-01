@@ -2,6 +2,8 @@
 
 A bag full of all sorts of supplies for studying at the Edelia School of Weaving! The reinforced handles let it double as a self-defense (or offense) weapon.  (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20814

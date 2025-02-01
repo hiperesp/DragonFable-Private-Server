@@ -2,6 +2,8 @@
 
 This marvel of technomancy and ninja arts seems to have arrived here from a time beyond your own...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

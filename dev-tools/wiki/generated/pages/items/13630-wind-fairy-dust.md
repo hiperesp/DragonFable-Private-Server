@@ -2,6 +2,8 @@
 
 A personal pouch of fairy dust! It won't make you fly but it'll blind your enemies in a pinch.This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13630

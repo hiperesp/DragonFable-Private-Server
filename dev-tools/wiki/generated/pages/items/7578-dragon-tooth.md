@@ -2,6 +2,8 @@
 
 Use this to upgrade your DrAEgon Scythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7578

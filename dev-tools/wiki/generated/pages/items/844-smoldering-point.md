@@ -2,6 +2,8 @@
 
 This smoldering dagger will blaze its way through your enemy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 844

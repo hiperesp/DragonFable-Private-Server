@@ -3,6 +3,8 @@
 The sharp edge of this rainbow blade will lead you right to gold! How lucky were you during Lucky 13?
  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9085

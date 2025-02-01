@@ -2,6 +2,8 @@
 
 Imbued with the power of dragons, this dagger is deadly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 243

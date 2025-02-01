@@ -2,6 +2,8 @@
 
 The complete Lagohmcraft protector! It's just missing one final touch before use...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20335

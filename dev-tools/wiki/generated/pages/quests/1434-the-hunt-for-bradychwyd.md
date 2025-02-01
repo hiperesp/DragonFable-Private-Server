@@ -2,6 +2,8 @@
 
 Where did these old, dirty alleys come from?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

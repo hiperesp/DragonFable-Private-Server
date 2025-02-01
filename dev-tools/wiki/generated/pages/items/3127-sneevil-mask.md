@@ -2,6 +2,8 @@
 
 You suddenly have a strong urge to stack boxes...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3127

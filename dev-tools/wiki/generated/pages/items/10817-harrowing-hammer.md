@@ -2,6 +2,8 @@
 
 Made of pumpkin vines and hardened wood, this harrowing weapon will strike fear into the hearts of your enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10817

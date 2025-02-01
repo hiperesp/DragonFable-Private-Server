@@ -2,6 +2,8 @@
 
 This ring adds a +12 to Defense Against Being Hit On. Exchanged by Rolith and Alina on Saturday, October 20th, 2012
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7540

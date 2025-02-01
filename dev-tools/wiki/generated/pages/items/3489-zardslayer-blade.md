@@ -2,6 +2,8 @@
 
 A sword specially enchanted to take down the rampaging zards!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3489

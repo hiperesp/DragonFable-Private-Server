@@ -2,6 +2,8 @@
 
 Once lined with sharp focusing crystals, they've all since been shattered and now salt grows among them. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13985

@@ -2,6 +2,8 @@
 
 This ancient pirate weapon was forged from the bones of a wicked sea leviathan, and recovered by a gang of cursed treasure hunters. Once per battle, this weapon has a chance on hit to increase the amount of gold you plunder!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19015

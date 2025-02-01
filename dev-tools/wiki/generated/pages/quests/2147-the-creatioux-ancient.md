@@ -2,6 +2,8 @@
 
 Channeling the chaos of the Void for creation and order, the Creatioux wish to unite with their long lost brethren...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

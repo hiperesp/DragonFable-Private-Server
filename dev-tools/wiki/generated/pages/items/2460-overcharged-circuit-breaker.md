@@ -3,6 +3,8 @@
 Warning: sticking this sword into a wall outlet will disrupt the flow of electricity.  SHOCK DANGER.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2460

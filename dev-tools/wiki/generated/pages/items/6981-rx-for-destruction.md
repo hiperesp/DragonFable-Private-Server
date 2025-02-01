@@ -2,6 +2,8 @@
 
 You have a prescription to bring pain to your foes in battle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6981

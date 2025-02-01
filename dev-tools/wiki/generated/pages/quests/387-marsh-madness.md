@@ -2,6 +2,8 @@
 
 A creepy swamp full of dangerous monsters.... there may be a prize at the end. Like a Snacker Jax box.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

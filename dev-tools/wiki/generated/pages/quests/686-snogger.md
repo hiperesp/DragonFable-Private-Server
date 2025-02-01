@@ -4,6 +4,8 @@ Hey, you come up with a better pun for sneevil and frogger.
 
 Spread your infection to a treefort full of sneevils!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

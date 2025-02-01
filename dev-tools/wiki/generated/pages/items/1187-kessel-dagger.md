@@ -2,6 +2,8 @@
 
 This commemorative blade celebrates the maiden voyage of the Kessel.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1187

@@ -3,6 +3,8 @@
 Dear Val, I know one day you'll follow in my footsteps and find this note. In exploring this temple I have found a clue leading to a much bigger treasure. I go in search of it and hope to share it with you soon.
 Proud of you, Dad.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1621

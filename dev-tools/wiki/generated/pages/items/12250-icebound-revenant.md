@@ -2,6 +2,8 @@
 
 This armor was found in a cave in the far north. Who it belonged to is a mystery, but it's freezing to the touch. You hear a faint whisper in your mind as you grow close... Best for Players level 40+
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12250

@@ -2,6 +2,8 @@
 
 Once a mighty weapon, this blade no longer functions. Proof of victory over Master Twang.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21415

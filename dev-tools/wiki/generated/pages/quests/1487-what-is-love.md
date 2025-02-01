@@ -2,6 +2,8 @@
 
 A member of the Rose and a mage, together? Love is in the air, baby!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

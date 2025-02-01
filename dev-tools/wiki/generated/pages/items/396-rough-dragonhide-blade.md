@@ -2,6 +2,8 @@
 
 This dual-bladed sword was forged using the molted skin which falls from young dragon hatchling as they shed.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 396

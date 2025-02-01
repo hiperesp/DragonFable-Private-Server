@@ -2,6 +2,8 @@
 
 Fine lines cover this ring but they're in no discernable pattern. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13472

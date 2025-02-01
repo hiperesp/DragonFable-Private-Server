@@ -2,6 +2,8 @@
 
 An axe made of sharpened red dragon scales. The one who wields this axe gets additional fire protection.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6510

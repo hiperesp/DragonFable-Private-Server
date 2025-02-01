@@ -2,6 +2,8 @@
 
 Energy dances along the edges of the magical staff. Forged by the legendary Sir Jing!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17842

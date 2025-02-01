@@ -2,6 +2,8 @@
 
 Celebrate the end of Book One! The world of Lore needs elemental unity and balance between the planes for peace. Upgraded by defending Lore!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6461

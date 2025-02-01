@@ -2,6 +2,8 @@
 
 100 rooms of doooooom! Now with extra Doom!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18968

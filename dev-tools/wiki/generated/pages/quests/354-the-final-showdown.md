@@ -2,6 +2,8 @@
 
 Nythera faces off against the Avatars!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A relic of the early days of Soulweaving. Now that it's in your possession, what wonders will you weave? Can be upgraded at Secundus, but will lose all resale value. Also available from the Chaosweaver DC package.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19082

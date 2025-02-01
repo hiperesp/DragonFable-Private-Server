@@ -2,6 +2,8 @@
 
 This be a rare blade indeed but it be cursed by th' pirate th' lost it! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12580

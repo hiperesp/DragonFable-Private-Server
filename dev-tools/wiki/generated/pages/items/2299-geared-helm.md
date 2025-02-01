@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It is an experimental helm that must have fallen from the tool storage facility. I wonder what it does other than look cool?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2299

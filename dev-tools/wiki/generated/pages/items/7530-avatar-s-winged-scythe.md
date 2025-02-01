@@ -2,6 +2,8 @@
 
 This light, swift scythe was blessed by the Avatar's themselves! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7530

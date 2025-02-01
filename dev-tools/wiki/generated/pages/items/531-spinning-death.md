@@ -2,6 +2,8 @@
 
 The blade of this Dragon Amulet weapon has been places on an free-spinning axle and is enchanted to spin so the blade hits in a random place every strike. This ensures that the blade stays sharp as long as possible. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 531

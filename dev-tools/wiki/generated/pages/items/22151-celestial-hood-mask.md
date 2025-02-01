@@ -2,6 +2,8 @@
 
 When you don this mask, you feel like the paragon of righteousness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22151

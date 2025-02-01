@@ -2,6 +2,8 @@
 
 This be th' perfect weapon to be fightin' off ninja's with! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10488

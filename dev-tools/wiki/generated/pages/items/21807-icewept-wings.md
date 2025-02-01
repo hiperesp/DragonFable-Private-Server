@@ -2,6 +2,8 @@
 
 It's said that a storm of ice elementals once attempted to sweep across the land on wings of frost. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21807

@@ -2,6 +2,8 @@
 
 Cleaning up the weirdest cat box ever.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

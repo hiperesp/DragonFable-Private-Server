@@ -2,6 +2,8 @@
 
 Underachnids are always chewing something and when you wear this helm, you will be, too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3828

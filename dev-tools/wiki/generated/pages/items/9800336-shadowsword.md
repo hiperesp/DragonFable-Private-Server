@@ -2,6 +2,8 @@
 
 Swordy! Now with 100% more shadow!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800336

@@ -2,6 +2,8 @@
 
 This rare gem is highly valued by pirates everywhere. Rhubarb will teach you a new skill for your Pirate Armor in exchange for one of these. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1003

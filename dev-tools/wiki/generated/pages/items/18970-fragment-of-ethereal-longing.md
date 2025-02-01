@@ -2,6 +2,8 @@
 
 A small blob of red essence, left behind by Lust in the Arena at the Edge of Time. Hot! Used to create the Chibi Lust cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18970

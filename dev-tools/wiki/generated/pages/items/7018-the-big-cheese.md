@@ -2,6 +2,8 @@
 
 A huge chunk of golden... cheese? Really guys?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7018

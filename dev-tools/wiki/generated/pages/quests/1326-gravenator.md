@@ -2,6 +2,8 @@
 
 Do you DARE ask for extra GRAVY?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

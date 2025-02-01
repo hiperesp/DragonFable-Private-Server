@@ -2,6 +2,8 @@
 
 Like poison, love can suffuse your body and make you blind to everyone but your true love.  Happy Hero's Heart Day! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13504

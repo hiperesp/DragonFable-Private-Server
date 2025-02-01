@@ -2,6 +2,8 @@
 
 The heart of the Chaos Hydra. Even removed, it seems to pulse as if active. Proof of victory over the Chaos Hydra.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19872

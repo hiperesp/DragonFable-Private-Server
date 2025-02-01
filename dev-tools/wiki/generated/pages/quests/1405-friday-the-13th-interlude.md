@@ -2,6 +2,8 @@
 
 Head back to Falconreach and talk with your comrades.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

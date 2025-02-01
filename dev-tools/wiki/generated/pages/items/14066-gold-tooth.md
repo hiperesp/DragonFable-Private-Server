@@ -2,6 +2,8 @@
 
 A tooth pulled from a conquered foe. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14066

@@ -2,6 +2,8 @@
 
 Sharper than a pie cutter!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800144

@@ -2,6 +2,8 @@
 
 This.... is smelly. You should probably sell it to Cysero so he can take it back into the time rip to drop on Biff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3404

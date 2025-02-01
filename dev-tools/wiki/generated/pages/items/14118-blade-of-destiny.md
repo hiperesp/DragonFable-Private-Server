@@ -2,6 +2,8 @@
 
 You have helped Ash complete his quest to become a Knight! The Blade of Destiny is yours.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14118

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The massive Claymore has had much of its power drained by the battle with Akriloth. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2619

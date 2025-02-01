@@ -2,6 +2,8 @@
 
 Use whatever you can to save Popsprocket from the undead attacking below!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

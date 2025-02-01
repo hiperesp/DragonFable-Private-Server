@@ -2,6 +2,8 @@
 
 A Rebel without a Heart, the Skeletal Wonder, the Boney Brawler, the Carrion Killer... the HaaaaaangMaaaaaaan!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

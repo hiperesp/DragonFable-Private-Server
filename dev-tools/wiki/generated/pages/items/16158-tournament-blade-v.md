@@ -2,6 +2,8 @@
 
 This blade commemorates victors in the Swordhaven Tournament. It's supposed to be ornamental, but you could sharpen it up.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16158

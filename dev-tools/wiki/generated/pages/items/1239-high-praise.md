@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 28 or higher to create. This type of dagger was originally designed for a prince, the praise was so high that the design was sold and made public. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1239

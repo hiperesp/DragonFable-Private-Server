@@ -2,6 +2,8 @@
 
 You've made it to the castle but not in time!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

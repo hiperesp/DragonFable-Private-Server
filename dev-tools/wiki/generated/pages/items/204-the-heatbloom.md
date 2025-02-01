@@ -2,6 +2,8 @@
 
 A Fire Rose has been magically grown on the top of this staff. These roses only grow near a fire or an intense heat source.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 204

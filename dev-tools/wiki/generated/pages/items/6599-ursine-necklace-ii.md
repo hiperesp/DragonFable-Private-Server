@@ -2,6 +2,8 @@
 
 This primitive looking necklace is crafted from huge bear teeth of a variety of sizes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6599

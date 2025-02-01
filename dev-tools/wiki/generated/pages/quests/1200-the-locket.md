@@ -2,6 +2,8 @@
 
 A mysterious gift has appeared in Thursday's room... but who sent it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

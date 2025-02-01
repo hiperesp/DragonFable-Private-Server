@@ -2,6 +2,8 @@
 
 II. The family heirloom was replaced easily enough, the necklace copied in every detail down to the small nick in the side. Putting it on as he did every morning, Zeclem didn't realize that this day would be far different than any other.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12610

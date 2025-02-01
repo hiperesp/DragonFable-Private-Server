@@ -2,6 +2,8 @@
 
 Elucidas has great confidence in Nythera, and he's heard of YOU, too!  He gifted you with this sword to show his faith in you.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3977

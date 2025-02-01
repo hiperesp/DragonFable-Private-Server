@@ -2,6 +2,8 @@
 
 Doubles as a sweet treat on a hot summer day!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3124

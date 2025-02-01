@@ -2,6 +2,8 @@
 
 This pet requires a Dragon Amulet! Jimmy The Eye is one of the very rare blue flying eyes which were originally discovered by Warlic. This species is a servant of Palladia and tend to be friendly, intelligent, and helpful. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 724

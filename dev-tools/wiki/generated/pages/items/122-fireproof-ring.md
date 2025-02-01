@@ -2,6 +2,8 @@
 
 Made of hard-fired black ceramic, this ring helps you slightly resist fiery attacks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 122

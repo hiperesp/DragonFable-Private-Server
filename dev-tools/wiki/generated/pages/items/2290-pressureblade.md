@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Steam powered blades were all the rage in Popsprocket until they realized that you don't really need to power a sword.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2290

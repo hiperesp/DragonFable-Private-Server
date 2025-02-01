@@ -2,6 +2,8 @@
 
 This belt must have belonged to a yaga apprentice.  It's nothing but a cord knotted together and strung with bat skulls. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3262

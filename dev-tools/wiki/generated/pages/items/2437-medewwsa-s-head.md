@@ -2,6 +2,8 @@
 
 Make sure you point her face AWAY from you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2437

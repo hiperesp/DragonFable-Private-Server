@@ -2,6 +2,8 @@
 
 Help Irwin give the monsters in the Zoo a workout!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

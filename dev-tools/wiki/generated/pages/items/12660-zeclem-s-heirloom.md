@@ -2,6 +2,8 @@
 
 VI. Zeclem walked outside and looked upon his assembled army of undead. The whisper in his mind told him where he must go next and he obeyed. He set off, his old life gone, he was now a DeathKnight and only the whisper mattered.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12660

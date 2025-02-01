@@ -2,6 +2,8 @@
 
 The Mysterious Stranger's Super Ultra Mega Darkness Dracolich is growing... gathering all the spirits of darkness from the shadows in the world to block out the light!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The Simulacrum of Uthuluc enters the Arena.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

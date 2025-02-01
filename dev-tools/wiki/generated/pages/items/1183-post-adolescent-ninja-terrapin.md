@@ -2,6 +2,8 @@
 
 This Pet requires a Dragon Amulet. This rare fresh water turtle has, through some magical accident been transformed into a post-adolescent fighting machine, with a bad attitude. He'll probably grow out of that. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1183

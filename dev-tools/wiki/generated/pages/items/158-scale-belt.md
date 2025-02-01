@@ -2,6 +2,8 @@
 
 This belt is made of some sort of fire-resistant scale. You didn't bother to ask what kind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 158

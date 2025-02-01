@@ -2,6 +2,8 @@
 
 The dark green fabric of this cloak will help you blend into the trees!This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7879

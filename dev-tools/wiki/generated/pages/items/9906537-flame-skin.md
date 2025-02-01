@@ -2,6 +2,8 @@
 
 A fiery blaze surrounds the elemental.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9906537

@@ -2,6 +2,8 @@
 
 This beautiful weapon will serve you well as you work to rid the world of evil! Go forth Paladin and bring light to the darkness! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12731

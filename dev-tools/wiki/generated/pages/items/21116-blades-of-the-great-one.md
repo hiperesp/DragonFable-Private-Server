@@ -2,6 +2,8 @@
 
 Forged by the DragonLords in honor of The Great One's protection, this unfinished weapon is too brittle to be used in battle. Perhaps your Alliance faction will be able to put the finishing touches on it. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21116

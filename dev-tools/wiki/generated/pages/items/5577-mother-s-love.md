@@ -2,6 +2,8 @@
 
 This weapon was created by a mother due to her desire to protect her daughters Jasmine and Robin.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5577

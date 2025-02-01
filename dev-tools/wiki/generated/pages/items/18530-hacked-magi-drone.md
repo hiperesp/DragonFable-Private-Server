@@ -3,6 +3,8 @@
 Your very own Magi Drone! It obeys your every command, so long as that command is "attack". Has a chance to increase your enemy's Health resistance, amount based on your CHA.
 Proof of your victory over the Azaveyran challenges.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18530

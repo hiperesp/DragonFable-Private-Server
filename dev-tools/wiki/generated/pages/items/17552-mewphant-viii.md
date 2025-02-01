@@ -2,6 +2,8 @@
 
 This little fellow followed you out of Verlyrus' boxscape. You weren't just imagining things! Requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17552

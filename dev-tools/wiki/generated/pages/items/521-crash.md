@@ -2,6 +2,8 @@
 
 This staff is a well-made weapon, crafted by Amityvale's weaponsmith, Lugosi.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 521

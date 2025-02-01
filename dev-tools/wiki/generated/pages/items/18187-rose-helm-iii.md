@@ -2,6 +2,8 @@
 
 A standard Manahunter Helm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18187

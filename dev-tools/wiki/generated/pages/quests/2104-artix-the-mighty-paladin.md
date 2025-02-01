@@ -2,6 +2,8 @@
 
 It's everyone's favorite paladin, Artix von Krieger!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

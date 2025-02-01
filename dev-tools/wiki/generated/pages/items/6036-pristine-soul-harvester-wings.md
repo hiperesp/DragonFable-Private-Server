@@ -2,6 +2,8 @@
 
 These white wings are used by the Soul Harvesters to aid them in their travels to collect the souls of the fallen heroes of Lore.  When they were described to True Mortal by Serenity Okami, he decided to make some. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6036

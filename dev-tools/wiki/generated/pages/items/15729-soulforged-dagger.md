@@ -2,6 +2,8 @@
 
 Your very own SoulForged dagger! It vibrates with eagerness and cunning!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15729

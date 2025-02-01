@@ -2,6 +2,8 @@
 
 It's time to kick some monster butt!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4816

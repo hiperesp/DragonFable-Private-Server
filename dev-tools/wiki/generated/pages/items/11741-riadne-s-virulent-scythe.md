@@ -2,6 +2,8 @@
 
 A scythe once wielded by Riadne, made from her manaweb. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11741

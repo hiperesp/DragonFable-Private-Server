@@ -2,6 +2,8 @@
 
 Toxicon has a fierce temper in addition to a NASTY poison attack.  You don't want to mess with him unless you've got a full potion bag and a Fire or energy-based weapon in hand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2270

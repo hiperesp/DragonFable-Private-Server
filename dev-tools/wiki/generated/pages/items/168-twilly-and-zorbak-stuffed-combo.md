@@ -2,6 +2,8 @@
 
 This pair of stuffed moglins has already been wrapped in a ribbon. WHAT A GREAT GIFT IDEA!! *hint hint*
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 168

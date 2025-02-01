@@ -2,6 +2,8 @@
 
 A thick piece of rope that appears to have been soaked in honey! Every time you turn your head you swear you can hear a giant swarm of bees just behind you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18327

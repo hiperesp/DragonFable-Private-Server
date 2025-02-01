@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Never get lost again! Use this powerful trinket to add damage power to your attack for 5 rounds but be careful, that big arrow makes it eaiser for monster to hit you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2419

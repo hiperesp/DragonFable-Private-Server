@@ -2,6 +2,8 @@
 
 This staff was created during a terrible thunderstorm, its shaft carved from an ancient oak that was split by lightning.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 257

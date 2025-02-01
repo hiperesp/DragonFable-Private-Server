@@ -2,6 +2,8 @@
 
 Dark magic and strange murmurs flow through your head.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10410

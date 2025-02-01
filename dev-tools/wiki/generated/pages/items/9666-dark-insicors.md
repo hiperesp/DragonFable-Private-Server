@@ -2,6 +2,8 @@
 
 Teeth from the local wildlife!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9666

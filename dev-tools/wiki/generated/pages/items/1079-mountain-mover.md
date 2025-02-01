@@ -2,6 +2,8 @@
 
 There is a theory that states that if you have a lever long enough you can move the world. In this case, this magical staff was made to be the lever to only move mountains but that's still pretty good. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1079

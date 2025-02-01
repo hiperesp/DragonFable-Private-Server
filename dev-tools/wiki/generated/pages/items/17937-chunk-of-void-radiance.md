@@ -2,6 +2,8 @@
 
 This piece of... something rapidly flashes between green, blue, and red. But when you look away, does it turn... purple? It's warm though, and can probably help incubate your egg! Nothing can go wrong there!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17937

@@ -2,6 +2,8 @@
 
 Crafted from Ateala Armaments obtained from fighting off Wargoth's legions of possessed minions.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7193

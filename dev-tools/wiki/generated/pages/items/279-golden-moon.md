@@ -2,6 +2,8 @@
 
 This staff was charged with the power of the Golden Moon Eclipse, many centuries ago. It has held its lustre and power for centuries.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 279

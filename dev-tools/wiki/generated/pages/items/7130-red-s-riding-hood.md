@@ -2,6 +2,8 @@
 
 A cloth hood dyed blood red and trimmed with wolf fur. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7130

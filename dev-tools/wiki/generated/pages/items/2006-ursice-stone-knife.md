@@ -2,6 +2,8 @@
 
 This knife was made by the Ursice Savages to reward you for heroism in the war.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2006

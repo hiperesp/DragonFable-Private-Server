@@ -2,6 +2,8 @@
 
 The preferred weapon of the Heart Inquisitors: Secret Defenders of Big Daddy, Love, and Harmony. Now it can be yours, for a limited time only!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16998

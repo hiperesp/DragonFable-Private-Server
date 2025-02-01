@@ -2,6 +2,8 @@
 
 A sinister cutlass with a gilded blade, said to have been forged from the wreckage of the infamous lost ship: The Golden Keel. Proof of victory over Keelhaul, the Sunken.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21526

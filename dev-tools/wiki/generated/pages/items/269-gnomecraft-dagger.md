@@ -2,6 +2,8 @@
 
 This advanced-looking weapon has a small blinking light on the side. The handle reads "CAUTION: Light will activate only during radiation leak."
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 269

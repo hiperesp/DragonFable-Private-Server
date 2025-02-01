@@ -2,6 +2,8 @@
 
 An eager boy, ready to prove his skill.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

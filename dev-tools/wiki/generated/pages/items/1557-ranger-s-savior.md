@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet.  A dagger that can always be counted on to get you out of a sticky situation.  Honey, anyone?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1557

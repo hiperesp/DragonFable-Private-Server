@@ -2,6 +2,8 @@
 
 Airheart's mechagryphon has been throwing off sparks and making an unsettling grind-y crunch-y noise when it takes off.  She's hoping the Mysterious Gnome will have something to make it run smooth again!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This is a broken, crystallized fragment of a memory long forgotten.... If you find other pieces of the memory they might fit together like a puzzle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13846

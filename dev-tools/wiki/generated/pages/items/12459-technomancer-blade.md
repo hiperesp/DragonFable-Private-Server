@@ -2,6 +2,8 @@
 
 This blade is overcharged! You can feel your hair stand on end as it gets close to you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12459

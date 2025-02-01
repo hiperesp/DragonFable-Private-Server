@@ -2,6 +2,8 @@
 
 Warlic has asked that you cross the yellow line in his tower and retrieve the spellbook that he needs from the half of the tower that belongs to his roommate... Cysero.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

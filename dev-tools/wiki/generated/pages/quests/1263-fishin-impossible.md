@@ -2,6 +2,8 @@
 
 Never have you been on a quest of such scale! Gill you succeed? There's only one way to fin out!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

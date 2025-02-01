@@ -2,6 +2,8 @@
 
 A sword used only by the Rose Elite.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15523

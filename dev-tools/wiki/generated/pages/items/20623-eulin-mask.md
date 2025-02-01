@@ -2,6 +2,8 @@
 
 Gaah, your face has been absorbed by a Lagohm prince!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20623

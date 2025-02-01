@@ -2,6 +2,8 @@
 
 This Stiletto of Wonder/ has an edge of light. / A blade of healing/ shining bright...  Feel free to sing along as you carry this year's Frostval reward into battle in the coming months.  It has a chance to heal  5% of your life on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2094

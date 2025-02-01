@@ -2,6 +2,8 @@
 
 Who's that spy with the cool hair wing things? Trouble! Happy Mogloween 2010!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4475

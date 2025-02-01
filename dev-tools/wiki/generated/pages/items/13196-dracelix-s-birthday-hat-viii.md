@@ -2,6 +2,8 @@
 
 The birthday hat of the Paladin, Dracelix! May it grant you victory against all manner of undead! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13196

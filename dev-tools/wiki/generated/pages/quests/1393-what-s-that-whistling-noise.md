@@ -2,6 +2,8 @@
 
 Monsters are coming out of fruitcake bombs! What could be their source?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

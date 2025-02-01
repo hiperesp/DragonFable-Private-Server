@@ -2,6 +2,8 @@
 
 This spear is available only to those that supported the AQ3D Kickstarter campaign. Thank you for your support!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16191

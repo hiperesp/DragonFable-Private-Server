@@ -2,6 +2,8 @@
 
 Hero hats are infinitely more stylish than hard hats, but hard hats will likely protect your head better.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2680

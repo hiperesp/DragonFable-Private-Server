@@ -2,6 +2,8 @@
 
 Despite its appearance, this is not just a repurposed fence pole from Croft. Or maybe it is, but it's a cool looking fence pole, okay? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22126

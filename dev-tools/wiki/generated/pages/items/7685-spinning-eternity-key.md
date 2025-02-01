@@ -2,6 +2,8 @@
 
 Unlock the Lorian Cosmos with this ever-changing key. Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7685

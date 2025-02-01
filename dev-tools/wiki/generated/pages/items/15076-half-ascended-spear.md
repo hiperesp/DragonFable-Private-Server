@@ -2,6 +2,8 @@
 
 It might only be half ascended but you'll still do Arester proud wielding this Black Friday '15 deal!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15076

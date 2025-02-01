@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen the Super Sentog Justice GO squad to be your foes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

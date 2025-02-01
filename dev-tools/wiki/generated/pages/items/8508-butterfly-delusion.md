@@ -2,6 +2,8 @@
 
 A dagger forged by the infamous Rogue of Light!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8508

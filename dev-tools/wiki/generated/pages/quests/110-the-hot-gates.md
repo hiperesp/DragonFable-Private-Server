@@ -2,6 +2,8 @@
 
 All of King Alteon's troops have been defeated, and the king himself has gone missing. This could be a disaster if Xan's forces have gotten to the king before you. You have to find him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

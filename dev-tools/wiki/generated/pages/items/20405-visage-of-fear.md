@@ -2,6 +2,8 @@
 
 Strike fear into your foes! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20405

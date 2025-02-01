@@ -2,6 +2,8 @@
 
 When the flerd (the technical term for a flock-herd) of pegasi gathers together, this little filly easily outshines the other colts.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2440

@@ -2,6 +2,8 @@
 
 This helm is crafted from a delicate, and colorful, Grenwog eggshell! How many different ones have you seen? This Item Requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5475

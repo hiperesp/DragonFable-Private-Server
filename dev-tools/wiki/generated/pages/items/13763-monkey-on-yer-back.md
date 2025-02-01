@@ -2,6 +2,8 @@
 
 Ever feel like you have something you just can't remember? This little guy will help you to by constantly poking your head! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13763

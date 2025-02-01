@@ -2,6 +2,8 @@
 
 Someone has been using this pumkpin patch to build an army of pumpkin golems. Head to the barn and put a stop to this!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

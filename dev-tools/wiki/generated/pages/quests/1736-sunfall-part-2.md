@@ -2,6 +2,8 @@
 
 It's time to send this Tytan back where it came from!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

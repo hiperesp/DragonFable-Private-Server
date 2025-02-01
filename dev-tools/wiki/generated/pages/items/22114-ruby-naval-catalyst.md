@@ -2,6 +2,8 @@
 
 This red hexagonal gem shimmers in the sun's light, reflecting salty waves no matter how far it is from the ocean. This Customization Catalyst unlocks the Naval customization option for Pirate.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22114

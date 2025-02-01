@@ -2,6 +2,8 @@
 
 The torn fibers of a Hollow growth. Cold to the touch, yet pliable and strong. Vseslava thinks it could be useful in the future.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20826

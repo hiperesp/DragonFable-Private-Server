@@ -2,6 +2,8 @@
 
 Falconreach, and the heroes of the west, ride east towards Yulgar's crossroads camp, while Demento investigates Konnan's disappearance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

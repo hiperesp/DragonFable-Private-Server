@@ -2,6 +2,8 @@
 
 Do undead rats carry disease, too?!  This item needs a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2501

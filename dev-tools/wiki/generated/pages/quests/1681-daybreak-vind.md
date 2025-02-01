@@ -2,6 +2,8 @@
 
 Just fighting off another wave of enemies...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

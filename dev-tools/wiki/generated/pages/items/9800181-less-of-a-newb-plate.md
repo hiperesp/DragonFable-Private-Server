@@ -2,6 +2,8 @@
 
 Less of a Newb Plate
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800181

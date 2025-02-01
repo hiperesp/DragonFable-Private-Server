@@ -2,6 +2,8 @@
 
 While gathering the reagents for Bart, you saw many cool rocks that piqued your interest! You decided to put them in a bag!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20783

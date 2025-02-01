@@ -2,6 +2,8 @@
 
 A wrap used to protect soldiers from the sun, sand, and wind of the Sandsea. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10514

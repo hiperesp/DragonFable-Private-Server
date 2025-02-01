@@ -2,6 +2,8 @@
 
 Oishii wants to cook for the entire town of Falconreach! But she's not the most deadly lunchlady for nothing... her recipes will give you a taste of terror!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

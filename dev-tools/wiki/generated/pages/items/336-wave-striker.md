@@ -2,6 +2,8 @@
 
 This blade has all of the power of a crashing tidal wave behind it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 336

@@ -2,6 +2,8 @@
 
 You're starting to feel hot and clammy at the same time... and growl.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5993

@@ -3,6 +3,8 @@
 This staff was supposedly made from the bow of an infamous pirate ship. It will have all your enemies bowing down to you.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 975

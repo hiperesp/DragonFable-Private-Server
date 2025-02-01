@@ -2,6 +2,8 @@
 
 Strange things are happening around the Nest!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

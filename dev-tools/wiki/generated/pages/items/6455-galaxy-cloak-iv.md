@@ -3,6 +3,8 @@
 This cloak was pulled across dimensions. It carries the dust of the galaxies on it.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6455

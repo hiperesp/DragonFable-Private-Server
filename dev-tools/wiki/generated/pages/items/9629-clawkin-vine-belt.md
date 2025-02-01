@@ -2,6 +2,8 @@
 
 A strong belt of woven vines harvested from deep inside Betrubung.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9629

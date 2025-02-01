@@ -2,6 +2,8 @@
 
 Built out of one of Vaekan?s experiments, this glaive is imbued with a lethal poison. Better not touch the blades?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7338

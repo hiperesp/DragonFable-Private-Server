@@ -2,6 +2,8 @@
 
 You've proven yourself faster than Valencia in a race AND got a nifty souvenir of your trip! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2722

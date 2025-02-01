@@ -2,6 +2,8 @@
 
 This ethereal weapon glows with the shining lights of the north. The bells on it ring softly as you face your foes. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21327

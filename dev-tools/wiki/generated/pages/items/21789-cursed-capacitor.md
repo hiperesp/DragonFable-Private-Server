@@ -2,6 +2,8 @@
 
 This mechanical amalgamation sparks with dreadful energy. Proof of victory over Dreadblight Aius and the MechaYeti.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21789

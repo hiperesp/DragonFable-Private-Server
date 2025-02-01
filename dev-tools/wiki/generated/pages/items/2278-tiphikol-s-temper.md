@@ -2,6 +2,8 @@
 
 Previous attempts to attack him have only made Tiphikol ready to strike out at the first sign of danger, but there are no anger management programs in the swamp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2278

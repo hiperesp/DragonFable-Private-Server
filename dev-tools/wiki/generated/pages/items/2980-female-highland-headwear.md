@@ -2,6 +2,8 @@
 
 Lim does love plaid.  This was a gift from one of his friends, and he's selling an imitation of it.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2980

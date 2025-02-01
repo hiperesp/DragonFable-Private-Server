@@ -2,6 +2,8 @@
 
 Caught in the middle 'twixt Doom and Destiny.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

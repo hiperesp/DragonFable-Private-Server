@@ -2,6 +2,8 @@
 
 Fine gold and pink pearl entwine around this ring enchanted by Love. Wearing it comforts you with a sense of warmth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17926

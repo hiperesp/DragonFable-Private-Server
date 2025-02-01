@@ -2,6 +2,8 @@
 
 This Soulwoven cloak is battered and ancient. Once used by the outlawed Chaosweavers, this cloak has seen history rise and fall. Or maybe that's just a story to get you to pay more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18659

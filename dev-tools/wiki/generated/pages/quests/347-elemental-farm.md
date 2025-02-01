@@ -2,6 +2,8 @@
 
 Elements are gathering around a leader at a farm. Kill him and scare them off.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

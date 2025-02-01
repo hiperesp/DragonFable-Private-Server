@@ -2,6 +2,8 @@
 
 Defend Atrea! Defend The Empress! The rift must be closed.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

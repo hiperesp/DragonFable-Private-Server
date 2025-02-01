@@ -2,6 +2,8 @@
 
 Use this to upgrade your Rx for Destruction!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6982

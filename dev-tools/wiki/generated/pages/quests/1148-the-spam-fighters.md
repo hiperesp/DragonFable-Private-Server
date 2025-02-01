@@ -2,6 +2,8 @@
 
 Time to get your mail!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

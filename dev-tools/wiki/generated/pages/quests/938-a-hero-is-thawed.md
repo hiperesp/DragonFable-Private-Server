@@ -2,6 +2,8 @@
 
 Your origins are frosty, but your legend begins here in the forest of Oaklore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

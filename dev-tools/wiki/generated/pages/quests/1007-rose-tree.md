@@ -2,6 +2,8 @@
 
 The Rose has overtaken, and expanded, old Sneevil Treeforts.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

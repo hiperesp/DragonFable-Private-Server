@@ -3,6 +3,8 @@
 Following the death of his dragon companion, Malich forged this glaive in order to strike back at those who killed Tarraan.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6963

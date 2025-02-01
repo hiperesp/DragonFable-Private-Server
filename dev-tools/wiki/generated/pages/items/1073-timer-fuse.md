@@ -2,6 +2,8 @@
 
 This dagger appears to give off no heat at all, but a few minutes after a cut has been made the edges of the cut burst into flame on their own. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1073

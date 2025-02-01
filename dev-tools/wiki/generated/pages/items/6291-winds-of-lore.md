@@ -2,6 +2,8 @@
 
 A magical wind blows through the orb of this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6291

@@ -2,6 +2,8 @@
 
 The emanation of Pandora's self. This scythe embodies everything she felt while being alive. Her edacity, ego, avarice, anger, desire, jealousy and indolence. Everything that made her human. Everything in excess. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19422

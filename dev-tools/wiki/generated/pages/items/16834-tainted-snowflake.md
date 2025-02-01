@@ -2,6 +2,8 @@
 
 This snowflake is partially blackened. As you examine it, it seems to pulse with dark energy. Who knows, maybe it could fetch a nice price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16834

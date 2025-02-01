@@ -2,6 +2,8 @@
 
 Yllmar, the Maw of the Deep swallowed many ships and treasures. This axe belonged to an elite squad of Rose huntresses who must have met their demise in the whirlpool. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18138

@@ -2,6 +2,8 @@
 
 This chandelier must have come from a swanky ship.  The crystals are still whole, even if it's no longer hanging from the ceiling.  Salvage it and sell it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3806

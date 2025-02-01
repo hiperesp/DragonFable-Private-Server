@@ -2,6 +2,8 @@
 
 This is a team ring for only the BEST of heroes.  No B-list adventurers need apply for ownership! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4862

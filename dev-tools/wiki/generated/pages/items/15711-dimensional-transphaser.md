@@ -2,6 +2,8 @@
 
 This peculiar looking stick will let you transfer yourself to the 1st dimension!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15711

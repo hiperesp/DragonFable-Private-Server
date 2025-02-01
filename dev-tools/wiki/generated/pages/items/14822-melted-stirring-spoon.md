@@ -2,6 +2,8 @@
 
 This was lying next to Myx and seems to be one of the original stirring devices the sisters used. It might also explain why the candy had issues...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14822

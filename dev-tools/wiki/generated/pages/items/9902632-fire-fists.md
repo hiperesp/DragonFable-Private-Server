@@ -2,6 +2,8 @@
 
 Burny
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9902632

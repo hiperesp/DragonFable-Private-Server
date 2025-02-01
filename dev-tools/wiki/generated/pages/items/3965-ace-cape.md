@@ -2,6 +2,8 @@
 
 You're really aces! And swell! And neato! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3965

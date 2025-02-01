@@ -2,6 +2,8 @@
 
 This has got to be the grossest quest that you've done today! ... And you thought he smelled bad on the outside.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

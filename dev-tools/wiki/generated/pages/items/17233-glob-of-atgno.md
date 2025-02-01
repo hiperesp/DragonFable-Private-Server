@@ -2,6 +2,8 @@
 
 A colorless mass... or is it? You can... feel... that it is colored by some kind of sorrow from those departed: the gnawing and paralyzing pain of having died for or having let a cherished one perish.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17233

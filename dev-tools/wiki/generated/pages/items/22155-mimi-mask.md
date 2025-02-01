@@ -2,6 +2,8 @@
 
 Reminds you of horrors like responsibilities and bills. (Clickable!)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22155

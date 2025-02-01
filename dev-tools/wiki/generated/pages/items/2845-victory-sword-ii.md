@@ -2,6 +2,8 @@
 
 Crafted by Yulgar to celebrate your victory over Drakonnan!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2845

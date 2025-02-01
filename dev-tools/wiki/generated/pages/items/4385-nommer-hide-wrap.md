@@ -2,6 +2,8 @@
 
 This hide is sprinkled with star-dust.  The puce color is very becoming!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4385

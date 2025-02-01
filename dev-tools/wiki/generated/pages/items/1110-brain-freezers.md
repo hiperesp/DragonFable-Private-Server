@@ -2,6 +2,8 @@
 
 Brain freeze! Brain freeze!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1110

@@ -2,6 +2,8 @@
 
 Learn the story of Frostval, and the moglins who live in the wintery village of Frostvale!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

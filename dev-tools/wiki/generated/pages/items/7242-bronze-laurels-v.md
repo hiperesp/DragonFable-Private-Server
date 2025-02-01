@@ -2,6 +2,8 @@
 
 Celebrate the 2012 Lorelympics in style!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7242

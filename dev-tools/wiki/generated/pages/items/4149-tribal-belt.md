@@ -2,6 +2,8 @@
 
 A beaded belt made by one of the nomadic tribes of the Sandsea!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4149

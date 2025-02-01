@@ -2,6 +2,8 @@
 
 These dancing gems can hypnotize your enemy or hit it hard.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1335

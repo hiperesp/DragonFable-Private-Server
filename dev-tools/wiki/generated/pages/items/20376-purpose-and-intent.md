@@ -2,6 +2,8 @@
 
 A dark black and red striated crystal of Doom origins. Holding it fills you with the weight and drive to do what must be done. Used to upgrade Doom weapons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20376

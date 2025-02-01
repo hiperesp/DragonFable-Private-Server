@@ -2,6 +2,8 @@
 
 The weapon itself is soft and leathery, but the webbing of the wing is razor sharp!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3091

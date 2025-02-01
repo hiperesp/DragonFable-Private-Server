@@ -2,6 +2,8 @@
 
 Crafted from iron obsidian, and amber, this great axe features a cat's eye, enchanted by the light of a full moon, which guarantees the blade will stay razor sharp.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7620

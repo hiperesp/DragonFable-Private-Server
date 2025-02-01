@@ -2,6 +2,8 @@
 
 Melts in your hand, not in your mouth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3308

@@ -2,6 +2,8 @@
 
 Ice + Mayonnaise = Smashing your tastebuds with awesome!  This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3763

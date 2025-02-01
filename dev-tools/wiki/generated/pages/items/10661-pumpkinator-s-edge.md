@@ -2,6 +2,8 @@
 
 Slice and dice through pumpkins, and anything else, with ease! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10661

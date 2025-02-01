@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 22 or higher to create. The design of this staff is said to make the wielder appear thinner... something about vertical stripes. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1229

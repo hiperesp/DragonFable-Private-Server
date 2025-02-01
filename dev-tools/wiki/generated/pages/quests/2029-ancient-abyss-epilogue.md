@@ -2,6 +2,8 @@
 
 With the Abyssal temple secured, there's just one last thing to do.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

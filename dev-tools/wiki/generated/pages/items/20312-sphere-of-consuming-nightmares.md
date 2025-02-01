@@ -2,6 +2,8 @@
 
 A core of doom, secured at last by the protagonist, to be kept safe forevermore. Proof of victory over the AdventureFiend!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20312

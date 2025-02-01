@@ -2,6 +2,8 @@
 
 This is what Lim feeds the Junkyard Driller!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4413

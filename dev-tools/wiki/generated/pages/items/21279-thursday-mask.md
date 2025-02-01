@@ -2,6 +2,8 @@
 
 It is Thursday, my ghouls!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21279

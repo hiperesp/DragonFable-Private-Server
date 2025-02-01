@@ -2,6 +2,8 @@
 
 The next piece of the map is hidden below the Temple in the mines.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

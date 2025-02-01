@@ -2,6 +2,8 @@
 
 Help Nythera make potions for Warlic.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

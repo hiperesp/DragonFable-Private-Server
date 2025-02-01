@@ -2,6 +2,8 @@
 
 Help The Professor and Xan break Jaania free!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

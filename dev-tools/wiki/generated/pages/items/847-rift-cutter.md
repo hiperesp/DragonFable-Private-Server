@@ -2,6 +2,8 @@
 
 This sword will tear apart elementals of the wind realm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 847

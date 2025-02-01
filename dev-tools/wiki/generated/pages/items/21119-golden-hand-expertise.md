@@ -2,6 +2,8 @@
 
 Ostromir and Vseslava think they can figure out a way to combine Magesterium technology with DragonLord magic. They will help you upgrade your Blades of The Great One to a functional weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21119

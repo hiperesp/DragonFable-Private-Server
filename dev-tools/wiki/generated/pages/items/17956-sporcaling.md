@@ -2,6 +2,8 @@
 
 An adorable Sporcaling! The Sporcaling does damage (scaling off of your level). It also does bonus damage based on the number of DoTs on the target (and your CHA). Plus it's cute! proof of your victory over Sporca, the Swift!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17956

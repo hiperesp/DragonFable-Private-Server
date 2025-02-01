@@ -2,6 +2,8 @@
 
 A dagger designed after the original, said to be so sharp that it could cut through the fabric of reality itself. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 378

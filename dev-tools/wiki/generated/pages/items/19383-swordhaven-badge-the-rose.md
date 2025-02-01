@@ -2,6 +2,8 @@
 
 A badge of valor bestowed upon you by Queen Victoria for your efforts in the defense of Swordhaven. It has a small engraving of a rose on it. One can be used in the future to earn a reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19383

@@ -2,6 +2,8 @@
 
 Time to put on a grass skirt and dance an island dance! Dragon Amulet required.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2809

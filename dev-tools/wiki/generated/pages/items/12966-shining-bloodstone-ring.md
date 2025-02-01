@@ -2,6 +2,8 @@
 
 This stone holds a single drop of an ancient vampire's blood. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12966

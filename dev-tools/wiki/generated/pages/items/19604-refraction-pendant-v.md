@@ -2,6 +2,8 @@
 
 This small, rough pebble of rubble seems to have been enchanted as a side effect of Jaania's barrier spell. But... what else could could have been affected? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19604

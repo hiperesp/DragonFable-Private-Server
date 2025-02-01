@@ -2,6 +2,8 @@
 
 Take down Baron Au'Mydas!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

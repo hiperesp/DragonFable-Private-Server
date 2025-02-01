@@ -2,6 +2,8 @@
 
 It is so cute
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800401

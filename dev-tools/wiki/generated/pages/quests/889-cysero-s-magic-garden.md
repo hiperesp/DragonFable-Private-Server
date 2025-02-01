@@ -2,6 +2,8 @@
 
 This is where he grows... socks?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

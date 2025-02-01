@@ -2,6 +2,8 @@
 
 Defeat all enemies to help protect Oaklore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

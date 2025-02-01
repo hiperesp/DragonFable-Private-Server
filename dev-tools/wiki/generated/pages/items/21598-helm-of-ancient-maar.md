@@ -2,6 +2,8 @@
 
 This helm channels spirits of ancient Maar's protectors, igniting your path to victory in a blaze of glory! (Cosmetic) (CC: Armor Base, Dragon Eye)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21598

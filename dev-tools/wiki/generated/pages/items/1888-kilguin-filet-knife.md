@@ -2,6 +2,8 @@
 
 It slices, it dices, it's guaranteed to go through your enemies as easily as butter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1888

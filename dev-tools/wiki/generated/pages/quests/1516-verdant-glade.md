@@ -2,6 +2,8 @@
 
 This beautiful place hides forgotten treasures... and creatures!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

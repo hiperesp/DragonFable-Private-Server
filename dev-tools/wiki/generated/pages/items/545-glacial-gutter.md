@@ -2,6 +2,8 @@
 
 This powerful battleaxe swings with the unstoppable force of a glacier.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 545

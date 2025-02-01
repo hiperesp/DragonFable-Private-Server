@@ -2,6 +2,8 @@
 
 Across history, this sleek blade has only come to life in the hands of specific wielders. How these wielders are chosen is unknown. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22280

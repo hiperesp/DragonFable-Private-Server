@@ -2,6 +2,8 @@
 
 Lim wants to demonstrate velocity to you using his Rabbitizer 6000 Mach 2 and Cysero's carrier turtle.  Can you make it to the finish line before the race ends?  See who wins!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

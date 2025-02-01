@@ -2,6 +2,8 @@
 
 Once upon a time, there were three tribes that fought with each other. One day, a leader of one of the tribes killed the other tribe leaders with this scythe. Unless... that's not how the story goes?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18525

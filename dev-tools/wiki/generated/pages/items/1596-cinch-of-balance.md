@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This well balanced piece affords excellent protection against melee and magic attacks, but only for your waist. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1596

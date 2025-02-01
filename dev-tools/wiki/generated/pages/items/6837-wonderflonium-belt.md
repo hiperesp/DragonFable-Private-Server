@@ -2,6 +2,8 @@
 
 Put this on and work on your evil laugh. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6837

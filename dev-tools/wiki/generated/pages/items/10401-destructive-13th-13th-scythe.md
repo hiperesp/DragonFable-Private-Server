@@ -2,6 +2,8 @@
 
 Souls or spirits... something is screaming to escape! Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10401

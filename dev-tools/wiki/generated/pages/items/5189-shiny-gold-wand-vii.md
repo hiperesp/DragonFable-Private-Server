@@ -2,6 +2,8 @@
 
 This wand looks great with some polishing and a coat of gold, don't you think? It gives off a bright light! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5189

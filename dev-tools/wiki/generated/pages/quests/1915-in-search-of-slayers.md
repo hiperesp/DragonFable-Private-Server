@@ -2,6 +2,8 @@
 
 Under the fungus covered sky of Dragesvard, you sift through the empty remains for any sign of the Dragonslayers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

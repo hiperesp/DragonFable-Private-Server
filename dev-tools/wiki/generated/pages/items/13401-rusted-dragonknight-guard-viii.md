@@ -2,6 +2,8 @@
 
 This ancient helm still holds some of the dragon's power inside. It grows slightly warm as you place it on your head. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13401

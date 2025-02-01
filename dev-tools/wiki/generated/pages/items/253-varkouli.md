@@ -2,6 +2,8 @@
 
 Sealed for centuries in the tomb of a dead emperor, this sword was removed and reforged to remove its fatal curse....probably.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 253

@@ -2,6 +2,8 @@
 
 Siofra and Theano, together at last!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

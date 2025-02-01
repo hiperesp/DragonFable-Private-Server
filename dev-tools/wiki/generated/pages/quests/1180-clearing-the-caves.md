@@ -2,6 +2,8 @@
 
 Oroon asked you to defeat monsters lurking deep inside Ravenloss caves.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

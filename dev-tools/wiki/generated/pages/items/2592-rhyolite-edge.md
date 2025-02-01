@@ -2,6 +2,8 @@
 
 The hilt of this blade is made from hardened lava.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2592

@@ -2,6 +2,8 @@
 
 Red and White and striped all over, these daggers are sharp, pointy and cut through anything...and is a great Frostval gift to your enemies! It is infused with moglin healing magic. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 628

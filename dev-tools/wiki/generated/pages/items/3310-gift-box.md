@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. He'll swiftly wraps up your presents (and enemies) for a efficient and enjoyable Frostval season!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3310

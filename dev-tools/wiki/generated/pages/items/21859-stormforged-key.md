@@ -2,6 +2,8 @@
 
 Forged to celebrate True Mortal's birthday. This key was said to have been struck by lightning countless times as part of the forging process. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21859

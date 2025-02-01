@@ -2,6 +2,8 @@
 
 Modeled after the wings of the true Queen of Darkovia, Safiria, the shadows cast by these wings seem to drink in the darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14340

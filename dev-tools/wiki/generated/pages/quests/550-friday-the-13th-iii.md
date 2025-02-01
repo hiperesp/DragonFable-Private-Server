@@ -2,6 +2,8 @@
 
 The Beach Vacation Invasion has merged with the Friday the 13th war!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

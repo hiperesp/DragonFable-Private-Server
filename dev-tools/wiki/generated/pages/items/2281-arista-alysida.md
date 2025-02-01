@@ -2,6 +2,8 @@
 
 Two reasons why it's better to be a human than a minotaur:  1) Brushing your hair is much easier without horns.  2) Not susceptible to being held captive by rare, glowing space-metals.  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2281

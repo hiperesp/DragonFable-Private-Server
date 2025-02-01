@@ -2,6 +2,8 @@
 
 A ring to go on your finger, made of fingers! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3263

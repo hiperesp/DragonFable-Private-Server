@@ -2,6 +2,8 @@
 
 Listen to Holly's side of the story.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

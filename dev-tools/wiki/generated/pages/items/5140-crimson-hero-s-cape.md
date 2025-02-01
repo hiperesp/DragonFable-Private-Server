@@ -2,6 +2,8 @@
 
 This blood red cape shows the world that you are an arena fighter as well as a powerful hero to be respected. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5140

@@ -2,6 +2,8 @@
 
 This scythe was forged by Dracelix to celebrate the New Year! Overflowing with New Year's spirit, it has a chance on-hit to set off spiritworks on your enemy for 5 turns.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19376

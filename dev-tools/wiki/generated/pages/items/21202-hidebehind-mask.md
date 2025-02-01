@@ -2,6 +2,8 @@
 
 It's never in front of you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21202

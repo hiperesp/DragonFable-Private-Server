@@ -2,6 +2,8 @@
 
 Messimy carved this discarded scale with a blessing of luck and gave it to you as a parting gift. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20287

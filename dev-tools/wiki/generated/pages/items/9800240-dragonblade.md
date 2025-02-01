@@ -2,6 +2,8 @@
 
 This sword is similar to the basic longsword but the steel has been tempered with dragonfire and polished to a mirror finish.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800240

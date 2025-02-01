@@ -2,6 +2,8 @@
 
 A mystery of science, this staff is very theatrical in its requirement of twenty five cents to unleash the full energy of its sugar packed gumballs.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1451

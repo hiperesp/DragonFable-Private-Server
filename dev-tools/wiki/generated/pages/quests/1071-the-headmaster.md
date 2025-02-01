@@ -2,6 +2,8 @@
 
 You're done with chores.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Comes equipped with many pockets to keep your stuff, and your candy, safe from prying fingers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3049

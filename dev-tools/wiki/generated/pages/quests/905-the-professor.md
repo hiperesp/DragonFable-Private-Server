@@ -2,6 +2,8 @@
 
 You've found the Professor and his... "assistant", but you've also led one of Wargoth's imps right to him!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

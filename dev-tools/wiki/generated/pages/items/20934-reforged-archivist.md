@@ -2,6 +2,8 @@
 
 Reforged and ready for adventure! Wield the legendary Book of Lore to unleash the legends of the world of DragonFable on your foes! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20934

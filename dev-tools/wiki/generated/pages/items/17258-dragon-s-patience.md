@@ -2,6 +2,8 @@
 
 This small blue sphere swirls with energy. When close to a Dragon Amulet, the energy starts to glow. This trinket raises the power of a defensive DragonLord. This item requires a Dragon Amulet to use. (Gold)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17258

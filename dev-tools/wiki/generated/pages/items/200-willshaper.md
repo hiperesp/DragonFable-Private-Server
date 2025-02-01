@@ -2,6 +2,8 @@
 
 This ordinary looking staff was created long ago and holds the secret to ancient magics. If only you could unlock those secrets...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 200

@@ -2,6 +2,8 @@
 
 An island made out of bones... this doesn't bode well.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 With Myalos fully charged, Notha forces yet another confrontation.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

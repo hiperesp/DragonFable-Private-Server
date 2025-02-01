@@ -2,6 +2,8 @@
 
 Following the great Undead Assault, the holy Axe of  Artix was cursed and changed to a weapon of unstoppable dark power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 914

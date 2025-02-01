@@ -2,6 +2,8 @@
 
 A weapon made of magically compressed pumpkin and vines, it seems to wrap itself around your hand when you wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16455

@@ -2,6 +2,8 @@
 
 For those who want to wield razor sharp wit, this scythe from Cysero will help you cut down your enemies during DF's 10th Anniversary with levity!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15181

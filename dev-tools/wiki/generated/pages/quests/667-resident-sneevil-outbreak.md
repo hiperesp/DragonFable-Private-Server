@@ -2,6 +2,8 @@
 
 The Zardhunter and Aria need your help in capturing a live zard!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

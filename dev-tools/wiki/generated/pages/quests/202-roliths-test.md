@@ -2,6 +2,8 @@
 
 Cause having my own town was not enough
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

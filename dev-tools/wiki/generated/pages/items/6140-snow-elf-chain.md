@@ -2,6 +2,8 @@
 
 A beautiful antique chain of enchanted ice.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6140

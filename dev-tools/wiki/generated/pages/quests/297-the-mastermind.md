@@ -2,6 +2,8 @@
 
 The evil mind and manager of the catering service.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

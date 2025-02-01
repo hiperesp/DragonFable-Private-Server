@@ -2,6 +2,8 @@
 
 If one of the most powerful sources of magic on Lore is hugs, then it only makes sense that hamsters are powered by hamtons and trace elements like "cute". 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3422

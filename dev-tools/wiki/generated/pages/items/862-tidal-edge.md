@@ -2,6 +2,8 @@
 
 The edge of this mysterious watery dagger is infused with vitamin water. A great source of electrolytes and pain!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 862

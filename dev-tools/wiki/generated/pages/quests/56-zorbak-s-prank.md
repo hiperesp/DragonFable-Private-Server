@@ -2,6 +2,8 @@
 
 This wicked little blue Moglin just set you up!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

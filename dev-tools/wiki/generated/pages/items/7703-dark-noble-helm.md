@@ -2,6 +2,8 @@
 
 This helm gleams even in blackest night!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7703

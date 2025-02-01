@@ -2,6 +2,8 @@
 
 Shocking! Are you sure you want to wear this?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6833

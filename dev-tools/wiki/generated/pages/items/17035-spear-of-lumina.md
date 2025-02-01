@@ -2,6 +2,8 @@
 
 This golden spear shines with a light that seems to come from much more than just the shiny sheen of the metal. Holding it in your hands gives you inner warmth and reassurance in facing the challenges to come.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17035

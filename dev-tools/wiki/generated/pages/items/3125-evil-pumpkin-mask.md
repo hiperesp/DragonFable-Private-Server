@@ -2,6 +2,8 @@
 
 The eerie glow coming from this mask lights the way to some serious mischief! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3125

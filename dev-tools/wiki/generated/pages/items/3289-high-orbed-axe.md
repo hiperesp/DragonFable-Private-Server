@@ -2,6 +2,8 @@
 
 The Dragon grasping the orb on this axe was carved from high-grade corundum.  It is worth it's weight in gold.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3289

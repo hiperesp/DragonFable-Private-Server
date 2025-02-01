@@ -2,6 +2,8 @@
 
 Crafted by Cronix in celebration of Hero's Heart Day '14! Hope you had a lovely time! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11547

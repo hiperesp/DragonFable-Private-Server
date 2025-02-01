@@ -2,6 +2,8 @@
 
 A menacing helm worn by druidic rangers as they hunt their prey, forged using the teeth of an ancient and lost species of wolf. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21703

@@ -2,6 +2,8 @@
 
 Let's gather some colorful balloons from that one creepy sewer! Yay...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

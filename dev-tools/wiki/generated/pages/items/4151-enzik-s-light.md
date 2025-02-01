@@ -2,6 +2,8 @@
 
 This dagger was forged in honor of Enzik, the first person to obtain the Twin Blades of Doom! This highly polished weapon shines with an inner light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4151

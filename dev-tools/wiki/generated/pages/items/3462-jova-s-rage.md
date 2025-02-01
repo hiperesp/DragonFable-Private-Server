@@ -2,6 +2,8 @@
 
 Khazri commissioned Cysero to build this dagger in honor of her pet eagle, Jova, after it saved her life when she was attacked by a monster.  Imbued with Jova's essence, the daggerhas a special which is triggered when you fight reptilian enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3462

@@ -3,6 +3,8 @@
 When your enemies see you coming at them wielding this dagger, they'll be frozen with fear! 
 This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2373

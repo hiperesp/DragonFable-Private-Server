@@ -2,6 +2,8 @@
 
 Death's special seasonal pumpkin spice scythe! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22129

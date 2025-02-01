@@ -2,6 +2,8 @@
 
 A lazy hamlet nestled on the coast north of Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

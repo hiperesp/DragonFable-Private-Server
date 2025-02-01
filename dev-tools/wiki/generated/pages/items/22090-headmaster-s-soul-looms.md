@@ -2,6 +2,8 @@
 
 The soul looms of Danyel, former headmaster of the Edelia soulweaving academy. Proof of victory over the Unwavering Determination challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22090

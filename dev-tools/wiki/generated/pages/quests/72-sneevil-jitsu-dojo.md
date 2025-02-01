@@ -2,6 +2,8 @@
 
 You have come directly to the home of the Sneevil Ninja Army to find out about their plans to attack Oaklore keep.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

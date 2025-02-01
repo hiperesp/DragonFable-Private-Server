@@ -2,6 +2,8 @@
 
 This is the style of helm worn by the Knights of the Pactogonal Table. It adds to your Str, Int and Dex.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 702

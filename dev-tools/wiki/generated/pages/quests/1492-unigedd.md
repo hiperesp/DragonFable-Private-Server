@@ -2,6 +2,8 @@
 
 You've collected and completed all the strange requests that were posted on the Swordhaven request board and now finally the person who's behind them wants you back for one last thing. What could it be?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

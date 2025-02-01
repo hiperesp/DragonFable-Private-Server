@@ -2,6 +2,8 @@
 
 Yoooou should not have tried that unbread pudding.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

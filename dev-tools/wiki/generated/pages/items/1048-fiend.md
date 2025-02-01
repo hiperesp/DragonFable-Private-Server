@@ -2,6 +2,8 @@
 
 This odd little guy comes from a different dimension. He stinks of brimstone so you can guess that it's a dimension that doesn't care how it smells.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1048

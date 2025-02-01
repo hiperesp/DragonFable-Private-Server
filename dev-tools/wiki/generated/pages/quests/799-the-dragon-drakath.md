@@ -2,6 +2,8 @@
 
 Drakath has used the power of the Ultimate Orb to combine with Fluffy and is now the most powerful darkness dragon that Lore has ever seen!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

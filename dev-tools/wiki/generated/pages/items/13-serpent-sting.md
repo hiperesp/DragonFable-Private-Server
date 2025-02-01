@@ -2,6 +2,8 @@
 
 Thisssssss weapon wassssss created by a sssssssssnake worsssssssssshiping culture, many yearsssssss ago.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13

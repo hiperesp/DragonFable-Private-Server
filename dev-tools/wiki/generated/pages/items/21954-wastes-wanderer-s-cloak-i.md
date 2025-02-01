@@ -2,6 +2,8 @@
 
 This thick yet oddly lightweight cloak offers silent protection from the elements. Proof of victory over Odessa, Wanderer of the Wastes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21954

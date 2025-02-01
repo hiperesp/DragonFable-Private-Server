@@ -2,6 +2,8 @@
 
 It takes heart to wield a staff like this.  It's a good thing this one comes with one already equipped.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2590

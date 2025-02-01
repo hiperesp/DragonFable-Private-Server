@@ -2,6 +2,8 @@
 
 A legendary pirate captain once used this sword to rule eastern coasts. On one moonless night, his ship disappeared, crew and all, leaving nothing but the waves behind. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22290

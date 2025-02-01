@@ -2,6 +2,8 @@
 
 An opulent fur cape denoting Sofist's rank as a senior member amongst the Rose.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11910

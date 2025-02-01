@@ -2,6 +2,8 @@
 
 Time to get those presents back!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

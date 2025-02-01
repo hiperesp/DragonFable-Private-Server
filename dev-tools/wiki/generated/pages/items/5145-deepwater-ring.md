@@ -2,6 +2,8 @@
 
 You can hear the sound of the ocean when you hold this ring up to your ear. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5145

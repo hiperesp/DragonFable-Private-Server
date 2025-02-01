@@ -2,6 +2,8 @@
 
 Pushing back against the onslaught.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

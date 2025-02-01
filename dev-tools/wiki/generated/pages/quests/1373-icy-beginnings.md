@@ -2,6 +2,8 @@
 
 Head to the frozen north to find all the information that can be found about Nivalis.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

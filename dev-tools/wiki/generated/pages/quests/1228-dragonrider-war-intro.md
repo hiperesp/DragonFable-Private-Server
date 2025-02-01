@@ -2,6 +2,8 @@
 
 Saellah's hideout has been found and now is the time to attack! With you undercover, who will fight in your stead though?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

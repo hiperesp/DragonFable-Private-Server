@@ -2,6 +2,8 @@
 
 Evil you could even say.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

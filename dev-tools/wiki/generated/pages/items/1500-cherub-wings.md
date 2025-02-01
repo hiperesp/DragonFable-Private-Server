@@ -2,6 +2,8 @@
 
 These wings are the type that the heralds of love wear as they fly around and snipe unsuspecting prey with their love arrows. They normally grant the power of FLIGHT... but you're too big. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1500

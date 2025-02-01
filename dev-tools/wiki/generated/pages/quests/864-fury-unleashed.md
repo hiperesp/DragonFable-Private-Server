@@ -2,6 +2,8 @@
 
 Your investigations have been noticed!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The long lost Summon Gem - Ayauhnqui! Its special ability will boost your All resist by 5 when used. Proof of victory over Ayauhnqui and Reaver!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19483

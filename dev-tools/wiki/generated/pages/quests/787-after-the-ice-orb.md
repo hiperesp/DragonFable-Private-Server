@@ -2,6 +2,8 @@
 
 You have to make sure the Ice Orb is safe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

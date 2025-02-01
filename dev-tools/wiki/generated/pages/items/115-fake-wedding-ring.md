@@ -2,6 +2,8 @@
 
 This ring adds a +12 to Defense Against Being Hit On.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 115

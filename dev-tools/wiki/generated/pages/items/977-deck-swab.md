@@ -2,6 +2,8 @@
 
 This staff goes from swabbing the deck to swabbing your enemies in seconds. You'll really clean up with it!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 977

@@ -2,6 +2,8 @@
 
 En and Tropy are ready to sow disorder.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

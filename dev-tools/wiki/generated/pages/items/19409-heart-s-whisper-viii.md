@@ -2,6 +2,8 @@
 
 This dagger hums with the rhythm of a slow beating heart. It's so light that at times, you almost forget that you're holding it...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19409

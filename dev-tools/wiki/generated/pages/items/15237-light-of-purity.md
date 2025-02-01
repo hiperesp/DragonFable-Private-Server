@@ -2,6 +2,8 @@
 
 An ancient magical weapon for the defense of the innocent and those who cannot defend themselves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15237

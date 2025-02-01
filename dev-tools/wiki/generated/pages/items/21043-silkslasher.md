@@ -2,6 +2,8 @@
 
 If you're ever caught by a giant spider, this handy oversized nail will slash through its webs like butter! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21043

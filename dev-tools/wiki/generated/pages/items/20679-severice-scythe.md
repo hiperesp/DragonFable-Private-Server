@@ -2,6 +2,8 @@
 
 A peculiar scythe, used by nomads of the past to defend themselves against the frost dragons, far up in the Northlands. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20679

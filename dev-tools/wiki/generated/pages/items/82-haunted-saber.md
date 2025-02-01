@@ -2,6 +2,8 @@
 
 This sword came from a battlefield where neither side won. It seems to be whispering to you but you can't quite hear what it is saying...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 82

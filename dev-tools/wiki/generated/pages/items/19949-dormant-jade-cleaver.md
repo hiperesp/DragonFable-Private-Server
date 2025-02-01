@@ -2,6 +2,8 @@
 
 Yalla's Jade Cleaver, withered and unsuable. Proof of victory over Yalla.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19949

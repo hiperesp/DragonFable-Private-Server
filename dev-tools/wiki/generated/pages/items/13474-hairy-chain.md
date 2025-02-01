@@ -2,6 +2,8 @@
 
 Hair is woven and tangled through all the links!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13474

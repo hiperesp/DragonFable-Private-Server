@@ -2,6 +2,8 @@
 
 Although this icy staff is melting a little, it is still frosty enough to channel magic! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4224

@@ -2,6 +2,8 @@
 
 The Putrid Primate, the Gorillaphant with no Skin on his Butt... Geeeeeeneral Boneyard is ready to face off against our Heroic Hero!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Vayle cannot forget the past, but she will have to in order to have a brighter future. Help her see the light!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Refined with enchanted silver, this sheet of star silver is ready to be used for any variety of anti-monster purposes. Proof of victory over ShadowSlayer E and V-Hunter EX13.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22194

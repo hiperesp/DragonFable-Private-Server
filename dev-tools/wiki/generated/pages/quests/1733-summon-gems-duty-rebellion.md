@@ -2,6 +2,8 @@
 
 To fight for a cause, to obey, to follow blindly, to fall, to rise, and fail.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

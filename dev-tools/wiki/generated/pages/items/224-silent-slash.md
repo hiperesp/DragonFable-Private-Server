@@ -2,6 +2,8 @@
 
 Tinged with a special cerulean magic, this blade cuts through the air without a sound.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 224

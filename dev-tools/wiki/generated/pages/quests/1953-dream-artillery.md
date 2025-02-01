@@ -2,6 +2,8 @@
 
 Though rather diminished compared to Notha's wild descriptions, this dreamed up version of an Exalted artillery cannon is quite effective!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

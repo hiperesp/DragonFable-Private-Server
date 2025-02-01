@@ -2,6 +2,8 @@
 
 The belt is cracked and worn, but still useful. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4664

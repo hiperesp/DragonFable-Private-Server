@@ -2,6 +2,8 @@
 
 With a massive Tytan high above Swordhaven, what can the newly formed Greenguard Alliance do to save the city?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

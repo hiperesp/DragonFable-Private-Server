@@ -2,6 +2,8 @@
 
 Aw cheese... Looks like a vanguard of vile villains are trying to violate the peace of Thankstaking. Time to clear this out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A dress hat adorned with gold roses. Wear this in celebration of Prince William and Kate's Royal Wedding!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5491

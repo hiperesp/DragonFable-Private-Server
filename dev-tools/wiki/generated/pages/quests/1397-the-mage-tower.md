@@ -2,6 +2,8 @@
 
 Valencia has the right idea! Time to pay Warlic a visit.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

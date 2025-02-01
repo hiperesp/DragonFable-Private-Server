@@ -2,6 +2,8 @@
 
 This emerald blade is enchanted by the winds of change!  It is also Cysero's favorite color.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1455

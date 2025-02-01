@@ -2,6 +2,8 @@
 
 This belt was scavenged from a long dead adventurer who succumbed to the cold hand of death long ago.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15961

@@ -2,6 +2,8 @@
 
 A multitude of flavors means this cape made of candy is not only delicious, but protective!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18411

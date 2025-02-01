@@ -2,6 +2,8 @@
 
 An ember from the forge of a Ghostly DragonLord, you can use this to upgrade the highest levels of the ChaosMoon set that drops from The Mighty Akriloth in the Fire War.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6910

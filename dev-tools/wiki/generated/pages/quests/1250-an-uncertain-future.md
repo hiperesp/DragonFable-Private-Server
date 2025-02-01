@@ -2,6 +2,8 @@
 
 Let's catch up to Leon!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

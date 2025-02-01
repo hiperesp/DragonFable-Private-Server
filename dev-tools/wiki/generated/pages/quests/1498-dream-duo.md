@@ -2,6 +2,8 @@
 
 The Mega Meowphant and the Sporca at the same time? Can you fight back this nightmare?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

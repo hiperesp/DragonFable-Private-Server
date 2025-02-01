@@ -2,6 +2,8 @@
 
 Someone is stealing the nuts and bolts keeping the machinery grinding away.  Can you find where this golem in the gears has hidden the parts?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This dagger does some SERIOUSLY serious cutting.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 806

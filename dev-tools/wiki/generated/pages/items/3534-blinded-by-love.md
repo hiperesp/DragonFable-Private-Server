@@ -2,6 +2,8 @@
 
 "Can't see... so many hearts!" This trinket blinds your opponent, giving -50 to the hit rate. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3534

@@ -2,6 +2,8 @@
 
 The intense heat of this blade rivals that of Yulgar's Forge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1810

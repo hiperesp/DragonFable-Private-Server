@@ -2,6 +2,8 @@
 
 This ring is a small band of jade with a raised rose carved from a ruby.  Inside, the name Iva Toguri is engraved. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5756

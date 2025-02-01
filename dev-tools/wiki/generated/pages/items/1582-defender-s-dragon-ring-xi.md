@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It was awarded to you by the town of Falconreach for defending it against a terrible threat. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1582

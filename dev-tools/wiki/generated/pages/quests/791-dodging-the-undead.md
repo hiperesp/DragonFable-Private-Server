@@ -2,6 +2,8 @@
 
 Why did the skelly cross the road?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

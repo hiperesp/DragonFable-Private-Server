@@ -2,6 +2,8 @@
 
 Help Leon and Crest save Mages before the Rose get to them.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

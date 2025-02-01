@@ -2,6 +2,8 @@
 
 These wings were fashioned by faeries for a hero among their people. Somehow they got lost in her laundry and ended up here. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1043

@@ -2,6 +2,8 @@
 
 This staff is made from flawless pieces of stalagnatum.  The glow is rather pretty, but you might want to have it tested for toxicity.  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2282

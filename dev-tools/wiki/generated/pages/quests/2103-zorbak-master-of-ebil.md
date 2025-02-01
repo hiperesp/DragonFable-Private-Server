@@ -2,6 +2,8 @@
 
 From the depths of his dank domain comes the Ebil moglin Zorbak!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

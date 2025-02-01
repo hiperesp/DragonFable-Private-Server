@@ -3,6 +3,8 @@
 This axe, graced with glowing amber, was crafted by True Mortal in honor of the valiant heroes who fought against vast hordes of Turducken and emerged victorious.
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7840

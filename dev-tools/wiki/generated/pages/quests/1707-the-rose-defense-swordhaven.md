@@ -2,6 +2,8 @@
 
 Defend the people of Swordhaven from the attacking elementals.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

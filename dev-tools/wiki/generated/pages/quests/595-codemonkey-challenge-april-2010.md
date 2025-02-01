@@ -2,6 +2,8 @@
 
 The codemonkey is back with another challenge to keep your brains active and your tog-slaying skills honed!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

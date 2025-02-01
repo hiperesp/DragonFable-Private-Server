@@ -2,6 +2,8 @@
 
 You'll have a slaying time tonight! Happy Frostval, 2013! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11303

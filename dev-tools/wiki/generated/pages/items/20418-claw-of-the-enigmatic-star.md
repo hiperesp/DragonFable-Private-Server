@@ -3,6 +3,8 @@
 A mysterious focus to be gripped in your hand. This magical weapon comes from an unknown source. Can be clicked to change its angle. Proof of victory over Ledgermayne.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20418

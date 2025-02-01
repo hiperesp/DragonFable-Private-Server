@@ -2,6 +2,8 @@
 
 See how Baron Au'Mydas got obsessed with gold and acquired the powers which led him to attempt to gild the world!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

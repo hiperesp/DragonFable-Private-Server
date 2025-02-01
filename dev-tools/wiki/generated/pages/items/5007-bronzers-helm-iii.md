@@ -2,6 +2,8 @@
 
 The Bronzers are an elite sport team followed by many of Falconreach's townspeople.  Are YOU a fan? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5007

@@ -2,6 +2,8 @@
 
 Rhubarb has asked that you investigate the strange feeling that everyone is getting from Osprey Cove's waterfront.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

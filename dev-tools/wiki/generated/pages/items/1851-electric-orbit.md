@@ -2,6 +2,8 @@
 
 Someone, somehow, molded the energy of a wisp into a ring.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1851

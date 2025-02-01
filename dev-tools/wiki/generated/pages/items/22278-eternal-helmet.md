@@ -2,6 +2,8 @@
 
 This stylish helmet is specially forged to protect your head while you barrel through time! Note: Only tested going forward through time. Click to show stylish goggles! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22278

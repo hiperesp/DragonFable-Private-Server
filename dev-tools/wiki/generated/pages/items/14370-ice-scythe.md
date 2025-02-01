@@ -2,6 +2,8 @@
 
 This replica of the legendary Ice Scythe was created by Ashendal. It is enchanted to occasionally lower your foes resistance to Ice! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14370

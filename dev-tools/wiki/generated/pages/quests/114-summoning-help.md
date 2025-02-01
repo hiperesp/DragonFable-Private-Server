@@ -2,6 +2,8 @@
 
 You have gathered all the necessary spell components that Warlic needs to summon a creature from the darkness who can sniff out the real Dragon Egg!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

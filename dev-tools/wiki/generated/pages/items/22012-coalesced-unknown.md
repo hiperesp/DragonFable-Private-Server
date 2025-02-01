@@ -2,6 +2,8 @@
 
 Inside this vial is a portion of the Mana Core's power. While certain researchers would do anything to get their hands on it... Used to further upgrade Hawkscry's Legacy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22012

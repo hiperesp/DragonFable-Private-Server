@@ -2,6 +2,8 @@
 
 This mysterious metal box seems to have washed up ashore. It doesn't look like anything you've ever encountered before, but maybe someone would be interested in buying it?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18153

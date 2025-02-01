@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Its golden extierior belies a remarkable mysticite core, which helps a mage focus their energy for more damage. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 933

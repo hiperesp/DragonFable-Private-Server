@@ -2,6 +2,8 @@
 
 This beautiful weapon seems to have appeared out of nowhere. Stranger things have happened than a random weapon appearing. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13202

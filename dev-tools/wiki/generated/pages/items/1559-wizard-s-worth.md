@@ -2,6 +2,8 @@
 
 An ancient staff which was given to signify the end of an apprenticeship.  If you could craft it, you passed.  If you couldn't...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1559

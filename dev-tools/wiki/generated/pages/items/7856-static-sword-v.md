@@ -2,6 +2,8 @@
 
 An energy weapon... Is the Rose confiscating magic weapons now? 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7856

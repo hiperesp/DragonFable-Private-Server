@@ -2,6 +2,8 @@
 
 A creepy, burnt out house in Swordhaven.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

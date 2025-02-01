@@ -2,6 +2,8 @@
 
 Find out what happened to the mining town of Lymcrest!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The helm of the legendary order of Frost Moglin Knights! An artifact for Frost Moglin Armor along with the Frost Moglin Knight's Cape. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17795

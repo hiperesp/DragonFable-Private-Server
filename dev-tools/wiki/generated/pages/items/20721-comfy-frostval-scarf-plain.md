@@ -2,6 +2,8 @@
 
 A comfy striped scarf, warm and cozy. Can be enchanted with different color options! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20721

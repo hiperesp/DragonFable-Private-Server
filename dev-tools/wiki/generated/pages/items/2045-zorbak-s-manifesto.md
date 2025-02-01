@@ -2,6 +2,8 @@
 
 This is full of ramblings about undead, taking over lore, ungrateful family members and how he'll show everyone. Little of it makes any sense.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2045

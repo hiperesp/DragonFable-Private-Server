@@ -2,6 +2,8 @@
 
 The weight of this blinding mace threatens to drag you down... On demand, deals damage that cannot crit, and increases DoT damage reduction by 5%.  (Special)(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21958

@@ -2,6 +2,8 @@
 
 The iconic helm of the Archlord Lionfang, burdened with the madness of Chaos. Proof of victory over Lionfang, the Zealot. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20905

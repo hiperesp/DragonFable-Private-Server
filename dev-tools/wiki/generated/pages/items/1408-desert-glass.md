@@ -2,6 +2,8 @@
 
 The glass at the tip of this wand is very rare. It's said that it forms when flashes of light appear over the desert. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1408

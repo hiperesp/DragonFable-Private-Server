@@ -2,6 +2,8 @@
 
 This is what the Greedling wears when it wants to feel intimidating.  How's it work for you?.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4435

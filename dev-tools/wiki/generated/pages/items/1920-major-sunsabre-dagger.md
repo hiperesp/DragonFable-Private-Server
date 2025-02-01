@@ -2,6 +2,8 @@
 
 This dagger was left outside for an entire season to absorb sunlight by the priests of a sun-worshiping clan deep in the heart of a faraway desert.  The intense glow of its shine demonstrates the blessings given by their gods.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1920

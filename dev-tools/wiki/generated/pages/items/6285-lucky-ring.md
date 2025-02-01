@@ -2,6 +2,8 @@
 
 Well... do you feel lucky?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6285

@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Sloth, the Aritifical Spirit, to be your foe!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

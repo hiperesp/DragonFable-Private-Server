@@ -2,6 +2,8 @@
 
 Great for soup if you're eight feet tall, or really handy for whacking enemies on the head if you're six feet tall or less.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2354

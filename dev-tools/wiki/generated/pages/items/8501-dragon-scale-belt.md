@@ -2,6 +2,8 @@
 
 A belt of linked dragons scales, it looks like it has been examined and inspected... everything short of turned into magic dust.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8501

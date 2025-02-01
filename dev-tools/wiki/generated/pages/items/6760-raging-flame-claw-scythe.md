@@ -2,6 +2,8 @@
 
 Infused with the fury of Xan himself, this weapon burns brightly with hateful fire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6760

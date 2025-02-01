@@ -2,6 +2,8 @@
 
 Trip all the circuits until you have enough Amps. Be careful though, too many amps and you'll blow the breaker and have to start again!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

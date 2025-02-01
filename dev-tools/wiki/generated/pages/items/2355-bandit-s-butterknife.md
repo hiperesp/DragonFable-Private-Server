@@ -3,6 +3,8 @@
 Good for spreading butter or spreading pain!  Multi-use tools are so efficient!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2355

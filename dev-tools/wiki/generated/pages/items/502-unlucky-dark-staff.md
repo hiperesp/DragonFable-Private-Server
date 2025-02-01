@@ -2,6 +2,8 @@
 
 This rare version of the Dark Staff can only be found during a Friday the 13th weekend. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 502

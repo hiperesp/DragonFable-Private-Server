@@ -2,6 +2,8 @@
 
 Your enemies will stand no chance against you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7510

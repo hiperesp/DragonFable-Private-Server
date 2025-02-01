@@ -2,6 +2,8 @@
 
 Sir Malifact collected this weapon from a fallen DeathKnight and saved it. While he already has items bound to him, you might be able to make use of it. Click to switch between Darkness and Light. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12583

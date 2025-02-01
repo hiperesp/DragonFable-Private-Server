@@ -2,6 +2,8 @@
 
 Big Daddy needs your help! Why are there monsters in the Snuggle Forest?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

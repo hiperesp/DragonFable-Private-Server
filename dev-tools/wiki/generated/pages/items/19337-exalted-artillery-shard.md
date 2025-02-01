@@ -2,6 +2,8 @@
 
 A piece broken off of the Exalted Artillery. Proof of victory over the Apex of the Exaltia Tower. Can be used to forge and upgrade Exalted gear.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19337

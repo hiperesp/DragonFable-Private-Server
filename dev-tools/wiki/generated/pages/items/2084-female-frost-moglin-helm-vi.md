@@ -2,6 +2,8 @@
 
 This helm was designed by Blizzy and Chilly and perfectly compliments female frost moglin armor!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2084

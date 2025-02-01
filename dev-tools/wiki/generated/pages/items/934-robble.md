@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. Its dual blades strike at your foes with a hunger that only a true burgler could possess.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 934

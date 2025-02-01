@@ -2,6 +2,8 @@
 
 Crafted from the scaled hide of a malevolent sea serpent, its guise blinds you to the world at hand, but avails hidden tides towards great treasures. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21648

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 22 or higher to create. This sword design has a wish for a bright and peaceful future inscribed into the hilt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1228

@@ -2,6 +2,8 @@
 
 The leather of this belt has been heavily chewed and looks like it's about to fall apart at any second.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13477

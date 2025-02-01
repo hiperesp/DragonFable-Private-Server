@@ -2,6 +2,8 @@
 
 Bright. Blinding. Glowy. This staff is all of these things and more. The more part you will just have to find out on your own. You didn't think we would give away all of its secrets, do you?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1142

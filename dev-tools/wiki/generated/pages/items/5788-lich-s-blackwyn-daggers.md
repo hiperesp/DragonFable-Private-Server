@@ -2,6 +2,8 @@
 
 One of the weapons from the Blackwyn Lich's arsenal, these daggers have wickedly sharp blades. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5788

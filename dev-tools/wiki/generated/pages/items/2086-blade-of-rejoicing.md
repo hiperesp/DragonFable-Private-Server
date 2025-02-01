@@ -2,6 +2,8 @@
 
 It is truly a time to rejoice, for your friends have been freed from Noxus cruel, coal-loving grasp.  Carry this sword as a reminder of your victory and enjoy its healing powers: a 5% chance to heal you on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2086

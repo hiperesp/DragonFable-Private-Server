@@ -2,6 +2,8 @@
 
 This regal beast is regarded as "the King of the Land". His power is unmatched, his authority goes unchallanged.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 449

@@ -2,6 +2,8 @@
 
 Short and thick, this blade is made for choppin'!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 344

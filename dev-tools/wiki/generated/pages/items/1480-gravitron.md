@@ -2,6 +2,8 @@
 
 This weapon is powered by a magically contained mini black-hole. Don't make it angry.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1480

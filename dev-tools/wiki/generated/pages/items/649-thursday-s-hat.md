@@ -2,6 +2,8 @@
 
 This hat was handmade by Thursday. It provides defense against darkness and a +1 to Charisma.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 649

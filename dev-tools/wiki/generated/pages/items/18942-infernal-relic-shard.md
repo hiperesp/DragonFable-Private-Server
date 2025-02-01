@@ -2,6 +2,8 @@
 
 This smooth shard of metal changes color as you stare at it. The changes and patterns are almost mesmerizing.  Merge with Celestial Relic Shard to create Exalted Unity.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18942

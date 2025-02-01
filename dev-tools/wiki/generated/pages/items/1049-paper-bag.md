@@ -2,6 +2,8 @@
 
 This is no ordinary paper bag with holes cut into it. This, my friend, is a MAGIC paper bag with holes cut into it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1049

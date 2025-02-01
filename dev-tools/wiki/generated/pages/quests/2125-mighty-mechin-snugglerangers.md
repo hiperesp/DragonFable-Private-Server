@@ -2,6 +2,8 @@
 
 What terrors does Big Daddy have in store for you on this year's Hero's Heart Day?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

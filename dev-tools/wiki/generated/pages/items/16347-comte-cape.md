@@ -2,6 +2,8 @@
 
 You?re the Big Cheese now! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16347

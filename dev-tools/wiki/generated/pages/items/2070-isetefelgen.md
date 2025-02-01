@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This powerful staff is topped with a rune inscribed metal sphere. Stick your tongue to the orb and taste its power. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2070

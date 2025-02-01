@@ -2,6 +2,8 @@
 
 Crafted by Dracelix, this crystal sword celebrates the New Year ALL year with fireworks! Happy 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11437

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 30 or higher to create. This dagger moves silently, but causes alarm. The name is kind of self-explanatory. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1242

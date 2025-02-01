@@ -2,6 +2,8 @@
 
 I've been feelin' like a ghost and that's what I can't stand the most! This time I should just disappear! oh oh oh oh oh oh! Happy Mogloween 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12899

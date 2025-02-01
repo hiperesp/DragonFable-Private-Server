@@ -2,6 +2,8 @@
 
 With the main Lagohm force subdued, it's time for Ostromir and Vseslava to get to work...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

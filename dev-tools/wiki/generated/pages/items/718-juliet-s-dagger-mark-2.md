@@ -2,6 +2,8 @@
 
 Once this dagger was owned by a young woman who lost her one true love. In a fit of despair she went on a rampage, destroying all of her foes with this magic dagger.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 718

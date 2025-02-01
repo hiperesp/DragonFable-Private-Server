@@ -2,6 +2,8 @@
 
 An old book titled "Vegetable Farm". It seems to be about vegetables taking over a farm and creating a perfect food society. As if that could ever happen!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14973

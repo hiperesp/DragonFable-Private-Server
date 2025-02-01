@@ -2,6 +2,8 @@
 
 Wrought with immaculate gold accents, this crystalline gemblade channels the raw power of Temblor, Avatar of Nature. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21747

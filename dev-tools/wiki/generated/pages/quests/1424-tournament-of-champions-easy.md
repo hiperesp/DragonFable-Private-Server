@@ -2,6 +2,8 @@
 
 Win the tournament and gain an audience with King Alteon!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

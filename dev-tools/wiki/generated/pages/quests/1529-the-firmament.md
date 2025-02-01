@@ -2,6 +2,8 @@
 
 It's Friday the 13th... but where are the enemies?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

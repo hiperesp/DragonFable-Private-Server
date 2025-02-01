@@ -2,6 +2,8 @@
 
 Empowered with the magic of The Great One, this weapon can swap between blades of Nature and Stone. With Hansa's input, it has a rather Rose flair!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21104

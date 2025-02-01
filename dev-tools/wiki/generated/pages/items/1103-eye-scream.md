@@ -2,6 +2,8 @@
 
 Forged in the hidden depths of Frostvale, this blade will never end the supply of brain freeze to your enemy.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1103

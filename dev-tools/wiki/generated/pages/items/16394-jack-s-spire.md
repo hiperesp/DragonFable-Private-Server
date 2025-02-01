@@ -2,6 +2,8 @@
 
 Every year, attempts are made to remake Jack- for good or ill. None have ever come close. Perhaps some ingredient is missing.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16394

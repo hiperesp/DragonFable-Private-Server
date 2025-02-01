@@ -2,6 +2,8 @@
 
 A powerful blade of Exalted design, used in a long forgotten war. Click it to switch between Good and Evil. Can be upgraded.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18940

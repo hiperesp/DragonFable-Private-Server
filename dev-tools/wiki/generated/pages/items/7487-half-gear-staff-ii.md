@@ -2,6 +2,8 @@
 
 Crafted by gnomish refugees, this weapons has lots of delicate moving parts.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7487

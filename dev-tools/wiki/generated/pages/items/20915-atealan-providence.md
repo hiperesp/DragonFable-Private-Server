@@ -2,6 +2,8 @@
 
 This relic may bear some of the very last Trithril remaining from the Atealan home world. It has become a symbol of safeguarding and protecting those close to you, and cherishing all moments.(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20915

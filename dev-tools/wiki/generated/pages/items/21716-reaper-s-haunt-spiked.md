@@ -2,6 +2,8 @@
 
 Crafted by a tormented artist as her interpretation of Death's visage, its previous owners have all been driven mad by visions of shadowy figures. Maybe you'll be the exception. Now with spikes! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21716

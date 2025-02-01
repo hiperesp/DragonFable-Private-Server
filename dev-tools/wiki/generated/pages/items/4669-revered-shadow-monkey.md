@@ -2,6 +2,8 @@
 
 This is one of the ninja monkies trained by the Shadow of the Wind ninja to cause trouble for the Osprey Cove pirates. Day of the Ninja rare pet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4669

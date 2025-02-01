@@ -3,6 +3,8 @@
 This young capustak seems to want to explore the world and see its sights! You just need to give it a nice perch on your head. Can also be a nice snack in emergencies.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20674

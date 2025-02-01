@@ -2,6 +2,8 @@
 
 This ninja staff has the ability to focus magical energies, and to reach high shelves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1123

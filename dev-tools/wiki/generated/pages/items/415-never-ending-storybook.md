@@ -3,6 +3,8 @@
 This leatherbound tome has an image of 2 intertwined snakes eating each others tails on the cover. It glows with a powerful aura.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 415

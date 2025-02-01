@@ -2,6 +2,8 @@
 
 This blade was forged from corrupted ice. It draws wandering souls to itself and can even heal you for a small amount.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12260

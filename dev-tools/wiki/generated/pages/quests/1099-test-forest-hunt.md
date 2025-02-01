@@ -2,6 +2,8 @@
 
 yay testing
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

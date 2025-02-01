@@ -2,6 +2,8 @@
 
 Kate needs those letters so she can remember her husband. Sounds like a job for a hero!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

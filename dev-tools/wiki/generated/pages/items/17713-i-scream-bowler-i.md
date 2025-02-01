@@ -2,6 +2,8 @@
 
 I scream, you scream, my hat screams, my hat's hat screams!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17713

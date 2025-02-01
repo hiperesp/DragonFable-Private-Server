@@ -2,6 +2,8 @@
 
 This carved wooden charm was given to you as you prepared to leave Sulen'Eska to fight the amassing Rose forces at the swamp border. May it help you weather the coming storm. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20844

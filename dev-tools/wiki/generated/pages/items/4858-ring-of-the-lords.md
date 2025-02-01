@@ -2,6 +2,8 @@
 
 So many desire this precioussssss ring, and now it's fallen into YOUR hands!  What will you do with it?  It might just make you walk into more doors.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4858

@@ -2,6 +2,8 @@
 
 You have discovered the home of the VurrMen in the tunnels beneath the ruins. It appears as if they are gathering  weapons and resources. Maybe they are planning something big...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

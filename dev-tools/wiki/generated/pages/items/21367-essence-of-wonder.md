@@ -3,6 +3,8 @@
 An indescribable swirl of color, safely bottled in a vial.
 Proof of victory over the "In Wanderland" challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21367

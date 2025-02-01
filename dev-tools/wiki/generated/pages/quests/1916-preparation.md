@@ -2,6 +2,8 @@
 
 Bart needs some ingredients!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A drop of liquid, magically frozen, it has been carved to fit your hand... 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7045

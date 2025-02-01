@@ -2,6 +2,8 @@
 
 The Pale Sea
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

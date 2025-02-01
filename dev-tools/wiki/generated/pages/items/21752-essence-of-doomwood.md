@@ -2,6 +2,8 @@
 
 This small crystal bottle holds a swirling purple-red mist. Proof of victory over the Doomwood Duo.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21752

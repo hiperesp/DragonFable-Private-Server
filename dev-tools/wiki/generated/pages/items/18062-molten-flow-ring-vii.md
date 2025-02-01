@@ -2,6 +2,8 @@
 
 A thin band of flowing molten magma that rotates slowly around your finger. Despite its appearance, it is cool to the touch. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18062

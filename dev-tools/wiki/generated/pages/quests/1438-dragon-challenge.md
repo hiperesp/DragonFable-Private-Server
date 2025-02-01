@@ -2,6 +2,8 @@
 
 You're up against one of the Dragon Challenge Trio! Will you succeed? Will you fail?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

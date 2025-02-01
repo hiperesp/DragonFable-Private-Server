@@ -2,6 +2,8 @@
 
 This seemingly translucent ring glows brightly with fluorescent light. An Elemental Spirit of Focus bound to it is able to make the wearer perceive things beyond imagination. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18363

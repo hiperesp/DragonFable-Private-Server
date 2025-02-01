@@ -2,6 +2,8 @@
 
 Crafted from the twisting shadows behind the turning hands of clocks, this scythe rends time and space.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17813

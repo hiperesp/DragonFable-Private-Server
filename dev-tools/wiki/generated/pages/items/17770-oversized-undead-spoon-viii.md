@@ -2,6 +2,8 @@
 
 Undead don't eat but you can eat with undead! Surely there's no lasting effects from using undead silverware? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17770

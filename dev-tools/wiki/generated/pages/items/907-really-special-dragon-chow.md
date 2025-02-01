@@ -2,6 +2,8 @@
 
 Her-O's: This protein packed dragon food will definitely buff-up your dragon. This dragon food gives five training points.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 907

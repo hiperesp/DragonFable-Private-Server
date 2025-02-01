@@ -2,6 +2,8 @@
 
 The Simulacrum of Kathool is here.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

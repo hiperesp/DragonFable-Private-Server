@@ -2,6 +2,8 @@
 
 Collect the disgusting spam mail that's clogging everyone?s mailboxes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

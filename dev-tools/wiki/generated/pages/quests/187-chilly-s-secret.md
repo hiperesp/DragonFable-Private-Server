@@ -2,6 +2,8 @@
 
 Chilly has a secret that will change Frostval forever!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

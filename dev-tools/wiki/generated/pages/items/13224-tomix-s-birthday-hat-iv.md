@@ -2,6 +2,8 @@
 
 The birthday hat of the SoulWeaver, Tomix! May his courage and fearlessness always inspire you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13224

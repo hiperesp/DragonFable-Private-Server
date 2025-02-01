@@ -2,6 +2,8 @@
 
 Use this to upgrade your Eternity Key!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7689

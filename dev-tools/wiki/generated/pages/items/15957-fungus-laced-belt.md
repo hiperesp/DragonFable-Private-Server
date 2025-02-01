@@ -2,6 +2,8 @@
 
 The leather seems to be covered with the sprouts and mold of a poisonous fungus.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15957

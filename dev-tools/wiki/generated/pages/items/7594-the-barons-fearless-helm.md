@@ -2,6 +2,8 @@
 
 You look dashing while you're bashing any and every monster that might cross your path! You look dashing while you're bashing any and every monster that might cross your path!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7594

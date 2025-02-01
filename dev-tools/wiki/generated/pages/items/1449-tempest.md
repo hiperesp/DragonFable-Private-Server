@@ -2,6 +2,8 @@
 
 This dagger is made of tempered steel and forged in a temperate forest village by a blacksmith of bad temper.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1449

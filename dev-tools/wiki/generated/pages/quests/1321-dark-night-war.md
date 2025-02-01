@@ -2,6 +2,8 @@
 
 Falconreach and Oaklore are under siege from the forces of Baron Jaysun Valtrith!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

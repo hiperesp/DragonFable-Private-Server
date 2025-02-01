@@ -2,6 +2,8 @@
 
 Stylized versions of Pandora's Cube are etched into the silver band of this choker.  The carvings glow a faint green.  Do you really want this thing around your neck?  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3820

@@ -2,6 +2,8 @@
 
 Galanoth has been spotted, and the dragonlords of Dragonsgrasp have a fun way to pass the time.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

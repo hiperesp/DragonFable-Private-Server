@@ -2,6 +2,8 @@
 
 Looks like something tagged along when the shrink-ray wore off! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13786

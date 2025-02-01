@@ -2,6 +2,8 @@
 
 When you wish upon a star, sometimes, you'll wish you hadn't. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22046

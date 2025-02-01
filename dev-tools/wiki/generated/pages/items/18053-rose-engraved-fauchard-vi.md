@@ -2,6 +2,8 @@
 
 This fine spear has been forged by the dwarves of Lymcrest for the Rose. The engraved runes are said to glow near particularly magical sites. The runes don't seem to ever stop glowing. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18053

@@ -2,6 +2,8 @@
 
 This is a brick, you are a hero. It's the hero's brick!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19556

@@ -2,6 +2,8 @@
 
 Crafted with a combination of old and new techniques practiced by smiths in the Shapeless Empire, this ornamental blade was crafted as homage to a homeland lost. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21566

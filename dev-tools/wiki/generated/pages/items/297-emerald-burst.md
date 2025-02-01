@@ -2,6 +2,8 @@
 
 This emerald staff is brimming full of power and is perfect for a mage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 297

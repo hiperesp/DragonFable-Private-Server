@@ -2,6 +2,8 @@
 
 Going to speak to a necromancer about the Khy'Rhian?  Nice.  Hopefully he will have some useful information about them.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

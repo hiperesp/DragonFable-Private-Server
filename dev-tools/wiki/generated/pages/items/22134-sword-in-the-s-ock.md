@@ -2,6 +2,8 @@
 
 Only a true hero can pull this legendary sword out of the left sock! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22134

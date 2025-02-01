@@ -2,6 +2,8 @@
 
 Signature on delivery!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

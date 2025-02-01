@@ -2,6 +2,8 @@
 
 See if you can take down the catering services resident dishwasher.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

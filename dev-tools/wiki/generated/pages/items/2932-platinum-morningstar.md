@@ -3,6 +3,8 @@
 Lim has an appreciation for the classics.  He's just overclocked this morningstar by coating it with reactive platinum. 
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2932

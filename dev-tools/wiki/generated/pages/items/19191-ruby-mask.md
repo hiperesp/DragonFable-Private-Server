@@ -2,6 +2,8 @@
 
 This mask smells... delicious.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19191

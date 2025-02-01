@@ -2,6 +2,8 @@
 
 This peculiar blade was formed from the first sprouts of spring. Has a 5% chance on hit to apply a 50% damage DoT for 5 turns. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20205

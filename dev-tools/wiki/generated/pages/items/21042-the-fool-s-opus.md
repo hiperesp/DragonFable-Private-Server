@@ -2,6 +2,8 @@
 
 A yellowed, old, handwritten sheet of music. Torn and crumpled, the ink has not faded, and the empty bars remain. Customization Catalyst for Paladin and DeathKnight. Proof of victory over the Swan Song (Extreme) challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21042

@@ -2,6 +2,8 @@
 
 A long abandoned ruin. What will you find inside?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

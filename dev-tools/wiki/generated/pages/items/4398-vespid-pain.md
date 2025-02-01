@@ -2,6 +2,8 @@
 
 The stingers from the Z-Virus infected Bees come together to form a wicked weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4398

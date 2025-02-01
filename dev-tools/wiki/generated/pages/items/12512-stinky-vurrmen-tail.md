@@ -2,6 +2,8 @@
 
 Maybe cats like the smell?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12512

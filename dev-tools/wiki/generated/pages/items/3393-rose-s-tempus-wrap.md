@@ -2,6 +2,8 @@
 
 Numbers run along the edge of this sash.  As you approach your original spacetime location, the numbers glow brighter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3393

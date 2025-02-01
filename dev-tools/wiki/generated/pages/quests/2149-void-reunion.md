@@ -2,6 +2,8 @@
 
 Reaching out to each other, balanced by opposing yet same forces, the reunion of the Void Dragons is upon us.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

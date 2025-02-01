@@ -2,6 +2,8 @@
 
 This orange is bigger than your head. Why would the bandits have such large oranges? One side is stamped with the letter "y". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18771

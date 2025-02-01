@@ -2,6 +2,8 @@
 
 This hatchet looks to be made of pure gold and cuts through armor like butter! margarine... butter... margarine... parkay!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 137

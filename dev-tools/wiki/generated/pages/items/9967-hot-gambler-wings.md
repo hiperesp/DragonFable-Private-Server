@@ -2,6 +2,8 @@
 
 These lucky wings will make battles less of a gamble! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9967

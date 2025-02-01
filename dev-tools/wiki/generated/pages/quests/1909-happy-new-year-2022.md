@@ -2,6 +2,8 @@
 
 All across Greenguard, everyone is celebrating Frostval in their own way, looking forward to the year to come.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

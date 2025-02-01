@@ -2,6 +2,8 @@
 
 This corrupted staff seems to be similar to the Unlucky Staff that was found during the first Friday the 13th war. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13555

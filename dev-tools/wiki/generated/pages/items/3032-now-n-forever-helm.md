@@ -2,6 +2,8 @@
 
 Wear it now. Wear it later. Wear it forever! Trouble's Now and Forever's from  Mogloween 2009!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3032

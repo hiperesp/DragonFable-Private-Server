@@ -2,6 +2,8 @@
 
 This weapon was cursed by the spirits of nature. Burdened with all the powers of fall and winter, this weapon represents death in all of its forms.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1315

@@ -2,6 +2,8 @@
 
 Some mage went berserk with POWERWORD BLING!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 185

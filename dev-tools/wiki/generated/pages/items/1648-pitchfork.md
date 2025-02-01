@@ -2,6 +2,8 @@
 
 A simple farming implement, it's also good for keeping zombies at bay.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1648

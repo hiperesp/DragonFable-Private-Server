@@ -2,6 +2,8 @@
 
 Bloodgem shards have been found in the hills of Doomwood for many generations. They are places in the Crypt to allow the holy aura to purify them. Bring these gems to the DEFENDER SHOP in FALCONREACH for a light Dragon Amulet Light weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 684

@@ -2,6 +2,8 @@
 
 A polished ring of fused nature, formed from a small piece of fulgurite found on your journey to the Doomwood ruins. The powerful energy magic that caused its origin seems to linger still. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19916

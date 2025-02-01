@@ -2,6 +2,8 @@
 
 You have to find The Professor! Where would a tech savvy guy go for shelter?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

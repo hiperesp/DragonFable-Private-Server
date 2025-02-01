@@ -2,6 +2,8 @@
 
 The perfect weapon for revenge! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7515

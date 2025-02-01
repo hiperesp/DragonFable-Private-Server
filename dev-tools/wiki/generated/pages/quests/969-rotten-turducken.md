@@ -2,6 +2,8 @@
 
 The turducken have... evolved!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

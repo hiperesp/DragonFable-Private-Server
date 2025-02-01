@@ -2,6 +2,8 @@
 
 The war is over but why were the were-creatures attacking?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

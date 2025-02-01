@@ -2,6 +2,8 @@
 
 Rolith has charged you with clearing out the woods around Frostvale of potential dangers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

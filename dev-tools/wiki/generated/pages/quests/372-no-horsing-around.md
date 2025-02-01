@@ -2,6 +2,8 @@
 
 Spirit in need of help? Check. Possessive Grim Reaper holding her in the Underworld? Check. Zeuster wanting your help again? Check. Time to bust out your weapon and take on some ghosts.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

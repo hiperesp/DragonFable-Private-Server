@@ -2,6 +2,8 @@
 
 The Cyklons are determined to take Popsprocket over before you do them in!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

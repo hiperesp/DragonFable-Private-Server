@@ -2,6 +2,8 @@
 
 This ring is so green and pretty... and itchy... uh oh, what kind of ivy is it made of?!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3342

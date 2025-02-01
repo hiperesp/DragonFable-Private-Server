@@ -2,6 +2,8 @@
 
 This scarf is made of a material you do not recognize. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21727

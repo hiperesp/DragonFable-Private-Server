@@ -2,6 +2,8 @@
 
 This amalgamation of necromancy and technomancy appears to house potential similar to that of the Wind and Water Orbs, albeit on a far smaller scale. Proof of victory over Blades and Bones.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21529

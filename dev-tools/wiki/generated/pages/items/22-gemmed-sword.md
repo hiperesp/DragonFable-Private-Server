@@ -2,6 +2,8 @@
 
 This sword is encrusted with sparkling gems and precious stones. It feels like you're swinging a small jewelry store when you wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22

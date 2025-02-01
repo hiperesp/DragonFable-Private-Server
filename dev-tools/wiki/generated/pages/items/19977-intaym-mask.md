@@ -2,6 +2,8 @@
 
 The mask of a face of legend... or the future?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19977

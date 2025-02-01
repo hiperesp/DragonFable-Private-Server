@@ -2,6 +2,8 @@
 
 Carnax, destroyer of the Taladosian civilization! Carnax rises once more, this time to lay waste to our lands.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

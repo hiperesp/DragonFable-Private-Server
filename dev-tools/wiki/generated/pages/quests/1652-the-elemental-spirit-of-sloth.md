@@ -2,6 +2,8 @@
 
 Before you lays Sloth, an artificial Elemental Spirit born of Pandora's laxness.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

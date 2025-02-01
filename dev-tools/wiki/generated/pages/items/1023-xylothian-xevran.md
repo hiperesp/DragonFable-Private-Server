@@ -2,6 +2,8 @@
 
 You're not sure what a Xevran is, but this looks like it would make a pretty nice dagger. The hilt seems to generate it's own heat though...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1023

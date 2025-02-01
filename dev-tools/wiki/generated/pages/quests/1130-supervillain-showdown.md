@@ -2,6 +2,8 @@
 
 Can you defeat the new residents of the Battlespire? No masks allowed!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

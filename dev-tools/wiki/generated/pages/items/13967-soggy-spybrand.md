@@ -2,6 +2,8 @@
 
 After being locked away in a chest in the middle of a dark and corrupted dead dragon you aren't sure if these are alright to use. Oh well, waste not want not.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13967

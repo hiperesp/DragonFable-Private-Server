@@ -2,6 +2,8 @@
 
 A cold light dances within the large crystal head atop this staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 190

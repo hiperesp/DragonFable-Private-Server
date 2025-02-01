@@ -2,6 +2,8 @@
 
 Sirius has discovered a light at the end of the tunnel... One final Fearscape remains.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Lady Celestia has sent you to talk to the Elemental Avatars.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

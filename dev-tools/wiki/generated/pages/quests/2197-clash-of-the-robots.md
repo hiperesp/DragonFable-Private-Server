@@ -2,6 +2,8 @@
 
 With Joules "captured", all you need to do now is convince her to give up her evil ways! What's the worst that could happen?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

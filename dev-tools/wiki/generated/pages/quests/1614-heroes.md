@@ -2,6 +2,8 @@
 
 It's time to be a Hero(tm)!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

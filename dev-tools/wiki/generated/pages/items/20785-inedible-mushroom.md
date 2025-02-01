@@ -2,6 +2,8 @@
 
 You found it. You took it. You tasted it. Utterly unfit for consumption. It made you angry that you could NOT eat it, so you saved it for later. Something to be angry about, when a situation arises.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20785

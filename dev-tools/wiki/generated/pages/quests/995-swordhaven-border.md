@@ -2,6 +2,8 @@
 
 The guarded border of Greater Swordhaven.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

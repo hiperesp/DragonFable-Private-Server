@@ -2,6 +2,8 @@
 
 Carved from the tusk of a Zardbified Gorillaphant!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6017

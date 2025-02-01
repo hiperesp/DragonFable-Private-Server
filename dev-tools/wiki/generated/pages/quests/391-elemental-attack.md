@@ -2,6 +2,8 @@
 
 Elementals are pouring out of a Mage Portal.... can we hold them off?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

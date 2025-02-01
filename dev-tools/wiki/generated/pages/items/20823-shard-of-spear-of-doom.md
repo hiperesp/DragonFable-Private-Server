@@ -2,6 +2,8 @@
 
 A broken shard of Achille's spear. Proof of victory over the ancient DoomKnight Achilles!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20823

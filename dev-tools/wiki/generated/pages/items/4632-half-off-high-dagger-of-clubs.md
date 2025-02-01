@@ -2,6 +2,8 @@
 
 This dagger really suits you!  But it's not shaped like a club at all... NOW HALF-OFF! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4632

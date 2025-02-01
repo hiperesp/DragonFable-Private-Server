@@ -2,6 +2,8 @@
 
 When wearing this mask, you can see the music!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20631

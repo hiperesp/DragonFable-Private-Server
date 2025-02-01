@@ -2,6 +2,8 @@
 
 This scythe will rip through your enemies with style!  The gems coordinate with your outfit, too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3728

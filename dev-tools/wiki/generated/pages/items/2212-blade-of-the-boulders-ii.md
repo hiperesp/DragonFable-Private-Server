@@ -2,6 +2,8 @@
 
 Ancient geomantic magic fused the remnants of a rockslide into this razor-edge blade.  You could cut through rock like butter with it.   Mmm, buttered rocks. Nutritious!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2212

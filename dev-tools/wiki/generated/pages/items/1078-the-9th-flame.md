@@ -2,6 +2,8 @@
 
 Once there were 12 magical fires set around the kingdom that burned day and night to keep the people of the kingdom surrounded by light and warmth. A flame from the 9th magical fire was used in the creation of this staff. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1078

@@ -2,6 +2,8 @@
 
 A color custom Helmet of Tog-Control! Now with 50% fewer toxic chemicals. (Cosmetic)(CC: Base, Trim)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21082

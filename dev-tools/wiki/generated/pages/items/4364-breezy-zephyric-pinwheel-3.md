@@ -2,6 +2,8 @@
 
 The breath of the Wind Avatar courses through the blades of this mighty weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4364

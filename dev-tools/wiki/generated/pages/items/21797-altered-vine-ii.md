@@ -2,6 +2,8 @@
 
 Fashioned from the hanging stem of an altered fruit from the mana tree, this belt radiates an energizing scent. You start feeling nauseous after a while, though...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21797

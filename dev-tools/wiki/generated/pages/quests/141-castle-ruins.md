@@ -2,6 +2,8 @@
 
 The Castle Blackskull (eleven shades darker than its gray neighbor) has been overrun by undead soldiers.  You must defeat their leader to reclaim this once glorious fortress.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

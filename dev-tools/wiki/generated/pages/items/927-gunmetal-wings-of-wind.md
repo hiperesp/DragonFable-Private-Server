@@ -2,6 +2,8 @@
 
 This item is Dragon Amulet only. They were designed to catch the strong gusts of wind from the elemental mountains and carry the wearer soaring through the sky, but they are made of steel so that doesn't happen.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 927

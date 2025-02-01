@@ -2,6 +2,8 @@
 
 This sword was infused with mana. It doesn't seem to deal any extra damage due to that though. Weird.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800396

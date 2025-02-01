@@ -2,6 +2,8 @@
 
 Within this small crystal pulses blue and purple flames. You swear you can hear voices calling out to you from within... This Customization Catalyst unlocks the Haunting customization for Chaosweaver.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21746

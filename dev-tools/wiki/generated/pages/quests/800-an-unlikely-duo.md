@@ -2,6 +2,8 @@
 
 The only way to beat Drakath is by teaming up with Sepulchure!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

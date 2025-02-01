@@ -2,6 +2,8 @@
 
 This is the basic sword given to all ninjas in training. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800580

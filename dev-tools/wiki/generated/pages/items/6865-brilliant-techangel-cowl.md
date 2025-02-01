@@ -2,6 +2,8 @@
 
 Gears whir in your ears as the cowl is softly illuminated from within.This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6865

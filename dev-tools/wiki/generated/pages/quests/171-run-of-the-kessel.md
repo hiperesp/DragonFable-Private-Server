@@ -2,6 +2,8 @@
 
 The Kessel is the ninja's new ship of the line! Thyton has asked you to be the magic vessel's test pilot. Do you have the skills and reaction time to make it through the pirate's blockade?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

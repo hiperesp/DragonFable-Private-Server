@@ -2,6 +2,8 @@
 
 The breeze of the wind avatar, Khazri's, minions blows through this cloak.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2205

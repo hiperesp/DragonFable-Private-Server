@@ -2,6 +2,8 @@
 
 The attack on Falconreach continues!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

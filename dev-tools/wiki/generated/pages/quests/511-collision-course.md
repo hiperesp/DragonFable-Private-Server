@@ -2,6 +2,8 @@
 
 Lim loves SCIENCE!  Lim wants YOU to love Science, too. Help him with his experiments and expect unexpected results!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

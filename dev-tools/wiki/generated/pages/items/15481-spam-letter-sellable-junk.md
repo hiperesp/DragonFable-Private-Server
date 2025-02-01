@@ -5,6 +5,8 @@ Do you miss often in battle? We have the answer!
 Simply send your weapon and 100 gold in a postmarked box to BoxCorp Ltd. offices, and we'll use our secret formula to double its size!
 Satisfaction guaranteed!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15481

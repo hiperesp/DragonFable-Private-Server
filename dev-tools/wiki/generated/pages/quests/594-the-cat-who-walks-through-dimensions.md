@@ -2,6 +2,8 @@
 
 There was a famous Gnome named Schroedinger who also used cats in his experiments.  This is not like that.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

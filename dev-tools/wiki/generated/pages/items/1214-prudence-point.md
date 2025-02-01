@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 12 or higher to create. This well balanced dagger is dangerously sharp. It's maker needs the prudence to know when to use it and when not to. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1214

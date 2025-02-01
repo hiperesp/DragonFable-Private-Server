@@ -2,6 +2,8 @@
 
 This scepter was created by Frost Moglins in a past age. Well, not this one specifically. This is just a replica! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22265

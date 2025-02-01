@@ -2,6 +2,8 @@
 
 Created by a Ghostly DragonLord, the ChaosMoon Hood  is infused with the fire of the once mighty Akriloth.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2637

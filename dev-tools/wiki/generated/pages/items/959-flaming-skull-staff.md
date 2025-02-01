@@ -2,6 +2,8 @@
 
 The flaming, black skull that tops this embered staff echoes with lunatic laughter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 959

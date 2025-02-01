@@ -2,6 +2,8 @@
 
 This weapon is a fitting reminder of all the amusement that comes when you have fun and enjoy the little things.  It has a chance to heal 5% of your life on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13116

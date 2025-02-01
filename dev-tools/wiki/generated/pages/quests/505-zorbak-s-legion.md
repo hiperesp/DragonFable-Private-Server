@@ -2,6 +2,8 @@
 
 Zorbak needs an army.  Try not to let yourself get roped into his latest scheme!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

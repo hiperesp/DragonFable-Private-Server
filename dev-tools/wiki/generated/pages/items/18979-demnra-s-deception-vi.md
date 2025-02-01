@@ -2,6 +2,8 @@
 
 Demnra was Pandora's star pupil and closest friend -- until the day Demnra and the other chaosweavers abandoned her. It is said that this weapon's true form is revealed in combat. This weapon has color custom features.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18979

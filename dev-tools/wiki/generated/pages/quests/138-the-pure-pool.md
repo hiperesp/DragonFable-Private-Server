@@ -2,6 +2,8 @@
 
 In order to stop the river of fire, Warlic requires a sample of pure elemental water from the Pure Pool. He said that the best sample would come from where the waterfall feeds into the pool.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

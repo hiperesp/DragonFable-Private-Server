@@ -3,6 +3,8 @@
 Fight your way past Dr. Voltabolts clockwork army and stop the Techno-Turkey before it can be released on Falconreach!
 Collect Corn Kernels and a Turkey Tail Feather and return to Dr. Voltabolt for a special holiday Turkey pet...Butterbomb
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

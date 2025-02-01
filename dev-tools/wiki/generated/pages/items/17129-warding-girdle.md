@@ -2,6 +2,8 @@
 
 This girdle worn around the waist is made up of chains of bracelets specifically enchanted to defend against hostile creatures. Smells kind of funny.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17129

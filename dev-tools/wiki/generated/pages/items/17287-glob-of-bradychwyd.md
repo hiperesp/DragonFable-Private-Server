@@ -2,6 +2,8 @@
 
 Unseen, but to the touch. A mass filled with deep grimness. The knowledge and potent feeling of having been betrayed or wronged by others, the world or society dwells in the small of your hand.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17287

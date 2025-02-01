@@ -2,6 +2,8 @@
 
 This spear was Odin's favorite.  He was often seen wielding it while riding Slepnir, the eight legged steed.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5901

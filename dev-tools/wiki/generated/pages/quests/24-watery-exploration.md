@@ -2,6 +2,8 @@
 
 You have made it through the Water Elemental cave without a spot of rust on you. You head off to your next challange with your feet sloshing around in your water-logged boots.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

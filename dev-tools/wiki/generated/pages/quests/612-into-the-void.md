@@ -2,6 +2,8 @@
 
 Warlic is going to teach you about the Void in preparation for learning about the Void element.  And hopefully giving you back your magic!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

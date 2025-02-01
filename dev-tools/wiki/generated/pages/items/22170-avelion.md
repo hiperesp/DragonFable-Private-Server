@@ -2,6 +2,8 @@
 
 An esteemed helm said to have been cast in a Celestial forge. Its crest is infused with ancient elemental magic, reflecting the deeds of a forgotten age. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22170

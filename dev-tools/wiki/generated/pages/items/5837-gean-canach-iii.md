@@ -2,6 +2,8 @@
 
 These Sidhe tend to busy themselves with practical joking, generally practical jokes of a rather gruesome nature.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5837

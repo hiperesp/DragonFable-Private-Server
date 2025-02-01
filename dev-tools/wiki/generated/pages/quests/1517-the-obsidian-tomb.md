@@ -2,6 +2,8 @@
 
 Let's hear out the archaeologist!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

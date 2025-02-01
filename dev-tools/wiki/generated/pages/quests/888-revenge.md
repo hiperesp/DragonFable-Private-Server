@@ -2,6 +2,8 @@
 
 Alex is tired of Warlic pushing him around and isn't going to take it anymore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

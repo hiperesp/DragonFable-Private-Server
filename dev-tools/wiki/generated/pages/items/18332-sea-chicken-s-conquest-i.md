@@ -2,6 +2,8 @@
 
 The epic treasure of the Sea Chickens. Forged in the depths of the sea, this weapon was somehow used by the Sea Chickens in their underwater conquests. An amazing feat considering they don't even have hands.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18332

@@ -2,6 +2,8 @@
 
 A small shard of crystallized Light magic, clouded by Darkness. Combine 100 to create Wings of Eternal Light, Reforged.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21755

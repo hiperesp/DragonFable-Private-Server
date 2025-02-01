@@ -2,6 +2,8 @@
 
 This mask serves as a ward against dissonant sounds as you stride through the chaos to your own melody. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21891

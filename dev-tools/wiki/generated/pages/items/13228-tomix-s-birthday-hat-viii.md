@@ -2,6 +2,8 @@
 
 The birthday hat of the SoulWeaver, Tomix! May his courage and fearlessness always inspire you! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13228

@@ -2,6 +2,8 @@
 
 This strange creature comes from the rain forests of a distant land. Its natural venom is a very dangerous poison but when it gets REALLY mad it throws poo.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1007

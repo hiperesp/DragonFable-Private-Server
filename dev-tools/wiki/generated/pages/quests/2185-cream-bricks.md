@@ -2,6 +2,8 @@
 
 The Sisters have opened up a portal to Lataraji, the best place to get some sweet looking bricks!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

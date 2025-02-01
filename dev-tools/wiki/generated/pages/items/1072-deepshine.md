@@ -2,6 +2,8 @@
 
 This dagger was forged from several captured rays of light, and retains its edge as only a beam of light can. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1072

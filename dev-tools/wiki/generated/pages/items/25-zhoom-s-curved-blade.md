@@ -2,6 +2,8 @@
 
 A sword of exotic design, made of a lightweight metal. It's the perfect weapon for the hard working hero who likes to move fast.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 25

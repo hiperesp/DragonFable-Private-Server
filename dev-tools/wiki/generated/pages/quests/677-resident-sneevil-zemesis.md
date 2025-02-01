@@ -2,6 +2,8 @@
 
 The office of the CEO.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

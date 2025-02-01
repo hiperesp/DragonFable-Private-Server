@@ -2,6 +2,8 @@
 
 This diminutive coalepti was left behind by all the others! Just keep it away from any presents and it should be fine. Scales with your CHA stat!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20092

@@ -2,6 +2,8 @@
 
 If you pound this mace into your foes chest enough you are certain to break their heart... and a few other things.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 708

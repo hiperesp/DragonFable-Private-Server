@@ -2,6 +2,8 @@
 
 A whole town made of sunken ships!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

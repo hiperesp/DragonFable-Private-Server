@@ -2,6 +2,8 @@
 
 An ancient relic of the Ateala people, long thought to be lost to distant skies. Combine with 10 Blinding Star Shards to create the Blinding Starlight of Destiny!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22014

@@ -2,6 +2,8 @@
 
 The winning hat of the 2011 Silly hat contest, submitted by Lo9851! Neck brace not included...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6423

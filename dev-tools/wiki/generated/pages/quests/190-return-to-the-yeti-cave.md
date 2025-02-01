@@ -2,6 +2,8 @@
 
 The path has been cleared and deep within the Yeti Cave, Xanta Claus await you. The fate of Frostval is in your hands!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

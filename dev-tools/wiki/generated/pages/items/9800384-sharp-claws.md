@@ -2,6 +2,8 @@
 
 Sharp and powerful claws that will shred your foes!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800384

@@ -3,6 +3,8 @@
 A cheese that's so powerful it will show you what you want? 
 That sounds hard to brie-lieve.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

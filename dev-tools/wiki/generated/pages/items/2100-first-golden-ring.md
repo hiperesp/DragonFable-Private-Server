@@ -2,6 +2,8 @@
 
 The moglins have made five golden rings as mementos of this year's Frostval.  This one's luckier than the others.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2100

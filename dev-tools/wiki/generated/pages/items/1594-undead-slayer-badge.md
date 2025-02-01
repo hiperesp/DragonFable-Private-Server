@@ -2,6 +2,8 @@
 
 TAKE IT! Collect badges to move the story forward. Also redeemable for Paladin class skills!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1594

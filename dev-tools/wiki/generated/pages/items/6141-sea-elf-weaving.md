@@ -2,6 +2,8 @@
 
 A braid of seaweed that is still magically alive.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6141

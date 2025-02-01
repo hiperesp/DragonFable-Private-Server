@@ -2,6 +2,8 @@
 
 This simple golden band once belonged to a pirate captain whose ship was said to always have a favorable wind- until the day its wreckage was found, battered and torn apart by a storm. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22103

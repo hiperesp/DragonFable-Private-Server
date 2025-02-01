@@ -2,6 +2,8 @@
 
 For the hero who is becoming known around the land- an upgraded version of the Blade of Heroism!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15507

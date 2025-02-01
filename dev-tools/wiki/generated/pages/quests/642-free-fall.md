@@ -2,6 +2,8 @@
 
 Why are you the one that always ends up running away from a giant wall of snowy danger?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

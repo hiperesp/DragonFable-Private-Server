@@ -2,6 +2,8 @@
 
 Someone spent quite a bit of time rubbing this staff with a strong magnet. Static electricity crackles in the globe.  The tickle kind of itches.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2198

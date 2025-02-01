@@ -2,6 +2,8 @@
 
 The Old Man Of The Mountain has agreed to train you in the use of your DragonLord skills. You must first defeat him in battle before you unlock the next skill.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

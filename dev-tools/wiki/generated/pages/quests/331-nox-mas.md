@@ -2,6 +2,8 @@
 
 Time to put an end to NoX-Mas once and for all!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

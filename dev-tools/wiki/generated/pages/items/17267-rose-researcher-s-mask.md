@@ -2,6 +2,8 @@
 
 A spare Rose researcher's mask. Protective through the power of science! May also look slightly menacing and scare small children.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17267

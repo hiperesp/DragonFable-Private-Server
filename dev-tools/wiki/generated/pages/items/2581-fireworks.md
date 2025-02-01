@@ -2,6 +2,8 @@
 
 Ooooh! Aaaaah! So pretty!  It's always a celebration when you're around but you WILL be able to be seen before you're close!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2581

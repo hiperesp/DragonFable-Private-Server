@@ -2,6 +2,8 @@
 
 This essence was collected from an ice cave in the far north. It's so perfect that it should increase the already impressive power of the Frozen Claymore and the Vanilla Ice Katana even more.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12091

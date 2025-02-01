@@ -2,6 +2,8 @@
 
 This prototype of this scythe, forged by Tokijin, rests in the Hall of Eternal Light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4358

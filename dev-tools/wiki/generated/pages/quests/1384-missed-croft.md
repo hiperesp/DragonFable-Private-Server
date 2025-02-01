@@ -2,6 +2,8 @@
 
 Head over to Croft and see what the sisters have in store for you this time!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

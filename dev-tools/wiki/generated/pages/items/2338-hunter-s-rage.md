@@ -3,6 +3,8 @@
 A burning olive branch makes an effective weapon against wildlife tearing up the town.
  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2338

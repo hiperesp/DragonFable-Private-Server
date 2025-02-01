@@ -2,6 +2,8 @@
 
 There are a LOT of tents here.  There are a LOT of Khy'Rhian here.  Who knew there were THIS many of those things???
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

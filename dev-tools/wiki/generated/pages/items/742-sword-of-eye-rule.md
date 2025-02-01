@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. You got this ancient sword of eye-rule for reuniting the pieces of the Quad-Force and defeating the evil Gananana.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 742

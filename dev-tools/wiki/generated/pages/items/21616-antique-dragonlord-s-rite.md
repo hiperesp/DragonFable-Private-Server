@@ -2,6 +2,8 @@
 
 A legendary blade wielded by DragonLords of the past, this storied weapon has served alongside dragons and DragonLords in defense of Lore. And now it's yours. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21616

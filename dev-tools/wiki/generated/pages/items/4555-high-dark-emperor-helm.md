@@ -2,6 +2,8 @@
 
 This is the helm of a fallen Dark-aligned dictator.  You can feel his spirit whispering to you as you slip it onto your head. Creepy!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4555

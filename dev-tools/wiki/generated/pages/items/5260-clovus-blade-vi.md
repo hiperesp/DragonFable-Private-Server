@@ -2,6 +2,8 @@
 
 The luck of the Sneevish IS with you! King Sneevrick thanks you for taking care of that twisted Arrrghus. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5260

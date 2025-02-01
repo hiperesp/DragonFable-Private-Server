@@ -2,6 +2,8 @@
 
 This staff calls forth a burst of wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 801

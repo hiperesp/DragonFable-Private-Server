@@ -2,6 +2,8 @@
 
 Kensai Greydawn commissioned these daggers for his wife on the occasion of their third anniversary. Twig has cut some in half... somehow....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7724

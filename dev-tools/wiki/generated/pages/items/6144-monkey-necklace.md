@@ -2,6 +2,8 @@
 
 This necklace is made up of hundred of stones carved into monkees, crazily twirling about. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6144

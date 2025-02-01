@@ -2,6 +2,8 @@
 
 Make sure to get inoculated....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5995

@@ -2,6 +2,8 @@
 
 This waist wrap was once used to hold Spare parts together at the seams. It's really creepy to think about where it came from but the protection is worth it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1623

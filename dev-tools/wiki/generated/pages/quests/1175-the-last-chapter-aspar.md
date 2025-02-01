@@ -2,6 +2,8 @@
 
 We must stop Aspar, no matter what!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

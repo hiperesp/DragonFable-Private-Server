@@ -2,6 +2,8 @@
 
 Crafted by the mysterious Cronix to celebrate the day of his birth, this weapon has been temporally shifted for Black Friday 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12993

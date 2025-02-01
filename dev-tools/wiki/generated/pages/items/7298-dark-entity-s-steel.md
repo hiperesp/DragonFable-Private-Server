@@ -2,6 +2,8 @@
 
 The sparking vortex contained within this weapons glowing eye energize you to battle on! You were awarded this weapon for winning the Wrath of Wargoth war challenge!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7298

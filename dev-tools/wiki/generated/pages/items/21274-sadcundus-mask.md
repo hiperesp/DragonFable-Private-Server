@@ -2,6 +2,8 @@
 
 This isn't even supposed to be here...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21274

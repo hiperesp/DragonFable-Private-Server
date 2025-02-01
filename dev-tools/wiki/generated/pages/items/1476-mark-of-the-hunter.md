@@ -2,6 +2,8 @@
 
 This style of staff is used by a group calling themselves Hunters. They seek out and destroy any and all servants of the darkness that they can find. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1476

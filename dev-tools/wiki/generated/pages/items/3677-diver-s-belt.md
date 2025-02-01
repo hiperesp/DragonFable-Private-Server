@@ -2,6 +2,8 @@
 
 This belt is very heavy. At least it provides a good workout!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3677

@@ -2,6 +2,8 @@
 
 A helm crafted by Yashta from a Glow Tree sapling from Pellow Village. This one is darker than normal for Black Friday 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13000

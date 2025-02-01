@@ -2,6 +2,8 @@
 
 The gleam of this dagger is reminiscent of the moonlight. It's razorsharp edge will aid you in any stealthy missions you might undertake, but be careful that it's shine does not give you away as you hide in the shadows.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2065

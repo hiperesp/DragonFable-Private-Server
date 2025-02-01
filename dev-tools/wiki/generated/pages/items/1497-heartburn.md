@@ -2,6 +2,8 @@
 
 This dagger has been enchanted with the illusion of a pulsing heart on the hilt to gross out your enemies. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1497

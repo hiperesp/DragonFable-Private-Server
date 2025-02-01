@@ -2,6 +2,8 @@
 
 You can accomplish more with a kind word and shillelagh then you can with just a kind word.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1508

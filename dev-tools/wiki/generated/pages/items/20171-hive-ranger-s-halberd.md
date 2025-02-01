@@ -2,6 +2,8 @@
 
 The crystal that forms the blade of this elegant weapon is cold to the touch, as though its surface is constantly in the breeze. Can reduce enemy Wind resistance by 10% for 5 turns. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20171

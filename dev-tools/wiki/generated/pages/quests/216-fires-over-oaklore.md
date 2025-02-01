@@ -2,6 +2,8 @@
 
 Sir Baumbard has asked that you ride his dragon into battle and help defend Oaklore Keep from the waves of attacking undead.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

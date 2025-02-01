@@ -2,6 +2,8 @@
 
 This spooky orange cloak is sure to keep you safe on those dark mogloween nights. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12842

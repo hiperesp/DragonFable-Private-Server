@@ -2,6 +2,8 @@
 
 A clouded crystal remnant of some creature fleeing something from deep underground. Galanoth thinks it could be used in the creation of a weapon in the future.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20409

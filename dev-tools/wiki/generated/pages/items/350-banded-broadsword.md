@@ -2,6 +2,8 @@
 
 This massive sword will let you give your enemies a spankin'!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 350

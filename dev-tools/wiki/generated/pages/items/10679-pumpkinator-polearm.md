@@ -2,6 +2,8 @@
 
 Slice and dice through pumpkins, and anything else, with ease!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10679

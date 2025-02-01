@@ -2,6 +2,8 @@
 
 This necklace is adorned with thirty silver coins.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5758

@@ -2,6 +2,8 @@
 
 The horns that these daggers are composed of are occasionally found out on the surface of the desert after tremors shake the dunes. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1417

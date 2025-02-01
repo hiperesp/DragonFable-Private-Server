@@ -2,6 +2,8 @@
 
 A DragonBlade forged from blackest diamond from another world. Does bonus damage against dragons and reptilians. Can be upgraded at the Black Market Moglin in Falconreach.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17909

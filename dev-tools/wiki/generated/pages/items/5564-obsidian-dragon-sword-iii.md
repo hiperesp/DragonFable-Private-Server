@@ -2,6 +2,8 @@
 
 This set was hewn from solid obsidian and enchanted with Dragon Magic.  These weapons are said to house the spirits of vengeful dragons. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5564

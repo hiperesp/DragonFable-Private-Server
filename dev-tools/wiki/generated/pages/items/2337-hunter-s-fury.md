@@ -3,6 +3,8 @@
 Yulgar made this anticipating a time when Falconreach would need to be defended from attack.  He didn't expect it would be wildlife ravaging the town.
 This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2337

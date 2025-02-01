@@ -2,6 +2,8 @@
 
 The vampire queen! Accept no substitutes. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21210

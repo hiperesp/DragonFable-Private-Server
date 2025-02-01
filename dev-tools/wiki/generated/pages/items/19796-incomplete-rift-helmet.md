@@ -2,6 +2,8 @@
 
 Using the Mysterious Helm Template and the Swordhaven Tytan's Tooth, this helm was able to be partially completed. Looks like it still needs some finishing touches to be usable!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19796

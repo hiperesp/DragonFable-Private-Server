@@ -2,6 +2,8 @@
 
 The lone standing ruins of a paladin order's fortress, this tower is filled with spirits of light, protecting their stronghold to the last.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

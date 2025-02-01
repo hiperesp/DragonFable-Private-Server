@@ -2,6 +2,8 @@
 
 In the long lost land of Astravia, the Stargazers were said to be oracles, able to divine the future from patterns in the stars. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22085

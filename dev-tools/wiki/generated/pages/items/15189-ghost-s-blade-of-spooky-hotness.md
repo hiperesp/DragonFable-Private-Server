@@ -2,6 +2,8 @@
 
 The blade of this sword embodies the soul of Ghost. Ghost travels trying to free his soul and that of a certain princess. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15189

@@ -2,6 +2,8 @@
 
 You've infused this ring with shadow energy. As you move your hand it seems to blur, almost as though it was leaving shadows of itself behind. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12644

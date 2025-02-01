@@ -2,6 +2,8 @@
 
 A shattered piece of an Exalted relic. Proof of your victory over the Reliquary. Used to upgrade Thaumaturgus Omega and Apostate Omega.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18941

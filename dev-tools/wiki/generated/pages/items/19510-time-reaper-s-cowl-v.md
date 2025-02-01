@@ -2,6 +2,8 @@
 
 A hood crafted from some unknown material. It's light and breathable, but completely obscures your face from prying eyes. Can be upgraded at Cysero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19510

@@ -2,6 +2,8 @@
 
 Vayle receives a proposition from an un-named letter writer who wants to use her power in return for letting her use his to get back at you for killing her brother!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

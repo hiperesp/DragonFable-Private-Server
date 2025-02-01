@@ -2,6 +2,8 @@
 
 Icy spiked cloak to help you stay cool in battle! Or is it warm? Hmm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11255

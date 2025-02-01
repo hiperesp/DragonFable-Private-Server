@@ -2,6 +2,8 @@
 
 As you venture deeper into the woods you find more and more of those little green sneevilchauns... and more loot!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

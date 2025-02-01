@@ -2,6 +2,8 @@
 
 A bronze token earned from the Ninja Training Arena. Can be sold for gold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17931

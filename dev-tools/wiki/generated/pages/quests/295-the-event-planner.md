@@ -2,6 +2,8 @@
 
 She's full of energy and ready to dole out the party favors.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

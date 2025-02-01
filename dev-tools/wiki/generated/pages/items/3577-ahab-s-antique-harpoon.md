@@ -2,6 +2,8 @@
 
 Who needs a bigger boat when you've got the most famous harpoon on the seven seas? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3577

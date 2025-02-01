@@ -2,6 +2,8 @@
 
 This dagger was intended for the musically inclined. When it is struck it gives out a perfect A note.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 270

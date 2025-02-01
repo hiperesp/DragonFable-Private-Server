@@ -2,6 +2,8 @@
 
 This small token of affection shows someone's special appreciation for you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 707

@@ -2,6 +2,8 @@
 
 Presumably, if you were a tog, you would be able to individually control each of these mechanical arms. But you're not a tog. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22061

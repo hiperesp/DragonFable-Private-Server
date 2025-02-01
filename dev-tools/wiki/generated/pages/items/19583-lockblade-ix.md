@@ -2,6 +2,8 @@
 
 You found this peculiar weapon in your bag after a very, very long day. It seems to be carved from a single bone. Lucky! This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19583

@@ -2,6 +2,8 @@
 
 What is in the vault?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

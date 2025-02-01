@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. It was crafted from pure silver mined under the surface of the moon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 657

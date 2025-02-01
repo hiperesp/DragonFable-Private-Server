@@ -2,6 +2,8 @@
 
 You and Galanoth have to drive back the attacking waves of Aisha's army.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

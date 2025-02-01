@@ -2,6 +2,8 @@
 
 Sleek and deadly looking, this helm's visor lifts to provide a better view for finding enemies! This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5411

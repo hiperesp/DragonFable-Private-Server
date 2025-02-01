@@ -2,6 +2,8 @@
 
 Find four the townspeople and convince them to share their candy!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

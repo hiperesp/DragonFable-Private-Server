@@ -2,6 +2,8 @@
 
 This mask probably isn't in the best of taste. Watch out, lest you bring down the ire of both The Rose and elves alike.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19974

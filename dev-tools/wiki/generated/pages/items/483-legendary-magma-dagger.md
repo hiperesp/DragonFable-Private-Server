@@ -2,6 +2,8 @@
 
 These ancient daggers were forged in the pits of a volcano, that has been destroyed and forgotten. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 483

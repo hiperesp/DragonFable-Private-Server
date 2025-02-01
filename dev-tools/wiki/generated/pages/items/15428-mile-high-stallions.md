@@ -2,6 +2,8 @@
 
 Who are you cheering for in the Big Game?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15428

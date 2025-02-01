@@ -2,6 +2,8 @@
 
 Hmm, you might be able to use this later if you rescue the moglins this year!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8032

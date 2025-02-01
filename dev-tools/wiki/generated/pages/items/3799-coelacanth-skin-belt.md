@@ -2,6 +2,8 @@
 
 This belt is made from the skin of an ancient, deep-sea fish. For untold years it watched as the Deep One slept, as cultures rose and fell... as things blinked out of existence.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3799

@@ -2,6 +2,8 @@
 
 What could be in this cave that has been hidden for all this time? A better question is HOW has it stayed hidden for this long?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 It's long and heavy. It clangs when you shake it. You'll want to merge this into a level-appropriate scythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6332

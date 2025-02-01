@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 18 or higher to create. This design was originally used by the blacksmiths of a demon hunting clan.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1221

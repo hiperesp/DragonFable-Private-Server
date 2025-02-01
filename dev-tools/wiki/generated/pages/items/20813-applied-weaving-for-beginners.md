@@ -2,6 +2,8 @@
 
 Oddly enough, this book actually exists outside of your dream, although copies are quite rare and hard to come by.  (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20813

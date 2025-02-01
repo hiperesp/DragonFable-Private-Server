@@ -2,6 +2,8 @@
 
 Legend has it that this weapon was forged over the course of years from one million cherry blossoms. How that was possible is, of course, unknown. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22115

@@ -2,6 +2,8 @@
 
 This sword is exceptionally tiny.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4922

@@ -2,6 +2,8 @@
 
 This bottle contains a swirling pink maelstrom of wind magic. Might be best to keep it closed. Proof of victory over Baltael.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22087

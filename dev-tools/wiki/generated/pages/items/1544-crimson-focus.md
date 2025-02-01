@@ -2,6 +2,8 @@
 
 This staff is excellent for offense and defense. Keep your Crimson-Guard up or your leg will get sweeped. Crimson Focus Daniel-san! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1544

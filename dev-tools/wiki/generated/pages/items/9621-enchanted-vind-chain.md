@@ -2,6 +2,8 @@
 
 A delicate string on Vind worked silver chain.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9621

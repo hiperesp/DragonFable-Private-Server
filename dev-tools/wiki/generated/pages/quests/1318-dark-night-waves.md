@@ -2,6 +2,8 @@
 
 Cin and the other archers have cleared some of the fog out with their arrows!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

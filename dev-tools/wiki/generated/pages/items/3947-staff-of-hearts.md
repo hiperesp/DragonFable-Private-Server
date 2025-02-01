@@ -2,6 +2,8 @@
 
 This staff really suits you! But it's not shaped like a hearts at all...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3947

@@ -2,6 +2,8 @@
 
 This mask looks like it was created for some purpose other than Mogloween... Smells like spiders.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19990

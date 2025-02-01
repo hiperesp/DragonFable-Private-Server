@@ -2,6 +2,8 @@
 
 Hitting your enemies with this mace will make their ears ring! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3673

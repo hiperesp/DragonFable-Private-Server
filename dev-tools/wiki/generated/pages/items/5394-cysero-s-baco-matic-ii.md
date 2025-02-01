@@ -2,6 +2,8 @@
 
 Cysero's secret bacon reserves power this weapon! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5394

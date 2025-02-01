@@ -2,6 +2,8 @@
 
 By all means, this energy blade should be functional, yet it refuses to ignite. Proof of victory over J6 and Master Twang.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21418

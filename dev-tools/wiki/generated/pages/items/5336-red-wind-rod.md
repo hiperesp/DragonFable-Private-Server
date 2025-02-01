@@ -2,6 +2,8 @@
 
 A simple, but sturdy, staff with the power a red wind flowing through it. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5336

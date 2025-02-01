@@ -2,6 +2,8 @@
 
 A banshee near a well, huh? Better investigate.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

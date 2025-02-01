@@ -2,6 +2,8 @@
 
 The handle of this weapon is made from the purest spider's silk. Don't let it stick to your hands!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3316

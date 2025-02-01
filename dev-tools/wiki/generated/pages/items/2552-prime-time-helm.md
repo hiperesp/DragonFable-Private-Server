@@ -2,6 +2,8 @@
 
 Made to commemorate the effort the gnomes of Popsprocket put into their city's defense mechanism.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2552

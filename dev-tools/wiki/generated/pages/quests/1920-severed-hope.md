@@ -2,6 +2,8 @@
 
 The offer of parley has been accepted by The Rose, but will the Vind find what they seek from the negotiations?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

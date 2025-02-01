@@ -2,6 +2,8 @@
 
 Drakonnan's minions are attacking Battleon!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

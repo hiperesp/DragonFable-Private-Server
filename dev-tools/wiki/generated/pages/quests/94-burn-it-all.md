@@ -2,6 +2,8 @@
 
 Sir Vey has discovered that the fermented Mollo fruit produced a chemical that can be used in mind control. Whatever the plans of the Vurr'men are, they must be stopped!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

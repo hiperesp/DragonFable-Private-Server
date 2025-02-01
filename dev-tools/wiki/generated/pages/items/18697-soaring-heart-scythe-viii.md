@@ -2,6 +2,8 @@
 
 Once wielded by Big Daddy's Heartguard Squad (now defunct due to an unfortunate accident involving Death and 20 kegs of Moglinberry juice), this scythe is lightweight and sharp, sure to reach the heart of your foe.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18697

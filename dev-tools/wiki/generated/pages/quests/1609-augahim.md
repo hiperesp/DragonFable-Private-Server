@@ -2,6 +2,8 @@
 
 The forgotten beast Augahim, chained in servitude, and unleashed upon you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

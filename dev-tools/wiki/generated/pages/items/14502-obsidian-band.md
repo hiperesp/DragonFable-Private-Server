@@ -2,6 +2,8 @@
 
 This band is made from the pieces of obsidian you recovered. The stone has been shaped in such a way that it's smooth and cool to the touch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14502

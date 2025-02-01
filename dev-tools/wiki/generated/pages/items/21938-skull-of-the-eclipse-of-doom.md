@@ -2,6 +2,8 @@
 
 This Doom-infused skull magically fits over your own! Despite the glowing red eyes, it appears to be dormant. For now. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21938

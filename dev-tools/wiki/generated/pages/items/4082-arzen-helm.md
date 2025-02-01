@@ -2,6 +2,8 @@
 
 Helm worn by the ancient Water Elves, it contains life magic. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4082

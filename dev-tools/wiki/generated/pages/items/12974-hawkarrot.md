@@ -2,6 +2,8 @@
 
 Aria decided to give you one of her messenger Hawkarrots, however it is quite a fowl mouth! This pet requires the power of a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12974

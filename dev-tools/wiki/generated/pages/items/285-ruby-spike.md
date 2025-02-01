@@ -2,6 +2,8 @@
 
 Magically hardened ruby has been polished and set with steel spikes to help this staff strike true.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 285

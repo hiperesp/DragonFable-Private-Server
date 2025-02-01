@@ -2,6 +2,8 @@
 
 Cysero did not make this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800084

@@ -2,6 +2,8 @@
 
 You kept this after defeating the Mushroom Major General in the deep woods near Oaklore Keep.  It's soft, has some shiny metal bits, and has made you more able to dodge enemies when you wear it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3399

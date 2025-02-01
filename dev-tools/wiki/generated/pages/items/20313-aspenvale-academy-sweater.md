@@ -2,6 +2,8 @@
 
 A wool sweater that you got from defeating the myths of Aspenvale! Used to upgrade the Extra Fluffy Tog! Wait... well, don't think about it too much. Proof of victory over the Myths of Aspenvale!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20313

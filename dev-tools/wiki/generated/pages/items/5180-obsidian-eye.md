@@ -2,6 +2,8 @@
 
 A large black stone hangs from the chain. It seems to absorb light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5180

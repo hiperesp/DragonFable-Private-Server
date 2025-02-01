@@ -2,6 +2,8 @@
 
 Collect these shards in order to train yourself as a Soulweaver!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3727

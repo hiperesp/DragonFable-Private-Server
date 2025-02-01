@@ -2,6 +2,8 @@
 
 Celebrate Cinco de Mayo '13 with this festive weapon! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9565

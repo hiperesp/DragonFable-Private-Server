@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It was the fifth dagger carved from Deuterosus, a glacier that fell from the sky. The glacier was formed of super frozen ice which was enchanted to neither melt nor shatter.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15705

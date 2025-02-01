@@ -2,6 +2,8 @@
 
 This staff is rumored to make monsters of its wielders.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1873

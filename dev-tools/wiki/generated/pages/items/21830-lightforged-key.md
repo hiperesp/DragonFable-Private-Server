@@ -2,6 +2,8 @@
 
 Forged to celebrate Dracelix's birthday. This key was forged over many years by a team of Paladin smiths. They forgot to make a lock. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21830

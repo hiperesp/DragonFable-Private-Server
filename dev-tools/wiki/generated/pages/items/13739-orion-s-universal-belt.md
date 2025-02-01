@@ -2,6 +2,8 @@
 
 This belt does not seem like the others. It has a strange hollow orb attached. When you look inside you can see what looks like a universe! Is that? No, it cannot be. Drakath does not have wings. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13739

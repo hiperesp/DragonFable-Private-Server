@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The holy Axe of Artix which was was cursed and infused with pure darkness has been fixed!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1708

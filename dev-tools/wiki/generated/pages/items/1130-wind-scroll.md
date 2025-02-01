@@ -2,6 +2,8 @@
 
 This scroll contains parts of long lost skills used by the Shadow of the Wind Clan of ninjas. Thyton will teach you a new skill for your Ninja Armor in exchange for one of these. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1130

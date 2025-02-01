@@ -2,6 +2,8 @@
 
 Defend Falconreach and follow Artix!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The moglins have made five golden rings as mementos of this year's Frostval.  This one lends you strength.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2102

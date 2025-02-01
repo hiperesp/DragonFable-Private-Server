@@ -2,6 +2,8 @@
 
 Rewarded for defeating the murky ice dragon Gelunguis. It had three previous owners, each of them dying under questionable circumstances. It craves glory, you can hear it sing to you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17319

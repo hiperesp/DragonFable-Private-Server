@@ -2,6 +2,8 @@
 
 This beautiful weapon was crafted by Dracelix in honor of Geopetal's Birthday.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18239

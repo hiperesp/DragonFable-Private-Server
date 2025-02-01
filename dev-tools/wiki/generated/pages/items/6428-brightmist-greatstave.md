@@ -2,6 +2,8 @@
 
 A powerful stave that glows with light magic. You found this item while searching the corridors of the tower of Brightmist.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6428

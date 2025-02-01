@@ -2,6 +2,8 @@
 
 You're pretty sure that pieces of hip bones are still attached to this belt...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13976

@@ -2,6 +2,8 @@
 
 The Chaos Lord and Beast, in a twisted realm.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

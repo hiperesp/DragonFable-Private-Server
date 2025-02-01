@@ -2,6 +2,8 @@
 
 Howl at the moon after slicing through your foes with this light enchanted scythe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12017

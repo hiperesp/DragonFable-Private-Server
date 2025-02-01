@@ -2,6 +2,8 @@
 
 Save Sweeny! Can you find out what happened to Yix?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

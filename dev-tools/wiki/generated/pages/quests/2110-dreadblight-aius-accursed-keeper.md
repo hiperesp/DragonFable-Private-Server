@@ -2,6 +2,8 @@
 
 Knight Prime Aius of the Ice Elves, accompanied by his squire, Gary. On the hunt to save their people from a monstrous creature...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

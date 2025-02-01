@@ -2,6 +2,8 @@
 
 You don't look at all foolish in this stylish formal harlequin pattern. Wearing this, people will remember your wit, and not the time you slipped on that banana. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3663

@@ -2,6 +2,8 @@
 
 Quest for water power!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

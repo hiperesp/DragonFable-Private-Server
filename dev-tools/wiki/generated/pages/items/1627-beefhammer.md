@@ -2,6 +2,8 @@
 
 This giant hammer has been magically preserved to it will never go bad. It is also a very nice cut of chickencow.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1627

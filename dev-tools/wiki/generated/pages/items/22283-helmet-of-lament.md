@@ -2,6 +2,8 @@
 
 Idol by day, hero by night. Or whenever you want, with the power of time at your command!(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22283

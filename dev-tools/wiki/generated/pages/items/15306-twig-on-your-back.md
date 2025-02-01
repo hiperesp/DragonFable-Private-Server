@@ -2,6 +2,8 @@
 
 This soft plushie doll is slightly sticky and smells like fish... It's pretty awesome! Happy Twigsmas '15!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15306

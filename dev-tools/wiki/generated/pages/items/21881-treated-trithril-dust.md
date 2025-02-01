@@ -2,6 +2,8 @@
 
 Combined with Mana Elemental Residue, the trithril dust seems to filter and amplify the power. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21881

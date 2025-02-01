@@ -2,6 +2,8 @@
 
 This coffin is bound by chains and magic, said to contain the final remains of a monstrous being. Yet its dark power is leaking out; slowly, but surely. (Cosmetic)(Catalyst: Necromancer)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21776

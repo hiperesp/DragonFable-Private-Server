@@ -2,6 +2,8 @@
 
 Don't let the turducken near the gravy boat!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This belt has been awarded to *write name in here* for outstanding valor in the fight against the Shadowscythe Armada. This requires a Sta...erm...Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14420

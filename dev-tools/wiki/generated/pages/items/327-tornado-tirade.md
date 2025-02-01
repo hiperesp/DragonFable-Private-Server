@@ -2,6 +2,8 @@
 
 This sword is long, deadly and ready for violence.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 327

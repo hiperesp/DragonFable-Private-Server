@@ -2,6 +2,8 @@
 
 This dagger will surely throw a wrench in your enemy's plans!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 241

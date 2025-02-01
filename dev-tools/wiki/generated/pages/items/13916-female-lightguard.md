@@ -2,6 +2,8 @@
 
 You need to protect your face but will always need a clear view of the battlefield. This face guard will help you do that while battling the forces of evil!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13916

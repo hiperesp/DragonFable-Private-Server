@@ -2,6 +2,8 @@
 
 This dagger blinds you. No, for real. If you want to risk it, you can use it but it's been told that if you use it too much it can blind you forever. You've been warned!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1145

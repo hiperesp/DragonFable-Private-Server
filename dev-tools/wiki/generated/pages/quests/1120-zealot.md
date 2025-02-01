@@ -2,6 +2,8 @@
 
 You've defeated the waves of cultists and now it's time to face their leader!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

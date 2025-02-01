@@ -2,6 +2,8 @@
 
 This is the kind of weapon that is only mentioned as a whisper. Cursed by evil deeds, it seems to have a will of its own. Or is that the influence of a hero turned evil?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15513

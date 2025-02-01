@@ -2,6 +2,8 @@
 
 These weapons require a Dragon Amulet. Elves crafted these daggers and seared them with pure energy. You can tell because they're pointy like elf ears. Wait, all daggers are pointy...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 869

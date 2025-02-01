@@ -2,6 +2,8 @@
 
 Explore the kingdom of Swordhaven!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

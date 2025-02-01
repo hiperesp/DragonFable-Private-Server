@@ -2,6 +2,8 @@
 
 Time to hear out what Jaania has to say...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

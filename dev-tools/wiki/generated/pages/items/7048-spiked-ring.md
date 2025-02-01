@@ -2,6 +2,8 @@
 
 Wicked spikes poke out form this ring! Be careful! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7048

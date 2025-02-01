@@ -2,6 +2,8 @@
 
 It's unknown from exactly when or where this ancient helm originated. Proof of victory over the Inevitable Equilibrium challenge. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19725

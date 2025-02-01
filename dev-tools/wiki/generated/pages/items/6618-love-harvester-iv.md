@@ -2,6 +2,8 @@
 
 Take down any evil bears in your path with this red hot scythe!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6618

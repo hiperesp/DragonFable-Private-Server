@@ -2,6 +2,8 @@
 
 These go GREAT with Peanutbutter Glitter!   Just think of all the nifty craft projects you could do with these!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4411

@@ -2,6 +2,8 @@
 
 A special Leap Day quest!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

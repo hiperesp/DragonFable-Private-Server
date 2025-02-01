@@ -2,6 +2,8 @@
 
 An old, battered scarf. Proof of victory over Thyton, the Shadow of the Wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21650

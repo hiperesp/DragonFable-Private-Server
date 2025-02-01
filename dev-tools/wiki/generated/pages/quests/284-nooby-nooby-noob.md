@@ -2,6 +2,8 @@
 
 Investigating the house in Amityvale that everyone finds just a little bit off...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

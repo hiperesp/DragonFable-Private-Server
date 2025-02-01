@@ -2,6 +2,8 @@
 
 Explore the depths of the swamp and take out the more ambitious Rose explorers.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

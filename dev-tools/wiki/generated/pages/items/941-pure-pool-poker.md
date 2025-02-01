@@ -2,6 +2,8 @@
 
 These daggers are sharp enough to cut through the toughest water!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 941

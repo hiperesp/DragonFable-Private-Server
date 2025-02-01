@@ -2,6 +2,8 @@
 
 Wearing this mask unlocks a deep, dark secret: every paladin has a skeleton inside them!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21281

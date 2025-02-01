@@ -2,6 +2,8 @@
 
 This poisonous blade is covered in deadly Scorpiarc venom!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4590

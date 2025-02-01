@@ -2,6 +2,8 @@
 
 Someone is defiling your good reputation! Find out who!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

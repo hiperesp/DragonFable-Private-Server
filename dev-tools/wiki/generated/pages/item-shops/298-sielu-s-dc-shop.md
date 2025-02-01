@@ -2,6 +2,8 @@
 
 <no description available>
 
+[Back to itemShop](../item-shops.md)
+
 ## Properties
 
 ```json

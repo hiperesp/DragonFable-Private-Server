@@ -2,6 +2,8 @@
 
 A stake speared through a can of beans. A magically enchanted can of beans. Not the most heroic looking of weapons, but it'll do.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16722

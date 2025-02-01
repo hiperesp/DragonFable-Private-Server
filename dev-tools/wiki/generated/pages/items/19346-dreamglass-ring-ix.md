@@ -2,6 +2,8 @@
 
 You found this in your pocket after Remthalas released you from your dream. There's probably nothing bad that can happen if you wear it, right? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19346

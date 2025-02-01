@@ -2,6 +2,8 @@
 
 This deceptively heavy magic staff is infused with the power of stone.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 383

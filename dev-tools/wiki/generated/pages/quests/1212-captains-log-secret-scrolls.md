@@ -2,6 +2,8 @@
 
 What secret was found inside the treasure?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The wings of Bargok.... they smell funny....  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5380

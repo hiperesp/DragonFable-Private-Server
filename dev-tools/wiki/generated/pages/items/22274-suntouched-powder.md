@@ -2,6 +2,8 @@
 
 A small bag of powdered shell and fang. It glows in the dark! Proof of victory over the Suntouched Eggs and the Suntouched Viper.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22274

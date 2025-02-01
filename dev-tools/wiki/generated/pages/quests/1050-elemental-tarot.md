@@ -2,6 +2,8 @@
 
 What will the cards unveil for you?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

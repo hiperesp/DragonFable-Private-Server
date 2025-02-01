@@ -2,6 +2,8 @@
 
 Yuck, sand in your shoes! That's so annoying!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

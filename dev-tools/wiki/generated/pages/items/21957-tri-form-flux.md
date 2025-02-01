@@ -2,6 +2,8 @@
 
 Wielded by a stranger roaming the elemental wastes, this multi-functional weapon seems capable of seamlessly transitioning between a blade, a partisan, and a blaster. (Cosmetic, Click to change forms)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21957

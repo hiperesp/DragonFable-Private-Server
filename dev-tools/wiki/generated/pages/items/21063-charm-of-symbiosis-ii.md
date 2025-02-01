@@ -2,6 +2,8 @@
 
 A small amulet left behind by the Symbiotic Darkness Elemental. It appears to be crystalline in make, and holding it seems to both drain and empower you. Wherever it came from, it must have been precious to its owner.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21063

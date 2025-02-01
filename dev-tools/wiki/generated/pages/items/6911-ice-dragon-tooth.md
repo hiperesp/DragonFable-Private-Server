@@ -2,6 +2,8 @@
 
 The tooth is wickedly cold. You can forge this with the highest level of Icescythe to upgrade the weapon! The scythe drops from the Betrayal quest in Dragonsgrasp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6911

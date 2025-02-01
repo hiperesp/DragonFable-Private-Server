@@ -2,6 +2,8 @@
 
 Despite your best efforts, you're unable to open this book. How rude! Proof of victory over Cysero and Lim.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21898

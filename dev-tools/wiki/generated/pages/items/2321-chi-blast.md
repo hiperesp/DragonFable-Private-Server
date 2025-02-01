@@ -2,6 +2,8 @@
 
 There isn't any hero more spirited than you are!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2321

@@ -2,6 +2,8 @@
 
 You found this slimy necklace inside the shell of the Snail. It seems to have absorbed the defense of the snail.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12359

@@ -2,6 +2,8 @@
 
 Thyton, jonin of the Shadow of the Wind clan has asked you to track down the thief who stole the Jewel of the Four Winds from the Ruins of Kordana. This is where you begin your search.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

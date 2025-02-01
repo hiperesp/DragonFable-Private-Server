@@ -2,6 +2,8 @@
 
 When you picked it up, it was really hot. Now that it's cooled, it is a normal lava rock. But you can still call it hot for the marketing.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20786

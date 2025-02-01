@@ -2,6 +2,8 @@
 
 It's a pretty nice belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6289

@@ -2,6 +2,8 @@
 
 Alexander's scarf and glasses! Love created this for you after you survived your encounter with Sk'aar. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20810

@@ -2,6 +2,8 @@
 
 Fight off the infected!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

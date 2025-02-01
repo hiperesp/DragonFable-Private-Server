@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. A spark of lightning energy is contained within this crystalline blade. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1322

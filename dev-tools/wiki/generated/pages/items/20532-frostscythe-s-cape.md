@@ -3,6 +3,8 @@
 A replica of Dragonmaster Frostscythe's cape! Fashionable!
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20532

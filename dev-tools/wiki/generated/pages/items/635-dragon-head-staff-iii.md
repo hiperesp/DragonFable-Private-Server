@@ -2,6 +2,8 @@
 
 This magical staff was crafted for you by the moglins of Frostvale. This staff was made from the head of Glaisaurus and infused with moglin healing magic, which gives it a small chance to heal 5% of your life upon a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 635

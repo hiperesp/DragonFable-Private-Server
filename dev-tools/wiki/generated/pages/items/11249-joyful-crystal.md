@@ -2,6 +2,8 @@
 
 This colorful crystal fills you with joy! Use it to upgrade your Eternity Joy weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11249

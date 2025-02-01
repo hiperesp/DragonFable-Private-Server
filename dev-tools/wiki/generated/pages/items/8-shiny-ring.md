@@ -2,6 +2,8 @@
 
 Monsters will be dazzled by their own reflection in your shiny, shiny ring.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8

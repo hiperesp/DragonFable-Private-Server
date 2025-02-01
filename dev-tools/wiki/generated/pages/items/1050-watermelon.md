@@ -2,6 +2,8 @@
 
 Yeah, sure, you're wearing melon on your head, but look at it this way... if you get hungry you can eat your hat. This helm provides VERY good protection against water attacks. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1050

@@ -2,6 +2,8 @@
 
 In brightest day, in blackest night, beware this Pwny's might!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13509

@@ -2,6 +2,8 @@
 
 The three spirits of Frostval Past, Present and Future have come to save the day.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

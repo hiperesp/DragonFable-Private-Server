@@ -2,6 +2,8 @@
 
 Captain Lestrad gifted you this cloudy brown-green crystal. Carved from within The Great One's mountainous sanctuary, the DragonLords believe it can be used to forge new weapons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21117

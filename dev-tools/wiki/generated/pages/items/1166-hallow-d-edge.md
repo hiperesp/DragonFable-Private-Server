@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This powerful light sword as made for you by the Cauldron Sisters for your help in saving the first Mogloween. This pumpkin carves your enemies. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1166

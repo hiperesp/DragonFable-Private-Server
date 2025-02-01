@@ -2,6 +2,8 @@
 
 This capustak is sweet, and therefore not fit for eating! It's more than happy to follow you along on your adventures though... Does more damage the lower your HP is.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20672

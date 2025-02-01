@@ -2,6 +2,8 @@
 
 After your dragon was purified, for a split second it seemed like they have transformed into a human-like form. Maybe Elysia can help shed some light on this situation.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

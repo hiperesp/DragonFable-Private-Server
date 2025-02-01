@@ -2,6 +2,8 @@
 
 A sigil necklace looted from an ancient minion of the Frydae clan.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14065

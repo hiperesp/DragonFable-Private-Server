@@ -2,6 +2,8 @@
 
 When Rolith goes to propose to Alina, his best friends feel that he won't have enough time for them anymore, so they're determined to keep Alina away from him!  Can you help reunite them?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

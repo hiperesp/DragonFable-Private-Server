@@ -2,6 +2,8 @@
 
 Your Summon Gem - Roktoru has been upgraded! It now has stats and will increase your Immobility resistance when used. Proof of victory over Roktoru and Ricterild!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19593

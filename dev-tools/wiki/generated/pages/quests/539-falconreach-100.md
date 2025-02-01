@@ -2,6 +2,8 @@
 
 Falconreach is under attack! Defend your town, heroes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

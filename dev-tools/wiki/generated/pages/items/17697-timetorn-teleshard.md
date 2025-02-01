@@ -2,6 +2,8 @@
 
 A rare fragment of reality found only in the deep reaches of the Timetorn Matrix.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17697

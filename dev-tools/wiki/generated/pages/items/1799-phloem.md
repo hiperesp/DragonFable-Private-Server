@@ -2,6 +2,8 @@
 
 This great staff was carved from the wood of some of the oldest trees on Lore. They were felled by one of the ancient dragons as she rampaged through the world.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1799

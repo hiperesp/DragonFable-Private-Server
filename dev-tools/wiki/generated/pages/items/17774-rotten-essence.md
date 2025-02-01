@@ -2,6 +2,8 @@
 
 The essence of rot, undeath from another dimension. Don't let it shape you. Used to create an Otherworldly Amalgamation.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17774

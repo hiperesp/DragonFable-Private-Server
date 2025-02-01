@@ -2,6 +2,8 @@
 
 Small lights blink and shift over the surface of the belt. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13634

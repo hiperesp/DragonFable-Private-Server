@@ -2,6 +2,8 @@
 
 Deliver Zapps letter to Robina.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

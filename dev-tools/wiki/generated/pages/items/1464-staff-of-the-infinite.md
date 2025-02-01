@@ -2,6 +2,8 @@
 
 This magical staff was carved from the rare trees growing on the steep banks of the Time Stream. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1464

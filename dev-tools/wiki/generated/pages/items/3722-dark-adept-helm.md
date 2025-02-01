@@ -2,6 +2,8 @@
 
 An deep evil rises... Can you resist? Or will you become what you once destroyed? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3722

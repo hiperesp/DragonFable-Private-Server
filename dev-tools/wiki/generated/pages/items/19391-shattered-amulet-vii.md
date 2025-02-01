@@ -2,6 +2,8 @@
 
 The new mayor of Amityvale gave you this crystal core amulet as a "gift" for keeping quiet about his plans. It's probably fine to accept it, right? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19391

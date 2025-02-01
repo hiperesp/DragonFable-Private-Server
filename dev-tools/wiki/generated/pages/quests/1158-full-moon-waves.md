@@ -2,6 +2,8 @@
 
 Fight your way through the attacking were-creatures!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

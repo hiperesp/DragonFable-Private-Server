@@ -2,6 +2,8 @@
 
 You're not sure what a Xevver is, but this looks like it would make a pretty nice dagger. Every once in a while it beeps softly.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1022

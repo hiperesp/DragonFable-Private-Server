@@ -2,6 +2,8 @@
 
 This bright metallic staff can unlock many mysteries for a mage.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 294

@@ -5,6 +5,8 @@ Slid through our grasp, til it met Anohrin, who
 Tore down the stars, and with them protected
 As one."  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18930

@@ -2,6 +2,8 @@
 
 What a curious combination of requirements. Conveniently you know just where to find them all!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

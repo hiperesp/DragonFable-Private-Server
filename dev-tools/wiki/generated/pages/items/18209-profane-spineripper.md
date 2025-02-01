@@ -2,6 +2,8 @@
 
 This scythe is decorated with an almost complete imp skeleton, magically enhanced.  The black blade is forged from metal mined by demons in the deepest pits of Tartarus. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18209

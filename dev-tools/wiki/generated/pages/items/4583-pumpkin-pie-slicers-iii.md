@@ -2,6 +2,8 @@
 
 I'll take a second helping of these weapons! Happy Thankstaking 2010! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4583

@@ -2,6 +2,8 @@
 
 Cole found this among some old bits and pieces of wood lying around. Your dragon refuses to wear it, so it's yours now! Watch out for some nasty splinters, though. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19041

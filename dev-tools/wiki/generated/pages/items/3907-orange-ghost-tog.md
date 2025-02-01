@@ -2,6 +2,8 @@
 
 Boo! You used the orange power pellet to beat the Ghost-Tog and tame its little sibling.  Now Orange will serve you faithfully!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3907

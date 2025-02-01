@@ -2,6 +2,8 @@
 
 Magical wings of a majestic turducken. Ruby says these are "realistic" but they don't resemble the wings of any turducken you know. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18487

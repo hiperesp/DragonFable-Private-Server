@@ -2,6 +2,8 @@
 
 A tattered and burned thread of soul, wound around a broken spindle of a soulclaw. Can be used to upgrade Drakonnan's Warhelm! Proof of victory over Retribution and Reclamation!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20803

@@ -2,6 +2,8 @@
 
 This belt looks like it's been lying in the forest floor for a few months. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 160

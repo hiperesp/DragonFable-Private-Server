@@ -2,6 +2,8 @@
 
 A small vial of extremely smelly cheese on a string. The smell is absolutely nauseating when you open it. Maybe there was some magic used in its creation?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17103

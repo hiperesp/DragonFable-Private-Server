@@ -2,6 +2,8 @@
 
 This worn piece of paper was found sunken and stained in the depths, yet you can make out a few words. "----prototype waterbreathing----only for you----the extent to which life must adapt----"
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20794

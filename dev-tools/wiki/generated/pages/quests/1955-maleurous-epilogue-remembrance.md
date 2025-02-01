@@ -2,6 +2,8 @@
 
 All things have to have a beginning, and an end. And an ending is always bittersweet.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

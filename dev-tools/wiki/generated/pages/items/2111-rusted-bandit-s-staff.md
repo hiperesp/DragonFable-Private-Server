@@ -2,6 +2,8 @@
 
 Be careful when you handle this staff.  The bandit who owned this didn't take very good care of it, and if you cut yourself, you might catch something unpleasant.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2111

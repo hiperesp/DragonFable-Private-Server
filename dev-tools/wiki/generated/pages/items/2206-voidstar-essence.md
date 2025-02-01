@@ -2,6 +2,8 @@
 
 The magical essence of this cloak was harvested from the minions of Voidstar, the avatar of darkness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2206

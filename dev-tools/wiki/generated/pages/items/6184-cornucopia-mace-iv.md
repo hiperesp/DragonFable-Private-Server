@@ -2,6 +2,8 @@
 
 It's a bountiful beat-down! Happy Thankstaking 2011! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6184

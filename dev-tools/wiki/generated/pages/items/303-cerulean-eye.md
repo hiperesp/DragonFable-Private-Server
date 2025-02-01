@@ -2,6 +2,8 @@
 
 This bright staff is said to let its wielder see things far away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 303

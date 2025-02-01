@@ -2,6 +2,8 @@
 
 Merged with "X-Boost: 30d" to create an "X-Boost: Unlimited" in the Reactivate merge shop.. CANNOT BE USED WITH AN EXPIRED X-BOOST.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20087

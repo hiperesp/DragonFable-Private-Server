@@ -2,6 +2,8 @@
 
 Yulgar's in town visiting the Pet Store!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

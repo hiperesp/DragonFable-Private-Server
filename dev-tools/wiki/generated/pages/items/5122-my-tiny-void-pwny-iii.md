@@ -2,6 +2,8 @@
 
 Kissed by the Void, this pwny can shadowdance! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5122

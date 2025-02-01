@@ -2,6 +2,8 @@
 
 Your new visage is designed for speed. No need to look back. Rest assured that once you run your foes down, a smear will be all that's left of them. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21151

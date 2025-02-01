@@ -2,6 +2,8 @@
 
 Thyton wishes to thank you for celebrating the Day of the Ninja with him and his clan!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4672

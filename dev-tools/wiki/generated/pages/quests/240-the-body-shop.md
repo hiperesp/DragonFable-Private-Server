@@ -2,6 +2,8 @@
 
 Take down the Body Shop any way you can!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

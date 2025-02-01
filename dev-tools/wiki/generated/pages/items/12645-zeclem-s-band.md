@@ -2,6 +2,8 @@
 
 V. As Zeclem held the crown that belonged to his former king, a whisper crept into his thoughts. He turned and saw the mass of undead staring at him. The whisper told him that they were his to command.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12645

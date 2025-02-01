@@ -2,6 +2,8 @@
 
 The now dormant helm of the Chaos Lord Thief. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21723

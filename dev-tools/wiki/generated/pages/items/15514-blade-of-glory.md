@@ -2,6 +2,8 @@
 
 Even when you are gone, this blade will carry your name and legend into the future. The blade of a true hero, molded by their actions.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15514

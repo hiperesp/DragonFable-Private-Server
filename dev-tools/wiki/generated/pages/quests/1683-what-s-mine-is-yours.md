@@ -2,6 +2,8 @@
 
 To help a squatting cat, you must delve into the mysterious and dangerous realm of... politics!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This scythe is much, much lighter than it seems. Take care when swinging it. Who knows what such an eldritch item is capable of beyond the normal? Can be upgraded at Cysero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19533

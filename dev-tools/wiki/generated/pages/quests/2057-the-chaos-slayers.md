@@ -2,6 +2,8 @@
 
 A party of heroes bent on spreading the influence of Chaos... And you're their final boss.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This sword was made in honor of Stratos, long-time DF and AQ player who sought out the Artix Entertainment staff at DragonCon 06. Nice to meet you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 456

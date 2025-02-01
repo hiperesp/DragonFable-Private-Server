@@ -2,6 +2,8 @@
 
 En and Tropy have merged with Gorgok!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A tasteful sword from the coast that can be purchased for market price.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 109

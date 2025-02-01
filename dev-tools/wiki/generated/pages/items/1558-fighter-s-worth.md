@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. An ancient sword which was given to signify the end of an apprenticeship.  If you could battle your way to it, you passed.  If you couldn't...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1558

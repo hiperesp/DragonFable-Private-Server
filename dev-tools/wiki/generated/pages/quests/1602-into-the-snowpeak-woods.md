@@ -2,6 +2,8 @@
 
 The invading forces of Frallmar have been pushed back from Frostvale. It's time to go on the offensive!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Poor Splashy left behind his shell.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10236

@@ -2,6 +2,8 @@
 
 This majestic jade axe fits well in your hands, as though it were made for you. Mid-swing, you swear you can sometimes hear a voice calling out, as if from far away. Probably nothing to worry about. Proof of victory over Yalla and Braytes San.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19946

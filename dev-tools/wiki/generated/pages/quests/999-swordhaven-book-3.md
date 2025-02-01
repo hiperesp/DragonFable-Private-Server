@@ -2,6 +2,8 @@
 
 The capital of Lore!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

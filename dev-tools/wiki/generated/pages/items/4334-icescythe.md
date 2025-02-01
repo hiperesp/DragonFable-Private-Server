@@ -2,6 +2,8 @@
 
 DragonMaster Frostscythe's infamous scythe, this wicked blade is carved from rock-solid ice. It's rumored the IceScythe has absorbed some of Frostscythe's own power. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4334

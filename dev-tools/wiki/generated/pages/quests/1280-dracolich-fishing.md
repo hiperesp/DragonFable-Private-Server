@@ -2,6 +2,8 @@
 
 Careful, crashed dragon bones are slippery!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

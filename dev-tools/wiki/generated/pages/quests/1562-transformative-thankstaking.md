@@ -2,6 +2,8 @@
 
 The Felonious Five have revealed themselves!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Cysero's Golden Eggs are missing! Time to find them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

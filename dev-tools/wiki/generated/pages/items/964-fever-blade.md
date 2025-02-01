@@ -2,6 +2,8 @@
 
 Just the thought of touching these blades makes you break into a cold sweat.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 964

@@ -2,6 +2,8 @@
 
 An olive on a toothpick?  Zhukai must be a hungry, hungry weaponsmith!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4311

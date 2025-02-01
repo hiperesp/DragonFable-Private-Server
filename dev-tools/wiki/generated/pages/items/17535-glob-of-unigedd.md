@@ -2,6 +2,8 @@
 
 Perceived from the eye of the mind. A mass that is overwhelmingly apart from all the others and keenly aware of such.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17535

@@ -2,6 +2,8 @@
 
 For centuries this has been the crypt of the fallen defenders of Amityvale. Its holy aura has been used to purify shards of Bloodgems found in the hills, but the evil of the castle has disturbed these heroes rest. you must remove the purified shards and help the Risen find peace.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

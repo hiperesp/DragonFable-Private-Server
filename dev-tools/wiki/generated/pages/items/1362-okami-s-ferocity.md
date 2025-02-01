@@ -2,6 +2,8 @@
 
 These daggers were left behind by Okuchi No Okami's ninja army, except for the sneenja... these daggers were longswords.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1362

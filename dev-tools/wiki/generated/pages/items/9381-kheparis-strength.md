@@ -2,6 +2,8 @@
 
 This jeweled weapon is fit for a true Emperor!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9381

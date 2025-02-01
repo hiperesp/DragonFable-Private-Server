@@ -2,6 +2,8 @@
 
 The peaceful ocean's waves at night. What else to do but relax, wait for your journey's end, and chat?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

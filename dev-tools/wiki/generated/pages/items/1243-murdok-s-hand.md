@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 32 or higher to create. This sword design was created by the great blacksmith Murdok for his right-hand-man, who was actually a woman. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1243

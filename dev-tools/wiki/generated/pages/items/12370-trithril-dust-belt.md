@@ -2,6 +2,8 @@
 
 The cloth of this belt is covered with trithril dust! Hope you're not allergic...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12370

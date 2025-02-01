@@ -2,6 +2,8 @@
 
 Some soldiers under Sofist once made bets as to which grim name he had given his sword. They were surprised to find they were all wrong. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11928

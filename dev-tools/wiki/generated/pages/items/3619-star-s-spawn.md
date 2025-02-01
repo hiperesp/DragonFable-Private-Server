@@ -2,6 +2,8 @@
 
 Your dreams are filled with darkness. Stars explode. Fires burn. The Great One waits.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3619

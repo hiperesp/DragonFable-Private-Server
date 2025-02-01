@@ -2,6 +2,8 @@
 
 A standard-issue Rose body pillow. Extra stuffed for maximum comfort. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19709

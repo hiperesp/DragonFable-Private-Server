@@ -2,6 +2,8 @@
 
 It's been whispered that a dark sorceress made this staff for her favored apprentice. Now this powerful weapon is in your hands.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 286

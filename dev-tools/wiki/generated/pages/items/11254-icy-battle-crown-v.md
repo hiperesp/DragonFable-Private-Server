@@ -2,6 +2,8 @@
 
 Icy spiked crown to help you stay cool in battle!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11254

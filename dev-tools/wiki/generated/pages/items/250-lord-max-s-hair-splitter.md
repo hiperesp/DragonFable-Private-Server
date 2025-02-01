@@ -2,6 +2,8 @@
 
 This dagger was forged in honor of Lord Max II, the second person to obtain the Twin Blades of Doom! This dagger has been sharpened with a secret method and will never lose its razor edge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 250

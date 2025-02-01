@@ -2,6 +2,8 @@
 
 Crafted from palm leaves this cape offer camouflage and protection!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6905

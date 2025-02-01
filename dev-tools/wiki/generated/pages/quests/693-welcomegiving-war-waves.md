@@ -2,6 +2,8 @@
 
 Oishii's recipes are filled to the brim with monstrous ingredients! Can you go down in history as the savior of the feast, or will you go up in flames? Let's hope charbroiled hero isn't on the menu!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

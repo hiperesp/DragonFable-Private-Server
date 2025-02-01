@@ -2,6 +2,8 @@
 
 The blade of this weapons was, at first, SO powerfully enchanted with fire magic that it needed to be kept in a tank of water until other magics could make it possible to hold it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1068

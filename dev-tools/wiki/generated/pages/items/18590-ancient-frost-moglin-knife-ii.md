@@ -2,6 +2,8 @@
 
 A lost weapon forged by the ancient Frost Moglins, and gifted to you by Papa Moglin as thanks for defeating the legendary wyrm Frallmar! This weapon has a chance to reduce the amount of health your foe can recover.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18590

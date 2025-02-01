@@ -2,6 +2,8 @@
 
 The Arbitrary Arena Random Goal Heuristic system has chosen Vilmor and Cryozen to be your foes!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Whispered rumors claim this wand once served as a torch in an Elvish Queen's Hall. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2351

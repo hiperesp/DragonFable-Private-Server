@@ -2,6 +2,8 @@
 
 Back in the days of Hawkscry's peak, a powerful spellsword forged this beautiful weapon by her own hands. Like so much else, it was thought to be lost to ruin... Click to change grip. (Cosmetic)(CC: Base, Trim, Element)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22033

@@ -2,6 +2,8 @@
 
 A fire wizard's hand was cut off in mid-spell by an evil warrior, only to be turned into the top of this staff by the evil warrior's mage companion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 293

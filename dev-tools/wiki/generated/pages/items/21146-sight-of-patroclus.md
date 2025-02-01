@@ -2,6 +2,8 @@
 
 The defined shape of a Doom spirit. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21146

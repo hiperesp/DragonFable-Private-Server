@@ -2,6 +2,8 @@
 
 Be careful not to get blood on this motley dagger, tt would be a shame to dull such vibrant colors!  And using this, you'll never be mistaken for some dull, uninteresting hero! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3672

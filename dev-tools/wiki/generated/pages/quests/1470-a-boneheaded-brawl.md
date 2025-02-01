@@ -2,6 +2,8 @@
 
 Follow Sally's path and find the lair of the villains. That orb must be found and secured.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

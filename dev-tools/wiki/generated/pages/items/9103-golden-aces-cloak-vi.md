@@ -2,6 +2,8 @@
 
 A gilded cape for a true card shark. Are you feeling lucky this Lucky 13?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9103

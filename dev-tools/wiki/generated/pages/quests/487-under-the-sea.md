@@ -2,6 +2,8 @@
 
 The hunt for the stolen experimental weapons continues!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

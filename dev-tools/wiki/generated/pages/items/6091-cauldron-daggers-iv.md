@@ -2,6 +2,8 @@
 
 Your reward from the Cauldron Sisters for finding Bubble and Bubble during Mogloween, 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6091

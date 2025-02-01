@@ -2,6 +2,8 @@
 
 Elementals on the attack!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

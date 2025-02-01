@@ -2,6 +2,8 @@
 
 If you see this weapon, you feta run! It's some sharp cheddar, do NOT eat!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17043

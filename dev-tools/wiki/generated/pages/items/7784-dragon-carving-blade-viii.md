@@ -3,6 +3,8 @@
 Carve your way through Thankstaking, 2012, fighting foods!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7784

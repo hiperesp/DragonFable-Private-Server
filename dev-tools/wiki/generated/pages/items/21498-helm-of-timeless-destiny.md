@@ -2,6 +2,8 @@
 
 A mysterious helmet, presumably a relic from another age. Whether that is the past or future is impossible to say. Click to adjust visor. (Cosmetic)(CC)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21498

@@ -2,6 +2,8 @@
 
 Your enemies will stand no chance against you. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7511

@@ -2,6 +2,8 @@
 
 Cysero just wants to have fun!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

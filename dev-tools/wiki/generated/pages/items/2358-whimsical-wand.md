@@ -2,6 +2,8 @@
 
 More than just a lawn ornament or a child's toy, this wand packs a powerful punch when the wind blows in the right direction!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2358

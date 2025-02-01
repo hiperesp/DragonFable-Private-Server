@@ -2,6 +2,8 @@
 
 A dark being of pure evil.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9800497

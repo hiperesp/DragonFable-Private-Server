@@ -2,6 +2,8 @@
 
 You can feel this sword squirming in your grip, but it's just a sword... it can't be breathing, right?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1601

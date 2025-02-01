@@ -2,6 +2,8 @@
 
 Guffer's here. Yup. It's nothing personal. Just gotta pave the way for the subjugation of Lore. You know how it is.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

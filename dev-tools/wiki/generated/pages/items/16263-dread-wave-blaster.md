@@ -2,6 +2,8 @@
 
 This mythical weapon was only ever fired once. Charged with the might of Fire and Darkness elementals, that one shot was used by a pirate captain to vanquish an entire fleet of foes. Although out of energy, some residual magic still remains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16263

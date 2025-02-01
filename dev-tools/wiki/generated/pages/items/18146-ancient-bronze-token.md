@@ -2,6 +2,8 @@
 
 An ancient coin, dredged up from the depths of the ocean. It has the mark of a many headed dragon on it. Interesting. Sellable for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18146

@@ -2,6 +2,8 @@
 
 A vial containing a tiny spinning fireball, conjured by Alexander, and empowered by Warlic. It's warm to the touch, but something tells you it could erupt at any moment. Might be useful in the future!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21809

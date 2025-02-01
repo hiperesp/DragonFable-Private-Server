@@ -2,6 +2,8 @@
 
 Finally! The last Guardian skill is within your grasp!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

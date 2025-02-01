@@ -2,6 +2,8 @@
 
 Hewn from the Stone around the ChaosWeaver temple altar, this dagger will slice through the strongest of enemies!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4887

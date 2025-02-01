@@ -2,6 +2,8 @@
 
 The aftermath of the Fire War.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

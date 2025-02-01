@@ -2,6 +2,8 @@
 
 Essence of tog, perfect for imbuing a certain weapon with the power of togs! Proof of victory over the First Encounters challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21223

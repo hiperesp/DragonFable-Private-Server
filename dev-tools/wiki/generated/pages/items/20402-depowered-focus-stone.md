@@ -2,6 +2,8 @@
 
 Though a lich may survive their body's destruction through use of a phylactery, the majority of their power is lost. An empowered focus stone such as this can be a valuable font of power not just for a lich, but mages of other persuasions as well.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20402

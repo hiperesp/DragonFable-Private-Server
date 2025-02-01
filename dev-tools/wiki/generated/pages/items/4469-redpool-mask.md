@@ -2,6 +2,8 @@
 
 You're not sure why, but this mask makes you feel like breaking the fourth wall! Hello, player! Happy Mogloween 2010! (No, Pop Culture is not a real resistance.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4469

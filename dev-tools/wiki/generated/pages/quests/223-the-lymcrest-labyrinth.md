@@ -2,6 +2,8 @@
 
 Dugg has explored to the second floor of the Lymcrest Labyrinth. Can you fight you way through elementals and explore the rest of the labyrinth?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

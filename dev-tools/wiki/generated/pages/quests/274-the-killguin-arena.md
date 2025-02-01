@@ -2,6 +2,8 @@
 
 Galanoth has sent you to the Killguin Battle Arena to speak to the king of the Killguins to try and convince him to join forces with the humans of Dragesvard!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

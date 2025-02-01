@@ -2,6 +2,8 @@
 
 You defeated the Ultra Merged Akriloth and all you got was this piece of his tooth? Seems like Ashendal has a wicked sense of humor. Hang onto it though if you have inventory space, he may have a surprise for you later.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13376

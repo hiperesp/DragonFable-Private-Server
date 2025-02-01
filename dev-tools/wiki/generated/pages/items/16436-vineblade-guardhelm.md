@@ -2,6 +2,8 @@
 
 This magical helmet from Apsaydaaun was originally a pumpkin plant. It's surprisingly comfortable and is definitely not parasitic. Don't mind the occasional sharp pains in your head! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16436

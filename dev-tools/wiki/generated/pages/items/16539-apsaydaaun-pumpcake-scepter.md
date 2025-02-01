@@ -2,6 +2,8 @@
 
 A replica of the scepter wielded by Abraca and Dabra, this cake on a stick still retains some of their mysterious magic! It's tasty too! Probably shouldn't eat it, though. Probably.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16539

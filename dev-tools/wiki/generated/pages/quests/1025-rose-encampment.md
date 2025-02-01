@@ -2,6 +2,8 @@
 
 Can you take out the encampment and its leader before they start sending troops into the depths of Betrubung?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

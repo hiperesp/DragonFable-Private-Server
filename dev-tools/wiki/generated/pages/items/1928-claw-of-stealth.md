@@ -2,6 +2,8 @@
 
 This weapon was a gift to show the friendship of the Ursice Savages.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1928

@@ -2,6 +2,8 @@
 
 This necklace is made of pack ice, which is frozen seawater!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5369

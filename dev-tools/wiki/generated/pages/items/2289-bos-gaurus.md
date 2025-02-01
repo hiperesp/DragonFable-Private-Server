@@ -2,6 +2,8 @@
 
 Warning: May be prone to fits of rage at the sight of the color red while wielding this weapon.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2289

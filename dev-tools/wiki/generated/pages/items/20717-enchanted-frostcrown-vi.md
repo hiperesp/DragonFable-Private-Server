@@ -2,6 +2,8 @@
 
 A magical crown of brilliant ice and metal, this relic of the past was found embedded in a snowman. Regardless of its possibly nefarious origins, at the very least, it keeps your head cool!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20717

@@ -3,6 +3,8 @@
 Legends tell the story of a Darkness elemental who fell in love with a hero. The elemental gave up their mortal form to be with the hero always.
 This artifact boosts the effectiveness of Shadow Mage, Shadow Rogue, and Shadow Warrior skills.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15997

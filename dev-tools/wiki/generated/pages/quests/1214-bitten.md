@@ -2,6 +2,8 @@
 
 Raven has taken off towards the werewolf camps to the south in search of Thursday!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

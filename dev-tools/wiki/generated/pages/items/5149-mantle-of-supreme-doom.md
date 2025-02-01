@@ -2,6 +2,8 @@
 
 This gruesome mantle of skulls should help you make your point! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5149

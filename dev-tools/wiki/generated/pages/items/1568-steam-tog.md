@@ -2,6 +2,8 @@
 
 This mechanical wonder was made for you by Dr. Voltabolt from the spare parts of one of his monsters and an Battle Core enchanted by Cysero to optomize performance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1568

@@ -2,6 +2,8 @@
 
 You feel very passionate about everything while wearing this mask.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22149

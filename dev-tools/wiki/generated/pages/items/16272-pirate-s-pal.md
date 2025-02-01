@@ -2,6 +2,8 @@
 
 Pirate's Pal: The go-to pistol for the modern pirate. Sleek, throwback design. Comes pre-polished and ready to use! Bullets sold separately.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16272

@@ -2,6 +2,8 @@
 
 It is like Ski Free without the copyright violation!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

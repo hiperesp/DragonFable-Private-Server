@@ -2,6 +2,8 @@
 
 This helm once belonged to the great and powerful Boo Burry, a ghostly apparition that is said to roam the wood's with a vampire and lumbering zombie.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1586

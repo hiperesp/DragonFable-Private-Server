@@ -2,6 +2,8 @@
 
 The mage Warlic has promised to make you weapons of light in exchange for gathering a crystal shard from a fabled crystal tree deep within this cave.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Warlic has asked for your help in a matter of great importance!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

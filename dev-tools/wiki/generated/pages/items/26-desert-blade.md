@@ -2,6 +2,8 @@
 
 The light glints off this sharp blade like the sun off the water of a cool oasis pool.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 26

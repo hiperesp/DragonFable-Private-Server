@@ -2,6 +2,8 @@
 
 What do the five sinister sisters know about the missing princess?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

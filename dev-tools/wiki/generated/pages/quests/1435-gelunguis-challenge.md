@@ -2,6 +2,8 @@
 
 The legendary ice dragon Gelunguis!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Can you defeat the celestial signs?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

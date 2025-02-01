@@ -2,6 +2,8 @@
 
 Miner Thirtyniner has asked you to retrieve a very odd item that he believes might be drawing the elementals to the barracks.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

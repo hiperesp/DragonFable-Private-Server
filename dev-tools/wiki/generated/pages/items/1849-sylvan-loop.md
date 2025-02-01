@@ -2,6 +2,8 @@
 
 This ring is beautifully carved from a single piece of wood. The pattern of intricate leaves seems to waft across the surface.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1849

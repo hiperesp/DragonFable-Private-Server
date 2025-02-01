@@ -2,6 +2,8 @@
 
 Special weapons to commemorate Geo's Birthday! Forged by Dracelix, these daggers will skillfully find the weak spot in your foe!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14555

@@ -2,6 +2,8 @@
 
 Myalos is ready to help!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

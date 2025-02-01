@@ -2,6 +2,8 @@
 
 A huge powerful wave. This is what this dagger does to, you know, the baddies that you fight. Just be careful, it might splosh you.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1144

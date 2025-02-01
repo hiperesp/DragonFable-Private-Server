@@ -2,6 +2,8 @@
 
 Fight your way back to the Oculus Tower and make it a symbol of resistance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

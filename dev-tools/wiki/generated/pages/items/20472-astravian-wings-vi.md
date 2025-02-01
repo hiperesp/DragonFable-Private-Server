@@ -2,6 +2,8 @@
 
 During his pursuit of power, the king of a distant star had these wings made, in order to be closer to the Stars.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20472

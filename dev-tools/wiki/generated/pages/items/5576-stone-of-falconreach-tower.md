@@ -2,6 +2,8 @@
 
 This piece of stone is a symbol of hope for the townsfolk. Carry it with you to remember those lost in the fall of Falconreach's Guardian Tower.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5576

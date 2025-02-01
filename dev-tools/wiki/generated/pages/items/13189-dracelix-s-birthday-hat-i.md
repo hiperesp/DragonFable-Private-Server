@@ -2,6 +2,8 @@
 
 The birthday hat of the Paladin, Dracelix! May it grant you victory against all manner of undead!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13189

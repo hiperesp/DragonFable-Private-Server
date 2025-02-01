@@ -2,6 +2,8 @@
 
 At long last, you've found the heart of Frostvale's tumultuous blizzard.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Not using your magic is no fun....
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

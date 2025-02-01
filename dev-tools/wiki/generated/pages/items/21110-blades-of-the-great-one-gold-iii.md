@@ -2,6 +2,8 @@
 
 Empowered with the magic of The Great One, this weapon can swap between blades of Nature and Stone. Ostromir and Vseslava have added some of their Magesterium technology to give it unsurpassed durability! Dragon Amulet required.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21110

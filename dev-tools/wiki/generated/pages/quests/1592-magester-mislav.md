@@ -2,6 +2,8 @@
 
 Not the first, but among the first, ancient, powerful, and practiced.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

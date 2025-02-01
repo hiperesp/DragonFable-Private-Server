@@ -2,6 +2,8 @@
 
 A tattered cape of a tattered ruler. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21131

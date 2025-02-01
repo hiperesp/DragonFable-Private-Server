@@ -2,6 +2,8 @@
 
 If you have giant friends, this big needle would be perfect for patching up their clothes! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21044

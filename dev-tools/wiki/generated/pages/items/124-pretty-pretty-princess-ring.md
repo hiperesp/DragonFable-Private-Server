@@ -2,6 +2,8 @@
 
 This ring is very pretty, very feminine and extremely powerful.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 124

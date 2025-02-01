@@ -2,6 +2,8 @@
 
 An undead beachgoer's umbrella! Perfect for relaxing at the beach. Purchased from the Ghouliday's Invasion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17968

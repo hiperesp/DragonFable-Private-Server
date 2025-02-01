@@ -2,6 +2,8 @@
 
 Left behind after the Fight for Late Night, this acoustic guitar can make sure your battles are filled with sick riffs and heavy hits!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14536

@@ -2,6 +2,8 @@
 
 All of the stats, none of the art! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4844

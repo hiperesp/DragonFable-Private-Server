@@ -2,6 +2,8 @@
 
 The Darkness is pushing through... it needs to learn, to find out, how to finally bring the endless night back to this Universe.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

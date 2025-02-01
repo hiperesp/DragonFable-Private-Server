@@ -2,6 +2,8 @@
 
 You need a way to harness Void energy and defend the ship! Time to talk to the gnomes.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

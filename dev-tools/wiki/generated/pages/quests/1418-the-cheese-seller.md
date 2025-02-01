@@ -2,6 +2,8 @@
 
 A cheese seller is asking for an escort to Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

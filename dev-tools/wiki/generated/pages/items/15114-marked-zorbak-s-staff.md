@@ -2,6 +2,8 @@
 
 Twig got at Zorbak's staff... he's not gonna be happy! It is enchanted to occasionally deal ebil damage over time! Mehehehe! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15114

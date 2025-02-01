@@ -2,6 +2,8 @@
 
 There is no place like home!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

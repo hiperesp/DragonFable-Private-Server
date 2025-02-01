@@ -2,6 +2,8 @@
 
 Atrea is under siege by elementals and beast from the rift created by the Proclamation! You must defend it so that The Empress of the Ateala can close the rift.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

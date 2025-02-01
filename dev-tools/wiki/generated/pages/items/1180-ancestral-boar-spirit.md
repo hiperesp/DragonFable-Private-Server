@@ -2,6 +2,8 @@
 
 This pet has been granted to the ninjas of the Shadow of the Wind Clan by Nago, the boar god. It represents a fierce nature, strong spirit and breath as fresh as a summer ham. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1180

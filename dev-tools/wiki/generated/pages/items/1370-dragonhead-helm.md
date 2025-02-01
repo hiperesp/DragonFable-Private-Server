@@ -2,6 +2,8 @@
 
 After regaining consciousness from your defeat at Sepulchure's hand, you noticed the horns of this helm sticking out from under a bush.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1370

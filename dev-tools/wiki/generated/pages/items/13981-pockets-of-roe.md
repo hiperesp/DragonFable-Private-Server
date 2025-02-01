@@ -2,6 +2,8 @@
 
 The pockets of this belt are filled with fish roe... time for sushi? 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13981

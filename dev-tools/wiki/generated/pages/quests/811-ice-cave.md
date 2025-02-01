@@ -2,6 +2,8 @@
 
 This cave is really creepy. What are those figures frozen in ice? What is their relationship to the Khy'Rhian? Most importantly, what does it all MEAN?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

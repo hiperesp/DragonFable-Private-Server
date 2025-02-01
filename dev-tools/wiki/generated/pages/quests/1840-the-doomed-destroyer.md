@@ -2,6 +2,8 @@
 
 Even the best of intentions can be twisted.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

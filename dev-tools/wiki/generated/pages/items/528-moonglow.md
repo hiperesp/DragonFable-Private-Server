@@ -2,6 +2,8 @@
 
 This rare powdered mineral has many uses in magic and glows faintly in low light. It gathers only on plants grown in full moonlight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 528

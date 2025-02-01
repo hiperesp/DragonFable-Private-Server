@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This belt's magical properties have kept it polished and dust free for many years while the rest of the fallen hero's armor has rusted away to dust. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1788

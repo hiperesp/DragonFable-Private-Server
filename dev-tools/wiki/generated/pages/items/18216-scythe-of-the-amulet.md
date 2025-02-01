@@ -2,6 +2,8 @@
 
 A special scythe made for those who wear their amulet proudly!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18216

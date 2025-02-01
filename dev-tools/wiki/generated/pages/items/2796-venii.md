@@ -2,6 +2,8 @@
 
 This dagger is covered in miniscule droplets of poison, a deadly trap for any enemy you decide to attack! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2796

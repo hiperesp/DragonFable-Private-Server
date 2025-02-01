@@ -2,6 +2,8 @@
 
 This exquisite green staff is for the most discriminating of mages, as it is made from very expensive materials.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 298

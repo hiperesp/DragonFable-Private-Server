@@ -2,6 +2,8 @@
 
 Asymmetrical and lightweight, this deceptively handsome axe is truly full of bane for your opponent.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 142

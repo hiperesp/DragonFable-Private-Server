@@ -2,6 +2,8 @@
 
 Two beams of pure light shoot out from either end of this hilt.  You might feel something like a jedi, if you had any idea what that was. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2688

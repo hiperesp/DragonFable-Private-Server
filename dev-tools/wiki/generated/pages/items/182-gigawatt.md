@@ -2,6 +2,8 @@
 
 Another of Cysero's inventions, this experiment tried to use science to power the blade instead of magic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 182

@@ -2,6 +2,8 @@
 
 This metal staff is topped by a golden star, encircled by strange runes.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 189

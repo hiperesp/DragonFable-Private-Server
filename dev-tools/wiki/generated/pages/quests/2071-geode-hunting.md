@@ -2,6 +2,8 @@
 
 Deep under Lymcrest, special geodes containing elementally infused gemstones can be found... But they're not the only things down here.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

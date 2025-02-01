@@ -2,6 +2,8 @@
 
 Spiky and sharp. Be really careful with this.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9667

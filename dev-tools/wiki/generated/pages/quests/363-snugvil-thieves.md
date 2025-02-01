@@ -2,6 +2,8 @@
 
 Big Daddy wants you to stop the snugvil thieves from stealing the candy boxes.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The standard issue blade of the Magesterium. This one seems to have lost its enchanted edge of mana, but the blade itself is durable and powerful, perfect for any hero or golem.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18709

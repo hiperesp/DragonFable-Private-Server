@@ -2,6 +2,8 @@
 
 This ring was forged in the depths of Mt. Shining Star. Gives you +3 resist to Fire and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1392

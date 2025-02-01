@@ -2,6 +2,8 @@
 
 A replica of a cape belonging to the Nova Phoenix, a myth from the southern lands. With this divine gift, she would soar high above the villages she protected, searching for any signs of injustice. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20751

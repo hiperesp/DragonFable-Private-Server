@@ -2,6 +2,8 @@
 
 This hood has been treated with a powder made from ground opals and the horns of a bicorn.  Together, the mixture makes this cowl's defense far stronger than it would be otherwise! This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2400

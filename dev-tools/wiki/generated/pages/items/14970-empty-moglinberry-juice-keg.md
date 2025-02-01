@@ -2,6 +2,8 @@
 
 It's empty, but still smells very fragrant. Seems like someone or something else got to it before you could.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14970

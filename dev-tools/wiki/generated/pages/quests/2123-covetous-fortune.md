@@ -2,6 +2,8 @@
 
 The legendary Golden Luck Dragon is real... and so is their Tree of Fortune! Are you feeling lucky?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

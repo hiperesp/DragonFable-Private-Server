@@ -3,6 +3,8 @@
 Your first loot! Lucky for you, unlucky for whoever lost it. 
 (Scythe-type weapons can be used with any stat type, STR, DEX, or INT.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20387

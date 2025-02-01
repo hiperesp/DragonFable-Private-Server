@@ -2,6 +2,8 @@
 
 Brrrrawwwck! Freedom for all! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14221

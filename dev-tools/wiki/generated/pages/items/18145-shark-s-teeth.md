@@ -2,6 +2,8 @@
 
 A whole bunch of teeth. From the same shark. Maybe it got punched REALLY hard on the nose? Sellable for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18145

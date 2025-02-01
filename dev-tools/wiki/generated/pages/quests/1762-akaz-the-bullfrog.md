@@ -2,6 +2,8 @@
 
 Face off against the crafty Akaz!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 It is Mogloween once again and all is well! Or is it?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

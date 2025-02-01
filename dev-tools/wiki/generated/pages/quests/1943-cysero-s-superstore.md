@@ -2,6 +2,8 @@
 
 Cysero's Superstore of Savings
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Carved from the walls of Akaz's lab, this enchanted dagger is not only very pointy, but tastes good too! Just make sure not to nibble too much at once.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19130

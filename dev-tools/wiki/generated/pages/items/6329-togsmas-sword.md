@@ -2,6 +2,8 @@
 
 It's long and kinda pointy shaped. It clangs when you shake it. You'll want to merge this into a level-appropriate sword!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6329

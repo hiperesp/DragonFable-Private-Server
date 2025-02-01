@@ -2,6 +2,8 @@
 
 It's time to don your formalwear and head over to the royal gala!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

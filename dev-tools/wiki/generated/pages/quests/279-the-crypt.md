@@ -2,6 +2,8 @@
 
 Gather as many Sanguine Roses as you can for Thursday. The more you find the better reward you get! You can leave the quest whenever you want through the door you came in.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

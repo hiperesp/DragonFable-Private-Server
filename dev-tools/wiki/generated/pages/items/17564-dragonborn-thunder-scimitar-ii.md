@@ -2,6 +2,8 @@
 
 A stolen scimitar that once belonged to one of Volgritian's great treasure hordes. Enchanted with dravir magic, each swing of this blade brings with it the fury of the skies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17564

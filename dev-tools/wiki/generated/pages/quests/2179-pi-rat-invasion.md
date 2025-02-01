@@ -2,6 +2,8 @@
 
 Nefarious Pi-rats have infested the hold of this pirate ship! Time to clear them out, adventurer!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

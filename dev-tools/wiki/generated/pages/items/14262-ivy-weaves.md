@@ -2,6 +2,8 @@
 
 This necklace seems to have been formed entirely of ivy. The strange thing is it seems to have happened naturally.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14262

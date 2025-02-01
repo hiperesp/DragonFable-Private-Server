@@ -2,6 +2,8 @@
 
 This blade separates many things with ease.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 311

@@ -2,6 +2,8 @@
 
 Welcome back to Frostvale!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

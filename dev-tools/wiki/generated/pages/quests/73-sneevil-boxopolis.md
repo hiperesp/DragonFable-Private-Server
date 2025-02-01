@@ -2,6 +2,8 @@
 
 The sneevils stole an Ironwood Box intended for the Knights of Oaklore Keep when they invaded. You must enter their Boxopolis high in the trees of Oaklore forest and retrieve the box.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

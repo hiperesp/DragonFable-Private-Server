@@ -2,6 +2,8 @@
 
 This special baby dracolich is here to stay! He has a chance to heal you with the legendary power of turkeys stuffed into small places. (Has a low chance to drop from A Boneheaded Brawl.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17772

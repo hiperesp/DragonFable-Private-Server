@@ -2,6 +2,8 @@
 
 Cinder is an amazingly hot pet right now, and this is the only place to get it.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

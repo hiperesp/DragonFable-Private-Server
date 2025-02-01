@@ -2,6 +2,8 @@
 
 A small handful of damaged and crumpled papers. Maybe Loremaster Teka in Falconreach's Libraseum can help figure out what to do with them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19848

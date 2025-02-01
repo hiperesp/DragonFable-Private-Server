@@ -2,6 +2,8 @@
 
 Who's scared of that mean ol' witch? This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7989

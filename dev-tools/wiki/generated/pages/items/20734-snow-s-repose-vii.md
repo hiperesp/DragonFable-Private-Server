@@ -2,6 +2,8 @@
 
 Uncovered under the thaw of a calamitous blizzard, this ancient weapon was seen as a savior. But over time, some have started to wonder if it was the cause of the blizzard in the first place. This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20734

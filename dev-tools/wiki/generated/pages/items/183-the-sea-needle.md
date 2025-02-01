@@ -2,6 +2,8 @@
 
 This thin sharp blade is the same as those worn by several powerful sea captains.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 183

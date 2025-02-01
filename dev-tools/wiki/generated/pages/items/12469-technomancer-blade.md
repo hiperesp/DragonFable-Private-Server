@@ -2,6 +2,8 @@
 
 This blade is overcharged! You can feel your hair stand on end as it gets close to you. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12469

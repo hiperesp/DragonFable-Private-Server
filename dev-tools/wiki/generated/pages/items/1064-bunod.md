@@ -2,6 +2,8 @@
 
 This wand is named for the ancient word for Dark magic. It's the type of wand used by the noctomancers of Swordhaven, but it's been magically altered to leave other weapons in the dark.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1064

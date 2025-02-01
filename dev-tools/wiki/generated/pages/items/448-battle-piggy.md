@@ -2,6 +2,8 @@
 
 This little fellow looks cute and chubby, but he's been trained in several pig-based fighting styles. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 448

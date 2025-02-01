@@ -2,6 +2,8 @@
 
 Fight with Niki against the Dragon front!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 What sort of new creature will you discover?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This sword is bound to make your opponents itch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 40

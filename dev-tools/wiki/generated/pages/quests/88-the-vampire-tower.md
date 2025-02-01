@@ -2,6 +2,8 @@
 
 It appears as if a vampire either moved into an abandoned Guardian Tower or took it over! This tower seems to be the source of most of the evil casting its shadow over Amityvale.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

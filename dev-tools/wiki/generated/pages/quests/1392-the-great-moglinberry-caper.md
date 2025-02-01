@@ -2,6 +2,8 @@
 
 Someone stole all the food for the feast. Better follow the trail of juice and food to see what's happening THIS time.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

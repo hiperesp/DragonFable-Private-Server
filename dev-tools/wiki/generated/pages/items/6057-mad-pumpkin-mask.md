@@ -2,6 +2,8 @@
 
 PUMPKIN ANGRY! Happy Mogloween 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6057

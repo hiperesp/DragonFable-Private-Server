@@ -2,6 +2,8 @@
 
 It takes the expression and articulation of a Heartisan in order to craft something worthy of Love's blessings, each opus was its own celebration. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21422

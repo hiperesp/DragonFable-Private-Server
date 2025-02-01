@@ -2,6 +2,8 @@
 
 While originally decorative, the frost moglins enchanted this antlered yeti helm for you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21332

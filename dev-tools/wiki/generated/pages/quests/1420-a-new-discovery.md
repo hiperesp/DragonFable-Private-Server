@@ -2,6 +2,8 @@
 
 Leon received a letter addressed to you. Explore and find out what Akanthus' henchmen are up to.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

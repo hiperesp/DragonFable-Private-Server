@@ -2,6 +2,8 @@
 
 Ka-THOO-loo? Chuh-thoo-loo? Easier to just say Leviathon.  This  item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2490

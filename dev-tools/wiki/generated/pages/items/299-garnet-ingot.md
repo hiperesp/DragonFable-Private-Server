@@ -2,6 +2,8 @@
 
 Vivid in hue, this garnet staff is made of expensive components and is very powerful.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 299

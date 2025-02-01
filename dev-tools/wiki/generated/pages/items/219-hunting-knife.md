@@ -2,6 +2,8 @@
 
 Scouts, rangers and hunters love this knife. It is a staple weapon for all who love to adventure in the woods.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 219

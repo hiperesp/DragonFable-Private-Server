@@ -2,6 +2,8 @@
 
 Created to help defend the Sandsea Gate... this weapon is now in your hands!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8874

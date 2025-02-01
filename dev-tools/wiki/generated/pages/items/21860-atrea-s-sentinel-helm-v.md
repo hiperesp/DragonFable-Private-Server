@@ -2,6 +2,8 @@
 
 A specially made helm, crafted to withstand the forces that create interdimensional rifts! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21860

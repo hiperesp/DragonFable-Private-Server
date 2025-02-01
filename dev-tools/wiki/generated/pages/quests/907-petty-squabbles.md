@@ -2,6 +2,8 @@
 
 Alex is collecting elemental essences to create the perfect gift for Jaania!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

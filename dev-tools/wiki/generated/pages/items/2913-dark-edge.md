@@ -2,6 +2,8 @@
 
 Lim is all fired up about this weapon! So fired up, that it's half off! Get it now while the price is low, low, low! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2913

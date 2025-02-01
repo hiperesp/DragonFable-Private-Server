@@ -2,6 +2,8 @@
 
 This tiny candy golem seems to have found its way into Lore with Croft! Aww, how sweet!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16609

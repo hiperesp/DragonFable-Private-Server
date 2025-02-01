@@ -2,6 +2,8 @@
 
 A tiny sigil on still polished chain... there are no dents, cracks, or scratches. This belonged to a Valtrith who didn't like to fight. This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14052

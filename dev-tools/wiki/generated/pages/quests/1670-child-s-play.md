@@ -2,6 +2,8 @@
 
 One of the Maleurous has appeared! The Avatars have summoned you to deal with it.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

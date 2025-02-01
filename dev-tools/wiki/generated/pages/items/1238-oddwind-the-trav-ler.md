@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 28 or higher to create. This staff design was traded to Yulgar by a traveling merchant in exchange for a new belt buckle.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1238

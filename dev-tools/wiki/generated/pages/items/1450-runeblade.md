@@ -2,6 +2,8 @@
 
 This crackly energy blade does not have any runes on it whatsoever.  We do not know why it is called the Runeblade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1450

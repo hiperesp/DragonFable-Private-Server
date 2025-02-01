@@ -2,6 +2,8 @@
 
 So you've got to find the three-headed monster who guards Death's realm?  The gates would be a good place to start.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

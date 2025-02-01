@@ -4,6 +4,8 @@ That red and white ring is a lifepreserver, NOT a mint candy!
 
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2690

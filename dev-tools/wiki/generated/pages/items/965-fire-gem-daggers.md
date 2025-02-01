@@ -2,6 +2,8 @@
 
 The blades of these daggers were honed using fire gems as the grinding stones.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 965

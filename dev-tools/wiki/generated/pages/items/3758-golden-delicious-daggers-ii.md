@@ -3,6 +3,8 @@
 Take a slice out of the bad guys with these delicious daggers!
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3758

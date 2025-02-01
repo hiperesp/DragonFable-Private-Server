@@ -3,6 +3,8 @@
 The glow of this staff shimmers like moonlight on the sea when somebody walks the plank.
 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 978

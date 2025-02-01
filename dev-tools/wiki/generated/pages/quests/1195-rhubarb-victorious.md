@@ -2,6 +2,8 @@
 
 Cap'n Rhubarb n' t' Red Betty crew be victorious!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

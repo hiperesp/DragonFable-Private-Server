@@ -2,6 +2,8 @@
 
 A cat's head graces the top of this obsidian ring.  Two brilliant emeralds shine as the carved cat's eyes.  When you hold it to your ear, you hear a hissing, as if you've angered the doomkitty!  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4857

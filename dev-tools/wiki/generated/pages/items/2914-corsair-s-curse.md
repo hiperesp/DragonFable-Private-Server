@@ -2,6 +2,8 @@
 
 Arrrr!  This blade be cursed!  Bad Luck follows those who use it, but it makes you quick and powerful.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2914

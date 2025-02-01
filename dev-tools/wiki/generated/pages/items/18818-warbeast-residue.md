@@ -2,6 +2,8 @@
 
 A pile of strange goop left behind by warbeasts. Could probably be used to forge and upgrade Exalted gear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18818

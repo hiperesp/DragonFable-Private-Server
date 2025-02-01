@@ -2,6 +2,8 @@
 
 It's pretty, but not of much use to you. Maybe one of the vendors in Swordhaven will want it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6241

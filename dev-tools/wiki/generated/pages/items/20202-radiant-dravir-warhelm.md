@@ -2,6 +2,8 @@
 
 Impressed with the bond you share with your dragon, the dravir smiths refitted this helm for you. Kara used some magic to allow it to change color based on your preference! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20202

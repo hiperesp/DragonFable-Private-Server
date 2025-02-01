@@ -2,6 +2,8 @@
 
 Show the recruits what you're made of, just be careful about what skills you decide to show off!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

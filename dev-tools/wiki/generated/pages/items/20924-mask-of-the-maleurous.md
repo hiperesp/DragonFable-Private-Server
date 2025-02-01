@@ -2,6 +2,8 @@
 
 You can wear this stylish Maleurous mask on the side of your head! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20924

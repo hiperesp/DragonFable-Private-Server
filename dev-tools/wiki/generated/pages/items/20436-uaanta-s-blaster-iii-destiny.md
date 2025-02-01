@@ -2,6 +2,8 @@
 
 Uaanta gifted this emergency back-up wand to you. With the addition of the Firmament Stability Core, the complete wand now does Good damage and decreases its target's bonus! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20436

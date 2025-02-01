@@ -2,6 +2,8 @@
 
 A scrap of crystal once used in the creation of the firmament. Seems like it could be adapted to work with Uaanta's Blaster!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20432

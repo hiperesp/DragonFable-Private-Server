@@ -2,6 +2,8 @@
 
 An inscription on the blade reads: CAUTION -  Not for the allergic.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14

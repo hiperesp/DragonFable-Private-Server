@@ -2,6 +2,8 @@
 
 Energy dances along the edge of the magical blade. Forged by the legendary Sir Jing! This item requires a Dragon Amulet to use.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17852

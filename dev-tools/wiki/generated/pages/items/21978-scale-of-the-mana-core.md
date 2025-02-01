@@ -2,6 +2,8 @@
 
 A discarded scale of Aequilibria's eminence. While not a true shard, it still shines with immense power. Used to further upgrade Hawkscry's Legacy (After the finale!).
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21978

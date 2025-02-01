@@ -2,6 +2,8 @@
 
 This dagger was created, not in the heat of of a blacksmith's forge, but in the heat of two lovers deep affection for one another. HA! Gotcha. It was made in a forge. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1494

@@ -3,6 +3,8 @@
 Aegis weapon emanation. This katana has served you well over the years, being able to summon it for a brief moment. But now, as your bond with Aegis has grown truly unbreakable, you are able to maintain its visage indefinitely!
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22082

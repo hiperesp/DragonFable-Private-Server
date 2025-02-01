@@ -2,6 +2,8 @@
 
 This ruby staff was owned by a mage named Kaaros. He said it brought him luck!  Maybe it will bring YOU luck, too!  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3284

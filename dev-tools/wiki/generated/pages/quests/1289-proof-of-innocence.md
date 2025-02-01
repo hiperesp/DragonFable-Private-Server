@@ -2,6 +2,8 @@
 
 Blaze is not the one hunting the farmers and their livestock!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

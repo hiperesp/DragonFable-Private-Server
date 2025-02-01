@@ -2,6 +2,8 @@
 
 This axe was left behind by Okuchi No Okami's ninja army. It was far too large for them to use anyway. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1360

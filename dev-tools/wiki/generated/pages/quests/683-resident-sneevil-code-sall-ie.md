@@ -2,6 +2,8 @@
 
 Can you escape the Red Queen's grasp?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

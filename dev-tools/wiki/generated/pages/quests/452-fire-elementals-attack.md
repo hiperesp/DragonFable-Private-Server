@@ -2,6 +2,8 @@
 
 Akriloth's minions are on the attack!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Become the Avatars!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20639

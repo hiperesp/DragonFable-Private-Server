@@ -2,6 +2,8 @@
 
 The smell of Yulgar's strawberry smoothies have attracted the local wildlife into town, including the ferocious boar Zeuster has sent you to hunt!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

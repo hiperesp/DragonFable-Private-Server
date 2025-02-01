@@ -2,6 +2,8 @@
 
 Ah the Bubble List. For HHD15.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

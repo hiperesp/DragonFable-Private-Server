@@ -2,6 +2,8 @@
 
 You feel the power of nature flow through as you defeat your enemies with this lively weapon. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5407

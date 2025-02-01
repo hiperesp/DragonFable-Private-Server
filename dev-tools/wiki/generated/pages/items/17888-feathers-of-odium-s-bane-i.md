@@ -2,6 +2,8 @@
 
 Granted to Valentidus by Love himself during his battle with Odium. Perfect for holding back the forces of hatred and evil!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17888

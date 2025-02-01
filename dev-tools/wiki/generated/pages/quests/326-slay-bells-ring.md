@@ -2,6 +2,8 @@
 
 Search the mounds of sparkling snow until you have found the hidden Slay Bell!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

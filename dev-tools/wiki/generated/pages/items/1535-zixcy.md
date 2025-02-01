@@ -2,6 +2,8 @@
 
 This rare PrideLord is Zhoom's armored pet and faithful companion. He has a larger than average chance to get a critical hit on his opponent.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1535

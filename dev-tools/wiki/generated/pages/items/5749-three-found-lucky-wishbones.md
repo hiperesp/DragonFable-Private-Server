@@ -2,6 +2,8 @@
 
 Wishbones are supposed to be lucky... right? This item requires a Dragon Amulet. Visit the Black Market Moglin to upgrade this item.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5749

@@ -2,6 +2,8 @@
 
 You are between a rock and hard place.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

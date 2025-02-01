@@ -2,6 +2,8 @@
 
 The flowing and dormant robes of the Chaos Lord Cleric. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21731

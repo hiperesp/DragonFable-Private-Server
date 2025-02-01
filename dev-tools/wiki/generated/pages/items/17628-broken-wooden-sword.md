@@ -2,6 +2,8 @@
 
 A sword carved out of a piece of wood that someone broke. Probably, and predictably, when it met a real weapon. Careful, those splinters are sharp.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17628

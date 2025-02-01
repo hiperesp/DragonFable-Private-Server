@@ -2,6 +2,8 @@
 
 A forgotten cape of a soldier of Swordhaven. One of the togs was carrying this in its mouth. Perhaps you can put it to better use. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19747

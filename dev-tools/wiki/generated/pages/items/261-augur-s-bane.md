@@ -2,6 +2,8 @@
 
 This dagger is said to make the wielder undetectable by those who attempt to peer into their future. They'll never see you coming.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 261

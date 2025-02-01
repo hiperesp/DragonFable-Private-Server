@@ -2,6 +2,8 @@
 
 When zombies are shuffling towards you, you need to think fast and use what you can as a weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1649

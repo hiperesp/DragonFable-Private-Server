@@ -3,6 +3,8 @@
 The snow glows white on these barren fields tonight, no footprints to be seen. A kingdom of loneliness, and I'm the queen. Let it be, let it be!
  Happy Mogloween 2014!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12900

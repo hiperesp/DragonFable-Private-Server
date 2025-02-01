@@ -3,6 +3,8 @@
 This is a terrifying blade of unthinkable power! 
 There is an inscription on the hilt that reads  -- MADE IN TAIWAN.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 226

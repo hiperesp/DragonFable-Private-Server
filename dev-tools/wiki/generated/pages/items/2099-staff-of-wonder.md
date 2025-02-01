@@ -2,6 +2,8 @@
 
 This Staff of Wonder/ is a staff of light. / A staff of healing/ shining bright.  Feel free to sing along as you carry this year's Frostval reward into battle in the coming months.  It has a chance to heal 5% of your life on a successful hit.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2099

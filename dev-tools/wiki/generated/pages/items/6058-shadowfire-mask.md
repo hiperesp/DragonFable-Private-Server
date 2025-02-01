@@ -2,6 +2,8 @@
 
 Don't go to Artix's house wearing this mask! Happy Mogloween 2011!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6058

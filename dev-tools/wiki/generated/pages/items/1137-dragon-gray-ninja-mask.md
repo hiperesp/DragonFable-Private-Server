@@ -2,6 +2,8 @@
 
 This mask requires a Dragon Amulet. It is the type of mask work by the highly respected elite ninja of the Shadow of the Wind Clan.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1137

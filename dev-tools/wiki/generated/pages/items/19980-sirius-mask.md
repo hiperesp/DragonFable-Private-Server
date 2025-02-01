@@ -2,6 +2,8 @@
 
 This mask is no joke.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19980

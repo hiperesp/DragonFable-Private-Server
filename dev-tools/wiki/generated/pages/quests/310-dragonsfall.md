@@ -2,6 +2,8 @@
 
 Ash has sent you to Dragonsfall Woods to defeat the lizard men and their pet drakes.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

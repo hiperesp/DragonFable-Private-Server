@@ -2,6 +2,8 @@
 
 A journey unseen.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

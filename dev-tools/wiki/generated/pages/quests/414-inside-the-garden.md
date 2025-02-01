@@ -2,6 +2,8 @@
 
 You fought your way past one of the largest (and grossest) guards imaginable.  Who could own a garden that needs such imposing guards?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

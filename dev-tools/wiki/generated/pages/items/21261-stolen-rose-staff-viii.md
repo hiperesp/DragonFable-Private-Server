@@ -2,6 +2,8 @@
 
 A protoype Rose staff stolen and modified by some desert thugs. Now it's in your hands. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21261

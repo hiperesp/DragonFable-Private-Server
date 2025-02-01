@@ -2,6 +2,8 @@
 
 As you make haste to escort the wounded king to Sulen'Eska, other events are taking place.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 A lithe weapon, approved for use by the Rose. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8579

@@ -2,6 +2,8 @@
 
 Tropy's helm vexes your enemies but leaves you feeling strangely... jinxed. Spooky!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5152

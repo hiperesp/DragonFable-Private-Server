@@ -2,6 +2,8 @@
 
 Make from sea ice, the shards that adorn this helm were harvested by the Tusker for their clarity and hardness. The shards contain potent ice magic that increases a fighter's strength and intelligence.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1960

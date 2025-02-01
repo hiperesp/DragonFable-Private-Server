@@ -2,6 +2,8 @@
 
 Ash has brought you to this cliff to show you something, but he's being very secretive about the whole thing.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

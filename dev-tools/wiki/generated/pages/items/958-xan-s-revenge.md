@@ -2,6 +2,8 @@
 
 This fiery sword was one of the favorites in Xan's arsenal. It still carries a bit of his essence... you can almost hear a mad cackling behind the flames.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 958

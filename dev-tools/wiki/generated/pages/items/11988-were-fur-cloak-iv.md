@@ -2,6 +2,8 @@
 
 This... smells funky. It's warm at least! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11988

@@ -2,6 +2,8 @@
 
 This mystical weapon was grown from your multidimensional 13-leaf clover! It pulses with chaotic energy. You can't handle the truth. Not yet. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17993

@@ -2,6 +2,8 @@
 
 Wearing this armor MAY make you go mad.  But before it does, you'll have access to a wide range of Water, Darkness, and Evil skills with which to annihilate your enemies!  Best for players level 35+.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3825

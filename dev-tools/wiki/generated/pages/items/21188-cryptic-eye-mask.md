@@ -2,6 +2,8 @@
 
 Mysterious!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21188

@@ -2,6 +2,8 @@
 
 You instantly feel smarter when you put this on. It looks amazing too.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13620

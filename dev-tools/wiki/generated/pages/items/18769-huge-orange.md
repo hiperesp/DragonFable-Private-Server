@@ -2,6 +2,8 @@
 
 This orange is huge! It's about the size of a pomelo. It smells amazing. One side is stamped with the letter "u". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18769

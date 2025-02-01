@@ -2,6 +2,8 @@
 
 The fury of the water elementals fought in this quest was captured.  The essence of that emotion is what drives the spinning blades in the staff's mage-focus.  This weapon requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2247

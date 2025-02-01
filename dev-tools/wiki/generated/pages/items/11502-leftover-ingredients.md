@@ -2,6 +2,8 @@
 
 Eewwwwww..... Maybe Big Daddy could use these....
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11502

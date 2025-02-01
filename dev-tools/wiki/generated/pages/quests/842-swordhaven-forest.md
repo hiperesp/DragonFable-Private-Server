@@ -2,6 +2,8 @@
 
 The woods surrounding Swordhaven are filled with bandits and dangerous monsters!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

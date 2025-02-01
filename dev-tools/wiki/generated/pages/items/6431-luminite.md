@@ -2,6 +2,8 @@
 
 A strange ore that radiates with light. Perhaps you will find a use for this item in your travels. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6431

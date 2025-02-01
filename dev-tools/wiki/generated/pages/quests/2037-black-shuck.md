@@ -2,6 +2,8 @@
 
 Ah, the Whispering Steppes. But is that howling the wind...? Or something else entirely?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

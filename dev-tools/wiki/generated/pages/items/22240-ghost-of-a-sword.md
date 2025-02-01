@@ -2,6 +2,8 @@
 
 This particular sword, after its death, chose to stick around. Perhaps it has some unfinished business. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22240

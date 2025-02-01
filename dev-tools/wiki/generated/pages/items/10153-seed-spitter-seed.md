@@ -2,6 +2,8 @@
 
 A seed spitter seed makes up the pendant of this necklace.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10153

@@ -2,6 +2,8 @@
 
 Leave it to a gnome running a tavern to come up with this. Designed to automatically readjust depending on your size, it has a nasty habit of cutting off the circulation to your lower extremities. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5518

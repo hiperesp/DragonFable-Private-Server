@@ -2,6 +2,8 @@
 
 Unravel the unwanted candy at the bottom of the bag.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19188

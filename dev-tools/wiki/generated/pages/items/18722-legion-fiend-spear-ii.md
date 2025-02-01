@@ -2,6 +2,8 @@
 
 A special spear forged for Dage's birthday!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18722

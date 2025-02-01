@@ -2,6 +2,8 @@
 
 Possessed axe of possession, now possessed by you and in your possession. Among your other possessions. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22135

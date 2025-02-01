@@ -2,6 +2,8 @@
 
 Control a rocket turret to blow up some elementals!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This cloth is soaked in something that gives it a pungent odor... but at least it will keep the bugs away!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13187

@@ -2,6 +2,8 @@
 
 Your face may be hidden but every Frost Moglin knows who you are! You are their enemy and greatest fear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13361

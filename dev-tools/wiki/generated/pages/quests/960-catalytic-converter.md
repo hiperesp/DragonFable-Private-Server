@@ -2,6 +2,8 @@
 
 What happened to the MOP?  Where did all those cats come from?  Well, there?s no use waiting around. Sally must be here somewhere.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

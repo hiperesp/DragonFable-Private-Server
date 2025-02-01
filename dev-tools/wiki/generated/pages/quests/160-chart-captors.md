@@ -2,6 +2,8 @@
 
 Thyton in the Shadow of the Wind Village has asked you to invade this pirate ship and steal the navigational charts from the map room.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

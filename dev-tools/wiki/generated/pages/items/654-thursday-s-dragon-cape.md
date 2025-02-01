@@ -2,6 +2,8 @@
 
 This cape requires a Dragon Amulet. It was handmade by Thursday. It provides defense against darkness, a +1 to hit, and +1 Endurance.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 654

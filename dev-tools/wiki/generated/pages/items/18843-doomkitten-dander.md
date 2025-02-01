@@ -2,6 +2,8 @@
 
 These few loose strands of fur feel almost slick and oily, but nothing rubs off of them. Proof of your victory over the Doomkitten!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18843

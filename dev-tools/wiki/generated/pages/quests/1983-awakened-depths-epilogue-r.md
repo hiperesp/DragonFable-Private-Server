@@ -2,6 +2,8 @@
 
 With Tyndur's Depths (mostly) at peace once more, all that's left to do is celebrate... and say your goodbyes.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

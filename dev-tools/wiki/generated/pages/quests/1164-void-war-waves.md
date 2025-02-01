@@ -2,6 +2,8 @@
 
 Void beings are coming at you from the depths of the never ending corridor.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

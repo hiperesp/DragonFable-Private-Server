@@ -2,6 +2,8 @@
 
 The legendary and somewhat odd Sporca! Flee! 
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

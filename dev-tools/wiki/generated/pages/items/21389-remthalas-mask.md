@@ -2,6 +2,8 @@
 
 A mask of mysterious origin, once held by Remthalas of the Maleurous.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21389

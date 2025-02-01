@@ -2,6 +2,8 @@
 
 This large sword is amazingly light and well balanced, but requires a Dragon Amulet to wield. A special process was used to prepare the magic blade adding a purple tint to it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 932

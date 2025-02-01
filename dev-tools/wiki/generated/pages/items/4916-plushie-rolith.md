@@ -2,6 +2,8 @@
 
 This is the cutest knight captain EVER! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4916

@@ -2,6 +2,8 @@
 
 Forged in the moonlight from the heart of a fallen star.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 252

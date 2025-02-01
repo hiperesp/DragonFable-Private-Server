@@ -2,6 +2,8 @@
 
 The thin blade of this sword dances on the edge of oblivion.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 963

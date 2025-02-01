@@ -2,6 +2,8 @@
 
 The mighty MechaDragon stands before you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

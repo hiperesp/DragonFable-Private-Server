@@ -2,6 +2,8 @@
 
 A lineage lost, a legacy to strive for.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Crafted from paraginium, this helm is sleek and battle ready. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6650

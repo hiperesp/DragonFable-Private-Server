@@ -2,6 +2,8 @@
 
 A magic tool on a chain. It allows you to highlight passages in whatever you read.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6322

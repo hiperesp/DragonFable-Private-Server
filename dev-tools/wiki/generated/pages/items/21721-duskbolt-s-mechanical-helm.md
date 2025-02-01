@@ -2,6 +2,8 @@
 
 Whatever intricate mechanisms were once housed inside this helm have since been removed to make room for your head. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21721

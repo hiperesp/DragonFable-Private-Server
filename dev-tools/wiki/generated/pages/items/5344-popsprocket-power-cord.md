@@ -2,6 +2,8 @@
 
 Rolith must have borrowed this powercord from Yix. But why? Oaklore Keep doesn't have any electricity.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5344

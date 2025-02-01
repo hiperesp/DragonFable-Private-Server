@@ -2,6 +2,8 @@
 
 The wind elemental known as Blowheart has stolen a box of Big Daddy's Snuggle-Grams. Hundreds of people will remain sad and miserable if you do not recover them.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 The initials F.C. are carved into this leather cinch... you briefly wonder if the previous owner is still alive and if they have some sort of bounty for the belt's return.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3797

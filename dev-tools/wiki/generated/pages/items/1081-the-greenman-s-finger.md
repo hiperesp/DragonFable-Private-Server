@@ -2,6 +2,8 @@
 
 This staff was grown from a trimming from the right pointer finger of the Greenman himself. It's ok, he can grow it back. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1081

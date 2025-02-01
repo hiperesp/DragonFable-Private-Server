@@ -2,6 +2,8 @@
 
 Not only do you look STRONG wearing this mask, but you look pretty BAD, too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3144

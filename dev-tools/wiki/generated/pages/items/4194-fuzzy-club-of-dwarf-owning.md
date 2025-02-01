@@ -2,6 +2,8 @@
 
 No dwarf will be able to withstand the fuzzy assault!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4194

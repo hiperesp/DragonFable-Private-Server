@@ -2,6 +2,8 @@
 
 The foggy ruins of the Braughlmurk Cape, where the tide is permanently out.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

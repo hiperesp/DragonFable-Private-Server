@@ -2,6 +2,8 @@
 
 The Blue Mage emerges from his solitude.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

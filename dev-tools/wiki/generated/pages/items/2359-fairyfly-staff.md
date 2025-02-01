@@ -3,6 +3,8 @@
 Playful marsh-fairies have been attracted to the crystal sitting atop this staff.  
 This weapon requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2359

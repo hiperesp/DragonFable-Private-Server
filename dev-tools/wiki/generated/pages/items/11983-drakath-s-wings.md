@@ -2,6 +2,8 @@
 
 The perfect accessory for causing chaos!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11983

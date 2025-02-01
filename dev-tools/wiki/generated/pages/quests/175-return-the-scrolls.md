@@ -2,6 +2,8 @@
 
 Drakath was last seen heading toward the camp of Okuchi No Okami's lair. Make your way through the bamboo forest, find where Drakath has taken the Jewel of the Four Winds and retrieve the Shadow of the Wind clan ninja scrolls while you are there.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

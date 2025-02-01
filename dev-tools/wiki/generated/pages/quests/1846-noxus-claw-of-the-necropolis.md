@@ -2,6 +2,8 @@
 
 From long lost origins to ruler of the undead city of the Necropolis, Noxus fought and clawed his way to the top, where he intends to remain.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

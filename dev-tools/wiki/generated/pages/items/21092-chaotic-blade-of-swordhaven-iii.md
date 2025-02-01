@@ -2,6 +2,8 @@
 
 Once the royal blade of a lost kingdom, this tarnished greatsword has now found its way into your hands... Proof of victory over Corvak and Alteon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21092

@@ -2,6 +2,8 @@
 
 This staff was carved from the tusks of fallen gorillaphants and decorated with tribal designs.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 382

@@ -2,6 +2,8 @@
 
 This catalyst takes the form of a faintly glowing green gem. Gazing within sends your mind tumbling into a landscape of broken bones and lost souls. This haunting Customization Catalyst unlocks the Spectral customization option for DeathKnight.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20248

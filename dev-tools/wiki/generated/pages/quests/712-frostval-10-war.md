@@ -2,6 +2,8 @@
 
 Fight the Power!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 After the Darkness comes the Dawn.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15624

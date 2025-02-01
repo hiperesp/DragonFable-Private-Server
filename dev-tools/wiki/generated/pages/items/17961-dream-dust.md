@@ -2,6 +2,8 @@
 
 Cracked crystalline dust. The more you stare at it the more it seems to fade away... Used to upgrade the Meowphant's Mettle Belt, and proof of your victory over the Dream Duo!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17961

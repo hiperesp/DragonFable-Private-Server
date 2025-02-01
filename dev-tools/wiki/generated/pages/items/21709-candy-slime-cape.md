@@ -2,6 +2,8 @@
 
 This slime didn't want to let go of its candy and got stretched out long enough to wear as a cape! It doesn't seem to mind too much as long as it has candy... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21709

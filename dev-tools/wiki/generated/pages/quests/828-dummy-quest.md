@@ -2,6 +2,8 @@
 
 This is a dummy quest for the Treasure Chest
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This scythe absorbs information during TART missions!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4509

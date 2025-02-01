@@ -2,6 +2,8 @@
 
 Despite their best efforts, the Cauldron Sisters were unable to reproduce the holy burn of Artix's famous Holy Wasabi. But the jar can still be yours! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21160

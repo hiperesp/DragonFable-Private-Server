@@ -2,6 +2,8 @@
 
 When your enemies see you coming at them wielding this dagger, they'll be frozen with fear!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2376

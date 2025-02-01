@@ -2,6 +2,8 @@
 
 A trusty blade used by a Ranger to get out of any situation. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14584

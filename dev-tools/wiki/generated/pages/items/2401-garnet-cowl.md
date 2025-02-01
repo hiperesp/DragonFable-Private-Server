@@ -2,6 +2,8 @@
 
 Treated with a mixture of ground garnets and burnt boveox hooves, this cowl will protect its wearer far better than other, lesser hoods.  This item requires a Dragon Amulet and is color customizable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2401

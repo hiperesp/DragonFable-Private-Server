@@ -2,6 +2,8 @@
 
 This small ring looks like it's made out of chocolate. It has small bunny ears, and eyes that seem to follow yours when you look at it. Probably not safe to eat. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18432

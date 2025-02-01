@@ -2,6 +2,8 @@
 
 A sturdy piece of green tog-skin leather.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9620

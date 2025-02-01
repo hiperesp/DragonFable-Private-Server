@@ -2,6 +2,8 @@
 
 Crafted from a haunted pumpkin, with a blade forged from fallen heroes weapons, an eerie laughter escapes whenever you swing this weapon! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10801

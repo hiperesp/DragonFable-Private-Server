@@ -2,6 +2,8 @@
 
 This replica of the complete Judgement Wheel was created by Ashendal. It is enchanted to occasionally judge your foe for their guilt with DoT!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14366

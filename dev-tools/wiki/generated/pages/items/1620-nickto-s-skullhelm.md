@@ -2,6 +2,8 @@
 
 This was one of three skull helms worn by the three necromancer brothers who founded Necromancy University. This was worn by Nickto, the eldest brother.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1620

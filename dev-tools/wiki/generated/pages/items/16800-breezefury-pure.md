@@ -2,6 +2,8 @@
 
 This sword was forged from the remains of the elemental avatar of wind. At least, that's what people say. What people? You know, people!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16800

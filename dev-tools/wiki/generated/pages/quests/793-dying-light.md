@@ -2,6 +2,8 @@
 
 The last of the known elemental orbs lies in the balance. Will you be able to save it.... or will Sepulchure finally have all eight in his grasp?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

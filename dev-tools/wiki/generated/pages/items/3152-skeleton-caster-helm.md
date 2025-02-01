@@ -2,6 +2,8 @@
 
 It's hot to the touch... ouch!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3152

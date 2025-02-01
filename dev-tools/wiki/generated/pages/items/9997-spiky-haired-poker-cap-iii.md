@@ -2,6 +2,8 @@
 
 The cap for a true card shark!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9997

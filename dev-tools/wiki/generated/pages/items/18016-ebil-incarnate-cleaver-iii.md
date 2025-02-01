@@ -2,6 +2,8 @@
 
 A specially forged dagger made for you by the one and only Zorbak! How considerate! This weapon definitely won't come alive at night and pull harmless pranks. Guaranteed. Almost.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18016

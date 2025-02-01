@@ -2,6 +2,8 @@
 
 This silver blade is said to give the owner a hightened ability to move over and around obstacles.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 667

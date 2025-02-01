@@ -2,6 +2,8 @@
 
 This trinket causes bubbles to form around you wherever you go! Side effects of breathing in so much bubble vapor are currently unknown, but it's probably fine. Those bubbles sure are distracting, though... Proof of victory over "In Wanderland".
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21369

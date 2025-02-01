@@ -2,6 +2,8 @@
 
 Betrubung Swamp is huge... and the Rose has started to search it!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

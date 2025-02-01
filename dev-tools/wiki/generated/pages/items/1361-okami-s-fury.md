@@ -2,6 +2,8 @@
 
 This staff was left behind by Okuchi No Okami's ninja army. There are theories that this powerful fire staff came from Okuchi No Okami's personal weapon cache... or it was a sneenja pole vaulting pole.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1361

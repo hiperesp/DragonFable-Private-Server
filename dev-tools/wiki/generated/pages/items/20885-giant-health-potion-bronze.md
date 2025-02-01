@@ -2,6 +2,8 @@
 
 This gigantic health potion is still portable! Although, finding a way to drink from it while it's strapped to your back is a puzzle yet to be solved. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20885

@@ -2,6 +2,8 @@
 
 Even more earth elementals and bugs have gathered in the Earth Elemental Cave!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 How much wood could a hero chuck if a hero could chuck wood?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 There is only one path that Doom will lead you to. Do not follow Evil. There is nothing there for you.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

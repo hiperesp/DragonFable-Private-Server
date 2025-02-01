@@ -2,6 +2,8 @@
 
 A small blob of purple-blue essence, left behind by Pride in the Arena at the Edge of Time. Proud! Used to create the Chibi Pride cape.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19381

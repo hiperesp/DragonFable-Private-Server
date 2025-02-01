@@ -2,6 +2,8 @@
 
 It's Friday the 13th... are you ready to fight?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

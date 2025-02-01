@@ -2,6 +2,8 @@
 
 Perfect for when you're trying to topple a theocratic regime, or just walking on a chilly day. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21127

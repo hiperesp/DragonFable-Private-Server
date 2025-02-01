@@ -2,6 +2,8 @@
 
 Learn about San Robin's past.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

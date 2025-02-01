@@ -2,6 +2,8 @@
 
 The undead centaur abomination, torn from some unholy timeline, is here to challenge you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

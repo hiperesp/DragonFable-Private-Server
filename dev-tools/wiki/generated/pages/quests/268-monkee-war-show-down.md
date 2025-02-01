@@ -2,6 +2,8 @@
 
 The pirate monkees have prevailed! Can you help take down their biggest enemy?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

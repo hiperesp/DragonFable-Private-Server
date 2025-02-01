@@ -2,6 +2,8 @@
 
 A golden weapon of light. Are The Rose confiscating magical weapons now?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7862

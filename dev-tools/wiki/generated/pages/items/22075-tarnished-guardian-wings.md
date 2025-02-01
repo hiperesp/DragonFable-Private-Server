@@ -2,6 +2,8 @@
 
 There are legends of a Guardian who went missing for some time, only to return, changed. Though he did his duties to the letter, he spoke to no one, until one day, he sprouted dark wings and flew away, never to be seen again. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22075

@@ -2,6 +2,8 @@
 
 Warriors in repose.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

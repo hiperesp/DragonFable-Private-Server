@@ -2,6 +2,8 @@
 
 This dagger will bring forth furious weather.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 802

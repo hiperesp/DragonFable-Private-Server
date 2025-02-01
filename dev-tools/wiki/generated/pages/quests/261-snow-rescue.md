@@ -2,6 +2,8 @@
 
 Make your way to the igloo on the mainland and see if you can find the lost settlers!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

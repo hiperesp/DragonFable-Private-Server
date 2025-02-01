@@ -2,6 +2,8 @@
 
 The official cape of the Pactogonal Knights!  This item requies a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15373

@@ -2,6 +2,8 @@
 
 The Emperor is the rarest and bravest of the penguins. He is a powerful friend dealing incredible damage and has a 4% chance to SHRINK your opponent's size and life!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 550

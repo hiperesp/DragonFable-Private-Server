@@ -2,6 +2,8 @@
 
 A dagger magically crafted from a collection of Ice-infused Larimar. On special, stuns your target. (Cosmetic) (Special)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21675

@@ -2,6 +2,8 @@
 
 The mechanical wings and tail of a Dragonoid! Thankfully not life-size. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21124

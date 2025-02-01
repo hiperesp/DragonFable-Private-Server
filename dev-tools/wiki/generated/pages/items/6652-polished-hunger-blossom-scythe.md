@@ -2,6 +2,8 @@
 
 The blades of this weapon look almost organic,  but are honed to a wicked sharpness.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6652

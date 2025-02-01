@@ -2,6 +2,8 @@
 
 An ancient silver coin, depicting a fierce clash between two dragons. Sellable for gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18147

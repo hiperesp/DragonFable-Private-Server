@@ -2,6 +2,8 @@
 
 When an aeromancer wound a length of ribbon around a wind elemental, she liked the shape it took on, so kept it like that.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2883

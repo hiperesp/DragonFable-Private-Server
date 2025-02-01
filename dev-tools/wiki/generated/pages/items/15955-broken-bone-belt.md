@@ -2,6 +2,8 @@
 
 This belt is interwoven with carved and broken bits of bone.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15955

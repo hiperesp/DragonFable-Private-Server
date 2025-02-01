@@ -2,6 +2,8 @@
 
 The symmetry of the extensions topping this staff have been proven to aid in the enhancement of the magic matrix controlling flight.  Until further tests have been run, though, it's a good idea to be careful while on cliffs and mountaintops.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1692

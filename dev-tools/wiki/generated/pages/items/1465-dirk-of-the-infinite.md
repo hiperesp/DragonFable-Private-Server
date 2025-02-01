@@ -2,6 +2,8 @@
 
 This dagger was forged from a rare metal panned from the swift waters of the Time Stream.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1465

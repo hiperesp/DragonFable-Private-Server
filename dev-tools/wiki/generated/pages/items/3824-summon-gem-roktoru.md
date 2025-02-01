@@ -2,6 +2,8 @@
 
 Roktoru like a hurricane!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3824

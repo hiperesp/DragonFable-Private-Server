@@ -2,6 +2,8 @@
 
 If only this dagger could do everything you wanted it to. But hey, at least it's good for slashing and stabbing! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3294

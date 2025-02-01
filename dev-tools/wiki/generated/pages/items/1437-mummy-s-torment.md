@@ -2,6 +2,8 @@
 
 The undead mummy hand at the end of this staff does focus magical energies, but originally it was designed by a very short mage to reach high shelves.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1437

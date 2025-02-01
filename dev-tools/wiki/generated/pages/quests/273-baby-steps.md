@@ -2,6 +2,8 @@
 
 Send your baby dragon out on its own to collect the plants Celestia needs. The more Charisma and Luck you have the easier it will be to avoid battles.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

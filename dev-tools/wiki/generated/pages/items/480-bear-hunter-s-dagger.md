@@ -2,6 +2,8 @@
 
 This is the perfect dagger to hunt bears...and other more dangerous creatures.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 480

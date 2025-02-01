@@ -2,6 +2,8 @@
 
 The perfect accessory for all your motley crew members!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3664

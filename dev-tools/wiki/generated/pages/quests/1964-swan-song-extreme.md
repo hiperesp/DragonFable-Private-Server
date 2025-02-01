@@ -2,6 +2,8 @@
 
 The Stars brought them together.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

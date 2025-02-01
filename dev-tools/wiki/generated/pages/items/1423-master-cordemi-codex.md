@@ -3,6 +3,8 @@
 CLICK ON THIS strange CorDemi item while holding it to change its shape to best suit you.
 This version of the Codex is for those who have mastered its power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1423

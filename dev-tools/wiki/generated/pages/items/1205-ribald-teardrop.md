@@ -2,6 +2,8 @@
 
 A vial of living water.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1205

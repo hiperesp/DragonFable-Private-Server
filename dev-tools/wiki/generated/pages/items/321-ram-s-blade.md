@@ -2,6 +2,8 @@
 
 Powerful and large, this sword packs a punch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 321

@@ -2,6 +2,8 @@
 
 This belt radiates a terrible feeling of dread. When you close your eyes you suddenly get the feeling that something... big... and snarling... is behind you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4097

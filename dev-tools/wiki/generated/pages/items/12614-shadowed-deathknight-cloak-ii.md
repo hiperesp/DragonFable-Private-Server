@@ -2,6 +2,8 @@
 
 You've infused your cloak with shadow energy. It seems to wrap around you like your own shadow, but it no longer keeps you warm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12614

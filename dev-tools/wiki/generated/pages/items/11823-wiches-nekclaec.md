@@ -2,6 +2,8 @@
 
 The power of typos dwells in all of us, this necklace helps you draw the power out!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 11823

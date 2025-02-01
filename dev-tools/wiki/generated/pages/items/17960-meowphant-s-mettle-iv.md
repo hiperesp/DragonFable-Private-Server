@@ -2,6 +2,8 @@
 
 A snazzy belt with a solid brass buckle in  the shape of a snarling Meowphant. Will this make you as unstoppable as a Mega Meowphant? Put it on and find out! Proof of your victory over the Mega Meowphant!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17960

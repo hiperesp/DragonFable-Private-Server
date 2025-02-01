@@ -2,6 +2,8 @@
 
 An inscription runs along the shaft, the language is alien but it seems to say something about placing under joint R2...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1021

@@ -2,6 +2,8 @@
 
 This orange is larger and harder than oranges usually should be. Is there something... moving inside? One side is stamped with the letter "r". Probably best not to eat it. You don't know where the bandits could have gotten it from.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18768

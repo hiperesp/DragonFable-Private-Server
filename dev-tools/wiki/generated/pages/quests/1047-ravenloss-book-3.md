@@ -2,6 +2,8 @@
 
 A magical city beneath the streets of Falconreach.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

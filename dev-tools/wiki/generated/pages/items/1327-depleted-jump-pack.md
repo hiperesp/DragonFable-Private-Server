@@ -2,6 +2,8 @@
 
 This Jump Pack's power cells have been drained, but the Pack still seems to have some functioning Cordem technology that improves your hand to hand combat skills.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1327

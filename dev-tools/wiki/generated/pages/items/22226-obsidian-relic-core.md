@@ -2,6 +2,8 @@
 
 Historians question whether the scattering of obsidian relics were created before or after Akriloth's rampage. Regardless of its origin, it still bears a powerful core of Fire elemental magic. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22226

@@ -2,6 +2,8 @@
 
 Strips of thin-cut bamboo are woven together with the plants leaves to form this stylish belt.  A tag is inked on the inner strip.  It reads "This belt belongs to Jane."
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2406

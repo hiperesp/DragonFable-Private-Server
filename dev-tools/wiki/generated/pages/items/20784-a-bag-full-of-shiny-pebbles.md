@@ -2,6 +2,8 @@
 
 While gathering the reagents for Bart, you saw many cool rocks that piqued your interest! These are extra shiny!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20784

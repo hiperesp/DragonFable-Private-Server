@@ -2,6 +2,8 @@
 
 Help Sir Leon in his quest to the tower.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

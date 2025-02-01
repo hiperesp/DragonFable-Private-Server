@@ -2,6 +2,8 @@
 
 You found this pair of wings resembling the feargeist Aker'varus in your backpack after escaping from the Fearscape. A gift... or a curse?
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21910

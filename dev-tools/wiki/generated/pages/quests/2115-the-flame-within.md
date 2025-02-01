@@ -2,6 +2,8 @@
 
 With allies gathered and plans planned, gather your inner flame, and prepare for battle.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

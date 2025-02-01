@@ -2,6 +2,8 @@
 
 This strange shard seems to slightly fade in and out of view, as if it's not all here. Save one of these until the end of the A.E. 13th Anniversary event! (Speak to the Black Market Moglin in Falconreach to get your Ultra OmniKnight Blade!)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14818

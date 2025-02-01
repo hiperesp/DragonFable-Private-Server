@@ -2,6 +2,8 @@
 
 A strange energy emanates from within this beautiful weapon! It almost seems alien...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6224

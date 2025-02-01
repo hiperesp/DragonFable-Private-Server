@@ -2,6 +2,8 @@
 
 The trail ends here, where to go now?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

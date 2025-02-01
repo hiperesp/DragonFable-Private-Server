@@ -2,6 +2,8 @@
 
 With this glowing blade, Tomix is able to fight off his enemies with one hand while drawing and animating with the other.  He also finds the time to spread Hope to the masses after unleashing all the ills of the world on them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12364

@@ -2,6 +2,8 @@
 
 How could anyone be mean enough that they'd want to make chickencows cry?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 These blades were found in a powerful blinding blizzard. Nobody knows how they even got caught in the storm.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1109

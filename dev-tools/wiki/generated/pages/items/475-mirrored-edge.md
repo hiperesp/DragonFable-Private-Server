@@ -2,6 +2,8 @@
 
 This sword shines like a bright mirror...revealing not only your reflection, but that of your enemies.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 475

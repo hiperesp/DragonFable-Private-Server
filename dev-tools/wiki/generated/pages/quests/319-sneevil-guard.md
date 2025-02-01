@@ -2,6 +2,8 @@
 
 Sneevil Guard does not always know friend from foe.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

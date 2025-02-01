@@ -2,6 +2,8 @@
 
 Shining bright through the dark depths.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21753

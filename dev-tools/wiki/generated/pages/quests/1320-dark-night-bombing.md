@@ -2,6 +2,8 @@
 
 Ride your dragon over the woods and bomb Jaysun's forces!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

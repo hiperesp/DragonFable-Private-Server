@@ -2,6 +2,8 @@
 
 This short sword was apparently crafted by togs, which is odd, because they can't use swords... can they? The technology is also beyond anything most togs could ever dream of... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22063

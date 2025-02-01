@@ -2,6 +2,8 @@
 
 The captain of a ship thought long lost to sea, Keelhaul has emerged from the depths to face you!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

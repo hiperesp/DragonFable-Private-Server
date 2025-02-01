@@ -2,6 +2,8 @@
 
 This sword sings of your enemies' demise.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 73

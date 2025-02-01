@@ -2,6 +2,8 @@
 
 Worn by those before, and worn by those after, this cloak is said to match its wearer's persona. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22284

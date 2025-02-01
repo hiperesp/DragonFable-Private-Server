@@ -2,6 +2,8 @@
 
 Sage Uldor is a well-known psychic with many unexplored powers.  It's said that his powers are increased due to the fact that he's blind.  Try this hood on and see if YOUR powers increase, too!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3682

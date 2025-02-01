@@ -2,6 +2,8 @@
 
 Hopefully The Golden Hand are going to be okay...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

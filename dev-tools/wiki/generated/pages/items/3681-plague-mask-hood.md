@@ -2,6 +2,8 @@
 
 Doctors in Lore have to cure some VERY strange illnesses (like the one that turns your nose green and puts blue spots on your stomach.)  To ward off these sicknesses, they use this hood.  
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3681

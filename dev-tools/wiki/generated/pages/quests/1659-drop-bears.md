@@ -2,6 +2,8 @@
 
 Weird, another series of rare creatures has appeared in the forest. How about we hunt them down?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

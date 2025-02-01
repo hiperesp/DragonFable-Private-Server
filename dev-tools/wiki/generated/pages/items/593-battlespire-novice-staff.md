@@ -2,6 +2,8 @@
 
 This weapon became available to you after reaching the rank of Novice at the Aeris Battlespire. It proudly displays your abilities  in player versus player combat in the arena.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 593

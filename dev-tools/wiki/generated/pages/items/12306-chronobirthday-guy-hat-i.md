@@ -2,6 +2,8 @@
 
 The birthday hat of the future... today! Happy Birthday Cronix!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12306

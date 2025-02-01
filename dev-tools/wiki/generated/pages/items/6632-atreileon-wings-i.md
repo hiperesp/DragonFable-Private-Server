@@ -2,6 +2,8 @@
 
 These architectural wings were sculpted from paraginium.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6632

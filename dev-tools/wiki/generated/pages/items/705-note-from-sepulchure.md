@@ -2,6 +2,8 @@
 
 It reads: "First shipment arrived. We are interested in Mollo Mind Serum. Will purchase rest of the fruit for your asking price. Will be in touch. Sepulchure."
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 705

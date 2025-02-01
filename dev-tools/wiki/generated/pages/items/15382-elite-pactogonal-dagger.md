@@ -2,6 +2,8 @@
 
 Carve into your opponents with this wicked weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15382

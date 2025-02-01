@@ -2,6 +2,8 @@
 
 The shattered remains of corporeal ego. Proof of your victory over the Egomaniacs challenge. Used to create the Vaal's Ego Trinket.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18407

@@ -2,6 +2,8 @@
 
 For some reason the blue glow of this moon makes you hungry. It's magically suspicious! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5191

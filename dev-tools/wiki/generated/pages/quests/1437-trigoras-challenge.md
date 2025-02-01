@@ -2,6 +2,8 @@
 
 The three headed menace, Trigoras!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 This blade was actually sharpened by the winds of a hurricane.  The runes along the blade create a magical link between the Dao and the elemental plane of Wind.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1453

@@ -2,6 +2,8 @@
 
 Your hand tingles just holding this blade. You're not sure if it's solid or if it will burst away in a flash.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1796

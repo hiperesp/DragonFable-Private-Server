@@ -2,6 +2,8 @@
 
 The Research and Development center of the The Beehive.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

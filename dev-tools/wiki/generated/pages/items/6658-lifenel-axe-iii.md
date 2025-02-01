@@ -2,6 +2,8 @@
 
 The blade on this weapon is colored with the glowing spores of Somorahan fungi.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6658

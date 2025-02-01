@@ -2,6 +2,8 @@
 
 This sword was prized by the Ice Giant clan Blizzard. It was once the weapon of an Ice Giant hero that was passed down through generations of warriors.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16324

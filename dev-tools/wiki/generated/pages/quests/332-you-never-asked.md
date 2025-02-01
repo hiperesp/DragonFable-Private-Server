@@ -2,6 +2,8 @@
 
 It's beginning to look a lot like Duex Ex Machina!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

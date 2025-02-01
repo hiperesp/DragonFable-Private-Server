@@ -2,6 +2,8 @@
 
 It's big and it's mad!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

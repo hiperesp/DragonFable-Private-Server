@@ -2,6 +2,8 @@
 
 This gleaming helm was once worn into war by a fierce warrior in a distant land... How it found its way here is unknown. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20914

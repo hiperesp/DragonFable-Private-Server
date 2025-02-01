@@ -2,6 +2,8 @@
 
 An essence of pure mana caught in a bottle, for some reason, it fills you with dread.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7064

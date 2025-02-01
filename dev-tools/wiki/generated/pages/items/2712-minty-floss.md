@@ -2,6 +2,8 @@
 
 So THIS is what the gnomes are always after.  Mmmm, minty!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2712

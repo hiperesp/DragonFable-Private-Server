@@ -2,6 +2,8 @@
 
 This weapon is enchanted with anti-bureaucracy powers. The Crimson Slasher excels at cutting through red tape!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1545

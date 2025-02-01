@@ -2,6 +2,8 @@
 
 Darkness and Light, keeping vigil over Doomwood and all who dwell within.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

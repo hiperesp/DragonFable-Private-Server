@@ -2,6 +2,8 @@
 
 Murk likes to playing with things related to ChaosWeavers.  In return for any random ChaosWeaver baubles you might find lying around the park, he'll merge them into a new item for you!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3712

@@ -2,6 +2,8 @@
 
 The runes on this cape are mysterious and imbued with a pulsing, dark power.  Take care when wearing this!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4551

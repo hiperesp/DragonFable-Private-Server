@@ -2,6 +2,8 @@
 
 A small mummiform figure hangs off this belt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9315

@@ -2,6 +2,8 @@
 
 This helm was found on a battlefield after the battle had ended. No one knows who was fighting or what the battle was about. All that is known is that this helm gives amazing strength to any whom wear it. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1051

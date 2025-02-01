@@ -2,6 +2,8 @@
 
 A large abstract statue of pulsing living fog. You can feel the pulsing animosity of the trapped Darkness. You really should just sell this. You could probably get like... 300 gold.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14993

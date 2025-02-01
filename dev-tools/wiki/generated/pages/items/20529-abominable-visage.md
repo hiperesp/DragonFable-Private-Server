@@ -3,6 +3,8 @@
 The skull and horns of the Abomination. This helm does not hide your hair.
 (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20529

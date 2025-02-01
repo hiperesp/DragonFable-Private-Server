@@ -2,6 +2,8 @@
 
 This fashionable capelet comes complete with a special gear and crystal! What they do besides look fashionable is unknown, but they do look very nice. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20939

@@ -2,6 +2,8 @@
 
 This ornate staff glows with an eerie inner light.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12197

@@ -2,6 +2,8 @@
 
 This glob of pure evil pulses and writhes in your grasp. It seems to look at you with no eyes to see. Proof of your victory over the Failed Doom challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18465

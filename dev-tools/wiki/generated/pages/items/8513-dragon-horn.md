@@ -2,6 +2,8 @@
 
 A small dragon's horn. Was this a shedding? Broken in a fight? You're not sure...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 8513

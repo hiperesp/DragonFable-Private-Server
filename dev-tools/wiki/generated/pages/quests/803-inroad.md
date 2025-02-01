@@ -2,6 +2,8 @@
 
 Dragesvard has always had a bit of a problem with monsters it seems, and now is no different.  Still, something seems to have stirred the ice monsters up more than usual.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

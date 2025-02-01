@@ -2,6 +2,8 @@
 
 The head of this staff pulses with Xan's unrequited love for Jaania.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 968

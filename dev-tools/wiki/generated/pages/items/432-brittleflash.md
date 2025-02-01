@@ -2,6 +2,8 @@
 
 After bringing Warlic a magical crystal shard he unlocked the true hidden power of this weapon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 432

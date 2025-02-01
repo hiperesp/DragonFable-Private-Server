@@ -2,6 +2,8 @@
 
 The time has come to infiltrate Drakonnans Lair and fight him once and for all!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

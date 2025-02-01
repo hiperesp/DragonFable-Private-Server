@@ -2,6 +2,8 @@
 
 A Soulwoven hood used by Soulweavers. Its design helps focus your reflexes. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18664

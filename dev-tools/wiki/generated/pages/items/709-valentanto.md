@@ -2,6 +2,8 @@
 
 Supposedly these daggers were made from gold that came from Valen's heart. It is only legend, but you can feel the True Love reverberating each time you wield these blades. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 709

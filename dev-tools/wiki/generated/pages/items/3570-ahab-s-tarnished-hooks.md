@@ -2,6 +2,8 @@
 
 Reel in your catch of the day with these fearsome improvised weapons!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3570

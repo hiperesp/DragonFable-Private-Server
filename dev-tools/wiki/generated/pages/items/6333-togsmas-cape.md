@@ -2,6 +2,8 @@
 
 It's a small, flat box. You can't hear anything when you shake it. You'll want to merge this into a level-appropriate cape!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6333

@@ -2,6 +2,8 @@
 
 Lime was so thankful for your help he gave you some of the fireworks you made! Use them on your foes! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 13402

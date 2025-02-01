@@ -2,6 +2,8 @@
 
 The first test.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

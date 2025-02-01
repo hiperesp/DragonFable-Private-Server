@@ -2,6 +2,8 @@
 
 These go GREAT with Jelly Sparkles!   Just think of all the nifty craft projects you could do with these!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4410

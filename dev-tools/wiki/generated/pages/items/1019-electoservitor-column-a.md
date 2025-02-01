@@ -2,6 +2,8 @@
 
 An inscription runs along the shaft, the language is alien but it seems to say something about placing in slot B...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1019

@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. The enchanted Ice weapon of the mysterious centocor, Jorhath. The magic contained within the snowflake sometimes causes icicles to erupt from the ground!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2734

@@ -2,6 +2,8 @@
 
 Your enemies better have their tetanus shots if you cut them with this kukri dagger!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 220

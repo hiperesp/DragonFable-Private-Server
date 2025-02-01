@@ -2,6 +2,8 @@
 
 vevibgsrmt rh tlrmt zxxliwrmt gl kozm, sldvevi, gsv nzxsrmv szh yvvm zxgrev dsvm r dzpv fk rm gsv nlimrmt. rg'h hortsgob xlmxvimrmt.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17251

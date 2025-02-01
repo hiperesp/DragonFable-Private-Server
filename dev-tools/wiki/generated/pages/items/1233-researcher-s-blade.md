@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet and a Blacksmithing Skill of Rank 24 or higher to create. This blade's design is being researched, but it is still good in battle. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1233

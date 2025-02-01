@@ -2,6 +2,8 @@
 
 Woven from candied faerie floss, no one will suspect your belt is also a delicious snack! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3051

@@ -2,6 +2,8 @@
 
 This tog followed you back from the Togsday party! Can buff your Crit chance based on your CHA stat, and does damage based on your level.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20249

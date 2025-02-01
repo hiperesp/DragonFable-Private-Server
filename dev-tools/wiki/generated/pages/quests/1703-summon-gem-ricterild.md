@@ -2,6 +2,8 @@
 
 The otherworldly Ricterild has formed.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

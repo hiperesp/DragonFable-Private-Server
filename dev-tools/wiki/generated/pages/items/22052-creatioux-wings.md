@@ -2,6 +2,8 @@
 
 No Creatioux were harmed in the making of these fantastic wings. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22052

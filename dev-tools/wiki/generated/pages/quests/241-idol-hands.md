@@ -2,6 +2,8 @@
 
 Valencia has sent you to investigate the ancient temple on her father's old maps.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

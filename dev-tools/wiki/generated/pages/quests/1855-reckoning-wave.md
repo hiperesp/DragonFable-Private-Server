@@ -2,6 +2,8 @@
 
 As Myalos, Notha, and the Avatars clash, you and Uaatna must defend yourselves against an onslaught of amalgamations.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

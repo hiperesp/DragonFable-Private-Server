@@ -2,6 +2,8 @@
 
 This rare tropical bird uses its silver plated tail to crush its enemies, and its odd behavior to confuse them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1009

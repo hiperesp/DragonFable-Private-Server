@@ -2,6 +2,8 @@
 
 This dagger is very tiny. You must possess a Dragon Amulet to wield it.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4920

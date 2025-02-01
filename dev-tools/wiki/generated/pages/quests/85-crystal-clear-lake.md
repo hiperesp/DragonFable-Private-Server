@@ -2,6 +2,8 @@
 
 As a favor to Thursday, you have come to the badly named Crystal Clear lake to clear a path to her herb garden.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

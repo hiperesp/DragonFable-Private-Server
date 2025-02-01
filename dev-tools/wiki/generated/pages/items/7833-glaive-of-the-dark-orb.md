@@ -2,6 +2,8 @@
 
 This glaive was crafted from shards of the Dark Key Orb. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7833

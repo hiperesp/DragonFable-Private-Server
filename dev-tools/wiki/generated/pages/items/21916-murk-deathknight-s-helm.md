@@ -2,6 +2,8 @@
 
 Between the necromancers and the paladins were those who strove to stand between... and like the others, were lost all the same. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21916

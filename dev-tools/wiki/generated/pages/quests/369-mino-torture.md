@@ -2,6 +2,8 @@
 
 Not even string can help you find your way out of THIS labyrinth. The minotaur who built it wanted to confound any and all intruders, and make it impossible for even the cleverest hero to get out without good deal of luck and persistance.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

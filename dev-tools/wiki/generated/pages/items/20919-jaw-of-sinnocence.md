@@ -2,6 +2,8 @@
 
 The particularly doomed jaw of Sinnocence! Why this particular aspect of Sinnocence was reproduced in your dream may forever be a mystery. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20919

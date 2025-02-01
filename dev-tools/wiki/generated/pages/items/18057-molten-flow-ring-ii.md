@@ -2,6 +2,8 @@
 
 A thin band of flowing molten magma that rotates slowly around your finger. Despite its appearance, it is cool to the touch.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18057

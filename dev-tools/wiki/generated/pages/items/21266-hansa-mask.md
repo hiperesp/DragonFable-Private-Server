@@ -2,6 +2,8 @@
 
 It's just a mask, you can still see.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21266

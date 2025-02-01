@@ -2,6 +2,8 @@
 
 What will you find in this crumbling ruin?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

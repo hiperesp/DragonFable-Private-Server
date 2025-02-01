@@ -2,6 +2,8 @@
 
 The Guardian Dragon has hidden himself away from prying eyes but is near enough to heed the call of a Guardian summon. Speak to him and see what he has to offer!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

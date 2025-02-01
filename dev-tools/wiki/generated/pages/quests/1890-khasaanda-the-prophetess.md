@@ -2,6 +2,8 @@
 
 The future awaits.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

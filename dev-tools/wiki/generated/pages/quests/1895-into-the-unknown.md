@@ -2,6 +2,8 @@
 
 Preparations are nearly ready. With the DragonLords on their dragons, and the Alliance on a ship, the journey awaits.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

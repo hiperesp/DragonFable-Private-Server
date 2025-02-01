@@ -2,6 +2,8 @@
 
 Ember had this little poker and once used it to stir her fire, before having it turned into a pair of daggers.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 313

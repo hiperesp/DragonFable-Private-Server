@@ -2,6 +2,8 @@
 
 This magical axe was found in the treasure horde of the dragon Gorgok. It is suitable for warriors.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 385

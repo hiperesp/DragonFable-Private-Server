@@ -2,6 +2,8 @@
 
 A tall weapon base, forged and lost in an ancient era. Used with certain Gemstones to create a staff.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21664

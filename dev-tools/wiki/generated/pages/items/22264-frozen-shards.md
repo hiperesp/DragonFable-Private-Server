@@ -2,6 +2,8 @@
 
 These magical ice shards are still imbued with the power of the blizzard, letting them float behind you! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22264

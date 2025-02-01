@@ -2,6 +2,8 @@
 
 This crystal shard is a pure fragment of elemental essence. Bring this and one of the metal weapons (found in the elemental quests) to Warlic to enchant in his elemental SHOP.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 864

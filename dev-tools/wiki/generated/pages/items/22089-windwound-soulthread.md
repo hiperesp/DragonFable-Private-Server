@@ -2,6 +2,8 @@
 
 A single wind aligned soulthread, pulsing with power. Proof of victory over the Unwavering Determination challenge.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22089

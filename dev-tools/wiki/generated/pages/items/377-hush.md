@@ -2,6 +2,8 @@
 
 This blade was brought to the world and left behind by some mysterious and terrifying gentlemen. It is a noiseless weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 377

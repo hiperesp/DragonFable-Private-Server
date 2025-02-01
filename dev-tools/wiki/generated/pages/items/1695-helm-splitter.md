@@ -2,6 +2,8 @@
 
 Your mother always told you to put your helm on before going out to face the undead.  She never imagined weapons like THIS, though!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1695

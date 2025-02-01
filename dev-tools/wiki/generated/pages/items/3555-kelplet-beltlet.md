@@ -2,6 +2,8 @@
 
 Some enterprising mermaid took strands of kelp and twisted them into jewelry.  The magical kelp protects you from fire AND boosts your health!This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3555

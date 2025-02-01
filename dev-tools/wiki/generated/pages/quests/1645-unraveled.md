@@ -2,6 +2,8 @@
 
 Theano has cast the resurrection spell but the results weren't as expected. It's up to you and Belle to deal with the consequences.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

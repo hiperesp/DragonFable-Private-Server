@@ -2,6 +2,8 @@
 
 A pair of specially crafted firearms, created in an unknown place and time. Ammunition not included. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22041

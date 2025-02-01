@@ -2,6 +2,8 @@
 
 This weapon requires a Dragon Amulet. It's time for some thrilling heroics.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1318

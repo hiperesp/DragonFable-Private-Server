@@ -2,6 +2,8 @@
 
 The sneevil living quarters.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

@@ -2,6 +2,8 @@
 
 Found in a cache of weapons left behind by The Rose after the Siege of Haven, this weapon seems to use have dragon scales in its construction.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 10100

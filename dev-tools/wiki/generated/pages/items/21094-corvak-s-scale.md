@@ -2,6 +2,8 @@
 
 An old scale, once a brilliant orange, now dulled by age and twisted by magic. Proof of victory over Corvak.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21094

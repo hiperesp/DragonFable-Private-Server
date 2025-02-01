@@ -2,6 +2,8 @@
 
 Forged with magics and techniques continents apart, this pile of metal shards has seen more than many people could ever hope to.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21877

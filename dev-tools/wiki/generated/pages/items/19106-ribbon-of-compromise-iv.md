@@ -2,6 +2,8 @@
 
 This gaudily decorated belt was produced by a perhaps overeager member of the court to celebrate the tentative truce between the Rose, Vind, and Magesterium. At least it's pretty.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19106

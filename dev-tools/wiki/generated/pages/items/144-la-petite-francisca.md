@@ -2,6 +2,8 @@
 
 Merovingian crafted this little axe by adding blue dye to the metal during its creation. The coloring had an unexpected effect, making it difficult to block!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 144

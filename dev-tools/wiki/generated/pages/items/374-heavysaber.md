@@ -2,6 +2,8 @@
 
 This type of energy powered sword was used by an ancient order of knight-monks. Each member of the order was required to construct his own weapon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 374

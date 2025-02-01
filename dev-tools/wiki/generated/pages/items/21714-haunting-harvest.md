@@ -2,6 +2,8 @@
 
 A wicked scythe that burns bright as it cuts through soul and bone alike. Once thought to have been wielded by Death, some believe it to have been created by a different entity entirely... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21714

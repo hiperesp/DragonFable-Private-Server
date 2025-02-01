@@ -2,6 +2,8 @@
 
 This finely crafted staff was created for a celebration in a far off land.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18306

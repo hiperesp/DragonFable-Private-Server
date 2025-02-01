@@ -2,6 +2,8 @@
 
 An elegant weapon infused with the power of blue dahlias and the love of a mother. It makes no sound when it swings through the air.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18077

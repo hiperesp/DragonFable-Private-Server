@@ -2,6 +2,8 @@
 
 Often confused for an ice pick this dagger has low self esteem.  If you listen closely you can hear the weapon mutter Awl shucks.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1452

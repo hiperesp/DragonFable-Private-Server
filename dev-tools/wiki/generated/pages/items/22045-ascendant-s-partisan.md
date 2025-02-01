@@ -2,6 +2,8 @@
 
 Crafted in anticipation of an Unael's ascension, this weapon's owner vanished without a trace. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22045

@@ -2,6 +2,8 @@
 
 A twisted magical wire.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1561

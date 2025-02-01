@@ -2,6 +2,8 @@
 
 Clearly an unusual weapon, this staff is brimming with power.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 300

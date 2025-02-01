@@ -2,6 +2,8 @@
 
 A staff that was once used by a school of magicians who drew their power from the night. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15610

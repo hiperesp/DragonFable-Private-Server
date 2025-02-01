@@ -3,6 +3,8 @@
 When True Mortal first tried the technique he used in forging the War Wolf helm, he sent the helm to
 a friend to test it out. When the wolf helm came back it had been corrupted by darkness. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5823

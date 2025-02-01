@@ -2,6 +2,8 @@
 
 An odd metallic piece of scrap. Prince Eulin thinks it could be useful, so you better hold on to it. One can be used in the future to create a special reward.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19952

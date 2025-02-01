@@ -2,6 +2,8 @@
 
 A mysterious staff uncovered from the depths of the Sandsea by a 100 day long sandstorm. Its origins are a mystery but its power is undeniable.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1900

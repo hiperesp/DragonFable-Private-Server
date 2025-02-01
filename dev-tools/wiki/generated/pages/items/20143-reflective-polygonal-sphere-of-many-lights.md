@@ -2,6 +2,8 @@
 
 This mysterious item was dug out of Cysero's closet. He doesn't seem to have much use for it, so now it's for sale! Lucky you. (Cosmetic item. Provides no combat stats.)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20143

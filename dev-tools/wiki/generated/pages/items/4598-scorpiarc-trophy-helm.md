@@ -2,6 +2,8 @@
 
 A true trophy hunter wears his prey with pride! Show everyone you've taken down the poisonous Scorpiarc!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4598

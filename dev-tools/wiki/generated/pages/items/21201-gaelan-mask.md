@@ -2,6 +2,8 @@
 
 New Innkeeper!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21201

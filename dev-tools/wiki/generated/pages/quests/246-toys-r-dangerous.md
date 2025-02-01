@@ -2,6 +2,8 @@
 
 This is a very dangerous mission inside a... toy store?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

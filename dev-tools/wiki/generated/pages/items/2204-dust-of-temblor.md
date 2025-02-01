@@ -2,6 +2,8 @@
 
 The pigment of the earth avatar, Temblor, colors this cloak.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2204

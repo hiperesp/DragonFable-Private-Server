@@ -2,6 +2,8 @@
 
 Avast! Show all who get in yer way that ye won't be stopped from getting to that treasure!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12558

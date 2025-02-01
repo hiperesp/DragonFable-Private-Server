@@ -2,6 +2,8 @@
 
 Take to the skies to firebomb the advancing waves of sweets!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

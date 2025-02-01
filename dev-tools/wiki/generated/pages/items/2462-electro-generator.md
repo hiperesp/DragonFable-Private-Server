@@ -2,6 +2,8 @@
 
 Grabbing both of the points on this staff is sure to be a hair-raising experience! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2462

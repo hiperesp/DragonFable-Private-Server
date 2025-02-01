@@ -2,6 +2,8 @@
 
 It's the mask from the Black Lagoon!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3104

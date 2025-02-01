@@ -2,6 +2,8 @@
 
 Caitiff has a Doom Amulet...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

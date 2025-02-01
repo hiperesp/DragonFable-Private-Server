@@ -2,6 +2,8 @@
 
 III. Zeclem felt himself losing control the longer the battle went on. His blows seemed to strike his allies as often as they struck the enemy. He tried to shout and tell his friends to get away from him but he couldn't speak. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12629

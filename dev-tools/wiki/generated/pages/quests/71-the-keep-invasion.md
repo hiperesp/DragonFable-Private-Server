@@ -2,6 +2,8 @@
 
 Oaklore Keep has been invaded by a force of sneaky sneevils! They seem to be after one of two Ironwood Boxes that were delivered to the Knights of the Pactogonal Table, but which is the real chest?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

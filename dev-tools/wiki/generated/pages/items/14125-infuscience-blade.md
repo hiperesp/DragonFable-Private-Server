@@ -2,6 +2,8 @@
 
 This beautiful blade harnesses the power of Ice through SCIENCE! It's all highly technical. You understand, right? This item requires a Dragon Amulet. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 14125

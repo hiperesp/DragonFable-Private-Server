@@ -2,6 +2,8 @@
 
 A corrupted scythe once forged by the avatars that has found its way into your hands... Visit the Black Market Moglin to upgrade this weapon.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20361

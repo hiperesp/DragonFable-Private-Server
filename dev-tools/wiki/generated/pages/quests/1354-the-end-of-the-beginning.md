@@ -2,6 +2,8 @@
 
 The end of Roirr's journey... or maybe the beginning?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

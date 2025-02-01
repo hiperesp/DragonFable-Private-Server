@@ -2,6 +2,8 @@
 
 This small shard of tattered, sundered armor can be traded in to G'joob of the Tuskers for a rare war weapon, available only during the Dragesvard War. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1975

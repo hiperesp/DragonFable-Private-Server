@@ -2,6 +2,8 @@
 
 Suggested by Amathyst!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7375

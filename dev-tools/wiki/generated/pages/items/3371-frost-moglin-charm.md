@@ -2,6 +2,8 @@
 
 A pretty little necklace made by the moglins in thanks for you saving them.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3371

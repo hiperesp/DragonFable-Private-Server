@@ -2,6 +2,8 @@
 
 Ummmm... where'd that fish take you? Better explore and try and find your way.... make sure to check everything!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

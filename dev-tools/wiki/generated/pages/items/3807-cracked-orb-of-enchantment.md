@@ -2,6 +2,8 @@
 
 This emerald orb is cracked but if you sell it to a jeweler, they can cut around the flaw to create new gems.  Nice find!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3807

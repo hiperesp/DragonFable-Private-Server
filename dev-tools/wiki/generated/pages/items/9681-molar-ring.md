@@ -2,6 +2,8 @@
 
 This huge ring was carved from a gorillaphant molar. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 9681

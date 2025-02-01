@@ -2,6 +2,8 @@
 
 The Emperors of Sek-Duat's line are served by a line of sycophants who have turned their service into a form of worship.  This hood was taken from one of their masters. This item is color customizable and requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2405

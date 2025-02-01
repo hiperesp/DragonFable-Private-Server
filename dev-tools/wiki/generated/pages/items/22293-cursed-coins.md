@@ -2,6 +2,8 @@
 
 These floating golden coins might have some monetary value, but the cursed green glow constantly surrounding them turns away most, if not all, buyers. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22293

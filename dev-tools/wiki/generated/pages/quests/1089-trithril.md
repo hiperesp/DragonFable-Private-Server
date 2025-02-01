@@ -2,6 +2,8 @@
 
 The caves under Atrea may hold the secret to keeping the Void Ship safe.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

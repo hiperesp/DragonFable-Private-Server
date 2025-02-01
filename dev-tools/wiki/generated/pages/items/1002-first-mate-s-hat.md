@@ -2,6 +2,8 @@
 
 This spiffy hat is preferred by swashbucklers everywhere!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1002

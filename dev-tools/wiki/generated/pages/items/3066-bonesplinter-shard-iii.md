@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. It's a broken piece of bone from a defeated dracolich. It contains a small part of its powerful necrotic essence!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3066

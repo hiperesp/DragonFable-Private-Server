@@ -2,6 +2,8 @@
 
 The solid helmet of the Magesterium Sentinels. You can barely see out of it, but it's very protective! This helm is proof of your victory over Mana-Infused Roirr.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18536

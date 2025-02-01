@@ -2,6 +2,8 @@
 
 A legacy of Maar's history, this scythe bears a remarkable resemblance to other scythes related to dragon bonds... (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22227

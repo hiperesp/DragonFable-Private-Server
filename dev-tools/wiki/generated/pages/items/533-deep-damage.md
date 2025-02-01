@@ -2,6 +2,8 @@
 
 This sturdy blade has been designed especially for assassins. It slides silently home, but can only be removed by a professional.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 533

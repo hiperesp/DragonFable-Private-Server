@@ -2,6 +2,8 @@
 
 Knights have mighty appetites to fuel their training. You too can participate with this commemorative Knight's Spoon! Perfect for eating massive bowls of soup or cereal!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17507

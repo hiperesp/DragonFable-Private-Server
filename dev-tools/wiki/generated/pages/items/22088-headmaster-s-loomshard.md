@@ -2,6 +2,8 @@
 
 A shard of the Headmaster's looms. It would probably be a bad idea to bring this to Edelia... Proof of victory over Danyel.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22088

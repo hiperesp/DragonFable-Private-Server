@@ -2,6 +2,8 @@
 
 Jack apparently has multiple backup heads in case he loses his. He gave you one of them. How thoughtful!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 12861

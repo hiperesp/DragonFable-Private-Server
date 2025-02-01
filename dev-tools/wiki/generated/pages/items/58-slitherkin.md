@@ -2,6 +2,8 @@
 
 The power of all of serpentkind lies in this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 58

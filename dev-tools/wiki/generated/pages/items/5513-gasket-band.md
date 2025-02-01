@@ -2,6 +2,8 @@
 
 This metallic ring is highly polished and was heavily machined. It probably fell from a mechagryphon. Hopefully not the one you are leaving on. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5513

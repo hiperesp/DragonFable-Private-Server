@@ -2,6 +2,8 @@
 
 A sneevil is a terrible thing to waste! This protest sign was made by Highlord Sendai, who is currently hiding away. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4367

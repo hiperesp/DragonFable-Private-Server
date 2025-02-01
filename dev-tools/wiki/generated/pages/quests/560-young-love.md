@@ -2,6 +2,8 @@
 
 Ah, young love! So cute, so awkward, perfect for Hero's Heart Day!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

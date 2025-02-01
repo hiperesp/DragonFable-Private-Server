@@ -2,6 +2,8 @@
 
 This Twig-animated ice cream snowball has glommed onto you... you just can't bring yourself to take it out.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15334

@@ -2,6 +2,8 @@
 
 While the true Eraglass is much smaller and less ostentatious, the Hourglass of the Dead is sure to strike the terror of mortality into the hearts of your foes. Can be upgraded at Cysero.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19525

@@ -2,6 +2,8 @@
 
 This little fencer's dagger makes a perfect matched pair of blades for a rogue.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 317

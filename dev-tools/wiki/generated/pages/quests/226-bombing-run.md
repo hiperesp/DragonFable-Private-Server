@@ -2,6 +2,8 @@
 
 You and your dragon have the ability to help defend Moonridge in a unique way! Take Artix's lightbombs and stop the undead!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

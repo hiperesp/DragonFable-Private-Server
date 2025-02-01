@@ -3,6 +3,8 @@
 Your very own SoulForged dagger! It vibrates with eagerness and cunning!
 This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 15718

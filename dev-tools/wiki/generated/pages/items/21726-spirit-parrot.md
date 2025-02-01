@@ -2,6 +2,8 @@
 
 What happens to pirates' parrots when their ships sink? (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21726

@@ -2,6 +2,8 @@
 
 This ring was borne by the rulers of a long disappeared race of undersea creatures. Gives you +3 resist to Water and -2 to Health.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1394

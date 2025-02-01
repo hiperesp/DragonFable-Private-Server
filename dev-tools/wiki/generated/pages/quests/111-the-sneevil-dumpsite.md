@@ -2,6 +2,8 @@
 
 One Sneevils trash is just about any other man's treasure! Somewhere amongst the strange and valuable items the Sneevils dumped here is the Egg from the Black Dragon Box.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

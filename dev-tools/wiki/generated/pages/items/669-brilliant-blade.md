@@ -2,6 +2,8 @@
 
 This dagger was magically shaped from the shining scale of a silver dragon. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 669

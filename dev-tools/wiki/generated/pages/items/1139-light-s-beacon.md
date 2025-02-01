@@ -2,6 +2,8 @@
 
 A beacon of light, a beacon of hope... as it was told by the one who last wielded this axe. Also makes a great flashlight...and makes julienne fries!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1139

@@ -2,6 +2,8 @@
 
 Another day, another attack on Falconreach. This time from... mushrooms?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

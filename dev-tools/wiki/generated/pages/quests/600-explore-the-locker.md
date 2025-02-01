@@ -2,6 +2,8 @@
 
 There's so much open space underwater. You're sure to run into enemies here!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

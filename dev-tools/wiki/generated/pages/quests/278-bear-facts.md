@@ -2,6 +2,8 @@
 
 Galanoth has sent you to the Ursice savages to convince them to join you in the coming battle!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

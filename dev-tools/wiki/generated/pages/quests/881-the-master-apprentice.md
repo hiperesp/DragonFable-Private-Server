@@ -2,6 +2,8 @@
 
 An angst ridden Warlic reminisces on his past and tosses a few fireballs Alexander's way!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

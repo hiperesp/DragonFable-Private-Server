@@ -2,6 +2,8 @@
 
 Dragon Clan Ice Giants were noted for carrying these wicked blades into battle. Traditionally, those of the Dragon Clan were buried with these magnificent weapons.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16286

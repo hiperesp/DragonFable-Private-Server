@@ -2,6 +2,8 @@
 
 This suspicious looking brown lump hangs on a string around your neck. It has a strong earthy odor of pepper and citrus. Supposedly keeps Borowiks away, but it might just keep everything away.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18348

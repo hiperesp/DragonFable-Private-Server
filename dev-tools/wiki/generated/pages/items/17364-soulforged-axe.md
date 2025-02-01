@@ -2,6 +2,8 @@
 
 Your very own SoulForged axe! It rumbles with rage and power!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 17364

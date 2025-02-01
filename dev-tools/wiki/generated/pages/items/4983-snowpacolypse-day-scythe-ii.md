@@ -2,6 +2,8 @@
 
 When Lore declares a snow day, all the heroes come out to play! This weapon has a chance to hurl a blizzard at your opponent! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4983

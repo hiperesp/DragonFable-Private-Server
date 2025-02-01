@@ -2,6 +2,8 @@
 
 Sek-Duat XV has sent you here to the Lizardmen's Ziggurat to stop Zhoom. This could be the break that you have been waiting for to get the imperial prison key and talk Zhoom over to the rebel cause!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

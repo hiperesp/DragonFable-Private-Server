@@ -2,6 +2,8 @@
 
 Channel the immense pressure of the ocean into these small points, piercing almost anything in your way.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 16804

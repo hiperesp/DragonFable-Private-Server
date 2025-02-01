@@ -2,6 +2,8 @@
 
 These sharply pointed yet flexible hairs are slightly warm and smell weird. Proof of your victory over Guffer!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18844

@@ -2,6 +2,8 @@
 
 This special blade was crafted by the frost moglins from a single large blue crystal. You managed to save it from the clutches of the coalepti in The Great Giftnapping war! This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20108

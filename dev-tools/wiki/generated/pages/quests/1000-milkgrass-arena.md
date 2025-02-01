@@ -2,6 +2,8 @@
 
 Can you defeat Alz'Ein's trained RiftWalkers?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

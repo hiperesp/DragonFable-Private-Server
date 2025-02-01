@@ -2,6 +2,8 @@
 
 It's really long and skinny. It clangs when you shake it. You'll want to merge this into a level-appropriate staff!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 6330

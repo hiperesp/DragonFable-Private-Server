@@ -2,6 +2,8 @@
 
 This wand is named for the ancient word for Water magic. It's the type of wand used by the hydromancers of Swordhaven, but it's been magically altered to make more of a splash. 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1059

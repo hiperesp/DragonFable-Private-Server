@@ -2,6 +2,8 @@
 
 Dropped by the dragon event planner, this neck has a tiny crystal ball charged with energy to keep you gogogoing!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1966

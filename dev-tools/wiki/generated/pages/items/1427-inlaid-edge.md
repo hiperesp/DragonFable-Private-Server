@@ -2,6 +2,8 @@
 
 This item requires a Dragon Amulet. This sword's design evolved from a farming tool, used for harvesting wheat. You can still use it for that if you really want to.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1427

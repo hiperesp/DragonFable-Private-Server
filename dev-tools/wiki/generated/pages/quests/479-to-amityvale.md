@@ -2,6 +2,8 @@
 
 Can this place GET any spookier?!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

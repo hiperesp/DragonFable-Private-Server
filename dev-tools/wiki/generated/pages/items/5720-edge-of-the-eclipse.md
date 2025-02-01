@@ -2,6 +2,8 @@
 
 Light and dark, forever linked. Without the light there can be no shadows, and without darkness the  righteous have no purpose. Their fates are shackled together as one.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 5720

@@ -2,6 +2,8 @@
 
 A lithe blade crafted from silver to celebrate Eric Greydawn's birthday!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7070

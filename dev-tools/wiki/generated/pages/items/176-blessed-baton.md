@@ -2,6 +2,8 @@
 
 Best suited to the barbarian who likes to add some blessed bite to his brutal bashing.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 176

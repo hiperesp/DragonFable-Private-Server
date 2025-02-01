@@ -2,6 +2,8 @@
 
 Before you stands Pride, an artificial Elemental Spirit born of Pandora's hubris.
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

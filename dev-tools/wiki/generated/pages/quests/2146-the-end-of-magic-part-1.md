@@ -2,6 +2,8 @@
 
 With Aequilibria stirring, the fate of Lore rests on the shoulders of you and your allies...
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

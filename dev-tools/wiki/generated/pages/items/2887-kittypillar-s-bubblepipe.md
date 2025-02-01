@@ -2,6 +2,8 @@
 
 You'll feel very suave with this bubblepipe. Or foolish.  It depends on whether you like bubbles.  This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 2887

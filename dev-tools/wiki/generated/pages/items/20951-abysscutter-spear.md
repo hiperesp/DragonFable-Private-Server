@@ -2,6 +2,8 @@
 
 With Lock and Key's help, you turned a long forgotten dream into this somewhat corporeal weapon. A reminder of dreams and madness. Maybe Notha and Myalos can work on it later...(Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20951

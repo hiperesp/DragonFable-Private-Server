@@ -2,6 +2,8 @@
 
 Get more power as you stop fire in its tracks! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18197

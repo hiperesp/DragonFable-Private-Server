@@ -2,6 +2,8 @@
 
 This pumpkin bucket has been filled with mushrooms instead of candy. If that weren't bad enough, the magic on the bucket is stopping you from emptying it! How awful! (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 22128

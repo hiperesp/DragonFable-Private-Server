@@ -2,6 +2,8 @@
 
 A dense fog swirls within a magically sealed vial. Staring into the fog you can almost hear the wind howling, see eyes glowing... you suddenly feel the need to run.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 4099

@@ -2,6 +2,8 @@
 
 You never know when you'll need an extra chair for the purpose of claiming territory, after all. (Cosmetic)
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 21414

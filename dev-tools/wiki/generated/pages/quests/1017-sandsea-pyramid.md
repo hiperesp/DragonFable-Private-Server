@@ -2,6 +2,8 @@
 
 What mysteries await inside?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

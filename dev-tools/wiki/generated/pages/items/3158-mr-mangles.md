@@ -2,6 +2,8 @@
 
 This pet requires a dragon amulet. Hatched from a wiggling black gourd, this bizarre cat doesn't look quite right... there's something unsettling about his vacant stare...
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3158

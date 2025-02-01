@@ -2,6 +2,8 @@
 
 These gauntlets are made of hardened leather, and come with a lifetime warranty. Or so Teral says, anyway. This item requires a Dragon Amulet.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3751

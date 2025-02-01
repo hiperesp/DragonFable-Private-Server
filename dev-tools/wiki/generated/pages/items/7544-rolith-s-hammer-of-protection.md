@@ -2,6 +2,8 @@
 
 Defend the ones you love with this massive hammer modeled after the Knight-Captain's favorite weapon. Crafted by Cysero for Rolith in honor of his wedding to Alina! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 7544

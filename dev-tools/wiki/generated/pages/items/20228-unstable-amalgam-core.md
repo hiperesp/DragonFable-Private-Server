@@ -2,6 +2,8 @@
 
 Uaanta picked up this core after the defeat of the Twisted Amalgam. According to her, it could be used to finish the Blaster!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 20228

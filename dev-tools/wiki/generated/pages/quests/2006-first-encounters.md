@@ -2,6 +2,8 @@
 
 Every journey begins with a first encounter... Although maybe not always fighting them!
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

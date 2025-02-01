@@ -2,6 +2,8 @@
 
 You feel overcome with DOOM...but what is it from and why does it feel like it is going to overwhelm you?
 
+[Back to quest](../quests.md)
+
 ## Properties
 
 ```json

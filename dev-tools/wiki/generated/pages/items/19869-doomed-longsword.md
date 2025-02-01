@@ -2,6 +2,8 @@
 
 This cosmetic weapon will let your weapon take on the appearance of a Possessed Hero's Longsword!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19869

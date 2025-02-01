@@ -2,6 +2,8 @@
 
 There's not really much you can do with this besides look at the pretty purple pulsing colors.  I suppose you can keep it, or just sell it for the gold!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3906

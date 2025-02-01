@@ -2,6 +2,8 @@
 
 This mask makes you want to do a suspiciously good job.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 19992

@@ -2,6 +2,8 @@
 
 All the swiftness and power of a hawk has been imbued in this blade.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 339

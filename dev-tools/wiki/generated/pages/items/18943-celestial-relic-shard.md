@@ -2,6 +2,8 @@
 
 This smooth shard of metal is a pale silver. It glows with a faint, unsettling, but familiar light. Merge with Infernal Relic Shard to create Exalted Unity.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18943

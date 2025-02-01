@@ -2,6 +2,8 @@
 
 The two feathers perched atop this metal helm are a sign of rank in the Hero's Guild.  Five more ranks until you get a third feather, so you'd better get fighting! The feathers will also match themselves to your outfit! Magic!
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 3693

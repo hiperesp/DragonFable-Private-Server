@@ -2,6 +2,8 @@
 
 This shadowy blade cut's through the air with a mere whisper.
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 1805

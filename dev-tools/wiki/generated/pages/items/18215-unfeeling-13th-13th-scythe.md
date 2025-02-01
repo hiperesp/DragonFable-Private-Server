@@ -2,6 +2,8 @@
 
 Souls or spirits... something is screaming to escape! 
 
+[Back to Items](../items.md)
+
 ### Basic Information
 
 - **ID**: 18215
