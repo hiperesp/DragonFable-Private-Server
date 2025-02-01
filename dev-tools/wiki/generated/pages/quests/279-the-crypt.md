@@ -1,0 +1,30 @@
+# The Crypt
+
+Gather as many Sanguine Roses as you can for Thursday. The more you find the better reward you get! You can leave the quest whenever you want through the door you came in.
+
+## Properties
+
+```json
+{
+    "id": 279,
+    "name": "The Crypt",
+    "description": "Gather as many Sanguine Roses as you can for Thursday. The more you find the better reward you get! You can leave the quest whenever you want through the door you came in.",
+    "complete": "You made it out of the crypt alive!",
+    "swf": "random\/random-thursdaycrypt100r2.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 45000,
+    "maxGems": 0,
+    "maxExp": 90000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "ghosts, bats, spiders",
+    "monsterGroupSwf": "mset-thursdaycrypt.swf"
+}
+```
+

@@ -1,0 +1,30 @@
+# The Grand Snowfight
+
+Snowfight War
+
+## Properties
+
+```json
+{
+    "id": 1906,
+    "name": "The Grand Snowfight",
+    "description": "Snowfight War",
+    "complete": "",
+    "swf": "towns\/Frostvale\/F21\/town-snowfightstatic.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

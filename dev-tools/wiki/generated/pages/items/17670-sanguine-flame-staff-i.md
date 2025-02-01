@@ -1,0 +1,65 @@
+# Sanguine Flame Staff I
+
+Forged from a combination of star metal and vampire victims' blood, this staff burns with a fraction of the power of the stars.
+
+### Basic Information
+
+- **ID**: 17670
+- **Name**: Sanguine Flame Staff I
+- **Description**: Forged from a combination of star metal and vampire victims&#039; blood, this staff burns with a fraction of the power of the stars.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 70
+- **Max Stack Size**: 1
+- **Bonus**: 1
+- **Rarity**: 0
+- **Level Requirement**: 20
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Fire
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 4
+- **Luck**: 0
+- **Charisma**: 1
+- **Endurance**: 1
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 32
+- **Max Damage**: 52
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 1
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: 
+
+### Assets
+
+- **SWF File**: items/staffs/staff-sanguineflame.swf
+- **Icon**: staff
+
+## Related
+
+### Item Shops Selling
+
+- [2M Loot for DCs](../item-shops/574-2m-loot-for-dcs.md)
+

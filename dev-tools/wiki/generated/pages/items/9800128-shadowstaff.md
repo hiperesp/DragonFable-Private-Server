@@ -1,0 +1,36 @@
+# Shadowstaff
+
+A sturdy staff which channels magic energy.
+
+### Basic Information
+
+- **ID**: 9800128
+- **Name**: Shadowstaff
+- **Description**: A sturdy staff which channels magic energy.
+
+### Properties
+
+- **Bonus**: 1
+- **Level Requirement**: 1
+
+### Attributes
+
+- **Type**: Magic     
+- **Category**: 1
+- **Item Type**: Staff
+
+### Stats
+
+
+### Combat Values
+
+- **Min Damage**: 5
+- **Max Damage**: 10
+- **Critical**: 0
+- **Resistances**: 
+
+### Assets
+
+- **SWF File**: 
+- **Icon**: none
+

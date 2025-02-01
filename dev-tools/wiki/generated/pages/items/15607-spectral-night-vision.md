@@ -1,0 +1,65 @@
+# Spectral Night Vision
+
+A staff that was once used by a school of magicians who drew their power from the night. 
+
+### Basic Information
+
+- **ID**: 15607
+- **Name**: Spectral Night Vision
+- **Description**: A staff that was once used by a school of magicians who drew their power from the night. 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 70
+- **Max Stack Size**: 1
+- **Bonus**: 3
+- **Rarity**: 20
+- **Level Requirement**: 30
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Darkness
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 3
+- **Luck**: 1
+- **Charisma**: 1
+- **Endurance**: 1
+- **Wisdom**: 1
+
+### Combat Values
+
+- **Min Damage**: 42
+- **Max Damage**: 58
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 4
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Light,2,Ice,2,Energy,1,Mana,-1
+
+### Assets
+
+- **SWF File**: items/staffs/staff-shadowstaff.swf
+- **Icon**: staff
+
+## Related
+
+### Item Shops Selling
+
+- [Shattered DC](../item-shops/493-shattered-dc.md)
+

@@ -1,0 +1,65 @@
+# Cauldron Daggers VII
+
+Your reward from the Cauldron Sisters for finding Bubble and Bubble during Mogloween, 2011! This item requires a Dragon Amulet.
+
+### Basic Information
+
+- **ID**: 6094
+- **Name**: Cauldron Daggers VII
+- **Description**: Your reward from the Cauldron Sisters for finding Bubble and Bubble during Mogloween, 2011! This item requires a Dragon Amulet.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 3100
+- **Max Stack Size**: 1
+- **Bonus**: 7
+- **Rarity**: 5
+- **Level Requirement**: 70
+
+### Attributes
+
+- **Type**: Pierce
+- **Element**: Fire
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Dagger
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 10
+- **Intelligence**: 0
+- **Luck**: 8
+- **Charisma**: 8
+- **Endurance**: 5
+- **Wisdom**: 5
+
+### Combat Values
+
+- **Min Damage**: 72
+- **Max Damage**: 94
+- **Defense (Melee)**: 5
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Critical**: 7
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 1
+- **Resistances**: Fire,10,Ice,10,Darkness,10,Immobility,4,Health,-3
+
+### Assets
+
+- **SWF File**: items/daggers/dagger-Mogloween11.swf
+- **Icon**: dagger
+
+## Related
+
+### Quests Rewarding
+
+- [ZardbiBubble](../quests/827-zardbibubble.md)
+

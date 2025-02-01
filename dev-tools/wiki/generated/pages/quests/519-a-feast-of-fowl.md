@@ -1,0 +1,30 @@
+# A Feast of Fowl
+
+Zorbak and Voltabolts plan to... fix... the bakery's oven works perfectly!  The only problem is that now YOU have to deal with what comes out of it.
+
+## Properties
+
+```json
+{
+    "id": 519,
+    "name": "A Feast of Fowl",
+    "description": "Zorbak and Voltabolts plan to... fix... the bakery's oven works perfectly!  The only problem is that now YOU have to deal with what comes out of it.",
+    "complete": "Gobbloblobl AWCK!  Mmmm turducken!",
+    "swf": "towns\/Thankstaking\/tt09\/quest-turducken-r1.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "mutant food",
+    "monsterGroupSwf": "mset-turduckenr1.swf"
+}
+```
+

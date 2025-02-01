@@ -1,0 +1,65 @@
+# Kurt's Cradle
+
+This staff is carved from a magically crafted material called Ice-Ten, which is an alternate type of water that can remain solid at room temperature. 
+
+### Basic Information
+
+- **ID**: 1473
+- **Name**: Kurt&#039;s Cradle
+- **Description**: This staff is carved from a magically crafted material called Ice-Ten, which is an alternate type of water that can remain solid at room temperature. 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 350
+- **Max Stack Size**: 1
+- **Bonus**: 3
+- **Rarity**: 1
+- **Level Requirement**: 35
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Ice
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 0
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 52
+- **Max Damage**: 68
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 3
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Fire,4
+
+### Assets
+
+- **SWF File**: items/staffs/staff-cyblitz06.swf
+- **Icon**: staff
+
+## Related
+
+### Item Shops Selling
+
+- [Cysero's Weapons](../item-shops/44-cysero-s-weapons.md)
+

@@ -1,0 +1,36 @@
+# Undead fists of fury
+
+
+
+### Basic Information
+
+- **ID**: 9905324
+- **Name**: Undead fists of fury
+- **Description**: 
+
+### Properties
+
+- **Bonus**: 10
+- **Level Requirement**: 0
+
+### Attributes
+
+- **Type**: Magic
+- **Category**: 1
+- **Item Type**: 
+
+### Stats
+
+
+### Combat Values
+
+- **Min Damage**: 1
+- **Max Damage**: 5
+- **Critical**: 10
+- **Resistances**: Light,-5,Ice,50,Darkness,100,Immobility,100,Shrink,300
+
+### Assets
+
+- **SWF File**: 
+- **Icon**: 
+

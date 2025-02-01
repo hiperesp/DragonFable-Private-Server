@@ -1,0 +1,65 @@
+# Spystaff of Static II
+
+Brimming with static electricity, Sepulchure twists the powers of the stolen orbs to his whim.
+
+### Basic Information
+
+- **ID**: 5585
+- **Name**: Spystaff of Static II
+- **Description**: Brimming with static electricity, Sepulchure twists the powers of the stolen orbs to his whim.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 1000
+- **Max Stack Size**: 1
+- **Bonus**: 4
+- **Rarity**: 5
+- **Level Requirement**: 40
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Energy
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 4
+- **Luck**: 4
+- **Charisma**: 0
+- **Endurance**: 0
+- **Wisdom**: 4
+
+### Combat Values
+
+- **Min Damage**: 52
+- **Max Damage**: 68
+- **Defense (Melee)**: 1
+- **Defense (Pierce)**: 1
+- **Defense (Magic)**: 1
+- **Critical**: 4
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Stone,-5,Nature,8,Wind,8,Darkness,8
+
+### Assets
+
+- **SWF File**: items/staffs/staff-spy_energy.swf
+- **Icon**: staff
+
+## Related
+
+### Quests Rewarding
+
+- [Bombs Away!](../quests/788-bombs-away.md)
+

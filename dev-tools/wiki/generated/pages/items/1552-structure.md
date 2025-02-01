@@ -1,0 +1,65 @@
+# Structure
+
+This item requires a Dragon Amulet.  Put together from disparate parts, this sword fits together like a well crafted poem.  Unfortunately, the maker seems to have liked limericks...
+
+### Basic Information
+
+- **ID**: 1552
+- **Name**: Structure
+- **Description**: This item requires a Dragon Amulet.  Put together from disparate parts, this sword fits together like a well crafted poem.  Unfortunately, the maker seems to have liked limericks...
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 750
+- **Max Stack Size**: 1
+- **Bonus**: 1
+- **Rarity**: 7
+- **Level Requirement**: 24
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Stone
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Sword
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 3
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 42
+- **Max Damage**: 54
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 2
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Wind,3
+
+### Assets
+
+- **SWF File**: items/swords/sword-sek6.swf
+- **Icon**: sword
+
+## Related
+
+### Quests Rewarding
+
+- [Death From Below](../quests/221-death-from-below.md)
+

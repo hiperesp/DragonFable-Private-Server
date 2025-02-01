@@ -1,0 +1,30 @@
+# Pyrrhic
+
+Even with your triumph over the dragons... the Rose still triumphed over the clawkin.
+
+## Properties
+
+```json
+{
+    "id": 1064,
+    "name": "Pyrrhic",
+    "description": "Even with your triumph over the dragons... the Rose still triumphed over the clawkin.",
+    "complete": "Even with your triumph over the dragons... the Rose still triumphed over the clawkin.",
+    "swf": "towns\/SulenEska\/quest-clawkincaptured.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

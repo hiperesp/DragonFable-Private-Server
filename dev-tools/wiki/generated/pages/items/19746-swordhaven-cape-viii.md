@@ -1,0 +1,65 @@
+# Swordhaven Cape VIII
+
+A forgotten cape of a soldier of Swordhaven. One of the togs was carrying this in its mouth. Perhaps you can put it to better use. This item requires a Dragon Amulet.
+
+### Basic Information
+
+- **ID**: 19746
+- **Name**: Swordhaven Cape VIII
+- **Description**: A forgotten cape of a soldier of Swordhaven. One of the togs was carrying this in its mouth. Perhaps you can put it to better use. This item requires a Dragon Amulet.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 7000
+- **Max Stack Size**: 1
+- **Bonus**: 10
+- **Rarity**: 10
+- **Level Requirement**: 90
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: None
+- **Category**: 2
+- **Equip Spot**: Back
+- **Item Type**: Cape
+
+### Stats
+
+- **Strength**: 7
+- **Dexterity**: 7
+- **Intelligence**: 7
+- **Luck**: 10
+- **Charisma**: 8
+- **Endurance**: 8
+- **Wisdom**: 8
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 7
+- **Defense (Pierce)**: 7
+- **Defense (Magic)**: 7
+- **Critical**: 12
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 1
+- **Resistances**: Bacon,12,Fire,8,Darkness,8,All,4
+
+### Assets
+
+- **SWF File**: items/back/cape-swordhaven2.swf
+- **Icon**: cape
+
+## Related
+
+### Quests Rewarding
+
+- [Dancing On the Breeze](../quests/1030-dancing-on-the-breeze.md)
+

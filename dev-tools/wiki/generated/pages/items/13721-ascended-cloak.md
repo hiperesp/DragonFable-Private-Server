@@ -1,0 +1,65 @@
+# Ascended Cloak
+
+This cloak is a sign that you have triumphed and become an Ascended. Wear it with pride as you've done what few others ever are allowed to.
+
+### Basic Information
+
+- **ID**: 13721
+- **Name**: Ascended Cloak
+- **Description**: This cloak is a sign that you have triumphed and become an Ascended. Wear it with pride as you&#039;ve done what few others ever are allowed to.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 7000
+- **Max Stack Size**: 1
+- **Bonus**: 5
+- **Rarity**: 1
+- **Level Requirement**: 50
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Bacon
+- **Category**: 2
+- **Equip Spot**: Back
+- **Item Type**: Cape
+
+### Stats
+
+- **Strength**: 3
+- **Dexterity**: 3
+- **Intelligence**: 3
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 4
+- **Wisdom**: 5
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 3
+- **Parry**: 3
+- **Dodge**: 3
+- **Block**: 3
+- **Resistances**: Water,4,Darkness,3
+
+### Assets
+
+- **SWF File**: items/back/cape-AscendCloak.swf
+- **Icon**: cape
+
+## Related
+
+### Item Shops Selling
+
+- [Ascendant CC](../item-shops/433-ascendant-cc.md)
+

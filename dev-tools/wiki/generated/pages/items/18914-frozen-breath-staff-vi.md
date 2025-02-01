@@ -1,0 +1,65 @@
+# Frozen Breath Staff VI
+
+A treasure of Duat, flash frozen by ice magic. While heavy and awkward to wield, it seems to shift and move on its own when swung.
+
+### Basic Information
+
+- **ID**: 18914
+- **Name**: Frozen Breath Staff VI
+- **Description**: A treasure of Duat, flash frozen by ice magic. While heavy and awkward to wield, it seems to shift and move on its own when swung.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 250
+- **Max Stack Size**: 1
+- **Bonus**: 7
+- **Rarity**: 20
+- **Level Requirement**: 90
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Ice
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 17
+- **Intelligence**: 20
+- **Luck**: 17
+- **Charisma**: 0
+- **Endurance**: 0
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 83
+- **Max Damage**: 103
+- **Defense (Melee)**: -10
+- **Defense (Pierce)**: -10
+- **Defense (Magic)**: -10
+- **Critical**: 7
+- **Parry**: -10
+- **Dodge**: -10
+- **Block**: -10
+- **Resistances**: Ice,7,Light,7,Immobility,7
+
+### Assets
+
+- **SWF File**: items/staffs/staff-frozenbreath.swf
+- **Icon**: staff
+
+## Related
+
+### Item Shops Selling
+
+- [APF Loot for DCs](../item-shops/630-apf-loot-for-dcs.md)
+

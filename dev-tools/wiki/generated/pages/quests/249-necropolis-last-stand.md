@@ -1,0 +1,30 @@
+# Necropolis: Last Stand
+
+Noxus has sent the Necromantress after you and it looks like she has a few more tricks up her purple robed sleeve.
+
+## Properties
+
+```json
+{
+    "id": 249,
+    "name": "Necropolis: Last Stand",
+    "description": "Noxus has sent the Necromantress after you and it looks like she has a few more tricks up her purple robed sleeve.",
+    "complete": "You have defeated the Strangeknight and his Shadowhounds! Now nothing stands between you and the dean of Necromancy University, Noxus!",
+    "swf": "wars\/quest-war-Friday13necro-BOSSr2.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "You have defeated the Strangeknight and ruined any hope for the Necro U class to get extra credit. I hope you're happy.",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Darkness",
+    "monsterGroupSwf": "mset-friday13necroBOSS.swf"
+}
+```
+

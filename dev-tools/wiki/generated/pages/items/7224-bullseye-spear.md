@@ -1,0 +1,60 @@
+# Bullseye Spear
+
+Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin.
+
+### Basic Information
+
+- **ID**: 7224
+- **Name**: Bullseye Spear
+- **Description**: Keep your enemy on target with this illuminated spear! You can upgrade this weapon at the Black Market Moglin.
+
+### Properties
+
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Max Stack Size**: 1
+- **Bonus**: 7
+- **Rarity**: 10
+- **Level Requirement**: 50
+
+### Attributes
+
+- **Element**: Light
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Scythe
+
+### Stats
+
+- **Strength**: 6
+- **Dexterity**: 6
+- **Intelligence**: 6
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 6
+- **Wisdom**: 6
+
+### Combat Values
+
+- **Min Damage**: 61
+- **Max Damage**: 77
+- **Defense (Melee)**: 5
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Critical**: 6
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 0
+- **Resistances**: All,4,Light,4
+
+### Assets
+
+- **SWF File**: items/scythes/scythe-Bullseye.swf
+- **Icon**: scythe
+
+## Related
+
+### Merge Shops Requiring
+
+- [Bullseye](../merge-shops/116-bullseye.md)
+

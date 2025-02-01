@@ -1,0 +1,30 @@
+# Dark Night Supplies
+
+Can you make it through the darkness to recover stolen supplies?
+
+## Properties
+
+```json
+{
+    "id": 1319,
+    "name": "Dark Night Supplies",
+    "description": "Can you make it through the darkness to recover stolen supplies?",
+    "complete": "You made it! These will help the town survive Valtrith's siege!",
+    "swf": "wars\/F13-Serenity\/quest-SerenitySupplies.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 5000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "undead, creepy, cultists",
+    "monsterGroupSwf": "mset-cultists.swf"
+}
+```
+

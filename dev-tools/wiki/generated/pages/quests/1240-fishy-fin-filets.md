@@ -1,0 +1,30 @@
+# Fishy Fin Filets
+
+How many of these fins am I supposed to get?
+
+## Properties
+
+```json
+{
+    "id": 1240,
+    "name": "Fishy Fin Filets",
+    "description": "How many of these fins am I supposed to get?",
+    "complete": "That should be enough. They are cats...how much could they really eat?",
+    "swf": "towns\/HeroHeart\/HHD15\/quest-FishyFinFilets.swf ",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 50000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "the whole damn ocean!",
+    "monsterGroupSwf": "mset-Nautiloid-r1.swf"
+}
+```
+

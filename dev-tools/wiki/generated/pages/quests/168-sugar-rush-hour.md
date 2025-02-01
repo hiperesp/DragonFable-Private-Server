@@ -1,0 +1,30 @@
+# Sugar Rush Hour
+
+It's candy eating time!
+
+## Properties
+
+```json
+{
+    "id": 168,
+    "name": "Sugar Rush Hour",
+    "description": "It's candy eating time!",
+    "complete": "WOW! All it took was a single sniff of the Cauldron Sister's candy to transform Twig into an even larger candy craving maniac than usual! This could be a disaster unless you can get all the candy back!",
+    "swf": "zones\/mogloween\/quest-monstertwig.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "zones\/mogloween\/quest-monstertwig.swf",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Monster Twig",
+    "monsterGroupSwf": "mset-mogloweentwig.swf"
+}
+```
+

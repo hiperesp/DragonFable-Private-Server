@@ -1,0 +1,30 @@
+# Meeting Zhoom
+
+The Sandsea seems to have more sub-plots than grains of sand!
+
+## Properties
+
+```json
+{
+    "id": 199,
+    "name": "Meeting Zhoom",
+    "description": "The Sandsea seems to have more sub-plots than grains of sand!",
+    "complete": "You have lost your one contact to the resistance... and your one lead to the location of the Orb of Light. Working with Zhoom might be your only way to get back in touch with the resistance!",
+    "swf": "towns\/Sandsea\/quest-zhoom1.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

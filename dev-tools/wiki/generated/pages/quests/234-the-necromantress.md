@@ -1,0 +1,30 @@
+# The Necromantress
+
+You find yourself face to face with the necromantress behind the Moonridge Invasion.
+
+## Properties
+
+```json
+{
+    "id": 234,
+    "name": "The Necromantress",
+    "description": "You find yourself face to face with the necromantress behind the Moonridge Invasion.",
+    "complete": "The purple-robed Necromantress may have escaped, but Moonridge has been saved from her creations. If all of those monsters came from one necromantress, imagine what an entire class of them could do! You have to find a way into the Necropolis!",
+    "swf": "wars\/necrowar\/quest-necrowar-boss.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Darkness, Undead",
+    "monsterGroupSwf": "mset-necrowar.swf"
+}
+```
+

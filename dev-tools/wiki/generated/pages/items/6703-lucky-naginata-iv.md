@@ -1,0 +1,65 @@
+# Lucky Naginata IV
+
+This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!
+
+### Basic Information
+
+- **ID**: 6703
+- **Name**: Lucky Naginata IV
+- **Description**: This weapon was crafted using Four Leaf Clovers and Sneevilchaun gold in order to ensure that they were lucky. Happy Lucky Day 2012!
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 6500
+- **Max Stack Size**: 1
+- **Bonus**: 9
+- **Rarity**: 50
+- **Level Requirement**: 71
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Stone
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 9
+- **Luck**: 11
+- **Charisma**: 0
+- **Endurance**: 8
+- **Wisdom**: 8
+
+### Combat Values
+
+- **Min Damage**: 76
+- **Max Damage**: 90
+- **Defense (Melee)**: 6
+- **Defense (Pierce)**: 6
+- **Defense (Magic)**: 6
+- **Critical**: 7
+- **Parry**: 2
+- **Dodge**: 0
+- **Block**: 2
+- **Resistances**: Stone,9,Wind,9,Immobility,5,Health,-3
+
+### Assets
+
+- **SWF File**: items/staffs/staff-luckynaginata.swf
+- **Icon**: staff
+
+## Related
+
+### Quests Rewarding
+
+- [It's Not Easy Being Gold](../quests/885-it-s-not-easy-being-gold.md)
+

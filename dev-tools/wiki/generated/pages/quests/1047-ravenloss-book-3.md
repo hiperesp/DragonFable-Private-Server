@@ -1,0 +1,30 @@
+# Ravenloss (Book 3)
+
+A magical city beneath the streets of Falconreach.
+
+## Properties
+
+```json
+{
+    "id": 1047,
+    "name": "Ravenloss (Book 3)",
+    "description": "A magical city beneath the streets of Falconreach.",
+    "complete": "A magical city beneath the streets of Falconreach.",
+    "swf": "towns\/3Ravenloss\/town-Bk3Ravenloss-r4.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "Card=towns\/3Ravenloss\/shop-Bk3cardshopvoid.swf",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

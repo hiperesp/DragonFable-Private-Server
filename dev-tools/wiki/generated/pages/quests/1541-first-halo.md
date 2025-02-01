@@ -1,0 +1,30 @@
+# First Halo
+
+town
+
+## Properties
+
+```json
+{
+    "id": 1541,
+    "name": "First Halo",
+    "description": "town",
+    "complete": "town",
+    "swf": "towns\/Azaveyr\/town-capitol-r9.swf?ver=1",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

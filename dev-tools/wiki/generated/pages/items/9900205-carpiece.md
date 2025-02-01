@@ -1,0 +1,33 @@
+# Carpiece
+
+
+
+### Basic Information
+
+- **ID**: 9900205
+- **Name**: Carpiece
+- **Description**: 
+
+### Properties
+
+
+### Attributes
+
+- **Category**: 2
+
+### Stats
+
+
+### Combat Values
+
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 0
+- **Parry**: 0
+- **Dodge**: 2
+- **Block**: 3
+- **Resistances**: 
+
+### Assets
+
+

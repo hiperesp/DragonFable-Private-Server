@@ -1,0 +1,30 @@
+# The Mirage
+
+Caitiff has conjured something...
+
+## Properties
+
+```json
+{
+    "id": 1410,
+    "name": "The Mirage",
+    "description": "Caitiff has conjured something...",
+    "complete": "Your resolve is stronger than ever!",
+    "swf": "wars\/F13-DoomDragon\/quest-miniboss.swf",
+    "swfX": "wars\/F13-DoomDragon\/quest-miniboss-x.swf",
+    "maxSilver": 0,
+    "maxGold": 13131,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "Mini boss mset",
+    "monsterGroupSwf": "mset-mirage-r2.swf"
+}
+```
+

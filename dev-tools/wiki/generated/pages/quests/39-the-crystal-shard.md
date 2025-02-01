@@ -1,0 +1,30 @@
+# The Crystal Shard
+
+The mage Warlic has promised to make you weapons of light in exchange for gathering a crystal shard from a fabled crystal tree deep within this cave.
+
+## Properties
+
+```json
+{
+    "id": 39,
+    "name": "The Crystal Shard",
+    "description": "The mage Warlic has promised to make you weapons of light in exchange for gathering a crystal shard from a fabled crystal tree deep within this cave.",
+    "complete": "The mage Warlic has promised to make you weapons of light in exchange for gathering a crystal shard from a fabled crystal tree deep within this cave.",
+    "swf": "quests\/quest-crystalcave-r1.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 6000,
+    "maxGems": 0,
+    "maxExp": 75000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "Crystals",
+    "monsterGroupSwf": "mset-crystal.swf"
+}
+```
+

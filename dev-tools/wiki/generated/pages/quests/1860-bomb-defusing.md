@@ -1,0 +1,30 @@
+# Bomb Defusing
+
+A ShadowScythe bomb has been dropped! Defuse it before it explodes!
+
+## Properties
+
+```json
+{
+    "id": 1860,
+    "name": "Bomb Defusing",
+    "description": "A ShadowScythe bomb has been dropped! Defuse it before it explodes!",
+    "complete": "One bomb down.",
+    "swf": "wars\/F13-Maleurous-7\/quest-bomb.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

@@ -1,0 +1,36 @@
+# Fiery fists
+
+
+
+### Basic Information
+
+- **ID**: 9900728
+- **Name**: Fiery fists
+- **Description**: 
+
+### Properties
+
+- **Bonus**: 0
+- **Level Requirement**: 0
+
+### Attributes
+
+- **Type**: Melee
+- **Category**: 1
+- **Item Type**: 
+
+### Stats
+
+
+### Combat Values
+
+- **Min Damage**: 16
+- **Max Damage**: 35
+- **Critical**: 5
+- **Resistances**: Light,75,Fire,75,Water,-20,Darkness,-40,Immobility,10
+
+### Assets
+
+- **SWF File**: 
+- **Icon**: 
+

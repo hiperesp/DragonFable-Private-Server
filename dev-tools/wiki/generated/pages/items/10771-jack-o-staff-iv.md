@@ -1,0 +1,65 @@
+# Jack O'Staff IV
+
+The fire from the pumpkin heats the blades of your new staff!
+
+### Basic Information
+
+- **ID**: 10771
+- **Name**: Jack O&#039;Staff IV
+- **Description**: The fire from the pumpkin heats the blades of your new staff!
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 125
+- **Max Stack Size**: 1
+- **Bonus**: 3
+- **Rarity**: 8
+- **Level Requirement**: 30
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Fire
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 3
+- **Luck**: 4
+- **Charisma**: 3
+- **Endurance**: 1
+- **Wisdom**: 1
+
+### Combat Values
+
+- **Min Damage**: 45
+- **Max Damage**: 67
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 4
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Darkness,3,Fire,3,Health,-1
+
+### Assets
+
+- **SWF File**: items/staffs/staff-jackostaff.swf
+- **Icon**: scythe
+
+## Related
+
+### Item Shops Selling
+
+- [Mogloween 2013 DC](../item-shops/375-mogloween-2013-dc.md)
+

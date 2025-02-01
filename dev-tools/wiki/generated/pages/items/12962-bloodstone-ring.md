@@ -1,0 +1,65 @@
+# Bloodstone Ring
+
+This stone holds a single drop of an ancient vampire's blood. 
+
+### Basic Information
+
+- **ID**: 12962
+- **Name**: Bloodstone Ring
+- **Description**: This stone holds a single drop of an ancient vampire&#039;s blood. 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 500
+- **Max Stack Size**: 1
+- **Bonus**: 1
+- **Rarity**: 0
+- **Level Requirement**: 18
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Darkness
+- **Category**: 2
+- **Equip Spot**: Finger
+- **Item Type**: Ring
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 0
+- **Luck**: 2
+- **Charisma**: 2
+- **Endurance**: 2
+- **Wisdom**: 2
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 1
+- **Defense (Pierce)**: 1
+- **Defense (Magic)**: 0
+- **Critical**: 1
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 1
+- **Resistances**: Darkness,4,Fire,3
+
+### Assets
+
+- **SWF File**: 
+- **Icon**: ring
+
+## Related
+
+### Quests Rewarding
+
+- [The Dark Tower](../quests/1206-the-dark-tower.md)
+

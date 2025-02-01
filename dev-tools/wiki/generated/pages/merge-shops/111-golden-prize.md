@@ -1,0 +1,17 @@
+# Golden Prize
+
+<no description available>
+
+## Properties
+
+```json
+{
+    "id": 111,
+    "name": "Golden Prize"
+}
+```
+
+## Related
+
+- [The Big Cheese](../items/7018-the-big-cheese.md)
+

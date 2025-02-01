@@ -1,0 +1,30 @@
+# Toxic Togvenger
+
+
+
+## Properties
+
+```json
+{
+    "id": 320,
+    "name": "Toxic Togvenger",
+    "description": "",
+    "complete": "",
+    "swf": "quests\/quest-TogicidesRevengePart2R1.swf",
+    "swfX": "none",
+    "maxSilver": 175,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 15000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "zombie, ghost",
+    "monsterGroupSwf": "mset-deadtogs.swf"
+}
+```
+

@@ -1,0 +1,30 @@
+# DragonRider Catapult
+
+Ready... Aim... FIRE!
+
+## Properties
+
+```json
+{
+    "id": 1229,
+    "name": "DragonRider Catapult",
+    "description": "Ready... Aim... FIRE!",
+    "complete": "BOOOOOOOM!",
+    "swf": "towns\/SulenEska\/quest-catapaultDragonWar.swf ",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 50000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Dragon War waves",
+    "monsterGroupSwf": "mset-dragonRiderWar.swf"
+}
+```
+

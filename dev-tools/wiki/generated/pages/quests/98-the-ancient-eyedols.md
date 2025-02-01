@@ -1,0 +1,30 @@
+# The Ancient Eyedols
+
+Warlic contacted you with information. Texts tell of an ancient temple that is home to The Irismancer and his "army of a million eyes" as well as the ancient idols that are the source of his power. Your job is to destroy an ancient idol and escape the temple.
+
+## Properties
+
+```json
+{
+    "id": 98,
+    "name": "The Ancient Eyedols",
+    "description": "Warlic contacted you with information. Texts tell of an ancient temple that is home to The Irismancer and his \"army of a million eyes\" as well as the ancient idols that are the source of his power. Your job is to destroy an ancient idol and escape the temple.",
+    "complete": "You successfully destroyed one of his ancient idols and escape the traps set by The Irismancer. Hopefully it was enough to reduce his strength and to bring him out of hiding before Falconreach meets its end.",
+    "swf": "quests\/quest-eyeDA.swf",
+    "swfX": "quests\/quest-eyeDAx.swf",
+    "maxSilver": 99,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Eyes",
+    "monsterGroupSwf": "mset-eyes.swf"
+}
+```
+

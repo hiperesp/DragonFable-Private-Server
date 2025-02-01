@@ -1,0 +1,65 @@
+# Jack's Carver
+
+As a being of pumpkins and vines, Jack was able to wield many weapons at once. Those that survived its onslaught would recount that it used many of these smaller blades in a thrashing fury.
+
+### Basic Information
+
+- **ID**: 16384
+- **Name**: Jack&#039;s Carver
+- **Description**: As a being of pumpkins and vines, Jack was able to wield many weapons at once. Those that survived its onslaught would recount that it used many of these smaller blades in a thrashing fury.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 110
+- **Max Stack Size**: 1
+- **Bonus**: 2
+- **Rarity**: 0
+- **Level Requirement**: 40
+
+### Attributes
+
+- **Type**: Pierce
+- **Element**: Nature
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Dagger
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 5
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 4
+- **Wisdom**: 1
+
+### Combat Values
+
+- **Min Damage**: 56
+- **Max Damage**: 62
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 3
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 1
+- **Resistances**: Darkness,5,Nature,2,Water,2
+
+### Assets
+
+- **SWF File**: items/daggers/dagger-jack.swf
+- **Icon**: dagger
+
+## Related
+
+### Item Shops Selling
+
+- [Plaguenog Loot for DCs](../item-shops/516-plaguenog-loot-for-dcs.md)
+

@@ -1,0 +1,65 @@
+# Smuggler's Stormpather VII
+
+Khvorost tells you that this is an essential part of a smuggler's uniform. But why would smugglers have a uniform?  Surely that would make them easier to identify? At least it looks cool! This item requires a Dragon Amulet.
+
+### Basic Information
+
+- **ID**: 18871
+- **Name**: Smuggler&#039;s Stormpather VII
+- **Description**: Khvorost tells you that this is an essential part of a smuggler&#039;s uniform. But why would smugglers have a uniform?  Surely that would make them easier to identify? At least it looks cool! This item requires a Dragon Amulet.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 250
+- **Max Stack Size**: 1
+- **Bonus**: 15
+- **Rarity**: 0
+- **Level Requirement**: 90
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Evil
+- **Category**: 2
+- **Equip Spot**: Head
+- **Item Type**: Helm
+
+### Stats
+
+- **Strength**: 10
+- **Dexterity**: 25
+- **Intelligence**: 10
+- **Luck**: 10
+- **Charisma**: 10
+- **Endurance**: 0
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 4
+- **Parry**: 5
+- **Dodge**: 5
+- **Block**: 5
+- **Resistances**: Water,7,Wind,7,Energy,7
+
+### Assets
+
+- **SWF File**: head/helms/helm-smugglerpirate.swf
+- **Icon**: helm
+
+## Related
+
+### Quests Rewarding
+
+- [Khvorost](../quests/1626-khvorost.md)
+

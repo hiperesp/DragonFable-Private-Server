@@ -1,0 +1,33 @@
+# Leather aRMOR
+
+
+
+### Basic Information
+
+- **ID**: 9900617
+- **Name**: Leather aRMOR
+- **Description**: 
+
+### Properties
+
+
+### Attributes
+
+- **Category**: 2
+
+### Stats
+
+
+### Combat Values
+
+- **Defense (Melee)**: 1
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: 
+
+### Assets
+
+

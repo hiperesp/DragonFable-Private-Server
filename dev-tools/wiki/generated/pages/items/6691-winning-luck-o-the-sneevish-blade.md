@@ -1,0 +1,65 @@
+# Winning Luck O' the Sneevish Blade
+
+The blade of this weapon is one huuuuuge emerald! Luck O' the Sneevish indeed! Happy Lucky Day 2012!
+
+### Basic Information
+
+- **ID**: 6691
+- **Name**: Winning Luck O&#039; the Sneevish Blade
+- **Description**: The blade of this weapon is one huuuuuge emerald! Luck O&#039; the Sneevish indeed! Happy Lucky Day 2012!
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 550
+- **Max Stack Size**: 1
+- **Bonus**: 9
+- **Rarity**: 50
+- **Level Requirement**: 71
+
+### Attributes
+
+- **Type**: Pierce
+- **Element**: Stone
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Dagger
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 10
+- **Intelligence**: 0
+- **Luck**: 9
+- **Charisma**: 5
+- **Endurance**: 8
+- **Wisdom**: 10
+
+### Combat Values
+
+- **Min Damage**: 78
+- **Max Damage**: 94
+- **Defense (Melee)**: 5
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Critical**: 9
+- **Parry**: 0
+- **Dodge**: 2
+- **Block**: 1
+- **Resistances**: Stone,10,Wind,10,Light,10,Silver,6,Immobility,6,All,3
+
+### Assets
+
+- **SWF File**: items/daggers/dagger-luckyemerald.swf
+- **Icon**: dagger
+
+## Related
+
+### Item Shops Selling
+
+- [Luck O' the Sneevish](../item-shops/254-luck-o-the-sneevish.md)
+

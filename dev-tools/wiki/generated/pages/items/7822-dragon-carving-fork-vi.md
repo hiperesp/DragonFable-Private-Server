@@ -1,0 +1,62 @@
+# Dragon Carving Fork VI
+
+Carve your way through Thankstaking, 2012, fighting foods!
+This item requires a Dragon Amulet.
+
+### Basic Information
+
+- **ID**: 7822
+- **Name**: Dragon Carving Fork VI
+- **Description**: Carve your way through Thankstaking, 2012, fighting foods!
+This item requires a Dragon Amulet.
+
+### Properties
+
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Max Stack Size**: 1
+- **Bonus**: 9
+- **Rarity**: 25
+- **Level Requirement**: 60
+
+### Attributes
+
+- **Element**: Silver
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Dagger
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 8
+- **Intelligence**: 0
+- **Luck**: 2
+- **Charisma**: 6
+- **Endurance**: 1
+- **Wisdom**: 6
+
+### Combat Values
+
+- **Min Damage**: 68
+- **Max Damage**: 84
+- **Defense (Melee)**: 4
+- **Defense (Pierce)**: 4
+- **Defense (Magic)**: 4
+- **Critical**: 8
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 0
+- **Resistances**: Poison,9,Darkness,5,Immobility,3,Health,-2
+
+### Assets
+
+- **SWF File**: items/daggers/dagger-thankstaking12.swf
+- **Icon**: dagger
+
+## Related
+
+### Merge Shops Requiring
+
+- [Turkey Dragon](../merge-shops/124-turkey-dragon.md)
+

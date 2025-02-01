@@ -1,0 +1,17 @@
+# ShadowHunter 70
+
+<no description available>
+
+## Properties
+
+```json
+{
+    "id": 155,
+    "name": "ShadowHunter 70"
+}
+```
+
+## Related
+
+- [Shadow Hunter Ultra Sword](../items/10788-shadow-hunter-ultra-sword.md)
+

@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 \ini_set("memory_limit", "1024M");
-$useCache = true;
+
+define("ONLY_PAGES", true);
 
 $categories = [
     "item" => [
@@ -135,7 +136,7 @@ foreach($categories as $categoryKey => $categoryInfo) {
     }
     \array_map('unlink', \glob("../wiki/generated/pages/{$categoryInfo["slug"]}/*"));
 
-    if($useCache) {
+    if(ONLY_PAGES) {
         $allFiles = \scandir("../wiki/generated/data/{$categoryKey}");
 
         foreach($allFiles as $key => $file) {

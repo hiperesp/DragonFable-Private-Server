@@ -1,0 +1,33 @@
+# Void Skin
+
+
+
+### Basic Information
+
+- **ID**: 9902017
+- **Name**: Void Skin
+- **Description**: 
+
+### Properties
+
+
+### Attributes
+
+- **Category**: 2
+
+### Stats
+
+
+### Combat Values
+
+- **Defense (Melee)**: 5
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Bacon,-200,Darkness,-50
+
+### Assets
+
+

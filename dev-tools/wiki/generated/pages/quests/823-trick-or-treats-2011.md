@@ -1,0 +1,30 @@
+# Trick or Treats 2011!
+
+Trick or Treat!
+
+## Properties
+
+```json
+{
+    "id": 823,
+    "name": "Trick or Treats 2011!",
+    "description": "Trick or Treat!",
+    "complete": "Trick or Treat!",
+    "swf": "towns\/Mogloween\/M11\/quest-trickortreat11_rc.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 4000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Mogloween",
+    "monsterGroupSwf": "mset-mogloween2.swf"
+}
+```
+

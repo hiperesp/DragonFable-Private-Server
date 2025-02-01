@@ -1,0 +1,30 @@
+# Elemental Farm
+
+Elements are gathering around a leader at a farm. Kill him and scare them off.
+
+## Properties
+
+```json
+{
+    "id": 347,
+    "name": "Elemental Farm",
+    "description": "Elements are gathering around a leader at a farm. Kill him and scare them off.",
+    "complete": "One leader down...countless more to go.",
+    "swf": "quests\/quest-elementalfarm.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 1000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "all DF style eles",
+    "monsterGroupSwf": "mset-elementalwarr5.swf"
+}
+```
+

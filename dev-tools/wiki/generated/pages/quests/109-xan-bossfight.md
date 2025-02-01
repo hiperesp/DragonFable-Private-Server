@@ -1,0 +1,30 @@
+# Xan Bossfight
+
+Xan is unlike any villian we have ever fought before...
+
+## Properties
+
+```json
+{
+    "id": 109,
+    "name": "Xan Bossfight",
+    "description": "Xan is unlike any villian we have ever fought before...",
+    "complete": "You have stood up to Xan and are hailed the hero of Falconreach. Now, the people look onto you for inspiration as they rebuild.... Falconreach shall spread its wings again!",
+    "swf": "towns\/WrathofXan\/quest-war-wrathofxan-endingr1.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "fire",
+    "monsterGroupSwf": "mset-xan.swf"
+}
+```
+

@@ -1,0 +1,30 @@
+# Gourdon the Gourd-o-Lantern
+
+<no description available>
+
+### Basic Information
+
+- **ID**: 3042
+- **Name**: Gourdon the Gourd-o-Lantern
+
+### Properties
+
+
+### Attributes
+
+
+### Stats
+
+
+### Combat Values
+
+
+### Assets
+
+
+## Related
+
+### Merge Shops Requiring
+
+- [DC Mogloween Pet](../merge-shops/60-dc-mogloween-pet.md)
+

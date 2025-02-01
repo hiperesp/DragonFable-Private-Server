@@ -1,0 +1,30 @@
+# Thievilchauns
+
+Zorbak convinced the sneevilchauns to steal him a pot o gold so that he could pay for his most recent invasion efforts.  He didnt count on how canny the undead are!
+
+## Properties
+
+```json
+{
+    "id": 377,
+    "name": "Thievilchauns",
+    "description": "Zorbak convinced the sneevilchauns to steal him a pot o gold so that he could pay for his most recent invasion efforts.  He didnt count on how canny the undead are!",
+    "complete": "Zorbak really knows how to come out on top! He paid off his fighting forces AND gained more minions.  He's some lucky moglin.",
+    "swf": "quests\/quest-StPat09.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "sneevilchauns, undead",
+    "monsterGroupSwf": "mset-Ft13DA.swf"
+}
+```
+

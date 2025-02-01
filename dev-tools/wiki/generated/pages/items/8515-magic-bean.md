@@ -1,0 +1,65 @@
+# Magic Bean
+
+This is worth about a cow. This item requires a Dragon Amulet. 
+
+### Basic Information
+
+- **ID**: 8515
+- **Name**: Magic Bean
+- **Description**: This is worth about a cow. This item requires a Dragon Amulet. 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 12000
+- **Max Stack Size**: 1
+- **Bonus**: 10
+- **Rarity**: 7
+- **Level Requirement**: 76
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Nature
+- **Category**: 2
+- **Equip Spot**: Neck
+- **Item Type**: Necklace
+
+### Stats
+
+- **Strength**: 10
+- **Dexterity**: 10
+- **Intelligence**: 10
+- **Luck**: 15
+- **Charisma**: 2
+- **Endurance**: 9
+- **Wisdom**: 9
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 8
+- **Parry**: 1
+- **Dodge**: 0
+- **Block**: 1
+- **Resistances**: Light,11,Water,11,Wind,11,Nature,8,Immobility,5,Health,-3
+
+### Assets
+
+- **SWF File**: 
+- **Icon**: necklace
+
+## Related
+
+### Item Shops Selling
+
+- [RoseTree Shop](../item-shops/303-rosetree-shop.md)
+

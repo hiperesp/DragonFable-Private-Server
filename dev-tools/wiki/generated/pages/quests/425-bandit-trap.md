@@ -1,0 +1,30 @@
+# Bandit Trap
+
+We are going to get ourselves some bandits.  The knights will corner them, you take them out.  We get information.
+
+## Properties
+
+```json
+{
+    "id": 425,
+    "name": "Bandit Trap",
+    "description": "We are going to get ourselves some bandits.  The knights will corner them, you take them out.  We get information.",
+    "complete": "They will think twice before going after an obvious trap...maybe.  Bandits are not the smartest of folks.",
+    "swf": "towns\/oaklore\/quest-bandittrap.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 5,
+    "monsterType": "Bandits",
+    "monsterGroupSwf": "mset-bandits.swf"
+}
+```
+

@@ -1,0 +1,33 @@
+# Archknight Gear
+
+ 
+
+### Basic Information
+
+- **ID**: 9800221
+- **Name**: Archknight Gear
+- **Description**:  
+
+### Properties
+
+
+### Attributes
+
+- **Category**: 2
+
+### Stats
+
+
+### Combat Values
+
+- **Defense (Melee)**: 6
+- **Defense (Pierce)**: 6
+- **Defense (Magic)**: 6
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Darkness,5,Light,5
+
+### Assets
+
+

@@ -1,0 +1,30 @@
+# Sandsea Surfing
+
+Hang ten on the dunes!
+
+## Properties
+
+```json
+{
+    "id": 1037,
+    "name": "Sandsea Surfing",
+    "description": "Hang ten on the dunes!",
+    "complete": "You did... ok.",
+    "swf": "towns\/3Sandsea\/quest-sandski.swf",
+    "swfX": "towns\/3Sandsea\/quest-sandski-x.swf",
+    "maxSilver": 0,
+    "maxGold": 3000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

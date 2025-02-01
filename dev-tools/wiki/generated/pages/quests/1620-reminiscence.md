@@ -1,0 +1,30 @@
+# Reminiscence
+
+Time to learn about Faust and Sophie's past.
+
+## Properties
+
+```json
+{
+    "id": 1620,
+    "name": "Reminiscence",
+    "description": "Time to learn about Faust and Sophie's past.",
+    "complete": "Is there any way you and Falwynn can help?",
+    "swf": "towns\/3Falconreach\/Six\/quest5-remini.swf",
+    "swfX": "towns\/3Falconreach\/Six\/quest5-remini-x.swf",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

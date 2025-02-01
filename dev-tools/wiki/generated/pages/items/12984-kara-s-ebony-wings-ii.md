@@ -1,0 +1,65 @@
+# Kara's Ebony Wings II
+
+Darkened in honor of those who fought with Kara Su'Lema for Black Friday 2014!
+
+### Basic Information
+
+- **ID**: 12984
+- **Name**: Kara&#039;s Ebony Wings II
+- **Description**: Darkened in honor of those who fought with Kara Su&#039;Lema for Black Friday 2014!
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 900
+- **Max Stack Size**: 1
+- **Bonus**: 0
+- **Rarity**: 5
+- **Level Requirement**: 30
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Wind
+- **Category**: 2
+- **Equip Spot**: Back
+- **Item Type**: Wings
+
+### Stats
+
+- **Strength**: 1
+- **Dexterity**: 1
+- **Intelligence**: 4
+- **Luck**: 4
+- **Charisma**: 4
+- **Endurance**: 4
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 1
+- **Defense (Pierce)**: 1
+- **Defense (Magic)**: 1
+- **Critical**: 2
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Wind,3,Stone,3
+
+### Assets
+
+- **SWF File**: items/back/wings-karaBF14.swf
+- **Icon**: wings
+
+## Related
+
+### Item Shops Selling
+
+- [2014 Black Friday](../item-shops/420-2014-black-friday.md)
+

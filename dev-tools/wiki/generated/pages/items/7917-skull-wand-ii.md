@@ -1,0 +1,65 @@
+# Skull Wand II
+
+Sally has certainly made some... festive changes for the holidays!
+
+### Basic Information
+
+- **ID**: 7917
+- **Name**: Skull Wand II
+- **Description**: Sally has certainly made some... festive changes for the holidays!
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 2000
+- **Max Stack Size**: 1
+- **Bonus**: 4
+- **Rarity**: 25
+- **Level Requirement**: 41
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Disease
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Wand
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 4
+- **Luck**: 0
+- **Charisma**: 4
+- **Endurance**: 3
+- **Wisdom**: 3
+
+### Combat Values
+
+- **Min Damage**: 54
+- **Max Damage**: 68
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 4
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Fire,4,Darkness,3,Nature,3
+
+### Assets
+
+- **SWF File**: items/wands/wand-sally.swf
+- **Icon**: wand
+
+## Related
+
+### Quests Rewarding
+
+- [SnackinLand](../quests/981-snackinland.md)
+

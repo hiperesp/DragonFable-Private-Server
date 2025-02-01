@@ -1,0 +1,30 @@
+# Test Quest for Eric
+
+Test Quest for Eric
+
+## Properties
+
+```json
+{
+    "id": 841,
+    "name": "Test Quest for Eric",
+    "description": "Test Quest for Eric",
+    "complete": "Eric Has A Test Quest",
+    "swf": "towns\/StoneheartFall\/random-Sandsea Gate quest.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 900,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "Eric\/quest-welcome.swf",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 5,
+    "monsterType": "Forest",
+    "monsterGroupSwf": "mset-forest-r1.swf"
+}
+```
+

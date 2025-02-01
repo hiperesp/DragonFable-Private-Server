@@ -1,0 +1,65 @@
+# Voidsplinter Shards 
+
+Bearing crystallized bits of the Void itself (the same material the Heart of the Void is made of), this weapon courses with dark energy! 
+
+### Basic Information
+
+- **ID**: 4095
+- **Name**: Voidsplinter Shards 
+- **Description**: Bearing crystallized bits of the Void itself (the same material the Heart of the Void is made of), this weapon courses with dark energy! 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 750
+- **Max Stack Size**: 1
+- **Bonus**: 3
+- **Rarity**: 8
+- **Level Requirement**: 35
+
+### Attributes
+
+- **Type**: Pierce
+- **Element**: Energy
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Dagger
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 3
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 2
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 50
+- **Max Damage**: 60
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 3
+- **Parry**: 0
+- **Dodge**: 2
+- **Block**: 0
+- **Resistances**: Light,3,Darkness,3
+
+### Assets
+
+- **SWF File**: items/daggers/dagger-portal.swf
+- **Icon**: dagger
+
+## Related
+
+### Quests Rewarding
+
+- [Face Your Destiny](../quests/630-face-your-destiny.md)
+

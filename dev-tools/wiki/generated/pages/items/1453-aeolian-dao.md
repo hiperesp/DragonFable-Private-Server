@@ -1,0 +1,65 @@
+# Aeolian Dao
+
+This blade was actually sharpened by the winds of a hurricane.  The runes along the blade create a magical link between the Dao and the elemental plane of Wind.
+
+### Basic Information
+
+- **ID**: 1453
+- **Name**: Aeolian Dao
+- **Description**: This blade was actually sharpened by the winds of a hurricane.  The runes along the blade create a magical link between the Dao and the elemental plane of Wind.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 340
+- **Max Stack Size**: 1
+- **Bonus**: 3
+- **Rarity**: 5
+- **Level Requirement**: 34
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Wind
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Sword
+
+### Stats
+
+- **Strength**: 4
+- **Dexterity**: 4
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 0
+- **Endurance**: 0
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 50
+- **Max Damage**: 68
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 3
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Wind,5
+
+### Assets
+
+- **SWF File**: items/swords/sword-dao.swf
+- **Icon**: sword
+
+## Related
+
+### Item Shops Selling
+
+- [Cysero's Weapons](../item-shops/44-cysero-s-weapons.md)
+

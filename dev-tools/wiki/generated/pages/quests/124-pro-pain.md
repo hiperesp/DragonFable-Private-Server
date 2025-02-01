@@ -1,0 +1,30 @@
+# Pro Pain!
+
+
+
+## Properties
+
+```json
+{
+    "id": 124,
+    "name": "Pro Pain!",
+    "description": "",
+    "complete": "",
+    "swf": "quests\/quest-war-beach-boss.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Light and Dark",
+    "monsterGroupSwf": "mset-friday13beachBOSS.swf"
+}
+```
+

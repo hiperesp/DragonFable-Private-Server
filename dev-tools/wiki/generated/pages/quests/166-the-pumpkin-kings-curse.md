@@ -1,0 +1,30 @@
+# The Pumpkin Kings Curse
+
+The Cauldron Sisters have employed you as their part-time candy consultant which means that you need to help them in all aspects of their candy making. Including defeating Jack Strife and breaking the pumpkin curse on Myx.
+
+## Properties
+
+```json
+{
+    "id": 166,
+    "name": "The Pumpkin Kings Curse",
+    "description": "The Cauldron Sisters have employed you as their part-time candy consultant which means that you need to help them in all aspects of their candy making. Including defeating Jack Strife and breaking the pumpkin curse on Myx.",
+    "complete": "You have defeated the Pumpkin King Jack Strife and broken the curse on Myx! Return to the Cauldron Sisters and see what they need help with next!",
+    "swf": "zones\/mogloween\/quest-jackstrife.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Mogloween Boss",
+    "monsterGroupSwf": "mset-jackstrife.swf"
+}
+```
+

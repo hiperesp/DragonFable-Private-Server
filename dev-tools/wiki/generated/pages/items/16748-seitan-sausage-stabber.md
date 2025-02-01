@@ -1,0 +1,65 @@
+# Seitan Sausage Stabber
+
+This vegan and gluten-free sausage is perfect for the vegetarian rogue. They might not be the sharpest weapons, but they're spicy!
+
+### Basic Information
+
+- **ID**: 16748
+- **Name**: Seitan Sausage Stabber
+- **Description**: This vegan and gluten-free sausage is perfect for the vegetarian rogue. They might not be the sharpest weapons, but they&#039;re spicy!
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 170
+- **Max Stack Size**: 1
+- **Bonus**: 7
+- **Rarity**: 0
+- **Level Requirement**: 70
+
+### Attributes
+
+- **Type**: Pierce
+- **Element**: Nature
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Dagger
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 10
+- **Intelligence**: 0
+- **Luck**: 6
+- **Charisma**: 0
+- **Endurance**: 0
+- **Wisdom**: 0
+
+### Combat Values
+
+- **Min Damage**: 72
+- **Max Damage**: 86
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 7
+- **Parry**: 5
+- **Dodge**: 5
+- **Block**: 5
+- **Resistances**: Bacon,8,Fire,-5
+
+### Assets
+
+- **SWF File**: items/daggers/dagger-sausage.swf
+- **Icon**: dagger
+
+## Related
+
+### Item Shops Selling
+
+- [Whistling Loot for DCs](../item-shops/531-whistling-loot-for-dcs.md)
+

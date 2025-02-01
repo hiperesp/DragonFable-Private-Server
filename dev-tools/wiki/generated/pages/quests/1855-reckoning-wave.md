@@ -1,0 +1,30 @@
+# Reckoning Wave
+
+As Myalos, Notha, and the Avatars clash, you and Uaatna must defend yourselves against an onslaught of amalgamations.
+
+## Properties
+
+```json
+{
+    "id": 1855,
+    "name": "Reckoning Wave",
+    "description": "As Myalos, Notha, and the Avatars clash, you and Uaatna must defend yourselves against an onslaught of amalgamations.",
+    "complete": "One wave down, but so many remain...",
+    "swf": "wars\/F13-Maleurous-7\/quest-waves-r4.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 5000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 100,
+    "monsterType": "ancient amalgamations",
+    "monsterGroupSwf": "mset-nothareckoning.swf"
+}
+```
+

@@ -1,0 +1,33 @@
+# Fungal fun
+
+
+
+### Basic Information
+
+- **ID**: 9901749
+- **Name**: Fungal fun
+- **Description**: 
+
+### Properties
+
+
+### Attributes
+
+- **Category**: 2
+
+### Stats
+
+
+### Combat Values
+
+- **Defense (Melee)**: 10
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Parry**: 4
+- **Dodge**: 4
+- **Block**: 4
+- **Resistances**: 
+
+### Assets
+
+

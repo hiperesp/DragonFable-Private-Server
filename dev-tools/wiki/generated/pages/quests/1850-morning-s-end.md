@@ -1,0 +1,30 @@
+# Morning's End
+
+You may have left the Runed Fortress and everyone in it behind... but what you've done in your time there yet remains and marked the soldiers there.
+
+## Properties
+
+```json
+{
+    "id": 1850,
+    "name": "Morning's End",
+    "description": "You may have left the Runed Fortress and everyone in it behind... but what you've done in your time there yet remains and marked the soldiers there.",
+    "complete": "Life in Espina Rosa ends. Another one begins.",
+    "swf": "towns\/shears\/quest4-morning.swf",
+    "swfX": "towns\/shears\/quest4-morning-x.swf",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

@@ -1,0 +1,65 @@
+# Regal 301st Staff
+
+A weapon from the Swordhaven Armory. Who would abandon it out in the wilds though? This item requires a Dragon Amulet.
+
+### Basic Information
+
+- **ID**: 6276
+- **Name**: Regal 301st Staff
+- **Description**: A weapon from the Swordhaven Armory. Who would abandon it out in the wilds though? This item requires a Dragon Amulet.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Cost**: 4000
+- **Max Stack Size**: 1
+- **Bonus**: 7
+- **Rarity**: 5
+- **Level Requirement**: 68
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Wind
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 7
+- **Luck**: -2
+- **Charisma**: 0
+- **Endurance**: 7
+- **Wisdom**: 7
+
+### Combat Values
+
+- **Min Damage**: 72
+- **Max Damage**: 90
+- **Defense (Melee)**: 6
+- **Defense (Pierce)**: 6
+- **Defense (Magic)**: 6
+- **Critical**: 7
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 2
+- **Resistances**: Wind,8,Stone,8
+
+### Assets
+
+- **SWF File**: items/staffs/staff-301.swf
+- **Icon**: staff
+
+## Related
+
+### Quests Rewarding
+
+- [Swordhaven Forest](../quests/842-swordhaven-forest.md)
+

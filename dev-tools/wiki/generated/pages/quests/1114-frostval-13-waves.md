@@ -1,0 +1,30 @@
+# Frostval 13 waves
+
+Oh man, not these guys again!
+
+## Properties
+
+```json
+{
+    "id": 1114,
+    "name": "Frostval 13 waves",
+    "description": "Oh man, not these guys again!",
+    "complete": "What are the Cultists up to now?!",
+    "swf": "wars\\F13-Frostval\\quest-frostvalwaves.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 3000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "undead, creepy, cultists",
+    "monsterGroupSwf": "mset-cultists.swf"
+}
+```
+

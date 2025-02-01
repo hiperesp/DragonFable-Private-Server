@@ -1,0 +1,30 @@
+# Sea Chicken Attack
+
+A cluster of Sea Chickens has boarded your ship!
+
+## Properties
+
+```json
+{
+    "id": 1893,
+    "name": "Sea Chicken Attack",
+    "description": "A cluster of Sea Chickens has boarded your ship!",
+    "complete": "Do Sea Chickens taste like Tuna?",
+    "swf": "towns\/3Oceantyndur\/quest-encountersChickens.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 5000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 100,
+    "monsterType": "Pirates and Sea Chickens",
+    "monsterGroupSwf": "mset-pasgurpiratesandchickens.swf"
+}
+```
+

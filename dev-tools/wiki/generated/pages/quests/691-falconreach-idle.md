@@ -1,0 +1,30 @@
+# Falconreach Idle
+
+When Lim needs a new weaponsmith assistant, he figures that the best way to find one is to hold a talent contest! With Serenity, Cysero, and George Lowe as the judges! YOU are a contestant. Good luck!
+
+## Properties
+
+```json
+{
+    "id": 691,
+    "name": "Falconreach Idle",
+    "description": "When Lim needs a new weaponsmith assistant, he figures that the best way to find one is to hold a talent contest! With Serenity, Cysero, and George Lowe as the judges! YOU are a contestant. Good luck!",
+    "complete": "And now a message from our sponsors!",
+    "swf": "quests\/quest-falconreachidler1.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

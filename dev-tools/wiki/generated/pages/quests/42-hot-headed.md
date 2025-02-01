@@ -1,0 +1,30 @@
+# Hot Headed
+
+Cinder is an amazingly hot pet right now, and this is the only place to get it.
+
+## Properties
+
+```json
+{
+    "id": 42,
+    "name": "Hot Headed",
+    "description": "Cinder is an amazingly hot pet right now, and this is the only place to get it.",
+    "complete": "Cinder is an amazingly hot pet right now, and this is the only place to get it.",
+    "swf": "random\/random-petFlamehead.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 700,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 10,
+    "monsterMaxLevel": 15,
+    "monsterType": "Elemental",
+    "monsterGroupSwf": "mset-elementalfire.swf"
+}
+```
+

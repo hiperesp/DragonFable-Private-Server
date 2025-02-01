@@ -1,0 +1,30 @@
+# The Empress
+
+Have you arrived in time to help the Ateala? You've arrived before the Vind forces, but what now?
+
+## Properties
+
+```json
+{
+    "id": 1629,
+    "name": "The Empress",
+    "description": "Have you arrived in time to help the Ateala? You've arrived before the Vind forces, but what now?",
+    "complete": "It's time to hold off the rift invasion until The Empress can finish her ritual. The Ateala are counting on your help.",
+    "swf": "wars\/Proclamation1War\/quest-empress.swf",
+    "swfX": "wars\/Proclamation1War\/quest-empress-x.swf",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

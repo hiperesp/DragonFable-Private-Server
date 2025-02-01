@@ -1,0 +1,60 @@
+# Crystal Ice VIII
+
+Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet.
+
+### Basic Information
+
+- **ID**: 8352
+- **Name**: Crystal Ice VIII
+- **Description**: Crafted from elemental essences, this weapon will serve you well!  This item requires a Dragon Amulet.
+
+### Properties
+
+- **Dragon Amulet Required**: 1
+- **Currency**: 2
+- **Max Stack Size**: 1
+- **Bonus**: 8
+- **Rarity**: 25
+- **Level Requirement**: 73
+
+### Attributes
+
+- **Element**: Ice
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Sword
+
+### Stats
+
+- **Strength**: 10
+- **Dexterity**: 0
+- **Intelligence**: 0
+- **Luck**: 6
+- **Charisma**: 6
+- **Endurance**: 6
+- **Wisdom**: 6
+
+### Combat Values
+
+- **Min Damage**: 76
+- **Max Damage**: 92
+- **Defense (Melee)**: 6
+- **Defense (Pierce)**: 6
+- **Defense (Magic)**: 6
+- **Critical**: 9
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 1
+- **Resistances**: Fire,6,Light,6,Energy,5,Darkness,5,Health,-3
+
+### Assets
+
+- **SWF File**: items/swords/katana-Crystal Ice final.swf
+- **Icon**: sword
+
+## Related
+
+### Merge Shops Requiring
+
+- [Sielu's Shop](../merge-shops/127-sielu-s-shop.md)
+

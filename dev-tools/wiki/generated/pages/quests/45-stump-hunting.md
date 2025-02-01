@@ -1,0 +1,30 @@
+# Stump Hunting
+
+Stumpy is a close relative to the Doomwood monster, but friendly and uncorrupted by darkness. 
+
+## Properties
+
+```json
+{
+    "id": 45,
+    "name": "Stump Hunting",
+    "description": "Stumpy is a close relative to the Doomwood monster, but friendly and uncorrupted by darkness. ",
+    "complete": "Stumpy is a close relative to the Doomwood monster, but friendly and uncorrupted by darkness. ",
+    "swf": "random\/random-petStump.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 700,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 10,
+    "monsterType": "Darkness",
+    "monsterGroupSwf": "mset-spookyforest-r1.swf"
+}
+```
+

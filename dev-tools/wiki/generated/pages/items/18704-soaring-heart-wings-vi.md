@@ -1,0 +1,65 @@
+# Soaring Heart Wings VI
+
+Maybe once upon a time these wings might have been used to fly, but now they're purely decorative. At least they're pretty! For some reason, Big Daddy keeps assuring you that they're perfectly safe.
+
+### Basic Information
+
+- **ID**: 18704
+- **Name**: Soaring Heart Wings VI
+- **Description**: Maybe once upon a time these wings might have been used to fly, but now they&#039;re purely decorative. At least they&#039;re pretty! For some reason, Big Daddy keeps assuring you that they&#039;re perfectly safe.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 50
+- **Max Stack Size**: 1
+- **Bonus**: 0
+- **Rarity**: 1
+- **Level Requirement**: 60
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Wind
+- **Category**: 2
+- **Equip Spot**: Back
+- **Item Type**: Wings
+
+### Stats
+
+- **Strength**: 5
+- **Dexterity**: 5
+- **Intelligence**: 5
+- **Luck**: 0
+- **Charisma**: 9
+- **Endurance**: 0
+- **Wisdom**: 9
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 6
+- **Parry**: 4
+- **Dodge**: 4
+- **Block**: 4
+- **Resistances**: Darkness,8,Energy,8,Health,-3
+
+### Assets
+
+- **SWF File**: items/back/cape-soaringheart.swf
+- **Icon**: wings
+
+## Related
+
+### Item Shops Selling
+
+- [Soaring Heart Wings](../item-shops/621-soaring-heart-wings.md)
+

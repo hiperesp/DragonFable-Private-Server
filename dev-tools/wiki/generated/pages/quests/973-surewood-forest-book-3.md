@@ -1,0 +1,30 @@
+# Surewood Forest (Book 3)
+
+The woods are damp and dark!
+
+## Properties
+
+```json
+{
+    "id": 973,
+    "name": "Surewood Forest (Book 3)",
+    "description": "The woods are damp and dark!",
+    "complete": "The woods are damp and dark!",
+    "swf": "towns\/Robina\/town-robina-bk3-r17.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 0,
+    "maxGems": 0,
+    "maxExp": 0,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 0,
+    "monsterType": "none",
+    "monsterGroupSwf": "none"
+}
+```
+

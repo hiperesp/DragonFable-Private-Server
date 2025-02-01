@@ -1,0 +1,65 @@
+# Lovely Time Helm III
+
+Crafted by Cronix in celebration of Hero's Heart Day '14! Hope you had a lovely time! 
+
+### Basic Information
+
+- **ID**: 11550
+- **Name**: Lovely Time Helm III
+- **Description**: Crafted by Cronix in celebration of Hero&#039;s Heart Day &#039;14! Hope you had a lovely time! 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 1750
+- **Max Stack Size**: 1
+- **Bonus**: 5
+- **Rarity**: 10
+- **Level Requirement**: 65
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Fire
+- **Category**: 2
+- **Equip Spot**: Head
+- **Item Type**: Helm
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 8
+- **Endurance**: 7
+- **Wisdom**: 7
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 6
+- **Defense (Pierce)**: 6
+- **Defense (Magic)**: 7
+- **Critical**: 6
+- **Parry**: 1
+- **Dodge**: 1
+- **Block**: 0
+- **Resistances**: Water,10,Ice,10,Fire,3,Immobility,1
+
+### Assets
+
+- **SWF File**: head/helms/helm-HHD14.swf
+- **Icon**: helm
+
+## Related
+
+### Item Shops Selling
+
+- [Lovely Time Shop](../item-shops/397-lovely-time-shop.md)
+

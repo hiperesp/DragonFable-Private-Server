@@ -1,0 +1,30 @@
+# The Sneevil Dumpsite
+
+One Sneevils trash is just about any other man's treasure! Somewhere amongst the strange and valuable items the Sneevils dumped here is the Egg from the Black Dragon Box.
+
+## Properties
+
+```json
+{
+    "id": 111,
+    "name": "The Sneevil Dumpsite",
+    "description": "One Sneevils trash is just about any other man's treasure! Somewhere amongst the strange and valuable items the Sneevils dumped here is the Egg from the Black Dragon Box.",
+    "complete": "Leggo my egg crow! Actually, it was a Vultragon... and a VERY large and scary one at that. There is no time to spare. Valencia will know what to do next... right?",
+    "swf": "quests\/DragonEgg\/quest-dragonegg3.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 8,
+    "monsterMaxLevel": 99,
+    "monsterType": "Trashy",
+    "monsterGroupSwf": "mset-dumpsite.swf"
+}
+```
+

@@ -1,0 +1,30 @@
+# Circuit City
+
+Trip all the circuits until you have enough Amps. Be careful though, too many amps and you'll blow the breaker and have to start again!
+
+## Properties
+
+```json
+{
+    "id": 495,
+    "name": "Circuit City",
+    "description": "Trip all the circuits until you have enough Amps. Be careful though, too many amps and you'll blow the breaker and have to start again!",
+    "complete": "Seedspitters cleared out and all circuits are running! I wonder who let the plants out though? Oh well, Lim's Shop is now open for business!",
+    "swf": "quests\/quest-circuitcityr4.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 99,
+    "monsterType": "seedspitters and robots",
+    "monsterGroupSwf": "mset-lim.swf"
+}
+```
+

@@ -1,0 +1,65 @@
+# Scourged Cursed Scimitar
+
+A dry, hot poison infuses this cursed blade.
+
+### Basic Information
+
+- **ID**: 9191
+- **Name**: Scourged Cursed Scimitar
+- **Description**: A dry, hot poison infuses this cursed blade.
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 1
+- **Cost**: 60
+- **Max Stack Size**: 1
+- **Bonus**: 6
+- **Rarity**: 25
+- **Level Requirement**: 74
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Poison
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Sword
+
+### Stats
+
+- **Strength**: 8
+- **Dexterity**: 0
+- **Intelligence**: 0
+- **Luck**: 0
+- **Charisma**: 7
+- **Endurance**: 6
+- **Wisdom**: 6
+
+### Combat Values
+
+- **Min Damage**: 76
+- **Max Damage**: 90
+- **Defense (Melee)**: 5
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Critical**: 8
+- **Parry**: 0
+- **Dodge**: 2
+- **Block**: 1
+- **Resistances**: Light,9,Fire,7,Wind,7,Immobility,3
+
+### Assets
+
+- **SWF File**: items/swords/sword-cursedscimitar.swf
+- **Icon**: sword
+
+## Related
+
+### Item Shops Selling
+
+- [Cursed Shop](../item-shops/319-cursed-shop.md)
+

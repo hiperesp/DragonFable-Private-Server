@@ -1,0 +1,30 @@
+# Frostval War Battle
+
+Defeat the wave of frost monsters!
+
+## Properties
+
+```json
+{
+    "id": 189,
+    "name": "Frostval War Battle",
+    "description": "Defeat the wave of frost monsters!",
+    "complete": "You've pushed the last wave of invading frost monsters back but they just keep coming! It will be a long time before Frostvale is safe again!",
+    "swf": "towns\/frostvale\/quest-frostvalwar07.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "ICE",
+    "monsterGroupSwf": "mset-frostval.swf"
+}
+```
+

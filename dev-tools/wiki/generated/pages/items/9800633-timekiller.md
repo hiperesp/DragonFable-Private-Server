@@ -1,0 +1,33 @@
+# TimeKiller
+
+TimeKiller
+
+### Basic Information
+
+- **ID**: 9800633
+- **Name**: TimeKiller
+- **Description**: TimeKiller
+
+### Properties
+
+
+### Attributes
+
+- **Category**: 2
+
+### Stats
+
+
+### Combat Values
+
+- **Defense (Melee)**: 5
+- **Defense (Pierce)**: 5
+- **Defense (Magic)**: 5
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: 
+
+### Assets
+
+

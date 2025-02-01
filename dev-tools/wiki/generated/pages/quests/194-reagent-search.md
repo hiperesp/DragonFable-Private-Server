@@ -1,0 +1,30 @@
+# Reagent Search
+
+Reens has sent you out into the woods to find reagents to transmute. Watch out for ambushes!
+
+## Properties
+
+```json
+{
+    "id": 194,
+    "name": "Reagent Search",
+    "description": "Reens has sent you out into the woods to find reagents to transmute. Watch out for ambushes!",
+    "complete": "You've gathered a bagful of reagents to transmute, but did you find all the right ones?",
+    "swf": "quests\/quest-alchemyr6.swf",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 2000,
+    "maxGems": 0,
+    "maxExp": 75000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "strMonGroup=108",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Random Foresty Mobs",
+    "monsterGroupSwf": "mset-alchemy.swf?ver=1"
+}
+```
+

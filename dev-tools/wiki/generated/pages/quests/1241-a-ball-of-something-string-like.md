@@ -1,0 +1,30 @@
+# A Ball of Something String-like
+
+Something like string...something like string. Ummm....
+
+## Properties
+
+```json
+{
+    "id": 1241,
+    "name": "A Ball of Something String-like",
+    "description": "Something like string...something like string. Ummm....",
+    "complete": "A ball of bandages from a giant undead dragon. That would kind of be like string...kind of. Maybe? Sorta? Please say yes, I really do not want to go find something else.",
+    "swf": "towns\/HeroHeart\/HHD15\/quest-StringLike.swf ",
+    "swfX": "none",
+    "maxSilver": 0,
+    "maxGold": 50000,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 1,
+    "monsterMaxLevel": 99,
+    "monsterType": "Undead,Insect",
+    "monsterGroupSwf": "mset-dragummy.swf"
+}
+```
+

@@ -1,0 +1,30 @@
+# Cat Up A Tree
+
+The Pathstalker is a moody natural-born-hunter, but once you have earned its trust, it is a very loyal pet.
+
+## Properties
+
+```json
+{
+    "id": 44,
+    "name": "Cat Up A Tree",
+    "description": "The Pathstalker is a moody natural-born-hunter, but once you have earned its trust, it is a very loyal pet.",
+    "complete": "The Pathstalker is a moody natural-born-hunter, but once you have earned its trust, it is a very loyal pet.",
+    "swf": "quests\/quest-petHellcat.swf",
+    "swfX": "none",
+    "maxSilver": 99,
+    "maxGold": 700,
+    "maxGems": 0,
+    "maxExp": 50000,
+    "minTime": 0,
+    "counter": 0,
+    "extra": "",
+    "dailyIndex": 0,
+    "dailyReward": 0,
+    "monsterMinLevel": 0,
+    "monsterMaxLevel": 5,
+    "monsterType": "Forest",
+    "monsterGroupSwf": "mset-forest-r1.swf"
+}
+```
+

@@ -1,0 +1,65 @@
+# Refraction Pendant III
+
+This small, rough pebble of rubble seems to have been enchanted as a side effect of Jaania's barrier spell. But... what else could could have been affected?
+
+### Basic Information
+
+- **ID**: 19602
+- **Name**: Refraction Pendant III
+- **Description**: This small, rough pebble of rubble seems to have been enchanted as a side effect of Jaania&#039;s barrier spell. But... what else could could have been affected?
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 110
+- **Max Stack Size**: 1
+- **Bonus**: 4
+- **Rarity**: 5
+- **Level Requirement**: 50
+
+### Attributes
+
+- **Type**: Melee
+- **Element**: Ice
+- **Category**: 2
+- **Equip Spot**: Neck
+- **Item Type**: Necklace
+
+### Stats
+
+- **Strength**: 5
+- **Dexterity**: 5
+- **Intelligence**: 5
+- **Luck**: 5
+- **Charisma**: 5
+- **Endurance**: 5
+- **Wisdom**: 5
+
+### Combat Values
+
+- **Min Damage**: 0
+- **Max Damage**: 0
+- **Defense (Melee)**: 0
+- **Defense (Pierce)**: 0
+- **Defense (Magic)**: 0
+- **Critical**: 4
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Light,7,Ice,7
+
+### Assets
+
+- **SWF File**: 
+- **Icon**: necklace
+
+## Related
+
+### Quests Rewarding
+
+- [Collapse](../quests/1708-collapse.md)
+

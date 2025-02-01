@@ -1,0 +1,65 @@
+# Antipode Greatstave III
+
+The powers of fire and ice are combined into this beautiful weapon to commemorate your victory over Wargoth! 
+
+### Basic Information
+
+- **ID**: 7349
+- **Name**: Antipode Greatstave III
+- **Description**: The powers of fire and ice are combined into this beautiful weapon to commemorate your victory over Wargoth! 
+
+### Properties
+
+- **Visible**: 1
+- **Destroyable**: 1
+- **Sellable**: 1
+- **Dragon Amulet Required**: 0
+- **Currency**: 2
+- **Cost**: 4000
+- **Max Stack Size**: 1
+- **Bonus**: 6
+- **Rarity**: 15
+- **Level Requirement**: 45
+
+### Attributes
+
+- **Type**: Magic
+- **Element**: Fire
+- **Category**: 1
+- **Equip Spot**: Weapon
+- **Item Type**: Staff
+
+### Stats
+
+- **Strength**: 0
+- **Dexterity**: 0
+- **Intelligence**: 6
+- **Luck**: 5
+- **Charisma**: 5
+- **Endurance**: 5
+- **Wisdom**: 5
+
+### Combat Values
+
+- **Min Damage**: 58
+- **Max Damage**: 74
+- **Defense (Melee)**: 2
+- **Defense (Pierce)**: 2
+- **Defense (Magic)**: 2
+- **Critical**: 5
+- **Parry**: 0
+- **Dodge**: 0
+- **Block**: 0
+- **Resistances**: Ice,5,Fire,5
+
+### Assets
+
+- **SWF File**: items/staffs/staff-antipodegreatstave.swf
+- **Icon**: staff
+
+## Related
+
+### Quests Rewarding
+
+- [The Merge](../quests/932-the-merge.md)
+
