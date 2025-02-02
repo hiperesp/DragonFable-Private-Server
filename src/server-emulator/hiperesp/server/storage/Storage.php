@@ -11,7 +11,7 @@ abstract class Storage {
 
     protected abstract function _select(string $prefix, string $collection, array $where, ?int $limit, int $skip): array;
     protected abstract function _insert(string $prefix, string $collection, array $document): void;
-    protected abstract function _update(string $prefix, string $collection, array $where, array $document, ?int $limit): bool;
+    protected abstract function _update(string $prefix, string $collection, array $where, array $document): bool;
 
     protected abstract function _lastInsertId(): int;
     protected abstract function existsCollection(string $prefix, string $collection): bool;
@@ -130,7 +130,7 @@ abstract class Storage {
             throw new \Exception("No primary key found in update document");
         }
         $where['_isDeleted'] = 0;
-        return $this->_update($prefix, $collection, $where, $newFields, 1);
+        return $this->_update($prefix, $collection, $where, $newFields);
     }
 
     private function deletePrefix(string $prefix, string $collection, array $document): bool {
@@ -156,7 +156,7 @@ abstract class Storage {
         $where['_isDeleted'] = 0;
         $updateFields['_isDeleted'] = $document[\array_keys($where)[0]];
 
-        return $this->_update($prefix, $collection, $where, $updateFields, 1);
+        return $this->_update($prefix, $collection, $where, $updateFields);
     }
 
     private static Storage $instance;

@@ -92,7 +92,7 @@ abstract class SQL extends Storage {
     }
 
     #[\Override]
-    final protected function _update(string $prefix, string $collection, array $where, array $newFields, ?int $limit): bool {
+    final protected function _update(string $prefix, string $collection, array $where, array $newFields): bool {
         $sql = "UPDATE {$prefix}{$collection} SET ";
         $sqlParams = [];
         foreach($newFields as $field => $value) {
@@ -103,9 +103,6 @@ abstract class SQL extends Storage {
         foreach($where as $key => $value) {
             $sql .= "AND {$key} = ? ";
             $sqlParams[] = $value;
-        }
-        if($limit !== null) {
-            $sql .= "LIMIT {$limit}";
         }
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute($sqlParams);
