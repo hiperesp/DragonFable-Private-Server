@@ -1,7 +1,6 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
-use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\SettingsModel;
