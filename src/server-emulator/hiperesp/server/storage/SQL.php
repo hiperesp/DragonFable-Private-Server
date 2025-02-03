@@ -70,9 +70,13 @@ abstract class SQL extends Storage {
                 $sql .= "OFFSET {$skip} ";
             }
         }
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute($sqlParams);
-        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        try {
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->execute($sqlParams);
+            return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        } catch(\Exception $e) {
+            return [];
+        }
     }
 
     #[\Override]

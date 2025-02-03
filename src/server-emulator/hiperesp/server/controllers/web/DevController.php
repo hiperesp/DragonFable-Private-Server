@@ -79,8 +79,12 @@ HTML;
     public function databaseUpgrade(): string {
         \ini_set('memory_limit', '16G');
         \set_time_limit(0);
-        $storage = Storage::getStorage();
-        $storage->setup();
+        try {
+            $storage = Storage::getStorage();
+            $storage->setup();
+        } catch(\Exception $e) {
+            return $e->getMessage();
+        }
         return "Database upgrade OK!";
     }
 

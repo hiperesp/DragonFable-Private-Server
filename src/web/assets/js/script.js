@@ -1,11 +1,13 @@
 (function() {
     /** RUFFLE PLAYER */
-    window.RufflePlayer.config = {
-        splashScreen: false,
-        autoplay: "on",
-        unmuteOverlay: "hidden",
-        muted: true
-    };
+    if(window.RufflePlayer) {
+        window.RufflePlayer.config = {
+            splashScreen: false,
+            autoplay: "on",
+            unmuteOverlay: "hidden",
+            muted: true
+        };
+    }
 })();
 
 window.addEventListener("load", function() {
@@ -80,6 +82,16 @@ window.addEventListener("load", function() {
                 element.target = serverStatus.gitRev ? "_blank" : null;
             });
         }
+
+        let hasListener = false;
+        for(const key in listeners) {
+            if(listeners[key].length > 0) {
+                hasListener = true;
+                break;
+            }
+        }
+        if(!hasListener) return;
+
         setInterval(checkServerInfo, 5000); // 5 seconds
         checkServerInfo();
     })();
@@ -302,4 +314,154 @@ window.addEventListener("load", function() {
             startManageAccount(manageAccountScreen, window.serverLocation);
         }
     })();
+
+    if(window.setupLocation) {
+        (function() {
+            function startSetupServer(setupServerScreen, serverLocation, setupLocation) {
+                const dbDriverEl = setupServerScreen.querySelector("[name='DB_DRIVER']");
+                const setupButtonEl = setupServerScreen.querySelector("[data-id='setup-button']");
+                let dbOptions = {};
+
+                dbDriverEl.addEventListener("change", function() {
+                    const driver = dbDriverEl.value;
+                    dbOptions = {};
+
+                    setupServerScreen.querySelectorAll("[data-if-driver]").forEach(function(element) {
+                        const ifDriver = element.dataset.ifDriver;
+
+                        if(ifDriver == driver) {
+                            element.style.display = "block";
+                            element.querySelectorAll("[name]").forEach(function(input) {
+                                dbOptions[input.name] = input;
+                            });
+                        } else {
+                            element.style.display = "none";
+                        }
+                    });
+                });
+                dbDriverEl.dispatchEvent(new Event("change"));
+
+                setupButtonEl.addEventListener("click", async function() {
+                    const data = {
+                        DB_DRIVER: dbDriverEl.value,
+                        DB_OPTIONS: {},
+                    };
+                    for(const key in dbOptions) {
+                        const input = dbOptions[key];
+                        data.DB_OPTIONS[key] = input.value;
+                    }
+
+                    disableSetupButton([
+                        "Creating config file...",
+                    ]);
+                    const response = await fetch(setupLocation, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(data)
+                    }).then(response => response.json())
+                    .catch(error => {
+                        console.error(error);
+                        return { success: false, message: "An unexpected error occurred. Please try again later." };
+                    });
+
+                    enableSetupButton("Setup");
+                    await alertDialog(response.message);
+
+                    if(response.success) {
+                        setupButtonEl.disabled = true;
+
+                        disableSetupButton([
+                            "Initializing database structures...",
+                            "Casting data into the tables...",
+                            "Syncing inventory data...",
+                            "Filling up the item categories...",
+                            "Aligning quest details...",
+                            "Injecting user data into the system...",
+                            "Clearing old logs... for a fresh start!",
+                            "Populating the shop with rare treasures...",
+                            "Loading the character profiles...",
+                            "Building the database foundations...",
+                            "Filling the world with monsters...",
+                            "Patching up the merge shops...",
+                            "Loading race and class data...",
+                            "Configuring the houses for new adventurers...",
+                            "Pushing item data into the market...",
+                            "Warming up the quest system...",
+                            "Loading shop inventories...",
+                            "Filling the hair shops with new styles...",
+                            "Binding items to characters...",
+                            "Setting up the monster spawn points...",
+                            "Filling quest logs with new tasks...",
+                            "Establishing house shop parameters...",
+                            "Deploying character and item linkages...",
+                            "Synchronizing shop-item relations...",
+                            "Inserting house inventory data...",
+                            "Updating the merge recipes...",
+                            "Seeding the character data...",
+                            "Populating the system with item details...",
+                            "Activating quest-monster relationships...",
+                            "Sealing the database with new entries...",
+                        ]);
+
+                        const response = await fetch(serverLocation+"/dev/database/setup", {
+                            method: "POST",
+                            body: ""
+                        }).then(response => response.text())
+                        .catch(async error => {
+                            console.error(error);
+                            await alertDialog("An unexpected error occurred. Please try again later.");
+                        });
+
+                        disableSetupButton([
+                            "Setup completed",
+                        ], false);
+
+                        await alertDialog(response);
+                    }
+                });
+            }
+            let setupButtonTextsInterval = null;
+            function enableSetupButton(text) {
+                const setupButtonEl = document.querySelector("[data-id='setup-button']");
+                setupButtonEl.disabled = false;
+                setupButtonEl.textContent = text;
+                setupButtonEl.classList.remove("spin-custom");
+                if(setupButtonTextsInterval) {
+                    clearInterval(setupButtonTextsInterval);
+                    setupButtonTextsInterval = null;
+                }
+            }
+            function disableSetupButton(texts, spinner = true) {
+                const setupButtonEl = document.querySelector("[data-id='setup-button']");
+                setupButtonEl.disabled = true;
+                setupButtonEl.textContent = "";
+
+                if(setupButtonTextsInterval) {
+                    clearInterval(setupButtonTextsInterval);
+                    setupButtonTextsInterval = null;
+                }
+
+                let i = 0;
+                function nextText() {
+                    const text = texts[i] + (spinner ? " " : "");
+                    setupButtonEl.textContent = text;
+                    if(spinner) {
+                        const spinnerEl = document.createElement("i");
+                        spinnerEl.classList.add("bi", "bi-arrow-repeat", "spin-custom");
+                        setupButtonEl.appendChild(spinnerEl);
+                    }
+                    i = (i + 1) % texts.length;
+                }
+                setupButtonTextsInterval = setInterval(nextText, 3000);
+                nextText();
+            }
+
+            const setupServerScreen = document.querySelector("#setup-server-container");
+            if(setupServerScreen) {
+                startSetupServer(setupServerScreen, window.serverLocation, window.setupLocation);
+            }
+        })();
+    }
 });

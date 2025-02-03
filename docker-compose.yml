@@ -18,4 +18,5 @@ services:
       - ./src/web/play.html:/var/www/html/play.html
       - ./src/web/signup.html:/var/www/html/signup.html
       - ./src/web/tos.html:/var/www/html/tos.html
+      - ./src/web/setup.html:/var/www/html/setup.html
 

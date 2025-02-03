@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>DragonFable Private Server - Setup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <style>
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spin-custom {
+    display: inline-flex;
+    animation: spin 1s linear infinite;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+    </style>
+
+    <!-- HiperDialog -->
+    <link rel="stylesheet" id="dialog-lights" type="text/css" href="https://hiperesp.github.io/HiperDialog/src/css/color/default.css">
+    <link rel="stylesheet" type="text/css" href="https://hiperesp.github.io/HiperDialog/src/css/style.css">
+    <script type="application/javascript" src="https://hiperesp.github.io/HiperDialog/src/js/core.js"></script>
+    <script type="application/javascript" src="https://hiperesp.github.io/HiperDialog/src/js/extra.js"></script>
+
+    <!-- Custom -->
+    <script> window.serverLocation = "server-emulator/server.php"; </script>
+    <script> window.setupLocation = "server-emulator/setup.php"; </script>
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+
+    <header class="bg-light">
+        <nav class="navbar container">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-3 me-2" href="https://github.com/hiperesp/DragonFable-Private-Server/" target="blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <nav aria-label="breadcrumb" class="navbar-brand me-auto d-none d-sm-block">
+
+                    <ol class="breadcrumb mb-0">
+
+                        <li class="breadcrumb-item " aria-current="page">DragonFable Private Server</li>
+
+                        <li class="breadcrumb-item active" aria-current="page">Setup
+                            <a href="https://github.com/hiperesp/DragonFable-Private-Server/blob/main/SETUP.md" target="_blank">
+                                <i class="bi bi-question-circle"></i>
+                            </a>
+                        </li>
+
+                    </ol>
+                </nav>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container pt-3">
+            <div class="mx-2">
+                <div class="row">
+                    <div class="offset-md-3 col-md-6 pt-3">
+                        <h4>Database</h4>
+                        <p class="text-body-secondary">Database settings</p>
+
+                        <hr>
+
+                        <div id="setup-server-container">
+
+                            <div class="form-group mb-3">
+                                <label class="small fw-bold">Driver</label>
+                                <select class="form-select" name="DB_DRIVER">
+                                    <option value="\hiperesp\server\storage\SQLite" selected>SQLite</option>
+                                    <option value="\hiperesp\server\storage\MySQL">MySQL</option>
+                                </select>
+                                <div class="small text-body-secondary">If you're new, go with SQLite. For larger servers, choose MySQL.</div>
+                            </div>
+
+                            <hr>
+
+                            <div data-if-driver="\hiperesp\server\storage\SQLite">
+                                <h4 class="mb-2">SQLite Settings</h4>
+                                <p class="small text-body-secondary">SQLite database connection settings</p>
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Location</label>
+                                    <input type="text" class="form-control" name="location" value="">
+                                    <div class="small text-body-secondary">You can leave this empty to use the default location.</div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Prefix</label>
+                                    <input type="text" class="form-control" name="prefix" value="df_">
+                                    <div class="small text-body-secondary">Table prefix. You can leave this empty or use a custom prefix. By default, it uses "df_".</div>
+                                </div>
+
+                                <hr>
+                            </div>
+                            <div data-if-driver="\hiperesp\server\storage\MySQL">
+                                <h4 class="mb-2">MySQL Settings</h4>
+                                <p class="small text-body-secondary">MySQL database connection settings</p>
+
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Host</label>
+                                    <input type="text" class="form-control" name="host" value="localhost">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Port</label>
+                                    <input type="number" class="form-control" name="port" value="3306">
+                                    <div class="small text-body-secondary">Database port. Default is "3306".</div>
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Username</label>
+                                    <input type="text" class="form-control" name="username" value="root">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Password</label>
+                                    <input type="password" class="form-control" name="password" value="">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Database Name</label>
+                                    <input type="text" class="form-control" name="database" value="dragonfable">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <label class="small fw-bold">Prefix</label>
+                                    <input type="text" class="form-control" name="prefix" value="df_">
+                                    <div class="small text-body-secondary">Table prefix. You can leave this empty or use a custom prefix. By default, it uses "df_".</div>
+                                </div>
+
+                                <hr>
+                            </div>
+
+                            <div class="mb-3">
+                                <button type="button" data-id="setup-button" class="btn btn-dark w-100">Setup</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

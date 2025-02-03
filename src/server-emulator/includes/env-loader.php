@@ -6,12 +6,6 @@ if(\file_exists("{$base}/.config.php")) {
     require "{$base}/.config.php";
 }
 
-if(!isset($config)) {
-    if(\copy("{$base}/.config.default.php", "{$base}/.config.php")) {
-        require "{$base}/.config.php";
-    }
-}
-
 if(!isset($config['DB_DRIVER'])) {
     $config['DB_DRIVER'] = \getenv("DB_DRIVER");
 }
