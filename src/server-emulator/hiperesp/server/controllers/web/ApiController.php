@@ -6,11 +6,11 @@ use hiperesp\server\attributes\Inject;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\services\WebApiService;
+use hiperesp\server\services\WebStatsService;
 
 class ApiController extends Controller {
 
-    #[Inject] private WebApiService $webApiService;
+    #[Inject] private WebStatsService $webStatsService;
 
     #[Request(
         endpoint: '/api/web-stats.json',
@@ -18,7 +18,7 @@ class ApiController extends Controller {
         outputType: Output::JSON
     )]
     public function webStats(): array {
-        return $this->webApiService->stats();
+        return $this->webStatsService->stats();
     }
 
 }
