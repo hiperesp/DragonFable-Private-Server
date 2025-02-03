@@ -4,6 +4,7 @@ namespace hiperesp\server\services;
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\CharacterModel;
+use hiperesp\server\models\SettingsModel;
 use hiperesp\server\vo\SettingsVO;
 
 class WebStatsService extends Service {
@@ -14,11 +15,11 @@ class WebStatsService extends Service {
     public function version(): array {
         $settings = $this->getSettings();
         return [
-            "gamemovie"     => $this->settings?->gameSwf,
-            "signUpMessage" => $this->settings?->signUpMessage,
-            "server"        => $this->settings?->serverLocation,
-            "gamefilesPath" => $this->settings?->gamefilesPath,
-            "gameVersion"   => $this->settings?->serverVersion,
+            "gamemovie"     => $settings?->gameSwf,
+            "signUpMessage" => $settings?->signUpMessage,
+            "server"        => $settings?->serverLocation,
+            "gamefilesPath" => $settings?->gamefilesPath,
+            "gameVersion"   => $settings?->serverVersion,
             "online"        => $this->getStatus()['online'] ? "true" : "false",
             "end"           => "here",
         ];
