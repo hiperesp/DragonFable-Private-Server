@@ -23,7 +23,7 @@
 6: Open the `web` folder and move all the files to the `htdocs` folder.
 
 7: Your `htdocs` folder should look like this:
-    ```
+```
     htdocs
     ├── 📂 assets
     ├── 📂 cdn
@@ -36,7 +36,7 @@
     ├── 📄 setup.html
     ├── 📄 signup.html
     ├── 📄 tos.html
-    ```
+```
 
 8. (Optional) Download the offline gamefiles and extract them to `htdocs/cdn/gamefiles/`.
 
