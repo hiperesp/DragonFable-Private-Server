@@ -8,10 +8,12 @@ use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
 use hiperesp\server\projection\CharacterProjection;
 use hiperesp\server\services\WebApiService;
+use hiperesp\server\services\WebStatsService;
 
 class GameController extends Controller {
 
     #[Inject] private WebApiService $webApiService;
+    #[Inject] private WebStatsService $webStatsService;
 
     #[Request(
         endpoint: '/DFversion.asp',
@@ -19,7 +21,7 @@ class GameController extends Controller {
         outputType: Output::FORM
     )]
     public function version(): array {
-        return $this->webApiService->version();
+        return $this->webStatsService->version();
     }
 
     #[Request(
