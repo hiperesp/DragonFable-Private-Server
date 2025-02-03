@@ -29,7 +29,7 @@ class WebStatsService extends Service {
         $settings = $this->getSettings();
 
         try {
-            $onlineUsers = new CharacterModel()->getOnlineCount();
+            $onlineUsers = (new CharacterModel())->getOnlineCount();
         } catch(DFException $e) {
             $onlineUsers = 0;
         }
