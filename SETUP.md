@@ -76,7 +76,23 @@ If you are using SQLite, you can manage the database using the [DB Browser for S
 
 ### 4. Upgrading the server:
 
-Setup the database using [upgrade tool](UPGRADE.md).
+If you want to upgrade the server to a newer version, you can follow the steps below:
+
+1. If you are using SQLite, backup the `db.sqlite3` file. If you used the default path, this file is located in `server-emulator/data/db.sqlite3`.
+
+2. Delete all the files in the `htdocs` folder.
+
+3. Do the same steps 4 to 8 in the `Prepare files` section.
+
+4. If you are using SQLite, move the `db.sqlite3` file you backed up to the old path.
+
+5. Access the setup page at `http://localhost/setup.html` in your browser.
+
+6. Select the database type you are using, fill the fields with the same values you used before.
+
+7. Click the `Setup` button and wait some minutes. The server will create the necessary tables and will add all the game data.
+
+8. After the setup is complete, you can play the game at `http://localhost/`.
 
 ## Using Docker:
 
