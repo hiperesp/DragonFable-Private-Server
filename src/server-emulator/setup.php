@@ -4,7 +4,10 @@ $base = __DIR__;
 
 try {
     if(!canSetup()) {
-        throw new \Exception("The server is already setup. If you want to setup again, please delete the .config.php file or remove the environment variables.");
+        die(\json_encode([
+            "success" => true,
+            "message" => "The server is already setup. If you want to setup again, please delete the .config.php file or remove the environment variables. Nothing was changed."
+        ]));
     }
 
     generateConfig();
