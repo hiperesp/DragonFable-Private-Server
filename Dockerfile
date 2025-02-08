@@ -4,11 +4,14 @@ RUN a2enmod rewrite headers
 
 RUN docker-php-ext-install pdo_mysql
 
+USER www-data
+
 COPY src/cdn/ /var/www/html/cdn/
 COPY src/server-emulator/ /var/www/html/server-emulator/
-COPY src/web/ /var/www/html/
+COPY src/web/ /var/www/html/web/
 
-RUN chown -R www-data:www-data /var/www/html
-RUN chmod -R 755 /var/www/html
+RUN ln -s /var/www/html/web/assets/ /var/www/html/assets
+RUN find /var/www/html/web/ -name "*.html" -exec ln -s {} /var/www/html/ \;
+RUN echo "Deny from all" > /var/www/html/web/.htaccess
 
 EXPOSE 80

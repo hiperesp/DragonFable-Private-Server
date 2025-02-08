@@ -1,6 +1,8 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\storage;
 
+use hiperesp\server\exceptions\DBConfigException;
+
 abstract class Storage {
 
     protected readonly string $prefix;
@@ -163,6 +165,9 @@ abstract class Storage {
     final public static function getStorage(): Storage {
         global $config;
 
+        if(!$config["DB_DRIVER"] || !$config["DB_OPTIONS"]) {
+            throw new DBConfigException("Database driver or options not set in config");
+        }
         $driver = $config["DB_DRIVER"];
         $options = \json_decode($config["DB_OPTIONS"], true);
 
@@ -172,13 +177,24 @@ abstract class Storage {
         return self::$instance;
     }
 
-    final public function setup(): void {
+    private static function getSetupLockFile(): string {
         global $base;
+        return "{$base}/setup.lock";
+    }
 
-        if(\file_exists("{$base}/setup.lock")) {
+    final public function canSetup(): bool {
+        return !\file_exists(self::getSetupLockFile());
+    }
+
+    final public function getSetupStatus(): string {
+        return \file_get_contents(self::getSetupLockFile());
+    }
+
+    final public function setup(): void {
+        if(!$this->canSetup()) {
             throw new \Exception("Setup error: Setup already done (or in progress). If you want to run setup again, remove the 'setup.lock' file");
         }
-        \file_put_contents("{$base}/setup.lock", 'UPGRADING');
+        \file_put_contents(self::getSetupLockFile(), 'UPGRADING');
 
         $key = \date('YmdHis');
 
@@ -244,6 +260,6 @@ abstract class Storage {
             $this->renameCollection($migrationPrefix, $collection, $productionPrefix, $collection);
         }
 
-        \file_put_contents("{$base}/setup.lock", 'DONE');
+        \file_put_contents(self::getSetupLockFile(), 'DONE');
     }
 }

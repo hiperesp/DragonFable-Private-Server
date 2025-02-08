@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>We're Under Maintenance - DragonFable Private Server Online RPG</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="shortcut icon" href="assets/images/logo-icon-df.png">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script> window.serverLocation = "server-emulator/server.php"; </script>
+        <script> window.maintenance = true; </script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a class="header-logo" href="index.html">
+                <img src="assets/images/logo-sm-df.png">
+            </a>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="signup.html" class="nav-link">Register</a></li>
+                    <li><a href="play.html" class="nav-link">Play</a></li>
+                    <li><a href="manage-account.html" class="nav-link">Manage Account</a></li>
+                    <li><a href="tos.html" class="nav-link">ToS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="content">
+                <div class="container" style="padding: 150px 0;max-width: 700px;margin: 0 auto;">
+                    <div class="section-content content-post">
+                        <h2>We'll be back soon!</h2>
+                        <p>Currently, the DragonFable Private Server is undergoing maintenance to improve the game and fix any issues. We apologize for any inconvenience this may cause and appreciate your patience.</p>
+                        <p>Thank you for your understanding.</p>
+
+                        <progress style="width: 100%;height: 20px;"></progress>
+
+                        <p><b>Stay on this page</b>. You can stay on this page while we perform maintenance. Once the maintenance is complete, you will be redirected to the game website.</p>
+
+                        <p><b>Server Status:</b> <span data-id="server-status"></span>. <b>Last Check:</b> <span data-id="server-time"></span></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <span class="title"><b>&copy; 2024 Unofficial DragonFable Private Server</b></span><br>
+                This is a fan-made project and is not affiliated with or endorsed by the creators of the official DragonFable game.<br>
+                All trademarks and copyrights belong to their respective owners.<br>
+                <div class="footer-info">
+                    <b>Server version:</b> <a data-id="server-git-rev"></a> - <span data-id="server-version"></span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

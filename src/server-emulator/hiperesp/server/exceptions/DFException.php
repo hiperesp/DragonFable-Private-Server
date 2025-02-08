@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\exceptions;
 
-final class DFException extends \Exception {
+class DFException extends \Exception {
 
     const DYNAMIC_ERROR = "000.00";
 
@@ -20,7 +20,7 @@ final class DFException extends \Exception {
     const MERGE_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
     const HOUSE_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
     const INTERFACE_NOT_FOUND = self::INVALID_REFERENCE;
-    const SETTINGS_NOT_FOUND = self::INVALID_REFERENCE;
+    const SETTINGS_NOT_FOUND = "000.01";
     const CATEGORY_NOT_FOUND = self::INVALID_REFERENCE;
     const CURRENCY_NOT_FOUND = self::INVALID_REFERENCE;
     const CANNOT_BUY_ITEM = self::INVALID_REFERENCE;

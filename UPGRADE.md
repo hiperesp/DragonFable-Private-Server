@@ -9,5 +9,3 @@ Don't forget to backup your `.config.php` file if you have any custom settings. 
 ## New data
 
 Ensure that your `server-emulator/setup.lock` file is removed, so the server will run the setup again.
-
-Go to `/server-emulator/server.php/dev/` in your browser and click on `Setup/upgrade server` to apply the new data.

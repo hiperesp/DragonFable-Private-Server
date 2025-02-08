@@ -7,10 +7,10 @@ if(\file_exists("{$base}/.config.php")) {
 }
 
 if(!isset($config['DB_DRIVER'])) {
-    $config['DB_DRIVER'] = \getenv("DB_DRIVER");
+    $config['DB_DRIVER'] = \getenv("DB_DRIVER") ?: NULL;
 }
 if(!isset($config['DB_OPTIONS'])) {
-    $config['DB_OPTIONS'] = \getenv("DB_OPTIONS");
+    $config['DB_OPTIONS'] = \getenv("DB_OPTIONS") ?: NULL;
 }
 if(!isset($config['DF_SETTINGS_ID'])) {
     $config['DF_SETTINGS_ID'] = \getenv("DF_SETTINGS_ID");
@@ -22,12 +22,6 @@ if(!isset($config['GIT_REV'])) {
     $config['GIT_REV'] = \getenv("GIT_REV");
 }
 
-if(!$config["DB_DRIVER"]) {
-    throw new \Exception("The environment variable DB_DRIVER is not defined.");
-}
-if(!$config["DB_OPTIONS"]) {
-    throw new \Exception("The environment variable DB_OPTIONS is not defined.");
-}
 if(!$config["DF_SETTINGS_ID"]) {
     $config["DF_SETTINGS_ID"] = 1;
 }
