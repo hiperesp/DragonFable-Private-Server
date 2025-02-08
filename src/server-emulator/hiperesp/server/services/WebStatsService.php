@@ -1,9 +1,11 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
-use hiperesp\server\exceptions\DFException;
+use hiperesp\server\exceptions\DBConfigException;
+use hiperesp\server\exceptions\SettingsNotFoundException;
 use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\SettingsModel;
+use hiperesp\server\storage\Storage;
 use hiperesp\server\vo\SettingsVO;
 
 class WebStatsService extends Service {
@@ -30,7 +32,7 @@ class WebStatsService extends Service {
 
         try {
             $onlineUsers = (new CharacterModel())->getOnlineCount();
-        } catch(DFException $e) {
+        } catch(\Exception $e) {
             $onlineUsers = 0;
         }
         return [
@@ -45,28 +47,45 @@ class WebStatsService extends Service {
     private function getSettings(): SettingsVO|null {
         try {
             return (new SettingsModel)->getSettings();
-        } catch(\Exception $e) {
+        } catch(DBConfigException $e) {
+            // config is not ready yet
+            return null;
+        } catch(SettingsNotFoundException $e) {
+            // tables are not ready yet
             return null;
         }
     }
 
     private function getStatus(): array {
-        global $base;
+        global $base, $config;
 
-        if(!\file_exists("{$base}/setup.lock")) {
+        try {
+            $storage = Storage::getStorage();
+        } catch(DBConfigException $e) {
+            return [
+                'online' => false,
+                'text' => 'Setup Needed',
+                'color' => 'hsl(0deg, 60%, 50%)',
+                'special' => 'SETUP',
+            ];
+        }
+
+        if($storage->canSetup()) {
             return [
                 'online' => false,
                 'text' => 'Upgrade Needed',
                 'color' => 'hsl(0deg, 60%, 50%)',
+                'special' => 'UPGRADE',
             ];
         }
 
-        $setupStatusTxt = \file_get_contents("{$base}/setup.lock");
+        $setupStatusTxt = $storage->getSetupStatus();
         if($setupStatusTxt === 'UPGRADING') {
             return [
                 'online' => false,
                 'text' => 'Upgrading',
                 'color' => 'hsl(60deg, 60%, 50%)',
+                'special' => 'MAINTENANCE',
             ];
         }
         if($setupStatusTxt === 'DONE') {
@@ -74,6 +93,7 @@ class WebStatsService extends Service {
                 'online' => true,
                 'text' => 'Online',
                 'color' => 'hsl(110deg, 60%, 50%)',
+                'special' => 'DONE',
             ];
         }
         if(!$setupStatusTxt) {
@@ -83,6 +103,7 @@ class WebStatsService extends Service {
             'online' => false,
             'text' => "Unknown ({$setupStatusTxt})",
             'color' => 'hsl(200deg, 60%, 50%)',
+            'special' => 'ERROR',
         ];
     }
 }

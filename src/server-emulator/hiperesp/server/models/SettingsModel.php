@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\models;
 
-use hiperesp\server\exceptions\DFException;
+use hiperesp\server\exceptions\SettingsNotFoundException;
 use hiperesp\server\vo\SettingsVO;
 
 class SettingsModel extends Model {
@@ -13,7 +13,7 @@ class SettingsModel extends Model {
         if(isset($settings[0]) && $settings = $settings[0]) {
             return new SettingsVO($settings);
         }
-        throw new DFException(DFException::SETTINGS_NOT_FOUND);
+        throw new SettingsNotFoundException;
     }
 
     private static SettingsVO $_settings;

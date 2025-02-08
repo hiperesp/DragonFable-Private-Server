@@ -25,6 +25,44 @@
     margin-top: -4px;
 }
 
+.nav-tabs .nav-link {
+    color: inherit;
+}
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-bottom-color: var(--bs-nav-link-color);
+    font-weight: 500;
+}
+.nav-tabs .nav-link:not(.active):focus, .nav-tabs .nav-link:not(.active):hover {
+    border-color: transparent;
+    border-bottom-color: var(--bs-gray-500);
+}
+.breadcrumb-item > a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+.breadcrumb-item.active > a:hover {
+    text-decoration: inherit;
+    color: var(--bs-black);
+}
+
+.btn-toggle {
+    padding: .25rem .5rem;
+    color: var(--bs-emphasis-color);
+    background-color: transparent;
+    cursor: not-allowed;
+}
+.btn-toggle:hover,
+.btn-toggle:focus,
+.btn-toggle.active {
+    background-color: var(--bs-tertiary-bg);
+}
+.btn-toggle.active {
+    font-weight: bold;
+    cursor: pointer;
+}
     </style>
 
     <!-- HiperDialog -->
@@ -35,7 +73,6 @@
 
     <!-- Custom -->
     <script> window.serverLocation = "server-emulator/server.php"; </script>
-    <script> window.setupLocation = "server-emulator/setup.php"; </script>
     <script src="assets/js/script.js"></script>
 </head>
 <body>
@@ -65,17 +102,52 @@
 
     </header>
 
-    <main>
+    <main id="setup-server-container">
         <div class="container pt-3">
             <div class="mx-2">
                 <div class="row">
-                    <div class="offset-md-3 col-md-6 pt-3">
-                        <h4>Database</h4>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled pb-2 mb-1">
+                            <li class="pt-2 pb-1 small fw-bold">Setup</li>
+                            <li>
+                                <a class="mb-1 btn-toggle text-decoration-none d-block rounded" data-type="setup-menu" data-menu="setup">
+                                    1. Config File
+                                </a>
+                            </li>
+                            <li>
+                                <a class="mb-1 btn-toggle text-decoration-none d-block rounded" data-type="setup-menu" data-menu="upgrade">
+                                    2. Game Data
+                                </a>
+                            </li>
+                            <li>
+                                <a class="mb-1 btn-toggle text-decoration-none d-block rounded" data-type="setup-menu" data-menu="play">
+                                    3. Play
+                                </a>
+                            </li>
+                        </ul>
+                        <hr class="d-md-none">
+                    </div>
+                    <div class="col-md-6 pt-3" data-type="setup-tab" data-tab="loading">
+                        <h4>Loading...</h4>
+                        <p class="text-body-secondary">Please wait</p>
+
+                        <hr>
+
+                        <div id="loading-container">
+                            <div class="text-center">
+                                <div class="spinner-border spin-custom" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-3" data-type="setup-tab" data-tab="setup">
+                        <h4>Config File</h4>
                         <p class="text-body-secondary">Database settings</p>
 
                         <hr>
 
-                        <div id="setup-server-container">
+                        <div>
 
                             <div class="form-group mb-3">
                                 <label class="small fw-bold">Driver</label>
@@ -94,12 +166,12 @@
                                 <div class="form-group mt-3">
                                     <label class="small fw-bold">Location</label>
                                     <input type="text" class="form-control" name="location" value="">
-                                    <div class="small text-body-secondary">You can leave this empty to use the default location.</div>
+                                    <div class="small text-body-secondary">By default, it will be the relative path "server-emulator/data/db.sqlite3" file.</div>
                                 </div>
                                 <div class="form-group mt-3">
                                     <label class="small fw-bold">Prefix</label>
                                     <input type="text" class="form-control" name="prefix" value="df_">
-                                    <div class="small text-body-secondary">Table prefix. You can leave this empty or use a custom prefix. By default, it uses "df_".</div>
+                                    <div class="small text-body-secondary">Table prefix. By default, it uses "df_".</div>
                                 </div>
 
                                 <hr>
@@ -137,7 +209,7 @@
                                 <div class="form-group mt-3">
                                     <label class="small fw-bold">Prefix</label>
                                     <input type="text" class="form-control" name="prefix" value="df_">
-                                    <div class="small text-body-secondary">Table prefix. You can leave this empty or use a custom prefix. By default, it uses "df_".</div>
+                                    <div class="small text-body-secondary">Table prefix. By default, it uses "df_".</div>
                                 </div>
 
                                 <hr>
@@ -145,6 +217,30 @@
 
                             <div class="mb-3">
                                 <button type="button" data-id="setup-button" class="btn btn-dark w-100">Setup</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-3" data-type="setup-tab" data-tab="upgrade">
+                        <h4>Game Data</h4>
+                        <p class="text-body-secondary">Game data upgrade</p>
+
+                        <hr>
+
+                        <div id="game-data-upgrade-container">
+                            <div class="mb-3">
+                                <button type="button" data-id="upgrade-button" class="btn btn-dark w-100">Upgrade</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-3" data-type="setup-tab" data-tab="play">
+                        <h4>Done!</h4>
+                        <p class="text-body-secondary">Play</p>
+
+                        <hr>
+
+                        <div id="game-data-upgrade-container">
+                            <div class="mb-3">
+                                <button type="button" data-id="play-button" class="btn btn-dark w-100">Play!</button>
                             </div>
                         </div>
                     </div>

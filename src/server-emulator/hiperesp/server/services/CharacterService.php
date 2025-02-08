@@ -145,31 +145,6 @@ class CharacterService extends Service {
     }
 
     public function loadClass(CharacterVO $char, int $newClassId): ClassVO {
-        if($newClassId != $char->classId) {
-            if($this->settings->revalidateClientValues) {
-                $validClass = false;
-                foreach($this->characterItemModel->getByChar($char) as $characterItem) {
-                    $item = $characterItem->getItem();
-                    if(!$item->isArmor()) {
-                        continue;
-                    }
-                    if(\trim($item->swf)==(string)$newClassId) {
-                        $validClass = true;
-                        break;
-                    }
-                }
-                if(!$validClass) {
-                    $actionLog = $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'loadClass', "Invalid class for loadClass. User does not have the required item.", $char, $char, [
-                        'newClassId' => $newClassId
-                    ]);
-                    if($this->settings->banInvalidClientValues) {
-                        $this->userService->ban($char, 'Invalid class for loadClass.', $actionLog);
-                    }
-                    throw $actionLog->asException(DFException::INVALID_REFERENCE);
-                }
-            }
-        }
-
         try {
             $class = $this->classModel->getById($newClassId);
         } catch(DFException $e) {

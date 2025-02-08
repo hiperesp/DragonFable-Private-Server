@@ -1,5 +1,4 @@
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !/server\.php$ [NC]
-RewriteCond %{REQUEST_FILENAME} !/setup\.php$ [NC]
 RewriteRule .* - [F,L]

@@ -68,8 +68,36 @@ window.addEventListener("load", function() {
             });
 
             listeners.status.forEach(function(element) {
+                const alertDialog = window.alertDialog || window.alert;
+
                 element.textContent = serverStatus.status?.text ? serverStatus.status.text : "Offline";
                 element.style.color = serverStatus.status?.color? serverStatus.status.color: "hsl(0deg, 60%, 50%)";
+                switch(serverStatus.status?.special) {
+                    case "SETUP":
+                    case "UPGRADE":
+                        window.location.href = "setup.html";
+                        break;
+                    case "MAINTENANCE":
+                        if(window.maintenance) return; // Avoid redirect loop
+                        window.location.href = "maintenance.html";
+                        break;
+                    case "ERROR":
+                        if(window.updateServerInfo_error) return; // Avoid alert spam
+                        window.updateServerInfo_error = serverStatus;
+                        alertDialog("An unexpected error occurred. PLease contact the administrator. See the console for more details.", "Error");
+                        console.error("See `window.updateServerInfo_error` for more details", serverStatus);
+                        break;
+                    case "DONE":
+                        if(window.maintenance) {
+                            window.location.href = "index.html";
+                        }
+                        break;
+                    default:
+                        if(window.updateServerInfo_offline) return; // Avoid alert spam
+                        window.updateServerInfo_offline = serverStatus;
+                        console.error("See `window.updateServerInfo_offline` for more details", serverStatus);
+                        break;
+                }
             });
 
             listeners.version.forEach(function(element) {
@@ -315,153 +343,207 @@ window.addEventListener("load", function() {
         }
     })();
 
-    if(window.setupLocation) {
-        (function() {
-            function startSetupServer(setupServerScreen, serverLocation, setupLocation) {
-                const dbDriverEl = setupServerScreen.querySelector("[name='DB_DRIVER']");
-                const setupButtonEl = setupServerScreen.querySelector("[data-id='setup-button']");
-                let dbOptions = {};
-
-                dbDriverEl.addEventListener("change", function() {
-                    const driver = dbDriverEl.value;
-                    dbOptions = {};
-
-                    setupServerScreen.querySelectorAll("[data-if-driver]").forEach(function(element) {
-                        const ifDriver = element.dataset.ifDriver;
-
-                        if(ifDriver == driver) {
-                            element.style.display = "block";
-                            element.querySelectorAll("[name]").forEach(function(input) {
-                                dbOptions[input.name] = input;
-                            });
-                        } else {
-                            element.style.display = "none";
-                        }
-                    });
-                });
-                dbDriverEl.dispatchEvent(new Event("change"));
-
-                setupButtonEl.addEventListener("click", async function() {
-                    const data = {
-                        DB_DRIVER: dbDriverEl.value,
-                        DB_OPTIONS: {},
-                    };
-                    for(const key in dbOptions) {
-                        const input = dbOptions[key];
-                        data.DB_OPTIONS[key] = input.value;
+    (function() {
+        async function startSetupServer(setupServerScreen, serverLocation) {
+            function getServerStatus() {
+                return fetch(serverLocation+"/api/web-stats.json")
+                    .then(response => response.json());
+            }
+            function getDefaults() {
+                return fetch(serverLocation+"/setup/defaults")
+                    .then(response => response.json());
+            }
+            function setTab(step) {
+                document.querySelectorAll("[data-type='setup-menu']").forEach(function(element) {
+                    if(element.dataset.menu==step) {
+                        element.classList.add("active");
+                    } else {
+                        element.classList.remove("active");
                     }
+                });
+                document.querySelectorAll("[data-type='setup-tab']").forEach(function(element) {
+                    if(element.dataset.tab==step) {
+                        element.style.display = "block";
+                    } else {
+                        element.style.display = "none";
+                    }
+                });
+            }
+            await getDefaults().then(data => {
+                for (const [key, value] of Object.entries(data)) {
+                    setupServerScreen.querySelector(key).value = value;
+                }
+            });
+            setTab("loading");
+            getServerStatus().then(data => {
+                if(data.status.special == "SETUP") {
+                    setTab("setup");
+                } else if(data.status.special == "UPGRADE") {
+                    setTab("upgrade");
+                } else if(data.status.special == "MAINTENANCE") {
+                    setTab("loading");
+                    setTimeout(function() {
+                        window.location.reload();
+                    }, 5000);
+                    return;
+                } else {
+                    setTab("play");
+                }
+            });
 
-                    disableSetupButton([
-                        "Creating config file...",
-                    ]);
-                    const response = await fetch(setupLocation, {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify(data)
-                    }).then(response => response.json())
-                    .catch(error => {
-                        console.error(error);
-                        return { success: false, message: "An unexpected error occurred. Please try again later." };
-                    });
+            const dbDriverEl = setupServerScreen.querySelector("[name='DB_DRIVER']");
+            const setupButtonEl = setupServerScreen.querySelector("[data-id='setup-button']");
+            let dbOptions = {};
 
-                    enableSetupButton("Setup");
-                    await alertDialog(response.message);
+            dbDriverEl.addEventListener("change", function() {
+                const driver = dbDriverEl.value;
+                dbOptions = {};
 
-                    if(response.success) {
-                        setupButtonEl.disabled = true;
+                setupServerScreen.querySelectorAll("[data-if-driver]").forEach(function(element) {
+                    const ifDriver = element.dataset.ifDriver;
 
-                        disableSetupButton([
-                            "Initializing database structures...",
-                            "Casting data into the tables...",
-                            "Syncing inventory data...",
-                            "Filling up the item categories...",
-                            "Aligning quest details...",
-                            "Injecting user data into the system...",
-                            "Clearing old logs... for a fresh start!",
-                            "Populating the shop with rare treasures...",
-                            "Loading the character profiles...",
-                            "Building the database foundations...",
-                            "Filling the world with monsters...",
-                            "Patching up the merge shops...",
-                            "Loading race and class data...",
-                            "Configuring the houses for new adventurers...",
-                            "Pushing item data into the market...",
-                            "Warming up the quest system...",
-                            "Loading shop inventories...",
-                            "Filling the hair shops with new styles...",
-                            "Binding items to characters...",
-                            "Setting up the monster spawn points...",
-                            "Filling quest logs with new tasks...",
-                            "Establishing house shop parameters...",
-                            "Deploying character and item linkages...",
-                            "Synchronizing shop-item relations...",
-                            "Inserting house inventory data...",
-                            "Updating the merge recipes...",
-                            "Seeding the character data...",
-                            "Populating the system with item details...",
-                            "Activating quest-monster relationships...",
-                            "Sealing the database with new entries...",
-                        ]);
-
-                        const response = await fetch(serverLocation+"/dev/database/setup", {
-                            method: "POST",
-                            body: ""
-                        }).then(response => response.text())
-                        .catch(async error => {
-                            console.error(error);
-                            await alertDialog("An unexpected error occurred. Please try again later.");
+                    if(ifDriver == driver) {
+                        element.style.display = "block";
+                        element.querySelectorAll("[name]").forEach(function(input) {
+                            dbOptions[input.name] = input;
                         });
-
-                        disableSetupButton([
-                            "Setup completed",
-                        ], false);
-
-                        await alertDialog(response);
+                    } else {
+                        element.style.display = "none";
                     }
                 });
-            }
-            let setupButtonTextsInterval = null;
-            function enableSetupButton(text) {
-                const setupButtonEl = document.querySelector("[data-id='setup-button']");
-                setupButtonEl.disabled = false;
-                setupButtonEl.textContent = text;
-                setupButtonEl.classList.remove("spin-custom");
-                if(setupButtonTextsInterval) {
-                    clearInterval(setupButtonTextsInterval);
-                    setupButtonTextsInterval = null;
-                }
-            }
-            function disableSetupButton(texts, spinner = true) {
-                const setupButtonEl = document.querySelector("[data-id='setup-button']");
-                setupButtonEl.disabled = true;
-                setupButtonEl.textContent = "";
+            });
+            dbDriverEl.dispatchEvent(new Event("change"));
 
-                if(setupButtonTextsInterval) {
-                    clearInterval(setupButtonTextsInterval);
-                    setupButtonTextsInterval = null;
+            setupButtonEl.addEventListener("click", async function() {
+                const data = {
+                    DB_DRIVER: dbDriverEl.value,
+                    DB_OPTIONS: {},
+                };
+                for(const key in dbOptions) {
+                    const input = dbOptions[key];
+                    data.DB_OPTIONS[key] = input.value;
                 }
 
-                let i = 0;
-                function nextText() {
-                    const text = texts[i] + (spinner ? " " : "");
-                    setupButtonEl.textContent = text;
-                    if(spinner) {
-                        const spinnerEl = document.createElement("i");
-                        spinnerEl.classList.add("bi", "bi-arrow-repeat", "spin-custom");
-                        setupButtonEl.appendChild(spinnerEl);
-                    }
-                    i = (i + 1) % texts.length;
+                disableButton(setupButtonEl, [
+                    "Creating config file...",
+                ]);
+                const response = await fetch(serverLocation+"/setup/create-config", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                }).then(response => response.json())
+                .catch(error => {
+                    console.error(error);
+                    return { success: false, message: "An unexpected error occurred. Please try again later." };
+                });
+
+                await alertDialog(response.message);
+
+                if(response.success) {
+                    window.location.reload();
+                    return;
                 }
-                setupButtonTextsInterval = setInterval(nextText, 3000);
-                nextText();
+                enableButton(setupButtonEl, "Setup");
+            });
+
+            const upgradeButtonEl = setupServerScreen.querySelector("[data-id='upgrade-button']");
+            upgradeButtonEl.addEventListener("click", async function() {
+                disableButton(upgradeButtonEl, [
+                    "Initializing database structures...",
+                    "Casting data into the tables...",
+                    "Syncing inventory data...",
+                    "Filling up the item categories...",
+                    "Aligning quest details...",
+                    "Injecting user data into the system...",
+                    "Clearing old logs... for a fresh start!",
+                    "Populating the shop with rare treasures...",
+                    "Loading the character profiles...",
+                    "Building the database foundations...",
+                    "Filling the world with monsters...",
+                    "Patching up the merge shops...",
+                    "Loading race and class data...",
+                    "Configuring the houses for new adventurers...",
+                    "Pushing item data into the market...",
+                    "Warming up the quest system...",
+                    "Loading shop inventories...",
+                    "Filling the hair shops with new styles...",
+                    "Binding items to characters...",
+                    "Setting up the monster spawn points...",
+                    "Filling quest logs with new tasks...",
+                    "Establishing house shop parameters...",
+                    "Deploying character and item linkages...",
+                    "Synchronizing shop-item relations...",
+                    "Inserting house inventory data...",
+                    "Updating the merge recipes...",
+                    "Seeding the character data...",
+                    "Populating the system with item details...",
+                    "Activating quest-monster relationships...",
+                    "Sealing the database with new entries...",
+                ]);
+
+                const response = await fetch(serverLocation+"/setup/upgrade-database", {
+                    method: "POST",
+                    body: ""
+                }).then(response => response.json())
+                .catch(error => {
+                    console.error(error);
+                    return { success: false, message: "An unexpected error occurred. Please try again later." };
+                });
+
+                await alertDialog(response.message);
+
+                if(response.success) {
+                    window.location.reload();
+                    return;
+                }
+                enableButton(upgradeButtonEl, "Upgrade");
+
+            });
+
+            const playButtonEl = document.querySelector("[data-id='play-button']");
+            playButtonEl.addEventListener("click", function() {
+                window.location.href = "index.html";
+            });
+        }
+        let setupButtonTextsInterval = null;
+        function enableButton(buttonEl, text) {
+            buttonEl.disabled = false;
+            buttonEl.textContent = text;
+            buttonEl.classList.remove("spin-custom");
+            if(setupButtonTextsInterval) {
+                clearInterval(setupButtonTextsInterval);
+                setupButtonTextsInterval = null;
+            }
+        }
+        function disableButton(buttonEl, texts, spinner = true) {
+            buttonEl.disabled = true;
+            buttonEl.textContent = "";
+
+            if(setupButtonTextsInterval) {
+                clearInterval(setupButtonTextsInterval);
+                setupButtonTextsInterval = null;
             }
 
-            const setupServerScreen = document.querySelector("#setup-server-container");
-            if(setupServerScreen) {
-                startSetupServer(setupServerScreen, window.serverLocation, window.setupLocation);
+            let i = 0;
+            function nextText() {
+                const text = texts[i] + (spinner ? " " : "");
+                buttonEl.textContent = text;
+                if(spinner) {
+                    const spinnerEl = document.createElement("i");
+                    spinnerEl.classList.add("bi", "bi-arrow-repeat", "spin-custom");
+                    buttonEl.appendChild(spinnerEl);
+                }
+                i = (i + 1) % texts.length;
             }
-        })();
-    }
+            setupButtonTextsInterval = setInterval(nextText, 3000);
+            nextText();
+        }
+
+        const setupServerScreen = document.querySelector("#setup-server-container");
+        if(setupServerScreen) {
+            startSetupServer(setupServerScreen, window.serverLocation);
+        }
+    })();
 });

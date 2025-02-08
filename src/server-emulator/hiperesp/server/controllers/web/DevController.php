@@ -50,12 +50,6 @@ class DevController extends Controller {
         </form>
     </fieldset>
     <fieldset>
-        <legend>Database</legend>
-        <form action="database/setup">
-            <button>Setup/upgrade server</button>
-        </form>
-    </fieldset>
-    <fieldset>
         <legend>Util</legend>
         <form action="sandbox">
             <button>Sandbox</button>
@@ -69,23 +63,6 @@ HTML;
 // create a group with legend with the name of the group and the endpoints
         
         return $output;
-    }
-
-    #[Request(
-        endpoint: '/dev/database/setup',
-        inputType: Input::NONE,
-        outputType: Output::RAW
-    )]
-    public function databaseUpgrade(): string {
-        \ini_set('memory_limit', '16G');
-        \set_time_limit(0);
-        try {
-            $storage = Storage::getStorage();
-            $storage->setup();
-        } catch(\Exception $e) {
-            return $e->getMessage();
-        }
-        return "Database upgrade OK!";
     }
 
     #[Request(
