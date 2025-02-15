@@ -127,6 +127,12 @@ header {
 main {
     &.flash-content {
         display: flex;
+        justify-content: center;
+
+        &>* {
+            background-color: #0f0a02;
+        }
+
         & ~ footer {
             margin-top: 0;
         }
@@ -215,6 +221,83 @@ section.content {
             & .error {
                 color: red;
             }
+        }
+    }
+}
+section.chat {
+    width: 267px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+
+    & .content-chat {
+        height: 576px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 10px 0;
+    }
+
+    & .content-chat-input {
+        border-top: 1px solid gray;
+        padding-top: 8px;
+    }
+
+    & .chat-item {
+        padding: 4px 8px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        background-color: #ffffff20;
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+
+        &.chat-item-me {
+            margin-left: auto;
+            background-color: #fda13820;
+            text-align: right;
+        }
+        &.chat-item-system {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: #ffffff40;
+        }
+        &.chat-item-available {
+            width: 100%;
+            max-width: 100%;
+            text-align: left;
+        }
+        &.chat-item-unlogged {
+            width: 100%;
+            max-width: 100%;
+            text-align: left;
+        }
+
+        & .chat-user {
+            font-family: 'Cinzel';
+            color: #fda138;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+        & .chat-message {
+            font-size: 0.8em;
+            color: #ffffff90;
+            padding: 4px 0;
+            display: inline;
+        }
+        & .chat-time {
+            font-size: 0.7em;
+            color: #ffffff60;
+        }
+
+        & .chat-message-input {
+            background: transparent;
+            border: none;
+            padding: 4px 0;
+            color: #ffffff80;
         }
     }
 }
