@@ -273,6 +273,14 @@ $replaces = [
         setMode('normal');
     }
     ACTIONSCRIPT,
+
+    # ADD CUSTOM FEATURES
+    <<<'ACTIONSCRIPT'
+    _root.game.gotoAndPlay("CharList");
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.game.gotoAndPlay("CharList");
+    flash.external.ExternalInterface.call("hiperesp.dfps.externalInterface.logged", _root.user);
+    ACTIONSCRIPT,
 ];
 
 $chainedAssignmentsReplaces = [];

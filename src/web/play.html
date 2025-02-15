@@ -13,6 +13,8 @@
         <script> window.serverLocation = "server-emulator/server.php"; </script>
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/game.js"></script>
+        <script src="assets/js/game.chat.js"></script>
     </head>
     <body>
         <header>
@@ -41,34 +43,9 @@
                     allowFullScreen="true" width="873" height="640" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
                     pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
             </object>
-            <section class="chat">
-                <div class="section-content content-chat">
-                    <div class="chat-item chat-item-system">
-                        <div class="chat-message">Welcome to DragonFable Private Server</div>
-                    </div>
-                    <div class="chat-item chat-item-me">
-                        <div class="chat-user">Hiperesp</div>
-                        <div class="chat-message">Hi!!</div>
-                        <div class="chat-time">5h21 PM</div>
-                    </div>
-                    <div class="chat-item">
-                        <div class="chat-user">DragonLord</div>
-                        <div class="chat-message">Hii, how are you?</div>
-                        <div class="chat-time">5h21 PM</div>
-                    </div>
-                </div>
-                <div class="section-content content-chat-input">
-                    <div class="chat-item chat-item-me chat-item-unlogged">
-                        <div class="chat-user">Unlogged user</div>
-                        <div class="chat-message">Please log in to chat with other players</div>
-                    </div>
-                    <!--
-                        <div class="chat-item chat-item-me chat-item-available">
-                            <div class="chat-user">You</div>
-                            <input class="chat-message-input" placeholder="Escreva aqui sua mensagem">
-                        </div>
-                    -->
-                </div>
+            <section class="chat" id="chat-container">
+                <div class="section-content content-chat" data-id="chat-content"></div>
+                <div class="section-content content-chat-input" data-id="chat-input"></div>
             </section>
         </main>
         <footer>

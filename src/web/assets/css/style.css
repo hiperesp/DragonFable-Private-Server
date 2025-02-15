@@ -238,6 +238,7 @@ section.chat {
         flex-direction: column;
         justify-content: flex-end;
         padding: 10px 0;
+        position: relative;
     }
 
     & .content-chat-input {
@@ -264,6 +265,17 @@ section.chat {
             margin-right: auto;
             text-align: center;
             background-color: #ffffff40;
+        }
+        &.chat-item-pinned {
+            position: absolute;
+            top: 0px;
+            right: -10px;
+            padding: 20px;
+            width: calc(100% + 20px);
+            max-width: calc(100% + 20px);
+            border-bottom: 1px solid gray;
+            border-radius: 0;
+            backdrop-filter: blur(5px);
         }
         &.chat-item-available {
             width: 100%;
