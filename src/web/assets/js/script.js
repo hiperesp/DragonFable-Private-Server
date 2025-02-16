@@ -551,17 +551,33 @@ window.addEventListener("load", function() {
             const chatMessagesContainer = chatContainer.querySelector("[data-id='chat-content']");
             const chatInputContainer = chatContainer.querySelector("[data-id='chat-input']");
             hiperesp.dfps.modules.chat.start(serverLocation, {
-                drawChat: function() {
-                    while(chatMessagesContainer.firstChild) {
-                        chatMessagesContainer.removeChild(chatMessagesContainer.firstChild);
+                prepareInputMessage: function(message) {
+                    const input = chatInputContainer.querySelector("input");
+                    if(!input) {
+                        return;
                     }
-
+                    input.value = message;
+                    input.focus();
+                },
+                drawChat: function() {
                     const currentUser = hiperesp.dfps.modules.chat.user;
                     const messages = hiperesp.dfps.modules.chat.messages;
 
+                    chatMessagesContainer.querySelectorAll(".chat-item").forEach(function(element) {
+                        const id = element.dataset.id;
+                        if(!messages.find(message => message.id == id)) {
+                            element.remove();
+                        }
+                    });
+
                     for(const message of messages) {
+                        if(chatMessagesContainer.querySelector(`.chat-item[data-id="${message.id}"]`)) {
+                            continue;
+                        }
+
                         const containerEl = document.createElement("div");
                         containerEl.classList.add("chat-item");
+                        containerEl.dataset.id = message.id;
 
                         const userEl = document.createElement("div");
                         userEl.classList.add("chat-user");
@@ -570,7 +586,11 @@ window.addEventListener("load", function() {
 
                         const messageEl = document.createElement("div");
                         messageEl.classList.add("chat-message");
-                        messageEl.textContent = message.message;
+                        if(message.type == "system" || message.pinned || message.from.isAdmin) {
+                            messageEl.innerHTML = hiperesp.dfps.modules.chat.richText(message.message);
+                        } else {
+                            messageEl.textContent = message.message;
+                        }
                         containerEl.appendChild(messageEl);
 
                         const timeEl = document.createElement("div");

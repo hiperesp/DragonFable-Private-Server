@@ -25,21 +25,6 @@ if(!window.hiperesp) {
                 callback();
             }
         },
-        getUserLevel: function(user) {
-            if(user.UserID == 1) {
-                return "admin";
-            }
-            if(user.intAccessLevel == 0) {
-                return "free";
-            }
-            if(user.intAccessLevel == 1) {
-                return "special";
-            }
-            if(user.intAccessLevel == 2) {
-                return "upgraded";
-            }
-            return "unknown";
-        },
     };
 
     function dispatch(eventName, arguments = []) {

@@ -263,7 +263,6 @@ section.chat {
         &.chat-item-system {
             margin-left: auto;
             margin-right: auto;
-            text-align: center;
             background-color: #ffffff40;
         }
         &.chat-item-pinned {
@@ -299,6 +298,8 @@ section.chat {
             color: #ffffff90;
             padding: 4px 0;
             display: inline;
+            word-wrap: break-word;
+            white-space: pre-wrap;
         }
         & .chat-time {
             font-size: 0.7em;
@@ -308,7 +309,7 @@ section.chat {
         & .chat-message-input {
             background: transparent;
             border: none;
-            padding: 4px 0;
+            padding: 4px;
             color: #ffffff80;
         }
     }

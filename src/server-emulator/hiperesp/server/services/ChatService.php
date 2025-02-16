@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace hiperesp\server\services;
 
+use hiperesp\server\attributes\ChatCommand;
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
 use hiperesp\server\models\UserModel;
@@ -10,48 +11,146 @@ class ChatService extends Service {
 
     #[Inject] private UserModel $userModel;
 
-    private array $commands = [
-        "/help" => [
-            "onlyAdmin" => false,
-            "method" => "commandHelp",
-            "help" => "Show this help message",
-        ],
-        "/ping" => [
-            "onlyAdmin" => false,
-            "method" => "commandPing",
-            "help" => "Pong!",
-        ],
-        "/pin" => [
-            "onlyAdmin" => true,
-            "method" => "commandPin",
-            "help" => "<message> - Pin a message",
-        ],
-        "/pin" => [
-            "onlyAdmin" => true,
-            "method" => "commandPin",
-            "help" => "<message> - Pin a message",
-        ],
-        "/pin_server" => [
-            "onlyAdmin" => true,
-            "method" => "commandPinServer",
-            "help" => "<message> - Pin a message as the server",
-        ],
-        "/unpin" => [
-            "onlyAdmin" => true,
-            "method" => "commandUnpin",
-            "help" => "Unpin the first pinned message",
-        ],
-        "/server" => [
-            "onlyAdmin" => true,
-            "method" => "commandServer",
-            "help" => "<message> - Send a message as the server",
-        ],
-        "/clear" => [
-            "onlyAdmin" => true,
-            "method" => "commandClear",
-            "help" => "Clear the chat",
-        ],
-    ];
+    #[ChatCommand("/ping", "Display pong")]
+    public function commandPing(UserVO $user): void {
+        $this->addUserMessage(
+            user: null,
+            to: $user,
+            message: 'Pong!'
+        );
+    }
+
+    #[ChatCommand("/pin", "Pin a message", true)]
+    public function commandPin(UserVO $user, string $message): void {
+        $this->addUserMessage(
+            user: $user,
+            message: $message,
+            pinned: true
+        );
+    }
+
+    #[ChatCommand("/pin_server", "Pin a message as the server", true)]
+    public function commandPinServer(UserVO $user, string $message): void {
+        $this->addUserMessage(
+            user: null,
+            message: $message,
+            pinned: true
+        );
+    }
+
+    #[ChatCommand("/unpin", "Unpin the first pinned message", true)]
+    public function commandUnpin(UserVO $user): void {
+        $chatFile = $this->getChatFile();
+        $messages = \json_decode(\file_get_contents($chatFile), true);
+        \array_shift($messages['pinned']);
+        \file_put_contents($chatFile, \json_encode($messages));
+    }
+
+    #[ChatCommand("/server", "Send a message as the server", true)]
+    public function commandServer(UserVO $user, string $message): void {
+        $this->addUserMessage(
+            user: null,
+            message: $message
+        );
+    }
+
+    #[ChatCommand("/vanish", "Clear all messages sent from you")]
+    public function commandVanish(UserVO $user): void {
+        $chatFile = $this->getChatFile();
+        $messages = \json_decode(\file_get_contents($chatFile), true);
+        $messages['global'] = \array_filter($messages['global'], fn($m) => $m['from']['id'] != $user->id);
+        \file_put_contents($chatFile, \json_encode($messages));
+    }
+
+    #[ChatCommand("/clear_user", "Clear all messages from a specific user (by ID)", true)]
+    public function commandClearUser(UserVO $user, int $userId): void {
+        $chatFile = $this->getChatFile();
+        $messages = \json_decode(\file_get_contents($chatFile), true);
+        $messages['global'] = \array_filter($messages['global'], fn($m) => $m['from']['id'] != $userId);
+        \file_put_contents($chatFile, \json_encode($messages));
+    }
+
+    #[ChatCommand("/clear", "Clear all global messages", true)]
+    public function commandClearGlobal(UserVO $user): void {
+        $chatFile = $this->getChatFile();
+        $messages = \json_decode(\file_get_contents($chatFile), true);
+        $messages['global'] = [];
+        \file_put_contents($chatFile, \json_encode($messages));
+    }
+
+    #[ChatCommand("/clear_pinned", "Clear the pinned messages", true)]
+    public function commandClearAll(UserVO $user): void {
+        $chatFile = $this->getChatFile();
+        $messages = \json_decode(\file_get_contents($chatFile), true);
+        $messages['pinned'] = [];
+        \file_put_contents($chatFile, \json_encode($messages));
+    }
+
+    #[ChatCommand("/clear_all", "Clear the messages for all users, but keep pinned messages", true)]
+    public function commandClear(UserVO $user): void {
+        $chatFile = $this->getChatFile();
+        \file_put_contents($chatFile, \json_encode([
+            'global' => [],
+            'pinned' => [],
+        ]));
+    }
+
+    #[ChatCommand("/help")]
+    public function commandHelp(UserVO $user): void {
+        $helpText = "Available commands:\n";
+
+        $rClass = new \ReflectionClass($this);
+        foreach($rClass->getMethods() as $rMethod) {
+            foreach($rMethod->getAttributes(ChatCommand::class) as $rAttribute) {
+                $attribute = $rAttribute->newInstance();
+                if(!$attribute->canCall($user)) {
+                    continue;
+                }
+                if(!$attribute->helpText) {
+                    continue;
+                }
+                $helpText.= "{$attribute->getUsage($rMethod)} - {$attribute->helpText}\n";
+            }
+        }
+
+        $this->addUserMessage(
+            user: null,
+            to: $user,
+            message: $helpText
+        );
+    }
+
+    #[ChatCommand("/msg")]
+    public function message(UserVO $user, string $message): void {
+        $maxMessageLength = 256;
+
+        if($user !== null && $user?->id != 1) {
+            if(\strlen($message) > $maxMessageLength) {
+                $message = \trim(\substr($message, 0, $maxMessageLength)).'...';
+            }
+        }
+
+        $this->addUserMessage(
+            user: $user,
+            message: $message
+        );
+    }
+
+    private function syntaxError(UserVO $user, string $message): void {
+        $this->addUserMessage(
+            user: null,
+            message: $message,
+            to: $user
+        );
+    }
+
+    private function invalidCommand(UserVO $user): void {
+        $this->addUserMessage(
+            user: null,
+            to: $user,
+            message: "Invalid command. Type /help for a list of commands"
+        );
+    }
 
     private function addUserMessage(?UserVO $user, string $message, ?UserVO $to = null, bool $pinned = false): void {
         $chatFile = $this->getChatFile();
@@ -59,13 +158,6 @@ class ChatService extends Service {
 
         $maxGlobalHistory = 64;
         $maxPinnedHistory = 1;
-        $maxMessageLength = 200;
-
-        if($user !== null && $user?->id != 1) {
-            if(\strlen($message) > $maxMessageLength) {
-                $message = \trim(\substr($message, 0, $maxMessageLength)).'...';
-            }
-        }
 
         $messageArrayKey = $pinned ? 'pinned' : 'global';
 
@@ -77,6 +169,7 @@ class ChatService extends Service {
             'from' => [
                 'id' => $user?->id,
                 'username' => $user?->username,
+                'isAdmin' => $user?->id == 1,
             ],
             'to' => $to?->id,
             'message' => $message,
@@ -91,81 +184,6 @@ class ChatService extends Service {
         \file_put_contents($chatFile, \json_encode($messages));
     }
 
-    private function invalidCommand(UserVO $user): void {
-        $this->addUserMessage(
-            user: null,
-            to: $user,
-            message: "Invalid command. Type /help for a list of commands"
-        );
-    }
-
-    private function commandPing(UserVO $user): void {
-        $this->addUserMessage(
-            user: null,
-            to: $user,
-            message: 'Pong!'
-        );
-    }
-
-    private function commandPin(UserVO $user, string $message): void {
-        $this->addUserMessage(
-            user: $user,
-            message: $message,
-            pinned: true
-        );
-    }
-
-    private function commandPinServer(UserVO $user, string $message): void {
-        $this->addUserMessage(
-            user: null,
-            message: $message,
-            pinned: true
-        );
-    }
-
-    private function commandUnpin(UserVO $user): void {
-        $chatFile = $this->getChatFile();
-        $messages = \json_decode(\file_get_contents($chatFile), true);
-        \array_shift($messages['pinned']);
-        \file_put_contents($chatFile, \json_encode($messages));
-    }
-
-    private function commandServer(UserVO $user, string $message): void {
-        $this->addUserMessage(
-            user: null,
-            message: $message
-        );
-    }
-
-    private function commandClear(UserVO $user): void {
-        $chatFile = $this->getChatFile();
-        \file_put_contents($chatFile, \json_encode([
-            'global' => [],
-            'pinned' => [],
-        ]));
-    }
-
-    private function noPermission(UserVO $user): void {
-        $this->addUserMessage(
-            user: null,
-            to: $user,
-            message: 'You do not have permission to use this command'
-        );
-    }
-
-    private function commandHelp(UserVO $user): void {
-        $commands = \array_filter($this->commands, function($data) use ($user) {
-            return $user->id == 1 || !$data['onlyAdmin'];
-        });
-        $this->addUserMessage(
-            user: null,
-            to: $user,
-            message: \implode("\n", \array_map(function($command, $data) {
-                return "{$command} - {$data['help']}";
-            }, \array_keys($commands), $commands))
-        );
-    }
-
     public function addMessage(string $userToken, string $message): void {
         $user = $this->userModel->getBySessionToken($userToken);
         if(!$user) {
@@ -173,42 +191,29 @@ class ChatService extends Service {
         }
 
         $message = \trim($message);
-        if(!$message) {
-            return;
+
+        if(\substr($message, 0, 1) != '/') {
+            $message = "/msg {$message}";
         }
 
-        if($message[0] == '/') {
-            $commandMessage = \explode(' ', $message, 2);
-            if(\count($commandMessage) == 1) {
-                $command = $commandMessage[0];
-                $message = '';
-            } else {
-                $command = $commandMessage[0];
-                $message = $commandMessage[1];
-            }
-
-            $command = \strtolower($command);
-
-            $commands = $this->commands;
-
-            if(isset($commands[$command])) {
-                $commandDef = $commands[$command];
-
-                if($commandDef['onlyAdmin'] && $user->id != 1) {
-                    $this->noPermission($user);
-                    return;
+        $rClass = new \ReflectionClass($this);
+        foreach($rClass->getMethods() as $rMethod) {
+            foreach($rMethod->getAttributes(ChatCommand::class) as $rAttribute) {
+                $attribute = $rAttribute->newInstance();
+                try {
+                    $arguments = $attribute->call($rMethod, $user, $message);
+                    if($arguments===null) {
+                        continue;
+                    }
+                    $rMethod->invokeArgs($this, $arguments);
+                } catch(\InvalidArgumentException|\TypeError $e) {
+                    $this->syntaxError($user, $attribute->getUsage($rMethod));
                 }
-                $this->{$commandDef['method']}($user, $message);
-            } else {
-                $this->invalidCommand($user, $message);
-            }
-            return;
+                return;
+            } 
         }
 
-        $this->addUserMessage(
-            user: $user,
-            message: $message
-        );
+        $this->invalidCommand($user);
     }
 
     public function getMessages(?string $userToken): array {
