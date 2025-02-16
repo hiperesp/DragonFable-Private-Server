@@ -70,7 +70,7 @@ class ChatService extends Service {
         \file_put_contents($chatFile, \json_encode($messages));
     }
 
-    #[ChatCommand("/clear", "Clear all global messages", true)]
+    #[ChatCommand("/clear", "Clear all messages, but keep pinned messages", true)]
     public function commandClearGlobal(UserVO $user): void {
         $chatFile = $this->getChatFile();
         $messages = \json_decode(\file_get_contents($chatFile), true);
@@ -84,15 +84,6 @@ class ChatService extends Service {
         $messages = \json_decode(\file_get_contents($chatFile), true);
         $messages['pinned'] = [];
         \file_put_contents($chatFile, \json_encode($messages));
-    }
-
-    #[ChatCommand("/clear_all", "Clear the messages for all users, but keep pinned messages", true)]
-    public function commandClear(UserVO $user): void {
-        $chatFile = $this->getChatFile();
-        \file_put_contents($chatFile, \json_encode([
-            'global' => [],
-            'pinned' => [],
-        ]));
     }
 
     #[ChatCommand("/help")]
