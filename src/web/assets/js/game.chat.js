@@ -32,7 +32,13 @@ window.hiperesp.dfps.addEventListener("load", function() {
             }).then(response => response.json());
         } catch(e) {
             console.error(e);
+            for(let message of hiperesp.dfps.modules.chat.messages) {
+                if(message.id == "error") {
+                    return;
+                }
+            }
             hiperesp.dfps.modules.chat.messages.push({
+                id: "error",
                 type: "system",
                 pinned: true,
                 message: "Can't connect to the chat server. Please try again later.",
