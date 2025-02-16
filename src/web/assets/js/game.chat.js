@@ -85,7 +85,7 @@ window.hiperesp.dfps.addEventListener("load", function() {
 
         // enable links
         safeText = safeText.replace(/(^|\s+)(https?:\/\/[^\s]+)(\s+|$)/g, (match, before, url, after) => {
-            return `${before}<a href="${url}" target="_blank">${match}</a>${after}`;
+            return `${before}<a href="${url}" target="_blank">${url}</a>${after}`;
         });
 
         // apply bold in commands starting with /
