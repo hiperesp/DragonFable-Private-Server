@@ -243,8 +243,7 @@ class ChatService extends Service {
     }
 
     private function getChatFile(): string {
-        global $base;
-        $chatFile = $base.'/data/chat.json';
+        $chatFile = \sys_get_temp_dir().\DIRECTORY_SEPARATOR.'df-chat.json';
         if(!\file_exists($chatFile)) {
             \file_put_contents($chatFile, \json_encode([
                 'global' => [],
