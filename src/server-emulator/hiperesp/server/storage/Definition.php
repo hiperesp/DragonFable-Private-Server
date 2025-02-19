@@ -362,11 +362,6 @@ final class Definition {
                 "gems"              => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "coins"             => [ 'INTEGER', 'DEFAULT' => 0 ],
 
-                "maxBagSlots"       => [ 'INTEGER', 'DEFAULT' => 30 ],
-                "maxBankSlots"      => [ 'INTEGER', 'DEFAULT' => 0 ],
-                "maxHouseSlots"     => [ 'INTEGER', 'DEFAULT' => 5 ],
-                "maxHouseItemSlots" => [ 'INTEGER', 'DEFAULT' => 20 ],
-
                 "dragonAmulet"      => [ 'INTEGER', 'DEFAULT' => 0 ],
                 "pvpStatus"         => [ 'INTEGER', 'DEFAULT' => 0 ],
 
