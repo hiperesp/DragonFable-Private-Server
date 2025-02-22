@@ -117,7 +117,7 @@ function downloadAll(array $thingsToDownload): void {
             echo "[0] Downloading {$thingToDownload} {$i} of {$thing["to"]} {$percentStr}\n";
 
             $success = download($thingToDownload, $i, $skipDownloaded);
-            if($i===$thing["to"] && $success) {
+            if($i>=($thing["to"]-10) && $success) {
                 $lastDownloaded[] = $thingToDownload;
             }
             $currentItem++;
@@ -125,7 +125,7 @@ function downloadAll(array $thingsToDownload): void {
     }
     echo "[0] Downloaded all things\n";
     if($lastDownloaded) {
-        echo "[0] ATTENTION : The following things has the last thing downloaded:\n";
+        echo "[0] ATTENTION : The following things has the last-10 thing downloaded:\n";
         echo "[0] ATTENTION : You should check if there are more things to download\n";
         echo "[0] ATTENTION : Please increase the 'to' value in the array to see if there are more things to download\n";
         foreach($lastDownloaded as $thing) {
