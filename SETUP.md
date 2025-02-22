@@ -5,7 +5,7 @@
 ### Prerequisites:
 
 - [XAMPP 8.2](https://www.apachefriends.org/download.html)
-- [DragonFable Private Server Files](https://github.com/hiperesp/DragonFable-Private-Server/archive/refs/heads/php8.2.zip)
+- [DragonFable Private Server Files (PHP 8.2)](https://github.com/hiperesp/DragonFable-Private-Server/archive/refs/heads/php8.2.zip)
 - **Optional**: [Offline Gamefiles](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-02-01)
 
 ### 1. Prepare files:
@@ -16,7 +16,7 @@
 
 3. Delete everything in the `htdocs` folder.
 
-4. Extract the DragonFable Private Server Files and go to the `src` folder.
+4. Extract the DragonFable Private Server Files (PHP 8.2) and go to the `src` folder.
 
 5. Move the `cdn` and `server-emulator` folders to the `htdocs` folder.
 
