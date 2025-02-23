@@ -14,6 +14,7 @@ enum Output {
     case JSON;
     case REDIRECT;
     case NONE;
+    case EVENT_SOURCE;
 
     public function display(mixed $output): void {
         match($this) {
@@ -24,6 +25,7 @@ enum Output {
             Output::REDIRECT => $this->redirect($output),
             Output::JSON => $this->json($output),
             Output::NONE => null,
+            Output::EVENT_SOURCE => $this->eventSource($output),
         };
     }
 
@@ -37,6 +39,7 @@ enum Output {
             Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
             Output::JSON => $this->json($exception->asArray()),
             Output::NONE => null,
+            Output::EVENT_SOURCE => $this->eventSource($exception->asEventSource()),
         };
     }
 
@@ -82,6 +85,25 @@ enum Output {
         \header("Location: {$url}");
 
         $this->raw("<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"1;url={$url}\"></head><body><h1>Redirecting...</h1><hr><a href=\"{$url}\">Click here if you are not redirected</a></body></html>");
+    }
+
+    private function eventSource(callable $update): void {
+        \http_response_code(200);
+        \header("Content-Type: text/event-stream");
+        \header("Cache-Control: no-cache");
+        \header("Connection: keep-alive");
+
+        while(!\connection_aborted()) {
+            @\ob_flush();
+            @\flush();
+            $data = $update();
+            if($data) {
+                foreach($data as $key => $value) {
+                    echo "{$key}: {$value}\n";
+                }
+                echo "\n";
+            }
+        }
     }
 
 

@@ -230,6 +230,7 @@ section.chat {
     display: flex;
     flex-direction: column;
     height: 640px;
+    overflow: hidden;
 
     & .content-chat {
         height: 576px;
@@ -311,6 +312,10 @@ section.chat {
             border: none;
             padding: 4px;
             color: #ffffff80;
+            border: 1px solid #ffffff80;
+            border-radius: 8px;
+            margin-left: -4px;
+            width: calc(100% + 8px);
         }
     }
 }

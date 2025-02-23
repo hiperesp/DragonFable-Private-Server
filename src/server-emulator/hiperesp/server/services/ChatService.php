@@ -248,4 +248,59 @@ class ChatService extends Service {
         }
         return $chatFile;
     }
+
+    public function eventSource(?string $userToken): callable {
+        $chatFile = $this->getChatFile();
+        $lastTime = null;
+        $fetchedMessages = [];
+        $firstUpdated = false;
+
+        return function() use($userToken, $chatFile, &$firstUpdated, &$fetchedMessages, &$lastTime): array {
+            if($firstUpdated) {
+                // update every 100ms
+                \usleep(100_000);
+            } else {
+                $firstUpdated = true;
+            }
+
+            \clearstatcache();
+            $newTime = \filemtime($chatFile);
+            if($newTime == $lastTime) {
+                return [
+                    "event" => "update"
+                ];
+            }
+
+            $lastTime = $newTime;
+            $newMessages = [];
+
+            $allMessages = $this->getMessages($userToken);
+            foreach($allMessages as $message) {
+                if(\in_array($message['id'], $fetchedMessages)) {
+                    continue;
+                }
+                $newMessages[] = $message;
+                $fetchedMessages[] = $message['id'];
+            }
+
+            $removedMessages = [];
+            foreach($fetchedMessages as $key => $messageId) {
+                if(\in_array($messageId, \array_column($allMessages, 'id'))) {
+                    continue;
+                }
+                $removedMessages[] = $messageId;
+                unset($fetchedMessages[$key]);
+            }
+            $fetchedMessages = \array_values($fetchedMessages);
+
+            return [
+                "event" => "message",
+                "data" => \json_encode([
+                    "new" => $newMessages,
+                    "removed" => $removedMessages
+                ])
+            ];
+        };
+    }
+
 }

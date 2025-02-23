@@ -13,11 +13,25 @@ class ChatController extends Controller {
     #[Inject] private ChatService $chatService;
 
     #[Request(
-        endpoint: '/chat',
-        inputType: Input::JSON,
-        outputType: Output::JSON
+        endpoint: '/chat/stream',
+        inputType: Input::QUERY,
+        outputType: Output::EVENT_SOURCE
     )]
-    public function chat(array $input): array {
+    public function stream(array $input): callable {
+        $token = null;
+        if(\array_key_exists('token', $input)) {
+            $token = $input['token'];
+        }
+
+        return $this->chatService->eventSource($token);
+    }
+
+    #[Request(
+        endpoint: '/chat/send-message',
+        inputType: Input::JSON,
+        outputType: Output::NONE
+    )]
+    public function sendMessage(array $input): void {
         $token = null;
         if(isset($input['token']) && $input['token']) {
             $token = $input['token'];
@@ -25,7 +39,6 @@ class ChatController extends Controller {
         if(isset($input['message'])) {
             $this->chatService->addMessage($token, $input['message']);
         }
-        return $this->chatService->getMessages($token);
     }
 
 }

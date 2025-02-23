@@ -550,122 +550,121 @@ window.addEventListener("load", function() {
         function startChat(chatContainer, serverLocation) {
             const chatMessagesContainer = chatContainer.querySelector("[data-id='chat-content']");
             const chatInputContainer = chatContainer.querySelector("[data-id='chat-input']");
-            hiperesp.dfps.modules.chat.start(serverLocation, {
-                prepareInputMessage: function(message) {
-                    const input = chatInputContainer.querySelector("input");
-                    if(!input) {
-                        return;
+            const chat = new hiperesp.dfps.modules.Chat(serverLocation);
+            chat.addEventListener("prepareInputMessage", function(message) {
+                const input = chatInputContainer.querySelector("input");
+                if(!input) {
+                    return;
+                }
+                input.value = message;
+                input.focus();
+            });
+            chat.addEventListener("render", function() {
+                const currentUser = chat.user;
+                const messages = chat.messages;
+
+                chatMessagesContainer.querySelectorAll(".chat-item").forEach(function(element) {
+                    const id = element.dataset.id;
+                    if(!messages.find(message => message.id == id)) {
+                        element.remove();
                     }
-                    input.value = message;
-                    input.focus();
-                },
-                drawChat: function() {
-                    const currentUser = hiperesp.dfps.modules.chat.user;
-                    const messages = hiperesp.dfps.modules.chat.messages;
+                });
 
-                    chatMessagesContainer.querySelectorAll(".chat-item").forEach(function(element) {
-                        const id = element.dataset.id;
-                        if(!messages.find(message => message.id == id)) {
-                            element.remove();
+                for(const message of messages) {
+                    if(chatMessagesContainer.querySelector(`.chat-item[data-id="${message.id}"]`)) {
+                        continue;
+                    }
+
+                    const containerEl = document.createElement("div");
+                    containerEl.classList.add("chat-item");
+                    containerEl.dataset.id = message.id;
+
+                    const userEl = document.createElement("div");
+                    userEl.classList.add("chat-user");
+                    userEl.textContent = message.from.username;
+                    containerEl.appendChild(userEl);
+
+                    const messageEl = document.createElement("div");
+                    messageEl.classList.add("chat-message");
+                    if(message.type == "system" || message.pinned || message.from.isAdmin) {
+                        messageEl.innerHTML = hiperesp.dfps.modules.Chat.richText(message.message, chat.instance);
+                    } else {
+                        messageEl.textContent = message.message;
+                    }
+                    containerEl.appendChild(messageEl);
+
+                    const timeEl = document.createElement("div");
+                    timeEl.classList.add("chat-time");
+                    timeEl.textContent = new Date(message.time * 1000).toLocaleString();
+                    containerEl.appendChild(timeEl);
+
+                    if(message.type == "system") {
+                        containerEl.classList.add("chat-item-system");
+                        userEl.remove();
+                        timeEl.remove();
+                    } else if(message.type == "user") {
+                        if(currentUser && message.from.id == currentUser.id) {
+                            containerEl.classList.add("chat-item-me");
                         }
-                    });
+                    }
+                    if(message.pinned) {
+                        containerEl.classList.add("chat-item-pinned");
+                    }
 
-                    for(const message of messages) {
-                        if(chatMessagesContainer.querySelector(`.chat-item[data-id="${message.id}"]`)) {
-                            continue;
-                        }
+                    chatMessagesContainer.appendChild(containerEl);
+                }
 
-                        const containerEl = document.createElement("div");
-                        containerEl.classList.add("chat-item");
-                        containerEl.dataset.id = message.id;
+                let redrawChatInput = true;
+                if(currentUser && chatInputContainer.querySelector(".chat-item-available")) {
+                    redrawChatInput = false;
+                } else if(!currentUser && chatInputContainer.querySelector(".chat-item-unlogged")) {
+                    redrawChatInput = false;
+                }
 
-                        const userEl = document.createElement("div");
-                        userEl.classList.add("chat-user");
-                        userEl.textContent = message.from.username;
-                        containerEl.appendChild(userEl);
+                if(redrawChatInput) {
 
-                        const messageEl = document.createElement("div");
-                        messageEl.classList.add("chat-message");
-                        if(message.type == "system" || message.pinned || message.from.isAdmin) {
-                            messageEl.innerHTML = hiperesp.dfps.modules.chat.richText(message.message);
-                        } else {
-                            messageEl.textContent = message.message;
-                        }
-                        containerEl.appendChild(messageEl);
+                    const chatInputContainerEl = document.createElement("div");
+                    chatInputContainerEl.classList.add("chat-item", "chat-item-me");
 
-                        const timeEl = document.createElement("div");
-                        timeEl.classList.add("chat-time");
-                        timeEl.textContent = new Date(message.time * 1000).toLocaleString();
-                        containerEl.appendChild(timeEl);
+                    const chatInputUserEl = document.createElement("div");
+                    chatInputUserEl.classList.add("chat-user");
+                    chatInputContainerEl.appendChild(chatInputUserEl);
 
-                        if(message.type == "system") {
-                            containerEl.classList.add("chat-item-system");
-                            userEl.remove();
-                            timeEl.remove();
-                        } else if(message.type == "user") {
-                            if(currentUser && message.from.id == currentUser.id) {
-                                containerEl.classList.add("chat-item-me");
+                    if(currentUser) {
+                        chatInputContainerEl.classList.add("chat-item-available");
+                        chatInputUserEl.textContent = currentUser.name;
+
+                        const chatInputEl = document.createElement("input");
+                        chatInputEl.classList.add("chat-message-input");
+                        chatInputEl.placeholder = "Write your message here";
+                        chatInputContainerEl.appendChild(chatInputEl);
+
+                        chatInputEl.addEventListener("keypress", function(event) {
+                            if(event.key == "Enter") {
+                                const message = chatInputEl.value;
+                                if(message.length < 1) return;
+                                chat.sendMessage(message);
+                                chatInputEl.value = "";
                             }
-                        }
-                        if(message.pinned) {
-                            containerEl.classList.add("chat-item-pinned");
-                        }
+                        });
+                    } else {
+                        chatInputContainerEl.classList.add("chat-item-unlogged");
+                        chatInputUserEl.textContent = "You";
 
-                        chatMessagesContainer.appendChild(containerEl);
+                        const chatInputEl = document.createElement("div");
+                        chatInputEl.classList.add("chat-message");
+                        chatInputEl.textContent = "Please log in to chat with other players";
+                        chatInputContainerEl.appendChild(chatInputEl);
                     }
 
-                    let redrawChatInput = true;
-                    if(currentUser && chatInputContainer.querySelector(".chat-item-available")) {
-                        redrawChatInput = false;
-                    } else if(!currentUser && chatInputContainer.querySelector(".chat-item-unlogged")) {
-                        redrawChatInput = false;
+                    while(chatInputContainer.firstChild) {
+                        chatInputContainer.removeChild(chatInputContainer.firstChild);
                     }
-
-                    if(redrawChatInput) {
-
-                        const chatInputContainerEl = document.createElement("div");
-                        chatInputContainerEl.classList.add("chat-item", "chat-item-me");
-
-                        const chatInputUserEl = document.createElement("div");
-                        chatInputUserEl.classList.add("chat-user");
-                        chatInputContainerEl.appendChild(chatInputUserEl);
-
-                        if(currentUser) {
-                            chatInputContainerEl.classList.add("chat-item-available");
-                            chatInputUserEl.textContent = currentUser.name;
-
-                            const chatInputEl = document.createElement("input");
-                            chatInputEl.classList.add("chat-message-input");
-                            chatInputEl.placeholder = "Write your message here";
-                            chatInputContainerEl.appendChild(chatInputEl);
-
-                            chatInputEl.addEventListener("keypress", function(event) {
-                                if(event.key == "Enter") {
-                                    const message = chatInputEl.value;
-                                    if(message.length < 1) return;
-                                    hiperesp.dfps.modules.chat.sendMessage(message);
-                                    chatInputEl.value = "";
-                                }
-                            });
-                        } else {
-                            chatInputContainerEl.classList.add("chat-item-unlogged");
-                            chatInputUserEl.textContent = "You";
-
-                            const chatInputEl = document.createElement("div");
-                            chatInputEl.classList.add("chat-message");
-                            chatInputEl.textContent = "Please log in to chat with other players";
-                            chatInputContainerEl.appendChild(chatInputEl);
-                        }
-
-                        while(chatInputContainer.firstChild) {
-                            chatInputContainer.removeChild(chatInputContainer.firstChild);
-                        }
-                        chatInputContainer.appendChild(chatInputContainerEl);
-                    }
-
+                    chatInputContainer.appendChild(chatInputContainerEl);
                 }
             });
 
+            chat.start();
         }
 
         const chat = document.querySelector("#chat-container");
