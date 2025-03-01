@@ -69,7 +69,7 @@ $thingsToDownload = [
     ],
     "houseItemShop" => [
         "from" => 1,
-        "to" => 100,
+        "to" => 110,
         "needAuth" => false,
         "endpoint" => "/cf-loadhouseitemshop.asp",
         "param" => "intHouseItemShopID",
