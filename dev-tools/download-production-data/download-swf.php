@@ -97,6 +97,16 @@ function downloadAll($toDownload) {
             unset($downloaded);
         }
     }
+
+    foreach(["download-swf-success.txt", "download-swf-fail.txt", "download-swf-skip.txt"] as $file) {
+        echo "Sorting {$file}...\n";
+        $lines = \file($file);
+        \sort($lines);
+        \file_put_contents($file, $lines);
+    }
+
+    echo "Done!\n";
+
     return $dataToDownload;
 }
 
