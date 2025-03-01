@@ -105,6 +105,15 @@ class DFException extends \Exception {
         return $this->httpStatus;
     }
 
+    public function asEventSource(): callable {
+        return function() {
+            return [
+                'event' => 'error',
+                'data' => $this->asJSON()
+            ];
+        };
+    }
+
     private static array $knownExceptions = [
         self::INVALID_REFERENCE => [
             "dfReason"  => "Invalid Reference",

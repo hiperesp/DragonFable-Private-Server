@@ -58,6 +58,9 @@ class SetupController extends Controller {
         outputType: Output::JSON
     )]
     public function upgradeDatabase(): array {
+        \ignore_user_abort(true);
+        \set_time_limit(0);
+
         try {
             $this->setupService->upgradeDatabase();
             return [
