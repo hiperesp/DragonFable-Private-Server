@@ -898,9 +898,9 @@
     },
     {
         "id": 51,
-        "swf": "towns\/Atrea\/town-atrea7.swf",
-        "swfX": "towns\/Atrea\/town-atrea-x.swf",
-        "extra": "Sandsea=towns\/Sandsea\/town-sandsea15.swf\nPalace=towns\/Sandsea\/town-sekduat5.swf\nInn=towns\/Sandsea\/Sandsea-Inn.swf"
+        "swf": "towns\/Ravenloss\/town-ravenlossr3.swf",
+        "swfX": "none",
+        "extra": "Sandsea=towns\/Sandsea\/town-sandsea15.swf\nPalace=towns\/Sandsea\/town-sekduat5.swf\nInn=towns\/Sandsea\/Sandsea-Inn.swf\nRavenLost=towns\/Ravenloss\/town-Ravenlossr3.swf\nCard=towns\/Ravenloss\/shop-cardshop.swf"
     },
     {
         "id": 52,
@@ -6949,7 +6949,7 @@
     },
     {
         "id": 357,
-        "swf": "towns\/heroheart\/town-herosheart-bookr20.swf",
+        "swf": "towns\/heroheart\/town-herosheart-bookr20.swf?ver=1",
         "swfX": "none",
         "extra": ""
     },
@@ -10333,7 +10333,7 @@
         "name": "Ravenloss",
         "description": "Spider spider spider SPLAT!",
         "complete": "Tomix isn't done just yet.",
-        "swf": "towns\/Ravenloss\/town-Ravenlossr20.swf",
+        "swf": "towns\/Ravenloss\/town-Ravenlossr3.swf?ver=1",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 0,
@@ -10341,7 +10341,7 @@
         "maxExp": 0,
         "minTime": 0,
         "counter": 0,
-        "extra": "RavenLost=towns\/Ravenloss\/town-Ravenlossr2a.swf\nCard=towns\/Ravenloss\/shop-cardshop.swf",
+        "extra": "RavenLost=towns\/Ravenloss\/town-Ravenlossr3.swf?ver=1\nCard=towns\/Ravenloss\/shop-cardshop.swf",
         "dailyIndex": 0,
         "dailyReward": 0,
         "monsterMinLevel": 0,
@@ -14617,7 +14617,7 @@
         "name": "RavenLoss War Camp",
         "description": "You've got to stop Greed!",
         "complete": "",
-        "swf": "wars\/Ravenloss\/town-war-RLstaticr5.swf ",
+        "swf": "wars\/Ravenloss\/town-war-RLstaticr5.swf?ver=1",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 0,
@@ -14764,7 +14764,7 @@
         "name": "Pellow Village",
         "description": "",
         "complete": "",
-        "swf": "towns\/Ravenloss\/town-pellow-sec2.swf",
+        "swf": "towns\/Ravenloss\/town-pellow-sec2.swf?ver=1",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 0,
@@ -17011,8 +17011,8 @@
         "name": "Atrea",
         "description": "The mysterious floating city of Atrea.",
         "complete": "The mysterious floating city of Atrea.",
-        "swf": "towns\/Atrea\/town-atrea7.swf",
-        "swfX": "towns\/Atrea\/town-atrea-x.swf?ver=1",
+        "swf": "towns\/Atrea\/town-atrea7.swf?ver=1",
+        "swfX": "towns\/Atrea\/town-atrea-x.swf?ver=2",
         "maxSilver": 0,
         "maxGold": 0,
         "maxGems": 0,
@@ -45360,7 +45360,7 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "chronomancer\/corruptor",
-        "monsterGroupSwf": "mset-arenachrono1.swf"
+        "monsterGroupSwf": "mset-arenachrono1.swf?ver=1"
     },
     {
         "id": 2200,
@@ -45381,7 +45381,7 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "chronomancer\/corruptor",
-        "monsterGroupSwf": "mset-arenachrono1.swf"
+        "monsterGroupSwf": "mset-arenachrono1.swf?ver=1"
     },
     {
         "id": 2201,
@@ -45402,7 +45402,7 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "chronomancer\/corruptor",
-        "monsterGroupSwf": "mset-arenachrono1.swf"
+        "monsterGroupSwf": "mset-arenachrono1.swf?ver=1"
     },
     {
         "id": 2202,
@@ -45780,6 +45780,27 @@
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
         "monsterType": "Gulosedax",
-        "monsterGroupSwf": "mset-arachnalchemy.swf"
+        "monsterGroupSwf": "mset-arachnalchemy.swf?ver=1"
+    },
+    {
+        "id": 2220,
+        "swf": "towns\/Atrea\/quest-findingveyla.swf",
+        "swfX": "towns\/Atrea\/quest-findingveyla-x.swf",
+        "extra": "",
+        "name": "The Lost Ateala",
+        "description": "Veyla's gone missing... Do your part to help search for her!",
+        "complete": "Veyla's safe, for now. But Wargoth's next attack is imminent.",
+        "maxSilver": 0,
+        "maxGold": 5000,
+        "maxGems": 0,
+        "maxExp": 50000,
+        "minTime": 0,
+        "counter": 0,
+        "dailyIndex": 0,
+        "dailyReward": 0,
+        "monsterMinLevel": 0,
+        "monsterMaxLevel": 99,
+        "monsterType": "fire monsters",
+        "monsterGroupSwf": "mset-atrea-caves-r1.swf"
     }
 ]
