@@ -32,7 +32,7 @@ class WebStatsService extends Service {
 
         try {
             $onlineUsers = (new CharacterModel())->getOnlineCount();
-        } catch(\Exception $e) {
+        } catch(\Exception) {
             $onlineUsers = 0;
         }
         return [
@@ -57,8 +57,6 @@ class WebStatsService extends Service {
     }
 
     private function getStatus(): array {
-        global $base, $config;
-
         try {
             $storage = Storage::getStorage();
         } catch(DBConfigException $e) {
@@ -105,5 +103,37 @@ class WebStatsService extends Service {
             'color' => 'hsl(200deg, 60%, 50%)',
             'special' => 'ERROR',
         ];
+    }
+
+    public function eventSource(): callable {
+        $lastInfo = null;
+        $firstUpdated = false;
+
+        return function() use(&$firstUpdated, &$lastInfo): array {
+            if($firstUpdated) {
+                // update every 1s
+                \usleep(1_000_000);
+            } else {
+                $firstUpdated = true;
+            }
+
+            \clearstatcache();
+
+            $newInfo = $this->stats();
+            $newInfoCompare = $newInfo;
+            unset($newInfoCompare['serverTime']);
+
+            if($newInfoCompare === $lastInfo) {
+                return [
+                    "event" => "update"
+                ];
+            }
+            $lastInfo = $newInfoCompare;
+
+            return [
+                "event" => "message",
+                "data" => \json_encode($newInfo)
+            ];
+        };
     }
 }

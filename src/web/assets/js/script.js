@@ -21,6 +21,7 @@ window.addEventListener("load", function() {
             version: document.querySelectorAll("[data-id='server-version']"),
             gitRev: document.querySelectorAll("[data-id='server-git-rev']"),
         };
+        let serverTimeOffset = 0;
         const serverLocation = window.serverLocation;
 
         async function checkServerInfo() {
@@ -33,25 +34,81 @@ window.addEventListener("load", function() {
                 gitRev: null,
             };
 
-            try {
-                const response = await fetch(serverLocation + "/api/web-stats.json");
-                if(response.status !== 200) throw new Error("Invalid response status code");
-                const data = await response.json();
+            const eventSource = new EventSource(serverLocation+"/api/web-stats/stream");
 
+            eventSource.onmessage = event => {
+                const data = JSON.parse(event.data);
                 serverStatus.online = true;
                 serverStatus.onlineUsers = Number(data.onlineUsers);
                 serverStatus.status = data.status;
                 serverStatus.time = data.serverTime;
                 serverStatus.version = data.serverVersion;
                 serverStatus.gitRev = data.gitRev;
-            } catch (error) {
+
+                updateServerInfo(serverStatus);
+            };
+
+            eventSource.onerror = async event => {
+                eventSource.close();
+
+                serverStatus.onlineUsers = null;
+                serverStatus.online = false;
+                serverStatus.status = null;
+                serverStatus.time = null;
+                serverStatus.version = null;
+                serverStatus.gitRev = null;
+
+                updateServerInfo(serverStatus);
+
+                await new Promise(resolve => setTimeout(resolve, 1000));
+
+                checkServerInfo();
+            };
+        }
+        function verifyRedirect(serverStatus) {
+            switch(serverStatus.status?.special) {
+                case "SETUP":
+                case "UPGRADE":
+                    window.location.href = "setup.html";
+                    break;
+                case "MAINTENANCE":
+                    if(window.maintenance) return; // Avoid redirect loop
+                    window.location.href = "maintenance.html#back-to="+encodeURIComponent(window.location.pathname+window.location.search);
+                    break;
+                case "ERROR":
+                    if(window.updateServerInfo_error) return; // Avoid alert spam
+                    window.updateServerInfo_error = serverStatus;
+                    alertDialog("An unexpected error occurred. Please contact the administrator. See the console for more details.", "Error");
+                    console.error("See `window.updateServerInfo_error` for more details", serverStatus);
+                    break;
+                case "DONE":
+                    if(window.maintenance) {
+                        let backTo = "index.html";
+                        if(window.location.hash) {
+                            const hashQueryParams = new URLSearchParams(window.location.hash.substring(1)); // Remove the `#` then parse the query string
+                            if(hashQueryParams.has("back-to")) {
+                                backTo = decodeURIComponent(window.location.hash.replace("#back-to=", ""));
+                            }
+                        }
+                        window.location.href = backTo;
+                    }
+                    break;
+                default:
+                    if(window.updateServerInfo_offline) return; // Avoid alert spam
+                    window.updateServerInfo_offline = serverStatus;
+                    console.error("See `window.updateServerInfo_offline` for more details", serverStatus);
+                    break;
             }
-            updateServerInfo(serverStatus);
         }
         function updateServerInfo(serverStatus) {
-            function syncServerTime() {
+            function syncServerTime(resetOffset = false) {
+                if(resetOffset) {
+                    serverTimeOffset = Date.now() - new Date(serverStatus.time).getTime();
+                } else {
+                    serverTimeOffset += 1000;
+                }
                 const serverTime = new Date(serverStatus.time);
-                serverTime.setSeconds(serverTime.getSeconds() + 1);
+                serverTime.setSeconds(serverTime.getSeconds() + serverTimeOffset / 1000);
                 const serverTimeStr = serverTime.toLocaleString();
 
                 listeners.time.forEach(function(element) {
@@ -60,7 +117,7 @@ window.addEventListener("load", function() {
             }
             clearInterval(serverTimeInterval);
             serverTimeInterval = setInterval(syncServerTime, 1000);
-            syncServerTime();
+            syncServerTime(true);
 
             listeners.onlineUsers.forEach(function(element) {
                 element.textContent = serverStatus.onlineUsers || 0;
@@ -72,32 +129,6 @@ window.addEventListener("load", function() {
 
                 element.textContent = serverStatus.status?.text ? serverStatus.status.text : "Offline";
                 element.style.color = serverStatus.status?.color? serverStatus.status.color: "hsl(0deg, 60%, 50%)";
-                switch(serverStatus.status?.special) {
-                    case "SETUP":
-                    case "UPGRADE":
-                        window.location.href = "setup.html";
-                        break;
-                    case "MAINTENANCE":
-                        if(window.maintenance) return; // Avoid redirect loop
-                        window.location.href = "maintenance.html";
-                        break;
-                    case "ERROR":
-                        if(window.updateServerInfo_error) return; // Avoid alert spam
-                        window.updateServerInfo_error = serverStatus;
-                        alertDialog("An unexpected error occurred. PLease contact the administrator. See the console for more details.", "Error");
-                        console.error("See `window.updateServerInfo_error` for more details", serverStatus);
-                        break;
-                    case "DONE":
-                        if(window.maintenance) {
-                            window.location.href = "index.html";
-                        }
-                        break;
-                    default:
-                        if(window.updateServerInfo_offline) return; // Avoid alert spam
-                        window.updateServerInfo_offline = serverStatus;
-                        console.error("See `window.updateServerInfo_offline` for more details", serverStatus);
-                        break;
-                }
             });
 
             listeners.version.forEach(function(element) {
@@ -109,6 +140,8 @@ window.addEventListener("load", function() {
                 element.href = serverStatus.gitRev ? "https://github.com/hiperesp/DragonFable-Private-Server/compare/"+serverStatus.gitRev.substring(0, 7)+"..php8.2" : "javascript:void(0)";
                 element.target = serverStatus.gitRev ? "_blank" : null;
             });
+
+            verifyRedirect(serverStatus);
         }
 
         let hasListener = false;
@@ -120,7 +153,6 @@ window.addEventListener("load", function() {
         }
         if(!hasListener) return;
 
-        setInterval(checkServerInfo, 5000); // 5 seconds
         checkServerInfo();
     })();
 

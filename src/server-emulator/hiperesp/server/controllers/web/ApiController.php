@@ -21,4 +21,13 @@ class ApiController extends Controller {
         return $this->webStatsService->stats();
     }
 
+    #[Request(
+        endpoint: '/api/web-stats/stream',
+        inputType: Input::NONE,
+        outputType: Output::EVENT_SOURCE
+    )]
+    public function webStatsStream(): callable {
+        return $this->webStatsService->eventSource();
+    }
+
 }
