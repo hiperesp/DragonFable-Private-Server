@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 define('OS', 'windows'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_40');
+define('SWF_FILE', 'game15_9_41');
 
 $replaces = [
     # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
@@ -272,6 +272,14 @@ $replaces = [
     toggleNormal    = function() {
         setMode('normal');
     }
+    ACTIONSCRIPT,
+
+    # ADD CUSTOM FEATURES
+    <<<'ACTIONSCRIPT'
+    _root.game.gotoAndPlay("CharList");
+    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
+    _root.game.gotoAndPlay("CharList");
+    flash.external.ExternalInterface.call("hiperesp.dfps.externalInterface.logged", _root.user);
     ACTIONSCRIPT,
 ];
 

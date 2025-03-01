@@ -732,7 +732,11 @@ function saveData(array &$json): void {
                 \file_put_contents("{$newDir}/merged.json", "[]");
             }
 
-            $currentData = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
+            $currentDataUnindexed = \json_decode(\file_get_contents("{$newDir}/merged.json"), true);
+            $currentData = [];
+            foreach($currentDataUnindexed as $currentDataItem) {
+                $currentData[$currentDataItem["id"]] = $currentDataItem;
+            }
 
             $percentStr = getPercentString($current, $total);
             echo "[1] Saving {$newFolder}/merged.json {$percentStr}\n";
@@ -743,9 +747,10 @@ function saveData(array &$json): void {
                     throw new \Exception("ID not found");
                 }
 
-                foreach($currentData as $currentDataKey => $currentDataItem) {
+                $currentDataItem = $currentData[$newJson["id"]] ?? null;
+                if($currentDataItem) {
                     if($currentDataItem===$newJson) {
-                        continue 2;
+                        continue;
                     }
                     if($currentDataItem["id"] === $newJson["id"]) {
                         try {
@@ -760,13 +765,12 @@ function saveData(array &$json): void {
                                 throw new \Exception("{$e->getMessage()}: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
                             }
                         }
-                        unset($currentData[$currentDataKey]);
-                        break;
                     }
                 }
-                $currentData[] = $newJson;
+                $currentData[$newJson["id"]] = $newJson;
             }
 
+            $currentData = \array_values($currentData);
             \usort($currentData, function(array $a, array $b): int {
                 return \strnatcasecmp($a["id"], $b["id"]);
             });

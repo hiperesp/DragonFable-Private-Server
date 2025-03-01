@@ -34,7 +34,9 @@ Thank you to everyone who has starred the project! Your support is greatly appre
 
 [![Stargazers repo roster for @hiperesp/DragonFable-Private-Server](https://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?theme=dark&user=hiperesp&repo=DragonFable-Private-Server)](https://github.com/hiperesp/DragonFable-Private-Server/stargazers)
 
-We are aiming to reach 16 stars! If you enjoy the project, consider giving it a star.
+🎉 **Goal achieved!** We've reached 16 stars! A huge thank you to everyone who supported the project! 🚀
+
+Now, we're aiming for the next milestone — **128 stars**, which will unlock a badge on GitHub! If you enjoy the project, consider giving it a star to help us reach this new goal. Every star counts and is a great encouragement to keep working on the project! ✨
 
 ## Contributing:
 

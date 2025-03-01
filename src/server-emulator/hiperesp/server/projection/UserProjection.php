@@ -40,6 +40,9 @@ class UserProjection extends Projection {
             $charEl->addAttribute('strRaceName', $race->name);
         }
 
+        // custom parameters to be used in patched client
+        $userEl->addAttribute('customParam_username', $user->username);
+
         return $xml;
     }
 

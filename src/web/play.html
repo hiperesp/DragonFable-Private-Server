@@ -13,6 +13,14 @@
         <script> window.serverLocation = "server-emulator/server.php"; </script>
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/game.js"></script>
+        <script src="assets/js/game.chat.js"></script>
+
+        <!-- HiperDialog -->
+        <link rel="stylesheet" id="dialog-lights" type="text/css" href="https://hiperesp.github.io/HiperDialog/src/css/color/default.css">
+        <link rel="stylesheet" type="text/css" href="https://hiperesp.github.io/HiperDialog/src/css/style.css">
+        <script type="application/javascript" src="https://hiperesp.github.io/HiperDialog/src/js/core.js"></script>
+        <script type="application/javascript" src="https://hiperesp.github.io/HiperDialog/src/js/extra.js"></script>
     </head>
     <body>
         <header>
@@ -30,17 +38,21 @@
             </nav>
         </header>
         <main class="flash-content">
-            <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="100%" height="640" align="middle">
+            <object id="FFable" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="873" height="640">
                 <param name="allowScriptAccess" value="sameDomain" />
                 <param name="movie" value="cdn/loader/DFLoader-patched.swf" />
                 <param name="menu" value="false" />
                 <param name="allowFullScreen" value="true" />
                 <param name="flashvars" value="dfVersionProvider=server-emulator/server.php/DFversion.asp" />
-                <param name="bgcolor" value="#000000" />
-                <embed src="cdn/loader/DFLoader-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#000000" menu="false"  
-                    allowFullScreen="true" width="100%" height="640" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
+                <param name="bgcolor" value="#0f0a02" />
+                <embed src="cdn/loader/DFLoader-patched.swf" FLASHVARS="dfVersionProvider=server-emulator/server.php/DFversion.asp" name="FFable" bgcolor="#0f0a02" menu="false"  
+                    allowFullScreen="true" width="873" height="640" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 
                     pluginspage="https://www.macromedia.com/go/getflashplayer" swLiveConnect="true" />
             </object>
+            <section class="chat" id="chat-container">
+                <div class="section-content content-chat" data-id="chat-content"></div>
+                <div class="section-content content-chat-input" data-id="chat-input"></div>
+            </section>
         </main>
         <footer>
             <div class="container">
