@@ -115,13 +115,6 @@ class UserModel extends Model {
         $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'banned' => 1 ]);
     }
 
-    /**
-     * Currently only used for test-clean/delete-test-user
-     */
-    public function delete(UserVO $user): void {
-        $this->storage->delete(self::COLLECTION, ['id' => $user->id]);
-    }
-
     public function changePassword(UserVO $user, string $password): void {
         $this->storage->update(self::COLLECTION, [ 'id' => $user->id, 'password' => \password_hash($password, \PASSWORD_DEFAULT), 'recoveryCode' => null, 'recoveryExpires' => null ]);
     }
