@@ -63,10 +63,14 @@ abstract class Storage {
     private function insertPrefix(string $prefix, string $collection, array $document): array {
         foreach(Setup::getStructure($collection) as $key => $definitions) {
             if(\in_array('CREATED_DATETIME', $definitions)) {
-                $document[$key] = \date('c');
+                if(!isset($document[$key])) {
+                    $document[$key] = \date('c');
+                }
             }
             if(\in_array('UPDATED_DATETIME', $definitions)) {
-                $document[$key] = \date('c');
+                if(!isset($document[$key])) {
+                    $document[$key] = \date('c');
+                }
             }
             if(\array_key_exists($key, $document)) {
                 if(\in_array('DATETIME', $definitions)) {
