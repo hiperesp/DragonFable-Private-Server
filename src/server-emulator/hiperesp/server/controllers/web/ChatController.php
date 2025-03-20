@@ -15,7 +15,7 @@ class ChatController extends Controller {
     #[Request(
         endpoint: '/chat/stream',
         inputType: Input::QUERY,
-        outputType: Output::EVENT_SOURCE
+        outputType: Output::LOOP_EVENT_SOURCE
     )]
     public function stream(array $input): callable {
         $token = null;

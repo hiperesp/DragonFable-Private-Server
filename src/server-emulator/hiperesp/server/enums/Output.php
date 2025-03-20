@@ -14,7 +14,10 @@ enum Output {
     case JSON;
     case REDIRECT;
     case NONE;
-    case EVENT_SOURCE;
+    case LOOP_EVENT_SOURCE;
+    case PERIODIC_EVENT_SOURCE;
+
+    public function __construct(private mixed $value) {}
 
     public function display(mixed $output): void {
         match($this) {
@@ -25,7 +28,8 @@ enum Output {
             Output::REDIRECT => $this->redirect($output),
             Output::JSON => $this->json($output),
             Output::NONE => null,
-            Output::EVENT_SOURCE => $this->eventSource($output),
+            Output::LOOP_EVENT_SOURCE => $this->loopEventSource($output),
+            Output::PERIODIC_EVENT_SOURCE => $this->periodicEventSource($output),
         };
     }
 
@@ -39,7 +43,8 @@ enum Output {
             Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
             Output::JSON => $this->json($exception->asArray()),
             Output::NONE => null,
-            Output::EVENT_SOURCE => $this->eventSource($exception->asEventSource()),
+            Output::LOOP_EVENT_SOURCE => $this->loopEventSource($exception->asEventSource()),
+            Output::PERIODIC_EVENT_SOURCE => $this->periodicEventSource($exception->asEventSource()),
         };
     }
 
@@ -87,24 +92,44 @@ enum Output {
         $this->raw("<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"1;url={$url}\"></head><body><h1>Redirecting...</h1><hr><a href=\"{$url}\">Click here if you are not redirected</a></body></html>");
     }
 
-    private function eventSource(callable $update): void {
+    private function loopEventSource(callable $update): void {
         \http_response_code(200);
         \header("Content-Type: text/event-stream");
         \header("Cache-Control: no-cache");
         \header("Connection: keep-alive");
 
         while(!\connection_aborted()) {
+            $data = $update();
+            if(!$data) continue;
+            foreach($data as $key => $value) {
+                echo "{$key}: {$value}\n";
+            }
+            echo "\n";
+
             @\ob_flush();
             @\flush();
-            $data = $update();
-            if($data) {
-                foreach($data as $key => $value) {
-                    echo "{$key}: {$value}\n";
-                }
-                echo "\n";
-            }
         }
     }
 
+    private function periodicEventSource(callable $start): void {
+        \http_response_code(200);
+        \header("Content-Type: text/event-stream");
+        \header("Cache-Control: no-cache");
+        \header("Connection: keep-alive");
+
+        $sendEvent = function(array $event): void {
+            if(\connection_aborted()) {
+                return;
+            }
+            foreach($event as $key => $value) {
+                echo "{$key}: {$value}\n";
+            }
+            echo "\n";
+
+            @\ob_flush();
+            @\flush();
+        };
+        $start($sendEvent);
+    }
 
 }
