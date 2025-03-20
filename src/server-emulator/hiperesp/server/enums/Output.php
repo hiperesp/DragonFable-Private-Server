@@ -115,7 +115,7 @@ enum Output {
         \header("Cache-Control: no-cache");
         \header("Connection: keep-alive");
 
-        $sendEvent = function(array $event): void {
+        $start(function(array $event): void {
             if(\connection_aborted()) {
                 return;
             }
@@ -126,8 +126,7 @@ enum Output {
 
             @\ob_flush();
             @\flush();
-        };
-        $start($sendEvent);
+        });
     }
 
 }
