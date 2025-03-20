@@ -17,8 +17,6 @@ enum Output {
     case LOOP_EVENT_SOURCE;
     case PERIODIC_EVENT_SOURCE;
 
-    public function __construct(private mixed $value) {}
-
     public function display(mixed $output): void {
         match($this) {
             Output::NINJA2XML, Output::NINJA2STR => $this->ninja2($output),
