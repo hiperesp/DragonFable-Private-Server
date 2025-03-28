@@ -31,19 +31,34 @@ enum Output {
         };
     }
 
-    public function error(DFException $exception): void {
-        \http_response_code($exception->getHttpStatusCode());
-        match($this) {
-            Output::NINJA2STR => $this->ninja2($exception->asString()),
-            Output::NINJA2XML, Output::XML => $this->xml($exception->asXML()),
-            Output::FORM => $this->form($exception->asArray()),
-            Output::RAW, Output::HTML => $this->raw($exception->asString()),
-            Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
-            Output::JSON => $this->json($exception->asArray()),
-            Output::NONE => null,
-            Output::LOOP_EVENT_SOURCE => $this->loopEventSource($exception->asEventSource()),
-            Output::PERIODIC_EVENT_SOURCE => $this->periodicEventSource($exception->asEventSource()),
-        };
+    public function error(\Throwable $exception): void {
+        if($exception instanceof DFException) {
+            \http_response_code($exception->getHttpStatusCode());
+            match($this) {
+                Output::NINJA2STR => $this->ninja2($exception->asString()),
+                Output::NINJA2XML, Output::XML => $this->xml($exception->asXML()),
+                Output::FORM => $this->form($exception->asArray()),
+                Output::RAW, Output::HTML => $this->raw($exception->asString()),
+                Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
+                Output::JSON => $this->json($exception->asArray()),
+                Output::NONE => null,
+                Output::LOOP_EVENT_SOURCE => $this->loopEventSource($exception->asEventSource()),
+                Output::PERIODIC_EVENT_SOURCE => $this->periodicEventSource($exception->asEventSource()),
+            };
+        } else {
+            \http_response_code(500);
+            match($this) {
+                Output::NINJA2STR => $this->ninja2($exception->getMessage()),
+                Output::NINJA2XML, Output::XML => $this->xml(new \SimpleXMLElement("<error>{$exception->getMessage()}</error>")),
+                Output::FORM => $this->form(["error" => $exception->getMessage()]),
+                Output::RAW, Output::HTML => $this->raw($exception->getMessage()),
+                Output::REDIRECT => $this->redirect("/error/500"),
+                Output::JSON => $this->json(["error" => $exception->getMessage()]),
+                Output::NONE => null,
+                Output::LOOP_EVENT_SOURCE => $this->loopEventSource(fn() => ["event" => "error", "data" => $exception->getMessage()]),
+                Output::PERIODIC_EVENT_SOURCE => $this->periodicEventSource(fn($send) => $send(["event" => "error", "data" => $exception->getMessage()])),
+            };
+        }
     }
 
     private function ninja2(\SimpleXMLElement|string $xmlOrString): void {
