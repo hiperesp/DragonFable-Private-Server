@@ -8,41 +8,41 @@ class DFException extends \Exception {
     const CHARACTER_NOT_FOUND = "500.71";
     const INVALID_SESSION = "500.72";
     const INVALID_REFERENCE = "500.73";
-    const CLASS_NOT_FOUND = self::INVALID_REFERENCE;
-    const RACE_NOT_FOUND = self::INVALID_REFERENCE;
-    const ITEM_NOT_FOUND = self::INVALID_REFERENCE;
-    const MERGE_NOT_FOUND = self::INVALID_REFERENCE;
-    const QUEST_NOT_FOUND = self::INVALID_REFERENCE;
-    const HAIR_NOT_FOUND = self::INVALID_REFERENCE;
-    const MONSTER_NOT_FOUND = self::INVALID_REFERENCE;
-    const ITEM_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
-    const HAIR_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
-    const MERGE_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
-    const HOUSE_SHOP_NOT_FOUND = self::INVALID_REFERENCE;
-    const INTERFACE_NOT_FOUND = self::INVALID_REFERENCE;
-    const SETTINGS_NOT_FOUND = "000.01";
-    const CATEGORY_NOT_FOUND = self::INVALID_REFERENCE;
-    const CURRENCY_NOT_FOUND = self::INVALID_REFERENCE;
-    const CANNOT_BUY_ITEM = self::INVALID_REFERENCE;
-    const CANNOT_MERGE_ITEM = self::INVALID_REFERENCE;
-    const CANNOT_BUY_HAIR = self::INVALID_REFERENCE;
-    const CHARACTER_ITEM_NOT_FOUND = self::INVALID_REFERENCE;
-    const ITEM_NOT_DESTROYABLE = self::INVALID_REFERENCE;
-    const ITEM_NOT_ENOUGH = self::INVALID_REFERENCE;
-    const STATS_POINTS_NOT_ENOUGH = self::INVALID_REFERENCE;
-    const GOLD_NOT_ENOUGH = self::INVALID_REFERENCE;
-    const DRAGONCOINS_NOT_ENOUGH = self::INVALID_REFERENCE;
-    const CANNOT_UNTRAIN_STATS = self::INVALID_REFERENCE;
-    const CHARACTER_ITEM_MAX_STACK_SIZE = self::INVALID_REFERENCE;
-
-    const USERNAME_ALREADY_EXISTS = "000.40";
-    const INVALID_USERNAME = "000.41";
-    const EMAIL_ALREADY_EXISTS = "000.50";
-    const INVALID_EMAIL = "000.51";
-    const USER_BANNED = "000.60";
-
     const USER_NOT_FOUND = "526.14";
     const BAD_REQUEST = "538.07";
+
+    const SETTINGS_NOT_FOUND            = "DFPS-SETTINGS_NOT_FOUND";
+    const CLASS_NOT_FOUND               = "DFPS-CLASS_NOT_FOUND";
+    const RACE_NOT_FOUND                = "DFPS-RACE_NOT_FOUND";
+    const ITEM_NOT_FOUND                = "DFPS-ITEM_NOT_FOUND";
+    const MERGE_NOT_FOUND               = "DFPS-MERGE_NOT_FOUND";
+    const QUEST_NOT_FOUND               = "DFPS-QUEST_NOT_FOUND";
+    const HAIR_NOT_FOUND                = "DFPS-HAIR_NOT_FOUND";
+    const MONSTER_NOT_FOUND             = "DFPS-MONSTER_NOT_FOUND";
+    const ITEM_SHOP_NOT_FOUND           = "DFPS-ITEM_SHOP_NOT_FOUND";
+    const HAIR_SHOP_NOT_FOUND           = "DFPS-HAIR_SHOP_NOT_FOUND";
+    const MERGE_SHOP_NOT_FOUND          = "DFPS-MERGE_SHOP_NOT_FOUND";
+    const HOUSE_SHOP_NOT_FOUND          = "DFPS-HOUSE_SHOP_NOT_FOUND";
+    const INTERFACE_NOT_FOUND           = "DFPS-INTERFACE_NOT_FOUND";
+    const CATEGORY_NOT_FOUND            = "DFPS-CATEGORY_NOT_FOUND";
+    const CURRENCY_NOT_FOUND            = "DFPS-CURRENCY_NOT_FOUND";
+    const CANNOT_BUY_ITEM               = "DFPS-CANNOT_BUY_ITEM";
+    const CANNOT_MERGE_ITEM             = "DFPS-CANNOT_MERGE_ITEM";
+    const CANNOT_BUY_HAIR               = "DFPS-CANNOT_BUY_HAIR";
+    const CHARACTER_ITEM_NOT_FOUND      = "DFPS-CHARACTER_ITEM_NOT_FOUND";
+    const ITEM_NOT_DESTROYABLE          = "DFPS-ITEM_NOT_DESTROYABLE";
+    const ITEM_NOT_ENOUGH               = "DFPS-ITEM_NOT_ENOUGH";
+    const STATS_POINTS_NOT_ENOUGH       = "DFPS-STATS_POINTS_NOT_ENOUGH";
+    const GOLD_NOT_ENOUGH               = "DFPS-GOLD_NOT_ENOUGH";
+    const DRAGONCOINS_NOT_ENOUGH        = "DFPS-DRAGONCOINS_NOT_ENOUGH";
+    const CANNOT_UNTRAIN_STATS          = "DFPS-CANNOT_UNTRAIN_STATS";
+    const CHARACTER_ITEM_MAX_STACK_SIZE = "DFPS-CHARACTER_ITEM_MAX_STACK_SIZE";
+
+    const USERNAME_ALREADY_EXISTS       = "DFPS-USERNAME_ALREADY_EXISTS";
+    const INVALID_USERNAME              = "DFPS-INVALID_USERNAME";
+    const EMAIL_ALREADY_EXISTS          = "DFPS-EMAIL_ALREADY_EXISTS";
+    const INVALID_EMAIL                 = "DFPS-INVALID_EMAIL";
+    const USER_BANNED                   = "DFPS-USER_BANNED";
 
     private string $dfCode;
     private string $dfReason;
@@ -162,7 +162,6 @@ class DFException extends \Exception {
         ],
         self::USER_BANNED => [
             "dfReason"  => "User Banned",
-            // create a custom message using \n, <font color> tags, etc
             "dfMessage" => "Your account has been <font color=\"#FF0000\">banned</font>.\n\nIf you believe this is an error, please contact us through the <font color=\"#ff0000\">Help Pages</font>.",
             "dfAction"  => "none",
         ],

@@ -44,7 +44,7 @@ class WebStatsService extends Service {
         ];
     }
 
-    private function getSettings(): SettingsVO|null {
+    private function getSettings(): ?SettingsVO {
         try {
             return (new SettingsModel)->getSettings();
         } catch(DBConfigException $e) {
@@ -52,6 +52,9 @@ class WebStatsService extends Service {
             return null;
         } catch(SettingsNotFoundException $e) {
             // tables are not ready yet
+            return null;
+        } catch(\Exception $e) {
+            // other errors
             return null;
         }
     }

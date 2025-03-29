@@ -129,6 +129,10 @@ main {
         display: flex;
         justify-content: center;
 
+        & #FFable {
+            max-height: 100vh;
+        }
+
         &>* {
             background-color: #0f0a02;
         }
@@ -225,11 +229,13 @@ section.content {
     }
 }
 section.chat {
+    min-width: 267px;
     width: 267px;
     padding: 0 10px;
     display: flex;
     flex-direction: column;
     height: 640px;
+    max-height: 100vh;
     overflow: hidden;
 
     & .content-chat {
@@ -404,6 +410,9 @@ footer {
 }
 
 @media screen and (max-width: 860px) {
+    section.chat {
+        display: none;
+    }
     header {
         flex-wrap: wrap;
 
@@ -450,6 +459,16 @@ footer {
             top: 0px;
             width: 150vw;
             z-index: -1;
+        }
+    }
+    main {
+        &.flash-content {
+            display: flex;
+            justify-content: center;
+
+            & #FFable {
+                height: 72vw;
+            }
         }
     }
 }

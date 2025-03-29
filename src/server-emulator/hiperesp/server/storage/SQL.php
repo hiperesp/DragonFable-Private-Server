@@ -122,10 +122,8 @@ abstract class SQL extends Storage {
         }
     }
 
-    #[\Override]
-    protected function createCollection(string $prefix, string $collection): bool {
+    private function getCreateCollectionSQL(string $prefix, string $collection): array {
         $afterCreateSql = [];
-        $sql = "CREATE TABLE {$prefix}{$collection} (";
 
         $tableFieldsDefinitions = [];
         foreach(Setup::getStructure($collection) as $field => $definitions) {
@@ -145,7 +143,8 @@ abstract class SQL extends Storage {
                 definitions: $parsedDefinitions,
                 prefix: $prefix,
                 collection: $collection,
-                afterCreateSql: $afterCreateSql);
+                afterCreateSql: $afterCreateSql
+            );
         }
         $tableFieldsDefinitions[] = $this->getFieldDefinition(
             field: '_isDeleted',
@@ -154,9 +153,20 @@ abstract class SQL extends Storage {
             collection: $collection,
             afterCreateSql: $afterCreateSql
         );
-        $sql.= \implode(",\n", $tableFieldsDefinitions);
-        $sql.= ");\n";
-        $sql.= \implode("\n", $afterCreateSql);
+        $createSql = "CREATE TABLE {$prefix}{$collection} (".\implode(",\n", $tableFieldsDefinitions).");\n";
+        $afterCreateSql = \implode("\n", $afterCreateSql);
+
+        return [
+            'create' => $createSql,
+            'afterCreate' => $afterCreateSql,
+        ];
+    }
+
+    #[\Override]
+    protected function createCollection(string $prefix, string $collection): bool {
+        $sqlInfo = $this->getCreateCollectionSQL($prefix, $collection);
+        $sql = $sqlInfo['create'];
+        $sql.= $sqlInfo['afterCreate'];
 
         if($this->useForeignKeys) {
             $sql = "SET FOREIGN_KEY_CHECKS=0;{$sql};SET FOREIGN_KEY_CHECKS=1;";
@@ -174,7 +184,8 @@ abstract class SQL extends Storage {
 
     #[\Override]
     protected function renameCollection(string $oldPrefix, string $oldCollectionName, string $newPrefix, string $newCollectionName): bool {
-        $stmt = $this->pdo->prepare($this->getRenameTableDefinition("{$oldPrefix}{$oldCollectionName}", "{$newPrefix}{$newCollectionName}"));
+        $afterCreateSql = $this->getCreateCollectionSQL($newPrefix, $newCollectionName)['afterCreate'];
+        $stmt = $this->pdo->prepare($this->getRenameTableDefinition("{$oldPrefix}{$oldCollectionName}", "{$newPrefix}{$newCollectionName}").";{$afterCreateSql}");
         return $stmt->execute();
     }
 

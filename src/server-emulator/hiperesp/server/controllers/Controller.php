@@ -85,6 +85,8 @@ abstract class Controller {
             $attribute->displayOutput($output);
         } catch(DFException $e) {
             $attribute->displayError($e);
+        } catch(\Throwable $e) {
+            $attribute->displayError($e);
         }
     }
 

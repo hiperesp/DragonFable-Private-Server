@@ -22,6 +22,14 @@ class CharacterVO extends ValueObject implements Bannable {
     #[Inject] private UserModel $userModel;
     #[Inject] private SettingsVO $settings;
 
+    #[\Override]
+    protected function patch(array $data): array {
+        if($this->settings->dragonAmuletForAll) {
+            $data['dragonAmulet'] = true;
+        }
+        return $data;
+    }
+
     public readonly int $userId;
 
     public readonly string $createdAt;

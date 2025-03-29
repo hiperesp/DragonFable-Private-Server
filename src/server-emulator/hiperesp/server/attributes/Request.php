@@ -30,7 +30,7 @@ class Request {
         $this->outputType->display($output);
     }
 
-    public function displayError(DFException $exception): void {
+    public function displayError(\Throwable $exception): void {
         $this->outputType->error($exception);
     }
 

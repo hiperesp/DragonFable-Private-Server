@@ -56,7 +56,6 @@ window.hiperesp.dfps.addEventListener("load", function() {
             };
 
             this.eventSource.onerror = event => {
-                console.error(event);
                 this.messages.push({
                     id: "error",
                     type: "system",

@@ -14,9 +14,10 @@ class ChatService extends Service {
     #[ChatCommand("/ping", "Display pong")]
     public function commandPing(UserVO $user): void {
         $this->addUserMessage(
-            user: null,
+            user: $user,
             to: $user,
-            message: 'Pong!'
+            message: 'Pong!',
+            isHint: true,
         );
     }
 
@@ -25,7 +26,7 @@ class ChatService extends Service {
         $this->addUserMessage(
             user: $user,
             message: $message,
-            pinned: true
+            isPinned: true
         );
     }
 
@@ -34,7 +35,7 @@ class ChatService extends Service {
         $this->addUserMessage(
             user: null,
             message: $message,
-            pinned: true
+            isPinned: true
         );
     }
 
@@ -51,6 +52,15 @@ class ChatService extends Service {
         $this->addUserMessage(
             user: null,
             message: $message
+        );
+    }
+
+    #[ChatCommand("/alert", "Send message as alert dialog to all users", true)]
+    public function commandAlert(UserVO $user, string $message): void {
+        $this->addUserMessage(
+            user: $user,
+            message: $message,
+            isAlert: true
         );
     }
 
@@ -105,9 +115,10 @@ class ChatService extends Service {
         }
 
         $this->addUserMessage(
-            user: null,
+            user: $user,
             to: $user,
-            message: $helpText
+            message: $helpText,
+            isHint: true,
         );
     }
 
@@ -129,34 +140,41 @@ class ChatService extends Service {
 
     private function syntaxError(UserVO $user, string $message): void {
         $this->addUserMessage(
-            user: null,
+            user: $user,
             message: $message,
-            to: $user
+            to: $user,
+            isHint: true,
         );
     }
 
     private function invalidCommand(UserVO $user): void {
         $this->addUserMessage(
-            user: null,
+            user: $user,
             to: $user,
-            message: "Invalid command. Type /help for a list of commands"
+            message: "Invalid command. Type /help for a list of commands",
+            isHint: true,
         );
     }
 
-    private function addUserMessage(?UserVO $user, string $message, ?UserVO $to = null, bool $pinned = false): void {
+    private function addUserMessage(?UserVO $user, string $message, ?UserVO $to = null, bool $isPinned = false, bool $isAlert = false, bool $isHint = false): void {
         $chatFile = $this->getChatFile();
         $messages = \json_decode(\file_get_contents($chatFile), true);
 
         $maxGlobalHistory = 64;
         $maxPinnedHistory = 1;
 
-        $messageArrayKey = $pinned ? 'pinned' : 'global';
+        $messageArrayKey = $isPinned ? 'pinned' : 'global';
 
         $messages[$messageArrayKey][] = [
             'id' => \uniqid(),
             'time' => \time(),
 
-            'type' => $user ? 'user' : 'system',
+            'type' => (function() use($user, $isHint, $isAlert) {
+                if($isHint) return "hint";
+                if($isAlert) return "alert";
+                if($user) return "user";
+                return "system";
+            })(),
             'from' => [
                 'id' => $user?->id,
                 'username' => $user?->username,
@@ -166,7 +184,7 @@ class ChatService extends Service {
             'message' => $message,
         ];
 
-        if($pinned) {
+        if($isPinned) {
             $messages[$messageArrayKey] = \array_slice($messages[$messageArrayKey], -$maxPinnedHistory);
         } else {
             $messages[$messageArrayKey] = \array_slice($messages[$messageArrayKey], -$maxGlobalHistory);
@@ -259,8 +277,10 @@ class ChatService extends Service {
             if($firstUpdated) {
                 // update every 100ms
                 \usleep(100_000);
+                $isFirstFetch = false;
             } else {
                 $firstUpdated = true;
+                $isFirstFetch = true;
             }
 
             \clearstatcache();
@@ -279,8 +299,12 @@ class ChatService extends Service {
                 if(\in_array($message['id'], $fetchedMessages)) {
                     continue;
                 }
-                $newMessages[] = $message;
+
                 $fetchedMessages[] = $message['id'];
+
+                if($message['type'] == 'alert' && $isFirstFetch) continue;
+                if($message['type'] == 'hint' && $isFirstFetch) continue;
+                $newMessages[] = $message;
             }
 
             $removedMessages = [];

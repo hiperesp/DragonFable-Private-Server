@@ -32,6 +32,8 @@ final class Definition {
                 "enableAdvertising"     => [ 'BIT', 'DEFAULT' => 0 ],
                 "dailyQuestCoinsReward" => [ 'INTEGER', 'DEFAULT' => 3 ],
 
+                "dragonAmuletForAll"    => [ 'BIT', 'DEFAULT' => 0 ],
+
                 "revalidateClientValues" => [ 'BIT', 'DEFAULT' => 0 ],
                 "banInvalidClientValues" => [ 'BIT', 'DEFAULT' => 0 ],
                 "canDeleteUpgradedChar"  => [ 'BIT', 'DEFAULT' => 1 ],
@@ -85,6 +87,8 @@ final class Definition {
 
                     "enableAdvertising"     => 0, // if true, the game will show ads
                     "dailyQuestCoinsReward" => 200, // coins reward for daily quests (default: 3)
+
+                    "dragonAmuletForAll" => 0, // if true, all players will have dragon amulet (DA) for free
 
                     "revalidateClientValues" => 1, // some inconsistencies in the client can occur.
                     "banInvalidClientValues" => 1, // some users can be banned injustly if inconsistencies are found.

@@ -11,6 +11,17 @@ class UserVO extends ValueObject implements Bannable {
     #[Inject] private CharacterModel $characterModel;
     #[Inject] private SettingsVO $settings;
 
+    #[\Override]
+    protected function patch(array $user): array {
+        $user['password'] = "";
+
+        if($this->settings->dragonAmuletForAll) {
+            $user['upgraded'] = 1;
+        }
+
+        return $user;
+    }
+
     public readonly string $createdAt;
     public readonly string $updatedAt;
 
@@ -33,25 +44,28 @@ class UserVO extends ValueObject implements Bannable {
     public readonly string $recoveryCode;
     public readonly string $recoveryExpires;
 
-    #[\Override]
-    protected function patch(array $user): array {
-        $user['password'] = "";
+    public int $accessLevel {
+        get {
+            //   From game.swf:
+            //     < 0 = Disabled,
+            //     0 or 2 = Normal (Free or Upgraded),
+            //     Any other value = Special
+            //   What I think about the values:
+            //     -1 = disabled,
+            //     0 = free,
+            //     1 = special,
+            //     2 = upgraded
+            if($this->banned) {
+                return -1;
+            }
+            if($this->special) {
+                return 1;
+            }
+            if($this->upgraded) {
+                return 2;
+            }
 
-        return $user;
-    }
-
-    public function getAccessLevel(): int {
-        //   From game.swf:
-        //     < 0 = Disabled,
-        //     0 or 2 = Normal (Free or Upgraded),
-        //     Any other value = Special
-        //   What I think about the values:
-        //     -1 = disabled,
-        //     0 = free,
-        //     1 = special,
-        //     2 = upgraded
-        if($this->banned) {
-            return -1;
+            return 0;
         }
         if($this->special) {
             return 1;

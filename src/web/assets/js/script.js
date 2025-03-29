@@ -69,10 +69,12 @@ window.addEventListener("load", function() {
             switch(serverStatus.status?.special) {
                 case "SETUP":
                 case "UPGRADE":
+                    if(window.setup) return; // Avoid redirect loop
                     window.location.href = "setup.html";
                     break;
                 case "MAINTENANCE":
                     if(window.maintenance) return; // Avoid redirect loop
+                    if(window.setup) return; // Avoid redirect from setup page
                     window.location.href = "maintenance.html#back-to="+encodeURIComponent(window.location.pathname+window.location.search);
                     break;
                 case "ERROR":
@@ -96,7 +98,7 @@ window.addEventListener("load", function() {
                 default:
                     if(window.updateServerInfo_offline) return; // Avoid alert spam
                     window.updateServerInfo_offline = serverStatus;
-                    console.error("See `window.updateServerInfo_offline` for more details", serverStatus);
+                    // console.error("See `window.updateServerInfo_offline` for more details", serverStatus);
                     break;
             }
         }
@@ -144,6 +146,8 @@ window.addEventListener("load", function() {
             verifyRedirect(serverStatus);
         }
 
+        checkServerInfo();
+
         let hasListener = false;
         for(const key in listeners) {
             if(listeners[key].length > 0) {
@@ -152,8 +156,6 @@ window.addEventListener("load", function() {
             }
         }
         if(!hasListener) return;
-
-        checkServerInfo();
     })();
 
     (function() {
@@ -579,6 +581,7 @@ window.addEventListener("load", function() {
         }
     })();
     (function() {
+        const alertsSent = [];
         function startChat(chatContainer, serverLocation) {
             const chatMessagesContainer = chatContainer.querySelector("[data-id='chat-content']");
             const chatInputContainer = chatContainer.querySelector("[data-id='chat-input']");
@@ -618,7 +621,14 @@ window.addEventListener("load", function() {
 
                     const messageEl = document.createElement("div");
                     messageEl.classList.add("chat-message");
-                    if(message.type == "system" || message.pinned || message.from.isAdmin) {
+                    if(message.type=="alert") {
+                        if(!alertsSent.includes(message.id)) {
+                            alertDialog(message.message, "Message from "+ (message.from?.username ?? "System"));
+                            alertsSent.push(message.id);
+                        }
+                        continue;
+                    }
+                    if(message.type == "system" || message.type == "hint" || message.pinned || message.from.isAdmin) {
                         messageEl.innerHTML = hiperesp.dfps.modules.Chat.richText(message.message, chat.instance);
                     } else {
                         messageEl.textContent = message.message;
@@ -630,7 +640,7 @@ window.addEventListener("load", function() {
                     timeEl.textContent = new Date(message.time * 1000).toLocaleString();
                     containerEl.appendChild(timeEl);
 
-                    if(message.type == "system") {
+                    if(message.type == "system" || message.type == "hint") {
                         containerEl.classList.add("chat-item-system");
                         userEl.remove();
                         timeEl.remove();

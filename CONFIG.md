@@ -37,6 +37,8 @@ Access your database and open your `settings` table. This is what each column me
 
 - `dailyQuestCoinsReward`: The `dailyQuestCoinsReward` parameter is used to specify the coins reward for daily quests. The default is `3`.
 
+- `dragonAmuletForAll`: The `dragonAmuletForAll` parameter is used to specify if the dragon amulet is available for all users. If you want to enable it, set it to `true`, otherwise set it to `false`. The default is `false`. If you set it to `true`, all users will have the dragon amulet, even if they don't have it in their account.
+
 - `revalidateClientValues`: The `revalidateClientValues` parameter is used to revalidate the client values, for example, if the client sends a value that is not expected, it will be revalidated. If user try to sell a item for 999999 gold or dragon coins, we will revalidate and sell with the correct price. It can have unexpected behavior. If you want to revalidate, set it to `true`, otherwise set it to `false`.
 
 - `banInvalidClientValues`: The `banInvalidClientValues` parameter is used to ban users that send invalid values. Like the `revalidateClientValues`, if the user try to sell a item for 999999 gold or dragon coins, we will revalidate and if the value is unexpected, we will ban the user. If you want to ban, set it to `true`, otherwise set it to `false`. As the `revalidateClientValues` can have unexpected behavior, It can cause some users to be banned injustly. If you want to ban, I recommend to set the `revalidateClientValues` to `true` and the `banInvalidClientValues` to `false`.
