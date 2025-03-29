@@ -85,7 +85,7 @@ $replaces = [
        var params = new LoadVars();
        params.strToken = _root.user.strToken;
        _root.conn.showConn("Starting activation...");
-       params.sendAndLoad(_root.conn.url + "/custom/activate-account",result,"POST");
+       params.sendAndLoad(_root.conn.url + "custom/activate-account",result,"POST");
     };
     stop();
     ACTIONSCRIPT,
