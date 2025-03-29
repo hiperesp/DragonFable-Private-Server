@@ -69,10 +69,12 @@ window.addEventListener("load", function() {
             switch(serverStatus.status?.special) {
                 case "SETUP":
                 case "UPGRADE":
+                    if(window.setup) return; // Avoid redirect loop
                     window.location.href = "setup.html";
                     break;
                 case "MAINTENANCE":
                     if(window.maintenance) return; // Avoid redirect loop
+                    if(window.setup) return; // Avoid redirect from setup page
                     window.location.href = "maintenance.html#back-to="+encodeURIComponent(window.location.pathname+window.location.search);
                     break;
                 case "ERROR":

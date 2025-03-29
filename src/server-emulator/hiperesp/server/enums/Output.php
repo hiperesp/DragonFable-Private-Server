@@ -12,7 +12,8 @@ enum Output {
     case RAW;
     case HTML;
     case JSON;
-    case REDIRECT;
+    case REDIRECT_301;
+    case REDIRECT_302;
     case NONE;
     case LOOP_EVENT_SOURCE;
     case PERIODIC_EVENT_SOURCE;
@@ -23,7 +24,8 @@ enum Output {
             Output::XML => $this->xml($output),
             Output::FORM => $this->form($output),
             Output::RAW, Output::HTML => $this->raw($output),
-            Output::REDIRECT => $this->redirect($output),
+            Output::REDIRECT_301 => $this->redirect(301, $output),
+            Output::REDIRECT_302 => $this->redirect(302, $output),
             Output::JSON => $this->json($output),
             Output::NONE => null,
             Output::LOOP_EVENT_SOURCE => $this->loopEventSource($output),
@@ -39,7 +41,7 @@ enum Output {
                 Output::NINJA2XML, Output::XML => $this->xml($exception->asXML()),
                 Output::FORM => $this->form($exception->asArray()),
                 Output::RAW, Output::HTML => $this->raw($exception->asString()),
-                Output::REDIRECT => $this->redirect("/error/{$exception->getHttpStatusCode()}"),
+                Output::REDIRECT_301, Output::REDIRECT_302 => $this->redirect(302, "/error/{$exception->getHttpStatusCode()}?".\http_build_query($exception->asArray())),
                 Output::JSON => $this->json($exception->asArray()),
                 Output::NONE => null,
                 Output::LOOP_EVENT_SOURCE => $this->loopEventSource($exception->asEventSource()),
@@ -52,7 +54,7 @@ enum Output {
                 Output::NINJA2XML, Output::XML => $this->xml(new \SimpleXMLElement("<error>{$exception->getMessage()}</error>")),
                 Output::FORM => $this->form(["error" => $exception->getMessage()]),
                 Output::RAW, Output::HTML => $this->raw($exception->getMessage()),
-                Output::REDIRECT => $this->redirect("/error/500"),
+                Output::REDIRECT_301, Output::REDIRECT_302 => $this->redirect(302, "/error/500?".\http_build_query(["error" => $exception->getMessage()])),
                 Output::JSON => $this->json(["error" => $exception->getMessage()]),
                 Output::NONE => null,
                 Output::LOOP_EVENT_SOURCE => $this->loopEventSource(fn() => ["event" => "error", "data" => $exception->getMessage()]),
@@ -91,15 +93,15 @@ enum Output {
     private function raw(string $raw): void {
         $contentType = match($this) {
             Output::RAW => "text/plain",
-            Output::HTML => "text/html",
+            Output::REDIRECT_301, Output::REDIRECT_302, Output::HTML => "text/html",
         };
 
         \header("Content-Type: {$contentType}");
         echo $raw;
     }
 
-    private function redirect(string $url): void {
-        \http_response_code(302);
+    private function redirect(int $statusCode, string $url): void {
+        \http_response_code($statusCode);
         \header("Location: {$url}");
 
         $this->raw("<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"1;url={$url}\"></head><body><h1>Redirecting...</h1><hr><a href=\"{$url}\">Click here if you are not redirected</a></body></html>");

@@ -15,7 +15,7 @@ class RedirectController extends Controller {
     #[Request(
         endpoint: '/web/default.asp',
         inputType: Input::NONE,
-        outputType: Output::REDIRECT
+        outputType: Output::REDIRECT_301
     )]
     public function index(): string {
         return $this->settings->homeUrl;
@@ -24,7 +24,7 @@ class RedirectController extends Controller {
     #[Request(
         endpoint: '/web/game.asp',
         inputType: Input::NONE,
-        outputType: Output::REDIRECT
+        outputType: Output::REDIRECT_301
     )]
     public function play(): string {
         return $this->settings->playUrl;
@@ -33,7 +33,7 @@ class RedirectController extends Controller {
     #[Request(
         endpoint: '/web/df-signup.asp',
         inputType: Input::NONE,
-        outputType: Output::REDIRECT
+        outputType: Output::REDIRECT_301
     )]
     public function signUp(): string {
         return $this->settings->signUpUrl;
@@ -42,7 +42,7 @@ class RedirectController extends Controller {
     #[Request(
         endpoint: '/web/df-lostpassword.aspx',
         inputType: Input::NONE,
-        outputType: Output::REDIRECT
+        outputType: Output::REDIRECT_301
     )]
     public function lostPassword(): string {
         return $this->settings->lostPasswordUrl;
@@ -51,7 +51,7 @@ class RedirectController extends Controller {
     #[Request(
         endpoint: '/web/df-terms.asp',
         inputType: Input::NONE,
-        outputType: Output::REDIRECT
+        outputType: Output::REDIRECT_301
     )]
     public function terms(): string {
         return $this->settings->tosUrl;
@@ -60,7 +60,7 @@ class RedirectController extends Controller {
     #[Request(
         endpoint: '/web/df-chardetail.asp',
         inputType: Input::QUERY,
-        outputType: Output::REDIRECT
+        outputType: Output::REDIRECT_301
     )]
     public function charDetail(array $input): string {
         $queryParams = \http_build_query($input);

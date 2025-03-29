@@ -23,6 +23,8 @@ class SettingsVO extends ValueObject {
     public readonly bool $enableAdvertising;
     public readonly int  $dailyQuestCoinsReward;
 
+    public readonly bool $dragonAmuletForAll;
+
     public readonly bool $revalidateClientValues;
     public readonly bool $banInvalidClientValues;
     public readonly bool $canDeleteUpgradedChar;

@@ -10,6 +10,17 @@ class UserVO extends ValueObject implements Bannable {
     #[Inject] private CharacterModel $characterModel;
     #[Inject] private SettingsVO $settings;
 
+    #[\Override]
+    protected function patch(array $user): array {
+        $user['password'] = "";
+
+        if($this->settings->dragonAmuletForAll) {
+            $user['upgraded'] = 1;
+        }
+
+        return $user;
+    }
+
     public readonly string $createdAt;
     public readonly string $updatedAt;
 
@@ -31,13 +42,6 @@ class UserVO extends ValueObject implements Bannable {
 
     public readonly string $recoveryCode;
     public readonly string $recoveryExpires;
-
-    #[\Override]
-    protected function patch(array $user): array {
-        $user['password'] = "";
-
-        return $user;
-    }
 
     public int $accessLevel {
         get {
