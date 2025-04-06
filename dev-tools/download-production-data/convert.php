@@ -741,6 +741,7 @@ function saveData(array &$json): void {
             $percentStr = getPercentString($current, $total);
             echo "[1] Saving {$newFolder}/merged.json {$percentStr}\n";
 
+            $hasException = false;
             foreach($newData as $newJson) {
                 $current++;
                 if(!isset($newJson["id"])) {
@@ -762,12 +763,16 @@ function saveData(array &$json): void {
                                 }
                                 $newJson = $merges[$newFolder]($currentDataItem, $newJson);
                             } catch(\Exception $e) {
-                                throw new \Exception("{$e->getMessage()}: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson));
+                                echo "{$e->getMessage()}: {$newDir}/merged.json\nCurrent data:".\json_encode($currentDataItem)."\nNew data    :".\json_encode($newJson)."\n";
+                                $hasException = true;
                             }
                         }
                     }
                 }
                 $currentData[$newJson["id"]] = $newJson;
+            }
+            if($hasException) {
+                throw new \Exception("Error while merging data. Check the output above.");
             }
 
             $currentData = \array_values($currentData);
