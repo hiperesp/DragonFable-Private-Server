@@ -6,7 +6,7 @@
 
 - [XAMPP 8.2](https://www.apachefriends.org/download.html)
 - [DragonFable Private Server Files (PHP 8.2)](https://github.com/hiperesp/DragonFable-Private-Server/archive/refs/heads/php8.2.zip)
-- **Optional**: [Offline Gamefiles](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-04-05)
+- **Optional**: [Offline Gamefiles](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-04-12)
 
 ### 1. Prepare files:
 
@@ -122,7 +122,7 @@ If you want to upgrade the server to a newer version, you can follow the steps b
 
     **Note**: If you don't create the `.config.php` file, the server will use the default system environment variables.
 
-3. (Optional) Download the offline gamefiles from [mediafire, click here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-04-05) and extract it to `/src/cdn/gamefiles/`\
+3. (Optional) Download the offline gamefiles from [mediafire, click here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-04-12) and extract it to `/src/cdn/gamefiles/`\
     **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the `cache` mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
 
 ### Usage:
@@ -165,7 +165,7 @@ If you want to upgrade the server to a newer version, you can follow the steps b
 
     You can use MySQL or SQLite. See `/src/server-emulator/.config.default.php` for more details. By default, the server will use SQLite.
 
-4. (Optional) Download the offline gamefiles from [mediafire, click here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-04-05) and extract it to `public_html/cdn/gamefiles/`\
+4. (Optional) Download the offline gamefiles from [mediafire, click here](https://www.mediafire.com/file/7ce4vkkwokmx2h1/gamefiles.zip/file) (updated at 2025-04-12) and extract it to `public_html/cdn/gamefiles/`\
     **Note**: If you don't download the gamefiles, the server will progressively download them as each game file is requested **only if you use the `cache` mode at `gamefilesPath` settings**. This means that as you play, the server will fetch the necessary files in real-time, ensuring you can continue playing without interruption.
 
 ### Usage:
