@@ -3,13 +3,13 @@ namespace hiperesp\server\exceptions;
 
 class DFException extends \Exception {
 
-    const DYNAMIC_ERROR = "000.00";
+    const DYNAMIC_ERROR = "DFPS-DYNAMIC_ERROR";
 
-    const CHARACTER_NOT_FOUND = "500.71";
-    const INVALID_SESSION = "500.72";
-    const INVALID_REFERENCE = "500.73";
-    const USER_NOT_FOUND = "526.14";
-    const BAD_REQUEST = "538.07";
+    const CHARACTER_NOT_FOUND = "500.71-CHARACTER_NOT_FOUND";
+    const INVALID_SESSION = "500.72-INVALID_SESSION";
+    const INVALID_REFERENCE = "500.73-INVALID_REFERENCE";
+    const USER_NOT_FOUND = "526.14-USER_NOT_FOUND";
+    const BAD_REQUEST = "538.07-BAD_REQUEST";
 
     const SETTINGS_NOT_FOUND            = "DFPS-SETTINGS_NOT_FOUND";
     const CLASS_NOT_FOUND               = "DFPS-CLASS_NOT_FOUND";

@@ -47,7 +47,7 @@ class UserModel extends Model {
         throw new DFException(DFException::USER_NOT_FOUND);
     }
 
-    public function signup(string $username, #[\SensitiveParameter] string $password, string $email, string $birthdate): UserVO {
+    public function signup(string $username, string $password, string $email, string $birthdate): UserVO {
         $data = [];
 
         $data['birthdate'] = \date('Y-m-d', \strtotime($birthdate)); // from mm/dd/yyyy to yyyy-mm-dd
@@ -85,7 +85,7 @@ class UserModel extends Model {
         if(isset($user[0]) && $user = $user[0]) {
             return new UserVO($user);
         }
-        throw new DFException(DFException::USER_NOT_FOUND);
+        throw new DFException(DFException::INVALID_SESSION);
     }
 
     private function _generateUniqueSessionToken(): string {
