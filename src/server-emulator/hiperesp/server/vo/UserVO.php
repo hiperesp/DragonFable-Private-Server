@@ -44,28 +44,18 @@ class UserVO extends ValueObject implements Bannable {
     public readonly string $recoveryCode;
     public readonly string $recoveryExpires;
 
-    public int $accessLevel {
-        get {
-            //   From game.swf:
-            //     < 0 = Disabled,
-            //     0 or 2 = Normal (Free or Upgraded),
-            //     Any other value = Special
-            //   What I think about the values:
-            //     -1 = disabled,
-            //     0 = free,
-            //     1 = special,
-            //     2 = upgraded
-            if($this->banned) {
-                return -1;
-            }
-            if($this->special) {
-                return 1;
-            }
-            if($this->upgraded) {
-                return 2;
-            }
-
-            return 0;
+    public function getAccessLevel(): int {
+        //   From game.swf:
+        //     < 0 = Disabled,
+        //     0 or 2 = Normal (Free or Upgraded),
+        //     Any other value = Special
+        //   What I think about the values:
+        //     -1 = disabled,
+        //     0 = free,
+        //     1 = special,
+        //     2 = upgraded
+        if($this->banned) {
+            return -1;
         }
         if($this->special) {
             return 1;
