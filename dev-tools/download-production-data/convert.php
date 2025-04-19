@@ -596,11 +596,24 @@ convertAll([
 
 function convertAll(array $folders) {
 
+    echo "[0] Starting conversion...\n";
     $totalFiles = (function() use ($folders): int {
         return \array_reduce($folders, function(int $totalFiles, string $folder): int {
-            return $totalFiles + \count(\scandir("downloaded/{$folder}")) - 2; // ignoring . and ..
+            $allFiles = \scandir("downloaded/{$folder}");
+            foreach($allFiles as $file) {
+                if ($file === "." || $file === "..") {
+                    continue;
+                }
+                if (\is_dir("downloaded/{$folder}/{$file}")) {
+                    $totalFiles += \count(\scandir("downloaded/{$folder}/{$file}")) - 2; // ignoring . and ..
+                } else {
+                    $totalFiles++;
+                }
+            }
+            return $totalFiles;
         }, 0);
     })();
+    echo "[0] Total files to convert: {$totalFiles}\n";
 
     $dataToSave = [];
 
@@ -617,9 +630,6 @@ function convertAll(array $folders) {
                 continue;
             }
 
-            $percentStr = getPercentString($currentFile, $totalFiles);
-            echo "[0] Converting {$folder}/{$file} {$percentStr}\n";
-
             if(\is_dir("downloaded/{$folder}/{$file}")) {
                 $filesFromDir = \array_map(function(string $newFileName) use($file) {
                     return "{$file}/{$newFileName}";
@@ -630,6 +640,9 @@ function convertAll(array $folders) {
                 $filesFromDir = [$file];
             }
             foreach($filesFromDir as $file) {
+                $percentStr = getPercentString($currentFile, $totalFiles);
+                echo "[0] Converting {$folder}/{$file} {$percentStr}\n";
+
                 $newFile = convertFile($folder, $file);
                 foreach($newFile as $key => $value) {
                     $value = \array_filter($value, function($v) {
@@ -643,8 +656,8 @@ function convertAll(array $folders) {
                     }
                     $dataToSave[$key] = \array_merge($dataToSave[$key], $value);
                 }
+                $currentFile++;
             }
-            $currentFile++;
         }
     }
     echo "[0] Conversion done! Saving data...\n";
