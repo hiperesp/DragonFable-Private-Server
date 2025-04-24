@@ -3,7 +3,7 @@ services:
     container_name: dragonfable-web
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-dev
     ports:
       - "40000:80"
     volumes:
