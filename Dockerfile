@@ -1,7 +1,6 @@
 FROM php:8.2-apache AS base
 
 RUN a2enmod rewrite headers
-
 RUN docker-php-ext-install pdo_mysql
 
 

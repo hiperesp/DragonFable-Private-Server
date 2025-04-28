@@ -1,0 +1,35 @@
+FROM php:8.2-apache AS base
+
+RUN a2enmod rewrite headers
+RUN docker-php-ext-install pdo_mysql
+
+RUN pecl install xdebug-3.4.2 && docker-php-ext-enable xdebug
+RUN echo "xdebug.client_host=host.docker.internal" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+RUN echo "xdebug.start_with_request=yes" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+RUN echo "xdebug.mode=debug" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+RUN echo "xdebug.client_port=9003" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+
+
+USER www-data
+COPY src/cdn/ /var/www/html/cdn/
+USER root
+RUN chown -R www-data:www-data /var/www/html/cdn/
+RUN chmod -R 777 /var/www/html/cdn/
+
+USER www-data
+COPY src/web/ /var/www/html/web/
+COPY src/web/.htaccess.disabled /var/www/html/web/.htaccess
+RUN ln -s /var/www/html/web/assets/ /var/www/html/assets
+RUN find /var/www/html/web/ -name "*.html" -exec ln -s {} /var/www/html/ \;
+USER root
+RUN chown -R www-data:www-data /var/www/html/web/
+RUN chmod -R 777 /var/www/html/web/
+
+USER www-data
+COPY src/server-emulator/ /var/www/html/server-emulator/
+USER root
+RUN chown -R www-data:www-data /var/www/html/server-emulator/
+RUN chmod -R 777 /var/www/html/server-emulator/
+
+
+EXPOSE 80
