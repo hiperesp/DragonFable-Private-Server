@@ -4,7 +4,7 @@
         "name": "Falconreach",
         "description": "There is no place like home!",
         "complete": "There is no place like home!",
-        "swf": "towns\/1Falconreach\/town-Falconreach-Book1-r17.swf?ver=2",
+        "swf": "towns\/1Falconreach\/town-Falconreach-Book1-r17.swf?ver=4",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 0,
@@ -12,7 +12,7 @@
         "maxExp": 0,
         "minTime": 0,
         "counter": 0,
-        "extra": "AdvCrest=towns\/1Falconreach\/town-Falconreach-Book1-r17.swf?ver=2\nMystery=zones\/zone-mysterious-orb-r2.swf\nGuardian=towns\/guardian\/zone-guardian2-r6.swf?ver=1\nVoltabolt=zones\/zone-drvoltabolt2.swf?ver=1\nWeapon=towns\/1Falconreach\/shop-Weapon-Book1.swf\nSuperstore=shops\/shop-SuperstoreR12.swf?ver=1\nShopAria=towns\/1Falconreach\/shop-GramsAria-Book1-r4.swf\nSerenityInn=towns\/1Falconreach\/shop-SerenitysInn-r8.swf?ver=1\nManaPotion=shops\/shop-ManaPotion-2018-r2.swf?ver=1\nHealthPotion=shops\/shop-Potion-2018-r1.swf?ver=2\nSpecialEvent=quests\/DragonEgg\/zone-DragonEgg-HoleMissing.swf\nDragonEgg=quests\/DragonEgg\/zone-DragonEgg.swf\nstrGold=1.6 Billion Gold\nSerenity=Merry Frostval!\nBlackMarket=towns\/1Falconreach\/shop-blackmarket3-r23.swf",
+        "extra": "AdvCrest=towns\/1Falconreach\/town-Falconreach-Book1-r17.swf?ver=4\nMystery=zones\/zone-mysterious-orb-r2.swf\nGuardian=towns\/guardian\/zone-guardian2-r6.swf?ver=1\nVoltabolt=zones\/zone-drvoltabolt2.swf?ver=1\nWeapon=towns\/1Falconreach\/shop-Weapon-Book1.swf\nSuperstore=shops\/shop-SuperstoreR12.swf?ver=1\nShopAria=towns\/1Falconreach\/shop-GramsAria-Book1-r4.swf\nSerenityInn=towns\/1Falconreach\/shop-SerenitysInn-r8.swf?ver=2\nManaPotion=shops\/shop-ManaPotion-2018-r2.swf?ver=1\nHealthPotion=shops\/shop-Potion-2018-r1.swf?ver=2\nSpecialEvent=quests\/DragonEgg\/zone-DragonEgg-HoleMissing.swf\nDragonEgg=quests\/DragonEgg\/zone-DragonEgg.swf\nstrGold=1.6 Billion Gold\nSerenity=Merry Frostval!\nBlackMarket=towns\/1Falconreach\/shop-blackmarket3-r23.swf",
         "dailyIndex": 0,
         "dailyReward": 0,
         "monsterMinLevel": 0,
@@ -872,8 +872,8 @@
         "dailyReward": 0,
         "monsterMinLevel": 0,
         "monsterMaxLevel": 100,
-        "monsterType": "Chaos Drakath",
-        "monsterGroupSwf": "mset-arenachaosdrakath.swf?ver=2"
+        "monsterType": "Draco baby and titan",
+        "monsterGroupSwf": "mset-arenadraco.swf"
     },
     {
         "id": 50,
@@ -1290,7 +1290,7 @@
         "id": 71,
         "name": "The Keep Invasion",
         "description": "Oaklore Keep has been invaded by a force of sneaky sneevils! They seem to be after one of two Ironwood Boxes that were delivered to the Knights of the Pactogonal Table, but which is the real chest?",
-        "complete": "You saved the tower but Sneevil ninajs escaped with the real Ironwood Box, and you were left with the DECOY BOX!  It looks like you will have to get it back from the King Splurt himself!",
+        "complete": "You saved the tower but Sneevil ninjas escaped with the real Ironwood Box, and you were left with the DECOY BOX!  It looks like you will have to get it back from the King Splurt himself!",
         "swf": "quests\/quest-oaklore-tower.swf",
         "swfX": "none",
         "maxSilver": 3,
@@ -2021,8 +2021,8 @@
     {
         "id": 108,
         "name": "Bassault's Assault",
-        "description": "Drakath has called in a favor with the Pyromancer Xan. His firey armies are taking positions all around Falconreach, but a huge lava creature named Bassault is not waiting.",
-        "complete": "You have bested Bassault, the minion of Xan. Maybe some clue to the war plans of the pyromancer can be found.",
+        "description": "Drakath has called in a favor with the mad pyromancer Xan. His fiery armies are taking positions all around Falconreach, but a huge lava creature named Bassault is not waiting.",
+        "complete": "You have bested Bassault, the minion of Xan! ...But the rest of the army is still on the way.",
         "swf": "quests\/quest-xan-preview.swf",
         "swfX": "none",
         "maxSilver": 99,
@@ -2034,22 +2034,22 @@
         "extra": "",
         "dailyIndex": 0,
         "dailyReward": 0,
-        "monsterMinLevel": 1,
-        "monsterMaxLevel": 99,
-        "monsterType": "fire",
-        "monsterGroupSwf": "mset-lava-r2.swf"
+        "monsterMinLevel": 0,
+        "monsterMaxLevel": 100,
+        "monsterType": "Primordial Bassault",
+        "monsterGroupSwf": "mset-bassaultassault.swf"
     },
     {
         "id": 109,
-        "name": "Xan Bossfight",
+        "name": "Wrath of Xan",
         "description": "Xan is unlike any villian we have ever fought before...",
-        "complete": "You have stood up to Xan and are hailed the hero of Falconreach. Now, the people look onto you for inspiration as they rebuild.... Falconreach shall spread its wings again!",
-        "swf": "towns\/WrathofXan\/quest-war-wrathofxan-endingr1.swf",
-        "swfX": "none",
+        "complete": "You have stood up to Xan and are hailed the hero of Falconreach! Now, the people look onto you for inspiration as they rebuild.... Falconreach shall spread its wings again!",
+        "swf": "towns\/WrathofXan\/quest-wrathofxan.swf",
+        "swfX": "towns\/WrathofXan\/quest-wrathofxan-x.swf",
         "maxSilver": 99,
-        "maxGold": 2000,
+        "maxGold": 5000,
         "maxGems": 0,
-        "maxExp": 50000,
+        "maxExp": 100000,
         "minTime": 0,
         "counter": 0,
         "extra": "",
@@ -2058,15 +2058,15 @@
         "monsterMinLevel": 1,
         "monsterMaxLevel": 99,
         "monsterType": "fire",
-        "monsterGroupSwf": "mset-xan.swf"
+        "monsterGroupSwf": "mset-lava-r2.swf?ver=1"
     },
     {
         "id": 110,
         "name": "The Hot Gates",
-        "description": "All of King Alteon's troops have been defeated, and the king himself has gone missing. This could be a disaster if Xan's forces have gotten to the king before you. You have to find him!",
+        "description": "Many of King Alteon's troops have been defeated, and the king himself has gone missing. This could be a disaster if Xan's forces get to the king before you. You have to find him!",
         "complete": "Oh good, you found him.",
         "swf": "quests\/quest-299.swf",
-        "swfX": "none",
+        "swfX": "quests\/quest-299-x.swf",
         "maxSilver": 99,
         "maxGold": 2000,
         "maxGems": 0,
@@ -2079,15 +2079,15 @@
         "monsterMinLevel": 1,
         "monsterMaxLevel": 99,
         "monsterType": "fire",
-        "monsterGroupSwf": "mset-lava-r2.swf"
+        "monsterGroupSwf": "mset-lava-r2.swf?ver=1"
     },
     {
         "id": 111,
         "name": "The Sneevil Dumpsite",
-        "description": "One Sneevils trash is just about any other man's treasure! Somewhere amongst the strange and valuable items the Sneevils dumped here is the Egg from the Black Dragon Box.",
-        "complete": "Leggo my egg crow! Actually, it was a Vultragon... and a VERY large and scary one at that. There is no time to spare. Valencia will know what to do next... right?",
-        "swf": "quests\/DragonEgg\/quest-dragonegg3.swf",
-        "swfX": "none",
+        "description": "One Sneevil's trash is just about any other man's treasure! Somewhere amongst the strange and valuable items the Sneevils dumped here is the Egg from the Black Dragon Box.",
+        "complete": "Leggo my egg, crow! Actually, it was a Vultragon... and a VERY large and scary one at that. There is no time to spare. Valencia will know what to do next... right?",
+        "swf": "quests\/DragonEgg\/quest-dragonegg3-2025.swf",
+        "swfX": "quests\/DragonEgg\/quest-dragonegg3-2025-x.swf",
         "maxSilver": 0,
         "maxGold": 2000,
         "maxGems": 0,
@@ -2100,15 +2100,15 @@
         "monsterMinLevel": 8,
         "monsterMaxLevel": 99,
         "monsterType": "Trashy",
-        "monsterGroupSwf": "mset-dumpsite.swf"
+        "monsterGroupSwf": "mset-dumpsite.swf?ver=1"
     },
     {
         "id": 112,
         "name": "Egg Recovery",
         "description": "At the last second, the Dragon Egg was stolen by a large vicious bird called a Vultragon who makes its home in the Sneevil Dump Site. You must track down the egg thief and get your egg back!",
         "complete": "You found that the Ultra Vultragon's nest was filled with large eggs that ALL looked like your Dragon Egg, so you took all six...uh...five of the eggs.",
-        "swf": "quests\/DragonEgg\/quest-dragonegg4.swf",
-        "swfX": "none",
+        "swf": "quests\/DragonEgg\/quest-dragonegg4-2025.swf?ver=1",
+        "swfX": "quests\/DragonEgg\/quest-dragonegg4-2025-x.swf",
         "maxSilver": 99,
         "maxGold": 2000,
         "maxGems": 0,
@@ -2121,7 +2121,7 @@
         "monsterMinLevel": 8,
         "monsterMaxLevel": 99,
         "monsterType": "Trashy",
-        "monsterGroupSwf": "mset-dumpsite.swf"
+        "monsterGroupSwf": "mset-dumpsite.swf?ver=1"
     },
     {
         "id": 113,
@@ -2442,7 +2442,7 @@
         "monsterMinLevel": 1,
         "monsterMaxLevel": 99,
         "monsterType": "fire",
-        "monsterGroupSwf": "mset-lava-r2.swf"
+        "monsterGroupSwf": "mset-lava-r2.swf?ver=1"
     },
     {
         "id": 129,
@@ -2595,7 +2595,7 @@
         "monsterMinLevel": 1,
         "monsterMaxLevel": 99,
         "monsterType": "fire",
-        "monsterGroupSwf": "mset-lava-r2.swf"
+        "monsterGroupSwf": "mset-lava-r2.swf?ver=1"
     },
     {
         "id": 137,
@@ -3955,8 +3955,8 @@
         "name": "TEST",
         "description": "sss",
         "complete": "sss",
-        "swf": "quests\/DragonEgg\/quest-dragonegg2-2025.swf",
-        "swfX": "quests\/DragonEgg\/quest-dragonegg2-2025-x.swf",
+        "swf": "quests\/DragonEgg\/quest-dragonegg4-2025.swf",
+        "swfX": "quests\/DragonEgg\/quest-dragonegg4-2025-x.swf",
         "maxSilver": 2000,
         "maxGold": 3000,
         "maxGems": 0,
@@ -3966,10 +3966,10 @@
         "extra": "",
         "dailyIndex": 0,
         "dailyReward": 0,
-        "monsterMinLevel": 1,
+        "monsterMinLevel": 8,
         "monsterMaxLevel": 99,
-        "monsterType": "human,beast",
-        "monsterGroupSwf": "mset-drakath2.swf"
+        "monsterType": "Trashy",
+        "monsterGroupSwf": "mset-dumpsite.swf?ver=1"
     },
     {
         "id": 206,
@@ -9913,7 +9913,7 @@
         "name": "Valencia",
         "description": "Valencia",
         "complete": "Valencia",
-        "swf": "towns\/valencia\/town-valencia9.swf?ver=1",
+        "swf": "towns\/valencia\/town-valencia9.swf?ver=2",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 0,
@@ -9921,7 +9921,7 @@
         "maxExp": 0,
         "minTime": 0,
         "counter": 0,
-        "extra": "Valencia=towns\/valencia\/town-valencia9.swf?ver=1",
+        "extra": "Valencia=towns\/valencia\/town-valencia9.swf?ver=2",
         "dailyIndex": 0,
         "dailyReward": 0,
         "monsterMinLevel": 0,
@@ -10641,7 +10641,7 @@
         "monsterMinLevel": 1,
         "monsterMaxLevel": 99,
         "monsterType": "fire",
-        "monsterGroupSwf": "mset-lava-r2.swf"
+        "monsterGroupSwf": "mset-lava-r2.swf?ver=1"
     },
     {
         "id": 539,
@@ -10774,7 +10774,7 @@
         "name": "Spidermancer",
         "description": "It's time to face the architect of this arachnatrocity!",
         "complete": "Squish that oversized bug!",
-        "swf": "quests\/quest-war-spidermaniii-BOSSr1.swf",
+        "swf": "quests\/quest-war-spidermaniii-BOSSr1.swf?ver=1",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 2000,
@@ -10929,7 +10929,7 @@
         "maxExp": 50000,
         "minTime": 0,
         "counter": 0,
-        "extra": "intClass3ID=52\nintClass1ID=53\nintClass2ID=51\nintQuest1ID=2225\nintQuest2ID=205\nintQuest3ID=2217\nintShop1ID=793\nintShop2ID=2\nintShop3ID=192\nintTown1ID=51\nintTown2ID=35\nintTown3ID=147\n\n\nmsg=BOXKITTEH WAZ HERE       SO WAZ DOVE!!!!!!!",
+        "extra": "intClass3ID=52\nintClass1ID=53\nintClass2ID=51\nintQuest1ID=49\nintQuest2ID=1412\nintQuest3ID=2217\nintShop1ID=793\nintShop2ID=2\nintShop3ID=192\nintTown1ID=51\nintTown2ID=35\nintTown3ID=147\n\n\nmsg=BOXKITTEH WAZ HERE       SO WAZ DOVE!!!!!!!",
         "dailyIndex": 0,
         "dailyReward": 0,
         "monsterMinLevel": 0,
@@ -17012,7 +17012,7 @@
         "description": "The mysterious floating city of Atrea.",
         "complete": "The mysterious floating city of Atrea.",
         "swf": "towns\/Atrea\/town-atrea7.swf?ver=3",
-        "swfX": "towns\/Atrea\/town-atrea-x.swf?ver=3",
+        "swfX": "towns\/Atrea\/town-atrea-x.swf?ver=4",
         "maxSilver": 0,
         "maxGold": 0,
         "maxGems": 0,
@@ -22324,7 +22324,7 @@
         "name": "Symone DuBellmont",
         "description": "Symone, the Shadow Hunter.",
         "complete": "Symone, the Shadow Hunter.",
-        "swf": "towns\/Mogloween\/M13\/town-symone-r1.swf?ver=1",
+        "swf": "towns\/Mogloween\/M13\/town-symone-r1.swf?ver=2",
         "swfX": "none",
         "maxSilver": 0,
         "maxGold": 0,
@@ -22471,8 +22471,8 @@
         "name": "Castle Valtrith",
         "description": "Valtrith castle sits like a malevolent toad in the Doomwood. His minions still haunt its halls and it's up to you to clear them out.",
         "complete": "You've taken a good chunk out of the remains of Valtrith's minions... who knows how many more are lurking though?",
-        "swf": "towns\/Symone\/quest-castlevaltrith.swf?ver=1",
-        "swfX": "none",
+        "swf": "towns\/Symone\/quest-castlevaltrith2025.swf",
+        "swfX": "towns\/Symone\/quest-castlevaltrith2025-x.swf",
         "maxSilver": 0,
         "maxGold": 3000,
         "maxGems": 0,
@@ -26628,7 +26628,7 @@
         "monsterMinLevel": 1,
         "monsterMaxLevel": 99,
         "monsterType": "fire",
-        "monsterGroupSwf": "mset-lava-r2.swf"
+        "monsterGroupSwf": "mset-lava-r2.swf?ver=1"
     },
     {
         "id": 1307,
@@ -28840,8 +28840,8 @@
         "name": "=======TestQuest",
         "description": "a",
         "complete": "a",
-        "swf": "towns\/quest-test.swf",
-        "swfX": "none",
+        "swf": "towns\/symone\/quest-castlevaltrith2025.swf",
+        "swfX": "towns\/symone\/quest-castlevaltrith2025-x.swf",
         "maxSilver": 0,
         "maxGold": 0,
         "maxGems": 0,
@@ -28853,8 +28853,8 @@
         "dailyReward": 0,
         "monsterMinLevel": 0,
         "monsterMaxLevel": 99,
-        "monsterType": "swamp and rose",
-        "monsterGroupSwf": "mset-betrubung.swf?ver=1"
+        "monsterType": "creepy, mixed up",
+        "monsterGroupSwf": "mset-moglo13-r3.swf?ver=1"
     },
     {
         "id": 1413,
@@ -35476,7 +35476,7 @@
         "name": "Armor Customization",
         "description": "Change up your looks!",
         "complete": "Looking good.",
-        "swf": "town-wardrobe-r33.swf?ver=4",
+        "swf": "town-wardrobe-r33.swf?ver=5",
         "swfX": "town-wardrobe-x.swf",
         "maxSilver": 0,
         "maxGold": 0,
@@ -45907,5 +45907,47 @@
         "monsterMaxLevel": 100,
         "monsterType": "Water,Energy, Fire ele",
         "monsterGroupSwf": "mset-findingalz.swf"
+    },
+    {
+        "id": 2226,
+        "swf": "towns\/3Ravenloss\/quest-yashtadesert.swf",
+        "swfX": "towns\/3Ravenloss\/quest-yashtadesert-x.swf",
+        "extra": "",
+        "name": "Securing the Sandsea",
+        "description": "Help Yashta out by placing six pylons that Isiri gave him.",
+        "complete": "Pylons placed, Sandsea secured!",
+        "maxSilver": 0,
+        "maxGold": 5000,
+        "maxGems": 0,
+        "maxExp": 200000,
+        "minTime": 0,
+        "counter": 0,
+        "dailyIndex": 0,
+        "dailyReward": 0,
+        "monsterMinLevel": 0,
+        "monsterMaxLevel": 100,
+        "monsterType": "desert mobs",
+        "monsterGroupSwf": "mset-yashtadesert.swf"
+    },
+    {
+        "id": 2227,
+        "swf": "towns\/Atrea\/quest4-whereswarlic.swf",
+        "swfX": "towns\/Atrea\/quest4-whereswarlic-x.swf",
+        "extra": "",
+        "name": "Where's Warlic?",
+        "description": "With Alz'ein and Popsprocket safe, it's time to begin the search for Warlic.",
+        "complete": "The trail leads to Swordhaven... kind of! But it's the only lead you have.",
+        "maxSilver": 0,
+        "maxGold": 5000,
+        "maxGems": 0,
+        "maxExp": 100000,
+        "minTime": 0,
+        "counter": 0,
+        "dailyIndex": 0,
+        "dailyReward": 0,
+        "monsterMinLevel": 1,
+        "monsterMaxLevel": 99,
+        "monsterType": "Darkness and Laundry",
+        "monsterGroupSwf": "mset-magetower.swf"
     }
 ]
