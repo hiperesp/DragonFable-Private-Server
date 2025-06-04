@@ -109,7 +109,7 @@ class CharacterModel extends Model {
 
     public function setQuestString(CharacterVO $char, int $index, int $value): void {
         $questString = $char->quests;
-        $questString[$index] = strtoupper(dechex($value));
+        $questString[$index] = \strtoupper(\dechex($value));
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'quests' => $questString
@@ -118,7 +118,7 @@ class CharacterModel extends Model {
 
     public function setSkillString(CharacterVO $char, int $index, int $value): void {
         $skillString = $char->skills;
-        $skillString[$index] = $value;
+        $skillString[$index] = \strtoupper(\dechex($value));
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'skills' => $skillString
