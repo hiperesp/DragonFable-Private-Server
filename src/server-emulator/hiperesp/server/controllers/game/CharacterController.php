@@ -51,6 +51,19 @@ class CharacterController extends Controller {
 
         return CharacterProjection::instance()->deleted();
     }
+	
+	#[Request(
+        endpoint: '/cf-npccharacternew.asp',
+        inputType: Input::FORM,
+        outputType: Output::FORM
+    )]
+    public function newSpecial(array $input): array {
+        $user = $this->userService->auth($input);
+
+        $char = $this->userService->createChar($user, $input);
+
+        return CharacterProjection::instance()->created();
+    }
 
     #[Request(
         endpoint: '/cf-dacheck.asp',

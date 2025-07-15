@@ -71,6 +71,52 @@ class CharacterModel extends Model {
 
         return new CharacterVO($char);
     }
+	
+	public function createAsh(UserVO $user, array $input): CharacterVO {
+        $data['userId'] = $user->id;
+        $data['name'] = "Ash Dragonblade";
+        $data['gender'] = "M";
+        $data['pronoun'] = "M";
+        $data['hairId'] = 1;
+        $data['colorHair'] = \dechex(0);
+        $data['colorSkin'] = \dechex(0);
+        $data['colorBase'] = \dechex(0);
+        $data['colorTrim'] = \dechex(0);
+        $data['classId'] = 42;
+        $data['baseClassId'] = 42;
+        $data['raceId'] = 1;
+        $data['questId'] = 373;
+        if($user->upgraded) {
+            $data['dragonAmulet'] = 1;
+        }
+
+        $char = $this->storage->insert(self::COLLECTION, $data);
+
+        return new CharacterVO($char);
+    }
+	
+	public function createAlexander(UserVO $user, array $input): CharacterVO {
+        $data['userId'] = $user->id;
+        $data['name'] = "Alexander";
+        $data['gender'] = "M";
+        $data['pronoun'] = "M";
+        $data['hairId'] = 1;
+        $data['colorHair'] = 0;
+        $data['colorSkin'] = 0;
+        $data['colorBase'] = 0;
+        $data['colorTrim'] = 0;
+        $data['classId'] = 71;
+        $data['baseClassId'] = 71;
+        $data['raceId'] = 1;
+        $data['questId'] = 832;
+        if($user->upgraded) {
+            $data['dragonAmulet'] = 1;
+        }
+
+        $char = $this->storage->insert(self::COLLECTION, $data);
+
+        return new CharacterVO($char);
+    }
 
     public function charge(CharacterVO $char, Purchasable $item): void {
         $this->storage->update(self::COLLECTION, [
