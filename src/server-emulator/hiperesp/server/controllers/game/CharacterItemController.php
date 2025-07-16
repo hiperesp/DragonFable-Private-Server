@@ -28,4 +28,19 @@ class CharacterItemController extends Controller {
         return CharacterItemProjection::instance()->destroyed();
     }
 
+	#[Request(
+		endpoint: '/cf-saveweaponconfig.asp',
+		inputType: Input::NINJA2,
+		outputType: Output::XML
+	)]
+	public function saveWeaponConfig(\SimpleXMLElement $input): \SimpleXMLElement {		
+		$char = $this->characterService->auth($input);
+		
+		$itemArray = array_map('intval', explode(',', (string)$input->strItems));
+		
+		$this->characterBagService->saveWeaponConfig($char, $itemArray);
+		
+		return CharacterItemProjection::instance()->weaponConfigSaved();
+	}
+
 }

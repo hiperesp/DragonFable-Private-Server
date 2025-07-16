@@ -33,4 +33,8 @@ class CharacterBagService extends Service {
 
     }
 
+	public function saveWeaponConfig(CharacterVO $char, $itemArray): void {
+		$this->characterItemModel->saveWeaponConfig($char, $itemArray);
+	}
+
 }
