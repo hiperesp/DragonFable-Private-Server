@@ -62,6 +62,19 @@ class CharacterController extends Controller {
 
         return CharacterProjection::instance()->dragonAmuletCheck($char);
     }
+	
+	#[Request(
+        endpoint: '/cf-goldsubtract.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function goldSubtract(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $this->characterService->subtractGold($char, goldCost: (int)$input->intGold);
+
+        return CharacterProjection::instance()->goldSubtracted($char);
+    }
 
     #[Request(
         endpoint: '/cf-statstrain.asp',

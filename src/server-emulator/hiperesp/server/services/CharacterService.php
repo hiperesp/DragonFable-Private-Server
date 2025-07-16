@@ -127,6 +127,24 @@ class CharacterService extends Service {
 
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'untrainStats', 'Stats untrained', $char, $char, []);
     }
+	
+	public function subtractGold(CharacterVO $char, int $goldCost): void {
+        if($goldCost > $char->gold) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'subtractGold', "Not enough gold.", $char, $char, [
+                'gold' => $char->gold,
+                'cost' => $goldCost
+            ])->asException(DFException::GOLD_NOT_ENOUGH);
+        }
+        if($goldCost < 0) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'subtractGold', "Negative gold cost.", $char, $char, [
+                'cost' => $goldCost
+            ])->asException(DFException::BAD_REQUEST);
+        }
+
+        $this->characterModel->chargeGold($char, $goldCost);
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'subtractGold', 'Gold subtracted', $char, $char, []);
+    }
 
     public function changeClass(CharacterVO $char, int $newClassId): ClassVO {
         try {
