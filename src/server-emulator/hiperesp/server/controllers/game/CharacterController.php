@@ -154,19 +154,4 @@ class CharacterController extends Controller {
         return CharacterProjection::instance()->skillStringSaved();
     }
 
-    #[Request(
-        endpoint: '/cf-saveweaponconfig.asp',
-        inputType: Input::NINJA2,
-        outputType: Output::XML
-    )]
-    public function saveWeaponConfig(\SimpleXMLElement $input): \SimpleXMLElement {
-        $char = $this->characterService->auth($input);
-
-        // we dont need to do anything, just return the response
-        // this is saved at the client side
-        // i dont know why this endpoint exists and what it does on the DragonFable official server
-
-        return CharacterProjection::instance()->weaponConfigSaved();
-    }
-
 }

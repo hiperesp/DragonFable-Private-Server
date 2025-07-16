@@ -77,4 +77,17 @@ class CharacterItemModel extends Model {
         $this->storage->delete(self::COLLECTION, ['id' => $charItem->id]);
     }
 
+	public function saveWeaponConfig(CharacterVO $char, array $equippedItemIds): void {
+		$charItems = $this->getByChar($char);
+        
+		foreach ($charItems as $charItem) {
+			$isEquipped = in_array($charItem->id, $equippedItemIds);
+			
+			$this->storage->update(self::COLLECTION, [
+				'id' => $charItem->id,
+				'equipped' => $isEquipped ? 1 : 0
+			]);
+		}
+	}
+
 }

@@ -28,4 +28,11 @@ class CharacterItemProjection extends Projection {
         return $xml;
     }
 
+	public function weaponConfigSaved(): \SimpleXMLElement {
+		$xml = new \SimpleXMLElement('<SaveWeaponConfig/>');
+		$xml->addChild('status', 'SUCCESS');
+
+		return $xml;
+	}
+
 }
