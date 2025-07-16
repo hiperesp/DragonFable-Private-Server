@@ -282,6 +282,13 @@ class CharacterProjection extends Projection {
         $xml->addChild('CharItemID', $charItem->id);
         return $xml;
     }
+	
+	public function goldSubtracted(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<SubtractGold/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
 
     public function statsTrained(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<TrainStats/>');

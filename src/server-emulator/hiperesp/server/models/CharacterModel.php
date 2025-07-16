@@ -233,6 +233,13 @@ class CharacterModel extends Model {
             'coins' => $char->coins - $coins
         ]);
     }
+	
+	public function chargeGold(CharacterVO $char, int $gold): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'gold' => $char->gold - $gold
+        ]);
+    }
 
     public function changeGender(CharacterVO $char, string $gender): void {
         $this->storage->update(self::COLLECTION, [
