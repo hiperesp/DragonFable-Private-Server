@@ -92,4 +92,17 @@ class DragonController extends Controller {
 		
 		return DragonProjection::instance()->dragonGrown($dragon);
     }
+
+	#[Request(
+        endpoint: '/cf-dragoncustomize.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function dragonCustomize(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $dragon = $this->dragonService->customizeDragon($char, (int)$input->intTails, (int)$input->intHeads, (int)$input->intWings, (int)$input->intColorHorn, (int)$input->intColorEye, (int)$input->intColorWing, (int)$input->intColorSkin, $input->strName);
+		
+		return DragonProjection::instance()->dragonCustomized($dragon);
+    }
 }

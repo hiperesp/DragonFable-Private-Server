@@ -39,4 +39,8 @@ class DragonService extends Service {
 		return $this->dragonModel->growDragon($char);
     }
 
+	public function customizeDragon(CharacterVO $char, int $tailId, int $headId, int $wingId, int $colorHorn, int $colorEye, int $colorWing, int $colorSkin, $name): array {
+		return $this->dragonModel->customizeDragon($char, $tailId, $headId, $wingId, $colorHorn, $colorEye, $colorWing, $colorSkin, $name);
+    }
+
 }

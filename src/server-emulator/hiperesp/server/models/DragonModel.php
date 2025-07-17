@@ -195,5 +195,84 @@ class DragonModel extends Model {
 			return $dragon;
 		}
     }
+	
+	public function formatPart(string $type, int $id): string {
+		return sprintf('dragons/%s/%s%02d.swf', $type, rtrim($type, 's'), $id);
+	}
+
+	public function customizeDragon(CharacterVO $char, int $tailId, int $headId, int $wingId, int $colorHorn, int $colorEye, int $colorWing, int $colorSkin, $name): array {
+		$headOverrides = [
+			47 => 'dragons/heads/head47-doom.swf',
+			48 => 'dragons/heads/head48-doom.swf',
+			49 => 'dragons/heads/head49-kathool.swf',
+			50 => 'dragons/heads/head50-mech.swf',
+			51 => 'dragons/heads/head51-mech.swf',
+			52 => 'dragons/heads/head52-mech.swf',
+			53 => 'dragons/heads/head53-sandsea.swf',
+			54 => 'dragons/heads/head54-GoatDragon.swf',
+			55 => 'dragons/heads/head55-OgretailThing.swf',
+			56 => 'dragons/heads/head56-RoundBallMeep.swf',
+			57 => 'dragons/heads/head57-guardian.swf',
+			58 => 'dragons/heads/head58-corvus.swf',
+			59 => 'dragons/heads/head59-stalagbite.swf',
+			60 => 'dragons/heads/head60-glaisaurus.swf',
+			61 => 'dragons/heads/head61-skweel.swf',
+			62 => 'dragons/heads/head62-reigndragon.swf',
+			63 => 'dragons/heads/head63-entropy.swf',
+			64 => 'dragons/heads/head64-akrilothjr.swf',
+			65 => 'dragons/heads/head65-creatioux.swf'
+		];
+
+		$wingOverrides = [
+			15 => 'dragons/wings/wing15-doom.swf',
+			16 => 'dragons/wings/wing16-doom.swf',
+			17 => 'dragons/wings/wing17-kathool.swf',
+			18 => 'dragons/wings/wing18-mech.swf',
+			19 => 'dragons/wings/wing19-mech.swf',
+			20 => 'dragons/wings/wing20-mech.swf',
+			21 => 'dragons/wings/wing21-sandsea.swf',
+			22 => 'dragons/wings/wing22-goatdragon.swf',
+			23 => 'dragons/wings/wing23-corvus.swf',
+			24 => 'dragons/wings/wing24-glaisaurus.swf',
+			25 => 'dragons/wings/wing25-skweel.swf',
+			26 => 'dragons/wings/wing26-reigndragon.swf',
+			27 => 'dragons/wings/wing27-entropy.swf',
+			28 => 'dragons/wings/wing28-akrilothjr.swf',
+			29 => 'dragons/wings/wing29-creatioux.swf'
+		];
+
+		$tailOverrides = [
+			26 => 'dragons/tails/tail26-doom.swf',
+			27 => 'dragons/tails/tail27-doom.swf',
+			28 => 'dragons/tails/tail28-kathool.swf',
+			29 => 'dragons/tails/tail29-mech.swf',
+			30 => 'dragons/tails/tail30-mech.swf',
+			31 => 'dragons/tails/tail31-mech.swf',
+			32 => 'dragons/tails/tail32-sandsea.swf',
+			33 => 'dragons/tails/tail33-goatdragon.swf',
+			34 => 'dragons/tails/tail34-stalagbite.swf',
+			35 => 'dragons/tails/tail35-corvus.swf',
+			36 => 'dragons/tails/tail36-skweel.swf',
+			37 => 'dragons/tails/tail37-entropy.swf',
+			38 => 'dragons/tails/tail38-akrilothjr.swf',
+			39 => 'dragons/tails/tail39-creatioux.swf'
+		];
+		
+		$dragon = $this->getByChar($char);
+		$dragon['headId'] = $headId;
+		$dragon['wingId'] = $wingId;
+		$dragon['tailId'] = $tailId;
+		$dragon['headFileName'] = $headOverrides[$headId] ?? $this->formatPart('heads', $headId);
+		$dragon['wingFileName'] = $wingOverrides[$wingId] ?? $this->formatPart('wings', $wingId);
+		$dragon['tailFileName'] = $tailOverrides[$tailId] ?? $this->formatPart('tails', $tailId);
+		$dragon['colorDHorn'] = $colorHorn;
+		$dragon['colorDEye'] = $colorEye;
+		$dragon['colorDWing'] = $colorWing;
+		$dragon['colorDSkin'] = $colorSkin;
+		$dragon['name'] = $name;
+		$this->storage->update(self::COLLECTION, $dragon);		
+		
+		return $dragon;
+	}
 
 }

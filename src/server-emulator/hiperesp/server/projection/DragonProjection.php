@@ -92,4 +92,23 @@ class DragonProjection extends Projection {
 
 		return $xml;
 	}
+	
+	public function dragonCustomized($dragon): \SimpleXMLElement {
+		$xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><DragonCustomize xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+		$dragonNode = $xml->addChild('dragon');
+
+		$dragonNode->addAttribute('strName', $dragon['name']);
+		$dragonNode->addAttribute('intColorDskin', $dragon['colorDSkin']);
+		$dragonNode->addAttribute('intColorDeye', $dragon['colorDEye']);
+		$dragonNode->addAttribute('intColorDhorn', $dragon['colorDHorn']);
+		$dragonNode->addAttribute('intColorDwing', $dragon['colorDWing']);
+		$dragonNode->addAttribute('intHeadID', $dragon['headId']);
+		$dragonNode->addAttribute('strHeadFilename', $dragon['headFileName']);
+		$dragonNode->addAttribute('intWingID', $dragon['wingId']);
+		$dragonNode->addAttribute('strWingFilename', $dragon['wingFileName']);
+		$dragonNode->addAttribute('intTailID', $dragon['tailId']);
+		$dragonNode->addAttribute('strTailFilename', $dragon['tailFileName']);
+
+		return $xml;
+	}
 }
