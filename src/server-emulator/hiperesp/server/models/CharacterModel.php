@@ -170,6 +170,15 @@ class CharacterModel extends Model {
             'skills' => $skillString
         ]);
     }
+	
+	public function setArmorString(CharacterVO $char, int $index, int $value): void {
+        $armorString = $char->armor;
+        $armorString[$index] = \strtoupper(\dechex($value));
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'armor' => $armorString
+        ]);
+    }
 
     public function applyQuestRewards(CharacterVO $char, QuestVO $quest, array $reward): void {
         if($quest->isDailyQuest()) {
