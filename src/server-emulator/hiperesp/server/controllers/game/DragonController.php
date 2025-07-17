@@ -79,4 +79,17 @@ class DragonController extends Controller {
 		
 		return DragonProjection::instance()->dragonElementChanged($dragon);
     }
+	
+	#[Request(
+        endpoint: '/cf-dragongrow.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function dragonGrow(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $dragon = $this->dragonService->growDragon($char);
+		
+		return DragonProjection::instance()->dragonGrown($dragon);
+    }
 }

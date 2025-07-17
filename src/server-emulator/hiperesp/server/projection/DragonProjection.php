@@ -82,4 +82,14 @@ class DragonProjection extends Projection {
 
 		return $xml;
 	}
+	
+	public function dragonGrown($dragon): \SimpleXMLElement {
+		$xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><DragonGrow xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+		$dragonNode = $xml->addChild('dragon');
+
+		$dragonNode->addAttribute('intTotalStats', $dragon['totalStats']);
+		$dragonNode->addAttribute('intGrowthLevel', $dragon['growthLevel']);
+
+		return $xml;
+	}
 }

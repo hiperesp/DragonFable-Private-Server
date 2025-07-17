@@ -34,5 +34,9 @@ class DragonService extends Service {
 	public function dragonElement(CharacterVO $char, int $element): array {
 		return $this->dragonModel->dragonElement($char, $element);
     }
+	
+	public function growDragon(CharacterVO $char): array {
+		return $this->dragonModel->growDragon($char);
+    }
 
 }

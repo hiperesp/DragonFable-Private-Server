@@ -36,7 +36,7 @@ class DragonModel extends Model {
 		$dragon = $this->storage->insert(self::COLLECTION, $dragonData);
 		return $dragon;
     }
-	
+
 	public function feedDragon(CharacterVO $char, int $foodId): array {
         $statPoints = 1;
 		switch($foodId)
@@ -169,6 +169,31 @@ class DragonModel extends Model {
 		}
 		$this->storage->update(self::COLLECTION, $dragon);
 		return $dragon;
+    }
+	
+	public function growDragon(CharacterVO $char): array {
+		$dragon = $this->getByChar($char);
+		$skillString = $char->skills;
+		$questString = $char->quests;
+		if ($dragon['growthLevel'] >= 2)
+		{
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		else if ($dragon['growthLevel'] == 0 && $skillString[11] < \strtoupper(\dechex(1)))
+		{
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		else if (($questString[43] <= \strtoupper(\dechex(19)) || $questString[33] <= \strtoupper(\dechex(13)) || $questString[40] <= \strtoupper(\dechex(12))) && $dragon['growthLevel'] == 1)
+		{
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		else
+		{
+			$dragon['totalStats'] = min(600, $dragon['totalStats'] + 100);
+			$dragon['growthLevel'] = min(2, $dragon['growthLevel'] + 1);
+			$this->storage->update(self::COLLECTION, $dragon);
+			return $dragon;
+		}
     }
 
 }
