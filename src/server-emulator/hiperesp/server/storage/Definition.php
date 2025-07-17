@@ -408,7 +408,7 @@ final class Definition {
 				"charId"        => ['INTEGER', 'FOREIGN_KEY' => [ "collection" => "char", "field" => "id" ] ],
 				"name"          => ['STRING' => 20, 'DEFAULT' => "Draco"],
 				"lastFed"       => ['DATETIME', 'CREATED_DATETIME'],
-				"growthLevel"    => ['INTEGER', 'DEFAULT' => 1],
+				"growthLevel"	=> ['INTEGER', 'DEFAULT' => 0],
 				"totalStats"    => ['INTEGER', 'DEFAULT' => 0],
 				"heal"          => ['INTEGER', 'DEFAULT' => 0],
 				"magic"         => ['INTEGER', 'DEFAULT' => 0],
