@@ -179,11 +179,11 @@ class DragonModel extends Model {
 		{
 			throw new DFException(DFException::BAD_REQUEST);
 		}
-		else if ($dragon['growthLevel'] == 0 && $skillString[11] < \strtoupper(\dechex(1)))
+		else if ($dragon['growthLevel'] == 0 && (int)base_convert($skillString[11], 36, 10) < 1)
 		{
 			throw new DFException(DFException::BAD_REQUEST);
 		}
-		else if (($questString[43] <= \strtoupper(\dechex(19)) || $questString[33] <= \strtoupper(\dechex(13)) || $questString[40] <= \strtoupper(\dechex(12))) && $dragon['growthLevel'] == 1)
+		else if (((int)base_convert($questString[43], 36, 10) <= 19 || (int)base_convert($questString[33], 36, 10) <= 13 || (int)base_convert($questString[40], 36, 10) <= 12) && $dragon['growthLevel'] == 1)
 		{
 			throw new DFException(DFException::BAD_REQUEST);
 		}
