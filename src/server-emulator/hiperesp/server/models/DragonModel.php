@@ -82,14 +82,6 @@ class DragonModel extends Model {
 	
 	public function trainDragon(CharacterVO $char, int $debuff, int $buff, int $melee, int $magic, int $heal): array {
 		$dragon = $this->getByChar($char);
-		$dragon['debuff'] = min(200, $dragon['debuff'] + $debuff);
-		$dragon['buff'] = min(200, $dragon['buff'] + $buff);
-		$dragon['melee'] = min(200, $dragon['melee'] + $melee);
-		$dragon['magic'] = min(200, $dragon['magic'] + $magic);
-		$dragon['heal'] = min(200, $dragon['heal'] + $heal);
-		$this->storage->update(self::COLLECTION, $dragon);
-		
-		$dragon = $this->getByChar($char);
 
 		$newDebuff = min(200, $dragon['debuff'] + $debuff);
 		$newBuff   = min(200, $dragon['buff'] + $buff);
