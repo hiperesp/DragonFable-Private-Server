@@ -207,5 +207,9 @@ class CharacterService extends Service {
     public function setSkillString(CharacterVO $char, int $index, int $value): void {
         $this->characterModel->setSkillString($char, $index, $value);
     }
+	
+	public function setArmorString(CharacterVO $char, int $index, int $value): void {
+        $this->characterModel->setArmorString($char, $index, $value);
+    }
 
 }
