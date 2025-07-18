@@ -62,12 +62,10 @@ class DragonModel extends Model {
 		}
 		$dragon = $this->getByChar($char);
 		
-		$lastFed = new \DateTime($dragon['lastFed']);
-		$now = new \DateTime();
+		$lastFedDate = (new \DateTime($dragon['lastFed']))->format('Y-m-d');
+		$nowDate = (new \DateTime())->format('Y-m-d');
 
-		$interval = $now->diff($lastFed);
-
-		if ($interval->days >= 1) {
+		if ($nowDate !== $lastFedDate) {
 			$dragon['totalStats'] = min(600, $dragon['totalStats'] + $statPoints);
 			$dragon['lastFed'] = date('Y-m-d H:i:s');
 			
