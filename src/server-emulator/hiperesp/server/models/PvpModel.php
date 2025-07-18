@@ -13,21 +13,20 @@ class PvpModel extends Model {
 
     #[Inject] private SettingsVO $settings;
 	
-	public function loadRandom(CharacterVO $char, int $level, int $charId): ?CharacterVO {		
+	public function loadRandom(CharacterVO $char, int $level, int $charId): ?CharacterVO {
 		$gap = 1;
 		$maxGap = 30;
-		
+
 		$userId = $char->userId;
-		
-		$allChars = $this->storage->select(self::COLLECTION, [], 1000000);
 
 		while ($gap <= $maxGap) {
 			$minLevel = max(1, $level - $gap);
 			$maxLevel = $level + $gap;
-			
-			$matches = array_filter($allChars, function ($player) use ($minLevel, $maxLevel, $userId) {
-				return isset($player['level'], $player['id']) && $player['level'] >= $minLevel && $player['level'] <= $maxLevel && $player['userId'] !== $userId; //your own characters are excluded
-			});
+
+			$matches = $this->storage->select(self::COLLECTION, [
+				'level' => ['BETWEEN' => [$minLevel, $maxLevel]],
+				'userId' => ['!=' => $userId] // exclude own characters
+			], 1000);
 
 			if (!empty($matches)) {
 				$matches = array_values($matches);
@@ -37,8 +36,8 @@ class PvpModel extends Model {
 
 			$gap++;
 		}
-		
-		return null; //handled by the game client - Invalid ID - No character found..
+
+		return null; // handled by game client - no character found
 	}
 	
 	public function loadChar(int $charId): ?CharacterVO {		
