@@ -47,6 +47,8 @@ class CharacterVO extends ValueObject implements Bannable {
     public readonly int $coins;
 
     public readonly bool $dragonAmulet;
+    public readonly int $bagSlots;
+    public readonly int $bankSlots;
     public readonly bool $pvpStatus;
 
     public readonly string $gender;
@@ -129,23 +131,23 @@ class CharacterVO extends ValueObject implements Bannable {
         }
     }
 
-    public int $maxBagSlots {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedMaxBagSlots;
-            }
-            return $this->settings->nonUpgradedMaxBagSlots;
-        }
-    }
+    //public int $maxBagSlots {
+        //get {
+            //if($this->accessLevel > 0) {
+                //return $this->settings->upgradedMaxBagSlots;
+            //}
+            //return $this->settings->nonUpgradedMaxBagSlots;
+        //}
+    //}
 
-    public int $maxBankSlots {
-        get {
-            if($this->accessLevel > 0) {
-                return $this->settings->upgradedMaxBankSlots;
-            }
-            return $this->settings->nonUpgradedMaxBankSlots;
-        }
-    }
+    //public int $maxBankSlots {
+        //get {
+            //if($this->accessLevel > 0) {
+                //return $this->settings->upgradedMaxBankSlots;
+            //}
+            //return $this->settings->nonUpgradedMaxBankSlots;
+        //}
+    //}
 
     public int $maxHouseSlots {
         get {

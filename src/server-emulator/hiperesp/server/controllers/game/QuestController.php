@@ -64,4 +64,17 @@ class QuestController extends Controller {
         return CharacterProjection::instance()->questItemReward($charItem);
     }
 
+    #[Request(
+        endpoint: '/cf-questmerge.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function mergeQuest(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $questMerge = $this->characterService->mergeQuest($char, (int)$input->intQuestMergeID);
+
+        return CharacterProjection::instance()->questMerged($questMerge);
+    }
+
 }

@@ -134,6 +134,84 @@ class CharacterController extends Controller {
 
         return CharacterProjection::instance()->bankLoaded($char);
     }
+	
+	#[Request(
+        endpoint: '/cf-buybankslots1.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function buyBankSlots1(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterService->buyBankSlots1($char, (int)$input->intNumSlots);
+		
+        return CharacterProjection::instance()->bankSlotsBought($char);
+    }
+
+	#[Request(
+        endpoint: '/cf-buybankslots2.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function buyBankSlots2(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterService->buyBankSlots2($char, (int)$input->intNumSlots);
+		
+        return CharacterProjection::instance()->bankSlotsBought($char);
+    }
+
+	#[Request(
+        endpoint: '/cf-buybankslots3.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function buyBankSlots3(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterService->buyBankSlots3($char, (int)$input->intNumSlots);
+		
+        return CharacterProjection::instance()->bankSlotsBought($char);
+    }
+
+	#[Request(
+        endpoint: '/cf-buybagslots1.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function buyBagSlots1(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterService->buyBagSlots1($char, (int)$input->intNumSlots);
+		
+        return CharacterProjection::instance()->bagSlotsBought($char);
+    }
+
+	#[Request(
+        endpoint: '/cf-buybagslots2.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function buyBagSlots2(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterService->buyBagSlots2($char, (int)$input->intNumSlots);
+		
+        return CharacterProjection::instance()->bagSlotsBought($char);
+    }
+
+	#[Request(
+        endpoint: '/cf-buybagslots3.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function buyBagSlots3(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterService->buyBagSlots3($char, (int)$input->intNumSlots);
+		
+        return CharacterProjection::instance()->bagSlotsBought($char);
+    }
 
     #[Request(
         endpoint: '/cf-expsave.asp',
@@ -179,7 +257,7 @@ class CharacterController extends Controller {
 
         return CharacterProjection::instance()->skillStringSaved();
     }
-	
+
 	#[Request(
         endpoint: '/cf-savearmorstring.asp',
         inputType: Input::NINJA2,
@@ -191,6 +269,19 @@ class CharacterController extends Controller {
         $this->characterService->setArmorString($char, (int)$input->intIndex, (int)$input->intValue);
 
         return CharacterProjection::instance()->armorStringSaved();
+    }
+
+	#[Request(
+        endpoint: '/cf-changearmor.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function changeArmorColor(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $this->characterService->changeArmorColor($char, (int)$input->intColorTrim, (int)$input->intColorBase);
+
+        return CharacterProjection::instance()->armorColorChanged($char);
     }
 
 }

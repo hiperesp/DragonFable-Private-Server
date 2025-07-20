@@ -43,4 +43,30 @@ class CharacterItemController extends Controller {
 		return CharacterItemProjection::instance()->weaponConfigSaved();
 	}
 
+	#[Request(
+        endpoint: '/cf-toCharFromBank.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::NINJA2XML
+    )]
+    public function bankToChar(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterBagService->bankToChar($char, (int)$input->intCharItemID);
+
+        return CharacterItemProjection::instance()->bankTransfer((int)$input->intCharItemID);
+    }
+	
+	#[Request(
+        endpoint: '/cf-toBank.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::NINJA2XML
+    )]
+    public function charToBank(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+		
+		$this->characterBagService->charToBank($char, (int)$input->intCharItemID);
+
+        return CharacterItemProjection::instance()->bankTransfer((int)$input->intCharItemID);
+    }
+
 }

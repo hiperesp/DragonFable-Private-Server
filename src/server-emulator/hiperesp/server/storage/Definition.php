@@ -263,6 +263,18 @@ final class Definition {
             ],
             "data" => "quest_item/",
         ],
+        "quest_merge" => [
+            "migrateOldData" => false,
+            "structure" => [
+                "id"			=> [ 'INTEGER', 'PRIMARY_KEY' ],
+                "stringIndex"	=> [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "stringValue"	=> [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "stringType"	=> [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "itemId"		=> [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "itemQty"		=> [ 'INTEGER', 'DEFAULT' => NULL  ],
+            ],
+            "data" => "quest_merge/",
+        ],
         "user" => [
             "migrateOldData" => true,
             "structure" => [
@@ -367,6 +379,8 @@ final class Definition {
                 "coins"             => [ 'INTEGER', 'DEFAULT' => 0 ],
 
                 "dragonAmulet"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "bagSlots"			=> [ 'INTEGER', 'DEFAULT' => 30 ],
+                "bankSlots"			=> [ 'INTEGER', 'DEFAULT' => 0 ],
                 "pvpStatus"         => [ 'INTEGER', 'DEFAULT' => 0 ],
 
                 "gender"            => [ 'CHAR' => 1 ], // M or F
@@ -408,7 +422,7 @@ final class Definition {
 				"charId"        => ['INTEGER', 'FOREIGN_KEY' => [ "collection" => "char", "field" => "id" ] ],
 				"name"          => ['STRING' => 20, 'DEFAULT' => "Draco"],
 				"lastFed"       => ['DATETIME', 'CREATED_DATETIME'],
-				"growthLevel"	=> ['INTEGER', 'DEFAULT' => 0],
+				"growthLevel"    => ['INTEGER', 'DEFAULT' => 1],
 				"totalStats"    => ['INTEGER', 'DEFAULT' => 0],
 				"heal"          => ['INTEGER', 'DEFAULT' => 0],
 				"magic"         => ['INTEGER', 'DEFAULT' => 0],
@@ -447,6 +461,7 @@ final class Definition {
                 "itemId"    => [ 'INTEGER', 'FOREIGN_KEY' => [ "collection" => "item", "field" => "id" ] ],
                 "equipped"  => [ 'BIT', 'DEFAULT' => 0 ],
                 "count"     => [ 'INTEGER', 'DEFAULT' => 1 ],
+				"banked"	=> [ 'BIT', 'DEFAULT' => 0 ],
             ],
             "data" => [],
         ],
