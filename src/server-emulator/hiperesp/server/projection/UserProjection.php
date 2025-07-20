@@ -22,7 +22,7 @@ class UserProjection extends Projection {
         $userEl->addAttribute('strToken', $user->sessionToken);
         $userEl->addAttribute('strNews', $this->settings->news);
         $userEl->addAttribute('bitAdFlag', $this->settings->enableAdvertising ? 1 : 0);
-        $userEl->addAttribute('dateToday', \date('c'));
+        $userEl->addAttribute('dateToday', date('Y-m-d H:i:s'));
 
         foreach($user->getChars() as $char) {
             $charEl = $userEl->addChild('characters');

@@ -179,5 +179,18 @@ class CharacterController extends Controller {
 
         return CharacterProjection::instance()->skillStringSaved();
     }
+	
+	#[Request(
+        endpoint: '/cf-savearmorstring.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function saveArmorString(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
+
+        $this->characterService->setArmorString($char, (int)$input->intIndex, (int)$input->intValue);
+
+        return CharacterProjection::instance()->armorStringSaved();
+    }
 
 }

@@ -186,7 +186,36 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('intBlock', $item->block);
             $itemEl->addAttribute('strResists', $item->resists);
         }
-
+		$dragon = $char->getDragon();
+		if(isset($dragon['id'])) {
+            $dragonEl = $charEl->addChild('dragon');
+			$dragonEl->addAttribute('idCore_CharDragons', $dragon['id']);
+			$dragonEl->addAttribute('strName', $dragon['name']);
+			$dragonEl->addAttribute('dateLastFed', \date('Y-m-d\TH:i:s', \strtotime($dragon['lastFed'])));
+			$dragonEl->addAttribute('intGrowthLevel', $dragon['growthLevel']);
+			$dragonEl->addAttribute('intTotalStats', $dragon['totalStats']);
+			$dragonEl->addAttribute('intHeal', $dragon['heal']);
+			$dragonEl->addAttribute('intMagic', $dragon['magic']);
+			$dragonEl->addAttribute('intMelee', $dragon['melee']);
+			$dragonEl->addAttribute('intBuff', $dragon['buff']);
+			$dragonEl->addAttribute('intDebuff', $dragon['debuff']);
+			$dragonEl->addAttribute('intColorDskin', $dragon['colorDSkin']);
+			$dragonEl->addAttribute('intColorDeye', $dragon['colorDEye']);
+			$dragonEl->addAttribute('intColorDhorn', $dragon['colorDHorn']);
+			$dragonEl->addAttribute('intColorDwing', $dragon['colorDWing']);
+			$dragonEl->addAttribute('intHeadID', $dragon['headId']);
+			$dragonEl->addAttribute('strHeadFilename', $dragon['headFileName']);
+			$dragonEl->addAttribute('intWingID', $dragon['wingId']);
+			$dragonEl->addAttribute('strWingFilename', $dragon['wingFileName']);
+			$dragonEl->addAttribute('intTailID', $dragon['tailId']);
+			$dragonEl->addAttribute('strTailFilename', $dragon['tailFileName']);
+			$dragonEl->addAttribute('strFilename', $dragon['filename']);
+			$dragonEl->addAttribute('intMin', $dragon['min']);
+			$dragonEl->addAttribute('intMax', $dragon['max']);
+			$dragonEl->addAttribute('strType', $dragon['type']);
+			$dragonEl->addAttribute('strElement', $dragon['element']);
+			$dragonEl->addAttribute('intColorDelement', $dragon['colorDElement']);
+        }
         return $xml;
     }
 
@@ -196,6 +225,10 @@ class CharacterProjection extends Projection {
 
     public function skillStringSaved(): \SimpleXMLElement {
         return new \SimpleXMLElement('<SaveSkillString/>');
+    }
+	
+	public function armorStringSaved(): \SimpleXMLElement {
+        return new \SimpleXMLElement('<SaveArmorString/>');
     }
 
     public function expSaved(CharacterVO $char): \SimpleXMLElement {
