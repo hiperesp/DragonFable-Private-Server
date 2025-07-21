@@ -36,5 +36,33 @@ class CharacterBagService extends Service {
 	public function saveWeaponConfig(CharacterVO $char, $itemArray): void {
 		$this->characterItemModel->saveWeaponConfig($char, $itemArray);
 	}
+	
+	public function bankToChar(CharacterVO $char, int $itemId): void {
+
+		try {
+			$charItem = $this->characterItemModel->getByCharAndId($char, $itemId);
+        } catch (DFException $e) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bankToChar', 'CharacterItem not found', $char, $char, [
+				'itemId' => $itemId
+			])->asException($e->getDFCode());
+		}
+		
+		$this->characterItemModel->bankToChar($char, $itemId);
+		$this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'bankToChar', 'CharacterItem transfered to bank', $char, $charItem, []);
+	}
+
+	public function charToBank(CharacterVO $char, int $itemId): void {
+		
+		try {
+			$charItem = $this->characterItemModel->getByCharAndId($char, $itemId);
+		} catch (DFException $e) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'charToBank', 'CharacterItem not found', $char, $char, [
+				'itemId' => $itemId
+			])->asException($e->getDFCode());
+		}
+
+		$this->characterItemModel->charToBank($char, $itemId);
+		$this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'charToBank', 'CharacterItem transfered to character', $char, $charItem, []);
+	}
 
 }

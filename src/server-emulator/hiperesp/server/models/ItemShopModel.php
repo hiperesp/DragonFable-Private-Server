@@ -8,12 +8,12 @@ class ItemShopModel extends Model {
 
     const COLLECTION = 'itemShop';
 
-    public function getById(int $shopId): ItemShopVO {
+    public function getById(int $shopId): ?ItemShopVO {
         $shop = $this->storage->select(self::COLLECTION, ['id' => $shopId]);
         if(isset($shop[0]) && $shop = $shop[0]) {
             return new ItemShopVO($shop);
         }
-        throw new DFException(DFException::ITEM_SHOP_NOT_FOUND);
+        return null;
     }
 
 }

@@ -65,6 +65,7 @@ class CharacterModel extends Model {
         $data['raceId'] = '1';
         if($user->upgraded) {
             $data['dragonAmulet'] = 1;
+			$data['bagSlots'] = 50;
         }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
@@ -88,6 +89,7 @@ class CharacterModel extends Model {
         $data['questId'] = 373;
         if($user->upgraded) {
             $data['dragonAmulet'] = 1;
+			$data['bagSlots'] = 50;
         }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
@@ -111,6 +113,7 @@ class CharacterModel extends Model {
         $data['questId'] = 832;
         if($user->upgraded) {
             $data['dragonAmulet'] = 1;
+			$data['bagSlots'] = 50;
         }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
@@ -282,6 +285,22 @@ class CharacterModel extends Model {
         return \count($this->storage->select(self::COLLECTION, ['lastTimeSeen' => $times], null));
     }
 
+	public function buyBankSlots(CharacterVO $char, int $slots, int $cost): void {
+		$this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'coins' => $char->coins - $cost,
+			'bankSlots' => $char->bankSlots + $slots
+        ]);
+	}
+
+	public function buyBagSlots(CharacterVO $char, int $slots, int $cost): void {
+		$this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'coins' => $char->coins - $cost,
+			'bagSlots' => $char->bagSlots + $slots
+        ]);
+	}
+
     public function chargeCoins(CharacterVO $char, int $coins): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
@@ -330,6 +349,15 @@ class CharacterModel extends Model {
             'hairId' => $hair->id,
             'colorHair' => \dechex($hairColor),
             'colorSkin' => \dechex($skinColor)
+        ]);
+    }
+
+    public function changeArmorColor(CharacterVO $char, int $colorTrim, int $colorBase): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'colorTrim' => \dechex($colorTrim),
+            'colorBase' => \dechex($colorBase),
+			'gold' => $char->gold - 100
         ]);
     }
 
