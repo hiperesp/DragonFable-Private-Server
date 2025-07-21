@@ -12,7 +12,7 @@ class PvpModel extends Model {
     const COLLECTION = 'char';
 
     #[Inject] private SettingsVO $settings;
-	
+
 	public function loadRandom(CharacterVO $char, int $level, int $charId): ?CharacterVO {
 		$gap = 1;
 		$maxGap = 30;
@@ -39,7 +39,7 @@ class PvpModel extends Model {
 
 		return null; // handled by game client - no character found
 	}
-	
+
 	public function loadChar(int $charId): ?CharacterVO {		
 		$player = $this->storage->select(self::COLLECTION, ['id' => $charId]);
 		
@@ -48,6 +48,35 @@ class PvpModel extends Model {
 		}
 		
 		return null; //handled by the game client - Invalid ID - No character found..
+	}
+
+	public function loadDragonRider(CharacterVO $char): ?CharacterVO {		
+		$gap = 1;
+		$maxGap = 89;
+
+		$userId = $char->userId;
+		$level = $char->level;
+
+		while ($gap <= $maxGap) {
+			$minLevel = max(1, $level - $gap);
+			$maxLevel = min(90, $level + $gap);
+
+			$matches = $this->storage->select(self::COLLECTION, [
+				'level' => ['BETWEEN' => [$minLevel, $maxLevel]],
+				'hasDragon' => 1,
+				'userId' => ['!=' => $userId] // exclude own characters
+			], 1000);
+
+			if (!empty($matches)) {
+				$matches = array_values($matches);
+				$dragonRider = $matches[array_rand($matches)];
+				return new CharacterVO($dragonRider);
+			}
+
+			$gap++;
+		}
+
+		return null; // handled by game client - no character found
 	}
 
 }

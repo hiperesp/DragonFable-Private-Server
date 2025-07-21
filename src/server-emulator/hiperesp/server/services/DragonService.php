@@ -3,6 +3,7 @@ namespace hiperesp\server\services;
 
 use hiperesp\server\attributes\Inject;
 use hiperesp\server\exceptions\DFException;
+use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\DragonModel;
 use hiperesp\server\models\LogsModel;
 use hiperesp\server\vo\CharacterVO;
@@ -10,12 +11,14 @@ use hiperesp\server\vo\SettingsVO;
 
 class DragonService extends Service {
 
+    #[Inject] private CharacterModel $characterModel;
     #[Inject] private DragonModel $dragonModel;
     #[Inject] private LogsModel $logsModel;
 	#[Inject] private SettingsVO $settings;
 
 
 	public function hatchDragon(CharacterVO $char): array {
+		$this->characterModel->addDragon($char);
 		return $this->dragonModel->hatchDragon($char);
     }
 	

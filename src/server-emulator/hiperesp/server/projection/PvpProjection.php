@@ -160,4 +160,92 @@ class PvpProjection extends Projection {
         return $xml;
     }
 
+	public function loadedDragonRider(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPDragon xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+        $charEl = $xml->addChild('character');
+        $charEl->addAttribute('CharID', $char->id);
+        $charEl->addAttribute('strCharacterName', $char->name);
+        $charEl->addAttribute('intLevel', $char->level);
+        $charEl->addAttribute('intExp', $char->experience);
+        $charEl->addAttribute('intHP', $char->hitPoints);
+        $charEl->addAttribute('intMP', $char->manaPoints);
+        $charEl->addAttribute('intGold', $char->gold);
+        $charEl->addAttribute('intCoins', $char->coins);
+        $charEl->addAttribute('strGender', $char->gender);
+        $charEl->addAttribute('intColorHair', \hexdec($char->colorHair));
+        $charEl->addAttribute('intColorSkin', \hexdec($char->colorSkin));
+        $charEl->addAttribute('intColorBase', \hexdec($char->colorBase));
+        $charEl->addAttribute('intColorTrim', \hexdec($char->colorTrim));
+        $charEl->addAttribute('intStr', $char->strength);
+        $charEl->addAttribute('intDex', $char->dexterity);
+        $charEl->addAttribute('intInt', $char->intelligence);
+        $charEl->addAttribute('intLuk', $char->luck);
+        $charEl->addAttribute('intCha', $char->charisma);
+        $charEl->addAttribute('intEnd', $char->endurance);
+        $charEl->addAttribute('intWis', $char->wisdom);
+        $charEl->addAttribute('strArmor', $char->armor);
+        $charEl->addAttribute('intExpToLevel', $char->experienceToLevel);
+
+        $race = $char->getRace();
+        $charEl->addAttribute('RaceID', $race->id);
+        $charEl->addAttribute('strRaceName', $race->name);
+
+        $class = $char->getClass();
+        $charEl->addAttribute('ClassID', 13);
+        $charEl->addAttribute('strClassName', "DragonRider");
+        $charEl->addAttribute('strClassFileName', "class-dragonrider-NEWr4.swf?ver=1");
+
+        $armor = $class->getArmor();
+        $charEl->addAttribute('strArmorResists', "");
+        $charEl->addAttribute('intDefMelee', 5);
+        $charEl->addAttribute('intDefPierce', 5);
+        $charEl->addAttribute('intDefMagic', 5);
+        $charEl->addAttribute('intParry', 0);
+        $charEl->addAttribute('intDodge', 0);
+        $charEl->addAttribute('intBlock', 0);
+
+        $weapon = $class->getWeapon();
+        $charEl->addAttribute('strWeaponResists', "");
+        $charEl->addAttribute('strType', "Melee");
+        $charEl->addAttribute('strItemType', "Scythe");
+        $charEl->addAttribute('intCrit', 5);
+        $charEl->addAttribute('intDmgMin', 700);
+        $charEl->addAttribute('intDmgMax', 800);
+        $charEl->addAttribute('intBonus', 0);
+        $charEl->addAttribute('strEquippable', "");
+
+        $hair = $char->getHair();
+        $charEl->addAttribute('strHairFileName', $hair->swf);
+        $charEl->addAttribute('intHairFrame', 1);
+        $charEl->addAttribute('strElement', "None");
+
+        $dragon = $char->getDragon();
+		if(isset($dragon['id'])) {
+            $dragonEl = $charEl->addChild('dragon');
+			$dragonEl->addAttribute('idCore_CharDragons', $dragon['id']);
+			$dragonEl->addAttribute('strName', $dragon['name']);
+			$dragonEl->addAttribute('intHeal', $dragon['heal']);
+			$dragonEl->addAttribute('intMagic', $dragon['magic']);
+			$dragonEl->addAttribute('intMelee', $dragon['melee']);
+			$dragonEl->addAttribute('intBuff', $dragon['buff']);
+			$dragonEl->addAttribute('intDebuff', $dragon['debuff']);
+			$dragonEl->addAttribute('intColorDskin', $dragon['colorDSkin']);
+			$dragonEl->addAttribute('intColorDeye', $dragon['colorDEye']);
+			$dragonEl->addAttribute('intColorDhorn', $dragon['colorDHorn']);
+			$dragonEl->addAttribute('intColorDwing', $dragon['colorDWing']);
+			$dragonEl->addAttribute('intHeadID', $dragon['headId']);
+			$dragonEl->addAttribute('strHeadFilename', $dragon['headFileName']);
+			$dragonEl->addAttribute('intWingID', $dragon['wingId']);
+			$dragonEl->addAttribute('strWingFilename', $dragon['wingFileName']);
+			$dragonEl->addAttribute('intTailID', $dragon['tailId']);
+			$dragonEl->addAttribute('strTailFilename', $dragon['tailFileName']);
+			$dragonEl->addAttribute('strElement', $dragon['element']);
+			$dragonEl->addAttribute('intColorDelement', $dragon['colorDElement']);
+        }
+		else {
+			return new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPDragon xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+		}
+        return $xml;
+    }
+
 }

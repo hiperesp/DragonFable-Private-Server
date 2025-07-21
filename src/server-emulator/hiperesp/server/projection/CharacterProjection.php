@@ -37,7 +37,7 @@ class CharacterProjection extends Projection {
     }
 
     public function loaded(CharacterVO $char): \SimpleXMLElement {
-        $xml = new \SimpleXMLElement('<character/>');
+        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><character xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
         $charEl = $xml->addChild('character');
         $charEl->addAttribute('CharID', $char->id);
         $charEl->addAttribute('strCharacterName', $char->name);

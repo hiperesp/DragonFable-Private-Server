@@ -17,9 +17,13 @@ class PvpService extends Service {
     public function loadRandom(CharacterVO $char, int $level, int $charId): ?CharacterVO {
 		return $this->pvpModel->loadRandom($char, $level, $charId);
     }
-	
+
 	public function loadChar(int $charId): ?CharacterVO {
 		return $this->pvpModel->loadChar($charId);
+    }
+
+	public function loadDragonRider(CharacterVO $char): ?CharacterVO {
+		return $this->pvpModel->loadDragonRider($char);
     }
 
 }

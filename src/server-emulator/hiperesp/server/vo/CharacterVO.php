@@ -47,6 +47,7 @@ class CharacterVO extends ValueObject implements Bannable {
     public readonly int $coins;
 
     public readonly bool $dragonAmulet;
+    public readonly bool $hasDragon;
     public readonly int $bagSlots;
     public readonly int $bankSlots;
     public readonly bool $pvpStatus;

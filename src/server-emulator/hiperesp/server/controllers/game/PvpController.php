@@ -31,7 +31,7 @@ class PvpController extends Controller {
 		
 		return PvpProjection::instance()->loaded($player);
 	}
-	
+
 	#[Request(
 		endpoint: '/cf-loadpvpchar.asp',
 		inputType: Input::NINJA2,
@@ -45,5 +45,22 @@ class PvpController extends Controller {
 		}
 		
 		return PvpProjection::instance()->loaded($player);
+	}
+
+	#[Request(
+		endpoint: '/cf-loadpvpdragon.asp',
+		inputType: Input::NINJA2,
+        outputType: Output::XML
+	)]
+	public function loadDragonRider(\SimpleXMLElement $input): \SimpleXMLElement {
+		$char = $this->characterService->auth($input);
+
+		$dragonRider = $this->pvpService->loadDragonRider($char);
+		if ($dragonRider == null)
+		{
+			return new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPDragon xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+		}
+
+		return PvpProjection::instance()->loadedDragonRider($dragonRider);
 	}
 }
