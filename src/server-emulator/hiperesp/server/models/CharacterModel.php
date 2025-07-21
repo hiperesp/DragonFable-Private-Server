@@ -121,6 +121,13 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
+	public function addDragon(CharacterVO $char): void {
+        $this->storage->update(self::COLLECTION, [
+            'id' => $char->id,
+            'hasDragon' => 1
+        ]);
+    }
+
     public function charge(CharacterVO $char, Purchasable $item): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,

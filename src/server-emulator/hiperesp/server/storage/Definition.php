@@ -379,6 +379,7 @@ final class Definition {
                 "coins"             => [ 'INTEGER', 'DEFAULT' => 0 ],
 
                 "dragonAmulet"      => [ 'INTEGER', 'DEFAULT' => 0 ],
+                "hasDragon"			=> [ 'INTEGER', 'DEFAULT' => 0 ],
                 "bagSlots"			=> [ 'INTEGER', 'DEFAULT' => 30 ],
                 "bankSlots"			=> [ 'INTEGER', 'DEFAULT' => 0 ],
                 "pvpStatus"         => [ 'INTEGER', 'DEFAULT' => 0 ],
