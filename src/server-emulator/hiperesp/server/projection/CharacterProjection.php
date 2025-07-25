@@ -37,7 +37,7 @@ class CharacterProjection extends Projection {
     }
 
     public function loaded(CharacterVO $char): \SimpleXMLElement {
-        $xml = new \SimpleXMLElement('<character/>');
+        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><character xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
         $charEl = $xml->addChild('character');
         $charEl->addAttribute('CharID', $char->id);
         $charEl->addAttribute('strCharacterName', $char->name);
@@ -136,6 +136,9 @@ class CharacterProjection extends Projection {
         $charEl->addAttribute('intDailyRoll', 1); // not used at game.swf
 
         foreach($char->getBag() as $characterItem) {
+			if ($characterItem->banked) {
+				continue; // Skip items that are banked
+			}
             $itemEl = $charEl->addChild('items');
 
             $itemEl->addAttribute('CharItemID', $characterItem->id);
@@ -186,7 +189,36 @@ class CharacterProjection extends Projection {
             $itemEl->addAttribute('intBlock', $item->block);
             $itemEl->addAttribute('strResists', $item->resists);
         }
-
+		$dragon = $char->getDragon();
+		if(isset($dragon['id'])) {
+            $dragonEl = $charEl->addChild('dragon');
+			$dragonEl->addAttribute('idCore_CharDragons', $dragon['id']);
+			$dragonEl->addAttribute('strName', $dragon['name']);
+			$dragonEl->addAttribute('dateLastFed', \date('Y-m-d\TH:i:s', \strtotime($dragon['lastFed'])));
+			$dragonEl->addAttribute('intGrowthLevel', $dragon['growthLevel']);
+			$dragonEl->addAttribute('intTotalStats', $dragon['totalStats']);
+			$dragonEl->addAttribute('intHeal', $dragon['heal']);
+			$dragonEl->addAttribute('intMagic', $dragon['magic']);
+			$dragonEl->addAttribute('intMelee', $dragon['melee']);
+			$dragonEl->addAttribute('intBuff', $dragon['buff']);
+			$dragonEl->addAttribute('intDebuff', $dragon['debuff']);
+			$dragonEl->addAttribute('intColorDskin', $dragon['colorDSkin']);
+			$dragonEl->addAttribute('intColorDeye', $dragon['colorDEye']);
+			$dragonEl->addAttribute('intColorDhorn', $dragon['colorDHorn']);
+			$dragonEl->addAttribute('intColorDwing', $dragon['colorDWing']);
+			$dragonEl->addAttribute('intHeadID', $dragon['headId']);
+			$dragonEl->addAttribute('strHeadFilename', $dragon['headFileName']);
+			$dragonEl->addAttribute('intWingID', $dragon['wingId']);
+			$dragonEl->addAttribute('strWingFilename', $dragon['wingFileName']);
+			$dragonEl->addAttribute('intTailID', $dragon['tailId']);
+			$dragonEl->addAttribute('strTailFilename', $dragon['tailFileName']);
+			$dragonEl->addAttribute('strFilename', $dragon['filename']);
+			$dragonEl->addAttribute('intMin', $dragon['min']);
+			$dragonEl->addAttribute('intMax', $dragon['max']);
+			$dragonEl->addAttribute('strType', $dragon['type']);
+			$dragonEl->addAttribute('strElement', $dragon['element']);
+			$dragonEl->addAttribute('intColorDelement', $dragon['colorDElement']);
+        }
         return $xml;
     }
 
@@ -196,6 +228,10 @@ class CharacterProjection extends Projection {
 
     public function skillStringSaved(): \SimpleXMLElement {
         return new \SimpleXMLElement('<SaveSkillString/>');
+    }
+	
+	public function armorStringSaved(): \SimpleXMLElement {
+        return new \SimpleXMLElement('<SaveArmorString/>');
     }
 
     public function expSaved(CharacterVO $char): \SimpleXMLElement {
@@ -282,6 +318,26 @@ class CharacterProjection extends Projection {
         $xml->addChild('CharItemID', $charItem->id);
         return $xml;
     }
+	
+	public function questMerged($questMerge): \SimpleXMLElement {
+		$xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><QuestMerge xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+        $mergeE1 = $xml->addChild('QuestMerge');
+		$mergeE1->addAttribute('ItemID', $questMerge['itemId']);
+		$mergeE1->addAttribute('CharItemID', $questMerge['charItemId']);
+		$mergeE1->addAttribute('intQty', $questMerge['itemQty']);
+		$mergeE1->addAttribute('intString', $questMerge['stringType']);
+		$mergeE1->addAttribute('intIndex', $questMerge['stringIndex']);
+		$mergeE1->addAttribute('intValue', $questMerge['stringValue']);
+
+        return $xml;
+	}
+
+	public function goldSubtracted(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<SubtractGold/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
 
     public function statsTrained(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<TrainStats/>');
@@ -302,6 +358,77 @@ class CharacterProjection extends Projection {
         $bankEl = $xml->addChild('bank');
         $bankEl->addAttribute('bankID', $char->id);
         $bankEl->addAttribute('strCharacterName', $char->name);
+		
+		foreach($char->getBag() as $characterItem) {
+			if (!$characterItem->banked) {
+				continue; // Skip items that are not banked
+			}
+			$itemEl = $bankEl->addChild('items');
+			
+            $itemEl->addAttribute('CharItemID', $characterItem->id);
+            $itemEl->addAttribute('intCount', $characterItem->count);
+
+            $item = $characterItem->getItem();
+            $itemEl->addAttribute('ItemID', $item->id);
+            $itemEl->addAttribute('strItemName', $item->name);
+            $itemEl->addAttribute('strItemDescription', $item->description);
+            $itemEl->addAttribute('bitVisible', $item->visible);
+            $itemEl->addAttribute('bitDestroyable', $item->destroyable);
+            $itemEl->addAttribute('bitSellable', $item->sellable);
+            $itemEl->addAttribute('bitDragonAmulet', $item->dragonAmulet);
+            $itemEl->addAttribute('intCurrency', $item->currency);
+            $itemEl->addAttribute('intCost', $item->cost);
+            $itemEl->addAttribute('intMaxStackSize', $item->maxStackSize);
+            $itemEl->addAttribute('intBonus', $item->bonus);
+            $itemEl->addAttribute('intRarity', $item->rarity);
+            $itemEl->addAttribute('intLevel', $item->level);
+            $itemEl->addAttribute('strType', $item->type);
+            $itemEl->addAttribute('strElement', $item->element);
+
+            $category = $item->getCategory();
+            $itemEl->addAttribute('strCategory', $category->name);
+
+            $itemEl->addAttribute('strEquipSpot', $item->equipSpot);
+            $itemEl->addAttribute('strItemType', $item->itemType);
+            $itemEl->addAttribute('strFileName', $item->swf);
+            $itemEl->addAttribute('strIcon', $item->icon);
+            $itemEl->addAttribute('intStr', $item->strength);
+            $itemEl->addAttribute('intDex', $item->dexterity);
+            $itemEl->addAttribute('intInt', $item->intelligence);
+            $itemEl->addAttribute('intLuk', $item->luck);
+            $itemEl->addAttribute('intCha', $item->charisma);
+            $itemEl->addAttribute('intEnd', $item->endurance);
+            $itemEl->addAttribute('intWis', $item->wisdom);
+            $itemEl->addAttribute('intMin', $item->damageMin);
+            $itemEl->addAttribute('intMax', $item->damageMax);
+            $itemEl->addAttribute('intDefMelee', $item->defenseMelee);
+            $itemEl->addAttribute('intDefPierce', $item->defensePierce);
+            $itemEl->addAttribute('intDefMagic', $item->defenseMagic);
+            $itemEl->addAttribute('intCrit', $item->critical);
+            $itemEl->addAttribute('intParry', $item->parry);
+            $itemEl->addAttribute('intDodge', $item->dodge);
+            $itemEl->addAttribute('intBlock', $item->block);
+            $itemEl->addAttribute('strResists', $item->resists);
+        }
+        return $xml;
+    }
+
+	public function bankSlotsBought(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><BuyBankSlots xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
+
+	public function bagSlotsBought(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><BuyBagSlots xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+        $xml->addChild('status', 'SUCCESS');
+
+        return $xml;
+    }
+
+	public function armorColorChanged(CharacterVO $char): \SimpleXMLElement {
+        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><hairBuy xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
 
         return $xml;
     }
@@ -350,13 +477,6 @@ class CharacterProjection extends Projection {
             "LastPlayed" => \date("Y-m-d", \strtotime($char->lastTimeSeen)),
             "up" => "1",
         ];
-    }
-
-    public function weaponConfigSaved(): \SimpleXMLElement {
-        $xml = new \SimpleXMLElement('<SaveWeaponConfig/>');
-        $xml->addChild('status', 'SUCCESS');
-
-        return $xml;
     }
 
 }

@@ -77,4 +77,56 @@ class CharacterItemModel extends Model {
         $this->storage->delete(self::COLLECTION, ['id' => $charItem->id]);
     }
 
+	public function saveWeaponConfig(CharacterVO $char, array $equippedItemIds): void {
+		$charItems = $this->getByChar($char);
+        
+		foreach ($charItems as $charItem) {
+			$isEquipped = in_array($charItem->id, $equippedItemIds);
+			
+			$this->storage->update(self::COLLECTION, [
+				'id' => $charItem->id,
+				'equipped' => $isEquipped ? 1 : 0
+			]);
+		}
+	}
+
+	public function bankToChar(CharacterVO $char, int $itemId): void {
+		$count = 0;
+		foreach($char->getBag() as $characterItem) {
+			if ($characterItem->banked) {
+				continue;
+			}
+			$count++;
+			if ($count >= $char->bagSlots) {
+				throw new DFException(DFException::BAD_REQUEST);
+			}
+		}
+		$this->storage->update(self::COLLECTION, [
+			'id' => $itemId,
+			'banked' => 0
+		]);
+	}
+
+	public function charToBank(CharacterVO $char, int $itemId): void {
+		$bankedCount = 0;
+		foreach($char->getBag() as $characterItem) {
+			if (!$characterItem->banked) {
+				continue;
+			}
+			$item = $characterItem->getItem();
+			if(!$item->dragonAmulet){
+				$bankedCount++;
+			}
+			if($bankedCount >= ($char->bankSlots + 5)) {
+				throw new DFException(DFException::BAD_REQUEST);
+			}
+		}
+
+		$this->storage->update(self::COLLECTION, [
+			'id' => $itemId,
+			'banked' => 1,
+			'equipped' => 0
+		]);
+	}
+
 }

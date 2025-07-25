@@ -8,6 +8,7 @@ use hiperesp\server\models\CharacterModel;
 use hiperesp\server\models\ClassModel;
 use hiperesp\server\models\ItemModel;
 use hiperesp\server\models\LogsModel;
+use hiperesp\server\models\QuestMergeModel;
 use hiperesp\server\models\QuestModel;
 use hiperesp\server\models\UserModel;
 use hiperesp\server\vo\CharacterItemVO;
@@ -24,6 +25,7 @@ class CharacterService extends Service {
     #[Inject] private CharacterModel $characterModel;
     #[Inject] private ItemModel $itemModel;
     #[Inject] private CharacterItemModel $characterItemModel;
+    #[Inject] private QuestMergeModel $questMergeModel;
     #[Inject] private QuestModel $questModel;
     #[Inject] private LogsModel $logsModel;
     #[Inject] private SettingsVO $settings;
@@ -128,6 +130,135 @@ class CharacterService extends Service {
         $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'untrainStats', 'Stats untrained', $char, $char, []);
     }
 
+	public function buyBankSlots1(CharacterVO $char, int $slots): void {
+		if($slots > (10 - $char->bankSlots)) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		
+		$cost = 100 * $slots;
+		if($char->coins < $cost) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bugBankSlots1', "Not enough dragon coins to buy slot(s).", $char, $char, [
+                'coins' => $char->coins,
+                'cost' => $cost
+            ])->asException(DFException::DRAGONCOINS_NOT_ENOUGH);
+		}
+		
+		$this->characterModel->buyBankSlots($char, $slots, $cost);
+	}
+
+	public function buyBankSlots2(CharacterVO $char, int $slots): void {
+		if($char->bankSlots < 10 || $slots > (15 - $char->bankSlots)) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		
+		$cost = 300 * $slots;
+		if($char->coins < $cost) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bugBankSlots2', "Not enough dragon coins to buy slot(s).", $char, $char, [
+                'coins' => $char->coins,
+                'cost' => $cost
+            ])->asException(DFException::DRAGONCOINS_NOT_ENOUGH);
+		}
+		
+		$this->characterModel->buyBankSlots($char, $slots, $cost);
+	}
+
+	public function buyBankSlots3(CharacterVO $char, int $slots): void {
+		if($char->bankSlots < 15 || $slots > (100 - $char->bankSlots)) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		
+		$cost = 500 * $slots;
+		if($char->coins < $cost) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bugBankSlots3', "Not enough dragon coins to buy slot(s).", $char, $char, [
+                'coins' => $char->coins,
+                'cost' => $cost
+            ])->asException(DFException::DRAGONCOINS_NOT_ENOUGH);
+		}
+		
+		$this->characterModel->buyBankSlots($char, $slots, $cost);
+	}
+
+	public function buyBagSlots1(CharacterVO $char, int $slots): void {
+		$defaultBagSlots = 30;
+		if($char->dragonAmulet) {
+			$defaultBagSlots = 50;
+		}
+		
+		if(($slots + $char->bagSlots) > ($defaultBagSlots + 10)) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+
+		$cost = 100 * $slots;
+		if($char->coins < $cost) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bugBagSlots1', "Not enough dragon coins to buy slot(s).", $char, $char, [
+                'coins' => $char->coins,
+                'cost' => $cost
+            ])->asException(DFException::DRAGONCOINS_NOT_ENOUGH);
+		}
+		
+		$this->characterModel->buyBagSlots($char, $slots, $cost);
+	}
+
+	public function buyBagSlots2(CharacterVO $char, int $slots): void {
+		$defaultBagSlots = 30;
+		if($char->dragonAmulet) {
+			$defaultBagSlots = 50;
+		}
+		
+		if(($slots + $char->bagSlots) > ($defaultBagSlots + 15)) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+
+		$cost = 300 * $slots;
+		if($char->coins < $cost) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bugBagSlots1', "Not enough dragon coins to buy slot(s).", $char, $char, [
+                'coins' => $char->coins,
+                'cost' => $cost
+            ])->asException(DFException::DRAGONCOINS_NOT_ENOUGH);
+		}
+		
+		$this->characterModel->buyBagSlots($char, $slots, $cost);
+	}
+
+	public function buyBagSlots3(CharacterVO $char, int $slots): void {
+		$defaultBagSlots = 30;
+		if($char->dragonAmulet) {
+			$defaultBagSlots = 50;
+		}
+		
+		if(($slots + $char->bagSlots) > ($defaultBagSlots + 180)) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+
+		$cost = 500 * $slots;
+		if($char->coins < $cost) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'bugBagSlots1', "Not enough dragon coins to buy slot(s).", $char, $char, [
+                'coins' => $char->coins,
+                'cost' => $cost
+            ])->asException(DFException::DRAGONCOINS_NOT_ENOUGH);
+		}
+		
+		$this->characterModel->buyBagSlots($char, $slots, $cost);
+	}
+
+	public function subtractGold(CharacterVO $char, int $goldCost): void {
+        if($goldCost > $char->gold) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'subtractGold', "Not enough gold.", $char, $char, [
+                'gold' => $char->gold,
+                'cost' => $goldCost
+            ])->asException(DFException::GOLD_NOT_ENOUGH);
+        }
+        if($goldCost < 0) {
+            throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'subtractGold', "Negative gold cost.", $char, $char, [
+                'cost' => $goldCost
+            ])->asException(DFException::BAD_REQUEST);
+        }
+
+        $this->characterModel->chargeGold($char, $goldCost);
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'subtractGold', 'Gold subtracted', $char, $char, []);
+    }
+
     public function changeClass(CharacterVO $char, int $newClassId): ClassVO {
         try {
             $newClass = $this->classModel->getById($newClassId);
@@ -181,6 +312,27 @@ class CharacterService extends Service {
         $charItem = $this->characterItemModel->addItemToChar($char, $item);
         return $charItem;
     }
+	
+	public function mergeQuest(CharacterVO $char, int $mergeId): array {
+		$questMerge = $this->questMergeModel->getById($mergeId);
+		
+		switch($questMerge['stringType']) {
+			case 0:
+				$this->setQuestString($char, $questMerge['stringIndex'], $questMerge['stringValue']);
+			break;
+			case 1:
+				$this->setSkillString($char, $questMerge['stringIndex'], $questMerge['stringValue']);
+			break;
+			case 2:
+				$this->setArmorString($char, $questMerge['stringIndex'], $questMerge['stringValue']);
+			break;
+		}
+
+		$item = $this->itemModel->getById($questMerge['itemId']);
+		$charItem = $this->characterItemModel->removeItemFromChar($char, $item, $questMerge['itemQty']);
+		$questMerge['charItemId'] = $charItem->id;
+		return $questMerge;
+	}
 
     public function setQuestString(CharacterVO $char, int $index, int $value): void {
         $this->characterModel->setQuestString($char, $index, $value);
@@ -189,5 +341,22 @@ class CharacterService extends Service {
     public function setSkillString(CharacterVO $char, int $index, int $value): void {
         $this->characterModel->setSkillString($char, $index, $value);
     }
+	
+	public function setArmorString(CharacterVO $char, int $index, int $value): void {
+        $this->characterModel->setArmorString($char, $index, $value);
+    }
+	
+	public function changeArmorColor(CharacterVO $char, int $colorTrim, int $colorBase): void {
+		if(!$char->dragonAmulet) {
+			throw new DFException(DFException::BAD_REQUEST);
+		}
+		if($char->gold < 100) {
+			throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'subtractGold', "Not enough gold.", $char, $char, [
+                'gold' => $char->gold,
+                'cost' => $goldCost
+            ])->asException(DFException::GOLD_NOT_ENOUGH);
+		}
+		$this->characterModel->changeArmorColor($char, $colorTrim, $colorBase);
+	}
 
 }

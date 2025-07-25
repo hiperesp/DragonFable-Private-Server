@@ -24,7 +24,7 @@ class ItemShopService extends Service {
     #[Inject] private LogsModel $logsModel;
     #[Inject] private SettingsVO $settings;
 
-    public function getShop(int $shopId): ItemShopVO {
+    public function getShop(int $shopId): ?ItemShopVO {
         return $this->itemShopModel->getById($shopId);
     }
 

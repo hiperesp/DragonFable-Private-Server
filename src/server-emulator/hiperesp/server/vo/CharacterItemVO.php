@@ -20,6 +20,7 @@ class CharacterItemVO extends ValueObject {
 
     public readonly bool $equipped;
     public readonly int $count;
+    public readonly bool $banked;
 
     public function getHoursOwned(): int {
         $todaySeconds = \strtotime(\date('c'));

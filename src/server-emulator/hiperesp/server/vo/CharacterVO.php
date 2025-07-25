@@ -6,6 +6,7 @@ use hiperesp\server\interfaces\Bannable;
 use hiperesp\server\interfaces\Purchasable;
 use hiperesp\server\models\CharacterItemModel;
 use hiperesp\server\models\ClassModel;
+use hiperesp\server\models\DragonModel;
 use hiperesp\server\models\HairModel;
 use hiperesp\server\models\RaceModel;
 use hiperesp\server\models\TownModel;
@@ -16,6 +17,7 @@ class CharacterVO extends ValueObject implements Bannable {
 
     #[Inject] private CharacterItemModel $characterItemModel;
     #[Inject] private ClassModel $classModel;
+    #[Inject] private DragonModel $dragonModel;
     #[Inject] private HairModel $hairModel;
     #[Inject] private RaceModel $raceModel;
     #[Inject] private TownModel $townModel;
@@ -46,6 +48,9 @@ class CharacterVO extends ValueObject implements Bannable {
     public readonly int $coins;
 
     public readonly bool $dragonAmulet;
+    public readonly bool $hasDragon;
+    public readonly int $bagSlots;
+    public readonly int $bankSlots;
     public readonly bool $pvpStatus;
 
     public readonly string $gender;
@@ -214,5 +219,9 @@ class CharacterVO extends ValueObject implements Bannable {
     public function getBag(): array {
         return $this->characterItemModel->getByChar($this);
     }
+	
+	public function getDragon(): array {
+		return $this->dragonModel->getByChar($this);
+	}
 
 }

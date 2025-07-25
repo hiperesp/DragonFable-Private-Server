@@ -22,9 +22,34 @@ https://dragonfable.hiper.esp.br/
 
 -----
 
-## Credits
+## Credits and Contributors
 
-Inspired by [AlphaFable, by MentalBlank](https://github.com/MentalBlank/AlphaFable).
+Thank you to our awesome contributors:
+## Contributors
+
+Thank you to our awesome contributors:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/TheFlash3113">
+        <img src="https://github.com/TheFlash3113.png" alt="TheFlash3113" width="80" style="border-radius:50%;" />
+        <br />
+        <sub><b>@TheFlash3113</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/gmargriff">
+        <img src="https://github.com/gmargriff.png" alt="gmargriff" width="80" style="border-radius:50%;" />
+        <br />
+        <sub><b>@gmargriff</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+Inspired by [AlphaFable, by MentalBlank](https://github.com/MentalBlank/).
 
 Artix Entertainment (Creators of DragonFable and Intellectual Property holders)
 

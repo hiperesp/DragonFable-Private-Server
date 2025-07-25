@@ -28,4 +28,18 @@ class CharacterItemProjection extends Projection {
         return $xml;
     }
 
+	public function weaponConfigSaved(): \SimpleXMLElement {
+		$xml = new \SimpleXMLElement('<SaveWeaponConfig/>');
+		$xml->addChild('status', 'SUCCESS');
+
+		return $xml;
+	}
+	
+	public function bankTransfer(int $itemId): \SimpleXMLElement {
+		$xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><BankItem xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+		$xml->addChild('CharItemID', (string)$itemId);
+		
+		return $xml;
+	}
+
 }
