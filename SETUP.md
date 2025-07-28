@@ -2,6 +2,8 @@
 
 ## Fastest way to setup the server (windows only):
 
+If you prefer, here is a video doing this setup: https://youtu.be/6HeIr6CwJeg.
+
 ### Prerequisites:
 
 - [XAMPP 8.2](https://www.apachefriends.org/download.html)
