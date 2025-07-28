@@ -1,5 +1,7 @@
 # DragonFable Private Server - Setup
 
+The updated guide is available at [here](https://github.com/hiperesp/DragonFable-Private-Server/blob/main/SETUP.md)
+
 ## Fastest way to setup the server (windows only):
 
 If you prefer, here is a video doing this setup: https://youtu.be/6HeIr6CwJeg.
