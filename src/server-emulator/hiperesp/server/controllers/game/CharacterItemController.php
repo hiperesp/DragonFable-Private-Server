@@ -28,43 +28,43 @@ class CharacterItemController extends Controller {
         return CharacterItemProjection::instance()->destroyed();
     }
 
-	#[Request(
-		endpoint: '/cf-saveweaponconfig.asp',
-		inputType: Input::NINJA2,
-		outputType: Output::XML
-	)]
-	public function saveWeaponConfig(\SimpleXMLElement $input): \SimpleXMLElement {		
-		$char = $this->characterService->auth($input);
-		
-		$itemArray = array_map('intval', explode(',', (string)$input->strItems));
-		
-		$this->characterBagService->saveWeaponConfig($char, $itemArray);
-		
-		return CharacterItemProjection::instance()->weaponConfigSaved();
-	}
+    #[Request(
+        endpoint: '/cf-saveweaponconfig.asp',
+        inputType: Input::NINJA2,
+        outputType: Output::XML
+    )]
+    public function saveWeaponConfig(\SimpleXMLElement $input): \SimpleXMLElement {
+        $char = $this->characterService->auth($input);
 
-	#[Request(
+        $itemArray = array_map('intval', explode(',', (string)$input->strItems));
+
+        $this->characterBagService->saveWeaponConfig($char, $itemArray);
+
+        return CharacterItemProjection::instance()->weaponConfigSaved();
+    }
+
+    #[Request(
         endpoint: '/cf-toCharFromBank.asp',
         inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
     public function bankToChar(\SimpleXMLElement $input): \SimpleXMLElement {
         $char = $this->characterService->auth($input);
-		
-		$this->characterBagService->bankToChar($char, (int)$input->intCharItemID);
+
+        $this->characterBagService->bankToChar($char, (int)$input->intCharItemID);
 
         return CharacterItemProjection::instance()->bankTransfer((int)$input->intCharItemID);
     }
-	
-	#[Request(
+
+    #[Request(
         endpoint: '/cf-toBank.asp',
         inputType: Input::NINJA2,
         outputType: Output::NINJA2XML
     )]
     public function charToBank(\SimpleXMLElement $input): \SimpleXMLElement {
         $char = $this->characterService->auth($input);
-		
-		$this->characterBagService->charToBank($char, (int)$input->intCharItemID);
+
+        $this->characterBagService->charToBank($char, (int)$input->intCharItemID);
 
         return CharacterItemProjection::instance()->bankTransfer((int)$input->intCharItemID);
     }

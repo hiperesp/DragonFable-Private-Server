@@ -13,8 +13,8 @@ class QuestMergeModel extends Model {
     public function getById(int $mergeId): array {
         $questMerge = $this->storage->select(self::COLLECTION, ['id' => $mergeId]);
         if (!empty($questMerge)) {
-			return $questMerge[0];
-		}
+            return $questMerge[0];
+        }
         throw new DFException(DFException::MERGE_NOT_FOUND);
     }
 

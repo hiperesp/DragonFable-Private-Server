@@ -8,7 +8,7 @@ use hiperesp\server\vo\SettingsVO;
 
 class PvpProjection extends Projection {
 
-	#[Inject] private SettingsVO $settings;
+    #[Inject] private SettingsVO $settings;
 
     public function loaded(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPChar xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
@@ -110,18 +110,18 @@ class PvpProjection extends Projection {
         $charEl->addAttribute('intDailyRoll', 1); // not used at game.swf
 
         foreach($char->getBag() as $characterItem) {
-			if (!$characterItem->equipped) {
-				continue; // Skip items that are not equipped
-			}
+            if (!$characterItem->equipped) {
+                continue; // Skip items that are not equipped
+            }
 
             $itemEl = $charEl->addChild('items');
-			$item = $characterItem->getItem();
+            $item = $characterItem->getItem();
             $itemEl->addAttribute('ItemID', $item->id);
-			$itemEl->addAttribute('strItemName', $item->name);
-			$itemEl->addAttribute('strItemDescription', $item->description);
+            $itemEl->addAttribute('strItemName', $item->name);
+            $itemEl->addAttribute('strItemDescription', $item->description);
             $itemEl->addAttribute('bitEquipped', $characterItem->equipped ? 1 : 0);
-			$itemEl->addAttribute('bitVisible', $item->visible);
-			$itemEl->addAttribute('bitDestroyable', $item->destroyable);
+            $itemEl->addAttribute('bitVisible', $item->visible);
+            $itemEl->addAttribute('bitDestroyable', $item->destroyable);
             $itemEl->addAttribute('bitSellable', $item->sellable);
             $itemEl->addAttribute('bitDragonAmulet', $item->dragonAmulet);
             $itemEl->addAttribute('intCurrency', $item->currency);
@@ -133,7 +133,7 @@ class PvpProjection extends Projection {
             $itemEl->addAttribute('strType', $item->type);
             $itemEl->addAttribute('strElement', $item->element);
             $category = $item->getCategory();
-			$itemEl->addAttribute('strCategory', $category->name);
+            $itemEl->addAttribute('strCategory', $category->name);
             $itemEl->addAttribute('strEquipSpot', $item->equipSpot);
             $itemEl->addAttribute('strItemType', $item->itemType);
             $itemEl->addAttribute('strFileName', $item->swf);
@@ -155,12 +155,12 @@ class PvpProjection extends Projection {
             $itemEl->addAttribute('intDodge', $item->dodge);
             $itemEl->addAttribute('intBlock', $item->block);
             $itemEl->addAttribute('strResists', $item->resists);
-			$itemEl->addAttribute('CharItemID', $characterItem->id);
+            $itemEl->addAttribute('CharItemID', $characterItem->id);
         }
         return $xml;
     }
 
-	public function loadedDragonRider(CharacterVO $char): \SimpleXMLElement {
+    public function loadedDragonRider(CharacterVO $char): \SimpleXMLElement {
         $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPDragon xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
         $charEl = $xml->addChild('character');
         $charEl->addAttribute('CharID', $char->id);
@@ -220,31 +220,31 @@ class PvpProjection extends Projection {
         $charEl->addAttribute('strElement', "None");
 
         $dragon = $char->getDragon();
-		if(isset($dragon['id'])) {
+        if(isset($dragon['id'])) {
             $dragonEl = $charEl->addChild('dragon');
-			$dragonEl->addAttribute('idCore_CharDragons', $dragon['id']);
-			$dragonEl->addAttribute('strName', $dragon['name']);
-			$dragonEl->addAttribute('intHeal', $dragon['heal']);
-			$dragonEl->addAttribute('intMagic', $dragon['magic']);
-			$dragonEl->addAttribute('intMelee', $dragon['melee']);
-			$dragonEl->addAttribute('intBuff', $dragon['buff']);
-			$dragonEl->addAttribute('intDebuff', $dragon['debuff']);
-			$dragonEl->addAttribute('intColorDskin', $dragon['colorDSkin']);
-			$dragonEl->addAttribute('intColorDeye', $dragon['colorDEye']);
-			$dragonEl->addAttribute('intColorDhorn', $dragon['colorDHorn']);
-			$dragonEl->addAttribute('intColorDwing', $dragon['colorDWing']);
-			$dragonEl->addAttribute('intHeadID', $dragon['headId']);
-			$dragonEl->addAttribute('strHeadFilename', $dragon['headFileName']);
-			$dragonEl->addAttribute('intWingID', $dragon['wingId']);
-			$dragonEl->addAttribute('strWingFilename', $dragon['wingFileName']);
-			$dragonEl->addAttribute('intTailID', $dragon['tailId']);
-			$dragonEl->addAttribute('strTailFilename', $dragon['tailFileName']);
-			$dragonEl->addAttribute('strElement', $dragon['element']);
-			$dragonEl->addAttribute('intColorDelement', $dragon['colorDElement']);
+            $dragonEl->addAttribute('idCore_CharDragons', $dragon['id']);
+            $dragonEl->addAttribute('strName', $dragon['name']);
+            $dragonEl->addAttribute('intHeal', $dragon['heal']);
+            $dragonEl->addAttribute('intMagic', $dragon['magic']);
+            $dragonEl->addAttribute('intMelee', $dragon['melee']);
+            $dragonEl->addAttribute('intBuff', $dragon['buff']);
+            $dragonEl->addAttribute('intDebuff', $dragon['debuff']);
+            $dragonEl->addAttribute('intColorDskin', $dragon['colorDSkin']);
+            $dragonEl->addAttribute('intColorDeye', $dragon['colorDEye']);
+            $dragonEl->addAttribute('intColorDhorn', $dragon['colorDHorn']);
+            $dragonEl->addAttribute('intColorDwing', $dragon['colorDWing']);
+            $dragonEl->addAttribute('intHeadID', $dragon['headId']);
+            $dragonEl->addAttribute('strHeadFilename', $dragon['headFileName']);
+            $dragonEl->addAttribute('intWingID', $dragon['wingId']);
+            $dragonEl->addAttribute('strWingFilename', $dragon['wingFileName']);
+            $dragonEl->addAttribute('intTailID', $dragon['tailId']);
+            $dragonEl->addAttribute('strTailFilename', $dragon['tailFileName']);
+            $dragonEl->addAttribute('strElement', $dragon['element']);
+            $dragonEl->addAttribute('intColorDelement', $dragon['colorDElement']);
         }
-		else {
-			return new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPDragon xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
-		}
+        else {
+            return new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><PvPDragon xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+        }
         return $xml;
     }
 

@@ -24,10 +24,10 @@ class ItemShopController extends Controller {
     public function load(\SimpleXMLElement $input): \SimpleXMLElement {
 
         $shop = $this->itemShopService->getShop((int)$input->intShopID);
-		if($shop == null)
-		{
-			return new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><shop xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
-		}
+        if($shop == null)
+        {
+            return new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><shop xmlns:sql="urn:schemas-microsoft-com:xml-sql"/>');
+        }
         return ItemShopProjection::instance()->loaded($shop);
 
     }

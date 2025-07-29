@@ -65,15 +65,15 @@ class CharacterModel extends Model {
         $data['raceId'] = '1';
         if($user->upgraded) {
             $data['dragonAmulet'] = 1;
-			$data['bagSlots'] = 50;
+            $data['bagSlots'] = 50;
         }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
 
         return new CharacterVO($char);
     }
-	
-	public function createAsh(UserVO $user, array $input): CharacterVO {
+
+    public function createAsh(UserVO $user, array $input): CharacterVO {
         $data['userId'] = $user->id;
         $data['name'] = "Ash Dragonblade";
         $data['gender'] = "M";
@@ -89,15 +89,15 @@ class CharacterModel extends Model {
         $data['questId'] = 373;
         if($user->upgraded) {
             $data['dragonAmulet'] = 1;
-			$data['bagSlots'] = 50;
+            $data['bagSlots'] = 50;
         }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
 
         return new CharacterVO($char);
     }
-	
-	public function createAlexander(UserVO $user, array $input): CharacterVO {
+
+    public function createAlexander(UserVO $user, array $input): CharacterVO {
         $data['userId'] = $user->id;
         $data['name'] = "Alexander";
         $data['gender'] = "M";
@@ -113,7 +113,7 @@ class CharacterModel extends Model {
         $data['questId'] = 832;
         if($user->upgraded) {
             $data['dragonAmulet'] = 1;
-			$data['bagSlots'] = 50;
+            $data['bagSlots'] = 50;
         }
 
         $char = $this->storage->insert(self::COLLECTION, $data);
@@ -121,7 +121,7 @@ class CharacterModel extends Model {
         return new CharacterVO($char);
     }
 
-	public function addDragon(CharacterVO $char): void {
+    public function addDragon(CharacterVO $char): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'hasDragon' => 1
@@ -180,8 +180,8 @@ class CharacterModel extends Model {
             'skills' => $skillString
         ]);
     }
-	
-	public function setArmorString(CharacterVO $char, int $index, int $value): void {
+
+    public function setArmorString(CharacterVO $char, int $index, int $value): void {
         $armorString = $char->armor;
         $armorString[$index] = \strtoupper(\base_convert((string)$value, 10, 36));
         $this->storage->update(self::COLLECTION, [
@@ -292,21 +292,21 @@ class CharacterModel extends Model {
         return \count($this->storage->select(self::COLLECTION, ['lastTimeSeen' => $times], null));
     }
 
-	public function buyBankSlots(CharacterVO $char, int $slots, int $cost): void {
-		$this->storage->update(self::COLLECTION, [
+    public function buyBankSlots(CharacterVO $char, int $slots, int $cost): void {
+        $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'coins' => $char->coins - $cost,
-			'bankSlots' => $char->bankSlots + $slots
+            'bankSlots' => $char->bankSlots + $slots
         ]);
-	}
+    }
 
-	public function buyBagSlots(CharacterVO $char, int $slots, int $cost): void {
-		$this->storage->update(self::COLLECTION, [
+    public function buyBagSlots(CharacterVO $char, int $slots, int $cost): void {
+        $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'coins' => $char->coins - $cost,
-			'bagSlots' => $char->bagSlots + $slots
+            'bagSlots' => $char->bagSlots + $slots
         ]);
-	}
+    }
 
     public function chargeCoins(CharacterVO $char, int $coins): void {
         $this->storage->update(self::COLLECTION, [
@@ -314,8 +314,8 @@ class CharacterModel extends Model {
             'coins' => $char->coins - $coins
         ]);
     }
-	
-	public function chargeGold(CharacterVO $char, int $gold): void {
+
+    public function chargeGold(CharacterVO $char, int $gold): void {
         $this->storage->update(self::COLLECTION, [
             'id' => $char->id,
             'gold' => $char->gold - $gold
@@ -364,7 +364,7 @@ class CharacterModel extends Model {
             'id' => $char->id,
             'colorTrim' => \dechex($colorTrim),
             'colorBase' => \dechex($colorBase),
-			'gold' => $char->gold - 100
+            'gold' => $char->gold - 100
         ]);
     }
 

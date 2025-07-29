@@ -15,7 +15,7 @@ class DragonController extends Controller {
     #[Inject] private CharacterService $characterService;
     #[Inject] private DragonService $dragonService;
 
-	#[Request(
+    #[Request(
         endpoint: '/cf-dragonhatch.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -24,11 +24,11 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $dragon = $this->dragonService->hatchDragon($char);
-		
-		return DragonProjection::instance()->projectDragon($dragon);
+
+        return DragonProjection::instance()->projectDragon($dragon);
     }
 
-	#[Request(
+    #[Request(
         endpoint: '/cf-dragonfeed.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -37,11 +37,11 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $dragon = $this->dragonService->feedDragon($char, (int)$input->intFoodID);
-		
-		return DragonProjection::instance()->dragonFed($dragon);
+
+        return DragonProjection::instance()->dragonFed($dragon);
     }
 
-	#[Request(
+    #[Request(
         endpoint: '/cf-dragontrain.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -50,11 +50,11 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $dragon = $this->dragonService->trainDragon($char, (int)$input->intDebuff, (int)$input->intBuff, (int)$input->intMelee, (int)$input->intMagic, (int)$input->intHeal);
-		
-		return DragonProjection::instance()->dragonTrained($dragon);
+
+        return DragonProjection::instance()->dragonTrained($dragon);
     }
 
-	#[Request(
+    #[Request(
         endpoint: '/cf-dragonuntrain.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -63,11 +63,11 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $this->dragonService->untrainDragon($char);
-		
-		return DragonProjection::instance()->dragonUntrained($char);
+
+        return DragonProjection::instance()->dragonUntrained($char);
     }
-	
-	#[Request(
+
+    #[Request(
         endpoint: '/cf-dragonelement.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -76,11 +76,11 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $dragon = $this->dragonService->dragonElement($char, (int)$input->intElement);
-		
-		return DragonProjection::instance()->dragonElementChanged($dragon);
+
+        return DragonProjection::instance()->dragonElementChanged($dragon);
     }
-	
-	#[Request(
+
+    #[Request(
         endpoint: '/cf-dragongrow.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -89,11 +89,11 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $dragon = $this->dragonService->growDragon($char);
-		
-		return DragonProjection::instance()->dragonGrown($dragon);
+
+        return DragonProjection::instance()->dragonGrown($dragon);
     }
 
-	#[Request(
+    #[Request(
         endpoint: '/cf-dragoncustomize.asp',
         inputType: Input::NINJA2,
         outputType: Output::XML
@@ -102,7 +102,7 @@ class DragonController extends Controller {
         $char = $this->characterService->auth($input);
 
         $dragon = $this->dragonService->customizeDragon($char, (int)$input->intTails, (int)$input->intHeads, (int)$input->intWings, (int)$input->intColorHorn, (int)$input->intColorEye, (int)$input->intColorWing, (int)$input->intColorSkin, $input->strName);
-		
-		return DragonProjection::instance()->dragonCustomized($dragon);
+
+        return DragonProjection::instance()->dragonCustomized($dragon);
     }
 }

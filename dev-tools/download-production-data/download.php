@@ -97,6 +97,15 @@ $thingsToDownload = [
         "overrideSkipDownloaded" => true,
         "maxRepeatedItems" => 100,
     ],
+    "questRewards" => [
+        "from" => 1,
+        "to" => 2400,
+        "needAuth" => true,
+        "endpoint" => "/cf-questcomplete-Mar2011.asp",
+        "param" => "intQuestID",
+        "overrideSkipDownloaded" => true,
+        "maxRepeatedItems" => 100,
+    ],
 ];
 
 downloadAll([

@@ -61,7 +61,7 @@ class DevController extends Controller {
 </div>
 HTML;
 // create a group with legend with the name of the group and the endpoints
-        
+
         return $output;
     }
 

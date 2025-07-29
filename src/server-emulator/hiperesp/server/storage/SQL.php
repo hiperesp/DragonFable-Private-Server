@@ -49,38 +49,38 @@ abstract class SQL extends Storage {
         $sql = "SELECT * FROM {$prefix}{$collection} WHERE true ";
         foreach($where as $key => $value) {
             if (is_array($value)) {
-				// Handle BETWEEN
-				if (isset($value['BETWEEN']) && is_array($value['BETWEEN']) && count($value['BETWEEN']) === 2) {
-					$sql .= "AND `{$key}` BETWEEN ? AND ? ";
-					$sqlParams[] = $value['BETWEEN'][0];
-					$sqlParams[] = $value['BETWEEN'][1];
-					continue;
-				}
+                // Handle BETWEEN
+                if (isset($value['BETWEEN']) && is_array($value['BETWEEN']) && count($value['BETWEEN']) === 2) {
+                    $sql .= "AND `{$key}` BETWEEN ? AND ? ";
+                    $sqlParams[] = $value['BETWEEN'][0];
+                    $sqlParams[] = $value['BETWEEN'][1];
+                    continue;
+                }
 
-				// Handle other comparisons like ['>' => 10], ['<' => 20], etc.
-				foreach (['>', '<', '>=', '<=', '!='] as $op) {
-					if (isset($value[$op])) {
-						$sql .= "AND `{$key}` {$op} ? ";
-						$sqlParams[] = $value[$op];
-						continue 2; // Skip to next $where key
-					}
-				}
+                // Handle other comparisons like ['>' => 10], ['<' => 20], etc.
+                foreach (['>', '<', '>=', '<=', '!='] as $op) {
+                    if (isset($value[$op])) {
+                        $sql .= "AND `{$key}` {$op} ? ";
+                        $sqlParams[] = $value[$op];
+                        continue 2; // Skip to next $where key
+                    }
+                }
 
-				// Fallback to IN
-				if ($value) {
-					$sql .= "AND `{$key}` IN (";
-					foreach ($value as $v) {
-						$sql .= "?,";
-						$sqlParams[] = $v;
-					}
-					$sql = substr($sql, 0, -1) . ") ";
-				} else {
-					return [];
-				}
-			} else {
-				$sql .= "AND `{$key}` = ? ";
-				$sqlParams[] = $value;
-			}
+                // Fallback to IN
+                if ($value) {
+                    $sql .= "AND `{$key}` IN (";
+                    foreach ($value as $v) {
+                        $sql .= "?,";
+                        $sqlParams[] = $v;
+                    }
+                    $sql = substr($sql, 0, -1) . ") ";
+                } else {
+                    return [];
+                }
+            } else {
+                $sql .= "AND `{$key}` = ? ";
+                $sqlParams[] = $value;
+            }
         }
         if($limit !== null) {
             $sql .= "LIMIT {$limit} ";
