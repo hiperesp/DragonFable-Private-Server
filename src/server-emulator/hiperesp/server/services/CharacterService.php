@@ -329,7 +329,7 @@ class CharacterService extends Service {
         }
 
         $item = $this->itemModel->getById($questMerge['itemId']);
-        $charItem = $this->characterItemModel->removeItemFromChar($char, $item, $questMerge['itemQty']);
+        $charItem = $this->characterItemModel->removeItemFromChar($char, $item, $questMerge['amount']);
         $questMerge['charItemId'] = $charItem->id;
         return $questMerge;
     }
