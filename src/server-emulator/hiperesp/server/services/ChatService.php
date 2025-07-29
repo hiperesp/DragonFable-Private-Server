@@ -219,7 +219,7 @@ class ChatService extends Service {
                     $this->syntaxError($user, $attribute->getUsage($rMethod));
                 }
                 return;
-            } 
+            }
         }
 
         $this->invalidCommand($user);

@@ -131,7 +131,7 @@ function createUri(array $data, array $definition): array {
                 foreach($extra as $extraItem) {
                     if(!\preg_match('/\.swf/', $extraItem)) {
                         continue;
-                    } 
+                    }
                     if(\preg_match('/(?:.+?=)?(.+)/', $extraItem, $matches)) {
                         $toParse[] = $matches[1];
                     } else {

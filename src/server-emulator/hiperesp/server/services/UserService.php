@@ -50,14 +50,14 @@ class UserService extends Service {
     }
 
     public function createChar(UserVO $user, array $input): CharacterVO {
-		if($input['intNPC'] == 1)
-		{
-			return $this->characterModel->createAsh($user, $input);
-		}
-		if($input['intNPC'] == 2)
-		{
-			return $this->characterModel->createAlexander($user, $input);
-		}
+        if($input['intNPC'] == 1)
+        {
+            return $this->characterModel->createAsh($user, $input);
+        }
+        if($input['intNPC'] == 2)
+        {
+            return $this->characterModel->createAlexander($user, $input);
+        }
         return $this->characterModel->create($user, $input); // in case of error, a exception will be thrown
     }
 

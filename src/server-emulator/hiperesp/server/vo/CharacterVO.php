@@ -236,9 +236,9 @@ class CharacterVO extends ValueObject implements Bannable {
     public function getBag(): array {
         return $this->characterItemModel->getByChar($this);
     }
-	
-	public function getDragon(): array {
-		return $this->dragonModel->getByChar($this);
-	}
+
+    public function getDragon(): array {
+        return $this->dragonModel->getByChar($this);
+    }
 
 }

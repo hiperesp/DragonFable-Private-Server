@@ -31,7 +31,7 @@ class DragonFableNinja2 {
     }
     public function encrypt(string $theText): string {
         $encrypted = "";
-        
+
         $textLength = \strlen($theText);
         $keyLength = \strlen($this->key);
 

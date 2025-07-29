@@ -9,21 +9,21 @@ use hiperesp\server\vo\CharacterVO;
 use hiperesp\server\vo\SettingsVO;
 
 class PvpService extends Service {
-	
-	#[Inject] private PvpModel $pvpModel;
+
+    #[Inject] private PvpModel $pvpModel;
     #[Inject] private LogsModel $logsModel;
-	#[Inject] private SettingsVO $settings;
+    #[Inject] private SettingsVO $settings;
 
     public function loadRandom(CharacterVO $char, int $level, int $charId): ?CharacterVO {
-		return $this->pvpModel->loadRandom($char, $level, $charId);
+        return $this->pvpModel->loadRandom($char, $level, $charId);
     }
 
-	public function loadChar(int $charId): ?CharacterVO {
-		return $this->pvpModel->loadChar($charId);
+    public function loadChar(int $charId): ?CharacterVO {
+        return $this->pvpModel->loadChar($charId);
     }
 
-	public function loadDragonRider(CharacterVO $char): ?CharacterVO {
-		return $this->pvpModel->loadDragonRider($char);
+    public function loadDragonRider(CharacterVO $char): ?CharacterVO {
+        return $this->pvpModel->loadDragonRider($char);
     }
 
 }
