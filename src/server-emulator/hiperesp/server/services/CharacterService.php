@@ -316,15 +316,15 @@ class CharacterService extends Service {
     public function mergeQuest(CharacterVO $char, int $mergeId): array {
         $questMerge = $this->questMergeModel->getById($mergeId);
 
-        switch($questMerge['stringType']) {
+        switch($questMerge['type']) {
             case 0:
-                $this->setQuestString($char, $questMerge['stringIndex'], $questMerge['stringValue']);
+                $this->setQuestString($char, $questMerge['index'], $questMerge['value']);
             break;
             case 1:
-                $this->setSkillString($char, $questMerge['stringIndex'], $questMerge['stringValue']);
+                $this->setSkillString($char, $questMerge['index'], $questMerge['value']);
             break;
             case 2:
-                $this->setArmorString($char, $questMerge['stringIndex'], $questMerge['stringValue']);
+                $this->setArmorString($char, $questMerge['index'], $questMerge['value']);
             break;
         }
 
@@ -350,13 +350,21 @@ class CharacterService extends Service {
         if(!$char->dragonAmulet) {
             throw new DFException(DFException::BAD_REQUEST);
         }
-        if($char->gold < 100) {
+        $cost = 100;
+        if($char->gold < $cost) {
             throw $this->logsModel->register(LogsModel::SEVERITY_BLOCKED, 'subtractGold', "Not enough gold.", $char, $char, [
                 'gold' => $char->gold,
-                'cost' => $goldCost
+                'cost' => $cost
             ])->asException(DFException::GOLD_NOT_ENOUGH);
         }
+
         $this->characterModel->changeArmorColor($char, $colorTrim, $colorBase);
+        $this->characterModel->chargeGold($char, $cost);
+
+        $this->logsModel->register(LogsModel::SEVERITY_ALLOWED, 'changeArmorColor', 'Armor color changed', $char, $char, [
+            'colorTrim' => $colorTrim,
+            'colorBase' => $colorBase
+        ]);
     }
 
 }
