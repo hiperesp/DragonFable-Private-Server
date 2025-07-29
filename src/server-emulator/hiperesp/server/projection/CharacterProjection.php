@@ -324,10 +324,10 @@ class CharacterProjection extends Projection {
         $mergeE1 = $xml->addChild('QuestMerge');
         $mergeE1->addAttribute('ItemID', $questMerge['itemId']);
         $mergeE1->addAttribute('CharItemID', $questMerge['charItemId']);
-        $mergeE1->addAttribute('intQty', $questMerge['itemQty']);
-        $mergeE1->addAttribute('intString', $questMerge['stringType']);
-        $mergeE1->addAttribute('intIndex', $questMerge['stringIndex']);
-        $mergeE1->addAttribute('intValue', $questMerge['stringValue']);
+        $mergeE1->addAttribute('intQty', $questMerge['amount']);
+        $mergeE1->addAttribute('intString', $questMerge['type']);
+        $mergeE1->addAttribute('intIndex', $questMerge['index']);
+        $mergeE1->addAttribute('intValue', $questMerge['value']);
 
         return $xml;
     }

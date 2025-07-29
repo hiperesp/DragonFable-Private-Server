@@ -267,9 +267,9 @@ final class Definition {
             "migrateOldData" => false,
             "structure" => [
                 "id"        => [ 'INTEGER', 'PRIMARY_KEY' ],
-                "index"        => [ 'INTEGER', 'DEFAULT' => NULL  ],
-                "value"        => [ 'INTEGER', 'DEFAULT' => NULL  ],
-                "type"        => [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "index"     => [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "value"     => [ 'INTEGER', 'DEFAULT' => NULL  ],
+                "type"      => [ 'INTEGER', 'DEFAULT' => NULL  ],
                 "itemId"    => [ 'INTEGER', 'DEFAULT' => NULL  ],
                 "amount"    => [ 'INTEGER', 'DEFAULT' => NULL  ],
             ],
