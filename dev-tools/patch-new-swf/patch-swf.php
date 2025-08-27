@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 define('OS', 'windows'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_46');
+define('SWF_FILE', 'game15_9_47');
 
 $replaces = [
     # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
