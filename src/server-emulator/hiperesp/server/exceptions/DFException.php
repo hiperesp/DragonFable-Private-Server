@@ -157,7 +157,7 @@ class DFException extends \Exception {
         ],
         self::BAD_REQUEST => [
             "dfReason"  => "Invalid Input!",
-            "dfMessage" => "Message",
+            "dfMessage" => "Invalid Input!",
             "dfAction"  => "none",
         ],
         self::USER_BANNED => [
