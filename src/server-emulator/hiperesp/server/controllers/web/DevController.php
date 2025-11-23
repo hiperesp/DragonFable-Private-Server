@@ -5,30 +5,9 @@ use hiperesp\server\controllers\Controller;
 use hiperesp\server\attributes\Request;
 use hiperesp\server\enums\Input;
 use hiperesp\server\enums\Output;
-use hiperesp\server\storage\Storage;
 use hiperesp\server\util\DragonFableNinja2;
 
 class DevController extends Controller {
-
-    #[Request(
-        endpoint: '/dev/sandbox',
-        inputType: Input::NONE,
-        outputType: Output::RAW
-    )]
-    public function sandbox(): string {
-        return \implode("\n", []);
-    }
-
-    #[Request(
-        endpoint: '/dev/phpinfo',
-        inputType: Input::NONE,
-        outputType: Output::HTML
-    )]
-    public function phpinfo(): string {
-        \ob_start();
-        \phpinfo();
-        return \ob_get_clean();
-    }
 
     #[Request(
         endpoint: '/dev/',
@@ -47,15 +26,6 @@ class DevController extends Controller {
         </form>
         <form action="ninja2encrypt">
             <button>Ninja2 Encrypt</button>
-        </form>
-    </fieldset>
-    <fieldset>
-        <legend>Util</legend>
-        <form action="sandbox">
-            <button>Sandbox</button>
-        </form>
-        <form action="phpinfo">
-            <button>PHP info</button>
         </form>
     </fieldset>
 </div>
