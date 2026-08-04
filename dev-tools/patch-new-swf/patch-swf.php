@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 define('OS', 'windows'); // windows, mac, linux
-define('SWF_FILE', 'game15_9_47');
+define('SWF_FILE', 'game15_9_59');
 
 $replaces = [
     # REPLACE SOME FRONTEND URLS TO DYNAMIC URLS
@@ -138,140 +138,6 @@ $replaces = [
     _root.game.btnChar7.gotoAndPlay("New");
     ACTIONSCRIPT => <<<'ACTIONSCRIPT'
     _root.game.btnChar7.gotoAndStop("Blank");
-    ACTIONSCRIPT,
-
-    # FIX ADVENTURE/NORMAL/DOOMED MODE BUTTONS
-    <<<'ACTIONSCRIPT'
-    toggleDoom = function()
-    {
-       if(_root.game.getDragonAmulet() > 0)
-       {
-          if(_root.battle.isActive != true)
-          {
-             _root.game.bitDifficulty = chkDiffDoom.bitChecked;
-             chkDiffNormal.bitChecked = chkDiffNormal.checkmark._visible = false;
-             _root.game.bitAdventure = chkDiffAdv.bitChecked = chkDiffAdv.checkmark._visible = false;
-             _root.game.saveDiffMusPref();
-          }
-          else
-          {
-             _root.notify3("You cannot change game mode in the middle of a battle.");
-             chkDiffDoom.checkmark._visible = _root.game.bitDifficulty;
-          }
-       }
-       else
-       {
-          _root.notify("A Dragon Amulet is required to access Doomed Mode.");
-          _root.game.bitDifficulty = chkDifficulty.bitChecked = chkDifficulty.checkmark._visible = false;
-       }
-       _root.game.updateDiffIcon();
-    };
-    toggleAdventure = function()
-    {
-       if(_root.game.getDragonAmulet() > 0)
-       {
-          if(_root.battle.isActive != true)
-          {
-             _root.game.bitAdventure = chkDiffAdv.bitChecked;
-             chkDiffNormal.bitChecked = chkDiffNormal.checkmark._visible = false;
-             _root.game.bitDifficulty = chkDiffDoom.bitChecked = chkDiffDoom.checkmark._visible = false;
-             _root.game.saveDiffMusPref();
-          }
-          else
-          {
-             _root.notify3("You cannot change game mode in the middle of a battle.");
-             chkDiffAdv.checkmark._visible = _root.game.bitAdventure;
-          }
-       }
-       else
-       {
-          _root.notify("A Dragon Amulet is required to access Adventure Mode.");
-          _root.game.bitDifficulty = chkDifficulty.bitChecked = chkDifficulty.checkmark._visible = false;
-       }
-       _root.game.updateDiffIcon();
-    };
-    toggleNormal = function()
-    {
-       if(_root.game.getDragonAmulet() > 0)
-       {
-          if(_root.battle.isActive != true)
-          {
-             _root.game.bitDifficulty = chkDiffDoom.bitChecked = chkDiffDoom.checkmark._visible = false;
-             chkDiffNormal.bitChecked = chkDiffNormal.checkmark._visible = true;
-             _root.game.bitAdventure = chkDiffAdv.bitChecked = chkDiffAdv.checkmark._visible = false;
-             _root.game.saveDiffMusPref();
-          }
-          else
-          {
-             _root.notify3("You cannot change game mode in the middle of a battle.");
-             chkDifficulty.checkmark._visible = _root.game.bitDifficulty;
-          }
-       }
-       else
-       {
-          _root.notify("A Dragon Amulet is required to change game mode.");
-       }
-       _root.game.updateDiffIcon();
-    };
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    setMode = function(mode) {
-        var isDoomed = _root.game.bitDifficulty;
-        var isAdventure = _root.game.bitAdventure;
-        var isNormal = !isDoomed && !isAdventure;
-
-        var hasDragonAmulet = _root.game.getDragonAmulet() > 0;
-        var isBattleActive = _root.battle.isActive;
-        var canChangeMode = hasDragonAmulet && !isBattleActive;
-    
-        var toNotify = [];
-        if(canChangeMode) {
-            if(mode === 'doomed') {
-                isDoomed = true;
-                isNormal = false;
-                isAdventure = false;
-            } else if(mode === 'adventure') {
-                isDoomed = false;
-                isNormal = false;
-                isAdventure = true;
-            } else if(mode === 'normal') {
-                isDoomed = false;
-                isNormal = true;
-                isAdventure = false;
-            } else {
-                _root.notify("Invalid game mode.");
-            }
-        }
-    
-        if(!hasDragonAmulet) {
-            _root.notify("A Dragon Amulet is required to change game mode.");
-        }
-        if(isBattleActive) {
-            _root.notify("You cannot change game mode in the middle of a battle.");
-        }
-    
-        _root.game.bitDifficulty = isDoomed;
-        chkDiffDoom.bitChecked = isDoomed;
-        chkDiffDoom.checkmark._visible = isDoomed;
-    
-        chkDiffNormal.bitChecked = isNormal;
-        chkDiffNormal.checkmark._visible = isNormal;
-    
-        _root.game.bitAdventure = isAdventure;
-        chkDiffAdv.bitChecked = isAdventure;
-        chkDiffAdv.checkmark._visible = isAdventure;
-    
-        _root.game.saveDiffMusPref();
-        _root.game.updateDiffIcon();
-    }
-    toggleDoom      = function() {
-        setMode('doomed');
-    }
-    toggleAdventure = function() {
-        setMode('adventure');
-    }
-    toggleNormal    = function() {
-        setMode('normal');
-    }
     ACTIONSCRIPT,
 
     # ADD CUSTOM FEATURES
