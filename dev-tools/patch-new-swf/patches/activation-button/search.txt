@@ -1,0 +1,5 @@
+if(_root.user.intActivationFlag != 1)
+{
+   this._visible = false;
+}
+stop();

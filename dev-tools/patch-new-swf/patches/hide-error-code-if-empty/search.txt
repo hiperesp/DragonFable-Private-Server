@@ -1,0 +1,14 @@
+_root.conn.showConnError = function(strCode, strReason, strMessage, strAction)
+{
+   if(strAction == "continue")
+   {
+      _root.game.mcConn.gotoAndStop("ErrContinue");
+   }
+   else
+   {
+      _root.game.mcConn.gotoAndStop("ErrorCritical");
+   }
+   _root.game.mcConn.strCode = "Error Code: " + strCode;
+   _root.game.mcConn.strReason = strReason;
+   _root.game.mcConn.strMsg = strMessage;
+};

@@ -1,0 +1,1893 @@
+
+function genRaceTraits(thisUnit, unitIx)
+{
+   var _loc11_ = 60;
+   var _loc3_ = new Array();
+   var _loc8_;
+   var _loc9_;
+   switch(_root.util.properCase(thisUnit.ptrObj.strRaceName))
+   {
+      case "Moglin":
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(thisUnit.ptrObj.intMaxHP * 0.05);
+         _loc8_.strName = "Huggable RT" + unitIx;
+         _loc8_.strDetail = "Huggable: Heals 5% max HP each turn";
+         _loc8_.intDuration = 2;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.bitWait = true;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.line = "DOT";
+         _loc8_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:- _loc8_.amt,intMax:- _loc8_.amt,strType:"Melee",strElement:"health"});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 20;
+         _loc8_.strName = "Fluffy RT" + unitIx;
+         _loc8_.strDetail = "Fluffy: +" + _loc8_.amt + " All, -20 Health";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"all",intMax:_loc8_.amt},{strAction:"buffresist",strAffectedStat:"health",intMax:- _loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Infernal":
+         _loc8_ = new Object();
+         _loc8_.amt = 15;
+         _loc8_.strName = "Divine RT" + unitIx;
+         _loc8_.strDetail = "Divine: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = thisUnit.ptrObj.intLevel;
+         _loc8_.strName = "Prismatic RT" + unitIx;
+         _loc8_.strDetail = "Prismatic: +" + _loc8_.amt + " all stats";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intStr",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDex",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intInt",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intLuk",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCha",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intEnd",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intWis",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = _loc11_;
+         _loc8_.strName = "Autonomous RT" + unitIx;
+         _loc8_.strDetail = "Autonomous: +" + _loc8_.amt + " Bonus";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 50;
+         _loc8_.strName = "Focused RT" + unitIx;
+         _loc8_.strDetail = "Focused: +" + _loc8_.amt + " Boost";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 20;
+         _loc8_.strName = "Logical RT" + unitIx;
+         _loc8_.strDetail = "Logical: Heals " + _loc8_.amt + "% of damage dealt";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onAtkHit = function()
+         {
+            if(_root.battle.attacker.objLastAttack.bitHit)
+            {
+               this.ownedBy.healHP(_root.battle.attacker.objLastAttack.intDmg * this.amt * 0.01);
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Celestial":
+         _loc8_ = new Object();
+         _loc8_.amt = 15;
+         _loc8_.strName = "Divine RT" + unitIx;
+         _loc8_.strDetail = "Divine: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = thisUnit.ptrObj.intLevel;
+         _loc8_.strName = "Prismatic RT" + unitIx;
+         _loc8_.strDetail = "Prismatic: +" + _loc8_.amt + " all stats";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intStr",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDex",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intInt",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intLuk",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCha",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intEnd",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intWis",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = _loc11_;
+         _loc8_.strName = "Guiding RT" + unitIx;
+         _loc8_.strDetail = "Guiding: +" + _loc8_.amt + " Bonus";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 50;
+         _loc8_.strName = "Brilliant RT" + unitIx;
+         _loc8_.strDetail = "Brilliant: +" + _loc8_.amt + " Boost";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(thisUnit.ptrObj.intMaxHP * 0.05);
+         _loc8_.strName = "Creative RT" + unitIx;
+         _loc8_.strDetail = "Creative: Heals 5% max HP each turn";
+         _loc8_.intDuration = 2;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.bitWait = true;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.line = "DOT";
+         _loc8_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:- _loc8_.amt,intMax:- _loc8_.amt,strType:"Melee",strElement:"health"});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Dragon":
+         _loc8_ = new Object();
+         _loc8_.amt = 20;
+         _loc8_.strName = "Imbued RT" + unitIx;
+         _loc8_.strDetail = "Imbued: +" + _loc8_.amt + "% all damage reduction, +200 Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:200});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = thisUnit.ptrObj.intLevel * 2;
+         _loc8_.strName = "Primal RT" + unitIx;
+         _loc8_.strDetail = "Primal: +" + _loc8_.amt + " STR/DEX/INT, +50% Crit/Non-Crit/DoT damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intStr",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDex",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intInt",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:0.5},{strAction:"buffstat",strAffectedStat:"intNonCritDmgScale",intMax:0.5},{strAction:"buffstat",strAffectedStat:"intDoTDmgScale",intMax:0.5});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 50;
+         _loc8_.strName = "Fabled RT" + unitIx;
+         _loc8_.strDetail = "Fabled: +" + _loc8_.amt + " Boost/Bonus/Crit, +200 Immobility";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"immobility",intMax:200},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Golem":
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Well-Formed RT" + unitIx;
+         _loc8_.strDetail = "Well-Formed: +" + _loc8_.amt + " All, -25 Health";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"all",intMax:_loc8_.amt},{strAction:"buffresist",strAffectedStat:"health",intMax:- _loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 50;
+         _loc8_.strName = "Uncracked RT" + unitIx;
+         _loc8_.strDetail = "Uncracked: +" + _loc8_.amt + "% DoT damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 200;
+         _loc8_.strName = "Unbreakable RT" + unitIx;
+         _loc8_.strDetail = "Unbreakable:  +25 Boost, +" + _loc8_.amt + " Immobility";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"immobility",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Cell":
+         _loc8_ = new Object();
+         _loc8_.amt = 10;
+         _loc8_.strName = "Endo RT" + unitIx;
+         _loc8_.strDetail = "Endocytosis: Heals " + _loc8_.amt + "% of damage dealt";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onAtkHit = function()
+         {
+            if(_root.battle.attacker.objLastAttack.bitHit)
+            {
+               this.ownedBy.healHP(_root.battle.attacker.objLastAttack.intDmg * this.amt * 0.01);
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.strName = "Exo RT" + unitIx;
+         _loc8_.strDetail = "Exocytosis: Retaliates for 10% base damage when hit and not stunned";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onStruck = function()
+         {
+            var _loc6_;
+            var _loc5_;
+            var _loc3_;
+            var _loc4_;
+            var _loc7_;
+            if(_root.battle.attacker.type != "pet" && _root.battle.attacker.type != "monsterpet" && this.ownedBy.isStunned != true)
+            {
+               _loc6_ = false;
+               for(v in this.ownedBy.arrEffects)
+               {
+                  _loc5_ = this.ownedBy.arrEffects[v];
+                  _loc3_ = 0;
+                  while(_loc3_ < _loc5_.arrAction.length)
+                  {
+                     _loc4_ = _loc5_.arrAction[_loc3_];
+                     if(_loc4_.strAction.toLowerCase() == "stun" || _loc4_.strAction.toLowerCase() == "immobility")
+                     {
+                        _loc6_ = true;
+                     }
+                     _loc3_ = _loc3_ + 1;
+                  }
+               }
+               if(!_loc6_)
+               {
+                  _loc7_ = Math.round(0.1 * _root.util.roll(_root.battle.defender.ptrObj.intDmgMin,_root.battle.defender.ptrObj.intDmgMax));
+                  _root.battle.attacker.healHP(- _loc7_);
+                  if(_root.battle.attacker.ptrObj.intHP <= 0)
+                  {
+                     _root.battle.attacker.isDead = true;
+                     _root.battle.attacker.ptrMC.gotoAndPlay("Dead");
+                     _root.game.script.endScript();
+                  }
+               }
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "???":
+         _loc8_ = new Object();
+         _loc8_.amt = -60;
+         _loc8_.strName = "Misunderstood RT" + unitIx;
+         _loc8_.strDetail = "Misunderstanding: " + _loc8_.amt + " Avoidance/Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -30;
+         _loc8_.strName = "Mistaken RT" + unitIx;
+         _loc8_.strDetail = "Mistaken: " + _loc8_.amt + " Boost/Bonus/Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -25;
+         _loc8_.strName = "Otherwordly RT" + unitIx;
+         _loc8_.strDetail = "???: " + _loc8_.amt + "% Crit/Non-Crit/DoT damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.applyTo = 1;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:-0.25},{strAction:"buffstat",strAffectedStat:"intNonCritDmgScale",intMax:-0.25},{strAction:"buffstat",strAffectedStat:"intDoTDmgScale",intMax:-0.25});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Undead":
+         _loc8_ = new Object();
+         _loc8_.strName = "Cursed RT" + unitIx;
+         _loc8_.strDetail = "Cursed: Retaliates for 10% base damage when hit and not stunned";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onStruck = function()
+         {
+            var _loc6_;
+            var _loc5_;
+            var _loc3_;
+            var _loc4_;
+            var _loc7_;
+            if(_root.battle.attacker.type != "pet" && _root.battle.attacker.type != "monsterpet" && this.ownedBy.isStunned != true)
+            {
+               _loc6_ = false;
+               for(v in this.ownedBy.arrEffects)
+               {
+                  _loc5_ = this.ownedBy.arrEffects[v];
+                  _loc3_ = 0;
+                  while(_loc3_ < _loc5_.arrAction.length)
+                  {
+                     _loc4_ = _loc5_.arrAction[_loc3_];
+                     if(_loc4_.strAction.toLowerCase() == "stun" || _loc4_.strAction.toLowerCase() == "immobility")
+                     {
+                        _loc6_ = true;
+                     }
+                     _loc3_ = _loc3_ + 1;
+                  }
+               }
+               if(!_loc6_)
+               {
+                  _loc7_ = Math.round(0.1 * _root.util.roll(_root.battle.defender.ptrObj.intDmgMin,_root.battle.defender.ptrObj.intDmgMax));
+                  _root.battle.attacker.healHP(- _loc7_);
+                  if(_root.battle.attacker.ptrObj.intHP <= 0)
+                  {
+                     _root.battle.attacker.isDead = true;
+                     _root.battle.attacker.ptrMC.gotoAndPlay("Dead");
+                     _root.game.script.endScript();
+                  }
+               }
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -30;
+         _loc8_.strName = "Terrifying RT" + unitIx;
+         _loc8_.strDetail = "Terrified: " + _loc8_.amt + " Avoidance/Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Spectral RT" + unitIx;
+         _loc8_.strDetail = "Spectral: +" + _loc8_.amt + "% DoT and Non-Crit damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -20;
+         _loc8_.strName = "Spooky RT" + unitIx;
+         _loc8_.strDetail = "Spooked: " + _loc8_.amt + " Boost/Bonus/Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 1;
+         _loc8_.strName = "Reanimating RT" + unitIx;
+         _loc8_.strDetail = "Reanimating: Resists death for " + _loc8_.amt + " final turn";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.triggered = false;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"function"});
+         _loc8_.onTurn = function()
+         {
+            this.ownedBy.ptrObj.canDie = false;
+            if(this.triggered)
+            {
+               this.ownedBy.ptrObj.canDie = true;
+               this.strDetail = "Reanimated: Broken, no longer resisting death";
+            }
+         };
+         _loc8_.onStruck = function()
+         {
+            if(_root.battle.attacker.objLastAttack.intDmg + 1 >= this.ownedBy.ptrObj.intHP)
+            {
+               this.triggered = true;
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Reptilian":
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(thisUnit.ptrObj.intMaxHP * 0.05);
+         _loc8_.strName = "Basking RT" + unitIx;
+         _loc8_.strDetail = "Basking: Heals 5% max HP each turn";
+         _loc8_.intDuration = 2;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.bitWait = true;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.line = "DOT";
+         _loc8_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:- _loc8_.amt,intMax:- _loc8_.amt,strType:"Melee",strElement:"health"});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 100;
+         _loc8_.strName = "Molting RT" + unitIx;
+         _loc8_.strDetail = "Molting: +" + _loc8_.amt + " Immobility";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"immobility",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Scaled RT" + unitIx;
+         _loc8_.strDetail = "Scaled: +" + _loc8_.amt + "% DoT and Crit damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Elusive RT" + unitIx;
+         _loc8_.strDetail = "Elusive: +" + _loc8_.amt + " Avd/Def";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Plant":
+         _loc8_ = new Object();
+         _loc8_.strName = "Thorny RT" + unitIx;
+         _loc8_.strDetail = "Thorny: Retaliates for 10% base damage when hit and not stunned";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onStruck = function()
+         {
+            var _loc6_;
+            var _loc5_;
+            var _loc3_;
+            var _loc4_;
+            var _loc7_;
+            if(_root.battle.attacker.type != "pet" && _root.battle.attacker.type != "monsterpet" && this.ownedBy.isStunned != true)
+            {
+               _loc6_ = false;
+               for(v in this.ownedBy.arrEffects)
+               {
+                  _loc5_ = this.ownedBy.arrEffects[v];
+                  _loc3_ = 0;
+                  while(_loc3_ < _loc5_.arrAction.length)
+                  {
+                     _loc4_ = _loc5_.arrAction[_loc3_];
+                     if(_loc4_.strAction.toLowerCase() == "stun" || _loc4_.strAction.toLowerCase() == "immobility")
+                     {
+                        _loc6_ = true;
+                     }
+                     _loc3_ = _loc3_ + 1;
+                  }
+               }
+               if(!_loc6_)
+               {
+                  _loc7_ = Math.round(0.1 * _root.util.roll(_root.battle.defender.ptrObj.intDmgMin,_root.battle.defender.ptrObj.intDmgMax));
+                  _root.battle.attacker.healHP(- _loc7_);
+                  if(_root.battle.attacker.ptrObj.intHP <= 0)
+                  {
+                     _root.battle.attacker.isDead = true;
+                     _root.battle.attacker.ptrMC.gotoAndPlay("Dead");
+                     _root.game.script.endScript();
+                  }
+               }
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Verdant RT" + unitIx;
+         _loc8_.strDetail = "Verdant: +" + _loc8_.amt + "% direct damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(thisUnit.ptrObj.intMaxHP * 0.05);
+         _loc8_.strName = "Overgrown RT" + unitIx;
+         _loc8_.strDetail = "Overgrown: Heals 5% max HP each turn";
+         _loc8_.intDuration = 2;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.bitWait = true;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.line = "DOT";
+         _loc8_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:- _loc8_.amt,intMax:- _loc8_.amt,strType:"Melee",strElement:"health"});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 10;
+         _loc8_.strName = "Sapping RT" + unitIx;
+         _loc8_.strDetail = "Sapping: Heals " + _loc8_.amt + "% of damage dealt";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onAtkHit = function()
+         {
+            if(_root.battle.attacker.objLastAttack.bitHit)
+            {
+               this.ownedBy.healHP(_root.battle.attacker.objLastAttack.intDmg * this.amt * 0.01);
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Fungus":
+         _loc8_ = new Object();
+         _loc8_.amt = 0.25;
+         _loc8_.strName = "Spored RT" + unitIx;
+         _loc8_.strDetail = "Spored: Applies a 25% base damage DoT for 1 turn on hit";
+         _loc8_.intDuration = 2;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onAtkHit = function()
+         {
+            var _loc5_;
+            var _loc4_;
+            var _loc3_;
+            if(_root.battle.attacker.objLastAttack.bitHit)
+            {
+               _loc5_ = Math.round(this.ownedBy.ptrObj.intDmgMin * this.amt);
+               _loc4_ = Math.round(this.ownedBy.ptrObj.intDmgMax * this.amt);
+               _loc3_ = new Object();
+               _loc3_.strName = "Spored";
+               _loc3_.intDuration = 1;
+               _loc3_.line = "buff";
+               _loc3_.bitWait = true;
+               _loc3_.strDetail = "Spored: " + _loc5_ + "-" + _loc4_ + " damage";
+               _loc3_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:_loc5_,intMax:_loc4_,strType:"Melee",strElement:"poison"});
+               _root.battle.defender.insertEffect(_loc3_);
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -25;
+         _loc8_.strName = "Moldy RT" + unitIx;
+         _loc8_.strDetail = "Molded: " + _loc8_.amt + " Avoidance/Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.strName = "Noxious RT" + unitIx;
+         _loc8_.strDetail = "Noxious: Retaliates for 10% base damage when hit and not stunned";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onStruck = function()
+         {
+            var _loc6_;
+            var _loc5_;
+            var _loc3_;
+            var _loc4_;
+            var _loc7_;
+            if(_root.battle.attacker.type != "pet" && _root.battle.attacker.type != "monsterpet" && this.ownedBy.isStunned != true)
+            {
+               _loc6_ = false;
+               for(v in this.ownedBy.arrEffects)
+               {
+                  _loc5_ = this.ownedBy.arrEffects[v];
+                  _loc3_ = 0;
+                  while(_loc3_ < _loc5_.arrAction.length)
+                  {
+                     _loc4_ = _loc5_.arrAction[_loc3_];
+                     if(_loc4_.strAction.toLowerCase() == "stun" || _loc4_.strAction.toLowerCase() == "immobility")
+                     {
+                        _loc6_ = true;
+                     }
+                     _loc3_ = _loc3_ + 1;
+                  }
+               }
+               if(!_loc6_)
+               {
+                  _loc7_ = Math.round(0.1 * _root.util.roll(_root.battle.defender.ptrObj.intDmgMin,_root.battle.defender.ptrObj.intDmgMax));
+                  _root.battle.attacker.healHP(- _loc7_);
+                  if(_root.battle.attacker.ptrObj.intHP <= 0)
+                  {
+                     _root.battle.attacker.isDead = true;
+                     _root.battle.attacker.ptrMC.gotoAndPlay("Dead");
+                     _root.game.script.endScript();
+                  }
+               }
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Food":
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(thisUnit.ptrObj.intMaxHP * 0.05);
+         _loc8_.strName = "Snacking RT" + unitIx;
+         _loc8_.strDetail = "Snacking: Heals 5% max HP each turn";
+         _loc8_.intDuration = 2;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.bitWait = true;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.line = "DOT";
+         _loc8_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:- _loc8_.amt,intMax:- _loc8_.amt,strType:"Melee",strElement:"health"});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -25;
+         _loc8_.strName = "Gross RT" + unitIx;
+         _loc8_.strDetail = "Grossed Out: " + _loc8_.amt + " Avoidance/Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 10;
+         _loc8_.strName = "Organic RT" + unitIx;
+         _loc8_.strDetail = "Organic: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 0.25;
+         _loc8_.strName = "Expired RT" + unitIx;
+         _loc8_.strDetail = "Expired: Applies a 25% base damage DoT for 1 turn on hit";
+         _loc8_.intDuration = 2;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onAtkHit = function()
+         {
+            var _loc5_;
+            var _loc4_;
+            var _loc3_;
+            if(_root.battle.attacker.objLastAttack.bitHit)
+            {
+               _loc5_ = Math.round(this.ownedBy.ptrObj.intDmgMin * this.amt);
+               _loc4_ = Math.round(this.ownedBy.ptrObj.intDmgMax * this.amt);
+               _loc3_ = new Object();
+               _loc3_.strName = "Expired Food";
+               _loc3_.intDuration = 1;
+               _loc3_.line = "buff";
+               _loc3_.bitWait = true;
+               _loc3_.strDetail = "Expired Food: " + _loc5_ + "-" + _loc4_ + " damage";
+               _loc3_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:_loc5_,intMax:_loc4_,strType:"Melee",strElement:"poison"});
+               _root.battle.defender.insertEffect(_loc3_);
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Fairy":
+         _loc8_ = new Object();
+         _loc8_.amt = _loc11_;
+         _loc8_.strName = "Swift RT" + unitIx;
+         _loc8_.strDetail = "Swift: +" + _loc8_.amt + " Avoidance";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -25;
+         _loc8_.strName = "Mischievous RT" + unitIx;
+         _loc8_.strDetail = "Pranked: " + _loc8_.amt + " Boost/Bonus, -50 Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:-50});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Elusive RT" + unitIx;
+         _loc8_.strDetail = "Elusive: +" + _loc8_.amt + " Avd/Def";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Clockwork":
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Reinforced RT" + unitIx;
+         _loc8_.strDetail = "Reinforced: +" + _loc8_.amt + "% Non-Crit and DoT damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 5;
+         _loc8_.strName = "Sparking RT" + unitIx;
+         _loc8_.strDetail = "Sparking: Reflect " + _loc8_.amt + "% direct damage to MP when not stunned";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onStruck = function()
+         {
+            var _loc6_;
+            var _loc5_;
+            var _loc3_;
+            var _loc4_;
+            var _loc7_;
+            if(_root.battle.attacker.type != "pet" && _root.battle.attacker.type != "monsterpet")
+            {
+               _loc6_ = false;
+               for(v in this.ownedBy.arrEffects)
+               {
+                  _loc5_ = this.ownedBy.arrEffects[v];
+                  _loc3_ = 0;
+                  while(_loc3_ < _loc5_.arrAction.length)
+                  {
+                     _loc4_ = _loc5_.arrAction[_loc3_];
+                     if(_loc4_.strAction.toLowerCase() == "stun" || _loc4_.strAction.toLowerCase() == "immobility")
+                     {
+                        _loc6_ = true;
+                     }
+                     _loc3_ = _loc3_ + 1;
+                  }
+               }
+               if(!_loc6_)
+               {
+                  _loc7_ = Math.round(0.05 * _root.battle.attacker.objLastAttack.intDmg);
+                  _root.battle.attacker.healMP(- _loc7_,false);
+               }
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(_loc11_);
+         _loc8_.strName = "Shiny RT" + unitIx;
+         _loc8_.strDetail = "Shiny: +" + _loc8_.amt + " Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 15;
+         _loc8_.strName = "Armored RT" + unitIx;
+         _loc8_.strDetail = "Armored: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Bug":
+         _loc8_ = new Object();
+         _loc8_.amt = 0.25;
+         _loc8_.strName = "Stinging RT" + unitIx;
+         _loc8_.strDetail = "Stinging: Applies a 25% base damage DoT for 1 turn on hit";
+         _loc8_.intDuration = 2;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:0});
+         _loc8_.onAtkHit = function()
+         {
+            var _loc5_;
+            var _loc4_;
+            var _loc3_;
+            if(_root.battle.attacker.objLastAttack.bitHit)
+            {
+               _loc5_ = Math.round(this.ownedBy.ptrObj.intDmgMin * this.amt);
+               _loc4_ = Math.round(this.ownedBy.ptrObj.intDmgMax * this.amt);
+               _loc3_ = new Object();
+               _loc3_.strName = "Bug Sting";
+               _loc3_.intDuration = 1;
+               _loc3_.line = "buff";
+               _loc3_.bitWait = true;
+               _loc3_.strDetail = "Bug Sting: " + _loc5_ + "-" + _loc4_ + " damage";
+               _loc3_.arrAction = new Array({strAction:"changestat",strAffectedStat:"intHP",intMin:_loc5_,intMax:_loc4_,strType:"Melee",strElement:"poison"});
+               _root.battle.defender.insertEffect(_loc3_);
+            }
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Chitinous RT" + unitIx;
+         _loc8_.strDetail = "Chitinous: +" + _loc8_.amt + "% DoT and Crit damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -25;
+         _loc8_.strName = "Gross RT" + unitIx;
+         _loc8_.strDetail = "Grossed Out: " + _loc8_.amt + " Avoidance/Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = -20;
+         _loc8_.strName = "Annoying RT" + unitIx;
+         _loc8_.strDetail = "Annoyed: " + _loc8_.amt + " Boost/Bonus/Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 1;
+         _loc8_.bitRemoveOnDeath = true;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Beast":
+         _loc8_ = new Object();
+         _loc8_.amt = 0;
+         _loc8_.strName = "Feral RT" + unitIx;
+         _loc8_.strDetail = "Feral: +" + _loc8_.amt + " Boost, +2 per missing HP%";
+         _loc8_.intDuration = 2;
+         _loc8_.ownedBy = thisUnit;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"function"},{strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt});
+         _loc8_.onTurn = function()
+         {
+            this.amt = 2 * Math.round(100 - this.ownedBy.getHPpercent());
+            this.strDetail = "Feral: +" + this.amt + " Boost, +2 per missing HP%";
+            this.arrAction[1] = {strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:this.amt};
+         };
+         _loc8_.onDoT = function()
+         {
+            this.onTurn();
+         };
+         _loc8_.onAtkHit = function()
+         {
+            this.onTurn();
+         };
+         _loc8_.onHeal = function()
+         {
+            this.onTurn();
+         };
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Starving RT" + unitIx;
+         _loc8_.strDetail = "Starving: +" + _loc8_.amt + " Boost/Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 15;
+         _loc8_.strName = "Grizzled RT" + unitIx;
+         _loc8_.strDetail = "Grizzled: +" + _loc8_.amt + "% direct damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Avian":
+         _loc8_ = new Object();
+         _loc8_.amt = _loc11_;
+         _loc8_.strName = "Keen-Eyed RT" + unitIx;
+         _loc8_.strDetail = "Keen-Eyed: +" + _loc8_.amt + " Bonus";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = _loc11_;
+         _loc8_.strName = "Swift RT" + unitIx;
+         _loc8_.strDetail = "Swift: +" + _loc8_.amt + " Avoidance";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(_loc11_ * 1.5);
+         _loc8_.strName = "Migratory RT" + unitIx;
+         _loc8_.strDetail = "Migratory: +" + _loc8_.amt + " Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Ateala":
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Song-Kept RT" + unitIx;
+         _loc8_.strDetail = "Song-Kept: +" + _loc8_.amt + "% Crit/Non-Crit/DoT damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:0.3},{strAction:"buffstat",strAffectedStat:"intNonCritDmgScale",intMax:0.3},{strAction:"buffstat",strAffectedStat:"intDoTDmgScale",intMax:0.3});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Melodic RT" + unitIx;
+         _loc8_.strDetail = "Melodic: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Goblinkind":
+         _loc8_ = new Object();
+         _loc8_.amt = 15;
+         _loc8_.strName = "Crafty RT" + unitIx;
+         _loc8_.strDetail = "Crafty: +" + _loc8_.amt + " Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 20;
+         _loc8_.strName = "Brutish RT" + unitIx;
+         _loc8_.strDetail = "Brutish: +" + _loc8_.amt + "% Non-Crit damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intNonCritDmgScale",intMax:0.2});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Nasty RT" + unitIx;
+         _loc8_.strDetail = "Nasty: +" + _loc8_.amt + "% Crit damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:0.25});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 10;
+         _loc8_.strName = "Short RT" + unitIx;
+         _loc8_.strDetail = "Short: +" + _loc8_.amt + " Bonus/Avd/Def";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Sneaky RT" + unitIx;
+         _loc8_.strDetail = "Sneaky: +" + _loc8_.amt + " Avoidance";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Elemental":
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Pure RT" + unitIx;
+         _loc8_.strDetail = "Pure: +" + _loc8_.amt + " Boost";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 50;
+         _loc8_.strName = "Impure RT" + unitIx;
+         _loc8_.strDetail = "Impure: +" + _loc8_.amt + " Crit";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 15;
+         _loc8_.strName = "Stable RT" + unitIx;
+         _loc8_.strDetail = "Stable: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 25;
+         _loc8_.strName = "Unstable RT" + unitIx;
+         _loc8_.strDetail = "Unstable: +" + _loc8_.amt + "% Crit/Non-Crit/DoT damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:0.25},{strAction:"buffstat",strAffectedStat:"intNonCritDmgScale",intMax:0.25},{strAction:"buffstat",strAffectedStat:"intDoTDmgScale",intMax:0.25});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      case "Human":
+      case "Dwarf":
+      case "Elf":
+      case "Giantkind":
+      case "Gnome":
+         _loc8_ = new Object();
+         _loc8_.amt = Math.round(_loc11_ / 4);
+         _loc8_.strName = "Experienced RT" + unitIx;
+         _loc8_.strDetail = "Experienced: +" + _loc8_.amt + " Boost/Bonus/Crit/Avd/Def";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 10;
+         _loc8_.strName = "Resourceful RT" + unitIx;
+         _loc8_.strDetail = "Resourceful: +" + _loc8_.amt + "% all damage reduction";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 40;
+         _loc8_.strName = "Dapper RT" + unitIx;
+         _loc8_.strDetail = "Dapper: +" + _loc8_.amt + " Defenses";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 20;
+         _loc8_.strName = "Valiant RT" + unitIx;
+         _loc8_.strDetail = "Valiant: +" + _loc8_.amt + "% Crit/Non-Crit/DoT damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:0.2},{strAction:"buffstat",strAffectedStat:"intNonCritDmgScale",intMax:0.2},{strAction:"buffstat",strAffectedStat:"intDoTDmgScale",intMax:0.2});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = thisUnit.ptrObj.intLevel * 2;
+         _loc8_.strName = "Trained RT" + unitIx;
+         _loc8_.strDetail = "Trained: +" + _loc8_.amt + " STR/DEX/INT";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intStr",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDex",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intInt",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 100;
+         _loc8_.strName = "Mystical RT" + unitIx;
+         _loc8_.strDetail = "Mystical: +" + _loc8_.amt + "% Crit damage";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritDmgScale",intMax:1});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         _loc8_ = new Object();
+         _loc8_.amt = 30;
+         _loc8_.strName = "Elusive RT" + unitIx;
+         _loc8_.strDetail = "Elusive: +" + _loc8_.amt + " Avd/Def";
+         _loc8_.intDuration = 2;
+         _loc8_.line = "buff";
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            _loc3_.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+         break;
+      default:
+         _loc8_ = new Object();
+         _loc8_.amt = 0;
+         _loc8_.strName = " ET" + unitIx;
+         _loc8_.strDetail = "Normal: Perfectly normal";
+         _loc8_.intDuration = 2;
+         _loc8_.applyTo = 0;
+         _loc8_.wt = 1;
+         _loc8_.bitWait = true;
+         _loc8_.extraInfo = "HMFX";
+         _loc8_.line = "buff";
+         _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+         _loc9_ = 0;
+         while(_loc9_ < _loc8_.wt)
+         {
+            eleTraits.push(_loc8_);
+            _loc9_ = _loc9_ + 1;
+         }
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 0;
+   _loc8_.strName = "Berserking RT" + unitIx;
+   _loc8_.strDetail = "Berserking: +" + _loc8_.amt + " Boost, +1 per missing 2% HP";
+   _loc8_.intDuration = 2;
+   _loc8_.ownedBy = thisUnit;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"function"},{strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:_loc8_.amt});
+   _loc8_.onTurn = function()
+   {
+      this.amt = Math.round((100 - this.ownedBy.getHPpercent()) / 2);
+      this.strDetail = "Berserking: +" + this.amt + " Boost, +1 per missing 2% HP";
+      this.arrAction[1] = {strAction:"buffstat",strAffectedStat:"intPowerBoost",intMax:this.amt};
+   };
+   _loc8_.onDoT = function()
+   {
+      this.onTurn();
+   };
+   _loc8_.onAtkHit = function()
+   {
+      this.onTurn();
+   };
+   _loc8_.onHeal = function()
+   {
+      this.onTurn();
+   };
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 0;
+   _loc8_.strName = "Angry RT" + unitIx;
+   _loc8_.strDetail = "Angry: +" + _loc8_.amt + " Crit, +1 per missing 1% HP";
+   _loc8_.intDuration = 2;
+   _loc8_.ownedBy = thisUnit;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"function"},{strAction:"buffstat",strAffectedStat:"intCrit",intMax:_loc8_.amt});
+   _loc8_.onTurn = function()
+   {
+      this.amt = Math.round(100 - this.ownedBy.getHPpercent());
+      this.strDetail = "Angry: +" + this.amt + " Crit, +1 per missing 1% HP";
+      this.arrAction[1] = {strAction:"buffstat",strAffectedStat:"intCrit",intMax:this.amt};
+   };
+   _loc8_.onDoT = function()
+   {
+      this.onTurn();
+   };
+   _loc8_.onAtkHit = function()
+   {
+      this.onTurn();
+   };
+   _loc8_.onHeal = function()
+   {
+      this.onTurn();
+   };
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 0;
+   _loc8_.strName = "Furious RT" + unitIx;
+   _loc8_.strDetail = "Furious: +" + _loc8_.amt + " Bonus, +1 per missing 2% HP";
+   _loc8_.intDuration = 2;
+   _loc8_.ownedBy = thisUnit;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"function"},{strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt * 1});
+   _loc8_.onTurn = function()
+   {
+      this.amt = Math.round((100 - this.ownedBy.getHPpercent()) / 2);
+      this.strDetail = "Furious: +" + this.amt + " Bonus, +1 per missing 2% HP";
+      this.arrAction[1] = {strAction:"buffstat",strAffectedStat:"intBonus",intMax:this.amt * 1};
+   };
+   _loc8_.onDoT = function()
+   {
+      this.onTurn();
+   };
+   _loc8_.onAtkHit = function()
+   {
+      this.onTurn();
+   };
+   _loc8_.onHeal = function()
+   {
+      this.onTurn();
+   };
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = -25;
+   _loc8_.strName = "Distracting RT" + unitIx;
+   _loc8_.strDetail = "Distracted: " + _loc8_.amt + " Immobility";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 1;
+   _loc8_.bitRemoveOnDeath = true;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"immobility",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = Math.round(_loc11_ / 2);
+   _loc8_.strName = "Fast RT" + unitIx;
+   _loc8_.strDetail = "Fast: +" + _loc8_.amt + " Avoidance";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = Math.round(_loc11_ / 2);
+   _loc8_.strName = "Tough RT" + unitIx;
+   _loc8_.strDetail = "Tough: +" + _loc8_.amt + " Defenses";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 30;
+   _loc8_.strName = "Vigilant RT" + unitIx;
+   _loc8_.strDetail = "Vigilant: +" + _loc8_.amt + " Bonus";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 50;
+   _loc8_.strName = "Fearless RT" + unitIx;
+   _loc8_.strDetail = "Fearless: +" + _loc8_.amt + " Immobility resist";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffresist",strAffectedStat:"immobility",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = Math.round(_loc11_ / -3);
+   _loc8_.strName = "Menacing RT" + unitIx;
+   _loc8_.strDetail = "Menaced: " + _loc8_.amt + " Avoidance/Defenses";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 1;
+   _loc8_.bitRemoveOnDeath = true;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBlock",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intParry",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDodge",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMelee",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefMagic",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDefPierce",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 0;
+   _loc8_.strName = "Fierce RT" + unitIx;
+   _loc8_.strDetail = "Fierce: +20% base damage";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.extraInfo = "HMFX";
+   _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intBonus",intMax:_loc8_.amt});
+   _loc9_ = 0;
+   while(_loc9_ < _loc8_.wt)
+   {
+      _loc3_.push(_loc8_);
+      _loc9_ = _loc9_ + 1;
+   }
+   _loc8_ = new Object();
+   _loc8_.amt = 100;
+   _loc8_.strName = "Pristine RT" + unitIx;
+   _loc8_.strDetail = "Pristine: +" + _loc8_.amt + " all damage reduction for the first turn";
+   _loc8_.intDuration = 2;
+   _loc8_.line = "buff";
+   _loc8_.applyTo = 0;
+   _loc8_.wt = 1;
+   _loc8_.arrAction = new Array({strAction:"buffstat",strAffectedStat:"intCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intNonCritResistPercent",intMax:_loc8_.amt},{strAction:"buffstat",strAffectedStat:"intDoTResistPercent",intMax:_loc8_.amt});
+   if(unitIx > 4)
+   {
+      _loc9_ = 0;
+      while(_loc9_ < _loc8_.wt)
+      {
+         _loc3_.push(_loc8_);
+         _loc9_ = _loc9_ + 1;
+      }
+   }
+   var _loc13_ = _root.util.roll(0,_loc3_.length - 1);
+   var _loc14_ = thisUnit;
+   if(_loc3_[_loc13_].applyTo == 1)
+   {
+      _loc14_ = _root.game.Units.arrUnits[0];
+   }
+   var _loc15_ = _loc3_[_loc13_].strName.indexOf(" RT");
+   var _loc18_;
+   if(_loc15_ > -1)
+   {
+      _loc18_ = _loc3_[_loc13_].strName.substr(0,_loc15_);
+   }
+   thisUnit.ptrObj.namePrefix = thisUnit.ptrObj.namePrefix + _loc18_ + " ";
+   var _loc20_ = _loc14_.insertEffect(_loc3_[_loc13_]);
+   if(_loc3_[_loc13_].bitWait != true)
+   {
+      _loc14_.turnEffect(_loc20_);
+   }
+}

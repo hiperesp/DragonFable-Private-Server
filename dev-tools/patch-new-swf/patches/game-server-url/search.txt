@@ -1,0 +1,14 @@
+_root.conn = new Object();
+if(_url.indexOf("file://") == -1)
+{
+   _root.conn.url = "";
+}
+else
+{
+   _root.conn.url = "https://dragonfable.battleon.com/game/";
+}
+if(_root.onfacebook != undefined)
+{
+   _root.conn.url = "https://dragonfable.battleon.com/game/";
+}
+_root.conn.login = function(strUsername, strPassword)

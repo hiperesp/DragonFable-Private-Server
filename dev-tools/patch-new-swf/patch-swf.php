@@ -17,137 +17,36 @@ $replaces = [
     # REPLACE BUILD VERSION TO DYNAMIC VERSION STRING
     "var strBuild = " => "var strBuild = _root.core.gameVersion; //",
 
-    # REPLACE GAME SERVER URL
-    <<<'ACTIONSCRIPT'
-    _root.conn = new Object();
-    if(_url.indexOf("file://") == -1)
-    {
-       _root.conn.url = "";
-    }
-    else
-    {
-       _root.conn.url = "https://dragonfable.battleon.com/game/";
-    }
-    if(_root.onfacebook != undefined)
-    {
-       _root.conn.url = "https://dragonfable.battleon.com/game/";
-    }
-    _root.conn.login = function(strUsername, strPassword)
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    _root.conn = new Object();
-    _root.conn.url = _root.core.server;
-    _root.conn.login = function(strUsername, strPassword)
-    ACTIONSCRIPT,
-
-    # FIX "UNDEFINED" STRINGS IN ACTIONS TOOLTIPS
-    <<<'ACTIONSCRIPT'
-    function formatTTText(strText)
-    {
-       var _loc4_ = "";
-       var _loc3_ = false;
-       var _loc2_ = strText.split("");
-       var _loc1_ = 0;
-       while(_loc1_ <= _loc2_.length)
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    function formatTTText(strText)
-    {
-       var _loc4_ = "";
-       var _loc3_ = false;
-       var _loc2_ = strText.split("");
-       var _loc1_ = 0;
-       while(_loc1_ < _loc2_.length)
-    ACTIONSCRIPT,
-
-    # ADD ACTION WHEN CLICKING ON ACTIVATION BUTTON (IF USER IS NOT ACTIVATED)
-    <<<'ACTIONSCRIPT'
-    if(_root.user.intActivationFlag != 1)
-    {
-       this._visible = false;
-    }
-    stop();
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    if(_root.user.intActivationFlag != 1)
-    {
-       this._visible = false;
-    }
-    this.onRelease = function() {
-       var result = new LoadVars();
-       result.onLoad = function(success) {
-          if(success) {
-             traced("[Received]: " + result);
-             _root.conn.showConnError("10.10", result.title, result.description, result.gameAction);
-          } else {
-             _root.conn.showConnError("10.10","Failed to start activation","We're experiencing technical difficulties, and your activation could not be processed at this time. Please try again later. If the issue persists, contact support for assistance.","none");
-          }
-       };
-       result.onhttpStatus = function(httpStatus) {};
-    
-       var params = new LoadVars();
-       params.strToken = _root.user.strToken;
-       _root.conn.showConn("Starting activation...");
-       params.sendAndLoad(_root.conn.url + "custom/activate-account",result,"POST");
-    };
-    stop();
-    ACTIONSCRIPT,
-
-    # HIDE ERROR CODE IF EMPTY
-    <<<'ACTIONSCRIPT'
-    _root.conn.showConnError = function(strCode, strReason, strMessage, strAction)
-    {
-       if(strAction == "continue")
-       {
-          _root.game.mcConn.gotoAndStop("ErrContinue");
-       }
-       else
-       {
-          _root.game.mcConn.gotoAndStop("ErrorCritical");
-       }
-       _root.game.mcConn.strCode = "Error Code: " + strCode;
-       _root.game.mcConn.strReason = strReason;
-       _root.game.mcConn.strMsg = strMessage;
-    };
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    _root.conn.showConnError = function(strCode, strReason, strMessage, strAction)
-    {
-       if(strAction == "continue")
-       {
-          _root.game.mcConn.gotoAndStop("ErrContinue");
-       }
-       else
-       {
-          _root.game.mcConn.gotoAndStop("ErrorCritical");
-       }
-       if(strCode != "") {
-          _root.game.mcConn.strCode = "Error Code: " + strCode;
-       }
-       _root.game.mcConn.strCode = "";
-       _root.game.mcConn.strReason = strReason;
-       _root.game.mcConn.strMsg = strMessage;
-    };
-    ACTIONSCRIPT,
-
-    # HIDE FIRST "SPECIAL CHARACTER SLOT" BUTTON IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ASH"
-    <<<'ACTIONSCRIPT'
-    _root.game.btnChar6.gotoAndPlay("New");
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    _root.game.btnChar6.gotoAndStop("Blank");
-    ACTIONSCRIPT,
-
-    # HIDE SECOND "SPECIAL CHARACTER SLOT" BUTTON IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ALEX"
-    <<<'ACTIONSCRIPT'
-    _root.game.btnChar7.gotoAndPlay("New");
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    _root.game.btnChar7.gotoAndStop("Blank");
-    ACTIONSCRIPT,
-
-    # ADD CUSTOM FEATURES
-    <<<'ACTIONSCRIPT'
-    _root.game.gotoAndPlay("CharList");
-    ACTIONSCRIPT => <<<'ACTIONSCRIPT'
-    _root.game.gotoAndPlay("CharList");
-    flash.external.ExternalInterface.call("hiperesp.dfps.externalInterface.logged", _root.user);
-    ACTIONSCRIPT,
+    # HIDE "SPECIAL CHARACTER SLOT" BUTTONS IF USER DOESN'T HAVE THE SPECIAL CHARACTER "ASH"
+    '_root.game.btnChar6.gotoAndPlay("New");' => '_root.game.btnChar6.gotoAndStop("Blank");',
+    '_root.game.btnChar7.gotoAndPlay("New");' => '_root.game.btnChar7.gotoAndStop("Blank");',
 ];
+
+$complexReplaces = [
+    "big-switch-statement-1",
+    "game-server-url",
+    "undefined-strings-in-actions-tooltips",
+    "activation-button",
+    "hide-error-code-if-empty",
+    "external-feature-chat",
+];
+
+// add complex replaces to the replaces array
+foreach($complexReplaces as $complexReplace) {
+    $folder = __DIR__."/patches/{$complexReplace}";
+    $searchFile = "{$folder}/search.txt";
+    $replaceFile = "{$folder}/replace.txt";
+
+    if(!\is_file($searchFile) || !\is_file($replaceFile)) {
+        echo "Missing search or replace file for complex replace: {$complexReplace}\n";
+        die;
+    }
+
+    $search = \file_get_contents($searchFile);
+    $replace = \file_get_contents($replaceFile);
+
+    $replaces[$search] = $replace;
+}
 
 $chainedAssignmentsReplaces = [];
 
