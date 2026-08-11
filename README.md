@@ -6,7 +6,7 @@ This project allows you to run a private server for DragonFable with customizabl
 
 ## ⚠️ Important Notice
 
-This project is not currently expected to receive further updates. It remains public for anyone who wishes to study, reuse, or adapt it, and future changes are possible but not planned at this time.
+This project is developed intermittently in my spare time. Whenever I have more time available, I return to the project and work on improvements and new features.
 
 However, the community continues to maintain active forks — such as:
 
