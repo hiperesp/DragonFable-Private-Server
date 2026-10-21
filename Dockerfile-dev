@@ -1,4 +1,4 @@
-FROM php:8.4.6-apache AS base
+FROM php:8.4.27-apache AS base
 
 RUN a2enmod rewrite headers
 RUN docker-php-ext-install pdo_mysql
